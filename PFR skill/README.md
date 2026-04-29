@@ -8,12 +8,14 @@ The main direction is **automatic (AI-assisted) screening** so every PFR Feature
 
 - **Gate enforcement location:** Azure DevOps (Feature on the Product First Requests board).  
 - **Concept and rules:** `pfr_problem2_capability_knowledge_gap.md`  
-- **How Cursor agents should run the check:** project skill **`.cursor/skills/pfr-ai-capability-check/SKILL.md`**
+- **How Cursor agents should run the check:** project skill **`.cursor/skills/pfr-ai-capability-check/SKILL.md`**  
+- **Output contract (JSON + Markdown):** `pfr_ai_capability_check_output_format.md`
 
 ## Other files in this folder
 
 | File | Role |
 |------|------|
+| `pfr_ai_capability_check_output_format.md` | **JSON Schema + Markdown** for AI capability check results (best-practice aligned). |
 | `wiki_investigation_product_first_request.md` | Wiki process summary (MediaWiki). |
 | `ado_pfr_sample_40_analysis.md` | Sample ADO analysis (40 Features). |
 | `.gitkeep` | Keeps empty paths in git if needed. |

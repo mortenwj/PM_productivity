@@ -27,6 +27,7 @@ This skill is **not** a substitute for PM or architecture sign-off. It **acceler
 | Artifact | Path |
 |----------|------|
 | Gate definition and DevOps enforcement | `PFR skill/pfr_problem2_capability_knowledge_gap.md` |
+| **Output format (JSON Schema + Markdown)** | `PFR skill/pfr_ai_capability_check_output_format.md` |
 | Wiki process summary | `PFR skill/wiki_investigation_product_first_request.md` |
 | PFR field patterns (sample) | `PFR skill/ado_pfr_sample_40_analysis.md` |
 | Longer wiki extract (if present) | `reference/mediawiki_extract.md` |
@@ -56,23 +57,7 @@ This skill is **not** a substitute for PM or architecture sign-off. It **acceler
    Assign **High / Medium / Low** with one sentence. **Low** must default to recommending **human** (solution consultant, TC, or PM from Product teams) before any “close as duplicate of standard” recommendation.
 
 6. **Output (always)**  
-   Produce two parts:
-
-   **A. Paste-ready block for Azure DevOps Description** (HTML or markdown acceptable; match what the team uses elsewhere):
-
-   ```text
-   ## Standard capability check (AI-assisted)
-
-   **Outcome:** …
-   **Evidence:** … (wiki page titles as [[Page]] or full URLs if external only)
-   **Checked by:** AI-assisted draft (Cursor) — human confirmation required
-   **Date:** YYYY-MM-DD
-
-   **Rationale (short):** …
-   **Confidence:** High | Medium | Low
-   ```
-
-   **B. Structured JSON** (for scripts or dashboards later), e.g. `{ "workItemId", "outcome", "confidence", "evidenceLinks", "needsHumanConfirmation", "notes" }`.
+   Follow **`PFR skill/pfr_ai_capability_check_output_format.md`**: emit **(B) JSON** validating against the documented schema (enums, `claims`, `evidence`, `unknowns`, `limitations`, `human_review_required`), then **(A) Markdown** for the DevOps Description generated **from that JSON** so the human view and machine artifact stay aligned.
 
 7. **Safety and honesty**  
    - Do **not** fabricate version numbers, toggles, or undocumented APIs.  
