@@ -19,7 +19,7 @@ This skill is **not** a substitute for PM or architecture sign-off. It **acceler
 
 ## Normative output (always use this)
 
-**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run, and **`PFR skill/pfr_evidence_sources_credibility.md`** when assigning **`credibility_tier`** (T1–T4) to each `source_ref` and when mapping tiers to `claims[].support` and overall `confidence`. **T1 is canonical product *source code*** (ground truth); official wiki and release notes are **T2** unless the credibility doc specifies otherwise. Prefer **`kind`: `source_code`** with path and commit or tag in `title`, `url`, or `excerpt` when citing implementation. Do not invent an alternate JSON shape or a free-form-only answer. Use **`schema_version` `1.2.1`** in emitted JSON.
+**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run, **`PFR skill/pfr_evidence_sources_credibility.md`** for **T1–T4**, and **`PFR skill/pfr_evidence_retrieval_cost_strategy.md`** for **staged retrieval and search budgets** (do **not** run unbounded whole-repo code search by default). **T1 is canonical product *source code*** (ground truth); official wiki and release notes are **T2** unless the credibility doc specifies otherwise. Prefer **`kind`: `source_code`** with path and commit or tag in `title`, `url`, or `excerpt` when citing implementation. Do not invent an alternate JSON shape or a free-form-only answer. Use **`schema_version` `1.2.1`** in emitted JSON.
 
 Deliverables, in order:
 
@@ -49,6 +49,7 @@ Optional: attach the JSON file to the work item for audit, as described in the f
 | Gate definition and DevOps enforcement | `PFR skill/pfr_problem2_capability_knowledge_gap.md` |
 | **Output format (JSON Schema + Markdown)** | `PFR skill/pfr_ai_capability_check_output_format.md` |
 | **Evidence sources + tier rules (T1–T4)** | `PFR skill/pfr_evidence_sources_credibility.md` |
+| **Retrieval order + token / search budget** | `PFR skill/pfr_evidence_retrieval_cost_strategy.md` |
 | Wiki process summary | `PFR skill/wiki_investigation_product_first_request.md` |
 | PFR field patterns (sample) | `PFR skill/ado_pfr_sample_40_analysis.md` |
 | Longer wiki extract (if present) | `reference/mediawiki_extract.md` |
@@ -61,18 +62,14 @@ Optional: attach the JSON file to the work item for audit, as described in the f
 2. **Extract the underlying need**  
    From title + description, state in plain language: **user goal**, **constraints**, **product area** (guess allowed; mark uncertainty).
 
-3. **Ground in sources (required attempt)**  
-   - Use **MediaWiki** MCP: search the wiki for distinctive terms (module names, IFAR, eArchive, Plan&Build, feature names). Prefer **Release Information** and **module overview** pages when relevant (see `pfr_evidence_sources_credibility.md` §2.1).  
-   - Use **Ratatoskr** MCP (`user-ratatoskr`): search/read **360 Online help** (release topics, admin docs) for user-visible behaviour; cite as **`kind`: `help_360`**, tier **T2** (check tool schema before calling).  
-   - Use **Azure DevOps** MCP for **related** work items: distinguish **closed/delivered** (**T2**) vs **open/planned** (**T3**); copy **State**, **Target Date**, **Tags** (e.g. Commitment) into `source_ref.excerpt` when citing.  
-   - Optionally grep this repo for snippets that disambiguate the same topic.  
-   If no relevant sources are found, say so explicitly.
+3. **Ground in sources (cost-aware, required attempt)**  
+   Follow **`PFR skill/pfr_evidence_retrieval_cost_strategy.md`**: cheap/bounded sources **first**, **T1 code last** unless already needed to resolve ambiguity. Default waterfall: **(1)** MediaWiki — few targeted searches, **≤5** page reads, prefer Release Information / module pages (`pfr_evidence_sources_credibility.md` §2.1); **(2)** Ratatoskr — `search_topics`, then **≤3** `read_topic` calls unless user expands budget; **(3)** Azure DevOps — small WIQL / related set (**≤10** items), closed vs open in `excerpt`; **(4)** code — **only if** 1–3 leave outcome unclear or user asks; use **scoped** grep/read (**≤2** broad searches with path scope, **≤5** files read) — never “search entire codebase” without scope. **Stop early** when T2 evidence already supports a defensible outcome; record skipped T1 in **`limitations`** and apply strict-gate / `human_review_required` per credibility doc. If budget is exhausted without T1, document that and escalate via `recommended_next_action` rather than guessing.
 
 4. **Classify outcome**  
    Choose exactly one JSON `outcome` (see enums above), aligned with `pfr_problem2_capability_knowledge_gap.md`: already supported; achievable without new core; partial gap; true product gap; or insufficient information when the PFR body cannot be interpreted.
 
 5. **Build `claims`, `evidence`, `unknowns`, `limitations`**  
-   Per `pfr_ai_capability_check_output_format.md` and **`pfr_evidence_sources_credibility.md`**: cite **implementation** with **`source_code`** (or `repo_file`/`github` at **T1**) when claiming shipped behaviour; cite wiki/release/ADO at **T2**. Every `source_ref` includes **`credibility_tier`**; order `evidence` T1→T2→T3; do not list T4 as evidence. If code was not retrieved, say so in `limitations` and apply the **no-T1 strict gate** for “already standard” outcomes. Atomic claims with `support` and `sources` consistent with tier rules; deduplicated evidence list; explicit unknowns and limitations (branch, toggles, tenant config).
+   Per `pfr_ai_capability_check_output_format.md` and **`pfr_evidence_sources_credibility.md`**: cite **implementation** with **`source_code`** (or `repo_file`/`github` at **T1**) when claiming shipped behaviour **and** code was within retrieval budget; cite wiki/help/release/ADO at **T2**. Every `source_ref` includes **`credibility_tier`**; order `evidence` T1→T2→T3; do not list T4 as evidence. In **`limitations`**, note **retrieval budget** or **early stop** (e.g. no code read) when relevant; apply the **no-T1 strict gate** for “already standard” outcomes. Atomic claims with `support` and `sources` consistent with tier rules; deduplicated evidence list; explicit unknowns and limitations (branch, toggles, tenant config).
 
 6. **Set `confidence`, `human_review_required`, `human_review_reason`, `recommended_next_action`**  
    Apply the format doc rules; fill `underlying_need_summary` and `impacted_module_inferred` when possible. Set `assessed_at` to UTC ISO-8601. Set `model_and_tools.components` (e.g. `ado-mcp`, `mediawiki-mcp`, `cursor-agent`).

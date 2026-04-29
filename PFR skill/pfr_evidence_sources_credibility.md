@@ -19,6 +19,8 @@
 
 **Caveat:** Reading code still requires the **right branch/build**, feature toggles, and tenant configuration. If those are unknown, **lower `confidence`** and expand `limitations` even when T1 is present.
 
+**Retrieval cost:** Tiers say nothing about **tokens or latency**. Use **`pfr_evidence_retrieval_cost_strategy.md`** so agents **prefer cheap T2 sources first** and **scope T1 code reads** instead of searching the whole codebase every time.
+
 ---
 
 ## 2. Source kinds (`source_ref.kind`) — default tier mapping
