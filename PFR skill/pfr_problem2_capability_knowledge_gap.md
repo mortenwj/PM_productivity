@@ -116,5 +116,9 @@ Improving templates **does not** fix “unknown standard path.” Fixing problem
 
 ---
 
+**AI-assisted execution:** The Cursor project skill **`.cursor/skills/pfr-ai-capability-check/SKILL.md`** implements this gate by fetching the Feature from Azure DevOps, grounding on the wiki via MCP, and emitting a paste-ready **Standard capability check** block plus structured JSON. Folder overview: `PFR skill/README.md`.
+
+---
+
 **File:** `PFR skill/pfr_problem2_capability_knowledge_gap.md`  
 **Last updated:** 2026-04-29
