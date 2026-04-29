@@ -32,19 +32,33 @@ The wiki’s first activity already points here (“understand request”, confi
 
 ---
 
+## Decision: enforce the gate in **Azure DevOps**
+
+The **Product First Request Feature** on the PFR board is the **system of record** for the capability gate. CIM/ServiceNow may still be where the need first appears; the **completed check and evidence live on the Feature** (not only in email or the external ticket).
+
+**Definition of Ready (suggested):** A Feature is not ready for PM “evaluation / conclusion” work until the **Standard capability check** block is present and complete. Items created by automation (e.g. from ServiceNow) should get the block **filled by the accountable role** as the first human edit after creation.
+
+---
+
 ## Practical interventions (ordered by leverage)
 
-### 1. Make the gate visible and mandatory (lightweight)
+### 1. Mandatory block on the DevOps Feature (primary enforcement)
 
-Add a **single required step before “Report request”** (or immediately when creating the Feature):
+On **every** PFR Feature, include a clearly titled section in **Description** (top or directly under the template), for example:
+
+**Standard capability check**
+
+| Subfield | Content |
+|----------|--------|
+| **Outcome** | One of: Already supported \| Config / extension only \| Partially supported \| Not supported (product gap) |
+| **Evidence** | Links or pointers: wiki, release note, module overview, existing PFR, demo env, screenshot |
+| **Checked by** | Name (role) |
+| **Date** | YYYY-MM-DD |
 
 - **Owner:** Solution consultant (functional) or Technical Consulting (technical), per existing RACI on [[Product first - Request new functionality]].  
-- **Output:** A short section in the work item (or CIM ticket) titled e.g. **“Standard capability check”** with:  
-  - **Outcome** (one of the four bullets above)  
-  - **Evidence** (links: wiki page, release note, module doc, similar customer, test env screenshot)  
-  - **Who** performed the check and **when**
+- **If outcome is Already supported or Config-only:** close or redirect the Feature with a short **Conclusion** (and customer communication per wiki when the request was customer-driven)—do not leave it open as an undifferentiated “new functionality” item unless you explicitly want a UX/product polish PFR.
 
-If the outcome is (1) or (2), the process should **stop or redirect** (close with rationale, or convert to documentation/training task)—not continue as an open “new functionality” request unless leadership explicitly wants a UX improvement PFR.
+Optional: add a work item **tag** for quick filtering, e.g. `CapabilityCheck-Standard`, `CapabilityCheck-Config`, `CapabilityCheck-Partial`, `CapabilityCheck-Gap`, until a custom field exists.
 
 ### 2. Curated “same need, different place” patterns
 
@@ -72,9 +86,9 @@ Track over a quarter:
 
 If these numbers move, the second problem is shrinking even if request *text* quality is still uneven.
 
-### 5. Optional DevOps hygiene (later)
+### 5. Later: custom field on the Feature type (optional)
 
-When you are ready for tooling: a tag or custom field such as **“Capability check: Complete”** with values *Standard / Config / Partial / Gap* makes reporting easier. Not required to start; narrative in Description is enough.
+When process maturity warrants it, add a dedicated Azure DevOps field (e.g. **Capability check outcome**) for WIQL dashboards. Until then, the **Description block + optional tags** above are enough to enforce and query the gate in DevOps.
 
 ---
 
@@ -94,15 +108,11 @@ Improving templates **does not** fix “unknown standard path.” Fixing problem
 
 ---
 
-## Next step (for you)
+## Next steps (process rollout)
 
-Decide **where the gate lives** operationally:
-
-- **A)** Only on the Azure DevOps Feature (after creation), or  
-- **B)** In **CIM/ServiceNow before** the internal Feature exists (stronger for v2.0 consultant path), or  
-- **C)** Both, with a copy-paste summary into DevOps.
-
-Once you pick A/B/C, the same “Standard capability check” block can be pasted into wiki process text and CIM templates in a follow-up change.
+1. Update the **PFR Feature template** in Azure DevOps so the **Standard capability check** block is part of the default Description (reporters fill it in at creation or immediately after).  
+2. Update the **wiki** [[Product first - Request new functionality]] “Report request” activity to state that the gate is **recorded on the DevOps Feature** and is **Definition of Ready** before PM evaluation.  
+3. Align board / query views so PMs can filter or sort on “missing capability check” if needed (e.g. empty section or absence of outcome tag).
 
 ---
 
