@@ -2,7 +2,7 @@
 
 **Purpose:** Machine- and human-consumable results for the **Standard capability check**, aligned with common **production LLM** and **RAG** guidance: **schema-first** outputs, **enums** for controlled vocabulary, **explicit evidence**, **confidence separate from outcome**, and **human review** flags when evidence is thin.
 
-**Related:** `.cursor/skills/pfr-ai-capability-check/SKILL.md`, `pfr_problem2_capability_knowledge_gap.md`
+**Related:** `.cursor/skills/pfr-ai-capability-check/SKILL.md` (binds this document as **normative** for agent runs), `pfr_problem2_capability_knowledge_gap.md`
 
 ---
 
