@@ -25,7 +25,7 @@ This document gives you a **single JSON object** (primary) plus an optional **Ma
 
 ### 2.1 Design rules
 
-- **`schema_version`**: bump when you change fields. Current contract: **`1.1.0`** (adds `credibility_tier` on sources).
+- **`schema_version`**: bump when you change fields. Current contract: **`1.2.0`** (`credibility_tier` on sources; **T1 = product source code** per `pfr_evidence_sources_credibility.md`; `source_code` kind).
 - **Enums** for `outcome` and `confidence` — avoids ambiguous strings in WIQL exports later.
 - **`claims`**: atomic statements the triager can verify; each claim lists `sources` (wiki, release note, ADO link).
 - **`human_review_required`**: `true` if confidence is not high, or evidence is empty, or outcome is partial/gap with weak sources.
@@ -38,7 +38,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://local.dev/schemas/pfr-capability-check-v1.1.json",
+  "$id": "https://local.dev/schemas/pfr-capability-check-v1.2.json",
   "title": "PFR capability check (AI-assisted)",
   "type": "object",
   "additionalProperties": false,
@@ -59,7 +59,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
   "properties": {
     "schema_version": {
       "type": "string",
-      "const": "1.1.0"
+      "const": "1.2.0"
     },
     "work_item_project": {
       "type": "string",
@@ -175,6 +175,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
         "kind": {
           "type": "string",
           "enum": [
+            "source_code",
             "mediawiki",
             "ado_work_item",
             "release_note_url",
@@ -205,8 +206,9 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 - `outcome` = `insufficient_information`  
 - every `claims[].support` is `uncited` or `inferred`  
 - `evidence` is empty  
-- **every** `evidence[].credibility_tier` is **`T3`** or **`T4`** (no T1/T2 in the corpus)  
-- any claim with `support` = `documented_in_source` lacks at least one **T1** or two independent **T2** sources per `pfr_evidence_sources_credibility.md`
+- **every** `evidence[].credibility_tier` is **`T3`** or **`T4`** (no **T1** code and no **T2** doc/delivery in the corpus)  
+- any claim with `support` = `documented_in_source` violates the **T1 code or dual-T2** rule in `pfr_evidence_sources_credibility.md`  
+- `outcome` ∈ {`already_supported`, `achievable_without_new_core`} and **no** evidence item has **`credibility_tier` `T1`**, and there are **fewer than two** independent **`T2`** sources — per strict gate in that file
 
 ---
 
@@ -234,8 +236,8 @@ Suggested section:
 2. [C-2] …
 
 ### Evidence consulted
-- **SRC-1** (mediawiki, **T1**): [[Page title]] — …  
-- **SRC-2** (ado_work_item, **T2**): Feature 12345 — …
+- **SRC-1** (source_code, **T1**): `repo` / `path` @ `tag|commit` — …  
+- **SRC-2** (mediawiki, **T2**): [[Page title]] — …
 
 ### Unknowns / questions for reporter
 - …
@@ -261,4 +263,4 @@ Suggested section:
 ---
 
 **File:** `PFR skill/pfr_ai_capability_check_output_format.md`  
-**Last updated:** 2026-04-29 (schema **1.1.0** — `credibility_tier`, extra `kind` values)
+**Last updated:** 2026-04-29 (schema **1.2.0** — **T1 = product code**; `source_code` kind; wiki → **T2**)

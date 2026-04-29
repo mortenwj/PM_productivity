@@ -6,32 +6,35 @@
 
 ---
 
-## 1. Credibility tiers (T1 = highest)
+## 1. Credibility tiers (**T1 = actual product code, absolute truth**)
 
 | Tier | Meaning | Typical use in PFR checks |
 |------|---------|---------------------------|
-| **T1** | **Authoritative product truth** for Public 360° as currently documented by the product organization. | Official **MediaWiki** product/process pages (module overviews, configuration possibilities, supported integration patterns, release information for a **stated** version when the page is current). |
-| **T2** | **Strong engineering / delivery record** tied to the product codebase or formal backlog. | **Release note** URLs aligned with shipped product; **official product Git** README, ADO wiki in project, specs checked into the canonical repo; **Azure DevOps** Epic/Feature/User Story **Done/Resolved** with description/AC that directly proves behaviour **in the shipped product** (not another customer’s PFR text alone). |
-| **T3** | **Context and intent** — useful for triage, **not** sufficient alone to prove standard capability. | **This or another PFR Feature** text; **ServiceNow / CIM** ticket; customer email pasted into Description; **consultant notes**; screenshots without doc link; **{{Expired}}** wiki pages (still cite, but **downgrade** to T3 unless cross-checked to a T1/T2 current source). |
-| **T4** | **Non-evidence for product facts.** | **Model recollection** without retrieval; **generic web** or vendor blogs not owned by the product org; **other customers’** unsubstantiated assertions; **chat** transcripts; **“I think”** from the PFR body with no doc. Do **not** attach T4 to a claim as proof; use only in `limitations` if mentioned. |
+| **T1** | **Canonical product source code** — the shipped implementation in the **official product repository** (correct branch, tag, or commit). This is **ground truth**: behaviour exists iff the code path exists for that build (subject to configuration and data, which must be stated in `limitations`). | Cite **`source_code`** (preferred) or **`repo_file`** / **`github`** when the reference points at **implementation** files (e.g. services, UI, rules, SQL migrations), with **path** and ideally **commit or tag** in `title`, `url`, or `excerpt`. |
+| **T2** | **Authoritative description of the product** or **delivery record**, not the executing code itself. Can lag, be incomplete, or be misinterpreted — but still org-sanctioned. | Official **MediaWiki** (current product/process/module pages, release information), **release_note_url**, **Azure DevOps** work items that prove **delivered** behaviour, **committed design/spec .md** in the canonical repo (documentation, not the code path under test). |
+| **T3** | **Context and intent** — useful for triage, **not** sufficient alone to prove standard capability. | **This or another PFR Feature** text; **ServiceNow / CIM**; customer email in Description; screenshots without code/doc link; **{{Expired}}** wiki (cite as T3 unless cross-checked to **T1** or current **T2**). |
+| **T4** | **Non-evidence for product facts.** | **Model recollection** without retrieval; **generic web**; chat; “we need a button here” with no code/doc. Do **not** list T4 in `evidence`; use `limitations` only. |
 
-**Principle:** *Structured validity ≠ factual accuracy.* Tiers make explicit **how much to trust** each `source_ref` when scoring a claim.
+**Principle:** *Documentation describes; code decides.* Tiers encode that **T1 code outranks** T2 docs when they conflict — note the conflict in `limitations` and prefer the **T1** reading unless a human architect resolves otherwise.
+
+**Caveat:** Reading code still requires the **right branch/build**, feature toggles, and tenant configuration. If those are unknown, **lower `confidence`** and expand `limitations` even when T1 is present.
 
 ---
 
 ## 2. Source kinds (`source_ref.kind`) — default tier mapping
 
-When emitting JSON, set **`credibility_tier`** on every `source_ref` (see schema in `pfr_ai_capability_check_output_format.md`). If a source is borderline, pick the **more conservative** tier and explain in `limitations`.
+When emitting JSON, set **`credibility_tier`** on every `source_ref`. If a source is borderline, pick the **more conservative** tier and explain in `limitations`.
 
 | `kind` value | Default tier | Notes |
 |--------------|----------------|------|
-| `mediawiki` | **T1** if page is current process/product doc; **T3** if page has `{{Expired}}` or is talk/essay namespace | Agent must note expiry in `excerpt` or `limitations`. |
-| `release_note_url` | **T2** when URL is official release information for Public 360° / named product line | Downgrade to **T3** if version not matched to customer environment. |
-| `repo_file` | **T2** for canonical product repo paths and committed docs | **T3** for draft branches or forks unless policy says otherwise. |
-| `ado_work_item` | **T2** if work item type is product backlog item and state shows **delivered** behaviour relevant to claim; **T3** if it is another **PFR** or proposal in **New** | Another open PFR is **peer intent**, not proof of shipping. |
-| `github` | **T2** official org/repo; **T3** fork or issue without merge | Use `github` when not using `repo_file` for the same URL. |
-| `service_now` | **T3** | Intent, SLA, GDPR pointer — not proof of standard product behaviour. |
-| `other` | **T3** unless you document why it is T1/T2 in `excerpt`** | e.g. licensed third-party spec = case-by-case in `limitations`. |
+| **`source_code`** | **T1** | **Preferred** for implementation evidence: canonical repo, file path, optional commit/tag in `excerpt` or `url`. |
+| `repo_file` | **T1** if the path is **implementation** under the product tree on a **release** branch/tag/commit; **T2** if the path is **only** documentation (e.g. root `README.md`, design markdown) | Same repo, different epistemic weight. |
+| `github` | **T1** for **blob** / **tree** links to implementation on canonical repo+ref; **T3** for forks, random issues | Prefer **`source_code`** when the agent is citing Git explicitly. |
+| `mediawiki` | **T2** when the page is current product/process documentation; **T3** if `{{Expired}}`, draft, or talk namespace | Wiki is **not** T1: it can be wrong or stale relative to code. |
+| `release_note_url` | **T2** | Official release communication. |
+| `ado_work_item` | **T2** if delivered backlog item proves shipped behaviour; **T3** if another **PFR** or item in **New** | Not code. |
+| `service_now` | **T3** | |
+| `other` | **T3** unless justified as **T2** (e.g. signed external standard) in `limitations` | |
 
 Add new `kind` values only after updating the JSON Schema enum in `pfr_ai_capability_check_output_format.md`.
 
@@ -41,29 +44,29 @@ Add new `kind` values only after updating the JSON Schema enum in `pfr_ai_capabi
 
 | `support` value | Requirement on sources attached to that claim |
 |-----------------|--------------------------------------------------|
-| **`documented_in_source`** | At least **one T1** source **or** at least **two independent T2** sources that together substantiate the same concrete behaviour (not two links to the same page). **T3/T4 alone is never enough.** |
-| **`inferred`** | Only **T3** sources, or mixed T2+T3 where inference bridges a gap — state the inference in `limitations`. |
-| **`uncited`** | No `source_ref` attached, or only T4 — use rarely; triggers **`human_review_required`** per format rules. |
+| **`documented_in_source`** | **Either** at least **one T1** (code) source **directly** supporting the claim **or** at least **two independent T2** sources that together substantiate the same concrete behaviour. **T3/T4 alone is never enough.** |
+| **`inferred`** | Only **T3**, or **T2+T3** / **T1+T3** where the jump is explained (e.g. code exists but product doc does not mention the UI entry point) — state the gap in `limitations`. |
+| **`uncited`** | No usable `source_ref`, or only T4 — triggers **`human_review_required`** per format rules. |
 
 ---
 
 ## 4. Rules: tiers ↔ `confidence` (whole assessment)
 
-Heuristics for the **overall** `confidence` field (agent judgment, human can override):
-
 | Condition | Suggested max `confidence` |
 |-----------|---------------------------|
-| Any dispositive claim for `already_supported` or `achievable_without_new_core` backed only by **T3** | **`low`**; set `human_review_required` **true**. |
-| Outcome is `already_supported` / `achievable_without_new_core` and **≥1 T1** directly addresses the claim | **`high`** allowed if `limitations` are empty or minor. |
-| Outcome is `already_supported` / `achievable_without_new_core` and only **T2** (no T1) | **`medium`** unless two independent T2 lines agree. |
-| `partially_supported` or `not_supported_product_gap` with mixed T1/T2 and clear gap analysis | **`medium`** or **`high`** depending on gap clarity; document negation risk in `limitations`. |
-| Any **{{Expired}}** wiki used without T1/T2 current cross-check | Cap at **`medium`**; prefer **`low`** for customer-facing “close as standard”. |
+| Dispositive claim for `already_supported` / `achievable_without_new_core` backed only by **T3** | **`low`**; `human_review_required` **true**. |
+| Same outcomes with **≥1 relevant T1** code reference and build/branch context matches | **`high`** allowed if `limitations` are minor. |
+| Same outcomes with **only T2** (wiki + release note, no T1) | **`medium`** at most unless **two** independent T2 lines agree; prefer **`human_review_required`** until a tech role confirms code path. |
+| `partially_supported` / `not_supported_product_gap` with **T1** showing partial implementation | **`medium`**–**high** for the “partial” aspect; document what is missing vs code. |
+| **{{Expired}}** wiki without T1/T2 current cross-check | Cap at **`medium`**; prefer **`low`** for customer-facing “close as standard”. |
+
+**Strict gate (recommended):** If `outcome` ∈ {`already_supported`, `achievable_without_new_core`} and **`evidence` contains no T1**, set **`human_review_required`** to **true** unless **two** independent **T2** sources are present *and* `limitations` explicitly state that code was not retrieved but documentation is aligned.
 
 ---
 
 ## 5. Ordering evidence in the JSON
 
-In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. Omit **T4** from `evidence` (use `limitations` only).
+In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. Omit **T4** from `evidence`.
 
 ---
 
@@ -71,9 +74,9 @@ In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. O
 
 | Action | Owner (suggested) |
 |--------|-------------------|
-| Reclassify a wiki page between T1 default and T3 (expired) | Product / wiki steward |
+| Define “canonical product repo” and default branches/tags for T1 | Tech lead / release engineering |
+| Resolve **doc vs code** conflict | Principal PM + tech lead; update **T2** wiki after resolution |
 | Add a new `kind` or change tier defaults | Update this file + JSON Schema + skill in one PR |
-| Dispute “this should be T1” | Principal PM / Tech lead decision; document in wiki or here |
 
 ---
 
@@ -82,6 +85,7 @@ In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. O
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-04-29 | Initial tiers T1–T4, kind mapping, claim/confidence rules |
+| 1.1 | 2026-04-29 | **T1 = product source code (absolute truth)**; wiki and similar docs → **T2**; add `source_code` kind; strict gate when no T1 for “already standard” outcomes |
 
 ---
 
