@@ -25,16 +25,55 @@
 
 When emitting JSON, set **`credibility_tier`** on every `source_ref`. If a source is borderline, pick the **more conservative** tier and explain in `limitations`.
 
+### 2.0 Naming: “Wikipedia” vs product wiki vs the open encyclopedia
+
+- **Internal product wiki** here means **MediaWiki** (e.g. Public 360° process and product pages). Treat as **`kind`: `mediawiki`** below.  
+- If a source is literally **en.wikipedia.org** (or other general encyclopedia), use **`kind`: `other`** and default **`T4`** for *product-truth* claims (definitions only); do **not** substitute encyclopedia for product evidence.
+
+### 2.1 MediaWiki — relative credibility within **T2**
+
+All are **T2** (documentation, not code). For capability checks, prefer this order when choosing what to cite first:
+
+1. **Strongest wiki T2:** **Release Information** and **module overview** style pages (curated product surface aligned with shipped scope).  
+2. **Other current** process / procedure / configuration pages.  
+3. **Weaker wiki T2:** tangential pages; use **T3** if `{{Expired}}` or clearly superseded.
+
+Put the page *class* in **`excerpt`** (e.g. `wiki_page_class: release_information | module_overview | other`) so reviewers see why it was weighted.
+
+### 2.2 Azure DevOps — closed vs open, dates, tags
+
+Use **`kind`: `ado_work_item`**. Put **State**, **Iteration**, **Target Date**, and **Tags** (e.g. `Commitment`, `Conditional`) in **`excerpt`** when they matter.
+
+| Situation | Default tier | Use in capability check |
+|-----------|----------------|-------------------------|
+| Work item **Closed** / **Done** / **Resolved** (or equivalent) and describes work that was **completed and integrated** (especially with traceability to release/build in text or links) | **T2** | Supports “**already shipped**” *together with* code or a second T2 (wiki/help). |
+| Same but **only** “closed” without clear linkage to what customers run | **T2** (weaker) | Note uncertainty in `limitations`; prefer **T1** or wiki release info to confirm behaviour in a build. |
+| **Open** Epic / Feature / User Story | **T3** | Shows **intent or roadmap**, **not** current standard capability. **Target Date** and **Commitment** / **Conditional** tags support **commitment and planning** narratives (e.g. PFR process), not `already_supported` unless you only claim “work is planned/committed”. |
+| Another **PFR** Feature in **New** (peer request) | **T3** | Same as open backlog: demand signal, not proof of product. |
+
+**Rule of thumb:** Open ADO items + dates/tags answer **“will we / when might we?”** Closed+integrated ADO items answer **“did we ship something related?”** Only **T1** code proves **“how it actually behaves in code today.”**
+
+### 2.3 Public 360° Help Center (Ratatoskr MCP)
+
+Official **360 Online help** (help.360online.com content via **Ratatoskr** / `user-ratatoskr` MCP: release topics, administrator guides, etc.).
+
+| `kind` value | Default tier | Notes |
+|--------------|----------------|------|
+| **`help_360`** | **T2** | End-user / admin **product documentation** outside MediaWiki. May **trail code** slightly — note in `limitations` if version skew is possible. Cite section/topic identifiers from Ratatoskr in `title` or `excerpt`. |
+
+### 2.4 Full `kind` → tier table (summary)
+
 | `kind` value | Default tier | Notes |
 |--------------|----------------|------|
 | **`source_code`** | **T1** | **Preferred** for implementation evidence: canonical repo, file path, optional commit/tag in `excerpt` or `url`. |
 | `repo_file` | **T1** if the path is **implementation** under the product tree on a **release** branch/tag/commit; **T2** if the path is **only** documentation (e.g. root `README.md`, design markdown) | Same repo, different epistemic weight. |
 | `github` | **T1** for **blob** / **tree** links to implementation on canonical repo+ref; **T3** for forks, random issues | Prefer **`source_code`** when the agent is citing Git explicitly. |
-| `mediawiki` | **T2** when the page is current product/process documentation; **T3** if `{{Expired}}`, draft, or talk namespace | Wiki is **not** T1: it can be wrong or stale relative to code. |
-| `release_note_url` | **T2** | Official release communication. |
-| `ado_work_item` | **T2** if delivered backlog item proves shipped behaviour; **T3** if another **PFR** or item in **New** | Not code. |
+| `mediawiki` | **T2** (see §2.1); **T3** if expired / talk | Wiki is **not** T1. |
+| `help_360` | **T2** (see §2.3) | Ratatoskr-read help center. |
+| `release_note_url` | **T2** | Official release communication (URL). |
+| `ado_work_item` | **T2** or **T3** (see §2.2) | Encode state/tags/dates in `excerpt`. |
 | `service_now` | **T3** | |
-| `other` | **T3** unless justified as **T2** (e.g. signed external standard) in `limitations` | |
+| `other` | **T3** unless justified as **T2** in `limitations` | |
 
 Add new `kind` values only after updating the JSON Schema enum in `pfr_ai_capability_check_output_format.md`.
 
@@ -86,6 +125,7 @@ In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. O
 |---------|------|--------|
 | 1.0 | 2026-04-29 | Initial tiers T1–T4, kind mapping, claim/confidence rules |
 | 1.1 | 2026-04-29 | **T1 = product source code (absolute truth)**; wiki and similar docs → **T2**; add `source_code` kind; strict gate when no T1 for “already standard” outcomes |
+| 1.2 | 2026-04-29 | MediaWiki **within-T2** ranking (release info, module pages); ADO **closed vs open** + dates/tags; **`help_360`** (Ratatoskr); clarify “Wikipedia” vs MediaWiki vs encyclopedia |
 
 ---
 

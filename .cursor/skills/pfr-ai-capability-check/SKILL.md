@@ -19,7 +19,7 @@ This skill is **not** a substitute for PM or architecture sign-off. It **acceler
 
 ## Normative output (always use this)
 
-**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run, and **`PFR skill/pfr_evidence_sources_credibility.md`** when assigning **`credibility_tier`** (T1–T4) to each `source_ref` and when mapping tiers to `claims[].support` and overall `confidence`. **T1 is canonical product *source code*** (ground truth); official wiki and release notes are **T2** unless the credibility doc specifies otherwise. Prefer **`kind`: `source_code`** with path and commit or tag in `title`, `url`, or `excerpt` when citing implementation. Do not invent an alternate JSON shape or a free-form-only answer. Use **`schema_version` `1.2.0`** in emitted JSON.
+**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run, and **`PFR skill/pfr_evidence_sources_credibility.md`** when assigning **`credibility_tier`** (T1–T4) to each `source_ref` and when mapping tiers to `claims[].support` and overall `confidence`. **T1 is canonical product *source code*** (ground truth); official wiki and release notes are **T2** unless the credibility doc specifies otherwise. Prefer **`kind`: `source_code`** with path and commit or tag in `title`, `url`, or `excerpt` when citing implementation. Do not invent an alternate JSON shape or a free-form-only answer. Use **`schema_version` `1.2.1`** in emitted JSON.
 
 Deliverables, in order:
 
@@ -62,9 +62,11 @@ Optional: attach the JSON file to the work item for audit, as described in the f
    From title + description, state in plain language: **user goal**, **constraints**, **product area** (guess allowed; mark uncertainty).
 
 3. **Ground in sources (required attempt)**  
-   - Use **MediaWiki** MCP: search the wiki for distinctive terms (module names, IFAR, eArchive, Plan&Build, feature names). Prefer official process and module pages over guesswork.  
-   - Optionally grep this repo for ADO/wiki snippets that disambiguate the same topic.  
-   If no relevant pages are found, say so explicitly.
+   - Use **MediaWiki** MCP: search the wiki for distinctive terms (module names, IFAR, eArchive, Plan&Build, feature names). Prefer **Release Information** and **module overview** pages when relevant (see `pfr_evidence_sources_credibility.md` §2.1).  
+   - Use **Ratatoskr** MCP (`user-ratatoskr`): search/read **360 Online help** (release topics, admin docs) for user-visible behaviour; cite as **`kind`: `help_360`**, tier **T2** (check tool schema before calling).  
+   - Use **Azure DevOps** MCP for **related** work items: distinguish **closed/delivered** (**T2**) vs **open/planned** (**T3**); copy **State**, **Target Date**, **Tags** (e.g. Commitment) into `source_ref.excerpt` when citing.  
+   - Optionally grep this repo for snippets that disambiguate the same topic.  
+   If no relevant sources are found, say so explicitly.
 
 4. **Classify outcome**  
    Choose exactly one JSON `outcome` (see enums above), aligned with `pfr_problem2_capability_knowledge_gap.md`: already supported; achievable without new core; partial gap; true product gap; or insufficient information when the PFR body cannot be interpreted.

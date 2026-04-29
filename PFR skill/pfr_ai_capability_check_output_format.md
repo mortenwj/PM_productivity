@@ -25,7 +25,7 @@ This document gives you a **single JSON object** (primary) plus an optional **Ma
 
 ### 2.1 Design rules
 
-- **`schema_version`**: bump when you change fields. Current contract: **`1.2.0`** (`credibility_tier` on sources; **T1 = product source code** per `pfr_evidence_sources_credibility.md`; `source_code` kind).
+- **`schema_version`**: bump when you change fields. Current contract: **`1.2.1`** (`credibility_tier`; **T1 = product code**; `source_code`, **`help_360`** kinds per `pfr_evidence_sources_credibility.md`).
 - **Enums** for `outcome` and `confidence` — avoids ambiguous strings in WIQL exports later.
 - **`claims`**: atomic statements the triager can verify; each claim lists `sources` (wiki, release note, ADO link).
 - **`human_review_required`**: `true` if confidence is not high, or evidence is empty, or outcome is partial/gap with weak sources.
@@ -38,7 +38,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://local.dev/schemas/pfr-capability-check-v1.2.json",
+  "$id": "https://local.dev/schemas/pfr-capability-check-v1.2.1.json",
   "title": "PFR capability check (AI-assisted)",
   "type": "object",
   "additionalProperties": false,
@@ -59,7 +59,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
   "properties": {
     "schema_version": {
       "type": "string",
-      "const": "1.2.0"
+      "const": "1.2.1"
     },
     "work_item_project": {
       "type": "string",
@@ -177,6 +177,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
           "enum": [
             "source_code",
             "mediawiki",
+            "help_360",
             "ado_work_item",
             "release_note_url",
             "repo_file",
@@ -263,4 +264,4 @@ Suggested section:
 ---
 
 **File:** `PFR skill/pfr_ai_capability_check_output_format.md`  
-**Last updated:** 2026-04-29 (schema **1.2.0** — **T1 = product code**; `source_code` kind; wiki → **T2**)
+**Last updated:** 2026-04-29 (schema **1.2.1** — `help_360` kind; wiki/ADO/help nuance in credibility doc)
