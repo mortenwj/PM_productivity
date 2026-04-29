@@ -25,10 +25,11 @@
 
 When emitting JSON, set **`credibility_tier`** on every `source_ref`. If a source is borderline, pick the **more conservative** tier and explain in `limitations`.
 
-### 2.0 Naming: “Wikipedia” vs product wiki vs the open encyclopedia
+### 2.0 Internal MediaWiki (product wiki)
 
-- **Internal product wiki** here means **MediaWiki** (e.g. Public 360° process and product pages). Treat as **`kind`: `mediawiki`** below.  
-- If a source is literally **en.wikipedia.org** (or other general encyclopedia), use **`kind`: `other`** and default **`T4`** for *product-truth* claims (definitions only); do **not** substitute encyclopedia for product evidence.
+**Default meaning in this initiative:** “wiki” = your **internal MediaWiki** (Public 360° process, modules, release information, etc.). Always use **`kind`: `mediawiki`** for those pages.
+
+*Edge case:* If someone cites the **public encyclopedia** (e.g. en.wikipedia.org) for product behaviour, use **`kind`: `other`** and default **`T4`** for *product-truth* claims — it is not internal product evidence.
 
 ### 2.1 MediaWiki — relative credibility within **T2**
 
@@ -125,7 +126,7 @@ In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. O
 |---------|------|--------|
 | 1.0 | 2026-04-29 | Initial tiers T1–T4, kind mapping, claim/confidence rules |
 | 1.1 | 2026-04-29 | **T1 = product source code (absolute truth)**; wiki and similar docs → **T2**; add `source_code` kind; strict gate when no T1 for “already standard” outcomes |
-| 1.2 | 2026-04-29 | MediaWiki **within-T2** ranking (release info, module pages); ADO **closed vs open** + dates/tags; **`help_360`** (Ratatoskr); clarify “Wikipedia” vs MediaWiki vs encyclopedia |
+| 1.2 | 2026-04-29 | MediaWiki **within-T2** ranking (release info, module pages); ADO **closed vs open** + dates/tags; **`help_360`** (Ratatoskr); clarify internal **MediaWiki** vs public encyclopedia |
 
 ---
 
