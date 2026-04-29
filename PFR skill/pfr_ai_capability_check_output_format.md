@@ -4,6 +4,8 @@
 
 **Related:** `.cursor/skills/pfr-ai-capability-check/SKILL.md` (binds this document as **normative** for agent runs), `pfr_problem2_capability_knowledge_gap.md`
 
+**Evidence credibility:** Every `source_ref` must include a **`credibility_tier`** (T1–T4). Definitions, `kind` → tier defaults, and rules linking tiers to `claims[].support` and overall `confidence` are in **`pfr_evidence_sources_credibility.md`** (read it when building `evidence` and `claims`).
+
 ---
 
 ## 1. Practices to align with (short rationale)
@@ -23,7 +25,7 @@ This document gives you a **single JSON object** (primary) plus an optional **Ma
 
 ### 2.1 Design rules
 
-- **`schema_version`**: bump when you change fields (e.g. `"1.0.0"`).
+- **`schema_version`**: bump when you change fields. Current contract: **`1.1.0`** (adds `credibility_tier` on sources).
 - **Enums** for `outcome` and `confidence` — avoids ambiguous strings in WIQL exports later.
 - **`claims`**: atomic statements the triager can verify; each claim lists `sources` (wiki, release note, ADO link).
 - **`human_review_required`**: `true` if confidence is not high, or evidence is empty, or outcome is partial/gap with weak sources.
@@ -36,7 +38,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://local.dev/schemas/pfr-capability-check-v1.json",
+  "$id": "https://local.dev/schemas/pfr-capability-check-v1.1.json",
   "title": "PFR capability check (AI-assisted)",
   "type": "object",
   "additionalProperties": false,
@@ -57,7 +59,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
   "properties": {
     "schema_version": {
       "type": "string",
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "work_item_project": {
       "type": "string",
@@ -164,7 +166,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
     "source_ref": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["source_id", "kind", "title"],
+      "required": ["source_id", "kind", "title", "credibility_tier"],
       "properties": {
         "source_id": {
           "type": "string",
@@ -172,7 +174,20 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
         },
         "kind": {
           "type": "string",
-          "enum": ["mediawiki", "ado_work_item", "release_note_url", "repo_file", "other"]
+          "enum": [
+            "mediawiki",
+            "ado_work_item",
+            "release_note_url",
+            "repo_file",
+            "github",
+            "service_now",
+            "other"
+          ]
+        },
+        "credibility_tier": {
+          "type": "string",
+          "enum": ["T1", "T2", "T3", "T4"],
+          "description": "See pfr_evidence_sources_credibility.md"
         },
         "title": { "type": "string" },
         "url": { "type": ["string", "null"], "format": "uri" },
@@ -189,7 +204,9 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 - `confidence` ∈ {`medium`, `low`}  
 - `outcome` = `insufficient_information`  
 - every `claims[].support` is `uncited` or `inferred`  
-- `evidence` is empty
+- `evidence` is empty  
+- **every** `evidence[].credibility_tier` is **`T3`** or **`T4`** (no T1/T2 in the corpus)  
+- any claim with `support` = `documented_in_source` lacks at least one **T1** or two independent **T2** sources per `pfr_evidence_sources_credibility.md`
 
 ---
 
@@ -217,8 +234,8 @@ Suggested section:
 2. [C-2] …
 
 ### Evidence consulted
-- **SRC-1** (mediawiki): [[Page title]] — …  
-- **SRC-2** (ado_work_item): Feature 12345 — …
+- **SRC-1** (mediawiki, **T1**): [[Page title]] — …  
+- **SRC-2** (ado_work_item, **T2**): Feature 12345 — …
 
 ### Unknowns / questions for reporter
 - …
@@ -244,4 +261,4 @@ Suggested section:
 ---
 
 **File:** `PFR skill/pfr_ai_capability_check_output_format.md`  
-**Last updated:** 2026-04-29
+**Last updated:** 2026-04-29 (schema **1.1.0** — `credibility_tier`, extra `kind` values)

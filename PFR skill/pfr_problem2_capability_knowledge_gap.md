@@ -116,7 +116,7 @@ Improving templates **does not** fix “unknown standard path.” Fixing problem
 
 ---
 
-**AI-assisted execution:** The Cursor project skill **`.cursor/skills/pfr-ai-capability-check/SKILL.md`** implements this gate by fetching the Feature from Azure DevOps, grounding on the wiki via MCP, and emitting a paste-ready **Standard capability check** block plus structured JSON. Folder overview: `PFR skill/README.md`.
+**AI-assisted execution:** The Cursor project skill **`.cursor/skills/pfr-ai-capability-check/SKILL.md`** implements this gate by fetching the Feature from Azure DevOps, grounding on the wiki via MCP, and emitting a paste-ready **Standard capability check** block plus structured JSON. **Evidence tiers (T1–T4)** and credibility rules: `PFR skill/pfr_evidence_sources_credibility.md`. Folder overview: `PFR skill/README.md`.
 
 ---
 

@@ -16,6 +16,7 @@ The main direction is **automatic (AI-assisted) screening** so every PFR Feature
 | File | Role |
 |------|------|
 | `pfr_ai_capability_check_output_format.md` | **JSON Schema + Markdown** for AI capability check results (best-practice aligned). |
+| `pfr_evidence_sources_credibility.md` | **Evidence types + T1–T4 credibility** and rules for claims/confidence. |
 | `wiki_investigation_product_first_request.md` | Wiki process summary (MediaWiki). |
 | `ado_pfr_sample_40_analysis.md` | Sample ADO analysis (40 Features). |
 | `.gitkeep` | Keeps empty paths in git if needed. |

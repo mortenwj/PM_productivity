@@ -19,13 +19,13 @@ This skill is **not** a substitute for PM or architecture sign-off. It **acceler
 
 ## Normative output (always use this)
 
-**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run. Do not invent an alternate JSON shape or a free-form-only answer.
+**Read and follow** `PFR skill/pfr_ai_capability_check_output_format.md` on every run, and **`PFR skill/pfr_evidence_sources_credibility.md`** when assigning **`credibility_tier`** (T1–T4) to each `source_ref` and when mapping tiers to `claims[].support` and overall `confidence`. Do not invent an alternate JSON shape or a free-form-only answer. Use **`schema_version` `1.1.0`** in emitted JSON.
 
 Deliverables, in order:
 
 1. **One JSON object** that conforms to the schema in that file (`schema_version` through `model_and_tools`, including every **required** top-level key).  
 2. **One Markdown block** for pasting into Azure DevOps Description, **generated only from** that JSON (table + sections as in the format doc).  
-3. Apply the **human review rule** from the format doc: set `human_review_required` to `true` when confidence is `medium` or `low`, when `outcome` is `insufficient_information`, when `evidence` is empty, when every claim has `support` ∈ {`inferred`, `uncited` only}, or when partial/gap outcomes lack `documented_in_source` claims — and set **`human_review_reason`** whenever `human_review_required` is `true`.
+3. Apply the **human review rules** from `pfr_ai_capability_check_output_format.md` **and** `pfr_evidence_sources_credibility.md`: set `human_review_required` to `true` when confidence is `medium` or `low`, when `outcome` is `insufficient_information`, when `evidence` is empty, when **no** evidence item has tier **T1** or **T2**, when every claim has `support` ∈ {`inferred`, `uncited` only}, when any `documented_in_source` claim violates the T1 / dual-T2 rule, or when partial/gap outcomes lack defensible sources — and set **`human_review_reason`** whenever `human_review_required` is `true`.
 
 **Outcome enum (JSON, exactly one):** `already_supported` | `achievable_without_new_core` | `partially_supported` | `not_supported_product_gap` | `insufficient_information` — map prose from the gate doc to these snake_case values.
 
@@ -48,6 +48,7 @@ Optional: attach the JSON file to the work item for audit, as described in the f
 |----------|------|
 | Gate definition and DevOps enforcement | `PFR skill/pfr_problem2_capability_knowledge_gap.md` |
 | **Output format (JSON Schema + Markdown)** | `PFR skill/pfr_ai_capability_check_output_format.md` |
+| **Evidence sources + tier rules (T1–T4)** | `PFR skill/pfr_evidence_sources_credibility.md` |
 | Wiki process summary | `PFR skill/wiki_investigation_product_first_request.md` |
 | PFR field patterns (sample) | `PFR skill/ado_pfr_sample_40_analysis.md` |
 | Longer wiki extract (if present) | `reference/mediawiki_extract.md` |
@@ -69,7 +70,7 @@ Optional: attach the JSON file to the work item for audit, as described in the f
    Choose exactly one JSON `outcome` (see enums above), aligned with `pfr_problem2_capability_knowledge_gap.md`: already supported; achievable without new core; partial gap; true product gap; or insufficient information when the PFR body cannot be interpreted.
 
 5. **Build `claims`, `evidence`, `unknowns`, `limitations`**  
-   Per `pfr_ai_capability_check_output_format.md`: atomic verifiable claims with `support` and `sources`; deduplicated evidence list; explicit unknowns and limitations (versions, toggles, tenant-specific config not verified).
+   Per `pfr_ai_capability_check_output_format.md` and **`pfr_evidence_sources_credibility.md`**: every `source_ref` includes **`credibility_tier`**; order `evidence` T1→T2→T3; do not list T4 as evidence. Atomic claims with `support` and `sources` consistent with tier rules; deduplicated evidence list; explicit unknowns and limitations (versions, toggles, tenant-specific config not verified).
 
 6. **Set `confidence`, `human_review_required`, `human_review_reason`, `recommended_next_action`**  
    Apply the format doc rules; fill `underlying_need_summary` and `impacted_module_inferred` when possible. Set `assessed_at` to UTC ISO-8601. Set `model_and_tools.components` (e.g. `ado-mcp`, `mediawiki-mcp`, `cursor-agent`).
