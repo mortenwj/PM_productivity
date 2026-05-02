@@ -102,6 +102,7 @@ Add new `kind` values only after updating the JSON Schema enum in `pfr_ai_capabi
 | Same outcomes with **≥1 relevant T1** code reference and build/branch context matches | **`high`** allowed if `limitations` are minor. |
 | Same outcomes with **only T2** (wiki + release note, no T1) | **`medium`** at most unless **two** independent T2 lines agree; prefer **`human_review_required`** until a tech role confirms code path. |
 | `partially_supported` / `not_supported_product_gap` with **T1** showing partial implementation | **`medium`**–**high** for the “partial” aspect; document what is missing vs code. |
+| `not_supported_product_gap` (or **`partially_supported`** when framed as “config exists but does not meet stated enforcement need”) where **T1** **directly** shows the product **does not enforce** the required access-style rule (or only optional filters apply), **and** **≥1 independent T2** aligns with that reading, **and** **no verified T1↔T2 conflict** | **`high`** allowed; residual integration / toggle / tenant / branch mismatch caveats belong in **`limitations`** only. |
 | **{{Expired}}** wiki without T1/T2 current cross-check | Cap at **`medium`**; prefer **`low`** for customer-facing “close as standard”. |
 
 **Strict gate (recommended):** If `outcome` ∈ {`already_supported`, `achievable_without_new_core`} and **`evidence` contains no T1**, set **`human_review_required`** to **true** unless **two** independent **T2** sources are present *and* `limitations` explicitly state that code was not retrieved but documentation is aligned.

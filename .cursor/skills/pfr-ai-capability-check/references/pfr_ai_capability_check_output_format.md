@@ -28,8 +28,14 @@ This document gives you a **single JSON object** (primary) plus an optional **Ma
 - **`schema_version`**: bump when you change fields. Current contract: **`1.2.2`** (`credibility_tier`; **T1 = product code**; `source_code`, **`help_360`** kinds per `pfr_evidence_sources_credibility.md`; **`documentation_status`** per **`../../shared/evidence/evidence-playbook.md`** §8).
 - **Enums** for `outcome` and `confidence` — avoids ambiguous strings in WIQL exports later.
 - **`claims`**: atomic statements the triager can verify; each claim lists `sources` (wiki, release note, ADO link).
-- **`human_review_required`**: `true` if confidence is not high, or evidence is empty, or outcome is partial/gap with weak sources.
+- **`human_review_required`:** Apply **only** the explicit triggers in **§2.2 validation rules** below (do **not** invent new ones). Note: **`high` confidence** does **not** automatically set `human_review_required` to `false` if another trigger still applies (for example **every** claim remains `inferred` or `uncited`).
 - **`model_and_tools`**: provenance for audit (model id if known, “MediaWiki MCP”, “ADO MCP”).
+- **Capability comparison (reasoning only; no extra JSON keys):** Before finalizing **`outcome`** and **`confidence`**, compare **observed capability** (from **T1/T2** evidence) to **required capability** (from the PFR / **`underlying_need_summary`**). State whether they are **equivalent**, **not equivalent**, or **unclear**. Explicitly distinguish **filtering / configuration** from **access control / enforced visibility** when both appear in the thread. **`human_review_reason`** and **`limitations`** should, when material, reference this comparison in **one clear sentence** without changing gate rules. When **T1** shows the product **does not** apply a required enforcement path (for example optional UI filters only), use explicit wording in Markdown / rationale: **does not enforce required behaviour** or **does not implement required behaviour** — not vague “not equivalent” alone. If T1 is **missing** for the enforcement question, keep softer language (“not shown equivalent”, “unclear”).
+- **`confidence` calibration (PFR):** Use **`high`** when **verified T1** establishes the dispositive implementation fact, **≥1 independent T2** aligns with that reading, and **no verified conflict**; put residual integration/toggle/tenant caveats in **`limitations`** (and optionally one clause in **`human_review_reason`** only if review is still required for another trigger). Use **`medium`** when T1 is missing for the critical enforcement path, when enforcement is not visible in retrieved code, or when doc–code conflict is unresolved. See **`pfr_evidence_sources_credibility.md`** §4 and **`../../shared/evidence/evidence-playbook.md`** §5.
+- **Markdown-only claim labels (schema unchanged):** JSON `claims[].support` stays **`documented_in_source` \| `inferred` \| `uncited`**. In the **Markdown** Claims list, for rows where JSON uses **`inferred`**, append **`(Markdown label: reported in PFR request)`** when the claim is grounded in **PFR / Feature description** (sources typically **T3** `ado_work_item`), or **`(Markdown label: observed in environment)`** when the claim describes **retrieval / workspace** facts (still JSON **`inferred`**). See **`../../shared/evidence/evidence-playbook.md`** quick map.
+- **`recommended_next_action`:** Values remain the **fixed enum** below. **PM-facing detail** belongs in the **Markdown** block under **Recommended next steps** (2–4 bullets), not by inventing new enum values.
+- **WIQL follow-up:** If a query returns other work item ids, batch-fetch **at least 2–3 titles** within default caps; note possible duplicates in **`limitations`** or **`unknowns`** and in Markdown.
+- **T1 retrieval is read-only:** Evidence from product repos (local clone or GitHub/`gh`) must be **read-only** — **never** edit, commit, push, or open PRs against canonical product source as part of this capability check. See **`SKILL.md`** section **Product source code — read-only** and **`../../shared/evidence/sources-and-tools.md`** § GitHub / local code.
 
 ### 2.2 JSON Schema (Draft 2020-12 compatible)
 
@@ -243,24 +249,45 @@ Suggested section:
 | **Assessed at** | 2026-04-29T12:00:00Z |
 
 ### Documentation coverage
-Short rationale tied to **verified** wiki/help (cite **SRC-**\*). If **partially_documented** or **missing_documentation**, state what should be added or fixed in official docs (topic, section, or release note), without weakening strict gates on outcome.
+Short rationale tied to **verified** wiki/help (cite **SRC-**\*). If **`documentation_status`** is **`partially_documented`** or **`missing_documentation`**, use **three short sentences**: (1) **What is documented** (verified topics/pages). (2) **What is not documented** for this PFR decision (e.g. end-to-end behaviour, Swedish-specific flow, enforcement vs filter). (3) **Why that gap matters** for PM triage (e.g. cannot confirm equivalence to required capability from docs alone). Do not weaken strict gates on outcome.
+
+### Capability analysis
+- **Observed capability** — What the product **does** per **T1/T2** evidence (concise; cite **SRC-**\*).
+- **Required capability** — What the PFR / underlying need **must** achieve (neutral capability wording).
+- **Assessment** — One explicit line: **equivalent** → supports **`already_supported`** / **`achievable_without_new_core`** / **`partially_supported`** only when tier rules and gates allow; **not equivalent** → supports **`partially_supported`** or **`not_supported_product_gap`**; **unclear** → supports **`insufficient_information`** or lower **confidence**. Call out **filtering/configuration** vs **access control/enforced visibility** when both are in play. When **T1** confirms absence of enforcement (or only optional filters), prefer **does not enforce required behaviour** / **does not implement required behaviour** over vague “not equivalent” alone.
+- **Key implementation finding** — If **T1** was read: one **non-developer** sentence summarising the decisive code fact (e.g. “Org-unit restriction applies only when the user has applied filters; the default query still returns every row the user may access under import-archive rules.”). Omit this bullet only if no T1 was retrieved.
+
+### Decision framing
+- **If the interpreted requirement is enforced access control** (only intended recipient unit may see the row, by default, for all users): state whether evidence shows a **product gap** — typically **`not_supported_product_gap`** when **T1** shows **no** such enforcement and **T2** does not contradict that reading.
+- **If the interpreted requirement is achievable via filtering/configuration alone** (narrowing a shared list): state **`partially_supported`** or **`already_supported`** / **`achievable_without_new_core`** only when tier rules and strict gates allow — and if the **PFR still** asks for hard enforcement, state clearly that configuration **does not meet the stated need**.
+- **Final interpretation** — One sentence: which branch applies **for this PFR** and how that maps to the JSON **`outcome`**.
 
 ### Underlying need
 …
 
+### Outcome and confidence (rationale)
+One short paragraph: tie **`outcome`** and **`confidence`** to **Capability analysis** + **Decision framing**. When T1 supports it, say explicitly whether the product **does not enforce** / **does not implement** the required behaviour. For **`high`** confidence with strong T1+T2 alignment, you may add: *High confidence due to direct T1 implementation evidence …; residual uncertainty limited to …* (mirror **`limitations`**).
+
 ### Claims (verify before closing)
 1. [C-1] … — *support:* documented_in_source — *sources:* SRC-1, SRC-2  
-2. [C-2] …
+2. [C-2] … — *support:* inferred *(Markdown label: reported in PFR request)* — *sources:* SRC-4  
+3. [C-3] … — *support:* inferred *(Markdown label: observed in environment)* — *sources:* (optional)
 
 ### Evidence consulted
 - **SRC-1** (source_code, **T1**): `repo` / `path` @ `tag|commit` — …  
 - **SRC-2** (mediawiki, **T2**): [[Page title]] — …
+
+### Related ADO items (if queried)
+If WIQL returned ids: list **2–3** `id — title — state` from batch fetch; one line whether they **look related** or **unclear**.
 
 ### Unknowns / questions for reporter
 - …
 
 ### Limitations (what AI did not verify)
 - …
+
+### Recommended next steps
+2–4 **actionable** bullets (configuration check, permission/import model, duplicate check with reporter, clarify expected behaviour, etc.). Maps to the JSON **`recommended_next_action`** enum but **expands** it for humans (do not add enum values).
 ```
 
 ---
@@ -280,4 +307,4 @@ Short rationale tied to **verified** wiki/help (cite **SRC-**\*). If **partially
 ---
 
 **File:** `pfr-ai-capability-check/references/pfr_ai_capability_check_output_format.md`  
-**Last updated:** 2026-05-02 (schema **1.2.2** — `documentation_status`; calibration in `../../shared/evidence/evidence-playbook.md` §8)
+**Last updated:** 2026-05-02 (schema **1.2.2** unchanged; Markdown: **Key implementation finding**, **Decision framing**, **confidence** calibration note, T1-strong wording, **Markdown-only** inferred labels; JSON `claims[].support` enum unchanged)

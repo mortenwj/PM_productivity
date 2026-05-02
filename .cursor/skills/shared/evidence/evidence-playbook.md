@@ -85,6 +85,8 @@ Use **one** overall confidence for the **assessment** (PFR JSON) or the **answer
 | **Medium** | **One** strong line only (for example only wiki, or only help, or only code without a second check). Or: verified core plus **inferred** edges only. |
 | **Low** | Mostly **leads** or **inferred** content, or important **unknowns** (version, tenant, toggles) not resolved. |
 
+**PFR (extra nuance):** **`high`** is appropriate when **verified T1** pins a dispositive implementation fact (for example “enforcement is absent; filtering is optional”), **independent T2** (help/wiki) **agrees** on how the feature is presented, and there is **no verified conflict** — state any residual integration-only uncertainty in **`limitations`**, not by downgrading to **`medium`** unless a format-rule trigger still forces review.
+
 **PFR-only rules** (strict gates, `human_review_required`, caps on `confidence` by tier mix): **`pfr-ai-capability-check/references/pfr_evidence_sources_credibility.md`** §3–§4 and the JSON format doc. This playbook does not relax those rules.
 
 **lmwtfy:** If you would label **Low** for the answer, do **not** treat the wiki publication loop as mandatory truth transfer; see `rules/knowledge-loop.md`.
@@ -146,6 +148,15 @@ Calibrate using **§3–§4**: count **verified** reads of wiki/help topics (not
 | Inferred | `inferred` |
 
 For **`uncited`**, see PFR format doc; playbook shorthand: “still a **lead** or nothing usable.”
+
+**Markdown-only (PFR Description block, schema unchanged):** When JSON uses **`inferred`**, the pasted Markdown **Claims** lines should add a visible prose tag after the enum value so PMs see intent without new JSON fields:
+
+| Situation | Append after `*support:* inferred` |
+|-----------|--------------------------------------|
+| Claim rests on **PFR / Feature** description (typically **T3** `ado_work_item`) | `*(Markdown label: reported in PFR request)*` |
+| Claim rests on **retrieval / workspace** facts (e.g. “no product files in this workspace”) | `*(Markdown label: observed in environment)*` |
+
+Do **not** emit new JSON enum values for these phrases.
 
 ---
 

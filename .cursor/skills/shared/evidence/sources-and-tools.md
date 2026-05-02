@@ -26,6 +26,7 @@ If a server is not configured, skip that source and record the skip in the run n
 
 ## GitHub / local code
 
+- **Read-only for product repositories (non-negotiable for PFR capability check and similar evidence runs):** Use **`gh`** and the filesystem **only** to **read** and cite code (search, `contents`, blob/raw URLs). **Never** use this path to **modify** canonical product repos: no edits in checkout, no commits, no pushes, no PR/issue mutations via `gh` or otherwise. Product change requests belong to humans and normal dev workflows.
 - **Prefer `gh` in the terminal** when available; otherwise use **WebFetch** for raw GitHub URLs or the repo browser.
 - **Workspace search:** use the Cursor **Grep** tool or `rg` (do not assume a Unix `grep` binary on Windows).
 
