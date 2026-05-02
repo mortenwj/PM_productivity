@@ -17,7 +17,8 @@ The main direction is **automatic (AI-assisted) screening** so every PFR Feature
 |------|------|
 | `pfr_ai_capability_check_output_format.md` | **JSON Schema + Markdown** for AI capability check results (best-practice aligned). |
 | `pfr_evidence_sources_credibility.md` | **Evidence types + T1–T4 credibility** and rules for claims/confidence. |
-| `pfr_evidence_retrieval_cost_strategy.md` | **Staged retrieval + token/search budgets** (cheap sources before code). |
+| `pfr_evidence_retrieval_cost_strategy.md` | **PFR stage 0** (parse Feature body) + pointers to **`shared/evidence/`** for **stages 1–4 + budgets** (cheap sources before code). |
+| *(cross-folder)* `../../shared/evidence/evidence-playbook.md` | **Shared** PM vocabulary for claims, evidence, verification, confidence, stop rules, conflicts (use with `pfr_evidence_sources_credibility.md`). |
 | `wiki_investigation_product_first_request.md` | Wiki process summary (MediaWiki). |
 | `ado_pfr_sample_40_analysis.md` | Sample ADO analysis (40 Features). |
 | `.gitkeep` | Keeps empty paths in git if needed. |

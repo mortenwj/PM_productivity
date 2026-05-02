@@ -4,6 +4,8 @@
 
 **Normative for:** `pfr_ai_capability_check_output_format.md`, `.cursor/skills/pfr-ai-capability-check/SKILL.md`
 
+**Shared vocabulary (PM-friendly):** [`shared/evidence/evidence-playbook.md`](../../shared/evidence/evidence-playbook.md) — claim, evidence, verified / lead / inferred, confidence, stop rules, conflicts. **T1–T4 and JSON enums remain defined in this file and the output format doc.**
+
 ---
 
 ## 1. Credibility tiers (**T1 = actual product code, absolute truth**)
@@ -132,4 +134,4 @@ In the `evidence` array, prefer order: **T1 first**, then **T2**, then **T3**. O
 
 ---
 
-**File:** `PFR skill/pfr_evidence_sources_credibility.md`
+**File:** `pfr-ai-capability-check/references/pfr_evidence_sources_credibility.md`

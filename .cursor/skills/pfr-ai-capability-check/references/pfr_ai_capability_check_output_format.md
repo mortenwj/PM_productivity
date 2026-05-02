@@ -2,7 +2,7 @@
 
 **Purpose:** Machine- and human-consumable results for the **Standard capability check**, aligned with common **production LLM** and **RAG** guidance: **schema-first** outputs, **enums** for controlled vocabulary, **explicit evidence**, **confidence separate from outcome**, and **human review** flags when evidence is thin.
 
-**Related:** `.cursor/skills/pfr-ai-capability-check/SKILL.md` (binds this document as **normative** for agent runs), `pfr_problem2_capability_knowledge_gap.md`
+**Related:** `.cursor/skills/pfr-ai-capability-check/SKILL.md` (binds this document as **normative** for agent runs), `pfr_problem2_capability_knowledge_gap.md`, **`../../shared/evidence/evidence-playbook.md`** (§8 **`documentation_status`**)
 
 **Evidence credibility:** Every `source_ref` must include a **`credibility_tier`** (T1–T4). Definitions, `kind` → tier defaults, and rules linking tiers to `claims[].support` and overall `confidence` are in **`pfr_evidence_sources_credibility.md`** (read it when building `evidence` and `claims`).
 
@@ -25,7 +25,7 @@ This document gives you a **single JSON object** (primary) plus an optional **Ma
 
 ### 2.1 Design rules
 
-- **`schema_version`**: bump when you change fields. Current contract: **`1.2.1`** (`credibility_tier`; **T1 = product code**; `source_code`, **`help_360`** kinds per `pfr_evidence_sources_credibility.md`).
+- **`schema_version`**: bump when you change fields. Current contract: **`1.2.2`** (`credibility_tier`; **T1 = product code**; `source_code`, **`help_360`** kinds per `pfr_evidence_sources_credibility.md`; **`documentation_status`** per **`../../shared/evidence/evidence-playbook.md`** §8).
 - **Enums** for `outcome` and `confidence` — avoids ambiguous strings in WIQL exports later.
 - **`claims`**: atomic statements the triager can verify; each claim lists `sources` (wiki, release note, ADO link).
 - **`human_review_required`**: `true` if confidence is not high, or evidence is empty, or outcome is partial/gap with weak sources.
@@ -38,7 +38,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://local.dev/schemas/pfr-capability-check-v1.2.1.json",
+  "$id": "https://local.dev/schemas/pfr-capability-check-v1.2.2.json",
   "title": "PFR capability check (AI-assisted)",
   "type": "object",
   "additionalProperties": false,
@@ -49,6 +49,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
     "assessed_at",
     "outcome",
     "confidence",
+    "documentation_status",
     "human_review_required",
     "claims",
     "evidence",
@@ -59,7 +60,7 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
   "properties": {
     "schema_version": {
       "type": "string",
-      "const": "1.2.1"
+      "const": "1.2.2"
     },
     "work_item_project": {
       "type": "string",
@@ -87,6 +88,15 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
     "confidence": {
       "type": "string",
       "enum": ["high", "medium", "low"]
+    },
+    "documentation_status": {
+      "type": "string",
+      "enum": [
+        "well_documented",
+        "partially_documented",
+        "missing_documentation"
+      ],
+      "description": "Whether official wiki/help (T2-style) verified per evidence-playbook §3–§4 adequately explains the capability; orthogonal to outcome and confidence. See evidence-playbook §8."
     },
     "human_review_required": {
       "type": "boolean"
@@ -211,6 +221,8 @@ Use this with validators (Pydantic, Zod, AJV) or with APIs that accept **JSON Sc
 - any claim with `support` = `documented_in_source` violates the **T1 code or dual-T2** rule in `pfr_evidence_sources_credibility.md`  
 - `outcome` ∈ {`already_supported`, `achievable_without_new_core`} and **no** evidence item has **`credibility_tier` `T1`**, and there are **fewer than two** independent **`T2`** sources — per strict gate in that file
 
+**`documentation_status`:** Set from **verified** wiki/help (and other **T2** official prose you rely on for *explanation*), per **`../../shared/evidence/evidence-playbook.md`** §8. **Do not** use this field to bypass any rule above; **`well_documented`** does **not** imply `human_review_required` may be `false` when another trigger applies.
+
 ---
 
 ## 3. Secondary artifact: Markdown (for Azure DevOps Description)
@@ -226,8 +238,12 @@ Suggested section:
 |-------|--------|
 | **Outcome** | already_supported \| achievable_without_new_core \| partially_supported \| not_supported_product_gap \| insufficient_information |
 | **Confidence** | high \| medium \| low |
+| **Documentation status** | well_documented \| partially_documented \| missing_documentation (per evidence-playbook §8; wiki/help T2 coverage for *explaining* the need, not product truth alone) |
 | **Human review required** | yes / no |
 | **Assessed at** | 2026-04-29T12:00:00Z |
+
+### Documentation coverage
+Short rationale tied to **verified** wiki/help (cite **SRC-**\*). If **partially_documented** or **missing_documentation**, state what should be added or fixed in official docs (topic, section, or release note), without weakening strict gates on outcome.
 
 ### Underlying need
 …
@@ -263,5 +279,5 @@ Suggested section:
 
 ---
 
-**File:** `PFR skill/pfr_ai_capability_check_output_format.md`  
-**Last updated:** 2026-04-29 (schema **1.2.1** — `help_360` kind; wiki/ADO/help nuance in credibility doc)
+**File:** `pfr-ai-capability-check/references/pfr_ai_capability_check_output_format.md`  
+**Last updated:** 2026-05-02 (schema **1.2.2** — `documentation_status`; calibration in `../../shared/evidence/evidence-playbook.md` §8)

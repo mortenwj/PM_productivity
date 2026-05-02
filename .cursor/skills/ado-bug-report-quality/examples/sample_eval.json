@@ -1,0 +1,50 @@
+{
+  "evaluatedAt": "2026-04-07T12:00:00Z",
+  "policy": {
+    "wikiSources": [
+      "https://wiki.software-innovation.com/wiki/Routine_for_customer_bugs_and_assistance_from_R%26D"
+    ],
+    "notes": ["Sample for report builder smoke test."]
+  },
+  "workItems": [
+    {
+      "id": 413479,
+      "url": "https://tieto-si.visualstudio.com/360/_workitems/edit/413479",
+      "gates": {
+        "critical": [
+          {
+            "id": "CG-TYPE",
+            "result": "pass",
+            "evidence": "Bug",
+            "remediation": null
+          }
+        ],
+        "advisory": [
+          {
+            "id": "AD-CUSTOMER-VERSION",
+            "result": "fail",
+            "evidence": "empty",
+            "remediation": "Set CustomerVersion."
+          }
+        ],
+        "overall_critical": "pass",
+        "advisory_pass_count": 5,
+        "advisory_fail_count": 3
+      },
+      "quality": {
+        "scoring_model": "weighted_core_v2",
+        "criteria": [
+          { "id": "Q1", "points": 1, "max_points": 1, "note": "Specific title." },
+          { "id": "Q2", "points": 1, "max_points": 2, "note": "Add numbered steps for full repro points." }
+        ],
+        "quality_weighted_points": 2,
+        "quality_weighted_max": 13,
+        "quality_score_raw": 2,
+        "quality_score_final": 2,
+        "quality_label": "Insufficient",
+        "cap_reason": null
+      },
+      "summary": "Add version and impacted module."
+    }
+  ]
+}
