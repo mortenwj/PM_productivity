@@ -1,0 +1,34 @@
+{
+  "project": "process-builder",
+  "purpose": "Product discovery — Process Builder scope and v1 definition",
+  "assembled": "2026-09-08",
+  "owner": "Morten Jensen",
+  "bmad_phase": "1-analysis",
+  "files": {
+    "01-problem-and-opportunity.md": "Problem space and hypothesis",
+    "02-current-state-authoring.md": "VS/PMC/skill current state",
+    "03-ado-400794-summary.md": "ADO feature + children + attachments summary",
+    "04-v0-prototype.md": "v0 UX prototype links and skill mapping",
+    "06-open-questions.md": "Gates before brief/PRD"
+  },
+  "evidence_paths": {
+    "ado_attachments": "../evidence/ado-400794/",
+    "v0_prototype_public": "https://processmaker-gamma.vercel.app/",
+    "v0_prototype_v1": "https://v0.app/chat/process-arguments-design-bMgrPOiYsjh?ref=Z52ANW"
+  },
+  "bmad_outputs": {
+    "brief": "_bmad-output/planning-artifacts/briefs/brief-process-builder-2026-09-08/",
+    "spec": "_bmad-output/specs/spec-process-builder/",
+    "planning": "_bmad-output/planning-artifacts/process-builder/"
+  },
+  "upstream_links": [
+    "https://dev.azure.com/tieto-si/360/_workitems/edit/400794",
+    "projects/process-platform/flow/",
+    "core-bl: si-bl-process-platform-build/.cursor/skills/flowworkunit-new-process/"
+  ],
+  "refresh_status": {
+    "ratatoskr_help": "not_run",
+    "mediawiki": "not_run",
+    "ado": "partial — #400794 ingested 2026-09-08"
+  }
+}
