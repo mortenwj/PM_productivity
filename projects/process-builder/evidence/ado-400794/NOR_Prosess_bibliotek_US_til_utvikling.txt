@@ -1,0 +1,84 @@
+Brukerhistorie: Opprett og administrer prosesser med argumenter Som prosessansvarlig Ønsker jeg å kunne tilpasse og administrere en standardiserte prosessmal med aktiviteter, oppgaver , klienthandlinger og sereverhandlinger og argumentstyrte regler på disse.
+1.
+Overordnet beskrivelse Løsningen skal gi prosessansvarlig mulighet til å: Hente frem, aktivere eller klone en standard prosessmal som allerede inneholder: Definerte egenskaper Standardaktiviteter Grunnleggende argumentlogikk Tilpasse prosessen ved å: Endre prosessnavn, status og beskrivelse Redigere innhold i aktivitete r Legge til, fjerne eller endre aktivitets- og argumentregler Lagre prosessen som: En ny prosess En modifisert versjon av en eksisterende prosess En ny standardmal (dersom bruker har nødvendig rolle) Prosessene skal kunne hentes frem, redigeres og gjenbrukes som konfigurerbare arbeidsflyter i saksbehandlingen.
+Hver prosess består av: A.
+Prosessmetadata – egenskaper på prosessen Prosessnavn (obligatorisk) Status (utkast, aktiv, inaktiv) Beskrivelse ++ B.
+Aktiviteter innenfor hvert prosess Aktiviteter kan være: Dokumentaktiviteter (f.eks.
+opprett mangelsbrev ) Datoaktiviteter (registrer mottatt dato, frister, milepæler) Oppgaver (send oppgave til Prosessansvarlig eller rolle) Møter/avtaler Lenker (åpne eksterne/internsystemlenker) Systemhandlinger (server-side handlinger) (fremtidig) Klienthandlinger (vis modaler, trigge steg, hente data) (fremtidig) C .
+Argument-styring Argumenter skal kunne brukes til å styre: Om en «aktivitet» skal inngå i prosessen Om en aktivitet skal opprettes eller ikke Hvilke handlinger som trigges under gitte betingelser 2.
+Omfang for brukerhistorien Denne brukerhistorien inkluderer: Henting av standard prosessmaler Oppretting av ny prosess basert på mal Redigering av: Prosessmetadata Stadier og aktiviteter Argumentlogikk Lagring og gjenbruk av prosesser A.
+Aktør og kontekst Primær aktør: Prosessansvarlig Sekundære aktører: System administrator Forutsetninger: Prosessansvarlig er innlogget og har nødvendige rettigheter til å opprette og redigere prosesser.
+Eventuelle lister som dokumenttyper, roller, milepæler etc.
+er tilgjengelige via konfigurasjon eller kod etabeller .
+B .
+Opprette ny prosess basert på prosess mal fra «standard prosess bibliotek» Prosessansvarlig navigerer til “ Legg til prosess for fase» .
+Prosessansvarlig klikker på velg standard prosess fra prosessbiblioteket velger i fr a prosess biblioteket “ Mottak ” , “ Saksbehandling ” , “ Vedtak ” , “ Sluttbehandling” + +++ Prosessansvarlig fyller inn nytt prosessnavn .
+Prosessansvarlig fyller inn egenskapene på prosessen Prosessansvarlig legger til argumenter for: Hvilke aktiviteter som skal opprettes Prosessansvarlig “Lagre prosess” .
+Systemet validerer alle felter og lagrer ny prosess, aktiviteter og argument-konfigurasjon.
+Den lagrede prosessen vises i listen til venstre, og kan velges og åpnes igjen for å redigere.
+F unksjonelle krav Jeg kan se en liste over tilgjengelige prosesser F.eks.
+forhåndskonfigurerte: “Mottak”, “Vurdering”, “Høring”, “Vedtak”, “Arkivering” (eksempel).
+C .
+Aktivitetstyper : Felles Alle aktivitetstyper har noen felles krav: Jeg kan gi aktiviteten en egen tittel (der det er aktuelt).
+Jeg kan konfigurere argumenter for om aktiviteten skal opprettes: “Legg til argument”-knapp åpner et lite panel/dialog: Felt: “Hvis [felt/parameter] [operator] [verdi] → ta med denne aktiviteten” Jeg kan legge til flere aktiviteter av samme type innenfor ett stadium.
+Kapittel D beskriver detaljer per aktivitetstype.
+D .
+Aktivitetstype: Opprett aktivitet for å lage dokument Funksjonelle krav Jeg kan velge dokumenttype fra liste: Inngående Saksfremlegg Internt notat Utgående dokument Jeg kan velge dokumentkategori : Mangelbrev Vedtak Anmodning om tilleggsdokumentasjon (Listen bør være konfigurerbar) Jeg kan velge milepæl som skal opprettes (på samme linje som dokumentkategori): F.eks.
+“Mangelbrev sendt”, “Vedtak fattet”, etc.
+Jeg kan legge til flere roller som mottakere: Søker Ekstern høringsinstans Intern høringsinstans Nabo Roller kan kombineres (flervalg).
+Jeg kan markere roller som kopimottaker : Egen avkryssing per rolle: “Send som kopi”.
+Jeg kan huke av om dokument skal til gjennomgang : Avkrysningsboks “Send til gjennomgang”.
+Jeg kan huke av om dokument skal til godkjenning : Avkrysningsboks “Send til godkjenning”.
+Jeg kan knytte templates til hver dokumenttype: Nedtrekksliste med tilgjengelige maler.
+Jeg kan legge til flere argumenter med “Legg til argument” : Eksempel: Hvis sakstype = “dispensasjon” → inkluder aktivitet “Vedtak – dispensasjon” Hvis harNaboer = true → inkluder aktivitet “Varsel til naboer”.
+E .
+Aktivitetstype: Registrer mottatt dato Funksjonelle krav Jeg kan gi aktiviteten en egen tittel (f.eks.
+“Registrer mottatt søknad”).
+Jeg kan velge milepæl fra liste: Mottatt søknad Anmodning om dokumentasjon mottatt Møte berammet (Konfigurerbar liste) Jeg kan legge til flere aktiviteter med “Legg til argument”-knapp : F.eks.
+flere typer mottakshendelser som skal registreres ved ulike argumentverdier .
+F .
+Aktivitetstype: Send oppgave til “ X ” Funksjonelle krav Jeg kan gi aktiviteten en egen tittel (f.eks.
+“Fordel sak til Prosessansvarlig ”).
+Jeg kan velge hvilken Prosessansvarlig eller rolle som skal motta oppgaven: Direkte valg av person , avdeling eller rolle (f.eks.
+“Bygge / Prosessansvarlig ”).
+Jeg kan velge milepæl som skal opprettes: F.eks.
+“Sak fordelt”.
+Jeg kan legge til flere aktiviteter med “Legg til argument”-knapp : Støtter betingede oppgaver, f.eks.: Hvis beløp > 1 000 000 → oppgave til “Senior Prosessansvarlig ”.
+G .
+Aktivitetstype: Opprett møte/avtale Funksjonelle krav Jeg kan gi aktiviteten en egen tittel (f.eks.
+“Møte med søker”).
+Jeg kan velge milepæl som skal opprettes: F.eks.
+“Møte berammet”, “Befaring gjennomført”.
+Jeg kan legge til flere aktiviteter med “Legg til argument”-knapp : Argumentstyrt opprettelse av møter, f.eks.: Hvis sakstype = “større tiltak” → opprett “Oppstartsmøte”.
+H .
+Aktivitetstype: Åpne lenke Funksjonelle krav Jeg kan gi aktiviteten en egen tittel (f.eks.
+“Åpne veileder” / «Åpne system» ).
+Jeg kan velge hvilken lenke som skal åpnes: URL til ekstern side eller internt system.
+Jeg kan legge til flere aktiviteter med “Legg til argument”-knapp : F.eks.: Hvis tema = “landbruk” → åpne lenke til landbruksveileder.
+I .
+Aktivitetstype: Registrer dato (Generisk dato-registrering, f.eks.
+frister, vedtaksdato m.m.) Funksjonelle krav Jeg kan gi aktiviteten en egen tittel (f.eks.
+“Registrer vedtaksdato”).
+Jeg kan velge milepæl som skal opprettes: F.eks.
+“Vedtak fattet”, “Klagefrist utløper”.
+Jeg kan legge til flere aktiviteter med “Legg til argument”-knapp : Spesifikke datoaktiviteter knyttet til ulike argumenter.
+J .
+Argument-styring (generelt) Konsept Argumenter er betingelser som styrer: Hvilke aktivitet som opprettes i prosessen F unksjonelle krav Jeg kan legge til argumenter på: Aktivitetsnivå Et argument består av: Felt/parameter Operator (lik, ulik, større enn, mindre enn, inneholder, etc.) Verdi Når prosessen instansieres for en konkret sak /prosessmodell Systemet evaluerer argumentene Bare de stadier og aktiviteter som matcher argumentene blir opprettet.
+14.
+Definition of Done (implementasjonsorientert) Alle felter valideres korrekt : Prosessnavn obligatorisk Eventuelle påkrevde felt per aktivitetstype markeres og valideres Ugyldige URL-er, tomme lister der noe er obligatorisk, etc.
+Prosesser lagres og kan hentes frem : CRUD-operasjoner fungerer ( create , read , update ).
+Stage-konfigurasjonen lagres sammen med prosessen: Inkluderer rekkefølge, navn, aktiv/inaktiv, argumenter.
+UI er responsiv og fungerer på ulike skjermstørrelser: Desktop primært, men skal fungere på laptop og større skjermer.
+TypeScript -typer er korrekt definert: F.eks .
+Process, Stage, Activity, Argument, Milestone, Role.
+Komponenten er delt opp i mindre, gjenbrukbare komponenter : F.eks .
+ProcessList , ProcessEditor , StageEditor , ActivityEditor , ArgumentEditor .
+Brukergrensesnittet er intuitivt og enkelt å forstå : Klar visuell struktur mellom prosess, stadier og aktiviteter.
+Tydelig merking av hva som er obligatorisk.
+Argument-styring fungerer for alle aktivitetstyper og stadier: Testscenarier dekker både positive og negative cases .
+15.
+Ytterligere notater og presiseringer Systemet skal støtte dynamisk tillegg av aktiviteter og stadier: Ingen hard begrensning i UI – “Legg til ny” tilgjengelig der det gir mening.
+Milepæler er konfigurerbare basert på aktivitetstype: Ulike aktivitetstyper tilbyr ulike milepællister.
+Roller for utgående dokumenter kan kombineres med ulike mottaker-typer: Primærmottaker(e) + kopimottakere.
+Prosessnavnet er obligatorisk før lagring : Lagringsknapp deaktivert eller gir tydelig feilmelding hvis tomt.
+Argument-styring gjør at man kan kontrollere hvilke aktiviteter som skal med: Gir fleksibilitet og gjenbruk på tvers av sakstyper uten å lage nye prosesser for hver

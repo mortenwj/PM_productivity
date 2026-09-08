@@ -1,0 +1,5 @@
+User Story: Create and Manage Processes with Arguments As a Process Owner I want to be able to customize and manage a standardized process template with activities, tasks, client actions, server actions, and argument-based rules for these.
+1.
+High-Level Description The solution shall allow the Process Owner to: Retrieve, activate, or clone a standard process template containing defined properties, standard activities, and basic argument logic.
+Customize: change name, status, description; edit activities; modify rules.
+Save as new process, modified process, or new template.

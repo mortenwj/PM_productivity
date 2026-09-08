@@ -1,0 +1,53 @@
+{
+  "kitRoot": "C:\\Users\\MortenJensen\\Brand Kit for Ai Agents",
+  "paths": {
+    "pptTemplate": "PPT template\\Tieto presentation Template - Tieto Sans dynamic 2.pptx",
+    "logoBlueSvg": "Tieto Logotype\\tieto_logo_blue_rgb.svg",
+    "logoBluePng": "Tieto Logotype\\tieto_logo_blue_rgb.png",
+    "logoWhiteSvg": "Tieto Logotype\\tieto_logo_white_rgb.svg",
+    "logoWhitePng": "Tieto Logotype\\tieto_logo_white_rgb.png",
+    "faviconSvg": "Tieto Favicon\\Tieto favicon.svg",
+    "iconsDir": "Icons",
+    "fontSansTtf": "Tieto Sans Typedace\\TTF",
+    "fontNumeralsTtf": "Tieto Numerals\\TTF"
+  },
+  "brandPortal": {
+    "strategy": "https://brand.tieto.com/document/168#/-/brand-strategy/tieto-brand-platform",
+    "toneOfVoice": "https://brand.tieto.com/document/169#/-/content-1/tone-of-voice"
+  },
+  "colors": {
+    "impactBlue900": "#021E57",
+    "impactBlue600": "#3531CF",
+    "impactBlue500": "#4E60E7",
+    "impactBlue400": "#839DF9",
+    "impactYellow": "#F5FF56",
+    "grey900": "#1A1715",
+    "grey600": "#57524F",
+    "grey500": "#78716E",
+    "grey300": "#D2D0CB",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "red": "#F9423A",
+    "green": "#26D07C",
+    "coral": "#FF6B6B",
+    "blue50": "#F8FAFF",
+    "blue100": "#F2F5FF",
+    "blue200": "#DBE5FF"
+  },
+  "typography": {
+    "heading": "Tieto Sans",
+    "body": "Tieto Sans",
+    "metrics": "Tieto Numerals",
+    "headingWeights": ["Medium", "Bold"],
+    "bodyWeight": "Regular"
+  },
+  "logoRules": {
+    "lightBackground": "tieto_logo_blue_rgb",
+    "darkBackground": "tieto_logo_white_rgb",
+    "doNotRecolor": true,
+    "doNotDistort": true
+  },
+  "iconDefaultFill": "#1d1d1b",
+  "iconOnDark": "#FFFFFF",
+  "iconOnBrand": "#021E57"
+}
