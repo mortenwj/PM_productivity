@@ -43,6 +43,23 @@ Present an **evidence ledger** before writing the answer file. For each factual 
 
 ---
 
+## tender-response runs
+
+Present a **tender evidence ledger** before final requirement prose when factual product/process claims are made. Profile: [`profiles/tender-evidence.md`](profiles/tender-evidence.md). Workflow: `tender-response/references/evidence-retrieval.md`.
+
+Per planned claim:
+
+**Claim:** [statement for tender text]  
+**Compliance use:** [Met / Partial / Supporting]  
+**Source:** [wiki URL / help topic URL / ADO item / GitHub blob / docs/product path / UNVERIFIED]  
+**Verified how:** [per **`evidence-playbook.md`** §4]  
+**Cite in tender:** [inline / Bilag ref / internal only]  
+**Confidence:** [High / Medium / Low per **`evidence-playbook.md`** §6]
+
+Do not mark compliance **Met** on **Low** confidence or **UNVERIFIED** claims.
+
+---
+
 ## Rationalizations to reject (process)
 
 | Rationalization | Why it is wrong |
