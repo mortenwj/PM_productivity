@@ -45,9 +45,9 @@ Buyers ask **where inference runs** and **who operates it** — especially **out
 
 **Ops rule for T3:** Tieto owns connectors and governance; customer owns GPU/model ops unless **explicit TS SKU**. Never claim "local LLM support" without that boundary.
 
-### 3. Sovereignty is handlingsrom, not anti-US
+### 3. Sovereignty is strategic optionality, not anti-US
 
-Large customers (Oslo, NAV) want **agnostic architectures** and future optionality. Small/mid kommuner adopt AI fast on **standard Microsoft cloud** and lack IT muscle to swap stacks. Strategy must serve **both**: packaged T2 for turnkey; T1/T3 for sovereign buyers.
+Large customers (Oslo, NAV) want **agnostic architectures** and the freedom to change vendors, models, and hosting over time — not a ban on US tools today. Small/mid kommuner adopt AI fast on **standard Microsoft cloud** and lack IT muscle to swap stacks. Strategy must serve **both**: packaged T2 for turnkey; T1/T3 for sovereign buyers.
 
 ### 4. Competitors will sell "open foundation for your agents"
 

@@ -5,7 +5,7 @@
 **Status:** Draft for QCLT review  
 **Author:** Morten Jensen (with agent assist)  
 **Date:** 10 September 2026  
-**Next step:** Propose 2–3 team objectives per product team + dependency map → team workshops (negotiation phase)
+**Next step:** [`qclt-objectives-alignment-pack-2026.md`](qclt-objectives-alignment-pack-2026.md) — QCLT agreement (CO + teams + Phase A + AI + agentic spike + platform) → LPM workshops → ProductPlan · Detail: [`team-objectives-refresh-workbook-2026.md`](team-objectives-refresh-workbook-2026.md) · [`team-objectives-proposal-2026.md`](team-objectives-proposal-2026.md)
 
 **Process context:** [Product Governance](https://wiki.software-innovation.com/wiki/Product_Governance) — company objectives → product team objectives → team-proposed KRs → negotiation → roadmap in ProductPlan.
 
@@ -22,7 +22,9 @@ The central strategic tension is **capacity vs. credibility**:
 - **Credibility** requires us to deliver on eDoc merger, Nordic Online growth, and reference customers (NVE, Oslo, NAV accessibility).
 - **Capacity** is consumed by legacy maintenance (IFAR, customized deployments) and parallel bid portfolios that largely demand the same product investments—especially **FFUI, platform spine, search, integrations, and BRE**.
 
-**Strategic implication:** We cannot treat UIM, Copenhagen discovery, eDoc merger, and Flow operationalization as independent threads. They converge on a small number of platform bets. Objectives must name those bets explicitly and defer or decline the rest.
+**Strategic implication:** We cannot treat UIM, Copenhagen discovery, eDoc merger, and Flow operationalization as independent threads. They converge on a small number of platform bets. Objectives must name those bets explicitly and **defer non-critical scope** — not walk away from the platform direction the market is asking for.
+
+**Post-offer posture (Sep 2026):** The **UIM offer is delivered**; we await the customer decision. **No-bid is no longer an option** — either we win and deliver the contract, or we do not. **Either way**, the 2026–27 objective refresh should **push forward** on spine, search, configurability, PE usability, WCAG, and governed AI: tenders and discovery are evidence of **where the Nordic public sector is heading**, not switches we turn off if a single award goes elsewhere. The same applies to **Copenhagen discovery** (AST/KK/NB): product bets in **CO1–CO3** and team objectives remain valid as **market direction**, with **phasing and capacity** adjusted if needed — not a return to pre-discovery backlog priorities.
 
 ---
 
@@ -42,6 +44,8 @@ The central strategic tension is **capacity vs. credibility**:
 | **eDoc merger**                 | Company objective: succeed by Q2 2026. Touches Transparency, Core UI, Core Integrations, Decision Support, Plan & Build.                                                      |
 | **ProductPlan objectives**      | 44 active objectives; many KRs at 0% progress or placeholder text. Objective set has grown faster than KR discipline.                                                         |
 | **Tender / discovery pressure** | UIM (27 commitment Features, 45–75 person-months), Copenhagen (AST, KK, NB), DSS (54 preliminary Features, ~48% overlap with UIM).                                            |
+| **UIM tender status** | **Offer delivered**; customer decision pending. Outcomes: **award → contract-aligned delivery**; **no award → same strategic themes** (platform spine, search, fit-to-standard) on product roadmap timing. **No-bid / withdraw from spine direction is off the table.** |
+| **Copenhagen discovery** | Qualitative constraints from AST/KK/NB — **objectives proceed regardless of individual bid outcomes**; accelerate Flow/PE, WCAG, metadata/AI patterns as general market direction. |
 
 
 
@@ -85,9 +89,9 @@ These constraints apply **even when we do not bid** a specific tender — they d
 
 Public buyers expect to **control data, configuration, and deployment** without perpetual vendor intervention. This goes beyond GDPR compliance into **who can change what, where data lives, and how exit works**.
 
-**How customers frame it — "handlingsrom" (room for action)**
+**How customers frame it — strategic optionality**
 
-Oslo municipality (GoforIT) is mapping technology dependencies without a fixed change strategy yet — similar to NAV. The priority is **agnostic architectures** that preserve optionality to swap components later. Sovereignty is **not** necessarily rejecting US or hyperscale providers outright; it is balancing:
+Oslo municipality (GoforIT) is mapping technology dependencies without a fixed change strategy yet — similar to NAV. The priority is **agnostic architectures** that preserve the ability to swap components and hosting later. Sovereignty is **not** necessarily rejecting US or hyperscale providers outright; it is balancing:
 
 - **Short term:** efficiency and access to best available technology (including Copilot and US productivity tools already adopted org-wide — hard to revert)
 - **Long term:** resilience, flexibility, and control (EU/Nordic-hosted infra for central tasks; IT/AI competence centres that could drive a shift)
@@ -111,8 +115,6 @@ Oslo municipality (GoforIT) is mapping technology dependencies without a fixed c
 | **VN Asia (Vahva)** | TLIV confidentiality, Katakri audit, EU/NATO case segregation; **domestic cloud options**; on-prem OpenShift container path |
 | **VN Asia Liite 2.5** | GDPR 25 embedded/privacy-by-design; role- and document-based least privilege |
 | **Nationalbanken** | Strict data classification; AI must not leave Denmark; regulated exit process (Bilag 7 exit plan) |
-| **KK gate brief** | Strict GDPR/AI governance surface; Koncern IT risk review up to 3 months |
-
 | **KK gate brief** | Strict GDPR/AI governance surface; Koncern IT risk review up to 3 months |
 | **GoforIT / Oslo** | Dependency mapping; flexibility in future technology choices; concern about US provider concentration |
 
@@ -234,18 +236,16 @@ We can derive this confidently from tenders: buyers structure requirements so th
 ### Cross-trend summary — what buyers are really purchasing
 
 ```mermaid
-quadrantChart
-    title Market demand shift
-    x-axis Low platform extensibility --> High platform extensibility
-    y-axis Feature parity focus --> Sovereignty and exit readiness
-    quadrant-1 Strategic sweet spot
-    quadrant-2 Compliance-led
-    quadrant-3 Legacy ESDH
-    quadrant-4 Integration-led
-    UIM DSS Vahva: [0.85, 0.75]
-    Copenhagen discovery: [0.7, 0.8]
-    eDoc merger: [0.5, 0.4]
-    Flow 6.10 runtime: [0.55, 0.45]
+flowchart TB
+    sweet["Strategic sweet spot — high extensibility and sovereignty / exit readiness"]
+    UIM["UIM, DSS, Vahva gates"]
+    CPH["Copenhagen discovery"]
+    EDOC["eDoc merger"]
+    FLOW["Flow 6.10 runtime"]
+    UIM --> sweet
+    CPH --> sweet
+    EDOC --> integration["Integration-led / feature-parity focus"]
+    FLOW --> integration
 ```
 
 **Strategic sweet spot:** Platform capabilities (FFUI, API-first, BRE, RDF) delivered with **sovereignty, auditability, and exit-ready data access** — plus **governed AI and agent-ready interfaces** on top, not instead. 360 wins as **secure, open foundation for AI-driven case management**, not as the only AI stack the customer may use.
@@ -418,7 +418,7 @@ Workshops will fail if they add objectives without retiring or consolidating exi
 | **Domestic-cloud AI**               | AST, KK, NB  | Governance and infrastructure not yet productized     |
 
 
-Objectives must either commit to closing these gaps or explicitly record a **no-bid / narrow-bid** decision.
+Objectives should commit to **closing these gaps on the product roadmap** (company and team KRs). **No-bid is not a decision path** after UIM offer delivery — QCLT may still **phase** work (contract milestone vs roadmap milestone) and **narrow contract Q&A scope**, but not treat platform spine as optional if the tender is lost.
 
 ### C5 — Cross-team dependencies without program ownership
 
@@ -440,9 +440,9 @@ These decisions should be made **before** team workshops, or workshops will re-d
 
 | #      | Decision                           | Options                                                   | Default recommendation                                                                                              |
 | ------ | ---------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **D1** | **UIM platform spine (433895)**    | A) Strategic commit · B) Bid with Q&A narrow · C) No-bid  | Decide in/out before setting Core UI objectives; if A, elevate to **company-wide platform bet**                     |
-| **D2** | **MK-77 / unbounded search**       | Commit · Partial + Q&A · Decline                          | Do not add FFUI KRs that imply full MK-77 unless D1 is "commit"                                                     |
-| **D3** | **Copenhagen → product vs. sales** | Product bets · Discovery only · Reference selling on 6.10 | Product bets for PE usability + metadata/AI patterns; link AI work to **D7 agent strategy** |
+| **D1** | **UIM platform spine (433895)**    | **Award:** contract-aligned phasing · **No award:** roadmap phasing · Q&A scope only where contract requires | **Default: company-wide platform bet regardless of award** — confirm **CU1/CO1** KRs; adjust dates/capacity to outcome, not direction |
+| **D2** | **MK-77 / unbounded search**       | Full roadmap · Phased (contract vs product milestone) · Contract Q&A narrow only | Align FFUI/search KRs with **D1 phasing** — do not drop MK-77 from strategy because of a lost bid |
+| **D3** | **Copenhagen → product vs. sales** | Product bets (default) · Reference selling only on 6.10 | **Product bets** for PE usability + metadata/AI patterns **independent of single-customer outcomes**; link AI to **D7** |
 | **D4** | **Objective consolidation**        | Max 2–3 objectives per team · Keep current 44             | Consolidate; retire archived/duplicate themes                                                                       |
 | **D5** | **IFAR handover**                  | Fixed date + capacity buffer · Status quo                 | Approve handover timeline to Transparency; free Process Platform capacity for Flow                                  |
 | **D6** | **Company objective set**          | Growth + Desirability + AI · Merge · Replace              | Keep three themes but rewrite KRs to reflect platform spine, desirability metrics, and **governed AI + agent platform** |
@@ -464,7 +464,7 @@ Full team objective proposals follow in the next artifact. At this stage, the br
 | --------------------- | ------------------------------------------------------------- | ---------------------- |
 | **Core UI**           | FFUI / platform spine; accessibility; eDoc UI merge           | 2–3                    |
 | **Process Platform**  | Flow/PAF GA + NVE; web modelling; BRE; IFAR handover          | 2–3                    |
-| **Core Integrations** | API-first platform; eDoc/KOMBIT verification; Autosaver value | 2                      |
+| **Core Integrations** | API-first platform; eDoc/KOMBIT verification *(Autosaver/INT3 parked)* | 2                      |
 | **Core BL**           | Containerization/TUXIT; dispatch/logging spine; Outlook       | 2                      |
 | **AI & Insights**     | Governed AI infra; agent platform; Mimir/ArIn; native agents + partnership lane | 2                      |
 | **Transparency**      | Publishing solutions; eDoc general merge                      | 2                      |
@@ -480,25 +480,25 @@ Full team objective proposals follow in the next artifact. At this stage, the br
 ## Cross-team dependency map (critical path)
 
 ```mermaid
-flowchart LR
-    subgraph platform [Platform spine]
-        CU[Core UI: FFUI + search]
-        PP[Process Platform: BRE]
-        CBL[Core BL: retention + dispatch]
+flowchart TB
+    subgraph platform["Platform spine"]
+        CU["Core UI — FFUI and search"]
+        PP["Process Platform — BRE"]
+        CBL["Core BL — retention and dispatch"]
     end
 
-    subgraph execution [Process execution]
-        FLOW[Process Platform: Flow/PAF]
-        PNB[Plan and Build: webparts + maps]
-        COL[Collect: RDF integration]
+    subgraph execution["Process execution"]
+        FLOW["Process Platform — Flow and PAF"]
+        PNB["Plan and Build — webparts and maps"]
+        COL["Collect — RDF integration"]
     end
 
-    subgraph intelligence [Intelligence]
-        AI[AI and Insights]
+    subgraph intelligence["Intelligence"]
+        AI["AI and Insights"]
     end
 
-    subgraph connect [Connectivity]
-        INT[Core Integrations: API-first]
+    subgraph connect["Connectivity"]
+        INT["Core Integrations — API-first"]
     end
 
     CU --> FLOW
@@ -511,11 +511,11 @@ flowchart LR
     INT --> CU
     INT --> AI
 
-    UIM[UIM tender commitments] --> platform
+    UIM["UIM tender commitments"] --> CU
     UIM --> INT
-    CPH[Copenhagen discovery] --> FLOW
+    CPH["Copenhagen discovery"] --> FLOW
     CPH --> AI
-    EDOC[eDoc merger Q2 2026] --> CU
+    EDOC["eDoc merger Q2 2026"] --> CU
     EDOC --> INT
 ```
 
@@ -566,8 +566,8 @@ Unless a leadership decision overrides:
 
 ## Open questions for QCLT
 
-1. Is **433895 platform spine** a company-wide strategic bet for 2026–2027 regardless of UIM award outcome?
-2. Should **Copenhagen discovery** produce net-new objectives or mainly accelerate existing Flow/FFUI/AI themes?
+1. **433895 platform spine** — confirm as company-wide bet **regardless of UIM award**; agree **phasing** if no award (capacity vs merger/UIM peak).
+2. **Copenhagen** — confirm discovery **accelerates existing Flow/FFUI/AI themes** (default) rather than net-new objectives per municipality.
 3. What is the **IFAR handover date** and temporary capacity buffer for Process Platform?
 4. Do we **consolidate** "Improve Desirability" and FFUI into one desirability narrative, or keep separate?
 5. How do we **program-manage** eDoc merger vs. UIM vs. Flow GA—one portfolio board or three?

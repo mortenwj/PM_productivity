@@ -1,37 +1,30 @@
 # PM_productivity
 
-Personal **product manager productivity** workspace: Cursor agent **skills**, shared evidence playbooks, and tooling around **Azure DevOps**, **GitHub**, and **Public 360°** (wiki, PFR, backlog quality).
+Personal **product manager productivity** workspace: Cursor agent **skills**, shared evidence playbooks, **toolkit** scripts, **docs**, and the **Process Platform** project (Flow + BRE + pilot).
 
-**Canonical repository:** [https://github.com/mortenwj/PM_productivity](https://github.com/mortenwj/PM_productivity)  
-(This is not the same repo as `mortenwj/pm-productivity` with a hyphen; use the link above when cloning or setting `origin`.)
+**Canonical repository:** [https://github.com/mortenwj/PM_productivity](https://github.com/mortenwj/PM_productivity)
 
----
-
-## What is in this repo (tracked)
-
-| Path | Purpose |
-|------|--------|
-| [`.cursor/skills/`](.cursor/skills/) | Cursor **Agent Skills** (`SKILL.md` per skill): morning report, PFR capability check, lmwtfy research, triage, ADO story/bug quality, shared evidence retrieval, and more. |
-| [`.cursor/skills/shared/evidence/`](.cursor/skills/shared/evidence/) | Shared **evidence** layer: budgets, playbooks, profiles (`code-first-research`, `cost-aware-doc-first`), MediaWiki norms ([`mediawiki_extract.md`](.cursor/skills/shared/evidence/mediawiki_extract.md)). |
-| [`.gitignore`](.gitignore) | Python, local secrets (`config.json`, `.env`), IDE noise, and `.cursor/skills.zip` (redundant export of the skills folder). |
-
-Open any skill’s `SKILL.md` for trigger phrases and behaviour. The shared evidence [README](.cursor/skills/shared/evidence/README.md) indexes cross-skill retrieval docs.
+Open this folder as the **Cursor workspace root**. BMad installer output (`_bmad/`, `.agents/`, `.github/agents/`) lives here for local spec-driven work but is **not** committed to git.
 
 ---
 
-## Using this repo in Cursor
+## Layout
 
-1. Clone [mortenwj/PM_productivity](https://github.com/mortenwj/PM_productivity) and open the folder as your workspace.
-2. Ensure **Agent Skills** can see this tree (skills live under `.cursor/skills/` per Cursor conventions).
-3. Configure **MCP** as needed for your flows (e.g. Azure DevOps, MediaWiki, Ratatoskr) — see each skill and [`sources-and-tools.md`](.cursor/skills/shared/evidence/sources-and-tools.md) for hygiene and caps.
+| Zone | Path | Purpose |
+|------|------|---------|
+| **Skills** | [`.cursor/skills/`](.cursor/skills/) | Cursor Agent Skills (morning report, module health, PFR, ADO quality, …) |
+| **Toolkit** | [`toolkit/`](toolkit/) | Reusable scripts: morning report, module health, PFR analysis, ADO quality |
+| **Docs** | [`docs/`](docs/README.md) | lmwtfy answers + product/tender drafts |
+| **Process Platform** | [`projects/process-platform/`](projects/process-platform/README.md) | Flow, BRE, pilot weekly reports, workunits, process models |
+| **Outputs** | [`outputs/`](outputs/README.md) | Generated reports (gitignored except README / `.gitkeep`) |
 
 ---
 
-## Local-only and optional material
+## Quick links
 
-You may keep **scripts**, **generated reports** (e.g. `morning_report.md`), and **draft docs** in the same folder on disk; many of those paths are **gitignored or not yet committed**. Add and commit them when you want them on GitHub.
-
-If you use a **wiki MCP** or other local servers from this workspace, keep secrets out of Git (see `.gitignore`).
+- [DAILY_WORKFLOW.md](DAILY_WORKFLOW.md) — day-to-day commands and habits
+- [PROJECT_SETUP.md](PROJECT_SETUP.md) — clone, MCP, secrets
+- [PM_productivity.code-workspace](PM_productivity.code-workspace) — multi-root workspace (this repo + optional `core-bl`)
 
 ---
 

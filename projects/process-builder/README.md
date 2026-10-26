@@ -4,14 +4,14 @@ Greenfield product exploration for **Process Builder** within the 360° Process 
 
 **Owner:** Morten Jensen  
 **Started:** 2026-09-08  
-**BMAD phase:** 1-analysis (scope / brief) + v1 POC build  
-**Status:** Web POC scaffold running; generator next
+**BMAD phase:** 2-spec (SPEC kernel complete) + v1 POC with generator  
+**Status:** Web POC on `feature/process-builder-poc`; dogfood S1–S3 per SPEC
 
 ---
 
 ## Decision to reach
 
-What is Process Builder — a role-facing tool, a new authoring surface, an AI-assisted model creator, or something else — and what belongs in v1?
+Brief and SPEC lock v1 scope. Next: **`bmad-create-architecture`** or **`bmad-prd`** slice, then dogfood scenarios S1–S3.
 
 ---
 
@@ -22,16 +22,17 @@ What is Process Builder — a role-facing tool, a new authoring surface, an AI-a
 | [information-package/](./information-package/) | Evidence bundle for BMAD skills |
 | [brand-kit/](./brand-kit/) | Tietoevry brand assets + tokens for UI |
 | [web/](./web/) | React POC (Vite) — run `npm run dev` |
-| `_bmad-output/planning-artifacts/briefs/brief-process-builder-2026-09-08/` | Product brief (in progress) |
-| `_bmad-output/specs/spec-process-builder/` | SPEC kernel (after brief) |
+| `_bmad-output/planning-artifacts/briefs/brief-process-builder-2026-09-08/` | Product brief |
+| `_bmad-output/specs/spec-process-builder/` | **SPEC kernel** + scenarios, evaluation, generator contract |
 
 ---
 
 ## Recommended BMAD sequence
 
-1. **`bmad-product-brief`** — coaching path → scope and vision (`brief.md`)
-2. **`bmad-spec`** — lock WHAT before PRD
-3. **`bmad-prd`** → **`bmad-ux`** → **`bmad-create-architecture`**
-4. **`bmad-quick-dev`** or **`bmad-dev-story`** — when ready to build
+1. ~~**`bmad-product-brief`**~~ — done (refresh recommended against SPEC)
+2. ~~**`bmad-spec`**~~ — **`spec-process-builder`** created 2026-09-08
+3. **`bmad-create-architecture`** — output folder, tests, deploy script
+4. **`bmad-prd`** → **`bmad-ux`** (formalize canvas flows if needed)
+5. **`bmad-dev-story`** — dogfood blockers (localization, golden files)
 
 Related context: [`projects/process-platform/`](../process-platform/README.md), AI model creator spike, Flow process-builder role in training manuscripts.

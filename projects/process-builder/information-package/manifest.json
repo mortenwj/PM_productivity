@@ -3,12 +3,13 @@
   "purpose": "Product discovery — Process Builder scope and v1 definition",
   "assembled": "2026-09-08",
   "owner": "Morten Jensen",
-  "bmad_phase": "1-analysis",
+  "bmad_phase": "2-spec",
   "files": {
     "01-problem-and-opportunity.md": "Problem space and hypothesis",
     "02-current-state-authoring.md": "VS/PMC/skill current state",
     "03-ado-400794-summary.md": "ADO feature + children + attachments summary",
-    "04-v0-prototype.md": "v0 UX prototype links and skill mapping",
+    "04-v0-prototype.md": "v0 UX prototype links (superseded for interaction by POC)",
+    "05-poc-learnings.md": "Web POC decisions, generator status, skill sync",
     "06-open-questions.md": "Gates before brief/PRD"
   },
   "evidence_paths": {
@@ -21,7 +22,6 @@
     "spec": "_bmad-output/specs/spec-process-builder/",
     "planning": "_bmad-output/planning-artifacts/process-builder/"
   },
-  "upstream_links": [
     "https://dev.azure.com/tieto-si/360/_workitems/edit/400794",
     "projects/process-platform/flow/",
     "core-bl: si-bl-process-platform-build/.cursor/skills/flowworkunit-new-process/"
