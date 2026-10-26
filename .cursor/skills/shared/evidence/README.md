@@ -8,14 +8,15 @@
 
 - **Vocabulary** (verified, lead, confidence, claim, evidence, conflicts): **`evidence-playbook.md`**.
 - **Numbers, stage order, tool hygiene:** this folder (`budgets.md`, `sources-and-tools.md`, `profiles/`, …). If a skill doc disagrees on **order or caps**, fix this folder.
-- **PFR JSON, T1–T4 tiers, `human_review_required`, outcome enums:** **`pfr-ai-capability-check/references/pfr_evidence_sources_credibility.md`** and **`pfr-ai-capability-check/references/pfr_ai_capability_check_output_format.md`** (retrieval order here does **not** override tier rules).
+- **PFR JSON, T1–T4 tiers, `human_review_required`, outcome enums:** **[`quality-gates/pfr-evidence-tiers.md`](../../quality-gates/pfr-evidence-tiers.md)** and **[`quality-gates/pfr-output-format.md`](../../quality-gates/pfr-output-format.md)** (retrieval order here does **not** override tier rules).
 
 ## Which skills use which profile
 
 | Skill | Profile | Also read |
 |-------|---------|-----------|
-| **`pfr-ai-capability-check`** | [`profiles/cost-aware-doc-first.md`](profiles/cost-aware-doc-first.md) | [`evidence-playbook.md`](evidence-playbook.md); stage **0** in [`pfr-ai-capability-check/references/pfr_evidence_retrieval_cost_strategy.md`](../../pfr-ai-capability-check/references/pfr_evidence_retrieval_cost_strategy.md); PFR skill credibility + output format. |
-| **`lmwtfy`** | [`profiles/code-first-research.md`](profiles/code-first-research.md) | [`evidence-playbook.md`](evidence-playbook.md), [`budgets.md`](budgets.md), [`ratatoskr-preflight.md`](ratatoskr-preflight.md); tool names in `.cursor/skills/lmwtfy/rules/ratatoskr-mcp-tools.md`; output in `rules/lmwtfy-format.md`. |
+| **`pfr-capability-gate`** | [`profiles/cost-aware-doc-first.md`](profiles/cost-aware-doc-first.md) | [`evidence-playbook.md`](evidence-playbook.md); [`quality-gates/pfr-retrieval-strategy.md`](../../quality-gates/pfr-retrieval-strategy.md); [`quality-gates/pfr-evidence-tiers.md`](../../quality-gates/pfr-evidence-tiers.md); [`quality-gates/pfr-output-format.md`](../../quality-gates/pfr-output-format.md). |
+| **`lmwtfy`** | [`profiles/code-first-research.md`](profiles/code-first-research.md) | [`evidence-playbook.md`](evidence-playbook.md), [`budgets.md`](budgets.md), [`ratatoskr-preflight.md`](ratatoskr-preflight.md); output in `skills/claude-code/lmwtfy/rules/lmwtfy-format.md`. |
+| **`tender-response`** | [`profiles/tender-evidence.md`](profiles/tender-evidence.md) | [`evidence-playbook.md`](evidence-playbook.md), [`budgets.md`](budgets.md), [`ratatoskr-preflight.md`](ratatoskr-preflight.md); ledger and workflow in `tender-response/references/evidence-retrieval.md`. |
 
 ## File index
 
@@ -29,11 +30,13 @@
 | [`budgets.md`](budgets.md) | Numeric caps (wiki, topics, ADO, code) in one table |
 | [`profiles/cost-aware-doc-first.md`](profiles/cost-aware-doc-first.md) | Doc-first waterfall + relative cost + T1 timing (PFR-aligned) |
 | [`profiles/code-first-research.md`](profiles/code-first-research.md) | Code-first load order + extract list (lmwtfy / product-context) |
+| [`profiles/tender-evidence.md`](profiles/tender-evidence.md) | Doc-first waterfall for tender/RFP answers (prior art → wiki → help → ADO → code) |
 
 ## Changelog (this folder)
 
 | Version | Date | Change |
 |---------|------|--------|
+| 1.3 | 2026-07-07 | Added `profile:tender-evidence` for `tender-response` skill |
 | 1.2 | 2026-05-02 | README: `evidence-playbook.md` as authoritative semantics; file index order; profile table links |
 | 1.1 | 2026-05-02 | Added `evidence-playbook.md` |
 | 1.0 | 2026-05-02 | Initial shared extraction from PFR retrieval strategy + lmwtfy context-assembly / SKILL |

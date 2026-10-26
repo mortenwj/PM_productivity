@@ -5,8 +5,8 @@ description: >-
   per MORNING_REPORT_SPEC.md: last-2-workdays for §3 only; §1 Requires your
   attention has no filters—full pagination, full Assigned/My activity tables,
   full comment threads for mention classification, wit_my_work_items plus
-  optional saved query. Writes
-  morning_report.md at repo root. Use when
+  optional saved query.   Writes
+  outputs/morning/morning_report.md. Use when
   the user says good morning, asks for a morning report, daily standup digest,
   @mention no reply, threads awaiting reply, or Process Platform /
   Core-Process-platform recent activity summary.
@@ -16,7 +16,7 @@ description: >-
 
 ## Before you start
 
-1. Read **`MORNING_REPORT_SPEC.md`** at the repository root (authoritative: time window, section order, MCP tools, GitHub config).
+1. Read **`toolkit/morning-report/MORNING_REPORT_SPEC.md`** (authoritative: time window, section order, MCP tools, GitHub config).
 2. Use **today’s date** as “report date” and compute the **2-workday cutoff** only for **§3** and **GitHub**. **§1** must follow **`§1 — Exhaustive retrieval`** in the spec: **no** filters, samples, or row caps—page MCP/ADO until feeds and comments are complete.
 
 ## Default scope (unless the user overrides)
@@ -26,7 +26,7 @@ description: >-
 | ADO project | `360` |
 | ADO team | `Core-Process-platform` |
 | “Recent” window | Last 2 workdays for **§3** + GitHub only; **§1** = no filters (see spec §1 exhaustive block) |
-| Output file | `morning_report.md` (repo root; overwrite for the current run) |
+| Output file | `outputs/morning/morning_report.md` (overwrite for the current run) |
 
 GitHub repos and `team_github_users`: read from repo `config.json` key `morning_report` if present; otherwise follow defaults in the spec.
 
@@ -64,5 +64,5 @@ Use the tool names and purposes listed in **`MORNING_REPORT_SPEC.md`** (Azure De
 
 ## After writing
 
-- Save **`morning_report.md`** at repo root.
+- Save **`outputs/morning/morning_report.md`**.
 - Give the user a **2–4 sentence** verbal summary in chat pointing to the file.
