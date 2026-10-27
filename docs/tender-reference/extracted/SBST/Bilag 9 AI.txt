@@ -1,0 +1,23 @@
+Indledning
+Dette bilag indeholder Leverandørens forpligtelser i forbindelse med at sikre overholdelse af AI-forordningen.
+På Kundens forespørgsel skal Leverandøren dokumentere overholdelse af kravene i dette bilag.
+Krav til AI-systemer med begrænset risiko
+Krav til Leverandøren som udbyder af AI system med begrænset risiko efter AI-forordningen
+Bistand til Kunden som idriftsætter af AI-system med begrænset risiko
+Rettighed til datasæt
+Ret til at anvende datasæt
+Ret til Kundens datasæt
+Alle rettigheder, herunder ophavsrettigheder, i forbindelse med Kundens datasæt tilfalder Kunden eller en tredjepart, der er udpeget som sådan af Kunden.
+Leverandøren har ikke ret til at anvende Kundens datasæt til andre formål end opfyldelse af Leveringskontrakten, medmindre andet er godkendt af Kunden.
+På Kundens første anmodning skal Leverandøren destruere Kundens datasæt, medmindre andet er godkendt af Kunden. Hvis Kunden kræver det, skal Leverandøren fremlægge retvisende dokumentation for destruktion af Kundens datasæt.
+Ret til leverandørdatasæt og tredjepartsdatasæt
+Alle rettigheder, herunder ophavsrettigheder, vedrørende leverandørdatasæt og tredjepartsdatasæt tilfalder Leverandøren eller tredjepart.
+Leverandøren giver Kunden en ikke-eksklusiv brugsret til at anvende leverandørdatasæt og tredjepartsdatasæt, som under alle omstændigheder er tilstrækkelige til at opfylde Leveringskontraktens bestemmelser, herunder i dette bilag, medmindre andet er aftalt mellem Parterne.
+Brugsretten omfatter retten til at anvende leverandørdatasæt og tredjepartssæt til Kundens eller en tredjeparts videreudvikling af AI-systemet, herunder eventuelle nye versioner heraf, medmindre andet er aftalt mellem Parterne.
+Overdragelse af datasættene
+På Kundens anmodning overdrager Leverandøren den seneste version af Kundens datasæt til Kunden.
+På Kundens anmodning overdrager Leverandøren den seneste version af leverandørdatasættene og tredjepartsdatasættene til Kunden, medmindre andet er aftalt mellem Parterne.
+Datasættene skal overdrages til Kunden af Leverandøren i et fælles filformat, der bestemmes af Kunden.
+Godtgørelser
+Leverandøren godtgør Kunden for alle krav, der rejses af tredjeparter, herunder tilsynsmyndigheder, i forbindelse med enhver krænkelse af deres immaterielle rettigheder, ret til databeskyttelse eller tilsvarende krav i forbindelse med anvendelsen af AI-systemet, leverandørdatasættene og/eller tredjepartsdatasættene.
+Kunden godtgør Leverandøren for alle krav, der rejses af tredjeparter, herunder tilsynsmyndigheder, i forbindelse med enhver krænkelse af deres immaterielle rettigheder, ret til databeskyttelse eller tilsvarende rettigheder i forbindelse med anvendelsen af Kundens datasæt.

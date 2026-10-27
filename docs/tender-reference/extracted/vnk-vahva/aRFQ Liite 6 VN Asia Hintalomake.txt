@@ -1,0 +1,67 @@
+## sheet1.xml
+VNK  asianhallintajärjestelmäkokonaisuuden hankinta / Hintalomake liite 6
+OHJE:
+Tähän hinnoitteluliitteeseen toimittaja kertoo tarjouksensa sitovat hinnat
+- Toimittaja täyttää keltaiset kentät  välilehdilta 1. Tarjottavat hinnat eriteltynä sekä 2. Tarjottavat lisenssit eriteltynä
+- Hinnat ilmoitetaan euroina kahden desimaalin tarkkuudella (alv 0%)
+- Jos jotain hintaa ei ole ilmoitettu, hinnan oletetaan olevan 0 euroa
+- Taulukon rakennetta ei saa muuttaa,  tietoja saa  muuttaa vain keltaisella merkityissä soluissa
+- Taulukko sisältää kaikki hinnoittelussa käytettävät tiedot, muita hinnoitteluperusteita ei ole
+- Hinnoittelun lopuksi Tarjoaja siirtää solussa G35 olevan summan Hanki-järjestelmään pyydettyyn kohtaan
+Tarjoajan nimi:
+A. Kiinteä kertahankintahinta
+Hinnoittelun kohde	Täsmennys	Hinnoitteluperuste	Tarjottu hinta	Painotus	Vertailuhinta
+A	POC	PoC kokonaisuus toteutetaan liitteessä 3.1 kuvatun mukaisesti. Tarjottu hinta sisältää PoC-toteutuksen mahdollisesti tarvitsemat lisenssit.	kiinteä hinta	0	1	0
+A	Suunnitteluvaihe	Suunnitteluvaihe toteutetaan liitteessä 3.3 kuvatun mukaisesti.	kiinteä hinta	0	1	0
+A	Lisenssit	Mahdollisesti tarvittavien lisenssien hankintahinta.
+
+Toimittaja kuvaa lisenssien tarkemmat tiedot ja  hinnoittelutavan välilehdellä "Tarjottavat lisenssit". (Hinta siirtyy välilehdeltä 2)	kiinteä hinta	0	1	0
+B. Vuosikustannukset
+Ilmoitettujen vuosikustannusten tulee sisältää kaikki tietosuojaan liittyvät pakolliset vaatimukset. Lisäksi ilmoitettujen vuosikustannusten tulee sisältää kaikki toimitettavaa järjestelmää koskevat pakolliset ja pisteytetttävät vaatimukset, joihin tarjoja on vastannut "Kyllä".
+Hinnoittelun kohde	Täsmennys	Hinnoitteluperuste	Tarjottu hinta	Painotus	Vertailuhinta
+B	Lisenssit	Lisenssien vuosittainen käyttöoikeusmaksu välilehden 2.  kuvauksen mukaan (Hinta siirtyy välilehdeltä 2)	eur / vuosi	0	10	0
+B	Ylläpito	Vuosittainen ylläpidon perusmaksu,  liitteen 4 (pääsopimus) ja sen liitteiden mukaan.	eur / vuosi	0	10	0
+C. Erikseen veloitettavien kustannusten perusteet
+Asiakas voi sopimuskaudella tilata toimitettuun ratkaisuun liittyviä asiantuntijapalveluita (esim. liitteissä 1.1 ja 1.2 kuvattuihin toteutuksin liittyen ym.). Erikseen tilattavista töistä sovitaan tilaajan kanssa aina etukäteen kirjallisesti. Painotuksena käytettävät määrät ovat ainoastaan vertailuhinnan laskemista varten (vertailutyömäärä toimitusvaiheessa on 4000 htp, ylläpidon osalta 180 htp (30 +150) *10 v ja jatkokehityksen 6000 htp). Volyymit eivät sido tilaajaa. Toteutuvat määrät voivat olla suurempia tai pienempiä.
+Hinnoittelun kohde - Toimitusvaihe	Täsmennys	Hinnoitteluperuste 
+(1 htp = 7,5 tuntia)	Tarjottu hinta	Painotus	Vertailuhinta
+C1	Toimitusvaiheessa johtavien asiantuntijoiden työ (projektipäällikkö, arkkitehti yms.) -	Toimitusvaiheeseen nimettävillä johtavilla asiantuntyijoilla tulee olla vähintään 5 vuoden kokemus vastaavien järjestelmien toimitusprojekteista.	eur / htp	0	800	0
+C2	Toimitusvaiheessa asiantuntijoiden työ (tekninen asiantuntija / kehittäjä, tuotepäällikkö, käyttöliittymäsuunnittelija, tietoturva-asiantuntija yms.)	Toimitusvaiheeseen nimettävillä asiantuntijoilla tulee olla vähintään 3 vuoden kokemus vastaavien järjestelmien toimitusprojekteista.	eur / htp	0	2000	0
+C3	Toimitusvaiheessa perustason asiantuntijatyö	Toimitusvaiheeseen nimettävillä asiantuntijoilla tulee olla kokemusta ja osaamista vastaavien järjestelmien toimitusprojekteista.	eur / htp	0	1200	0
+C5	Kouluttaja	Nimettävällä kouluttajalla tulee olla kokemusta ja osaamista vastaavien järjestelmien toimitusprojekteista.	eur / htp	0	100	0
+Hinnoittelun kohde- Ylläpito ja jatkokehitys	Täsmennys	Hinnoitteluperuste 
+(1 htp = 7,5 tuntia)	Tarjottu hinta	Painotus (10 v)	Vertailuhinta
+C4	Ylläpitovaihe (3. taso)	Ylläpitoon osallistuvilla asiantuntijoilla tulee olla kokemusta ja osaamista vastaavien järjestelmien ylläpidosta.	eur / htp	0	300	0
+Ylläpitovaihe (2. taso)	Ylläpitoon osallistuvilla asiantuntijoilla tulee olla kokemusta ja osaamista vastaavien järjestelmien ylläpidosta.	eur / htp	0	1500	0
+C4	Toimitusvaiheen jälkeinen jatkokehitys (OPTIO)	Toimitusvaiheen jälkeiseen jatkokehitykseen osallistuvilla asiantuntijoilla tulee olla kokemusta ja osaamista vastaavien järjestelmien jatkokehityksestä.	eur / htp	0	6000	0
+Vertailuhinta yhteensä	0
+D. OPTIOT
+Tarjoajan tulee hinnoittella alla kuvatut, sopimuskaudella mahdollisesti optiona hankittavat tuotteet/palvelut. Tarjoaja voi alustavassa tarjouksessaan esittää vapaamuotoisia huomioita kuvatun option hinnoittelusta, hinnoitteluperusteista sekä hinnoitteluperusteen mukaisen hinta-arvionsa option toteutuksesta. Optioina tarjottuja hintoja ei lasketa osaksi tarjoajan lopullista vertailuhintaa. Optioiden hinnoittelu ja sisältö tarkentuvat lopulliseen tarjouspyyntöön.
+Hinnoittelun kohde	Tarjoajan huomioita ko. option hinnoittelusta	Hinnoitteluperuste	Tarjottu hinta	Painotus	Vertailuhinta
+D1	Tiedonohjaussuunnitelman ja muiden ohjaustietojen hallintakomponentti	0
+Pitkäaikaissäilytys/ arkistointiratkaisu ja koodistoratkaisu
+D2	DevSecOps -ympäristö	0
+D3	TL III aineiston käsittelymahdollisuus (sis. Tarvittavien komponettien asennus TLIII tason ympäristöön)	0
+## sheet2.xml
+OHJE:
+Tarjotut lisenssit 6000 käyttäjälle
+- Tarjouksessa huomioidaan sekä palvelin-, palvelu- ja käyttäjäkohtaiset lisenssit
+- Lisenssien määrän pitää riittää ylläolevaan käyttötarpeeseen
+- Lisenssejä voidaan hankkia lisähankintana yksittäisinä kappaleina, hankintamäärä ei vaikuta kappalehintaan
+- Mikäli kehitys-testi- ja koulutusympäristöihin tarvitsee hankkia omia lisenssejä, ne mainitaan tässä, lisenssimäärien lähtökohtana:
+1 kehitysympäristö, 3 testausympäristöä, 1 koulutusympäristö
+- Mikäli ulkopuolinen järjestelmäintegraatio (yksi-, tai kaksisuuntainen) tarvitsee oman lisenssin, se mainitaan tässä. Mainittava myös, jos integraation kautta tulevilla käyttäjämäärillä on lisenssikustannusvaikutuksia. Vertailussa käytettävät arvot: 10kpl kaksisuuntaista ja 10 kpl yhdensuuntaista järjestelmäintegraatioita.
+- Tarvittaessa rivejä voi lisätä
+- Tässä ilmoitetut lisenssimäärät ovat vertailussa käytettäviä määriä, ei lopullisia hankittavia määriä
+rivi	Tarjottava lisenssi	Tarjottavien lisenssien määrä	lisenssikohtainen (1 kpl) kertahinta	lisenssikohtainen (1 kpl) vuosihinta	Perustelu lisenssitarpeelle	kertahankintahinta yhteensä	Vuosihinta yhteensä
+1	0	0	0	0
+2	0	0	0	0
+3	0	0	0	0
+4	0	0	0	0
+5	0	0	0	0
+6	0	0	0	0
+7	0	0	0	0
+8	0	0	0	0
+9	0	0	0	0
+10	0	0	0	0
+TARKASTA, ETTÄ VIEREISET SUMMAT SIIRTYVÄT VÄLILEHDELLE 1:	0	0

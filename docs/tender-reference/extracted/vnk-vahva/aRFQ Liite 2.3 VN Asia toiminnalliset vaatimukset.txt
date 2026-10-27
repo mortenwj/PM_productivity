@@ -1,0 +1,528 @@
+## sheet1.xml
+Liite 2.3
+Asianumero:	VN/1860/2026-VNK-2
+Päivämäärä:	46101
+VN Asia toiminnalliset vaatimukset
+Tarjoajan nimi:
+Tässä dokumentissa Tilaajalla ja Asiakkaalla tarkoitetaan Valtioneuvoston kansliaa sekä Valtoria. Dokumentti sisältää tarjouspyynnön kohteena olevan asianhallintaratkaisun toiminnalliset vaatimukset. Sisällysluettelosta käy ilmi dokumentin vaatimuksia kuvaavat välilehdet, joita on neljä (4) kappaletta.
+Ohjeita:
+Lomake tulee täyttää sähköisesti. Lomakkeen täytettävät kentät on värjätty vaaleanharmaalla. 
+Toimittaja ei saa muokata taulukkoa muilta osin kuin vastaamalla kyllä/ei vaaleanharmaissa kentissä.
+Pakolliset vaatimukset
+Toimittajan vastaus (kyllä/ei): Kyllä = sisältyy toteutukseen, Ei = ei voida toteuttaa. Pakollisten vaatimusten tulee sisältyä Toimittajan toteutukseen. "Ei"-vastaus on tarjouksen hylkäyksen peruste pakollisissa vaatimuksissa. Vaatimukset, joihin ei ole vastattu lainkaan tai vastaus ei ole yksiselitteinen, tulkitaan ”Ei”-vastauksiksi. 
+Vertailtavat vaatimukset
+Hankinnan kiinteähintaiseen ensimmäiseen vaiheeseen sisältyy vertailtavia vaatimuksia, joista annetaan pisteitä 1-3, mikäli ne kuuluvat toimitukseen. 
+Vakio-ominaisuus tarjouksen jättöhetkellä (kyllä/ei)
+Mikäli vaatimus sisältyy vakiona tarjottuun ratkaisuun tarjouksen jättöhetkellä, tarjoajalla on mahdollisuus saada vaatimuksesta yksi (1) piste. Kohta koskee vain hankinnan vaiheita 2-4.
+Tämä liite välilehtineen on sisällytettävä täytettynä tarjoukseen sekä sähköisesti että tulostettuna.
+## sheet2.xml
+Nro	Vaatimus	Osa-alue	Toiminnallisuus	Pakollinen/ vertailtava	piste-
+määrä	Liittyvät aineistot	Lisätietoja vaatimuksesta	Sisältyy toimitukseen (kyllä/ei)	Vakio-ominaisuus tarjouksen jättöhetkellä (kyllä/ei)	Huomiot
+A	Asianhallinta	Asianhallinta
+A1	Asiakirjatiedon käsittelyprosessi sekä tilasiirtymät ja suhteet voidaan toteuttaa tiedonhallintalain sekä SÄHKE2-suosituksen kuvaamalla tavalla.	Asianhallinta	Pakollinen
+A2	Asian käsittelyprosessi voidaan toteuttaa monitoimijaprosessina siten, että useampi järjestelmän käyttäjäorganisaatio osallistuu saman asian käsittelyyn.	Asianhallinta	Pakollinen
+A3	Asian valmistelijat voivat olla eri VN Asia -käyttäjäorganisaatioista. Eri organisaatioiden valmistelijoilla voi olla asiaan ja sen asiakirjoihin joko samat tai eritasoiset käyttöoikeudet.	Asianhallinta	Pakollinen
+A4	Useiden organisaatioiden (ministeriöiden) käsittelyssä olevan asian valmisteluvastuu voidaan määrittää niin, että kaikki organisaatiot ovat samanarvoisesti vastuullisia tai niin, että yksi organisaatio on päävastuullinen ja toiset osallistuvat.	Asianhallinta	Pakollinen
+A5	Valtioneuvoston ulkopuolelta useaan ministeriöön tullut asia voidaan lähettää käsiteltäväksi useaan organisaatioon yhdellä rekisteröinnillä niin, että jokaiselle organisaatiolle syntyy oma asia.	Asianhallinta	Vertailtava	1
+A6	Asia näkyy vireillä olevana asiana kaikkien asiaa käsittelevien ministeriöiden asiarekisteriotteella.	Asianhallinta	Pakollinen
+A7	Järjestelmä tuottaa jokaiselle käyttäjäorganisaatiolle ja niiden yhteydessä toimiville arkistonmuodostajille lainsäädännön edellyttämän viranomaisen asiakirjarekisterinäkymän.	Asianhallinta	Pakollinen
+A8	Järjestelmässä on näkymä vastuuttamattomiin asioihin niin että erikseen määritellyllä roolilla voi nähdä kaikki henkilölle vastuuttamattomat asiat, osasto näkee omalle osastolle vastuutetut mutta henkilölle vastuuttamattomat asiat ja yksikkö näkee omalle yksikölle vastuutetut mutta henkilölle vastuuttamattomat asiat.	Asianhallinta	Pakollinen
+A9	Järjestelmässä on näkymä, josta kunkin organisaatioyksikön (esim. ministeriö, ministeriön osasto) johto voi nähdä oman organisaatioyksikkönsä (ylin johto koko organisaation, osaston johto oman osastonsa) ja sen alatasojen asiat.	Asianhallinta	Pakollinen
+A10	Asian voi avata sekä hajautetusti että keskitetysti.	Asianhallinta	Pakollinen
+A11	Asiat voivat tulla järjestelmässä automaattisesti vireille ja rekisteröityä suoraan asianhallintaan erikseen määritellyissä prosesseissa niihin järjestelmään toteutettavien liittymien kautta saapuvien asiakirjatietojen perusteella.	Asianhallinta	Pakollinen
+A12	Palvelun rajapinnat ovat avoimia, standardeja ja dokumentoituja siten, että rajapinnat mahdollistavat palvelun sujuvan kahdensuuntaisen integroinnin sekä ulkoisiin että sisäisiin palveluihin, tietojärjestelmiin ja koodistoihin.	Asiakirjan ja dokumentin hallinta	Pakollinen
+A13	Järjestelmä vastaa siihen integroitujen tietojärjestelmien kyselyihin ja lähettää niille tarvittavat asiakirjatiedot (esim. asianumeron).	Asiakirjan ja dokumentin hallinta	Pakollinen
+A14	Järjestelmä tallentaa sähköisestä asioinnista ja muista järjestelmään integroiduista tietojärjestelmistä saamansa asiakirjatiedot automaattisesti oikean asian tietoihin tai muuhun erikseen määriteltyyn sijaintiin järjestelmässä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+A15	Järjestelmän tulee mahdollistaa lain digitaalisten palvelujen tarjoamisesta (306/2019) edellyttämä viranomaisviestintä viranomaiskanavan (Suomi.fi) kautta.	Asiakirjan ja dokumentin hallinta	Pakollinen
+A16	Järjestelmä on integroitavissa tilaajan käytössä oleviin toimistotyökaluihin (Microsoft 365 tai muihin vastaaviin tuotteisiin), ohjelmistoihin ja sovelluksiin.	Asiakirjan ja dokumentin hallinta	Pakollinen
+A17	Asian voi luoda ilman asiakirjaa.	Asianhallinta	Pakollinen
+A18	Uuden asian voi luoda kopioimalla pohjaksi järjestelmässä jo oleva asia.	Asianhallinta	Pakollinen
+A19	Toisesta asiasta kopioitu uusi asia saa luonnin myötä määriteltyjen kopioitujen metatietojen lisäksi myös uudelle asialle automaattisesti muodostuvat metatiedot, esim. asianumero ja aikamääre.	Asianhallinta	Pakollinen
+A20	Asia voidaan avata järjestelmässä olevan (esim. dokumentinhallinnassa) asiakirjan tietojen perusteella niin, että erikseen määriteltävät metatiedot kopioituvat asian tietoihin.	Asianhallinta	Vertailtava	2	Ensin asiakirja, jonka tietojen perusteella luodaan asia. Asia saa osan metatiedoista asiakirjalta. Esim. EU-säädösasioissa asiakirjan otsikko siirtyy suoraan asian tietoihin.
+A21	Asian metatiedoissa tulee olla mahdollisuus määritellyn prosessin mukaisesti avata seuraava prosessiin tai aliprosessiin liittyvä asia. Asiat linkittyvät tällöin automaattisesti toisiinsa.	Asianhallinta	Pakollinen	Esim. lainsäädännön prosessi, jossa asetettu ensin työryhmä, jonka työn lopputulema on, että päätetään käynnistää säädösvalmistelu (uusi asia). Prosessit pitää saada liitettyä toisiinsa niin, ettei prosessi katkea. Seuraavan prosessiin liittyvän asian käynnistäminen luonnollisena jatkumona suoraan edelliseltä.
+A22	Suljettu asia pitää käyttöoikeuksien puitteissa voida saattaa uudestaan vireille.	Asianhallinta	Pakollinen
+A23	Asiaa ei voi poistaa, ainoastaan mitätöidä.	Asianhallinta	Pakollinen
+A24	Asianumerosarja voidaan määritellä organisaatio-/tehtäväkohtaisesti ja siten, että esim. VN:llä on yksi yhteinen asianumerosarja.	Asianhallinta	Pakollinen
+A25	Tehtäväluokan näkyminen asianumerossa on asiakkaan määriteltävissä.	Asianhallinta	Pakollinen
+A26	Asianumero voidaan määrätä alkavaksi juoksevana tehtäväluokasta riippumatta.	Asianhallinta	Pakollinen
+A27	Asianumeroita voidaan haluttaessa antaa takautuvasti aiemmille vuosille ja edeltä käsin tietylle vuodelle ainakin tilaajan pääkäyttäjän oikeuksilla.	Asianhallinta	Vertailtava	1
+A28	Keskeneräisen asian tehtäväryhmää voidaan vaihtaa. Vaihdon jälkeen erikseen määriteltävät asian metatietoarvot muuttuvat uuden tehtäväryhmän mukaisiksi.	Asianhallinta	Pakollinen
+A29	Asioille voi määritellä yhden tai useamman suhteen (relaation) asian elinkaaren tilasta riippumatta.	Asianhallinta	Pakollinen
+A30	Toiseen asiaan suhteessa olevasta asiasta näkyy vähintään asianumero ja otsikko käyttöoikeuksien mukaan.	Asianhallinta	Pakollinen
+A31	Asioille määritellyt suhteet linkittyvät automaattisesti kaikkiin viitattuihin asioihin. Esim. kun viittaa ristiin kaksi eri asiaa, viittaus lisätään vain toiseen ja se päivittyy automaattisesti toiseen asiaan.	Asianhallinta	Pakollinen	Jos asia A liitetään asioihin  C ja B, asioiden A ja B sekä A ja C välille tulee molemminpuolinen liitos. Kuitenkaan asian B ja C välille ei tule automaattisesti liitosta
+A32	Asioille määritellyistä suhteista voi siirtyä suoraan viitattuun asiaan käyttöoikeuksien mukaan.	Asianhallinta	Vertailtava	2
+A33	Eri asioiden asiakirjoja ja saman asian eri asiakirjoja voi linkittää toisiinsa asioiden ja asiakirjojen elinkaaren tilasta riippumatta.	Asianhallinta	Vertailtava	2
+A34	Toimenpiteitä voi luoda myös ilman asiakirjaa.	Asianhallinta	Vertailtava	2
+A35	Toimenpide voi syntyä automaattisesti asiakirjan asialle liittämisen yhteydessä.	Asianhallinta	Pakollinen
+A36	Asian oikeudet tulee voida rajata EU- ja NATO-asioissa muusta asiarekisteristä poikkeavasti	EU- ja NATO-asianhallinta	Asianhallinta	Pakollinen
+B	Asiakirjan ja dokumentin hallinta	Asiakirjan ja dokumentin hallinta
+B1	Dokumentti/asiakirja tulee voida laatia järjestelmässä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B2	Dokumentteja/asiakirjoja voi luoda järjestelmässä massatoimintona. (Esim. samansisältöinen kirje voidaan laatia usealle vastaanottajalle eri vastaanottajatiedoin.)	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B3	Asiakirjan  voi luoda järjestelmässä käyttämällä organisaation omia ja yhteisiä asiakirjapohjia.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B4	Järjestelmässä olevien asiakirjapohjien avulla laadittavien asiakirjojen tulee täyttää saavutettavuusvaatimukset.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B5	Asiakirjaan voidaan tuoda automaattisesti Tilaajan määrittelemiä oletusmetatietoja ja muotoiluja.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B6	Dokumentin/asiakirjan voi tuoda järjestelmään manuaalisesti verkkoresurssilta, ryhmätyötilasta, muusta tallennusvälineestä ja sähköpostista (leipäteksti ml. viestin otsikko, lähettäjä, vastaanottaja sekä ajankohtatiedot sekä mahdolliset liitetiedostot mukaan lukien) ilman välitallennusta esim. työpöydälle.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B7	Järjestelmän ulkopuolisissa ryhmätyötiloissa laaditut dokumentit/asiakirjat voidaan ottaa vastaan massatoimintona järjestelmän dokumentinhallintaan.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B8	Dokumentteja/asiakirjoja voi tuoda järjestelmään verkkoresurssilta, muusta tallennusvälineestä, ryhmätyötilasta (esim. Microsoft Teams, Sharepoint-työtila) ja sähköpostista massatoimintona ilman välitallennusta työasemalle.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B9	Järjestelmään massatoimintona tuotaville dokumenteille/asiakirjoille voidaan antaa metatiedot yksitellen tai periyttäen yhdeltä muille erikseen valituille dokumenteille/asiakirjoille.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B10	Dokumentteja/asiakirjoja voi tallentaa massatoimintona järjestelmän ulkopuolelle, esim. verkkolevylle.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B11	Dokumentin/asiakirjan voi luoda kopioimalla järjestelmässä jo olemassa olevan dokumentin/asiakirjan.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B12	Dokumentin/asiakirjan uusi kopio perii oletusarvoisesti pohjana käytetyn dokumentin/asiakirjan tekstin ja erikseen määritellyt metatiedot sekä tiedostojen tekstin.	Asiakirjan ja dokumentin hallinta	Pakollinen	Allekirjoitustieto ja muut käsittelymerkinnät eivät saa kopioitua.
+B13	Dokumentin/asiakirjan voi tallentaa esim. Microsoft M365 -ohjelmista suoraan järjestelmään, esim. dokumentinhallintaan, omiin asiakirjoihin, työjonoon tms.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B14	Kopioitu dokumentti/asiakirja saa luonnin myötä määriteltyjen kopioitujen metatietojen lisäksi myös uusia metatietoja, esim. asiakirjan numero ja laatimispäivä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B15	Uuden asiakirjan luonnin voi aloittaa asian näkymästä, jolloin määrätyt asian metatiedot (esim. asianumero) siirtyvät suoraan asiakirjan metatietoihin sekä asiakirjapohjan dynaamisiin kenttiin. Metatietojen muokkaukset päivittyvät asiakirjapohjan dynaamisiin kenttiin kun asiakirjan ottaa muokkaustilaan.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B16	Asiakirja voidaan skannata suoraan järjestelmään ilman välitallennusta.	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B17	Dokumenttia/asiakirjaa voi muokata järjestelmässä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B18	Dokumenttia/asiakirjaa ei pääse muokkaamaan katselutilassa. Järjestelmä ilmoittaa muokkauksen estosta selkeästi ennen muokkausta.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B19	Järjestelmässä on mahdollista kommentoida kohdetta. Kommentit tallentuvat järjestelmään erikseen määriteltäväksi ajaksi.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B20	Kun käyttäjä valitsee asiakirjan muokattavaksi, järjestelmä oletusarvoisesti lukitsee asiakirjan automaattisesti ko. käyttäjälle muokattavaksi. Kun käyttäjä sulkee tiedoston, asiakirja vapautuu muille käyttäjille muokattavaksi ja tehdyt muutokset tallentuvat asiakirjalle.	Asiakirjan ja dokumentin hallinta	Vertailtava	3
+B21	Kun käyttäjä valitsee asiakirjan muokattavaksi, hän voi valita oletusarvoisen lukitsemisen sijaan asiakirjan yhteismuokkauksen.	Asiakirjan ja dokumentin hallinta	Vertailtava	3
+B22	Dokumentista/asiakirjasta/tiedostosta voi luoda uuden version ja hallita versioita.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B23	Dokumentin/asiakirjan aikaisempien versioiden lukeminen on mahdollista.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B24	Dokumentin/asiakirjan minkä tahansa aiemman version voi nostaa uusimmaksi versioksi.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B25	Hyväksytyllä/allekirjoitetulla ja valmiilla versiolla voi olla eri käyttöoikeudet kuin luonnosversioilla.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B26	Dokumenttia/asiakirjaa tallennettaessa järjestelmä oletusarvoisesti tarjoaa siitä uutta versiota.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B27	Käyttäjä voi halutessaan tallentaa dokumentin/asiakirjan muutokset myös olemassa olevan version korvaavana versiona.	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B28	Järjestelmän ulkopuolella laaditun dokumentin/asiakirjan voi tallentaa suoraan järjestelmään dokumentin/asiakirjan/tiedoston uudeksi versioksi.	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B29	Dokumentti/asiakirja voidaan lukita ja vapauttaa automaattisesti.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B30	Dokumentteja/asiakirjoja voi lukita/vapauttaa useita samalla kerralla.	Asiakirjan ja dokumentin hallinta	Vertailtava	3
+B31	Dokumentin/asiakirjan lukituksen voi käyttöoikeuksien puitteissa purkaa toisen käyttäjän puolesta.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B32	Dokumentin/asiakirjan tila muuttuu sen elinkaaren eri vaiheissa.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B33	Käyttäjä voi käyttöoikeuksien puitteissa muuttaa dokumentin/asiakirjan tilan manuaalisesti.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B34	Usean dokumentin/asiakirjan/tiedoston tilan voi muuttaa samalla kerralla.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B35	Dokumentinhallinnassa laaditun asiakirjan voi liittää suoraan järjestelmässä jo olevaan asiaan, jolloin asiakirjasta tulee toimenpiteeseen liitetty viranomaisen asiakirja, joka saa yksilöivän asiakirjatunnisteen ja jolle periytyy metatiedot TOS:sta.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B36	Useita dokumentinhallinnassa laadittuja asiakirjoja voidaan liittää samalla kerralla suoraan järjestelmässä jo olevaan asiaan.	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B37	Saapuneesta sähköpostiviestistä voi tallentaa suoraan järjestelmään sähköpostiviestin ja sen liitteet valinnan mukaan joko yhtenä asiakirjana tai erillisinä asiakirjoina.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B38	Jos on valinnut sähköpostiviestin ja sen  liitteiden tallentamisen erillisinä asiakirjoina, liitteille voidaan periyttää pääasiakirjan metatiedot.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B39	Asiakirjan suunnan (saapunut/laadittu) ei tule rajoittaa asiakirjan lähettämistä järjestelmän sisäisille ja ulkopuolisille vastaanottajille.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B40	Dokumentti/asiakirja tai sen versio voidaan poistaa käyttöoikeuksien mukaisesti. Järjestelmä varmistaa dokumentin/asiakirjan/tiedoston poiston. Poistosta jää lokimerkintä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B41	Käyttäjä voi poistaa valmiin asiakirjan luonnosversion.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B42	Käyttäjä voi poistaa valmiin asiakirjan versiohistoriasta aiemman luonnosversion.	Asiakirjan ja dokumentin hallinta	Vertailtava	2
+B43	Dokumentteja/asiakirjoja voi käyttöoikeuksien puitteissa poistaa massatoimintona. Poistosta jää lokimerkintä.	Asiakirjan ja dokumentin hallinta	Pakollinen	
+B44	Dokumentin/asiakirjan poistaja voi palauttaa poistamansa dokumentin (vert. sähköpostin roskakori).	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B45	Järjestelmä varmistaa käyttäjältä erikseen asiakirjan/asiakirjojen poiston.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B46	Asian/virtuaalikansion käyttöoikeudet periytyvät suoraan siihen liitettyyn tai siihen laadittavaan dokumenttiin/asiakirjaan. Käyttöoikeuksia pitää voida tarvittaessa muokata ja periytyminen pitää voida estää.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B47	Virtuaalikansiolta/asialta ei voi periytyä automaattisesti käyttöoikeuksia salassa pidettäville dokumenteille/asiakirjoille/tiedostoille.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B48	Asian käyttöoikeuden periytyminen muille järjestelmän käyttäjille pitää voida estää asiakirjaa lähetettäessä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B49	Asiaan liitettäville asiakirjoille voidaan periyttää asian erikseen määritellyt metatiedot.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B50	Asiakirjatyypin vaihtuessa käyttäjän määriteltävissä olevien metatietoarvojen muuttaminen edellyttää käyttäjän hyväksyntää. Muutokset eivät saa automaattisesti ulottua käyttäjän tai järjestelmän antamiin kohdetta koskeviin julkisuustietoihin (mahdollinen turvallisuusluokittelu, luokittelun peruste, henkilötietoluonne, salassapitoaika) tai käyttöoikeustietoihin.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B51	Skannatulle asiakirjalle on mahdollista tehdä tekstintunnistus (OCR).	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B52	Järjestelmässä on mahdollista luoda ja käsitellä erikseen määriteltävinä rakenteisia asiakirjoja.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B53	Rakenteisen asiakirjan rakenneosat voivat olla eri julkisuusluokkaa.	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B54	Rakenteisen asiakirjan rakenneosille on mahdollista antaa metatietoja ja käyttöoikeuksia rakenneosakohtaisesti.	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B55	Samaa  rakenteista asiakirjaa voi työstää useampi henkilö samanaikaisesti siten, että eri käyttäjät työstävät eri rakenneosia.	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B56	Tilaajan pääkäyttäjä voi laatia ja muokata asiakirjapohjia järjestelmässä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B57	Tilaajan pääkäyttäjä voi tuoda asiakirjapohjia järjestelmään ja muokata niitä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B58	Tilaajan pääkäyttäjä voi määritellä järjestelmässä, mitkä asiakirjapohjat ovat käytettävissä tietyllä yksittäisellä asiakirjatyypillä/tehtäväluokalla/organisaatiolla. Asiakirjatyypille voidaan merkitä yksi tai useampi pohja käytettäväksi.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B59	Järjestelmässä käytettäviin asiakirjapohjiin voidaan sijoittaa metatietokenttiä, joihin on mahdollista toteuttaa tietojen kaksisuuntainen siirtyminen (asiakirjapohjalle tiettyyn kenttään kirjoitettu tieto siirtyy vastaavaan metatietokenttään asianhallintaan ja päinvastoin.)	Asiakirjan ja dokumentin hallinta	Pakollinen
+B60	Järjestelmään voi tallentaa asiakirjoista myös pelkkiä metatietoja.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B61	Järjestelmä ei rajoita dokumentin/asiakirjan  versioiden lukumäärää (versioita on voitava tehdä vähintään 500).	Asiakirjan ja dokumentin hallinta	Pakollinen
+B62	Järjestelmä ei aseta rajoituksia asioiden, asiakirjojen, tiedostojen määrälle tai tiedostojen koolle. Jos kokorajoituksia on käytössä, on tiedostojen enimmäiskoko määriteltävissä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B63	Järjestelmä ei aseta rajoituksia asialla näytettävien asiakirjojen määrälle. Näytettävät asiakirjat voivat jakautua eri välilehdille.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B64	Järjestelmä ei rajoita dokumentin/asiakirja tiedostotyyppejä. Jos tyyppirajoituksia on käytössä, on tiedostotyypit määriteltävissä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B65	Järjestelmän asetuksissa voidaan asettaa rajoituksia tallennettaville tiedostotyypeille. Ks. myös B57.	Asiakirjan ja dokumentin hallinta	Vertailtava	1
+B66	Asiakirjan luonnosversioille pitää voida määritellä valmiista versiosta poikkeava laskennallinen hävitysaika.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B67	Järjestelmässä on mahdollista käyttöoikeuksien mukaan nähdä, mille käyttäjälle dokumenentti/asiakirja on lukittu.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B68	Roolin mukaisten käyttöoikeuksien mukaan muutkin kuin dokumentin/asiakirjan lukinnut käyttäjä voivat poistaa lukituksen (esim. jos käyttäjää ei ole enää järjestelmässä voi lukituksen purkaa joku muu tai jos käyttäjä on muuten estynyt purkamasta lukitusta).	Asiakirjan ja dokumentin hallinta	Pakollinen
+B69	Yksittäisestä asiakirjasta voidaan muodostaa alkuperäisestä poikkeavaa formaattia (esim. PDF-formaattia) oleva muunnos esim. julkaisemista varten.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B70	Dokumentilla/asiakirjalla/tiedostolla voi olla eri formaatissa olevia versiota.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B71	Asiakirjakonversio voidaan määritellä automaattisesti tehtäväksi määritellyissä prosesseissa tai tilavaihdoksissa.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B72	Asiakirja voi liittyä useaan asiaan. Vaikka asiakirja liittyisi useaan asiaan, asiakirja tallennetaan järjestelmään vain kerran.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B73	Asian ja asiakirjan välisen liitoksen voi käyttöoikeuksien mukaan purkaa.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B74	Useita asiakirjoja voi liittää asialle samalla kertaa.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B75	Asiakirjatiedostoon voidaan laadittaessa generoida metatietojen perusteella salassa pitoa osoittava merkintä laissa viranomaisen toiminnan julkisuudesta (621/1999), laissa julkisen hallinnon tiedonhallinnasta (906/2019) ja valtioneuvoston asetuksessa asiakirjojen turvallisuusluokittelusta valtionhallinnossa (1101/2019) kuvatun mukaisesti.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B76	Asiakirjatietoja voidaan tuoda järjestelmään eräajona toisesta järjestelmästä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B77	Dokumentin/asiakirjan julkisuus voidaan määritellä muuttumaan automaattisesti kohteen (esim. asia tai asiakirja) tilan muuttuessa erikseen määriteltävissä prosesseissa.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B78	Asiakirjan laatijan tulee voida ohittaa TOS:iin määriteltyjä käsittelyvaiheita.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B79	Laatijan sekä tilaajan pääkäyttäjän tulee voida palauttaa dokumentti/asiakirja  elinkaaressa taaksepäin roolien mukaisin oikeuksin.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B80	Salassa pidettävän asiakirjan automaattinen julkiseksi tulo pitää voida estää.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B81	Salassapidettävän dokumentin/asiakirjan hyväksytyn/allekirjoitetun tai valmiin version  lukuoikeuksien automaattinen laajentaminen on voitava erikseen määritellä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B82	Asiakirjan käyttöoikeudet voivat muuttua julkisuusluokan muuttumisen yhteydessä.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B83	Integraatiopalveluiden kautta saapuvat tiedot, dokumentit, asiakirjat voidaan tallentaa järjestelmään.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B84	Dokumentille/asiakirjalle voi luoda esim. organisaatio-  ja arkistonmuodostajakohtaisen yksilöllisen tunnisteen.	Asiakirjan ja dokumentin hallinta	Pakollinen
+B85	Asiakirjalla voi olla useita samanarvoisia kieliversioita, jotka ovat asiakirjan tiedoista selkeästi näkyvissä (yksilöitävissä).	Asiakirjan ja dokumentin hallinta	Pakollinen	Myös EU-asianhallinta
+B86	Asiakirjojen kieliversioiden pitää linkittyä toisiinsa sopivalla suhdemäärityksellä, joka kertoo kieliversioiden oikeat vastinparit.	EU-asianhallinta	Asiakirjan ja dokumentin hallinta	Pakollinen
+B87	Tieto asiakirjan samanarvoisista kieliversioista on selkeästi näkyvissä.	EU-asianhallinta	Asiakirjan ja dokumentin hallinta	Pakollinen
+B88	Järjestelmässä on mahdollista valita asiakirjoja, jotka ovat samassa formaatissa ja muodostaa niistä yksi muokattava asiakirja. Asiakirjojen järjestys on vapaasti käyttäjän valittavissa ja muutettavissa.	EU-asianhallinta	Asiakirjan ja dokumentin hallinta	Pakollinen
+B89	Järjestelmään tallennettavalle toimielinasiakirjalle (EU, NATO) voi määritellä  Suomen lainsäädännöstä poikkevat luokitusmerkinnät (Unclassified, Limité, Sensitive) jotka ohjaavat asiakirjan käsittelyoikeuksia	EU-asianhallinta, NATO-asianhallinta	Asiakirjan ja dokumentin hallinta	Pakollinen
+C	Asiakirjan hyväksyminen ja allekirjoittaminen	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta, Asiakirjan ja dokumentin hallinta
+C1	Järjestelmässä on asiakirjan puolto-, tarkastus- ja hyväksymismenettelyt (eivät vastaa sähköistä allekirjoitusta).	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C2	Useita asiakirjoja voidaan toimittaa hyväksyttäväksi samalla kertaa.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C3	Järjestelmässä voi valita, hyväksyykö kaikki vai osan hyväksyttäväksi lähetetyistä asiakirjoista.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C4	Yksi tai useampi henkilö voi hyväksyä dokumentin/asiakirjan sähköisesti järjestelmässä.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C5	Dokumentin/asiakirjan voi lähettää hyväksyttäväksi peräkkäin ja rinnakkain.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta
+C6	Asiakirjan voi allekirjoittaa järjestelmässä yhden tai useamman allekirjoittajan toimesta.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C7	Järjestelmässä on asiakirjan yhdistetty puolto- ja allekirjoitustyönkulku, jossa asiakirjan allekirjoitusta voi edeltää yhden tai useamman käyttäjän puoltaminen.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C8	Puolto- ja allekirjoitustyönkulun tehtävät lähetetään valituille käyttäjille valmistelijan määrittelemässä peräkkäisessä järjestyksessä, kun työnkulku käynnistetään.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C9	Puolto- ja allekirjoitustyönkulun puoltojen ja allekirjoitusten järjestys on työnkulun käynnistäjän valittavissa.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C10	Työnkulkuun voidaan liittää allekirjoitettavien asiakirjojen lisäksi myös liiteasiakirjoja, joita ei puolleta eikä allekirjoiteta työnkulun puitteissa, vaan asiakirjat sisältävät työnkulun läpiviennin näkökulmasta hyödyllistä tietoa.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C11	Puolto- ja allekirjoitustyönkulkuun voidaan valita 0-n kpl puoltajia ja 1-n kpl allekirjoittajia.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C12	Puoltajat voivat valita vaihtoehtojen puollan/en puolla –välillä, sekä kirjoittaa kommentteja siihen liittyen. En puolla -vaihtoehto katkaisee työnkulun.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C13	Allekirjoittajat voivat valita vaihtoehtojen allekirjoitan/en allekirjoita –välillä, sekä kirjoittaa kommentteja siihen liittyen.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C14	Erikseen määriteltävät puolto- ja allekirjoitustiedot tallennetaan ja näytetään asiakirjan metatietonäkymässä erikseen määritellyin käyttöoikeuksin.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C15	Mikäli joku allekirjoittajista ei allekirjoita asiakirjaa, se palautuu alkuperäiseen tilaansa. Työnkulun käynnistäjä saa tiedon keskeytyneestä työnkulusta.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C16	Asiakirjoja voi lähettää allekirjoitettavaksi useita samalla kertaa.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C17	Asiakirjoja voi allekirjoittaa massatoimintona.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C18	Järjestelmään voi vastaanottaa (esim. toimenpiteellä) ja liittää sähköisesti allekirjoitettuja asiakirjoja. Tieto allekirjoituksesta säilyy osana metatietoja.	Hyväksyminen ja allekirjoittaminen	Asiakirjan ja dokumentin hallinta	Pakollinen
+C19	Jokaisen työnkulun osallisen tekemästä sähköisestä hyväksynnästä ja allekirjoittamisesta jää merkintä asiakirjan metatietoihin ja lokitietoihin.	Hyväksyminen ja allekirjoittaminen	Asiakirjan ja dokumentin hallinta	Pakollinen
+C20	Tieto sähköisestä allekirjoituksesta tallentuu automaattisesti Tilaajan määrittelemällä tavalla allekirjoitetun asiakirjan pintaan.	Hyväksyminen ja allekirjoittaminen	Asiakirjan ja dokumentin hallinta	Pakollinen
+C21	Järjestelmässä on Euroopan unionin eIDAS-asetuksen (asetus sähköisestä tunnistautumisesta ja sähköisiin transaktioihin liittyvistä luottamuspalveluista) mukainen vahvaan sähköiseen tunnistautumiseen perustuva kehittynyt sähköinen allekirjoitustoiminto, joka mahdollistaa yhden/useamman henkilön sähköisen allekirjoituksen. (Ks. L vahvasta sähköisestä tunnistamisesta ja sähköisistä luottamuspalveluista (617/2009))	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C22	Sähköisesti allekirjoitettua asiakirjaa ei voi liittää uudelleen allekirjoitustyönkulkuun muuten kuin allekirjoitettavaksi menevän asiakirjan liitteenä.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C23	Sähköisen allekirjoituksen työnkulku, jossa on useampi kuin yksi allekirjoittaja, voidaan erikseen määriteltyjen roolien toimesta peruuttaa, jos kaikki allekirjoittajat eivät ole sitä allekirjoittaneet.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C24	Sähköisesti allekirjoitettua asiakirjaa, jonka kaikki allekirjoittajat ovat allekirjoittaneet, ei voi palauttaa elinkaaressa taaksepäin muuten kuin erikseen määritellyillä rooleilla.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C25	Järjestelmässä tapahtuva tilamuutos tai muu määritelty tapahtuma (esim. aikamääre) käynnistää työnkulun automaattisesti erikseen määriteltävissä tilanteissa.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Vertailtava	2
+C26	Työnkulussa mukana olevaa asiakirjaa tai dokumenttia ei voi liittää samanaikaisesti toiseen työnkulkuun esim. allekirjoitusprosessissa olevaa asiakirjaa ei voi liittää toiseen työnkulkuun ennen kuin allekirjoitusprosessi on mennyt loppuun.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+C27	eIDAS-asetuksen mukainen sähköinen allekirjoitus ulkopuolisen, ei-samaa järjestelmää käyttävän tahon kanssa on mahdollista tietoturvavaatimukset täyttävällä tavalla.	Hyväksyminen ja allekirjoittaminen	Työnkulkujen hallinta	Pakollinen
+D	Työnkulkujen hallinta	Työnkulkujen hallinta
+D1	Järjestelmään voi laatia ja ylläpitää organisaatioyksikkö-,  rooli-, käyttäjäryhmä-, henkilö-, prosessi- ja metatietopohjaisia (esim. tehtäväluokka) työnkulkuja.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D2	Työnkulkuun voi liittyä vastaanottajalta edellytetty toimenpide/toimenpiteitä, esim. puolto, hyväksyminen tai allekirjoitus. Työnkulun vastaanottajat saavat työnkulun kohteeseen vaadittavat käyttöoikeudet automaattisesti.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D3	Työnkulkuun voi liittyä automaattinen tilamuutos.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D4	Työnkulkuun voi määritellä useampia toimijoita.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D5	Järjestelmään voi laatia ja ylläpitää organisaatiorajat ylittäviä työnkulkuja.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D6	Käyttäjä voi käyttöoikeuksien mukaan kokonaisuudessaan muokata, peruuttaa tai poistaa  järjestelmässä käynnistyneen työnkulun.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D7	Käyttäjä voi liittää järjestelmässä hyväksymis/puolto- ja allekirjoitustyönkulkuun yhden tai useamman hyväksyjän/puoltajan/allekirjoittajan. Työnkulku etenee automaattisesti peräkkäisessa järjestyksessä seuraavalle hyväksyjälle/puoltajalle/allekirjoittajalle käyttäjän valitseman järjestyksen mukaisesti.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D8	Työnkulkuun voidaan valinnaisena liittää kohteen (esim. asian ja asiakirjan) automaattinen jakelu.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen	Myös jakelua
+D9	Kohteiden (esim. asioiden, asiakirjojen sekä niiden metatietojen) julkaisu voidaan valinnaisena liittää automaationa työnkulkuun.	Sähköiset työnkulkureititykset	Työnkulkujen hallinta	Pakollinen	Myös julkaisua
+D10	Työnkulun toimija voi seurata työnkulun edistymistä.	Asia- ja asiakirjaprosessien seuranta	Työnkulkujen hallinta	Pakollinen
+D11	Työnkulkuun voi lisätä kommentteja, jotka näkyvät työnkulun käyttöoikeuksien mukaisesti sekä työnkulun aikana että sen valmistuttua.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D12	Työnkulku voi käynnistyä automatisoidusti integraatiorajapinnan kautta tulevan tiedon perusteella. Esim. sähköinen asiointi voi avata asian järjestelmään automaattisesti ja samalla vastuuttaa sen etukäteen määritellylle henkilölle tai viedä sen organisaation/osaston/yksikön vastuuttamattomiin.	Sähköiset työnkulkureititykset	Työnkulkujen hallinta	Pakollinen
+D13	Työnkulku hyödyntää käyttäjälle määriteltyjä sijaisuustietoja.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D14	Työnkulun tehtävät voi työnkulun käynnistäjän sekä muiden määriteltyjen roolien toimesta delegoida toiselle käyttäjälle.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D15	Työnkulun käynnistäjä saa tiedon työnkulun päättymisestä.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+D16	Työnkulun seuraavana vuorossa oleva vastaanottaja saa tiedon työnkulun keskeyttämisestä.	Työnkulkujen määrittely	Työnkulkujen hallinta	Pakollinen
+E	Toimeksiantojen hallinta	Toimeksiantojen hallinta
+E1	Järjestelmä kykenee tuottamaan organisaatioyksikkö-,  rooli-, ryhmä-, metatieto-, prosessi- ja henkilöpohjaisia työjonoja.	Työjonojen seuranta	Toimeksiantojen hallinta	Pakollinen
+E2	Käyttäjä voi lähettää toimeksiannon kerralla valintansa mukaan joko yhdelle tai usealle vastaanottajalle. Vastaanottajille voi valita rooliksi esim. Toimeksi/Tiedoksi.	Työjonojen seuranta	Toimeksiantojen hallinta	Pakollinen
+E3	Käyttäjä voi halutessaan  hyödyntää lähettämisessä järjestelmään tallennettuja jakelulistoja.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E4	Järjestelmään voi määritellyin oikeuksin tallentaa jakelulistoja organisaatioyksikön/organisaation/kaikkien käyttäjien käyttöön.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E5	Käyttäjä voi seurata omia lähetettyjä ja saapuneita toimeksiantoja.	Työjonojen seuranta	Toimeksiantojen hallinta	Pakollinen
+E6	Käyttäjä voi seurata määritellyn käyttäjäryhmän lähetettyjä ja saapuneita toimeksiantoja.	Työjonojen seuranta	Toimeksiantojen hallinta	Pakollinen
+E7	Järjestelmässä on näkymä käyttäjälle lähetettyihin tehtäviin, hälytyksiin ja ilmoituksiin.	Työjonojen seuranta	Toimeksiantojen hallinta	Pakollinen
+E8	Järjestelmään pitää pystyä määrittelemään erityyppisiä toimeksiantoja, joihin on mahdollista liittää mm. velvoitteita (esim. kuittauspakko) ja määräaikojen seurantaa, ilmoituksia ja hälytyksiä.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E9	Käyttäjä voi tehdä järjestelmässä asiaa ja asiakirjaa koskevia toimeksiantoja.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E10	Käyttäjä voi vastata toimeksiannon lähettäjälle.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E11	Käyttäjä voi delegoida/lähettää edelleen saamansa toimeksiannon.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E12	Käyttäjä voi lisätä toimeksiantoon pakollisen kuittauspyynnön.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E13	Käyttäjä voi lisätä toimeksiannon kuittauspyyntöön määräajan.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E14	Järjestelmässä on mahdollista lisätä toimeksiannon tyypille ominaisia tallennettuja toimeksiantopohjia, joita käyttäjä voi täydentää (esim. laintarkastus, käännöstoimeksianto, jakolupa).	Toimeksiannot	Toimeksiantojen hallinta	Vertailtava	1
+E15	Järjestelmässä on mahdollistä liittää toimeksiantoihin tuleva vastaus ja vastausasiakirja(t) automaattisesti vastattavalle asialle.	Toimeksiannot	Toimeksiantojen hallinta	Vertailtava	1
+E16	Käyttäjän on voitava peruuttaa toimeksianto.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E17	Vastaanottaja saa tiedon toimeksiannon peruutuksesta.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E18	Peruutettu toimeksianto poistuu vastaanottajan työjonosta.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E19	Käyttäjän on pystyttävä myös poistamaan toimeksiantoja yksitellen ja useita samalla kertaa.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E20	Tiedoksianto (esim. valituskelpoinen päätös) voidaan tehdä sähköisesti, mikäli vireillepanija on sen sallinut.	Toimeksiannot	Toimeksiantojen hallinta	Pakollinen
+E21	Järjestelmään voi määritellä automaattisia toimijoille lähetettäviä ilmoituksia esim. vireilletulosta, määräajasta, asian/asiakirjan tilan muutoksista tai työnkulun edistymisestä.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E22	Käyttäjä voi valita, haluaako ilmoitukset esim. saapuneisiin toimeksiantoihinsa, sähköpostiinsa vai verkkosyötteenä työpöydälle.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E23	Käyttäjä voi tilata järjestelmästä ilmoituksia saapuneista tehtävistä ja toimeksiannoista.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E24	Käyttäjä voi tilata järjestelmästä ilmoituksia asian ja asiakirjan tilasiirtymistä käyttöoikeuksien mukaan.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	2
+E25	Pääkäyttäjä voi tarvittaessa määritellä järjestelmään säännöt, joiden perusteella määritellyille organisaatioyksiköille, rooleille, ryhmille ja käyttäjille lähetetään automaattinen viesti.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E26	Järjestelmä voi välittää sähköpostitse järjestelmän ilmoituksia saapuneista  tehtävistä ja toimeksiannoista.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E27	Järjestelmä voi välittää sähköpostitse järjestelmän ilmoituksia valmistuneista  tehtävistä ja toimeksiannoista.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E28	Järjestelmä voi välittää sähköpostitse järjestelmän hälytyksiä tehtävistä tai toimeksiannoista, jos tehtävä ei ole valmistunut ajallaan.	Hälytysten hallinta	Toimeksiantojen hallinta	Pakollinen
+E29	Järjestelmä voi välittää järjestelmän ilmoituksia saapuneista  tehtävistä ja toimeksiannoista ajastetusti käyttäjille.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E30	Tieto kohteille asetetuista määräpäivistä tallentuu automaattisesti asian valmistelijoiden Outlook-kalenteriin ko. päivän kohdalle.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E31	Käyttäjä voi omien käyttöoikeuksiensa mukaisesti tilata ilmoituksen, jos dokumentin/asiakirjan sisältöä on muokattu.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E32	Käyttäjä voi omien käyttöoikeuksiensa mukaisesti tilata ilmoituksen erikseen määriteltävien metatietojen muutoksesta.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E33	Käyttäjä voi omien käyttöoikeuksiensa mukaisesti tilata ilmoituksen valitulle asialle lisätyistä uusista valmiista asiakirjoista.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Pakollinen
+E34	Määritellylle vastuuhenkilölle voi määritellä automaattisen hälytyksen aikarajan lähestymisestä ja ylityksestä.	Hälytysten hallinta	Toimeksiantojen hallinta	Pakollinen
+E35	Erikseen määriteltävät roolit voivat saada automaattimuistutuksen erikseen määritellyistä metatiedosta, jota ei ole täydennetty määräaikaan mennessä.	Hälytysten hallinta	Toimeksiantojen hallinta	Pakollinen
+E36	Käyttäjä voi tilata järjestelmästä omaan sähköpostiinsa  hälytyksiä saapuneista  tehtävistä ja toimeksiannoista.	Hälytysten hallinta	Toimeksiantojen hallinta	Pakollinen
+E37	Järjestelmä hälyttää lähettäjää määräaikaan mennessä kuittaamattomista toimeksiannoista.	Hälytysten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E38	Järjestelmä hälyttää vastaanottajaa määräaikaan mennessä kuittaamattomista toimeksiannoista.	Ilmoitusten hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E39	Kohteita (esim. asiakirjoja ja asioiden metatietoja) voi jakaa (linkkeinä) järjestelmän käyttäjille järjestelmän sisällä ja linkkeinä järjestelmän käyttäjien sähköpostiin.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E40	Dokumentti/asiakirja voidaan avata suoraan linkistä luku- tai muokkaustilaan käyttöoikeuksien mukaisesti.	Jakelujen hallinta	Toimeksiantojen hallinta	Vertailtava	2
+E41	Dokumentti/asiakirja voidaan jakaa järjestelmästä suoraan ulkopuolisille ja sisäisille toimijoille liitetiedostona (esim. sähköpostilla).	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen	
+E42	Dokumentista/asiakirjasta voi lähettää käyttäjän määrittelemän version. Oletusversiona käytetään uusinta versiota.	Jakelujen hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E43	Kohteen metatietoja (esim. asian käsittelyvaihe) voidaan jakaa järjestelmän ulkopuolisille toimijoille asiointipalveluun.	Jakelujen hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E44	Salassa pidettäviä ja turvallisuusluokiteltuja kohteita (esim. asian tiedot, dokumentti/asiakirja, toimeksianto, jakelu) voidaan lähettää vastaanottajille turvasähköpostilla, jonne salassa pidettävät ja turvallisuusluokitellut sähköpostilähetykset ohjautuvat automaattisesti.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E45	Järjestelmästä sähköpostiin menevän viestin  aihekenttään tallentuu automaattisesti merkintä turvallisuusluokasta, kun salassapidettäviä kohteita (esim. asian tiedot, dokumentti/asiakirja, toimeksianto, jakelu) lähetetään sähköpostilla.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E46	Tilaajan pääkäyttäjä voi määritellä järjestelmästä sähköpostiin menevän viestin aihekenttään sijoitettavat kohteen (esim. asiakirjan) metatiedot, esim. otsikko, asianumero jne. Määritellyt tiedot voivat erota sisäisillä ja ulkoisilla vastaanottajilla.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E47	Tilaajan pääkäyttäjä voi määritellä järjestelmästä sähköpostiin menevän viestin viestiosaan sijoitettavat kohteen (esim. asiakirjan) metatiedot, esim. laatija, tiivistelmä jne. Määritellyt tiedot voivat erota sisäisillä ja ulkoisilla vastaanottajilla.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E48	Järjestelmästä voidaan jaella useita dokumentteja/asiakirjoja massatoimintona.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E49	Massatoimintona jaeltavat dokumentit/asiakirjat voidaan poimia eri asioista ja dokumentinhallinnasta.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E50	Järjestelmän ulkopuolella, esim. paperilla, tehdyistä jakeluista voi lisätä merkinnän muiden jakelutietojen yhteyteen.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E51	Järjestelmästä tulee nähdä jakeluhistoria.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E52	Kohteen (esim. asiakirjan ja asian) jakelun voi ajastaa.	Jakelujen hallinta	Toimeksiantojen hallinta	Vertailtava	1
+E53	Järjestelmä ilmoittaa sisäisen jakelun epäonnistumisesta jakelun käynnistäjälle.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E54	Järjestelmä antaa epäonnistuneen sisäisen jakelun ilmoituksessa tiedon siitä, miten jakelu on epäonnistunut.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E55	Järjestelmä mahdollistaa jo lähetetyn asiakirjan uudelleen lähettämisen. Järjestelmä jakelee kohteen tällöin vain niille tahoille, joille se ensimmäisellä kerralla ei mennyt.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E56	Järjestelmä mahdollistaa jo lähetetyn asiakirjan lähettämisen uudelleen samoille vastaanottajille kuin aiemmassa lähetyksessä.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E57	Järjestelmästä tulee näkyä, mikä on vastaanottajan rooli jakelussa (esim. jakelu, hoitaa, vastaa tai tiedoksi).	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E58	Järjestelmään jää tiedot asiakirjan jakelusta.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E59	Jakelussa on voitava valita näkevätkö jakelun ulkoiset vastaanottajat keille muille jakelu on osoitettu.	Jakelujen hallinta	Toimeksiantojen hallinta	Pakollinen
+E60	Rakenteisten dokumenttien/asiakirjojen rakenneosia voidaan jakaa samoin periaattein kuin muitakin kohteita.	Jakelujen hallinta	Toimeksiantojen hallinta	Vertailtava	2
+E61	Asiakirjojen jakelua voidaan tehdä asiasanaperusteisesti ja jakelua tukevia jakeluasiasanoja ja niiden jakelutietoja voidaan ylläpitää koodistossa .	Jakelujen hallinta	Pakollinen
+E62	Jakelua tukevia jakeluasiasanoja ja niihin liittyviä yhteystietoja (kenelle/mille organisaatiolle jaetaan) voidaan koodistossa poistaa, lisätä ja niitä voidaan passivoida.	Jakelujen hallinta	Pakollinen
+E63	Jakelua tukevien asiasanojen koodistosta voidaan hakea jakelutietoja eri kriteerein (esim. käyttäjä, organisaatio).	Jakelujen hallinta	Pakollinen
+E64	Jakelua tukevien asisanojen koodistosta voidaan ottaa listauksia esim.excel-tiedostoksi kaikista asiasanoista ja niiden jakelutiedoista tai erilaisin kriteerein rajaten (esim. käyttäjä-, organisaatio-tasolla).	Jakelujen hallinta	Pakollinen
+E65	Jakelua tukevien asiasanojen koodistossa voidaan valitun käyttäjän ja/tai organisaation kaikkia tai vain valittuja jakelutietoja poistaa, siirtää tai lisätä toiselle käyttäjälle ja organisaatiolle.	Jakelujen hallinta	Pakollinen
+F	Metatiedot (TOS & tiedonohjaus)	TOS & tiedonohjaus
+F1	Järjestelmässä tulee olla käytettävissä tarvittavat metatiedot ja koodistot ja niiden ylläpitotoiminnallisuudet. Ne voidaan tallentaa palveluun tai ne voidaan noutaa integroiduista metatieto- ja koodistopalvelusta.	Metatiedot	Tiedonohjaus	Pakollinen
+F2	Järjestelmä tukee koodistojen kieliversioita siten, että järjestelmä haku- ja raportointitoiminnallisuuksissa tulkitsee eri kieliset koodistoarvot samana loogisena koodistoarvona (lukee ristiin saman koodiston eri kieliversioita). Kieli- tai asiakirjapohjavalinta tms. määrittää koodistosta tulevien arvojen kielen.	Metatiedot	Tiedonohjaus	Pakollinen
+F3	Järjestelmässä on viranomaisvaatimuksen mukaiset metatiedot (tiedonhallintalaki, tiedonhallintalautakunnan suositukset, SÄHKE2-suositus).	Metatiedot	Tiedonohjaus	Pakollinen
+F4	Järjestelmään on mahdollista lisätä muita organisaation tarvitsemia metatietoja SÄHKE2-mukaisten metatietojen lisäksi.	Metatiedot	Tiedonohjaus	Pakollinen
+F5	Metatietokenttien määrää ei ole rajattu.	Metatiedot	Tiedonohjaus	Pakollinen
+F6	Pääkäyttäjä voi muuttaa erikseen määriteltyjen metatietokenttien näkyvyyttä tehtävittäin.	Metatiedot	Tiedonohjaus	Vertailtava	2
+F7	Metatietoja tulee voida ohjata TOJ:lla.	Metatiedot	Tiedonohjaus	Pakollinen
+F8	Pääkäyttäjä voi ylläpitää valintalistojen arvoja.	Metatiedot	Tiedonohjaus	Pakollinen
+F9	Järjestelmä tuottaa oletusmetatietoja, joiden arvon voi muuttaa.	Metatiedot	Tiedonohjaus	Pakollinen
+F10	Järjestelmä tuottaa metatietoja, joiden arvoa ei voi muuttaa (esim. tallennuspäivä).	Metatiedot	Tiedonohjaus	Pakollinen
+F11	Tallentaminen voidaan estää, jos pakollisiksi määritellylle metatiedolle ei ole annettu arvoa.	Metatiedot	Tiedonohjaus	Pakollinen
+F12	Metatietokentille on mahdollista määritellä tilaajakohtaisesti vähintään seuraavat perustiedot: nimi/kuvaus, tyyppi (esim. vapaa teksti/koodisto, numeerinen, kyllä/ei, päiväys), oletusarvo, monivalintaisuus, pakollisuus, kentän pituus, kenttään liittyvät käyttörajoitukset, toistuva/yksilöllinen arvo.	Metatiedot	Tiedonohjaus	Pakollinen
+F13	Järjestelmä ei rajoita metatietojen arvojoukon lukumäärää (esim. asiasanojen määrä).	Metatiedot	Tiedonohjaus	Pakollinen
+F14	Metatietojen arvoja voidaan poimia valintalistalta (esim. asiasanat).	Metatiedot	Tiedonohjaus	Pakollinen
+F15	Valintalistalta voi poimia kerralla useita metatietoarvoja.	Metatiedot	Tiedonohjaus	Pakollinen
+F16	Järjestelmässä organisaatiotasot voidaan näyttää hierarkkisesti.	Metatiedot	Tiedonohjaus	Pakollinen
+F17	Järjestelmässä voidaan käyttää hierarkisia valintalistoja metatietoarvojen täytössä. (esim. organisaatiotasot).	Metatiedot	Tiedonohjaus	Pakollinen
+F18	Valintalistalta valittavan metatietoarvon (esim. yksikön uusi nimi) yhteyteen voidaan liittää muutoshistoria (esim. yksikön edelliset nimet).	Metatiedot	Tiedonohjaus	Vertailtava	2
+F19	Tilaajan pääkäyttäjä voi ylläpitää järjestelmässä koodistoja, joissa metatiedon arvoon voidaan liittää selite tai muu käyttäjää ohjaava teksti.	Metatiedot	Tiedonohjaus	Pakollinen
+F20	Järjestelmä mahdollistaa metatietokenttien merkkimäärän tilaajakohtaisen/organisaatiokohtaisen määrittelyn.	Metatiedot	Tiedonohjaus	Pakollinen
+F21	Metatiedon pakollisuus, esim. salassapidon peruste, voi määräytyä järjestelmässä automaattisesti kohteen elinkaaresta tai toisen metatiedon arvosta.	Metatiedot	Tiedonohjaus	Pakollinen
+F22	Määritellyt metatiedot voivat ohjata asioiden/asiakirjojen käsittelyä (esim. asiasanoihin perustuva jakelu ja asiatyyppeihin perustuva päätösreititys).	Metatiedot	Tiedonohjaus	Pakollinen
+F23	Metatietojen arvojen muutoksia voi tehdä massatoimintona käyttöoikeuksien mukaan.	Metatiedot	Tiedonohjaus	Pakollinen
+F24	Määriteltyjä metatietoja voi muuttaa käyttöoikeuksien mukaan asian ja asiakirjan tilasta huolimatta.	Metatiedot	Tiedonohjaus	Pakollinen
+F25	Määriteltyjen metatietojen muutoksesta syntyy lokimerkintä, josta on käytävä ilmi muutostiedot.	Metatiedot	Tiedonohjaus	Pakollinen
+F26	Tilaajan määrittelemillä tehtäväluokilla voi olla suppeammat oletuskäyttöoikeudet kuin järjestelmässä muuten (esim. henkilöstöhallinnon tehtäväluokat).	Käyttöoikeudet	Tiedonohjaus	Vertailtava	3
+F27	Tehtäväluokituksen muutoksessa keskeneräiset kohteet (asiat, asiakirjat) voidaan muuttaa uuteen tehtäväluokkaan, jolloin tietojärjestelmän on mahdollistettava metatietoarvojen muuttuminen uuden tehtäväluokan mukaisiksi.	TOS	Tiedonohjaus	Pakollinen
+F28	Tiedonohjaussuunnitelman automaattiset muutokset eivät saa ulottua käyttäjän erikseen antamiin metatietoihin esim. julkisuustietoihin (turvallisuusluokittelu, luokittelun peruste, henkilötietoluonne) tai käyttöoikeustietoihin, joiden on säilyttävä siinä muodossa kuin käyttäjä on ne antanut asioille tai asiakirjoille.	TOS	Tiedonohjaus	Pakollinen
+F29	Kohteen (esim. asia, asiakirja, asiakirjan rakenneosa) julkisuusasteen voi määrittää kohteen muista julkisuustiedoista riippumatta.	Metatiedot	Tiedonohjaus	Pakollinen	Esim. julkiseen asiaan voi kuulua julkisia ja TL IV -luokiteltuja asiakirjoja tai tietoja.
+F30	Metatietojen arvojen muutoksia voi tehdä massatoimintona kohdistettuna vain tiettyyn osajoukkoon (esim. haun perusteella saatuun osajoukkoon).	Metatiedot	Tiedonohjaus	Pakollinen
+F31	Erikseen määriteltyjen metatietojen arvojen muutoksia voi tehdä massatoimintona käyttöoikeuksien mukaan tehtävittäin takautuvasti erikseen määritellylle aikavälille.	Metatiedot	Tiedonohjaus	Pakollinen
+F32	Uutta kohdetta luodessa TOS:sta valittavia kohtia voidaan rajata metatietojen avulla (esim. organisaation tai muun metatiedon mukaan).	Metatiedot	Tiedonohjaus	Pakollinen
+F33	Tiedonohjaussuunnitelma voidaan näyttää käyttäjälle hierarkkisena rakenteena, jolloin näkyvissä ovat ensin vain pääluokat/asiaryhmät ja käyttäjä voi itse kasvattaa vaihtoehtojen näkyvyyttä.	Metatiedot	Tiedonohjaus	Pakollinen
+F34	Salassa pidettäville asiakirjoille SÄHKE2-suosituksen mukaisesti määriteltävän Omistaja-metatiedon arvoksi (ja oletusarvoksi) voidaan määritellä henkilönimen sijaan ryhmätunnus tai rooli.	Metatiedot	Tiedonohjaus	Pakollinen
+F35	Rekisteröimättömiin dokumentteihin/asiakirjoihin kohdistuu automaattisesti erikseen määritelty joukko metatietoja.	Metatiedot	Tiedonohjaus	Pakollinen
+F36	Asiaan kuulumattomien dokumenttien metatiedot ja niiden pakollisuus on erikseen määriteltävissä.	Metatiedot	Tiedonohjaus	Pakollinen
+F37	Valintalistalta valittavilla erikseen määritellyillä metatiedoilla voi olla kieliversioita (esim. asiakirjatyyppi suomeksi, ruotsiksi ja englanniksi).	Metatiedot	Tiedonohjaus	Pakollinen
+F38	Salassa pidettävien tietojen ja henkilötietoja sisältävien kohteiden katselusta ja muusta käsittelystä (esim. käyttöoikeuksien myöntäminen) syntyy lokimerkintä.	Metatiedot	Tiedonohjaus	Pakollinen
+F39	Mikäli kohteen julkisuusluokkaa muutetaan, muutos näkyy kohteen metatiedoissa (kuka tehnyt, milloin tehnyt, uusi luokitus). Muutoksesta jää myös lokimerkinnät.	Metatiedot	Tiedonohjaus	Pakollinen	Esim. salassa pidettävän TL IV asiakirjan julkisuus arvioidaan tietopyynnön yhteydessä ja todetaan, että asiakirjan sisältämä tieto on julkista.
+F40	Kun käyttäjä valitsee salassapidon perusteeksi tietyn lainkohdan, järjestelmä ohjaa käyttäjää käyttämään perusteena olevan lainkohdan edellyttämää luokitusta (esim. turvallisuusluokitus).	Metatiedot	Tiedonohjaus	Vertailtava	2
+F41	Kun luokiteltu kohde (dokumentti/asiakirja) tuodaan järjestelmään muusta tietojärjestelmästä (esim. ryhmätyötilasta), järjestelmä ei automaattisesti muuta kohteen jo aiemmin saamia julkisuustietoja (mahdollinen turvallisuusluokittelu, luokittelun peruste, henkilötietoluonne, salassapitoaika) tai käyttöoikeustietoja, mikäli kohteella on valmiiksi VN Asia-yhteensopivat metatiedot.	Metatiedot	Tiedonohjaus	Pakollinen
+F42	Kohteen (esim. asia, asiakirja, dokumentti) metatietojen arvojen (esim. tehtäväluokan tai asiakirjatyypin) muuttaminen massatoimintona ei automaattisesti saa ulottua käyttäjän tai järjestelmän antamiin asiakirjojen julkisuustietoihin (mahdollinen turvallisuusluokittelu, luokittelun peruste, henkilötietoluonne, salassapitoaika) tai käyttöoikeustietoihin.	Metatiedot	Tiedonohjaus	Pakollinen
+F43	Tietojärjestelmä laskee asiakirjan säilytysajan sekä asiakirjan salassapidon päättymisajankohdan TOSissa määritellyn laskentaperusteiden mukaisesti.	TOS	Tiedonohjaus	Pakollinen
+F44	TOS ohjaa järjestelmään tallennettavia kohteita (esim. dokumentteja/asiakirjoja, asioita tms.). Kohteet  saavat TOS:sta käyttäjän muokattavissa olevia oletusmetatietoja.	TOS	Tiedonohjaus	Pakollinen
+F45	Aktiiviseen TOSiin on voitava tehdä muutoksia, esim. asiakirjatyypin lisäys, ilman, että TOSia joudutaan kokonaisuudessaan julkaisemaan uudelleen.	TOS	Tiedonohjaus	Pakollinen
+F46	TOSin julkaisu voidaan ajastaa.	TOS	Tiedonohjaus	Pakollinen
+F47	Tiedonohjausjärjestelmän suunnittelussa, toteutuksessa, käyttöönotossa ja palvelutuotannossa on noudatettava Kansallisarkiston tiedonohjaukseen liittyviä määräyksiä ja ohjeita sekä julkishallinnon normiohjausta.	TOS	Tiedonohjaus	Pakollinen
+F48	Tiedonohjausjärjestelmä voi sisältää myös muita metatietoja, kuin SÄHKE2 -metatiedot.	TOS	Tiedonohjaus	Pakollinen
+F49	Tiedonohjausjärjestelmä voi tuottaa asiakkaan määrittelemät asiakirjatiedon käsittelyn ja hallinnan edellyttämät oletusmetatiedot automaattisesti asianhallintajärjestelmän lisäksi myös  operatiivisiin tietojärjestelmiin (esim. asiakirjatietoa sisältävät järjestelmät). TOJ:ssä on avoin rajapinta, jonka avulla TOS:n tietosisältö on muiden järjestelmien käytettävissä  (esim. ryhmätyötilat).	TOS	Tiedonohjaus	Pakollinen
+F50	Tiedonohjausjärjestelmässä voi olla samanaikaisesti useita arkistonmuodostajia.	TOS	Tiedonohjaus	Pakollinen
+F51	Tiedonohjausjärjestelmä voi sisältää ja siinä voidaan käsitellä useita TOS:seja.	TOS	Tiedonohjaus	Pakollinen
+F52	Tiedonohjausjärjestelmässä voi ylläpitää (luoda, muokata, tallentaa, poistaa) TOS:sien versioita ja luonnoksia.	TOS	Tiedonohjaus	Pakollinen
+F53	Tiedonohjausjärjestelmän käyttäjän  on voitava tallentaa järjestelmään tiedonohjaussuunnitelmaa kuvaavat tiedot.	TOS	Tiedonohjaus	Pakollinen
+F54	Tiedonohjausjärjestelmän käyttäjän on voitava tallentaa järjestelmään kuvaustietoja rakenneosittain, esim. tehtäväluokkaa tai asiakirjatyyppiä kuvaavat tiedot, kuten kuvauksen tehtäväluokan käytöstä tai sen lakkauttamisen perusteista.	TOS	Tiedonohjaus	Vertailtava	2
+F55	Tiedonohjausjärjestelmässä tulee voida ylläpitää erilaisia koodistoja.	TOS	Tiedonohjaus	Pakollinen
+F56	Tiedonohjausjärjestelmään tulee voida tuoda koodistoja (esim. excelistä).	TOS	Tiedonohjaus	Vertailtava	2
+F57	Tiedonohjausjärjestelmästä tulee voida viedä koodistoja.	TOS	Tiedonohjaus	Vertailtava	2
+F58	Tiedonohjausjärjestelmän käyttäjän on voitava ylläpitää  SÄHKE2-metatietojen lisäksi muita (operatiivisia) metatietoja.	TOS	Tiedonohjaus	Pakollinen
+F59	Tietojärjestelmä voi hyödyntää järjestelmän ulkoisia metatieto- ja koodistopalveluja (esim. Juho ja YSO).	TOS	Tiedonohjaus	Pakollinen
+F60	Tiedonohjausjärjestelmä ei voi tuottaa TOS-palvelua TOS-rakenneosasta, jonka voimassaoloaika ei ole alkanut.	TOS	Tiedonohjaus	Pakollinen
+F61	Tiedonohjausjärjestelmän on tuotettava suomenkielisiä ohjeita/virheilmoituksia käyttäjälle.	TOS	Tiedonohjaus	Pakollinen
+F62	Tiedonohjausjärjestelmän käyttöliittymän on voitava esittää TOS-rakenne ja -sisältö hierarkkisena rakenteena. Esim. voidaan tarkastella yhdeltä näytöltä alimman tehtäväluokan kaikki asiakirjatyypit.	TOS	Tiedonohjaus	Pakollinen
+F63	Tiedonohjausjärjestelmän käyttäjän on voitava tarkastella ja muuttaa usean TOS-rakenneosan tietoja yhtä aikaa. Esim. katsoa eri tehtäväluokkien asiakirjatyyppejä samanaikaisesti.	TOS	Tiedonohjaus	Pakollinen
+F64	Tiedonohjausjärjestelmän käyttöliittymässä on voitava esittää valitun kohteen metatiedot siten, etteivät tiedot avaudu uuteen näyttöikkunaan. Sama näyttö voi olla jakautunut useaan eri osaan, jossa yhdessä osassa näkyy esim. rakenne ja toiseen osaan avautuvat perustiedot ja kolmanteen esim. muut metatiedot.	TOS	Tiedonohjaus	Vertailtava	2
+F65	Käyttöliittymässä on voitava rivittää pitkät tietokentät teksteineen (esim. nimeke näkyy kokonaan, valintalistoilla tiedot näkyvät kokonaan ja kuvaus- ja lisätietokenttien tekstit näkyvät kokonaisuudessaan).	TOS	Tiedonohjaus	Pakollinen
+F66	Tiedonohjausjärjestelmän käyttäjälle muokkausta varten lukittu TOS-rakenneosa on voitava vapauttaa esim. pääkäyttäjän toimesta.	TOS	Tiedonohjaus	Pakollinen
+F67	Tiedonohjausjärjestelmään on voitava määrittää erilaisia käyttöoikeuksia (esim. katselu, muokkaus).	TOS	Tiedonohjaus	Pakollinen
+F68	Tiedonohjausjärjestelmässä  on voitava määritellä  roolin mukaiset TOS-rakennekohtaiset  käyttöoikeudet (esim. muokkaus- ja lukuoikeudet vain tiettyyn TOS-osioon).	TOS	Tiedonohjaus	Vertailtava	2
+F69	Excel-taulukkoon määritellyn tiedonohjaussuunnitelman voi importoida suoraan tiedonohjausjärjestelmään Excel-tiedostosta.	TOS	Tiedonohjaus	Vertailtava	3
+F70	Tehtäväluokkien määrä ei ole rajoitettu.	TOS	Tiedonohjaus	Pakollinen
+F71	Tiedonohjausjärjestelmä ei rajoita tehtäväluokkien hierarkiatasojen määrää.	TOS	Tiedonohjaus	Pakollinen
+F72	Tiedonohjausjärjestelmän käyttäjän on voitava hakea TOS:n sisältöä TOS-rakenneosilla ja -metatietojen avulla.	TOS	Tiedonohjaus	Pakollinen
+F73	Tiedonohjausjärjestelmän on voitava tuottaa hakutuloslistaus, josta ilmenee hakutuloksen konteksti (tehtäväluokka).	TOS	Tiedonohjaus	Pakollinen
+F74	Tiedonohjausjärjestelmän tuottama hakutuloslistaus sisältää linkit metatietoihin, joiden kautta tiedonohjausjärjestelmän käyttäjä voi siirtyä käsittelemään metatietoja.	TOS	Tiedonohjaus	Pakollinen
+F75	Tiedonohjausjärjestelmässä on tapahtuma- ja muutosloki, jonne tallentuvat tiedot TOS:an tehtävistä muutoksista. Koskee kaikkia TOS:n tiloja.	TOS	Tiedonohjaus	Pakollinen
+F76	Tiedonohjausjärjelmän on tallennettava tapahtuma- ja muutoslokiin:
+- tapahtuma (esim. haku, poisto, lisäys, muutos)
+- tekijä
+- ajankohta.	TOS	Tiedonohjaus	Pakollinen
+F77	Tiedonohjausjärjestelmän käyttäjän on voitava selata ja hakea tapahtuma- ja muutoslokia tapahtumatietojen ja tekijätietojen mukaisesti.	TOS	Tiedonohjaus	Pakollinen
+F78	Tiedonohjausjärjestelmän sisällöstä pitää pystyä tuottamaan raportteja.	TOS	Tiedonohjaus	Pakollinen
+F79	Tiedonohjausjärjestelmästä on voitava tuottaa valmisraportti : Virallinen ja arkistoitava TOS, johon tulostuu erikseen määriteltävät tehtäväluokat ja rakenneosat. Raportille tulostuu pakolliset SÄHKE1/2-metatiedot. Raportille voidaan ottaa mukaan myös organisaation metatietoja.	TOS	Tiedonohjaus	Pakollinen
+F80	Tilaajan pääkäyttäjän on voitava muokata tiedonohjausjärjestelmästä tuotetun raportin ulkoasua.	TOS	Tiedonohjaus	Vertailtava	2
+F81	Tiedonohjausjärjestelmästä on voitava tuottaa valmisraportti TOS:n muutoshistoriasta: Kuten virallinen ja arkistoitava TOS, mutta raportti sisältää tiettynä aikavälillä tehdyt muutokset.	TOS	Tiedonohjaus	Pakollinen
+F82	TOS-raportteihin ei liity tiedostokokorajoituksia. Jos kokorajoituksia on käytössä,niin enimmäiskoko on määriteltävissä.	TOS	Tiedonohjaus	Pakollinen
+F83	Tiedonohjausjärjestelmän käyttäjän on voitava määritellä valmisraportin rajausehtoja, esimerkiksi:
+- Tehtäväluokka(väli)
+- Päivämääräväli (esim. voimassaoloaika).	TOS	Tiedonohjaus	Pakollinen
+F84	Tiedonohjausjärjestelmän sisältö  on voitava tallentaa  XML-formaatissa tietosisällön siirtämistä  varten.	TOS	Tiedonohjaus	Vertailtava	2
+F85	Tiedonohjausjärjestelmän käyttäjän on voitava valita raportin tiedostoformaatti: vähintään MS Excel.	TOS	Tiedonohjaus	Pakollinen
+F86	Tiedonohjausjärjestelmästä tulostettavassa raportissa näkyvät  raportille tulostuvien metatietojen otsikot.	TOS	Tiedonohjaus	Pakollinen
+F87	Usea tiedonohjausjärjestelmän käyttäjä ei voi samanaikaisesti ylläpitää samaa TOS-rakenneosaa.	TOS	Tiedonohjaus	Pakollinen
+F88	Tiedonohjausjärjestelmän on tarkistettava tehtäväluokkien numeroinnin loogisuus ja eheys: TOS-rakenneosan tunnus on yksilöivä (samaa tunnusta, joka on jo käytössä, ei voi tallentaa uudestaan tallentaa samaan TOS-versioon).	TOS	Tiedonohjaus	Pakollinen
+F89	Tiedonohjausjärjestelmän käyttäjän on voitava siirtää ja kopioida  tietty TOS-rakenneosa valittuun kohtaan TOS-rakenteessa siten, että TOS-rakenne säilyy eheänä.	TOS	Tiedonohjaus	Pakollinen
+F90	Tiedonohjaussuunnitelman metatietojen arvojen muutoksia voi tehdä massatoimintona (esim. säilytysaikamuutos koko tehtäväluokalle tai kaikille asiakirjatyypeille).	TOS	Tiedonohjaus	Pakollinen
+F91	Tiedonohjausjärjestelmässä  on voitava käyttää eri tyyppisiä metatietoja: merkkijono (teksti), numeerinen, päivämäärä(väli), valintalistat,  yhteensopivuus ISO - standardien kanssa.	TOS	Tiedonohjaus	Pakollinen
+F92	Tiedonohjausjärjestelmän käyttäjän on voitava määritellä metatietoarvoille voimassaoloaika (voimassaoloajan päättyminen voidaan määritellä myöhemmin). Käytöstä poistettua (voimassaoloaika on päättynyt) metatietoarvoa ei voi lisätä TOS-rakenteeseen, mutta se on olemassa olevien rakenteiden käytössä.	TOS	Tiedonohjaus	Pakollinen
+F93	Järjestelmässä  voidaan ohjata metatietojen pakollisuutta organisaatio,  tehtäväryhmä-, prosessi ja asiakirjatyyppikohtaisesti.	TOS	Tiedonohjaus	Pakollinen
+F94	Tiedonohjausjärjestelmän käyttäjän on voitava tallentaa tehtäväluokituksen alimman tason eli asiaryhmän alle yksi tai useampi asiakirjatyyppi metatietoineen.	TOS	Tiedonohjaus	Pakollinen
+F95	Tiedonohjausjärjestelmän käyttäjän on voitava tallentaa käsittelyvaiheelle yksi tai useampi asiakirjatieto metatietoineen.	TOS	Tiedonohjaus	Pakollinen
+F96	Tiedonohjausjärjestelmän käyttäjän on voitava laatia TOS:n sisältämät asiakirjatyypin/asiakirjatiedon oletusmetatiedot.	TOS	Tiedonohjaus	Pakollinen
+F97	Tiedonohjausjärjestelmä tarjoaa ja operatiivinen käyttöjärjestelmä laskee valmiille asialle säilytysajan mukaisesti säilytyksen ja ehdottaa hävitysluetteloon kun aika täyttyy.	TOS	Tiedonohjaus	Pakollinen
+F98	Tiedonohjausjärjestelmän käyttäjän on voitava tallentaa TOS-rakenneosan (tehtäväluokitus, asiakirjatiedon käsittelyvaihe/aihe, käsittelyvaihe, asiakirjatieto) perustiedot.	TOS	Tiedonohjaus	Pakollinen
+F99	Tiedonohjausjärjestelmän käyttäjän on voitava määritellä TOS-rakenneosan käyttäjäryhmäkohtaiset käyttöoikeudet eli muuttaa ylhäältä periytyneet käyttöoikeudet.	TOS	Tiedonohjaus	Pakollinen
+F100	Tiedonohjausjärjestelmän käyttäjän on voitava ylläpitää TOS-rakenneosaa luonnos-tilassa siten, ettei se vaikuta tuotantokäytössä olevaan TOS-rakenteeseen.	TOS	Tiedonohjaus	Pakollinen
+F101	Tiedonohjausjärjestelmän käyttäjän on voitava hyödyntää tietojen tuottamisessa tietojen periyttämistä. Tiedot on mahdollista periyttää ylemmiltä tasoilta, mutta tietoja on mahdollista lisätä, muuttaa ja poistaa alemmilla tasoilla käyttöoikeuksien mukaan.	TOS	Tiedonohjaus	Pakollinen
+F102	Tiedonohjausjärjestelmän käyttäjän on voitava valita periytyvätkö TOS-metatiedot TOS-rakenteen alemmille tasoille.	TOS	Tiedonohjaus	Pakollinen
+F103	Tiedonohjausjärjestelmän käyttäjän on voitava hyödyntää tietojen tuottamisessa tiedon kopioimista, TOS rakenne ja sisältö saatava vaivattomasti käyttöön testi- ja koulutusympäristöissä.	TOS	Tiedonohjaus	Pakollinen
+F104	TOSin rakenne ja rakenneosat voidaan kopioida ja siirtää TOSsin sisällä.	TOS	Tiedonohjaus	Pakollinen
+F105	TOSin rakenne ja rakenneosat voidaan kopioida ja siirtää tiedonohjausjärjestelmässä käsiteltävien TOSsien välillä.	TOS	Tiedonohjaus	Vertailtava	2
+F106	Tiedonohjaussuunnitelmassa on voitava määritellä prosesseille yhteisiä osia, jotka kuvataan vain kerran ja voidaan tämän jälkeen liittää niitä käyttäviin prosesseihin. Näin esim. samanlaisena toistuva muutoksenhaku voidaan kuvata ja ylläpitää vain yhden kerran.	TOS	Tiedonohjaus	Pakollinen
+F107	Tiedonohjausjärjestelmä tarjoaa tehtäväluokille yksilöivän ja juoksevan numeerisen tunnuksen, joka seuraa luokkien hierarkkista rakennetta.	TOS	Tiedonohjaus	Pakollinen
+F108	Tiedonohjausjärjestelmän tarjoaman tehtäväluokan tunnuksen voi vaihtaa haluamakseen.	TOS	Tiedonohjaus	Pakollinen
+F109	Kaikille operatiiviseen käyttöjärjestelmään tallennettaville kohteille (esim. asiakirjat, asiat) määräytyy hävitysajankohta, myös luonnostilaisille.	TOS	Tiedonohjaus	Pakollinen
+F110	Ennalta määriteltyjen käyttöoikeuksien mukaisessa roolissa toimivan käyttäjän on nähtävä kaikki tiedonohjausjärjestelmässä oleva aineisto.	TOS	Tiedonohjaus	Pakollinen
+F111	Jos asiakirja liittyy moneen asiaan, asiakirjan säilytysaika määräytyy pisimmän säilytysajan mukaan.	TOS	Tiedonohjaus	Vertailtava	1
+G	Arkistointi	Arkistointi
+G1	Tiedonohjausjärjestelmä noudattaa Kansallisarkiston pitkäaikaissäilytykseen liittyvää ohjeistusta.	Arkistointi	Pakollinen
+G2	Järjestelmä purkaa automaattisesti pakatut tiedostot, esim. zip, viimeistään kun ne tallennetaan järjestelmään.	Arkistointi	Pakollinen
+G3	Tietojärjestelmä tuottaa ehdotuksen siirrettävästä aineistosta ennen siirtotiedoston muodostamista.	Arkistointi	Pakollinen
+G4	Ennalta määriteltyjen käyttöoikeuksien mukaisessa roolissa toimiva tietojärjestelmän käyttäjä voi rajata pois siirtotiedostoehdotuksesta salassa pidettävän tiedon.	Arkistointi	Pakollinen
+G5	Ennalta määriteltyjen käyttöoikeuksien mukaisessa roolissa toimiva tietojärjestelmän käyttäjä voi tarkastaa ja muuttaa siirtotiedostoehdotusta.	Arkistointi	Pakollinen
+G6	Tietojärjestelmä tuottaa SÄHKE2-suosituksen mukaisen siirtotiedoston ja mahdollistaa sisältöjen siirtämisen sähköisen pitkäaikaissäilytyksen palveluun.	Arkistointi	Pakollinen
+G7	Tietojärjestelmä tuottaa raportin tapahtuneesta tiedostosiirrosta.	Arkistointi	Pakollinen
+G8	Järjestelmästä voi tehdä hakuja sähköisen pitkäaikaissäilytyksen järjestelmään rajapinnan kautta käyttöoikeuksien mukaisesti.	Arkistointi	Vertailtava	1
+G9	Järjestelmä ei edellytä Pdf-muuntoa arkistoinnin ehtona.	Arkistointi	Pakollinen
+H	Seulonta ja hävitys	Seulonta ja hävitys
+H1	Järjestelmä laskee asiakirjan säilytysajan päättymisajankohdan kun asian käsittely päättyy.	Seulonta ja hävitys	Pakollinen
+H2	Tietojärjestelmän toiminnoilla voi toteuttaa määräaikaisesti säilytettävien asiakirjojen seulonnan ja hävittämisen.	Seulonta ja hävitys	Pakollinen
+H3	Tietojärjestelmään tulee sisältyä hävitystoiminnallisuus, jonka kautta tuotetaan hävitysesitys. Hävitysesitysten tekeminen on oltava mahdollista vain auktorisoidun roolin mukaisin käyttöoikeuksin. Hävitysesitys tallennetaan järjestelmään.	Seulonta ja hävitys	Pakollinen
+H4	Hävitystoiminnallisuus hävittää asiakirjan tiedostot ja säilyttää asian ja asiakirjan metatiedot. Metatiedoissa tulee näkyä tieto tiedoston hävittämisestä.	Seulonta ja hävitys	Pakollinen
+H5	Tietojärjestelmän tuottamaan hävitysesitykseen sisältyvät ainoastaan asiakirjatiedot joiden säilytysaika on päättynyt, joiden tila on valmis ja jotka liittyvät käsittelyprosessiin joka on päättynyt.	Seulonta ja hävitys	Pakollinen
+H6	Tietojärjestelmän on voitava tuottaa hävitysesityksiä esim. organisaatio- ja tehtäväluokkakohtaisesti.	Seulonta ja hävitys	Pakollinen
+H7	Tietojärjestelmässä voidaan tuottaa hävitysesitys asiakirjatyyppikohtaisesti.	Seulonta ja hävitys	Vertailtava	2
+H8	Hävitysesityksen voi lähettää hyväksyttäväksi erikseen valittavalle henkilölle.	Seulonta ja hävitys	Pakollinen
+H9	Hävitysesityksen muodostaja ja hyväksyjä voivat poistaa sekä yksittäisiä että useampia kohteita.	Seulonta ja hävitys	Pakollinen
+H10	Kohteen sisältyminen hävitysesitykseen pitää näkyä tilatiedon yhteydessä.	Seulonta ja hävitys	Pakollinen
+H11	Hävittämistoiminnon voi käynnistää vain ennalta määriteltyjen käyttöoikeuksien mukaisessa roolissa toimiva henkilö.	Seulonta ja hävitys	Pakollinen
+H12	Toteutetusta hävityksestä voidaan muodostaa asiakirjamuotoinen hävitysluettelo joka voidaan tallentaa.	Seulonta ja hävitys	Pakollinen
+H13	Järjestelmä tukee paperiaineistojen hallintaa siltä osin kuin niiden metatiedot ovat järjestelmässä (esim. hävitysesitys).	Seulonta ja hävitys	Pakollinen
+I	Hakutoiminnot	Haku
+I1	Hakuja voidaan kohdistaa dokumenttien/asiakirjojen sisältöön.	Haku	Pakollinen
+I2	Hakuja voi tehdä kaikilla, myös räätälöidyllä metatiedoilla	Haku	Pakollinen
+I3	Järjestelmässä on mahdollista tehdä hakuja kaikista kohteista Boolen logiikkaa (AND, OR, NOT) hyväksikäyttäen.	Haku	Pakollinen
+I4	Dokumenttien/asiakirjojen sisältöhaussa voidaan käyttää sekä vapaasanahakua että fraasihakua.	Haku	Pakollinen
+I5	Haku voidaan kohdistaa samanaikaisesti dokumenttien/asiakirjojen sisältöön sekä kaikkiin metatietoihin.	Haku	Pakollinen	Ensin rajaava hakuehto on metatiedot ja sen jälkeen sisältöhaku kohdistuu metatietojen avulla rajattuun dokumentti-/asiakirjajoukkon.
+I6	Haku voidaan kohdistaa sisältöön ja erikseen valittuihin metatietokenttiin.	Haku	Pakollinen
+I7	Hakutoiminnallisuus huomioi käyttöoikeudet ja haku palauttaa vain tietoja (metatietoja, sisältöä), joita käyttäjällä on oikeus nähdä.	Haku	Pakollinen
+I8	Haku ulottuu kaikkiin järjestelmässä käsiteltäviin aineistoihin samanaikaisesti, mutta hakua voi tarvittaessa rajata myös tiettyyn aineistoon/aineisto-osaan.	Haku	Pakollinen
+I9	Numeerisissa hauissa (ml. päivämäärähaku) haku voidaan rajata tiettyjen arvojen välille. Toisen arvon voi jättää täyttämättä (on pienempi kuin, on suurempi kuin, on yhtä suuri kuin).	Haku	Pakollinen
+I10	Metatiedoille määriteltyjä arvojoukkoja voi valita hakuehdoiksi valintalistoista.	Haku	Pakollinen
+I11	Haun valintalistoista voi valita useamman arvon kerralla.	Haku	Pakollinen
+I12	Haku voidaan kohdistaa erikseen valittuihin metatietokenttiin.	Haku	Pakollinen
+I13	Haku voidaan kohdistaa erikseen asioihin, toimenpiteisiin, asiakirjoihin, dokumentteihin.	Haku	Pakollinen
+I14	Haku voidaan kohdistaa samanaikaisesti valittuihin kohteisiin: asioihin, toimenpiteisiin, asiakirjoihin, dokumentteihin, jolloin hakutulos on eriytetty entiteettikohtaisesti.	Haku	Pakollinen
+I15	Päivämäärähaussa päivämäärän voi sekä kirjoittaa että hakea kalenterista.	Haku	Pakollinen
+I16	Järjestelmään voidaan erikseen määritellä, mitä jätetään indeksoinnin ulkopuolelle, esim. tehtäväryhmään tai muuhun metatietoon perustuen.	Haku	Vertailtava	2
+I17	Järjestelmään voi määritellä listan sanoista, joita ei indeksoida (hukkasanalista, esim. ja, ei, tai, jos).	Haku	Vertailtava	1
+I18	Järjestelmä suorittaa sisällön indeksoinnin  automaattisesti niille tiedostotyypeille, joille se on teknisesti mahdollista tehdä.	Haku	Pakollinen
+I19	Haku ei erottele isoja ja pieniä kirjaimia.	Haku	Pakollinen
+I20	Edellisen haun hakutulosta voi käyttää tarkentavan haun hakujoukkona siten, että edellisen haun kriteerit säilyvät.	Haku	Pakollinen
+I21	Tilaajan pääkäyttäjä voi tallentaa järjestelmään valmiita hakuja.	Haku	Pakollinen
+I22	Tilaajan pääkäyttäjä voi määrittää hakulomakkeelle tiettyjä valmiita ehtoja, esim. metatietojen tai  käyttäjätietojen perusteella.	Haku	Pakollinen
+I23	Pääkäyttäjä voi parametroida hakulomakkeita ja niissä näkyviä kenttiä.	Haku	Pakollinen
+I24	Hakuehtona voi käyttää tyhjää metatietoarvoa sekä sitä, että arvo "ei ole tyhjä".	Haku	Pakollinen
+I25	Hakuehtona voi käyttää metatietokentän käytetyistä arvoista automaattisesti muodostetun listan arvoja (esim. asiasanat, vapaat asiasanat).	Haku	Vertailtava	1
+I26	Hakusanan voi katkaista alusta ja lopusta.	Haku	Pakollinen
+I27	Järjestelmässä on käytössä sama katkaisumerkki kaikissa hauissa.	Haku	Pakollinen
+I28	Järjestelmä voi katkaista hakusanat automaattisesti alusta ja lopusta, ilman erillisen katkaisumerkin käyttöä.	Haku	Vertailtava	1
+I29	Hakusanat voi katkaista keskeltä. Katkaisussa käytetään apuna määriteltävää katkaisumerkkiä.	Haku	Vertailtava	2
+I30	Käyttäjä voi tallentaa hakuja.	Haku	Pakollinen	
+I31	Tallennetun haun hakuehtoja voi muokata myöhemmin käytettäviksi uuden haun pohjana.	Haku	Pakollinen
+I32	Tilaajan pääkäyttäjä voi määrittää tallennetun haun käyttöoikeudet muille käyttäjille (yksittäiset käyttäjät, käyttäjäryhmät, roolit, organisaatio/organisaatioyksikkö sekä sen alatasot).	Haku	Pakollinen
+I33	Käyttäjä voi määrittää  tallentamilleen hauille käyttöoikeudet muille käyttäjille (yksittäiset käyttäjät, käyttäjäryhmät, roolit, organisaatio/organisaatioyksikkö sekä sen alatasot).	Haku	Vertailtava	2
+I34	Haussa voidaan toteuttaa dynaamisia hakuja, jotka ovat riippuvaisia hakuajankohdan päivämäärästä (esim. asiat viimeisen kuukauden ajalta).	Haku	Pakollinen
+I35	Haussa voidaan toteuttaa dynaamisia hakuja, jotka ovat riippuvaisia järjestelmän käyttäjästä (käyttäjätunnuksesta) tai käyttäjän organisaatioyksiköstä.	Haku	Pakollinen
+I36	Haussa voidaan toteuttaa dynaamisia hakuja, jotka ovat riippuvaisia järjestelmän käyttäjän roolista.	Haku	Vertailtava	2
+I37	Järjestelmä muistaa käyttäjän viimeksi tekemän tallennetun haun ja käyttäjä voi rajata haun näyttämään vain edellistä katselukertaa uudemmat tulokset.	Haku	Vertailtava	2
+I38	Haun tuloslistauksessa näkyviä kenttiä voi käyttäjäkohtaisesti valita ja järjestää haluamaansa järjestykseen.	Haku	Pakollinen
+I39	Haun tuloslistauksessa ovat kaikki kentät valittavissa.	Haku	Vertailtava	2
+I40	Käyttäjä voi liikkua hakutuloksen kohteissa kohteesta toiseen (eteen ja taaksepäin) palaamatta alkuperäiseen hakutuloslistaukseen.	Haku	Vertailtava	2
+I41	Hakutuloslistauksen voi tallentaa muokattavaksi tiedostoksi (esim. excel)  jatkokäsittelyä varten.	Haku	Pakollinen
+I42	Kerralla näytettävän hakutulosten määrää voi rajata.	Haku	Pakollinen
+I43	Hakutuloslistauksessa näkyy hakutuloksen määrä.	Haku	Pakollinen
+I44	Näytettävän hakutuloksen määrä on konfiguroitavissa.	Haku	Pakollinen
+I45	Järjestelmän etusivulla on hakuikkuna, jonka kautta voi hakea määrittelyn mukaisesti järjestelmän sisällöstä (ns. pikahaku).	Haku	Pakollinen
+I46	Palvelussa on käytettyihin ontologioihin perustuva haku- ja selausmahdollisuus. Ontologiapohjainen selaus mahdollistaa aineiston selailun ontologian viittausten mukaisesti (yläkäsite, alakäsite/alakäsitteet, assosiatiiiviset, korvatut jne.).	Haku	Vertailtava	1
+I47	Käyttäjä voi keskeyttää haun.	Haku	Pakollinen
+I48	Käyttäjällä on käyttäjäkohtainen näkymä, jossa näkyvät käyttäjän viimeksi käsittelemät asiat, asiakirjat ja dokumentit.	Haku	Pakollinen
+I49	Järjestelmän osaksi voidaan liittää muun osapuolen toimittama hakumoottori.	Haku	Pakollinen
+I50	Järjestelmä ymmärtää määritellyt synonyymit hauissa erikseen määritellyissä metatietokentissä.  Esim. com = kom, 1234/16 = 1234/2016.	EU-asianhallinta	Haku	Vertailtava	1
+J	Raportointi ja tilastot	Raportointi ja tilastot
+J1	Kaikkien metatietokenttien sisältö on haettavissa raporttiin ja kenttiä voidaan vapaasti yhdistellä toisiinsa. Raportin voi tuottaa esim. asian, asiakirjan, toimenpiteen tai jakelun metatietojen perusteella ja kohdistaen sen esim. päivämääräväliin, organisaatioon, tehtäväluokan osaan, tilatietoon, valintalistoilla oleviin arvoihin.	Raportointi ja tilastot	Pakollinen
+J2	Järjestelmässä voi tuottaa raportin (esim. asialistauksen), jossa erikseen määriteltyjen metatietokenttien otsikot näkyvät suomeksi ja ruotsiksi.	Raportointi ja tilastot	Vertailtava	1
+J3	Järjestelmästä on voitava tulostaa yhdeksi  asiakirjaksi/tiedostoksi yksittäisen tai useamman asian tiedot sekä asioihin liittyvien asiakirjojen erikseen määrittelyt metatiedot ns. diaariote. Diaariotteen voi tulostaa.	Raportointi ja tilastot	Pakollinen
+J4	Pääkäyttäjä voi laatia järjestelmän tiedoista itse haluamiaan raportteja metatietojen ja niiden yhdistelmien perusteella. Metatietojen osalta voi käyttää Boolen logiikan mukaisia operaattoreita (and, or, not).	Raportointi ja tilastot	Pakollinen
+J5	Raportilla voi valita, näkyvätkö raportointitoiminnon käynnistäjän käynnistämässä raportissa ne salassa pidettävät tiedot, joihin raportin käynnistäjällä on oikeus.	Raportointi ja tilastot	Pakollinen
+J6	Järjestelmä mahdollistaa pääkäyttäjän määrittelemien raporttien tallentamisen valmisraporteiksi.	Raportointi ja tilastot	Pakollinen
+J7	Metatieto on haettavissa raporttiin, vaikka se esiintyisi vain yksittäisessä tehtäväryhmässä, prosessissa tai muussa erityistapauksessa.	Raportointi ja tilastot	Pakollinen
+J8	Raportti voidaan muodostaa tiedosta, onko kenttä tyhjä tai kenttä ei ole tyhjä. Raportti näyttää lukumäärätiedon tyhjien tai ei-tyhjien kenttien määristä.	Raportointi ja tilastot	Pakollinen
+J9	Raportit saa järjestelmässä toimijakohtaisesti, esim.  organisaatio/osasto/yksikkö/käyttäjäkohtaisesti, sisältäen haetun organisaation alatasot.	Raportointi ja tilastot	Pakollinen
+J10	Järjestelmästä on mahdollista muodostaa raportti, johon yhdistetään usean samantasoisen organisaatioyksikön tiedot.	Raportointi ja tilastot	Pakollinen
+J11	Pääkäyttäjä voi tehdä muiden käyttöön raporttipohjia, joissa loppukäyttäjä voi täyttää haluamansa tiedot. Pääkäyttäjä määrittelee, mitä tietoja raporttipohjalla on haettavissa.	Raportointi ja tilastot	Pakollinen
+J12	Järjestelmä tuottaa tiedostomuotoisen, muokattavan raportin esim. MS Office-muodossa.	Raportointi ja tilastot	Pakollinen
+J13	Raporttien sisältö voidaan siirtää jatkokäsiteltäväksi kolmannen osapuolen raportointityökaluilla.	Raportointi ja tilastot	Pakollinen
+J14	Järjestelmässä voidaan muodostaa tilastoraportti esim. käsittelyajoista, käyttäjämääristä tai muusta tiedosta niin, että järjestelmä osaa laskea haluttuja arvoja metatietojen perusteella.	Raportointi ja tilastot	Pakollinen
+J15	Järjestelmä tuottaa järjestelmään tilaajan määrittelemät valmisraportit visuaalisessa muodossa. Raportin voi ladata tiedostoksi.	Raportointi ja tilastot	Pakollinen
+K	Julkaisu	Julkaisu
+K1	Julkisia ja TL IV kohteita (esim. asiakirjoja, kokoustietoja sekä asian ja aiheen metatietoja ja hakutuloksia)  voi julkaista intranetiin linkkeinä ja verkkosyötteinä.	Julkaisu	Pakollinen
+K2	Pääkäyttäjä voi parametroida (ei vaadi ohjelmointia) esim. prosessin tai erikseen määriteltävien metatietojen mukaan, voidaanko kohde (esim. dokumentti/asiakirja) julkaista järjestelmän toiminnallisuuksin sisäiseen verkkopalveluun (intranet) vai onko tämä estetty.	Julkaisu	Pakollinen
+K3	Kohteita (esim. asiakirjoja sekä asioiden ja aiheiden metatietoja) voi julkaista liitetiedostoina ja verkkosyötteinä extranetiin ja järjestelmän ulkopuolella oleviin rajattuihin ryhmätyötiloihin.	Julkaisu	Pakollinen
+K4	Pääkäyttäjä voi parametroida (ei vaadi ohjelmointia) esim. prosessin tai erikseen määriteltävien metatietojen mukaan, voidaanko kohde (esim. dokumentti/asiakirja) julkaista järjestelmän toiminnallisuuksin erikseen määriteltyihin ulkoisiin verkkopalveluihin (extranet, ryhmätyötila) vai onko tämä estetty.	Julkaisu	Pakollinen
+K5	Julkisia kohteita tai pelkästään niiden erikseen määriteltyjä metatietoja (esim. dokumentteja/asiakirjoja, asioiden/aiheiden metatietoja) voi julkaista liitetiedostoina ja verkkosyötteinä internetiin ja muihin ulkoisiin järjestelmiin.	Julkaisu	Pakollinen
+K6	Salassa pidettävien kohteiden, esim. asian ja asiakirjan, vain erikseen määriteltyjä julkisia metatietoja voidaan julkaista internetissä.	Julkaisu	Pakollinen
+K7	Dokumentista/asiakirjasta voi julkaista käyttäjän määrittelemän version. Oletusversiona käytetään uusinta versiota.	Julkaisu	Pakollinen
+K8	Kohteita voi julkaista massatoimintona.	Julkaisu	Pakollinen
+K9	Pääkäyttäjä voi parametroida (ei vaadi ohjelmointia), esim. prosessin tai erikseen määriteltävien metatietojen mukaan, voidaanko kohde (esim. dokumentti/asiakirja) julkaista massatoimintona intranettiin ja erikseen määriteltyihin ulkoisiin verkkopalveluihin (extranet, ryhmätyötila) vai onko tämä estetty.	Julkaisu	Pakollinen
+K10	Asian salassa pidettäviä metatietoja ja salassa pidettäväksi luokiteltua muuta  kohdetta (esim. dokumenttia/asiakirjaa) ei voi julkaista internetissä.	Julkaisu	Pakollinen
+K11	Kohteiden (esim. asioiden, asiakirjojen sekä niiden metatietojen) julkaiseminen voidaan ajastaa.	Julkaisu	Pakollinen
+K12	Julkaisutoiminnossa voidaan estää tietyillä metatiedoilla luokitellun asian tiedon ja asiakirjan automaattinen julkaisu.	Julkaisu	Pakollinen
+K13	Pääkäyttäjä voi estää julkaisutoiminnossa tietyillä metatiedoilla luokitellun asian tiedon ja asiakirjan automaattisen julkaisun.	Julkaisu	Pakollinen
+K14	Dokumentteja/asiakirjoja voi julkaista niiden natiiviformaateissa.	Julkaisu	Pakollinen
+K15	Dokumentteja/siakirjoja voidaan julkaista muussa kuin natiiviformaatissa.	Julkaisu	Pakollinen
+K16	Rakenteisten dokumenttien/asiakirjojen rakenneosia voidaan julkaista samoin periaattein kuin muitakin kohteita.	Julkaisu	Pakollinen
+K17	Rakenteisia asiakirjoja tai niiden rakenneosia voidaan julkaista niiden metatietoihin perustuen, esim. salassa pidettävästä asiakirjasta voidaan jättää salassa pidettävät rakenneosat pois ja julkaista vain julkiset rakenneosat.	Julkaisu	Pakollinen
+L	Virtuaalikansiot ja ryhmätyö	Asiakirjan ja dokumentin hallinta
+L1	Järjestelmässä voi käyttää virtuaalikansioita.	Asiakirjan ja dokumentin hallinta	Pakollinen	Virtuaalikansioihin voi koota  dokumentteja ja asiakirjoja esim. aiheen mukaisiin kokonaisuuksiin
+L2	Käyttäjä voi antaa virtuaalikansiolle käyttöoikeuksia henkilö-, rooli- ja käyttäjäryhmäkohtaisesti.	Asiakirjan ja dokumentin hallinta	Pakollinen
+L3	Sama dokumentti/asiakirja tai virtuaalikansio voi olla useassa virtuaalikansiossa (ei kopioita).	Asiakirjan ja dokumentin hallinta	Pakollinen
+L4	Dokumentille/asiakirjalle voidaan periyttää käyttöoikeudet virtuaalikansiolta tai aiheelta.	Asiakirjan ja dokumentin hallinta	Pakollinen
+M	Hallintapalvelut	Hallintapalvelut
+M1	Käyttäjän omat asiat, asiakirjat, dokumentit ja virtuaalikansiot saadaan oletuksena käyttäjän näkymään (esim. asiakirjat, joissa ko. henkilö on laatijana).	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M2	Asiat ja asiakirjat/dokumentit on mahdollista saada oletuksena näkyviin käyttäjän organisaation, organisaatioyksikön tai muun käyttäjäryhmän (esim. osasto, rooli) perusteella.	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M3	Kohteesta (asia, virtuaalikansio, asiakirja/dokumentti) voidaan muodostaa hyperlinkki, jonka voi kopioida (linkki avautuu, mikäli käyttäjällä on oikeudet järjestelmässä ko. kohteeseen).	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M4	Käyttäjä näkee oman valintansa ja omien käyttöoikeuksiensa mukaisesti käyttöliittymässä erikseen määriteltävät oman organisaationsa asiat, asiakirjat ja aiheet.	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M5	Käyttäjä voi lisätä kohteen (asian, asiakirjan tms.) suosikkeihinsa.	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M6	Käyttäjä voi lisätä usein käyttämiänsä TOS-tehtäväluokkia omiin suosikkeihinsa.	Käyttöliittymä	Hallintapalvelut	Pakollinen
+M7	Käyttöoikeudet tulee voida rajata organisaatioittain, organisaatioyksiköittäin, tehtäväluokittain ja prosesseittain/toiminnallisuuksittain.	Käyttöoikeudet	Hallintapalvelut	Pakollinen
+M8	Kohteiden (asia, asiakirja, dokumentti tms.) käyttöoikeuksia voi antaa yli organisaatiorajojen VN Asia-käyttäjien kesken.	Käyttöoikeudet	Hallintapalvelut	Pakollinen
+M9	Käyttöoikeuksia (esim. luku, muokkaus) tulee pystyä määrittelemään metatietojen perusteella (esim. julkisuusluokka, asiakirjan tila).	Käyttöoikeudet	Hallintapalvelut	Pakollinen
+M10	Järjestelmästä voidaan periyttää samaan tehtäväryhmään kuuluville kohteille (esim. asioille ja asiakirjatyypeille) käyttöoikeus- ja käsittelijätietoja organisaatiokohtaisesti. Periytettävät tiedot voivat olla joko yksittäisiä henkilöitä tai ryhmiä.	Käyttöoikeudet	Hallintapalvelut	Pakollinen
+M11	Tilaaja voi järjestelmässä käyttöoikeuksien mukaisesti muuttaa valittujen kohteiden käyttöoikeudet massatoiminnolla.	Käyttöoikeudet	Hallintapalvelut	Pakollinen
+M12	Ratkaisukokonaisuuteen kuuluu yhteystietorekisteri tai vastaava järjestelmän käyttämä toiminnallisuus, johon voidaan tallentaa tietoja sekä manuaalisesti että automaattisesti rajapinnan kautta ulkoisesta järjestelmästä ja josta voidaan hakea asialle ja asiakirjalle yhteystietoja. Järjestelmästä on kuitenkin voitava jakaa esim. asiakirjoja käyttämättä yhteystietorekisteriä.	Yhteystietojen hallinta	Hallintapalvelut	Pakollinen
+M13	Yhteystietorekisteriin voidaan lisätä yhteystietokohtaisia asiakkaan omia metatietokenttiä, joihin voidaan liittää käsittelysääntöjä.	Yhteystietojen hallinta	Hallintapalvelut	Pakollinen
+M14	Yhteystietorekisterin kontaktit voidaan jakaa organisaatioihin ja yksityishenkilöihin.	Yhteystietojen hallinta	Hallintapalvelut	Pakollinen
+M15	Järjestelmästä on oltava integraatiomahdollisuus jo käytössä oleviin yhteystietorekistereihin.	Yhteystietojen hallinta	Hallintapalvelut	Pakollinen
+M16	Yhteystietoa lisättäessä yhteystietorekisteriin järjestelmä ilmoittaa, jos saman niminen organisaation osa tai henkilön nimi on olemassa.	Yhteystietojen hallinta	Hallintapalvelut	Pakollinen
+M17	Järjestelmässä on mahdollista määritellä sijaisuudet.	Yleinen	Hallintapalvelut	Pakollinen
+M18	Järjestelmä mahdollistaa salassa pidettävän tiedon käsittelyn vain erikseen määritellyillä  päätelaitteilla.	Yleinen	Hallintapalvelut	Pakollinen
+M19	Tunnistautuneen käyttäjän palvelussa käyttäjän tiedot näjyvät selkeästi jokaisella näytöllä.	Yleinen	Hallintapalvelut	Vertailtava	3
+M20	Palvelu sisältää indikaattorin (esim. "Ladataan" -symboli) mikäli sivun latautuminen kestää esimerkiksi enemmän kuin 3 sekuntia. Mikäli latautuminen kestää esimerkiksi enemmän kuin 10 sekuntia, tulee se indikoida siten, että käyttäjä näkee jäljellä olevan latausajan ja käyttäjällä on mahdollisuus keskeyttää lataus (esim. etenevä palkki ja keskeytä lataaminen -painike). Valmisohjelmistojen esiasetetut indikaattorien latautumiseen liittyvät käytänteet ovat riittäviä.	Yleinen	Hallintapalvelut	Vertailtava	2
+N	Mobiilikäyttö	Mobiilikäyttö
+N1	Mobiilikäyttö on voitava rajata vain julkiselle ja TL IV -aineistolle.	Mobiilikäyttö	Asiakirjan ja dokumentin hallinta	Pakollinen
+N2	Asiakirjan puolto, tarkastus ja hyväksyminen voidaan tehdä mobiililaitteella.	Mobiilikäyttö	Asiakirjan ja dokumentin hallinta	Pakollinen
+N3	Asiakirjan vaatimukset täyttävä sähköinen allekirjoittaminen voidaan tehdä mobiililaitteella.	Mobiilikäyttö	Asiakirjan ja dokumentin hallinta	Vertailtava	3
+N4	Käyttäjä voi tehdä mobiililaitteella vähintään seuraavia asioita mobiilisti: avata ja lukea asiakirjoja ja niiden liitteitä, lähettää asiakirjoja tai niiden linkkejä edelleen toisille käyttäjille, lukea työnkulkuihin/asiakirjoihin lisättyjä kommentteja ja kirjoittaa kommentteja itse, kuitata toimeksiantoja, puoltaa asiakirjaa, tarkastaa asiakirjan, hyväksyä asiakirjan, seurata työjonoja, ottaa vastaan hälytyksiä ja ilmoituksia, seurata työnkulun etenemistä.	Mobiilikäyttö	Asiakirjan ja dokumentin hallinta	Pakollinen
+N4	Käyttäjä voi tehdä mobiilisti metatietoihin perustuvia hakuja ja vapaatekstihakuja.	Haku	Selailu- ja raportointipalvelut	Pakollinen
+N5	Käyttäjä voi selata puhelimella tai tabletilla mobiilisti valmishakuihin perustuvia listoja.	Haku	Selailu- ja raportointipalvelut	Pakollinen
+O	Offline-käyttö	Offline-käyttö
+O1	Asiakirjan voi laatia offline-tilassa; käyttää  valmiita asiakirjapohjia, määritellä asiakirjan pakolliset metatiedot ja hyödyntää valmiita jakeluehdotuksia. Käyttäjä siirtää verkkoon päästyään luonnoksen VN Asia-järjestelmään, joka tallentaa asiakirjan puuttuvat metatiedot ja tekee tarvittaessa jakelun.	Asiakirjan ja dokumentin hallinta	Pakollinen
+P	Prosessimoottori	Prosessimoottori
+P1	Järjestelmän on tarjottava tuki automatisoiduille sekä aikapohjaisille toiminnoille, jotka aktivoivat uusia työnkulkuja, tapahtumia, ilmoituksia ja hälytyksiä.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P2	Prosessimoottorin on tuettava aliprosesseja, rinnakkaisia prosesseja, sisäkkäisiä prosesseja, ehdollisia prosesseja, prosessien haarautumista, pitkäkestoisia prosesseja sekä ulkopuolisten resurssien/palveluiden integrointia.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P3	Prosessit ja niihin sisältyvät prosessivaiheet on voitava  määritellä joko ehdollisiksi tai pakollisiksi.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P4	Ehdolliset prosessit ja prosessivaiheet on voitava ohittaa.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P5	Prosessit ja niihin liittyvät tehtävät on voitava tarvittaessa erikseen pysäyttää ja käynnistää.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P6	Järjestelmä sisältää monipuolisen, joustavan ja suoraan prosessien suunnitteluun sekä prosessienhallintaan integroituvan toimintasääntömoottorin, jonka avulla voidaan hallinnoida yleisiä prosesseihin vaikuttavia toimintasääntöjä.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P7	Toimintasääntömoottoria voidaan simuloida ja simuloinnin on tuotettava selkeä toimintasääntöjen muutosten vaikutusanalyysi.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen
+P8	Toimintasääntömoottori tarjoaa tuen poikkeamien ja eskalointien hallinnalle.	Prosessimoottori	Työnkulkujen hallinta	Pakollinen

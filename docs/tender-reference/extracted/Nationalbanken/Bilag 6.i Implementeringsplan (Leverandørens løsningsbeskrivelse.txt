@@ -1,0 +1,371 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem  02.19 Fagsystemer  (202 4) 
+Kontrakt om levering af ESDH løsning til Danmarks Nationalbank 
+SKI0219.2503.0030 
+Version 1.0
+
+## Page 2
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 1 af 11 
+ 
+Indhold 
+1 Indledning .................................................................................................................................... 2 
+1.1 Antagelser, der er afspejlet i tidsplanen ..................................................................................... 2 
+2 Implementeringstidsplan for Servicen ..................................................................................... 3 
+2.1 Overblik over aktiviteter og milepæle i implementeringstidsplanen .......................................... 4 
+2.2 Afklaringsfasen ........................................................................................................................... 5 
+2.3 Etablering af miljøerne................................................................................................................ 7 
+2.4 Implementeringsfasen ................................................................................................................ 8 
+2.4.1 Etablering af Kundens ESDH-løsning ..................................................................................... 8 
+2.4.2 Datamigrering .......................................................................................................................... 9 
+2.4.3 Uddannelse ............................................................................................................................ 10 
+2.4.4 Overtagelsesprøve og ibrugtagning af Løsningen ................................................................ 10
+
+## Page 3
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 2 af 11 
+1 Indledning 
+Leverandøren har i nærværende bilag beskrevet implementeringsplanen for den tilbudte Service i 
+henhold til kundens krav i bilag 6 Implementering.   
+Leverandørens besvarelse af nærværende bilag er opdelt i en række emner og underbilag for at 
+øge læsevenligheden og kvaliteten af besvarelsen: 
+• Beskrivelserne i dette Bilag 6.i giver en detaljeret gennemgang af Leverandørens imple-
+menteringstidsplan og Leverandørens proces for risikostyring for at give Kunden indsigt i 
+hvorledes en succesfuld implementering opnås og Kundens bidrag til samme. 
+• ”Underbilag 6A – Implementeringstidsplan” angiver den samlede implementeringstidsplan. 
+• Underbilag 6B – Testplan beskriver den teststrategi, der er planlagt for implementeringen af 
+Servicen 
+1.1 Antagelser, der er afspejlet i tidsplanen 
+1) Det er Leverandørens opfattelse, efter gennemlæsningen af udbudsbilagene, at Kunden 
+ønsker at holde Kundens tidsforbrug og involvering så lavt som muligt.  
+ 
+Dette medfører fx at Kunden ikke deltager i konfigurationen af Løsningen. 
+ 
+Kunden ønsker ikke at have en aktiv deltagelse i test af Løsningen udover de områder, der 
+kræver en aktiv deltagelse, som fx test af migreringen og UAT. 
+Ad 1) Leverandøren leverer et standardsystem der skal konfigureres iht. kravene, og de justerin-
+ger, der vil være nødvendige ift. resultatet af de planlagte afklaringsworkshops.  
+Leverandøren vil derefter kunne konfigurere Løsningen uden Kundens involvering, hvilket Tidspla-
+nen afspejler.  
+Leverandøren tilrettelægger implementeringen, så kundens tidsforbrug optimeres mest muligt, 
+uden at det går ud over kvalitet og nødvendige beslutningsprocesser. 
+ 
+Hvis antagelsen er forkert, og Kunden ønsker en større grad af involvering, kan konfiguration af 
+Løsningen også ske ifm. sidemandsoplæring, hvor Kundens Fagansvarlige lærer at konfigurere 
+Løsningen, og derved selv vil være i stand til at vedligeholde og konfigurere Løsningen efterføl-
+gende. Hvis denne tilgang skulle ønskes, og antagelsen ikke er korrekt, vil tidsplanen blive justeret 
+sammen med Kunden i Afklaringsfasen. Timeforbruget for de Fagansvarlige ville derved skulle for-
+højes. 
+Ved en minimumsindsats fra Kundens side ift. test er der i tidsplanen planlagt med, at Kundens 
+Testansvarlige får tilsendt drejebøgerne for de planlagte test, Leverandøren tester, og Kundens 
+Testansvarlige får tilsendt Leverandørens Testrapport og godkender denne. 
+ 
+Det er vigtigt at bemærke, at en ændring af Kundens involvering i implementeringsfasen ikke vil 
+påvirke milepælene i Tidsplanen, de anførte datoer, vil ikke ændres ved en større grad af kundein-
+volvering.
+
+## Page 4
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 3 af 11 
+ 
+ 
+2 Implementeringstidsplan for Servicen 
+Leverandørens udarbejdede implementeringstidsplan for Servicen baserer sig på et scenarie 2, 
+hvor Kunden ikke allerede har Leverandørens Service i brug. 
+Tidsplanen er udarbejdet med tanke på at skabe tryghed og stabilitet for Kunden under implemen-
+teringsforløbet og for at sikre Kunden den optimale idriftsættelse ift. de fastsatte krav og overgang 
+til support og vedligeholdelse. Der tilbydes således et fast tilknyttet kundeteam med dyb viden om 
+Servicen og dens muligheder, hvor Leverandøren også kan inddrage specialkompetencer for Le-
+verandørens produkthus, hvis det vurderes gavnligt.  
+Leverandørens tidsplan tilgodeser en kort, smidig og sammenhængende proces for brugeren ved 
+overgangen til Servicen, så den kan anvendes straks efter implementeringen. 
+Alle relevante aktiviteter, produkter og leverancer er medtaget og detaljeret med milepæle, så der 
+skabes grundlag for, at Kunden og Leverandøren kan estimere og planlægge ressourceindsats. 
+Den er desuden detaljeret med afhængigheder, ansvarlig og deltagende, så Kunden får et retvi-
+sende billede af forløbet. Den samlede detaljerede tidsplan er vedlagt i ”Underbilag 6A – Imple-
+menteringstidsplan”. 
+Leverandøren har gjort sig følgende antagelser og forudsætninger i forbindelse med udarbejdelse 
+af implementeringstidsplanen: 
+• Kunden og Leverandøren indgår i kontraktforhold senest i den 21.01.2026 
+• Tidsplanen tager højde for skoleferier og helligdage. Skoleferier er i tidsplanen fastsat til: 
+o vinterferie i uge 7 2026,  
+o påskeferie i uge 14 2026 
+o sommerferie uge 27-29 2026 
+I disse perioder er der ingen arbejdsdage planlagt. 
+• Der er afsat tid til en afklaringsfase inden implementeringsfasen påbegyndes. Kunden har i Bi-
+lag 6 ønsket, at afklaringsfasen maksimalt må have en varighed af tyve arbejdsdage. Leveran-
+døren planlægger med en start på afklaringsfasen straks efter kontraktindgåelsen, den 
+21.01.2026. Dvs. at Afklaringsfasen påbegyndes den 22.01.2026 og skal slutte senest 20 ar-
+bejdsadage derefter, hvilket vil være den 25.02.2026. Dette er indarbejdet i planen.  
+• Tidsplanen stiller forventninger til, at både Kunden og Leverandøren den nødvendige ressour-
+ceallokering og beslutningsdygtighed til rådighed for at tidsplanen kan overholdes. Tidsplanen 
+vil blive endelig fastlagt ifm. afklaringsfasens udgang i samarbejde med Kundens projektleder.
+
+## Page 5
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 4 af 11 
+2.1 Overblik over aktiviteter og milepæle i implementeringstids-
+planen 
+Implementeringsplanen er skitseret på et overordnet niveau i nedenstående tabel, så Kunden kan 
+danne sig et overblik over hvilke perioder de forskellige aktiviteter forventes afviklet: 
+ 
+Implementeringstidsplanen har 7 milepæle, som hver identificerer afslutningen på en fase og/eller 
+større opgave i implementeringsprojektet og som alle er klart defineret i første kolonne i implemen-
+teringstidsplanen: 
+• M0 – Kontraktunderskrift 
+• M1 – Godkendt Løsningsdesign  
+• M2 – Afslutning af afklaringsfasen 
+• M3 – Godkendt testrapport for Leverandørens test af ESDH-servicen på Kundens testmiljø 
+• M4 – Godkendelse af migrering af data fra Kundens eksisterende løsninger 
+• M5 – Godkendelse af overtagelsesprøve (UAT) for Servicen 
+• M6 – Idriftsættelse af Servicen 
+• M7 – Afslutning af Hypercare perioden 
+I næstkommende afsnit vil Leverandøren lave en detaljeret gennemgang af de enkelte aktiviteter i 
+implementeringstidsplanen, så Kunden opnår en indsigt i Kundens forventede deltagelse og time-
+forbrug i de forskellige faser og aktiviteter, samt hvad disse indeholder.
+
+## Page 6
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 5 af 11 
+2.2 Afklaringsfasen 
+ 
+Figur 1 - Afklaringsfasen 
+Afklaringsfasen starter med et fællesmøde hvor parterne introduceres, samarbejdsorganisationen 
+etableres og tidsplan for næstkommende aktiviteter gennemgås for identificering af eventuelle be-
+mærkningspunkter fra Kunden til samme.  
+Leverandøren allokerer et fast team til projektet, der består af Leverandørens projektleder, Forret-
+ningskonsulenter, Forretningsarkitekt og Udviklere. Leverandørens team er med i hele projektforlø-
+bet. Fra Afklaringsfasen til afslutningen af projektet. På den måde sikres det at Leverandøren får et 
+indgående kendskab til Kunden og Kundens krav til Løsningen, og at viden opbygges kontinuerligt.  
+Efter opstartsmødet igangsættes 6 afklaringsforløb med forskellige temaer:
+
+## Page 7
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 6 af 11 
+• Afklaringsforløb om risikovurdering:  
+Forløbet starter med et halvdagsmøde, hvor risikovurdering drøftes og uklarheder identificeres, 
+så de kan behandles – både i dette spor og sideløbende spor – inden afklaringsfasens afslut-
+ning, og det endelige risikoniveau for Servicen kan fastlægges.  
+Det forventes, at Kundens projektleder, fagansvarlig og systemansvarlig deltager i dette forløb 
+Beskrivelse af Leverandørens proces for risikostyring i implementeringen 
+Udover de beskrevne testprincipper, -metoder og -værktøjer i "Underbilag 6B - Testplan og Leve-
+randørens prøveprincipper, metoder og -værktøjer", som også indgår i Leverandørens overord-
+nede risikostyringsstrategi, omfatter Leverandørens risikostyring flere elementer der identificerer, 
+vurderer og styrer potentielle risici, som kan påvirke Servicens eller leverancens succes, overhol-
+delse af leveringstidspunkter og opfyldelse af leverance- og servicemål:  
+  
+• Risikoidentifikation: Som det indledende skridt identificeres potentielle risici, der kan på-
+virke implementeringen og driften af løsningen. Dette indebærer brug af Leverandørens er-
+faringer fra tidligere lignende projekter, inddragelse af interessenter og ekspertise samt en 
+grundig gennemgang af krav og kontekst. Identifikationen omfatter blandt andet tekniske, 
+organisatoriske, økonomiske og operationelle faktorer. Identificerede risici nedfældes i pro-
+jektstyringsværktøjet ”Risikolog” til videre behandling. 
+• Risikovurdering: Når risici er identificeret, vurderes de for at bestemme deres sandsynlig-
+hed og indvirkning på implementeringen og løsningen. Risikofaktoren fastlægges og sam-
+menholdes med risikokonsekvensen i en matrice. 
+• Risikobehandling: Kunden og Leverandørens Projektledelse har som fast dagsordens-
+punk på Projektstyringsmøderne, at monitorere de identificerede risici og mitigerende hand-
+linger. 
+• Risikokommunikation: Kunderne bliver løbende opdateret om de identificerede risici, de-
+res mulige konsekvenser samt de tiltag, der er iværksat for at håndtere dem. Dette sikrer, 
+at alle relevante parter er opmærksomme på potentielle risici og er forberedte på at hånd-
+tere dem. 
+• Overvågning og kontrol: Risikostyringen er en kontinuerlig proces, hvor risici regelmæs-
+sigt identificeres, overvåges og kontrolleres, hvilket sikrer, at der findes en handlingsplan til 
+at håndtere dem. 
+ 
+• Afklaringsforløb for implementeringstidsplan:  
+Dette forløb har til formål at fastsætte en endelig tidsplan for implementeringsfasen inden afslut-
+ningen af afklaringsfasen. Forløbet starter med et halvdagsmøde, hvor tidsplanen og afhængig-
+heder gennemgås i detaljer, og hvor Kunden kan påpege eventuelle udfordringer.  
+Der er også planlagt med et særskilt møde, hvor uddannelsesplanen gennemgås. Leverandø-
+ren kender ikke pt. Kundens ønsker til valg af uddannelsespakker, og antal brugere, der skal 
+undervises, og har derfor afsat tid i Afklaringsfasen til at få lagt uddannelsessporet ind i tidspla-
+nen, så det passer med Kundens behov og ønsker herfor. Leverandøren vil være ansvarlig for 
+at integrere de identificerede ændringer i implementeringstidsplanen. 
+Det forventes, at Kundens projektleder og fagansvarlige deltager i dette forløb.
+
+## Page 8
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 7 af 11 
+• Afklaringsforløb for betalingsplan:  
+Forløbet starter med et møde, hvor Kunden og Leverandøren drøfter og afklarer input til beta-
+lingsplanen. Derefter udarbejder Leverandøren en betalingsplan, som Kunden skal godkende 
+inden afslutningen af afklaringsfasen.  
+Det er forventet, at Kundens projektleder deltager i dette forløb som repræsentant for Kunden. 
+ 
+• Afklaringsforløb om Kundens IT-miljø:  
+Dette forløb er mere teknisk orienteret end de andre, da det har til formål at afklare forhold ved-
+rørende Kundens fremtidige IT-miljø og tilhørende krav. Det forventes, at Kundens systeman-
+svarlige som minimum deltager, og at Kundens driftsansvarlige og projektleder inddrages, hvor 
+Kunden finder det relevant. 
+ 
+• Afklaringsforløb om integrationer:  
+Dette forløb er mere teknisk orienteret end de andre, da det har til formål at afklare forhold ved-
+rørende Kundens fremtidige IT-miljø og tilhørende krav. Det forventes, at Kundens systeman-
+svarlige som minimum deltager, og at Kundens driftsansvarlige og projektleder inddrages, hvor 
+Kunden finder det relevant. 
+ 
+• Afklaring af konfigurationsmuligheder og andre funktionelle krav til Servicen:  
+Dette forløb har til hensigt at give Kunden en forståelse af Servicens funktionelle muligheder, 
+med særlig fokus på de områder af Løsningen, som Kunden har prioriteret i sine krav, samt 
+Kundens mulighed for at konfigurere Løsningen.  
+Efter introduktionen til Leverandørens ESDH-løsning og konfigurationsmulighederne afholdes 
+en konfigurationsworkshop. Denne workshop baserer sig på Kundens beskrevne krav og invol-
+verer velinformerede repræsentanter fra Kunden, som har indsigt i Kundens forretningsbehov. 
+Workshop vil omhandle Kontraktens definerede krav til konfiguration. Resultaterne fra work-
+shoppen dokumenteres af Leverandøren i et løsningsdesign af Kundens krav, som Kundens 
+fagansvarlige og systemansvarlige gennemgår og godkender, inden projektet går videre til etab-
+leringsfasen. 
+2.3 Etablering af miljøerne 
+ 
+Figur 2 – Etablering af miljøerne 
+Samtidig med afviklingen af Afklaringsfasen påbegynder Leverandøren arbejdet med opsætningen 
+af Kundens IT-miljøer, test- produktions- og migreringsmiljøet. Under opsætningen af miljøerne in-
+stalleres standardsoftware og basiskonfigurationen laves. Leverandøren gennemfører altid en   in-
+stallationstest. Kunden får resultatet af installationstesten i afslutningsrapport, når den er gennem-
+ført med positivt resultat, men er ikke forventet at stille med nogen ressourcer i dette forløb.
+
+## Page 9
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 8 af 11 
+Installationstesten og den forløb er detaljeret beskrevet under afsnittet ”Installationstest” i ”Underbi-
+lag 6B - Testplan og Leverandørens testprincipper, metoder og -værktøjer ”.  
+2.4 Implementeringsfasen 
+I denne fase, etableres Løsningen jf. Kundens krav og godkendte løsningsdesign, migreringsforlø-
+bet gennemføres, og integrationerne etableres. Leverandøren gennemfører løbende test af konfi-
+gurationen, migreringen af data og af integrationerne. I forbindelse med samtlige test i denne fase, 
+fremsender Leverandøren en testdrejebog og en testrapport til godkendelse. Fasen afsluttes med 
+en af Leverandøren komplet og testet Løsning, der er klar til Kundens overtagelsesprøve (UAT). 
+2.4.1 Etablering af Kundens ESDH-løsning 
+ 
+Figur 3 – Etablering af Kundens ESDH-løsning 
+Med udgangspunkt i det godkendte løsningsdesign fra Afklaringsfasen, konfigurerer Leverandøren 
+Løsningen og udarbejder de dertilhørende testcases, som Kundens Fagansvarlige får til gennem-
+syn og godkendelse.  
+ 
+Leverandøren vil være udførende på konfiguration af Løsningen i henhold til Kundens krav. Når 
+Kundens konfiguration er afsluttet, sætter Leverandøren aftalte standardintegrationer og integratio-
+nen til Calypso op og foretager en fuld test af Løsningen.  
+Kunden er i processen velkommen til at få vist Løsningen, når ønsket. Men overordnet set, så 
+skulle kravene til Løsningen være klarlagte efter Afklaringsfasen, og Kundens involvering kan be-
+grænses til godkendelsen af de udarbejdede testcases, og slutteligt, godkendelsen af testrappor-
+ten.  
+ 
+Forløb for denne test og forudsætninger for samme er beskrevet uddybet i afsnittet ”Leverandø-
+rens egne prøver” i ”Underbilag 6B - Testplan og Leverandørens testprincipper, metoder og -værk-
+tøjer” i Underbilaget beskriver Leverandøren også uddybende hvilken kvalitetssikring og hvilke 
+tests, som Leverandørens ESDH-service gennemgår, inden Servicen forlader Leverandørens pro-
+dukthus og installeres på Kundens miljøer for dermed at begrænse risici og optimere Leverandø-
+rens og Kundens tidsforbrug i selve implementeringen.
+
+## Page 10
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 9 af 11 
+2.4.2 Datamigrering 
+ 
+ 
+Figur 4 – Datamigrering 
+Sideløbende med opsætning af Løsningen og test af den, opstartes migreringssporet. Migrerings-
+sporet indledes med et møde med Kundens eksisterende leverandør af ”Teamshare” for at fast-
+lægge udtræksformat. Fordi Leverandøren modtager data i et specificeret format af Leverandøren, 
+så reduceres risici i datamigreringen signifikant, da det sikres, at data modtages i et format, hvor 
+data er læsbart og det klart hvad der tilhører hvilke objekter. Dermed kan Leverandøren også 
+bedre rådgive Kunden om, hvordan mapning af data bør defineres. 
+Når Leverandøren har modtaget data og konverteringsmiljøet er etableret, udarbejder Leverandø-
+ren et udkast til et mapningsdokument, som gennemgås på en workshop med Kunden. Dette giver 
+Kunden mulighed for at beslutte, hvorhen metadata skal mappes i den nye løsning, baseret på Le-
+verandørens rådgivning. Det forventes, at Kundens fagansvarlige deltager i denne workshop. Der-
+efter arbejder Leverandøren med at klargøre scripts og gennemføre en prøvemigrering. Kunden 
+tester prøvemigreringen under den efterfølgende konverteringstest. Konverteringstesten og den 
+detaljerede migreringsproces er beskrevet i afsnittet 2.3 Konverteringstest i "Underbilag 6B - Test-
+plan og Leverandørens testprincipper, metoder og - værktøjer". Herefter er der afsat tre uger til 
+eventuelle tilbageløb, ny prøvemigrering og endelig godkendelse. Som resultat af migreringsforlø-
+bet udarbejdes en detaljeret drejebog for migreringens forløb, som anvendes ved den endelige mi-
+grering i lukkevinduet før idriftsættelse.
+
+## Page 11
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 10 af 11 
+2.4.3 Uddannelse 
+ 
+Figur 5 – Uddannelse 
+Efter godkendelse af Konfigurationen af Løsningen i Kundens testmiljø, påbegyndes undervisnin-
+gen af Kundens superbrugere. Undervisningsforløbet er aftalt i Afklaringsfasen. Det anbefales dog, 
+at de planlægges således, at de ligger kort før Kunden skal teste i forbindelse med overtagelses-
+prøven (UAT) og dermed har alt i frisk erindring til testen 
+2.4.4 Overtagelsesprøve og ibrugtagning af Løsningen 
+ 
+Figur 6 – Overtagelsesprøven 
+Når de indledende tests og konverteringstest er afsluttet og godkendt, kan forberedelserne til over-
+tagelsesprøven begynde. Leverandøren vil inden overtagelsesprøvens start fremsende en detalje-
+ret prøveplan, som beskriver prøvens forløb og forudsætninger. Overtagelsesprøven strækker sig 
+over 9 arbejdsdage og omfatter forskellige tests af Servicens funktionsområde (funktions-, integra-
+tions-, svartids- og migreringstest), så den fulde Service er verificeret, inden den indstilles til Kun-
+dens godkendelse baseret på prøverapporten. Overtagelsesprøven og de enkelte tests omfang og 
+forudsætninger beskrives detaljeret under afsnittet ”Overtagelsesprøve” i ”Underbilag 6B - Testplan 
+og Leverandørens prøveprincipper, metoder og -værktøjer”. Det vil forventeligt være Kundens su-
+perbrugere og fagansvarlig, som deltager i aktiviteter relateret til overtagelsesprøven. 
+Figur 9 - Oversigt over aktiviteter i forbindelse med idriftsættelse af Servicens ESDH-del. 
+Efter godkendelsen af overtagelsesprøven er Servicens ESDH-del klar til drift. Idriftsættelsen for-
+ventes at kræve et lukkevindue på 4 dage (inkl. weekenden), da der skal migreres opdaterede data
+
+## Page 12
+Bilag 6.i Implementeringsplan 
+Dynamisk Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 11 af 11 
+fra Kundens nuværende "Teamshare" løsning, så alle de nyeste data er tilgængelige i den nye 
+Service. Inden Servicen sættes i drift, vil Kunden udføre en endelig verifikationstest for at sikre, at 
+data og løsningen er klar til Kundens brugere. Den præcise varighed af lukkevinduet vil blive fast-
+lagt under prøvemigreringen, hvor Leverandøren vil udarbejde en detaljeret plan. 
+Efter ibrugtagningen, starter Hypercare perioden. Begrebet Hypercare betyder, at Leverandørens 
+projektteam, stadig supporterer Kunden, i tilfælde af, at der skulle vise sig uhensigtsmæssigheder, 
+der skal håndteres straks. Dvs. det er først efter Hypercare perioden, at Kundens Løsning overgår 
+til almindelig support.

@@ -36,13 +36,13 @@ Default ADO project/team in prompts: **360**, **Core-Process-platform** (overrid
 | Morning report | `outputs/morning/morning_report.md` |
 | Module health | `outputs/portfolio/module_health_YYYY-MM-DD.md` |
 | lmwtfy answers | `docs/lmwtfy-answers/` |
-| Tender library index | `docs/tender-reference/INDEX.md` (source/extracted stay local) |
+| Tender library | `docs/tender-reference/` (`source/`, `extracted/`, `INDEX.md`) |
 
 ## Not in git
 
 - Secrets: `config.json`, `.env`
 - Generated **outputs/** (except README / `.gitkeep`)
-- Tender **source/** and **extracted/** under `docs/tender-reference/`
+- Tender export **zip** bundles under `docs/tender-reference/export/`
 - BMad: `_bmad/`, `.agents/` (reinstall locally)
 
 ## Repo layout

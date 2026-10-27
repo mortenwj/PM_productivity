@@ -1,0 +1,539 @@
+Kravspecifikation
+Bilag 3
+Introduktion
+Kravspecifikationen består af tre typer krav:
+Mindstekrav (MK)
+Mindstekrav er obligatoriske og skal opfyldes fuldt ud. Manglende opfyldelse af et mindstekrav vil medføre, at tilbuddet anses for ukonditionsmæssigt.
+K-Krav (K-krav)
+K-krav skal besvares ved at angive, om kravet er opfyldt eller ikke opfyldt ved simpel afkrydsning. Tilbudsgiver angiver, om et K-Krav er opfyldt ved at sætte et “X” i feltet “Opfyldt.” Hvis feltet er tomt, betragtes feltet som ikke opfyldt. Yderligere kommentarer mm. vil ikke indgå i evalueringen.
+Kravene vil indgå i vurderingen af ESDH-Systemets samlede kvalitet, men påvirker ikke konditionsmæssigheden.
+Evalueringskrav (EK-krav)
+Evalueringskrav skal besvares med en fyldestgørende, sammenhængende og beskrivende tekst, der forklarer, hvordan det tilbudte ESDH-System opfylder og understøtter evalueringskravet. Besvarelsen af hvert evalueringskrav må maksimalt fylde 7.200 anslag (inklusiv mellemrum). Tilbudsgiver opfordres til at vedlægge skærmbilleder og evt. andre illustrative bilag, hvor dette bidrager til at synliggøre de tilbudte funktionaliteter.
+Funktionalitet og brugervenlighed
+Generelle krav
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om understøttelse af Kundespecifikke objekter i ESDH-Systemet. Løsningen giver Kunden mulighed for selvstændigt at oprette, konfigurere og anvende Objekter og felter, der funktionelt og visuelt fremstår identisk med standardobjekterne og kan relateres til disse via Administratormodulet uden involvering fra Leverandøren.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Kundespecifikke objekter fremstår identisk med standardobjekterne funktionelt og visuelt
+Selvstændig konfiguration via et brugervenligt Administratormodul
+Relationer til standardobjekter sikrer sammenhæng på tværs af systemet
+Tilpasning og udvidelse af datamodellen for både Kundespecifikke objekter og standardobjekter.
+Kunden kan oprette Kundespecifikke objekter, som funktionelt og visuelt fremstår identisk med systemets standardobjekter.
+Løsningen præsenterer Kundespecifikke objekter både funktionelt og visuelt på samme måde som standardobjekter i Løsningen. Et eksempel på et Kundespecifikt objekt er Ejendom, som præsenteres identisk med standardobjekterne hvad angår layout, navigation og handlinger. Den identiske visuelle præsentation gælder i menupunktet for oprettelse, i oprettelsesbilledet og i overbliksbillede.
+Figur 1 – Kundespecifikt objekt 1) præsenteres på samme måde, som standardobjekterne 2) i menupunktet for oprettelse i Løsningen.
+Overbliksbilledet for alle Objekter i Løsningen præsenteres visuelt identisk, og giver Brugeren mulighed for at åbne eller lukke de faner, så Brugeren selv kan bestemme hvilke data, der skal præsenteres.
+Figur 3 - Overbliksbilledet på Kundespecifikt objekt.
+Figur 4 - Overbliksbilledet for standardobjekt.
+For Kunden betyder dette, at alle Objekter præsenteres visuelt på samme måde, så Brugeren ikke oplever forskelle.
+Konfiguration af Objekter er brugervenlig og kan udføres uden involvering af Leverandøren, eksempelvis via Administrationsmodulet.
+Konfigurationen af Kundespecifikke objekter foretages i Administratormodulet, og kan konfigureres uden involvering fra Leverandøren.
+Figur 5 - Oprettelse af Kundespecifikt objekt i Administratormodulet.
+Når et Kundespecifikt objekt er oprettet, er det muligt via Administrationsmodulet at konfigurere hvilke felter, der skal være tilgængelig på det, og derefter bestemme feltrækkefølgen.
+Figur 6 – 1) Konfiguration gør det muligt at fremsøge felter, 2) oprette nye felter, 3) designe oprettelsesbilledet for det Kundespecifikke Objekt
+Det er også muligt at opdele felterne på det Kundespecifikke Objekt i forskellige faner, for at gøre oprettelse af et Kundespecifikt objekt mere brugervenlig samt indsætte en vejledning til registrering i fanen.
+Figur 7 - På det Kundespecifikke Objekt registrering opdeles i flere faner. 1) Standardfane, 2) Kundespecifik fane og 3) Vejledning til registrering
+Når det Kundespecifikke Objekt er oprettet, kan det vælges ligesom de øvrige tilgængelige Objekter med samme funktionalitet.
+Figur 8 - Kundespecifikke objekter kan vælges i menupunktet for oprettelse på samme måde, som standardobjekter
+For Kunden betyder dette, at konfigurationen af Objekter kan udføres uden involvering fra Leverandøren i en brugervenlig grænseflade.
+Kundespecifikke objekter kan relateres til systemets standardobjekter, således at sammenhænge og afhængigheder i data kan opretholdes på tværs af systemet.
+Løsningen understøtter relationer til standardobjekterne, og i Administratormodulet kan fx Sag og Dokument relateres til et Kundespecifikt objekt i en brugervenlig grænseflade.
+Figur 9 - UI-konfiguration i Administratormodulet opsætter relationer mellem standardobjekt og Kundespecifikt objekt
+Standard Objekter kan fremsøges i Administratormodulet og tilknyttes det Kundespecifikke Objekt via drag'n'drop. Kunden bestemmer placeringen.
+Figur 10 – I opsætning af et Kundespecifikt objekt kan standardobjekter som ”Sag” fremsøges 1) og tilføjes via drag'n'drop 2)
+Figur 11 - Standard Objekterne er nu relateret til det Kundespecifikke Objekt i Løsningen
+For Kunden betyder dette, at relationerne kan opsættes og vedligeholdes løbende uden involvering fra Leverandøren.
+Det er muligt at tilpasse og udvide Objekternes Datamodeller, herunder tilføjelse af kundespecifikke felter, relationer og Metadata.
+Løsningen understøtter, at Kunden kan tilpasse og udvide datamodellen for alle Objekter. Dette sker i Administratormodulet.
+Figur 12 - I Administratormodulet er det muligt at konfigurere alle Objekter
+Kundespecifikke objekter og standardobjekter tilpasses via Løsningens Full Flex UI, hvor nye felter kan oprettes, eksisterende felter kan tilføjes eller fravælges og ved placering af felter i forskellige faner.
+Figur 13 - I Løsningen "full flex UI" kan: 1) Felter oprettes, 2) Felter fremsøges mhp. tilvalg eller fravalg, 3) Tilvalg eller fravalg på Objektet, 4) Konfiguration af faner og 5) Placering af faner
+Udvidelse af datamodellen sker ved oprettelse af felter, hvor Kunden kan konfigurere ubegrænsede felter på Objektet. I forbindelse med oprettelsen af et felt er det muligt at vælge felttypen og lave en vejledningstekst.
+Figur 14 - Nye felter konfigureres med: 1) Titel, 2) Felttype og 3) Kundespecifik vejledning
+For alle felter, der konfigureres i Administratormodulet, er det muligt at parameterstyre standardværdier, egenskaber for feltet samt konfigurere kontekstafhængigheder mellem det konfigurerede felt og andre felter på forskellige Objekter.
+Figur 15 - For de konfigurerede felter er det muligt, at 1) Angiv det felt, der skal være genstand for den kontekstafhængige registrering, 2) Sætte en standard værdi i oprettelsesdialogen, 3) Bestemme om feltet skal være obligatorisk, skrivebeskyttet eller skjult for Brugeren og 4) Sætte kontekstafhængigheder til andre felter
+Kontekstafhængige regler kan automatisk opdatere registreringer på Objektet. Den kontekstafhængige registrering kan dermed fx sikre, at alle Aktindsigter registreres på det korrekte projekt samt at en afgørelseskode altid skal registreres.
+Figur 16 – 1) Registrering af værdien ”Slutafgørelse” i feltet ”Afgørelsestype” afføder, at 2) Afgørelsesdato automatisk sættes til ”dags dato” på det Kundespecifikke Objekt
+Løsningen understøtter modificering af Objekternes datamodel, hvor felter kan fravælges, så Kunden bestemmer hvilke felter der er tilgængelige.
+Figur 17 - I Administratormodulet kan felterne fremsøges. 1) Feltet vælges. 2) Felter kan fjernes
+For at understøtte ESDH-principper og sikkerhedsmodellen er visse felter obligatoriske på det enkelte Objekt. Derfor er der felter, der ikke kan fjernes, fx Adgangsgruppe, Titel, Oprettelsesdato og Objektets status.
+Figur 18 - Der er visse felter, der ikke kan fjernes. 1) Alle felter, der ikke kan fjernes, er tydeligt angivet. 2) Felter, der ikke kan fjernes, er som standard placeret på det Kundespecifikke Objekt
+For Kunden betyder dette, at datamodellen kan tilpasses og udvides løbende i takt med organisationens behov, herunder med kontekstafhængige feltregler, der sikrer korrekte og ensartede registreringer uden involvering fra Leverandøren.
+Sager
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om fleksibel konfiguration og håndtering af sagstyper i ESDH-Systemet. Kunden kan selv oprette og konfigurere sagstyper samt anvende kontekstafhængige registreringer og sagsskabeloner.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Fleksibel og brugervenlig konfiguration af sagstyper
+Kontekstafhængige registreringer på tværs af sagstyper
+Defaultregistrering på afdeling- og rolleniveau via sagsskabeloner
+Automatisk afslutning af Sager.
+Sagstyper konfigureres fleksibelt og brugervenligt, inkl. opsætning af felter, faner og visninger, så Administratorer og Brugere nemt kan tilpasse brugergrænsefladen efter behov.
+Løsningen giver Kunden mulighed for at oprette og konfigurere ubegrænsede sagstyper selvstændigt i Administratormodulet, hvor både administratorens og brugerens tilpasning af sagsbilledet understøttes.
+Figur 19 - I Administrationsmodulet kan Sagstyper konfigureres/vedligeholdes
+Overbliksbillede på en Sag i Løsningen er opdelt i faner med for at sikre, at Brugeren kun præsentes for relevante data. Fanerne er visualiseret grafisk for at give brugeren en mere brugervenlig oplevelse.
+Figur 20 – Sagsbilledet i faner, hvor Kunden selv bestemmer hvilke faner der er synlige, og hvordan de er placeret
+Figur 21 - Konfigurationen foretages i Administratormodulet, hvor administratoren til- og fravælger faner for de enkelte sagstyper uden involvering af Leverandøren
+Brugeren kan konfigurere eget sagsbillede ved at bestemme hvilke faner, der skal være åbne og/eller lukkede. Denne visning fastholdes på alle sager, som Brugeren tilgår.
+Figur 22 - Når Brugeren vælger at åbne faner på Sagsbilledet, vil disse forblive åbne, når andre Sager tilgås
+Ved konfigurationen af Sagstyperne i Administratormodulet tilbyder løsningen mulighed for justering af Sagstypens design. Bl.a. er det muligt at justere feltrækkefølgen, fordeling af felter på faner samt oprettelse af Kundespecifikke faner, hvor felter også kan placeres.
+Figur 23 - Inden for de enkelte faner kan felter tilføjes, flyttes og fjernes via en grafisk brugergrænseflade, og kan justeres med drag’n’drop-funktionalitet
+For Kunden betyder dette, at sagstyper kan konfigureres og tilpasses løbende uden involvering fra Leverandøren, og at Brugerne altid arbejder i et sagsbillede, der matcher deres konkrete arbejdsopgaver og rolle.
+Kontekstafhængige registreringer understøttes i flest mulige felter på tværs af sagstyper, herunder automatisk dataregistrering baseret på Journalplan eller Sagens Metadata.
+Løsningen understøtter kontekstafhængige felter på Sager. Det er således muligt at parameterstyre standardværdier og egenskaber for feltet samt konfigurere kontekstafhængigheder mellem det konfigurerede felt og andre felter på Sagen.
+Figur 24 - For hvert felt kan der angives standardværdi 1), regler for visning og redigering 2) samt kontekstafhængigheder til andre felter 3)
+Den kontekstafhængige funktionalitet sikrer, at registreringer automatisk opdateres på baggrund af brugerens valg, eksempelvis så Aktindsigtssager registreres på korrekt projekt, og afgørelseskoder udfyldes automatisk.
+Figur 25 - Valg af Aktindsigt 1) registrerer automatisk projektet Aktindsigt 2026 2), gør Afgørelse obligatorisk 3) og skjuler Advis-dato 4)
+På Sagen fremsøges feltet, hvorefter Kunden selv placerer feltet i oprettelsesbilledet på Sag. I Løsningen præsenteres feltet, fx Journalplanen, i den valgte fane, og vejledningsteksten præsenteres i et blåt ikon.
+Figur 26 - i Løsningens forhåndsvisning præsenteres konfigurationen. 1) Feltet fremsøges, 2) Feltet fremvises og 3) Vejledningsteksten for feltet vises ved klik på blåt ikon
+I Løsningen er det muligt at få præsenteret fanerne på Sagen i et horisontalt billede således, at Brugeren ikke skal navigere fra fane til fane, men bliver præsenteret for alt i et samlet oprettelsesbillede.
+Figur 27 – Faner præsenteres i et billede. 1) Generelt, 2) Kundespecifik fane, 3) Kontaktperson og 4) Kundespecifik felt præsenteres i Kundens ønskede feltrækkefølge og med angivet vejledningstekst
+For Kunden betyder dette, at der kan konfigureres kontekstafhængigheder mellem felter, der sikrer Kundens Brugere kan opleve smidigere metadataregistrering samt at Kunden selv kan udvide og vedligeholde disse uden involvering fra Leverandøren.
+Defaultregistrering understøttes for den enkelte Bruger baseret på prædefinerede sagsskabeloner, herunder på afdeling- og rolleniveau.
+Løsningen understøtter defaultregistrering via funktionaliteten ”Sagsskabeloner“. Sagsskabeloner giver Kunden mulighed for at definere ubegrænsede prædefinerede datasæt for sagsoprettelse direkte i Administratormodulet uden involvering af Leverandøren.
+Sagsskabeloner oprettes nemt og intuitivt i den enkelte Instans.
+Figur 28 - Sagsskabelonen tilknyttes de sagstyper, der er oprettet i Instansen
+Når en sagsskabelon oprettes, er det muligt at gøre sagsskabelonen tilgængelig for både afdelinger, brugere, roller og adgangsgrupper.
+Figur 29 - Ved oprettelse af Sagsskabelon kan det konfigureres hvilke brugere, afdelinger, roller og adgangsgrupper, der kan anvende sagsskabelonen
+I selve oprettelsen af skabelon er det muligt at få præudfyldt alle brugerrettede felter på Sagen. Dette gøres direkte i skabelon i administratormodulet, hvor alle brugerrettede felter kan præudfyldes, og hvor felter kan konfigureres som obligatoriske, låste, skjulte eller foreslåede standardværdier.
+Figur 30 - Alle data, der er relateret til Sagen, kan præudfyldes, låses eller skjules
+Når en skabelon oprettes, kan den gøres tilgængelig i Løsningen for dem, der har rettigheder til den. Dermed får Brugeren en liste over tilgængelige Sagsskabeloner.
+For Kunden betyder dette, at Brugerne altid præsenteres for relevante og præudfyldte skabeloner ved sagsoprettelse, der kan differentieres efter afdeling og rolle, der sikrer, at adgang til skabelonerne styres på brugerniveau.
+ESDH-Systemet tilbyder en høj grad af automatisering ved afslutning af Sager, herunder at en Sag kan afsluttes automatisk således, at Dokumenter på Sagen automatisk afsluttes.
+Løsningen tilbyder en høj grad af automatisering ved afslutning af sager. Automatiseringen indebærer, at Sagen og dens relaterede Dokumenter afsluttes samlet. Dette sker ved, at Brugeren anvender statuskoden ”Klar til afslutning” på Sagen.
+Figur 31 - Statuskoden ”Klar til afslutning” aktiveres det natlige afslutningsjob
+Når denne status vælges på Sagen, aktiveres et natligt job i Løsningen, der sikrer en kontrolleret og ensartet afslutningsproces, hvor alle Sager og tilhørende Dokumenter afsluttes automatisk uden at belaste Løsningen, og uden at Brugeren skal foretage sig yderligere.
+Figur 32: Brugeren får dagen efter en mail fra Løsningen, der bekræfter, at Sagen er afsluttet med succes
+Har Sagen åbne workflows eller udtjekkede filer, modtager Brugeren en mailadvisering om, at Sagen ikke kan lukkes.
+Figur 33 – Notifikation fra Løsningen
+For Kunden betyder dette en ensartet og fejlsikret afslutningsproces, der ikke belaster Løsningen i arbejdstiden, og hvor Brugerne automatisk kvitteres for afslutningen og sættes i stand til at følge op på Sager, der ikke lever op til Kundens krav til afslutning af Sager.
+Dokumenter
+Mindstekrav
+K-Krav
+Kontakter
+Mindstekrav
+Søgning
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandøren opfylder kravet om en effektiv, brugervenlig og præcis søgefunktion i ESDH-Systemet. Løsningen stiller en avanceret søgefunktionalitet til rådighed bygget på en struktureret datamodel, der sikrer præcise og konsistente resultater tilpasset den enkelte Brugers adgangsrettigheder.
+Kunden opnår en søgefunktion, der reducerer den tid, Brugerne anvender på at fremsøge information, og som understøtter en effektiv og målrettet sagsbehandling.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Søgning på tværs af dataobjekter med kombinerede søgekriterier
+Tidsbaserede søgninger med fleksible tidsintervaller
+Brugervenlig filtrering og multifiltrering i brugergrænsefladen.
+Kombineret søgning på tværs af dataobjekter understøttes via to søgeindgange og logiske operatorer.
+Løsningen understøtter søgning på tværs af Objekter og Kundespecifikke Objekttyper, såsom Sager, Dokumenter, Filer, Ejendomme, Projekter, Aktiviteter og Kontakter, i én samlet forespørgsel. Brugeren kan kombinere søgekriterier fra forskellige dataobjekter, fx søge på Dokumenter med en specifik ansvarlig enhed kombineret med Sager journaliseret på en bestemt journalplansgruppe, eller kombinere søgning på Forelæggelses initiator og godkender i ét opslag.
+Dette sker via to søgefunktioner. Global Søg giver et øjeblikkeligt overblik over resultater på tværs af alle Objekttyper, hvor antallet af fundne resultater vises pr. Objekttype, og Brugeren kan afgrænse visningen til en entitetstype ved at vælge den i filterpanelet. Avanceret Søgning giver Brugeren en detaljeret søgegrænseflade, hvor felter fra Objekterne er samlet i ét søgebillede, og kriterier på tværs af Objekttyper kan kombineres.
+Eksempler på søgninger, der kan gennemføres:
+Sager med en bestemt ansvarlig
+Sager knyttet til et specifikt projekt eller en ejendom
+Dokumenter med et bestemt sagsnummer
+Dokumenter knyttet til en bestemt part, et projekt eller en ejendom
+Dokumenter med specifikt indhold i filindhold.
+Figur 34 – Avanceret Søg
+Avanceret Søgning bygger på Løsningens datamodel og giver Brugeren mulighed for at opbygge kombinerede forespørgsler på tværs af Objekterne i Løsningen. Søgekriterierne vises løbende for Brugeren, så det er klart, hvilke parametre er aktive, og søgningen er auditérbar.
+Løsningen understøtter endvidere følgende søgeoperatorer i Global Søgning:
+Og (AND): Begrænser søgningen til elementer indeholdende alle angivne søgeord.
+Eller (OR): Kombinerer søgninger, så resultater fra flere mulige værdier vises samlet. Brugeren kan fx søge på Dokumenter med status "Ekspederet" eller "Journalført" i ét opslag.
+Ikke (NOT): Udelukker elementer med en bestemt værdi fra søgeresultaterne.
+Indeholder, Lig med, Større end og Mindre end: Giver Brugeren mulighed for at præcisere søgninger på tekst-, tal- og datofelter.
+Løsningen understøtter kombination af flere samtidige søgebetingelser på tværs af objekttyper, eksempelvis:
+Sager på en bestemt journalplansgruppe kombineret med en bestemt sagstype og status
+Dokumenter af en bestemt dokumenttype kombineret med en ansvarlig enhed og oprettet inden for et givent tidsinterval.
+Forelæggelser initieret af en bestemt person kombineret med en anden bestemt person som godkender.
+Kombinationen af søgebetingelser, operatorer og filtre giver Brugeren mulighed for præcist at afgrænse søgeresultater direkte i søgebilledet uden behov for teknisk opsætning eller komplekse søgesyntakser.
+Figur 35 – Kombineret søgning på tværs af dataobjekter
+Rollebaseret adgangsstyring er integreret i søgefunktionaliteten, så Brugerne kun præsenteres for data, de har adgang til.
+For Kunden betyder dette, at Brugerne præcist kan fremsøge information på tværs af dataobjekter i ét og samme søgebillede uden gentagne separate søgninger.
+Tidsbaserede søgninger med fleksible intervaller understøttes via relativ datonotation (dd+/-) der beregnes dynamisk fra dags dato.
+Løsningen understøtter tidsbaserede søgninger via dedikerede datofelter i både Global Søg og Avanceret Søgning. Brugeren definerer et datointerval med felterne ”Dokumentdato fra“ og ”Dokumentdato til“ enten via den integrerede kalender eller den relative datonotation dd+/-[antal dage], der beregner tidsintervallet dynamisk fra dags dato.
+Notationen fungerer i begge datofelter og giver Brugeren mulighed for at definere intervaller i begge retninger fra dags dato:
+dd-1 = i går (minus én dag)
+dd-7 = for én uge siden
+dd-30 = for én måned siden
+dd-365 = for ét år siden
+dd+7 = om én uge (fremad i tid).
+Som eksempel giver dd-7 som ”Dokumentdato fra“ kombineret med dd som ”Dokumentdato til“ Brugeren alle Dokumenter oprettet inden for den seneste uge, mens dd kombineret med dd+30 viser Dokumenter med dato frem til en måned fra i dag.
+Datoafgrænsningerne kan kombineres frit med øvrige søgekriterier, så Brugeren eksempelvis kan søge på Dokumenter fra en given periode, der tilhører en bestemt metadataværdi eller er tildelt en specifik ansvarlig enhed.
+Figur 36 - Det muligt at afgrænse tidsrummet for søgningen i både Avanceret- og Global søgning
+For Kunden betyder dette, at Brugerne kan arbejde fleksibelt med tidsintervaller ved at afgrænse søgninger til præcise tidsintervaller svarende til fx en dag, uge, måned eller et år, eller mere, frem eller tilbage i tiden.
+Brugervenlig filtrering og multifiltrering understøttes via et dynamisk filtreringspanel i brugergrænsefladen.
+Brugeren kan filtrere søgeresultater direkte i brugergrænsefladen for hurtigt at afgrænse og præcisere søgeresultater.
+Figur 37 - Eksempel på filtrering af globale søgeresultater
+Objekttyper: Filtrering på fx Sager, Dokumenter eller Filer.
+Nøjagtigt match: Søgning på præcise matches eller relaterede formuleringer.
+Datointerval: Afgrænsning af resultater til en bestemt periode.
+Søgefiltre: Tilføjelse af ekstra filtre som status, kategori eller ansvarlig enhed.
+Nulstil filtre: Fjern filtre uden at genstarte søgningen.
+Løsningen understøtter multifiltrering, hvor Brugeren kan kombinere flere filtertyper simultant i samme søgning. Filtrene tilføjes og fjernes dynamisk.
+I Avanceret Søgning kan de aktive filterkriterier fastholdes mellem søgninger, så Brugeren kan justere enkeltparametre uden at genopbygge søgningen fra bunden ved brug af den indbyggede funktionalitet for at gemme både dynamiske søgekriterier og statiske søgeresultater. Den avancerede søgning tilbyder ligeledes en “historik-funktion” der viser den senest udførte søgning.
+For Kunden betyder dette, at Brugerne kan gennemføre præcis multifiltrering direkte i brugergrænsefladen, at filtreringen kan fastholdes mellem søgninger i Avanceret Søgning, og at ofte anvendte søgekonfigurationer er tilgængelige uden gentagne manuelle opsætninger via Gemte søgninger og Historik-fanen.
+Dashboards
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandøren opfylder kravet om brugertilpassede Dashboards, der giver Kunden et hurtigt, overskueligt og brugervenligt overblik over relevante data i ESDH-Systemet.
+Løsningen stiller fleksible dashboards til rådighed, hvor både Brugere og Administratorer kan konfigurere personlige arbejdsoversigter, gemte søgninger og datavisualiseringer direkte i brugergrænsefladen. Dashboards understøtter den daglige sagsstyring og gør det muligt hurtigt at identificere relevante Sager, Dokumenter, Forelæggelser, frister og opgaver i én samlet visning.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Brugervenlige Dashboards og Gemte Søgninger
+Fleksible datavisualiseringer og personlige overblik
+Filtrering, sortering og konfiguration af visninger.
+Brugervenlige Dashboards og Gemte Søgninger giver Brugeren et hurtigt og overskueligt arbejdsoverblik.
+Leverandørens løsning understøtter rollebaserede Dashboards, hvor Brugerne kan opbygge personlige overblik med webdele og Gemte Søgninger direkte på startsiden. Dashboards kan opsættes af både Kundens administrator og den enkelte Bruger, så overblikket tilpasses konkrete arbejdsopgaver.Brugeren oplever en intuitiv løsning, hvor relevante oplysninger som åbne Sager, Dokumenter, frister, workflows, høringer og opgaver automatisk vises på Dashboardet. Data på de enkelte dashboards præsenteres live.
+Dashboards i Løsningen er fuldt konfigurerbare, og Brugeren kan selv oprette dashboards eller vælge et eller flere Standard Dashboards.
+Dashboards er opbygget, så de kan placeres i forskellige faner på Løsningens startside, hvor Brugeren selv kan vælge hvilken fane, der skal være standardfanen, når Brugeren tilgår Løsningen. I fanerne er det muligt at konfigurere de enkelte dashboards således, at de forskellige widgets præsenteres i én eller to kolonner alt efter Brugerens behov.
+De forskellige widgets kan både være de standardwidgets, der er en del af Løsning eller Kundespecifikke widgets, som brugeren selv kan lave eller som Administrator kan lave globalt.
+Figur 38 - Eksempel dashboard med tre typer widgets
+Kunden kan anvende en eller flere af Løsningens standard Dashboards.
+Disse standarddashboards er baseret på best practice blandt Leverandørens kunder og giver Brugeren et hurtigt og overskueligt overblik over data.
+Figur 39 - Eksempel på Standarddashboard der grafisk præsenterer alle opgaver (frister etc.) med en farveangivelse fristens forfaldsdato.
+Figur 40 - Eksempel på Standard Dashboard, der præsenterer alle workflows i en grafisk brugergrænseflade mhp. at skabe et hurtigt og brugervenligt overblik.
+Kunden kan ligeledes lave sin egne kundespecifikke dashboards. Disse kan skræddersyes individuelt af Kundens Bruger eller Kundens Administrator.
+De Kundespecifikke dashboards kan laves baseret på Gemte Søgninger og kundespecifikke resultatvisninger. Under Avanceret Søgning sammensætter den enkelte Bruger sin søgning præcist efter egne behov, gemmer den og udstiller den som widget direkte på Dashboard. De gemte søgninger bliver udstillet som widgets og genbruges på tværs af Dashboards. Søgninger og resultatvisninger, der kan udføres i Løsningens søgemotor, kan udstilles til Dashboards.
+Figur 41 - Eksempel på søgning af en sag. 1) mulig at gemme søgeresultat, 2) brugeren kan konfigurere en anden visning af søge resultatet, 3) brugeren kan vælge mellem sine egne opsætninger.
+Når en søgning er gemt, kan den placeres på det konkrete dashboard, hvorefter det kan konfigureres om det skal vises i én eller to kolonner, hvor mange andre widgets, der skal være tilgængelig på det enkelte dashboard. Det er både muligt at tilføje widgets i et grid-system med to kolonner og ubegrænsede rækker.
+Figur 42 - Eksempel på et dashboard med fire 4) widgets.
+For Kunden betyder dette et Dashboard, der samler relevante Sager, Dokumenter og Forelæggelser i ét brugervenligt overblik tilpasset den enkelte bruger. Fælles arbejdslister kan også etableres og deles på tværs af afdelinger af Brugeren selv, og medarbejderne reducerer den tid, der bruges på søgning og navigation, til fordel for kerneopgaverne.
+Fleksible datavisualiseringer giver Kunden operationelle og visuelle arbejdsoversigter.
+Løsningen understøtter flere visualiseringsformater som konfigurationsmuligheder. Der er både visualisering tilknyttet til gemte søgninger og til standarddashboards og widgets:
+Listevisninger med detaljerede oversigter over Sager og Dokumenter
+To typer Søjlediagrammer til visuel præsentation af fordelinger af sager
+Cirkeldiagrammer til visuel præsentation af fordelinger af sager
+Statusoversigter over igangværende og afsluttede processer
+Opfølgningswidgets til løbende overvågning af frister og aktiviteter
+Tæller baseret på standardwidget ”Min status”.
+Brugeren kan skifte til diagramvisning via "Handlinger" på Dashboard og visualiseringerne opdateres automatisk.
+Figur 43 - Skift til diagramvisning
+Figur 44 -Diagramvisning
+Figur 45 – Diagramvisning
+Brugerne kan kombinere flere visualiseringsformater i samme Dashboard. Brugeren oplever et visuelt og overskueligt Dashboard, hvor data præsenteres på en måde, der understøtter hurtig prioritering og beslutningstagning.
+For Kunden betyder dette, at centrale oplysninger om Sager, Dokumenter og Forelæggelser præsenteres visuelt og intuitivt, og at medarbejderne hurtigt kan identificere status og prioritere opgaver direkte i brugergrænsefladen, uden behov for separate analyseværktøjer.
+Filtrering, sortering og fleksibel konfiguration gør det muligt for Kunden selv at etablere relevante arbejdsflader.
+Leverandørens løsning understøtter fleksibel filtrering og sortering på alle Dashboards. Fleksibel filtrering og sortering er både tilgængelig i standardwidgets og i widgets, der præsenterer Gemte Søgninger. I alle widgets kan filtrering og sortering kombineres.
+Filtrering kan kombineres simultant på tværs af flere felter, så Brugeren præcist afgrænser visningen til aktuelle behov uden at oprette nye søgninger.
+Figur 46 - I resultatvisningen er det muligt at 1) bestemme hvilket felt, der skal sorteres og 2) bestemme sorteringsretningen
+Figur 47 – Filtrering og sortering på Gemte Søgninger
+På det enkelte dashboard er det således muligt at sortere og filtrere.
+Figur 48 – Sortering, filtrering og kolonneopsætning i webdele
+Sortering af kolonner: Brugeren kan sortere på kolonner i resultatvisningen direkte fra Dashboardet, eksempelvis stigende eller faldende efter sagsnummer, titel, status eller dato
+Antal viste søgeresultater: Brugeren kan selv vælge hvor mange søgeresultater der skal vises i Dashboard-widgetten eller arbejdsoversigten
+Tilføjelse af kolonner: Via Tabelkolonner kan Brugeren tilføje ekstra kolonner til visningen, herunder brugerdefinerede felter og øvrige metadatafelter relevante for arbejdsopgaven.
+Brugeren oplever en fleksibel arbejdsflade, hvor filtrering og sortering tilpasses direkte i dashboardet. For Kunden betyder dette, at medarbejderne kan danne egne præcise overblik over relevante Sager, Dokumenter og Aktiviteter, der understøtter konkrete arbejdsgange. Roller og rettigheder sikrer, at Brugeren alene ser de data, vedkommende er autoriseret til.
+Outlook-integration
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandøren understøtter evalueringskravet om en effektiv og brugervenlig integration mellem ESDH-Systemet og Outlook, der understøtter sammenhængende arbejdsgange og nem journalisering af e-mails og Dokumenter.
+Løsningen integrerer fuldt ud med Outlook gennem det integrerede Outlook Sidepanel, hvor Brugeren kan arbejde direkte med Sager, Dokumenter og e-mails uden at forlade Outlook. Brugeren kan fremsøge relevante Sager, journalisere indgående e-mails via drag-and-drop, sende Dokumenter direkte via Outlook og arbejde videre med korrespondancen i én sammenhængende arbejdsgang.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Brugervenlig og intuitiv journalisering af e-mails på Sager
+Journalisering af afsendte e-mails direkte fra ESDH-Systemet
+Hurtig og nem afsendelse af Dokumenter direkte fra ESDH-Systemet via Outlook
+Automatisk journalisering af e-mailtråde.
+Brugervenlig journalisering af e-mails på Sager understøttes via søgning og drag-and-drop i Outlook Sidepanelet.
+Leverandørens løsning understøtter en intuitiv og brugervenlig journalisering af e-mails direkte fra Outlook via Outlook Sidepanelet. Brugeren kan fremsøge relevante Sager direkte i sidepanelets søgefelt og journalisere e-mails med få handlinger via drag-and-drop, og herefter kan Brugeren forblive på samme sag eller navigere til en anden sag via Sidepanlet.
+Brugeren modtager eksempelvis en e-mail i Outlook, søger på sagstitel direkte i Outlook Sidepanelet og trækker herefter e-mailen over på Sagen via drag-and-drop. Metadata udfyldes automatisk, hvorefter Brugeren blot godkender journaliseringen. Brugeren behøver dermed ikke manuelt at lave metadataregistrering eller fremsøge Sagen flere gange undervejs i processen. Kunden opnår dermed hurtigere journalisering, højere datakvalitet og mindre risiko for fejlregistreringer.
+Figur 49 - Journalisering af mail fra et dedikeret Outlook Sidepanel. Søg efter sagen ved 1), se dine gemte søgninger fx ”Min afdelings åbne sager” ved 2) og 3), eller åbne din sagshistorik ved 4)
+Brugeren kan samtidig arbejde med favoritlister, nyligt anvendte Sager og gemte søgninger direkte fra sidepanelet. Det gør det hurtigt at journalisere e-mails på de korrekte Sager og understøtter individuelle arbejdsgange med ensartet journalisering.
+Løsningen understøtter samtidig også moderne browserbaserede arbejdsgange. Brugeren kan derfor også drag’n’droppe e-mails direkte fra Outlook ind på Sagen i Løsningen, der præsenteres i browseren, med samme automatiske metadataregistrering, som i Outlook Sidepanelet.
+Figur 50 - Journalisering af mails ved drag’n’drop direkte til browseren. Kunden kan ligeledes udnytte funktionaliteten til at drag’n’droppe mails fra Outlook direkte til sagen i browseren, og stadig få påsat korrekt metadata
+Afsendte e-mails journaliseres automatisk fra Løsningen uden manuel metadataregistrering.
+Løsningen understøtter journalisering af afsendte e-mails direkte fra ESDH-Systemet med færrest mulige brugerhandlinger og uden behov for manuel metadataregistrering.
+Når Brugeren arbejder på en Sag eller i et Dokument i Løsningen, kan Brugeren sende Dokumenter direkte via Outlook, som en integreret del af arbejdsgangen.
+Funktionen “Gem i 360°” er automatisk aktiveret, hvilket betyder, at e-mailen automatisk journaliseres på den tilknyttede Sag ved afsendelse. Brugeren skal derfor ikke efterfølgende fremsøge Sagen eller manuelt registrere afsendelsen.
+Figur 51 - Afsendelse af ny e-mail kan ske direkte fra Løsningen, hvor mail automatisk åbner i Outlook, og hvor det er muligt for Brugeren at vedhæfte Dokumenter fra Løsningen
+Figur 52 - Knappen ”Gem I 360°” i Outlook. Når Kunden har klikket ”ny e-mail” i P360, åbner maildialogen i Outlook, hvor knappen ”Gem i 360” er aktiveret automatisk, så brugeren ikke skal udfylde metadata
+Hvis Brugeren eksempelvis sender et svar på baggrund af et Dokument eller en Sag i Løsningen, åbnes Outlook automatisk med den relevante kontekst og tilknytning til Sagen. Når Brugeren sender e-mailen, journaliseres både e-mail og eventuelle vedhæftede Dokumenter automatisk på den korrekte Sag.
+Kunden opnår dermed en sammenhængende arbejdsgang med færre manuelle trin, mere ensartet journalisering og mindre risiko for, at afsendte e-mails ikke registreres korrekt på Sagen.
+Dokumenter afsendes hurtigt direkte fra Løsningen via Outlook i original- eller PDF-format.
+Løsningen understøtter hurtig og brugervenlig afsendelse af ét eller flere Dokumenter direkte fra Løsningen via Outlook. Brugeren kan fra Sagen eller Dokumentoversigten vælge de relevante Dokumenter og sende dem som led i samme arbejdsgang uden først manuelt at hente Dokumenter ud af Løsningen.
+Brugeren kan eksempelvis markere ét eller flere Dokumenter direkte på Sagen og vælge at sende dem som vedhæftninger til en e-mail. Outlook åbner herefter automatisk med Dokumenterne vedhæftet, så Brugeren straks kan færdiggøre og sende korrespondancen.
+Figur 53 - Afsendelse via Outlook. Brugeren vælger de dokumenter, der skal afsendes 1), og åbner Outlook med dokumenterne vedhæftet 2)
+Figur 54 - Afsendelse af Dokumenter direkte fra Løsningen via Outlook. Kunden kan nemt vælge hvilke filer der ønskes afsendt direkte fra Løsningen via Outlook. Ved markering 1 vælges de(t) ønskede dokument, og ved markering 2 åbnes Outlook
+Løsningen understøtter samtidig, at Dokumenter kan afsendes i enten originalformat eller som PDF-version afhængigt af Kundens behov og arbejdsgange. Kunden opnår dermed en fleksibel løsning, hvor Dokumenter hurtigt kan distribueres i det ønskede format uden behov for eksterne værktøjer.
+Figur 55 - Valg af om filen skal afsendes i original version, eller som PDF-Version.
+Kundens brugere kan hurtigt og nemt vælge hvilken version af filen de ønsker at afsende, fra dokumentet versionshistorik, hvor alle formater kan ses.
+E-mailtråde journaliseres automatisk og tilknyttes den korrekte Sag.
+Leverandørens løsning understøtter automatisk journalisering af e-mailtråde, så indgående og udgående e-mails i samme korrespondance automatisk tilknyttes den korrekte Sag.
+Når en indgående e-mail først er journaliseret på en Sag, kan efterfølgende besvarelser automatisk blive koblet til samme Sag. Brugeren skal derfor ikke manuelt fremsøge Sagen igen eller selv sikre sammenhængen mellem korrespondancens enkelte e-mails.
+Figur 56 - Automatisk journalisering af e-mailtråde. Kunden opnår en tidsbesparelse med systemets funktionalitet for automatisk arkivering af mails i samme korrespondance. Hele flowet er automatisk for de postkasser som Kunden opsætter automatikken for
+Løsningen understøtter automatisk journalisering gennem standard funktionaliteterne ”GEMI” og ”AutoSaver”. Disse understøtter Kunden i opsætningen af automatisk overvågning af mailpostkasser, hvor indgående e-mails journaliseres automatisk i Løsningen og på den korrekte sag.
+Dette understøttes ved automatisk mønstergenkendelse i eksempelvis e-mailens titel, eller mailteksten. På den måde vil mailtitlen i en besvarelse altid være at finde i en besvarelse.
+Kunden opnår dermed mindre manuelt arbejde, mere ensartet journalisering og mindre risiko for fejl eller manglende sagsplacering.
+Office-integration
+Mindstekrav
+Den mobile applikation
+Mindstekrav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om fleksibel og brugervenlig mobil adgang til ESDH-Systemet. Brugere kan tilgå, behandle og annotere Forelæggelser, Dokumenter og Mødemateriale fra smartphone eller tablet i de samme centrale workflows som i ESDH-Systemet.
+Forelæggelser kan godkendes eller returneres med ét klik, dokumenter annoteres og journaliseres som særskilte dokumenter, og Mødemateriale præsenteres struktureret efter dagsordenspunkter med adgang fra både mobilapplikationen og ESDH-Systemet.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Brugervenlig håndtering af Forelæggelser med færrest mulige klik
+Intuitiv annotering af dokumenter direkte i mobilapplikationen
+Hurtig journalisering af annoterede dokumenter direkte i ESDH-Systemet
+Brugervenlig præsentation og annotering af Mødemateriale.
+Brugervenlig håndtering af Forelæggelser med færrest mulige klik for at kunne behandle en Forelæggelse, herunder godkende og sende tilbage-funktionalitet.
+Løsningen giver via den mobile applikation Brugeren et enkelt og overskueligt workflowoverblik. Forelæggelser grupperes automatisk efter fx modtagne Forelæggelser, sendte Forelæggelser og kommende opgaver, mens sorteringen afspejler prioritet, forfaldsdato og workflowstatus.
+Brugeren kan derfor hurtigt identificere hvilke Forelæggelser der kræver handling først. Workflowvisningen viser samtidig hvor Forelæggelsen befinder sig i processen, hvilke deltagere der indgår, og hvem der aktuelt behandler sagen.
+Når Brugeren åbner en Forelæggelse, vises titel, status, kommentarer, forfaldsdato, workflowhistorik og tilhørende Dokumenter samlet i samme arbejdsbillede. Herfra kan Brugeren med et klik vælge om forelæggelsen skal godkendes, sendes tilbage, delegeres eller kommenteres.
+Løsningen understøtter desuden valgfri rækkefølge af statusser, ligesom løsningen for særlige brugere understøtter default-udfyldelse af statusvalg.
+Løsningen håndterer både sekventielle og parallelle workflows og funktionsgodkendelser, hvor fx sekretariater eller ledergrupper kan modtage og behandle Forelæggelser samlet. Push-notifikationer gør samtidig Brugeren opmærksom på nye Forelæggelser eller ændringer uden aktivt at overvåge Løsningen.
+For Kunden betyder dette hurtigere behandling af Forelæggelser, bedre fremdrift i godkendelsesprocesserne og mindre risiko for, at opgaver eller frister overses.
+Figur 57 - Brugeren kan med få klik godkende, sende tilbage eller delegere forelæggelsen direkte fra oversigtsvisningen
+Figur 58 - Brugeren kan efter klik på statusikonet vælge hvilken status der skal påføres forelæggelsen fra en rullemenu
+Annotere dokumenter fra Forelæggelser i et intuitivt og brugervenligt præsentationslag, med lettilgængelige annoteringsværktøjer.
+Brugeren kan annotere Dokumenter direkte i mobilapplikationen gennem integrerede annoteringsværktøjer med blandt andet markeringer, kommentarer, tekstfelter og grafiske elementer. Dokumenter åbnes direkte fra Forelæggelser eller mødemateriale uden behov for separate applikationer eller komplekse arbejdsgange.
+Annoteringsværktøjerne er tilgængelige direkte fra dokumentvisningen og kræver kun få handlinger at anvende.
+Figur 59 - Brugeren kan åbne annoteringsværktøjet i applikationen og vælge mellem kommentarer og tegneværktøjer 1). Den valgte funktion vises direkte i dokumentet 2)
+Figur 60 - Annoteringsværktøj i den mobile applikation. Brugeren kan åbne annoteringsværktøjet og tilføje kommentarer 1) eller anvende tegneværktøjer 2) direkte i dokumentet
+Annoteringerne gemmes som et separat annoteringslag, hvor Brugeren hurtigt kan navigere fra den annoterede version til den originale version. Det originale Dokument forbliver således uændret. Brugeren kan samtidig navigere hurtigt mellem Dokumenter i samme Forelæggelse via en overskuelig dokumentliste.
+Brugeren får desuden et samlet overblik over egne annoterede Dokumenter i visningen “Kommenterede dokumenter”, hvor annoteringer hurtigt kan genfindes og åbnes igen.
+Figur 61 - Listen kommenterede dokumenter 1). Ved klik på et kommenteret dokument 2) åbnes dokumentet, og ved klik på 3) åbnes dokumentets forelæggelse
+For Kunden betyder dette mere effektiv dokumentgennemgang, hurtigere opfølgning og mindre risiko for, at væsentlige kommentarer eller beslutningsgrundlag overses.
+Hurtig journalisering af annoterede dokumenter direkte i ESDH-Systemet som særskilte Dokumenter, med tydelig angivelse af, at Dokumentet er annoteret af Brugeren.
+Løsningen understøtter to forskellige arbejdsgange til journalisering af annoterede dokumenter afhængigt af, om det skal være tilgængeligt for flere eller personligt.
+I den ene løsning kan Brugeren åbne Dokumentet i Microsoft Word på mobilenheden, tjekke filen ud og foretage ændringer eller kommentarer. Dette forudsætter blot at Kunden har Office på sit device. Når ændringerne gemmes tilbage, opdateres Dokumentet direkte i ESDH-Systemet som en ny version med integration til den eksisterende versionsstyring.
+I den anden løsning kan annoteringer fra mobilapplikationens præsentationslag gemmes tilbage til Løsningen som et særskilt rettighedsbeskyttet Sagsdokument, med et enkelt klik på ikonet for “upload annoteret version”. Dokumentet markeres tydeligt som annoteret af Brugeren og kan tilgås både fra mobilapplikationen og ESDH-Systemet.
+Figur 62 - Overblik over forelæggelse med mulighed for upload af annoteret version. Brugeren kan uploade et annoteret dokument 1), hvorefter der automatisk oprettes et sagsdokument i Løsningen
+Løsningen kan samtidig samle workflow- eller mødemateriale i én samlet PDF-visning før annotering, så Brugeren kan arbejde intuitivt med ét samlet dokument fremfor separate Dokumenter.
+For Kunden betyder dette hurtig og struktureret journalisering af annoteringer direkte i ESDH-Systemet samt tydelig adskillelse mellem originale Dokumenter og brugerannoterede versioner.
+Brugervenlig præsentation af Mødemateriale, herunder mulighed for at annotere Mødemateriale til personligt brug, hvor annoteringerne kan tilgås både via Mobilapplikationen og ESDH-Systemet.
+Mobilapplikationen giver Brugeren adgang til møder, dagsordener, bilag og relaterede Dokumenter. Mødemateriale præsenteres struktureret efter dagsordenspunkter, så Brugeren hurtigt kan navigere mellem mødeemner og tilhørende Dokumenter.
+Dokumenter åbnes fra mødevisningen og kan annoteres med samme annoteringsværktøjer. Brugeren kan dermed forberede sig til møder, annotere og vende tilbage til annoteringer senere.
+Figur 63 - Annotering af mødemateriale
+Personlige annoteringer kan tilgås både fra mobilapplikationen og i Løsningen, hvilket giver Brugeren en sammenhængende arbejdsoplevelse på tværs af enheder.
+Figur 64 - Brugeren kan overskue og annotere mødemateriale direkte på mobile enheder med samme funktionalitet som ved forelæggelser, hvilket sikrer en ensartet og intuitiv brugeroplevelse
+For Kunden betyder dette bedre mødeforberedelse, større mobilitet og en mere fleksibel arbejdsform for ledelse, sekretariater og øvrige Brugere med behov for adgang til mødemateriale på farten.
+Samarbejde og procesunderstøttelse
+Aktindsigt
+Mindstekrav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om effektiv og overskuelig håndtering af aktindsigtssager. Løsningen tilbyder en samlet arbejdsgang, hvor Brugeren fra aktindsigtssagens overblik kan fremsøge og indhente Dokumenter fra andre Sager med få kommandoer, behandle hvert Dokument med tydelig statusmarkering og generere en komplet aktindsigtsrapport som én samlet PDF – alt uden at forlade aktindsigtssagen.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Indhentning af Dokumenter fra andre Sager med færrest mulige kommandoer og uden ændring af metadata
+Intuitiv behandling af Dokumenter med tydelig statusmarkering pr. Dokument
+Generering af Aktindsigtsrapport som samlet PDF direkte fra aktindsigtssagen
+Automatisk rapportstruktur med skilleark og indholdsfortegnelse.
+Indhentning af Dokumenter fra andre Sager til aktindsigtssagen, uden at Dokumenternes Metadata (titel, dato m.v.) ændres i forbindelse med indhentningen, og at dette kan ske med færrest mulige kommandoer.
+Leverandørens løsning understøtter, at Dokumenter hurtigt kan indhentes fra andre Sager direkte til aktindsigtssagen via en let tilgængelig søgning. Brugeren kan fremsøge og tilføje relevante Dokumenter med få kommandoer i samme arbejdsgang, fra både Løsningen og Kundens historiske arkiv, eArkiv.
+Figur 65 - Tilføjelse af Dokumenter til aktindsigtssagen direkte fra søgning. Kunden kan med få kommandoer på en brugervenlig måde indhente dokumenter fra andre sager til aktindsigtssagen ved den indbyggede søgefunktionalitet på selve sagsoverblikket
+Kunden opnår en effektiv arbejdsgang, hvor materiale fra flere Sager kan samles uden manuelle kopieringsprocesser eller skift mellem forskellige arbejdsbilleder. Dette reducerer antallet af klik og gør det lettere at håndtere større og komplekse aktindsigtssager.
+Når Dokumenterne indhentes, bevares de oprindelige metadata såsom titel, dato, dokumentnummer og øvrige registreringsoplysninger uændret. Brugeren arbejder dermed med de originale metadataregistreringer fra de oprindelige Sager, hvilket understøtter sporbarhed, konsistens og sikker dokumentation gennem hele processen.
+Figur 66 - Indhentning af Dokumenter med bevarelse af oprindelige metadata. Når Kunden henter dokumenter ind, bevares deres Metadata, i form af både titel dato og andet helt automatisk og uden behov for manuelle kommandoer
+Intuitiv behandling af Dokumenter, der er indhentet til aktindsigt, herunder mulighed for at markere Dokumenter som imødekommet, delvist imødekommet eller ikke taget med, så det tydeligt fremgår, hvordan det enkelte Dokument er behandlet.
+Leverandørens løsning understøtter en intuitiv behandling af de Dokumenter, der indgår i aktindsigtssagen. Brugeren kan direkte fra sagens overblik markere hvert Dokument som ”Imødekommet”, ”Delvist imødekommet” eller ”ikke medtaget”.
+Figur 67 - Behandling af Dokumenter direkte fra aktindsigtssagens overblik. Kunden kan intuitivt vælge pr. Dokument der er indhentet til aktindsigt, om hvorvidt anmodning skal imødekommes, delvist imødekommes eller ikke tages med. Såfremt der er både hoveddokumenter og bilag knyttet til samme dokument, kan brugeren også vælge forskellige beslutninger pr. “fil”
+Status fremgår tydeligt med visuelle markeringer, så Brugeren hurtigt kan se, hvordan hvert enkelt Dokument er behandlet. Ved Dokumenter, der er ”delvist imødekommet” kan enkelte filer ”Inkluderes” eller ”Ekskluderes” individuelt, hvilket giver en fleksibel håndtering af komplekse Dokumenter med flere filer.
+Figur 68 - Kunden kan fleksibelt vælge helt at ekskludere bilag mens fx. Hovedokumentet medtages, hvilket ligeledes tydeligt fremgår af det samlede overblik
+Løsningen understøtter samtidig genbrug af tidligere behandlinger og ekstraheringer, så tidligere afgørelser og offentlige versioner hurtigt kan genanvendes. Kunden opnår dermed hurtigere behandling, mere ensartet praksis og mindre risiko for fejl i behandlingen af Dokumenterne.
+Generering af en aktindsigtsrapport som en samlet PDF-fil direkte fra aktindsigtssagen, hvor alle relevante Dokumenter og journalnotater indgår, inklusive oplysninger om behandling af det enkelte Dokument.
+Leverandørens løsning understøtter generering af en samlet Aktindsigtsrapport direkte fra aktindsigtssagen. Rapporten produceres automatisk som én samlet PDF-fil med alle relevante Dokumenter og journalnotater, med både dokument- og filskilleark samt en indholdsfortegnelse i form af en aktliste i et redigerbart word-format.
+Figur 69 - Generering af Aktindsigtsrapport direkte fra aktindsigtssagen. Kunden kan let fra Aktindsigtssagen generere en aktindsigtsrapport fra Sagens kontekstmenu 1) for dernæst at klikke producer 2)
+Brugeren kan generere rapporten med få kommandoer uden manuel samling af filer. Den samlede PDF dannes automatisk serverside og understøtter derfor også store aktindsigtssager med mange Dokumenter og filer.
+Aktindsigtsrapporten sammenholdt med Aktindsigtens svarbrev indeholder samtidig oplysninger om behandlingen af de enkelte Dokumenter, så det tydeligt fremgår, hvilke Dokumenter, der er ”Imødekommet”, ”Delvist imødekommet” eller ”Ikke medtaget”. Kunden opnår dermed en samlet dokumentation af aktindsigtsbehandlingen.
+For Kunden betyder dette væsentlig nedbringelse af klik, mindre manuel håndtering og en mere ensartet og professionel præsentation af det samlede aktindsigtsmateriale.
+Automatisk generering af aktindsigtsrapporten i en brugervenlig rapportering, der indeholder skilleark mellem Dokumenterne samt en automatisk indholdsfortegnelse, for at sikre overskuelighed og gennemsigtighed i det samlede materiale.
+Leverandørens løsning understøtter automatisk generering af en brugervenlig rapportstruktur med en indholdsfortegnelse både ved generering af ”Aktliste” og ved indflettet data i det Svarbrev, der sendes med Aktindsigten, samt de kundetilpassede skilleark mellem Dokumenter og filer i Aktindsigtsrapporten.
+Figur 70 - Automatisk genereret Aktliste og indholdsfortegnelse. 1) er svarbrevet der kan indeholde en indholdsfortegnelse, 2) er indholdsfortegnelsen. 3) viser de dokumenter der er ”Imødekommet” indtil videre
+Indholdsfortegnelsen giver et samlet overblik over Aktindsigtens struktur og rækkefølge, mens skilleark tydeligt markerer overgangen mellem Dokumenter og filer i den samlede Aktindsigtsrapport, når den produceres. Det gør rapporten mere overskuelig og lettere at navigere i, for både Brugeren og Modtageren af Aktindsigten.
+Figur 71 - Automatisk genererede skilleark mellem Dokumenter og filer. Ved aktindsigtsrapporter genereres Dokument- og Filskilleark automatisk med oplysninger som Dokumenttitel, Dokumentnummer, dato, antal filer og filnavn. Skabelonerne kan tilpasses Kundens design og ønskede flettefelter
+Den automatiske rapportstruktur reducerer behovet for manuel redigering og manuel samling af Dokumenter. Brugeren behøver dermed ikke manuelt at oprette Aktlisten med indholdsfortegnelser eller strukturere materialet efterfølgende.
+For Kunden betyder dette en betydelig tidsbesparelse, højere kvalitet i den endelige aktindsigtsbesvarelse samt mindre risiko for fejl, manglende dokumenter eller uoverskuelige rapporter.
+Processtyring
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om effektiv og brugervenlig processtyring i ESDH-Systemet. Løsningen leveres med 360° Flow, der giver Kunden mulighed for selvstændigt at designe, afvikle og automatisere processer, herunder automatisk oprettelse af Sager, Dokumenter og metadata samt udlæse alle procesdata til ledelsesinformation og rapportering – uden involvering fra Leverandøren.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Brugervenlig konfiguration af Processer uden leverandørinvolvering
+Flest mulige automatikker i processtyringsværktøjet
+Udlæsning af alle procesdata til ledelsesinformation og rapportering.
+Processer konfigureres brugervenligt, så Kunden selv kan oprette, tilpasse og vedligeholde procesforløb uden leverandørinvolvering.
+Løsningen giver Kunden mulighed for at konfigurere processer med 360° Flow, der er et værktøj til at konfigurere processer på Sag og Projekt i Løsningen. En Procesmodel i Løsningen består af faser, milepæle og tilhørende processer.
+Løsningen leveres med et standardbibliotek af Faser, Milepæle og Processer, som Kunden kan bruge til at lave Procesmodeller.
+I Administratormodulet kan Kunden konfigurere og vedligeholde Procesmodeller. På Sager har 360° Flow dedikeret visningen af Procesmodellen. Visningen har både Sagens Sagsbehandlingsfase, tilgængelige Processer, beskrivelse af automatikkerne i Processerne samt overblik over Milepælene i Procesmodellen.
+Figur 72 – 1) Sagens Sagsbehandlingsfase, 2) Processer kan løbende aktiveres, 3) Processens detaljer vises så Brugeren kan se hvilke automatikker eksekveres og 4) Milepæle
+I Administrationsmodulet konfigureres Procesmodellen som det øverste niveau. Milepæle og Sagsbehandlingsfaser med tilknyttede Processer er de underliggende niveauer.
+Figur 73 – 1) Procesmodellerne oprettes, 2) Titlen for Procesmodellen angives og 3) Det er muligt at relatere Procesmodellen til flere Sagstyper
+I Procesmodellen kan Sagsbehandlingsfaser tilføjes. Disse kan gennemføres sekventielt og parallelt. Faserne og de tilhørende processer indeholder mange konfigurationsmuligheder som fx automatisk dokumentoprettelse, automatisk beregning på dage og tidsberegning på det faktiske gennemløb i Procesmodellen.
+Figur 74 – 1) Sagsbehandlingsfaser tilføjes, 2) Titel angives og 3) Frist for Sagsbehandlingsfasen defineres
+Kunden kan selv konfigurere hvilke milepæle og processer, der skal være tilgængelige under hver Sagsbehandlingsfase.
+Milepælene under Sagsbehandlingsfaserne har til formål danne grundlaget for rapportering og styre beregning af sagsbehandlingstid. Det er således muligt i konfigurationen af Milepælene at sætte Sagsbehandlingsfasen i ”aktiv tid” eller ”passiv tid”, når fx et Dokument af en specifik Dokumentkategori journaliseres på Sagen.
+Figur 75: Milepælene konfigureres således, at en milepæl kan aktiveres 3) ved en specifik dokumentkategori 3) og det kan samtidigt defineres om milepælene kan opstå flere gange i fasen 4)
+I de forskellige Processer kan der konfigureres en række parametre gældende for Processen med henblik på at tilpasse Procesmodellen til Kunden og muliggøre automatiske handlinger og om hvorvidt en Proces kan foretages gentagende gange i Processen på Sagen.
+Figur 76 – 1) I de enkelte processer kan der defineres titel på Processen 2), en beskrivelse til Brugeren 3) og definere om Processen kan eksekveres flere gange
+Kunden opnår, at Processerne simpelt kan konfigureres til at passe til Kundens sagsbehandlingsproces, da disse ikke skal eksekveres sekventielt. Dette er ligeledes vedligeholdelsesvenlig, da det er mere enkelt for Kunden at identificere og tilrette de specifikke Processer uden at skulle ændre i den samlede Proces.
+Løsningen understøtter flest mulige automatikker i processtyringsværktøjet, herunder oprettelse af Sager, Dokumenter og Metadata.
+Løsningen leveres med standardautomatikker. Disse automatikker er tilgængelig ved tilføjelse af en Proces i Fasen i en separat fane, hvor automatikken i Processen konfigureres.
+Figur 77 – Eksempel: 1) Ved Processen "Afslutning af sagsbehandling" bliver automatikker aktiveret. 2) automatik opretter Dokument, e-mail med Dokumentet samt aktiverer en subproces og en Fase
+Kunden kan selv styre hvilke parametre, der skal sættes, når automatikken aktiveres. Derved sikres at Kunden selv styrer hvilken data, der registreres, i en brugervenlig brugergrænseflade med dropdowns i alle værdilister indeholdende et fast værdisæt.
+Figur 78 – 1) I fanen Workunit argument ses hele automatikken, 2) De forskellige automatikken kan tilgås, 3) Automatikken for Opret dokument kan parameter styres, 4) Dokumenttitel kan angives, 5) Dokumentarkiv angives, 6) Dokumentkategori og 7) Partsrollen kan angives.
+Løsningen indeholder som standard automatikker for fx dokumentoprettelse, metadataopdatering samt avancerede automatikker som fx automatisk mailafsendelse og milepælsudløst dokumentforsendelse i workflow.
+Figur 79 - I Løsningen vises 360° Flow fx ved eksekvering af Processen ”Anmodning om supplerende oplysninger”
+Løsningen inkluderer også Process Engine, hvor det er muligt at lave automatisk Projekt og Sagsoprettelse. Denne automatik muliggør, at et samlet Sagshierarki med både et Overprojekt, underprojekter og underliggende Sager automatisk kan oprettes. Med Process Engine kan der justeres på Sagshierarkiet.
+Figur 80 – 1) Træstrukturen viser det samlede Sagshierarki, der automatisk oprettes i Process Engine.
+Figur 81 – 1) Det overordnede Projekt, 2) Projektet og underliggende Sager, der automatisk oprettes
+Alle data genereret i forbindelse med procesgennemførslen udlæses, herunder fasedeadlines, gennemløbstid og status, til ledelsesinformation, rapportering og opfølgning.
+Løsningen sikrer fuld udlæsning af alle data, der genereres i forbindelse med procesgennemførslen, via modulet ”Management Reporting”-API’et. API’et er en dedikeret udlæsnings-API, der giver Kunden fuld kontrol over, datasættes samt hvilke felter og rækker der returneres. Samtlige tidsstempler, statusværdier, fasemålinger og deadline-registreringer gemmes løbende i Løsningen og kan udlæses automatisk. Udlæsning sker via POST-kald til API-end pointet og returnerer data i XML-format eller JSON, som herefter kan gemmes i et separat datastore hos Kunden.
+Management Reporting API’et understøtter delta-load, hvilket betyder, at Kunden alene henter de data, der er ændret siden seneste udtræk – typisk én gang dagligt. Sortering sker efter Recno på den primære entitet, og filtrering på “ModifiedDate” anvendes som standard deltaparameter. Herved minimeres belastningen på serveren, og Kundens BI-løsning holdes løbende opdateret uden fuld genindlæsning.
+Derudover registreres og udlæses Sagens aktuelle processtatus på ethvert tidspunkt, fx om en Sag er ”Modtaget”, ”Under behandling” eller ”Afsluttet”. Begge tidsdimensioner registreres automatisk.
+Alle data, der genereres via 360 Flow, herunder fasestatus, gennemløbstider, deadline-overholdelse og fordelingen mellem aktiv og passiv tid kan udlæses i deres helhed gennem API’et og kan eksporteres til Kundens BI-løsning. Datasættene returneres med datatypen angivet pr. felt, hvilket sikrer korrekt håndtering i Kundens BI-system.
+Forelæggelse
+Mindstekrav
+Evalueringskrav
+Løsningen opfylder kravet om effektiv og brugervenlig håndtering af Forelæggelser. Public 360° samler oprettelse, visning, godkendelse og frigivelse i én samlet arbejdsgang, hvor Brugeren kan forhåndsvise Dokumenter direkte i Forelæggelsesvisningen, følge godkendelsesprocessen med tydelige statusmarkeringer.
+Dokumenter og baggrundsmateriale vises i grafisk adskilte visninger, godkendte Forelæggelser er tydeligt markerede uafhængigt af dokumentstatus, og Dashboardet giver et samlet overblik med fleksibel sortering og filtrering på frister og prioritet.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Forhåndsvisning af Dokumenter direkte i Forelæggelsesvisningen
+Tydelig og grafisk opdelt visning af Forelæggelsens dokumenter og baggrundsmateriale
+Tydelig markering af godkendte Forelæggelser uafhængigt af dokumentstatus
+Dashboard med samlet overblik, sortering og filtrering af igangværende Forelæggelser
+Visualisering og prioritering af Forelæggelser for både initiator og modtagere.
+Dokumenter forhåndsvises direkte i Forelæggelsesvisningen uden separate vinduer.
+Løsningen giver Brugeren mulighed for at forhåndsvise dokumenter direkte i Forelæggelsesvisningen. Brugeren behøver dermed ikke åbne dokumenter i separate vinduer eller i tredje parts applikationer for at orientere sig i materialet.
+Figur 82 - Forhåndsvisning direkte i forelæggelsesoverblikket. 1) Skift dokument, 2) Første dokument forhåndsvises automatisk ved åbning
+Brugeren kan gennemgå beslutningsmateriale, kommentarer, deltagere og status i samme billede, og dermed bevarer fokus gennem hele behandlingen af Forelæggelsen. Det reducerer antallet af klik og vinduesskift og gør det lettere hurtigt at orientere sig i Forelæggelser med mange dokumenter eller omfattende baggrundsmateriale.
+For Kunden betyder dette hurtigere behandling af Forelæggelser og mindre risiko for, at væsentlige oplysninger overses.
+Figur 83 - Skift af dokument til forhåndsvisning. Kunden kan intuitivt og hurtigt ”bladre” imellem forelæggelsens forskellige dokumenter ved simpelt at klikke på det ønskede dokument
+Forelæggelsens dokumenter og baggrundsmateriale præsenteres i grafisk opdelt visning.
+Løsningen præsenterer Forelæggelsens dokumenter og baggrundsmateriale i tydeligt adskilte visninger med grafiske markeringer og ikoner. Brugeren kan dermed hurtigt skelne mellem det materiale, der indgår direkte i Forelæggelsen, og det materiale, der fungerer som baggrundsmateriale.
+Figur 84 - Differentiering af forelæggelsens dokumenter og baggrundsmateriale via grafisk ikon med angivelse af antal dokumenter
+Deltagere, kommentarer, status og dokumenter vises samlet i samme visning, hvilket gør det lettere at identificere relevant materiale og forstå sammenhængen mellem beslutningsgrundlag og understøttende dokumentation.
+Den tydelige og grafiske opdeling gør det helt tydeligt for modtagere af forelæggelsen, hvad der skal godkendes, og hvad der ligger til baggrund for forelæggelsen.
+For Kunden betyder dette en ensartet og overskuelig behandling af Forelæggelser samt mindre risiko for, at forkert eller ufuldstændigt materiale indgår i beslutningsprocessen.
+Figur 85 - Forelæggelsens samlede overblik med tydelig grafisk opdeling af forelæggelsens dokumenter 1) og baggrundsmateriale 2)
+Godkendte Forelæggelser markeres tydeligt uafhængigt af dokumenternes status.
+Løsningen gør det tydeligt for Brugeren, når en Forelæggelse er godkendt og afsluttet. Status fremgår løbende gennem visuelle markeringer, statusangivelser og procesindikatorer, så Brugeren hurtigt kan se:
+Hvilke trin der er godkendt
+Hvor processen aktuelt befinder sig
+Hvilke handlinger der afventer.
+Figur 86 - Forelæggelsens samlede status med de enkelte godkenderes status, kommentarer og tidspunkt for videresendelse
+Når Forelæggelsen er endeligt godkendt, fremstår dette tydeligt i løsningen uafhængigt af dokumenternes øvrige status. Det gør det lettere at identificere Forelæggelser, der er klar til næste trin i sagsbehandlingen.
+Figur 87 - Dashboard med overblik over igangværende og tidligere forelæggelser. 1) Tidligere forelæggelser, 2) Opsummering af progression uden at forlade Dashboardet
+Kunden får ligeledes en tydelig markering af, at en forelæggelse er godkendt både fra dokuments overbliksbillede og fra sagens dokumentoversigt, så det er helt tydeligt for alle Brugere, at forelæggelsen er godkendt uanset hvorfra de tilgår forelæggelsen.
+Figur 88 - Tydelig markering af godkendte forelæggelser fra både sagen og dokumentet. Kunden kan fra alle indgangsvinkler til forelæggelsen tydeligt se, at forelæggelsen er godkendt, om det er fra dokumentet 1) eller fra Sagen 2)
+For Kunden skaber dette en transparent og ensartet processtyring samt mindre risiko for tvivl om Forelæggelsens aktuelle status.
+Dashboardet giver Brugeren samlet overblik over igangværende Forelæggelser med sortering på egne forfaldsdatoer.
+Løsningen giver Brugeren adgang til et samlet dashboard med overblik over igangværende Forelæggelser. Fra dashboardet kan Brugeren hurtigt identificere:
+Forelæggelser der afventer behandling
+aktuelle statusser
+ansvarlige deltagere
+samt frister og forfaldsdatoer.
+Det gør det lettere at reagere på Forelæggelser med korte deadlines eller høj prioritet og reducerer risikoen for manglende opfølgning.
+Figur 89 - Dashboard med igangværende forelæggelser der afventer behandling 1) og sortering på egne forfaldsdatoer 2)
+Dashboardet understøtter fleksibel sortering efter forfaldsdatoer og øvrige centrale oplysninger. Brugeren kan dermed prioritere sit arbejde ud fra aktuelle deadlines og afventende handlinger.
+Figur 90 - Filtrering og sortering på forelæggelsens prioritet. Kunden kan også sortere og filtrere overblikket på fx prioritet, for at kunne planlægge hvilke forelæggelser der afventer brugerens behandlinger mest
+For Kunden betyder dette bedre fremdrift i de forskellige Forelæggelser og en mere ensartet håndtering på tværs af Myndigheden.
+Forelæggelser visualiseres for initiator og modtagere med fleksibel filtrering og sortering på frister og alder.
+Løsningen understøtter en tydelig visualisering af Forelæggelser for både initiatorer og modtagere gennem procesvisninger, statusmarkeringer, deltagere og frister.
+Figur 91 - Filtrering af forelæggelsers på hhv. forelæggelser der afventer brugeren behandling, og forelæggelser der er initieret af brugeren. Brugeren kan hurtigt og simpelt skifte visning på sit eget Dashboard fra forelæggelser der afventer brugeren 1) og forelæggelser hvor brugeren er initiator 2)
+Brugeren har fleksible muligheder for at sortere og filtrere Forelæggelser på tværs af de centrale oplysninger i overblikket. Det gør det muligt hurtigt at identificere:
+Forelæggelser med de mest presserende frister
+Forelæggelser der har været længst under behandling
+Forelæggelser der kræver handling nu.
+Figur 92 - Filtrering og sortering i alle centrale kolonner direkte i dashboardet
+Den visuelle præsentation gør det lettere hurtigt at følge fremdriften i større mængder Forelæggelser og understøtter en mere målrettet prioritering af opgaver og deadlines.
+For Kunden betyder dette hurtigere opfølgning, bedre friststyring og mindre risiko for, at kritiske Forelæggelser overses.
+Administration og sikkerhed
+Administratormodul
+Mindstekrav
+K-Krav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om et effektivt, sikkert og brugervenligt Administratormodul. Public 360° giver Kundens egne administratorer fuld kontrol over brugeradministration, sagsskabeloner, kontekstafhængige registreringer og brugergrænsefladen i Administratormodulet uden involvering fra Leverandøren.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Fleksibel og intuitiv administration af Brugere og Rettigheder
+Effektiv konfiguration af arbejdsgange, registreringer og skabeloner
+Høj grad af konfiguration af Brugergrænsefladen og systemopsætning
+Overskuelig rapportering af brugerrettigheder med eksport til Excel.
+Brugeradministration understøttes fleksibelt og intuitivt, med effektive værktøjer til tildeling, ændring og tilbagekaldelse af brugeradgange og Roller.
+Ved at klikke på en eksisterende bruger i Administratormodulet åbnes brugerprofilen, hvor alle nuværende roller og adgangsgrupper vises. Brugeren kan både ind- og udmelde fra adgangsgrupper fra Brugerprofilen.
+Eksisterende roller ændres/deaktiveres ved at indsætte en slutdato.
+Startdato muliggør tidsplanlagte rettighedsændringer, der forberedes på forhånd.
+Figur 93 - Redigere brugerprofil: 1) Tilføj, 2) Valg af rolle, 3) Gyldig fra, 4) Udløber og 5) Rediger Rolle
+For Kunden betyder dette hurtig og fejlfri brugeradministration, herunder planlagte rettighedsændringer med start- og slutdato uden involvering fra Leverandøren.
+Kontekstafhængige registreringer og sagsskabeloner håndteres smidigt, med brugervenlige værktøjer til oprettelse, redigering og målrettet tildeling til relevante enheder via Administratormodulet.
+Via brugervenlige værktøjer kan Kundens administratorer konfigurere kontekstafhængige registreringer, hvor værdier i ét felt automatisk kan udfylde, skjule eller gøre felter obligatoriske. Fx tilpasses registreringsbilledet automatisk ved valg af journalplansværdi eller sagsmetadata, så kun relevante oplysninger vises.
+Figur 94 – det kan opsættes således at når et felt har en værdi, så indsættes værdier i andre felter (1 & 2) eller at andre felter gøres obligatoriske eller helt skjules
+Sagsskabeloner giver mulighed for, at alle tilgængelige felter på en Sag automatisk kan udfyldes med standardværdier.
+Skabeloner konfigureres grafisk og målrettes specifikke afdelinger, roller, adgangsgrupper og brugere.
+Figur 95 - Konfigurationen af sagsskabelonerne giver mulighed for, at data relateret til Sagen, kan indstilles til standardværdier og forskellige automatikker samt målrettes til specifikke brugere, afdelinger og adgangsgrupper
+Via fanekonfiguration kan Løsningen automatisk præudfylde, skjule og låse felter.
+Figur 96 - Alle felter på et Sagsbillede kan konfigureres
+Ved sagsoprettelse i løsningen præsenteres brugeren automatisk for de sagsskabeloner, som vedkommende har adgang til.
+For Kunden betyder dette færre manuelle registreringer og fejl, relevante skabeloner og registreringsbilleder for Brugerne samt selvstændig vedligeholdelse af konfigurationen i Administratormodulet.
+Administratoren kan konfigurere felter, faner og layout direkte i Administratormodulet uden involvering fra Leverandøren.
+Kunden kan konfigurere felter, Sagstyper, Skabeloner, statusser, webparts, visninger, Skriveborde og layouts afhængigt af rolle, sagstype eller organisatorisk enhed.
+Figur 97 - Administratormodulet giver mulighed for, at standardobjekternes detaljebilleder (på nær Kontakt) kan ændres, så de passer til Kunden
+Figur 98 - Alle faner relateret til standardobjektet, kan placeret i enten venstre eller højre kolonne samt i menupunktet ”mere”. Det kan sættes op på både global og rolleniveau
+Figur 99 - Overbliksbilledet efter konfiguration
+Administratormodulet muliggør også, at Løsningens Outlook-sidepanel kan konfigureres globalt eller pr. rolle, så Kunden kan skræddersy, hvordan Brugerne ser Sidepanelet. Opsætningen kan forhåndsvises.
+Figur 100 - De forskellige valgliste, der kan vælges til Sidepanelet, er opdelt i forskellige faner, og de enkelte valglister får et grønt ikon, når det er valgt. I højre side er det muligt selv at justere i rækkefølgende af valglisten
+Ved konfiguration af Sagstyper kan Administratoren ændre navn, søge og filtrere felter, oprette brugerdefinerede felter og sektioner samt se en forhåndsvisning af sagsbilledet. Felter kan samles i én eller flere navngivne faner og tilføjes, flyttes eller fjernes via drag'n'drop.
+Figur 101 - Konfiguration af Sagstyper sker i en brugergrænseflade med mulighed for tilvalg af felter, sektionsopdeling og forhåndsvisning
+Det er muligt at oprette hjælpetekster til Brugeren, der muliggør brugervejledning til korrekt metaregistrering.
+Figur 102 - Oprettelse af ny sektion inkl. mulighed for værktøjstip, se eksempel i ovenstående billede, sektionen ”Egne felter”
+For Kunden betyder dette, at Brugerne får en Løsning tilpasset rolle og arbejdsopgaver, og at Kunden løbende kan optimere brugeroplevelsen uden involvering fra Leverandøren.
+Der kan oprettes brugerdefinerede felter i Administratormodulet. Dette kan gøres på alle Objekter.
+Figur 103 - Oprettelse af brugerdefinerede felter under 1) Konfigurationer kan oprettes felter på sagstyperne 2) og under Brugerdefinerede felter 3), kan oprettes på de andre Objekter
+Administrator vælger selv på hvilke Objekter, felterne skal være synlige på, om disse skal være obligatoriske samt rækkefølgen.
+Figur 104 - Brugeren kan oprette nye felter 1), vælge blandt eksisterende felter 2), tilføje felter til sagstypen 3)-4), gøre dem obligatoriske 5) og ændre visningsrækkefølgen 6)
+Overskuelig rapportering af brugerrettigheder, der giver administratoren et visuelt overblik over Roller og adgange med mulighed for eksport til fx Excel.
+Administratormodulet understøtter rapportering af Brugere, Roller og Rettigheder, så Kunden kan generere rapporter over brugeradgange og eksportere data til fx Excel.
+Der kan laves udtræk med udgangspunkt i Brugeren, hvor Kundens Administrator kan få et samlet overblik over Brugerne, deres Roller og deres adgangsgrupper, så adgange nemt kan kontrolleres.
+Figur 105 - Udtræksmuligheder over brugerrettigheder
+I brugerniveauudtræk kan Administratoren afgrænse rapporten på flere måder:
+Tidsinterval kan defineres, så der kun vises afgrænsede perioder
+En eller flere afdelinger kan vælges
+Udtrækket kan afgrænses til én linje pr. Bruger uanset antal Roller.
+Figur 106: 1) Tidsintervallet kan defineres, 2) Valg af Afdeling og 3) Afgrænse udtrækket til Brugere
+Rapportudtrækket præsenteres i kolonner, der kan eksporteres til Excel. Disse indeholder alle centrale informationer. Kunden kan se Brugernes adgangsgrupper og brugerprofiler og få et overblik over Brugerens Roller og Rettigheder.
+Figur 107 - Rapport over brugerrettigheder. Administratoren kan eksportere rapporten til Excel 1) og få et samlet overblik over Brugernes adgangsgrupper 2) og roller/profiler 3)
+For Kunden betyder dette, at Administratoren hurtigt kan danne et visuelt overblik over brugerrettigheder fra én samlet indgang, at udtrækket kan afgrænses præcist til de relevante Brugere, afdelinger og Instanser, og at rapporten kan eksporteres direkte til Excel til videre kontrol og dokumentation.
+Adgangsstyring
+Mindstekrav
+Evalueringskrav
+Leverandørens løsning opfylder kravet om fuld adskillelse mellem Institutioner. Løsningen understøtter logisk dataseparering på institutionsniveau gennem standardfunktionaliteten Enterprise Rules, der sikrer fuldstændig adskillelse af data, kontaktregistre og journalplaner, samtidig med at fordelene ved én samlet ESDH-platform bevares. Funktionaliteten er afprøvet i drift hos Leverandørens kunder i hele Norden. I Danmark bruges den af styrelser og ministerier med op mod 30 institutioner i samme løsning.
+Hver Institution arbejder i sin egen logiske kontekst med egne data, kontakter og journalstrukturer. Brugerne præsenteres alene for egne sager og søgeresultater, mens centrale roller fx Administrator for Instansen kan tildeles tværgående adgang på Kundens foranledning. Kunden opnår dermed høj datasikkerhed og organisatorisk kontrol i én samlet løsning.
+For at lette Kundens læsning er besvarelsen struktureret som følger:
+Effektiv logisk dataseparering mellem Institutioner med bevarelse af fælles funktionalitet
+Uafhængige kontaktregistre på institutionsniveau uden sammenblanding af data
+Understøttelse af flere Journalplaner i samme Instans på en brugervenlig og struktureret måde.
+Logisk dataseparering via Enterprise Rules sikrer fuldstændig adskillelse af Institutioners data, samtidig med at fælles funktionalitet og tværgående processer bevares.
+Løsningen understøtter effektiv logisk dataseparering gennem funktionalitet ”Enterprise Rules”, hvor data organiseres i selvstændige organisatoriske siloer med tilhørende adgangsgrupper, metadata og rettighedsstruktur.
+Når Enterprise Rules aktiveres, oprettes adgangsgrupper automatisk for hver enhed og underenhed i organisationsstrukturen. Brugere tilknyttes de relevante adgangsgrupper, og nye elementer påstemples automatisk med korrekt enhedsmetadata. Kunden kan selv definere, om adskillelsen skal gælde hele løsningen eller kun udvalgte Objekter.
+Det betyder, at data fra én Institution ikke vises for andre Institutioner, samtidig med at fælles funktioner og centrale roller kan understøttes efter behov. Løsningen understøtter både fuldt decentraliserede modeller uden adgang på tværs eller med en model med en central Administrator med tværgående adgang.
+I praksis betyder det, at Brugere, i den respektive Institution, alene kan se Institutionens data (Sager, Dokumenter, Kontakter etc.).
+Kunden opnår dermed fuldstændig logisk adskillelse mellem Institutioners data, reduceret risiko for utilsigtet adgang samt en konsekvent og revisionsunderstøttende adgangsstyring.
+Figur 108 - Enterprise Rules i Instans 3. Kunden kan med Enterprise Rules sikre en effektiv, logisk og fuldstændig dataseparering mellem institutionerne og samtidigt bevare fordelene ved fælles funktionalitet og tværgående processer ved hjælp af den indtænkte funktionalitet for Centrale hovedarkivarer og administratorer
+Uafhængige kontaktregistre på institutionsniveau giver den enkelte Institution fuld autonomi til at administrere og anvende egne kontakter uden sammenblanding af data.
+Løsningen understøtter både fælles kontaktregistre og fuldstændigt institutionsspecifikke kontaktregistre afhængigt af Kundens behov. Hver Institution kan dermed administrere egne interne og eksterne kontakter uden sammenblanding af data mellem Institutionerne.
+Ved anvendelse af Enterprise Rules modellen “Decentralized archive with main registrar and contact management” (på dansk: ”Decentraliseret arkiv med central journalisering og kontaktstyring”) kan Kunden definere, hvilke Brugere der må vedligeholde kontakter inden for den enkelte Institution.
+Funktionaliteten betyder samtidig, at samme part kan eksistere som kontakt i flere Institutioner i samme ESDH-løsning, uden at data, relationer eller rettigheder blandes sammen på tværs. Funktionaliteten betyder ligeledes, at Brugeren i den enkelte Institution kun kan oprette kontakter i egen Institution, og derved sikres det, at kontakter ikke bliver delt på tværs.
+Figur 109 - Kontakter med institutionsspecifik adgang. Kunden kan uden bekymring oprette de samme kontakter i de forskellige institutioner i instans 3, på grund af den indbyggede logik i enterprise rules, der automatisk påsætter den korrekte adgangsbegrænsning. Brugerne skal ikke tage stilling til noget, og kan ikke vælge forkert. Kunden opnår dermed både brugervenlighed og compliance med ESDH-Løsningens rettighedsstyring
+For Brugerne giver dette mere præcise og overskuelige kontaktregistre, mens Kunden opnår tydelig organisatorisk kontrol og sikker håndtering af kontaktdata.
+Figur 110 - Automatisk oprettelse af institutionsspecifikke adgangsgrupper. Ved opsætningen af ”Enterprise Rules oprettes de institutionsspecifikke adgangsgrupper automatisk 1), og det er synligt at de kommer fra Enterprise Rules opsætningen, da de får typen ”Global Skabelon” 2)
+Løsningen understøtter flere Journalplaner i samme Instans på en brugervenlig og struktureret måde, så Brugerne i de enkelte Institutioner kan arbejde effektivt med deres relevante Journalplan.
+Løsningen understøtter flere journalplaner i samme Instans på en struktureret og brugervenlig måde. Via regelbaseret metadatahåndtering og institutionsspecifik rettighedsstyring kan Kunden konfigurere, at specifikke dele af journalplanen bliver præsenteret default for de konkrete Institutioner.
+Metadata som fx ”Journalplaner”, ”Sagstyper”, ”Emnelister” og ”dokumentskabeloner” kan dermed differentieres pr. Institution, så den enkelte enhed arbejder med egne relevante metadata og skabeloner uden at påvirke de øvrige Institutioner.
+Det betyder eksempelvis, at Brugere i Institution A alene præsenteres for den Journalplan og ”Sagstyper”, der er relevante for den pågældende Institution, mens Brugere i Institution B arbejder med en anden Journalplan i samme Instans.
+Det reducerer antallet af redundante data og understøtter en mere ensartet og korrekt journalisering. Brugerne oplever dermed hurtigere journalisering, færre fejlklassifikationer og et mere overskueligt arbejdsbillede.
+Figur 111 - Automatisk påsætning af korrekt Journalplan, baseret på ansvarlig enhed. Systemet tilpasser sig den institution der opretter elementerne og påsætter automatisk den korrekte journalplan, uden sagsbehandleren aktivt behøver foretage sig noget.
+Figur 112 - Opsætning af Standard journalplan for hver institution. Løsningens funktionalitet, Enterprise Rules, understøtter default udfyldelse af journalplaner pr instans, som en del af konfigurationen af funktionaliteten
+Log
+Mindstekrav
+K-Krav
+Teknisk platform
+Integrationer
+Mindstekrav
+K-Krav
+Implementeringsstøtte og Overdragelse
+Dokumentation
+Mindstekrav
+K-krav
+Uddannelse
+Mindstekrav
+Hypercare
+Mindstekrav

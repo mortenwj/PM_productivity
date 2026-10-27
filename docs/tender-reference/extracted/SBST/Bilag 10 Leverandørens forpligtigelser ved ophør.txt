@@ -1,0 +1,83 @@
+Indledning
+Kunden har i dette bilag beskrevet de forpligtigelser, som Leverandøren har ved Leveringskontraktens hele eller delvise ophør.
+Ved ophør af Leveringskontrakten er Leverandøren forpligtet til at levere de ydelser, der fremgår af Leveringskontrakten og dette bilag.
+Forpligtelserne i dette bilag skal ses som en uddybelse og præcisering af kravene i Dataforordningen, som Leverandøren er forpligtet til at overholde, jf. Leveringskontraktens punkt 5.3. Kravene i dette bilag kan således ikke indskrænke Kundens rettigheder i forhold til Dataforordningen.
+Leverandørens forpligtelser i henhold til dette bilag er uafhængige af årsagen til Leveringskontraktens ophør. Bistanden skal ydes hurtigst muligt og, i det omfang det er muligt, inden ophørstidspunktet.
+Leverandørens ophørsforpligtelser ophører, når Leverandøren har leveret de omfattede ophørsydelser. Hvis ophøret indebærer Kundens skift til en løsning med en eventuel ny leverandør, anses ophørsforpligtelserne for ophørt efter en vellykket afslutning på skifteprocessen eller, hvis Kunden ikke ønsker at skifte, men at slette sine data, ved udløbet af opsigelsen af Leveringskontrakten i henhold til Leveringskontraktens punkt 14.
+Ophørsydelser anses for leveret, når Kunden skriftligt har bekræftet modtagelsen heraf i det aftalte omfang.
+Overordnet kan Leverandørens forpligtigelser ved ophør opdeles i 2 hoveddele:
+Ophørsassistance – som nærmere beskrives i afsnit 2
+Leverance af arkiveringsversion til Rigsarkivet – som nærmere beskrevet i afsnit 3
+Leverandørens forpligtigelser omfatter følgende ydelser:
+Ophørsforpligtelser ved Kundens meddelelse om ophør – som nærmere beskrevet i afsnit 2.3.
+Udlevering, kopiering og sletning af Kundens data – som nærmere beskrevet i afsnit 2.4
+Udarbejdelse og vedligeholdelse af ophørsplan – som nærmere beskrevet i afsnit 2.5
+Endelig og afsluttende arkiveringsversion til Kundens valgte arkiv – som nærmere beskrevet i afsnit 3
+Leverandøren er berettiget til vederlag baseret på Leverandørens timepriser som opgivet i bilag 4, Leverandørens priser (primært) eller såfremt der ikke er opgivet priser i bilag 4, Leverandørens dokumenterede standardtimepriser (sekundært) for de ydelser, der leveres, forudsat at de ikke er dækket af andre af Leverandørens forpligtigelser, fx support eller vedligehold, eller det følger af gældende lovgivning, at ydelserne skal leveres uden vederlag.
+Ophørsassistance
+Samarbejde ved ophør
+Leverandøren har ansvaret for den overordnede styring af de aktiviteter og opgaver, der er nødvendige og hensigtsmæssige for at sikre Leveringskontraktens ophør.
+Leverandøren og Kunden udpeger hver en ophørsleder. Leverandørens ophørsleder er ansvarlig for, at Leverandøren og dennes medarbejdere og eventuelle underleverandører opfylder nærværende bilag. Alle meddelelser vedrørende afviklingen af Leverandørens forpligtelser efter Leveringskontrakten og dette bilag foregår mellem Leverandøren og Kundens ophørsleder. Leverandørens ophørsleder skal være en erfaren seniorprojektleder. Ophørslederen skal være tilgængelig i tilstrækkeligt omfang til at kunne løse de beskrevne opgaver.
+Leverandøren skal stille relevante, kompetente og nødvendige ressourcer til rådighed i forbindelse med Leveringskontraktens ophør. Leverandøren skal, hvis Kunden beslutter dette, afholde workshops med Kunden og/eller tredjemand med henblik på overførsel af viden, herunder til brug for Kundens forberedelse af genudbud af de af Leveringskontrakten omfattede ydelser.
+Leverandøren skal loyalt samarbejde med en eventuel tredjemand i det omfang dette er nødvendigt for at sikre et hensigtsmæssigt ophør af Leveringskontrakten.
+Generelle ophørsforpligtigelser
+Som led i Leveringskontraktens ophør påhviler nedenstående generelle ophørsforpligtelser Leverandøren:
+Leverandøren skal støtte Kundens exitstrategi og stille relevante oplysninger til rådighed for Kunden.
+Leverandøren skal sørge for at al dokumentation, jf. bilag 11 Dokumentation, vedrørende Leverancen er ajourført og overleveret til Kunden.
+Leverandøren skal stille Leverancens informations- og datamodel til rådighed for migrering til en eventuel ny løsning.
+Leverandøren skal udlevere helpdeskdata til Kunden.
+Kundens data og andet tilhørende Kunden skal udleveres af Leverandøren til Kunden.
+Leverandøren skal loyalt samarbejde i fornødent omfang med en eventuel ny leverandør, så kundens skift af Leverancen muliggøres på den mest hensigtsmæssige måde, herunder at skifteprocessen gennemføres effektivt, sikrer rettidig og korrekt overførsel af data og understøtter kontinuitet i Leverancen.
+Særlige ophørsforpligtelser ved Kundens meddelelse om ophør
+Varsel om ophør
+Kunden kan med et varsel på 2 måneder underrette Leverandøren om, at Kunden ønsker at udføre en eller flere af følgende handlinger:
+skifte til en ny leverandør af Leverancen, der dækker samme løsning som den i Leveringskontrakten omhandlede, i hvilket tilfælde Kunden giver de nødvendige oplysninger om den pågældende leverandør.
+hjemtage Leverancen.
+returnere og slette Kundens data.
+Leverandøren må ikke forhindre Kunden i at:
+bringe Leveringskontrakten til ophør efter en vellykket afslutning af skifteprocessen.
+indgå aftale med en eventuel ny leverandør, som dækker samme løsning som den i Leveringskontrakten omhandlende.
+flytte Kundens data til en eventuel ny leverandør.
+opnå funktionel ækvivalens i forbindelse med anvendelse af en løsning hos en eventuel ny leverandør, der dækker samme løsning som den i Leveringskontrakten omhandlende.
+Bistand til Kunden
+Leverandøren forpligter sig til at yde rimelig bistand til Kunden og de tredjeparter, som Kunden har bemyndiget, når skifteprocessen er påbegyndt og under hele skifteprocessen, således at Kunden kan gennemføre skift inden for overgangsperioden. Leverandøren skal i den forbindelse navnlig:
+stille kapacitet, tilstrækkelige oplysninger, herunder dokumentation som er nødvendig for at gennemføre skift, samt teknisk support til rådighed. Hvis der identificeres problemer, analyserer Leverandøren og Kunden i god tro årsagerne og aftaler passende løsninger.
+handle med fornøden omhu for at opretholde forretningskontinuitet og fortsætte leveringen af funktioner eller tjenester i henhold til Leveringskontrakten.
+opretholde et højt sikkerhedsniveau under hele skifteprocessen, navnlig datasikkerhed under overførslen og fortsat datasikkerhed i den udtræksperiode.
+Oplysningspligt for Leverandøren
+Leverandøren skal i tilfælde af Kundens skift af Leverancen til en eventuel ny leverandør give Kunden:
+oplysninger om tilgængelige procedurer for skift og flytning af data til en eventuel ny løsning, herunder oplysninger om tilgængelige metoder og formater for skift og flytning samt restriktioner og tekniske begrænsninger, som Leverandøren har kendskab til.
+en henvisning til et ajourført onlineregister, der hostes af Leverandøren, med nærmere oplysninger om alle de datastrukturer og dataformater samt de relevante standarder og åbne interoperabilitetsspecifikationer, hvori de data er tilgængelige.
+Overgangsperiode
+Kunden har ret til at skifte til en eventuel ny leverandør eller hjemtage Leverancen uden unødig forsinkelse inden for en maksimal overgangsperiode på 30 kalenderdage. Kunden kan aftale en overgangsperiode med Leverandøren på 30 kalenderdage.
+Kunden kan forlænge overgangsperioden én gang med en periode, som Kunden anser for mere hensigtsmæssig for Kundens egne formål, dog ikke længere end [indsæt antal måneder],
+Udlevering og returneringsforpligtigelser
+Til Kundens migrering til eventuel ny løsning afleverer Leverandøren 2 deludtræk og 1 fuldt udtræk af data på et aftalt format på aftalte tidspunkter. Leverandøren skal afklare med Kunden, hvad deludtrækkene skal indeholde af data.
+Leverandøren skal i øvrigt returnere alt data og andet materiale, som Leverandøren råder over, og som ifølge Kontrakten tilhører Kunden. Leverandøren skal i den sammenhæng samarbejde loyalt med Kunden og en eventuel tredjemand.
+Leverandøren har ingen tilbageholdsret i Kundens data eller andet tilhørende Kunden uanset grunden til Leveringskontraktens ophør.
+Al Dokumentation og data mv. der udleveres i henhold til Dokumentation, bilag 13, skal udleveres på et af Kunden valgt almindeligt anerkendt format (udvekslingsformat) på et almindeligt anerkendt medie.
+Tilbagelevering af Kundens ejendom skal ske indenfor et varsel på 4 uger, og Leverandøren skal løbende udarbejde ajourførte specifikationer over det udleverede.
+Hvis Kundens data har været lagret på systemer hos Leverandøren eller hos Leverandørens Underleverandører, er Leverandøren forpligtet til at sikre, at sådan data afinstalleres og uigenkaldeligt slettes fra disse systemer, servere og øvrige lagringsenheder mv., herunder backup. Sletning skal ske seneste 30 Dage efter at Kunden har godkendt:
+fuldt migreringsudtræk
+arkiveringsversionen
+Leverandøren skal skriftligt overfor Kunden, hurtigst muligt efter Leveringskontraktens ophør, bekræfte, at data der tilhører Kunden er returneret, afinstalleret og uigenkaldeligt slettet via Dokumentation fra en ekstern statsautoriseret revisor. Anden uafhængig ekstern part med tilsvarende kompetencer kan udpeges. Leverandøren afholder i så fald omkostningerne til den eksterne revisor/eksterne part.
+Udarbejdelse og vedligeholdelse af ophørsplan
+Leverandøren skal ved meddelelse om ophør udarbejde en ophørsplan.
+Ophørsplanen skal forelægges Kunden til godkendelse 14 dage efter meddelelsen om ophør.
+Leverandøren skal indarbejde ændringer, forslag og yderligere oplysninger i ophørsplanen, som Kunden med rimelighed måtte anmode om.
+Indholdet af ophørsplan
+Ophørsplanen skal mindst indeholde følgende:
+en udtømmende specifikation af alle kategorier af data, der kan overføres.
+en udtømmende specifikation af de datakategorier, der er specifikke for den interne funktion af Leverancen, og som skal undtages fra de data, der overføres, når der er risiko for brud på Leverandørens forretningshemmeligheder.
+klare oplysninger om kendte risici for kontinuitet i leveringen af funktioner eller tjenester fra Leverandøren.
+oplysninger om bistand ved skift og exit, herunder flytningsmetoder og formater samt de trin, der er nødvendige for at gennemføre skifteprocessen
+navn og kontaktoplysninger på de repræsentanter, som Kunden og Leverandøren udpeger til at gennemføre planen
+et estimat over den tid, der er nødvendig for at eksportere og overføre data ud af Leverandørens miljø.
+restriktioner og tekniske begrænsninger, herunder begrænsninger som følge af lagring af data uden for Den Europæiske Union.
+en beskrivelse af den rækkefølge for skifteoperationer, som Leverandøren foreslår.
+en beskrivelse af den testmetode, som Leverandøren foreslår, når der gennemføres tests.
+Leverance af arkiveringsversion til valgt arkiv
+Som en del af Leverandørens forpligtigelser ved ophør skal Leverandøren aflevere endelig og afsluttede arkiveringsversion af data og tilhørende metadata til Rigsarkivet, uanset om Leverandøren eventuelt tidligere har afleveret data til det valgte arkiv.
+Arkivet fastlægger, hvilke data der skal afleveres arkiveringsversion af og efter hvilket format. Afleveringen skal ske efter Rigsarkivets gældende bekendtgørelse om arkiveringsversioner, som udmøntes i en endelige afleveringsbestemmelse af det modtagende arkiv. Afleveringsbestemmelsen foreskriver, hvordan den specifikke arkiveringsversion skal udformes, herunder teknisk og administrativ dokumentation samt herunder, hvilke tabeller der eventuelt kan udelades.
+Arkiveringsversionen skal være systemuafhængig og skal bestå af et udtræk af data kombineret med teknisk og administrativ dokumentation af Systemerne og dets brug. Arkiveringsversionen godkendes af valgte arkiv.
+Der må ikke slettes data i driftsversionen, før en arkiveringsversion er afleveret og godkendt af arkivet.

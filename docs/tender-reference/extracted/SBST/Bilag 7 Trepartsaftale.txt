@@ -1,0 +1,129 @@
+Definitioner
+Ved Arbejdsdag forstås mandag, tirsdag, onsdag, torsdag og fredag bortset fra helligdage, juleaftensdag, nytårsaftensdag og grundlovsdag.
+Ved Dag forstås kalenderdag.
+Ved Kunden forstås den ordregiver, der har indgået Leveringskontrakten med Leverandøren.
+Ved Leverandøren forstås den økonomiske aktør, der har indgået Leveringskontrakten med Kunden.
+Ved Leveringskontrakten forstås aftalen mellem Leverandøren og Kunden, som er indgået efter konkurrenceudsættelse i Systemet, hvortil dette bilag hører.
+Ved Systemet forstås det dynamiske indkøbssystem for aftalen 02.06 Standardsoftware (2026).
+Indledning
+Denne trepartsaftale mellem Leverandøren, Kunden og SKI udgør et bilag til Leveringskontrakten, som er indgået efter konkurrenceudsættelse foretaget af Kunden i SKI’s dynamiske indkøbssystem 02.06 Standardsoftware (2026).
+SKI’s forretningsmodel
+SKI’s forretningsmodel fungerer på den måde, at SKI som indkøbscentral udbyder rammeaftaler og opretter dynamiske indkøbssystemer, som SKI’s abonnementskunder kan anvende til at dække deres indkøbsbehov. SKI har i den forbindelse behov for, at leverandører indrapporterer data for kundernes køb på de enkelte kontrakter og aftaler. Dermed sikres, at udformning og udbud af fremtidige systemer og aftaler sker hensigtsmæssigt og effektivt, og at SKI løbende kan monitorere omsætningen på de dynamiske indkøbssystemer og rammeaftaler.
+SKI’s omkostninger ved at etablere dynamiske udbudssystemer er bl.a. finansieret ved, at SKI’s kunder betaler en procentsats (kaldet kundebetaling) af deres omsætning på den eller de konkrete leveringskontrakter, som er indgået på baggrund af en konkurrenceudsættelse i et af SKI’s dynamiske indkøbssystemer. De kunder, der gør brug af SKI’s systemer, er således med til at afholde omkostningerne til at udbyde, oprette og drive de dynamiske indkøbssystemer.
+Leverandørens forpligtelser
+Leverandøren skal på vegne af Kunden rapportere om Kundens køb under Leveringskontrakten, jf. punkt 5, samt videreformidle kundebetalingen til SKI, jf. punkt 6.
+Leverandøren skal – fra det tidspunkt, hvor Leverandøren første gang fakturerer Kunden for levering af produkter og ydelser omfattet af Systemet – løbende rapportere Kundens køb/omsætning i overensstemmelse med kravene i denne aftale. Leverandørens forpligtelser i henhold til denne aftale ophører, når Leverandøren ikke længere fakturerer Kunden i medfør af Leveringskontrakten.
+Leverandøren skal ligeledes videreformidle kundebetalingen til SKI. Leverandørens pris indeholder kundebetalingen, jf. punkt 4.2, som Leverandøren er forpligtet til at videreformidle til SKI. Denne model er fastsat ud fra et administrativt hensyn, så Kunden alene modtager én samlet faktura indeholdende både Leverandørens pris og kundebetalingen. Alternativt ville Kunden modtage to fakturaer for samme leverance.
+Leverandørens kontaktperson
+I forbindelse med, at Leverandøren bliver optaget i et af SKI’s dynamiske indkøbssystemer, skal Leverandøren udpege en kontaktperson, som skal stå for alle forhold vedrørende indrapportering af omsætning og afregning af kundebetalingen.
+Kontaktpersonen udpeges ved, at Leverandørens brugeradministrator, der har ansvaret for at op-rette brugere og roller i SKI’s systemer, opretter en bruger, som tildeles rollen ”Indrapporteringsansvarlig”. Denne bruger vil herefter kunne tilgå en skabelon til brug for indrapportering via SKI’s hjemmeside (www.ski.dk). Forud for den første indrapportering skal den indrapporteringsansvarlige sætte sig ind i, hvordan skabelonen skal udfyldes, og hvordan indrapportering skal foretages. Se her for vejledning.
+Kundebetalingen
+Leverandøren skal på vegne af Kunden videreformidle kundebetalingen. Leverandøren skal opkræve kundebetalingen på sin faktura til Kunden, jf. punkt 6.1.
+Kundebetalingen til SKI udgør 1 % af Kundens købssum.
+Kundebetalingen ved Konkrete indkøb beregnes efter følgende formel:
+Kundens købssum eksklusive moms og afgifter i DKK ×1 %=Kundebetalingen i DKK
+Krav til rapportering og data
+Rapporteringsforpligtelsen generelt
+Leverandøren skal hver kalendermåned opgøre Kundens anskaffelse af produkter og ydelser. Omsætningen skal angives i DKK eksklusive moms.
+Opgørelsen skal være SKI i hænde senest 10 Dage efter udgangen af den kalendermåned, der rapporteres for. Det er datoen for Leverandørens fakturering til Kunden, der bestemmer, hvilken kalendermåned omsætningen for den pågældende Kunde skal indrapporteres for.
+Indrapporteringen skal ske i SKI’s system via SKI.dk, og skal følge det dataformat, der er beskrevet i punkt 5.5 og i den Excel-skabelon, der kan tilgås via ski.dk.
+SKI vil på baggrund af Leverandørens rapportering beregne kundebetalingen i overensstemmelse med metoden beskrevet i punkt 4.2 og herefter udstede en faktura, jf. punkt 6.1.
+Datakrav i forhold til rapportering
+Dette punkt beskriver det dataformat, som skal benyttes af Leverandøren ved rapportering af omsætning.
+Hvis Leverandøren indrapporterer i et ikke godkendt format med ukorrekte eller ufuldstændige data, som nødvendiggør, at SKI skal tilrette indrapporteringen, vil SKI fakturere Leverandøren for tidsforbruget for tilretningen pr. påbegyndt time. Timeprisen andrager DKK 500. I de tilfælde, hvor SKI vælger at tilrette data, kan SKI ikke samtidig opkræve bod for samme forhold.
+Omfang af data og filformat
+Data skal indrapporteres i Excel-format (xlsx- eller xls-format) med fakturalinjer i Excel-formatets rækker, og oplysningerne under ”Feltnavn”, beskrevet i tabellen nedenfor, i Excel-formatets kolon-ner.
+Data skal indrapporteres på produktlinje-/transaktionsniveau. Der skal indrapporteres data for al faktureret omsætning på Leveringskontrakten.
+Feltkrav
+Nedenstående data skal indrapporteres af Leverandøren. Det er udelukkende data under rubrikken ”Feltnavn”, som skal indrapporteres. Kolonnerne ”Format”, ”Beskrivelse” og ”Kommentar” udgør en vejledning til Leverandøren til hjælp for udfyldelsen af ”Feltnavn”:
+CSV-format
+Som alternativ til Excel-formatet kan Leverandøren indrapportere data i et semikolonsepareret format med fil-forkortelsen CSV. Såfremt Leverandøren ønsker at indrapportere i CSV-format, skal nedenstående linje inkluderes i toppen af filen. Linjen viser også rækkefølgen af felterne, som skal bruges på de fakturalinjer, der indrapporteres:
+SKIkundenr;Kundenavn;Varenr;Varenavn;Varegruppe;Fakturanr;Antal;Enhed;Linietotal;Valuta;Fakturadato;SKIRammekontrakt;SKIIndrapporteringskode
+Hver fakturalinje afsluttes med et linjeskift. Felter separeres med ; (semikolon). Dette betyder også, at ; (semikolon) ikke kan anvendes internt i de enkelte felter.
+Nedenfor findes et tænkt eksempel på data, hvor overskriften også er inkluderet. Bemærk, at overskriften kun skal optræde i toppen af filen, og alle overskrifter skal indgå i rapporteringen.
+Eksempel:
+SKIkundenr;Kundenavn;Varenr;Varenavn;Varegruppe;Fakturanr;Antal;Enhed;Linietotal;Valuta;Fakturadato;SKIRammekontrakt;SKIIndrapporteringskode
+5978000001234;Kommunen;EX15779;Biler;SKI5086.0825.0001;2045;9;stk;280000;DKK;10-11-2025;50860025;1
+5978000001234;Sportshallen;23456789; Bosu Bold;SKI1001.0625.0006;2540;3;stk;995;DKK;25-07-2025;10010025;0
+Korrektioner til tidligere indrapporterede køb
+Hvis Leverandøren ønsker at foretage en negativ korrektion af tidligere indrapporteret omsætning, foretages dette på samme måde som almindelige indrapporteringer blot ved at sætte minustegn foran antal og linjetotal. Negative korrektioner indrapporteres for den kalendermåned, hvor den tilsvarende positive omsætning tidligere er indrapporteret. Leverandøren er forpligtet til at begrunde den negative korrektion ved at skrive til indrapportering@ski.dk, hvis den negative korrektion har en effekt for SKI på mere end DKK 1.000.
+Forud for accept af den negative korrektion er SKI berettiget til at kræve dokumentation for de(t) køb, den negative korrektion vedrører. Dokumentation kan ske ved udfyldelse af en af SKI udformet kundeblanket, hvor Leverandøren underskriver på tro- og love, at det konkrete køb er sket uden for Leveringskontrakten.
+Hvis SKI konstaterer, at Leverandøren tidligere har rapporteret en omsætning, der er mindre end Leverandørens reelle omsætning under Leveringskontrakten, vil SKI sende Leverandøren en påmindelse om at foretage en korrekt indrapportering for den eller de kalendermåneder, hvor der ikke er sket en fuldstændig indrapportering.
+Skønnet omsætning ved mangelfuld eller forsinket rapportering
+Ved forsinket rapportering, eller hvis den fremsendte rapportering er behæftet med ikke uvæsentlige mangler eller udeladelser, er SKI berettiget til at beregne kundebetalingen på grundlag af en af SKI skønnet omsætning for pågældende kalendermåned og opkræve betaling herfor. Når SKI senere modtager en korrekt og fuldstændig opgørelse fra Leverandøren, vil SKI snarest muligt regulere for forskellen mellem Leverandørens opgørelse, og den af SKI skønnede opgørelse. Resulterer reguleringen i, at SKI skal tilbagetale kundebetaling til Leverandøren, som følge af at SKI’s skøn var højere end den faktiske omsætning, er Leverandøren ikke berettiget til rente af det skyldige beløb.
+Såfremt SKI konstaterer, at Leverandøren på et tidligere tidspunkt har foretaget en ufuldstændig rapportering, det vil sige, at Leverandøren tidligere har rapporteret en omsætning, der er mindre end Kundens reelle køb (som er inklusive kundebetalingen), er SKI berettiget til at opkræve rente af det skyldige beløb i overensstemmelse med punkt 6.2, og eventuelt bod i overensstemmelse med punkt 6.3.
+Fakturering, betaling og bod
+Fakturerings- og betalingsbetingelser
+SKI fremsender på baggrund af Leverandørens indrapporterede køb en faktura på kundebetalingen til Leverandøren.
+Fakturaen forfalder til betaling, når den er Leverandøren i hænde, og seneste betalingsfrist er 30 Dage fra SKI’s fremsendelse af faktura.
+Hvis en faktura ikke betales rettidigt, vil SKI rykke for betaling tre gange med mindst 10 Dages mellemrum. For hver rykkerskrivelse tillægges et rykkergebyr på DKK 100. Hvis der stadig ikke sker betaling efter tredje rykker, vil SKI lade fakturaen overgå til retslig inkasso hos RKI (Ribers Kredit Information) ved Experian A/S, og Leverandøren vil modtage en inkassoskrivelse med yderligere omkostninger til følge, herunder et inkassogebyr til SKI på DKK 100. Udover ovennævnte gebyrer skal Leverandøren betale rente til SKI, jf. punkt 6.2.
+Har SKI godkendt negative korrektioner til tidligere indrapporteret omsætning, vil SKI fremsende kreditnota til Leverandøren.
+Renter ved forsinkelse med rapportering og betaling af fakturaer
+Hvis Leverandøren på et tidligere tidspunkt ikke har foretaget en fuldstændig/korrekt rapportering, er SKI berettiget til rente af kundebetalingen for den del, som ikke er blevet rapporteret rettidigt. Rente beregnes i overensstemmelse med den rente, der gælder for forsinket betaling efter renteloven, og Leverandøren skal betale rente fra dagen for seneste betalingsfrist, jf. punkt 6.1, for betaling af fakturaen for den kalendermåned, hvor der ikke er sket fuldstændig og rettidig rapportering af Kundens køb.
+,Har Leverandøren f.eks. for rapportering af marts måned foretaget en rapportering på DKK 100.000, og SKI i december måned konstaterer, at Kundens reelle køb for marts måned har været DKK 150.000, skal Leverandøren betale kundebetaling til SKI for de DKK 50.000, som Leverandøren ikke tidligere har rapporteret, og Leverandøren skal derudover betale rente af den kundebetaling, som skulle have været betalt til SKI (beregnet fra Leverandørens betalingsfrist, dvs. 30 Dage fra fakturaen ville have været Leverandøren i hænde og indtil betaling sker).
+Ved hel eller delvis forsinket betaling af fakturaer har SKI ret til at beregne rente i henhold til rentelovens regler, regnet fra betalingsfristens udløb og indtil betaling sker. Ved delvis forsinket betaling betaler Leverandøren rente for den del af betalingen, som er forsinket.
+Bod ved forsinket eller mangelfuld rapportering
+Bod er en rettighed, som SKI kan vælge at benytte med henblik på at understøtte Leverandørens loyale og samarbejdsorienterede opfyldelse af rapporteringsforpligtelsen under Leveringskontrakten. SKI kan således også vælge ikke at opkræve bod, f.eks. i en situation, hvor opkrævning heraf ikke vurderes proportionalt eller formålstjenesteligt. SKI kan f.eks. vælge ikke at opkræve bod, når der foreligger en forsinkelse, som skyldes forhold, der ikke i sig selv medfører force majeure, men som dog udgør forhold, som er udenfor Leverandørens kontrol, og hvor selv en rimelig oplyst og påpasselig Leverandør ikke med rimelighed kunne forventes at have overvundet forhindringen. Sådanne forhold kunne f.eks. være pludselige nedbrud i IT-system(er), som i en periode umuliggør eller gør det urimelig byrdefuldt for Leverandøren at overholde frister, der kan udløse bod.
+Hvis Leverandøren er forsinket med rapporteringen eller rapporteringen er mangelfuld, vil SKI sende en påmindelse. Tre Arbejdsdage efter fremsendelse af første påmindelse fremsender SKI endnu en påmindelse, forudsat at SKI ikke forinden har modtaget Leverandørens indrapportering.
+Hvis Leverandøren ikke rapporterer rettidigt, eller rapporteringen er mangelfuld, kan SKI kræve bod fra Leverandøren. SKI kan opkræve en bod på DKK 5.000 for forsinket rapportering fra dagen efter den dag, hvor rapporteringen skulle være indsendt, og for mangelfuld rapportering fra den dag, hvor SKI konstaterer, at rapporteringen er mangelfuld. SKI kan derudover opkræve en yderligere dagbod på DKK 500 pr. påbegyndt Arbejdsdag efter udløb af den i første påmindelse anførte tidsfrist, hvis SKI endnu ikke har modtaget en korrekt rapportering. Dagsboden for en forsinket eller mangelfuld rapportering kan i alt ikke overstige DKK 10.000 pr. tilfælde.
+Ovenstående begrænsning gælder ikke, hvis SKI kan påvise, at Leverandøren groft uagtsomt eller forsætligt har undladt at rapportere Kunders køb. I disse tilfælde kan SKI kræve en bod på 10 % af værdien af de køb, der ikke er indrapporteret, hvis værdien af disse køb er under DKK 1 mio., eller en bod på 15 % af værdien af de manglende indrapporterede køb, hvis værdien heraf er DKK 1 mio. eller højere.
+SKI kan kræve bod fra Leverandøren, hvis Leverandøren som led i SKI’s kontrolindsats ikke samarbejder loyalt med SKI, som nærmere beskrevet i et påkrav til Leverandøren, inden for den i påkravet fastsatte frist. Dagboden udgør DKK 500 pr. påbegyndt Arbejdsdag fra fristudløb, og boden påløber indtil det tidspunkt, Leverandøren efterlever de i påkravet fastsatte krav. Bodsbeløbet kan dog ikke overstige DKK 10.000 pr. tilfælde.
+SKI’s kontrolindsats
+SKI’s kontrolforanstaltninger
+SKI er berettiget til at iværksætte en kontrolindsats med henblik på at afklare, hvorvidt Leverandørens rapportering er sket korrekt i henhold til nærværende bilag.
+Kontrolindsatsen kan være begrundet i en mistanke om, at Leverandøren ikke har foretaget en korrekt rapportering. En mistanke kan f.eks. bero på oplysninger fra kunder, en pressesag, andre leverandører på markedet, en unormalt lav indrapportering af omsætning vurderet på baggrund af andre leverandører, tidligere aftaler for et tilsvarende anvendelsesområde, kendskab til markedet osv.
+SKI er dog også berettiget til at foretage stikprøvekontroller, uden at der foreligger en konkret begrundet mistanke.
+Leverandøren er forpligtet til loyalt at samarbejde med SKI, herunder at give SKI de oplysninger, som SKI anmoder om, og som af SKI vurderes nødvendige for udførelsen af ovennævnte kontrolindsats.
+Tro- og love-erklæring
+Leverandøren skal på anmodning fra SKI fremsende en tro og love-erklæring, som oplyser om rigtigheden af de foretagne indrapporteringer i det foregående kalenderår.
+SKI vil i forbindelse med en sådan anmodning fremsende en skabelon til tro og love-erklæring til den oplyste indrapporteringsansvarlige. Leverandøren er forpligtet til at anvende den fremsendte skabelon til at afgive af erklæringen.
+Tro og love-erklæringen skal underskrives af en af Leverandøren underskriftsberettiget person. Medmindre SKI godkender andet, må den underskriftberettigede person ikke være den SKI-ansvarlige kontaktperson i virksomheden, da dette kan give habilitetsproblemer.
+Omkostninger
+Parternes egne omkostninger i forbindelse med SKI’s kontrolindsats bæres som hovedregel af hver af Parterne selv.
+Dette gælder dog ikke, hvis SKI finder det nødvendigt at gennemgå Leverandørens oplysninger med hjælp af en ekstern revisor eller konsulent, og hvis denne finder uregelmæssigheder i Leverandørens rapportering og/eller videreformidling af kundebetalingen. I dette tilfælde skal Leverandøren dække omkostningen til den eksterne revisor eller konsulent.
+Øvrig bistand
+Udover Leverandørens forpligtelser i henhold til punkt 1-7, er Leverandøren forpligtet til at bistå Kunden og/eller SKI med de nedenfor angivne ydelser.
+Leverandøren er ikke berettiget til noget vederlag, godtgørelse eller anden kompensation for Leverandørens bistand efter dette punkt.
+Kundernes indkøbsstatistik
+Leverandøren skal bistå SKI og Kunden med løbende at indsamle statistiske oplysninger om Kundens brug af Systemet. Det indebærer at Leverandøren skal sammenstille nedenstående data om alle Kundens indkøb hos Leverandøren gennem Systemet, og udlevere dem i en samlet indkøbsstatistik til SKI og Kunden.
+Kundens indkøbsstatistik skal udleveres årligt senest 30 Dage efter udløb af henholdsvis 1. år, 2. år, 3. år osv. regnet fra Systemets ikrafttræden, indtil Systemet ophører. SKI og Kunden kan derudover kræve at Leverandøren udleverer indkøbsstatistikken 1 gang om året. Hver gang indkøbsstatistikken udleveres, skal den omfatte de akkumulerede data om Kundens indkøb for hele den periode Systemet har været i kraft.
+Data om Kundernes indkøb omfatter alle de køb Kunderne bestiller ifølge en Leveringskontrakt under Systemet, og for hver enkelt bestilling skal følgende salgsoplysninger angives:
+Kundens navn og CVR-nummer
+Leveringsadresse
+EAN-lokationsnummer
+Kontokode (angives hvis oplyst i bestillingen)
+Bestillingens ordrenummer
+Bestillingsdato
+Bestillingsbeløb eksklusive moms
+[Produkternes // og/eller // Ydelsernes] navn(e)
+[Produkternes // og/eller // Ydelsernes] varenummer/-numre
+[Producentens varenummer/-numre for Produkter]
+UNSPSC-kode (niveau 4: vare)
+Antal (stk., kg, liter mv.)
+Enhedspriser eksklusive moms
+Leveringsdato (evt. tidsinterval)
+Fakturanummer
+Fakturadato (udstedelsesdato)
+Fakturatekst (angives hvis relevant)
+Totalbeløb eksklusive moms
+Kundernes indkøbsstatistik skal leveres i et struktureret format, der kan åbnes i Excel eller tilsvarende, fx som .csv-fil, så SKI kan sortere og filtrere oplysningerne.
+SKI kan kræve at Leverandøren fremsender uddybende og/eller supplerende oplysninger og dokumentation om Kundernes indkøbsstatistik (fordelt på hver enkelt Kunde), herunder om driften af Leveringskontrakten.
+Leverandøren skal deltage i møder med SKI om Kundernes indkøbsstatistik og i forbindelse med SKI’s interne markedsanalyser, hvis SKI måtte anmode herom.
+Bistand i forbindelse med genudbud og ophør
+Leverandøren er forpligtet til at bistå i relation til tilvejebringelse af det fornødne grundlag for gennemførelse af fornyet udbud af de produkter og ydelser, som Systemet omfatter.
+Dette indebærer, at Leverandøren skal levere udførlig leverandørstatistik, oplysninger og detaljeret dokumentation, som er nødvendig for, at der kan gennemføres et genudbud.
+Leverandørstatistikken skal leveres i en elektronisk CSV-fil, en Excel-fil eller tilsvarende. Oplysningerne skal leveres i et struktureret format, så oplysningerne kan sorteres og filtreres ud fra de specifikationer, der fremgår af Leverandørens fakturaer.
+Leverandøren skal derudover levere den samlede aggregerede leverandørstatistik for Leveringskontrakten. Derudover skal Leverandøren levere den samlede aggregerede leverandørstatistik for samtlige leveringskontrakter under Systemet.
+Den totale leverandørstatistik for hele Systemets varighed leveres i forbindelse med Systemets ophør. SKI kan kræve fremsendelse af statistikken med 1 måneds varsel.
+SKI kan kræve uddybende og/eller supplerende oplysninger og dokumentation vedrørende den af Leverandøren fremsendte leverandørstatistik.
+Uddybende og/eller supplerende oplysninger og dokumentation kan blandt andet vedrøre oversigt over aftagne produkter og ydelser, antallet af reklamationer og klager samt øvrige relaterede oplysninger.
+Uddybende og/eller supplerende oplysninger og dokumentation, som Leverandøren efter ovenstående skal levere til SKI, skal gøres tilgængelig i et Excel format eller lignende, både som aggregerede data i oversigtsform og i detaljeret form, medmindre SKI angiver andet.
+Fortrolighed
+Leverandøren, underleverandører og ansatte hos Leverandøren og underleverandører skal iagttage ubetinget tavshed med hensyn til oplysninger om SKI, Kunden eller andres forhold, der opnås kendskab til i forbindelse med opfyldelse af Leveringskontrakten.
+SKI og ansatte hos SKI skal iagttage ubetinget tavshed med hensyn til fortrolige oplysninger om Leverandørens forhold, der opnås kendskab til i forbindelse med opfyldelse af Leveringskontrakten.
+SKI har ret til at give Kunden enhver relevant information, der er nødvendig eller hensigtsmæssig til kontraktstyring af Leveringskontrakten.
+Leverandøren har ikke ret til at begrænse videregivelse, offentliggørelse eller anden deling af oplysninger om SKI eller Kundens forhold, herunder oplysninger om brug af Leveringskontrakten som Leverandøren medvirker til. SKI kan – fx ved anmodning om aktindsigt hos Kunden, EU-udbud eller samarbejde med myndigheder, videregive, offentliggøre eller dele bearbejdninger og sammenstillinger af en Kundens køb under Leveringskontrakten baseret på Leverandørens rapportering til SKI eller Kundernes indkøbsstatistik.
+Tavshedspligten efter dette punkt er også gældende efter Leveringskontraktens ophør, uanset ophørsgrunden.
+Ikrafttrædelse
+SKI, Leverandøren og Kunden er enige om og accepterer vilkårene i dette Bilag 3 til Leveringskontrakten.
+Trepartsaftalen er indgået mellem Leverandøren, SKI og Kunden ved Leverandørens og Kundens underskrift af Leveringskontrakten, hvor Kunden dermed også indgår dette Bilag 3 på vegne af SKI.

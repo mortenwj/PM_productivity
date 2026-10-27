@@ -1,0 +1,165 @@
+## sheet1.xml
+Formål med bilaget
+Dette bilag har til formål at sikre, at de tilbudte priser er tilbudt i henhold til Kundens valgte kriterier og med de ønskede priselementer. På denne måde sikres, at tilbudte priser kan prisevalueres indenfor de gældende rammer. 
+Bilaget kan anvendes til indkøb både i kategori 1 ”Pris” og kategori 2 ”Bedste forhold mellem pris og kvalitet”: 
+-	Ved indkøb i kategori 1 skal prismodellen alene vise, hvilket tilbud, der har den laveste Evalueringstekniske pris (samlet pris udregnet på basis af opsatte kriterier).
+-	Ved indkøb i kategori 2, skal prismodellen også vise den evalueringstekniske pris, som i dette tilfælde anvendes til at identificere, hvilket tilbud der har den laveste pris pr. kvalitetspoint. 
+Udregning af pris pr. kvalitetspoint kan med fordel ske ved at anvende SKI’s evalueringsværktøj.
+Da det forudsættes, at hver enkelt indkøb vil skulle bestå af meget forskelligartede priselementer, er bilaget udarbejdet med henblik på at skulle tilpasses de konkrete behov ved hver enkelt anskaffelse.
+
+Opbygning af bilaget:
+-	Fane ”1: Vejledning” (vejledning til kunden slettes fra miniudbudsmaterialet, vejledning til leverandøren tilpasses i relevant omfang)
+-	Fane ”2: Tilbudte priser” (tilpasses konkret anskaffelse og fremsendes sammen med øvrigt miniudbudsmateriale)
+-	Fane ”3: Eksempel” (til inspiration, anvendes ikke i miniudbudsmaterialet)
+
+Anvendelse af bilaget
+Det er væsentligt, at det endelige bilag, der inkluderes i udbudsmaterialet, er opbygget, så de indkomne tilbud kan evalueres som forudsat. Herunder skal følgende sikres:
+-	Det skal efter læsning af bilag 1 og prismodellen i nærværende bilag stå klart for tilbudsgiver, hvad der skal tilbydes og hvordan priserne skal anføres i tilbuddet.
+-	Modellen udregner den evalueringstekniske pris på tværs af relevante prisparametre (licenser til leje, licenser til eje, timer, ydelser mm).
+-	Det står klart, hvordan den evalueringstekniske pris udregnes (beregnet på estimeret forbrug eller en samlet fast tilbudssum)
+-	Eventuelle optioner skal indgå i tilbudsprisen og skal medregnes i den samlede pris / den evalueringstekniske pris. 
+-	Modellen omfatter alle relevante kolonner, som tilbudsgiver skal bruge for at afgive et korrekt tilbud (på pris) i forhold til, hvad der efterspørges i de øvrige bilag.
+-	Såfremt der ønskes inddraget skifteomkostninger, skal dette ske indenfor de almindelige udbudsretlige rammer og det skal klart fremgå i tilbudsarket, hvordan skifteomkostninger inddrages.
+
+Det anbefales, at Kunden ved tilpasninger af arket i fane 2 følger den systematik, som nu er anvendt og som fremgår i nedenstående udkast til Vejledning til tilbudsgiver:
+Overskrifter
+Underoverskrifter
+Kundens oplysninger vedr. tilbudte varelinjer
+Udfyldes af tilbudsgiver
+Herunder er det væsentligt nedenfor i forklaringen til tilbudsgiver, at gøre rede for udfyldelse af de enkelte kolonner og forklare, hvad kolonner med ”kommentarer” må bruges til (herunder at feltet ikke kan indgå i Kundens evaluering).
+
+Det er hensigtsmæssigt at låse arket, så kun de felter tilbudsgiver skal udfylde (de gule), er tilgængelige for tilbudsgiverne.
+Nedenstående vejledning til tilbudsgiver tilrettes i relevant omfang af kunden i forhold til den konkrete anskaffelse og konkrete prismodel.
+Vejledning til tilbudsgiver
+Anvendte farvekoder:
+
+De gule felter udfyldes af Leverandøren.
+Der gøres opmærksom på, at alle priser skal tilbydes i DKK og at priserne jf. bilag 7 Trepartsaftale, skal omfatte ”kundebetaling” på 1%.
+Overskrifter
+Underoverskrifter
+Kundens oplysninger vedr. tilbudte varelinjer
+Udfyldes af tilbudsgiver
+De gule felter udfyldes af tilbudsgiver.
+
+Der gøres opmærksom på, at alle priser skal tilbydes, ekskl. moms, i DKK og at priserne jf. bilag 7 Trepartsaftale, skal omfatte ”kundebetaling” på 1%.
+## sheet2.xml
+Leverandørens priser	Virksomhedsnavn:
+1. Tidsubegrænsede licenser/eje
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 1	Yderligere information	Antal licenser	SKU-nummer	Betegnelse	Pris pr. licens ekskl. moms DKK	Evt. kommentar	Pris i alt for licenser ekskl. moms ("Antal licenser" * "Pris pr. licens") DKK
+0
+0
+0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris:	0
+2. Tidsbegrænsede licenser/abonnement/leje
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 1	Yderligere information	Antal licenser	Antal måneder	SKU-nummer	Betegnelse	Pris pr. licens pr. måned ekskl. moms DKK	Evt. kommentar	Pris pr. licens pr. år ("Pris pr licens pr. måned" * 12) DKK	Pris i alt for licenser i perioden ekskl. moms  ("Antal licenser" * "Antal måneder" * "Pris pr. licens pr. måned") DKK
+Standardsoftwaren inkl. support og vedligehold	Standardlicens er nærmere beskrevet på Bilag 1, 2.1.1	383	72	0	0
+App til mobiltelefoner	Kunden skal bruge 150 licenser til mobiltelefon	150	72	0	0
+App til tablet	Kunden skal bruge 10 licenser til tablets	10	72	0	0
+0	0
+0	0
+0	0
+0	0
+Beløb, som indgår i den evalueringstekniske pris:	0
+3. Ydelser (specificeret)
+Beskrivelse af ydelsen	Yderligere information	Estimeret antal ydelser i aftaleperioden	Pris pr. ydelse ekskl. moms DKK	Evt. kommentar	Pris pr. ydelse ekskl. moms DKK
+Aflevering til Rigsarkivet	Ydelsen omfatter Leverandørens tekniske bistand til Kunden ifm. Leverandørens Aflevering til Rigsarkivet.
+Andre former for bistand til aflevering afregnes efter medgået tid jf. timeprisen angivet i nærværende bilag.	2	0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris:	0
+4. Ydelser (uspecificeret)
+Beskrivelse af ydelsen	Yderligere information	Antal timer	Pris pr. time ekskl. moms DKK	Evt. kommentar	Samlet pris pr. ydelse ekskl. moms ("Antal timer" * "Pris pr. time") DKK
+Timepris vedr. ydelsesområde 4, jf. Bilag 1	Undervisning	300	0
+Timepris vedr. ydelsesområde 5, jf. Bilag 1	Rådgivning	1000	0
+Timepris vedr. ophørsydelser, jf. Bilag 10	400	0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris:	0
+5. Leverandørens indledende ydelser - Engangsvederlag
+Beskrivelse af ydelsen	Yderligere information	Pris pr. ydelse ekskl. moms DKK	Evt. kommentar	Pris pr. ydelse ekskl. moms DKK
+Vederlag for gennemførelse af den indledende dialog m. Kunden	0
+Vederlag for evt. anskaffelse af Kundespecifikt programmel	jf. pkt. 3.1.1	0
+Vederlag for installation og implementering af Standardaofsware og Kundespecifikt programmel	0
+Vederlag for konfiguration, tilpasning og test af Standardsoftware og Kundespecifikt programmel	0
+Vederlag for migrering af data fra Kundens eksisterende system til systemet omfattet af leverancen	0
+Vederlag for udarbejdelse for dokumentation	0
+Vederlag for uddannelse af superbrugere	0
+Vederlag for uddannelse af kundens brugere	0
+Beløb, som indgår i den evalueringstekniske pris:	0
+6. Kundens variable skifteomkostninger
+Beskrivelse af ydelsen	Yderligere information	Kundens omkostning pr. time ekskl. Moms DKK	Estimeret antal timer	Evt. kommentar	Samlet omkostning pr. ydelse ekskl. moms (Omkostning pr. Time*Estimeret antal timer) DKK
+Kundens deltagelse i den indledende dialog	Interne omkostninger relateret til Kundens deltagelse	493	25	12325
+Kundens deltagelse i installation og implementering af Standardsoftware og Kundespecifikt programmel	Interne omkostninger relateret til Kundens deltagelse	493	70	34510
+Kundens deltagelse i konfiguration, tilpasning og test af Standardsoftware og Kundespecifikt programmel	Interne omkostninger relateret til Kundens deltagelse	493	100	49300
+Kundens deltagelse i migrering af data fra Kundens Eksisterende System til systemet omfattet af Leverancen	Interne omkostninger relateret til Kundens deltagelse	493	30	14790
+Kundens deltagelse i udarbejdelse af dokumentation	Interne omkostninger relateret til Kundens deltagelse	493	0	0
+Kundens deltagelse i uddannelse	Interne omkostninger relateret til Kundens deltagelse	493	430	211990
+Beløb, som indgår i den evalueringstekniske pris:	322915
+7. Kundens faste skifteomkostninger
+Beskrivelse af ydelsen	Yderligere information	Estimeret omkostning for Kunden ekskl. moms DKK	Relevant?	Samlet omkostning pr. ydelse ekskl. moms DKK (afhængig af relevans)
+Kundens omkostninger til ekstraordinær aflevering til Rigsarkivet	Ekstraordinær aflevering til Rigsarkivet ifm. skift af ESDH-system	500000	Ja	500000
+Kundens øvrige omstillingsomkostninger	Ydelsen indeholder omkostninger til Statens It samt kodeændring i kundespecifik programel	1000000	Ja	1000000
+Beløb, som indgår i den evalueringstekniske pris:	1500000
+8. Optioner
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 1	Yderligere information	Antal licenser	Antal måneder	SKU-nummer	Betegnelse	Pris pr. licens pr. måned ekskl. moms DKK	Evt. kommentar	Pris pr. licens pr. år ("Pris pr licens pr. måned" * 12) DKK	Pris i alt for licenser i perioden ekskl. moms  ("Antal licenser" * "Antal måneder" * "Pris pr. licens pr. måned") DKK
+Forlængelse af Kontraktens varighed med et (1) år	383	12	0	0
+Forlængelse af Kontraktens varighed med yderligere et (1) år	383	12	0	0
+App til mobiltelefoner v. brug af forlængelsesoption (1 år)	Kunden skal bruge 150 licenser til mobiltelefon	150	12	0	0
+App til tablet v. brug af forlængelsesoption (1 år)	Kunden skal bruge 10 licenser til tablets	10	12	0	0
+App til mobiltelefoner v. forlængelse med yderligere et (1) år	Kunden skal bruge 150 licenser til mobiltelefon	150	12	0	0
+App til tablet v. forlængelse med yderligere et (1) år	Kunden skal bruge 10 licenser til tablets	10	12	0
+Beløb, som indgår i den evalueringstekniske pris:	0
+8. Samlet evalueringsteknisk pris	Heraf udgør Kundebetaling (1%) (samlet evalueringsteknisk pris * 0,01)
+Beløb, som udgør den samlede evalueringstekniske pris og dermed danner grundlaget for kundens evaluering af pris:	0	0
+## sheet3.xml
+Leverandørens priser	EKSEMPEL - UDFYLDT AF KUNDEN (GRØNNE FELTER) OG EFTERFØLGENDE AF LEVERANDØREN (GULE FELTER)
+1. Tidsubegrænsede licenser/eje
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 1	Yderligere information	Antal licenser	SKU-nummer	Betegnelse	Pris pr. licens ex. moms DKK	Evt. kommentar	Pris i alt for licenser ex. moms ("Antal licenser" * "Pris pr. licens") DKK
+Overvågningssoftware	Se bilag 1 punkt 2.1.2	60	321654-DEF	Delta softwarepakke 1	15000	900000
+0
+0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris	900000
+2. Tidsbegrænsede licenser/abonnement/leje
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 1	Yderligere information	Antal licenser	Antal måneder	SKU-nummer	Betegnelse	Pris pr. licens pr. måned ex. moms DKK	Evt. kommentar	Pris pr. licens pr. år ("Pris pr licens pr. måned" * 12) DKK	Pris i alt for licenser i perioden ex. moms ("Antal licenser" * "Antal måneder" * "Pris pr. licens pr. måned måned") DKK
+Overvågningssoftware	Se bilag 1 punkt 2.1.2	15	36	123789-ABC	Ajax cloud softwarepakke 1	500	6000	270000
+0	0
+0	0
+0	0
+0	0
+0	0
+0	0
+Beløb, som indgår i den evalueringstekniske pris	270000
+3. Ydelser (specificeret)
+Beskrivelse af ydelsen, jf. bilag 1	Antal timer	Pris pr. time ex. moms DKK	Evt. kommentar	Samlet pris pr. ydelse ex. moms ("Antal timer" * "Pris pr. time") DKK
+Uddannelse af superbrugere	30	1100	33000
+0
+0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris	33000
+4. Ydelser (uspecificeret)
+Beskrivelse af ydelsen	Pris pr. ydelse ex. moms DKK	Evt. kommentar	Pris pr. ydelse ex. moms DKK
+Implementering	120000	120000
+0
+0
+0
+0
+0
+0
+Beløb, som indgår i den evalueringstekniske pris	120000
+5. Samlet evalueringsteknisk pris	Heraf udgør Kundebetaling (1%)
+Beløb, som udgør den samlede evalueringstekniske pris og dermed danner grundlaget for kundens evaluering af pris:	1323000	13230

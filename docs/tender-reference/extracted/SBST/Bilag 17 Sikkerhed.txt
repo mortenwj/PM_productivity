@@ -1,0 +1,34 @@
+Indledning
+Dette bilag fastsætter de krav til informationssikkerhed, som Leverandøren skal efterleve i forbindelse med Leverancen. Kravene i sikkerhedsbilaget er baseret på anerkendte internationale standarder som ISO 27001, CIS18, NIST Cyber Security Framework (CSF) og ISF Standard of Good Practice for Information Security (SOGP).
+Leverandøren skal efterleve relevant lovgivning på cyber- og informationssikkerhedsområdet, herunder men ikke begrænset til Databeskyttelsesloven og NIS 2-loven.
+For leverandører, der ikke selvstændigt er omfattet af NIS 2, er det en forudsætning for opfyldelse af dette sikkerhedsbilag, at de efterlever kravene i NIS 2-lovens §§ 6, stk. 1, 7, 13 og 14, stk. 1. Desuden skal Leverandøren efterleve principperne om sikker softwareudvikling m.v. i forordningen om cyberrobusthed (CRA) samt relevante krav i forordningen om kunstig intelligens (AIA) indeholdt i sikkerhedsbilaget.
+For så vidt angår NIS 2 kan Leverandøren orientere sig i Styrelsen for Samfundssikkerheds vejledninger om NIS 2.
+Kravene i dette bilag stilles med henblik på at nedbringe informationssikkerhedsrisici forbundet med Leverancen til et acceptabelt niveau for Kunden.
+Leverancens risikoprofil
+Kravene i grundpakken og eventuelle tillægspakker er niveauinddelt efter Leverancens risikoprofil.
+Det valgte risikoniveau, jf. nedenfor, angiver hvilke krav Leverandøren skal efterleve.
+Ved risikoniveau 1 gælder krav markeret med niveau 1 (grøn).
+Ved risikoniveau 2 gælder krav markeret med niveau 1 og 2 (grøn og gul).
+Ved risikoniveau 3 gælder krav markeret med niveau 1, 2 og 3 (grøn, gul og rød).
+Kravene er dermed kumulative, således at krav på højere niveauer supplerer kravene på lavere niveauer.
+For denne specifikke leverance gælder risikoniveau 3 – høj.
+De tre risikoniveauer defineres, som følger:
+Licensleverandørpakke
+Grundpakke
+Tillægspakke A – Softwaresikkerhed og tests
+Tillægspakke B – Kunstig Intelligens (AI)
+Tillægspakke C – Sårbarhedsstyring
+Tillægspakke D – Logning og overvågning
+Tillægspakke E – Netværkssikkerhed
+Tillægspakke F – Malwarebeskyttelse
+Tillægspakke G – Krisestyring
+Tillægspakke H – Cybersikkerhedsøvelser og tests
+Tillægspakke I – Intern revision
+Tillægspakke J – Sikkerhedsorganisation
+Tillægspakke K – Styring af aktiver
+Leverandøropfølgning
+Afsnittet definerer mulige opfølgningsmetoder for Leverandørens efterlevelse af informationssikkerhedskravene samt Kundens valg heraf.
+Opfølgningsmetoder
+Baseret på Kundens risikovurdering (lav/middel/høj) kan Kunden vælge en eller flere opfølgningsmetode(r) blandt nedenstående.
+Valgt opfølgningsmetode
+Til denne specifikke leverance har Kunden valgt Niveau 3, revisionserklæringer som opfølgningsmetode. Opfølgningen initieres af Kunden og finder sted med årlig frekvens.

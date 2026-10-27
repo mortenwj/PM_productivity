@@ -1,0 +1,89 @@
+KUTSU KILPAILULLISEEN NEUVOTTELUMENETTELYYN
+Asianhallintajärjestelmäkokonaisuuden hankintaa koskevassa kilpailutuksessa on osallistumishakemusten perusteella valittu seuraavat yritykset neuvotteluvaiheeseen:
+• Fujitsu Finland Oy
+• Innofactor Dynasty Oy
+• Tietoevry Finland Oy
+Twoday Oy
+Osallistumisvaiheen ratkaisusta on tehty erillinen päätös. Päätös on toimitettu 20.3.2026 tiedoksi osallistumishakemuksen jättäneille yrityksille.
+Neuvotteluiden kulku
+Hankinta toteutetaan julkisista hankinnoista ja käyttöoikeussopimuksista annetun lain (1397/2016) 36 §:n mukaisena kilpailullisena neuvottelumenettelynä. Neuvotteluvaihe aloitetaan tällä neuvottelukutsulla.
+Ehdokkaan tai ryhmittymän jäsenen on osallistumishakemusvaiheessa tullut toimittaa hankintayksikölle asianmukaisesti täytettynä neuvotteluvaihetta koskeva turvallisuussopimus sekä turvallisuussopimuksen liite (Vaitiolositoumus) kaikkien niiden henkilöiden allekirjoittamana, joiden on tarkoitus käsitellä hankintaan liittyviä materiaaleja. Ehdokkaan tulee lisäksi noudattaa turvallisuussopimuksen liitteen (Ohje salassa pidettävien tietojen ja tietoaineistojen käsittelystä) ehtoja.
+Ehdokkaan tai ryhmittymän jäsenen on osallistumishakemusvaiheessa tullut toimittaa hankintailmoituksen liitteenä ollut salassapitosopimus allekirjoitettuna sekä henkilökohtaiset vaitiolositoumukset jokaisen sellaisen henkilön osalta, joka tulee käsittelemään asianhallintakokonaisuuden hankintaan liittyviä tietoja ja/tai osallistumaan neuvotteluvaiheeseen. Myöhemmässä vaiheessa mahdollisesti lisättävien henkilöiden tulee palauttaa allekirjoitetut henkilökohtaiset vaitiolositoumukset hankintayksikölle erikseen ennen sovittuja neuvotteluita tai toimitetun aineiston käsittelyä.
+Tarjoajia pyydetään nimeämään neuvotteluja varten yksi vastuuhenkilö, joka osallis-tuu kaikkiin tarjoajan neuvottelutapaamisiin. Eri kierroksille / tapaamisiin voi lisäksi osallistua muita henkilöitä, jotka voivat tarvittaessa vaihtua käsiteltävän aiheen mukaan. Tarjoajan puolelta yhdelle neuvottelukierrokselle voi osallistua maksimissaan 10 henkilöä.
+Neuvottelut käydään alustavasti kahtena neuvottelukierroksena. Neuvottelujen tavoitteena on tarkentaa tarjouspyyntöä, määrittää lopulliset hinta- ja laatukriteerit sekä täsmentää vertailuperusteita.
+Jokaisen ehdokkaan kanssa erilliset neuvottelut käydään 20.4, 21.4, 24.4 ja 27.4 (ensimmäinen neuvottelukierros) sekä 4.5, 5.5, 6.5 ja 7.5 (toinen neuvottelukierros). Neuvottelut pidetään klo 9:00 – 15:30 Helsingissä, Hansel Oy:n tiloissa osoitteessa Mannerheiminaukio 1 A, 5 krs. (ruokatauko klo 12:00 – 13:00). Ensimmäinen neuvottelukierros pidetään ainoastaan paikan päällä edellä ilmoitetussa osoitteessa. Toiselle neuvottelukierrokselle on mahdollista osallistua myös Teams-yhteyden välityksellä. Luokiteltujen aineistojen käsittely ei kuitenkaan ole mahdollista tavallista verkkoyhteyttä hyödyntäen.
+Hankintayksikkö varaa oikeuden neuvotteluiden nauhoittamiseen sekä automaattiseen litterointiin. Syntyvä tallenne ja litterointi ovat ainoastaan neuvotteluihin osallistuvan hankehenkilöstön käytettävissä ja niiden sisältö pidetään luottamuksellisena. Ainoastaan litteroinnista tuotettu suppeampi muistio on mahdollista jakaa hankintayksikössä laajemmalle henkilöstölle, joka kilpailutukseen osallistuu.
+Neuvottelut käydään suomeksi. Hansel Oy toimii kilpailutuksessa konsultatiivisessa roolissa. Hanselin edustaja sopii tarkemmista neuvotteluajankohdista heti neuvottelukutsun lähettämisen jälkeen.
+Neuvottelujen pohjana ovat osallistumishakemuspyynnössä esitetty Hankinnan kohteen kuvaus -dokumentti sekä hankintayksikön neuvotteluvaiheeseen valituille tarjoajille erikseen toimittama aineisto.
+Neuvottelut käydään luottamuksellisesti siten, että hankintayksikkö ei paljasta neuvottelujen aikana tai niiden jälkeen tarjoajan liike- tai ammattisalaisuuksia muille tarjoajille. Neuvottelut käydään suomeksi.
+Hankintayksikkö tulee käyttämään neuvotteluissa saatuja kannanottoja, tietoja ja vaihtoehtoisia ratkaisumalleja lopullisen tarjouspyynnön tekemisen pohjana.
+Neuvottelujen aikana ei karsita osallistujia.
+Neuvottelukierroksen päättymisen jälkeen tarjoajille lähetetään lopullinen tarjouspyyntö, johon tarjoajia pyydetään jättämään lopulliset tarjouksensa. Lopullisten tarjousten perusteella tehdään vertailu ja hankintapäätös, josta tiedotetaan kaikille lopullisen tarjouksen jättäneille yrityksille.
+Neuvotteluista ja niiden valmistelusta ei makseta osallistujille korvausta.
+Alustavat tarjoukset
+Neuvottelujen pohjana on kunkin tarjoajan alustava, kirjallinen ratkaisuehdotus ja alustava tarjous vaatimusten mukaisen asianhallintajärjestelmäkokonaisuuden toteuttamiseksi. Osana neuvotteluita tarjoajan tulee toimittaa alustava tarjouksensa Cloudia järjestelmän kautta annettuun määräaikaan (10.4.2026 klo 18:00) mennessä. Hankintayksikkö toimittaa linkin ko. järjestelmään / alustavaan tarjouspyyntöön neuvottelukutsun lähettämisen jälkeen.
+Alustavan tarjouksen tulee sisältää vähintään seuraavat dokumentit:
+Tarjoajan alustava ratkaisuehdotus
+Vaatimusmäärittely -dokumentti täytettynä ja kommentoituna
+Alustava toimitus- ja käyttöönottosuunnitelma
+Kommentit toimitettuihin sopimusluonnoksiin
+Tarjotun ratkaisun alustava (ei sitova) hinnoittelu (ts. ennalta toimitettu hintalomake täytettynä)
+Tarjoajan muut mahdolliset, kirjalliset huomiot toimitettuun aineistoon ja hankintaan liittyen
+Osana alustavaa tarjousta toimitettavien dokumenttien sisältöä on kuvattu tarkemmin kohdassa 4 (neuvottelukierrosten sisältö ja aikataulu). Alustavassa ratkaisuehdotuksessa ja pyydetyissä selvityksissä tarjoaja voi kuvata myös muita kuin tämän neuvottelukutsun agendalla listattuja asioista.
+Vertailuperusteet lopullisessa tarjouspyynnössä
+Hankintayksikkö tulee valitsemaan kokonaistaloudellisesti edullisimman (hinta-laatu-suhteeltaan parhaan) tarjoajan lopullisten tarjousten perusteella noudattaen seuraavia vertailuperusteita:
+HINTA, painoarvo 40 - 60 %
+LAATU, painoarvo 40 - 60%
+Lopullisen tarjouspyynnön laadulliset vertailuperusteet tulevat liittymään:
+1. Asiantuntijoiden osaamiseen ja kokemukseen
+2. Ratkaisun toiminnallisuuteen, toimintaan ja käytettävyyteen
+3. Tarjoajan ehdotukseen ratkaisun toteutusmallista, toimituksen suunnittelu, toteutus ja organisointi
+Lopulliset hinta- ja laatukriteerit tarkentuvat tulevien neuvotteluiden pohjalta. Hankintayksikkö täsmentää hinnan ja laadun tarkemmat vertailuperusteet lopulliseen tarjouspyyntöön.
+Neuvottelukierrosten sisältö ja aikataulu
+Neuvottelut toteutetaan kolmena neuvottelukierroksena (hankintayksikkö pidättää itsellään oikeuden lisätä neuvottelukierroksia).
+Tarjoajia pyydetään valmistautumaan jokaiseen neuvottelukierrokseen huolellisesti. Neuvottelujen etenemisen kannalta on tärkeää, että tarjoajat ovat selvittäneet hankintayksikön tuottaman materiaalin perusteella kantansa neuvoteltaviin kysymyksiin jo etukäteen. Toisella neuvottelukierroksella kysymykset ja käsiteltävät teemat voivat täsmentyä aiemman neuvottelukierroksen johdosta.
+Neuvottelujen aikataulu on seuraava:
+NEUVOTTELUKIERROS 1
+- pääteema: tarjoajan ratkaisuehdotus, demo, tarjoaja toimitus- ja käyttöönottosuunnitelma
+Aloitus
+Tarjoajan ja neuvotteluihin osallistuvien henkilöiden lyhyt esittäytyminen
+Lyhyesti neuvottelumenettelyn kulusta
+Tilaajan alustus kilpailutuksen kohteena olevasta järjestelmästä
+Tarjoajan alustava ratkaisuehdotus (tarjoaja)
+Hyödynnettävät teknologiat ja valmisohjelmistot
+Järjestelmäarkkitehtuuri
+Toteutusmallit, kehitys- ja tuotantoympäristöt
+Ketterän kehityksen malli
+Lisensointimalli ja tarvittavat lisenssit
+Tarjotun järjestelmän integraatiokyvykkyys
+Käyttöliittymän esittely ja mahdollinen demo
+Alustava toimitus- ja käyttöönottosuunnitelma (tarjoaja)
+Toteutuksen ja käyttöönottojen vaiheistus (annettu aikataulu huomioiden)
+Resurssointi ja roolitus, tarjoajan osaaminen ja kyvykkyydet
+Laadun hallinta ja testauksen toteuttaminen
+Hyödynnettävä projektimalli
+Tunnistetut riskit ja riskien hallinta
+Yleistä keskustelua, jatkosta sopiminen yms. (n. 30 min), tilaisuuden päättäminen viimeistään klo 15:30
+NEUVOTTELUKIERROS 2
+- pääteema: vaatimusten läpikäynti, sopimukset, hinnoittelu, laatukriteerit, tietoturva ja jatkuvuus
+Vaatimusmäärittely -dokumentin läpikäynti (tarjoaja)
+Tarjoajan tulee erityisesti nostaa esille vaatimukset, joita se ei ymmärrä tai joita se ei pysty täyttämään (perustelut)
+Mahdolliset hintaa erityisesti nostavat vaatimukset
+Tietoturvaan ja jatkuvuuteen liittyvät vaatimukset ja ehdot
+Kommentit toimitettuun sopimusluonnokseen (tarjoaja)
+Sopimusehdot: pääsopimus, turvallisuussopimus, toimitusprojektisopimus, ketterän kehityksen malli
+Palvelutasoehdot
+Henkilötietojen käsittelyehdot
+Alustava (ei sitova) hinnoittelu ja täytetty hintalomake (tarjoaja)
+Huomioita esitetystä hinnoittelumallista
+Alustavat hinnat
+Tarjouskilpailun laatukriteerit (tarjoaja) (n. 30 min)
+Tilaajan alustus kilpailutuksen laatukriteereistä
+Keskustelua aiheesta
+Yleistä keskustelua, jatkosta sopiminen yms. (n. 30 min), tilaisuuden päättäminen viimeistään klo 15:30
+NEUVOTTELUKIERROS 3
+- järjestetään tarvittaessa (voidaan järjestää myös kirjallisena)
+ALLEKIRJOITUKSET
+Helsinki 20.3.2026
+Alivaltiosihteeri Timo Lankinen
+Toimialajohtaja Max Hamberg

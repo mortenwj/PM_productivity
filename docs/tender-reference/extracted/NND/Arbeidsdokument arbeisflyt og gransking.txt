@@ -1,0 +1,337 @@
+Bilag 1:
+Organisatoriske behov: Det er et mål for Kunden at Skytjenesten skal være tilstrekkelig brukervennlig for å være brukernes foretrukne valg for dokumentproduksjon. Skytjenesten får også en sentral rolle i å tilrettelegge for digital saksbehandling i form av gransking og godkjenning av utkast til formelle dokumenter slik som bygningstegninger, prosjektsøknader og rapporter, herunder også behandling av sakene i ulike utvalg. Videre er det i Kundens virksomhet behov for å ivareta samspillet mellom samhandling i team/prosjekter og formell saksbehandling, med nødvendig dokumentintegritet og etterrettelighet, på en god måte. Kunden har ansvar for å gjennomføre både komplekse utredninger og oppgaver relatert til anleggsdrift som begge medfører strenge krav til omfattende dokumentasjon med høy kvalitet og god struktur. Vanlig saksgang er utkast (samskriving) – sidemannskontroll – gransking – godkjenning av leder – gransking av eksterne eksperter – behandling i formelle møteforum - endelig godkjenning. Godkjente dokumenter benyttes som dokumentasjon i nye sammenhenger. Visse typer av dokumenter revideres jevnlig. Kontroll på hvilken versjon av et dokument som er det aktive, gjeldende dokumentet og hvilke versjoner som er utgått eller under arbeid, men ikke godkjente, er avgjørende. I arbeid med utredninger og prosjekter har Kunden omfattende samhandling med eksterne konsulenter og entreprenører. Det er følgelig behov for støtte for dokumentdeling, også av dokumenter med sensitivt innhold og som derfor ikke kan spres ukontrollert, med parter som ikke har påloggingsrettigheter til Skytjenesten. Kunden har i tillegg dokumentasjon knyttet til standard statlige egenforvaltningsoppgaver slik som HR, økonomi, virksomhetsstyring, innsynsbegjæringer m.v.
+Notater:
+Generell flyt for saksbehandling
+Egen flyt for «Levende dokumenter» revisjonsdokumenter som må lenkes, mest sannsynlig via filreferanse til pågående saksbehandling
+For begge disse godkjenning, granskning og høringsflyter. Gransking har mange krav knyttet til seg, flere av disse ikke 100% dekning for.
+Samhandling:  være ideelt med Sharepoint samhandlingsrom siden de benytter sharepoint i dag, men en del krav peker i en annen retning ,bl.a. at de vil ha Min side funksjonalitet med funksjoner som hindrer spredning av filer, kanskje også mulighet for å gi feedback.
+Kunden ser for seg systemstøtte som sømløst og brukervennlig kan ivareta dokumenters integritet og sporbarhet fra dokumentet er opprettet, gjennom saksbehandlingsoppgaver som gransking, godkjenning og utvalgsbehandling til journalføring, internkontroll og forvaltning samt langtidsarkivering.
+1.33 – B (SaaS, Lokal):
+For hver bruker bør det være mulig å angi en annen bruker som "stedfortreder". Stedfortrederen overtar brukerens aktiviteter i Skytjenesten dersom brukeren er satt til inaktiv. Hensikten er å sikre kontinuitet i prosesser som gransking og godkjenning dersom en bruker er fraværende over lenger tid feks på grunn av permisjon, ferie eller sykemelding.
+Beskriv funksjonalitet i Skytjenesten for å sikre kontinuitet i dokumentprosesser når enkelte brukere er midlertidig fraværende.
+1.37 – B (SaaS):
+Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol.
+Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)
+Behov kan være:
+- Ekstern part trenger tilgang til ett eller fler dokumenter midlertidig for å utføre et oppdrag på vegne av Kunden, eksempelvis tilgang til områdekart eller annen anleggsdokumentasjon.
+- Ekstern part skal granske og kommentere et dokument på oppdrag fra Kunden.
+- Ekstern part skal produsere et dokument i samarbeid med Kundens ansatte.
+- Ekstern part er medlem i et av Kundens utvalg, feks Sikkerhetskommitéen og behøver tilgang til møtedokumenter.
+Beskriv om Skytjenesten har mulighet for sikker deling av dokumenter med eksterne parter.
+Beskrivelsen bør inkludere:
+- Hvordan tilgangsstyring ivaretas
+- Hvordan logging av hvilke brukere som har åpnet/endre et dokument ivaretas.
+- Hvordan versjonskontroll for dokumentet som redigeres ivaretas.
+Kommentar:
+En mulig løsning kan være en tilpasset versjon av FileViewer med støtte for "Public Link"-funksjonalitet. Dagens Public Link-løsning er imidlertid basert på PDF-format og gir begrenset kontroll, noe som kan være uegnet for graderte eller sensitive dokumenter.
+Alternativer som SharePoint samarbeidsrom vurderes, men det må undersøkes om løsningen kan støtte sikker ekstern tilgang uten ordinær pålogging.
+Det bør vurderes om løsningen kan integreres med sikkerhetsløsninger som RDF eller andre portalløsninger med "Min side"-funksjonalitet.
+Viktige kontrollmekanismer inkluderer:
+Begrensning av nedlasting og videresending.
+Automatisk utløp av tilgang (timeout).
+Logging av tilgang og interaksjon.
+Mulighet for tilbakemelding uten redigering.
+Spørs om vi skal tolke 1.73 (Det bør være mulig for Kunden å merke pdf-dokumenter utarbeidet av eksterne fageksperter på tilsvarende måte som "header-tabellen" ) i kontekst av krav 1.37 eller generelt for alt innkommende.
+1.46 – B (SaaS, Lokal):
+Brukere som får dokumenter tilsendt på granskning, høring, signering bør få lesetilgang til dokumentet inkl. vedlegg og refererte dokumenter uten at saksbehandler (eller andre) skal måtte tildele tilgang manuelt. Mottager bør ikke ha mulighet til å dele dokumentene videre i den tiden hen har tilgang.
+Beskriv hvordan mottagere i en arbeidsflyt får lesetilgang til et dokument de er bedt om å behandle samt om tilgangen også dekker dokumenter på referanselisten.
+Beskriv også om tilgangen opphører når mottager har utført sin oppgave samt hvilke muligheter mottager har til å dele dokumentet videre i den tiden hen har tilgang.
+Kommentarer:
+Mulig vi kan tolke dette til å kun gjelde interne, siden andre krav spesifikt går på eksterne ref. 1.37 (Sikker deling til eksterne; Gransking, produsere dokument på vegne av, medlem av utvalg), 1.98 (sette eksterne personer som mottager i en dokumentflyt).
+1.67 – A (SaaS, Lokal):
+Metadataverdier av typen "gransket av", "godkjent av" og "signert av" skal settes automatisk av systemet koblet til at aktiviteten blir utført i en dokumentflyt og være loggført i Skytjensten. Metadataverdiene skal ikke kunne redigeres manuelt.
+Kommentarer:
+Bryter helt nåværende foreslåtte løsning, som hadde som hensikt å imøtekomme kravet om eksterne brukere, kun benytte ett felt for «Gransker» - dro på erfaring/løsning i Forsvaret. Se prosess skisse nedenfor.
+Mulig at aspektet rundt at man ikke skal kunne redigere dem kan utgå, kan jo hende at det er en akseptabel risiko hvis vi kan låse ned i rettighetsmatrise for redigering nok til at kun ansvarlig har tilgang
+Relatert problemstilling: For levende dokumenter, revisjonsdokumenter, fungerer rettighetsmatrisen litt annerledes, dvs. revisjonen låses men ikke dokumentkortet – så risiko for at metadata ikke låses slik vi tenker i prosesskissen. Men kan argumentere for at vi redigerer rettighetsmatrisen slik at kun «revisjonsansvarlig» har edit på dokument og dermed metadataen.
+Prosesskisse for granskning
+A. Intern granskning
+Dokument opprettes og sendes på arbeidsflyt for gjennomgang til interne granskere.
+Granskere utfører oppgaven i systemet, kommenterer og godkjenner.
+Når granskning er fullført, legges alle relevante personer inn som dokumentkontakter med rollen "Gransker".
+Manuell prosess – enten som separat metadata felt på dokument, eller dokument kontakt rolle.
+Bryter med A-krav 1.67
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+B. Ekstern granskning (og høring – basert på «standard prosess»
+Dokument ferdigstilles internt og sendes ut til ekstern gransker (via brev, SharePoint, Teams, e-post).
+Ekstern gransker gir tilbakemelding (f.eks. via e-post, portal, Teams).
+Når ekstern granskning er mottatt og vurdert, legges ekstern gransker inn som dokumentkontakt med rollen "Gransker".
+Manuell prosess – enten som separat metadata felt på dokument, eller dokument kontakt rolle.
+Bryter med A-krav 1.67
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+1.71 – B (SaaS, Lokal):
+Det bør være mulig å flette metadata fra registreringen eller dokumentbeskrivelsen inn i en "header-tabell" i dokumentobjektet.
+Eksempel på slike metadata er:
+- Versjon, feks versjon 3 av 5
+- hvem som har utarbeidet dokumentet
+- hvem som har gransket dokumentet
+- hvem som har godkjent dokumentet
+- om dokumentet har vært oppe til et formelt møte eksempelvis sikkerhetskomitéen
+- "gyldighetsperiode fra -til"
+- merking iht. sikkerhetsloven.
+NB! Med "header-tabell" menes ikke det samme som topp og bunntekst. Se Bilag 1 Vedlegg 3.
+Beskriv hvilke muligheter som finnes i Skytjenesten for å flette metadata fra dokumentbeskrivelsen inn i tabell i dokumentet.
+1.72 – B (SaaS, Lokal)
+Det bør ikke være mulig å endre metadataverdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet. Det er viktig at disse opplysningene er pålitelige og ikke kan manipuleres.
+Beskriv om det er mulig å sperre feltene i en "header tabell" slik at brukere med rettigheter til å redigere ikke kan endre verdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet.
+Kommentar:
+Halvveis mulig med Content Controls i word, da disse kan låses for redigering, men kan også åpnes av hvilken som helst bruker så lenge de enabler «Utvikler» fanen i Word.. Spørsmålet er om det er så farlig, siden det kan hende at det er akseptabelt – noe risk må man belaglegge seg på, og med rettighetsmatrisen kan man låse ned nok til at det er akseptabelt. De skriver bl.a. selv at de ikke kan kontrollere om en bruker f.eks. tar bilde av skjerm i kontekst av deling til eksterne og krav om at de ikke skal kunne laste ned.
+1.73 – B (SaaS, Lokal):
+Det bør være mulig for Kunden å merke pdf-dokumenter utarbeidet av eksterne fageksperter på tilsvarende måte som "header-tabellen" beskrevet over, slik at dokumentene påføres metadataverdier som er nødvendige for dokumentets gyldighet og bruksverdi, etter at de har gjennomgått saksbehandling med gransking, godkjenning og utvalgsbehandling på samme måte som dokumenter som er utarbeidet internt.
+Med papirdokumenter ble dette løst ved å tilføre dokumentene en ekstra forside der metadataverdiene ble fylt ut manuelt og deretter skannet inn. Kunden mottar nå dokumentene digitalt i pdf-format.
+Beskriv muligheten for å legge til en forside, eller annet egnet løsning, for å kunne påføre pdf-dokumenter metadataverdier relatert til at dokumentet gjennomgår saksbehandling i Skytjenesten.
+Kommentarer til både 1.71 og 1.73:
+Gjelder dette for all innkommende eller kun i kontekst av granskning. Tipper det gjelder alt, og for innkommende som ikke er «gransket» vil feltet være blankt.
+Her har vi noen utfordringer, og jeg tror vi må gå for tilsvarende som de gjør i dag. Dvs. Det registreres metadata på dokumentet som definert i 360° bunkescanning prosessen, i utarbeides en fil (kanskje ved hjelp av mal eller rapport i 360°) som sammen med bar codes skrives ut og legges inn i scanningen. På denne måten får vi støttet de fysiske, litt usikker på digitalt mottatte (om det i det heletatt er aktuelt?)
+En mulig løsning er å benytte en mal som kjøres slik at dette blir en del av filene på dokumentet – men er veldig usikker på om det er beste løsning.
+1.82 – B (SaaS, Lokal):
+Skytjenesten bør kunne håndtere store dokumenter (10-30 MB) uten at dette påvirker brukervennligheten ved håndtering av dokumentene.
+Beskriv eventuelle begrensninger i Skytjenesten for tunge filer og påvirkning på ytelse/responstid ved vanlige operasjoner slik som:
+- Åpne et dokument
+- Ekspedere et dokument
+- Ekspedere samme dokument til mange mottagere.
+- Sende et dokument på godkjenning/høring/gransking
+- Dele et dokument som del av innkalling til eksterne deltagere i nemd/formelt møte"
+Kommentarer:
+Må bare avklare om alle forespeilede kanaler støtter store filer og belyse hvilke begrensninger som finnes. Dispatch, dispatch kanaler, kanal valgt for samhandling og dokumentflyt for ekstene (f.eks. Dispatch, Sharepoint samhandlingsrom, 360° eSigning etc)
+1.94 – B (SaaS, Lokal):
+Skytjenesten bør ha funksjonalitet for å sende dokumenter enkelt på arbeidsflyt, enkeltvis eller en gruppe av dokumenter. Med arbeidsflyt menes:
+- Sende på høring/granskning
+- Sende på godkjenning
+- Sende til signering
+- Distribuere for at mottager skal kvittere "lest og forstått"
+Beskriv funksjonalitet i Skytjenesten for å sende dokumenter på arbeidsflyt
+Kommentarer:
+Tolker kanskje at denne primært gjelder interne, men siden de ikke eksplisitt har beskrevet noen skille mellom eksterne og interne i forbindelse med arbeidsflyter er det vanskelig å si.
+1.95 – B (SaaS, Lokal):
+Det bør være mulig for saksbehandler å se hvilke faste dokumentflyter som er konfigurert i Skytjenesten samt om respektive flyt er generell, det vil si tilgjengelig for alle saker og dokumenter, eller laget for en spesifikk dokumentkategori eller sakstype.
+Beskriv hvordan tilgjengelige dokumentflyter presenteres/visualiseres for brukeres samt om flytene er knyttet til spesifikke saktyper eller dokumentkategorier eller er tilgjengelige for alle. Legg gjerne ved skjermdump. Eventuelle vedlegg skal merkes med korrekt Krav ID.
+Kommentar:
+Her er vi nok litt svake. Det er implisitt her og kravstilt at man skal kunne lage egne flyter og det er nok i denne kontekst at kravet stilles, kan svare på noe men ikke alt. Krav 1.7 (Bskriver kundens mulighet til å lage egne arbeidsflyter og saksprosesser)
+Mulig arbeidsflyt kanskje bør løses med prosesser siden noen krav peker i retning av dette, lage egne, trigge oppdatering i eksternt system.
+1.96 – B (SaaS, Lokal):
+Dersom administrator gjør endringer i en dokumentflyt bør endringene tre i kraft neste gang noen starter den aktuelle flyten og ikke påvirke dokumenter som hadde startet flyten før endringen ble gjort.
+Kommentar:
+Her er vi nok litt svake. Det er implisitt her og kravstilt at man skal kunne lage egne flyter og det er nok i denne kontekst at kravet stilles, kan svare på noe men ikke alt. Krav 1.7 (Bskriver kundens mulighet til å lage egne arbeidsflyter og saksprosesser)
+Mulig arbeidsflyt kanskje bør løses med prosesser siden noen krav peker i retning av dette, lage egne, trigge oppdatering i eksternt system.
+1.97 – B (SaaS, Lokal):
+Det bør være mulig å knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt. Gruppene bør kunne være basert både på organisasjonsrolle og navn/personlig bruker. Saksbehandler bør i tillegg kunne legge til brukere manuelt samt legge til ekstra mottager også etter at flyten er startet uten å måtte avbryte flyten.
+Beskriv hvilke muligheter for å:
+1. knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt
+2. angi faste mottagere både som organisasjonsrolle og navn/personlig bruker
+3. legge til en ekstra bruker manuelt
+4. legge til en ekstra bruker etter at flyten er startet uten å måtte avbyte flyten.
+1.98 – B:
+Det bør være mulig å sette eksterne personer som mottager i en dokumentflyt, eksempelvis skal en ekstern ekspert kunne granske et dokument i en flyt, parallelt eller i serie, med andre interne granskere.
+Beskriv hvordan dette ivaretas i Skytjenesten samt hvordan og hvilke tilganger mottageren får til dokumentet og hvordan det logges at mottager har utført oppgaven.
+Kommentarer:
+For interne støttet delvis i alle fall slik jeg leser det
+Avhengig av løsning for eksterne, med utgående dok muligens støttet med søkefavoritter. Men mye vi ikke løser.
+1.99 – B (SaaS, Lokal):
+Mottager i en dokumentflyt bør kunne gi kommentarer knyttet til sin beslutning om å utføre oppgaven eller avslå. Det bør være mulig for saksbehandler å velge om mottager skal kunne knytte kommentarer direkte til avsnitt i dokumentet eller gi sine kommentarer sammenstilt i et kommentarfelt.
+Kommentar:
+Utfordring med splitt av prosessen. Mulig det her gjeler kun for interne, sliter litt med å differensiere mellom krav på intern/ekstern. Kommentarer kan være så enkelt at det for interne er via svar på eksternt utgående som håndteres manuelt, men det er avhengigheter til andre krav som kanskje gjør det verre å argumentere for.
+1.100 – B (SaaS, Lokal):
+Det bør være mulig å generere en rapport som sammenstiller kommentarer fra flyter et dokument har vært igjennom slik som gransking, høring og godkjenning, samt eksportere listen til word, excel eller pdf.
+Kommentar:
+Igjen muligens flere rapporter avhenging av prosess for intern/ekstern. For intern arbeidsflyt har vi ikke rapport fro Alle flyter i ett dokument, kun for en individuell arbeidsflyt.
+1.101 – B (SaaS, Lokal):
+Dersom én av mottagerne i en dokumentflyt gir avslag eller ikke godkjenner bør flyten avbrytes.
+Beskriv hva som skjer dersom én av flere mottagere i flyten avslår.
+Kommentar:
+Igjen problematisk med tanke på prosess for intern/ekstern.
+For eksterne og parallell, sekvensiell har tenkte vi opprinnelig ett enkelt svar: hvis dok inn/ut = sekvensiell sent til en og en, hvis parallell send til flere samtidig, men de kan jo ikke avbryte flyten.
+Tror for intern arbeidsflyt er det god nok støtte.
+1.102 (SaaS, Lokal) – B:
+Det bør være mulig for saksbehandler å sette en tidsfrist for mottagerne i en dokumentflyt til å utføre oppgaven de er tildelt. Mottagerne bør få varsel før og etter fristen er utløpt.
+Beskriv muligheten for å sette tidsfrist og hvordan mottager varslet før og etter fristen utløper
+Kommentar:
+Ved intern arbeidsflyt = varsler er støttet, men muligens ikke på tidsfrist. Men vi har forfallsdato og kan vise det i søk, søk kan jo trigge varsel – svakt ja.
+1.103 – B:
+Det bør være mulig å ha både tvingende dokumentflyter der flyten ikke kan fullføres før alle mottagere har utført sin oppgave og mindre strenge dokumentflyter der det er mulig for saksbehandler å avlutte flyten etter at fristen har gått ut selv om ikke alle deltagere har utført sin oppgave. I slike tilfeller bør det loggføres hvilke deltagere som har og ikke har fullført sin oppgave.
+Kommentar:
+Vi har ikke slik støtte i intern arbeidsflyt
+Ikke for eksterne, men avhengig av løsning vi lander på
+1.102 – B:
+Det bør være mulig for saksbehandler å sette en tidsfrist for mottagerne i en dokumentflyt til å utføre oppgaven de er tildelt. Mottagerne bør få varsel før og etter fristen er utløpt.
+For interne ja, for eksterne, ingen varsling automatisk.
+1.104 – A:
+Skytjenesten skal ha støtte for å kunne sende dokumenter til digital, personunik og rettslig bindende signering av dokumenter. Det skal være mulig å sende til både interne og eksterne for signering.
+Kommentar:
+Dette er vel dekket av 360° eSignering.
+1.140 – B (Lokal):
+Det bør være mulig å etablere integrasjoner mellom Skytjenesten for Sikkerhetsgradert dokumentasjon og følgende systemer:
+1. Arkivere arbeidsordre og logger fra fagsystemene Vircore (FLYT) og View Maintenance
+2. Oppdatere status på et objekt i fagsystem for «objektregister» trigget av saksbehandlingaktiviteter (gransking og godkjenning) i Skytjenesten.
+3. Knytte dokument i Skytjenesten til objekt i system for objektregister slik at bruker i objektregisteret kan klikke på en link som åpner dokumentet.
+4. Eksport av logger fra Skytjenesten til Kundens sentrale loggtjeneste Splunk
+5. Eksport av data fra Skytjenesten til Kundens tjeneste for sikkerhetsovervåkning, Security Incident and Event Management (SIEM)
+Aktuelle systemer vil være på samme plattform og samme nettverk som Skytjenesten for Sikkerhetsgradert dokumentasjon.
+Beskriv anbefalt API for og eventuell erfaring med de ulike systemene fra listen. Ved en tosystemløsning bør det tydelig framgå hvilket av de to systemene som skal integreres med respektive fagsystem.
+Notater;
+Det er elementer ved dette som peker i retning av at vi kanskje bør vurdere å løse arbeidsflyt med prosesser (process engine eller annet nytt) og ikke standard arbeidsflyt. Det kan løse krav rundt lage egne arbeidsflyter og oppdatere, integrasjoner mot eksterne objektregister ved «hendelse».
+Problemstilling:
+Demomiljø klar ved innlevering
+Demo i anbudsprosessen
+Kan det la seg sette opp?
+En godkjent arbeidsflyt skal trigge oppdatering av eksternt objektregister
+Der krav gjelder båse SaaS og Lokal må vi gå ut ifra at kravene gjelder både for interne og eksterne brukere.
+Arbeidsflyt må støtte interne og eksterne, Arbeidsflyt i 360° støtter bare interne. Vi må derfor skissere en løsning som støtter begge, det er også en del særkrav til eksterne, som Min side løsning, sikker deling, logging med mer.
+Eksterne ser kun ut til å gjelde ugradert, så krav som kun er flagget ugradert (ikke begge) kan vi anta er krav som primært gjelder ekstern granskningsflyt.
+Grenser for filstørrelser ved prosessene Ekspedering (kanalspesifikt?), godkjenning, høring, gransking, Dele internt i nemnd/formelt møte (internt i løsning så sikker ok)
+1.37 – B - Ved deling til eksterne (granskning, samarbeid ref: «I arbeid med utredninger og prosjekter har Kunden omfattende samhandling med eksterne konsulenter og entreprenører. Det er følgelig behov for støtte for dokumentdeling, også av dokumenter med sensitivt innhold og som derfor ikke kan spres ukontrollert, med parter som ikke har påloggingsrettigheter til Skytjenesten.» og  «Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol. Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)») Tenkte umiddelbart vi Sharepoint samarbeidsrom siden det er del av systemlandskapet, men undersøk Min side på sikker løsning RDF eller alternativer til Fileviewer/ PublicFile link – Public file vil ikke fungere siden disse dokumentene er graderte men skal deles? Logging, tilgangsstyring, ikke dele videre, timeout av link/miste tilgang til innholdet er viktig. Det nevner logging på endring, men det strider litt mot at de ikke skal kunne redigere (indirekte en form for feedback loop nødvendig, også med logging)
+1.46 – B – «Brukere som får dokumenter tilsendt på granskning, høring, signering bør få lesetilgang til dokumentet inkl. vedlegg og refererte dokumenter uten at saksbehandler (eller andre) skal måtte tildele tilgang manuelt. Mottager bør ikke ha mulighet til å dele dokumentene videre i den tiden hen har tilgang. Beskriv hvordan mottagere i en arbeidsflyt får lesetilgang til et dokument de er bedt om å behandle samt om tilgangen også dekker dokumenter på referanselisten.Beskriv også om tilgangen opphører når mottager har utført sin oppgave samt hvilke muligheter mottager har til å dele dokumentet videre i den tiden hen har tilgang.»
+1.33 – B - Hvis stedsfortreder hva skjer med eksisterende og nye interne arbeidsflyter
+1.73 – B - Påføre metadata header på:
+Internprodusert, forside i mal – alle maler?
+Eksternprodusert, PDF: Samme rutine som i gammelt system; «Med papirdokumenter ble dette løst ved å tilføre dokumentene en ekstra forside der metadataverdiene ble fylt ut manuelt og deretter skannet inn. Kunden mottar nå dokumentene digitalt i pdf-format.» Må være mulig å prine ut fra dokumentkortet og så legge til ifm scanning.
+Generisk Header mal som kan produseres på dokument – enten som første fil eller uten at det trigger lagring av fil, typ rapport
+1.67 – A – «Metadataverdier av typen "gransket av", "godkjent av" og "signert av" skal settes automatisk av systemet koblet til at aktiviteten blir utført i en dokumentflyt og være loggført i Skytjensten. Metadataverdiene skal ikke kunne redigeres manuelt.»
+Nåværende forslag/rutine bortfaller med denne. Hvis vi belager oss på prosessen om at internt = gjennomgang/godkjenning / Ekstern høring og granskning = Dok inn og ut, deretter manuell  oppdatering av egendefinert felt eller dokumentkontakt.
+Oppdaterte svar på kravene
+Krav 1.94 – Arbeidsflyt for dokumenter
+Svar:Skytjenesten støtter arbeidsflyt for gjennomgang (granskning), godkjenning, signering og kvittering. For interne prosesser benyttes arbeidsflytmodulen, hvor mottakere får oppgaver og kan kommentere/godkjenne. Når dokumentet er ferdig gransket, legges "Gransker" inn som dokumentkontakt. For eksterne granskere håndteres dette ved å sende dokumentet ut (f.eks. via brev, SharePoint eller Teams), og når ekstern granskning er mottatt og vurdert, legges ekstern gransker inn som dokumentkontakt med rollen "Gransker".
+Krav 1.33 – Stedfortreder
+Svar:Stedfortreder kan settes for brukere, slik at prosesser som granskning og godkjenning ikke stopper opp ved fravær. Stedfortrederen kan fullføre oppgaver og vil kunne bli registrert som "Gransker" dersom de utfører denne rollen.
+Krav 1.37 – Sikker deling med eksterne
+Svar:Ekstern deling skjer via dedikerte portaler eller samhandlingsrom (SharePoint/Teams). Når ekstern part har gjennomgått dokumentet, legges vedkommende inn som dokumentkontakt med rollen "Gransker". Tilgangsstyring og logging ivaretas så langt det lar seg gjøre i delingsplattformen, og versjonskontroll håndteres i Skytjenesten.
+Krav 1.46 – Automatisk tilgang for mottakere
+Svar:Mottakere i arbeidsflyt får automatisk tilgang til dokumentet og relevante vedlegg. Når oppgaven er utført og dokumentet ferdigstilles, legges "Gransker" inn som dokumentkontakt, og tilgangen låses i henhold til rettighetsmatrisen.
+Krav 1.67 – Automatisk metadata for gransket/godkjent av
+Svar:"Gransket av", "godkjent av" og "signert av" settes ved å legge til riktig kontakt med tilhørende rolle på dokumentet etter at aktiviteten er utført. Når dokumentet/journalposten ferdigstilles, låses metadata og kontakter for videre endring.
+Krav 1.71/1.73 – Flette metadata i dokument/header-tabell
+Svar:Metadata som "Gransker", "Godkjenner" osv. flettes inn i dokumentet via header-tabell, basert på registrerte dokumentkontakter. For eksterne PDF-dokumenter kan det legges til en forside med nødvendige metadata etter at dokumentet er gjennomgått og godkjent.
+Krav 1.77 – Levende dokumenter (Safety case)
+Svar:Alle granskere (interne og eksterne) legges inn som dokumentkontakter med riktig rolle etter at dokumentet er ferdig behandlet. Metadata låses ved ferdigstillelse. Søkbarhet, versjonshåndtering og kobling mellom revisjoner ivaretas.
+Krav 1.82 – Store dokumenter
+Svar:Løsningen håndterer store dokumenter uten vesentlig ytelsestap. Dette gjelder også for dokumenter som har vært gjennom flere granskingsrunder.
+Krav 1.98 – Eksterne mottakere i flyt
+Svar:Eksterne granskere kan ikke inkluderes direkte i arbeidsflyt, men håndteres ved å sende dokumentet ut og deretter legge ekstern gransker inn som dokumentkontakt med rollen "Gransker" når tilbakemelding er mottatt.
+Krav 1.100 – Rapport over kommentarer i flyt
+Svar:Kommentarer fra arbeidsflyt (internt) kan sammenstilles og eksporteres. For eksterne granskere må eventuelle kommentarer registreres manuelt i saken.
+Krav 1.140 – Integrasjoner (gradert)
+Svar:Integrasjoner kan støtte overføring av informasjon om hvem som har vært gransker/godkjenner, basert på dokumentkontakter og roller.
+Prosesskisse for granskning
+A. Intern granskning
+Dokument opprettes og sendes på arbeidsflyt for gjennomgang til interne granskere.
+Granskere utfører oppgaven i systemet, kommenterer og godkjenner.
+Når granskning er fullført, legges alle relevante personer inn som dokumentkontakter med rollen "Gransker".
+Manuell prosess – enten som separat metadata felt på dokument, eller dokument kontakt rolle.
+Bryter med A-krav 1.67
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+B. Ekstern granskning
+Dokument ferdigstilles internt og sendes ut til ekstern gransker (via brev, SharePoint, Teams, e-post).
+Ekstern gransker gir tilbakemelding (f.eks. via e-post, portal, Teams).
+Når ekstern granskning er mottatt og vurdert, legges ekstern gransker inn som dokumentkontakt med rollen "Gransker".
+Manuell prosess – enten som separat metadata felt på dokument, eller dokument kontakt rolle.
+Bryter med A-krav 1.67
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+Oppsummering
+"Gransket av" og tilsvarende metadata settes alltid ved å legge til kontakt med riktig rolle etter at granskning er fullført, uavhengig av om det er intern eller ekstern prosess. Dvs ingen automatikk. Enten:
+Dedikert felt på dokumenttypen, Gransker.
+Dokumentkontaktrolle, Gransker. – Fordel at det kanskje kan brukes ved utsendelse?  (Forsvaret)
+Låsing av metadata sikres ved ferdigstillelse/journalføring.
+Ekstern granskning håndteres manuelt, men dokumenteres på samme måte som intern granskning.
+Ønsker du denne teksten tilpasset som tilbudssvar, eller i tabell/matrise? Gi beskjed om ønsket format!
+1. Svar på kravene om granskning, arbeidsflyt og dokumenthåndtering
+Krav 1.94 – Arbeidsflyt for dokumenter
+Svar:Skytjenesten (Public 360°) har innebygd støtte for å sende dokumenter på arbeidsflyt, både enkeltvis og i grupper. Følgende arbeidsflyttyper støttes:
+Gjennomgang (granskning): Dokumenter sendes til én eller flere interne mottakere for evaluering og kommentarer. Kan settes opp parallelt eller sekvensielt.
+Godkjenning: Dokumenter sendes til leder, saksansvarlig eller fagperson for endelig godkjenning. Kan også settes opp parallelt eller sekvensielt.
+Signering: Kan inngå som del av godkjenningsflyt, men forutsetter at mottaker har intern bruker.
+Kvittering "lest og forstått": Kan løses med kopimottaker-funksjon og statussetting i arbeidsflyt.
+Begrensning:Eksterne mottakere kan ikke inkluderes direkte i arbeidsflyt – se egen prosess under ekstern granskning.
+Krav 1.33 – Stedfortreder
+Svar:Det er mulig å angi stedfortreder for brukere. Stedfortrederen overtar brukerens oppgaver i arbeidsflyt, inkludert granskning og godkjenning, dersom brukeren er inaktiv (f.eks. permisjon, ferie).
+Krav 1.37 – Sikker deling med eksterne
+Svar:Ekstern deling av dokumenter kan gjøres via "min side"-funksjonalitet eller portaler, men ekstern part må ha tilgang via separat løsning (f.eks. SharePoint, Teams). Ekstern part kan gis lesetilgang, men ikke mulighet til å laste ned eller videredele dokumentet (skjermdump kan ikke forhindres).
+Tilgangsstyring og logging ivaretas for interne brukere, men ekstern logging er begrenset til det som støttes av delingsplattformen.
+Versjonskontroll ivaretas for dokumentet i Skytjenesten.
+Krav 1.46 – Automatisk tilgang for mottakere
+Svar:Mottakere i arbeidsflyt får automatisk lesetilgang til dokumentet og eventuelle vedlegg/referanser uten manuell tildeling. Tilgangen opphører når oppgaven er utført. Mottaker kan ikke dele dokumentet videre i perioden med tilgang.
+Krav 1.67 – Automatisk metadata for gransket/godkjent av
+Svar:Metadataverdier som "gransket av", "godkjent av" og "signert av" settes automatisk av systemet når aktiviteten utføres i arbeidsflyt. Disse verdiene kan ikke redigeres manuelt.
+Krav 1.71/1.73 – Flette metadata i dokument/header-tabell
+Svar:Det er mulig å flette metadata fra dokumentbeskrivelsen inn i en header-tabell i dokumentet, inkludert versjon, utarbeidet av, gransket av, godkjent av, møtebehandling, gyldighetsperiode og sikkerhetsmerking.For eksterne PDF-dokumenter kan det legges til en forside med nødvendige metadata etter at dokumentet er gjennomgått og godkjent.
+Krav 1.77 – Levende dokumenter (Safety case)
+Svar:Løsningen støtter full livssyklus for levende dokumenter:
+Søkbarhet og identifisering av tidligere versjoner også etter periodisering.
+Samling av rapport og prosessdokumentasjon i sak.
+Tilgang til tidligere versjoner for revisjon.
+Tydelig kobling mellom gamle og nye versjoner, med metadata som viser hvilken som er gjeldende.
+Skille på versjoner i søk.
+Link/referanse kan peke til spesifikk versjon eller alltid til siste godkjente revisjon.
+Krav 1.82 – Store dokumenter
+Svar:Løsningen håndterer store dokumenter (10–30 MB) uten vesentlig påvirkning på ytelse ved åpning, ekspedering, godkjenning eller deling.
+Krav 1.98 – Eksterne mottakere i flyt
+Svar:Eksterne personer kan ikke inkluderes direkte i arbeidsflyt. Ekstern granskning må håndteres manuelt, f.eks. ved å sende utgående brev eller dele dokument via samhandlingsrom (SharePoint/Teams).
+Krav 1.100 – Rapport over kommentarer i flyt
+Svar:Det er mulig å generere rapport som sammenstiller kommentarer fra arbeidsflyter (granskning, høring, godkjenning) og eksportere til PDF (og evt. Word/Excel hvis aktivert).
+Krav 1.140 – Integrasjoner (gradert)
+Svar:Løsningen kan integreres med fagsystemer for arkivering, statusoppdatering, kobling til objektregister, eksport av logger til Splunk og SIEM, forutsatt at systemene er på samme plattform/nettverk. API-er og erfaring må beskrives nærmere i tilbudet.
+2. Skisse av prosess for granskning
+A. Intern granskning (arbeidsflyt)
+Dokument opprettes av saksbehandler, evt. med mal og metadata.
+Sendes på arbeidsflyt for gjennomgang til én eller flere interne granskere (parallelt eller sekvensielt).
+Granskere får oppgave i systemet, kan kommentere, godkjenne eller sende tilbake.
+Alle handlinger logges og metadata som "gransket av" settes automatisk.
+Dokument sendes videre til godkjenning hos leder eller annen rolle.
+Godkjenning fullføres, dokumentet ferdigstilles og evt. ekspederes eller arkiveres.
+Versjonshåndtering og revisjon sikrer sporbarhet og tilgang til tidligere versjoner.
+B. Ekstern granskning/høring
+Dokument ferdigstilles internt og eksporteres som utgående brev eller deles via samhandlingsrom (SharePoint/Teams).
+Ekstern part får tilgang til dokumentet via lenke eller portal (lesetilgang, evt. kommentering hvis støttet).
+Kommentarer fra ekstern part mottas manuelt (e-post, portal, Teams) og registreres i saken.
+Eventuelle endringer utføres av saksbehandler, og dokumentet kan sendes på ny intern arbeidsflyt om nødvendig.
+Ekstern godkjenning loggføres manuelt, evt. ved å legge til ekstern part som "gransker" i metadata når prosessen er fullført.
+3. Anbefaling og flagging av shortcommings
+Intern arbeidsflyt: Løsningen dekker alle krav til intern granskning, godkjenning og dokumentflyt, med høy grad av sporbarhet og fleksibilitet.
+Ekstern arbeidsflyt: Direkte arbeidsflyt med eksterne støttes ikke. Dette må løses med manuelle prosesser eller eksterne samhandlingsverktøy. Dette bør flagges som en shortcoming, men er også en bransjeutfordring.
+Integrasjoner: Forutsetter at relevante API-er og sikkerhetskrav kan oppfylles.
+4. Oppsummering
+Public 360° gir fullverdig støtte for intern granskning og godkjenning gjennom arbeidsflyt, men ekstern granskning må håndteres manuelt eller via eksterne verktøy. Alle krav til metadata, versjonshåndtering, rapportering og stedfortreder dekkes. Integrasjoner og ekstern arbeidsflyt bør beskrives som områder for videreutvikling eller tilpasning.
+Ønsker du denne teksten tilpasset som et tilbudssvar, eller ønsker du en tabell/matrise med krav–svar–shortcoming?
+Provide your feedback on BizChat
+You said:
+"Alle handlinger logges og metadata som "gransket av" settes automatisk." (egentlig for både intern og ekstern flyt): dette blir jo feil gitt diskusjonen jeg og min kollega hadde. Der skisserte vi at kunden benytter en egen dokument kontakt-kategori kalt "Gransker" når dokumentet er ferdig gransket av intern mottaker på gjennomgang eller ekstern via dokument ut og dokument inn, eller via prosess via SharePoint samarbeidsrom, eller Teams integrasjon. settes gransker som inn som dokumentpart. krav om at denne metadataen skal låses, håndteres ved at dokumentet/journalposten ferdigstilles og da sørger rettighetsmatrisen for at ingen kan redigere metadata inkludert kontakter. oppdater alle svarene slik at dette danner grunnlaget for svar.
+Copilot said:
+Copilot
+Takk for presiseringen! Her er oppdaterte og korrekte svar på alle kravene, samt en tydelig prosesskisse for granskning – nå basert på at "gransket av" og tilsvarende metadata settes ved å legge til en kontakt med rollen "Gransker" (eller tilsvarende) når dokumentet er ferdig gransket, og at denne informasjonen låses når dokumentet/journalposten ferdigstilles.
+Oppdaterte svar på kravene
+Krav 1.94 – Arbeidsflyt for dokumenter
+Svar:Skytjenesten støtter arbeidsflyt for gjennomgang (granskning), godkjenning, signering og kvittering. For interne prosesser benyttes arbeidsflytmodulen, hvor mottakere får oppgaver og kan kommentere/godkjenne. Når dokumentet er ferdig gransket, legges "Gransker" inn som dokumentkontakt. For eksterne granskere håndteres dette ved å sende dokumentet ut (f.eks. via brev, SharePoint eller Teams), og når ekstern granskning er mottatt og vurdert, legges ekstern gransker inn som dokumentkontakt med rollen "Gransker".
+Krav 1.33 – Stedfortreder
+Svar:Stedfortreder kan settes for brukere, slik at prosesser som granskning og godkjenning ikke stopper opp ved fravær. Stedfortrederen kan fullføre oppgaver og vil kunne bli registrert som "Gransker" dersom de utfører denne rollen.
+Krav 1.37 – Sikker deling med eksterne
+Svar:Ekstern deling skjer via dedikerte portaler eller samhandlingsrom (SharePoint/Teams). Når ekstern part har gjennomgått dokumentet, legges vedkommende inn som dokumentkontakt med rollen "Gransker". Tilgangsstyring og logging ivaretas så langt det lar seg gjøre i delingsplattformen, og versjonskontroll håndteres i Skytjenesten.
+Krav 1.46 – Automatisk tilgang for mottakere
+Svar:Mottakere i arbeidsflyt får automatisk tilgang til dokumentet og relevante vedlegg. Når oppgaven er utført og dokumentet ferdigstilles, legges "Gransker" inn som dokumentkontakt, og tilgangen låses i henhold til rettighetsmatrisen.
+Krav 1.67 – Automatisk metadata for gransket/godkjent av
+Svar:"Gransket av", "godkjent av" og "signert av" settes ved å legge til riktig kontakt med tilhørende rolle på dokumentet etter at aktiviteten er utført. Når dokumentet/journalposten ferdigstilles, låses metadata og kontakter for videre endring.
+Krav 1.71/1.73 – Flette metadata i dokument/header-tabell
+Svar:Metadata som "Gransker", "Godkjenner" osv. flettes inn i dokumentet via header-tabell, basert på registrerte dokumentkontakter. For eksterne PDF-dokumenter kan det legges til en forside med nødvendige metadata etter at dokumentet er gjennomgått og godkjent.
+Krav 1.77 – Levende dokumenter (Safety case)
+Svar:Alle granskere (interne og eksterne) legges inn som dokumentkontakter med riktig rolle etter at dokumentet er ferdig behandlet. Metadata låses ved ferdigstillelse. Søkbarhet, versjonshåndtering og kobling mellom revisjoner ivaretas.
+Krav 1.82 – Store dokumenter
+Svar:Løsningen håndterer store dokumenter uten vesentlig ytelsestap. Dette gjelder også for dokumenter som har vært gjennom flere granskingsrunder.
+Krav 1.98 – Eksterne mottakere i flyt
+Svar:Eksterne granskere kan ikke inkluderes direkte i arbeidsflyt, men håndteres ved å sende dokumentet ut og deretter legge ekstern gransker inn som dokumentkontakt med rollen "Gransker" når tilbakemelding er mottatt. Parallelt eller i serie defineres av om den sendes til alle samtidig eller enkeltvis.
+Krav 1.100 – Rapport over kommentarer i flyt
+Svar:Kommentarer fra arbeidsflyt (internt) kan sammenstilles og eksporteres. For eksterne granskere må eventuelle kommentarer registreres manuelt i saken.
+Krav 1.140 – Integrasjoner (gradert)
+Svar:Integrasjoner kan støtte overføring av informasjon om hvem som har vært gransker/godkjenner, basert på dokumentkontakter og roller.
+Prosesskisse for granskning
+A. Intern granskning
+Dokument opprettes og sendes på arbeidsflyt for gjennomgang til interne granskere.
+Granskere utfører oppgaven i systemet, kommenterer og godkjenner.
+Når granskning er fullført, legges alle relevante personer inn som dokumentkontakter med rollen "Gransker".
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+B. Ekstern granskning
+Dokument ferdigstilles internt og sendes ut til ekstern gransker (via brev, SharePoint, Teams, e-post).
+Ekstern gransker gir tilbakemelding (f.eks. via e-post, portal, Teams).
+Når ekstern granskning er mottatt og vurdert, legges ekstern gransker inn som dokumentkontakt med rollen "Gransker".
+Dokumentet ferdigstilles/journalføres, og metadata (inkludert kontakter) låses.
+Oppsummering
+"Gransket av" og tilsvarende metadata settes alltid ved å legge til kontakt med riktig rolle etter at granskning er fullført, uavhengig av om det er intern eller ekstern prosess.
+Låsing av metadata sikres ved ferdigstillelse/journalføring.
+Ekstern granskning håndteres manuelt, men dokumenteres på samme måte som intern granskni

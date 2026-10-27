@@ -1,0 +1,65 @@
+VN Asia ympäristökonsepti
+Kuvaa millaiseen ympäristöön hankittavan kokonaisuus tuotetaan ja mitkä ovat ympäristöön liittyvät reunaehdot.
+Kapasiteetti, käyttöpalvelu ja muu infra
+Hankittavat komponentit asennetaan lähtökohtaisesti valtioneuvoston ympäristöihin, jotka perustuvat Valtorin tuotteistettuihin kapasiteettipalveluihin.
+Pilvikapasiteetti
+VNK tarjoaa ministeriöille ja niiden järjestelmille yhteisen VN Azure‑pilviympäristön. VN Azure‑ympäristö perustuu keskitettyyn, hallittuun pilviperustaan (landing zone), joka mahdollistaa turvallisen, skaalautuvan ja kustannustehokkaan kapasiteetin hyödyntämisen valtioneuvoston yhteisiin tarpeisiin.
+VNK vastaa VN Azure‑ympäristön ylätason hallinnasta, rakenteesta ja yhteisistä palveluista. Pilviperustan teknisestä toteutuksesta ja kehittämisestä vastaa Valtori. Ministeriökohtaiset ja sovelluskohtaiset ratkaisut toteutetaan erillisissä hallintaryhmissä ja tilauksissa (subscriptions), jotka eriyttävät kehitys‑, testi‑ ja tuotantoympäristöt toisistaan.
+Toimittajalle myönnetään järjestelmäkohtaisiin Azure‑tilauksiin (subscriptions) tehtävien edellyttämä käyttöoikeustaso Azure‑roolipohjaista pääsynhallintaa (RBAC) hyödyntäen. Oikeudet myönnetään lähtökohtaisesti Contributor‑tasoisina vain siltä osin ja siksi ajaksi kuin se on palvelun toteuttamisen, ylläpidon ja tukemisen kannalta välttämätöntä.
+Azure‑kapasiteetti kattaa IaaS‑ ja PaaS‑palvelut sekä niihin liittyvät keskeiset käytännöt, kuten roolipohjaisen pääsynhallinnan, keskitetyt tietoturva‑ ja tietoliikenneratkaisut, varmistukset ja häiriötilanteista toipumisen. Ympäristöä koskevat tarkemmat tekniset ja tietoturvavaatimukset on määritelty Azure‑kapasiteettipalveluiden hallintamallissa ja niitä sovelletaan kaikkiin ympäristöön toteutettaviin ratkaisuihin.
+Tarjoajan tulee huomioida muun muassa seuraavat lähtökohdat suunnitellessaan ja toteuttaessaan ratkaisua VN Azure‑ympäristöön:
+Ratkaisu toteutetaan VN Azuressa ja sen tulee noudattaa ympäristölle määriteltyä hallintamallia, Azure‑käytäntöjä sekä tietoturva‑ ja tietosuojavaatimuksia.
+Pilviympäristöjen toteutukseen ja ylläpitoon käytetään IaC:ta ja parhaita DevOps-käytäntöjä
+Toimittaja vastaa sovellus‑ ja palvelukohtaisesta kapasiteetista, sen valvonnasta, kustannusten seurannasta sekä omien resurssiensa dokumentoinnista.
+Toimittaja vastaa varmuuskopioinnista, häiriötilanteista palautumisesta, lokituksesta sekä käyttöoikeuksien elinkaaren hallinnasta omien palveluidensa osalta.
+Tuotantoympäristöön tehtävät muutokset on testattava etukäteen testiympäristössä ja toteutettava hallitun muutosprosessin mukaisesti.
+Pilviperustaan ja hallintarakenteeseen kohdistuvat muutokset tehdään VNK:n hyväksynnällä ja Valtorin kautta.
+Toimittajan henkilöstön tulee täyttää sovellettavat turvallisuusselvitysvaatimukset ennen pääsyä ympäristöä koskeviin yksityiskohtaisiin ohjeisiin ja vaatimuksiin.
+On-premises-kapasiteetti
+On-premises-ympäristöt toteutetaan Valtorin -palveluun. Palvelu kattaa käyttöpalvelut, kuten tietoliikennepalvelut, palvelinkapasiteetit, hallinta- ja valvontapalvelut, tietokantapalvelut, varmistuspalvelut ja tallennuskapasiteetin.
+Palvelinkapasiteetti on Windows Server tai Linux -kapasiteettia. Palvelinten ominaisuuksia, määrää ja kapasiteettia voidaan nostaa tai laskea palvelupyynnöillä. Kapasiteettipalveluille tarjotaan 24/7 häiriönhallinta ja 8/5 ylläpito. Palvelun tietoturvaluokitus on TLIV.
+Tilaaja suunnittelee keskitetyn konttiympäristön Valtorin on-premises kapasiteettiin. Toteutuessaan se on ensisijainen vaihtoehto asianhallinnan on-premises-palveluihin asennettaville komponenteille. Konttiympäristö perustuu valmiiseen Openshift -arkkitehtuurikehykseen, jonka mukaisia TLIV-toteutuksia on jo tehty. Ympäristö toteutetaan dedikoiduille palvelimille, joten ratkaisussa on huomioitava niiden mukanaan tuomat skaalautuvuuden rajoitteet.
+Vaihtoehtona on toteuttaa asianhallinnan oma konttiympäristöratkaisu.
+DevSecOps-ympäristö
+Tilaaja suunnittelee keskitetyn DevSecOps-ympäristön toteuttamista valtioneuvoston kanslian järjestelmien hallintaan.
+Tavoitteena on, että keskitetty DevSecOps-ympäristö tarjoaa standardoidut CI/CD-mallit sekä tarvittavat versionhallinnan, sovelluspaketoinnin ja testauksen työkalut sekä asennusputket eri ympäristöihin myöhemmin tarkennettavalla tavalla. Keskitetty palvelu tarjoaa myös pääsyn- ja käyttöoikeusvaltuuksien hallinnan sekä vastaa ympäristön päivityksistä, saatavuudesta sekä varmuuskopioinnista ja palautuksista. Ympäristö perustuu open source -työkaluihin ja tukee konttiteknologioita.
+Palvelun käytettävyys asianhallinnan kokonaisuuden kehittämiseen arvioidaan toteutuksen suunnittelun yhteydessä. Vaihtoehtoinen ratkaisu on toteuttaa asianhallinnan oma DevSecOps-alusta VN ympäristöön.
+Kehitysympäristö ja -työkalut
+Kehittäminen tapahtuu toimittajien omilla työasemilla ja työkaluilla.
+Turvallisuusluokiteltuun tietoon pääsy edellyttää VN työaseman käyttöä. VN työasemia tilataan toimittajan asiantuntijoille tarpeen mukaan.
+Testiympäristöt
+Asianhallinnan testiympäristöt suunnitellaan toimittajan kanssa yhteistyössä osana toimitusprojektia. Tavoitteena hyödyntää pilvikapasiteettia mahdollisimman laajasti.
+Valtioneuvoston IAM-ratkaisusta löytyy oma testiympäristönsä, jota on mahdollista hyödyntää asianhallinnan sovellusten testiympäristöjen luvittamisessa. Siihen kuuluu tuotannosta eriytetty IdM-ympäristö, joka provisioi testi-AD:ta. Pilvikapasiteetin osalta asianhallintaratkaisun eri ympäristöt sijaitsevat yhdessä VN:n tuotantotenantissa, joten tältä osin käytössä on vain tuotantoon kuuluva Entra ID.
+Hyväksymistestaukset tehdään tuotannon kaltaisessa UAT-ympäristössä (QA).
+Järjestelmäkokonaisuuden oman integraatiotestauksen lisäksi asianhallintaan integroitaville järjestelmille on tarjottava mahdollisuus rajapintojen testaamiseen.
+Testauksessa ei lähtökohtaisesti käytetä tuotantodataa. Testidatan salassa pidettävyys on arvioitava sen muodostamisen yhteydessä ja käsittely suunniteltava sen mukaisesti.
+Tietoturvapalvelut
+Valtioneuvoston ympäristöissä on käytettävissä Valtorin tarjoamat keskitetyt tietoturvapalvelut:
+Päätelaite- ja palvelinsuojapalvelut
+Valvontapalvelut
+Palveluympäristön tietoturvapalvelut
+Verkon tietoturvapalvelut
+Pääsyn- ja käyttövaltuuksien hallinta
+Valtioneuvoston käyttäjäkunta koostuu 12 ministeriön, oikeuskanslerinviraston ja tasavallan presidentin kanslian henkilöstöstä, jotka kaikki toimivat omina erillisinä organisaatioinaan.
+Valtioneuvoston käyttäjille luodaan identiteetit lokaaliin toimialueeseen sekä Entra ID:lle, joista tarjotaan kertakirjautumisen palveluita järjestelmille. Tasavallan presidentin kanslian pilvi-identiteetit synkronoidaan eri Entra ID -tenantiin kuin muut valtioneuvoston käyttäjien identiteetit.
+Järjestelmä liitetään Valtorin tuottamiin pääsyn- ja käyttövaltuushallinnan keskitettyihin palveluihin. Käyttäjätiedot ja käyttövaltuudet hallitaan keskitetysti identiteetinhallinnan järjestelmässä Avaimessa. Avaimessa myönnetyt käyttövaltuudet voidaan provisioida automaattisesti valtuuksia vastaaviin käyttöoikeusryhmiin AD-käyttäjärekisterissä. Asianhallintajärjestelmä lukee käyttäjän AD-ryhmäjäsenyydet ja lisää niiden perusteella käyttäjän oikeisiin käyttöoikeusrooleihin järjestelmässä.
+Valtioneuvoston sisäisten käyttäjien käyttövaltuudet asianhallintajärjestelmään muodostetaan organisaatioryhmien perusteella (ks. rekistereihin perustuvat käyttöoikeudet, Liite 1.1, luku 1.3 Käyttövaltuudet). Avain asettaa käyttäjät oikeaan organisaatioryhmään HR-järjestelmästä saatavien palvelussuhdetietojen perusteella. Asianhallintasovellus saa organisaatioryhmien tiedot AD:lta, ja päivittää käyttäjille organisaatioryhmän mukaiset oikeudet ja näkyvyyden järjestelmään.
+Syntymäoikeuksin myönnettävien peruskäyttöoikeuksien lisäksi valtioneuvoston käyttövaltuushallintaan liittyy erityispiirteitä, kuten virkamiehet, jotka ovat työnkierrossa tai virkavapaalla omasta virastaan ja määräaikaisessa palvelussuhteessa toiseen ministeriöön.
+Käyttäjätili ja käyttöoikeudet poistuvat järjestelmästä käyttäjän palvelussuhteen päättyessä tai käyttäjän siirtyessä toiseen organisaatioon automaattisesti, sovitun prosessin mukaisesti.
+Käyttöoikeuksien hallinnan tulee olla mahdollisimman ajantasaista, ja huomioida jatkuvasti tapahtuvat organisaatiomuutokset.
+Erilaiset toiminnalliset roolit (ks. liite 1.1, luku 1.3 Käyttövaltuudet) myönnetään valtioneuvoston sisäisille ja ulkoisille käyttäjille Avaimessa nk. erikseen haettavina oikeuksina. Käyttäjä tai hänen esihenkilönsä voi pyytää roolia Avaimessa, ja pyynnön toteuttaminen edellyttää läpimennyttä hyväksyntäketjua. Hyväksynnän jälkeen käyttäjä lisätään toiminnallista roolia vastaavaan käyttöoikeusryhmään, ja tieto siirtyy asianhallintajärjestelmään ajantasaisesti. Järjestelmän kannalta logiikka on siis samanlainen kuin peruskäyttöoikeuksissakin. Toiminnallinen rooli poistuu käyttäjältä ajantasaisesti, kun käyttöoikeudesta on tehty Avaimessa poistopyyntö ja käyttöoikeusryhmän jäsenyys on päättynyt.
+Järjestelmää käyttää myös valtioneuvoston ulkopuolisia, EU-valmisteluun liittyviä tehtäviä hoitavia eri virastojen virkamiehiä. Näille käyttäjille luodaan lokaalit vieraskäyttäjäidentiteetit valtioneuvoston toimialueelle, ja heidän käyttövaltuushallintansa hoidetaan sisäisten käyttäjien tapaan VN:n keskitetyissä käyttövaltuushallinnan palveluissa. Tulevaisuudessa ulkoisille käyttäjille voi mahdollistua myös pilvinatiivien identiteettien käyttö. Ulkoisten käyttäjien pääsynhallintaan voidaan hyödyntää lokaaleja tunnuksia tai Valtorin tuottamaa valtionhallinnon keskitettyä pääsynhallintaratkaisua Virtua.
+Järjestelmän pääsyn- ja käyttövaltuuksien hallinnan on tuettava hybridiympäristöä, jossa osa sovelluksista ja komponenteista toimii pilvi- ja osa on-prem-ympäristössä. Ympäristöjen välisen autentikaation ja auktorisoinnin on oltava käyttäjän näkökulmasta vaivatonta ja tapahduttava taustalla.
+Integraatioarkkitehtuuri
+Integraatioiden osalta käytettävissä on Valtorin tarjoama VIA-integraatiopalvelu ulkoisten integraatioiden autentikointiin, autorisointiin ja reititykseen. Lisäksi palvelu tarjoaa liittymien hallintaa mm. varmenteiden osalta. Integraatioalustalla voidaan tehdä virusskannauksia, teknisiä validointeja sekä sanomamuunnoksia.
+Sisäverkon palveluiden integrointi Azuressa sijaitseviin palveluihin reititetään Express Routen kautta. Edellyttää tietoliikenteen riittävää salausta.
+Päätelaitteet
+Työasemat
+Valtioneuvoston käyttäjillä on Valtorin hallinnoimat Windows-työasemat, joissa on vakiona mm. M365 toimisto-ohjelmistot sekä varmennekortin lukijat ja -ohjelmistot. Lisäohjelmistot hyväksytään ja jaellaan keskitetysti työasemahallinnan kautta. Työasemilla saa käsitellä tietoturvaluokan TLIV aineistoja.
+Yksi ministeriö ja joukko muiden ministeriöiden henkilöstöstä käyttävät turvallisuusviranomaisille tuotettua ratkaisua. Ulkoasiainhallinnolla on vielä toistaiseksi oma ratkaisunsa.
+Ulkoisilla käyttäjillä voi olla erilaisia työasema-, hallinta- ja ohjelmistoratkaisuja ja rajoitteita sille, mitä ohjelmistoja työasemille voidaan asentaa.
+Mobiililaitteet
+Valtioneuvoston käyttäjillä on Valtorin hallinnoimat mobiililaitteet. Mobiililaitteiden käyttöjärjestelminä Android ja IOS. Lisäohjelmistot hyväksytään ja jaellaan keskitetysti mobiilihallinnan kautta.
+Ulkoisilla käyttäjillä voi olla erilaisia mobiililaite-, hallinta- ja ohjelmistoratkaisuja ja rajoitteita sille, mitä ohjelmistoja voidaan asentaa.
+Sähköposti
+Valtioneuvostossa on käytössä Valtorin tarjoamat sähköposti- ja turvasähköpostipalvelut, joihin järjestelmät voidaan integroida. Sähköpostissa saa käsitellä tietoturvaluokan TLIV tietoja. TLIV-, salassa pidettävä tai suojattavaa henkilötietoa sisältävät sähköpostit valtioneuvoston ulkopuolelle lähetetään aina turvapostilla.

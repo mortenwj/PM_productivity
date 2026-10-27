@@ -1,0 +1,219 @@
+## Page 1
+Bilag 1.i Leverandørens løsningsbe-
+skrivelse 
+Dynamisk Indkøbssystem  02.19 Fagsystemer  (202 4) 
+Kontrakt om levering af ESDH løsning til Danmarks Nationalbank 
+SKI0219.2503.0030 
+Version 2.0
+
+## Page 2
+Indhold 
+1 Indledning ...................................................................................................................................... 3 
+2 Besvarelse: Samarbejdsorganisation, herunder Leverandørens roller og procedure for eskalation .... 4 
+3 Incident Management ................................................................................................................... 10 
+4 Supportmanagement, herunder rapportering af fejl....................................................................... 10
+
+## Page 3
+1 Indledning 
+I nærværende bilag angiver Leverandøren løsningsbeskrivelse til Kundens angivet krav i Bilag 1 Organisation og 
+Samarbejde og underbilag 1.1.Servicemål.
+
+## Page 4
+2 Besvarelse: Samarbejdsorganisation, herunder Leverandørens rol-
+ler og procedure for eskalation  
+Beskrivelse af kompetenceforhold, kommunikationslinjer og ansvarsforhold.  
+Nedenfor en illustration af kompetenceforhold, kommunikationslinjer og ansvarsforhold mellem Kunden og Le-
+verandøren. 
+ 
+Figur 1 
+  
+ 
+Match af Kundens og Leverandørens leveranceorganisation: 
+Kundens rolle Rollebetegnelse Leverandørens rolle
+
+## Page 5
+Systemejer Har det overordnede ansvar for Governance, 
+compliance og godkendelse af krav, løsninger og 
+risikovurderinger i ESDH-systemet. 
+Kunde- og Kommer cielt 
+ansvarlig 
+Leveranceansvarlig 
+Systemansvarlig Sikrer den daglige drift og udvikling af ESDH -sy-
+stemet og samarbejder tæt med 
+Projektleder 
+Procesansvarlig Afdækker forretningsbehov og definerer krav til 
+systemet. Understøtter og udvikler arbejdsgange 
+i samarbejde med forretningen. 
+Projektleder 
+Product Manager og leveran-
+døransvarlig 
+Koordinerer leverandørrelationer og driftsteknik. 
+Står for systemvedligeholdelse, fakturahåndte-
+ring og tekniske eskalationer. 
+Projektleder 
+Contract Manager Rådgiver ud fra kontraktens vilkår og håndterer 
+ændringer. Sikrer at banken får de leverancer, 
+den er berettiget til. 
+Kunde- og Kommercielt 
+ansvarlig 
+Leveranceansvarlig  
+Juridisk afdeling 
+Service Delivery Manager Tager ejerskab for driftsmodellen og interne fejl-
+meldingsprocesser. Følger op på SLA’er og sikrer 
+effektiv systemdrift. 
+Projektleder 
+Administrator Udfører systemadministrative opgaver. Forretningskonsulent 
+Superbruger Supporterer kolleger i brugen af systemet og del-
+tager i netværk. Holder sig opdateret og deler vi-
+den om funktionalitet. 
+Forretningskonsulent 
+ 
+Beskrivelse af mødestruktur i projektet. 
+Mødestruktur for projektet er fordelt på 
+• Projektledermøder (møder en gang ugentligt eller efter behov) 
+• Styregruppemøder (møder en gang månedligt eller efter behov) 
+ 
+Projektledermøder
+
+## Page 6
+På et projektledermøde drøftes fremdrift, budget, risici og leverancer, hvor projektlederen rapporterer om status 
+til styregruppen og leder den daglige eksekvering ved at fordele opgaver og facilitere statusmøder med arbejds-
+grupper.  Der koordineres med Leverandører, Kunden og interessenter, og planer og styringsdokumenter opdate-
+res for at sikre projektmålene og styre processen effektivt mod afslutning.  
+Formål med mødet: 
+• At skabe et fælles overblik over projektets status og udfordringer.  
+• At sikre effektiv styring og koordinering af projektets ressourcer og leverancer.  
+• At facilitere de nødvendige beslutninger, så projektet kan bevæge sig fremad mod målene.  
+• At kommunikere vigtig information til styregruppen og øvrige interessenter.  
+Typiske aktiviteter på et projektledermøde: 
+• Statusrapportering:  
+o Projektlederen præsenterer projektets fremdrift, herunder tidsforbrug, økonomi og eventuelle 
+afvigelser fra planerne.  
+• Risikostyring:  
+o Vurdering af nye eller igangværende risici i projektet, og eventuel justering af planer for at hånd-
+tere dem.  
+• Budgetkontrol:  
+o Gennemgang af projektets økonomi og sikring af, at det holder sig inden for budgettet.  
+• Leverancestyring:  
+o Opfølgning på leverancer og sikring af, at de opfylder de aftalte krav og mål.  
+• Planlægning og opfølgning:  
+o Udarbejdelse og opdatering af projekt - og detailplaner samt opfølgning på de enkelte opgaver 
+og milepæle.  
+• Beslutningsgrundlag:  
+o Projektlederen sikrer, at beslutninger og retningslinjer fra styregruppen bliver implementeret, og 
+fremlægger spørgsmål til styregruppen for beslutning.  
+• Interessenthåndtering:  
+o Koordinering og opfølgning med eksterne leverandører og andre interessenter.
+
+## Page 7
+• Teamkoordination:  
+o Fordeling af arbejdsopgaver til teammedlemmer og facilitering af statusmøder med arbejdsgrup-
+perne.  
+Styrergruppemøder: 
+Styregruppen består af personer fra Kunde og Leverandør med beslutningskompetencer. P å styregruppemøder 
+træffer styregruppen de overordnede beslutninger og sikrer, at projektet lever op til de strategiske mål og pro-
+jektbeskrivelsen. Projektlederen leverer information om projektets fremdrift, afslutning af faser, og eventuelle 
+udfordringer, der kræver styregruppens opmærksomhed. Styregruppen godkender større dele af leverancer, sty-
+rer ressourcer og økonomi, og sikrer, at resultaterne forankres i organisationen.  
+Styregruppens rolle og ansvar 
+• Overordnet ansvar:  
+o Styregruppen har det overordnede ansvar for projektets succes og holder det på rette spor i hen-
+hold til projektets formål og succeskriterier.  
+• Beslutningstagning:  
+o Styregruppen træffer beslutninger vedrørende projektets rammer, ressourcer, tidsplan og even-
+tuelle ændringer i scope.  
+• Strategisk forankring:  
+o Styregruppen sikrer, at projektet stemmer overens med organisationens overordnede strategier 
+og at resultaterne bliver godt modtaget og forankret på tværs af afdelinger.  
+• Ressourceallokering:  
+o Styregruppen er ansvarlige for projektets økonomi og sikrer de nødvendige ressourcer og kapital.  
+• Orientering:  
+o Projektlederen orienterer styregruppen om projektets aktuelle status, herunder fremskridt, bud-
+get, tidsplan og eventuelle risici.  
+• Faseafslutninger:  
+o Styregruppen godkender typisk afslutningen af en projektfase og de store delleverancer, der er 
+produceret.  
+• Beslutningspunkter:  
+o Styregruppemøderne fokuserer ofte på at træffe vigtige beslutninger, der enten kræver styre-
+gruppens godkendelse eller deres godkendelse af større dele af leverancerne.
+
+## Page 8
+• Afklaring af akutte udfordringer:  
+o Hvis der opstår uforudsete problemer eller akutte udfordringer, mødes styregruppen for at finde 
+løsninger.  
+• Strategiske beslutninger:  
+o Styregruppen kan diskutere og beslutte om ændringer i projektets formål eller leverancer som 
+følge af ændringer i omgivelserne eller strategiske prioriteringer.   
+• Styregruppeaftale: 
+o Det anbefales at have en styregruppeaftale, som definerer medlemmernes roller og ansvar, hvil-
+ket sikrer en forventningsafstemning og understøtter en effektiv ledelsesmæssig styring af pro-
+jektet.  
+ 
+Beskrivelse af eskalation af fejl og andre uoverensstemmelser i samarbejdet mellem Kunden 
+og Leverandør.  
+Eskalation af fejl og andre uoverensstemmelser i samarbejdet vil foregå efter følgende procedure 
+• Projektleder fra Kunden og Leverandøren mødes løser uoverensstemmelsen 
+• Styregruppen præsenteres for uoverensstemmelser og ser om de kan afklare og løse uoverensstemmel-
+sen 
+• Leverandørens Direktør for konsulenterne og Kundens Vicedirektør mødes for at afklare og løse uover-
+ensstemmelsen 
+• Leverandørens Head of Public 360 og Kundens Adm. direktør mødes for at afklare og løse uoverensstem-
+melser. 
+• Parterne kan vælge at anvende en moderator for at løse uoverensstemmelsen. 
+ 
+En redegørelse for, hvordan sygdom og andet fravær håndteres. 
+Sygdom 
+• Ved kortere sygdom orienteres Kunden omkring fraværet og hvorledes projektet opretholder sin fremdrift 
+uden tab af tid. 
+• Ved længerevarende sygdom vil medarbejderen blive erstattet af en ny medarbejder med de kompeten-
+cer, der er nødvendige for at sikre fremdrift i projektet. Den nye medarbejder vil blive præsenteret for 
+Kunden inden opstart. 
+ 
+Planlagt ferie: 
+• Ferie er medtaget i projektplanen og vil derfor ikke påvirke fremdriften.
+
+## Page 9
+Medarbejder stopper i ansættelse hos Leverandøren 
+• Udskiftning af medarbejder vil blive foretaget med udgangspunkt i at sikre fremdriften i projektet. Den 
+ny Medarbejders kompetencer skal derfor indpasses i den samlede bemanding af projektet, der sikrer 
+en succesfuld implementering. Kunden vil blive orientere omkring medarbejder kompetencer og hvorle-
+des justering og planlægning af det resterende projekt vil forløbe succesfuld.
+
+## Page 10
+3 Incident Management  
+Leverandørens Kundeservice sikrer, at hændelser (incidents) igangsættes, eskalerer og løses i overensstemmelse 
+med reaktions- og løsningstider aftalt i Bilag 1.1 Servicemål (SLA). 
+Leverandørens Kundeservice kan yde assistance ved teknisk fejlfinding af kundespecifikke spørgsmål, fejlfinding 
+af adgangskontrol, installation og konfigurering af software på den enkelte brugers PC. Assistance udføres som 
+en konsulentydelse efter Leveringsdato. 
+Serviceperiode 
+Leverandørens Kundeservice er tilgængelig for Kunden i ordinær arbejdstid, som er kl. 08.00–16.00 på hver-
+dage (mandag–fredag) (Tjenesteperioden). 
+Leverandørens Serviceportal er tilgængelig for Kunden døgnet rundt. 
+Leverandøren har medarbejder på arbejde, som overvåger Cloud-tjenesten døgnet rundt. I tilfælde af driftstop, 
+også uden for Tjenesteperioden, påbegyndes teknisk fejlfinding, så snart meddelelse modtages fra Cloud-tjene-
+sten. 
+Kunden kan bestille support uden for Tjenesteperioden, hvis Kunden anser dette for nødvendigt. Omfanget af-
+tales med Leverandøren. 
+Sprog 
+Ved login på Leverandørens Serviceportal kan Kunden vælge mellem forskellige sprog. Hjælpeteksten i Cloud-
+tjenesten er på dansk. 
+4 Supportmanagement, herunder rapportering af fejl  
+Leverandørens Serviceportal er Leverandørens løsning for IT Service Management og platformen for kommuni-
+kation mellem Kunden og Leverandøren efter Leveringsdatoen. 
+Kunden skal udpege dedikerede kontaktpersoner (Superbrugere), som får adgang til Leverandørens Servicepor-
+tal og bliver kontaktpunktet mellem Kunden og Leverandøren. Superbrugerne skal have kendskab til Cloud-tje-
+nesten og holde sig opdateret om ændringer og nye versioner. Hvis Kunden har behov for at skifte Superbru-
+ger, skal Leverandøren underrettes for at lette dette. 
+Superbrugere kan indtaste bestillinger og tilbudsanmodninger samt registrere sager i Leverandørens Service-
+portal. Sager kan være anmodninger om brugersupport eller fejlrapportering. 
+Med "brugersupport" menes spørgsmål fra Kunden af funktionel eller teknisk karakter, som ikke dækkes af 
+Hjælp-funktionen, uddannelsesmateriale eller anden tilgængeliggjort dokumentation. Med "fejlrapportering"
+
+## Page 11
+menes i denne sammenhæng rapportering af uplanlagt afbrydelse i Cloud-tjenesten eller forringelse af kvalite-
+ten af Cloud-tjenesten, se Bilag 1.1 Servicemål (SLA). afsnit 4.5 ”Kategorisering og afhjælpning af Fejl”. 
+Superbrugerne skal følge op på registrerede sager og bistå internt hos Kunden. 
+Alle sager følges op af Leverandøren og besvares med et forslag til løsning. Sagen afsluttes automatisk ved Kun-
+dens godkendelse af forslaget til løsning, eller efter 7 (syv) kalenderdage, hvis Kunden ikke svarer. Kunden kan i 
+denne periode også afvise forslaget til løsning.

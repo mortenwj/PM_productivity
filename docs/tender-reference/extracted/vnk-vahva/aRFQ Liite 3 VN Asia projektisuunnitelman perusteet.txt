@@ -1,0 +1,138 @@
+VN Asia projektisuunnitelman perusteet
+Tämän dokumentti on Tilaajan näkemys toimituksen läpiviennistä ja se kuvaa puitteet, joiden pohjalta Toimittaja suunnittelee oman toimituksensa. Toimittaja kuvaa projektinsa omien parhaiden käytäntöjen mukaan, kuitenkin niin että tarjouspyyntömateriaalissa esitetyt vaatimukset ovat selkeästi löydettävissä ja ymmärrettävässä muodossa kuvattu.
+Dokumentissa kuvataan VN Asia -hankkeen alustava suunnitelma Valtioneuvoston asianhallintajärjestelmä-kokonaisuuden kehittämishankkeen (VN Asia) projektitasoiselle läpiviennille. Tässä dokumentissa ei oteta kantaa töiden jakautumisesta VN Asia -hankkeen sisäisten projektien välillä. Hankkeeseen sisältyy Valtioneuvoston asianhallintajärjestelmän (VAHVA) uudistaminen sekä uudistamista tukevien palveluiden rakentaminen.
+Tässä suunnitelmassa kuvataan hankkeen projektien suunnitelmia hankintavaiheen jälkeiseltä ajalta, aina hankkeenaikaisten toteutusten päättymiseen saakka.
+Suunnitelmia tarkennetaan valitun Toimittajan kanssa toimituksen aloitusvaiheen aikana Q4/2026.
+Projektin tavoitteet ja tehtävät
+Projektin tavoitteet
+Projektin keskeisin tehtävä on käyttöönottaa hankinnan kuvaama järjestelmäkokonaisuus. Projektin tavoitteet on asetettu vaiheittain ja tarkentuvat kunkin vaiheen suunnittelun aikana.
+Projektin keskeisimmät tehtävät
+Projektin tuotosten pitää täyttää asetetut laatuvaatimukset ja seuraavat tehtävät pitää olla suoritettuina:
+Nykyisen asianhallinnan järjestelmän alasajon mahdollistavat palvelut on käyttöönotettu.
+Kokonaisuuden järjestelmät ovat käyttöönotettu loppukäyttäjille vähintään MVP-tasoisina palveluina.
+Datamigraatio nykyisestä asianhallinnan järjestelmästä hankittavaan järjestelmään tehty onnistuneesti.
+Loppukäyttäjien toimintamallit käyttöönotettujen palveluiden osalta on määritelty, dokumentoitu ja koulutettu.
+Suunniteltu toimintamalli järjestelmäkokonaisuuteen integroitumiseksi on kuvattu.
+Järjestelmäkokonaisuuteen on rakennettu sen ulkopuolinen integraatio.
+Käyttöönotetut palvelut on luovutettu ylläpidon vastuulle.
+On valmisteltu perusta järjestelmäkokonaisuuden jatkuvalle kehittämiselle ylläpitovaiheessa.
+Projektin hyödyt
+Loppukäyttäjille tarjotaan käytettävyydeltään ja tekniseltä suorituskyvyltään kehittyneet asianhallinnan palvelut, jotka tukevat työskentelyä aiempaa paremmin.
+Suunnitelmallinen käyttöönotto, yhteisten toimintamallin määrittely sekä kattava koulutus luovat pohjan uusien palveluiden tuomalle hyödylle sekä tiedolla johtamiselle.
+Luodaan pohja ylläpidon ketterälle kehitysmallille, jonka avulla asianhallinnan palveluiden kehittämistä hankkeen aikana käyttöönotettujen palvelujen osalta voidaan jatkaa.
+Keskitettyjen asianhallinnan palveluiden käyttöönottaminen, jotka mahdollistavat niihin integroitumisen tai käyttämisen laajasti valtioneuvoston sisällä.
+Projektin vaiheet ja vastuut
+Projektin tavoitteena on luoda edellytykset hankitun järjestelmänkokonaisuuden palveluiden käyttöönotolle ja niiden tuotantokäytön aloittamiselle, sekä luovutukselle jatkuvan palvelu vastuulle.
+Projektin tarkemmat tehtävät jakautuvat vaiheittain ja niitä tarkistetaan näiden päätöspisteissä. Ylätasolla vaiheistuksen hallinnan osalta projekti noudattaa Prince2 -projektinhallintamallia, vaiheiden sisällä SAFe -viitekehyksen käytäntöjä.
+Projektin vaiheisiin liittyvä aikataulutus löytyy liitteestä 3.3 Projektin aikataulukuvaus.
+Toimittajalla on kokonaisvastuu toimituksen läpiviennistä kuvaamansa suunnitelman mukaan. Suunnitelmaan odotetaan Toimittajan alustavaa näkemystä toimitusorganisaationsa kokoonpanosta projektin eri vaiheisiin ja mitä vastinpareja ja osaamista Tilaajalta odotetaan. Lisäksi odotetaan Toimittajan ehdotusta, miten vaiheiden sisältövastuut jakaantuvat Toimittajan ja Tilaajan kesken. Lopullisista sisältövastuista sovitaan erikseen.
+Seuraavissa alikappaleissa on kuvattu hankkeen vaiheita ja vastuita Tilaajan näkökulmasta. Ketterän kehittämisen mallin mukaan samat vaiheet voivat toistua tämän hankkeen aikana.
+Projektin vaihe 1 – Toimituksen aloitusvaihe
+Toimituksen aloitusvaihe, jossa aloitetaan yhteistyö valitun Toimittajan kanssa. Tässä vaiheessa päivitetään yhteistyössä toimittajan tarjouksessa toimittama projektisuunnitelma, kuten muutkin oleelliset toimitukseen liittyvät suunnitelmat. Vaiheen aikana sovitaan yhteistyön käytännöt ja siihen liittyvät viestinnän tavat.
+Varmistetaan että hankkeessa on valmiudet aloittaa seuraava vaihe. Tämä pitää sisällään kaiken sidosryhmätoiminnan valmistelun, mm. työvälineiden käyttöoikeudet sekä muut Tilaajan käytäntöihin liittyvät läpikäynnit.
+Projektin vaihe 2 – PoC-vaihe
+Projektin ensimmäinen toimitusvaihe, jonka aikana toteutetaan VN Asia -järjestelmäkokonaisuuden Proof of Concept (PoC). Vaiheesta on oma suunnitelma liitteessä 3.1 ”PoC-vaiheen kuvaus”, joka kuvaa vaiheen toteutuksen. Toimittaja toimittaa oman toteutussuunnitelmansa vaiheen osalta.
+Projektin vaihe 3 – Suunnitteluvaihe
+Ensimmäisten käyttöönottojen suunnitteluvaiheen päätavoitteena on suunnitella nykyisin käytössä olevan asianhallintajärjestelmän palveluiden korvaamisen rakentaminen- ja käyttöönotto niiltä osin kuin ne ovat VN Asia -hankkeen vastuulla.
+Vaihe aloitetaan, kun Toimittajan aloitusvaihe on saatu päätöksen. Vaihe etenee rinnakkain PoC-vaiheen kanssa. Tässä vaiheessa tehdään tarvittava määrittely ja suunnittelu PoC-vaiheen jälkeen alkavalle järjestelmien rakennusvaiheelle.
+Vaiheen sisältö ja vastuut on kuvattu tarkemmin konseptissa liitteessä 3.2 Rakentamis- ja käyttöönottovaiheen suunnitteluvaiheen kuvaus (Huom. liite toimitetaan vasta lopullisen tarjouksen yhteydessä). Toimittaja toimittaa oman toteutussuunnitelman vaiheen osalta.
+Projektin vaihe 4 – Rakentamisvaihe 1 (RV1)
+Vaiheen tavoitteena on asianhallintajärjestelmän sekä käyttöliittymä- ja integraatioratkaisujen MVP version rakentaminen käyttöönottoa varten. Rakentamisvaihe voidaan aloittaa, kun PoC ja suunnitteluvaiheen tavoitteet on saavutettu.
+Palveluiden rakentaminen ja käyttöönotto suunnitellaan siten, että ensin kyetään korvaamaan valtioneuvoston nykyinen elinkaarensa päässä oleva asianhallintajärjestelmä (VAHVA). Osana korvaamista tehdään migraatio niiltä osin kuin nykyisen järjestelmän tiedot halutaan tuoda VN ASIA -järjestelmäkokonaisuuteen.
+Palveluiden osalta käyttöönoton suunnitellaan pienimmän toimivan tuotteen periaatteella (Minimum Viable Product), jolla luodaan pohja ketterään kehittämiseen ylläpitovaiheessa.
+Jatkokehitystä ohjaa ennen kaikkea määriteltävän järjestelmän visio ja hyötytavoitteet, ja sen pohjalta yhdessä Toimittajan kanssa toimituksen aloitusvaiheessa laadittu tiekartta järjestelmän kehityksestä.
+Projektin vaihe 5 – Käyttöönottovaihe ja RV2
+Vaiheen aikana koulutetaan järjestelmäkokonaisuuden käyttäjät käyttöönotettaviin palveluihin ja niiden toimintatapa/prosessimuutoksiin, Toimittaja vastaa omasta osuudestaan koulutuskonseptin liite 3.6 mukaisesti.
+Tilaajan tuotantokäyttöönottoa varten luovutetun (osa)kokonaisuuden hyväksyminen (katselmointi, validointi) ja tarvittavat järjestelmien auditoinnit ovat osa tätä vaihetta. Toimittajan vastuulla on tukea Tilaajaa ja reagoida löydöksiin nopeasti.
+Vaiheen aikana valmistellaan käyttö- ja ylläpitovaiheen organisaatio ja toiminta sekä Tilaajan että Toimittajan toimesta.
+Vaiheen tavoitteena on lisäksi mahdollisesti optioina hankittavien tiedonohjaus- ja arkistointijärjestelmien rakentaminen käyttöönottoa varten.
+Vaihe päättyy, kun hankittu suorituskyky on käyttöönotettu suunnitellusti ja luovutettu ylläpidolle.
+Projektin vaihe 6 – Käyttö- ja ylläpitovaihe ja RV3
+Käyttö ja ylläpito -vaiheessa vastuu järjestelmästä siirtyy ylläpito-organisaatiolle, Toimittaja vastaa omasta osuudestaan ylläpitosopimuksen mukaisesti. Projekti tukee sovituin tavoin ylläpito-organisaatiota.
+Vaiheen aikana tuotetaan VN Asian kehittämisjonosta lisää toimintoja käyttöönotettujen järjestelmien seuraavaksi julkaisuversioksi (erityisesti asianhallintajärjestelmästä).
+Käyttö- ja ylläpitovaiheessa seurataan saavutettua suorituskykytasoa arvioimalla suorituskyvyn ylläpidettävyyttä ja riittävyyttä operatiivisiin suunnitelmiin sekä käytön volyymiin nähden. Lisäksi seurataan materiaalin teknistä elinkaarta ja arvioidaan edellytykset ylläpitää sitä tulevaisuudessa elinkaarisuunnitelman mukaisesti.
+Järjestelmäkokonaisuutta tullaan jatkokehittämään hankkeen päättymisen jälkeen, tästä sovitaan Toimittajan kanssa erikseen.
+Projektin vaihe 7 – Projektin purku
+Purkamiseen liittyvät toimenpiteet ja resurssitarpeet tulee suunnitella, resursoida, toteuttaa ja dokumentoida. Tämä vaihe suunnitellaan projektin aikana, Toimittajan ei tarvitse suunnitella purkutoimenpiteitä osana tarjousta.
+Projektin rajaus ja reunaehdot
+[Tällä hetkellä kohtaan ei ole aiheita]
+Kriittiset menestystekijät (Success factors)
+VN Asia-hankkeen projekteissa on yleisesti tärkeää osaaminen ja kokemus ketterästä projektiohjaamisesta laajamittaisen, kompleksisen tietotekniikkapalvelu/-järjestelmäkokonaisuuden toimituksissa.
+Hankitun valmisohjelmiston sopivuus ja muokattavuus valtioneuvoston toimintatapaan ja prosesseihin sopivaksi nähdään tärkeäksi.
+Kriittisinä menestystekijöinä Toimittajan osalta nähdään vahva kokemus ja osaaminen laajamittaisten ICT-ratkaisujen tarjoamisesta. Kokemus ja osaaminen toimituksista korkean tietoturvan ympäristöihin ja vahva kybersuojaamisen ymmärrys ovat VN Asia-hankkeessa suuressa roolissa.
+Toimittajalla tulee olla vahva ja monipuolinen perinteisen projektinsuunnittelun ja -hallinnan osaaminen, ketterän suunnittelun ja ohjauksen asiantuntemus, sekä kyky käyttää projektinohjausmallien yhdistelmiä hybridisovellutuksina. Toimittajan tulee kokemukseensa ja osaamiseensa perustuen pystyä perustellusti käyttämään projektinohjauksessa parhaiten kulloiseenkin vaiheeseen soveltuvia menetelmiä. Erityisesti SAFe -viitekehyksen ja Prince2 -projektinhallinnan menetelmien tuntemus tukee tätä toimintaa.
+On myös ensiarvoisen tärkeää, että Toimittajan tiimissä on projektin eri vaiheissa riittävästi kokemusta hankinnan kohteena olevien palvelujen toimituksista.
+Vahva tarjottavien järjestelmien ja palveluiden kohdealueiden ymmärrys ja osaaminen on välttämätön onnistumisen edellytys.
+Kokemus laajojen ICT-ratkaisujen käyttöönotoista ja niiden onnistumiseen vaikuttavien tekijöiden osaaminen ja hallinta, erityisesti julkishallinnossa, on tärkeässä roolissa.
+PROJEKTIN TOIMEENPANO
+Projektissa käytettävät suunnittelun ja ohjauksen metodit
+Projekti on jaettu toimitusvaiheisiin. Toimitusvaiheiden suunnitelmat tuotetaan aluksi ylätasolla ja seuraava vaihe suunnitellaan aina tarkemmin meneillään olevan vaiheen aikana. Toimitusvaiheet voivat koostua yhdestä tai useammasta toimituserästä. Toimituserien etenemistä seurataan sprinteissä, jotka lähtökohtaisesti ovat kahden viikon mittaisia.
+Projektin vaiheistus on kuvattu liitteessä 3.3 Projektin aikataulukuvaus.
+Projekti noudattaa vaiheiden tällä tasolla suunnitelmavetoista lähestymistä projektinhallintaan, jossa vaiheille on suunniteltu aloitus- ja päätöspisteet. Vaiheiden sisällä hyödynnetään ketterää lähestymistapaa niillä alueilla, missä siitä tunnistetaan olevan hyötyä. Erityisesti toimituserien osalta pyritään hyödyntämään ketteriä menetelmiä, sekä luomaan joustava iteratiivinen malli, joka käyttöönottojen edistyessä kehittyy entisestään. Tämä malli voi tarvittaessa toimia pohjana ylläpidon aikaisen jatkokehittämisen mallina.
+Ylätasolla projekti noudattaa vaiheistusta ja pohjaa Prince2 -projektinhallintamallin. Vaiheiden sisällä pyritään ketterien työskentelytapojen hyödyntämiseen SAFe -viitekehitystä hyödyntäen.
+Toimittaja tekee tarjoukseen suunnitelmat rakentamisvaiheeseen 1. Lisäksi Toimittaja suunnittelee ylätasolla sitä seuraavat käyttöönoton ja rakentamisen vaiheet kuvatuissa puitteissa.
+Projektissa tullaan hyödyntämään Toimittajan projektinhallinnan ja ketterien menetelmien osaamista. Toimittaja kuvaa oman organisoitumisen osana tarjousta ja tätä tarkennetaan toimituksen aloitusvaiheessa.
+Toimituserä
+Projektin kehitystyötä hallitaan toimituserissä. Toimitusvaihe koostuu yhdestä tai useammasta toimituserästä. Toimituserän vastine SAFe-viitekehyksessä on Program Increment (PI).
+SAFe julkaisujunan (Agile Release Train, ART) organisaatio koostuu Tilaajan ja Toimittajan henkilöistä järjestelmien tiimeistä ja niitä tukevista yhteisten intressien toiminnoista. Nämä voivat olla omia tiimejä tai yksittäisiä rooleja.
+Julkaisujunan toiminta alkaa Toimittajan aloitusvaiheen jälkeen.
+Julkaisujuna kokoaa tiimien työn hallinnan yhden kokonaisuuden alle.
+Julkaisujuna toteuttaa vision mukaista suunnitelmaa, joka on laadittu taktisella tasolla.
+Tuotehallinta ylläpitää julkaisujunan priorisoitua kehitysjonoa (Program Backlog)
+PoC-vaihe sekä rakentamis- ja käyttöönottovaiheet jaetaan useampaan toimituserään, jotka ovat kestoltaan 8–12 viikkoa. Oletusarvona on 12 viikkoa. Sovitun toimituserän aikataulu on kiinteä.
+Toimituserä suunnitellaan suunnittelupäivässä (PI Planning) perustuen osana jatkuvaa työskentelyä tapahtuvaan backlogin priorisointiin sekä sen sisällön analyysiin.
+Jokaiselle toimituserälle järjestään oletusarvoisesti oma suunnittelupäivä, jonka osana arvioidaan myös edellisen toimituserän toteutuminen.
+Tilaaja vastaa suunnittelupäivästä, Toimittaja tukee tilaisuuden sisällön tuottamisessa ja läpiviennissä.
+Toimituserä jakautuu kahden viikon sprintteihin, joita tiimit kontrolloivat itse.
+Toimituserän sisältö, laatuvaatimukset, resurssointi ja sprinttiaikataulu määritellään suunnittelupäivän yhteydessä.
+Toimituserän viimeisen sprintin aikana tehdään toimituserän hyväksyntä, jonka jälkeen toimituserä luovutetaan Tilaajalle hyväksyntätestaukseen.
+Resurssisuunnitelma
+Hankkeen kehitystyöhön osallistuu Tilaajan puolelta laajalti eri tehtävä- ja osaamisalueen henkilöstöä. Näitä tarpeita tarkennetaan vaiheittain ottaen kuitenkin huomioon se, että henkilöiden saatavuudesta pitää sopia hyvissä ajoin etukäteen. Yleisellä tasolla kuvattuna Tilaajan puolelta toimittajan vastinparina on kehitystyöhön käytettävissä moduulikohtaiset Tuoteomistajat, loppukäyttäjien edustajat, Tilaajan projektinhallinto, testauksesta vastuullinen, arkkitehtuuri- ja ratkaisuosaamista sekä Tilaajan teknisen ja toiminnallisen ympäristön tuntevaa henkilöstöä. Tämän hetken kuva Tilaajan organisoitumisesta on kuvattu RFQ liite 3.4 Projektin organisoitumis- ja hallintomalli.
+Toimittaja kuvaa osana suunnitelmaansa arvionsa Tilaajan resurssitarpeista toimituseräkohtaisesti, oletuksella että tässä vaiheessa toimituksen alkupään osalta kuvaus pystytään tekemään tarkemmin kuin myöhempien vaiheiden osalta.
+Toimittajalta vaaditut avainhenkilöiden osaamisvaatimukset on kuvattu erikseen RFQ liite 3.5 Toimittajan osaamisvaatimukset. Näitä käytetään osana tarjouksen laadullista arviointia. Toimittajan resursseihin ei tarkemmalta osalta ole otettu kantaa, vaan suunnitelmassa lähdetään oletuksesta, että Toimittaja kuvaa resurssisuunnitelmansa osana tarjousta omien parhaiden käytäntöjensä mukaan.
+Toimittaja antaa henkilötyönsä hinnoittelun projektityön osalta kolmessa alla olevassa kategoriassa, silloin kun käytetään Tilaajan antamaa työmäärää hintavertailussa. Tällöin työ jakautuu arvioitavan kokonaisuuden %-luvun suhteessa:
+Johtavien asiantuntijoiden työ 20 %
+Asiantuntijoiden työ 50 %
+Perustason työ 30 %
+Aikataulu
+Projektin vaiheittainen aikataulu ylätasolla on alla:
+Toimituksen aloitus (Q4/2026)
+PoC-vaihe (Q4/2026 – Q1/2027)
+Rakentamisen suunnitteluvaihe (Q4/2026 – Q1/2027)
+Rakentamisvaihe 1 (Q2/2027- Q1/2028)
+Käyttöönotto (ja rakentamisvaihe 2) (Q2-Q4/2028)
+Käyttö- ja ylläpitovaihe (rakentamisvaihe 3) (Q1-Q2/2029)
+Hankkeen ja projektin purku (Q2/2029 loppuun mennessä)
+Aikataulu toimitusvaiheittain on kuvattu liitteessä 3.3 Projektin aikataulukuvaus. Toimituserien tarkka aikataulu suunnitellaan yhdessä Toimittajan kanssa suunniteltavaa vaihetta edeltävässä vaiheessa.
+Toimittaja kuvaa osana tarjousta alustavan toimituseräkohtaisen aikataulun, oletuksella että tässä vaiheessa toimituksen alkupään osalta kuvaus pystytään tekemään tarkemmin kuin myöhempien vaiheiden osalta.
+Testaussuunnitelma
+Toimittaja laatii testaussuunnitelman mikä pohjautuu Toimittajan vastaavissa hankkeissa hyväksi todettuun menettelytapaan. Oletusarvoisesti suunnitelma noudattaa jotain ohjelmistokehityksessä yleisesti käytettyä standardia. Testaussuunnitemassa tulee huomioida Tilaajan vastaanotto-/hyväksyntämenettelyt Toimittajan tuotoksille.
+Ketterässä mallissa hyväksyntä tehdään lähtökohtaisesti toimituserittäin. Havaitut virheet kirjataan backlogiin ja korjataan sovitun mallin mukaisesti. Tämän lisäksi tullaan toteuttamaan myös kokonaisuuden lopullinen hyväksymistestaus ennen MVP kokonaisuuden käyttöönottoa. Tämä voi olla kevyempi testaus, jossa hyödynnetään mahdollisimman pitkälle testausautomaatiota.
+Laatusuunnitelma
+Toimittaja laatii ”SFS‑ISO 10005” standardin mukaisen laatusuunnitelman.
+Olettamat
+VN Asia hankkeen yhteydessä pyritään yhtenäistämään ministeriöiden toimintatapoja VN Asia käyttötapausten osalta. Tavoitteena on kuitenkin yhteisten toimintatapojen määrittely läpi organisaation, jota hankittu järjestelmäkokonaisuus tukee.
+Riippuvuudet
+Riippuvuudet mm. muihin Tilaajan kehitystöihin tarkennetaan yhdessä Toimittajan kanssa tehtävän suunnittelun aikana.
+Dokumentaatio
+Toimittajan osana toimitusta tuottama dokumentaatio tarkentuu projektin aikana. Ensimmäisen toimitusvaiheen dokumentaatio on kuvattu näiden vaiheiden kuvauksissa tarkemmin.
+Yleisellä tasolla Toimittaja kuvaa toiminnalliset määrittelyt, tekniset suunnitelmat, testauksen suunnitelmat ja ratkaisukuvaukset omien parhaiden käytäntöjensä mukaan. Näiden pitää kuitenkin täyttää Tilaajan asettamat laatuvaatimukset mitkä tarkennetaan projektin alussa.
+Projektin etenemisen hallinta
+Näistä ja tarkemmista työskentelymenetelmistä Toimittajan kanssa sovitaan tarkemmin toimituksen aloitusvaiheessa.
+Hankkeessa ja projektissa käytettävä organisoitumis- ja hallintamalli on kuvattu RFQ liitteessä 3.4 Projektin organisoitumis- ja hallintomalli, jossa myös Toimittajan rooli on kuvattu.
+Toimittajan raportoinnista töiden etenemisen osalta sovitaan tarkemmin toimituksen aloitusvaiheessa.
+Projektin riskienhallinta
+VN Asia hanke on laatinut riskienhallintamatriisin ja ylläpitää matriisia. Tässä projektissa käytetään edellä mainittua matriisia riskien hallinnassa. Riskejä käsitellään myös projektikokouksissa. Erillistä riskienhallintasuunnitelmaa ei tehdä. Riskitilanne raportoidaan sidosryhmille tarvittaessa riskikartalla.
+Kaikki projektiin osallistuvat ovat velvollisia ilmoittamaan tunnistamansa riskit projektipäällikölle. Projektipäällikkö arvottaa riskit ja merkitsee ne riskitaulukkoon käsiteltäväksi seuraavassa projektikokouksessa / hankekokouksissa. Riskien hallintatoimet ja niistä tiedottaminen johdolle ennen seuraavaa kokousta tehdään projektipäällikön harkinnan mukaan.
+Projektikokouksessa riskitaulukon riskit käsitellään, arvioidaan niiden tila ja riskiluvut. Projektipäällikkö päivittää taulukon kokousmuistion liitteeksi.
+Riskimatriisia ei julkaista tämän projektisuunnitelmaversion mukana.
+Projektin turvallisuus
+Tilaajan projektipäällikkö yhdessä hankepäällikön kanssa vastaa projektin turvallisuudesta, sekä projektiin osallistuvien valtioneuvoston ulkopuolisten henkilöiden perehdyttämisestä.
+Jokainen projektissa työskentelevä henkilö vastaa omalta osaltaan turvallisuusmääräysten noudattamisesta.
+Tietoturvallisuus
+Projekti käyttää työssään pääsääntöisesti valtioneuvoston virtuaalisia työtiloja, tietoverkkoja, tietojärjestelmiä ja tietokoneita.
+Yhteistyöosapuolen tai Toimittajan edustajat käyttävät omia tietoverkkojaan, tietojärjestelmiään ja tietokoneitaan. VN Asia hankkeessa Toimittajan käyttöön annetaan riittävä määrä Valtti-työasemia projektiin osallistuvan henkilöstön käyttöön.
+Valtioneuvosto voi osoittaa ulkopuolisen toimijan käyttöön myös muita laitteistoja, ohjelmistoja tai palveluja harkintansa mukaan.
+Projekti käyttää VN Asia Tiimerityötilaa (SharePoint) projektin sisäiseen ja ulkoiseen tiedon- ja asiakirjojen välitykseen tietoturvaluokittelun sallimissa rajoissa. Turvaposti on myös projektin käytössä.
+Hankinnoissa turvallisuusvaatimukset asetetaan tapauskohtaisesti valtioneuvoston ohjeistukseen perustuen.
+Valtioneuvoston kanslian valmiusyksikkö hallinnoi ja anoo toimittajien turvaselvitykset.

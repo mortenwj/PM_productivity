@@ -1,0 +1,802 @@
+[
+  {
+    "rel_source": "FHM/02.01-Tieto-Bilag 2-Vedlegg-Utfyllende beskrivelse av Tjenesten.docx",
+    "rel_extracted": "FHM/02.01-Tieto-Bilag 2-Vedlegg-Utfyllende beskrivelse av Tjenesten.txt",
+    "ext": ".docx",
+    "size_bytes": 32498164,
+    "tender": "FHM",
+    "extract_chars": 292716,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "FHM/03.00-Tieto-Bilag 3-Plan for etableringsfasen.docx",
+    "rel_extracted": "FHM/03.00-Tieto-Bilag 3-Plan for etableringsfasen.txt",
+    "ext": ".docx",
+    "size_bytes": 210225,
+    "tender": "FHM",
+    "extract_chars": 19045,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "FHM/Ansvarsmatrise&Svar på kravspesifikasjon_FHM.xlsx",
+    "rel_extracted": "FHM/Ansvarsmatrise&Svar på kravspesifikasjon_FHM.txt",
+    "ext": ".xlsx",
+    "size_bytes": 152945,
+    "tender": "FHM",
+    "extract_chars": 57578,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "FHM/Fremdriftsplan med estimater - P360 Implementering.xlsx",
+    "rel_extracted": "FHM/Fremdriftsplan med estimater - P360 Implementering.txt",
+    "ext": ".xlsx",
+    "size_bytes": 71110,
+    "tender": "FHM",
+    "extract_chars": 27887,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "FHM/Konkurransegrunnlag del III åpen anbudskonkurranse_v2.docx",
+    "rel_extracted": "FHM/Konkurransegrunnlag del III åpen anbudskonkurranse_v2.txt",
+    "ext": ".docx",
+    "size_bytes": 90798,
+    "tender": "FHM",
+    "extract_chars": 14476,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Granskning og arbeidsflyt oversikt krav og avhengigheter.xlsx",
+    "rel_extracted": "Granskning og arbeidsflyt oversikt krav og avhengigheter.txt",
+    "ext": ".xlsx",
+    "size_bytes": 41941,
+    "tender": "(root)",
+    "extract_chars": 70526,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "HSØ/02.00-Tietoevry-SSA-L-Bilag 2-Leverandørens beskrivelse av Tjenesten.docx",
+    "rel_extracted": "HSØ/02.00-Tietoevry-SSA-L-Bilag 2-Leverandørens beskrivelse av Tjenesten.txt",
+    "ext": ".docx",
+    "size_bytes": 27402912,
+    "tender": "HSØ",
+    "extract_chars": 412958,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KK Tender tool.xlsx",
+    "rel_extracted": "KK Tender tool.txt",
+    "ext": ".xlsx",
+    "size_bytes": 351064,
+    "tender": "(root)",
+    "extract_chars": 256241,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Bilag 1 - Tidsplan.docx",
+    "rel_extracted": "KUM-SLKS/Bilag 1 - Tidsplan.txt",
+    "ext": ".docx",
+    "size_bytes": 244932,
+    "tender": "KUM-SLKS",
+    "extract_chars": 24124,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Bilag 10 - Producentens standardvilkår.docx",
+    "rel_extracted": "KUM-SLKS/Bilag 10 - Producentens standardvilkår.txt",
+    "ext": ".docx",
+    "size_bytes": 120526,
+    "tender": "KUM-SLKS",
+    "extract_chars": 17739,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Bilag 11a - Leverandørens priser.xlsx",
+    "rel_extracted": "KUM-SLKS/Bilag 11a - Leverandørens priser.txt",
+    "ext": ".xlsx",
+    "size_bytes": 22846,
+    "tender": "KUM-SLKS",
+    "extract_chars": 3063,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Bilag 3 - 11.8 - Kravspecifikation - Processtyring (1).docx",
+    "rel_extracted": "KUM-SLKS/Bilag 3 - 11.8 - Kravspecifikation - Processtyring (1).txt",
+    "ext": ".docx",
+    "size_bytes": 1718630,
+    "tender": "KUM-SLKS",
+    "extract_chars": 7230,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Bilag 3 - Kravspecifikation.docx",
+    "rel_extracted": "KUM-SLKS/Bilag 3 - Kravspecifikation.txt",
+    "ext": ".docx",
+    "size_bytes": 10424740,
+    "tender": "KUM-SLKS",
+    "extract_chars": 79583,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Tilbudsbrevdocx.pdf",
+    "rel_extracted": "KUM-SLKS/Tilbudsbrevdocx.txt",
+    "ext": ".pdf",
+    "size_bytes": 251370,
+    "tender": "KUM-SLKS",
+    "extract_chars": 2369,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "KUM-SLKS/Underbilag 1a - ESDH_Projektplan.xlsx",
+    "rel_extracted": "KUM-SLKS/Underbilag 1a - ESDH_Projektplan.txt",
+    "ext": ".xlsx",
+    "size_bytes": 34108,
+    "tender": "KUM-SLKS",
+    "extract_chars": 7883,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 1.i Leverandørens Løsningsbeskrivelse.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 1.i Leverandørens Løsningsbeskrivelse.txt",
+    "ext": ".pdf",
+    "size_bytes": 633339,
+    "tender": "Nationalbanken",
+    "extract_chars": 11501,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 2.i Leverandørens forudsætninger for Kundens it-miljø.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 2.i Leverandørens forudsætninger for Kundens it-miljø.txt",
+    "ext": ".pdf",
+    "size_bytes": 134178,
+    "tender": "Nationalbanken",
+    "extract_chars": 1847,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 3.i Leverandørens Løsningsbeskrivelse.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 3.i Leverandørens Løsningsbeskrivelse.txt",
+    "ext": ".pdf",
+    "size_bytes": 11074156,
+    "tender": "Nationalbanken",
+    "extract_chars": 339460,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 6.i Implementeringsplan (Leverandørens løsningsbeskrivelse.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 6.i Implementeringsplan (Leverandørens løsningsbeskrivelse.txt",
+    "ext": ".pdf",
+    "size_bytes": 594912,
+    "tender": "Nationalbanken",
+    "extract_chars": 21942,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 7.i Exitplan (Leverandørens løsningsbeskrivelse) (1).pdf",
+    "rel_extracted": "Nationalbanken/Bilag 7.i Exitplan (Leverandørens løsningsbeskrivelse) (1).txt",
+    "ext": ".pdf",
+    "size_bytes": 214335,
+    "tender": "Nationalbanken",
+    "extract_chars": 11058,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og informationssikkerhed.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og informationssikkerhed.txt",
+    "ext": ".pdf",
+    "size_bytes": 325534,
+    "tender": "Nationalbanken",
+    "extract_chars": 19381,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Bilag 9.i Leverandørens løsningsbeskrivelse.pdf",
+    "rel_extracted": "Nationalbanken/Bilag 9.i Leverandørens løsningsbeskrivelse.txt",
+    "ext": ".pdf",
+    "size_bytes": 287955,
+    "tender": "Nationalbanken",
+    "extract_chars": 9141,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Underbilag 6A - Implementeringstidsplan.pdf",
+    "rel_extracted": "Nationalbanken/Underbilag 6A - Implementeringstidsplan.txt",
+    "ext": ".pdf",
+    "size_bytes": 758760,
+    "tender": "Nationalbanken",
+    "extract_chars": 10240,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "Nationalbanken/Underbilag 6B - Testplan og Leverandørens prøveprincipper, metoder og -værktøjer (1).pdf",
+    "rel_extracted": "Nationalbanken/Underbilag 6B - Testplan og Leverandørens prøveprincipper, metoder og -værktøjer (1).txt",
+    "ext": ".pdf",
+    "size_bytes": 329559,
+    "tender": "Nationalbanken",
+    "extract_chars": 39191,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "NND/02.01-Tieto-Bilag 2-Vedlegg-Leverandørens utfyllende svar til kravtabell.docx",
+    "rel_extracted": "NND/02.01-Tieto-Bilag 2-Vedlegg-Leverandørens utfyllende svar til kravtabell.txt",
+    "ext": ".docx",
+    "size_bytes": 45129978,
+    "tender": "NND",
+    "extract_chars": 957424,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "NND/Arbeidsdokument arbeisflyt og gransking.docx",
+    "rel_extracted": "NND/Arbeidsdokument arbeisflyt og gransking.txt",
+    "ext": ".docx",
+    "size_bytes": 103366,
+    "tender": "NND",
+    "extract_chars": 40804,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/0. Leveringskontrakt.docx",
+    "rel_extracted": "SBST/0. Leveringskontrakt.txt",
+    "ext": ".docx",
+    "size_bytes": 180143,
+    "tender": "SBST",
+    "extract_chars": 39470,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/0. Leveringskontrakt.pdf",
+    "rel_extracted": "SBST/0. Leveringskontrakt.txt",
+    "ext": ".pdf",
+    "size_bytes": 345222,
+    "tender": "SBST",
+    "extract_chars": 50488,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/02.06 Opfordringsskrivelse kategori 1.pdf",
+    "rel_extracted": "SBST/02.06 Opfordringsskrivelse kategori 1.txt",
+    "ext": ".pdf",
+    "size_bytes": 309303,
+    "tender": "SBST",
+    "extract_chars": 23136,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 1 Kundens opgavebeskrivelse.docx",
+    "rel_extracted": "SBST/Bilag 1 Kundens opgavebeskrivelse.txt",
+    "ext": ".docx",
+    "size_bytes": 106496,
+    "tender": "SBST",
+    "extract_chars": 17817,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 10 Leverandørens forpligtigelser ved ophør.docx",
+    "rel_extracted": "SBST/Bilag 10 Leverandørens forpligtigelser ved ophør.txt",
+    "ext": ".docx",
+    "size_bytes": 158754,
+    "tender": "SBST",
+    "extract_chars": 11794,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 11 Dokumentation.docx",
+    "rel_extracted": "SBST/Bilag 11 Dokumentation.txt",
+    "ext": ".docx",
+    "size_bytes": 147825,
+    "tender": "SBST",
+    "extract_chars": 5022,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 12 Drift, support og vedligehold.docx",
+    "rel_extracted": "SBST/Bilag 12 Drift, support og vedligehold.txt",
+    "ext": ".docx",
+    "size_bytes": 403490,
+    "tender": "SBST",
+    "extract_chars": 6978,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 13 Servicemål.docx",
+    "rel_extracted": "SBST/Bilag 13 Servicemål.txt",
+    "ext": ".docx",
+    "size_bytes": 161299,
+    "tender": "SBST",
+    "extract_chars": 9380,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 14 Samarbejdsorganisation.docx",
+    "rel_extracted": "SBST/Bilag 14 Samarbejdsorganisation.txt",
+    "ext": ".docx",
+    "size_bytes": 200197,
+    "tender": "SBST",
+    "extract_chars": 11942,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 15 Migrering af data.docx",
+    "rel_extracted": "SBST/Bilag 15 Migrering af data.txt",
+    "ext": ".docx",
+    "size_bytes": 153386,
+    "tender": "SBST",
+    "extract_chars": 6993,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 16 Støtteerklæring.docx",
+    "rel_extracted": "SBST/Bilag 16 Støtteerklæring.txt",
+    "ext": ".docx",
+    "size_bytes": 138819,
+    "tender": "SBST",
+    "extract_chars": 83,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 17 Sikkerhed.docx",
+    "rel_extracted": "SBST/Bilag 17 Sikkerhed.txt",
+    "ext": ".docx",
+    "size_bytes": 272130,
+    "tender": "SBST",
+    "extract_chars": 2758,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 1a Brugsvilkår.docx",
+    "rel_extracted": "SBST/Bilag 1a Brugsvilkår.txt",
+    "ext": ".docx",
+    "size_bytes": 122518,
+    "tender": "SBST",
+    "extract_chars": 654,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 1b Undervisning og rådgivning.docx",
+    "rel_extracted": "SBST/Bilag 1b Undervisning og rådgivning.txt",
+    "ext": ".docx",
+    "size_bytes": 119100,
+    "tender": "SBST",
+    "extract_chars": 2220,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 2 Producentens standardvilkår.docx",
+    "rel_extracted": "SBST/Bilag 2 Producentens standardvilkår.txt",
+    "ext": ".docx",
+    "size_bytes": 115309,
+    "tender": "SBST",
+    "extract_chars": 622,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 3 Leverandørens løsningsbeskrivelse kategori 1.docx",
+    "rel_extracted": "SBST/Bilag 3 Leverandørens løsningsbeskrivelse kategori 1.txt",
+    "ext": ".docx",
+    "size_bytes": 110326,
+    "tender": "SBST",
+    "extract_chars": 221,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 3 Trepartsaftale.pdf",
+    "rel_extracted": "SBST/Bilag 3 Trepartsaftale.txt",
+    "ext": ".pdf",
+    "size_bytes": 295168,
+    "tender": "SBST",
+    "extract_chars": 29417,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 4 CSR.pdf",
+    "rel_extracted": "SBST/Bilag 4 CSR.txt",
+    "ext": ".pdf",
+    "size_bytes": 263216,
+    "tender": "SBST",
+    "extract_chars": 38056,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 4 Leverandørens priser.xlsx",
+    "rel_extracted": "SBST/Bilag 4 Leverandørens priser.txt",
+    "ext": ".xlsx",
+    "size_bytes": 56999,
+    "tender": "SBST",
+    "extract_chars": 11556,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 5 Databehandling.docx",
+    "rel_extracted": "SBST/Bilag 5 Databehandling.txt",
+    "ext": ".docx",
+    "size_bytes": 114484,
+    "tender": "SBST",
+    "extract_chars": 786,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 5a Databehandleraftale.docx",
+    "rel_extracted": "SBST/Bilag 5a Databehandleraftale.txt",
+    "ext": ".docx",
+    "size_bytes": 235841,
+    "tender": "SBST",
+    "extract_chars": 41110,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 6 CSR.docx",
+    "rel_extracted": "SBST/Bilag 6 CSR.txt",
+    "ext": ".docx",
+    "size_bytes": 153560,
+    "tender": "SBST",
+    "extract_chars": 31581,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 7 Trepartsaftale.docx",
+    "rel_extracted": "SBST/Bilag 7 Trepartsaftale.txt",
+    "ext": ".docx",
+    "size_bytes": 160411,
+    "tender": "SBST",
+    "extract_chars": 22183,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 8 Erklæring Ruslands-forordning.pdf",
+    "rel_extracted": "SBST/Bilag 8 Erklæring Ruslands-forordning.txt",
+    "ext": ".pdf",
+    "size_bytes": 107181,
+    "tender": "SBST",
+    "extract_chars": 3313,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Bilag 9 AI.docx",
+    "rel_extracted": "SBST/Bilag 9 AI.txt",
+    "ext": ".docx",
+    "size_bytes": 150547,
+    "tender": "SBST",
+    "extract_chars": 2711,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "SBST/Erklæring vedr. restriktive foranstaltninger pba. Ruslands handlinger.pdf",
+    "rel_extracted": "SBST/Erklæring vedr. restriktive foranstaltninger pba. Ruslands handlinger.txt",
+    "ext": ".pdf",
+    "size_bytes": 114947,
+    "tender": "SBST",
+    "extract_chars": 3361,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "UIM ESDH Tender tool — AI draft (MCP v2).xlsx",
+    "rel_extracted": "UIM ESDH Tender tool — AI draft (MCP v2).txt",
+    "ext": ".xlsx",
+    "size_bytes": 202640,
+    "tender": "(root)",
+    "extract_chars": 1577,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "UIM ESDH Tender tool — AI draft (MCP).xlsx",
+    "rel_extracted": "UIM ESDH Tender tool — AI draft (MCP).txt",
+    "ext": ".xlsx",
+    "size_bytes": 201749,
+    "tender": "(root)",
+    "extract_chars": 1577,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "UIM ESDH Tender tool — AI draft.xlsx",
+    "rel_extracted": "UIM ESDH Tender tool — AI draft.txt",
+    "ext": ".xlsx",
+    "size_bytes": 200724,
+    "tender": "(root)",
+    "extract_chars": 1577,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "UIM ESDH Tender tool.xlsx",
+    "rel_extracted": "UIM ESDH Tender tool.txt",
+    "ext": ".xlsx",
+    "size_bytes": 733451,
+    "tender": "(root)",
+    "extract_chars": 813617,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/API-requirements-FI-market.docx",
+    "rel_extracted": "vnk-vahva/API-requirements-FI-market.txt",
+    "ext": ".docx",
+    "size_bytes": 21762,
+    "tender": "vnk-vahva",
+    "extract_chars": 4429,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 1 VN Asia hankinnan kohteen kuvaus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 1 VN Asia hankinnan kohteen kuvaus.txt",
+    "ext": ".docx",
+    "size_bytes": 230443,
+    "tender": "vnk-vahva",
+    "extract_chars": 16042,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 1.1 VN Asia valmisratkaisuna hankittavat komponentit.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 1.1 VN Asia valmisratkaisuna hankittavat komponentit.txt",
+    "ext": ".docx",
+    "size_bytes": 132590,
+    "tender": "vnk-vahva",
+    "extract_chars": 22921,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 1.4 VN Asia erillissovelluksien huomioiminen.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 1.4 VN Asia erillissovelluksien huomioiminen.txt",
+    "ext": ".docx",
+    "size_bytes": 131319,
+    "tender": "vnk-vahva",
+    "extract_chars": 21944,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 2.1 VN Asia palveluiden kuvaus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 2.1 VN Asia palveluiden kuvaus.txt",
+    "ext": ".docx",
+    "size_bytes": 184465,
+    "tender": "vnk-vahva",
+    "extract_chars": 41802,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 2.2.2 VN Asia valtioneuvoston yleiset prosessit.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 2.2.2 VN Asia valtioneuvoston yleiset prosessit.txt",
+    "ext": ".docx",
+    "size_bytes": 243812,
+    "tender": "vnk-vahva",
+    "extract_chars": 29054,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 2.3 VN Asia toiminnalliset vaatimukset.xlsx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 2.3 VN Asia toiminnalliset vaatimukset.txt",
+    "ext": ".xlsx",
+    "size_bytes": 307100,
+    "tender": "vnk-vahva",
+    "extract_chars": 90293,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 2.5 VN Asia tietosuojan vaatimukset.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 2.5 VN Asia tietosuojan vaatimukset.txt",
+    "ext": ".docx",
+    "size_bytes": 117287,
+    "tender": "vnk-vahva",
+    "extract_chars": 12687,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 2.6 VN Asia tietoturvavaatimukset.xlsx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 2.6 VN Asia tietoturvavaatimukset.txt",
+    "ext": ".xlsx",
+    "size_bytes": 169818,
+    "tender": "vnk-vahva",
+    "extract_chars": 47056,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 3 VN Asia projektisuunnitelman perusteet.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 3 VN Asia projektisuunnitelman perusteet.txt",
+    "ext": ".docx",
+    "size_bytes": 140005,
+    "tender": "vnk-vahva",
+    "extract_chars": 20278,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 3.1 VN Asia PoC-vaiheen kuvaus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 3.1 VN Asia PoC-vaiheen kuvaus.txt",
+    "ext": ".docx",
+    "size_bytes": 119826,
+    "tender": "vnk-vahva",
+    "extract_chars": 6251,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 4.1 Turvallisuus ja tietoturvallisuussopimus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 4.1 Turvallisuus ja tietoturvallisuussopimus.txt",
+    "ext": ".docx",
+    "size_bytes": 84751,
+    "tender": "vnk-vahva",
+    "extract_chars": 46854,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 4.2 VN Asia toimitusprojektisopimus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 4.2 VN Asia toimitusprojektisopimus.txt",
+    "ext": ".docx",
+    "size_bytes": 77873,
+    "tender": "vnk-vahva",
+    "extract_chars": 35251,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 4.3.2 Palvelutasoehdot.docx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 4.3.2 Palvelutasoehdot.txt",
+    "ext": ".docx",
+    "size_bytes": 128923,
+    "tender": "vnk-vahva",
+    "extract_chars": 13345,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ Liite 6 VN Asia Hintalomake.xlsx",
+    "rel_extracted": "vnk-vahva/aRFQ Liite 6 VN Asia Hintalomake.txt",
+    "ext": ".xlsx",
+    "size_bytes": 24511,
+    "tender": "vnk-vahva",
+    "extract_chars": 6512,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_1.2_VN_Asia_räätälöidyt_komponentit.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_1.2_VN_Asia_räätälöidyt_komponentit.txt",
+    "ext": ".docx",
+    "size_bytes": 119681,
+    "tender": "vnk-vahva",
+    "extract_chars": 7653,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_1.3_VN_Asia_ympäristökonsepti.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_1.3_VN_Asia_ympäristökonsepti.txt",
+    "ext": ".docx",
+    "size_bytes": 123457,
+    "tender": "vnk-vahva",
+    "extract_chars": 11748,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_1.5_VN_Asia_käsitteet_ja_sanasto.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_1.5_VN_Asia_käsitteet_ja_sanasto.txt",
+    "ext": ".docx",
+    "size_bytes": 157255,
+    "tender": "vnk-vahva",
+    "extract_chars": 32866,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_1.6_VN_Asia_tarjouspyynnön_dokumentit.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_1.6_VN_Asia_tarjouspyynnön_dokumentit.txt",
+    "ext": ".docx",
+    "size_bytes": 140310,
+    "tender": "vnk-vahva",
+    "extract_chars": 9195,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_2.2_VN_Asia_käyttökonsepti.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_2.2_VN_Asia_käyttökonsepti.txt",
+    "ext": ".docx",
+    "size_bytes": 159075,
+    "tender": "vnk-vahva",
+    "extract_chars": 67576,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_2_VN_Asia_vaatimusmäärittely.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_2_VN_Asia_vaatimusmäärittely.txt",
+    "ext": ".docx",
+    "size_bytes": 114713,
+    "tender": "vnk-vahva",
+    "extract_chars": 2953,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_3.7_VN_Asia_käyttöönoton_edellytysten_luomisen_konsepti.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_3.7_VN_Asia_käyttöönoton_edellytysten_luomisen_konsepti.txt",
+    "ext": ".docx",
+    "size_bytes": 128825,
+    "tender": "vnk-vahva",
+    "extract_chars": 20940,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/aRFQ_Liite_4_VN_Asia_Pääsopimus.docx",
+    "rel_extracted": "vnk-vahva/aRFQ_Liite_4_VN_Asia_Pääsopimus.txt",
+    "ext": ".docx",
+    "size_bytes": 106212,
+    "tender": "vnk-vahva",
+    "extract_chars": 85260,
+    "extract_status": "ok",
+    "notes": ""
+  },
+  {
+    "rel_source": "vnk-vahva/Neuvottelukutsu VN Asia.docx",
+    "rel_extracted": "vnk-vahva/Neuvottelukutsu VN Asia.txt",
+    "ext": ".docx",
+    "size_bytes": 130656,
+    "tender": "vnk-vahva",
+    "extract_chars": 9193,
+    "extract_status": "ok",
+    "notes": ""
+  }
+]

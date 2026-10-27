@@ -1,0 +1,119 @@
+Indledning
+Dette bilag indeholder kravene til styringsstrukturen for Kundens og Leverandørens samarbejde i de forskellige faser af Leveringskontrakten og skitserer basisprincipperne for samarbejdet mellem Parterne.
+Begge parter skal drage omsorg for, at Leverancen har den nødvendige forankring i Parternes respektive organisation og ledelse, så de nødvendige beslutninger kan træffes med den hastighed, som omstændighederne kræver.
+Leverandøren har ikke krav på særskilt betaling for aktiviteter omfattet af dette bilag.
+Parterne skal loyalt deltage i den specificerede samarbejdsorganisation, og medvirke til opfyldelsen af Leveringskontrakten på en loyal og rimelig måde, der fremmer samarbejdet.
+Definition
+Styregruppe: Den øverste fælles ledelse for projektet, med mandat og ansvar til at træffe alle beslutninger vedrørende Leveringskontakten.
+Projektledelse: Varetager den daglige styring af udførelsen af Leveringskontrakten. Refererer til Styregruppen.
+Application manager: Kundens application manager har beslutningskompetence på vegne af Kunden vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren i driftsfasen, dog ikke uden for de aftalte rammer, hvor Styregruppen har beslutningskompetencen.
+Service delivery manager: Leverandørens service delivery manager har beslutningskompetence på Leverandørens vegne vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren i driftsfasen.
+Generelt om samarbejdet
+Med henblik på at sikre en hensigtsmæssig Leverance etableres der ved Leveringskontraktens ikrafttrædelse en fælles samarbejdsorganisation mellem Kunden og Leverandøren som beskrevet i dette bilag. Samarbejdsorganisationen er aktiv under hele Leverancen.
+Den fælles samarbejdsorganisation skal være præget af gensidighed og åben kommunikation. Samarbejdsorganisationen skal sikre:
+At Leverandøren og Kunden i fællesskab arbejder effektivt ud fra de fastlagte mål, afsatte ressourcer og milepæle
+At Leverandørens ydelser har en høj kvalitet
+At Kunden kan anvende ydelserne i overensstemmelse med Leveringskontrakten
+En ensartet og koordineret implementering af Standardsoftwaren hos Kunden
+Samarbejdet mellem Leverandøren og Kunden er en dynamisk proces, der udover at understøtte Leveringskontraktens opfyldelse skal fokusere på en kontinuerlig udvikling af kvaliteten af samarbejdet, men også af ydelserne og Kundens anvendelse og udbytte heraf.
+Samarbejdsorganisationen består i perioden frem til overtagelsesdagen af en Styregruppe og en projektledelse. I Driftsfasen skifter opgaverne karakter, og dermed skifter samarbejdsorganisationen også karakter, så organiseringens fokus bliver at sikre en tæt opfølgning på kvaliteten af ydelser.
+Leverandøren skal etablere en bemanding, så den modsvarer og aktivt understøtter den fælles samarbejdsorganisation i såvel gennemførelsesfasen som driftsfasen.
+Samarbejde frem til overtagelsesdagen
+Nedenstående figur illustrerer den overordnede organisering af projektet frem til overtagelsesdagen.
+Kunden og Leverandøren udpeger deltagere til en fælles Styregruppe samt projektledere. Udover den faste organisering kan der blive etableret arbejdsgrupper med repræsentanter fra Kunden og Leverandøren, fx til at afklare tekniske spørgsmål.
+De enkelte samarbejdsfora og centrale roller i samarbejdsorganisationen er nærmere beskrevet i det følgende.
+Styregruppe
+Projektets Styregruppe består af ledelsesrepræsentanter fra Kunden samt repræsentanter fra Leverandøren med beslutningskompetence i forhold til gennemførelse og forankring af Leveringskontrakten.
+Styregruppen har kompetencen til og det overordnede ansvar for opfyldelsen af Leveringskontrakten samt for at sikre, at Kundens mål nås.
+Styregruppen har følgende opgaver og ansvarsområder:
+Styregruppen behandler spørgsmål af principiel betydning, herunder forhold som ændrer på økonomien, tidsplanens milepæle og Standardsoftwarens overordnede kvalitet
+Styregruppen udgør den overordnede ledelse af projektet, herunder opfølgning på fremdrift, målopfyldelse, risici, kommunikation og samarbejde
+Styregruppen behandler og godkender ændringsønsker
+I konfigurationsfasen og implementeringsfasen godkender Styregruppen opfyldelsen af tidsplanens milepæle, herunder overtagelsesprøven
+Styregruppen er aktiv frem til driftsfasen.
+Møder i Styregruppen
+Styregruppen mødes månedligt eller efter behov, herunder i forbindelse med tidsplanens milepæle.
+Kunden planlægger og indkalder til styregruppemøder. Materiale, status mm. fra Leverandøren skal leveres senest 5 Arbejdsdage inden et styregruppemøde. Det forventes, at Leverandørens projektleder efter behov deltager i forberedelsen til styregruppemøderne.
+Kunden varetager formandsfunktionen i Styregruppen. Kunden tager referat af møderne. Alle væsentlige aftaler besluttet på styregruppemøderne skal fremgå af referaterne.
+Styregruppens sammensætning
+Kunden
+Kundens projektleder deltager i styregruppemøderne. Kunden kan supplere efter behov med andre repræsentanter, fx en driftspartner.
+Leverandøren
+Leverandørens projektleder deltager i styregruppemøderne.
+Projektledelse
+Projektledelsen udføres af Kunden og Leverandøren i fællesskab. Kunden og Leverandøren udpeger hver især en projektleder med dagligt ansvar for:
+Kontakt mellem Kunden og Leverandøren
+Planlægning og gennemførelse af fælles aktiviteter hos Kunden med henblik på at sikre bedst mulige fremdrift i implementeringen
+Løbende orientering af Styregruppen om samarbejdets forløb
+Kundens projektleder
+Kundens projektleder varetager tværgående koordinering for projektet hos Kunden, overordnet samarbejde med Leverandøren samt overordnet rapportering til Styregruppen.
+Kundens projektleder har beslutningskompetence på vegne af Kunden vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren, dog ikke uden for de aftalte rammer, hvor Styregruppen i stedet har beslutningskompetence.
+Projektlederens rolle er at være:
+Ansvarlig for samarbejdet med Leverandøren
+Primær kontaktperson på ledelsesniveau
+Kundens projektleder skal:
+Koordinere fælles aktivitetsplaner med Leverandørens projektleder og vedligeholde overordnet tidsplan for projektet hos Kunden
+Styre og koordinere fælles aktiviteter og fremdrift, målopfyldelse, risici, kommunikation, samarbejde mv.
+Igangsætte og følge op på fælles aktiviteter for Kunden
+Sikre overordnet videns- og erfaringsopsamling
+Sikre opfølgning på Leverandørens levering af Standardsoftwaren, herunder ydelser
+Leverandørens projektleder
+Leverandørens projektleder skal have beslutningskompetence på Leverandørens vegne vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren, og desuden have et bredt kendskab til Leverandørens forretning og Standardsoftwaren, herunder ydelser.
+Projektlederens rolle er at være:
+Ansvarlig for samarbejdet med Kunden
+Primær kontaktperson på ledelsesniveau
+Leverandørens projektleder skal sikre:
+Planlægning og initiering af alle fælles aktiviteter hos Leverandøren og Kunden
+Allokering af ressourcer
+Overordnet styring, koordinering og erfaringsudveksling
+Fælles styring og koordinering af issues, fejl mv. indmeldt fra Kunden
+Styringsmøder for projektledelsen
+Ud over den kontakt, der er en naturlig følge af samarbejdet, skal Kundens projektleder og Leverandørens projektleder i gennemførelsesfasen holde styringsmøder ugentligt, hvor dagsorden som minimum skal være:
+Status, herunder vurdering af fremdrift på de enkelte aktiviteter
+Ændringer
+Rapportering til Styregruppen efter behov
+Aktiviteter frem til næste møde
+Eventuelt
+Kundens projektleder fører referat af møderne. Alle væsentlige aftaler mellem Leverandørens projektleder og Kundens projektleder skal fremgå af referaterne.
+Sammensætningen af den fælles projektledelse
+Kundens og Leverandørens projektledelse består af:
+Ad hoc projektgrupper
+Ad hoc projektgrupper nedsættes med relevante deltagere fra Kunden og Leverandøren, enten på foranledning af Styregruppen eller Projektledelsen for at behandle et afgrænset emne i en fastsat tidshorisont.
+Ad hoc projektgrupper refererer til Projektledelsen, som også er ansvarlig for at tilvejebringelsen af et kommissorium for ad hoc projektgruppen.
+Driftssamarbejde
+Nedenstående figur illustrerer den overordnede organisering af projektet fra overtagelsesdagen.
+I driftsfasen fungerer styregruppen på ad hoc basis, så den kun sammenkaldes, hvis der opstår behov, fx ved uoverensstemmelser mellem kundens Application manager og leverandørens Service delivery manager.
+Kundens Application manager
+Kundens Application manager varetager tværgående koordinering for Leverancen hos Kunden, og det overordnet samarbejde med Leverandøren.
+Kundens Application manager har beslutningskompetence på vegne af Kunden vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren, dog ikke uden for de aftalte rammer, hvor Styregruppen har beslutningskompetencen.
+Application managers rolle er at være:
+Ansvarlig for samarbejdet med Leverandøren
+Primær kontaktperson
+Kundens Application manager skal:
+Koordinere fælles aktivitetsplaner med Leverandørens Service delivery manager, fx omkring nye versioner, releases og deraf følgende behov for servicevinduer
+Styre og koordinere fælles aktiviteter og fremdrift, målopfyldelse, risici, kommunikation, samarbejde mv.
+Igangsætte og følge op på aktiviteter for Kunden
+Sikre overordnet videns- og erfaringsopsamling
+Sikre opfølgning på Leverandørens levering af Standardsoftwaren, herunder ydelser
+Leverandørens Service delivery manager
+I Driftsfasen skal Leverandørens Service delivery manager have beslutningskompetence på Leverandørens vegne vedrørende alle forhold relateret til det overordnede samarbejde mellem Kunden og Leverandøren og have et bredt kendskab til Leverandørens forretning.
+Leverandørens Service delivery manager har i Driftsfasen ansvaret for:
+Det overordnede samarbejde med Kunden
+Primær kontaktperson
+Koordinering af Leverandørens levering af ydelserne
+Opfølgning på Leverandørens levering af ydelserne og opfyldelse af servicemål
+Varsle Kunden om ændringer og tilpasninger af Løsningen (eller ydelser)
+Sikring af kvalitet og rettidighed i Leverandørens ydelser.
+Allokering af ressourcer
+Repræsentanter i driftsfasen
+Kundens Application manager:
+Leverandørens service delivery manager:
+Hertil kommer Styregruppen på ad hoc basis.
+Leverandørens nøglepersoner
+Leverandøren skal som del af besvarelsen i Bilag 3 – Leverandørens løsningsbeskrivelse anføre sine nøglepersoner i relation til Leverancen. Leverandørens projektleder skal have dokumenteret projektledererfaring med sammenlignelige projekter.
+Angående eventuel udskiftning af nøglepersoner henvises til afsnit 4.1.
+Udskiftning af nøglepersoner
+Ingen af Parterne kan frem til overtagelsesdagen uden den anden Parts samtykke udskifte sin projektleder eller andre nøglepersoner, medmindre udskiftningen skyldes medarbejderens personlige forhold, herunder ophør af ansættelsesforholdet.
+Ved eventuel udskiftning skal den nye medarbejder mindst have samme kvalifikationer som den udskiftede medarbejder. Udskiftning må ikke påføre Kunden omkostninger eller forsinkelser, og Leverandøren bærer risikoen for eventuelle omkostninger forbundet med udskiftning af en medarbejder. Kunden skal således eksempelvis ikke betale for, at en ny medarbejder opnår indsigt i ydelserne svarende til det niveau, som den udskiftede medarbejder har.
+Ved eventuel udskiftning af Leverandørens nøglepersoner skal Leverandøren forudgående til Kunden levere CV for den foreslåede nye ressource samt indhente en godkendelse fra Kunden af den pågældende person.
+Kunden er berettiget til at forlange Leverandørens medarbejdere udskiftet, hvis Kunden har saglige indsigelser mod medarbejderens fortsatte tilknytning til Leveringskontraktens opfyldelse, fx i form af medarbejderens manglende kvalifikationer, væsentlige samarbejdsproblemer eller andre væsentlige grunde.

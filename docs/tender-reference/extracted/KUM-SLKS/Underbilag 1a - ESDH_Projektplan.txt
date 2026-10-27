@@ -1,0 +1,127 @@
+## sheet1.xml
+Underbilag 1a: Projektplan ESDH implementering for 3 instanser 01-08-2026 til 01-10-27
+ID	Aktivitet / Milepæl	Start	Slut	Ansvarlig	Afhængigheder	Aug '26	Sep '26	Oct '26	Nov '26	Dec '26	Jan '27	Feb '27	Mar '27	Apr '27	May '27	Jun '27	Jul '27	Aug '27	Sep '27	Oct '27	Nov '27
+AFKLARINGSFASEN
+1	Opstartsmøde - etablering af projekt- og samarbejdsorganisation og risikovurdering	46235	46237	Lev. + Kunde
+2	Kontraktgennemgang	46237	46242	Lev. + Kunde	1
+3	Workshops – Kravspecifikation (bilag 2 & 3)	46244	46256	Lev. + Kunde	2
+4	Workshops – Implementeringsfasen (tidsplan)	46255	46262	Leverandør	2
+5	Udarbejdelse af afklaringsrapport	46258	46265	Leverandør	3, 4
+6	Gennemgang af afklaringsrapport (inkl. tidsplan)	46263	46266	Lev. + Kunde	5
+7	◆ M1 – Kundens godkendelse af afklaringsrapport	46266	46266	Kunde	6	◆
+IMPLEMENTERINGSFASEN
+TEKNISK SPOR (Lev. + Statens IT)
+8	Fremsendelse af infrastrukturkrav	46235	46235	Leverandør	1
+9	Workshop vedr. Miljøetablering i samarbejde med Statens IT	46254	46262	Lev. + SIT + Kunde	8
+10	Opdatering af teknisk dokumentation (vejledninger)	46266	46296	Leverandør	9
+11	Etablering testmiljø – Instans 1 (m. Statens IT)	46266	46308	Lev. + SIT	10
+12	Etablering testmiljø – Instans 2 (m. Statens IT)	46273	46315	Lev. + SIT	10
+13	Etablering testmiljø – Instans 3 (m. Statens IT)	46280	46322	Lev. + SIT	10
+LØSNINGSDESIGN WORKSHOPS (Forretningsspor)
+14	Workshop 1: ESDH-Løsning	46266	46280	Lev. + Kunde	7
+15	Workshop 2: Sikkerhed - rettighedssworkshop	46279	46291	Lev. + Kunde	14
+16	Workshop 3: Integrationer	46287	46301	Lev. + Kunde	7
+Dokumentation
+17	Udarbejdelse af fælles løsningsdesign	46311	46332	Leverandør	14, 15, 16
+18	5 arbejdsdage til Kundens godkendelse af løsningsdesign	46332	46339	Kunde	17
+19	◆ M2 – Kundens godkendelse af fælles løsningsdesign	46339	46339	Kunde	18
+LØSNINGSDESIGN & KONFIGURATION
+20	Udarbejdelse af testcases (baseret på løsningsdesign)	46342	46409	Leverandør	19
+21	◆ M3 - Kundens godkendelse af testcases	46412	46419	Kunde	20	◆
+22	Konfiguration af ESDH-systemet	46342	46409	Leverandør	19
+23	Deploymentpakke af konfiguration af ESDH-systemet	46357	46416	Leverandør	22
+TESTMILJØ: INSTALLATIONSPRØVE
+24	Udarbejdelse af installationsvejledning til deploymentpakke	46411	46421	Leverandør	23
+25	Udarbejdelse af Prøveplan for Installationsprøven	46416	46423	Leverandør	19
+28	Godkendelse af Prøveplan for Installationsprøven	46426	46433	Kunde	26
+26	Prøveplan godkendt af Kunden (5 AD før prøvestart, jf. bilag 5, § 2.1)	46426	46433	Kunde	25
+27	Installation af konfiguration på alle tre testmiljøer	46434	46441	Lev. + SIT	23
+29	Installationsprøve (jf. bilag 5, § 7)	46442	46451	Leverandør	24, 26
+30	Udarbejdelse af Prøverapport for Installationsprøven	46448	46455	Leverandør	28
+31	◆ M4 Godkendelse af Prøverapport for Installationsprøven	46455	46462	Kunde	29	◆
+TESTMILJØ: LEVERANDØRENS EGNE PRØVER
+32	Udarbejdelse af Prøveplan for Leverandørens egne prøver	46411	46419	Leverandør	19
+33	Prøveplan godkendt af Kunden (5 AD før prøvestart, jf. bilag 5, § 2.1)	46420	46428	Leverandør	32
+34	Godkendelse af Prøveplan	46428	46428	Kunde	33
+35	Gennemførelse af leverandørens egne prøver	46462	46489	Leverandør	31,34
+36	Udarbejdelse af Prøverapport for Leverandørens egne prøver	46475	46483	Leverandør	33
+37	◆ M5 Godkendelse af Prøverapport for Leverandørens egne prøver	46483	46491	Kunde	36	◆
+UNDERVISNING
+38	Afholdelse af administratorundervisning	46492	46505	Lev + Kunde	37
+PREPRODMILJØER (Statens IT + Kunde)
+39	Statens IT – etablering af Preprod (alle tre instanser)	46454	46493	SIT	13
+40	Installation af konfiguration i Preprod	46493	46507	SIT	37
+41	PREPROD – Instans 1: Kundens konfiguration	46510	46541	Kunde	40,37
+42	PREPROD – Instans 2: Kundens konfiguration	46517	46548	Kundev	40,37
+43	PREPROD – Instans 3: Kundens konfiguration	46524	46555	Kunde	40,37
+PRODMILJØER (Statens IT + Kunde)
+44	Statens IT – etablering  og installation af konfiguration af PROD – Instans 1	46496	46526	SIT	39
+45	Statens IT – etablering  og installation af konfiguration af PROD – Instans 2	46496	46526	SIT	39
+46	Statens IT – etablering  og installation af konfiguration af PROD – Instans 3	46496	46526	SIT	39
+47	PROD – Instans 1: Kundens konfiguration	46541	46555	Kunde	41
+48	PROD – Instans 2: Kundens konfiguration	46548	46562	Kunde	42
+49	PROD – Instans 3: Kundens konfiguration	46555	46569	Kunde	43
+OVERTAGELSESPRØVER
+50	Udarbejdelse af Prøveplan for Overtagelsesprøve	46491	46521	Leverandør	37
+51	Prøveplan godkendt af Kunden (5 AD før prøvestart, jf. bilag 5, § 2.1)	46524	46532	Kunde	48
+52	Godkendelse af Prøveplan	46524	46532	Kunde	49
+53	Instans 1 – Overtagelsesprøve	46559	46569	Kunde	47
+54	Instans 1 - Belastningsprøve	46559	46568	Leverandør	47
+55	Instans 1: Udarbejdelse af Prøverapport for Overtagelsesprøve	46569	46574	Leverandør	53,54
+56	◆ M6 Instans 1: Godkendelse af Prøverapport for Overtagelsesprøve	46574	46582	Kunde	55	◆
+57	Instans 2 – Overtagelsesprøve	46573	46587	Kunde	48
+58	Instans 2 - Belastningsprøve	46573	46587	Leverandør	48
+59	Instans 2: Udarbejdelse af Prøverapport for Overtagelsesprøve	46587	46591	Leverandør	57,58	1
+60	◆ M7 Instans 2: Godkendelse af Prøverapport for Overtagelsesprøve	46591	46601	Kunde	58	◆
+61	Instans 3 – Overtagelsesprøve	46590	46604	Kunde	49
+62	Instans 3 - Belastningsprøve	46590	46604	Leverandør	49
+63	Instans 3: Udarbejdelse af Prøverapport for Overtagelsesprøve	46605	46610	Leverandør	61,62
+64	◆ M8 Instans 3: Godkendelse af Prøverapport for Overtagelsesprøve	46610	46618	Kunde	63	◆
+DRIFTSFASEN: IBRUGTAGNING, HYPERCARE & DRIFTSPRØVE
+65	◆ M9 – Instans 1: Ibrugtagning (SLKS)	46599	46599	Leverandør	56	◆
+66	Instans 1 – Hypercare (5 dage)	46600	46605	Kunde + Leverandør	65
+67	Instans 1 – Driftsprøve (30 AD, jf. bilag 5, § 10.1)	46614	46657	Kunde	59
+68	◆ M10 – Instans 2: Ibrugtagning (Rigsarkivet)	46613	46613	Leverandør	60	◆
+69	Instans 2 – Hypercare (5 dage)	46614	46620	Kunde + Leverandør	68
+70	Instans 2 – Driftsprøve (30 AD, jf. bilag 5, § 10.1)	46626	46675	Kunde	68
+71	◆ M11 – Instans 3: Ibrugtagning (Øvrige inst.)	46627	46627	Kunde + Leverandør	64	◆
+73	Instans 3 – Hypercare (5 dage)	46628	46633	Leverandør	71
+74	Instans 3 – Driftsprøve (30 arbejdsdage, jf. bilag 5, § 10.1)	46644	46685	Kunde	71
+75	Driftsrapport
+76	Udarbejdelse af Driftsrapport	46685	46685	Leverandør	67,60,75
+77	◆ M12 Kundens Godkendelse af Driftsprøverapport	46685	46685	Kunde	75	◆
+## sheet2.xml
+Hovedaktiviteter	3. kvartalt 2026	4.kvartal 2026	1.kvartal 2027	2.kvartal 2027	3. kvartal 2027	4. kvartal 2027
+Juli	Aug	Sep	Okt	Nov	Dec	Jan	Feb	Mar	Apr	Maj	Jun	Juli	Aug	Sept	Okt	Nov	Dec
+Afklaringsfasen
+Afklaringsrapport
+Implementeringsfasen
+Teknisk spor
+Løsningsdesign workshops
+Løsningsdesign konfiguration
+Testmiljø: Installationsprøve
+Testmiljø: Leverandørens egne prøver
+Undervisning
+Preprodmiljøer - Kundens konfiguration
+Prodmiljøer - Kundens konfiguration
+Overtagelsesprøver
+Driftsfasen
+Ibrugtagning 3 instanser - hver instans har sit forløb
+Driftsprøve 3 instanser - hver instans har sit eget forløb
+Milepælsplan	3. kvartalt 2026	4.kvartal 2026	1.kvartal 2027	2.kvartal 2027	3. kvartal 2027	4. kvartal 2027
+Juli	Aug	Sep	Okt	Nov	Dec	Jan	Feb	Mar	Apr	Maj	Jun	Juli	Aug	Sept	Okt	Nov	Dec
+Afklaringsfasen
+M1: Kundens godkendelse af afklaringsrapport	01.09
+Implementeringsfasen
+M2: Kundens godkendelse: fælles løsningsdesign	13.11
+M3: Kundens godkendelse af testcases	01.02
+M4: Godkendelse af Prøverapport for Installationsprøven	16.03
+M5: Godkendelse af Prøverapport for Leverandørens egne prøver	14.04
+M6: Instans 1: Godkendelse af Prøverapport for Overtagelsesprøve	14.07
+M7: Instans 2: Godkendelse af Prøverapport for Overtagelsesprøve	02.08
+M8: Instans 3: Godkendelse af Prøverapport for Overtagelsesprøve	19.08
+Driftsfasen
+M9: Instans 1: Ibrugtagning (SLKS)	31.07
+M10: Instans 2: Ibrugtagning (Rigsarkivet)	14.08
+M11: Instans 3: Ibrugtagning (Øvrige inst.)	28.08
+M12: Kundens Godkendelse af Driftsprøverapport	25.10

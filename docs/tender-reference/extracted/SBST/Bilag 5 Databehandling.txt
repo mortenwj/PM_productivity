@@ -1,0 +1,6 @@
+Indledning
+Databehandleraftalen/databehandleraftalerne nævnt i punkt 2 er indgået mellem Kunden (som dataansvarlig) og Leverandøren (som databehandler), da Kunden har vurderet, at udførelsen af Leveringskontrakten vil indebære behandling af personoplysninger på vegne af Kunden, og at Leverandøren i den forbindelse skal betragtes som databehandler.
+Der må ikke påbegyndes behandling af personoplysninger under Leveringskontrakten, før databehandleraftale er indgået.
+Databehandleraftalen udgør en selvstændig aftale og benytter således ikke samme terminologi som Leveringskontrakten. I tilfælde af modstridende begrebsbrug har databehandleraftalen forrang.
+Databehandling
+Databehandleraftalen er vedlagt som underbilag 5.a. og udfyldes af Kunden og Leverandøren ifm. kontraktindgåelse.

@@ -1,0 +1,706 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Bilag 9.1 Spørgeskema til brug 
+for Kundens risikovurdering af 
+it- og informationssikkerhed 
+Herunder GDPR artikel 32 -risikovurdering og fastlæg-
+gelse af sikkerhedskrav   
+Dynamisk indkøbssystem  02.19 Fagsystemer  (202 4) 
+Kontrakt om levering af ESDH løsning til Danmarks Nationalbank 
+SKI0219.2503.0030 
+ 
+Udfyldes af Leverandøren  
+Version 1.0
+
+## Page 2
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 1 af 10 
+ 
+Indhold 
+1 Vejledning ................................ ................................ ................................ ...............................  2 
+2 Netværk og tekniske behandlingsmidler ................................ ................................ .............. 3 
+3 Processer og procedurer relateret til behandlingen ................................ ............................ 5 
+4 Personer og parter involveret i behandlingen................................ ................................ ...... 6 
+5 Sektorspecifikke trusler og behandlingens omfang ................................ ............................ 8
+
+## Page 3
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 2 af 10 
+1 Vejledning 
+[Vejledning til Leverandøren 
+Leverandøren bedes udfylde nedenstående spørgeskema til brug for Kundens risikovurdering af 
+risici for brud på IT- og informationssikkerheden samt risikovurdering af risici for brud på personda-
+tasikkerheden efter databeskyttelsesforordningens artikel 32.  
+Kundens risikovurderinger består af en sammenholdelse af konsekvensen ved og sandsynligheden 
+for et brud på IT - og informationssikkerheden samt persondatasikkerheden. Spørgeskemaet s ind-
+hold skal bidrage til Kundens vurdering af sandsynligheden for et brud på IT- og informationssikker-
+heden samt persondatasikkerheden. Kunden foretager – uafhængigt af Leverandøren – en vurde-
+ring af konsekvensen ved et brud på IT- og informationssikkerheden samt ved brud på persondata-
+sikkerheden.  
+Besvarelsen af spørgeskemaet indgår ikke i evalueringen af tilbudsgivernes tilbud. Besvarelsen af 
+spørgeskemaet anvendes således alene som input til Kundens risikovurdering af risici for brud på 
+IT- og informationssikkerheden samt risikovurdering af risici for brud på persondatasikkerheden efter 
+databeskyttelsesforordningens artikel 32.  
+Kunden foretager risikovurderingen, og på baggrund af risikovurderingsscore fastsætter Kunden ni-
+veauet af sikkerhedskrav, der er relevant for den identificerede risiko, jf. bilag 9 Sikkerhed. 
+Ved udfyldelsen af spørgeskemaet skal Leverandøren vurdere, om de oplistede sårbarheder (første 
+kolonne i tabellerne) gør sig gældende for Leverandørens Service. Såfremt en given sårbarhed ikke 
+er relevant for Leverandørens Service, skal Leverandøren angive ”N/A” i den pågældende række.   
+En sårbarhed kræver en trussel for at kunne resultere i en risiko og omvendt. Såfremt det kan kon-
+stateres, at der foreligger en sårbarhed, skal Leverandøren derfor angive, hvilken trussel (anden 
+kolonne i tabellerne) der knytter sig til denne sårbarhed.  
+Er den identificerede sårbarhed f.eks., at en bærbar pc ikke er krypteret, kan den tilhørende trussel 
+være, at den bærbare computer bliver stjålet. Kombinationen af denne sårbarhed og trussel vil være, 
+at der foreligger en risiko for, at uvedkommende får a dgang til data, herunder personoplysninger, 
+der kan tilgås fra den bærbare computer.  
+Ved mitigerende foranstaltninger (tredje kolonne i tabellerne) forstås tiltag, som påvirker sandsynlig-
+heden ved at reducere eller helt fjerne en sårbarhed eller en trussel. Leverandøren bedes derfor 
+angive mitigerende tekniske og/eller organisatoriske foranstaltninger knyttet til de identificerede sår-
+barheder og trusler.   
+De punkter, som Leverandøren skal udfylde, er angivet i skarpe parenteser og markeret med kursiv 
+og rød skrift. 
+Spørgsmålene er ikke udtømmende og Leverandøren kan angive yderligere sårbarheder, trusler og 
+mitigerende foranstaltninger, der er relevante for Leverandørens Service.]
+
+## Page 4
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 3 af 10 
+ 
+2 Netværk og tekniske behandlingsmidler  
+Nr. Sårbarhed Trussel Mitigerende foranstaltning 
+2.1 Leverandøren bedes 
+oplyse, om dele af be-
+handlingen af Kun-
+dens data, herunder 
+personoplysninger, 
+sker gennem internet-
+tet, og det er muligt at 
+tilgå Servicen gennem 
+det åbne internet. 
+Behandling af Kundens 
+data sker gennem inter-
+nettet, og Servicen kan 
+tilgås gennem det åbne 
+internet. 
+Eksterne trusler kan 
+være hackerangreb (fx 
+DDoS, SQL Injection), 
+Man-in-the-Middle an-
+greb under transmis-
+sion, Phishing/Creden-
+tial Stuffing forsøg mod 
+brugere, eller interne 
+trusler som utilsigtet el-
+ler intentionel misbrug 
+fra autoriserede bru-
+gere. 
+Mitigerende foranstaltning er bl.a. 
+være opsætning af multifaktorautenti-
+fikation (MFA). 
+Kryptering af data in transit (fx 
+TLS/SSL) og at rest (disk-kryptering). 
+Sikkerhedsovervågning (SIEM) for at 
+detektere uregelmæssig adfærd. 
+Regelmæssige penetrationstests. 
+Løbende arbejde med Best Practice 
+indenfor sikkerhed og GDPR. 
+2.2 Leverandøren bedes 
+oplyse, om det er mu-
+ligt at tildele admini-
+strativ adgang til Ser-
+vicen, hvori Kundens 
+data, herunder per-
+sonoplysninger, be-
+handles, gennem in-
+ternettet. 
+Administrativ adgang til 
+Servicen kan tildeles 
+gennem internettet. 
+Trusler er hackeran-
+greb (målrettet mod ad-
+ministrationsgrænsefla-
+den) eller interne trusler 
+som utilsigtet eller in-
+tentionel misbrug af ad-
+ministrative privilegier. 
+Mitigerende foranstaltning er bl.a.  IP-
+whitelisting for kun at tillade adgang 
+fra bestemte, godkendte IP-adresser 
+(IPSec kan bruges). Stærke adgangs-
+kontrolretningslinjer (fx Principle of 
+Least Privilege). Dedikerede admini-
+strator-konti og regelmæssig audit af 
+administrative handlinger. 
+2.3 Leverandøren bedes 
+oplyse, om Servicen 
+er indbyrdes forbun-
+det med et andet in-
+ternt eller eksternt it-
+system/service. 
+Servicen er indbyrdes 
+forbundet med et andet 
+internt it-system/service 
+via integration til Ca-
+lypso. 
+Trusler kan være eks-
+tern eller intern trussel 
+om lateral bevægelse 
+(hacker får adgang via 
+et svagere, forbundet 
+Mitigerende foranstaltning er bl.a. an-
+vendelse af firewall til at separere eks-
+tern og intern trafik og netværksseg-
+mentering. Implementering af reverse 
+proxy og firewall foran backend-ser-
+vere. Streng adgangs- og rettigheds-
+styring for integrationsrammeværket til 
+fx Calypso.
+
+## Page 5
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 4 af 10 
+system) eller utilsigtet 
+for bred brugeradgang 
+til fortrolige oplysninger 
+i de forbundne syste-
+mer. 
+2.4 Leverandøren bedes 
+oplyse, hvilke sårbar-
+heder der er forbundet 
+med adgangen til de 
+fysiske lokationer, 
+hvorpå Kundens data, 
+inkl. personoplysnin-
+ger, behandles, her-
+under om der sker co-
+lokation med tredje-
+part, eller der er util-
+strækkelig adgangs-
+kontrol. 
+Sårbarheder forbundet 
+med adgangen til de fy-
+siske lokationer, herun-
+der co-lokation eller 
+utilstrækkelig adgangs-
+kontrol kan være en 
+trussel. Dette kan være 
+fysisk indtrængen af 
+uvedkommende (inten-
+tionelt eller utilsigtet) for 
+at få adgang til hard-
+ware (servere/lagerme-
+dier) eller destruktion af 
+hardware. 
+Mitigerende foranstaltning er bl.a. e f-
+fektiv adgangskontrol (fx nøglekort, 
+biometri, adgangskoder) på fysiske lo-
+kationer. Videoovervågning af alle ind-
+gange og udgange. Overholdelse af 
+anerkendte ISO-standarder. Audit af 
+fysisk adgangslog. Co -lokationsaftaler 
+med sikkerhedskrav til tredjepart leve-
+randør med audit- og revisionsrappor-
+ter.  
+ 
+2.5 [Såfremt der vurderes 
+at være yderligere 
+sårbarheder, bedes 
+Leverandøren angive 
+disse hér.] 
+N/A N/A
+
+## Page 6
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 5 af 10 
+3 Processer og procedurer relateret til behandlingen 
+Nr.  Sårbarhed Trussel Mitigerende foranstaltnin-
+ger 
+3.1 Leverandøren bedes op-
+lyse, om fordelingen af 
+roller og ansvar i forbin-
+delse med forretnings-
+processen eller databe-
+handlingen er vage eller 
+uklart defineret i relation 
+til leveringen af Leveran-
+dørens Service. 
+Intern trussel som følge 
+af at fortrolige oplysnin-
+ger deles med uved-
+kommende eller at 
+manglende ansvarlig-
+hed fører til fejl/forsøm-
+melser. 
+Leverandøren har klare in-
+terne politikker for informati-
+onssikkerhed og databe-
+handling. Grundig intern op-
+læring (awareness-program-
+mer). Regelmæssig monito-
+rering og månedlige kontrol-
+ler med adgange/roller. Bevi-
+ser for sådanne kontroller au-
+diteres jævnligt. 
+Leverandøren er 4 dobbelt 
+ISO certificeret,  
+ISO 9001 – Quality Manage-
+ment  
+ISO 14001 – Environmental 
+Management  
+ISO 27001 – Information Se-
+curity 
+ISO 27701 certification for 
+Privacy Management. 
+3.2 Leverandøren bedes op-
+lyse, om brugertilladelser 
+eller system- og fysiske 
+ressourcer inden for den 
+organisation, der foreta-
+ger behandlingen, er tve-
+tydige eller uklart define-
+ret. 
+Intern trussel som følge 
+af at der utilsigtet gives 
+en for bred brugerad-
+gang (over-privilegering) 
+til fortrolige oplysninger. 
+Mitigerende foranstaltning er 
+bl.a. regelmæssig vurdering 
+(fx kvartalsvis) af tildelte bru-
+gerrettigheder (jf. Principle of 
+Least Privilege). Adgangs-
+kontrol baseret på roller 
+(Role-Based Access Control - 
+RBAC). Audit -spor for ret-
+tighedsændringer.  
+3.3 Leverandøren bedes op-
+lyse, om det er tilladt, at 
+medarbejdere medbrin-
+ger og anvender eget ud-
+styr forbundet med Ser-
+vicen (fx tilkobling af 
+egen computer på 
+Dette er ikke tilladt  Leverandøren er 4 dobbelt 
+ISO certificeret, ISO 9001, 
+ISO 14001,ISO 27001, ISO 
+27701 og har et træningspro-
+gram alle medarbejdere skal
+
+## Page 7
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 6 af 10 
+organisationens netværk 
+og anvendelse af private 
+USB-nøgler i organisatio-
+nens udstyr). 
+bestå årligt. Dette indbefatter 
+bl.a også Code of Conduct 
+3.4 Leverandøren bedes op-
+lyse, om det er tilladt, at 
+medarbejdere overfører, 
+lagrer eller på anden vis 
+behandler Kundens data, 
+herunder personoplys-
+ninger, uden for arbejds-
+pladsen gennem fjernad-
+gang, herunder via pri-
+vatudstyr. 
+Dette er ikke tilladt Leverandøren er 4 dobbelt 
+ISO certificeret, ISO 9001, 
+ISO 14001,ISO 27001, ISO 
+27701 og har et træningspro-
+gram alle medarbejdere skal 
+bestå årligt. Dette indbefatter 
+bl.a også Code of Conduct 
+3.5 Leverandøren bedes op-
+lyse, om der kan foreta-
+ges behandling af Kun-
+dens data, herunder per-
+sonoplysninger, uden 
+dannelse af log-filer. 
+Dette er ikke muligt Leverandøren er 4 dobbelt 
+ISO certificeret, ISO 9001, 
+ISO 14001,ISO 27001, ISO 
+27701 og har et træningspro-
+gram alle medarbejdere skal 
+bestå årligt. Dette indbefatter 
+bl.a også Code of Conduct 
+3.6 [Såfremt der vurderes at 
+være yderligere sårbar-
+heder, bedes Leverandø-
+ren angive disse hér.] 
+N/A N/A 
+ 
+ 
+ 
+4 Personer og parter involveret i behandlingen  
+Nr.  Sårbarhed Trussel Mitigerende foranstaltnin-
+ger 
+4.1 Leverandøren bedes op-
+lyse, om forretningspro-
+cessen udføres, eller om 
+der foretages behandling 
+af data, herunder per-
+sonoplysninger, af et 
+Stor udskiftning af med-
+arbejder kan give en 
+trussel der skal håndte-
+res. Ifølge af ansættelse 
+af en person med krimi-
+nel baggrund, der kan 
+føre til intentionel 
+Leverandøren oplever ikke 
+større udskiftning af medar-
+bejder. Det er et kendt antal 
+medarbejdere der arbejder og 
+behandler data. Årlige obliga-
+toriske prøver/genopfrisk-
+ningskurser for alle medarbej-
+dere. Baggrundscheck
+
+## Page 8
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 7 af 10 
+ikke nærmere fastsat an-
+tal medarbejdere. 
+datatyveri eller misbrug 
+af privilegier. 
+foretages ved ansættelse af 
+nye medarbejdere. Evt. sik-
+kerhedsgodkendelse ved 
+Kundefølsomme data. 
+Dette er endvidere en del af 
+de fastlagte processer for op-
+fyldelse af ISO 27701 
+4.2 Leverandøren bedes op-
+lyse, om de involverede 
+parter/personers forpligti-
+gelser vedrørende forret-
+ningsprocessen, eller 
+vedrørende behandlin-
+gen af personoplysninger 
+er tvetydige eller uklart 
+angivet. 
+Intern trussel som følge 
+af misforståelse af for-
+pligtelser, der kan føre 
+til datadelinger eller 
+ukorrekt håndtering 
+Uddannelse for alle nye med-
+arbejdere. Årlige obligatoriske 
+prøver/genopfriskningskur-
+ser. Tydelig dokumentation af 
+roller og ansvar.  
+4.3 Leverandøren bedes op-
+lyse, om de personer, 
+der behandler Kundens 
+data, herunder person-
+oplysninger, er uerfarne 
+med at arbejde med in-
+formationssikkerhed. 
+Intern trussel som følge 
+af menneskelige fejl, der 
+fører til utilsigtede data-
+læk eller forkert konfigu-
+ration. 
+Alle medarbejder er grundig 
+oplært ved ansættelse. Årlige 
+genopfriskningskurser og ob-
+ligatoriske prøver for alle 
+medarbejdere. Et informati-
+onssikkerhedsteam der rådgi-
+ver og træner. 
+ 
+4.4 Leverandøren bedes op-
+lyse, om de perso-
+ner/parter, der behandler 
+Kundens data, herunder 
+personoplysninger, und-
+lader at lagre eller slette 
+oplysninger forsvarligt, 
+herunder i henhold til 
+gældende lovgivning og 
+politikker. 
+Risiko for retention 
+(data opbevares læn-
+gere end nødvendigt) 
+eller at sletning ikke er 
+uigenkaldelig (GDPR 
+overtrædelse). 
+Indeholdt i de ISO understøt-
+tende processer. Fastsatte in-
+terne politikker for lagring og 
+sletning af data. Automatise-
+ret sletning/arkivering/anony-
+misering hvor muligt. Sikker-
+hedsprotokoller for uigenkal-
+delig sletning.  Alt sletning af 
+data, som sker med hensyn til 
+gældende lovgivning. 
+ 
+4.5 Leverandøren bedes op-
+lyse, om dele af behand-
+lingen foretages af en 
+underleverandør. 
+Trussel om at underle-
+verandører ikke opret-
+holder samme eksper-
+tise eller sikkerhedsni-
+veau som Leverandø-
+ren. 
+Krav om ISO -certificering af 
+underleverandøren. Tilsyn 
+med underleverandøren (fx 
+årlig audit eller tredjepartsre-
+degørelser). Klar
+
+## Page 9
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 8 af 10 
+databehandleraftale (DPA) 
+med detaljerede sikkerheds-
+krav. 
+4.6 [Såfremt der vurderes at 
+være yderligere sårbar-
+heder, bedes Leverandø-
+ren angive disse hér.] 
+N/A N/A 
+ 
+5 Sektorspecifikke trusler og behandlingens omfang  
+Nr.  Sårbarhed Trussel Mitigerende foranstaltnin-
+ger 
+5.1 Leverandøren bedes op-
+lyse, om den pågæl-
+dende sektor, som Ser-
+vicen vedrører, er særligt 
+udsat for cyberangreb. 
+Det er Leverandørens 
+opfattelse at samtlige 
+sektorer er udsat for cy-
+berangreb. Det er ikke 
+Leverandørens opfat-
+telse af nærværende 
+sektor er mere udsat 
+end andre sektorer. 
+Leverandøren har et generelt 
+stærkt cyberforsvar og at 
+best practices følges.  
+Leverandøren har et generelt 
+stærkt cyberforsvar. Trus-
+selsovervågning (Threat In-
+telligence) specifikt rettet 
+mod sektorspecifikke angreb. 
+Regelmæssig sårbarheds-
+håndtering. 
+5.2 Leverandøren bedes op-
+lyse, om den organisa-
+tion, der behandler Kun-
+dens data, herunder per-
+sonoplysninger, har væ-
+ret udsat for cyberangreb 
+eller andre typer af sik-
+kerhedsbrud inden for de 
+sidste 2 år. 
+Public 360 er ikke blevet 
+udsat for sikkerheds-
+brud i forbindelse med 
+cyberangreb de seneste 
+2 år 
+Leverandøren Iværksætter 
+hele tiden ændringer og styr-
+kelse af cyberforsvaret. Bl.a. 
+implementeringen af mitige-
+rende foranstaltninger  og re-
+gelmæssige sårbarhedsscan-
+ninger. 
+. 
+ 
+5.3 Leverandøren bedes op-
+lyse, om der er modtaget 
+meddelelser og/eller kla-
+ger med hensyn til Ser-
+vicens sikkerhed inden 
+for det sidste år.  
+Leverandøren har ikke 
+modtaget klager over sy-
+stemet sikkerhed, der gi-
+vet videre til datatilsynet 
+det seneste år. 
+Leverandøren er i t æt dialog 
+med kunder om sikkerheds-
+spørgsmål. Leverandøren 
+modtager jævnligt spørgsmål 
+omkring sikkerhed, som Leve-
+randøren løbende i tæt dialog 
+med vores kunder besvarer.  
+Løbende foretages
+
+## Page 10
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 9 af 10 
+penetrationstest for at sikre 
+løsningen bedst muligt. 
+5.4 Leverandøren bedes op-
+lyse, om behandlingen 
+vedrører en større 
+mængde data, herunder 
+et stort antal personop-
+lysninger om registre-
+rede individer og/eller en 
+stor mængde personop-
+lysninger. Kundens risiko 
+kan stige som følge af en 
+øget trussel rettet mod 
+systemer med større da-
+tamængder, eller som 
+følge af øgede konse-
+kvenser ved en kompro-
+mittering af større data-
+mængder.   
+Leverandøren behand-
+ler alle  størrelser data 
+med store sikkerheds-
+foranstaltninger. Kun 
+nødvendige data/oplys-
+ninger indsamles (Data-
+minimering/Privacy by 
+Design). Kryptering af de 
+indsamlede data/oplys-
+ninger samt stærk ad-
+gangskontrol og over-
+vågning. 
+Stor opmærksomhed omkring 
+awareness og efterlevelse af 
+politikker for persondatasik-
+kerhed (jf. årlige kurser/prø-
+ver). Implementering af rele-
+vante, specifikke standarder . 
+Der indsamles udelukkende 
+nødvendige data , som Kun-
+den bestemmer omfanget af  
+og data krypteres. 
+5.5 Leverandøren bedes op-
+lyse, om der er 'best 
+practice' specifikt rettet 
+mod den organisation, 
+der udfører forretnings-
+processen, behandlingen 
+af Kundens data, herun-
+der personoplysninger, 
+der ikke er tilstrækkeligt 
+fulgt. 
+Leverandøren arbejder 
+altid ud fra Best Practice 
+på området med sikker-
+hed og GDPR  herunder 
+udførsel af forretnings-
+processer, behandlin-
+gen af Kundens data, 
+herunder personoplys-
+ninger. 
+Stor opmærksomhed omkring 
+awareness og efterlevelse af 
+politikker for persondatasik-
+kerhed (jf. årlige kurser/prø-
+ver). Implementering af rele-
+vante, specifikke standarder.. 
+Alle medarbejdere med så-
+danne adgang, grundigt op-
+lært og gennemgår obligato-
+risk prøver/kurser minimum 
+årligt. 
+Senest er der opnået ISO 
+27701 certificering, som bevis 
+for stærke processer til over-
+holdelse af dette 
+5.6 [Såfremt der vurderes at 
+være yderligere sårbar-
+heder, bedes Leverandø-
+ren angive disse hér.] 
+N/A N/A
+
+## Page 11
+Bilag 9.1 Spørgeskema til brug for Kundens risikovurdering af it- og in-
+formationssikkerhed 
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024) 
+Udfyldes af Leverandøren 
+  
+ 
+ 
+ 
+ 
+Version 1.0   Side 10 af 10

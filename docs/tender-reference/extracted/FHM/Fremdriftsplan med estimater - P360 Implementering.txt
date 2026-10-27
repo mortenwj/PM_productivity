@@ -1,0 +1,288 @@
+## sheet1.xml
+Prosjektoversikt
+Implementeringsprosjekt P360
+Prosjektnavn	KUNDENAVN Implementering P360	Prosjektets identifiserte risiko	Påvirkning
+Kunde	KUNDENAVN	ID	Risikobeskrivelse	Konsekvens	Tiltak	Ansvarlig	Kategori	Sannsynlighet	Påvirkning	Risikonivå	Kategorier	Ubetydelig	Mindre alvorlig	Alvorlig	Kritisk	Katastrofe
+Antatt varighet (mnd)	1	0	Det er for høye forventninger knyttet til konfigurasjonsmuligheter	Økt frustrasjon og uenighet mellom partene, økte kostnader og potensielt forsinkelse i prosjektet	Konfigurasjonspakker er lagt inn som opsjon	Rådgiver	Leveranse	Meget sannsynlig	Kritisk	Høy	Sannsynlighet	Svært sannsynlig	Medium	Medium	Høy	Høy	Høy
+1	Meget sannsynlig	Lav	Medium	Medium	Høy	Høy
+Tidsbudsjett (Overordnet)	2	Sannsynlig	Lav	Medium	Medium	Medium	Høy
+Kategori	Timer	Kommentar	3	Lite sannsynlig	Lav	Lav	Medium	Medium	Medium
+Konsulenttid	378	4	Svært lite sannsynlig	Lav	Lav	Lav	Lav	Medium
+Prosjektledelse	70	0.2	5
+Migrering	0	6	Påvirkning
+Statusmøter (internt)	3	Kan justeres	7	Antall	Ubetydelig	Mindre alvorlig	Alvorlig	Kritisk	Katastrofe
+Statusmøter (eksternt)	Kan justeres	8	Sannsynlighet	Svært sannsynlig
+Budsjett u/risikopåslag	451	9	Meget sannsynlig	1
+Risikopåslag	0.1	10	Sannsynlig
+Budsjett m/risikopåslag	492.80000000000007	Påslag kun på konsulenttid, PL og migrering	11	Lite sannsynlig
+12	Svært lite sannsynlig
+Tidsbudsjett (Etter kategori)	13
+Kategori	Timer	Kommentar	14
+Prosjektledelse	70	Kan justeres. Obs! PL-tiden er ikke satt, så sett individuell tid på dette enn så lenge. Se tabellen over	15
+Analysering	3.5	16
+Dokumentering og spesifisering	13	17
+Utvikling	0	18
+Implementering	20.5	19
+Migrering	0	20
+Installering	227	21
+Testing	30.5	22
+Rådgivning	0	23
+Opplæring	42	24
+Generelle møter	41.5	Statusmøter er ekstra
+Budsjett u/risikopåslag	378
+## sheet2.xml
+Fremdriftsplan Implementeringsprosjekt Public 360⁰
+Aktiviteter	Min (timer)	Max (timer)	Antall miljøer	Budsjett (timer)	Risikonivå	Kategori	Ansvar (RACI)	Ansvarlig person	Andre deltakere	Start	Slutt	Varighet	Tidspunkt	Fullført	Aktivitetsbeskrivelse
+MP0	Kontrakten er signert	Uke 47
+FASE 1	FORBEREDELSE OG ORGANISERING
+MP1	Prosjektet er igangsatt
+Forberedelser og organisering av leveranse og ressurser	10	10	1	10	Lav	Prosjektledelse	Leverandør (R), Kunde (R)	Kundens prosjektgruppe	Uke 47	0	Booking av ressurser, interne forberedelser
+Kunde innhenter teknisk informasjon (Velkomstbrev)	1	Lav	Prosjektledelse	Kunde (R)	Kundens prosjektgruppe	man 23.11.26	tir 24.11.26	0	Kunde får tilsendt velkomstbrev på forhånd og innhenter teknisk data
+Møte: Leverandørens interne oppstartsmøte	1	6	1	3.5	Lav	Generelle møter	Leverandør (R)	man 23.11.26	man 23.11.26	1 time	0	Internt oppstartsmøte for Leverandørens prosjektgruppe
+Møte: Felles oppstartsmøte med begge prosjektgruppene (Kick-off)	2	6	1	4	Lav	Generelle møter	Leverandør (R), Kunde (I)	Kundens prosjektgruppe	tir 24.11.26	tir 24.11.26	2 timer	0	Felles oppstartsmøte for begge prosjektgruppene (Kunden og Leverandøren)
+Møte: Teknisk møte	1	2	1	1.5	Medium	Generelle møter	Leverandør (R)	Kundens IT	tir 24.11.26	tir 24.11.26	1 time	0	Gjennomgang av tekniske krav (miljø og moduler) og velkomstbrev
+Fremdriftsplan oppdateres til v.1.0	1	1	1	1	Lav	Prosjektledelse	Leverandør (R), Kunde (C)	Kundens prosjektleder	tir 24.11.26	tir 24.11.26	0	Omforent fremdriftsplan oppdateres
+MP2	Omforent fremdriftsplan er godkjent	tir 24.11.26	tir 24.11.26
+FASE 2	INSTALLERING, OPPLÆRING OG SPESIFISERING
+Etablering av miljø m/moduler + verifisering av miljøpålogging	2	3	1	2.5	Lav	Prosjektledelse	Leverandør (R)	Kundens prosjektgruppe	ons 25.11.26	ons 25.11.26	1 dag	0	Leverandøren oppretter miljø(er) iht. Avtalen og verifiserer innlogging
+Forbered tilkobling til AD Sync	1	Medium	Installering	Leverandør (R), Kunde (C)	Kundens IT	ons 25.11.26	ons 25.11.26	0	Arbeid med tilkobling av AD Sync påbegynnes
+MP3	Avtalt miljø er klart for funksjonelt oppsett og verifisering
+Innledende møter
+Tema: Bli kjent med Kundens rutiner, prosesser og behov	2	5	1	3.5	Lav	Analysering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	ons 25.11.26	ons 25.11.26	2 timer	0	Leverandøren blir kjent med Kundens arbeidsmetoder og prosesser, for å kunne tilpasse anbefalinger og tilbakemeldinger
+Opplæring av prosjektgruppe
+Leverandøren forbereder miljø til digital kursgjennomføring i Leverandørens kursmiljø	-	2	1	2	Lav	Opplæring	Leverandør (R)	Kundens prosjektgruppe	ons 25.11.26	ons 25.11.26	0	Leverandøren forbereder til kursgjennomføring
+Kurs: Administratorkurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tor 26.11.26	tor 26.11.26	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Kurs: Videregåendekurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tor 26.11.26	tor 26.11.26	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Kurs: Arkivarkurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	fre 27.11.26	fre 27.11.26	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Kurs: Lederkurs (2 timer)	-	4	1	4	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	fre 27.11.26	fre 27.11.26	2 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Opplæring av Superbrukere
+Kurs: Administratorkurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens superbrukere	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Kurs: Videregåendekurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens superbrukere	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Kurs: Arkivarkurs (3 timer)	-	6	1	6	Lav	Opplæring	Leverandør (R), Kunde (C)	Kundens superbrukere	3 timer	0	Gjennomgang av faglig kursinnhold og -oppgaver
+Generelle arbeidsmøter og opplæring
+Tema: Gjennomgang av konfigurasjonsdokument - Basispakke	8	8	1	8	Medium	Dokumentering og spesifisering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	man 30.11.26	man 30.11.26	1 time	0	Kunden bør ha gjennomført administrator- og arkivarkurs først
+Tema: Gjennomgang API'er m/tredjepartsleverandør ift. Kundespesifikke integrasjoner	1	4	1	2.5	Lav	Generelle møter	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	man 30.11.26	man 30.11.26	1 time	0	Veiledning i hvordan Kunden kan opprette endepunkter, samt gjennomgang med tredjepart og Kunde for å identifisere nødvendige API'er
+Tema: Opplæring Flow	30	30	1	Lav	Generelle møter	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tir 01.12.26	tir 01.12.26	1 time	0	Veiledning i hvordan Kunden kan opprette endepunkter, samt gjennomgang med tredjepart og Kunde for å identifisere nødvendige API'er
+Tema: Opplæring Collect	30	30	1	30	Lav	Generelle møter	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	ons 02.12.26	ons 02.12.26	1 time	0	Veiledning i hvordan Kunden kan opprette endepunkter, samt gjennomgang med tredjepart og Kunde for å identifisere nødvendige API'er
+BASIC
+AD Sync	6	24	1	15	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	Format Converter	2	6	1	4	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	Archive Format Validator	2	6	1	4	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+DIGITAL COMMUNICATION
+x	Dispatch Adapter: DPI	2	6	1	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	Dispatch Adapter: eFormidling	12	24	1	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+CENTRAL REGISTRIES
+x	Integration: Folkeregisteret (Infotorg eller KS Fiks)	4	10	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	Integration: Folkeregisteret Update	2	4	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Integration: Enhetsregisteret	4	10	1	7	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Integration: Enhetsregisteret Update	2	4	1	3	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+TRANSPARENCY
+x	Information Act Request	20	24	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	eInnsyn Export	4	4	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	FileViewer	4	4	1	4	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+DOCUMENT MANAGEMENT
+Policy Documents	10	18	1	14	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+INTELLIGENT PRODUCTIVITY PLATFORM
+Archive Inspector	30	30	1	30	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Mimir	4	4	1	4	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+PROCESS LIBRARY (ARCHIVING BY DESIGN)
+AutoSaver	4	4	1	4	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Integration: Webcruiter	8	16	1	12	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+COLLABORATION IN MS365
+Integration: MS Teams	10	14	1	12	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+x	Integration: MS Office Apps	10	14	1	12	Medium	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Integration: Sharepoint	12	16	1	14	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+FILE MANAGEMENT
+x	eSigning Connect	6	8	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+ADDITIONAL
+Restricted Mode	22	26	1	24	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Search Assistant	2	6	1	4	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Managament Reporting API	1	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Flow	20	40	1	30	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Collect	20	40	1	30	Lav	Installering	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	tors 03.12.26	tir 08.12.26	0	Arbeidsmøter for oppsett av modul avtales fortløpende. Kunden er selv ansvarlig for å signere evt. avtaler med tredjepart
+Ferdigstillelse av konfigurasjonsdokument	tors 03.12.26	tir 08.12.26
+Leverandøren oppdaterer og ferdigstiller konfigurasjonsdokumentet	2	8	1	5	Medium	Dokumentering og spesifisering	Leverandør (R), Kunde (C)	ons 09.12.26	ons 09.12.26	0	Leverandører oppdaterer og ferdigstiller konfigurasjonsdokumentet som er grunnlag for konfigurasjonsoppsettet
+Kunde leser gjennom og godkjenner oppdatert konfigurasjonsdokument	1	Lav	Dokumentering og spesifisering	Kunde (R)	ons 09.12.26	ons 09.12.26	0	Kunden skal lese gjennom og godkjenne det oppdaterte konfigurasjonsdokumentet
+MP4	Konfigurasjonsdokumentet er godkjent	ons 09.12.26	ons 09.12.26
+FASE 3	IMPLEMENTERING OG KONFIGURERING
+Konfigurere miljø(er) iht. konfigurasjonsdokument	6	12	2	13.5	Medium	Implementering	Leverandør (R)	tors 10.12.26	fre 11.12.26	0	Miljøet settes opp og konfigureres iht. godkjent konfigurasjonsdokument
+Konfigurasjon av moduler m/kundeopplysninger som skal testes ferdigstilles	-	-	1	Lav	Installering	Leverandør (R), Kunde (C)	tors 10.12.26	fre 11.12.26	0	Sertifikater og brukerinfo legges inn av Kunden. Leverandør skal aldri se eller håndtere passord, men kan veilede Kunden.
+Kopi av Kunde sin produksjonsbase over til testmiljø	6	10	1	8	Leverandør (R)	Leverandør (R)	tors 10.12.26	fre 11.12.26	0
+Leverandørens verifikasjon (FAT)	8	8	2	12	Medium	Testing	Leverandør (R)	tors 10.12.26	fre 11.12.26	0	Leverandør verifiserer at grunnleggende funksjoner fungerer
+MP5	Løsningen er klar for Kundens Godkjenningsprøve	fre 11.12.26	fre 11.12.26
+FASE 4	AKSEPTANSETEST
+Møte: Oppstartsmøte testperioden	1	2	1	1.5	Lav	Testing	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	man 14.12.26	man 14.12.26	1 time	0	Gjennomgang av retningslinjer, akseptansekriterier og frister
+Kundens akseptansetest	1	Lav	Testing	Kunde (R)	man 14.12.26	tor 17.12.26	0	Kunden tester iht. Avtalen
+Konsulentbistand under akseptansetest	20	20	1	10	Medium	Testing	Leverandør (R)	man 14.12.26	tor 17.12.26	0	Leverandøren (og annen ansvarlig part) gjør nødvendige endringer for å rette avvik
+Møte: Statusmøte testperioden	1	2	1	1.5	Lav	Testing	Leverandør (R), Kunde (C)	Kundens testleder	tir 15.12.26	tir 15.12.26	1 time	0	Statusmøte for testperioden, gjennomføres basert på behov
+Møte: Avslutningsmøte testperioden	1	2	1	1.5	Lav	Testing	Leverandør (R), Kunde (C)	Kundens testleder	tor 17.12.26	tor 17.12.26	1 time	0	Gjennomgang av åpne innmeldte saker iht. Akseptansekriterier
+MP6	Perioden for Godkjenningsprøven er utløpt og Løsningen er godkjent iht. akseptansekriteriene	tor 17.12.26	tor 17.12.26
+FASE 5	IDRIFTSSETTELSE
+Forberedende aktiviteter
+Håndtering av åpne restanser etter testperioden iht. kontrakt	1	Lav	Testing	Leverandør (R), Kunde (C)	Kundens testleder	fre 18.12.26	fre 18.12.26	0	Håndtering av gjenstående B-feil
+Produksjonssetting
+Konfigurasjon etter Akseptansetest	0	4	1	2	Lav	Implementering	Leverandør (R)	fre 18.12.26	fre 18.12.26	0	Sertifikater og brukerinfo legges inn av Kunden. Leverandør skal aldri se eller håndtere passord, men kan veilede Kunden.
+Kunde og tredjepart setter opp eventuelle kundespesifikke integrasjoner	1	5	Lav	Implementering	Kunde (R), tredjepart (C)	Tredjepartsleverandør	fre 18.12.26	fre 18.12.26	0	Tredjepartsintegrasjoner er Kundens ansvar, men Leverandøren kan bistå ved behov
+Felles verifikasjon av prodmiljø	4	4	1	4	Lav	Testing	Leverandør (R), Kunde (C)	Kundens prosjektgriuppe	fre 18.12.26	fre 18.12.26	0	Begge parter gjør en kjapp sjekk av at integrasjoner, maler etc. fungerer
+Go / No Go	1	2	1	1.5	Lav	Prosjektledelse	Leverandør (R), Kunde (I)	Kundens prosjektgriuppe	fre 18.12.26	fre 18.12.26	0	Godkjenne at miljøet er klart for bruk
+MP7	Løsningen er driftsatt og tilgjengeliggjort for sluttbrukerne	fre 18.12.26	fre 18.12.26
+FASE 6	EVALUERING OG AVSLUTNING
+Møte: Felles prosjektevaluering	2	4	1	Lav	Generelle møter	Leverandør (R), Kunde (C)	Kundens prosjektgruppe	man 21.12.26	man 21.12.26	1 time	0	Gjennomgang av prosjektgjennomføring, evaluering og tilbakemeldinger
+Leverandørens prosjektavslutningsaktiviteter (GW12)	4	6	1	5	Lav	Prosjektledelse	Leverandør (R)	man 21.12.26	man 21.12.26	0	Lukking av prosjekt, dokumentering, rapportering etc.
+MP8	Prosjektet er avsluttet og overlevert til forvaltning	man 21.12.26	man 21.12.26
+## sheet3.xml
+Implementeringsprosjekt - Standardmilepæler
+ID	Milepælsbeskrivelse	Kommentar
+MP0	Kontrakten er signert
+MP1	Prosjektet er igangsatt	Dette for å tydeliggjøre at vi nå kan føre tid på prosjektet
+MP2	Omforent fremdriftsplan er godkjent
+MP3	Avtalt miljø er klart for funksjonelt oppsett og verifisering	SaaS begynner 50%, dersom avtalt.
+MP4	Konfigurasjonsdokumentet er godkjent
+MP5	Løsningen er klar for Kundens Godkjenningsprøve
+MP6	Perioden for Godkjenningsprøven er utløpt og Løsningen er godkjent iht. akseptansekriteriene	Kunden må få Leveransemelding om at Leveringsdagen skjer påfølgende virkedag og SaaS begynner 100%.
+MP7	Løsningen er driftsatt og tilgjengeliggjort for sluttbrukerne
+MP8	Prosjektet er avsluttet og overlevert til forvaltning
+## sheet4.xml
+Ja	Lav
+Nei	Medium
+Høy
+Miljøer	Multipliseres
+1	1
+Passord (låste celler): P360	2	1.5
+3	2
+Kategorier	Beskrivelse	Risikokategori	Beskrivelse
+Prosjektledelse	Administrasjon, økonomi, SG-møter, statusmøter	Budsjett	Administrasjon, økonomi, SG-møter, statusmøter
+Analysering	Tidsplan
+Dokumentering og spesifisering	Teknologi
+Utvikling	Informasjon
+Implementering	Sikkerhet
+Migrering	Kvalitet
+Installering	Prosjektplan
+Testing	Leveranse
+Rådgivning	Juridisk
+Opplæring
+Generelle møter
+## sheet5.xml
+Opsjoner og tilleggsaktiviteter - Aktiviteter	Estimater (internt)	Prosjektleder	Rådgiver	Deployer	Utvikler	Support	Prosjekteier
+Foreslått fase	Aktiviteter	Obligatorisk	Min (timer)	Max (timer)	Budsjett (timer)	Risikonivå	Kategori	Ansvarlig	Navngitt ansvarlig	Andre deltakere	Start	Slutt	Varighet	Tidspunkt	Fullført	Aktivitetsbeskrivelse	Leverandørens ansvarsfordeling
+∞
+Ekstra statusmøter	Nei	Lav	Prosjektledelse	Leverandør	Kundens prosjektgruppe	0	R	C/I	C/I	C/I	A
+Ekstra arbeidsmøter	Nei	Lav
+Utvikling av maler iht. avtale	Nei	Medium	0
+SG	Ekstra styringsgruppemøte	Nei	1	2	1.5	Lav	Prosjektledelse	Leverandør	Kundens styringsgruppe	0	Ikke-fakturerbart?
+Bistand utover Leveransensens inkluderte timer	Nei	Lav	0	Omfang og fakturering avtales med Kunden (enten via EO eller løpende timer)	A	R	R	R
+Leverandørens bistand med installasjon av klassifikasjonskoder (K-koder)	Nei	Medium	0	Normalt en fastpris	R
+Leverandørens bistand med installasjon av arkivnøkler	Nei	Medium
+Nei	Lav
+Opplæring og innføring
+Floor Walking	Nei	-	1	1	Lav	0	Varighet etter avtale	I/A	R
+Train the Trainer	Nei	12	18	15	Lav	2 dager	0	I/A	R
+Spørretime (digitalt)	Nei	1	4	2.5	Medium	1 time	0	I/A	R
+eLæring	Nei	Lav	0	I/A	R
+Ekstra miljø	Når det skal leveres mer enn ett miljø i prosjektet. Modulkonfig kommer i tillegg.
+Administrasjon (utsendelse av velkomstbrev, booking, GW12 m.m.)	Nei	2	4	3	Lav	0
+Installering av ekstra miljø + verifisering av tilkobling	Nei	2	4	3	Lav	0
+Import av DB-kopi	Nei	2	6	4	Lav	0
+Bistand under Kundens verifisering	Nei	2	10	6	Medium	0
+0
+OnPrem-aktiviteter	Når prosjektet ikke er Cloud.
+Etablering av lokale miljøer (Internt, utvikling, test)	Ja	Lav	0
+Teknisk verifikasjon av lokale miljøer	Ja	Lav	0
+Nei	Lav	0
+Nei	Lav	0
+Nei	Lav	0
+FASE 1
+Nei	Lav	0
+Nei	Lav	0
+FASE 2
+Møte: Gjennomgang av AD Sync-oppsett	Ja	Lav	0
+Leverandøren er tilgjengelig for Kunden med avklaringer og evt. Justeringer	Nei	Lav	0	Relatert til konfigdokumentet, faktureres på løpende timer
+Generelle arbeidsmøter
+Tema: Gjennomgang av Løsningens standard Møte og utvalg-maler	Nei	Lav	0
+Tema: Gjennomgang API'er m/tredjepartsleverandør ift. Kundespesifikke integrasjoner	Nei	Lav	0
+Tema: Informasjonsmøte om arkivnøkler	Nei	Lav	0
+Tema: Håndtering av åpne saker (MCUT)	Nei	Lav	0
+Opplæring av prosjektgruppe
+Kurs: Møte og utvalg	Nei	-	10	10	Lav	Opplæring	Leverandør	Kundens prosjektgruppe	0	I/A	R
+Kurs: Lederkurs	Nei	-	4	4	Lav	Opplæring	Leverandør	Kundens prosjektgruppe	0	I/A	R
+Kurs: Template Designer	Nei	-	12	12	Lav	Opplæring	Leverandør	Kundens prosjektgruppe	0	I/A	R
+Opplæring av superbrukere
+Kurs: Grunnkurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+Kurs: Videregåendekurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+Open Session	Nei	-	Lav	Opplæring	Leverandør	Kundens superbrukere	0	I/A	R
+Opplæring av sluttbrukere
+Kurs: Grunnkurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+Kurs: Administratorkurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+Kurs: Videregåendekurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+Kurs: Arkivarkurs	Nei	-	6	6	Lav	Opplæring	Leverandør	Kundens sluttbrukere	0	I/A	R
+FASE 4
+Bistand utover Leveransensens inkluderte timer	Nei	Lav	Testing	Leverandør	0	R
+Nei	Lav	0	C	C
+FASE 5
+Forberedelser før generering av åpne saker vha. MCUT	Nei	Lav	Installering	Leverandør	0	R
+OnPrem-løsning settes til Read Only	Nei	Lav	Installering	Kunde	0	Hindrer at sluttbrukerne får gjort endringer i OnPrem-løsningen etter importen av nyeste data	C	C
+Generering av åpne saker vha. MCUT	Nei	Lav	Installering	Leverandør	0	R
+Installer arkivnøkler	Nei	Lav	Installering	Kunde	0	C	R
+Sett avtalt start på saksnummer	Nei	Lav	Utvikling	Leverandør	0	I	C	R
+Opsjoner og tilleggsaktiviteter - Moduler og integrasjoner	Estimater (internt)	Prosjektleder	Rådgiver	Deployer	Utvikler	Support	Prosjekteier
+Løsning	Obligatorisk	Min (timer)	Max (timer)	Budsjett (timer)	Risikonivå	Kategori	Ansvarlig	Navngitt ansvarlig	Andre deltakere	Start	Slutt	Varighet	Tidspunkt	Fullført	Aktivitetsbeskrivelse	Leverandørens ansvarsfordeling
+BOARD AND MEETING MANAGEMENT
+Board and Council	Nei	6	10	8	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Decision Tracking	Nei	8	12	10	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+eMeetings Prepare	Nei	15	19	17	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+eMeetings Live	Nei	15	19	17	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Meeting Management	Nei	1	1	1	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+eManager	Nei	1	2	1.5	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+DIGITAL COMMUNICATION
+Integration: SvarInn (NO)	Nei	8	16	12	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: SvarUt (NO)	Nei	8	16	12	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Dispatch Adapter: DPI	x	Ja	2	6	4	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+Dispatch Adapter: eFormidling	x	Ja	12	24	18	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+CENTRAL REGISTRIES
+Integration: Folkeregisteret (Infotorg eller KS Fiks)	x	Ja	4	10	7	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: Folkeregisteret Update	x	Ja	2	4	3	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: Enhetsregisteret	Ja	4	10	7	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: Enhetsregisteret Update	Ja	2	4	3	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Cadastre Integration	Nei	4	12	8	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+TRANSPARENCY
+Information Act Request	x	Ja	20	24	22	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+OpenGov 2.0	Nei	14	20	17	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Public Journal	Nei	16	18	17	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Public Journal File Server	Nei	-	-	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+OpenGov Cases and Documents	Nei	14	18	16	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+OpenGov Webservices	Nei	-	-	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+eInnsyn Export	x	Ja	4	4	4	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+FileViewer	x	Ja	4	4	4	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+DOCUMENT MANAGEMENT
+Contract Management	Nei	10	12	11	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Policy Documents	Ja	10	18	14	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+INTELLIGENT PRODUCTIVITY PLATFORM
+Archive Inspector	Ja	30	30	30	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Mimir	Ja	4	4	4	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+THIRD PARTY INTEGRATION TOOLS
+Power Automate Connector	Nei	16	35	25.5	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+SIF	Nei	1	4	2.5	Høy	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+FIKS Arkiv	Nei	20	30	25	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+GI Services	Nei	-	-	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+Package Upload	Nei	-	-	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+PROCESS LIBRARY (ARCHIVING BY DESIGN)
+Process Library: Startskudd	Nei	7	10	8.5	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	C	R
+Process Library: Everyone	Nei	14	21	17.5	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	C	R
+Process Library: Landbruksdirektoratet	Nei	22	26	24	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	C	R
+Process Library: Email Archiving	Nei	8	11	9.5	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	C	R
+AutoSaver	Ja	4	4	4	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+Integration: Webcruiter	x	Ja	8	16	12	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	C	R
+COLLABORATION IN MS365
+Integration: MS Teams	Ja	10	10	10	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: MS Office Apps	x	Ja	10	14	12	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Integration: Sharepoint	Ja	12	16	14	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Sharepoint Connect	Nei	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+FILE MANAGEMENT
+Scanning	Nei	6	10	8	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+PDF Stamping	Nei	10	18	14	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+eSigning Connect	x	Ja	6	8	7	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Sign	Nei	33	46	39.5	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+ADDITIONAL
+Template Connect	Nei	14	16	15	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Restricted Mode	Ja	22	26	24	Lav	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C
+Process Engine	Nei	4	4	4	Medium	Installering	Leverandør	Kundens prosjektgruppe	0	I/A	R	C

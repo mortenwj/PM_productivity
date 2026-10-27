@@ -1,0 +1,92 @@
+VN ASIA-hankkeen tarjouspyynnön dokumentit
+Huom. Otsikon alussa
+”aRFQ & RFQ” merkintä tarkoittaa, että dokumentti lähetetään tarjoajille jo neuvottelukutsun yhteydessä neuvottelujen pohjatiedoksi
+RFQ jos liite lähetetään vasta lopullisessa tarjouspyynnössä
+-----------------------------------------------------------------------------------------------
+Tässä dokumentissa on kuvattu lyhyesti liitteiden sisältö, käyttötarkoitus. Tarkoituksena on helpottaa tarjouspyynnön läpikäyntiä ja auttaa löytämään oikeat liitteet käsittelytilanteisiin.
+aRFQ & RFQ Liite 1 VN Asia hankinnan kohteen kuvaus
+Kuvaa yleisesti hankinnan tavoitteen, hankintaan liittyvät rajoitukset ja hankinnan kohteen.  Alaliitteissä on asiaan liittyviä tarkennuksia.
+aRFQ & RFQ Liite 1.1 VN Asia valmisratkaisuna hankittavat komponentit
+Kuvaa yleisesti mitä tavoitellaan valmisratkaisuina.
+aRFQ & RFQ Liite 1.2 VN Asia räätälöidyt komponentit
+Kuvaa yleisesti mitä tavoitellaan räätälöityinä ratkaisuina.
+aRFQ & RFQ Liite 1.3 VN Asia ympäristökonsepti
+Kuvaa millaiseen ympäristöön hankittavan kokonaisuus tuotetaan ja mitkä ovat sen reunaehdot.
+aRFQ & RFQ Liite 1.4 VN Asia erillissovelluksien huomioiminen
+Kuvataan, miten erillissovelluksien integroiminen tai mahdollinen korvaaminen voitaisiin toteuttaa.
+aRFQ & RFQ Liite 1.5 VN Asia käsitteet ja sanasto
+Kuvataan tarjouspyyntödokumenteissa käytetyt käsitteet
+aRFQ & RFQ Liite 1.6 VN Asia tarjouspyynnön dokumentit-listaus
+Listataan tarjouspyynnön dokumentit ja kuvataan niiden tarkoitus.
+aRFQ & RFQ Liite 2 VN Asia vaatimusmäärittely
+Kuvaa Tilaajan tarpeet hankittavalle kokonaisratkaisulle, mitä käytetään yhdessä pohjana rakentamisvaiheen yhdessä tehtävälle vaatimusmäärittelylle. Vaatimusmateriaalin pätemisjärjestys yhdessä RFQ liite 3 Projektisuunnitelma kanssa on määritelty RFQ liitteessä 4 kohdassa 21.1.2.
+aRFQ & RFQ Liite 2.1 VN Asia palveluiden kuvaus
+Kuvaa osana vaatimusmäärittelymateriaalia Tilaajan hankkeen aikana rakennettavaksi tavoittelemat palvelut. Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä.
+aRFQ & RFQ Liite 2.2 VN Asia käyttökonsepti
+Kuvaa osana vaatimusmäärittelymateriaalia Palvelukuvausta täydentäen Tilaajan näkemykset, millä tavoin hankittavaa järjestelmäkokonaisuutta ja sen kyvykkyyksiä käyttämällä tavoiteltavia palveluita Tilaajan toimintaympäristöissä tullaan tuottamaan eri loppukäyttäjäryhmien näkökulmasta. Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä vaatimustenmukaisuuden itsearvioinnin tekemisen ohella.
+RFQ Liite 2.2.1 VN Asia käyttötapaukset
+Tarkentaa käyttökonseptia alueilta, mistä käyttötapauksia on kuvattu. Tilaaja sekä Toimittaja tulevat yhdessä osana ketterän kehittämisen mallin käyttöä tuottamaan lisää käyttötapauksia sekä rakentamisvaiheen vaatimuksia tukemaan Toimittajan tarjoamien tuotteiden käyttöä mahdollisimman Tilaajan tarpeet tyydyttävällä tavalla. Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä.
+aRFQ & RFQ Liite 2.2.2 VN Asia Valtioneuvoston prosessit
+Kuvataan valtioneuvoston yleiset prosessit
+aRFQ & RFQ Liite 2.3 VN Asia toiminnalliset vaatimukset
+Toiminnalliset vaatimukset kuvaavat osana vaatimusmäärittelymateriaalia Tilaajan tarkempia osavaatimuksia hankittaville kyvykkyyksille käyttökonseptia sekä palvelukuvausta tarkentaen. Osana Tilaajan sekä Toimittajan yhteistä suunnittelua rakentamisvaiheessa ketterää kehitystä tukemaan määritellään lisää sekä tarkentavia toiminnallisia vaatimuksia että käyttötapauksia. Tarjousta jättäessä vaatimukset tukevat Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä vaatimustenmukaisuuden itsearvioinnin tekemisen ohella. Pakolliset vaatimukset on kuvattu Kriittisiksi ja hyvää valmisohjelmiston laatua edustavat Tilaajan tarpeiden suunnassa tärkeät, mutta ei pakolliset vaatimukset on kuvattu Ensisijaisiksi.
+RFQ Liite 2.4 VN Asia ei toiminnalliset vaatimukset
+Tietojärjestelmien ei‑toiminnalliset vaatimukset kuvaavat miten järjestelmän tulee toimia.
+Ne määrittävät järjestelmän laatuominaisuudet, kuten suorituskyvyn, turvallisuuden, käytettävyyden, luotettavuuden, skaalautuvuuden ja ylläpidettävyyden. Ne asettavat rajat ja laatukriteerit, joiden puitteissa järjestelmän toiminnallisuudet toteutetaan.
+aRFQ & RFQ Liite 2.5 VN Asia tietosuojan vaatimukset
+Kuvaa tietosuojaan liittyvät pakolliset vaatimukset
+aRFQ & RFQ Liite 2.6 VN Asia tietoturvavaatimukset
+Kuvaa tietoturvaan liittyvät vaatimukset
+aRFQ & RFQ Liite 3. VN Asia projektisuunnitelman perusteet
+Projektisuunnitelmassa kuvataan projektin tavoitteet ja tehtävät eri vaiheissa. Tarjoajan pitää ottaa huomioida tarjoamassaan projektisuunnitelmassa liitteessä kuvatut asiat. Liitettä alaliitteineen käytetään yhtenä vertailuperusteena laskettaessa laatupisteitä.
+aRFQ & RFQ Liite 3.1 VN Asia PoC -vaiheen kuvaus
+Liitteessä kuvataan mm PoC-vaiheen tavoitteet, laajuus, rajaukset ja lopputulokset.
+RFQ Liite 3.1.1 VN Asia PoC -käyttötapaukset
+PoC käyttötapaukset Excelissä on kuvattu 15 erilaista käyttötapausta,
+RFQ Liite 3.2 VN Asia rakentamis- ja käyttöönottovaiheen suunnitteluvaiheen kuvaus
+Kuvaa rakentamis- ja käyttöönottovaiheiden suunnitteluvaiheen toteutuksen ja tuotokset. Tarjoajan pitää ratkaisukuvauksessaan huomioida liitteen sisältö.
+aRFQ & RFQ Liite 3.3 VN Asia projektin aikataulukuvaus
+Kuvaa hankkeen aikataulua PowerPoint dioina
+RFQ Liite 3.4 VN Asia projektin organisoitumis- ja hallintomalli
+Kuvaa organisoitumis- ja hallintomallin tavoitteet, hallinnon tasot, eri ryhmien toiminnan kokoonpanoineen ja avainroolit.
+RFQ Liite 3.5 VN Asia toimittajan osaamisvaatimukset
+Toimittaja palauttaa osana tarjousta Toimittajan kokemusvaatimukset ohjeiden mukaan täytettynä ja se vaikuttaa tarjousten vertailuun vertailuperusteissa kuvatulla painoarvolla.
+Toimittaja palauttaa tämän lomakkeen täytettynä
+RFQ Liite 3.6 VN Asia koulutuskonsepti
+Konsepti kuvaa miten koulutukset tullaan toteuttamaan ja määrittää koulutusvastuut.
+aRFQ & RFQ Liite 3.7 VN Asia käyttöönoton edellytysten luomisen konsepti
+Konsepti antaa perusteet migraatio ja käyttöönotto suunnitelmien tekemiselle.
+Tähän kirjataan asiat, mitä pitää tehdä, jotta uusi järjestelmä voidaan ottaa täyttöön kuten olemassa integraatiot, tietojen konfertointi ja siirto uuteen järjestelmään jne…
+aRFQ & RFQ Liite 4. VN Asia hankintasopimus
+Hankintasopimus sisältää hankintaan liittyvät kaupalliset ehdot. Hankintasopimuksen sisällöstä ei neuvotella mutta sitä täydennetään valitun toimittajan kanssa mm. liitteiden osalta.
+aRFQ & RFQ Liite 4.1 VN Asia turvallisuus ja tietoturvallisuussopimus
+RFQ Liite 4.1.3 VN Asia turvallisuussopimuksen yhteyshenkilöt
+Dokumentista käy ilmi yhteyshenkilöt
+RFQ Liite 4.1.3 VN Asia turvallisuusohje
+Dokumentti määrittää, miten hanketurvallisuus huomioidaan hankkeessa
+aRFQ & RFQ Liite 4.2 VN Asia toimitusprojektisopimus
+Toimitusprojektisopimus on sopimus, jossa sovitaan tietojärjestelmäprojektin toimituksen sisällöstä, aikataulusta, vastuista, hinnoittelusta ja toteutuksen ehdoista
+RFQ VN Asia Liite 4.1. VN Asia palvelusopimus
+Palvelusopimus on asiakkaan ja palveluntarjoajan välinen sopimus, jossa sovitaan järjestelmän ylläpidon, tuen ja palvelutason (SLA) periaatteet sekä osapuolten vastuut.
+RFQ VN Asia liite 4.1.1 VN Asia palvelunhallintamalli
+Palvelunhallintamalli määrittelee, miten palvelua johdetaan ja seurataan käytännössä – eli roolit, prosessit, mittarit, raportoinnin ja yhteistyökäytännöt, joilla varmistetaan sovitun palvelutason toteutuminen
+aRFQ & RFQ Liite 4.1.2. VN Asia palvelutasoehdot
+Dokumentti kuvaa palvelutasovaatimukset sekä niiden alittumisesta aiheutuvat sanktiot.
+RFQ Liite 4.1.4 VN Asia hankkeen jälkeinen kehittäminen
+Dokumentissa kuvataan hankkeen jälkeisen kehittämisen periaate.
+aRFQ & RFQ Liite 5. VN Asia vertailuperusteet
+Vertailuperusteet aliliitteineen kuvaavat menetelmät arvioida tasapuolisesti toimittajatarjokkaiden tarjousten kesken näiden kokonaistaloudellisuutta huomioiden sekä hintaa, että hinnalle vastineeksi saatavaa laatua.
+RFQ Liite 5.1 VN Asia vertailussa jaettavat pisteet
+Tässä liitteessä esitetään taulukoituna laadullisen arvioinnin osalta jaossa olevat absoluuttiset kokonaispisteet, mitkä skaalataan osaksi vertailulukua vertailuperusteiden pääliitteessä kuvatulla tavalla (RFQ liite 5).
+RFQ liite 5.2 VN Asia projektisuunnitelman arviointi
+Tässä liitteessä kuvataan teemat ja niiden kautta tarkasteltuna, miten jaossa olevat laatupisteet projektisuunnitelman osalta.
+Toimittaja palauttaa oman projektisuunnitelmansa.
+RFQ liite 5.2 VN ASIA ratkaisukuvauksen arviointi
+Tässä liitteessä kuvataan teemat ja niiden kautta, tarkasteltuna miten jaossa olevat laatupisteet ratkaisukuvauksen osalta.
+Toimittaja palauttaa oman ratkaisukuvauksensa.
+RFQ liite 5.4 VN ASIA vaatimusten laadullinen arviointi
+Toimittaja palauttaa osana tarjoustaan vaatimusten laadullinen arviointi ohjeiden mukaan täytettynä ja se vaikuttaa annettujen tarjousten laadulliseen vertailuun vertailuperusteissa kuvatulla painoarvolla
+Toimittaja palauttaa tämän lomakkeen täytettynä.
+aRFQ & RFQ Liite 6. VN Asia tarjouslomake
+Lomake, johon toimittaja laskee tarjoushintansa.
+Toimittaja palauttaa tämän lomakkeen täytettynä.

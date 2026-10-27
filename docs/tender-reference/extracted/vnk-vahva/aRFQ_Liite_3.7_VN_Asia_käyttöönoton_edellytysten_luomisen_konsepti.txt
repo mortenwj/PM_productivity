@@ -1,0 +1,107 @@
+Käyttöönoton edellytysten luomisen konsepti
+Käyttöönoton edellytyksenä on vaatimusten mukainen, toiminnaltaan ja laadultaan tuotantokelpoinen järjestelmäkokonaisuus, jossa on riittävä tietosisältö valtioneuvoston asianhallintatoiminnan jatkamiselle uudella asianhallinnan ratkaisulla ilman käyttökatkoja ja merkittäviä häiriöitä. Jatkuvan palvelun prosessien ml. dokumentaation, toimintatapojen ja työvälineiden tulee olla suunniteltuina ja otettavissa käyttöön samanaikaisesti uuden asianhallintaratkaisun kanssa.
+Tässä konseptissa on tunnistettu olennaisimpia käyttöönoton edellytyksiä. Konsepti antaa perusteet migraatio- ja käyttöönottosuunnitelmien tekemiselle sekä jatkuvan palvelun käynnistämiselle. Konseptia tarkennetaan hankkeen aikana.
+Asianhallinnan ratkaisu
+Uusi asianhallinnan ratkaisu (valmistuote ja räätälöidyt osiot) on toteutettu ja hyväksymistestattu ml. seuraavat
+Integraatiot nykyratkaisu VAHVAn niihin osioihin/komponentteihin, joita hanke ei ole korvannut tuotantokäytön alkaessa (ks. liite 1 VN Asia Hankinnan kohde)
+Integraatiot VAHVA Erillissovelluksiin tai ne/niitä on korvattu uuden asianhallintaratkaisun toiminnallisuuksilla (ks. liite 1.4 VN Asia Erillissovellusten huomioiminen)
+Integraatiot asianhallintakokonaisuuden ulkopuolisiin järjestelmiin
+Kirjaamorobotit tai ne/niitä on korvattu uuden asianhallintaratkaisun toiminnallisuuksilla
+Suorituskykytestaus ja käytettävyystestaus on tehty.
+Ratkaisu on tietoturvallinen ja sen riskit on arvioitu sekä käsitelty asianmukaisesti
+Auditoinnit ja tarkastukset on tehty ja vähintään kriittiset havainnot on poistettu.
+Riskianalyysi ja järjestelmän kriittisyysarviointi on tehty.
+Jäännösriskipäätös on tehty.
+Integraatiot VAHVA Erillissovelluksiin
+Asianhallinnan erillissovellukset, esim. PTS, VAHVA-doc, asiasanajakelu ja raportointisovellus, on nykytilanteessa integroitu VAHVAan tuotteen tarjoaman rajapinnan kautta, ja vastaavat integraatiot toteutetaan tai korvataan uuden asianhallinnan toiminnoilla.
+Olennaisimmat integraatioiden hyödyntämät toiminnot on käyty liitteessä 1.4 läpi, joten vastaavat toiminnot on mahdollistettava uudessa asianhallinnassa integraatioiden siirron yhteydessä. Jos jokin erillissovellus (esim. asiasanajakelu) päädytään korvaamaan kokonaan uudella toteutuksella, on sen erityispiirteet ja tarpeet niin ikään huomioitava korvaavassa ratkaisussa.
+Integraatiot asianhallinnan ulkopuolisiin järjestelmiin
+VAHVAan on tehty useita integraatioita asianhallintakokonaisuuden ulkopuolisiin järjestelmiin. Integraatiot käyttävät tällä hetkellä kahta erilaista tuotteen rajapintaratkaisua sekä osassa myös Valtorin tuottamaa valtion yhteistä integraatiopalvelua VIAa. Kaikista järjestelmistä ei ole toteutettu integraatiota, vaan tarvittavat tiedot siirretään esim. ohjelmistorobotiikan avulla. Ohjelmistorobotiikkaa on hyödynnetty mm. integraatiototeutuksia alempien kustannusten ja nopeamman toteutuksen vuoksi.
+Osa nykyisistä integraatioista tulee siirtymään sellaisenaan uuteen asianhallintaan. Eräät ulkopuoliset järjestelmät tulevat asianhallintahankkeen aikana tai sen päättymiseen mennessä korvautumaan uusilla ratkaisuilla ja näiden aikataulu tulee huomioida uuden asianhallintahankkeen integraatioiden toteutuksessa. Uuteen asianhallintaratkaisuun toteutettavien integraatioiden ja ohjelmistorobottien kokonaisuus tarkentuu hankkeen aikana ja on mahdollista, että kaikkia nykyisin käytössä olevia tiedonsiirtoja ei toteuteta hankkeessa.
+Tavoitetilassa alla listatut integraatiot tullaan toteuttamaan hankkeessa kehitettävän tuotteistetun integraatioratkaisun kautta.
+Rajapintojen kautta integroidut järjestelmät
+Tutkiva
+Valtioneuvoston päätöksentekoa tukevan tutkimustoiminnan (VN Tutkiva) tavoitteena on varmistaa vahva ja horisontaalinen tietopohja yhteiskunnallisen päätöksenteon tueksi. Tutkimukset hankitaan yliopistoilta, korkeakouluilta, tutkimuslaitoksilta ja muilta toimijoilta. Kaikki VN Tutkiva -tarjouskilpailut tapahtuvat valtioneuvoston tutkimustoiminnan sähköisessä VN Tutkiva asiointijärjestelmässä (vntutkiva.fi).
+Asiakirjoja siirretään VN Tutkiva -järjestelmästä teema kerrallaan, kun teemaan liittyvät asiakirjat ovat valmiita. Asiakirjat siirretään rajapinnan kautta ainoastaan kerran. Mikäli sama asiakirja tulee siirtää uudestaan, se tehdään manuaalisesti tämän integraation ulkopuolella.
+Siirrettävät asiakirjat:
+Teeman tarjoukset liitteineen ilman hankesuunnitelmaa
+Kunkin tarjouksen hankesuunnitelma
+Teeman päätöskirje
+Hanketoteuttajan kanssa allekirjoitettu sopimus
+Seurantaryhmien kokouspöytäkirjat
+Integraation kautta tehtävät tietojen siirrot käynnistetään manuaalisesti teemakohtaisesti VN Tutkiva -järjestelmästä muuttamalla hankkeen tilatietoja. Integraation toimintalogiikka on toteutettu pääasiassa VN Tutkiva -järjestelmään ja toimii VAHVAn Sähke2 (S2) REST-rajapintaa vasten. Tutkivan ja VAHVAn välillä on käytössä Valtorin VIA-alusta, jonka roolina on toimia reitittäjänä, luvittajana sekä muokata sanomarakenne Sähke2-rajapintaan sopivaksi. Tutkiva on yhteydessä VIAan, eikä Tutkiva- ja VAHVA-järjestelmien välillä ole suoraa yhteyttä.
+Kieku
+Kieku on valtionhallinnon yhteinen talous- ja henkilöstöhallinnon järjestelmä, jota käytetään mm. vuosilomien hakemiseen, poissaolojen ilmoittamiseen ja hakemiseen sekä työaikojen leimaamiseen ja kohdentamiseen. Kiekussa käsitellään myös palvelussuhteisiin liittyviä muutoksia.
+Tämän integraation yhteydessä Kiekua käytetään SMn henkilöstöhallinnon asiakirjojen luontiin ja käsittelyyn. Näitä asiakirjoja ovat nimittämiskirjat virkaan ja virkasuhteeseen sekä todistukset irtisanoutumisesta ja harkinnanvaraisesta virkavapaudesta. Integraation toiminnan edellytyksenä on, että VAHVAssa on avattuna ensin asia, jolle kyseisen nimittämisen tai todistuksen asiakirjat tullaan siirtämään. Integraatio siirtää Kieku-järjestelmän toteuttaman aineiston VAHVAan Kiekun syöttölomakkeessa määritellylle VAHVA-asialle. Dokumentteja voidaan edelleen jatkokäsitellä VAHVAssa, koska ne tulevat integraation kautta Word-formaatissa. Jatkokäsittely VAHVAssa sisältää myös dokumentin allekirjoituksen ja siirron arkistoon.
+Integraatio on toteutettu VAHVAn Sähke2 (S2) REST-rajapintaa vasten. Kiekun ja VAHVAn välillä on käytössä Valtorin VIA-alusta, jonka roolina on toimia reitittäjänä, luvittajana sekä muokata sanomarakenne Sähke2-rajapintaan sopivaksi. Kieku on yhteydessä VIAan, eikä Kieku- ja VAHVA-järjestelmien välillä ole suoraa yhteyttä.
+Kieku-integraatio on toteutettu vain yhdelle ministeriölle (SM) ja sen käyttö on vähäistä. Integraation tarve uuteen asianhallintaratkaisuun arvioidaan hankkeen aikana.
+Hankeikkuna
+Valtioneuvoston Hankeikkunassa ylläpidetään ministeriöiden hanketietoja. Hankeikkunaan viedään mm. säädösvalmisteluhankkeet, uudistamis- ja kehittämishankkeet, toimielimet, strategiat ja selonteot.
+Integraation avulla VAHVAsta voidaan julkaista VAHVAssa olevia julkisia hankeasioita ja niihin liittyviä julkisia asiakirjoja tiedostoineen Hankeikkunaan. Hankkeen vastuutaho voi julkaista hankkeen tietoja Hankeikkunasta julkiseen rajapintaan ja hanke näkyy myös Valtioneuvoston verkkosivuilla. Integraatio käynnistyy, kun VAHVA:ssa käyttäjä aloittaa tietojen viennin Hankeikkunaan. VAHVA tekee tällöin Hankeikkunalle kutsun, jossa välitetään JSON-muodossa tuotavan asian tiedot, kuten asian tunnisteen VAHVA:ssa sekä tuotavien asiakirjojen tunnisteet. Pyynnössä ei kuitenkaan suoraan tule asian tietoja eikä asiakirjojen tietoja, vaan lähinnä tunnistetiedot, joiden avulla Hankeikkuna käy hakemassa asian ja tarvittavat asiakirjat VAHVA:n S2 REST-rajapinnasta. Siirron nopeuttamiseksi Hankeikkuna hakee useita asiakirjoja (max 10) yhtä aikaa VAHVA:sta. Kun tiedot ovat haettu ja tallennettu Hankeikkunaan, palauttaa Hankeikkuna VAHVA:lle Hankeikkunan hanketunnuksen. Tiedot päätyvät Hankeikkunan tietomalliin aivan samalla tavalla kuin poikkeustilanteita varten oleva mahdollisuus luoda kohteita suoraan Hankeikkunassa. Hankeikkunaan voidaan siirtää myös suunnitteilla-tilaisia hankkeita, mikäli asianhallinnassa asian tila olisi "Avattu".
+Integraatio toimii REST-rajapintojen avulla, ja dataa siirretään JSON-muotoisena. Hankeikkuna tarjoaa rajapinnan, josta VAHVA voi kysyä Hankeikkunan hankkeen tietoja. Hankeikkunan rRajapinnassa on myös metodit, joita VAHVA käyttää, kun se luo uuden hankkeen tai päivittää olemassa olevaa hanketta Hankeikkunassa.
+Hankeikkuna tulee korvautumaan vuosien 2027–2028 aikana uudella Hanketiedon ratkaisulla (HaRa). Käytännössä se tarkoittaa tämän integraation toteuttamista uudelleen HaRa-järjestelmään. Myös uudessa integraatiossa on huomioitava, ettei rajapinnan kautta voida siirtää salassa pidettäviä, keskeneräisiä tai yksityishenkilön tietoja sisältäviä asiakirjoja Hankeratkaisuun ja verkkosivuille.
+Nykyratkaisussa siirrettävät asiakirja- ja tiedostomäärät voivat olla varsin suuria, yhdellä hankkeella voi olla useampi sata asiakirjaa ja tiedostoa, mikä tulee suorituskyvyssä huomioida. Integraation tulee saattaa käyttäjälle tieto siirron läpimenon statuksesta (onnistunut täysin, onnistunut minkä asiakirjojen osalta ja minkä asiakirjojen osalta ei ole onnistunut).
+YJA (Yhteinen julkaisualusta)
+YJA-palvelun lyhenne tulee sanoista Yhteinen julkaisualusta, jolle on toteutettu ministeriöiden julkisia verkkosivuja. VAHVAsta noudetaan julkisia asioita ja asiakirjoja julkaistavaksi YJAan.
+YJA toimii toteutuksessa aktiivisena osapuolena ja noutaa VAHVAn avoimesta JulkaisuAPI -rajapinnasta julkaisuun valmiit tiedot. Integraatioon ei liity ajastettuja tausta-ajoja vaan se on ns. reaaliaikainen integraatio. Tämä tarkoittaa sitä, että mitään VAHVA järjestelmän tietoja ei tallenneta YJA:n (pl. välimuistit), vaan jokaisella sivu latauksella näytettävät tiedot haetaan teoriassa VAHVA järjestelmästä. Käytännössä monet kutsuista eivät päädy VAHVA järjestelmän rajapintaan asti, koska välissä on YJA:n välimuisti -ratkaisuja, joista tiedot saadaan näytettyä verkkosivuille.
+Nykyinen YJA-järjestelmä tulee korvautumaan tulevien vuosien aikana WordPress-ratkaisulla ja toteutuksen hankinta on kilpailutusvaiheessa. Uudesta WordPress-ratkaisusta ei ole vielä tässä vaiheessa tarkempia tietoja.
+Buketti
+Buketti-järjestelmällä työstetään Valtion talousarvioasiakirjoja. Buketti arkistoi lopulliset asiakirjat VAHVA – asianhallintajärjestelmään. Budjetti näkyy VAHVAssa talousarvioasiana ja sen asiakirjoina. Buketti lisää integraatiorajapinnan kautta VAHVA asianhallintajärjestelmään talousarvioasioihin liittyviä asiakirjoja ja asiakirjoihin liittyviä tiedostoja.
+Buketti on korvautumassa uudella järjestelmällä (Buketti2). Uusi integraatio tullaan rakentamaan Buketti2 järjestelmästä VAHVAan arviolta syksyllä 2026. Alla on kuvattu nykyiseen integraatioon liittyvä työnkulku, johon voi tulla muutoksia Buketti2:n käyttöönoton yhteydessä:
+VM avaa VAHVA-asianhallintajärjestelmään talousarvioasian tai Julkisen talouden suunnitelma -asian.
+Ennen budjettitietojen arkistointia VAHVAan VM asiankäsittelijä päivittää Buketin budjettitietoihin VAHVA:n talousarvioasian tai JTS-asian numeron.
+Kun budjetti on laadittu, VM käynnistää Buketti –järjestelmässä tietojen arkistointiajon. Buketti luo arkistointiajossaan omaan levyjärjestelmäänsä kullekin budjettikannalle yhden PDF/A –muotoisen tiedoston (itse budjettitiedot), XML-muotoisen metatietotiedoston ja budjetin liitetiedostot (omaan alikansioonsa).
+VM käynnistää erillisen ”VAHVAan vienti”-ajon, joka tuo tiedot VAHVAan yksi asia (yksi budjettikanta) kerrallaan VAHVAn S2 REST rajapintaa hyödyntäen. Integraatio on yksisuuntainen (Buketti VAHVA).
+TIKU (Tilannekuva)
+TIKU eli Tilannekuva on valtioneuvoston kanslian valmiusyksikön käytössä oleva järjestelmä, josta lähetetään VAHVAan arkistoitavaksi asioita ja asiakirjoja. Integraatio on toteutettu VAHVAn SIF-rajapintaa vasten.
+LAPA (Lausuntopalvelu)
+Nykyinen Lausuntopalvelu.fi -palvelu tarjoaa mahdollisuuden pyytää ja antaa lausuntoja sähköisesti. Kaikki julkishallinnon viranomaiset voivat julkaista lausuntopyyntöjä palvelussa. Lausuntoja saavat antaa kaikki organisaatiot ja kansalaiset.
+LAPA eli uusi Lausuntopalvelu -järjestelmä on toteutuksessa oleva sovellus, joka tulee valmistuessaan korvaamaan nykyisen Lausuntopalvelu.fi-palvelun. LAPA tullaan ottamaan käyttöön vuoden 2026 aikana ja siitä tullaan rakentamaan integraatio nykyiseen asianhallintajärjestelmään (VAHVA). Integraatio tulee hyödyntämään VAHVAn SIF-rajapintaa. Integraatiototeutuksen laajuus ja toiminta täsmentyy vielä.
+LAPAsta on tarkoitus lähettää VAHVAan lausuntopyyntöjä ja lausuntoja allekirjoitukseen tai arkistoitavaksi. Toteutuksen tarkoituksena on myös automatisoida asiakirjojen käsittelyä VAHVAn puolella, mm. tietojen täydentymisellä. VAHVAsta halutaan siirtyvän tilatietoja myös takaisinpäin LAPAan. Yleisin tilatieto on heräte valmistuneesta allekirjoituksesta VAHVAssa. Osa VAHVAsta tulevista tilatiedosta voi muuttaa LAPAssa olevien asiakirjojen tilaa esim. VAHVAssa tapahtuneen allekirjoituksen hylkäyksen vuoksi.
+Tavoitetilassa asianhallintajärjestelmästä voisi avata LAPAan lausuntopyynnön, mikä kannattaa huomioida uuden järjestelmän suunnitteluvaiheessa.
+Ohjelmistorobotiikka
+Ohjelmistorobotit toimivat Valtion talous- ja henkilöstöhallinnan palvelukeskuksen (Palkeet) tuottamassa robotiikkapalvelussa Valtorin alustalla. Nykyisessä ratkaisussa robotti rekisteröi tarvittavat tiedot VAHVAan käyttöliittymän kautta. Uuden asianhallintaratkaisun yhteydessä arvioidaan, kannattaako robotiikka toteuttaa muulla tavoin esimerkiksi rajapintaratkaisujen kautta.
+Esimerkkinä ohjelmistorobotin käytöstä on kansalaisten ja organisaatioiden ministeriöihin lähettämät sähköpostit, jotka pitää arkistoida asianhallintajärjestelmään. Tässä yhteydessä robotteja käytetään apuna vähentämään valtioneuvoston kanslian tiedonhallintayksikön manuaalista työtä.
+Robotteja käytetään myös asianhallintajärjestelmässä olevien metatietojen laadunvalvontaan, esimerkiksi ristiriitaisten metatietojen ja tuplana järjestelmään vietyjen kontaktitietojen tarkistamista varten. Laadunvalvontaan ja -hallintaan liittyvillä toteutuksilla on tällöin täydennetty VAHVAssa olevia puutteita.
+SM:n EUSA2-järjestelmään ja PLM:n UMOV-järjestelmään saapuvien asiakirjojen jälkiarkistointi VAHVAan on myös ratkaistu robotiikan avulla. Automaattinen arkistointi näistä järjestelmistä tulee mahdollistaa myös tulevaisuudessa joko robotiikan tai muiden vaihtoehtojen avulla.
+Ratkaisun sisältämät tiedot
+Ratkaisun tietosisällön tulee mahdollistaa tuotantokäytön aloitus. Tietosisältöä tarkennetaan hankkeen aikana huomioiden mm. seuraavia:
+Uuden asianhallintaratkaisun vaatimat perustiedot on syötetty järjestelmään. Tällaisia ovat mm. yhteystiedot ja asiasanat.
+Tiedonohjaussuunnitelma on käyttövalmis ja ratkaisun kautta hyödynnettävissä.
+Koodistot ovat ajan tasalla ja järjestelmän käytettävissä.
+Järjestelmän roolit ja käyttöoikeudet on toteutettu ja järjestelmän käyttäjille on annettu rooliensa mukaiset käyttöoikeudet.
+Hankkeen aikaiset käyttöoikeudet ja muu tietosisältö on poistettu tuotantoympäristöstä.
+VAHVAn aktiivipuolen tietosisältö on migroitu uuteen asianhallintaratkaisuun.
+VAHVAsta siirretyt, vielä käsittelyssä olevat asiat on saatettu vireille uudessa järjestelmässä.
+Ratkaisu sisältää integraatioiden tarvitsemat tietosisällöt, esim. omat metatietokentät.
+Migraatio
+VAHVAn ns. aktiivipuolen sisältö migroidaan kokonaisuudessaan hallitusti, yhdessä sovittujen menettelytapojen ja määrittelyjen mukaisesti muuttumattomana uuteen ratkaisuun, ellei Tilaaja halua rajata jotain sisältöjä tämän periaatteen ulkopuolelle. Migraatioissa on otettava huomioon VN:n, OKV:n, TPK:n, TP:n ja EU-valmistelun eriytetyt rekisterit. Lisäksi on huomioitava VAHVAn dokumentinhallinnassa oleva aineisto, joka on käyttöönoton yhteydessä myös migroitava.
+Migroitava sisältö on SÄHKE2-vaatimusten mukaista. Tiedostojen sisältö on julkisesta korkeintaan TL IV-luokkaan kuuluvaa kansallista ja kansainvälistä aineistoa. Kansallisten ja kansainvälisten asiakirjojen metatiedot voivat olla julkisesta TL III-luokkaan kuuluvaa, mutta metatietoihin itsessään ei saa sisällyttää TL III-luokkaan kuuluvaa tietoa.
+Kyse on vähintään seuraavista sisällöistä:
+rekisteröidyt asiat metatietoineen (asioiden täytyy olla tilaltaan ensisijaisesti suljettuja, ellei avoimia ja suljettuja pystytä selkeästi erottelemaan migraatiossa)
+rekisteröidyt asiakirjat metatietoineen ja tiedostoineen (versiohistoria- ja formaattitarpeet tarkentuvat hankkeen aikana)
+dokumentinhallinnan sisältö metatietoineen: nykyisessä järjestelmässä ”Projektit” ja niihin liitetyt rekisteröimättömät tiedostot tai pelkät rekisteröimättömät tiedostot ilman projektiliitäntää (migroitavan aineiston sijainti ja säilytysaika tarkentuvat hankkeen aikana)
+kaikkien em. käyttöoikeudet ja niille lisätyt yhteys- ja jakelutiedot, ns. sisäiset ja ulkoiset kontaktit ts. yhteystietorekisteri
+kaikkien em. loki- ja työnkulkutiedot, huomautustekstit, linkit
+mahdollisesti myös passiiviarkisto sisältöineen (sisältää useista eri järjestelmistä migroidut aineistot)
+Migraatioissa on huomioitava myös mahdollisesti ne erillissovellukset, joiden käyttö tulee siirtymään uuteen ratkaisuun, jolloin kyse on osin myös integraatioiden suunnittelusta, toteutuksesta ja käyttöönotoista.
+Migraatioihin kuuluu niiden suunnittelu, toteutus, testimigraatio(-t) (PoC ja hyväksymistestaus, joka toistetaan tarvittaessa 1-x kertaa) ja tuotantomigraatio(t) (tuotantotestaus, jota ei pitäisi joutua toistamaan, mutta tarvittaessa korjausten jälkeen toistetaan 1-x kertaa).
+Päätös tuotantokäytön aloituksesta
+Tuotantokäytön aloituksesta tehdään päätös hankkeen organisoitumismallissa kuvatussa ryhmässä. Päätös tehdään vasten hankkeessa sovittuja kriteerejä. Kriteerit liittyvät mm. hyväksymistestauksen valmiusasteeseen, kriittisten ja vakavien virheiden jäljellä olevaan määrään, tietoturva-auditoinnin tai tarkastuksen havaintoihin, suorituskykytestauksen ja käytettävyystarkastuksen havaintoihin yms.
+Lisäksi päätöstilaisuudessa käsitellään toimenpidesuunnitelma avoimille havainnoille sekä jatkokehitykseen siirtyvät kohteet ja niiden mahdolliset aikataulut.
+Tuotannon organisoituminen
+Toimittajan tuotantotiimin tulee olla nimetty ja turvaselvitetty. Sopimuksessa kuvatut vastuuroolit on täytetty ja tilaajan vastinparit nimetty. Toimittajan tuotantotiimin tarvitsemat tunnukset ja käyttöoikeudet on toteutettu ja perehdytys hoidettu.
+Palvelunhallintamallin mukaiset kokoukset on varattu ja toimittajan palveluraportointi ml. palvelutasoraportointi on suunniteltu ja käynnistyy. Organisoitumisessa on huomioitu monitoimittajaympäristö ja palvelujen/toimittajien väliset riippuvuudet.
+Palvelun tukimalli, tukitasot ja resurssit on kuvattu ja suunniteltu kokonaisuudessaan. Laskutukseen liittyvät asiat on sovittu ja työvälineet näiden osalta valmiina.
+Lisäksi käyttöpalvelun toimittajan kanssa tulee varmistaa, että mm. varmistuksiin, lokituksiin, alustan suorituskykyyn ja haavoittuvuuksien hallintaan liittyvät palvelut on otettu käyttöön. Käyttöpalvelutoimittajalle tulee toimittaa kaikki järjestelmän operointiin tarvittava ohjeistus sekä sopia palvelunhallinnan prosesseista ja talouteen liittyvistä asioista.
+Tehostettu häiriöhallinta, jatkuvan palvelun prosessit ja työvälineet
+Tuotantokäytön alkaessa organisoidutaan tehostettuun häiriöhallintaan siten, että häiriöt havaitaan, niistä viestitään ja niiden juurisyyt poistetaan mahdollisimman nopeasti. Tehostetun häiriöhallinnan malli, kesto, tehtävät ja vastuut tulee kuvata ja hyväksyttää ennen tuotantokäytön alkua.
+Jatkuvan palvelun häiriön- ja ongelmanhallinnan prosessi ml. kriittisten ja laajavaikutteisten häiriöiden (MIM) prosessi on kuvattu ja menettelytavat on sovittu. Palvelupyyntöjen ja häiriöilmoitusten palvelukanavat on sovittu ja työvälineet käytössä. Valtioneuvoston käytössä on ServiceNow-pohjainen palvelunhallintajärjestelmä (Virkku), josta on tavoitetilassa integraatio toimittajan tukipalvelussa käytettävään tiketöintijärjestelmään.
+Jatkuvan palvelun julkaisu- ja muutoshallinnan prosessit on kuvattu ja menettelytavat on sovittu. Muutoshallinnan (Change Advisory Board) työväline on otettu käyttöön.
+Konfiguraationhallinta on kuvattu, työväline otettu käyttöön ja menettelytavat sovittu.
+Palvelun on oltava käytettävissä suomen kielellä
+Dokumentaatio, ohjeet ja koulutus
+Jatkuvassa palvelussa tarvittava dokumentaatio on laadittu riittävän laadukkaalla tasolla ja luovutettu hankkeelta jatkuvalle palvelulle. Dokumentaatio sisältää mm. ratkaisukuvauksen, jatkuvuussuunnitelman, toipumissuunnitelman ja varautumissuunnitelman sekä lokiselosteen erillisen dokumenttilistan mukaisesti.
+Tietojärjestelmäseloste sekä tietosuojaseloste on tehty.
+Palvelun ml. palvelun tietoturvan vuosisuunnitelmat ja vuosikellot on tehty.
+Käytössä on kattavat ohjeet, joilla virkamiehet pystyvät sujuvasti ottamaan käyttöön uuden asianhallintaratkaisun, ja koulutukset on järjestetty käyttöönoton edellyttämässä laajuudessa hankkeen suunnitelmien mukaisesti.

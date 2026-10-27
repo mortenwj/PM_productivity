@@ -1,0 +1,35 @@
+## sheet1.xml
+Vejledning til tilbudsgiver
+Anvendte farvekoder:
+
+De gule felter udfyldes af Leverandøren.
+Der gøres opmærksom på, at alle priser skal tilbydes i DKK og at priserne jf. bilag 7 Trepartsaftale, skal omfatte ”kundebetaling” på 1%.
+Overskrifter
+Underoverskrifter
+Kundens oplysninger vedr. tilbudte varelinjer
+Udfyldes af tilbudsgiver
+De gule felter udfyldes af tilbudsgiver.
+
+Der gøres opmærksom på, at alle priser skal tilbydes, ekskl. moms, i DKK og at priserne jf. bilag 13 Trepartsaftale, skal omfatte ”kundebetaling” på 1%.
+
+Det skal understreges, at antallet af brugere pr. myndighed angivet i bilag 2a – Datamængder for Institutioner, som også anvendes ved udregningen af den evalueringstekniske pris fanen "2. Leverandørens priser", alene er udtryk for hver Institutions antal brugere på tidspunktet for gennemførelsen af indkøbsprocessen og er ikke udtryk for en konkret bestilling.  
+
+Antallet er alene at betragtes som forudsætninger for opnåelse af et sammenligningsgrundlag for beregning af den totale evalueringstekniske pris. Tilbudsgiver er således ikke garanteret, at det angivne antal eller samlede antal købes i hele leveringskontraktens løbetid.
+Den evalueringstekniske pris for licenserne beregnes på baggrund af 48 måneder, jf. udbudslovens § 38, nr. 2.
+## sheet2.xml
+Bilag 11a - Leverandørens priser	Virksomhedsnavn:	Tietoevry Denmark A/S
+2. Tidsbegrænsede licenser/abonnement/leje
+Evt. henvisning til beskrivelse af softwarefunktionalitet jf. bilag 3 - Kravspecifikation	Yderligere information	Antal licenser	Antal måneder	SKU-nummer	Betegnelse	Pris pr. licens pr. måned ekskl. moms DKK	Evt. kommentar	Pris pr. licens pr. år ("Pris pr licens pr. måned" * 12) DKK	Pris i alt for licenser i perioden ekskl. moms  ("Antal licenser" * "Antal måneder" * "Pris pr. licens pr. måned") DKK
+Licenspris til ESDH-Systemet pr. unik bruger	Prisen angives pr. måned	1288	48	125837-1	ESDH-system inkl. support og vedligehold	46.922984866678576	563.07581840014291	2900966.6163975364
+Beløb, som indgår i den evalueringstekniske pris:	2900966.6163975364
+3. Ydelser (specificeret)
+Beskrivelse af ydelsen	Antal timer	Pris pr. time ekskl. moms DKK	Evt. kommentar	Samlet pris pr. ydelse ekskl. moms ("Antal timer" * "Pris pr. time") DKK
+Option 1 - Timebaseret bistand til supplerende rådgivning, jf. bilag 9 - Optioner	300	1300	390000
+Beløb, som indgår i den evalueringstekniske pris:	390000
+4. Ydelser (uspecificeret)
+Beskrivelse af ydelsen	Pris pr. ydelse ekskl. moms DKK	Evt. kommentar	Evt antal	Pris pr. ydelse ekskl. moms DKK
+Samlet vedlag for hovedaktiviteter, jf. pkt. 2 i bilag 11 - Leverandørens vederlag	555691.23	555691.23
+Option 2 - Pris for integration til Digital Post pr. Instans, jf. bilag 9 - Optioner	50000	3	150000
+Beløb, som indgår i den evalueringstekniske pris:	705691.23
+5. Samlet evalueringsteknisk pris	Heraf udgør Kundebetaling (1%) (samlet evalueringsteknisk pris * 0,01)
+Beløb, som udgør den samlede evalueringstekniske pris og dermed danner grundlaget for kundens evaluering af pris:	3996657.8463975363	39966.578463975362

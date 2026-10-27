@@ -1,0 +1,81 @@
+Indledning
+Dette bilag indeholder Kundens krav til servicemål for Løsningen.
+Løsningen defineres som både Standardsoftwaren og driften af denne. Når begrebet Løsningen anvendes, dækker det således også driften af Standardsoftwaren.
+De nedenfor fastsatte servicemål er baseret på, at Leverandøren varetager drift, vedligehold og support af Standardsoftwaren, og at Kunden eller Kundens repræsentant leverer serverdrift som beskrevet i Bilag 1 Kundens opgavebeskrivelse og i Bilag 12 Drift, support og vedligehold.
+Nedenstående servicemål er gældende for alle miljøer. Dog gælder fejlkategorierne A og B kun for produktionsmiljøet, ligesom produktionsmiljøet er det eneste miljø, hvorpå der beregnes eventuel bod.
+Normal arbejdstid
+Løsningen skal, undtaget servicevinduer og andre aftalte undtagelser, være tilgængelig for Kunden hele døgnet, dvs. 24/7/365.
+I Tabel 1 nedenfor er normal arbejdstid for Løsningen angivet, og denne arbejdstid benyttes som måleperiode i forhold til beregningen af reaktionstider ved fejl i Løsningen, jf. Tabel 2, samt tilgængeligheden, jf. Tabel 4.
+Tabel 1 Normal arbejdstid
+Fejlkategorier og reaktionstider
+Leverandøren skal bistå Kunden med at opretholde Løsningens anvendelighed og øvrige ydelser. Uanset om årsagen til en given fejlsituation entydigt kan henføres til Leverandøren, er Leverandøren forpligtet til at bistå med løsning af fejlsituationen jf. Tabel 2.
+Leverandøren skal påbegynde afhjælpning af fejl og mangler indenfor de nedenfor fastsatte reaktionstider.
+Leverandørens reaktionstid regnes fra det tidspunkt, hvor Leverandøren modtager Kundens fejlrapportering, eller selv bliver (eller burde være blevet) opmærksom på problemet (fx som led i sin driftsovervågning), til det tidspunkt, hvor Leverandøren har påbegyndt afhjælpning samt givet Kunden meddelelse derom.
+Leverandøren skal overholde reaktionstiderne i Tabel 2 nedenfor.
+Leverandøren skal altid rapportere til Kunden, når fejlrettelsen påbegyndes. Herefter skal Leverandøren afgive statusrapportering i overensstemmelse med Tabel 2.
+Tabel 2 Fejlkategorier og reaktionstider
+Svartider
+Svartiderne i Løsningen skal være i overensstemmelse med Tabel 3 og måles som anført i afsnit 6.
+Leverandøren skal udarbejde forslag til måling af svartider, fx baseret på funktioner i Kundens kravspecifikation.
+Ved manglende overholdelse af en eller flere maksimale svartider, jf. Tabel 3, skal Løsningen anses for utilgængelig i det tidsrum, hvor svartiderne overskrides, og dette tidsrum skal derfor indgå i beregningen af driftseffektiviteten, jf. afsnit 6.
+Tabel 3 Svartider
+Tilgængelighed
+Løsningen skal være tilgængelig for Kunden 24/7/365. Løsningens tilgængelighed skal opgøres månedligt fra overtagelsesdagen.
+Servicemålet for tilgængelighed og driftseffektivitet er angivet i Tabel 4.
+Tabel 4 Tilgængelighed og driftseffektivitet
+Måling af overholdelse af servicemål
+Tilgængelighed og driftseffektivitet måles og opgøres for hver kalendermåned efter overtagelsesdagen og i henhold til nedenstående.
+Leverandøren udarbejder forslag til måling af overholdelse af servicemål i afklaringsfasen. Forslaget skal godkendes af Kunden. Hvis der ikke kan opnås enighed om forslaget, anvendes samme procedure som i afsnit 9.
+Kunden har ret til at foretage egne målinger. Kunden kan tillige kræve supplerende målinger udført af Leverandøren, hvis Kunden - via egne stikprøver eller oplevede svartider hos brugerne - har en formodning om problemer med svartider og tilgængelighed. Ved modstrid mellem Kundens og Leverandørens målinger af svartiderne, skal Kundens målinger lægges til grund, medmindre Leverandøren kan sandsynliggøre, at der er fejl i Kundens målinger, eller disse på anden vis ikke er retvisende.
+Måling af svartider
+Svartider måles og opgøres ligeledes i henhold til nedenstående.
+Leverandørens måling af svartider skal overholde følgende:
+Svartiden for en forespørgsel regnes fra det tidspunkt, hvor forespørgslen registreres af Løsningen til det tidspunkt, hvor Løsningen har gjort svaret klar til visning eller til afhentning af serviceaftageren.
+Svartider skal registreres elektronisk og danne basis for den månedlige rapportering beskrevet i afsnit 10. På forespørgsel skal Leverandøren kunne fremvise de detaljerede logninger, som er grundlaget for de rapporterede svartider. Denne fremvisning skal kunne foretages seks måneder tilbage.
+Rapporteringen skal være en blanding af tabeller og grafer, der giver Kunden indsigt i Løsningens svartider.
+Måling af tilgængelighed
+For måling af den anførte tilgængelighed gælder det, at:
+Tilgængelig tid er den tid, hvor Løsningen ikke har fejl af typen A eller B, jf. Tabel 2, og de maksimale svartider overholder tiderne angivet i afsnit 4
+Utilgængelighed starter, når Kunden eller Leverandøren konstaterer en fejl af typen A eller B, jf. Tabel 2, eller en af de maksimale svartider konstateres overskredet
+Utilgængelighed registreres af Leverandøren som en del af dennes overvågning af Løsningen, alternativt af Kunden
+Utilgængeligheden standser, når Kunden konstaterer, at fejl af typen A eller B er rettet og idriftsat, og at de maksimale svartider igen er overholdt
+Utilgængelighed, der følger af aftalte ændringer mv. til Løsningen, medregnes ikke
+Utilgængelighed, der ikke kan henføres til Leverandøren, fx fejl eller ventetid i andre dele af installationen fx en driftsoperatør, skal fratrækkes i målingen
+Tilgængelighed opgøres ved afslutning af hver kalendermåned
+Tilgængeligheden beregnes for henholdsvis primær driftstid og sekundær driftstid, jf. Tabel 4
+Tilgængelighed og driftseffektivitet beregnes som:
+Driftstid i kalendermåneden-utilgængelighed i kalendermåneden*100Driftstid i kalendermåneden
+Eksempel:
+I en kalendermåned med 22 hverdage har der været en periode på 2 timer i den normale arbejdstid fra 08:00–15:30, hvor Løsningen har haft en Fejl af typen A eller B. Den samlede normale arbejdstid udgør 9.900 minutter (22⋅7,5⋅60 minutter).
+9.900 minutter-120 minutter*1009.900 minutter=98,8%
+Tilgængeligheden og driftseffektiviteten er derfor (99,5% – 98,8%=) 0,7% lavere end den aftalte og der pågår derfor bod jf. afsnit 11.
+Afhjælpning
+Overskridelse af den aftalte tilgængelighed og driftseffektivitet eller de maksimale svartider (der indgår i beregningen af driftseffektiviteten) kan give anledning til bod, jf. afsnit 11.
+Herudover har Leverandøren ved overskridelse af et eller flere servicemål, jf. punkt 2 til 5 herover, pligt til uden ugrundet ophold at iværksætte undersøgelser og relevante tiltag med henblik på at forbedre disse servicemål.
+Servicevinduer
+Leverandøren planlægger de normale servicevinduer i samarbejde med Kundens application manager. Der kan maksimalt afholdes ét normalt servicevindue pr. måned og dette skal placeres uden for normal arbejdstid.
+Ekstraordinære servicevinduer kan aftales gennem den etablerede Samarbejdsorganisation jf. Bilag 14.
+Uenighed om opfyldelse af servicemål
+Ved uenighed om opfyldelse af servicemål henvises til Leveringskontraktens punkt 26 om tvister.
+Månedsrapporter
+Leverandøren skal udarbejde og fremsende månedsrapporter til Kunden, som skal indeholde en opgørelse af de faktisk opnåede servicemål.
+Månedsrapporterne udarbejdes for hver kalendermåned og skal fremsendes elektronisk til Kunden senest 10 Arbejdsdage efter udløbet af den måned, der måles.
+Leverandøren er forpligtet til, i forbindelse med udarbejdelse af den enkelte månedsrapport, på eget initiativ at opgøre de aftalte servicemål og, hvis de fastsatte servicemål ikke er overholdt, foretage beregning af den deraf følgende bod.
+Kunden er forpligtet til løbende at forholde sig til indholdet af Leverandørens rapporteringer i de modtagne månedsrapporter. Eventuelle bemærkninger fra Kunden i forbindelse med Leverandørens rapportering skal fremsendes til Leverandøren senest 10 Arbejdsdage efter Kunden har modtaget månedsrapporten.
+Leverandørens månedsrapporter skal som minimum indeholde følgende:
+Opgørelse af tilgængelighed og driftseffektivitet:
+Servicemål for Løsningen
+Måling af faktisk driftseffektivitet
+Opgørelse af svartidsmålinger
+Svartidsmål for de aftalte typer af transaktioner i Løsningen
+Måling af faktiske svartider
+Opgørelse af reaktionstider
+Servicemål for påbegyndelse af fejlafhjælpning
+Måling af faktiske reaktionstider
+Eventuel bod på grund af manglende overholdelse af servicemålet for driftseffektivitet
+Bod
+Bod efter dette bilag indgår i Leveringskontraktens samlede misligholdelsesregime og påvirker ikke parternes øvrige misligholdelsesbeføjelser, medmindre andet er udtrykkeligt angivet.
+For hvert påbegyndt 1 procentpoint, som den beregnede tilgængelighed ligger under den aftalte driftseffektivitet, reduceres vederlaget for ydelser, jf. Bilag 4 med 10% for den pågældende periode.
+Leverandøren ifalder desuden en bod på 5.000 kr. pr. Arbejdsdags forsinkelse for udebleven månedsrapportering i henhold til punkt 10 eller i tilfælde af mangler ved rapporten. Bod for mangelfulde månedsrapporter ifaldes dog først 5 Arbejdsdage efter Kundens skriftlige reklamation over sådanne mangler, forudsat at Leverandøren ikke inden for denne frist har afhjulpet manglerne, og at der desuden ikke er tale om mangler af bagatelagtig art.
+Bod skal modregnes i Kundens kommende betalinger.
+Boden for manglende opfyldelse af servicemål kan ikke i nogen måned overskride 50% af Leverandørens vederlag for ydelsen pr. måned, jf. Bilag 4 Leverandørens priser.

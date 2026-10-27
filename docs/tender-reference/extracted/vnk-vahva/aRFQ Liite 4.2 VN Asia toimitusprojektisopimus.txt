@@ -1,0 +1,186 @@
+Pääsopimuksen VN/1860/2026 liite 4.2
+ASIANHALLINTAJÄRJESTELMÄKOKONAISUUS
+TOIMITUSPROJEKTISOPIMUS
+VALTIONEUVOSTON KANSLIA
+JA
+XXX OY
+Sopimus nro VN/1860/2026
+SISÄLLYSLUETTELO
+1	Sopijapuolet	3
+2	Määritelmät	3
+3	Sopimuksen kohde ja toimituksen sisältö	3
+4	Toimitusprojekti	5
+5	proof-of-concept (POC)	6
+6	Toimittajan velvollisuudet	6
+7	Tilaajan velvollisuudet	6
+8	Toimittajan resurssit ja projektiin nimetty henkilöstö	7
+9	Projektin organisointi ja toteutus	7
+10	Muutoshallinta	8
+11	Raportointi	9
+12	Projektinaikainen laadunvarmistus ja riskienhallinta	9
+13	Aikataulu	10
+14	Testaus ja toimituksen hyväksyminen	10
+15	Takuu	13
+16	Projektin hinnoittelu ja maksuehdot	14
+17	Viivästys	15
+18	Sopimusasiakirjat ja niiden pätemisjärjestys	15
+19	Sopimuksen voimassaolo ja päättymisen vaikutukset	16
+20	Allekirjoitukset	17
+Sopijapuolet
+Valtioneuvoston kanslia (jäljempänä ”Tilaaja”)PL 23
+00023 Valtioneuvosto
+Y-tunnus: 0245975-5
+ja
+XXX Oy (jäljempänä ”Toimittaja”)
+Sopijapuolten yhteyshenkilöt vastuualueineen on nimetty pääsopimuksen Yhteyshenkilöt-liitteessä.
+Määritelmät
+Tähän sopimukseen sovelletaan pääsopimuksen mukaisia määritelmiä.
+Sopimuksen kohde ja toimituksen sisältö
+Tämä sopimus liittyy Valtioneuvoston kanslian asianhallintajärjestelmäkokonaisuuden pääsopimukseen (VN/1860/2026) ja on sen kiinteä osa. Järjestelmän toimitukseen sovelletaan pääsopimusta siltä osin kuin tässä projektisopimuksessa ei ole muuta tai toisin sovittu.
+Tilaajan asettamat tavoitteet hankinnalle on kuvattu pääsopimuksessa, erityisesti sen luvussa 3 (Sopimuksen tausta ja tarkoitus) sekä pääsopimuksen liitteenä olevassa hankinnan kohteen kuvauksessa.
+Tämän sopimuksen kohteena on järjestelmän toimitus projektimuotoisesti siten, että se on sovitussa aikataulussa hyväksytysti käyttöönotettavissa ja että projektin lopputulokset ja tuotokset ovat toimitettuina hankinnan kohteen kuvauksessa vaadituissa ympäristöissä.
+Toimitus sisältää muun ohella seuraavat Toimittajan palvelut ja toimenpiteet:
+Pääsopimuksen ja tämän sopimuksen mukaisen järjestelmän sisältäen muun ohella pääsopimuksen liitteissä määritellyt liittymät siinä laajuudessa ja vaiheistuksessa kuin osapuolet ovat sopineet.
+Toimitukseen kuuluu järjestelmän vaatimusten tarkentaminen yhdessä Tilaajan kanssa, järjestelmän teknisten määritysten tekeminen, järjestelmän toteutuksen suunnittelu ja toteutus Tilaajan käyttötarkoitukseen sekä käyttöönoton toteutus valtioneuvoston kanslialle ja muille hankinnan kohteen kuvauksessa mainituille organisaatioille. Toimitukseen sisältyy näin ollen projektinhallinnalliset tehtävät, Tilaajan prosessien toiminnallinen määrittely ja implementointi järjestelmään sekä tietojen siirtäminen Tilaajan olemassa olevista järjestelmistä (konversiot ja migraatiot) sovitussa laajuudessa.
+edellä mainittuihin liittyvä dokumentaatio.
+Järjestelmän asennukseen liittyvä ohjeistus ja muut asennukseen liittyvät tehtävät yhdessä Tilaajan ja Tilaajan käyttöpalvelutoimittajan kanssa sekä käyttöpalvelutoimittajan avustaminen järjestelmän asennuksessa sovittuihin ympäristöihin.
+Järjestelmän testaus ja tuki Tilaajan suorittamalle järjestelmän hyväksymistestaukselle testausstrategian ja testaussuunnitelman mukaisesti.
+Toimituksen virheiden korjaaminen tämän sopimuksen ehtojen mukaisesti.
+Järjestelmän perehdytys Tilaajan järjestelmävastuuhenkilöille.
+Järjestelmän käyttöönoton ja käytön edellyttämä koulutus järjestelmän pääkäyttäjille hankinnan kohteen kuvauksessa esitetyssä laajuudessa.
+Järjestelmän käyttöönoton aikainen tuki, ylläpito ja kehitys ennen toimituksen siirtoa palvelusopimuksen mukaiseen ylläpitoon.
+Toimittajan toimituksen tulee täyttää sopimuksen kohteelle pääsopimuksessa ja tässä sopimuksessa ja niiden liitteissä asetetut vaatimukset mahdollisine Tilaajan hyväksymine tarkennuksineen tai muutoksineen sekä Tilaajan hyväksymät Toimittajan tekemät tekniset määritykset.
+Jos Tilaaja hyväksyy tarkennuksia tai muutoksia vaatimuksiin, nämä käsitellään tässä sopimuksessa sovitussa muutostenhallinnassa. Jos vaatimukset ja Tilaajan vaatimuksiin tekemät tarkennukset tai muutokset ovat keskenään ristiriidassa, etusija annetaan Tilaajan hyväksymille vaatimusten tarkennuksille/muutoksille.
+Jos vaatimukset tai vaatimusten tarkennukset/muutokset ja Tilaajan hyväksymät tekniset määritykset ovat keskenään ristiriidassa, annetaan etusija sopimuksessa ja sen liitteissä määritellyille vaatimuksille tai jos Tilaaja on hyväksynyt niihin tarkennuksia/muutoksia, viimeksi mainituille.
+Mikäli Toimittaja havaitsee, että Tilaajan vaatimusten ja Toimittajan tekemien teknisten määritysten välillä on ristiriita, tulee Toimittajan ilmoittaa tästä Tilaajalle ja esittää vaatimuksen tarkentamista. Ellei Tilaaja hyväksy vaatimuksen tarkentamista/muuttamista, tulee Toimittajan muuttaa teknistä määritystä siten että se vastaa vaatimusta.
+Palveluiden on lisäksi toimitushetkellä täytettävä vaatimukset, jotka perustuvat lakiin tai sen nojalla annettuun asetukseen tai viranomaismääräykseen ja jotka ovat voimassa sopimuksen tekohetkellä tai jotka ovat silloin julkaistu ja säädetty tulemaan voimaan sopimuskauden aikana tai jotka johtuvat muista sopimuksen allekirjoittamisaikana julkisesti tiedossa olevista tulevista lainsäädäntömuutoksista. Selvyyden vuoksi todetaan, että lainsäädäntömuutoksista mahdollisesti nousevat päivitystarpeet järjestelmään ja palveluun käsitellään muutoshallinnassa.
+Tässä sopimuksessa ei ole sovittu yksinoikeuksista, vaan Tilaaja voi hankkia tämän sopimuksen voimassaoloaikana myös rinnakkaisia tai korvaavia palveluita.
+Toimituksen lopputuloksena syntyvän järjestelmän tulee täyttää hankinnan kohteen kuvauksessa ja vaatimusmäärittelyssä kuvatut vaatimukset sekä muutoinkin vastata sitä, mitä on tässä sopimuksessa ja pääsopimuksessa liitteineen sovittu. Järjestelmän tulee soveltua mainituissa sopimuksissa määriteltyyn käyttötarkoitukseen.
+Toimitusprojekti
+Toimitusprojekti
+Toimitus toteutetaan projektimuotoisesti. Yleisellä tasolla toimituksen vaiheet on kuvattu pääsopimuksen liitteessä X (Projektisuunnitelman perusteet) ja sen perusteella laadittavassa projektisuunnitelmassa.
+KESKUSTELLAAN NEUVOTTELUISSA
+Koulutus
+Toimitusprojekti sisältää järjestelmän koulutuksen Tilaajan pääkäyttäjille pääsopimuksen liitteen X (Koulutuskonsepti) sisältöisenä ja liitteen X (Hinnasto) mukaisin koulutushinnoin.
+Koulutuksen ja koulutusmateriaalin tulee olla suomen kielellä.
+Ennen koulutusta Toimittaja toimittaa Tilaajalle koulutusmateriaalin katselmoitavaksi ja hyväksyttäväksi.
+Toimittajan tulee kerätä annetuista koulutuksista palaute ja toimittaa niiden yhteenveto Tilaajalle.
+Tilaajalla on oikeus tilata Toimittajalta lisäkoulutusta hinnaston mukaisin koulutushinnoin.
+proof-of-concept (POC)
+Proof-of-Concept-vaiheen sisältö ja muut toteutukseen liittyvät asiat on kuvattu liitteessä X (PoC-vaiheen kuvaus). Proof-of-Conceptin kiinteä hinta on pääsopimuksen liitteenä olevan hinnaston mukainen. Hinta sisältää myös Proof-of-Conceptin toteuttamisessa tarvittavat lisenssit ja muut työkalut.
+Proof-of-Concept tulee luovuttaa Tilaajan tarkastettavaksi Tilaajan hyväksymänä Toimittajan tekemän projektisuunnitelman mukaisesti. Proof-of-Conceptin hyväksyminen on edellytyksenä projektin jatkamiselle. Jos Tilaaja ei hyväksy Proof-of-Concept-toteutusta, Tilaajalla on oikeus irtisanoa sopimus kohdan X mukaisesti. Jos Tilaaja irtisanoo sopimuksen sanotulla perusteella, Toimittajalla on oikeus saada 80 %:n suuruinen korvaus kiinteähintaisesta Proof-of-Conceptin hinnasta sekä mahdollisesta muusta irtisanomiseen saakka tekemästään työstä, jonka tekemisestä oli Tilaajan ja Toimittajan välillä sovittu.
+Toimittajan velvollisuudet
+Sen lisäksi mitä pääsopimuksessa todetaan Toimittajan velvollisuuksista, Toimittajalla on kokonaisvastuu siitä, että toimitusprojektin päättyessä järjestelmä toimii pääsopimuksessa ja tässä sopimuksessa sekä niiden liitteissä kuvatun mukaisesti.
+Toimittajan tulee kirjallisesti todentaa toimitusprojektin aikana, että järjestelmän laatu vastaa sovittua palvelutasoa. Järjestelmä on toteutettava siten, että siihen sisältyvät Tilaajan sovellukset ja Toimittajan tuottamat palvelut voidaan siirtää toisen Toimittajan ylläpidettäväksi ja kehitettäväksi kohtuullisin kustannuksin.
+Toimittaja sitoutuu harjoittamaan toimitusprojektin tehtäviä toteuttaessaan jatkuvaa laadunvalvontaa ja noudattamaan virheiden, vahinkojen, tietojen häviämisen ja turvallisuusriskien ehkäisemiseksi kaikkia tarpeellisia menettelytapoja. Toimittaja ryhtyy viipymättä kaikkiin tarvittaviin toimenpiteisiin ennakoitavien ja aiheutuneiden vahinkojen rajoittamiseksi.
+Tilaajan velvollisuudet
+Sen lisäksi mitä pääsopimuksessa on sovittu Tilaajan velvollisuuksista, sovelletaan Tilaajan velvollisuuksiin jäljempänä tässä kohdassa mainittuja ehtoja.
+Tilaaja osoittaa toimitukseen pääsopimuksen liitteenä olevassa Hankinnan kohteen kuvauksessa mainitut resurssit. Toimittaja on ottanut Tilaajan resursoinnin huomioon toimituksen suunnittelussa ja toimituksen hinnassa. Tilaajan tehtävät on kuvattu projektisuunnitelmassa ja Tilaaja vastaa niistä sovitulla tavalla.
+Tilaaja hyväksyy toimituksen luvun 14 (Testaus ja toimituksen hyväksyminen) mukaisesti. Mitkään Tilaajan antamat välihyväksymiset tai tekemät tarkastukset eivät vähennä Toimittajan vastuuta ja velvoitteita muutoin kuin hyväksymismenettelyssä erikseen sovittavalla tavalla.
+Toimittajan resurssit ja projektiin nimetty henkilöstö
+Sen lisäksi mitä pääsopimuksessa todetaan, Toimittaja huolehtii siitä, että projektihenkilöstöä osallistuu toimitukseen riittävästi sen laatuun ja laajuuteen nähden ja että Toimittajan projektiin varaamat henkilöt ovat Tilaajan käytettävissä tehtävien edellyttämässä laajuudessa ja projektisuunnitelman mukaisesti. Toimittaja huolehtii myös siitä, että toimituksen toteutustapa ja lopputulos on Tilaajan esittämien laatutavoitteiden mukainen.
+Toimittaja on velvollinen Tilaajan pyynnöstä antamaan kirjallisen selvityksen käyttämiensä henkilöiden kokemuksesta ja osaamisesta.
+Toimitusprojektin avainhenkilöiden nimet, tehtävät ja vastuut on kuvattu Avainhenkilöt-liitteessä sekä projektisuunnitelmassa.
+Tilaajalla on oikeus vaatia Toimittajaa viipymättä vaihtamaan avainhenkilö ilman Tilaajalle siitä aiheutuvia kustannuksia, mikäli Tilaaja ei perustellusta syystä ole tyytyväinen ko. avainhenkilön suoritukseen.
+Toimittajalla ei ole ilman Tilaajan nimenomaista suostumusta oikeutta vaihtaa avainhenkilöä toiseen, ellei Toimittaja maksa Tilaajalle sopimussakkona 15.000 euroa per avainhenkilön vaihdos. Korvaavan henkilön on oltava pätevyydeltään ja kokemukseltaan vähintään vastaavantasoinen kuin korvattava henkilö. Toimittaja vastaa uuden henkilön perehdyttämiseen liittyvistä kustannuksista. Selvyyden vuoksi todetaan, että tämän kohdan mukainen sopimussakko koskee ainoastaan avainhenkilöitä. Muun projektiin tai palvelujen tuottamiseen asetetun henkilön vaihtamiseen sovelletaan pääsopimuksen ehtoja.
+Toimittaja ei ole velvollinen maksamaan edellä mainittua sopimussakkoa, mikäli avainhenkilön vaihdos johtuu Toimittajan vaikutusmahdollisuuksien ulkopuolella olevasta syystä, kuten esimerkiksi henkilön perhevapaat, irtisanoutuminen tai sairastuminen. Tällöinkin henkilö voidaan vaihtaa vain vähintään vastaavantasoisen osaamisen ja pätevyyden omaavaan, Tilaajan hyväksymään henkilöön, jonka Toimittaja viivytyksettä ja mahdollisuuksien mukaan jo ennen tehtävien aloittamista perehdyttää projektiin ja sen vaatimaan osaamiseen omalla kustannuksellaan. Toimittaja sitoutuu mahdollisimman aikaisessa vaiheessa tiedottamaan henkilövaihdoksen mahdollisuudesta.
+Avainhenkilön edellä kuvatulla vaihtamisella ei ole vaikutusta sopimuksen mukaisten viivästysseuraamusten soveltamiseen, ts. vaihtaminen ei oikeuta Toimittajaa viivästymään toimituksessaan.
+Projektin organisointi ja toteutus
+Projektityössä noudatetaan alalla vakiintuneita projektinhallintamekanismeja ja Toimittajan toimitusmallia. Tilaajan niin edellyttäessä, projektinhallinnan toteutus Tilaajan ja Toimittajan yhteistyössä toteutetaan käyttäen Tilaajan projektityömallia.
+Sopijapuolet varaavat omalta osaltaan tarvittavat työtilat ja -välineet toimitusprojektin käyttöön.
+Määritykset ja niiden työstäminen tehdään Tilaajan tiloissa Helsingissä, jos Tilaaja niin edellyttää. Tilaaja voi myös edellyttää, että rakentuvaa järjestelmää katselmoidaan Toimittajan toteuttamassa testiympäristössä jo projektin varhaisessa vaiheessa. Toimitusprojektin muita tehtäviä suoritetaan Tilaajan tiloissa siten kuin erikseen sovitaan.
+Sen lisäksi mitä tässä sopimuksessa on sovittu, projektin organisointiin ja toteutukseen sovelletaan pääsopimuksen ehtoja.
+Toimitusprojektissa käytettävä kieli on suomi ja toimitusprojektissa syntyvä dokumentaatio on suomenkielistä. Tekninen dokumentaatio voi olla englanninkielistä. Hyväksyntämenettelyssä käytettävien vaatimus- ja määrittelydokumenttien sekä testausdokumenttien on oltava suomenkielisiä. Erikseen sovittaessa tekninen dokumentaatio voi olla englanninkielisiä. Asiakaskohtaisiin sovituksiin (räätälöityyn osuuteen) kuuluvan koodin kommentointi tapahtuu suomeksi tai englanniksi.
+Järjestelmän koulutuksen ja koulutusmateriaalin sekä käyttäjien ohjeistuksen on oltava suomenkielistä, ellei toisin sovita.
+Muutoshallinta
+Sekä Tilaaja että Toimittaja voivat esittää muutospyyntöjä järjestelmän toimituksen sisältöön. Muutospyyntöjä voi syntyä toimituksen sisällön tai laajuuden muuttuessa, havaitun määrittelyvirheen seurauksena tai muuttuneiden tarpeiden, kuten muuttuneen palvelutasotarpeen, johdosta.
+Tilaajan järjestelmän toiminnallisuuksista antama palaute voi sisältää hyväksyttyjä määrityksiä täsmentäviä vaatimuksia, jotka Toimittajan on toteutettava ilman eri kustannusta, mikäli ne eivät poikkea vähäistä enemmissä määrin hyväksytyistä määrittelyistä. Vähäistä enemmissä määrin hyväksytyistä määrityksistä poikkeavien vaatimusten toteuttamisesta Toimittaja voi antaa työmääräarvion ja Tilaaja voi tilata lisätyön pääsopimuksen liitteenä olevan hinnaston mukaisilla henkilötyöhinnoilla. Tällaisessa tapauksessa käyttöönoton määräaika lykkääntyy yhtä monella arkipäivällä, kuin lisätyön työmääräarvio on.
+Muutospyynnöt tehdään projektisuunnitelmassa kuvatun muutospyyntöprosessin mukaisesti sekä laaditaan kirjallisesti erilliselle muutospyyntölomakkeelle, joka on projektisuunnitelman liitteenä.
+Pääsopimuksen liitteenä olevassa vaatimusluettelossa kuvatun vaatimuksen muuttaminen, sen toteuttamatta jättäminen tai uuden vaatimuksen lisääminen on käsiteltävä hankeryhmässä. Jos muutos on olennainen, se on lisäksi käsiteltävä ohjausryhmässä. Muutoshallintaesityksen yhteydessä on esitettävä arvio muutoksen vaikutuksesta projektin aikatauluun, kustannuksiin ja resursseihin. Toimittaja osallistuu muutostenhallintaryhmän tai ohjausryhmän kokouksiin silloin kuin niissä käsitellään muutosehdotuksia.
+Muutospyynnön käsittelyn yhteydessä Toimittajan ja Tilaajan edustajat selvittävät ja sopivat yhdessä muutospyynnön vaikutukset projektin tavoitteisiin, työmääriin, hintoihin ja aikatauluun. Toimittaja on sovittua muutosmenettelyä ja työvälinettä käyttäen velvollinen osoittamaan jokaisen muutoksen työmäärään kohdistuvan vaikutuksen, lisäyksen tai vähennyksen, alkuperäiseen suunnitelmaan verraten. Muutoksella ei ole toimitusprojektin aikataulua lykkäävää taikka työmäärää tai hintoja korottavaa vaikutusta, ellei tällaisesta ole sopijapuolten välillä nimenomaisesti sovittu.
+Sopijapuolten edustajat sopivat muutoksesta kirjallisesti ja päivittävät tarpeen mukaan projektisuunnitelmaa muutosta vastaavaksi. Toimittaja kirjaa kaikki muutokset ylös muutoskirjanpitoon. Ohjausryhmän käsittelyä edellyttävää muutosta koskeva päätös kirjataan ohjausryhmän pöytäkirjaan ja ohjausryhmä huolehtii tarpeen mukaan projektisuunnitelman päivittämisestä muutosta vastaavaksi. Jokaisen muutosehdotuksen käsittelyä varten Toimittaja arvioi ja ilmoittaa kirjallisesti sen vaikutukset projektin aikatauluun, työmäärään ja kustannuksiin sekä riskeihin.
+Muutoksen toteuttamiseen ryhdytään vasta, kun siitä on tehty ja kirjattu Tilaajan allekirjoittama päätös.
+Muutostyön hinnoittelussa noudatetaan pääsopimuksen liitteenä olevaa hinnastoa.
+Mikäli projektisuunnitelma muuttuu oleellisesti, sopijapuolet sopivat siitä erillisellä sopimusmuutoksella, jonka liitteenä on päivitetty projektisuunnitelma.
+Raportointi
+Toimittajan projektipäällikkö raportoi projektin etenemisestä ja tulosten valmiusasteesta Tilaajan projektipäällikölle viikoittain tai useammin projektisuunnitelmassa kuvattujen tulosten valmistuessa. Ohjausryhmälle raportoidaan sen kokousten yhteydessä. Toimittaja on velvollinen raportoimaan kirjallisesti tehtävien viivästymisestä välittömästi, kun viivästyminen on todennäköinen.
+Toimittaja laatii lisäksi projektista sovitut väliraportit, raportit testauksista sekä loppuraportin ja muut ohjausryhmän edellyttämät raportit.
+Projektinaikainen laadunvarmistus ja riskienhallinta
+Toimitusprojektin laadunvarmistus ja riskienhallinta on kuvattu tarkemmin projektisuunnitelmassa ja sen liitteissä. Selvyyden vuoksi todetaan, että Toimittajan laadunvarmistus ja riskienhallinta rajoittuu Toimittajan määrättävissä ja kontrolloitavissa oleviin asioihin.
+Toimittaja tarkastaa järjestelmän osaksi otettavien, Tilaajan käyttämien kolmansien osapuolten palvelujen tulokset. Tässä tarkoituksessa Toimittaja suorittaa viipymättä arvioinnin siitä, että tulokset ovat järjestelmää koskevien vaatimusten mukaisia ja että ne voidaan ottaa toimituksen osaksi ilman, että niillä on haitallista vaikutusta järjestelmän tekniseen toimintaan, käytettävyyteen tai palvelutasoihin. Toimittaja ilmoittaa hyväksynnästä Tilaajalle kirjallisesti. Toimittajan on annettava tämän kohdan mukainen hyväksyntä, ellei sillä ole perusteltua syytä kieltäytyä sen antamisesta. Jos Toimittaja ei hyväksy kolmannen osapuolen työn tuloksia, Toimittajan on ilmoitettava kieltäytymisen syy ja perusteltava, miksi työn tulokset eivät ole hyväksyttävissä. Menettelyä jatketaan, kunnes kolmansien suorittamat työn tulokset on hyväksytty. Tämän kohdan mukaiset tehtävät Toimittaja suorittaa Tilaajan toimeksiannosta pääsopimuksen liitteenä olevan hinnaston henkilötyöhintoihin perustuen.
+Toimitusprojektin aikana Toimittajan on huolehdittava vastuullaan olevien ympäristöjen varmuuskopioinnista.
+Aikataulu
+Järjestelmän lopullinen hyväksyntä tapahtuu sopimuksen kohdassa x-x määritellyllä tavoin.
+Toimituksen sitova aikataulu on kuvattu hankinnan kohteen kuvauksessa.
+Toimituksen yksityiskohtainen aikataulu on kuvattu projektisuunnitelmassa.
+Testaus ja toimituksen hyväksyminen
+Yleistä toimituksesta ja virhevastuusta
+Järjestelmä katsotaan toimitetuksi, kun Toimittaja on täyttänyt kaikki pääsopimuksen ja sen liitteiden, ml. tämän toimitussopimuksen ja projektisuunnitelman mukaiset toimituksen hyväksynnän edellyttämät velvollisuutensa ja Tilaaja on hyväksynyt järjestelmän tämän sopimuksen mukaisessa hyväksymismenettelyssä.
+Toimitusprojektin lopputulosten ja tuotosten on oltava pääsopimuksen ja sen liitteiden mukaisia ja vastattava näiden sopimusten mukaisia hyväksymiskriteerejä, vaatimuksia sekä Tilaajan niihin mahdollisesti hyväksymiä tarkennuksia/muutoksia ja Tilaajan hyväksymiä Toimittajan tekemiä teknisiä määrityksiä.
+Hyväksymismenettely
+Toimittaja tekee järjestelmälle tai sen osalle sopimuksessa sovitut Toimittajan testit, ennen kuin Toimittaja luovuttaa järjestelmän tai sen osan Tilaajalle välivaiheen testausta tai hyväksymistestausta varten. Ellei muuta ole sovittu, Toimittaja tekee käytäntönsä mukaiset testit Tilaajan etukäteen toimittamalla aineistolla. Toimittajan testin hyväksytty suoritus on ehdoton edellytys sille, että Toimittaja voi luovuttaa järjestelmän tai sen osan Tilaajalle hyväksymistestausta varten. Toimittajan testaus on suoritettu hyväksytysti, kun toimituksen kohde täyttää sovitut luovutuskriteerit. Ellei muuta ole sovittu, Toimittajan testaus on suoritettu hyväksytysti, kun Toimittajan suorittamissa testeissä ei enää havaita virheitä, joiden Tilaaja voisi perustellusti katsoa estävän hyväksymistestauksen suorittamisen. Toimittaja ilmoittaa Tilaajalle, milloin järjestelmä tai sen osa on valmis Tilaajan hyväksymistestausta varten ja toimittaa Tilaajalle selvityksen toteutetusta testauksesta ja sen tuloksista.
+Tilaaja saattaa kustannuksellaan Tilaajan hyväksymistestauksessa tarvittavan käyttöympäristön sopimuksen mukaiseksi, ellei asiasta ole sovittu toisin. Toimittaja luovuttaa toimituksen kohteen hyväksymistestausta varten siten, että se on asennettuna sopimuksen mukaiseen käyttöympäristöön toimitusaikataulun mukaisesti. Toimittaja luovuttaa Tilaajalle Tilaajan hyväksymistestaukseen käyttöohjeet sekä järjestelmää koskevan dokumentaation. Toimittaja toteuttaa myös Tilaajan edustajille sovitun koulutuksen kyseisten tehtävien suorittamista varten.
+Tilaaja tekee hyväksymistestauksen. Tilaaja toimittaa etukäteen hyväksymistestaussuunnitelman Toimittajalle kommentoitavaksi. Hyväksymistestaussuunnitelma ei ole kuitenkaan sitova, vaan Tilaajalla on sen rajoittamatta oikeus tehdä tarpeellisena pitämänsä testit. Jollei toisin ole sovittu, Tilaajalla on 30 päivää aikaa tehdä Tilaajan hyväksymistestaus siitä lähtien, kun Toimittaja on ilmoittanut kirjallisesti, että toimituksen kohde tai sovittu osa on valmis hyväksymistestausta varten, ja Toimittaja on luovuttanut järjestelmän tai sen osan testattavaksi kohdan 14.4 mukaisesti. Toimittaja ei saa luovuttaa järjestelmää tai sen osaa Tilaajalle hyväksymistestausta varten ennen yhteisesti sovittua ajankohtaa, ellei Tilaaja siihen nimenomaisesti kirjallisesti suostu. Sopijapuolet voivat sopia, että Toimittaja avustaa Tilaajaa hyväksymistestauksessa.
+Jollei toisin ole sovittu, Tilaaja suorittaa sovittujen välivaiheiden testauksen 30 päivän kuluessa siitä, kun Toimittaja on kirjallisesti ilmoittanut, että testaus voidaan aloittaa. Välivaiheen hyväksyntä ei vapauta Toimittajaa vastuusta myöhempien vaiheiden testausten aikana esille tulleista virheistä, joita ei ole voitu eikä ole pitänytkään kohtuudella havaita välivaiheiden tarkastuksissa.  Välivaiheen hyväksyntä on edellytys seuraavan vaiheen aloittamiselle, ellei asiasta ole sovittu toisin.
+Toimittaja korjaa hyväksymistestauksessa ilmenneen virheen ilman aiheetonta viivytystä. Hyväksymistestaukselle varattua aikaa pidennetään ajalla, jonka Toimittaja tarvitsee virheen korjaamiseen ja Tilaaja kohtuudella virhekorjausten testaamiseen ja hyväksymiseen. Toimittaja luovuttaa järjestelmän korjattuna Tilaajan hyväksymistestausta varten Tilaajan kanssa sovittuna uutena ajankohtana. Mikäli hyväksymistestauksessa havaittu virhe johtuu järjestelmään sisältyvästä valmisohjelmistosta, Toimittaja korjaa tai korjauttaa kustannuksellaan ja mahdollisuuksiensa mukaan valmisohjelmistosta johtuvan virheen. Sopijapuolet voivat myös sopia, että Toimittaja kiertää kustannuksellaan virheen. Mikäli virheen kiertäminen ei kohtuudella ole mahdollista yleisesti käytettävissä olevin toimenpitein, sopijapuolet voivat sopia lisätyöstä virheen kiertämiseksi tai Tilaajalla on oikeus hinnanalennukseen. Mikäli virhe on niin olennainen, että sopimuksen tarkoitus jää virheen johdosta olennaisesti saavuttamatta, Tilaajalla on oikeus purkaa sopimus, ellei kyseessä ole Tilaajan edellyttämä valmisohjelmisto.
+Järjestelmä tai sen osa katsotaan hyväksytyksi, jos Tilaaja ei ole ilmoittanut virheistä kohdassa 14.12 mainitun ajan kuluessa tai jos Tilaaja ottaa järjestelmän tai sen osan tuotantokäyttöön.
+Hyväksymistä eivät estä vähäiset virheet, jotka eivät estä järjestelmän käyttöä sovittuun käyttötarkoitukseen tai estä sen toimintaa. Toimittaja on kuitenkin velvollinen korjaamaan veloituksetta tällaisetkin virheet ja puutteet ilman aiheetonta viivytystä.
+Tilaajalla on oikeus käyttää ulkopuolisia tahoja, kuten ulkopuolista auditoijaa taikka testaajaa, jotka eivät ole Toimittajan suoranaisia kilpailijoita, apuna Tilaajan sovelluksen, dokumentaation ja muiden tuotosten arvioinnissa. Toimittaja järjestää tällaiselle ulkopuoliselle taholle Tilaajan pyynnöstä pääsyn tarvittaviin testiympäristöihin. Tilaaja vastaa siitä, että sen tässä käyttämä alihankkija on sitoutunut pääsopimuksen mukaiseen salassapitoon.
+Kiinteähintaisessa toimituksessa Toimittaja avustaa Tilaajaa hyväksymistestauksessa ilman eri veloitusta tarjoamalla tukea ja asiantuntija-apua. Tämän kohdan mukaisen avustamisvelvollisuuden laajuus on enintään 10 henkilötyöpäivää.
+Tilaaja ilmoittaa kirjallisesti Toimittajalle järjestelmässä tai sen osassa havaitsemistaan virheistä viivytyksettä, kuitenkin viimeistään 10 päivän kuluessa siitä, kun Tilaajan hyväksymistestaukselle varattu aika on päättynyt.
+Mitkään Tilaajan antamat osittaiset hyväksymiset tai tekemät tarkastukset taikka toimituksen jonkin osan hyväksymiset/tarkastukset eivät vähennä Toimittajan vastuuta ja velvoitteita toimituksen hyväksymismenettelyssä havaittujen virheiden osalta. Selvyyden vuoksi todetaan, että Toimittaja on virhevastuussa myös inkrementtien tuotoksena syntyneiden versioiden hyväksynnöissä mahdollisesti havaitsematta jääneistä virheistä.
+Mikäli hyväksymismenettelyssä havaitaan virhe, joka estää hyväksymisen, Tilaaja on oikeutettu pidättäytymään toimitusprojektin jäljellä olevista maksuista virhettä vastaavalta osin siihen saakka, kun Toimittaja on virheen poistanut eikä Tilaajalla ole velvollisuutta maksaa toimitusvaiheen hyväksymiseen sidottua maksuerää. Lisäksi Toimittaja maksaa viivästyksestä Tilaajalle viivästyssakkoa tämän sopimuksen mukaisesti.
+Jos hyväksymistestauksessa havaitaan kohtuuttoman paljon tai merkitykseltään sellaisia virheitä, että testausta ei ole perusteltua jatkaa, testaus keskeytyy. Tarvittaessa hyväksymistestauksen keskeytymisen ja jatkamisen ratkaisee toimitusprojektin ohjausryhmä. Keskeytetyn hyväksymistestauksen jälkeen hyväksymistestaus aloitetaan uudelleen kuvatun prosessin mukaisesti ja aikaa on edelleen 30 päivää. Hyväksymistestauksen keskeyttäminen ei vaikuta viivästymissanktioiden määräytymiseen.
+Toimittaja korvaa Tilaajalle uusintatestauksista aiheutuneet työkustannukset (ml. työstä kolmannelle maksettavat palkkiot). Toimittajalla ei ole oikeutta veloittaa hyväksymistestauksissa ilmenneiden virheiden korjaamisesta.
+Kun yksilöidyt hyväksymisen estävät virheet on havaittu korjatuiksi, sopijapuolet allekirjoittavat viipymättä pöytäkirjan järjestelmän tai sen osan hyväksymisestä. Tarvittaessa pöytäkirjaan kirjataan sellaiset hyväksymistestauksessa havaitut jäljelle jääneet virheet ja puutteet, jotka Toimittaja on velvollinen korjaamaan sekä korjausaikataulu.
+Lisätöiden (kuten kehitysprojektit) luovutukseen, vastaanottotarkastukseen ja hyväksymiseen sovelletaan tämän sopimuksen ja pääsopimuksen mukaisia ehtoja, ellei toisin sovita.
+Erityisehtoja Sähke2–vaatimusten todentamisesta
+Toimittaja huolehtii siitä, että asianhallintajärjestelmäkokonaisuus täyttää Suomen viranomaisille asetetut tiedonhallinnan vaatimukset lain julkisen hallinnon tiedonhallinnasta (906/2019, tiedonhallintalaki), tiedonhallintalautakunnan suositusten, sekä Kansallisarkiston SÄHKE2-vaatimusten osalta.
+Riippumatta siitä, mitä muualla pääsopimuksessa ja tässä sopimuksessa on sovittu Tilaajan hyväksymisestä ja virhevastuusta, Toimittaja on hyväksymiselle asetetuista määräajoista riippumatta velvollinen ilman eri veloitusta korjaamaan virheet ja puutteet, joiden vuoksi järjestelmä ei vastaa Sähke2–vaatimuksia ja saattamaan Järjestelmän Sähke2–vaatimusten mukaiseksi siltä osin kuin Tilaaja ei ole Sähke2 -vaatimuksista nimenomaisesti vaatimusmäärittelyssä poikennut.  Edellä sanottu kustannusvastuu koskee myös muiden havaittujen virheiden ja poikkeamien korjaavia toimenpiteitä.
+Takuu
+Takuuaikana Toimittaja korjaa veloituksetta ja ilman aiheetonta viivytystä järjestelmässä havaitut virheet. Korjaukseen sisältyy myös korjausta vastaavien muutosten tekeminen dokumentaatioon.
+Takuuaika on 12 kuukautta järjestelmän tai sen osan hyväksymisestä. Aiemmin hyväksyttyjen vaiheiden takuuaika päättyy kuitenkin vasta, kun 6 kuukautta on kulunut Tilaajan tekemästä lopullisesta järjestelmän hyväksynnästä.
+Valmisohjelmistojen osalta takuuseen sovelletaan kyseisten valmisohjelmistojen takuuehtoja.
+Mikäli järjestelmässä takuuaikana ilmenevä virhe johtuu valmisohjelmistosta, Toimittaja korjaa tai korjauttaa kustannuksellaan ja mahdollisuuksiensa mukaan virheen. Valmisohjelmiston versiomuutoksia ei pidetä edellä tarkoitettuna virheenä. Jos virheen korjaaminen tai korjauttaminen ei ole kohtuudella mahdollista, Toimittaja kiertää kustannuksellaan virheen. Mikäli virheen kiertäminen ei kohtuudella ole mahdollista yleisesti käytettävissä olevin toimenpitein, sopijapuolet voivat sopia lisätyöstä virheen kiertämiseksi tai Tilaajalla on oikeus hinnanalennukseen. Mikäli virhe on niin olennainen, että sopimuksen tarkoitus jää virheen johdosta olennaisesti saavuttamatta, Tilaajalla on oikeus purkaa sopimus, ellei kyseessä ole Tilaajan edellyttämä valmisohjelmisto.
+Takuu raukeaa siltä osin kuin Tilaaja sopimatta siitä kirjallisesti Toimittajan kanssa muuttaa Tilaajan sovellusta tai määriteltyä sovellusympäristöä, Tilaajan sovellusta käytetään muuhun kuin sen käyttötarkoitukseen tai vastoin sen käyttöä koskevia ohjeita tai virhe aiheutuu muusta Tilaajan puolella olevasta syystä.
+Takuuaika pitenee sillä aikamäärällä, jona järjestelmää tai sen osaa ei Toimittajan vastuulla olevan virheen vuoksi ole voitu käyttää.
+Selvyyden vuoksi todetaan, että Tilaaja maksaa takuuaikana sovitun ylläpitomaksun ja Toimittaja on sidottu ylläpitosopimuksessa sovittuihin palvelutasoehtoihin. Virheet tulevat Toimittajan korjattavaksi takuuehtojen perusteella sikäli kuin Toimittaja ei ole korjannut niitä palvelutasoehtojen perusteella.
+Projektin hinnoittelu ja maksuehdot
+Kiinteähintaiseksi sovitut osuudet toimituksesta on kuvattu pääsopimuksen liitteenä olevassa hinnastossa. Ellei toisin sovita, kiinteähintaisen PoC-toimituksen laskutus tapahtuu seuraavissa erissä:
+30 %	Kun valmisohjelmiston laajuus on todennettu
+30 %	Kun PoC-käyttötapaukset on todennettu
+40 %	Kun PoC-vaihe on hyväksytty valmiiksi
+Toimittaja laskuttaa mahdolliset muut kiinteähintaiseksi sovitut osuudet, kun Tilaaja on hyväksynyt toimitetut tulokset.
+Jos Toimituksen osa on sovittu tehtävän toteutuneeseen työmäärään perustuen, asiantuntijatyön hinta perustuu hintaliitteen mukaiseen asiantuntijaroolikohtaiseen hinnoitteluun. Jos kalliimman asiantuntijaroolin henkilö tekee halvemman asiantuntijaroolin mukaisia tehtäviä, Toimittaja laskuttaa halvemman asiantuntijaroolin mukaisen hinnan.
+Ellei toisin sovita, toteutuneeseen työmäärään perustuvassa laskutuksessa Toimittaja voi veloittaa enintään 80 % toteutuneesta henkilötyöstä. Loput 20 % Toimittaja voi veloittaa, kun Tilaaja on hyväksynyt toimituksen osan tai muut sovitut palvelun tulokset.
+Toimittaja liittää toimitusprojektia koskeviin laskuihin tiedon laskutuksen perusteesta. Lisätöiden ja muiden asiantuntijapalvelujen osalta on laskun yhteydessä eriteltävä vähintään laskutuskausi, mitä tehtäviä lasku koskee, laskutuksen perusteena oleva työmäärä ja Tilaajan viite tai projektikoodi. Lisätöiden laskutus perustuu Pääsopimuksen liitteenä olevan hinnaston mukaisiin roolikohtaisiin henkilötyöhintoihin.
+Maksuaika on pääsopimuksen mukainen.
+Viivästys
+Viivästymiseksi katsotaan sovitun toimituksen tai velvoitteen, kuten sovittujen toimitusvaiheiden taikka toimituksen kohteen käyttöönoton, viivästyminen Toimittajan vastuulla olevasta syystä.
+Tämän sopimuksen kohdassa 14.1 on todettu, milloin järjestelmä katsotaan toimitetuksi. Toimituksen vaiheiden osalta toimitus katsotaan tapahtuneeksi, kun toimituksen kohde on hyväksytty ja Toimittaja on täyttänyt kaikki tuotteen tai palvelun lopputuloksen käyttöönottoon liittyvät sopimuksen mukaiset velvollisuutensa.
+Jos toimitus tai sen osa viivästyy Toimittajan vastuulla olevasta syystä, Toimittaja maksaa Tilaajalle sopimussakkoa alla olevan taulukon mukaisesti jokaiselta taulukon mukaiselta alkavalta ajanjaksolta, jolla Toimittaja ylittää sopimuksessa toimitukselle tai sen osalle sovitun määräpäivän. Sakko kultakin edellä mainitulta ajanjaksolta lasketaan taulukon mukaisella sakkoprosentilla viivästyneen toimituksen tai sen osan hinnasta. Sakko on kuitenkin enintään 20 prosenttia kyseisestä hinnasta. Sakon suuruuteen ei vaikuta viivästyksen aiheuttaman vahingon suuruus. Viivästykseen rinnastetaan käytön estävien asiakirjojen ja tietojen viivästyminen.
+Viivästys                        Sakkoprosentti (%)
+7 vuorokautta                        	1,0
+14 vuorokautta                        2,0
+21 vuorokautta                        3
+28 vuorokautta                        4
+35 vuorokautta                        5
+42 vuorokautta                         7,5
+49 vuorokautta                         10
+56 vuorokautta                         15
+yli 56 vuorokautta                     20
+Viivästyssakkoa koskeva vaatimus on esitettävä kirjallisesti neljäntoista (14) päivän kuluessa toimituksen viivästyksen alkamispäivämäärästä ja Tilaajalla on oikeus vähentää viivästyssakon määrä Toimittajalle tapahtuvista maksusuorituksista.
+Sopimusasiakirjat ja niiden pätemisjärjestys
+Tämä sopimus muodostuu tästä sopimusasiakirjasta ja seuraavista liitteistä:
+LAADITAAN MYÖHEMMIN
+Mikäli sopimusasiakirjan ja liitteiden välillä on ristiriitaa, ratkaisee sopimusasiakirjan sanamuoto. Mikäli liitteiden välillä on ristiriitaa, noudatetaan soveltamisjärjestyksenä niiden numerojärjestystä siten, että ristiriitatilanteessa sovelletaan sitä liitettä, jonka järjestysnumero on pienempi.
+Selvyyden vuoksi todetaan, että Pääsopimusta ja sen liitteitä sovelletaan niiltä osin kuin tässä sopimuksessa ei ole kyseisestä asiasta muuta taikka toisin sovittu.
+Sopimuksen voimassaolo ja päättymisen vaikutukset
+Tämä sopimus tulee voimaan kun pääsopimus on allekirjoitettu ja on voimassa, kunnes kaikki toimitukseen kuuluvat työt on tehty, toimitus on hyväksytysti vastaanotettu ja takuuaika on päättynyt.
+Jos Toimittaja ei läpäise tämän sopimuksen mukaista Proof of Conceptia, Tilaaja voi irtisanoa tämän sopimuksen päättymään välittömästi. Irtisanominen tällä perusteella ulottaa vaikutuksensa myös pääsopimukseen ja muihin tähän sopimuskokonaisuuteen liittyviin sopimuksiin siitä huolimatta, mitä sopimuksissa on mahdollisesti sovittu niiden määräaikaisuudesta.
+Sen lisäksi, mitä on sovittu Proof-of-Concept-vaiheeseen liittyvästä Tilaajan irtisanomisoikeudesta, Tilaajalla on oikeus syytä ilmoittamatta irtisanoa tämä sopimus kokonaan tai osittain. Irtisanomisoikeus syntyy sen jälkeen, kun toimituksen vaiheelle 1 sovittu toimituspäivä on kulunut. Irtisanomisaika on yksi kuukausi. Tilaajan irtisanottua sopimuksen Toimittajan on pidättäydyttävä enemmistä toimenpiteistä muilta kuin Tilaajan edellyttämiltä osin. Tilaaja on velvollinen suorittamaan Toimittajalle sopimuksen mukaisen korvauksen irtisanomisilmoituksen tekemisajankohtaan saakka tehdyistä toimenpiteistä sekä niistä toimenpiteistä, jotka sen jälkeen sopimuksen päättymiseen saakka tehdään Tilaajan edellytysten mukaisesti.
+Sopimuksen voimassaoloon, irtisanomiseen ja purkamiseen sovelletaan lisäksi pääsopimuksessa ja turvallisuussopimuksessa sovittua.
+Allekirjoitukset
+Tämä sopimus katsotaan allekirjoitetuksi, kun pääsopimus on allekirjoitettu.
+Helsingissä _____/_____2026		Helsingissä _____/_____2026
+Valtioneuvoston kanslia		XXX Oy

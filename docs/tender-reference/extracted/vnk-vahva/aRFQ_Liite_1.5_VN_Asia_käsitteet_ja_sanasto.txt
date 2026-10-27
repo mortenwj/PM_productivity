@@ -1,0 +1,356 @@
+Käsitteet ja sanasto
+Tässä liitteessä olevia käsitteitä käytetään kaikissa hankintaan liittyvissä asiakirjoissa
+Käsitemallissa olevat käsitteet on merkitty tähdellä.
+Käsitteet ja sanasto	1
+1	Active Directory	4
+2	Alihankkija	4
+3	Arkistointi, arkistointivaihe*	4
+4	*Asia	4
+5	*Asiakirja, kansallinen asiakirja	4
+6	Asiakirjan käsittely	4
+7	Asianhallinta	5
+8	Asianhallintajärjestelmä	5
+9	Asiarekisteri	5
+10	Asiasanajakelu	5
+11	Asiatyyppi	5
+12	Avain	6
+13	Avainhenkilö	6
+14	Dokumentinhallintajärjestelmä	6
+15	Eheys	6
+16	*Elinkaari	6
+17	Entra ID	6
+18	Hankintasopimus	7
+19	Henkilötiedot	7
+20	Jatkuvuudenhallinta	7
+21	*Julkisuusluokka	7
+22	Järjestelmäkokonaisuus	8
+23	Kasautumisvaikutus	8
+24	Kehitystyö	8
+25	Ketterä menetelmä	8
+26	Kirjaamo	8
+27	Kirjaamorobotti	8
+28	Konfiguroitu ohjelmisto	9
+29	Koulutus	9
+30	Laatusuunnitelma	9
+31	*Luokituksen muutos	9
+32	Luottamuksellisuus	9
+33	Luovutushetki	9
+34	Massapäivitys	10
+35	*Metatieto	10
+36	Muutos	10
+37	Modulaarisuus	10
+38	Monitoimijaprosessi	10
+39	Minimum Viable Product (MVP)	10
+40	OKV	11
+41	Olennainen sopimusrikkomus	11
+42	*Omistaja	11
+43	Optio	11
+44	Organisaatioyksikkö	11
+45	Pakollinen vaatimus	11
+46	Palvelu	12
+47	*Paperiasiakirja, paperimuotoinen asiakirja	12
+48	Program Increment	12
+49	Projektin toimituserät	12
+50	Projektin toimitusvaihe	12
+51	Parametrointi	12
+52	Provisiointi	12
+53	*Pysyvä säilytys, pysyvä säilyttäminen	13
+54	Rekisteröinti, rekisteröintitiedot	13
+55	Riskiarvio	13
+56	Rojalti	13
+57	RV	13
+58	Saatavuus	13
+59	Salaisuudet	14
+60	*Salassa pidettävä asiakirja	14
+61	*Salassa pidettävä (TL III / TL II käsittelysääntö)	14
+62	*Salassapidon päättymisajankohta	14
+63	Salassapitoaika	14
+64	Sopijapuolet	14
+65	Sopijapuoli	15
+66	Sopimussakko	15
+67	Sopimusrikkomus	15
+68	Syntymäoikeus	15
+69	Sähköinen asiakirja	15
+70	SÄHKE2-vaatimukset	15
+71	Sähköinen säilyttäminen	15
+72	*Säilytysvaihe	16
+73	*Säilytysajan päättymisajankohta	16
+74	Takuuaika	16
+75	Tausta-aineisto	16
+76	Tiedonohjaus	16
+77	*Tiedonohjaussuunnitelma (TOS)	17
+78	*Tiedosto	17
+79	*Tietosisältö	17
+80	*Tietoturvallisuustoimenpide	17
+81	Tilaus	17
+82	Tilauksen hinta	17
+83	*Toimenpide	18
+84	Toimituksen kohde	18
+85	Toimituksen kohteen kokonaishinta	18
+86	Toimituserä	18
+87	Toteutus	18
+88	TPK	18
+89	*Tuhoaminen	18
+90	Tuote	19
+91	*Turvallisuusluokka	19
+92	*Turvallisuusluokka III, TL III, LUOTTAMUKSELLINEN	19
+93	Työskentelyalusta	19
+94	Vaatimus	19
+95	Valmis	20
+96	Valmisohjelmisto	20
+97	Valmisteluaineisto	20
+98	Valtioneuvoston tiedonhallintayksikkö	20
+99	Varautuminen	21
+100	Vastaanotto	21
+101	Vastaanottotarkastus	21
+102	Viivästyssakko	21
+103	Virhe	21
+104	Virtu	22
+105	VN	22
+106	VNL	22
+107	VNOS	22
+108	Yhteystietorekisteri	22
+109	Ylläpitopalvelu	22
+Active Directory
+Microsoftin Windows-toimialueen käyttäjärekisteri ja hakemistopalvelu. Valtioneuvosto, OKV ja TPK käyttävät Valtorin tuottamaa ja ylläpitämää valtionhallinnon yhteistä AD:ta.
+Alihankkija
+Alihankkijalla tarkoitetaan sellaista kolmatta tahoa, joka osallistuu Hankintasopimuksessa tarkoitettujen sopimusvelvoitteiden täyttämiseen Toimittajan ohjauksessa ja vastuulla Alihankkijat ovat lueteltu.
+Arkistointi, arkistointivaihe*
+Asiakirjat tai tietoaineistot arkistoidaan vasta sitten, kun niiden alkuperäiset tai niihin rinnastettavat käyttötarpeet ovat päättyneet. Näillä käyttötarpeilla tarkoitetaan esimerkiksi tiedon käyttöä viranomaisen tehtävien hoitoon sekä kansalaisen oikeusturvan, etujen ja velvollisuuksien sekä sopimusten oikeusvaikutusten todentamiseen.
+Arkistoitavat tietoaineistot siirtyvät arkistointivaiheeseen, kun niiden laissa erikseen säädetty säilytysaika on päättynyt tai tiedonhallintalain 21 §:n mukaisesti määritetty säilytysaika on päättynyt. Arkistointivaiheessa tietoaineistoa ei enää käytetä alkuperäiseen käyttötarkoitukseensa.
+Arkistoitavat asiakirjat ovat pysyvästi säilytettäviä. Ks. myös Säilytysvaihe, Asiakirjojen siirto
+*Asia
+Käsiteltäväksi annettu tai otettu tehtävä, joka ratkaistaan (esim. hallintopäätös, määräys, lausunto, ohje tai jokin muunlainen viranomaisen toimi).
+*Asiakirja, kansallinen asiakirja
+Kansallisesti asiakirjalla tarkoitetaan julkisuuslain (Laki viranomaisen toiminnan julkisuudesta 621/1999) 5 §:n 2 momentin mukaista viranomaisen asiakirjaa.
+Asiakirjan käsittely
+Asiakirjan vastaanottamista, laatimista, tallentamista, katselua, muuttamista, luovuttamista, kopiointia, siirtoa, välittämistä, tuhoamista, säilyttämistä ja arkistointia sekä muita asiakirjaan kohdistuvia toimenpiteitä.
+Asianhallinta
+Julkishallinnossa vakiintunut menetelmä viranomaisen asioiden ja niihin liittyvien asiakirjojen ja asiakirjallisten tietojen käsittelyn ja (elinkaaren) hallinnan suunnitelmalliseksi ja yhtenäiseksi ohjaamiseksi, toteuttamiseksi ja seuraamiseksi eri toimintaprosesseissa.
+Asianhallintajärjestelmä
+Asianhallintaan erikoistunut tietojärjestelmä, jonka avulla organisaation käsittelemät asiat hallitaan ennakolta määriteltyjen käsittelysääntöjen mukaisesti.
+Järjestelmä sisältää tai siihen on integroitu toiminnallisesti tai loogisesti toisiinsa liittyviä sovelluksia, tietovarantoja, palveluja ja toimistotyökaluja. Asioiden ja asiakirjojen käsittelyä ohjataan niiden koko elinkaaren ajan asiankäsittelyprosessin ja tiedonohjauksen tai vastaavan ohjausmekanismin avulla.
+Asiarekisteri
+Rekisteri vireillepannuista asioista, näiden käsittelyvaiheista ja niihin liittyvistä asiakirjoista. Asiarekisteristä on aiemmin käytetty termiä diaari. Diaarilla voidaan myös tarkoittaa pelkkää asiakirjarekisteriä.
+Asiasanajakelu
+Asiasanajakelu on asianhallintajärjestelmässä käytettävä toimintatapa, jossa asiakirjalle kootaan vastaanottajat hyödyntämällä VN-, EU- tai UH‑asiasanoja sekä yksittäisiä organisaatioita ja henkilöitä. Nykyratkaisussa jakelu laaditaan erillisessä asiasanajakelusovelluksessa, jossa voidaan tarvittaessa myös luoda uusia yhteystietoja. Valmis jakelu tallentuu asiakirjan metatietoihin ja sen avulla asiakirja voidaan lähettää jakelussa oleville vastaanottajille edelleen asianhallintajärjestelmästä.
+Esim. asiasana Lentoliikenne ohjaa asiakirjan vastaanottajille (henkilöille ja organisaatioille), joiden työtehtäviin lentoliikenteeseen liittyvien asioiden käsittely kuuluu tai jotka ovat ilmaisseet olevansa kiinnostuneita lentoliikenne-aihepiiriä koskevista asiakirjoista.
+Asiatyyppi
+Asiatyyppi on nykytilassa asianhallintajärjestelmän keskeinen rakenteellinen elementti, jonka avulla määritellään siihen kuuluvien asioiden ja asiakirjojen oletuskäyttäjäjoukko. Tämän oletuskäyttäjäjoukon käyttäjäryhmille voidaan määritellä asiatyyppikohtaisia oletusoikeuksia tai erikseen lisättäviä oikeuksia. Asiatyyppien metatiedot ja numerosarjat poikkeavat toisistaan. Esim. EU-asiatyyppi ohjaa asian näkyvyyden rajatusti EU-valmisteluun osallistuville organisaatioille ja henkilöille.
+Avain
+Valtioneuvoston identiteetin- ja käyttöoikeushallinnan järjestelmä (IdM, Identity Management). Avaimessa hallinnoidaan sisäisten ja ulkoisten käyttäjien sähköistä identiteettiä, sen elinkaarta ja käyttöoikeuksia. Palvelua tuottaa Valtori.
+Avainhenkilö
+Avainhenkilö tarkoittaa Hankintasopimuksessa ja sen liitteissä mainitun Tuotteen tuottamisen, toimittamisen, jatkuvuuden sekä toimivuuden kannalta tärkeää Toimittajan henkilöstöä. Avainhenkilön vaihtuminen voi aiheuttaa Palveluiden ja/tai Palvelun laadun heikentymistä ja/tai käyttöönoton pitkittymistä.
+Dokumentinhallintajärjestelmä
+Dokumentinhallintajärjestelmä on järjestelmä, joka mahdollistaa organisaation valmisteluaineistojen hallitun tallentamisen, versioinnin, hakemisen, jakamisen ja säilyttämisen niiden elinkaaren ajan tietoturvallisesti ja jäljitettävästi. Dokumentinhallintajärjestelmästä aineistoa voidaan siirtää rekisteröitäväksi asianhallintaan.
+Eheys
+Tiedon ominaisuus, joka ilmentää sitä, että tietoa ei ole muutettu luvatta tai että se ei ole muuttunut vahingossa ja että mahdolliset muutokset voidaan todentaa.
+*Elinkaari
+Tiedon elinkaari kattaa kaikki tiedon käsittelyn vaiheet: tiedon tuottaminen tai vastaanotto, säilytys, käyttö, jakaminen, siirto sekä arkistointi tai tuhoaminen.
+Ks. myös Luokituksen muutos
+Entra ID
+Microsoftin pilvipohjainen identiteetin- ja pääsynhallintapalvelu, entinen Azure AD. Tarjoaa työkaluja mm. kertakirjautumiseen, käyttöoikeuksien hallintaan ja identiteettien ja resurssien suojaamiseen. Valtioneuvostolla ja OKV:lla on käytössään oma Entra ID -tenant. TPK käyttää erillistä tenattia. Molemmissa palveluntarjoajana on Valtori.
+Hankintasopimus
+Hankintasopimuksella tarkoitetaan allekirjoitettua hankintasopimusasiakirjaa ja kaikkia sen liitteitä.
+Henkilötiedot
+Henkilötietoja ovat kaikki tiedot, jotka liittyvät tunnistettuun tai tunnistettavissa olevaan henkilöön. Henkilötietoja ovat esimerkiksi nimi ja osoitetiedot.
+Lähtökohtaisesti kaikki asiakirjat sisältävät henkilötietoja, kun niissä näkyy laatijan ja/tai vastaanottajan nimitieto.
+Asiarekisterissä voidaan käsitellä myös erityisiä henkilötietoryhmiä sisältäviä asiakirjoja, jotka ovat myös julkisuusluokaltaan salassa pidettäviä. Tällaisten asiakirjojen näkyvyyttä on voitava rajoittaa tietosuojasyistä.
+Asiarekisterissä on laaja näkyvyys julkisiin asiakirjoihin organisaatiorajat ylittäen. Asiarekisteriin tarvitaan kolmas arvo henkilötietojen ja erityisten henkilötietoryhmien väliin, jotta näkyvyyttä voidaan tehokkaasti rajata esimerkiksi yksityishenkilön tietoihin.
+Jatkuvuudenhallinta
+Organisaation prosessi, jolla tunnistetaan toiminnan uhkat ja arvioidaan niiden vaikutukset organisaatiossa ja sen toimijaverkostossa sekä luodaan toimintatapa vakavien häiriötilanteiden hallinnalle.
+*Julkisuusluokka
+Julkisuusluokka ei ole suoraan julkisuuslaista tuleva metatieto, mutta se on vakiintunut tietojärjestelmien käyttöliittymätermi.
+Ks. myös Luokituksen muutos, Turvallisuusluokka.
+Järjestelmäkokonaisuus
+Järjestelmäkokonaisuudella tarkoitetaan Hankintasopimuksella hankittavaa VN Asia-asianhallintajärjestelmäkokonaisuutta, joka koostuu Toimittajan Valmisohjelmistoista lisäyksineen ja muutoksineen. Järjestelmäkokonaisuuteen sisältyy myös sitä koskeva dokumentaatio.
+Kasautumisvaikutus
+Suuresta määrästä tietyn turvallisuusluokan tietoa koostuvissa tietojärjestelmissä asiakokonaisuus voi nousta luokitukseltaan yksittäistä tietoa korkeampaan turvallisuusluokkaan. Määrä ei ole kuitenkaan ainoa tekijä, vaan joskus esimerkiksi kahden eri tietolähteen yhdistäminen voi johtaa tietovarannon luokituksen nousemiseen.
+Kehitystyö
+Kehitystyö sisältää muun muassa räätälöintiä, konfigurointia ja parametrointia. Kehitystyötä tehdään joko asiakaskohtaiseen toteutukseen tai osaksi tuotetta uuden tai parannetun tuen luomiseksi yhdelle tai useammalle käyttötapaukselle tai muulle vaatimukselle. Kehitystyö voi kohdistua yhteen järjestelmäkomponenttiin, järjestelmään tai koko järjestelmäkokonaisuuteen.
+Ketterä menetelmä
+Ketterällä menetelmällä tarkoitetaan ketterää projektityömallia, jossa Toimittajalla on toimitusvastuu projektin lopputuloksena toimitettavasta Tuotteesta ja Tuotteen soveltuvuudesta siihen käyttötarkoitukseen, jonka asiakas on kuvannut.
+Kirjaamo
+Viranomaisorganisaation kirjaamo on yksikkö, joka vastaa asiakirjojen vastaanottamisesta, käsittelystä, rekisteröimisestä, säilyttämisestä ja jakelusta kyseisen organisaation sisällä.
+Valtioneuvoston tiedonhallintayksikkö (VNTHY) valtioneuvoston kansliassa hoitaa keskitetysti kirjaamotoiminnan kaikille 12 ministeriölle, EU- ja NATO-asiakirjoille sekä korkeammin turvallisuusluokitelluille asiakirjoille.
+Kirjaamorobotti
+Kirjaamotoiminnan manuaalisia työvaiheita korvaava tai täydentävä ohjelmistorobotiikan ratkaisu. Robotit mm. tallentavat aineistoa asianhallintaan.
+Konfiguroitu ohjelmisto
+Konfiguroidulla ohjelmistolla tarkoitetaan sellaista Toimittajan valmisohjelmistoratkaisua, joka on konfiguroitu ja asiakaskohtaisesti laajennettu valmisohjelmistoratkaisun laajennusarkkitehtuurin mukaisesti Tilaajan tarpeiden mukaan. Konfiguroitu ohjelmisto on osa Tuotetta. Konfigurointi sisältää mm. määritysten asettamista, arvojen asettamista ja sovelluksen räätälöintiä vaatimusten mukaiseksi.
+Koulutus
+Koulutuksella tarkoitetaan Toimittajan tuottamaa koulutuspalvelua erikseen sovitusta kokonaisuudesta ja aihealueesta. Koulutus tilataan Toimittajalta erikseen.
+Laatusuunnitelma
+Laatusuunnitelmalla tarkoitetaan dokumenttia, jossa on kerrottu tähän Hankintasopimukseen ja sitä koskevaan Tuotteeseen ja palveluun liittyvät keskeiset laatukäytänteet, resurssit ja toimintojen jaksotukset.
+*Luokituksen muutos
+Salassa pidettävien asiakirjojen elinkaareen kuuluu julkisuusluokan muutos eli asiakirjat tulevat julkiseksi tiettynä ajankohtana, tyypillisesti julkisuuslain mukaisesti 25 vuoden jälkeen, joissain tapauksissa 60 tai 100 vuoden jälkeen.
+Luokituksen muutos voi tarkoittaa myös turvallisuusluokituksen muutosta.
+Luottamuksellisuus
+Tiedon ominaisuus, joka ilmentää sitä, että tieto on vain sen käyttöön oikeutettujen käytettävissä eikä se paljastu muille.
+Luovutushetki
+Luovutushetkellä tarkoitetaan sitä hetkeä, kun Tuote tai palvelu on luovutettu Tilaajalle. Luovutushetkiä voi olla useita, toimituserittäin.
+Massapäivitys
+Tietojärjestelmän toiminto, jolla voidaan muuttaa kerralla tietyn metatietokentän arvo esim. hakutuloksena saatuun laajaan joukkoon tietueita.
+*Metatieto
+Tieto, joka kuvaa aineiston kontekstia, sisältöä tai rakennetta sekä ohjaa ja dokumentoi sen käsittelyä ja hallintaa. Metatietoa voidaan käyttää mm. aineiston hakuun, paikallistamiseen ja tunnistamiseen. Metatiedot ovat olennaisia aineistojen löytämisen, luetteloinnin ja käytön kannalta. Metatiedot sisältävät sekä aineiston kuvailutietoja että teknisiä, järjestelmän metatietoja.
+Ks. myös Rekisteröinti, rekisteröintitiedot
+Muutos
+Muutoksella tarkoitetaan tähän Hankintasopimukseen tai sen alasopimuksiin sisältymätöntä, sopimuksen alkuperäiseen laajuuteen tai sisältöön sovittua muutosta tai lisätilausta.
+Modulaarisuus
+Yleisesti modulaarisuus tarkoittaa, että prosessit ja palvelut eriytyvät itsenäisesti kehitettäviin komponentteihin, jotka linkittyvät vahvasti toisiinsa datavirtojen ja ohjelmistorajapintojen avulla.
+Monitoimijaprosessi
+Useampi kuin yksi järjestelmän käyttäjäorganisaatio osallistuu saman asian käsittelyyn. Asian valmistelijat voivat olla eri VN Asia -käyttäjäorganisaatioista. Eri organisaatioiden valmistelijoilla voi olla asiaan ja sen asiakirjoihin joko samat tai eritasoiset käyttöoikeudet.
+Minimum Viable Product (MVP)
+Pienin tuotantoon julkaisukelpoinen tuote, esimerkiksi palvelun ensimmäinen versio, joka täyttää sen vähimmäishyötytavoitteet. Tässä hankinnassa MVP = kyvykkyys ajaa VAHVA asianhallintajärjestelmä alas.
+OKV
+Oikeuskanslerinvirasto
+Olennainen sopimusrikkomus
+Olennaisella sopimusrikkomuksella tarkoitetaan muun muassa sitä, ettei Tuote tai Palvelu vastaa sovittua ja virhe tai siitä Tilaajalle aiheutuneet seuraukset haittaavat olennaisesti järjestelmän toimintaa eikä virhettä Tilaajan huomautuksesta huolimatta viipymättä korjata, virheet ovat toistuvia (sama tai samanlainen virhe toistuu vähintään kolme kertaa) tai virheen vuoksi Tuote tai palvelu ei sovellu Hankintasopimuksessa määriteltyyn käyttöön. Olennaisena sopimusrikkomuksena pidetään myös sitä, että Sopijapuoli on olennaisesti viivästynyt toimituksessaan (tilatun toimituserän toimituksesta yhtäjaksoisesti yli 10 viikkoa), viivästykset ovat toistuvia tai Sopijapuoli on loukannut toisen Sopijapuolen immateriaalioikeuksia tai rikkonut salassapitovelvoitteitaan.  Katso myös Sopimusrikkomus.
+*Omistaja
+Tieto henkilöstä tai organisaatiosta, jolla on oikeus päättää salassa pidettävän aineiston käsittelystä ja käytöstä. Metatieto on pakollinen salassa pidettäville asiakirjoille.
+Optio
+Optiolla tarkoitetaan Hankintasopimuksen liitteessä x kuvattua optiota, joka voidaan tarvittaessa hankkia.
+Organisaatioyksikkö
+Organisaatioyksiköllä tarkoitetaan eri tasoisia toiminnallisia ja hierarkkisia toimijoita laajassa merkityksessä, esim. ministeriö, osasto, yksikkö, ryhmä, itsenäinen toimielin, OKV, TPK jne.
+Pakollinen vaatimus
+Pakollisella vaatimuksella tarkoitetaan Hankintasopimuksessa tai sen liitteissä mainittua vaatimusta, jonka mukaiset ominaisuudet tai toiminnallisuudet Tuotteella ja Palvelulla on oltava tai laatuvaatimusta, joka Tuotteen ja Palvelun on täytettävä. Myös liitedokumenteissa käytetyt termit ehdoton, kriittinen, minimi-, ja vähimmäisvaatimus tarkoittavat pakollisia vaatimuksia, joiden on täytyttävä.
+Palvelu
+Palvelulla tarkoitetaan Tuotteeseen liittyvää, sopimuksen kohteena olevaa, sopimuksessa yksilöityä toimittajan palvelua, sitä koskevaa dokumentaatiota, kuten kehittäminen, konfigurointi, ylläpito, tuki tai koulutus.
+*Paperiasiakirja, paperimuotoinen asiakirja
+Paperimuodossa käsiteltävä analoginen asiakirja, jossa tietosisältö on.
+Program Increment
+SAFe viitekehyksen mukainen kiinteä ajan jakso, joka toteutetaan hyödyntäen SAFe:n viitekehitystä.
+Projektin toimituserät
+Sovittu ajanjakso, jolle on oma suunnitelma ja sen mukaiset lopputuotteet.
+Projektin toimitusvaihe
+Projektivaihe, joka voi koostua yhdestä tai useammasta toimituserästä
+Parametrointi
+Parametroinnilla tarkoitetaan sitä, että ohjelma käynnistetään antamalla jokin ohjelman toimintaa tarkemmin määrittelevä ohjauskomento. Esimerkiksi python -ohjelmalle voidaan antaa ohjauskomento tulostaa versio ja sulkea ohjelma sen jälkeen tavanomaisen käynnistymisen sijaan komennoilla ”python -v” tai ”python --version”.
+Provisiointi
+Käyttäjätietojen tai käyttöoikeustietojen automaattinen tai manuaalinen lisääminen kohdejärjestelmään tai palveluun ennalta määritettyjen sääntöjen tai muiden periaatteiden mukaan.
+*Pysyvä säilytys, pysyvä säilyttäminen
+Ks. Arkistointi, Säilytysvaihe
+Rekisteröinti, rekisteröintitiedot
+Rekisteröinti on organisaation käsittelemien asioiden ja niihin liittyvien asiakirjatietojen sekä niiden käsittelyvaiheiden merkitsemistä rekisteriin. Rekisteriin merkityt tiedot ovat rekisteröintitietoja.
+Ks. myös Metatieto
+Riskiarvio
+Salassa pidettävän, ei-turvallisuusluokitellun tiedon käsittely voi edellyttää jopa turvallisuusluokan II (TL II) mukaisten käsittelysääntöjen noudattamista. Tällöin asiakirjan omistajan tekemän riskiperusteisen arvioinnin perusteella tietoturvallisuustoimenpiteet on mitoitettava riskiarvioinnin mukaisesti. Riskiarvioinnissa on otettava huomioon tiedon oikeudettoman paljastumisen tai sen oikeudettoman käytön mahdollisesti aiheuttama vahinko.
+Ks. myös Tietoturvallisuustoimenpide
+Rojalti
+Rojaltilla tarkoitetaan tässä Hankintasopimuksessa määräprosenttina tuotosta maksettavaa korvausta, jonka Toimittaja maksaa Tilaajalle oikeudesta valmistaa, myydä ja markkinoida Tuotteeseen Hankintasopimuksen puitteissa Tilaajan rahoituksella kehitettyä valmisohjelmisto- tai lisäohjelmisto-osaa. Mahdollisista Rojaltioikeuksista sovitaan tarvittaessa erillisellä sopimuksella.
+RV
+Raha-asiainvaliokunta
+Saatavuus
+Ominaisuus, joka ilmentää sitä, miten tieto, tietojärjestelmä tai palvelu on hyödynnettävissä haluttuna aikana ja vaaditulla tavalla.
+Salaisuudet
+IT-alalla suomenkielinen termi “salaisuudet” (eng. secrets) on yleistynyt etenkin DevOps-, pilvi- ja sovelluskehityksen yhteydessä. Sitä käytetään kattoterminä kaikelle arkaluonteiselle konfiguraatiolle.
+*Salassa pidettävä asiakirja
+Viranomaisen asiakirja on pidettävä salassa, jos on säädetty salassa pidettäväksi julkisuuslaissa tai muussa laissa tai jos viranomainen lain nojalla on määrännyt sen salassa pidettäväksi taikka jos se sisältää tietoja, joista on lailla säädetty vaitiolovelvollisuus.
+Salassapitomerkintä tehdään merkitsemällä asiakirjaan "SALASSA PIDETTÄVÄ" ja ruotsiksi "SEKRETESSBELAGD".
+*Salassa pidettävä (TL III / TL II käsittelysääntö)
+Käsitteellä tarkoitetaan julkisuuslain tai muun lain perusteella salassa pidettävää tietoa, joka ei ole turvallisuusluokiteltavaa, mutta riskiarvioinnin perusteella tietoa on käsiteltävä turvallisuusluokan III (TL III) tai II (TL II) mukaisin käsittelysäännöin.
+*Salassapidon päättymisajankohta
+Se päiväys, jolloin tieto muuttuu julkiseksi.
+VN:ssa asiakirjojen salassapidon päättymisen arviointia tehdään, kun asiakirjojen salassapito on päättymässä tai kun asiakirjan julkisuutta arvioidaan tietopyyntöjen yhteydessä.
+Ks. myös luokituksen muutos
+Salassapitoaika
+Asiakirjalle ennalta määritelty aika, jolloin asiakirja on pidettävä salassa.
+Sopijapuolet
+Sopijapuolilla tarkoitetaan tässä Hankintasopimuksessa Tilaajaa ja Toimittajaa yhdessä.
+Sopijapuoli
+Sopijapuolella tarkoitetaan tässä Hankintasopimuksessa Tilaajaa tai Toimittajaa.
+Sopimussakko
+Sopimussakolla tarkoitetaan Sopijapuolten erikseen sopimaa sakkoa, jonka Toimittaja on velvollinen suorittamaan Tilaajalle Olennaisen sopimusrikkomuksen vuoksi.
+Sopimusrikkomus
+Sopimusrikkomuksella tarkoitetaan, ettei luovutettu Tuote tai Palvelu ole Hankintasopimuksen mukainen eikä virhettä Tilaajan huomautuksesta huolimatta viipymättä korjata tai että toimitus viivästyy sovitusta toimitusajasta.
+Syntymäoikeus
+Syntymäoikeus on käyttöoikeus- tai lupa, jonka valtioneuvoston työntekijä saa automaattisesti ilman erillistä pyyntöä ja usein myös ilman erillistä hyväksyntää. Hyväksyntä perustuu valtioneuvoston kanssa tehtyyn palvelussopimukseen. Syntymäoikeuksia voidaan kutsua myös perusoikeuksiksi.
+Sähköinen asiakirja
+Sähköinen asiakirja koostuu sen metatiedoista ja sähköisesti tallennetusta tietosisällöstä (tiedostoista).
+SÄHKE2-vaatimukset
+VN Asian dokumentaatiossa SÄHKE2-vaatimuksilla tarkoitetaan Kansallisarkiston Suosituksessa SÄHKE2-metatietomallin hyödyntämisestä 2022 (KA/12266/07.01.01.00/2022) – linjattuja vaatimuksia ja SÄHKE2-määräyksen siirtoskeeman mukaisia tietoja.
+Sähköinen säilyttäminen
+Valtioneuvostossa sähköisen säilyttämisen määritelmällä tarkoitetaan pääasiassa asiakirjan tai vastaavan tietoaineiston säilyttämistä sen alkuperäistä käyttötarkoitusta varten. Tiedonhallintalain (906/2019) 21 § säätää säilyttämisen perusteiden määrittelyssä huomioitavat seikat niissä tapauksissa, missä säilytysajasta ei ole säädetty laissa. Tällainen säilytys voi olla määräaikaista tai pysyvää. Yleensä valtioneuvoston tapauksessa puhutaan lyhyt- tai pitkäaikaisesta määräaikaisesta säilyttämisestä.
+*Säilytysvaihe
+Aika, jolloin asiakirjoja käytetään alkuperäiseen käyttötarkoitukseen. Määräajan säilytettävät asiakirjat tuhotaan niiden säilytysajan päätyttyä. Kun pysyvästi säilytettäviä asiakirjoja ei käytetä enää alkuperäisessä käyttötarkoituksessa, ne siirtyvät arkistointivaiheeseen.
+Ks. myös Arkistointi, arkistointivaihe
+*Säilytysajan päättymisajankohta
+Arkistoitavat tietoaineistot siirtyvät arkistointivaiheeseen, kun niiden laissa erikseen säädetty säilytysaika on päättynyt tai tiedonhallintalain 21 §:n mukaisesti määritetty säilytysaika on päättynyt. Määräajan säilytettävät asiakirjat tuhotaan ja pysyvästi säilytettävät asiakirjat arkistoidaan säilytysajan päätyttyä.
+Takuuaika
+Takuuaika on toimituserän vastaanotosta 12 kuukautta.
+Tausta-aineisto
+Tausta-aineistolla tarkoitetaan tässä Hankintasopimuksessa mitä tahansa materiaalia, aineistoa, tai tietoa, missä tahansa muodossa, joka on Sopijapuolten hallinnassa ennen Hankintasopimuksen allekirjoittamista, ja jota tarvitaan Hankintasopimuksen kohteen toteuttamiseksi.
+Tiedonohjaus
+Tiedon käsittelyn ohjaaminen tietojärjestelmässä perustuu SÄHKE2:ssa tiedonohjaukseen, joka tarkoittaa tietojärjestelmään laadittavaa metatietomääritystä (tiedonohjaussuunnitelma eli TOS, aiemmin myös eAMS) ja siihen perustuvia käsittelysääntöjä.
+*Tiedonohjaussuunnitelma (TOS)
+Asiakirjahallinnon ja arkistoinnin suunnitteluväline. Tiedonohjaussuunnitelman (lyhenne TOS) tavoitteena on ollut asiakirjojen elinkaaren hallinta metatietojen ennalta määrittelyn ja tiedonohjauksen avulla.
+*Tiedosto
+Yhdeksi kokonaisuudeksi käsitettävä, sähköiselle tietovälineelle tallennettu tietojen joukko. Tiedostoon viitataan yleensä tiedostonimellä.
+Tiedosto sisältää asiakirjan tietosisällön.
+*Tietosisältö
+Tietoaineiston sisältämät tiedot. Tietoaineistoa kuvaavia metatietoja ei aina tulkita osaksi tietosisältöä.
+Ks. myös Paperiasiakirja, Sähköinen asiakirja, Tiedosto
+*Tietoturvallisuustoimenpide
+Tietoturvallisuustoimenpiteillä tarkoitetaan tietoaineistojen saatavuuden, eheyden ja luottamuksellisuuden varmistamista hallinnollisilla, toiminnallisilla ja teknisillä toimenpiteillä.
+Viranomaisten on turvallisuusluokiteltava asiakirjat. Turvallisuusluokkaa koskeva merkintä osoittaa, minkälaisia tietoturvallisuustoimenpiteitä asiakirjaa käsiteltäessä noudatetaan.
+Tilaus
+Tilaus on tähän hankintasopimukseen kuuluvan tuotteen tai palvelun tilaus. Tilaus voi olla esim. lisenssitilaus, POC-tilaus, ylläpitotilaus tai ketterän kehityksen toimituserän tilaus.
+Tilauksen hinta
+Tilauksen hinnalla tarkoitetaan hankintasopimuksen perusteella tehdyn tilauksen arvonlisäverotonta kokonaishintaa.
+*Toimenpide
+Asian käsittelyyn liittyvä yksittäinen toimi tai tapahtuma. Esimerkkejä toimenpiteestä ovat asian vireille saattaminen, asian valmistelu ja asian ratkaisu.
+Toimenpiteestä voidaan käyttää myös käsitettä ”käsittelyvaihe”.
+Toimituksen kohde
+Toimituksen kohde on hankintasopimuksen kohteena olevat tuotteet ja palvelut.
+Toimituksen kohteen kokonaishinta
+Toimituksen kohteen kokonaishinnalla tarkoitetaan arvonlisäverotonta Hankintasopimuksella hankitun Tuotteen ja Palvelun hintaa optioineen.  Ylläpitopalvelun osalta Palvelusopimuksessa sovitun vuosittain tilattavan palvelun laskennallista 12 kuukauden hintaa. Muiden palveluiden osalta toimituksen kohteen kokonaishinnalla tarkoitetaan siihen liittyvän tilauksen hintaa. Kehitysprojektien osalta toimituksen kohteen kokonaishinta määritellään projektikohtaisesti.
+Toimituserä
+Toimituserä on Tuotteen tai palvelun tilattu osakokonaisuus, joka luovutetaan Toimittajalta Tilaajalle toimitusaikataulun mukaan hyväksyttäväksi.
+Toteutus
+Toteutus tarkoittaa tässä Sopimuksessa kuvatun Hankinnan toimitusvaiheen työtä. Toteutus kuvataan toteutussuunnitelmassa (sisältäen mm. projektisuunnitelman sekä ratkaisukuvauksen).
+TPK
+Tasavallan presidentin kanslia
+*Tuhoaminen
+Määräajan säilytettävän asiakirjan fyysinen (ml. tekninen) tuhoaminen. Arkistoitavan asiakirjan analogisen ilmentymän tuhoaminen.
+Tuhoamisella tarkoitetaan sitä, että tietoaineisto on poistettava käytöstä siten, ettei sitä enää voida palauttaa uudelleen käyttöön. Tuhoamisella tarkoitetaan toimia, joilla tietoaineisto tosiasiassa tuhoutuu.
+Tuote
+Hankintasopimuksessa käytetty termi, tarkoittaa järjestelmäkokonaisuutta (määritelty erikseen)
+*Turvallisuusluokka
+Asiakirja on turvallisuusluokiteltava, jos se tai siihen sisältyvä tieto on salassa pidettävä viranomaisten toiminnan julkisuudesta annetun lain 24 §:n 1 momentin 2, 5 tai 7–11 kohdan perusteella ja asiakirjaan sisältyvän tiedon oikeudeton  paljastuminen tai oikeudeton käyttö voi aiheuttaa vahinkoa maanpuolustukselle, poikkeusoloihin varautumiselle, kansainvälisille suhteille, rikosten torjunnalle, yleiselle turvallisuudelle tai valtion- ja kansantalouden toimivuudelle taikka muulla niihin rinnastettavalla tavalla Suomen turvallisuudelle (tiedonhallintalaki 18 §).
+*Turvallisuusluokka III, TL III, LUOTTAMUKSELLINEN
+Asiakirja luokitellaan turvallisuusluokkaan III, jos asiakirjaan sisältyvän salassa pidettävän tiedon oikeudeton paljastuminen tai oikeudeton käyttö voi aiheuttaa vahinkoa tiedonhallintalain 18 §:n 1 momentissa tarkoitetulle suojattavalle edulle.
+Työskentelyalusta
+Työskentelyvälineet ja -alustat, joissa aineistoja voi käsitellä tai valmistella. Esimerkiksi OneDrive, Teams, dokumentinhallinta tai Tiimeri.
+Vaatimus
+Vaatimuksella tarkoitetaan tässä Hankintasopimuksessa ja sen liitteissä tai myöhemmin yhdessä sovittuja vaatimuksia tai määrityksiä. Vaatimukset ja määritykset voivat kohdistua Toimittajan henkilöstöön, toimitettavaan Tuotteeseen ja Palveluun, tietoturvaan tai mihin tahansa muuhun seikkaan, jolla on Tilaajan kannalta merkitystä. Vaatimuksiksi katsotaan myös sellaiset Toimittajan esittämät järjestelmävaatimukset ja -määritykset, jotka Toimittaja on kirjallisesti esittänyt Tilaajalle edellyttäen, että Tilaaja on ne hyväksynyt, ne eivät heikennä Tilaajan asettamia vaatimuksia tai ne eivät ole ristiriidassa Tilaajan asettamien vaatimusten kanssa.
+Valmis
+Valmis on sellainen toimituserä, joka on saatu kulloinkin tehtyä suunnitelman mukaisesti ja täyttää siihen kohdistetut vaatimukset. ”Valmiin” määrittelevät tilaaja ja toimittaja kunkin iteraation aluksi ja se kirjataan muistioon. Tilaaja päättää valmiin määritelmästä mutta se perustuu hyväksyttyihin vaatimuksiin.  Valmis toimituserä voidaan luovuttaa Vastaanottotarkastukseen.
+Valmisohjelmisto
+Valmisohjelmistolla tarkoitetaan sopimuksessa yksilöityä ohjelmistoa, jonka Toimittaja tai kolmas osapuoli on kehittänyt, valmistanut, markkinoinut. Valmisohjelmisto on tuotteistettu ja sen kehittäminen jatkuu koko ajan Tilaajasta riippumattomana tuotekehityksenä siten, että kuka tahansa voi halutessaan ostaa tuotteen käyttöönsä.
+Valmisteluaineisto
+Valmisteluaineistolla tarkoitetaan sekä viranomaisen sisäiseen valmisteluun tarkoitettuja aineistoja että asiakirjoja, joista tulee valmistelun jälkeen julkisuuslain 5 §:ssä tarkoitettuja viranomaisen asiakirjoja. Käsite kattaa luonnokset, työdokumentit ja muut valmistelussa syntyvät työskentelyaineistot.
+Valtioneuvoston tiedonhallintayksikkö
+Valtioneuvoston kansliassa toimiva tiedonhallintayksikkö, valtioneuvoston tiedonhallintayksikkö (VNTHY) vastaa 12 ministeriön kirjaamotoiminnasta ja rekisteröi kaiken ministeriöihin saapuvan korkeintaan TL IV tasoisen viranomaisen asiakirja-aineiston yhteiseen asianhallintajärjestelmään ja huolehtii asioiden vastuuttamisesta ministeriöiden käsiteltäväksi.
+Valtioneuvoston tiedonhallintayksikkö (VNTHY) valtioneuvoston kansliassa hoitaa keskitetysti kirjaamotoiminnan kaikille 12 ministeriölle, EU- ja NATO-asiakirjoille sekä lisäksi erillisjärjestelmiä hyödyntäen korkeammin turvallisuusluokitelluille asiakirjoille.
+Ks kirjaamo
+Varautuminen
+Toiminta, jolla varmistetaan tehtävien mahdollisimman häiriötön hoitaminen ja mahdollisesti tarvittavat tavanomaisesta poikkeavat toimenpiteet häiriötilanteissa ja poikkeusoloissa. Varautumistoimenpiteitä ovat muun muassa valmiussuunnittelu, jatkuvuudenhallinta, etukäteisvalmistelut, koulutus sekä valmiusharjoitukset.
+Vastaanotto
+Toimituserä on vastaanotettu, kun se vastaanottotarkastuksessa todetaan vaatimusten mukaiseksi ja virheettömäksi tai sisältävän niin pieniä puutteita, että ne voidaan korjata seuraavilla iteraatioilla tai takuukorjauksena.
+Vastaanottotarkastus
+Vastaanottotarkastuksella tarkoitetaan Tilaajan suorittamaa testausta ja tarkastusta Toimituserälle tai Tuotteelle Tilaajan tiloissa tai muussa sovitussa paikassa sen jälkeen, kun Valmis Toimituserä tai Tuote on luovutettu. Vastaanottotarkastuksessa todetaan täyttääkö toimitus sille asetetut vaatimukset. Vastaanottotarkastukseen sisältyy mm. hyväksymistestaus ja vastaanoton hyväksyntä tai ilmoitus Virheestä toimituksessa.
+Viivästyssakko
+Viivästyssakolla tarkoitetaan Sopijapuolten erikseen sopimaa sakkoa, jonka Toimittaja on velvollinen suorittamaan Tilaajalle, jos Toimituserän toimitus viivästyy vähintään 7 päivää tämän Hankintasopimuksen mukaisten sopimusvelvoitteidensa täyttämisessä. Toimittajalla ei ole oikeutta periä viivästyssakkoa Tilaajalta.
+Virhe
+Tuotteessa tai Palvelussa on Virhe, jos se ei täytä toimittajasta tai toimittajan alihankkijasta johtuvasta syystä Hankintasopimuksessa tai sen liitteissä asetettuja tai Sopijapuolten yhdessä kirjallisesti tarkentamia vaatimuksia tai ei sovellu siihen käyttötarkoitukseen, jonka asiakas on kuvannut. Kehittämisvaiheessa virheellä tarkoitetaan sitä, että Vastaanottotarkastukseen luovutettu Toimituserä ei täytä toimituksen kohteen ehdottomia vaatimuksia, sovittuja valinnaisia vaatimuksia tai sovittuja määrityksiä, tai se ei toimi niiden mukaisesti taikka ei vastaa toimitusta koskevaa dokumentaatiota tai sitä, mitä sopimuksessa on muuten sovittu.
+Virtu
+Virtu-käyttäjätunnistusjärjestelmä on Valtion tieto- ja viestintätekniikkakeskus Valtorin virastoille tarjoama palvelu, jota CSC - Tieteen tietotekniikan keskus operoi. Virtu mahdollistaa valtion henkilökunnalle yhden käyttäjätunnuksen periaatteen valtionhallinnon yhteisten palveluiden pääsynhallinnassa. Virtu-luottamusverkoston muodostavat valtion virastot ja laitokset.
+VN
+Valtioneuvosto
+VNL
+Valtioneuvostolaki, myös: laki valtioneuvostosta
+VNOS
+Valtioneuvoston ohjesääntö
+Yhteystietorekisteri
+Yhteystietorekisteri (asiakasrekisteri) sisältää tiedot asiakkaista, yhteistyökumppaneista (yhteisöt, yritykset, järjestöt, säätiöt jne.) tai yksityisistä henkilöistä, joiden tiedot ovat rajatusti käytettävissä ja nähtävissä sekä rajapinnan yhteistietoja sisältäviin perusrekistereihin. Rekisteriin kootaan sekä viranomaistahoja että yksityisen ja kolmannen sektorin toimijoita.
+Ylläpitopalvelu
+Ylläpitopalvelulla tarkoitetaan tässä Hankintasopimuksessa sovittua järjestelmän ylläpito- ja muutostyötä, jotta Tuotteen toimintakyky säilyy ja pienimuotoista kehittämistä, jolla ei ole tarkoitus merkittävästi muuttaa järjestelmän toiminnallisuuksia.

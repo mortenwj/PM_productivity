@@ -1,0 +1,89 @@
+Pakolliset, toimittajaa velvoittavat vaatimukset (tietosuoja)
+HUOM! Alustavan tarjouspyyntövaiheessa tarjoajan tulee tutustua tämän liitteen vaatimuksiin ja vakuuttaa osallistumispyynnön kohdassa "Muut ehdot" sitoutuvansa näihin pakollisiin vaatimuksiin.
+Toimittaja sitoutuu noudattamaan tämän liitteen mukaisia pakollisia tietosuojavaatimuksia. Nämä tietosuojavaatimukset muodostavat osan pääsopimusta ja ovat sopimusoikeudellisesti sitovia.
+Mikäli pääsopimuksen, JYSE/JIT 2025 Henkilötietojen käsittelyn ehtojen ja tämän liitteen tietosuojavaatimusten välillä ilmenee ristiriita, noudatetaan ensin tämän liitteen tietosuojavaatimuksia, sen jälkeen JYSE/JIT 2025 Henkilötietojen käsittelyn ehdot -ehtoja, yleisiä JIT-ehtoja ja viimeisimpänä Pääsopimuksen ehtoja. Toimittaja on velvollinen noudattamaan Tilaajaa koskevaa lainsäädäntöä, ja siten toteuttamaan rekisteröidyn tietosuojaa sekä varmistaa tietosuojalainsäädännön (kuten GDPR, kansallinen tietosuojalaki ja tiedonhallintalaki) mukaisen suojatason.
+Lainsäädäntöyhteensopivuus, osoitusvelvollisuus ja GDPR 25 (sisäänrakennettu & oletusarvoinen tietosuoja)
+Toimittaja vastaa siitä, että järjestelmä ja palvelut täyttävät EU:n yleisen tietosuoja-asetuksen (GDPR), kansallisen tietosuojalain ja tiedonhallintalain vaatimukset sekä erityisesti GDPR 25 artiklan mukaisen sisäänrakennetun ja oletusarvoisen tietosuojan vaatimukset. Käsittelijän määrittämät ja toteuttamat käsittelytavat ottavat huomioon henkilötietojen käsittelyn luonteen, laajuuden, asiayhteyden ja tarkoitukset sekä riskit rekisteröityjen oikeuksille ja vapauksille.
+Toimittaja toimittaa tilaajalle dokumentoidut menettelyt, tekniset ja organisatoriset suojatoimet sekä ratkaisut, joilla vaatimustenmukaisuus voidaan osoittaa.
+Henkilötietojen määrittely ja käsittelytoimien seloste
+Toimittaja henkilötietojen käsittelijänä laatii ja ylläpitää selostetta henkilötietojen käsittelytoimista ja sisällyttää siihen kaikki tietosuoja-asetuksen 30 art. 2 kohdassa mainitut tiedot.
+Toimittaja osallistuu Henkilötietojen käsittelyn kuvauksen tekemiseen ja myöhemmin mahdolliseen päivittämiseen.
+Järjestelmän käsittely-ympäristö
+Toimittaja antaa rekisterinpitäjälle tietoa siitä, miten se käsittelee henkilötietoja hankinnan kohteessa olevassa järjestelmässä ja sen on toimittava ilmoittamallaan tavalla.
+Toimittaja tunnistaa ja dokumentoi henkilötietojen käsittely-ympäristön, mukaan lukien tietovirrat.
+Järjestelmän testiympäristöissä ei tule käsitellä henkilötietoja. Testidatan ei tule sisältää henkilötietoja.
+Rekisteröidyn oikeus nähdä käsittelijät ja käsittelyn perusteet
+Järjestelmä tukee rekisteröityjen oikeutta saada tietoa siitä, miksi ja milloin hänen tietojaan on käsitelty. Järjestelmä tuottaa rekisteröidylle pyydettäessä sähköisen raportin siitä, milloin hänen tietojaan on käsitelty ja millä perusteella. Tiedon lähteenä käytetään lokitietoja.
+Käyttöloki, luovutusloki ja jäljitettävyys
+Toimittaja toteuttaa järjestelmään muuttumattoman käyttö- ja tapahtumalokin, joka sisältää aikaleiman, käyttäjän, tapahtuman, käsittelyn kohteen, käyttöoikeuden, tietolähteen ja tapahtuman tilan.
+Lokit suojataan muuttamiselta ja niiden eheys varmistetaan. Tilaaja määrittelee lokien säilytysajan erikseen. Lokit tulee voida lähettää turvallisesti tilaajan määrittelemään lokienhallintajärjestelmään.
+Käsittelyn läpinäkyvyys
+Toimittajan toteuttamat henkilötietojen käsittelytoimet noudattavat aina selkeää syy-seuraus-suhdetta eli ne ovat aina selitettävissä ja tarkistettavissa.
+Toimittajan on säännöllisesti arvioitava, toimivatko järjestelmän algoritmit tarkoitusten mukaisesti, ja välittömästi ryhdyttävä toimenpiteisiin mahdollisten virheiden korjaamiseksi. Tarvittaessa on voitava pysäyttää mahdollisia virheitä tai riskejä aiheuttava toiminnallisuus.
+Tietojen sijainti Suomessa / EU/ETA-alueella
+Henkilötietoja käsittelevien palvelinten ja ylläpidon on sijaittava ensisijaisesti Suomessa, vähintään EU/ETA-alueella. Sama vaatimus koskee alihankkijoita.
+Poikkeukset sovitaan erikseen ja niiden tulee täyttää tietosuojalainsäädännössä määritetyt vaatimukset kolmansiin maihin tapahtuvien siirtojen osalta.
+Transfer Impact Assessment (TIA) ETA-alueen ulkopuolisesta käsittelystä
+Jos toimittajalla on sopimuksen mukaan oikeus käsitellä tilaajan henkilötietoja ETA-alueen ulkopuolella, toimittaja toimittaa hyvissä ajoin ennen siirron toteuttamista tilaajalle hyväksyttäväksi laatimansa tilaajan henkilötietojen siirtoa koskevan vaikutustenarvioinnin (transfer impact assessment, TIA) ja siirron arvioinnin kannalta tarpeelliset tiedot käytetyistä siirtomekanismeista sekä mahdollisista lisäsuojatoimenpiteistä.
+Toimittajan tulee päivittää laatimansa siirtoa koskeva vaikutustenarviointi merkittävien muutosten yhteydessä ja hyväksyttää se tilaajalla etukäteen.
+Vastuut ja GDPR 28 -sopimus (DPA)
+Toimittaja dokumentoi rekisterinpitäjä- ja käsittelijävastuut ja tekee Tilaajan kanssa tietosuojalainsäädännön mukaisen käsittelysopimuksen: JYSE/JIT 2025 Henkilötietojen käsittelyn ehdot.
+Toimittaja pitää luetteloa kaikista alikäsittelijöistä, mukaan lukien tiedot alikäsittelijöiden suorittamista henkilötietojen käsittelytoimista sekä kuvaukset niiden toteuttamista organisatorisista ja teknisistä suojatoimenpiteistä, joiden avulla varmistetaan GDPR:n vaatimusten täyttyminen.
+Henkilötietojen tietoturvaloukkausten hallinta (ilmoitus 72 h)
+Toimittajalla on tunnistus-, käsittely-, raportointi- ja dokumentointimenettelyt henkilötietojen tietoturvaloukkauksille.
+Toimittaja ilmoittaa henkilötietojen tietoturvaloukkauksista tilaajalle viipymättä ja aina 72 tunnin kuluessa. Toimittaja tukee tilaajaa henkilötietojen tietoturvaloukkauksen selvittämisessä sekä yleisen tietosuoja-asetuksen 33 ja 34 art. mukaisissa toimissa.
+Luovutusten ja käytön rajoitukset
+Toimittaja ei saa luovuttaa tai myydä tilaajan henkilötietoja kolmansille osapuolille ilman Tilaajan nimenomaista ja etukäteen saatua kirjallista hyväksyntää.
+Toimittaja ei saa käsitellä tilaajan henkilötietoja omiin käyttötarkoituksiinsa.
+Toimittaja tai sen alihankkija henkilötietojen käsittelijänä tai kukaan henkilötietojen käsittelijän alaisuudessa toimiva henkilö, jolla on pääsy henkilötietoihin, ei saa käsitellä niitä muuten kuin rekisterinpitäjän ohjeiden mukaisesti.
+Toimittajan tulee lokittaa ja dokumentoida kaikki henkilötietojen luovutukset.
+Alikäsittelijäsopimukset ja yhtäläinen suojataso
+Toimittaja tekee kaikkien alikäsittelijöiden kanssa tietosuojalainsäädännön mukaiset sopimukset.
+Alikäsittelijöitä velvoitetaan vähintään samaan tietosuojan ja tietoturvan tasoon kuin toimittajaa.
+Uusien alikäsittelijöiden hyväksyntä
+Toimittaja ei ota käyttöön uutta alikäsittelijää ilman tilaajan kirjallista ennakkohyväksyntää. Toimittajan on toimitettava hyväksyntää koskeva pyyntö tilaajalle hyvissä ajoin ennen palveluiden hankkimista uudelta alikäsittelijältä sekä tarvittavat tiedot, jotta tilaaja voi päättää hyväksynnästä. Osapuolet ylläpitävät listaa toimittajan valtuuttamista alikäsittelijöistä.
+Mikäli tilaaja katsoo jo hyväksytyn alihankkijan käyttöön sisältyvän oikeudellisia riskejä, tilaajalla on oikeus vaatia kyseisen alihankkijan käytön lopettamista. Toimittaja sitoutuu etsimään vaihtoehtoista vähempiriskistä alihankkijaa.
+DPIA-yhteistyö ja teknisen aineiston toimittaminen
+Toimittaja tukee pyydettäessä tilaajaa GDPR 35 artiklan mukaisen tietosuojaa koskevan vaikutustenarvioinnin (DPIA) laatimisessa ja sen päivittämisessä dokumenttien ohella tarvittaessa tulemalla kuultavaksi tai muutoin osallistumalla työpajaan, jotta järjestelmän toiminnasta saadaan tarvittavat tiedot.
+Toimittaja toimittaa kaikki pyydetyt tekniset kuvaukset (arkkitehtuuri, tietovirrat, tietotyypit, suojausratkaisut, lokinäytteet) viipymättä ja osallistuu riskien käsittelyyn.
+Tietosuojayhteyshenkilö ja mahdollinen tietosuojavastaava
+Toimittaja nimeää tietosuojayhteystahon ja toimittaa tiedot tilaajalle.
+Jos toimittajalle syntyy velvollisuus nimetä tietosuojavastaava, myös tietosuojavastaavan yhteystiedot toimitetaan tilaajalle.
+Käsittelijäloki (Toimittajan ja alikäsittelijän henkilöstön pääsytiedot)
+Toimittaja ylläpitää lokia siitä, kuka sen omasta tai alikäsittelijän henkilöstöstä on käsitellyt tilaajan henkilötietoja, mitä tietoja ja millä perusteella.
+Lokit toimitetaan tilaajalle pyydettäessä.
+Tietoturvapuutteiden korjaus ja todisteet
+Toimittaja sitoutuu korjaamaan havaitut tietoturvapuutteet sovitussa aikataulussa ja toimittaa tilaajalle todisteet korjaustoimenpiteistä (esimerkiksi testiraportit, validointidokumentit).
+Tietojen elinkaaren hallinta (säilytys, poisto, poistopyynnöt)
+Toimittaja vastaa siitä, että järjestelmä tukee tietojen poistamisen tilaajan määrittelemien säilytysaikojen mukaisesti.
+Toimittaja varmistaa, että järjestelmä tukee automaattisia säilytysaikarajoja, tietoturvallista poistamista sekä rekisteröidyn oikeutta tietojen poistoon (GDPR 17).
+Poistosta annetaan todiste Tilaajalle. Poistetut tiedot eivät ole palautettavissa.
+Varmuuskopiointi ja palautus: Toimittaja esittää turvallisen varmistus- ja palautusprosessin sekä toimittaa raportit palautustestauksesta pyydettäessä.
+Rekisteröityjen oikeudet
+Toimittaja vastaa siitä, että järjestelmä tukee GDPR:n mukaisten rekisteröityjen oikeuksien toteuttamisen eli se mahdollistaa henkilötietojen etsimisen ja esittämisen, korjaamisen, poistamisen sekä käsittelyn rajoittamisen.
+Auditoinnit ja tarkastusoikeus
+Toimittaja sallii Tilaajan tai tämän nimeämän auditoijan suorittamat tarkastukset.
+Auditointioikeus ulottuu myös alikäsittelijöihin GDPR 28(3)(h) mukaisesti.
+Roolipohjainen & asiakirjapohjainen leastprivilege -käyttöoikeusmalli ja hakutoimintojen tietosuoja (GDPR 25)
+Toimittaja varmistaa, että järjestelmä sisältää:
+a) sisäänrakennetun roolipohjaisen ja asiakirjapohjaisen käyttöoikeusmallin, jossa oikeudet perustuvat vähimmän oikeuden periaatteeseen (least privilege)
+b) oletusarvoiset tietosuojamyönteiset käyttöliittymäasetukset, joissa näytetään vain tarpeelliset ja käyttötarkoituksen kannalta olennaiset henkilötiedot
+c) hakutoimintojen minimoinnin, jossa hakutulokset rajataan käyttöoikeuksien mukaan ja arkaluonteiset tiedot maskataan oletusarvoisesti
+d) oletusasetuksiin perustuvat minimisäilytys- ja näkyvyyssäännöt
+Järjestelmäkäyttäjien henkilötietojen suoja
+Toimittaja ei kerää järjestelmän käyttäjistä enempää tietoa kuin on välttämätöntä vaatimustenmukaisen järjestelmän toimittamiseksi, ja kerättävien tietojen on oltava olennaisia. Toimittaja käyttää pseudonomisoituja tietoja aina kun on mahdollista.
+Varoitus vääristä vastaanottajista
+Järjestelmän tulee automaattisesti varoittaa käyttäjää, jos asiakirjan tai asian metatiedot viittaavat siihen, että käyttöoikeutta ollaan antamassa virheelliselle vastaanottajalle. Käyttäjä voi jatkaa vain antamalla perustellun vahvistuksen. Oletusarvoisesti järjestelmä estää liian laajat käyttöoikeudet GDPR 25:n mukaisesti.
+Varoitus vääristä metatiedoista ja luonnosten tallentamisesta
+Järjestelmän tulee tarkistaa metatietojen ja asiakirjan sisällön vastaavuus sekä varoittaa käyttäjää ristiriidoista, kuten väärästä tietoluokasta tai keskeneräisen luonnoksen tallentamisesta julkaistuksi. Tallennus sallitaan vain perustellun vahvistuksen jälkeen.
+Kustannusmalli avustaville tehtäville
+Toimittajan avustavat tehtävät (rekisteröityjen pyynnöt, DPIA, TIA) sisältyvät palveluun siltä osin kuin ne on kuvattu palvelukuvauksessa. Muutoin noudatetaan sopimuksen mukaista henkilötyöhinnastoa; Toimittaja esittää kustannusarvion ja saa Tilaajan kirjallisen hyväksynnän ennen työn aloittamista.
+Muutoshallinta ohjepäivityksissä
+Tilaajan ohjeiden päivityksissä noudatetaan muutoshallintamenettelyä. Toimittaja ilmoittaa vaikutuksista palveluun, aikatauluun ja kustannuksiin ennen käyttöönottoa.
+Lokien omistus ja saatavuus
+Lokit ovat Tilaajan tietoa; Toimittaja varmistaa lokien eheyden ja saatavuuden sekä luovuttaa lokit pyydettäessä viivytyksettä Tilaajalle tietoturvallisesti.
+Tiedon suojaaminen
+Ottaen huomioon henkilötietojen käsittelyn luonne, laajuus, asiayhteys ja tarkoitukset sekä riskit rekisteröityjen oikeuksille ja vapauksille toimittaja toteuttaa riskiä vastaavan turvallisuustason varmistamiseksi asianmukaiset tekniset ja organisatoriset toimenpiteet.
+Salaus tiedon varastoinnissa ja siirrossa: Tiedot tulee salata riittävän tasoisella salauksella. Toimittaja dokumentoi avainten hallinnan.
+Tietojen luokittelu ja arkaluonteisten tietojen suojaus: Järjestelmä tukee asiakirjojen turvallisuusluokittelua (julkinen, sisäinen, salassa pidettävä, turvallisuusluokiteltava) ja niihin liittyviä oikeuksia.
+Eriytetyt vaatimukset arkaluonteisille henkilötiedoille: Jos käsitellään arkaluonteisia tietoja, käytössä tulee olla vahvemmat suojatoimet.

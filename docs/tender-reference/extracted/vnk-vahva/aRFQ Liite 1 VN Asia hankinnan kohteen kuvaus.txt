@@ -1,0 +1,92 @@
+Hankinnan kohteen kuvaus
+Dokumentti kuvaa yleisesti hankinnan tavoitteen, hankintaan liittyvät rajoitukset ja hankinnan kohteen.  Alaliitteissä 1.1–1.4 asiaan on kuvattu tarkemmin.
+Hankintayksikkö
+Valtioneuvoston kanslia (VNK)
+Hankinnan tausta
+Valtioneuvoston asianhallinnan uudistamisessa ja kehittämisessä lähtökohta on se, että valtioneuvoston yhteisen asianhallintaratkaisun VAHVAn nykyinen tuotannossa oleva tuoteversio on tulossa elinkaarensa päähän. Versionvaihdon kustannukset seuraavaan tuotesarjaan ylittävät hankintalain mukaiset kilpailuttamisen rajat. Tavoitteena on saada käyttäjää ohjaava ja intuitiivinen, sekä mahdollisimman vähän virkamiesten työaikaa kuluttava asianhallintaratkaisu valtioneuvostolle ja sen ministeriöille, oikeuskanslerinvirastolle ja tasavallan presidentin kanslialle.
+Järjestelmän nykytila
+Valtioneuvostossa sekä oikeuskanslerinvirastossa ja tasavallan presidentin kansliassa on tällä hetkellä käytössä yhteinen asianhallintajärjestelmä VAHVA. Järjestelmä siihen integroituine erillissovelluksineen korvasi käyttäjäorganisaatioissa aiemmin käytössä olleet asianhallintajärjestelmät sekä EU-valmistelussa käytetyn yhteisen EUTORI-järjestelmän ja valtioneuvoston päätöksentekojärjestelmän PTJ:n. Nykyjärjestelmän ensimmäiset käyttöönotot toteutettiin keväällä 2018, jonka jälkeen käyttöä laajennettiin porrastetusti kaikkiin ministeriöihin, EU-valmisteluun osallistuviin hallinnonalan virastoihin sekä oikeuskanslerinvirastoon ja tasavallan presidentin kansliaan. Viimeinen käyttöönotto toteutettiin syksyllä 2023.
+VAHVA-ratkaisu koostuu useista komponenteista, joiden keskiössä on asian-, asiakirjan- sekä dokumentinhallinta. Tiedonohjaussuunnitelman ylläpito sekä koodistojen hallinta tapahtuu erillisissä sovelluksissa, kuten myös EU- ja kansainväliseen toimintaan liittyvä jakelu ja raportointi sekä valtioneuvoston päätöksenteko. Järjestelmässä on aktiivikannasta erillään oleva passiiviarkisto. VAHVAan on lisäksi toteutettu useita integraatioita, mm. eduskuntaan, ministeriöiden julkaisujärjestelmiin, Valtioneuvoston hankeikkunaan sekä Euroopan unionin neuvoston asiakirjajärjestelmään.
+Asianhallintaa käyttävät kaikki ministeriöt sekä useat ministeriöiden alaiset itsenäiset arkistonmuodostajat. EU-asioiden valmistelun asioissa käyttö ulottuu useaan valmisteluun osallistuvaan hallinnonalan virastoon sekä Ahvenanmaan maakunnan hallitukseen. Oikeuskanslerinvirasto ja tasavallan presidentin kanslia toimivat järjestelmässä omina eriytettyinä arkistonmuodostajina.
+VAHVAn tukimallissa on pyritty mahdollisimman vähäisiin yhteydenottopisteisiin loppukäyttäjille: ensimmäisellä tasolla osaamiseen ja käyttöön liittyviä kysymyksiä, järjestelmän häiriö- ja ongelmatilanteita käsitellään ja ratkotaan valtioneuvoston tiedonhallintayksikön asiantuntijoiden tarjoaman VAHVA käytön tuen kautta. Toisella tasolla VAHVAn pääkäyttäjät selvittävät haastavampia käyttöongelmia ja järjestelmähäiriöitä tukien samalla ensimmäisen tason työtä. Vasta kolmannella tasolla järjestelmähäiriöt, tekniset häiriöt ja pitkittyneet ongelmat siirretään sovellustoimittajan tai Valtorin käsiteltäväksi tiketöintijärjestelmien välisen integraation avulla. Käytön tuen käsiteltäväksi loppukäyttäjiltä vuosittain tulleita uusia tikettejä on ollut keskimäärin 6700 kpl, joista n. 15 %:a on ollut häiriöitä ja n. 85 %:a palvelupyyntöjä. Eri toimittajille (ml. Valtori) käytön tuesta siirrettyjen tikettien määrä on ollut keskimäärin yhteensä 595 kpl, joka on alle 9 %:a tikettien vuosittaisesta kokonaismäärästä. Työasemiin liittyvissä ongelmatilanteissa loppukäyttäjiä on puolestaan ohjeistettu olemaan yhteydessä suoraan Valtoriin, jolle kuuluu erityisesti työasemiin liittyvien ongelmien ratkominen, kuten asianhallinnassa tarvittavien ohjelmistojen asennukset.
+Valtioneuvostotasolla on meneillään useita hankkeita, joilla on kytkös asianhallintaan ja asianhallintajärjestelmään, kuten Lausuntopalvelun ja verkkoviestintäpalveluratkaisun uudistaminen sekä hanketiedon hallintaratkaisun kehittäminen.
+Hankinnan kohde, tavoitteet ja hankittavan järjestelmäratkaisun ominaisuudet
+Hankinnan kohteena ovat:
+Valmisratkaisuna hankittavat komponentit. Tarkemmin liitteessä 1.1.
+Asianhallintajärjestelmä
+Laajalla jakelutoiminnallisuudella
+Asiakirja on voitava jakaa tarvittaessa useita kertoja sekä toimeksi että tiedoksi, sekä sisäisille että ulkoisille vastaanottajille – riippumatta siitä, onko asiakirja saapunut ulkopuolelta vai laadittu järjestelmässä. Sekä sisäisessä että ulkoisessa jakelussa tulee voida käyttää sekä organisaatioyksiköiden yhteisiä että yksittäisten käyttäjien omia jakelulistoja. Sisäisille vastaanottajille on jakelun yhteydessä tultava asiakirjan käyttöön tarvittavat oikeudet
+Allekirjoituskomponentti
+Tiedonohjaussuunnitelman ja muiden ohjaustietojen hallintakomponentti (optio)
+Valmisratkaisujen hallintaan sisältyvä asiantuntijatyö
+VN Asialle räätälöitävät komponenttikokonaisuudet. Tarkemmin liitteessä 1.2.
+Integraatioalusta
+Käyttöliittymäkerros
+DevSecOps-ympäristö (optio)
+Valmisratkaisujen hallintaan sisältyvä asiantuntijatyö
+Tarvittava tuki ja ylläpito (jatkuva palvelu)
+Kehittämisjonon purku hankkeen päätyttyä mahdollisesti vuoteen 2034 asti (optio).
+Hankittava kokonaisuus tarkentuu tarjoajien kanssa käytävien neuvotteluiden aikana ja kuvataan neuvotteluiden päätteeksi tarjoajille lähetettävässä lopullisessa tarjouspyynnössä. Hankintayksikkö saattaa tarpeidensa mukaan käynnistää myöhemmin erillisiä hankintamenettelyjä esimerkiksi erillisten käyttöliittymäratkaisujen tai räätälöityjen komponenttien hankkimista varten.
+Kuva: Asianhallinnan ja muut merkittävimmät komponentit
+Hankinnan kohde tulee ensisijaisesti valtioneuvoston ja sen ministeriöiden, EU-asioiden valmisteluun osallistuvien valtionhallinnon virastojen ja laitosten ml. Ahvenanmaan maakuntahallitus ja eduskunta sekä oikeuskanslerinviraston ja tasavallan presidentin kanslian käyttöön.
+Tarjottavan asianhallintajärjestelmän ja pitkäaikaissäilytys/arkistointiratkaisun tulee olla Suomen lainsäädännönmukainen ja erityisesti täyttää:
+Suomen tiedonhallinta-, arkisto- ja julkisuuslakien vaatimukset
+SÄHKE 2 –suosituksen
+Euroopan unionin yleisen tietosuoja-asetuksen (GDPR) vaatimukset.
+Sähköisen allekirjoituksen tulee lisäksi täyttää Euroopan unionin eIDAS-asetuksen (asetus sähköisestä tunnistautumisesta ja sähköisiin transaktioihin liittyvistä luottamuspalveluista) vaatimukset. Tarjottavia sähköisen allekirjoituksen sekä tiedonohjauksen palveluita on oltava mahdollista hyödyntää myös muissa valtioneuvoston järjestelmissä. Vaatimusten pitää täyttyä viimeistään siinä vaiheessa, kun järjestelmiä otetaan tuotantokäyttöön.
+Järjestelmien tulee tukea DevSecOps ohjelmistokehitystä ja integroitumista tekoälyn käyttöön (esim. tekoälyagentit). Järjestelmissä pitää olla konfiguraation siirtotoiminnallisuus, jotta konfiguraatio voidaan ylläpitää vain yhdessä ympäristössä ja siirtää sieltä muiden ympäristöjen järjestelmiin. Järjestelmistä tullaan tuottamaan myös useita tuotantoinstansseja eriytettyjä arkistonmuodostajia ja mahdollisesti eri tasoista tietoa varten.
+Käytettävät alustaratkaisut tarkennetaan lopulliseen tarjouspyyntöön neuvottelukierroksella saatujen tietojen perusteella. Järjestelmäkokonaisuuden alustaratkaisuiksi tarkastellaan:
+Pilvialustaa (osille, jotka eivät sisällä turvaluokiteltua tietoa, esim. tiedonohjaus (TOJ)
+Pilvi & on-premises alustan hybridiä, (osille, jotka sisältävät turvaluokiteltua tietoa, esim. asianhallinta, jossa tietokannat ja asiakirjatiedostot sijoitettaisiin VNK:n määrittämään konesaliin)
+On-premises alustaa.
+Valtioneuvostolle (VN) kriittisten palveluiden varmistamiseksi ko. järjestelmistä tarvitaan aina on-premises toteutuskyvykkyys VNK:n määrittämään konesaliin. On-premises-versiolla varaudutaan tilanteisiin, joissa pilvipalvelun käyttö estyy sekä valmiudellisten syiden takia. Järjestelmien käyttöoikeudet tullaan hallinnoimaan keskitetyn käyttövaltuushallinnan kautta.
+Järjestelmän tulee mahdollistaa erilliset asiarekisterit, asia- ja asiakirjanumerosarjat, yhteystietorekisterit, tiedonohjaussuunnitelmat ja erilliset toiminnalliset pääkäyttäjät valtioneuvostolle sekä oikeuskanslerinvirastolle ja tasavallan presidentin kanslialle. Järjestelmässä tulee voida ylläpitää asiarekisteriä sekä keskitetysti että hajautetusti (esim. asioiden avaaminen kirjaamossa ja valmistelijoiden toimesta), sekä tulee voida valmistella EU- ja NATO-asioita eri käyttöoikeuksin sekä asia- ja asiakirjatunnistein kuin kansallisella asiarekisterillä. EU-asioille ja asiakirjoille tulee voida antaa käyttöoikeuksia myös valtioneuvoston ulkopuolisille EU-valmisteluun osallistuville virastoille/laitoksille ja ao. virastojen/laitosten tulee kyetä laatimaan järjestelmässä asiakirjoja.
+Asiakirjoja tulee voida jaella järjestelmän yhteystiedoissa oleville käyttäjille sekä ulkopuolisille tahoille. Jakelu voidaan tehdä järjestelmän sisäisenä herätteenä sekä sähköpostilla joko linkkinä tai liitteenä. Suoran jakelun lisäksi järjestelmän tulee tukea asiasanoihin perustuvaa jakelua, jossa jakelu toteutetaan ennalta määriteltyjen asiasanojen ja niihin liitettyjen jakelulistojen perusteella järjestelmää käyttävien toimesta tai erikseen määritellyissä tapauksissa jakelun käynnistyessä automaattisesti esim. asiakirjan tilasiirtymän myötä.
+Asianhallinnan asioiden käsittely tapahtuu sekä organisaatiokohtaisesti että organisaatiorajojen yli, joten järjestelmän tulee mahdollistaa asioiden sekä asiakirjojen yhteinen käsittely. Järjestelmän käyttäjäorganisaatioilla tulee voida olla sekä organisaatiokohtaisia että yhteisiä asiakirjapohjia (ml. rakenteiset Word-dokumenttipohjat). Järjestelmän tulee mahdollistaa sekä muualla tuotettujen dokumenttien (valmisteluaineistot tai sisäiset aineistot jne.) tuonnin asianhallintajärjestelmään, siellä muokkauksen, että asianhallintajärjestelmässä tapahtuvan dokumenttien (valmisteluasiakirjojen) valmistelun ja sujuvan siirtymän asiarekisteriin viranomaisen asiakirjoiksi.
+Valtioneuvoston yleiset prosessit
+Toiminta valtioneuvostossa ja sen ministeriöissä pitää sisällään asiakirjojen käsittelyä ja siihen liittyviä prosesseja. Asianhallinnan ja asiakirjahallinnan yleiset prosessit ovatkin valtioneuvoston toimien ytimessä. Tämä pitää sisällään sekä julkisten että salassa pidettävän ja turvallisuusluokitellun aineiston käsittelyä. Asianhallintajärjestelmässä voidaan käsitellä korkeintaan TL IV –tason tietoa. Lähtökohtaisesti korkeammin luokitellulle aineistolle on omat prosessinsa ja järjestelmänsä. Korkeammin turvallisuusluokitellun TL III aineiston käsittelymahdollisuus optiona.
+Asianhallinnassa yleisten prosessien läpivienti tulee toteuttaa mahdollisimman loogisesti ja yhteneväisesti. Loppukäyttäjän tulee voida käyttää asianhallinnassa olevaa tietoa VN:ssä hyväksytyillä päätelaitteilla, tiedon turvallisuusluokitus huomioiden. Prosessien tulee olla mahdollisimman samankaltaisia ja suoraviivaisia.
+Asianhallintajärjestelmässä on sekä ministeriöille yhteisiä toimintoja että ministeriöiden omaan substanssiin liittyviä erityisiä prosesseja. Liitteessä 2.2.2 ”VN Asia Valtioneuvoston yleiset prosessit” mainitut prosessit ovat pääosin sellaisia, että niitä käsitellään kaikissa ministeriöissä, eli niiden läpiviennin pitää onnistua yhdenmukaisesti käyttäjän organisaatiosta riippumatta.
+Tavoitetilassa hankinnan kohteena oleva valtioneuvoston yhteinen asianhallintajärjestelmä:
+Ohjaa ja helpottaa virkamiesten työprosesseja ja tukee substanssiprosessien asianhallinnallisia tarpeita käyttäjäystävällisellä tavalla
+Yhdenmukaistaa toimintatapoja ja – malleja valtioneuvostossa
+Vähentää erityisesti substanssivalmistelijoiden manuaalisia työvaiheita prosessien toteutuksessa
+Mahdollistaa tietojen yhteiskäytön valtioneuvoston sisällä ja tietyissä prosesseissa myös muiden toimijoiden kanssa
+Tukee prosessien sähköistämistä liittymien, asiointipalvelujen ja integraatioiden kautta
+Mahdollistaa tehokkaan työskentelyn tarjoamalla virkamiesten käyttöön työvälineitä erilaisten prosessien yhteisen käsittelyn edistämiseksi (rakenteiset Word-asiakirjat, dokumenttien yhteiskäyttöisyys)
+Tarjoaa mahdollisuuden valtioneuvostossa syntyvän tiedon julkaisuun eri palveluihin
+Mahdollistaa yhtenäisen julkisen ja turvallisuusluokitellun tiedon käsittelyn valtioneuvostossa, ja tarjoaa turvallisen välineen salassa pidettävän tiedon käsittelyn aina TL IV –tasolle asti
+Mahdollistaa asianhallinnan toiminnallisuuksien ja tiedon käsittelyn työasemalla ja mobiililaitteissa.
+Järjestelmäratkaisun käytön laajuus
+Valtioneuvoston tarpeeseen tuotettavassa ratkaisussa käyttäjämäärä on noin 6000 henkilöä. Asianhallintajärjestelmään tuotetaan 160 000–195 000 asiakirjaa vuosittain. Esim. VAHVAan kertyi vuonna 2024 noin 161 500 asiakirjaa, joista käyttäjien tuottamia oli 106 500 kpl ja robottien avustuksella järjestelmään tallennettiin 55 000 asianhallintajärjestelmän ulkopuolella laadittua asiakirjaa. OKV:n ja TPK:n instansseissa asiakirjojen määrät ovat huomattavasti pienemmät.
+Migraatiot
+Kuvattu liitteessä 3.7 kohdassa 4.1.
+Integraatiot ja ohjelmistorobotiikka
+Kuvattu liitteessä 3.7 kohdassa 3.
+Tietoturva, tietosuoja ja valmius (jatkuvuus)
+Tarjottavan tietojärjestelmäratkaisun ja ylläpitopalvelun tulee täyttää myös tietoturvaa, tietosuojaa ja varautumista koskevat vaatimukset. Toimittajan ja Tilaajan välille solmitaan sopimukset tietojenkäsittelyyn liittyen. Tilaaja tekee oman prosessinsa mukaiset turvallisuusselvitykset ja salassapitosopimukset Toimittajan järjestelmäratkaisun toimitukseen ja ylläpitoon osallistuville henkilöille.
+Järjestelmäratkaisussa käsitellään julkisen tiedon lisäksi salassa pidettävää ja turvallisuusluokiteltua tietoa (TLIV). Palvelussa käsitellään myös henkilötietoja. Optiona mahdollisuus asentaa tarvittavat komponentit myös muihin ympäristöihin, esim. TLIII tason ympäristöön.
+Tarjottava järjestelmäratkaisu sisältää toiminnan jatkuvuuden kannalta kriittisiä tietoja ja toiminnallisuuksia, joiden on oltava käytettävissä kaikissa tilanteissa.
+Tarjottavat komponentit ja niiden hallintaratkaisut on toteutettava alustariippumattomasti siten, että komponentit voidaan tarvittaessa asentaa erilaisiin pilvi- ja on-premises -ympäristöihin. Aktiivisen ympäristön rinnalle voidaan toteuttaa varautumisympäristöjä eri valmiusasteilla.
+Järjestelmän tiedot varmuuskopioidaan ja varmuuskopiot hajautetaan siten, että ne ovat saatavissa ja palautettavissa tarvittaviin varautumisen ympäristöihin.
+Tietosuojan pakolliset vaatimukset ovat liitteessä 2.5. Muut tietosuojavaatimukset ilmoitetaan lopullisessa tarjouspyynnössä.
+Tietoturvan alustavat vaatimukset ovat liitteessä 2.6. Tietoturvan pakolliset vaatimukset ilmoitetaan lopullisessa tarjouspyynnössä.
+Työasemat ja asemaohjelmistot
+Kts. liite 1.3 VN Asia ympäristökonsepti.
+Pääsynhallinta ja käyttövaltuuksien hallinta
+Kts. liite 1.3 VN Asia ympäristökonsepti
+Käyttöliittymäalusta ja käyttöliittymät
+Kts. liite 1.2 VN Asia räätälöidyt komponentit
+Käyttöpalvelut ja alustat
+Kts. liite 1.3 VN Asia ympäristökonsepti
+Instanssit
+Kts. liite 1.1 VN Asia valmisratkaisuna hankittavat komponentit.
+VN toimitusprojekti ja käyttöönotto (MVP-versio)
+Kts. liite 3 VN Asia projektisuunnitelman perusteet
+Kts. liite 3.1 VN Asia PoC -vaiheen kuvaus
+Kts. liite 3.3 VN Asia projektin aikataulukuvaus
+Kts. liite 3.7 VN Asia käyttöönoton edellytysten luomisen konsepti
+Jatkuva palvelu (tuki ja ylläpito)
+Jatkuvan palvelun käynnistämisen alustavat edellytykset on kuvattu liitteessä 3.7 VN Asia käyttöönoton edellytysten luomisen konsepti. Jatkuvan palvelun vaatimuksia kuvataan liitteissä 4 Pääsopimus ja 4.3.2 Palvelutasoehdot sekä lopullisen tarjouspyynnön liitteissä Ei-toiminnalliset vaatimukset sekä Palvelunhallintamalli.
+Koulutukset
+Toimittaja tarjoaa Tilaajan edellyttämät koulutukset vähintään pääkäyttäjinä toimiville ja tiedonhallinnan asiantuntijoille ja käyttöönoton yhteydessä tarvittavan koulutusmateriaalin ja ohjeet. Koulutuksia varten tarvitaan erillinen koulutusympäristö, jota voidaan käyttää sekä tiedonhallinnan asiantuntijoiden että loppukäyttäjien koulutuksissa.

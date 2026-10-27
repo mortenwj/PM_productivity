@@ -1,0 +1,401 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Opfordringsskrivelse til 
+afgivelse af tilbud i kategori 1 
+02.06 Standardsoftware (2026)  
+Version 1.0 
+Dato 17. august 2026
+
+## Page 2
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 2 af 11 
+ 
+Indhold 
+1 Definitioner .................................................................................................................................. 4 
+2 Indledning .................................................................................................................................... 5 
+2.1 Det konkrete indkøb ................................................................................................................... 5 
+2.2 Opfordring til afgivelse af tilbud .................................................................................................. 5 
+2.3 Kunden og kontaktperson .......................................................................................................... 5 
+3 Udbudsmateriale ......................................................................................................................... 5 
+3.1 Forrangsbestemmelser............................................................................................................... 6 
+3.2 Henvisning til specifikke fabrikater mm. ..................................................................................... 7 
+4 Skriftlige spørgsmål ................................................................................................................... 7 
+5 Tilbudsafgivelse .......................................................................................................................... 8 
+5.1 Tilbudsfrist .................................................................................................................................. 8 
+5.2 Tilbuddets indhold ...................................................................................................................... 8 
+5.3 Vedståelse .................................................................................................................................. 9 
+5.4 Alternative tilbud ......................................................................................................................... 9 
+5.5 Sideordnede tilbud ...................................................................................................................... 9 
+5.6 Priser ........................................................................................................................................... 9 
+5.6.1 Kundebetaling .......................................................................................................................... 9 
+5.7 Subsidieforordningen................................................................................................................ 10 
+5.8 Investeringsscreeningsloven .................................................................................................... 11 
+6 Behandling af tilbud ................................................................................................................. 11 
+6.1 Fortrolighed ............................................................................................................................... 11 
+7 Forbehold og vurdering af konditionsmæssighed ............................................................... 12 
+8 Tildelingskriterier og evaluering ............................................................................................. 12 
+8.1 Tildelingskriteriet ”Pris” ............................................................................................................. 12 
+8.1.1 Evaluering af tildelingskriteriet ”Pris” ..................................................................................... 12 
+9 Endelig dokumentation ............................................................................................................ 12 
+9.1 Dokumentation vedrørende udelukkelsesgrunde .................................................................... 12 
+9.2 Dokumentation vedrørende teknisk og faglig formåen ............................................................ 13 
+10 Tildeling og kontraktindgåelse................................................................................................ 13 
+11 Aflysning af det konkrete indkøb ............................................................................................ 14
+
+## Page 3
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 3 af 11 
+1 Definitioner 
+Ved DIS-portal forstås det elektroniske system hvori Systemet afvikles. 
+Ved Konkret indkøb forstås det nærværende indkøb, som Kunden har offentliggjort i Systemet.  
+Ved Kunde forstås den eller de SKI-kunder der gennemfører nærværende Konkrete indkøb i 
+Systemet.  
+Ved Leveringskontrakt forstås den Leveringskontrakt, som er offentliggjort i Systemet som en del 
+af udbudsmaterialet til nærværende Konkrete indkøb, og som skal indgås mellem Kunden og den 
+Tilbudsgiver, der bliver tildelt Leveringskontrakten. 
+Ved Leverandør forstås en Tilbudsgiver, som har fået tildelt Leveringskontrakten på baggrund af 
+nærværende Konkrete indkøb. 
+Ved Tilbudsgiver forstås den deltager i Systemet, som har afgivet tilbud på nærværende Konkrete 
+indkøb. 
+Ved Systemet forstås det dynamiske indkøbssystem for aftalen 02.06 Standardsoftware.
+
+## Page 4
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 4 af 11 
+2 Indledning 
+2.1 Det konkrete indkøb 
+Det Konkrete indkøb omfatter de produkter/ydelser, som fremgår af Bilag 1 Kundens 
+opgavebeskrivelse. 
+Kundens eksisterende aftale om et sags- og dokumenthåndteringssystem (”ESDH-system”) 
+udløber med udgangen af 2026.  
+Kunden ønsker ved Leveringskontrakten at anskaffe licenser til et ESDH-system, der 
+tilbyder samme funktionalitet og effektiv understøttelse af Kundens forretningsprocesser 
+som nuværende system. Kontrakten skal endvidere give Kunden adgang til at købe diverse 
+implementerings-, konfigurations-, support-, rådgivnings- og undervisningsydelser relateret 
+til ESDH-systemet.  
+ESDH-systemet er teknisk og organisatorisk implementeret på tværs af Kundens 
+organisation, og anvendes af alle medarbejdere i Kundens organisation.  
+Det Konkrete indkøb vedrører følgende ydelsesområder: 
+1) Standardsoftware   
+2) Support- og vedligeholdsaftaler til Standardsoftware  
+3) Installation/implementering og/eller konfiguration   
+1. samt følgende ydelser, der er relateret til Standardsoftware:   
+4) Undervisning   
+5) Rådgivning  
+Det Konkrete indkøb estimeres til at have en værdi på i alt 14 mio. DKK. 
+2.2 Opfordring til afgivelse af tilbud 
+Social- og Boligstyrelsen gennemfører et Konkret indkøb med henblik på at anskaffe 
+produkter/ydelser omfattet af det dynamiske indkøbssystem 02.06 Standardsoftware, kategori 1. 
+Deltagere i det dynamiske indkøbssystem 02.06 Standardsoftware opfordres til at afgive tilbud på 
+det Konkrete indkøb. 
+Det anbefales, at Tilbudsgiver indledningsvist læser det samlede materiale grundigt igennem og 
+nøje følger de angivne anvisninger for udarbejdelsen af tilbuddet for at undgå, at Tilbudsgiver 
+afgiver et ukonditionsmæssigt tilbud.  
+2.3 Kunden og kontaktperson 
+I forbindelse med det konkrete indkøb er følgende kontaktperson: 
+Navn  Bettina Lundskjold  
+Titel  Digitaliseringskonsulent 
+Telefon  41730828
+
+## Page 5
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 5 af 11 
+E-mail belu@sbst.dk 
+3 Udbudsmateriale 
+Udbudsmaterialet består (udover nærværende opfordringsskrivelse) af følgende dokumenter:  
+• Leveringskontrakt  
+• bilag 1: Kundens opgavebeskrivelse   
+• bilag 1a: Brugsvilkår   
+• bilag 1b: Undervisning og rådgivning   
+• bilag 2: Producentens standardvilkår   
+• bilag 3: Leverandørens løsningsbeskrivelse   
+• bilag 4: Leverandørens priser   
+• bilag 5: Databehandling  
+• bilag 6: CSR   
+• bilag 7: Trepartsaftale   
+• bilag 8: Skabelon til Erklæring vedrørende restriktive foranstaltninger af Ruslands 
+handlinger   
+• bilag 9: AI  
+• bilag 10: Leverandørens forpligtigelser ved ophør  
+• bilag 11: Dokumentation   
+• bilag 12: Drift, support og vedligehold  
+• bilag 13: Servicemål   
+• bilag 14: Samarbejdsorganisation  
+• bilag 15: Migrering af data   
+• bilag 16: Støtteerklæring(er) 
+• bilag 17: Sikkerhed 
+3.1 Forrangsbestemmelser 
+Bestemmelser i Leveringskontrakten har forrang frem for bestemmelser i Leveringskontraktens 
+bilag, hvorfor bestemmelser indeholdt i et bilag, som strider mod bestemmelser i 
+Leveringskontrakten ikke tillægges retsvirkning.  
+I tilfælde af indbyrdes modstrid mellem Leveringskontraktens bilag, har bilagene forrang i følgende 
+prioritetsrækkefølge: 
+• Bilag 7 Trepartsaftale 
+• Bilag 6 CSR  
+• Bilag 1 Kundens opgavebeskrivelse 
+• Bilag 17 Sikkerhed  
+• Bilag 5 Databehandleraftalen 
+• Bilag 1b Undervisning 
+• Bilag 11 Dokumentation 
+• Bilag 12 Drift, support og vedligehold 
+• Bilag 13 Servicemål 
+• Bilag 14 Samarbejdsorganisation
+
+## Page 6
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 6 af 11 
+• Bilag 15 Migrering af data 
+• Bilag 10 Leverandørens forpligtelser ved ophør 
+• Bilag 9 AI 
+• Bilag 4 Leverandørens priser 
+• Bilag 3 Leverandørens løsningsbeskrivelse  
+• Bilag 1a Brugsvilkår 
+• Bilag 2 Producentens standardvilkår 
+ 
+Henvisningerne til de enkelte bilag ovenfor omfatter eventuelle underbilag hertil. 
+Det forhold, at Kundens krav har forrang for modstridende krav i Bilag 3 Leverandørens 
+løsningsbeskrivelse og Bilag 2 Producentens standardvilkår, kan ikke påberåbes af Leverandøren 
+som begrundelse for ikke at levere det yderligere, der måtte fremgå af Bilag 2 Producentens 
+standardvilkår og Bilag 3 Leverandørens løsningsbeskrivelse.  
+3.2 Henvisning til specifikke fabrikater mm. 
+Kunden kan i udbudsmaterialet, herunder i Bilag 1 Kundens opgavebeskrivelse eller i Bilag 4 
+Leverandørens priser, have henvist til standarder, fabrikater, varemærker eller patenter mv. i de 
+tekniske specifikationer, jf. udbudslovens § 41, stk.1, nr. 2 og § 42. Kunden har bestræbt sig på, at 
+enhver sådan henvisning er efterfulgt af udtrykket ”eller tilsvarende”. Såfremt en sådan henvisning 
+ved en fejl ikke er efterfulgt af udtrykket ”eller tilsvarende”, skal henvisningen dog i alle tilfælde 
+forstås inklusive formuleringen ”eller tilsvarende”.  
+Det betyder, at tilbuddet skal være i overensstemmelse med standarden, fabrikatet, varemærket 
+eller patentet mv., der henvises til, eller på tilsvarende måde opfylde de krav, som er angivet i eller 
+udtrykt ved standarden, fabrikatet, varemærket eller patentet mv. Såfremt tilbuddet ikke er i 
+overensstemmelse med standarden, fabrikatet, varemærket eller patentet mv., der henvises til, 
+men opfylder kravene på tilsvarende måde, skal tilbudsgiver i sit tilbud med passende midler, 
+herunder de bevismidler, der er nævnt i udbudslovens § 47, godtgøre, at tilbuddet på tilsvarende 
+måde opfylder de krav, der er angivet i eller udtrykt ved standarden, fabrikatet, varemærket eller 
+patentet mv. 
+4 Skriftlige spørgsmål 
+Tilbudsgiveren har mulighed for at få supplerende oplysninger om materialet og det konkrete 
+indkøb ved fremsættelse af skriftlige spørgsmål. 
+Spørgsmål skal fremsættes skriftligt på dansk i SKI’s Dynamiske Indkøbs- og Miniudbudssystem.  
+Skriftlige spørgsmål og besvarelser heraf vil i anonymiseret form løbende blive meddelt samtlige 
+Tilbudsgivere samtidigt via DIS-portalen. Besvarelse af spørgsmål sker på dansk 
+Spørgsmål vil blive besvaret, medmindre spørgsmålets karakter gør det uforholdsmæssigt 
+byrdefuldt at meddele svaret senest 6 dage inden udløbet af fristen for afgivelse af tilbud. 
+Spørgsmål, der er modtaget senere end 6 dage inden udløbet af fristen for afgivelse af tilbud, kan 
+ikke forventes besvaret.
+
+## Page 7
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 7 af 11 
+5 Tilbudsafgivelse 
+5.1 Tilbudsfrist 
+Tilbuddet skal være indleveret i DIS-portalen 
+senest den 29.september 2026 kl.12 
+Tilbud, der modtages senere, vil ikke blive taget i betragtning. 
+Tilbud skal afgives på dansk.  
+Indholdet af tilbuddet forbliver uåbnet og fortroligt indtil udløbet af den fastsatte frist. 
+5.2 Tilbuddets indhold 
+Tilbuddet består af følgende dokumenter:  
+• Bilag 2 Producentens standardvilkår 
+• Bilag 3 Leverandørens løsningsbeskrivelse 
+• Bilag 4 Leverandørens priser 
+• Bilag 14 Samarbejdsorganisation 
+• Evt. Bilag 16 Støtteerklæring 
+• Tilbudsgivers European Single Procurement Document(s) (ESPD) fra det dynamiske 
+indkøbssystem 
+Bilagene i DIS-portalen indeholder en vejledende tekst, der forklarer, hvordan bilagene udfyldes af 
+Tilbudsgiver. De udfyldte bilag indgår som en del af det samlede kontraktgrundlag.  
+Tilbuddet skal ikke indeholde Leveringskontrakten samt bilag, som ikke skal udfyldes/færdiggøres 
+af Tilbudsgiver. Leveringskontrakten og disse bilag anses for accepteret af Tilbudsgiver. 
+Efter Kundens evaluering af tilbuddene, vil Kunden indhente endelig dokumentation, jf. punkt 10, 
+fra den Tilbudsgiver, som Kunden har til hensigt at tildele Leveringskontrakten til.   
+Endelig dokumentation udgør det ESPD som Tilbudsgivers optagelse i Systemet er baseret på, en 
+serviceattest fra Erhvervsstyrelsen samt bilaget Erklæring vedrørende restriktive foranstaltninger. 
+Processen for indhentelse af endelig dokumentation er beskrevet i detaljer i punkt 10. 
+5.3 Vedståelse  
+Tilbudsgiveren er forpligtet til at vedstå sit tilbud i 6 måneder fra tilbudsfristen.  
+5.4 Alternative tilbud 
+Det er ikke tilladt at afgive alternative tilbud. 
+5.5 Sideordnede tilbud 
+Det er ikke tilladt at afgive sideordnede tilbud.
+
+## Page 8
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 8 af 11 
+5.6 Priser 
+Priser afgives ekskl. moms, men inkl. Kundebetalingen til SKI samt eventuelle omkostninger til 
+afgifter, gebyrer og transport forbundet med anskaffelsen.  
+5.6.1 Kundebetaling 
+Leverandøren skal på vegne af Kunden videreformidle kundebetalingen på 1 % af Kundens 
+købesum til SKI. Tilbudsgiveren skal derfor indregne Kundens betaling til SKI på 1 % i sine 
+tilbudspriser i de konkrete indkøb.  
+Tilbudsgiveren kan i forbindelse med tilbudsafgivelsen anvende nedenstående formel: 
+ 𝑃𝐿𝑒𝑣 / 0,99 = 𝑃𝑘𝑢𝑛𝑑𝑒 
+Hvor: 
+𝑃𝐿𝑒𝑣 = 𝐿𝑒𝑣𝑒𝑟𝑎𝑛𝑑ø𝑟𝑒𝑛𝑠 𝑝𝑟𝑖𝑠 𝑒𝑘𝑠𝑘𝑙𝑢𝑠𝑖𝑣𝑒 𝑘𝑢𝑛𝑑𝑒𝑛𝑠 𝑏𝑒𝑡𝑎𝑙𝑖𝑛𝑔 𝑡𝑖𝑙 𝑆𝐾𝐼 
+𝑃𝐾𝑢𝑛𝑑𝑒 = 𝐿𝑒𝑣𝑒𝑟𝑎𝑛𝑑ø𝑟𝑒𝑛𝑠 𝑝𝑟𝑖𝑠 𝑖𝑛𝑘𝑙𝑢𝑠𝑖𝑣𝑒 𝑘𝑢𝑛𝑑𝑒𝑛𝑠 𝑏𝑒𝑡𝑎𝑙𝑖𝑛𝑔 𝑡𝑖𝑙 𝑆𝐾𝐼  
+𝑠𝑣𝑎𝑟𝑒𝑛𝑑𝑒 𝑡𝑖𝑙 𝑑𝑒𝑛 𝑝𝑟𝑖𝑠 𝑙𝑒𝑣𝑒𝑟𝑎𝑛𝑑ø𝑟𝑒𝑛 𝑜𝑝𝑘𝑟æ𝑣𝑒𝑟 𝑘𝑢𝑛𝑑𝑒𝑛 
+ 
+Kundebetalingen til SKI beregnes efter følgende formel: 
+𝐾𝑢𝑛𝑑𝑒𝑛𝑠 𝑘ø𝑏𝑒𝑠𝑢𝑚 𝑒𝑘𝑠𝑘𝑙𝑢𝑠𝑖𝑣𝑒 𝑚𝑜𝑚𝑠 𝑖 𝐷𝐾𝐾 ×  1 % = 𝐾𝑢𝑛𝑑𝑒𝑏𝑒𝑡𝑎𝑙𝑖𝑛𝑔𝑒𝑛 𝑖 𝐷𝐾𝐾  
+ 
+Leverandørens rapportering samt formidling af Kundens betaling til SKI er beskrevet nærmere i 
+bilag 3 Trepartsaftale. 
+5.6.2 Erklæring om uafhængig tilbudsafgivelse 
+Såfremt Tilbudsgiver er en del af flere tilbudsafgivelser, f.eks. fordi den Tilbudsgiver selv afgiver 
+tilbud, men samtidig indgår som deltager i et konsortium, der afgiver tilbud, skal Tilbudsgiver sikre, 
+at dennes deltagelse i flere konstellationer af Tilbudsgivere ikke medfører mulighed for at true 
+gennemsigtigheden eller fordreje konkurrencen i udbuddet. Dette kan f.eks. ske ved at koordinere 
+indholdet af et tilbud med indholdet af et andet tilbud eller ved, at der følges en praksis, der strider 
+mod ovenstående principper. Dette gælder tilsvarende, når to eller flere Tilbudsgivere inden for 
+samme koncern afgiver tilbud.   
+Kan to eller flere forbundne Tilbudsgivere ikke forhindre koordinering, kan kun én af Tilbudsgiverne 
+afgive tilbud.  
+5.7  Subsidieforordningen 
+Subsidieforordningen finder ikke anvendelse på det Konkrete indkøb.
+
+## Page 9
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 9 af 11 
+5.8 Investeringsscreeningsloven  
+Investeringsscreeningsloven finder ikke anvendelse på det Konkrete indkøb. 
+6 Behandling af tilbud 
+Tilbudsgiver skal være opmærksom på, at Kunden ikke kan forhandle med Tilbudsgiver om 
+tilbuddet. Tilbuddet bør derfor være udarbejdet på en sådan måde, at Leveringskontrakten kan 
+indgås uden drøftelser mellem Tilbudsgiver og Kunden. Det er Tilbudsgivers ansvar at sikre, at 
+tilbuddet er komplet og udformet i overensstemmelse med retningslinjerne i udbudsmaterialet.  
+Efter kontraktindgåelse kan Kunden indkalde til et opstartsmøde med henblik på at understøtte, at 
+Parterne får en fælles forståelse for Kundens overordnede behov, Leveringskontraktens opbygning 
+og terminologi samt Kundens organisation. Efter opstartsmødet påbegyndes Afklaringsfasen, der 
+har til formål at undersøge, om det er hensigtsmæssigt at præcisere eller supplere 
+kravspecifikationen. 
+Tilbudsgiverne har ikke adgang til at overvære åbningen af tilbud eller til at få oplysninger om 
+konkurrenters tilbud.  
+Kunden er ikke forpligtet til at tilbagelevere tilbud til tilbudsgiverne. 
+Tilbudsgivers omkostninger i forbindelse med tilbudsafgivelsen er Kunden uvedkommende, 
+herunder hvis kunden måtte aflyse det konkrete indkøb uden kontraktindgåelse. 
+6.1 Fortrolighed 
+Tilbuddet vil blive behandlet fortroligt medmindre lovgivningen om aktindsigt forpligter kunden til at 
+videregive oplysninger til tredjemand. 
+Anmodes ordregiver om aktindsigt, vil Tilbudsgiver så vidt muligt blive hørt, inden ordregiver 
+træffer beslutning om, hvilken dele af tilbuddet, der måtte være undtaget fra aktindsigt.  
+Kunden vil dog under alle omstændigheder være berettiget og forpligtet til at give aktindsigt i det 
+omfang, som følger af lovgivningen. 
+SKI behandling af det fremsendte tilbud 
+Når I som tilbudsgiver vælger at afgive tilbud i systemet, har det den praktiske konsekvens at 
+tilbuddet sendes til både kunden som har offentliggjort det konkrete indkøb, men også til SKI i sin 
+rolle som systemudbyder.  SKI indsamler oplysninger fra tilbuddet, og bruger dem i anonymiseret 
+form til at lave statistik på et aggregeret niveau om brugen af systemet og tilbuddene afgivet heri, 
+samt til forbedring af SKI’s drift af systemet og rådgivning om brugen af systemet.  SKI vil behandle 
+tilbuddets indhold fortroligt. SKI videregiver ikke fortrolige oplysninger, der kan henføres til 
+tilbudsgiver, og SKI kan ikke give aktindsigt heri, da SKI ikke er omfattet af reglerne om aktindsigt. 
+7 Forbehold og vurdering af konditionsmæssighed 
+Tilbudsgiver kan ikke tage forbehold over for vilkårene i materialet til tilbudsafgivelse, angivet i 
+punkt 5.2. Forbehold vil medføre, at tilbuddet er ukonditionsmæssigt.
+
+## Page 10
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 10 af 11 
+7.1.1 Vurdering af konditionsmæssighed 
+Tilbudsgiver kan ikke tage forbehold overfor vilkårene i udbudsmaterialet, jf. punkt 5.2. Forbehold 
+vil medføre, at tilbuddet er ukonditionsmæssigt.  
+Kunden kan dog vælge at anvende fremgangsmåden i udbudslovens § 159, stk. 5 og 6, hvis 
+tilbuddet ikke opfylder udbudsmaterialets krav. Kunden er imidlertid ikke forpligtet til at indhente 
+yderligere oplysninger eller dokumentation fra Tilbudsgiverne. 
+Uanset anvendelsen af ordet "skal" i udbudsmaterialet kan Kunden indhente yderligere oplysninger 
+inden for rammerne af ovennævnte bestemmelser.  
+8 Tildelingskriterier og evaluering 
+8.1 Tildelingskriteriet ”Pris” 
+Tildeling sker til den tilbudsgiver, der har afgivet det økonomisk mest fordelagtige tilbud i henhold 
+til tildelingskriteriet ”Pris”.  
+8.1.1 Evaluering af tildelingskriteriet ”Pris” 
+Evaluering af tildelingskriteriet ”Pris” vil ske på baggrund af den samlede evalueringstekniske pris, 
+som fremkommer i Bilag 4 Leverandørens priser ved tilbudsgivers udfyldelse af tilbuddet. 
+Tildeling af Leveringskontrakten sker til den Tilbudsgiver, der har afgivet den samlede laveste 
+evalueringstekniske pris.  
+9 Endelig dokumentation 
+I henhold til udbudslovens §§ 151 og 152 skal en Tilbudsgiver, som Kunden har til hensigt at tildele 
+Leveringskontrakten fremlægge endelig dokumentation vedrørende forholdene angivet i 
+Tilbudsgivers ESPD, herunder eventuelt ift. ESPD’er fra alle deltagere i en sammenslutning (fx alle 
+konsortiedeltagere) og/eller eventuelle støttende virksomheders ESPD’er.  
+Kunden vil, inden for en passende frist, bede om endelig dokumentation for de i ESPD’et afgivne 
+oplysninger, jf. nærmere nedenfor.  
+9.1 Dokumentation vedrørende udelukkelsesgrunde 
+Som dokumentation for oplysningerne i ESPD’et vedrørende udelukkelsesgrunde: 
+• Danske virksomheder kan fremlægge en serviceattest udstedt af Erhvervsstyrelsen , der 
+omfatter oplysninger fra politiets kriminalregister.  
+• Udenlandske virksomheder kan fremlægge de former for dokumentation, der fremgår af e -
+Certis1.  
+ 
+1 https://ec.europa.eu/tools/ecertis/search
+
+## Page 11
+02.06 Standardsoftware (2026) 
+Opfordringsskrivelse til afgivelse af tilbud i kategori 1  
+ 
+ 
+ 
+Version 1.0   Side 11 af 11 
+Udenlandske virksomheder kan med fordel benytte e-Certis til at identificere den dokumentation, 
+som er brugbar, eller kontakte de relevante myndigheder i det land, hvor virksomheden er 
+etableret. 
+9.2 Dokumentation vedrørende teknisk og faglig formåen 
+Hvis kunden ikke allerede, i forbindelse med tilbudsafgivelsen, har modtaget Tilbudsgivers ESPD, 
+(dvs. ESPD’et der fremgår af Tilbudsgivers ansøgning i DIS-portalen), skal Tilbudsgiver, på 
+Kundens anmodning herom, fremsende dette til Kunden hurtigst muligt. 
+Der skal ikke fremlægges yderligere dokumentation for oplysningerne i ESPD’et vedrørende 
+teknisk og faglig formåen. Kunden forbeholder sig dog ret til at anmode Tilbudsgiver om at 
+opdatere sit ESPD i det dynamiske indkøbssystem, hvis det ikke længere opfylder de fastsatte 
+krav.  
+10 Tildeling og kontraktindgåelse 
+Når kunden har truffet afgørelse om, hvem Leveringskontrakten skal tildeles, og indhentet 
+dokumentation, orienteres Tilbudsgiverne hurtigst muligt herom. Underretningen sker samtidigt til 
+alle Tilbudsgivere via DIS-portalen. Underretningen vil indeholde en kort redegørelse for 
+evalueringen. 
+Kunden er ikke forpligtet til at tildele Leveringskontrakten.  
+Den vindende Tilbudsgiver er forpligtet til at indgå Leveringskontrakten med Kunden.  
+Indgåelse af Leveringskontrakt vil dog først ske efter udløbet af en standstill-periode på 10 
+kalenderdage, regnet fra dagen efter den dag Kunden har afsendt underretningen via e-mail. 
+Kunden anser ikke det konkrete indkøb for afsluttet, før Leveringskontrakten er underskrevet. 
+Tilbudsgiverne er således bundet af deres tilbud, indtil Kunden har indgået Leveringskontrakten, 
+men dog ikke længere end vedståelsesfristen, jf. punkt 5.3. 
+11 Aflysning af det konkrete indkøb 
+Kunden har ret til at aflyse det konkrete indkøb, såfremt Kunden vurderer, at der foreligger en 
+saglig grund til aflysning.
