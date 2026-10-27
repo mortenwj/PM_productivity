@@ -1,0 +1,483 @@
+## sheet1.xml
+Bilag 1 og 2 – Ansvarsmatrise og besvarelse av kravspesifikasjon
+Kravtypene i Bilag 1 og 2 har følgende inndeling:
+Kravtype	Beskrivelse
+Absolutte krav (A)	Absolutte krav besvares oppfylt med JA/NEI, uten beskrivelse.
+Bør- og evalueringskrav (B/E)	B-krav og E-krav besvares med JA/NEI og beskrivelse. B-krav beskrives kortfattet og enkelt. E-krav kan beskrives med inntil 2 A4-sider pr. kravpunkt med skriftstørrelse 12. Det er bare E-krav som evalueres.
+Arbeidskolonnene Ansvarlig, Bidragsyter, Q/A Ansvarlig, Status og Kommentar er lagt til for intern tilbudsproduksjon og følger strukturen i den vedlagte ansvarsmatrisen.
+Krav id	Kategorisering	Krav (alle under skal besvares)	Kravtype
+A: Absolutt
+B: Bør
+E: Evaluering	Besvarelse
+A: JA/NEI
+B/E: JA/NEI + løsningsbeskrivelse	Ansvarlig	Bidragsyter	Q/A Ansvarlig	Status	Kommentar	Statuskode	Forklaring
+1.	Generelle krav	0.1	Versjon 0.10 – Mal, klar for arbeid
+1.1	Generelle krav	Løsningen skal leveres som en SaaS-løsning.
+Leverandøren forplikter seg til å sikre at systemet til enhver tid har tilstrekkelig kapasitet for å støtte inntil 200 samtidige brukere uten vesentlig reduksjon i ytelsen. Tjenesten skal ha en månedlig tilgjengelighet på minimum 99,8 %, eksklusive planlagt vedlikehold som er varslet i samsvar med avtalen. Beregning av tilgjengelighet og konsekvenser ved manglende oppfyllelse reguleres i tjenestenivåavtalen.	A	Ja	Cloudops	0.7	0.2	Versjon 0.20 – Ansvar/nøkkelord godkjent
+1.2	Generelle krav	Drift, ordinært vedlikehold, feilrettinger, sikkerhetsoppdateringer og versjonsoppdateringer skal være inkludert i standardtjenesten og avtalt pris gjennom hele avtaleperioden.	A	Ja	Caroline	0.7	0.5	Versjon 0.50 – Under produksjon
+1.3	Generelle krav	Leverandøren bes beskrive: hvordan løsningen driftes, vedlikeholdes og oppdateres, varslingsrutiner og forventet nedetid, håndtering av kritiske feil og sikkerhetssårbarheter, hvordan mislykkede eller problematiske oppdateringer reverseres eller avhjelpes.	E	Ja	CloudOps	0.7	0.7	Versjon 0.70 – Produksjon ferdig – klar for KS
+1.4	Generelle krav	Løsningen skal ha en komponent for langtidslagring og avlevering av arkivmateriale som er godkjent etter Noark 5 versjon 5.0. Leverandøren skal vedlegge godkjenningsdokumentene:
+        -    Godkjenningsbrev fra Riksarkivet
+        -    Leverandørens egenerklæring
+        -    Vedlegg til egenerklæring	A	Ja. Se vedlegg "Vedlegg-Public 360 NOARK godkjenningsbrev med vedlegg"
+Vedlagt egenerklæring er basert på tidligere egenerklæring for Public 360°, med oppdaterte svar der produktets funksjonalitet i dag oppfyller krav som tidligere var angitt som «Nei» eller «Ikke aktuelt».	Erlend	Stein	0.7	Da de ettertrykkelig sier versjon 5.0 - skal vi da bare legge ved P360 brev - eller skal vi også legge ved eArchive da de snakker om komponent for langtidslagring og avlevering.	0.8	Versjon 0.80 – KS pågår (ikke fullført)
+1.5	Generelle krav	I tillegg til Noark-komponenten etter 1.4, skal løsningen ha et nettbasert brukergrensesnitt for saksbehandling og arkivfaglige oppgaver. Brukergrensesnittet skal som minimum støtte opprettelse, behandling, ferdigstilling, journalføring, søk og gjenfinning av saker og dokumenter, i samsvar med brukerens roller og rettigheter.	A	Ja	Caroline	0.7	0.9	Versjon 0.90 – KS fullført/godkjent
+1.6	Generelle krav	Løsningen skal støtte obligatoriske krav i Noark 5 versjon 5.0.	A	Ja	Morten L	Willy	0.9	obs, se oppdatert egenerklæring I bidroom	0.95	Versjon 0.95 – Layout og dokumentkontroll
+1.7	Generelle krav	Leverandøren bes visuelt beskrive sitt helhetlige løsningsforslag med overordnet informasjons-, applikasjons- og teknisk arkitektur, hvilke moduler løsningen består av og hvordan arkitekturen støtter sentrale krav til løsningen, på en enkel og forståelig måte for Kunden.	E	Ja	Caroline	0.5	1	Versjon 1.00 – ENDELIG (skal ikke endres)
+1.8	Generelle krav	Løsningen skal støtte de til enhver tid leverandørstøttede versjonene av Microsoft Edge og Google Chrome, uten behov for lokalt installerte nettlesertillegg.	A	Ja	Caroline	0.7
+1.9	Generelle krav	Løsningen støtter de til enhver tid lovpålagte krav om universell utforming. Løsningen skal være i tråd med Forskrift om universell utforming av IKT og WCAG.2.1 nivå A og AA.	A	Ja, Tjenesten er utviklet med universell utforming som en integrert del av produktutviklingen og understøtter gjeldende krav til universell utforming. Brukergrensesnittet utvikles i tråd med WCAG 2.1 nivå A og AA.
+Public 360° er et internt fagsystem for saksbehandling og arkiv, og omfattes ikke på samme måte som publikumsrettede IKT-løsninger av kravene i forskrift om universell utforming av IKT. Leverandøren arbeider likevel systematisk etter WCAG 2.1 og støtter per i dag 38 av 40 relevante krav. Løsningen videreutvikles løpende for å ivareta gjeldende og kommende lovpålagte krav til universell utforming.	Morten L	Jarle	0.9	Jarle skriver;
+Jeg er enig, “JA, men” er det sikreste her. Beskrivelsen er bra og treffende.
+
+Jeg mener vi i nøden kan svare et rent "JA", men da kan vi ende opp i en situasjon hvor kunden tolker dette annerledes enn oss og så blir det masse hassle for å forsvare JA-et.
+1.10	Generelle krav	Løsningen bør ha design og funksjonalitet som tilpasser seg til ulike operativsystemer, enheter og skjermstørrelser brukeren benytter (responsivt design). 
+
+Leverandør bes beskrive dekning, samt eventuelle funksjonelle begrensninger.	B	Ja	Morten L	Jarle	0.7
+1.11	Generelle krav	Løsningen skal ha muligheter for differensierte roller hos kunden, med ulike rettigheter knyttet til type rolle.	A	Ja	Caroline	0.7
+1.12	Generelle krav	Løsningen skal driftes i Norge og data skal lagres i Norge.
+
+Leverandøren bes dokumentere hvor data blir lagret og prosessert, og hvordan driftsansvaret ev. deles med underleverandører.	A	Ja	CloudOps	0.7
+1.13	Generelle krav	Det skal leveres systemdokumentasjon med detaljert beskrivelse av standardsystemet og virkemåte. Dokumentasjonen skal være på norsk	A	Ja	Caroline	0.7
+1.14	Generelle krav	Leverandør ajourfører systemdokumentasjonen fortløpende og tilgjengeliggjør dette for Kunden uoppfordret. Endringer som påvirker funksjonalitet, sikkerhet, integrasjoner, konfigurasjon eller bruk, skal dokumenteres.	A	Ja	Caroline	0.7
+1.15	Generelle krav	Det skal leveres en konfigurasjonsbeskrivelse som beskriver hvordan systemet er satt opp, strukturert og tilpasset.	A	Ja	Caroline	0.7
+1.16	Generelle krav	Systemet skal ha en rettighetsmatrise som gir oversikt over brukere/roller og hvilke ressurser (data, filer, funksjonalitet m.m.) de har tilgang til.	A	Ja	Caroline	0.7
+1.17	Generelle krav	Oppdateringer, feilrettinger og nye versjoner skal kunne innføres uten tap eller uautorisert endring av Kundens data, konfigurasjon, integrasjoner og oppsett. Eventuelle nødvendige tilpasninger skal varsles og avtales med Kunden i forkant.	A	Ja	Caroline	Morten J	0.7
+1.18	Generelle krav	Løsningen og tjenesten skal oppfylle det til enhver tid gjeldende regelverket som er relevant for leveransen, herunder arkivregelverket, personvernregelverket og offentleglova. Leverandøren skal uten ugrunnet opphold og innen lovbestemte ikrafttredelsesfrister gjennomføre nødvendige endringer i standardløsningen.	A	Ja	Caroline	Morten J	0.7
+1.19	Generelle krav	Videreutvikling av løsningen følger gjeldende rammeverk og relevante standarder fra myndighetene. 
+
+Leverandøren bes beskrive hvilke offentlige rammeverk, arkitekturprinsipper og åpne standarder som benyttes ved videreutvikling av løsningen, og hvordan leverandøren følger utviklingen i nasjonale krav og anbefalinger.	E	Ja	Morten J	Geir Are	0.7
+1.20	Generelle krav	Behov for oppgradering som følge av lovpålagte krav og sikkerhetsmessige hensyn (tetting av sårbarheter og sikkerhetsrisikoer) er inkludert i løsningen så snart de foreligger, uten økning i lisenskost.	A	Ja	Caroline	Morten J	0.7
+1.21	Generelle krav	Systemet har rutiner for endringshåndtering (nye versjoner, programoppdateringer, patcher) og det er mulig å ta ut driftsrapporter (for eksempel info om: tilgjengelighet, feilsituasjoner, oppdateringer).
+
+Beskriv rapporteringsmulighetene.	E	Ja - se Leverandørens utfyllende beskrivels av tjenesten	Bård	0.7	Release notes?
+1.22	Generelle krav	Leverandøren skal være Kundens koordinerende kontaktpunkt ved etablering og feilretting av integrasjoner som inngår i leveransen. Leverandøren skal bistå med konfigurasjon, feilsøking og koordinering mot relevante tredjeparter og dokumentere hvor feilen er lokalisert. 
+
+Beskriv hvordan dette kravet oppfylles.	E	JA	Anniken	Bård	0.7
+1.23	Generelle krav	Tjenesten skal ha et formelt testopplegg for integrasjon/tilkobling av komponenter og tjenester. Leverandør skal veilede Kunde frem til tidspunktet hvor komponent/tjeneste er i drift uten feil.
+
+Beskriv hvordan dette kravet oppfylles.	E	JA	Anniken	0.8
+1.24	Generelle krav	Det er viktig for FhM å kunne benytte felleskomponenter. Se oversikt over dagens fellesløsninger: https://samarbeid.digdir.no/felleslosninger/felleslosninger/1309
+
+Leverandøren skal beskrive:hvilke nasjonale fellesløsninger løsningen støtter i dag, hvilke integrasjoner som inngår i standardtjenesten, planlagte integrasjoner og forventet tidspunkt, hvordan nye fellesløsninger vurderes og innarbeides i produktets veikart.	E	Ja	Morten L	Olga	0.7
+1.25	Generelle krav	Leverandøren skal yte bistand til Kunden dersom Kunden ønsker å avslutte avtalen. Leverandøren legger til rette for at Kundens data blir overført til Kunden eller til tredjepart utpekt av Kunden i henhold til Noark 5 versjon 5.0 punkt 6.3.
+
+Kunden beholder eierskapet til Kundens data etter at kontrakten er avsluttet og til data er flyttet og/eller slettet fra tjenesten.
+
+Data skal utleveres i dokumenterte, åpne og maskinlesbare formater, med nødvendige metadata, logger, relasjoner og dokumentasjon. Leverandøren skal etter godkjent overføring slette gjenværende kopier i samsvar med avtalen og utstede en skriftlig slettebekreftelse.	A	JA	Anniken	Emilie	Rune	0.9
+1.26	Generelle krav	Ved en eventuell avslutning av avtale, jf. punkt 1.25. Leverandøren bes beskrive uttrekksformater, gjennomføringstid, avhengigheter og hvordan de vil planlegge og gjennomføre avslutningsbistanden.	E	JA	Anniken	Emilie	Stein	0.7
+1.27	Generelle krav	Ved et eventuelt systemskifte er det ønskelig å kunne migrere alt av data fra dagens system Public 360 online versjon 6.10.117 over til ny løsning, uten informasjonstap. Det vil si alle saker, dokumenter og dokumentfiler, varianter, versjoner i ulike filformater, samt metadata til alle disse elementene. Lik arkivstruktur i brukergrensesnittet skal videreføres.
+
+Data/informasjon fra dagens løsning skal være tilgjengelig i ny arkivløsning uten periodisering. Dette inkluderer videreføring av eksisterende tilganger, og metadata knyttet til innhold.
+
+Leverandører bes beskrive sin kompetanse, sine ressurser og kapasiteter for en slik migreringsjobb, samt hvordan de vil gå fram for å undersøke hva de trenger for å gjennomføre en slik migreringsjobb.	E	JA	Anniken	Stein	0.7
+1.28	Generelle krav	Leverandøren skal beskrive produktstrategi og veikart for de neste tre årene, herunder planlagt funksjonalitet, teknologiske endringer, utfasing av komponenter, bruk av åpne standarder og hvordan Kunden varsles og involveres ved vesentlige endringer.	E	Ja	Morten J	0.7
+1.29	Generelle krav	Leverandøren bes beskrive hvordan KI kan tas i bruk i løsningen, og hvilke planer/strategier som foreligger for denne teknologien.	E	Ja	Morten L	Sebastian	0.7
+1.30	Generelle krav	For å sikre effektiv tjenestetilgang skal løsningen støtte Microsoft Entra ID i rollen som Identity Provider. Dette forutsetter single-sign.on.	A	JA	Cloudops	0.7
+2.	Informasjonssikkerhet og personvern
+2.1	Informasjonssikkerhet og personvern	Leverandør skal ha en organisering og rutiner for informasjonssikkerhet for å sikre konfidensialitet, integritet og tilgjengelighet av kundens informasjon.	A	JA	CloudOps	0.7
+2.2	Informasjonssikkerhet og personvern	Informasjon som sendes over offentlig nett skal være kryptert og sikret.	A	JA	CloudOps	0.7
+2.3	Informasjonssikkerhet og personvern	Leverandøren skal følge de til enhver tid gjeldende regler for personvern, herunder personopplysningsloven og GDPR, og bistå Kunden slik at Kunden kan oppfylle sine forpliktelser etter personvernregelverket knyttet til data som blir berørt av denne avtalen.
+
+ 
+Databehandleravtale skal inngås for å regulere leverandørens behandling av personopplysninger på vegne av behandlingsansvarlig. Forsvarshistorisk museum og leverandør kommer til enighet om hvilken mal som benyttes for inngåelse av databehandleravtale. Forsvarshistorisk museums mal ligger vedlagt	A	Ja	Emilie	Nicolai	Viktoria	0.7
+2.4	Informasjonssikkerhet og personvern	Leverandøren skal ha en metode som sikrer at de tjenester, verktøy og systemer som tilbys Kunden gjennom Avtalen ivaretar kravene til innebygd personvern (Personvernforordningen artikkel 25) gjennom hele livsløpet til tjenesten/verktøyet/systemet.	A	Ja	Morten J	0.7
+2.5	Informasjonssikkerhet og personvern	Leverandøren skal gjennom hele kontraktsperioden ha et dokumentert styringssystem for informasjonssikkerhet i tråd med kravene i standarden ISO/IEC-27001.	A	Ja	Caroline	0.7
+2.6	Informasjonssikkerhet og personvern	Leverandøren skal tilby et verktøy for sikkerhetskopiering som gir god fysisk og logisk sikring av Kundens data. Backup-løsningen som Leverandør benytter skal tilby høy grad av sikkerhet, og være sertifisert ihht. ISO 27001 eller tilsvarende. Data skal lagres i Norge.	A	JA	CloudOps	0.7
+2.7	Informasjonssikkerhet og personvern	Leverandøren skal som en del av sin SaaS-tjeneste ha en backup-konfigurasjon som ivaretar: 
+        -    beskyttelse mot kryptovirus og ondsinnede handlinger.
+        -    beskyttelse mot utilsiktede handlinger. 
+        -    evne til hurtig å gjenopprette data.	A	JA	CloudOps	0.7
+2.8	Informasjonssikkerhet og personvern	Leverandøren skal gjennomføre periodisk test tilbakerulling av Kundens data fra sikkerhetskopiering i tråd med minstekravene i ISO27001.	A	JA	CloudOps	0.7
+2.9	Informasjonssikkerhet og personvern	Leverandøren skal ha rutiner og instruks som skal sørge for at driftspersonell ikke går inn i eller gir tilganger til Kundens data uten at Kunden spesifikt har bedt om dette, og at henvendelsen har gått gjennom på forhånd avklarte kanaler.	A	JA	CloudOps	0.7
+2.10	Informasjonssikkerhet og personvern	Tjenesten som Leverandøren tilbyr til Kunden, bør jevnlig undergå sikkerhetsrevisjon med Pentest utført av uavhengig tredjepart.
+
+Leverandøren bes bekrefte/avkrefte, samt gi en kort beskrivelse av rutiner for sikkerhetsrevisjon med Pentest.	B	JA - Det utføres årlig pentest av tjenesten. Tidligere utført av Watchcom, de siste årene utført av DNV.	Cloudops / Morten L	0.9	La inn en tekst basert på svaret her og 360° Online Security Specifications customer version.pdf bedt chr ta en rask QA
+2.11	Informasjonssikkerhet og personvern	Løsningen skal ha ulikt tilgangsnivå basert på rolle innad i løsningen hos Kunden. Dette innebærer at løsningen:
+
+ - Skal ha mulighet for tilgangsstyring, herunder gi, endre og slette tilganger i systemet av autoriserte personer hos Kunden. 
+ - Det skal være mulig å opprette ulike tilgangsgrupper hos Kunden.
+ - Det skal være mulig å opprette ulike roller på individ eller gruppenivå.
+ - Tilgangsstyringen skal kunne differensiere mellom saksnivå og dokumentnivå, og endringer på saksnivå bør arves til underliggende nivåer, inklusive filer.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt.	E	Ja	Morten L	0.7	Commitment med arving av tilgangsstyring (tilgangsgrupper) i SSB.
+2.12	Informasjonssikkerhet og personvern	Det skal være mulighet til å skille mellom lese- og skrivetilgang. Det skal være mulig å tildele tilgang til enkeltbrukere innenfor regelsett for hvilke brukere som kan ha tjenstlig behov for dette, og også til faste tilgangsgrupper med flere medlemmer.	A	Ja	Morten L	0.7	Tjenstlig behov?
+Kommentar Morten: 
+Jeg mener Ja kan forsvares. Kravet definerer ikke hva som menes med «tjenstlig behov», så ville ha definert det hvis jeg kunne skrevet. Jeg tolker dette i tråd med etablert need-to-know-prinsipp i offentlig forvaltning, hvor tilgang skal være knyttet til et konkret arbeidsrelatert behov for å utføre tildelte oppgaver, og begrenses til det som er nødvendig å lese eller endre. Dette samsvarer med prinsippene bak taushetsplikt etter forvaltningsloven og skjerming etter offentleglova. 360 støtter dette gjennom regelbasert rettighetsmatrise som etablerer rammene for hvem som kan tildeles tilgang (roller, tilgangsgrupper, organisatorisk tilhørighet og tokens), kombinert med mulighet for konkret tildeling til navngitte brukere eller faste tilgangsgrupper. 360 skiller eksplisitt mellom lese- og redigeringstilgang, og manuelle tildelinger kan bare utføres av autoriserte roller og innenfor eget myndighetsnivå. Etter min vurdering dekker dette både ordlyden og intensjonen i kravet.
+2.13	Informasjonssikkerhet og personvern	Det skal være mulig å konfigurere om skjerming skal kunne arves fra 
+saksmappe til journalpost, dokumentbeskrivelse og dokumentobjekt	A	Ja	Morten L	0.9	Administratorinnstillinger for Inherit Access Code From Case og Inherit Access Group From Case, som styrer om henholdsvis tilgangskode og tilgangsgruppe skal arves fra saksmappe til underliggende elementer.  Ved endring vil bruker bli spurt om oppdatering på underliggende nivåer.
+2.14	Informasjonssikkerhet og personvern	Det er behov for at løsningen logger endringer av metadata med Før-verdi, Etter-verdi, når endringen er utført og hvem som har utført endringen, i hele løsningen, både i arkiv- og i administrasjonsverktøy.	A	Ja	Morten L	0.7	Identisk med NAV krav 14. Her har vi svart ja
+2.15	Informasjonssikkerhet og personvern	Det er behov for at loggene er lett tilgjengelig i brukergrensesnittet, er forståelig og ikke innehar fremmedgjørende arkivtekniske begreper.
+
+Der hvor logg ikke er tilgjengelig i brukergrensesnittet, enten som 
+følge av produktet eller konfigurering av dette, bør informasjonen være tilgjengelig for autoriserte brukere og presenteres på en slik måte at denne er enkel å søke i og analysere.
+
+Beskriv hvordan løsningen støtter dette.	E	Ja	Morten L	0.7
+2.16	Informasjonssikkerhet og personvern	Løsningen bør ha et register som spesifiserer hvilke hendelser 
+som utløser registrering av logg/sporingsinformasjon	B	Ja	Morten L	0.7
+2.17	Informasjonssikkerhet og personvern	Løsningen skal kunne håndtere særlige kategorier av personopplysninger med tanke på skjerming slik at kun de med tjenstlig behov får tilgang til opplysningene.	A	Ja	Morten L	0.7	Kommentar Morten:
+Jeg mener Ja kan forsvares. Kravet sier ikke hvilke konkrete personopplysninger eller skjermingsmekanismer som skal benyttes. Jeg tolker derfor kravet som et funksjonelt krav om at løsningen skal kunne identifisere, skjerme og begrense tilgang til opplysninger med særlig beskyttelsesbehov, basert på et etablert need-to-know-prinsipp.
+360 støtter dette gjennom regelbasert tilgangsstyring med rettighetsmatrise, tilgangsgrupper, roller, organisatorisk tilhørighet, tokens og metadata som tilgangskode, gradering, sakstype og dokumentstatus. Dette gjør det mulig å etablere strengere tilgangsregler for saker og dokumenter med høy risiko eller særskilt skjermingsverdi.
+Tilgang kan begrenses til konkrete brukere, faste tilgangsgrupper eller brukere som oppfyller bestemte rolle- og organisatoriske kriterier. Uautoriserte elementer kan filtreres bort fra søk og visninger, og tilgangen kan styres separat for lesing, redigering og sletting. Kildene beskriver også mulighet for manuell tilgang på objektnivå når dette er begrunnet i tjenstlig behov.
+Etter min vurdering gir dette tilstrekkelig funksjonell dekning for at særlige kategorier av personopplysninger kan skjermes, slik at kun personer med et konkret arbeidsrelatert behov får tilgang. Kravet dekkes dermed både med hensyn til ordlyd og intensjon.
+2.18	Informasjonssikkerhet og personvern	Det bør kunne konfigureres at sensitive opplysninger ikke skal kunne 
+sendes på usikre kanaler.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt.	B	Ja	Morten L	0.7	Nevner og inkluderer 360° Restricted Mode siden det treffer kravet. NB: Løsningen forhindrer ikke at en bruker med legitim lesetilgang benytter andre klientfunksjoner eller eksterne verktøy til å videreformidle innhold. Kravet om å kunne konfigurere at sensitive opplysninger ikke skal kunne sendes på usikre kanaler ivaretas imidlertid gjennom kanalspesifikke sperrer basert på dokumentets metadata (tilgangskode) og konfigurasjon av tilgjengelige distribusjonskanaler.
+2.19	Informasjonssikkerhet og personvern	Leverandør bør ha kontroll på underleverandører og stille krav til at underleverandør også oppfyller kravene i ISO 27001	B	Emilie	Erlend	Erlend/Mohan	0.7
+2.20	Informasjonssikkerhet og personvern	Leverandør bør ha hovedsete i Norge, EØS eller i en stat som Norge har etablert sikkerhets- og forsvarssamarbeid med. For eventuelle sentrale underleverandører som håndterer utvikling, drift, lagring eller support av løsningen vil tilsvarende forhold bli vektlagt. Bakgrunnen er oppdragsgivers behov (som del av forsvarssektoren) for å begrense risiko knyttet til utenlandsk jurisdiksjon, myndighetsinnsyn og tilgang til data eller metadata.	E	Emilie	Erlend	Erlend/Skagseth	0.9
+3.	Brukergrensesnitt og brukervennlighet
+3.1	Brukergrensesnitt og brukervennlighet	Standardløsningen skal være brukervennlig og fleksibel. Dette innebærer at: 
+
+- Saksbehandlerne behøver gjøre få operasjoner for å komme til ønsket destinasjon (minimering av antall klikk for å nå et gitt mål). 
+- Det skal være få operasjoner for å kunne opprette saker, dokumenter etc. 
+- Løsningen har en logisk struktur og terminologi. 
+- Løsningen har mulighet for drag and drop av filer
+- Løsningen støtter prosessautomatisering og effektiv sak- og arkivforvaltning.
+
+Leverandør bes beskrive løsningen funksjonelt	E	Ja	Morten L	0.7
+3.2	Brukergrensesnitt og brukervennlighet	Det er et behov for funksjoner for generell saksbehandling med presentasjon av ulike elementer en gitt bruker har til behandling eller under arbeid, f.eks. arbeidslister og oppgaver. 
+
+Det er videre behov for intuitive funksjoner for å initiere saksbehandling ved å opprette nye saker og dokumenter og samhandle om disse, både i løsningen ved arbeidsflyt, og i samspill med samhandlingsløsninger.
+
+Leverandør bes beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7
+3.3	Brukergrensesnitt og brukervennlighet	Løsningen bør presentere mottatte oppgaver på en intuitiv måte og med sortering utfra type oppgave, slik at det er enkelt for saksbehandler å få oversikt. 
+Det er videre behov for at det finnes enkel oversikt over oppgaver man har sendt fra seg, oppgaver med frister, og svar på oppgaver i form av f.eks. at et dokument er godkjent etter at man har sendt det til godkjenning.
+
+Leverandør bes beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7
+3.4	Brukergrensesnitt og brukervennlighet	Løsningen bør ha en effektiv og brukervennlig søkefunksjon. Dette inkluderer: 
+-Mulighet for å søke på fulltekst i alle filtyper. 
+-Hvordan dokumenter og saker enkelt kan gjenfinnes. 
+-Hvordan søkeresultatet presenteres. 
+- Søkeresultat skal kunne sorteres/filtreres
+- Man skal kunne kombinere søk på metadatafelt fra sak- og dokumentnivå i samme søk
+- Det skal være mulighet for trunkering i søk
+- Det bør være mulighet for søk på tvers av aktivt og historisk arkiv
+
+Leverandør bes beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7
+3.5	Brukergrensesnitt og brukervennlighet	Løsningen bør har muligheter for å sette opp og tilpasse arbeidsflater/skrivebord uten bistand fra leverandøren. Eksempelvis ved:
+        -    personalisering av skrivebord
+        -    justering av metadatafelt som vises for brukeren
+
+Beskriv løsning teknisk og funksjonelt.	B	Ja	Morten L	0.7
+3.6	Brukergrensesnitt og brukervennlighet	I felt i veivisere, der hvor feltene er basert på et bakenforliggende register, bør det være mulig å få frem forslag til utfylling av feltet. Eks. ansvarlig person, kontakt, klasse m.v
+
+Leverandør bes beskrive løsningen funksjonelt.	B	Ja	Morten L	0.7
+3.7	Brukergrensesnitt og brukervennlighet	Løsningens brukergrensesnitt og hjelpefunksjon skal i sin helhet leveres på norsk.	A	Ja	Caroline	0.7
+3.8	Brukergrensesnitt og brukervennlighet	Løsningen skal kunne målrette brukerdokumentasjon i henhold til hvilke arbeidsoppgaver bruker utfører. Med målrettet menes at brukeren skal få tilgang til hjelp knyttet til den oppgaven/det arbeidsområdet som er relevant, og slippe å lete gjennom den samlede dokumentasjonen for å finne denne informasjonen.	A	Ja	Caroline	0.7
+3.9	Brukergrensesnitt og brukervennlighet	I oversikten over restanser bør det være mulig å identifisere hva som er nye dokumenter.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+3.10	Brukergrensesnitt og brukervennlighet	Det bør kunne sendes varsler ved alle relevante hendelser i løsningen. Det skal være enkelt å komme fra varselet, til relevant kontekst i sak/arkiv-løsningen.
+
+Beskriv hvilke varsler som kan sendes, og hvordan dette støttes i løsningen	E	Ja	Morten L	0.7
+3.11	Brukergrensesnitt og brukervennlighet	Bruker skal kunne administrere egne varsler	A	Ja	Caroline	0.7
+3.12	Brukergrensesnitt og brukervennlighet	Administrator bør kunne sette obligatoriske varsler	B	Ja	Morten L	0.7
+3.13	Brukergrensesnitt og brukervennlighet	Det bør være mulig å definere at det gis varsler basert på hvor lang tid som gjenstår til dato for en frist som er satt i systemet	B	Ja	Morten L	0.7
+3.14	Brukergrensesnitt og brukervennlighet	Det bør være mulig å definere at det gis varsler når det kommer noe nytt i et lagret søk eller når man følger en sak.	B	Ja	Morten L	0.7
+3.15	Brukergrensesnitt og brukervennlighet	Det bør være mulig å velge om man skal ha varsel på e-post eller i brukergrensesnittet, eller begge deler.	B	Ja	Morten L	0.7
+3.16	Brukergrensesnitt og brukervennlighet	Når et dokument kommer til en organisatorisk enhet ufordelt, bør leder i enheten kunne få et varsel om dette.	B	Ja	Morten L	0.7
+3.17	Brukergrensesnitt og brukervennlighet	Løsningen bør, knyttet til kritiske funksjoner som sletting, masseoppdatering mv. ha funksjonalitet for å varsle bruker om hva som vil skje slik at man har mulighet til å angre operasjonen før den er effektuert. F.eks. ved kontrollspørsmål.
+
+Beskriv løsning funksjonelt.	B	Ja	Morten L	0.7
+3.18	Brukergrensesnitt og brukervennlighet	En bruker bør kunne veksle mellom flere ulike roller i Løsningen.	B	Ja	Caroline	0.7
+3.19	Brukergrensesnitt og brukervennlighet	Arkivar bør ha mulighet til å ha en rolle/testbruker som er en ren saksbehandler for test av blant annet rettigheter, uten at arkivars utvidede rettigheter overstyrer og ikke viser de reelle begrensningene for saksbehandlerne i organisasjonen. 
+
+Beskriv løsning teknisk og funksjonelt.	B	Nei	Morten J	0.7	MJ: Vi har ikke mulighed for at separere rettigheder mellem profiler. Det må blive et nej.
+
+Morten L: Jeg beskriver alternativ approach med å jobbe I inprivate/incognito mode for "god effekt".
+3.20	Brukergrensesnitt og brukervennlighet	Løsningen bør ha en lett tilgjengelig forhåndsvisning av alle typer filer	B	Ja	Morten L	0.7	Qualified: Tjenesten har lett tilgjengelig forhåndsvisning og svært bred formatstøtte gjennom 360° File Viewer/PDF.js, men ikke bokstavelig alle filtyper. Vanlige dokument-, bilde-, tekst-, e-post- og produksjonsformater støttes. Lyd/video, enkelte arkiv-/containerformater og strukturerte dataformater forhåndsvises ikke. Svarkode avhenger derfor av om «alle typer filer» skal forstås absolutt eller som alle ordinære dokumentformater.
+4.	Motta og fange dokumentasjon
+4.1	Motta og fange dokumentasjon	Løsningen bør kunne integreres mot nåværende og fremtidige fagsystemer, programmer og nasjonale fellesløsninger. Det bør være mulig å utvide antall integrasjoner ved behov.
+Beskriv dette	E	Ja	Morten L	Rade	0.7	Sjekk opp mot  4.9 når det er ferdig, skrev inn Enhetsregistreret, som ikke er I listen da jeg forventer at den kanskje kommer inn via 4.9 :)
+4.2	Motta og fange dokumentasjon	Det skal være mulig å importere dokumenter fra Outlook, OneDrive, SharePoint og Teams på enklest mulig måte, uten å måtte mellomlagre.  
+
+Leverandøren skal beskrive løsningen teknisk og funksjonelt. 
+
+Beskriv om løsning er del av standard / i test / på veikart eller en tilleggstjeneste.	E	Ja	Morten L	0.7
+4.3	Motta og fange dokumentasjon	Det er en fordel at det er lett å se i officeprogrammene om et dokument er blitt arkivert i sak-/arkivløsningen. 
+
+Leverandøren skal beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7	NB: Få med at en fil som ligge rlokalt, som er lagret I 360° via dra og slipp eller filutforsker, ikke har en kobling, så hvios man forsøker å lagre den på nytt via samme metode elelr via 360° fanen vil man kunne lagre ett duplikat av en fil. 
+Beskrive office, ulike outlook, sharepoint og teams?
+4.4	Motta og fange dokumentasjon	Løsningen skal forholde seg til nasjonale felleskomponenter (https://www.regjeringen.no/no/tema/statlig-forvaltning/ikt-politikk/felleskomponenter/id2342598/) og gjøre tilgjengelig disse felleskomponentene i størst mulig grad.	A	Ja, Tjenesten forholder seg til nasjonale felleskomponenter og fellesløsninger og legger til rette for bruk av disse der de er relevante for Tjenestens funksjonsområde og Kundens arbeidsprosesser. Tjenesten har standardintegrasjoner mot flere sentrale nasjonale fellesløsninger og -komponenter, samt standardiserte integrasjonsgrensesnitt som legger til rette for samhandling med øvrige relevante felleskomponenter.
+Leverandøren følger utviklingen av nasjonale fellesløsninger, tilhørende standarder og regulatoriske føringer gjennom dialog med relevante myndigheter, produktleverandører, fagfora og Leverandørens kundemiljø. Hvilke nye felleskomponenter som etableres som standard støtte i Tjenesten vurderes som del av Leverandørens ordinære produktforvaltning, basert på blant annet regulatoriske krav, nasjonale føringer, relevans for Tjenestens funksjonsområde og behov i kundegrunnlaget.	Morten L	Products	0.7	DFØ K.126: JA, men vi la inn tilsvarende tekst.
+4.5	Motta og fange dokumentasjon	Løsningen skal ha integrasjon med Digdirs eFormidling for meldingsutveksling begge veier
+
+Kunde benytter kanalene DPO, DPI og DPV, samt har integrasjon mot folkeregisteret for å kunne sende dokumenter via DPI.	A	Ja	Caroline	0.7
+4.6	Motta og fange dokumentasjon	Løsningen bør ha selvdeklarert støtte for eFormidling 2.0 på: https://docs.digdir.no/docs/eFormidling/Introduksjon/fagsystem og støtte alle eFormidlingsprosesser.	E	Ja	Morten L	0.7	QA via epost olga, willy, mosvold, morten
+4.7	Motta og fange dokumentasjon	Løsningen skal ha mulighet for å publisere på eInnsyn	A	Ja	Caroline	0.7
+4.8	Motta og fange dokumentasjon	Løsningen skal tilby standard løsninger for integrasjon. Dette kan være ulike grensesnitt/API (er) for integrasjon(er).	A	Ja	Caroline	0.7
+4.9	Motta og fange dokumentasjon	Leverandør bes beskrive hvilke standard integrasjonsløsning(er) og grensesnitt som kan leveres med systemet.	E	Rade	0.9
+4.10	Motta og fange dokumentasjon	Leverandør skal gi en oversikt over hvilke anskaffelsesverktøy systemet kan integreres mot.
+
+Beskriv løsningens brukervennlighet og funksjonalitet, og hvordan leverandør samhandler i prosessen med å sette opp integrasjonen.
+
+Beskriv om løsning er del av standard / i test / på veikart eller en tilleggstjeneste.	E	Rade	0.9
+4.11	Motta og fange dokumentasjon	Leverandør skal gi en oversikt over hvilke ansettelsesverktøy systemet kan integreres mot.
+
+Beskriv løsningens brukervennlighet og funksjonalitet, og hvordan leverandør samhandler i prosessen med å sette opp integrasjonen.
+
+Beskriv om løsning er del av standard / i test / på veikart eller en tilleggstjeneste.	E	Duplikat	0.8	Duplikat av 4.10.
+4.12	Motta og fange dokumentasjon	Det er ønskelig at løsningen kan motta, registrere og sørge for initiell fordeling/ruting av informasjon og dokumentasjon til videre behandling automatisk fra strukturerte skjema. 
+
+Eksempel: FHM mottar søknader om tilskudd hvor skjema nå fylles ut og sendes inn per e-post. Det er ønskelig med veiledende tekster ved utfyllingen av skjema. Det er også ønskelig å kunne regulere hvem som kan sende inn, eks selskap med organisasjonsnummer kan, frivillig organisasjon med annen type nummer kan ikke osv.
+
+Beskriv løsning teknisk og funksjonelt.
+
+Beskriv om løsning er del av standard / i test / på veikart eller en tilleggstjeneste.	E	Ja	Morten L	0.7
+4.13	Motta og fange dokumentasjon	Oppsett av nye skjema og endringer på eksisterende skjema, bør kunne utføres selvstendig av kunden.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+4.14	Motta og fange dokumentasjon	Det er ønskelig av ulike skjema kan settes opp med forskjellige regler for arkivering, herunder legges på samme faste saksnummer eller generere nye saker. Det er en fordel hvis en del av saksbehandlingen kan automatiseres og at kunden får varsler ved behov.
+
+Beskriv hvordan løsningen støtter dette.	E	Ja	Morten L	0.7
+4.15	Motta og fange dokumentasjon	Det er ønskelig at løsningen har støtte for digital signatur/eSignering. Det bør være mulig å sende ut og få tilbake eSigneringsoppdrag til/fra en eller flere samtidig. Det bør også være mulig å signere selv. Signerte dokumenter bør legge seg direkte på korrekt sak og dokument.
+
+Eksempel: FHM forvalter kontrakter som må signeres i forbindelse med avtaler om utlån av gjenstand med andre museer og avtaler om donasjoner av gjenstander fra private personer.
+
+Leverandør bes beskrive dette teknisk og funksjonelt.
+
+Beskriv om løsning er del av standard / i test / på veikart eller en tilleggstjeneste.	E	Ja	Morten L	Caroline	0.7	De nevner interne, så gikk for 360° sign, men kan for lite om dette til å verifisere, benyttet input fra SSB.
+4.16	Motta og fange dokumentasjon	Leverandøren skal gjøre rede for hvordan integrasjoner kan 
+overvåkes og sikres.	E	Rade	0.9
+4.17	Motta og fange dokumentasjon	Dersom kravene i kravtabellen beskriver funksjonalitet som krever andre, eller flere integrasjoner eller moduler, skal disse legges til i Leverandørens lønsingsbeskrivelse og beskrives her	E	Ja	Caroline	0.2	Stille spørsmål
+5.	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte
+5.1	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Løsningen skal leveres med en brukerveileder på norsk.	A	Ja	Caroline	0.7
+5.2	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Leverandøren må tilby brukeropplæring som setter brukeren i stand til å løse oppgavene på en effektiv måte. Brukeropplæringen skal være på norsk, gjennom ulike formater som for eksempel:
+        -    skriftlig veiledningsmateriale
+        -    instruksjonsvideoer
+        -    e-læring
+        -    kurs i plenum
+        -    spesialkurs for konkrete roller som administrator, arkivar, saksbehandler, leder og superbrukere
+
+Leverandøren må ha opplegg for kursing av alle ansatte, per i dag ca 100 personer
+
+Brukeropplæringen bør i størst mulig grad være tilpasset Kundens organisasjon og oppgaveløsning.	A	JA	Anniken	0.8
+5.3	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Det skal være mulig for systemadministrator å lage egne skjema ved hjelp av skjemaløsning. Det skal gis tilbud på nødvendig opplæring i dette i implementeringsprosjektet.
+Beskriv kurstilbud for 2 personer.
+Pris oppgis i Bilag 6 - Prisskjema.	A	JA	Anniken	Simen	0.8
+5.4	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Det skal være mulig for systemadministrator å bygge maler inkludert språkvalg og flettefelter. Det skal gis tilbud på nødvendig opplæring i dette i implementeringsprosjektet.
+Beskriv kurstilbud – eks kurspris per kurs for inntil 2 personer.
+Pris oppgis i Bilag 6 - Prisskjema.	A	JA	Anniken	Ståle	0.8
+5.5	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Leverandøren skal gi veiledning og råd om valg av oppsett og konfigurering.	A	JA	Anniken	0.9
+5.6	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Tjenesten skal utføres i henhold til Leverandørens standardiserte
+tjenestenivåavtale.
+
+Leverandørens standardiserte Tjenestenivåavtale legges ved som vedlegg til bilag 4. Dersom Skytjenesteleverandør har en tjenestenivåavtale med andre vilkår skal denne avtalen legges ved som vedlegg til bilag 4 og avvikende skal
+synligjøres i dette bilaget.	A	Ja	Bård	Anders	0.9
+5.7	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Leverandøren skal ha en overvåking som følger med på om Løsningens ulike driftskomponenter er tilgjengelige, og responderer. Kundens driftspersonell skal automatisk varsles ved Hendelser som kan medføre
+brudd i tjenesten. Leverandør plikter da å iverksette tiltak (hendelseshåndtering).	A	Ja	Bård	Anders	0.7
+5.8	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Leverandøren bør tilby best mulig support / brukerstøtte / kundeservice for løsningen - både teknisk og faglig.
+
+Leverandøren bør ha et saksbehandlingssystem for å håndtere innrapportering av Hendelser og Henvendelser (ITSM-løsning) hvor kunden kan følge status på innrapporterte saker.
+
+Kunden bør varsles om hvorvidt ønsket handling faller innenfor SaaS-tjenesten, eller medfører ekstrakostnader. Eventuelle ekstrakostnader skal godkjennes av Kunden.
+
+Leverandøren skal beskrive løsningen for brukerhenvendelser. Beskriv hvordan Leverandør organiserer support og feilretting, hvordan henvendelser fra Kunde kategoriseres og prioriteres inkludert forventet responstid på ulike kategorier av henvendelser, inklusive sikkerhetsrelaterte henvendelser.
+
+Beskriv tilgjengelighet for support innenfor ordinær arbeidstid/utover ordinær arbeidstid og ved kritiske hendelser.	E	Ja - se Leverandørens utfyllende beskrivels av tjenesten	Bård	Anders	0.7
+5.9	Veiledning og opplæring av brukere hos Kunden – Tjenestenivå og brukerstøtte	Det er ønskelig at support og feilretting vedrørende tilleggsleveranser/delleveranser kategoriseres og prioriteres etter samme metode som for Standardløsningen med tanke på omfang, kvalitet og responstid.
+
+Leverandør bes beskrive løsningen.	E	Ja - se Leverandørens utfyllende beskrivels av tjenesten	Bård	Anders	0.7
+6.	Funksjonalitet i løsningen
+6.1	Funksjonalitet i løsningen	Løsningen skal ha en sikker løsning for sladding av dokumentfiler.	A	Ja	Caroline	0.7
+6.2	Funksjonalitet i løsningen	Løsningen bør ha mulighet for å masseoppdatere dokumenter som ligger på flere saker i en operasjon.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.3	Funksjonalitet i løsningen	Det er ønskelig at kunden selv kan opprette, og endre dokumentmaler uten bistand fra leverandør. Det er ønskelig at Kunden kan: 
+- definere og angi standard innhold, layout, plassering av flettefelt, topp-/bunntekst, logo, informasjonsmerkingsetikett (sensitivt o.l.) m.m. 
+- automatisk flette metadatafelt til definerte korresponderende felt i dokumentmalene.
+
+Beskriv hvordan løsningen støtter dette.	E	Ja	Morten L	0.7
+6.4	Funksjonalitet i løsningen	Fra en oversikt over dokumenter som skal kasseres eller vurderes på ny bør det:
+        -    Være mulig å åpne et dokument for presentasjon av innhold direkte fra oversikten
+        -    Autoriserte brukere bør kunne endre på metadata for bevaring og kassasjon for de enkelte dokumentene direkte fra oversikten	B	Ja	Morten L	0.7
+6.5	Funksjonalitet i løsningen	Det bør være mulig at kassasjonstid begynner å løpe fra tidspunktet når en saksmappe er avsluttet, men det skal også være mulig å fastsette andre regler for beregning av kassasjonsdato.  
+
+Beskriv hvordan løsningen støtter dette.	B	Nei	Morten L	0.7	Løsningen støtter i dag kun automatisk beregning av kassasjonsdato basert på sakens avslutningsdato. Ingen støtte støtte for alternative beregningsmetoder, slik som beregning fra opprettelsesdato, siste bruk av en arkivenhet eller virksomhetsspesifikke hendelsesdatoersom definert i noark.
+6.6	Funksjonalitet i løsningen	Funksjonen for kassasjon bør være i to trinn, slik at det i første omgang er mulig å gjenopprette de kasserte dokumentene. Endelig sletting av dokumentobjekt og dokument skal kunne skje på et senere tidspunkt.	B	Ja	Morten L	0.7	Qualified: I believe Yes can be justified if the requirement is interpreted functionally rather than as a specific implementation of a two-step recycle bin. The response explains that the solution supports reversible temporary deletion, followed by permanent deletion at a later stage through either (a) restoring the file and executing a new permanent file deletion, or (b) using the separate Deletion function to permanently delete the document (journal post) or case with underlying content once retention requirements are met. Wording is important here, så please do not edit.
+6.7	Funksjonalitet i løsningen	Det bør være mulig å få automatisert unzip funksjonalitet for 
+zippede filer.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.8	Funksjonalitet i løsningen	Det bør være mulig å avskrive flere journalposter samtidig.
+
+Leverandør bes beskrive funksjonell løsning.	B	Ja	Morten L	0.7
+6.9	Funksjonalitet i løsningen	Det bør være mulig å knytte merknad til journalpost i en operasjon ved avskrivning.	B	Ja	Morten L	0.7
+6.10	Funksjonalitet i løsningen	For en gitt, aktiv påloggingsidentifikator bør det være mulig å vise eller skrive ut en oversikt over hvilke rettigheter og fullmakter vedkommende har i Noark 5-løsningen	B	Ja	Morten L	0.7
+6.11	Funksjonalitet i løsningen	Endringer av metadata som presenteres i rapporten Offentlig journal bør kunne gjøres fra samme bildet som rapporten presenteres i.
+
+Leverandør bes beskrive funksjonell løsning.	B	Nei	Morten L	0.7	Morten: The text addresses the intent behind the requirement, but I believe No is still the safest compliance assessment, as inline editing from the same view is not supported. I have also included a separate paragraph describing how this is fully supported in 360° OpenGov Cases & Documents, while clearly stating that this functionality is not part of the proposed solution because the procurement requires eInnsyn for public journal publishing. Please decide whether to keep or remove the OpenGov section.
+6.12	Funksjonalitet i løsningen	Endringer som gjøres i metadata gjennom rapporten Offentlig journal bør kunne lagres tilbake i databasen slik at nye kjøringer av rapporten ikke fører til at samme oppgaver må gjøres flere ganger.
+
+Leverandør bes beskrive dette funksjonelt.	B	Ja	Morten L	0.7	Morten:  Consider Yes. I have reframed the response by distinguishing the read-only Public Journal report from the operational Document Overview worklists. My interpretation is that opening the underlying document directly from the worklist/report context (navigation/new tab), updating the metadata and saving it back to the database satisfies the intent of making corrections "through the report", as subsequent report generations and eInnsyn exports automatically reflect the updated metadata.
+6.13	Funksjonalitet i løsningen	Det bør være mulig å utelukke enkelte arkivdeler, dokumenttyper eller andre kriterier fra offentlig journal 
+
+Leverandør bes beskrive dette funksjonelt.	B	Ja	Morten L	0.7
+6.14	Funksjonalitet i løsningen	Det bør være mulig å skille ut konkrete organinterne dokumenter som skal leveres til eInnsyn uten å måtte levere alle (av f.eks dokumenttype X som oppfyller kriteriet om å være et organinternt dokument som viser en endelig beslutning), jf.  Arkivforskriften § 14 andre ledd bokstav a.
+
+Leverandør bes beskrive muligheten teknisk og funksjonelt.	B	Ja	Morten L	0.7	QA og avklaring pending via Chat med Willy. 
+Qualified: Standard bulk-eksport til eInnsyn kan filtrere på journalposttype, men støtter ikke seleksjon av enkelte journalposter innen samme type basert på dokumentkategori eller annen identifikator. Behovet kan håndteres gjennom dokumentkategori/metadata, lagret søk/arbeidsliste og individuell publisering til eInnsyn. Vurderes derfor som funksjonelt dekket gjennom en alternativ arbeidsprosess, men dekningen er svakere sett opp mot behovet som følger av Arkivforskrifta § 14 andre ledd bokstav a, hvor enkelte organinterne dokumenter alltid skal journalføres, herunder dokumenter som inneholder organets endelige avgjørelse i en sak. Løsningen har ikke et eget kriterium i bulk-eksporten for å skille disse konkrete dokumentene fra øvrige dokumenter med samme journalposttype.
+6.15	Funksjonalitet i løsningen	Det bør være mulig å republisere til eInnsyn ved endringer i metadata.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.16	Funksjonalitet i løsningen	Det skal være mulig med automatisert import av innsynsbegjæringer fra eInnsyn.	A	Ja	Caroline	0.7
+6.17	Funksjonalitet i løsningen	Innsynskrav som mottas fra eInnsyn bør knyttes direkte til dokumentet innsynet omhandler. Det er behov for at saksbehandler har en brukervennlig og enkel oversikt over sine innsyn til behandling, inkludert frister, varsling, og valg for å gi helt eller delvis innsyn, avslå innsyn, og sende foreløpig svar i samme flate. 
+
+Leverandør bes beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7
+6.18	Funksjonalitet i løsningen	Dersom både ansvarlig person og enhet er deaktivert ved import av innsynsbegjæring, skal det være mulig for rolle arkivar å fange opp disse innsynsbegjæringene.	A	Ja	Morten L	0.7	Støtter  via setting, Default Responsible Unit for RFA
+6.19	Funksjonalitet i løsningen	Dersom en automatisert innsynsbegjæring ikke kan importeres, bør det sendes varsel med informasjon om hva som er grunnen til manglende import. Det bør kunne konfigureres hvem som skal ha dette varslet.	B	Ja	Morten L	0.7
+6.20	Funksjonalitet i løsningen	Løsningen bør ha funksjonalitet som gjør det enkelt for en saksbehandler/leder å lage en sladdet versjon (offentlig versjon) av et elektronisk dokument, samt å enkelt lagre versjonen på journalposten. Det er denne versjonen som da skal sendes ut ved en innsynsbegjæring.
+
+Leverandør bes beskrive muligheten funksjonelt.	E	Ja	Morten L	0.7
+6.21	Funksjonalitet i løsningen	Ved svar på innsynsbegjæring skal det være mulig benytte predefinerte maler med standardisert tekst med informasjon om hvilke dokument det er gitt innsyn i og vedlagte filer. Malene skal ha flettet inn informasjon om hjemmel for avslag/begrensning i innsyn, eventuelle offentlige varianter av filene og informasjon om klageadgang.	A	Ja	Morten L	0.7
+6.22	Funksjonalitet i løsningen	Det bør være e-postadresse til den som ber om innsyn via eInnsyn som settes på automatisk når saksbehandler svarer på innsynskravet. Det er videre ønskelig med mulighet for å definere felles virksomhets-avsenderadresse.	B	Ja	Morten L	0.7
+6.23	Funksjonalitet i løsningen	Det bør være mulig å konfigurere hvilke roller som får anledning til å fordele dokumenter til hvilke nivåer i organisasjonen. Det bør være mulighet for at rettighetene til å fordele kan variere for ulike roller og deler av organisasjonen.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt.	B	Ja	Morten L	0.7
+6.24	Funksjonalitet i løsningen	I oversikten over ufordelte dokumenter til enheten bør det være mulig å markere flere dokumenter og fordele disse til saksbehandler i én operasjon	B	Ja	Morten L	0.7
+6.25	Funksjonalitet i løsningen	Løsningen bør ha støtte for funksjoner som gjør det mulig at den som inngår i arbeidsflyt og som skal utføre en oppgave/aktivitet i flyten blir varslet om dette, jf Noark 5 versjon 5.0 krav 3.3.5.	B	Ja	Morten L	0.7
+6.26	Funksjonalitet i løsningen	Et dokument som er under redigering, bør kunne sendes på arbeidsflyt. Når et dokument som er under redigering sendes på arbeidsflyt, bør alle mottakere av flyten automatisk autoriseres for tilgang til dokumentet uavhengig av øvrig autorisasjon.
+
+Leverandør bes beskrive rettighetsmulighetene.	E	Ja	Morten L	0.7
+6.27	Funksjonalitet i løsningen	Det bør være mulig at mottaker av en godkjenning kan både godkjenne og ekspedere i én operasjon.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt, samt ta med bilder eller videosnutt for illustrasjon.	B	Ja	Morten L	0.7
+6.28	Funksjonalitet i løsningen	Løsningen bør ha støtte for varsel når arbeidsflyt er fullført.	B	Ja	Morten L	0.7
+6.29	Funksjonalitet i løsningen	Ekspederingskanal bør kunne velges automatisk utfra innhold, metadata, regler for sending, og hvordan mottaker legges inn.
+Kanal skal kunne styres etter type mottaker, ut fra begrensninger knyttet til arkivdeler eller sakstyper.
+Eksempelvis: om man legger bruker inn som mottaker fra Folkeregisteret, skal tjenesten kontrollere KRR og foreslå sending via Digital post til innbygger, dersom innbygger ikke har reservert seg. 
+
+Det er behov for at det mulig å endre kanal.
+
+Leverandøren bes beskrive løsningen teknisk og funksjonelt.	E	Ja	Morten L	0.7	NB: Qualified: Case type requirements are addressed indirectly through general access code configuration (validity to case) and dispatch channel rules (allowed acces codes).Do not mention Subarchive sine its Case or Subarchive.  KRR validation is performed by the selected dispatch channel, not by the solution itself.
+6.30	Funksjonalitet i løsningen	Det bør være mulig å la være å konvertere alle filer ved en ekspedering (eks Excel-filer som ofte blir uleselige som pdf)	B	Ja	Morten L	0.7
+6.31	Funksjonalitet i løsningen	Løsningen bør støtte at Sentralt postmottak som avsenderadresse settes som default, når kanal for utsending er e-post.	B	Ja	Morten L	0.7	Sjekket nettopp med Chr. Svar fra DFØ
+6.32	Funksjonalitet i løsningen	Bruker bør varsles eller stoppes avhengig av skjerming/tilgangsstyring når hen prøver å sende sensitive dokumenter som vedlegg i en e-post. 
+
+Leverandøren bes beskrive løsningen funksjonelt.	B	Ja	Morten L	0.7	Qualified: Vi dekker «stoppes og varsles» godt ved kontrollert ekspedering, hvor tilgangskode kan benyttes til å sperre e-post som ekspederingskanal og brukeren varsles ved forsøk. Den ordinære funksjonen Send som vedlegg i e-post, og eventuelle andre delingsmuligheter utenfor ekspederingsfunksjonen, har imidlertid ikke tilsvarende dynamisk kontroll basert på dokumentets tilgangskode. Dette er et mulig gap dersom kravet tolkes til å omfatte all utsendelse av dokumenter som e-postvedlegg. 360° Restricted Mode reduserer gapet for særlig sensitiv dokumentasjon ved å fjerne blant annet funksjonen for sending som e-postvedlegg og annen delingsfunksjonalitet, og er derfor tatt med i besvarelsen som et supplerende sikkerhetsnivå.
+6.33	Funksjonalitet i løsningen	Det skal være mulig å fange opp (av saksbehandler og av arkivar) forsendelser som har feilet og håndtere dem slik at de ekspederes korrekt.	A	Ja	Caroline	0.7
+6.34	Funksjonalitet i løsningen	Det bør være mulig for brukere å fjerne et dokument fra sak på en enkel måte, dersom dokument er feil registrert og ikke skal arkiveres. Dokumentet skal ikke være tilgjengelig for saksbehandlere etterpå, kun for autoriserte brukere.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.35	Funksjonalitet i løsningen	Det bør være mulig å konfigurere hvem som default skal ha lese- eller skrivetilgang til uferdige dokumenter. Saksbehandler skal selv kunne gi andre slik tilgang til egne uferdige dokumenter.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.36	Funksjonalitet i løsningen	Det bør være mulig å definere om en mal skal være tilgjengelig for alle i organisasjonen, for en eller flere spesifikke organisatoriske enheter, for en eller flere definerte brukere, eller for en eller flere definerte roller.	B	Ja	Morten L	0.7	Qualified: Not all from list of "examples"
+6.37	Funksjonalitet i løsningen	Det bør være støtte for standardtekster som kan flettes inn i dokumenter.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt.	B	Ja	Morten L	0.7
+6.38	Funksjonalitet i løsningen	Maler bør kunne kategoriseres slik at brukere kun får opp maler som er aktuelle i den konteksten brukeren står i. Konteksten kan være bestemte saks- eller registreringstyper, prosesser, organisatorisk tilhørighet, type bruker og lignende.
+
+Beskriv hvordan løsningen støtter dette	B	Ja	Morten L	0.7
+6.39	Funksjonalitet i løsningen	Det bør være mulig å navigere tilbake til et søkeresultat og søkekriterier etter å ha gått inn på et treff i søkeresultatet.
+
+Beskriv hvordan løsningen støtter dette	B	Ja	Morten L	0.7
+6.40	Funksjonalitet i løsningen	Det bør være mulig å søke basert på at metadatafeltet ikke er utfylt.	B	Ja	Morten L	0.7
+6.41	Funksjonalitet i løsningen	Søkeresultat bør kunne eksporteres til ulike format, f.eks Excel, word mv.	B	Ja	Morten L	0.7
+6.42	Funksjonalitet i løsningen	Det bør være mulig å lagre og gjenbruke et søk med bruk av samme søkekriterier.	B	Ja	Morten L	0.7
+6.43	Funksjonalitet i løsningen	Det bør være direkte tilgang fra søkeresultatet til sak eller dokument, samt forhåndsvisning av dokumentfilene i søkeresultatet.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.44	Funksjonalitet i løsningen	Det er behov for at brukere kan lagre favoritter, opprette snarveier etc. for hurtig tilgang til saker og dokumenter. 
+
+Leverandør bes beskrive løsningen funksjonelt.	E	Ja	Morten L	0.7
+6.45	Funksjonalitet i løsningen	Filer bør kunne OCR behandles. Det skal gjøres rede for begrensninger i dette.	B	Ja	Morten L	0.7
+6.46	Funksjonalitet i løsningen	Det bør være mulig å kjøre rapporter over skadede filer og 
+passordbeskyttede filer som gjør at konvertering ikke kan gjennomføres eller at filen ikke kan åpnes.
+
+Leverandør bes beskrive løsningen teknisk og funksjonelt.	B	Ja	Morten L	0.7	Qualified, ingen egen rapport
+6.47	Funksjonalitet i løsningen	Det bør være mulig å legge til en eller flere stedfortredere i løsningen.	B	Ja	Morten L	0.7
+6.48	Funksjonalitet i løsningen	Det bør være mulig å definere stedfortredere sekvensielt fremover i tid.	B	Ja	Morten L	0.7
+6.49	Funksjonalitet i løsningen	Når en stedfortreder er aktivisert bør denne få tilgang til å utføre oppgaver basert på leder sin rolle uten at denne må ha en fast lederrolle. Tilganger til personalarkiv skal ikke gis automatisk til stedfortreder.	B	Ja	Morten L	0.7	Qualified
+6.50	Funksjonalitet i løsningen	Logg bør vise at handlinger som utføres som stedfortreder, er utført på vegne av den du er stedfortreder for.
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	Trenger QA av PM	0.7	Qualified
+6.51	Funksjonalitet i løsningen	Det er ønskelig at løsningen har gode funksjoner for å presentere data og innsikt i visuelle fremstillinger (grafer, kakediagrammer, rapporter ol) for å gi god oversikt over status, progresjon, styringsdata, arbeidstrykk, produktivitet, flaskehalser etc. for ulike roller og ulike behov. Data som bør støttes i en slik funksjon er alle relevante felt / metadata.
+
+Beskriv hvordan løsningen støtter dette.	E	Ja	Morten L	0.7
+6.52	Funksjonalitet i løsningen	Det bør være mulig å eksportere og bearbeide data fra slike visuelle oversikter / fremstillinger (f.eks. eksportere til Excel, andre datavisualiseringsverktøy ol).
+
+Beskriv hvordan løsningen støtter dette.	B	Ja	Morten L	0.7
+6.53	Funksjonalitet i løsningen	Det skal være mulig å definere statistikker på håndtering av 
+Innsynsbegjæringer.	A	Ja	Caroline	0.7
+Bilag 3	JA	Anniken	0.7
+Bilag 4	Bård	0.9
+Bilag 5	Emilie	Nicolai	0.5
+Bilag 6	Emilie	Nicolai	0.5
+Bilag 9	Erlend	0.9
+DBPA	Emilie	Viktoria	0.5
+## sheet2.xml
+Estimation (hours)
+Instans/Modul	Min.	Max.	Likely	Include
+360 Miljøer
+Produksjonsmiljø	Yes
+Testmiljø	Yes
+eArchive	Opsjoner	Include
+BASIC
+AD Sync	6	24	15	Yes
+Dispatch	0	0	0	Yes
+Template Designer	1	2	1.5	Yes
+Format Converter	2	6	4	Yes
+Archive Format Validator	2	6	4	Yes
+BOARD AND MEETING MANAGEMENT
+Board and Council	6	10	8	Tredjepartsintegrasjoner	Include
+Decision Tracking	8	12	10	Third party integrations (1 kobling - OneDrive)?
+eMeetings Prepare	15	19	17
+eMeetings Live	15	19	17
+Meeting Management	1	1	1
+eManager	1	2	1.5
+DIGITAL COMMUNICATION
+Integration: SvarInn (NO)	8	16	12
+Integration: SvarUt (NO)	8	16	12
+Dispatch Adapter: DPI	2	6	4	Yes
+Dispatch Adapter: eFormidling	12	24	18	Yes
+CENTRAL REGISTRIES
+Integration: Folkeregisteret	4	10	7	Yes
+Integration: Folkeregisteret Update	2	4	3	Yes
+Integration: Enhetsregisteret	4	10	7	Yes
+Integration: Enhetsregisteret Update	2	4	3	Yes
+Cadastre Integration	4	12	8
+TRANSPARENCY
+Information Act Request	20	24	22	Yes
+OpenGov 2.0	14	20	17
+Public Journal	16	18	17
+Public Journal File Server	0	0	0
+OpenGov Cases and Documents	18	22	20
+OpenGov Webservices	0	0	0
+eInnsyn Export	4	4	4	Yes
+FileViewer	4	4	4	Yes
+DOCUMENT MANAGEMENT
+Contract Management	10	12	11
+Policy Documents	10	18	14	Yes
+INTELLIGENT PRODUCTIVITY PLATFORM
+Archive Inspector	30	30	30	Yes
+Mimir	4	4	4	Yes
+THIRD PARTY INTEGRATION TOOLS
+PROCESS LIBRARY (ARCHIVING BY DESIGN)
+Process Library: Startskudd	7	10	8.5
+Process Library: Everyone	14	21	17.5
+Process Library: Landbruksdirektoratet	22	26	24
+Process Library: Email Archiving	8	11	9.5
+AutoSaver	4	4	4	Yes
+Integration: Webcruiter	8	16	12
+Integration: Webcruiter	4	6	5
+COLLABORATION IN MS365
+Integration: MS Teams	10	10	10	Yes
+Integration: MS Office Apps	10	14	12	Yes
+Integration: Sharepoint	12	16	14	Yes
+FILE MANAGEMENT
+Scanning	6	10	8
+PDF Stamping	10	18	14
+eSigning Connect	6	8	7	Yes
+Sign	33	46	39.5	Yes	ref krav 4.15 signere selv (men de har digdir I dag ser jeg)
+ADDITIONAL
+Template Connect	14	16	15	No
+Restricted Mode	22	26	24	Yes
+Process Engine	4	4	4	No
+ANNET
+Search Assistant	3	9	6	Yes
+Management Reporting API	20	28	24	Yes	6.52
+Flow	?	?	?	Yes
+Collect	?	?	?	Yes
+360° Third party integration tools (OneDrive)	Yes	Krav 4.2
+Estate? Se liste over dagens moduler (finner ikke noen eiendomspesifikke krav though)

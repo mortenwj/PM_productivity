@@ -1,0 +1,50 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Bilag 2.i Leverandørens forud-
+sætninger til Kundens it-miljø 
+Dynamisk indkøbssystem  02.19  Fagsystemer  (202 4) 
+Kontrakt om levering af ESDH løsning til Danmarks Nationalbank 
+SKI0219.2503.0030 
+Version 2.0
+
+## Page 2
+Bilag 2.i Leverandørens forudsætninger til Kundens it-miljø  
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024)   
+ 
+ 
+ 
+Version 2.0   Side 2 af 4 
+ 
+Indhold 
+1 Indledning ................................ ................................ ................................ ...............................  3 
+2 Leverandørens forudsætninger ................................ ................................ ............................ 4
+
+## Page 3
+Bilag 2.i Leverandørens forudsætninger til Kundens it-miljø  
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024)   
+ 
+ 
+ 
+Version 2.0   Side 3 af 4 
+1 Indledning 
+I dette bilag har Leverandøren angivet forudsætninger til Kundens it-miljø, som er nødvendige for 
+levering af Servicen og/eller opfyldelse af Servicemål.
+
+## Page 4
+Bilag 2.i Leverandørens forudsætninger til Kundens it-miljø  
+Dynamiske indkøbssystem 02.19 Fagsystemer (2024)   
+ 
+ 
+ 
+Version 2.0   Side 4 af 4 
+2 Leverandørens forudsætninger 
+Krav til kundens infrastruktur er beskrevet i den nuværende version af dokumentet "360° Online: In-
+frastructure requirements and recommendations - 360° Client files" med følgende link: 
+https://si.business360online.com/biz/v2-pbr/shareable/directlink/publicfile?id=VDZXWUkvNEJ-
+pRWVwV0NPaFRUcTFqZFBQQUovUXVPaElVVEIrNDZXazk0cndTWWdScE-
+FEL2toUmFFdFZsbzdueQ%3D%3D&authkey=PUBLIC-7016-45C6-9B40-8FC583AB9CF4&fi-
+lename=360+Infrastructure+requirements+and+recommendations+-+Client+files.PDF&disposi-
+tion=inline 
+Information opdateres løbende.

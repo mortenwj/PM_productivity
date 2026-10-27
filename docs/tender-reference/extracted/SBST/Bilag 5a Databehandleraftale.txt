@@ -1,0 +1,301 @@
+Standardkontraktsbestemmelser
+I henhold til artikel 28, stk. 3, i forordning 2016/679 (databeskyttelsesforordningen) med henblik på databehandlerens behandling af personoplysninger
+mellem:
+Social- og Boligstyrelsen
+CVR 26144698
+Lerchesgade 35, 5
+5000 Odense C
+DK – Danmark
+herefter ”den dataansvarlige”
+og
+herefter ”databehandleren”
+der hver især er en ”part” og sammen udgør ”parterne”
+HAR AFTALT følgende standardkontraktsbestemmelser (Bestemmelserne) med henblik på at overholde databeskyttelsesforordningen og sikre beskyttelse af privatlivets fred og fysiske personers grundlæggende rettigheder og frihedsrettigheder i forbindelse med:
+Angiv konkret projekt /formål: Levering af ESDH-system
+Præambel
+Disse Bestemmelser fastsætter databehandlerens rettigheder og forpligtelser, når denne foretager behandling af personoplysninger på vegne af den dataansvarlige.
+Disse bestemmelser er udformet med henblik på parternes efterlevelse af artikel 28, stk. 3, i Europa-Parlamentets og Rådets forordning (EU) 2016/679 af 27. april 2016 om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger og om ophævelse af direktiv 95/46/EF (databeskyttelsesforordningen).
+I forbindelse med levering af tjeneste behandler databehandleren personoplysninger på vegne af den dataansvarlige i overensstemmelse med disse Bestemmelser.
+Bestemmelserne har forrang i forhold til eventuelle tilsvarende bestemmelser i andre aftaler mellem parterne.
+Der hører fire bilag til disse Bestemmelser, og bilagene udgør en integreret del af Bestemmelserne.
+Bilag A indeholder nærmere oplysninger om behandlingen af personoplysninger, herunder om behandlingens formål og karakter, typen af personoplysninger, kategorierne af registrerede og varighed af behandlingen.
+Bilag B indeholder den dataansvarliges betingelser for databehandlerens brug af underdatabehandlere og en liste af underdatabehandlere, som den dataansvarlige har godkendt brugen af.
+Bilag C indeholder den dataansvarliges instruks for så vidt angår databehandlerens behandling af personoplysninger, en beskrivelse af de sikkerhedsforanstaltninger, som databehandleren som minimum skal gennemføre, og hvordan der føres tilsyn med databehandleren og eventuelle underdatabehandlere.
+Bilag D indeholder bestemmelser vedrørende andre aktiviteter, som ikke er omfattet af Bestemmelserne.
+Bestemmelserne med tilhørende bilag skal opbevares skriftligt, herunder elektronisk, af begge parter.
+Disse Bestemmelser frigør ikke databehandleren fra forpligtelser, som databehandleren er pålagt efter databeskyttelsesforordningen eller enhver anden lovgivning.
+Den dataansvarliges rettigheder og forpligtelser
+Den dataansvarlige er ansvarlig for at sikre, at behandlingen af personoplysninger sker i overensstemmelse med databeskyttelsesforordningen (se forordningens artikel 24), databeskyttelsesbestemmelser i anden EU-ret eller medlemsstaternes nationale ret og disse Bestemmelser.
+Den dataansvarlige har ret og pligt til at træffe beslutninger om, til hvilke(t) formål og med hvilke hjælpemidler, der må ske behandling af personoplysninger.
+Den dataansvarlige er ansvarlig for blandt andet at sikre, at der er et behandlingsgrundlag for behandlingen af personoplysninger, som databehandleren instrueres i at foretage.
+Databehandleren handler efter instruks
+Databehandleren må kun behandle personoplysninger efter dokumenteret instruks fra den dataansvarlige, medmindre det kræves i henhold til EU-ret eller medlemsstaternes nationale ret, som databehandleren er underlagt. Denne instruks skal være specificeret i bilag A og C. Efterfølgende instruks kan også gives af den dataansvarlige, mens der sker behandling af personoplysninger, men instruksen skal altid være dokumenteret og opbevares skriftligt, herunder elektronisk, sammen med disse Bestemmelser.
+Databehandleren underretter omgående den dataansvarlige, hvis en instruks efter vedkommendes mening er i strid med denne forordning eller databeskyttelsesbestemmelser i anden EU-ret eller medlemsstaternes nationale ret.
+Fortrolighed
+Databehandleren må kun give adgang til personoplysninger, som behandles på den dataansvarliges vegne, til personer, som er underlagt databehandlerens instruktionsbeføjelser, som har forpligtet sig til fortrolighed eller er underlagt en passende lovbestemt tavshedspligt, og kun i det nødvendige omfang. Listen af personer, som har fået tildelt adgang, skal løbende gennemgås. På baggrund af denne gennemgang kan adgangen til personoplysninger lukkes, hvis adgangen ikke længere er nødvendig, og personoplysningerne skal herefter ikke længere være tilgængelige for disse personer.
+Databehandleren skal efter anmodning fra den dataansvarlige kunne påvise, at de pågældende personer, som er underlagt databehandlerens instruktionsbeføjelser, er underlagt ovennævnte tavshedspligt.
+Behandlingssikkerhed
+Databeskyttelsesforordningens artikel 32 fastslår, at den dataansvarlige og databehandleren, under hensyntagen til det aktuelle tekniske niveau, implementeringsomkostningerne og den pågældende behandlings karakter, omfang, sammenhæng og formål samt risiciene af varierende sandsynlighed og alvor for fysiske personers rettigheder og frihedsrettigheder, gennemfører passende tekniske og organisatoriske foranstaltninger for at sikre et beskyttelsesniveau, der passer til disse risici.
+Den dataansvarlige skal vurdere risiciene for fysiske personers rettigheder og frihedsrettigheder, som behandlingen udgør, og gennemføre foranstaltninger for at imødegå disse risici. Afhængig af deres relevans kan det omfatte:
+pseudonymisering og kryptering af personoplysninger
+evne til at sikre vedvarende fortrolighed, integritet, tilgængelighed og robusthed af behandlingssystemer og -tjenester
+evne til rettidigt at genoprette tilgængeligheden af og adgangen til personoplysninger i tilfælde af en fysisk eller teknisk hændelse
+en procedure for regelmæssig afprøvning, vurdering og evaluering af effektiviteten af de tekniske og organisatoriske foranstaltninger til sikring af behandlingssikkerhed.
+Efter forordningens artikel 32 skal databehandleren – uafhængigt af den dataansvarlige – også vurdere risiciene for fysiske personers rettigheder, som behandlingen udgør, og gennemføre foranstaltninger for at imødegå disse risici. Med henblik på denne vurdering skal den dataansvarlige stille den nødvendige information til rådighed for databehandleren, som gør vedkommende i stand til at identificere og vurdere sådanne risici.
+Derudover skal databehandleren bistå den dataansvarlige med vedkommendes overholdelse af den dataansvarliges forpligtelse efter forordningens artikel 32, ved bl.a. at stille den nødvendige information til rådighed for den dataansvarlige vedrørende de tekniske og organisatoriske sikkerhedsforanstaltninger, som databehandleren allerede har gennemført i henhold til forordningens artikel 32, og al anden information, der er nødvendig for den dataansvarliges overholdelse af sin forpligtelse efter forordningens artikel 32.
+Hvis imødegåelse af de identificerede risici – efter den dataansvarliges vurdering – kræver gennemførelse af yderligere foranstaltninger end de foranstaltninger, som databehandleren allerede har gennemført, skal den dataansvarlige angive de yderligere foranstaltninger, der skal gennemføres, i bilag C.
+Anvendelse af underdatabehandlere
+Databehandleren skal opfylde de betingelser, der er omhandlet i databeskyttelsesforordningens artikel 28, stk. 2, og stk. 4, for at gøre brug af en anden databehandler (en underdatabehandler).
+Databehandleren må således ikke gøre brug af en underdatabehandler til opfyldelse af disse Bestemmelser uden forudgående generel skriftlig godkendelse fra den dataansvarlige.
+Databehandleren har den dataansvarliges generelle godkendelse til brug af underdatabehandlere. Databehandleren skal skriftligt underrette den dataansvarlige om eventuelle planlagte ændringer vedrørende tilføjelse eller udskiftning af underdatabehandlere med mindst 30 dages varsel og derved give den dataansvarlige mulighed for at gøre indsigelse mod sådanne ændringer inden brugen af de(n) omhandlede underdatabehandler(e). Listen over underdatabehandlere, som den dataansvarlige allerede har godkendt, fremgår af bilag B.
+Når databehandleren gør brug af en underdatabehandler i forbindelse med udførelsen af specifikke behandlingsaktiviteter på vegne af den dataansvarlige, skal databehandleren, gennem en kontrakt eller andet retligt dokument i henhold til EU-retten eller medlemsstaternes nationale ret, pålægge underdatabehandleren de samme databeskyttelsesforpligtelser som dem, der fremgår af disse Bestemmelser, hvorved der navnlig stilles de fornødne garantier for, at underdatabehandleren vil gennemføre de tekniske og organisatoriske foranstaltninger på en sådan måde, at behandlingen overholder kravene i disse Bestemmelser og databeskyttelsesforordningen.
+Databehandleren er derfor ansvarlig for at kræve, at underdatabehandleren som minimum overholder databehandlerens forpligtelser efter disse Bestemmelser og databeskyttelsesforordningen.
+Underdatabehandleraftale(r) og eventuelle senere ændringer hertil sendes – efter den dataansvarliges anmodning herom – i kopi til den dataansvarlige, som herigennem har mulighed for at sikre sig, at tilsvarende databeskyttelsesforpligtelser, som følger af disse Bestemmelser, er pålagt underdatabehandleren. Bestemmelser om kommercielle vilkår, som ikke påvirker det databeskyttelsesretlige indhold af underdatabehandleraftalen, skal ikke sendes til den dataansvarlige.
+Databehandleren skal i sin aftale med underdatabehandleren indføje den dataansvarlige som begunstiget tredjemand i tilfælde af databehandlerens konkurs, således at den dataansvarlige kan indtræde i databehandlerens rettigheder og gøre dem gældende over for underdatabehandlere, som f.eks. gør den dataansvarlige i stand til at instruere underdatabehandleren i at slette eller tilbagelevere personoplysningerne.
+Hvis underdatabehandleren ikke opfylder sine databeskyttelsesforpligtelser, forbliver databehandleren fuldt ansvarlig over for den dataansvarlige for opfyldelsen af underdatabehandlerens forpligtelser. Dette påvirker ikke de registreredes rettigheder, der følger af databeskyttelsesforordningen, herunder særligt forordningens artikel 79 og 82, over for den dataansvarlige og databehandleren, herunder underdatabehandleren.
+Overførsel til tredjelande eller internationale organisationer
+Enhver overførsel af personoplysninger til tredjelande eller internationale organisationer må kun foretages af databehandleren på baggrund af dokumenteret instruks herom fra den dataansvarlige og skal altid ske i overensstemmelse med databeskyttelsesforordningens kapitel V.
+Hvis overførsel af personoplysninger til tredjelande eller internationale organisationer, som databehandleren ikke er blevet instrueret i at foretage af den dataansvarlige, kræves i henhold til EU-ret eller medlemsstaternes nationale ret, som databehandleren er underlagt, skal databehandleren underrette den dataansvarlige om dette retlige krav inden behandling, medmindre den pågældende ret forbyder en sådan underretning af hensyn til vigtige samfundsmæssige interesser.
+Uden dokumenteret instruks fra den dataansvarlige kan databehandleren således ikke inden for rammerne af disse Bestemmelser:
+overføre personoplysninger til en dataansvarlig eller databehandler i et tredjeland eller en international organisation
+overlade behandling af personoplysninger til en underdatabehandler i et tredjeland
+behandle personoplysningerne i et tredjeland
+Den dataansvarliges instruks vedrørende overførsel af personoplysninger til et tredjeland, herunder det eventuelle overførselsgrundlag i databeskyttelsesforordningens kapitel V, som overførslen er baseret på, skal angives i bilag C.6.
+Disse Bestemmelser skal ikke forveksles med standardkontraktsbestemmelser som omhandlet i databeskyttelsesforordningens artikel 46, stk. 2, litra c og d, og disse Bestemmelser kan ikke udgøre et grundlag for overførsel af personoplysninger som omhandlet i databeskyttelsesforordningens kapitel V.
+Bistand til den dataansvarlige
+Databehandleren bistår, under hensyntagen til behandlingens karakter, så vidt muligt den dataansvarlige ved hjælp af passende tekniske og organisatoriske foranstaltninger med opfyldelse af den dataansvarliges forpligtelse til at besvare anmodninger om udøvelsen af de registreredes rettigheder som fastlagt i databeskyttelsesforordningens kapitel III.
+Dette indebærer, at databehandleren så vidt muligt skal bistå den dataansvarlige i forbindelse med, at den dataansvarlige skal sikre overholdelsen af:
+oplysningspligten ved indsamling af personoplysninger hos den registrerede
+oplysningspligten, hvis personoplysninger ikke er indsamlet hos den registrerede
+indsigtsretten
+retten til berigtigelse
+retten til sletning (”retten til at blive glemt”)
+retten til begrænsning af behandling
+underretningspligten i forbindelse med berigtigelse eller sletning af personoplysninger eller begrænsning af behandling
+retten til dataportabilitet
+retten til indsigelse
+retten til ikke at være genstand for en afgørelse, der alene er baseret på automatisk behandling, herunder profilering
+I tillæg til databehandlerens forpligtelse til at bistå den dataansvarlige i henhold til Bestemmelse 5.3., bistår databehandleren endvidere, under hensyntagen til behandlingens karakter og de oplysninger, der er tilgængelige for databehandleren, den dataansvarlige med:
+den dataansvarliges forpligtelse til uden unødig forsinkelse og om muligt senest 72 timer, efter at denne er blevet bekendt med det, at anmelde brud på persondatasikkerheden til den kompetente tilsynsmyndighed, Datatilsynet, medmindre at det er usandsynligt, at bruddet på persondatasikkerheden indebærer en risiko for fysiske personers rettigheder eller frihedsrettigheder
+den dataansvarliges forpligtelse til uden unødig forsinkelse at underrette den registrerede om brud på persondatasikkerheden, når bruddet sandsynligvis vil medføre en høj risiko for fysiske personers rettigheder og frihedsrettigheder
+den dataansvarliges forpligtelse til forud for behandlingen at foretage en analyse af de påtænkte behandlingsaktiviteters konsekvenser for beskyttelse af personoplysninger (en konsekvensanalyse)
+den dataansvarliges forpligtelse til at høre den kompetente tilsynsmyndighed, Datatilsynet, inden behandling, såfremt en konsekvensanalyse vedrørende databeskyttelse viser, at behandlingen vil føre til høj risiko i mangel af foranstaltninger truffet af den dataansvarlige for at begrænse risikoen.
+Parterne skal i bilag C angive de fornødne tekniske og organisatoriske foranstaltninger, hvormed databehandleren skal bistå den dataansvarlige samt i hvilket omfang og udstrækning. Det gælder for de forpligtelser, der følger af Bestemmelse 8.1. og 8.2.
+Underretning om brud på persondatasikkerheden
+Databehandleren underretter uden unødig forsinkelse den dataansvarlige efter at være blevet opmærksom på, at der er sket et brud på persondatasikkerheden.
+Databehandlerens underretning til den dataansvarlige skal om muligt ske senest 24 timer efter, at denne er blevet bekendt med bruddet, sådan at den dataansvarlige kan overholde sin forpligtelse til at anmelde bruddet på persondatasikkerheden til den kompetente tilsynsmyndighed, jf. databeskyttelsesforordningens artikel 33.
+I overensstemmelse med Bestemmelse 9.2.a skal databehandleren bistå den dataansvarlige med at foretage anmeldelse af bruddet til den kompetente tilsynsmyndighed. Det betyder, at databehandleren skal bistå med at tilvejebringe nedenstående information, som ifølge artikel 33, stk. 3, skal fremgå af den dataansvarliges anmeldelse af bruddet til den kompetente tilsynsmyndighed:
+karakteren af bruddet på persondatasikkerheden, herunder, hvis det er muligt, kategorierne og det omtrentlige antal berørte registrerede samt kategorierne og det omtrentlige antal berørte registreringer af personoplysninger
+de sandsynlige konsekvenser af bruddet på persondatasikkerheden
+de foranstaltninger, som den dataansvarlige har truffet eller foreslår truffet for at håndtere bruddet på persondatasikkerheden, herunder, hvis det er relevant, foranstaltninger for at begrænse dets mulige skadevirkninger.
+Parterne skal i bilag C angive den information, som databehandleren skal tilvejebringe i forbindelse med sin bistand til den dataansvarlige i dennes forpligtelse til at anmelde brud på persondatasikkerheden til den kompetente tilsynsmyndighed.
+Sletning og returnering af oplysninger
+Ved ophør af tjenesterne vedrørende behandling af personoplysninger, er databehandleren forpligtet til at (sæt kryds i nedenstående):
+☐ slette alle personoplysninger, der er blevet behandlet på vegne af den dataansvarlige og bekræfte over for den dataansvarlige, at oplysningerne er slettet,
+☐ tilbagelevere alle personoplysningerne og slette eksisterende kopier, medmindre EU-retten eller medlemsstaternes nationale ret foreskriver opbevaring af personoplysningerne.
+[HVIS RELEVANT] Følgende regler i EU-retten eller medlemsstaternes nationale ret foreskriver opbevaring af personoplysningerne efter ophør af tjenesterne vedrørende behandling af personoplysninger:
+[…]
+Databehandleren forpligter sig til alene at behandle personoplysningerne til de(t) formål, i den periode og under de betingelser, som disse regler foreskriver.
+Revision, herunder inspektion
+Databehandleren stiller alle oplysninger, der er nødvendige for at påvise overholdelsen af databeskyttelsesforordningens artikel 28 og disse Bestemmelser, til rådighed for den dataansvarlige og giver mulighed for og bidrager til revisioner, herunder inspektioner, der foretages af den dataansvarlige eller en anden revisor, som er bemyndiget af den dataansvarlige.
+Procedurerne for den dataansvarliges revisioner, herunder inspektioner, med databehandleren og underdatabehandlere er nærmere angivet i Bilag C.7. og C.8.
+Databehandleren er forpligtet til at give tilsynsmyndigheder, som efter gældende lovgivningen har adgang til den dataansvarliges eller databehandlerens faciliteter, eller repræsentanter, der optræder på tilsynsmyndighedens vegne, adgang til databehandlerens fysiske faciliteter mod behørig legitimation.
+Parternes aftale om andre forhold
+Parterne kan aftale andre bestemmelser vedrørende tjenesten vedrørende behandling af personoplysninger om f.eks. erstatningsansvar, så længe disse andre bestemmelser ikke direkte eller indirekte strider imod Bestemmelserne eller forringer den registreredes grundlæggende rettigheder og frihedsrettigheder, som følger af databeskyttelsesforordningen.
+Ikrafttræden og ophør
+Bestemmelserne træder i kraft på datoen for begge parters underskrift heraf.
+Begge parter kan kræve Bestemmelserne genforhandlet, hvis lovændringer eller uhensigtsmæssigheder i Bestemmelserne giver anledning hertil.
+Bestemmelserne er gældende, så længe tjenesten vedrørende behandling af personoplysninger varer. I denne periode kan Bestemmelserne ikke opsiges, medmindre andre bestemmelser, der regulerer levering af tjenesten vedrørende behandling af personoplysninger, aftales mellem parterne.
+Hvis levering af tjenesterne vedrørende behandling af personoplysninger ophører, og personoplysningerne er slettet eller returneret til den dataansvarlige i overensstemmelse med Bestemmelse 10.1 og Bilag C.4, kan Bestemmelserne opsiges med skriftligt varsel af begge parter.
+Underskrift
+På vegne af den dataansvarlige
+Navn
+Stilling
+Telefonnummer
+E-mail
+Underskrift
+Dato: Angives
+Underskrift __________________________________________________________
+På vegne af databehandleren
+Navn
+Stilling
+Telefonnummer
+E-mail
+Underskrift
+Dato: Angives
+Underskrift __________________________________________________________
+Kontaktpersoner hos den dataansvarlige og databehandleren
+Parterne kan kontakte hinanden via nedenstående kontaktpersoner.
+Parterne er forpligtet til løbende at orientere hinanden om ændringer vedrørende kontaktpersoner.
+Navn
+Stilling
+Telefonnummer
+E-mail
+Navn
+Stilling
+Telefonnummer
+E-mail
+Bilag A	Oplysninger om behandlingen
+[BEMÆRK: I TILFÆLDE AF FLERE BEHANDLINGSAKTIVITETER, SKAL DISSE OPLYSNINGER FREMGÅ FOR HVER ENKELT BEHANDLINGSAKTIVITET]
+A.1. Formålet med databehandlerens behandling af personoplysninger på vegne af den dataansvarlige
+[BESKRIV FORMÅLET MED BEHANDLINGEN]
+A.2. Databehandlerens behandling af personoplysninger på vegne af den dataansvarlige drejer sig primært om (karakteren af behandlingen)
+[BESKRIV KARAKTEREN AF BEHANDLINGEN]
+Databehandleren har instruks til følgende behandlingsaktiviteter (sæt kryds):
+☐   Indsamling		☐   Brug		☐   Søgning
+☐   Profilering		☐   Opbevaring	☐   Sletning
+☐   Videregivelse	☐   Systematisering	☐   Driftsovervågning
+☐   Registrering	☐   Arkivering		☐   Sammenstilling eller samkøring
+☐   Andre – angiv
+Behandlingen finder sted i:
+Angiv system
+A.3. Behandlingen omfatter følgende typer af personoplysninger om de registrerede
+[BESKRIV TYPEN AF PERSONOPLYSNINGER DER BEHANDLES]. [KRYDS AF, HVILKEN TYPE AF PERSONOPLYSNINGER DER BEHANDLES]
+Databehandleren behandler på vegne af den dataansvarlige følgende typer personoplysninger:
+Kategorier af personoplysninger
+Almindelige personoplysninger (art. 6)
+☐ Navn
+☐ Alder
+☐ Køn
+☐ Kontaktoplysninger
+☐ Fødselsdato
+☐ Generelle livsstilsoplysninger
+☐ Arbejdsoplysninger
+☐ Familieforhold
+☐ Andre – angives
+Følsomme personoplysninger (art. 9)
+☐ Genetisk og biometrisk data
+☐ Racemæssig eller etnisk baggrund
+☐ Politisk, religiøs eller filosofisk overbevisning
+☐ Fagforeningsmæssige tilhørsforhold
+☐ Helbredsoplysninger (fysiske og psykiske fx allergier)
+☐ Oplysninger om seksuelle forhold eller seksuel orientering
+Fortrolige personoplysninger
+☐ CPR-nummer (DBL § 11)
+☐ Oplysninger om strafbare forhold og straffedomme (art. 10, DBL § 8)
+☐ Indkomstforhold
+☐ Kreditkortoplysninger
+☐ Forretningshemmeligheder
+☐ Væsentlige sociale problemer herunder fx alkoholmisbrug eller vold i familien
+☐ Andre – angives
+A.4. Behandlingen omfatter følgende kategorier af registrerede
+[BESKRIV KATEGORIERNE AF REGISTREREDE]
+Hvor mange personer behandles der personoplysninger om?
+☐ Under 1.000
+☐ Mellem 1.000-10.000
+☐ Over 10.000
+A.5. Databehandlerens behandling af personoplysninger på vegne af den dataansvarlige kan påbegyndes efter disse Bestemmelsers ikrafttræden. Behandlingen har følgende varighed
+[BESKRIV VARIGHEDEN AF BEHANDLINGEN]
+Bilag B	Underdatabehandlere
+B.1. Godkendte underdatabehandlere
+Ved Bestemmelsernes ikrafttræden har den dataansvarlige godkendt brugen af følgende underdatabehandlere*.
+Ved Bestemmelsernes ikrafttræden har den dataansvarlige godkendt brugen af ovennævnte underdatabehandlere for den beskrevne behandlingsaktivitet. Databehandleren må ikke – uden den dataansvarliges skriftlige godkendelse – gøre brug af en underdatabehandler til en anden behandlingsaktivitet end den beskrevne og aftalte eller gøre brug af en anden underdatabehandler til denne behandlingsaktivitet.
+Bilag C 	Instruks vedrørende behandling af personoplysninger
+C.1. Behandlingens genstand/instruks
+Databehandlerens behandling af personoplysninger på vegne af den dataansvarlige sker ved, at databehandleren udfører følgende:
+[BESKRIV BEHANDLINGEN, SOM DATABEHANDLEREN INSTRUERES I AT FORETAGE]
+C.2. Behandlingssikkerhed
+Serverne, der anvendes i forbindelse med behandling af personoplysninger efter disse Bestemmelser, skal til enhver tid være placeret i Den Europæiske Union/EØS eller sikre tredjelande.
+Sikkerhedsniveauet skal afspejle:
+De kategorier af personoplysninger der behandles (almindelige, fortrolige og følsomme), og om behandlingen sker på særligt sårbare (børn, socialt udsatte m.fl.)
+Omfanget af personoplysningerne (antal registreringer pr. person samt antallet af forventede personer (registrerede))
+Behandlingens karakter (er der profilering eller automatiske afgørelser?)
+Længden af behandlingen (over hvor lang tid skal personoplysningerne behandles/opbevares?)
+Databehandler skal etablere passende tekniske og organisatoriske foranstaltninger for at sikre et sikkerhedsniveau, der passer til de risici, der er forbundet med at behandle de konkrete personoplysninger. Sikkerhedsforanstaltningerne skal sikre, at oplysninger ikke hændeligt eller ulovligt tilintetgøres, fortabes eller forringes, kommer uvedkommende til kendskab eller misbruges.
+Databehandleren er herefter berettiget og forpligtet til at træffe beslutninger om, hvilke tekniske og organisatoriske sikkerhedsforanstaltninger, der skal gennemføres for at etableret det nødvendige (og aftalte) sikkerhedsniveau.
+Databehandleren skal dog – under alle omstændigheder og som minimum – gennemføre følgende foranstaltninger, som er aftalt med den dataansvarlige:
+Sikkerhedsbrud
+Underretning af den dataansvarlige skal ske ved fremsendelse af al relevant dokumentation vedrørende omstændighederne ved bruddet. Dette gøres ved følgende link: https://sbst.dk/om-os/organisation/rapportering-af-sikkerhedsbrud
+Krav til autorisation og adgangskontrol
+Kun personer, som autoriseres dertil, må have adgang til de personoplysninger, der behandles på vegne af den dataansvarlige.
+Databehandler skal sikre, at der foretages et efter omstændighederne passende baggrundstjek for alt personale, der i forbindelse med deres ansættelse, vil have adgang til personoplysninger omfattet af disse Bestemmelser.
+Adgang til personoplysninger må kun ske med personligt brugernavn og password.
+Databehandler har en politik for adgangsstyring, herunder krav til kompleksitet af passwords og passende udskiftning heraf.
+Der skal føres regelmæssig kontrol med, at brugerne kun har de nødvendige adgange. Kontrollen kan fx indebære, at der i systemet dannes en statistik over den enkelte brugers anvendelse af systemet, således at det kan konstateres, om der er udstedte autorisationer, som ikke er nødvendige.
+IT-systemer eller portaler med netadgang, som indeholder følsomme og fortrolige personoplysninger, skal som udgangspunkt have 2-faktor-validering og relevant kryptering.
+Krav til sikkerhedsopdateringer og kryptering af harddiske og bærbare medier
+Der skal være etableret relevant antivirus og firewall på databehandlers udstyr, og databehandler skal have en procedure, der sikrer, at disse holdes løbende opdaterede.
+Ændringer til systemer, databaser og netværk skal følge fastlagte procedurer, som sikrer, at relevante opdateringer og patches, herunder sikkerhedspatches vedligeholdes.
+De enkelte PC’er patches både på OS og applikationsniveau efter fastlagte procedurer.
+Harddiske skal være krypterede fx med Bitlocker. Operativsystemet bør være opsat til at kryptere harddisken på den enkelte PC.
+Databehandler bør som udgangspunkt ikke benytte bærbare medier herunder USB-nøgler eller eksterne harddiske. Såfremt det ikke kan undgås, skal databehandler sikre, at det bærbare medie er passende krypteret.
+Krav til håndtering af personoplysninger
+Adgang til det fulde datasæt, når der er tale om følsomme og fortrolige personoplysninger, skal indskrænkes til så få personer i organisationen for hvem, det er nødvendigt at have adgang til personhenførbare data, fx på cpr-nr. niveau.
+Databehandler har en politik for håndtering og opbevaring af fysiske dokumenter med fortrolige og følsomme personoplysninger inkl. retningslinjer for, hvordan det sikres, at uvedkommende ikke får adgang til oplysningerne, og hvordan fysiske dokumenter bortskaffes forsvarligt.
+Behandling af personoplysninger i udviklings- og testmiljø skal anonymiseres eller pseudonymiseres. Fravigelse heraf kræver særskilt aftale med den dataansvarlige.
+Databehandler skal have etableret en procedure, der muliggør rettidig bistand til den dataansvarlige i relation til udlevering, tilretning, sletning eller begrænsning af personoplysninger.
+Databehandler skal have en skriftlig procedure for rapportering af sikkerhedshændelser, der er implementeret på en sådan måde, at den sikrer, at databehandler kan rapportere sikkerhedshændelsen til den dataansvarlige inden for 24 timer.
+Krav til organisatoriske foranstaltninger samt awareness
+Databehandler skal efter behov og minimum én gang årligt gennemgå dennes udarbejdede risikovurdering vedrørende den konkrete behandling omfattet af disse Bestemmelser. Databehandler skal ved denne gennemgang vurdere og evaluere effekten af de tekniske og organisatoriske foranstaltninger til sikring af behandlingssikkerheden.
+Databehandler gennemfører, når der er konkret anledning og mindst en gang årligt, awareness kampagne/tiltag, der instruerer medarbejderne i datasikkerhed og forsvarlig håndtering af personoplysninger.
+Databehandler skal sikre, at uvedkommende ikke får adgang til lokaliteter, hvor der behandles personoplysninger på vegne af den dataansvarlige, fx ved brug af adgangskort eller adgangskode samt relevant gæstehåndtering.
+Databehandler skal sikre, at nye medarbejdere introduceres til informationssikkerhedspolitikken og procedurer vedrørende behandling af personoplysninger.
+Databehandler har ved fratrædelse af medarbejdere implementeret en proces, som sikrer, at brugernes systemrettigheder bliver inaktive eller ophører, herunder at IT-arbejdsudstyr inddrages.
+Anvender databehandlers medarbejdere hjemarbejdspladser/fjernarbejdspladser, skal der træffes særlige foranstaltninger (fx kryptering, VPN og/eller 2-faktor validering), der sikrer, at uvedkommende ikke gennem eksterne kommunikationsforbindelser kan få adgang til følsomme og fortrolige personoplysninger.
+Arbejde på hjemmearbejdspladser/fjernarbejdspladser, må alene ske ved brug af arbejdspladsens godkendte bærbare enheder.
+Krav til forsendelse af personoplysninger
+Databehandler skal ved transmission af fortrolige og følsomme personoplysninger over internettet eller eksterne netværk som minimum anvende passende kryptering. Forsendelse af følsomme og fortrolige personoplysninger skal altid foregå med tunnelkryptering, end-to-end kryptering eller en alternativ sikker overførsel, som skal godkendes af den dataansvarlige. Ved forsendelse af store datasæt med følsomme og fortrolige personoplysninger stilles der krav om end-to-end kryptering.
+Videregivelse af følsomme og fortrolige personoplysninger omfattet af databeskyttelseslovens § 10 (til statistisk og videnskabeligt brug) skal, jf. bekendtgørelse om videregivelse §§ 3 og 4, som udgangspunkt og i videst muligt omfang ske pseudonymiseret. Det vil sige, at der stilles krav om, at personoplysningerne videregives i to separate forsendelser fx én forsendelse, hvor cpr. nr./navn er udskriftet med et løbe nr., og en anden forsendelse, hvor nøglen til omkonvertering af løbenr. sendes i en separat forsendelse.
+Krav til backup og logning
+Databehandler sikrer passende backup af data, der behandles på vegne af den dataansvarlige, så risikoen for tab minimeres.
+Databehandler sikrer regelmæssigt, at backups kan genindlæses.
+Databehandler har en proces for, hvordan personoplysninger, efter anmodning fra den registrerede, kan slettes fra backuppen eller som minimum en proces, der sikrer, at backuppen ikke genindlæses uden at sikre fornyet sletning af oplysningerne.
+Systemer, der behandler følsomme og fortrolige oplysninger, skal have fuldstændig log. Det vil sige log af adgange, ændringer og søgninger.
+Loggen skal efter aftale kunne stilles til rådighed for den dataansvarlige i et umiddelbart læsbart format.
+Danmarks Statistik
+Personoplysningerne omfattet af Bestemmelserne kan efter instruks fra den dataansvarlige i stedet for tilbagelevering til den dataansvarlige afleveres til Danmarks Statistik (Myndighedsordningen). I tilfælde af at personoplysningerne skal afleveres til Danmark Statistik (Myndighedsordningen), skal de have format som et SAS-datasæt (sas7bdat) eller Excel i overensstemmelse med beskrivelse af datakvalitet i en eventuel leveranceaftale.
+Personoplysninger omfattet af Bestemmelserne kan efter instruks fra den dataansvarlige afleveres til Rigsarkivet.
+C.3 Bistand til den dataansvarlige
+Databehandleren skal så vidt muligt – inden for det nedenstående omfang og udstrækning – bistå den dataansvarlige i overensstemmelse med Bestemmelse 8.1 og 8.2 ved at gennemføre følgende tekniske og organisatoriske foranstaltninger:
+Databehandler skal løbende bistå den dataansvarlige ved at prioritere håndteringen af eventuelle henvendelser fra den dataansvarlige med henblik på udredning og håndtering af sikkerhedshændelser.
+Den dataansvarlige forbeholder sig ret til at konkretisere instruksen eller fremsende nye instrukser vedrørende databehandlers bistand i tilfælde af, at der indtræffer en sikkerhedshændelse, som databehandleren direkte eller indirekte er involveret i.
+C.4 Opbevaringsperiode/sletterutine
+Beskriv eventuel opbevaringsperiode/sletterutine for databehandleren
+Personoplysninger opbevares i ANGIV TIDSPERIODE, hvorefter de slettes hos databehandleren.
+Ved ophør af tjenesten vedrørende behandling af personoplysninger, skal databehandleren enten slette eller tilbagelevere personoplysningerne i overensstemmelse med bestemmelse 11.1, medmindre den dataansvarlige – efter underskriften af disse bestemmelser – har ændret den dataansvarliges oprindelige valg. Sådanne ændringer skal være dokumenteret og opbevares skriftligt, herunder elektronisk, i tilknytning til bestemmelserne.
+Databehandleren kan i en periode på op til 3 måneder efter databehandlingens ophør afvente sletning i backupsystemer. Databehandleren må i denne periode ikke genindlæse data. Eventuel backup skal slettes senest efter 3 måneder efter databehandlingens ophør. Logfiler skal slettes senest 6 måneder efter sidste behandling.
+C.5 Lokalitet for behandling
+Behandling af de af Bestemmelserne omfattede personoplysninger kan ikke uden den dataansvarliges forudgående skriftlige godkendelse ske på andre lokaliteter end følgende:
+:
+[ANGIV, HVOR BEHANDLINGEN FINDER STED]
+[ANGIV, HVILKEN DATABEHANDLER ELLER UNDERDATABEHANDLER, DER ANVENDER ADRESSEN]
+C.6 Instruks vedrørende overførsel af personoplysninger til tredjelande
+Hvis den dataansvarlige ikke i disse Bestemmelser eller efterfølgende giver en dokumenteret instruks vedrørende overførsel af personoplysninger til et tredjeland, er databehandleren ikke berettiget til inden for rammerne af disse Bestemmelser at foretage sådanne overførsler.
+Databehandleren skal angive samtlige underdatabehandlere i ovenstående skema i bilag B.
+[BESKRIV INSTRUKSEN VEDRØRENDE OVERFØRSEL AF PERSONOPLYSNINGER TIL TREDJELANDE ELLER INTERNATIONALE ORGANISATIONER]
+[ANGIV GRUNDLAGET FOR OVERFØRSLEN SOM OMHANDLET I DATABESKYTTELSESFORORDNINGENS KAPITEL V]
+C.7 Procedurer for den dataansvarliges revisioner, herunder inspektioner, med behandlingen af personoplysninger, som er overladt til databehandleren
+[AFKRYDS, HVILKET TILSYN DER VURDERES AT SKULLE UDFØRES. VALG AF TILSYN FORETAGES PÅ BAGGRUND AF DATATILSYNETS TILSYNSKONCEPT MED DATABEHANDLERE]
+☐ Ad hoc tilsyn (Tilsynskoncept 1)
+Den dataansvarlige skal ikke gøre noget, med mindre den dataansvarlige bliver opmærksom på, at der er noget galt hos databehandleren. Via informationer i pressen, tilsynsrapporter eller egne erfaringer med sikkerhedsbrud, kan den dataansvarlige eventuelt få et indtryk af problemer hos databehandleren.
+☐ Skriftlig bekræftelse (Tilsynskoncept 2)
+Databehandleren bekræfter skriftligt over for den dataansvarlige, at alle krav i databehandleraftalen stadig efterleves.
+☐ Årlig skriftlig status (Tilsynskoncept 3)
+Databehandleren giver årligt den dataansvarlige – enten direkte eller via sin hjemmeside – en skriftlig status på forhold, der er omfattet af databehandleraftalen, og andre relevante områder (f.eks. organisatoriske eller produktmæssige ændringer).
+☐ Certificering eller adfærdskodeks (Tilsynskoncept 4)
+Dette tilsynskoncept er alene relevant, hvis databehandleren har en relevant og opdateret certificering eller følger et såkaldt adfærdskodeks, som er relevant for den dataansvarliges behandlingsaktiviteter.
+☐ Tilsyn med revisorerklæring (Tilsynskoncept 5)
+Databehandleren skal årligt for egen regning indhente en revisorerklæring fra en uafhængig tredjepart vedrørende databehandlerens overholdelse af databeskyttelsesforordningen, databeskyttelsesbestemmelser i anden EU-ret eller medlemsstaternes nationale ret og disse Bestemmelser.
+Der er enighed mellem parterne om, at følgende typer af revisorerklæringer kan anvendes i overensstemmelse med disse Bestemmelser:
+☐ ISAE 3000
+☐ ISAE 3402
+Revisorerklæringen fremsendes uden unødig forsinkelse til den dataansvarlige til orientering. Den dataansvarlige kan anfægte rammerne for og/eller metoden i erklæringen og kan i sådanne tilfælde anmode om en ny revisionserklæring under andre rammer og/eller under anvendelse af anden metode.
+Baseret på resultaterne af erklæringen, er den dataansvarlige berettiget til at anmode om gennemførelse af yderligere foranstaltninger med henblik på at sikre overholdelsen af databeskyttelsesforordningen, databeskyttelsesbestemmelser i anden EU-ret eller medlemsstaternes nationale ret og disse Bestemmelser. Databehandler kan blive bedt om at svare på uddybende spørgsmål til revisorerklæringen eller yderligere spørgsmål, der ikke er blevet tilstrækkeligt belyst i revisorerklæringen. Det vil særligt komme på tale, hvis der er tale om en generel revisorerklæring.
+Når erklæringen foreligger, fremsendes den til postkassen tilsyn-db@sbst.dk.
+☐ Skriftligt tilsyn (Tilsynskoncept 6)
+Databehandleren skal årligt for egen regning stille sig til rådighed for den dataansvarliges skriftlige tilsyn vedrørende databehandlers tekniske og organisatoriske sikkerhedsforanstaltninger. Det skriftlige tilsyn tager udgangspunkt i spørgerammen fra ISAE 3000 og består af udvalgte spørgsmål, der vedrører databehandlers konkrete behandling af personoplysninger for den dataansvarlige.
+Øvrige forhold (gælder både ved tilsyn med revisorerklæring og det skriftlige tilsyn)
+Den dataansvarlige eller en repræsentant for den dataansvarlige har herudover adgang til at foretage inspektioner, herunder fysiske inspektioner, med lokaliteterne hvorfra databehandleren foretager behandling af personoplysninger, herunder fysiske lokaliteter og systemer, der benyttes til eller i forbindelse med behandlingen. Sådanne inspektioner kan gennemføres, når den dataansvarlige finder det nødvendigt.
+Den dataansvarliges eventuelle udgifter i forbindelse med en fysisk inspektion afholdes af den dataansvarlige selv. Databehandleren er dog forpligtet til at afsætte de ressourcer (hovedsageligt den tid), der er nødvendig(e) for, at den dataansvarlige kan gennemføre sin inspektion.
+C.8 Procedurer for revisioner, herunder inspektioner, med behandling af personoplysninger, som er overladt til underdatabehandlere
+[BESKRIV PROCEDURERNE FOR DATABEHANDLERENS REVISIONER, HERUNDER INSPEKTIONER, MED BEHANDLINGEN AF PERSONOPLYSNINGER, SOM ER OVERLADT TIL UNDERDATABEHANDLEREN]
+Databehandleren skal føre relevant tilsyn med underdatabehandlere. Dokumentation for tilsyn med underdatabehandlere skal kunne fremvises for den dataansvarlige i forbindelse med dennes tilsyn med databehandler.
+Baseret på resultaterne af tilsynet, er den dataansvarlige berettiget til at anmode om gennemførelse af yderligere foranstaltninger med henblik på at sikre overholdelsen af databeskyttelsesforordningen, databeskyttelsesbestemmelser i anden EU-ret eller medlemsstaternes nationale ret og disse Bestemmelser.
+Databehandleren eller en repræsentant for databehandleren har herudover adgang til at foretage inspektioner, herunder fysiske inspektioner, med lokaliteterne hvorfra underdatabehandleren foretager behandling af personoplysninger, herunder fysiske lokaliteter og systemer, der benyttes til eller i forbindelse med behandlingen. Sådanne inspektioner kan gennemføres, når databehandleren (eller den dataansvarlige) finder det nødvendigt.
+Dokumentation for sådanne inspektioner fremsendes uden unødig forsinkelse til den dataansvarlige til orientering. Den dataansvarlige kan anfægte rammerne for og/eller metoden af inspektionen og kan i sådanne tilfælde anmode om gennemførelsen af en ny inspektion under andre rammer og/eller under anvendelse af anden metode.
+Bilag D	Parternes regulering af andre forhold
+D.1 Videregivelse af oplysninger angivet i nærværende Bestemmelser
+Social- og Boligstyrelsen er som offentlig myndighed underlagt reglerne om aktindsigt. Som led i behandlingen af en anmodning om aktindsigt, kan Social- og Boligstyrelsen i lovgivningen være forpligtet til at udlevere nærværende Bestemmelser, herunder de kontaktoplysninger som angives i Bestemmelserne.
+Social- og Boligstyrelsen er yderligere underlagt tilsyn fra Social- og Boligministeriet, Datatilsynet, Rigsrevisionen m.fl., hvor det vil være nødvendigt at kunne fremvise nærværende Bestemmelser, herunder også de kontaktoplysninger som angives i Bestemmelserne.
+Social- og Boligstyrelsen orienterer særskilt om videregivelsen, hvis det vurderes, at der kan være risiko for den registreredes rettigheder eller frihedsrettigheder.
+Har I spørgsmål til Social- og Boligstyrelsens behandling af personoplysninger, kan I læse mere om det via understående link, hvor kontaktoplysningerne til Social- og Boligstyrelsens DPO også står anført. https://sbst.dk/om-os/organisation/persondatapolitik

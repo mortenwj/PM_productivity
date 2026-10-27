@@ -1,0 +1,104 @@
+API requirements and guidelines from FI market
+We have gathered a set of initial requirements for the new API (new SIF) that raised in FI market requirements from RFI, RFP, negotiations and feedback from current customers. Below is a consolidated summary to guide the design and implementation.
+Interface’s role in future landscape architecture in customer deliveries
+Future solutions must support a loosely coupled architecture:
+Independent development and deployment of UI components and integrations
+This means clear separation between main product, possible customer own UI’s, integrations, AI usage etc
+New API and related components must be deployable in:
+Cloud environments
+On-premises environments
+New API interface must support:
+Usage via an integration platform
+Extension of the solution without requiring modifications to the core product using for example RDF, containers or integrations.
+API Role and Scope
+The API will act as the primary interface for both:
+Custom UI applications (RDF or any other)
+Directly using P360 as source
+Applications having own database and only archiving to P360
+External integrations
+AI Agents (internal or external)
+All main functionalities must be available via the API (API-first approach).
+Functional Coverage
+The API must support end-to-end operations like:
+Case lifecycle management (create, update, close, track status etc.)
+Document management (create, update, link, metadata handling etc.)
+File management (add, delete, versions etc.)
+Task and work queue management (assign, route, track deadlines etc.)
+Information governance (metadata, classifications, steering rules etc.)
+Electronic signatures (initiate, track, complete etc)
+Role-based access (including multi-role users)
+Advanced search and filtering
+Data for Management dashboards and analytics views
+All these operations must also be executable via integrations, not just UI. Idea is that most of everyday usage what can be done via UI, must be also available in interface (API-first approach)
+Integration Capabilities
+The system must provide comprehensive APIs enabling all key functions via integrations.
+Data flow must be supported:
+Into the system
+Out of the system
+Bidirectionally
+APIs must support:
+Synchronous communication
+Asynchronous communication
+API Design Principles
+APIs must be based on widely adopted standards, e.g.:
+REST + JSON
+APIs must be stateless:
+Each request is independent
+No dependency on previous calls
+APIs must follow good REST practices, including:
+Proper resource-oriented design
+Correct use of HTTP methods and status codes
+The system must provide segregated API layers / endpoints for different consumer types, including:
+UI applications
+External integrations
+Internal extensions
+AI agents
+These APIs / endpoints must:
+Be logically separated
+Have independently configurable access controls
+Allow restriction of access per client/application/agent
+Event Processing
+The system must support:
+Webhook and event subscriptions
+External systems can subscribe to main domain events, including all main entities like case, document, file, contact etc.
+System can trigger processes in external systems (if external system has capability)
+Events can transfer data between systems (push or pull)
+Clearly definition for event schemas between the systems (metadata mapping)
+Async Job Processing
+The system must support asynchronous jobs for long-running processes:
+Heavy or long-duration operations must not block API calls
+Status tracking for async jobs must be available via API
+Security
+APIs must support:
+User and application authentication
+Role-based authorization
+Integration with central IAM like EntraID
+Audit Logging
+All integrations must produce comprehensive audit logs
+Logs must include:
+User actions
+System actions
+Integration events
+Must support investigations and incident analysis
+SIEM Integration
+Audit logs must be available for SIEM systems
+Must support:
+Structured format (e.g. JSON)
+Secure transfer
+Near real-time or scheduled delivery
+Performance and Query Optimization
+Must eliminate heavy runtime SQL queries in user flows
+Provide optimized query endpoints
+Support:
+Caching
+Efficient filtering/pagination
+Background processing
+Search index
+Must scale and separate transactional vs reporting workloads
+Search and Indexing (Elasticsearch)
+Interface should have method(s) to use Elasticsearch index for suitable use cases:
+Full-text search
+Filtering
+Work queues
+Dashboards
+Reports

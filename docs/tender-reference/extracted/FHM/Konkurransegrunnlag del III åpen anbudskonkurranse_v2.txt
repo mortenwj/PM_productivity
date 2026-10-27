@@ -1,0 +1,152 @@
+KONKURRANSEGRUNNLAG
+Åpen anbudskonkurranse
+etter forskriftens del I og III
+for anskaffelse av
+for anskaffelse av
+saks- og arkivsystem
+Innhold
+1	GENERELL BESKRIVELSE	3
+1.1	Oppdragsgiver	3
+1.2	Anskaffelsens formål og omfang	3
+1.3	Kontraktsvilkår	4
+1.4	Deltilbud	4
+1.5	Begrunnelse for unntak etter anskaffelsesloven §5b	4
+1.6	Viktige datoer	5
+2	REGLER FOR GJENNOMFØRING AV KONKURRANSEN OG KRAV TIL TILBUD	5
+2.1	Anskaffelsesprosedyre	5
+2.2	Attest for skatt og merverdiavgift	6
+2.3	Offentlighet og taushetsplikt	6
+2.4	Vedståelsesfrist	6
+2.5	Oppdatering av konkurransegrunnlaget	6
+2.6	Tilleggsopplysninger	6
+3	DET EUROPEISKE EGENERKLÆRINGSSKJEMAET (ESPD)	6
+3.1	Generelt om ESPD	6
+3.2	Nasjonale avvisningsgrunner	7
+3.3	Samlet angivelse for alle kvalifikasjonskrav i ESPD skjemaet	7
+4	KVALIFIKASJONSKRAV	7
+4.1	Leverandørens registrering, autorisasjon mv.	8
+4.2	Leverandørens økonomiske og finansielle kapasitet	8
+4.3	Leverandørens tekniske og faglige kvalifikasjoner	9
+4.4	Underleverandører	9
+5	TILDELINGSKRITERIER	10
+5.1	Demonstrasjon av løsning	10
+5.2	Evalueringsmetode	11
+6	INNLEVERING AV TILBUD	11
+6.1	Tilbudets utforming	12
+GENERELL BESKRIVELSE
+Oppdragsgiver
+Opplysninger om oppdragsgiver og oppdragsgivers kontaktperson fremkommer i oppdragsgivers konkurransegjennomføringsverktøy (KGV).
+All kommunikasjon med oppdragsgiver skal skje gjennom oppdragsgivers KGV. Dette gjelder også spørsmål og svar.
+Anskaffelsens formål og omfang
+Anskaffelsens formål er å inngå kontrakt om kjøp av saks- og arkivsystem.
+Løsningen skal leveres som en skytjeneste. Leverandøren skal være ansvarlig for oppgraderinger av systemet og eventuelle integrasjoner, sikkerhet, drift og vedlikehold av løsningen.
+Løsningen skal bidra til:
+effektiv saksbehandling
+effektive arbeidsprosesser med mulighet for automatisering
+journalføring og arkivering i tråd med lovverk
+innsyn i virksomhetens dokumenter
+å ivareta informasjonssikkerhet og personvern
+Forsvarshistorisk museum (FHM) ble opprettet 1. januar 2025. FHM ønsker tilbud på migrering av aktivt arkiv uten periodisering ved et eventuelt systemskifte. Dette innebærer migrering av alle saker, dokumenter, dokumentfiler, varianter og versjoner i ulike filformater, metadata, samt videreføring av eksisterende tilganger. I dag benyttes Public 360 online versjon 6.10.117.
+Det skal inngås en løpende tjenestekontrakt med én leverandør med minstetid på 4 år og mulighet for årlige forlengelser av avtalen inntil 8 år. Avtalen forlenges automatisk med ett år av gangen.
+FHM vil etter minstetiden foreta årlige vurderinger av hvorvidt det likevel kan foreligge plikt etter anskaffelsesregelverket, eller for øvrig være hensiktsmessig, å konkurranseutsette tjenesten på nytt.
+FHM har behov for en tjeneste som kan tilby:
+prosesstøtte for ordinær saksbehandling (mottak og behandling av henvendelser), mulighet for god dokumentasjon av etatens oppgaveløsning knyttet til egenforvaltning og samfunnsoppdrag, publisering av offentlig journal og behandling av innsynskrav med mer.
+arkivfunksjoner i tråd med kravene i arkivlov med tilhørende forskrifter
+integrasjoner med fagsystemer, nasjonale felleskomponenter, M365-apper med mer
+gi brukerne god støtte for sine arbeidsprosesser, automatisk og økt dokumentasjonsfangst, samt god oversikt over egne arbeidsoppgaver.
+effektivisere gjennom skjemaløsning/automatisering/robotisering, bruk av KI og forenkling av arbeidsprosesser.
+sikre en helhetlig tilnærming til forvaltning av informasjon for å styrke mandatet, internkontrollen, informasjonssikkerheten og arkivforvaltningen, og samtidig ivareta grunnleggende hensyn til dokumentasjonsforvaltning og arkiv, personvern og informasjonssikkerhet, innsyn og offentlighet.
+Tjenesten skal tilbys som en Software as a Service (SaaS), og den skal være brukervennlig å konfigurere og benytte for de ulike brukergruppene hos oppdragsgiver. Brukergruppene vil være:
+Ledere
+Saksbehandlere
+Arkivarer/dokumentasjonsforvaltere
+Administratorer (brukeradministrator/systemadministrator)
+Anslagsvis er det nå 100 ansatte som benytter verktøyet til saksbehandling, dokumentproduksjon, intern forankring gjennom arbeidsflyter, søk og gjenfinning av dokumentasjon.
+Volum fra 1. januar 2025 er på ca.:
+740 åpne saker
+998 saker i status Avsluttet av saksbehandler
+4888 dokumenter i status Journalført
+136 dokumenter i status Reservert
+45 dokumenter i status S
+251 dokumenter i status E
+Fullstendig beskrivelse av leveransen følger av kravspesifikasjonen.
+Kontraktsvilkår
+Kontrakten reguleres av SSA-L med bilag.
+Deltilbud
+Det er ikke adgang til å gi tilbud på deler av oppdraget.
+Begrunnelse for unntak etter anskaffelsesloven §5b
+Anskaffelsen gjelder en skybasert sak- og arkivløsning som primært er en standardisert tjenesteanskaffelse over internett. Arbeidet omfatter ingen eller lite reisevirksomhet, og ingen bruk av papir eller annet forbruksmateriell. Klima- og miljøbelastningen i tjenesten antas derfor å være av beskjeden størrelse, men at driftsdelen av skytjenesteleveransen antas å utgjøre den mest betydelige klima- og miljøbelastningen.
+Viktige datoer
+Oppdragsgiver har lagt opp til følgende tidsrammer for prosessen:
+Det gjøres oppmerksom på at tidspunktene etter frist for å levere tilbud er foreløpige. En eventuell forlengelse av vedståelsesfrist kan kun skje med leverandørens samtykke.
+REGLER FOR GJENNOMFØRING AV KONKURRANSEN OG KRAV TIL TILBUD
+Anskaffelsesprosedyre
+Anskaffelsen gjennomføres i henhold til lov om offentlige anskaffelser av 17. juni 2016 (LOA) og forskrift om offentlige anskaffelser (FOA) FOR 2016-08-12-974. del I og del III. Kontraktstildeling vil bli foretatt etter prosedyren åpen anbudskonkurranse, jfr. FOA § 13-1(1).
+I denne konkurransen er det ikke anledning til å forhandle. Det er følgelig ikke anledning til å endre tilbudet etter tilbudsfristens utløp. Videre gjøres det oppmerksom på at tilbud som inneholder vesentlige avvik fra anskaffelsesdokumentene skal avvises etter forskrift om offentlige anskaffelser § 24-8(1) b. Oppdragsgiver kan avvise tilbud som inneholder avvik fra anskaffelsesdokumentene, uklarheter eller lignende som ikke må anses ubetydelige, jfr. forskriftens § 24-8(2) a.
+Leverandøren oppfordres derfor på det sterkeste til å følge de anvisninger som gis i dette konkurransegrunnlaget med vedlegg og eventuelt stille spørsmål ved uklarheter via oppdragsgivers KGV.
+Tilbudet skal utarbeides etter retningslinjer gitt i dette konkurransegrunnlaget med vedlegg, og leveres elektronisk ved å benytte oppdragsgivers KGV.
+Attest for skatt og merverdiavgift
+Valgte leverandør skal på forespørsel levere attest for skatt og merverdiavgift. Dette gjelder bare dersom valgte leverandør er norsk.
+Attesten skal ikke være eldre enn 6 måneder regnet fra den dato oppdragsgiver meddeler hvem som har vunnet konkurransen.
+Offentlighet og taushetsplikt
+For allmennhetens innsyn i dokumenter til en offentlig anskaffelse gjelder offentleglova. Oppdragsgiver og dennes ansatte plikter å hindre at andre får adgang eller kjennskap til opplysninger om tekniske innretninger og fremgangsmåter eller drifts- og forretningsforhold det vil være av konkurransemessig betydning å hemmeligholde, jf. FOA § 7-4, jf. forvaltningsloven § 13.
+Vedståelsesfrist
+Leverandøren må vedstå seg sitt tilbud til det tidspunktet som er angitt i pkt. 1.6 ovenfor.
+Oppdatering av konkurransegrunnlaget
+Eventuelle rettelser, suppleringer eller endringer av konkurransegrunnlaget, samt spørsmål til konkurransen med svar i anonymisert form, vil bli formidlet til alle leverandører som har registrert sin interesse for anskaffelsen i KGV.
+Tilleggsopplysninger
+Dersom leverandøren finner at konkurransegrunnlaget ikke gir tilstrekkelig veiledning, eller er uklart, kan leverandøren be om tilleggsopplysninger hos oppdragsgiver via KGV.
+Dersom det oppdages feil i konkurransegrunnlaget, bes det om at dette formidles til oppdragsgiver via KGV.
+DET EUROPEISKE EGENERKLÆRINGSSKJEMAET (ESPD)
+Generelt om ESPD
+Som en foreløpig dokumentasjon på oppfyllelse av kvalifikasjonskrav, at det ikke foreligger avvisningsgrunner og eventuelt oppfyllelse av utvelgelseskriterier skal leverandøren fylle ut vedlagte ESPD skjema. Skjemaet skal leveres sammen med tilbudet. Den eller de leverandørene som blir innstilt til kontraktsinngåelse må før kontrakt inngås dokumentere oppfyllelse av kvalifikasjonskravene i henhold til de opplyste dokumentasjonskrav.
+Oppdragsgiver kan på ethvert tidspunkt i konkurransen be leverandørene levere alle eller deler av dokumentasjonsbevisene dersom det er nødvendig for å sikre at konkurransen gjennomføres på riktig måte, jf. FOA § 17-1 (3).
+Dersom flere leverandører deltar i konkurransen i felleskap, skal de deltakende leverandørene levere separate egenerklæringer.
+Dersom leverandøren støtter seg på kapasitet fra underleverandør for å oppfylle kvalifikasjonskravene skal det leveres ESPD-skjema for de aktuelle underleverandørene, se punkt 4.4.
+Nasjonale avvisningsgrunner
+I henhold til ESPD del III: Avvisningsgrunner, seksjon D: «Andre avvisningsgrunner som er fastsatt i den nasjonale lovgivingen i oppdragsgiverens medlemsstat». De norske anskaffelsesreglene går lenger enn hva som følger av avvisningsgrunnene angitt i EUs direktiv om offentlige anskaffelser og i standardskjemaet for ESPD. Det presiseres derfor at i denne konkurransen gjelder og alle avvisningsgrunnene i anskaffelsesforskriftens § 24-2, inkludert de rent nasjonale avvisningsgrunne.
+Følgende av avvisningsgrunnene i anskaffelsesforskriften § 24-2 er rent nasjonale avvisningsgrunner:
+§24-2(2). I denne bestemmelsen er det angitt at oppdragsgiver skal avvise en leverandør når han er kjent med at leverandøren er rettskraftig dømt eller har vedtatt et forelegg for de angitte straffbare forholdene. Kravet til at oppdragsgiver skal avvise leverandører som har vedtatt forelegg for de angitte straffbare forholdene er et særnorsk krav.
+24-2(3) bokstav i. Avvisningsgrunnen i ESPD skjemaet gjelder kun alvorlige feil i yrkesutøvelsen, mens den norske avvisningsgrunnen også omfatter andre alvorlige feil som kan medføre tvil om leverandørens yrkesmessige integritet.
+Samlet angivelse for alle kvalifikasjonskrav i ESPD skjemaet
+I denne konkurransen kan leverandørene i ESPD skjemaet gi en samlet erklæring om at han oppfyller samtlige av de kvalifikasjonskravene som fremkommer av dette konkurransegrunnlaget. Dette gjøres i ESPD skjemaets del IV seksjon a.
+KVALIFIKASJONSKRAV
+For å kunne få sitt tilbud evaluert må leverandøren fylle ut det elektroniske egenerklæringsskjemaet (ESPD) om at han oppfyller samtlige av de kvalifikasjonskravene som er oppgitt nedenfor.
+Leverandørens registrering, autorisasjon mv.
+Leverandørens økonomiske og finansielle kapasitet
+Dersom leverandøren har saklig grunn til ikke å fremlegge den dokumentasjon oppdragsgiver har krevd, kan han dokumentere sin økonomiske og finansielle kapasitet ved å fremlegge ethvert annet dokument som oppdragsgiver anser egnet.
+Leverandørens tekniske og faglige kvalifikasjoner
+Underleverandører
+Leverandøren kan for denne kontrakten støtte seg på kapasiteten til andre virksomheter for å oppfylle kravene til økonomisk og finansiell kapasitet, jf. FOA § 16-3, og tekniske og faglige kvalifikasjoner, jf. FOA § 16-5.
+Dersom en leverandører støtter seg på kapasiteten til andre virksomheter, skal han dokumentere at han råder over de nødvendige ressursene, jf. FOA § 16-10, for eksempel i form av en forpliktelseserklæring.
+Det skal i tillegg leveres egne ESPD-skjemaer for aktuelle underleverandører.
+TILDELINGSKRITERIER
+Tildelingen skjer på basis av hvilket tilbud som har det beste forholdet mellom pris og kvalitet, basert på følgende kriterier:
+Demonstrasjon av løsning
+Tilbydere vil etter tilbudsfrist,i evalueringsfasen, inviteres til en visuell gjennomgang av løsning.
+Følgende skal da presenteres for oppdragsgiver;
+2.11 - Ulik tilgangsstyring - tilgangsgrupper, roller, ulik tilgangsstyring sak og doknivå, arv av tilgangsstyring fra sak til dok, gi tilgang lese/skrive til bruker med behov for bestemt dokument
+2.15 - Logger - Demo av hvor lett det er å forstå logger, i brukergrensesnitt/administrator
+3.1, 3.2, 3.3 - Brukervennlighet - Få klikk, logisk struktur, drag and drop, oversiktlig det bruker har til behandling/under arbeid, opprette nye elementer og arbeidsflyter, motta og behandle arbeidsflyter
+3.4 - Søking - kunne søke i fulltekst, søke på tvers av dok/sak, trunkering, treffliste - sortere/filtrere, forhåndsvis/gå inn på element, navigere tilbake til søkekriterier og treffliste
+4.2 - Import av dokumenter fra Outlook, OneDrive, SharePoint og Teams
+4.12, 4.14 - Skjemaløsning - hvordan sette opp skjema teknisk - hvordan fylle ut, automatisk opprette ny sak, rute etter regler - eks søknad om tilskudd
+4.15 - eSignering - hvordan sende ut og få tilbake et eSigneringsoppdrag - eks donasjon av gjenstand, signert avtale
+6.17, 6.20 - Innsynskrav - hvordan behandle innsynskrav, varsler, frister, oversikt, ulike "vedtak", brukervennlighet, hvordan lage og sende ut offentlig versjon.
+6.44 - Favoritter/snarveier - Brukervennlighet - hurtig tilgang til saker/dokumenter
+6.51 - Visuelle fremstillinger - grafer, diagrammer, rapporter ol for oversikter, presentere data og innsikt, statistikkmuligheter.
+Evalueringsmetode
+Kvalitet
+Kvalitet evalueres etter beste anskaffelsesfaglig skjønn. Det vil gis poeng fra 0-5 for hvert kapittel med E-krav i bilag 1 og 2 - Leverandørens beskrivelse av tjenesten. Det vil også gis poeng fra 0-5 for presentasjonen.  Deretter beregnes ett gjennomsnitt av disse poengene, der beste tilbud vil normaliseres og få 10 poeng og de øvrige tilbud gis forholdsmessig score.
+Pris
+I evalueringen av tildelingskriteriet "Pris" benytter vi lineær metode med skala fra 0-10.
+INNLEVERING AV TILBUD
+Tilbudet skal leveres via oppdragsgivers KGV.
+Tilbudet skal i sin helhet leveres etter den utformingen oppdragsgivers KGV angir, innen tilbudsfristen. Innlevering av tilbud pr e-post eller lignende vil medføre avvisning av tilbudet. Tilbudet skal være bindende. Leverandøren har risiko for uklarheter i tilbudet.
+Tilbudets utforming
+Leverandøren skal fylle ut og besvare alle punkter i konkurransedokumentene. Dokumentasjon skal lastes opp som pdf-filer dersom ikke annet format er spesifisert. Prisark skal lastes opp som Excel-fil.
+Dokumenter som skal leveres med tilbudet er:
+Tilbudsbrev
+ESPD som foreløpig dokumentasjon på oppfyllelse av kvalifikasjonskrav
+Besvarelse tildelingskriterier
+Utfylte bilag med tilleggsdokumentasjon der det kreves

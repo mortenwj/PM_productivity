@@ -1,0 +1,36 @@
+Vaatimusmäärittely
+Alla on listattuna tarjouspyynnön vaatimusmäärittelyn aliliitteet.
+aRFQ & RFQ liite 2. Vaatimusmäärittely
+Kuvaa Tilaajan tarpeet hankittavalle kokonaisratkaisulle, mitä käytetään yhdessä pohjana rakentamisvaiheen yhdessä tehtävälle vaatimusmäärittelylle. Vaatimusmateriaalin pätemisjärjestys kuvattu hankintasopimuksessa.
+aRFQ & RFQ liite 2.1 Palveluiden kuvaus
+Kuvaa osana vaatimusmäärittelymateriaalia Tilaajan hankkeen aikana rakennettavaksi tavoittelemat palvelut. Sisältää:
+Palvelun tarkoituksen
+Käyttäjäryhmät
+Palvelun arvolupaukset
+Palvelun laajuuden
+Palveluiden rajaukset
+Suhteen muihin palveluihin
+Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä.
+[Vastaa kysymykseen: Mitä palveluita ollaan rakentamassa]
+aRFQ & RFQ liite 2.2. VN ASIA käyttökonsepti
+Kuvaa osana vaatimusmäärittelymateriaalia Palvelukuvausta täydentäen Tilaajan näkemykset, millä tavoin hankittavaa järjestelmäkokonaisuutta ja sen kyvykkyyksiä käyttämällä tavoiteltavia palveluita Tilaajan toimintaympäristöissä tullaan tuottamaan eri loppukäyttäjäryhmien näkökulmasta. Sisältää:
+Käyttötilanteet (skenaariot)
+Käyttäjäroolit
+Käyttöympäristöä
+Pääprosessit
+Käyttötiheyttä / voluumia
+Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä vaatimustenmukaisuuden itsearvioinnin tekemisen ohella.
+[Vastaa kysymykseen: Missä kontekstissa järjestelmää käytetään]
+RFQ liite 2.2.1 - Käyttötapaukset
+Tarkentaa käyttökonseptia alueilta, mistä käyttötapauksia on kuvattu. Tilaaja sekä Toimittaja tulevat yhdessä osana ketterän kehittämisen mallin käyttöä tuottamaan lisää käyttötapauksia sekä rakentamisvaiheen vaatimuksia tukemaan Toimittajan tarjoamien tuotteiden käyttöä mahdollisimman Tilaajan tarpeet tyydyttävällä tavalla. Tukee Toimittajaa varsinkin projektisuunnitelman sekä ratkaisukuvauksen tekemisessä.
+RFQ liite 2.2.2 – Valtioneuvoston prosessit
+Tarkentaa valtioneuvoston ja sen ministeriöiden erilaisia toimintaprosesseja, joissa asianhallintajärjestelmää käytetään.
+aRFQ & RFQ liite 2.3. Toiminnalliset vaatimukset
+Toiminnalliset vaatimukset kuvaavat, mitä järjestelmän tulee pystyä tekemään käyttäjän ja prosessien näkökulmasta. Ne määrittelevät järjestelmän tarjoamat toiminnot ja käyttäytymisen ilman teknistä toteutustapaa.
+RFQ VN Asia Liite 2.4 Ei toiminnalliset vaatimukset
+Tietojärjestelmien ei‑toiminnalliset vaatimukset kuvaavat miten järjestelmän tulee toimia.
+Ne määrittävät järjestelmän laatuominaisuudet, kuten suorituskyvyn, turvallisuuden, käytettävyyden, saavutettavuuden, luotettavuuden, skaalautuvuuden ja ylläpidettävyyden. Ne asettavat rajat ja laatukriteerit, joiden puitteissa järjestelmän toiminnallisuudet toteutetaan.
+RFQ VN Asia Liite 2.5 tietosuojan vaatimukset
+Kuvaavat tietosuojaan liittyviin vaatimukset, joihin tarjoajan on sitouduttava.
+RFQ VN Asia Liite 2.6 tietoturvan vaatimukset
+Kuvaavat tietoturvaan liittyvät vaatimukset, joihin tarjoajan on sitouduttava.

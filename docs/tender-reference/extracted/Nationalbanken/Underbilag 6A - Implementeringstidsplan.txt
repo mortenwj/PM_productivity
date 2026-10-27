@@ -1,0 +1,383 @@
+## Page 1
+Id MilepælAktivitet Varighed Startdato Slutdato Afhængighed
+1 Kontraktunderskrift 1 dag on 21-01-26on 21-01-26
+2 M0 Underskrivelse af kontrakt 1 dag on 21-01-26on 21-01-26
+3 Afklaringsfase 19,5 dageto 22-01-26on 25-02-261
+4 Introduktion til parternes 
+projektorganisation og etablering af 
+samarbejdsorganisation
+0,5 dageto 22-01-26to 22-01-262
+5 Projektstyring 9,5 dagefr 23-01-26to 05-02-26
+6 Afklaringsforløb for risikovurdering8,5 dagefr 23-01-26on 04-02-26
+7 Møde om risikovurdering 0,5 dagefr 23-01-26fr 23-01-264AS+1 
+dag
+8 Løbende dialog og tilpasning til 
+risikovurdering
+7 dage ma 26-01-26ti 03-02-267
+9 Afklaring af endeligt risikoniveau 
+for servicen
+1 dag on 04-02-26on 04-02-268
+10 Afklaringsforløb for 
+implementeringstidsplan
+8,5 dagema 26-01-26to 05-02-26
+11 Afklaringsmøde om 
+implementeringstidsplan
+0,5 dagema 26-01-26ma 26-01-264AS+2 
+dage
+12 Afklaring af uddannelsesforløb og 
+planlægning
+0,25 dageti 27-01-26ti 27-01-2611
+13 Indarbejdelse af aftalte ændringer i
+implementeringstidsplan
+5 dage ti 27-01-26ma 02-02-2611
+14 Fremsendelse af revideret 
+implementeringstidsplan til Kunden
+0 dage ma 02-02-26ma 02-02-2613
+15 Godkendelse af 
+implementeringstidsplan
+3 dage ti 03-02-26to 05-02-2614
+16 Afklaringsforløb for betalingsplan8,5 dagema 26-01-26to 05-02-26
+17 Møde om betalingsplan 0,5 dagema 26-01-26ma 26-01-264AS+2 dage
+18 Udarbejdelse af betalingsplan5 dage ti 27-01-26ma 02-02-2617
+19 Fremsendelse af betalingsplan0 dage ma 02-02-26ma 02-02-2618
+20 Godkendelse af betalingsplan3 dage ti 03-02-26to 05-02-2619
+21 Afklaringsforløb om Kundens IT-miljø9,5 dageti 27-01-26ma 16-02-26
+22 Teknisk workshop om Kundens 
+IT-miljø og krav til samme
+0,5 dageti 27-01-26ti 27-01-264AS+3 
+dage
+23 Udarbejdelse af evt. præciseringer 
+og/eller suppleringer til krav og 
+forhold om Kundens IT-miljø
+5 dage on 28-01-26ti 03-02-2622
+24 Fremsendelse af evt. Præciseringer 
+og/eller suppleringer til forhold om 
+Kundens IT-miljø
+0 dage ti 03-02-26ti 03-02-2623
+25 Godkendelse af præciseringer 
+og/eller suppleringer til forhold om 
+Kundens IT-miljø
+1 dag ma 16-02-26ma 16-02-2624AS+3 
+dage
+26 Afklaringsforløb om integrationer8,5 dageon 28-01-26ma 16-02-26
+27 Teknisk workshop om 
+standardintegrationer og Calypso
+0,5 dageon 28-01-26on 28-01-264AS+4 
+dage
+28 Udarbejdelse af evt. præciseringer 
+og/eller suppleringer til krav og 
+forhold til standardintegrationer og 
+Calypso
+5 dage to 29-01-26on 04-02-2627
+29 Fremsendelse af evt. Præciseringer 
+og/eller suppleringer til forhold til 
+standardintegrationer og Calypso
+0 dage to 05-02-26to 05-02-2628
+30 Godkendelse af præciseringer 
+og/eller suppleringer til forhold til 
+standardintegrationer og Calypso
+3 dage to 05-02-26ma 16-02-2629
+31 Løsningens funktioner og 
+konfigurationsmuligheder
+16 dagema 26-01-26ti 24-02-26
+32 Workshop vedr. 
+konfigurationsmuligheder i Løsningen
+1 dag ma 26-01-26ti 27-01-264AS+2 
+dage
+33 Afklaringsworkshop vedr. specifikke 
+funktionelle områder (Fx Teams, 
+aktindsigt og kontrakthåndtering)
+1 dag ti 27-01-26on 28-01-2632
+34 Konfigurationsworkshop - 
+Kundespecifik konfiguration
+1 dag on 28-01-26to 29-01-2633
+35 Udarbejdelse og dokumentation af 
+Løsningsdesign
+5 dage to 29-01-26to 05-02-2634
+36 Fremsendelse af Løsningsdesign til 
+Kundens godkendelse
+0 dage to 05-02-26to 05-02-2635
+37 Kundens review af Løsningsdesign5 dage to 05-02-26to 19-02-2636
+38 Håndtering af Kundens evt. 
+kommentarer til ESDH-løsningsdesign
+3 dage to 19-02-26ti 24-02-2637
+39 M1 Godkendt Løsningsdesign 1 dag ti 24-02-26on 25-02-2638
+40 M2 Afslutning af afklaringsfasen 0 dage on 25-02-26on 25-02-2639
+41 Etablering af miljøer 16,5 dageto 22-01-26fr 20-02-26
+42 Etablering af test- og produktionsmiljø 
+samt migreringsmiljø (servere, 
+basissoftware og testklienter)
+15 dageto 22-01-26on 18-02-262
+43 Installation af standardprogrammel 
+(Public 360° + relevante moduler) og 
+basiskonfiguration I test- og 
+produktionsmiljø
+1 dag to 19-02-26to 19-02-2642
+44 Installationstest I Kundens test- og 
+produktionsmiljø
+0,5 dagefr 20-02-26fr 20-02-2643
+45 Implementeringsfasen 102,5 dageon 25-02-26to 20-08-26
+46 Etablering af Kundens ESDH-Service102,5 dageon 25-02-26to 20-08-26
+47 Implementering af den 
+kundespecifikke konfiguration og 
+gennemførsel af Leverandørens egne
+prøver
+62,5 
+dage
+on 25-02-26on 03-06-26
+48 Implementering af kundespecifik 
+konfiguration + udarbejdelse af 
+Testcases
+20 dageon 25-02-26on 25-03-2639
+49 Implementering af relevante 
+standardintegrationer (CVR, CPR og
+Digital Post)
+1 dag on 25-03-26to 26-03-2648
+50 Implementering af Kundespecific 
+integration (Calypso)
+3 dage ti 05-05-26to 07-05-2648AS+1 
+dag
+51 Fremsendelse af leverandørens 
+Testplan
+1 dag fr 08-05-26fr 08-05-2650
+52 Kundens godkendelse af 
+Leverandørens testplan og 
+testcases
+3 dage ma 11-05-26on 13-05-2650AS+1 
+dag
+53 Leverandørens test på Kundens 
+testmiljø
+10 dagefr 15-05-26fr 29-05-2652
+54 Fremsendelse af Leverandørens 
+Testrapport
+0 dage fr 29-05-26fr 29-05-2653
+55 M3 Godkendelse af Leverandørens 
+Testrapport
+3 dage ma 01-06-26on 03-06-2653
+56 Datamigrering 101,5 dageto 26-02-26to 20-08-26
+Kunde;Leverandør
+Leverandør;Kunden
+Leverandør;Kunden: PL, Fagansvarlig, Systemansvarlig
+Leverandør;PL (Kundens)
+Leverandør;PL (Kundens)
+Leverandør;Kunden: PL, Fagansvarlig, Systemansvarlig
+Leverandør;Kunden: PL, Fagansvarlig, Systemansvarlig
+Leverandør
+02-02
+PL (Kundens)
+Leverandør;PL (Kundens)
+Leverandør
+PL (Kundens)
+Leverandør;IT-Arkitekt (Kunden)
+Leverandør
+Kunde
+Leverandør;IT-Arkitekt (Kunden)
+Leverandør;IT-Arkitekt (Kunden)
+05-02
+IT-Arkitekt (Kunden)
+Leverandør;Fagansvarlig (Kunden)
+Leverandør;Fagansvarlig (Kunden)
+Leverandør;Fagansvarlig (Kunden)
+Leverandør
+05-02
+Fagansvarlig (Kunden)
+Leverandør
+25-02
+25-02
+Leverandør
+Leverandør
+Leverandør
+Levarandør
+Leverandør;IT-Arkitekt (Kunden)
+Levarandør
+Leverandør
+Fagansvarlig (Kundens)
+Leverandør
+29-05
+03-06
+D J F M A M J J A S O N D
+Halvdel 1 2026 Halvdel 2 2026
+Task
+Split
+Milestone
+Summary
+Project Summary
+Inactive Task
+Inactive Milestone
+Inactive Summary
+Manual Task
+Duration-only
+Manual Summary Rollup
+Manual Summary
+Start-only
+Finish-only
+External Tasks
+External Milestone
+Deadline
+Progress
+Manual Progress
+Page 1
+Project: Implementeringstidspla
+Date: sø 23-11-25
+
+## Page 2
+Id MilepælAktivitet Varighed Startdato Slutdato Afhængighed
+57 Fastlæggelse af udtræksformat og 
+modtagelse af dataudtræk
+15,25 
+dage
+to 26-02-26to 19-03-26
+58 Møde om udtræksformat med 
+Kundens eksisterende 
+leverandør af ESDH-Service 
+'TeamShare'
+0,25 dageto 26-02-26to 26-02-2640AS+1 
+dag
+59 Modtagelse af data i aftalt 
+format fra Kundens eksisterende
+ESDH-Service "Teamshare"
+0 dage to 19-03-26to 19-03-2658AS+15 
+dage
+60 Migrering af data til Kundens nye 
+Løsning
+86,25 
+dage
+to 19-03-26to 20-08-26
+61 Udarbejdelse af 
+mapningsdokumenter for data 
+fra eksisterende løsninger
+15 dageto 19-03-26fr 17-04-2659
+62 Konverterings- og 
+mapningsworkshop 
+omhandlende data fra 
+eksisterende ESDH-løsning 
+"Teamshare"
+1 dag fr 17-04-26ma 20-04-2661
+63 Kundens behandling af evt. 
+udestående mapninger efter 
+workshops
+5 dage ma 20-04-26ma 27-04-2662
+64 Udarbejdelse af scripts til 
+migrering af data fra Kundens 
+eksisterende løsninger
+15 dagema 27-04-26ti 19-05-2663
+65 ESDH løsningens 
+Kundespecifikke konfiguration 
+lægges på migreringsmiljøet
+3 dage ma 08-06-26on 10-06-2655AS+1 
+dag
+66 Gennemførsel af prøvemigrering
+fra Kundens eksisterende 
+løsninger og Leverandørens test 
+af samme
+15 dageto 11-06-26on 22-07-2665
+67 Konverteringstest af 
+prøvemigrering fra Kundens 
+eksisterende løsninger
+5 dage to 23-07-26on 29-07-2666
+68 Evt. anden iteration af 
+migreringsspor med ny 
+konverteringstest
+15 dageto 30-07-26on 19-08-2667
+69 M4 Godkendelse af migrering af 
+data fra Kundens eksisterende 
+løsninger
+1 dag to 20-08-26to 20-08-2668
+70 Uddannelse - Aftalt i Afklaringsfasen 
+Nedenstående er et eksempel
+9 dage on 01-07-26to 30-07-26
+71 Superbrugerkursus 1 dag ti 28-07-26ti 28-07-2678AS-20 dage
+72 Train-the-trainerkursus 2 dage on 29-07-26to 30-07-2671
+73 E-Learning materiale fremsendes0 dage on 01-07-26on 01-07-2672
+74 Overtagelsesprøve for Løsningen på 
+Kundens Testmiljø
+52 dagefr 31-07-26fr 09-10-26
+75 Forberedende aktiviteter for 
+overtagelsesprøve
+17 dagefr 31-07-26ma 24-08-26
+76 Fremsendelse af drejebog, prøveplan 
+og testcases for overtagelsesprøve
+1 dag fr 31-07-26fr 31-07-2669AS-15 
+dage
+77 Godkendelse af drejebog, prøveplan 
+og testcases
+5 dage ma 03-08-26fr 07-08-2676
+78 Kopiering og restore af database med 
+migrereret data fra 
+konverteringsmiljøet på 
+produktionsmiljø
+2 dage fr 21-08-26ma 24-08-2669
+79 Afholdelse af overtagelsesprøve4 dage ti 25-08-26fr 28-08-26
+80 Svartidstest 1 dag ti 25-08-26ti 25-08-2678
+81 Fremsendelse af prøverapport for 
+overtagelsesprøve
+0 dage ti 25-08-26ti 25-08-2680
+82 M5 Godkendelse af overtagelsesprøve3 dage on 26-08-26fr 28-08-2681
+83 Lukkevindue og ibrugtagning af 
+Løsningen
+9 dage ti 01-09-26fr 11-09-26
+84 Udlevering af opdaterede udtræk i 
+aftalt format fra Kundens 
+eksisterende løsninger
+1 dag ti 01-09-26ti 01-09-2682AS+1 
+dag
+85 Migrering af data til Kundens 
+produktionsmiljø
+2 dage on 02-09-26to 03-09-2684
+86 Kundens endelige verifikationstest af 
+Servicen i lukkevindue
+1 dag fr 04-09-26fr 04-09-2685
+87 M6 Idriftsættelse af Løsning 0 dage ma 07-09-26ma 07-09-26
+88 Fremsendelse af Afslutningsrapport5 dage ma 07-09-26fr 11-09-2687
+89 Hypercare (3 uger) 26 dagema 07-09-26fr 09-10-26
+90 Hypercare start 0 dage ma 07-09-26ma 07-09-2687
+91 M7 Hypercare slut 15 dagema 21-09-26fr 09-10-2690
+Leverandør;3.parts leverandør
+19-03
+Leverandør
+Leverandør;Fagansvarlig (Kunden)
+Fagansvarlig (Kunden)
+Leverandør
+Leverandør
+Leverandør
+Kunde;Fagansvarlig (Kunden)
+Kunde;Fagansvarlig (Kunden)
+20-08
+Leverandør;Kunde
+Leverandør;Kunde
+01-07
+Leverandør
+Leverandør
+Leverandør;Fagansvarlig (Kunden)
+28-08
+3.parts leverandør;Leverandør
+Leverandør
+Leverandør;Fagansvarlig (Kunden)
+07-09
+Leverandør
+07-09
+Leverandør
+D J F M A M J J A S O N D
+Halvdel 1 2026 Halvdel 2 2026
+Task
+Split
+Milestone
+Summary
+Project Summary
+Inactive Task
+Inactive Milestone
+Inactive Summary
+Manual Task
+Duration-only
+Manual Summary Rollup
+Manual Summary
+Start-only
+Finish-only
+External Tasks
+External Milestone
+Deadline
+Progress
+Manual Progress
+Page 2
+Project: Implementeringstidspla
+Date: sø 23-11-25

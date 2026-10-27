@@ -1,0 +1,196 @@
+Tidsplan
+Bilag 1
+Formål og indhold
+Formålet med tidsplanen er at skabe overblik over sammenhængen mellem aktiviteter, tidsforbrug og ressourceanvendelse, så Leverancen kan gennemføres effektivt og i overensstemmelse med aftalte milepæle.
+Tidsplanen skal tydeligt angive, hvem der er ansvarlig for hver aktivitet, herunder om ansvaret påhviler Leverandøren, Kunden eller en tredjepart.
+Hovedtidsplanen
+Hovedtidsplanen opdeles i tre faser:
+Faserne gennemføres i ovennævnte rækkefølge. Overgangen mellem faserne kræver Kundens skriftlige godkendelse af den foregående fases afsluttende leverance.
+ESDH-Systemet skal være idriftsat i alle tre Instanser senest den 1. oktober 2027.
+Afklaringsfasen
+Afklaringsfasen har til formål at sikre en fælles forståelse mellem Kunden og Leverandøren af krav, behov og den overordnede løsningsbeskrivelse.
+I fasen gennemgår Parterne Leveringskontrakten og bilagene, herunder kravspecifikation og løsningsbeskrivelse. Parterne kan i fællesskab vurdere, om justeringer inden for udbudsreglernes rammer kan forbedre leverancen.
+Afklaringsfasen kræver aktiv deltagelse fra begge parter, herunder workshops og eventuelle analyser. Som led i fasen skal Leverandøren udarbejde et opdateret forslag til den detaljerede tidsplan for Implementeringsfasen inden for udbudsreglernes rammer.
+3.1 Afklaringsrapport
+Ved afslutningen af afklaringsfasen skal Leverandøren udarbejde en afklaringsrapport, som skal indeholde:
+Eventuelle tilpasninger af kontraktbilag, herunder begrundelse for nødvendigheden.
+En beskrivelse af forhold, der fortsat er uafklarede eller mangler tilstrækkelig Dokumentation, samt en angivelse af behovet for yderligere afklaringer.
+En opdateret og detaljeret tidsplan for Implementeringsfasen.
+Implementeringsfasen
+Implementeringsfasen har til formål at klargøre ESDH-Systemet til drift.
+Fasen påbegyndes, når Kunden har godkendt afklaringsrapporten, og afsluttes med idriftsættelse af de respektive Instanser.
+Implementeringen gennemføres delvist separat for hver Instans jf. bilag 2a - Datamængder for Institutioner.
+4.1 Indhold i tidsplan
+Leverandørens detaljerede tidsplan for Implementeringsfasen skal som minimum omfatte følgende aktiviteter:
+Implementeringsfasens start
+Etablering af miljøer
+Udarbejdelse af Løsningsdesign
+Godkendelse af Løsningsdesign
+Godkendelse af Prøveplan jf. bilag 5 - Prøver
+Konfiguration af ESDH-Systemet
+Gennemførelse af Installationsprøve jf. bilag 5 - Prøver
+Gennemførelse af Leverandørens prøver jf. bilag 5 - Prøver
+Administratorundervisning
+Konfiguration af undtagelser til Løsningsdesign
+Gennemførelse af Overtagelsesprøver jf. bilag 5 – Prøver
+Idriftsættelse af ESDH-Systemet i den respektive Instans' Produktionsmiljø
+4.1.1 Etablering af testmiljø
+Leverandøren skal i samarbejde med Kundens Driftsleverandør sikre etableringen af Testmiljø forud for påbegyndelse af Konfigurationen af ESDH-Systemet. Leverandøren skal bistå med installation af ESDH-Systemet samt levere de nødvendige specifikationer og vejledninger til Driftsleverandøren.
+4.1.2 Etablering af øvrige miljøer
+Leverandøren skal bistå Kundens Driftsleverandør med den tekniske vejledning og Dokumentation, der er nødvendig for at sikre en korrekt etablering og installation af miljøer (herunder Pre-produktion og Produktion) for hver af de tre Instanser.
+4.1.3 Løsningsdesign
+Leverandøren skal i samarbejde med Kunden udarbejde et Løsningsdesign for ESDH-Systemet baseret på de funktionelle krav i bilag 3 – Kravspecifikation.
+Løsningsdesign skal som minimum omfatte følgende områder af ESDH-Systemet:
+Sagstyper
+Kundespecifikke objekter
+Dokumenttyper
+Kontakttyper
+Metadatafelter
+Rettighedsstruktur
+Standardintegrationer
+Leverandøren skal afholde det antal workshops, der skal angives i tidsplanen, så Kunden kan træffe beslutning om det Løsningsdesign, der gælder på tværs af de tre Instanser.
+Løsningsdesign er gældende for alle tre Instanser jf. bilag 2a – Datamængder for Institutioner.
+4.1.3.1 Undtagelser til Løsningsdesign
+Løsningsdesign omfatter ikke følgende områder:
+Journalplan
+Kundespecifikke integrationer
+Institutionsadskillelse
+Kontakthierarki
+Institutionsspecifikke metadatafelter
+Som udgangspunkt opsætter Kunden selv overstående områder på de respektive Instanser efter godkendelsen af Leverandørens egne prøver.
+4.1.3.2 Godkendelse af Løsningsdesign
+Kunden skal godkende Løsningsdesign, når denne opfylder kravspecifikationen og afspejler en fælles forståelse af det endelige ESDH-System.
+4.1.3.3 Frist for godkendelse af Løsningsdesign
+Kunden skal godkende Løsningsdesign senest 5 Arbejdsdage efter modtagelsen. Hvis Kunden ikke kan godkende Løsningsdesign, skal bemærkninger meddeles skriftligt inden for samme frist. Leverandøren skal herefter fremsende en revideret version til fornyet godkendelse.
+4.1.4 Konfiguration af ESDH-System
+Leverandøren skal konfigurere ESDH-Systemet i overensstemmelse med det godkendte Løsningsdesign. Konfigurationen skal sikre, at ESDH-Systemet fungerer som beskrevet og opfylder kravspecifikationen på alle tre Instanser.
+4.1.4.1 Ansvarlig for Konfiguration
+Leverandøren er ansvarlig for at klargøre og levere Konfiguration baseret på det godkendte Løsningsdesign. Leverandøren skal sikre, at Kundens Driftsleverandør er i stand til at udrulle denne Konfigurationen til de respektive Instansers miljøer. Installationen af Konfigurationen skal dokumenteres og verificeres som en del af Installationsprøven for de enkelte Instans.
+4.1.5 Administratorundervisning
+Leverandøren skal uddanne Kundens administratorer i ESDH-Systemets Administratormodul og tilsvarende således, at Kunden er i stand til som minimum at opsætte følgende på de respektive Instanser:
+Journalplaner
+Institutionsadskillelse
+Kontakthierarki
+Institutionsspecifikke metadatafelter
+Sagstyper
+4.1.6 Implementeringsrækkefølge
+Leverandøren skal implementere Instanserne i følgende rækkefølge:
+Instans 1 – SLKS
+Instans 2 – Rigsarkivet
+Instans 3 – Øvrige Institutioner, jf. bilag 2a – Datamængder for Institutioner
+Driftsprøvefasen
+Driftsprøvefasen påbegyndes umiddelbart efter Kundens godkendelse af Overtagelsesprøven og den efterfølgende idriftsættelse.
+5.1 Formål og varighed
+Formålet med driftsprøvefasen er at dokumentere, at ESDH-Systemet har den fornødne stabilitet og ydeevne i normal drift. Driftsprøvens varighed og godkendelseskriterier er defineret i bilag 5 – Prøver.
+5.2 Godkendelse af Driftsprøven
+Driftsprøvefasen afsluttes med Kundens skriftlige godkendelse jf. godkendelseskriterier i bilag 5 – Prøver. Ved godkendelse af Driftsprøven anses Implementeringen af ESDH-Systemet for udført.
+Leverandørens tidsplan (evalueringskrav)
+[Vejledning:
+Tilbudsgiver bedes nedenfor beskrive (gerne visuelt) sin tidsplan og redegøre for, hvordan tilbudsgiver vil planlægge og gennemføre Afklaringsfasen og Implementeringsfasen, herunder tilrettelæggelse for at sikre fremdrift, kvalitet og involvering af Kundens Instanser og gennemførsel af Konfiguration.
+Ved evalueringen vil der blive lagt særlig vægt på følgende positive egenskaber:
+At Leverandørens detaljerede tidsplan fremstår realistisk og robust.
+At Leverandøren redegør for, hvordan tidsrammerne overholdes, herunder hvordan risici håndteres, og hvordan eventuelle forsinkelser imødegås.
+At tidsplanen tydeligt beskriver Konfigurationen af ESDH-Systemets tre Instanser, herunder en hensigtsmæssig og effektiv inkorporering i de respektive Instanser.
+At Leverandøren demonstrerer en klar sammenhæng mellem planlagte aktiviteter, leverancer og milepæle, som understøtter en effektiv implementering på tværs af de tre Instanser.
+At strategien for idriftsættelse af de respektive Instanser er tilrettelagt for at sikre den størst mulige robusthed, minimal nedetid og en problemfri overgang for slutbrugerne.
+Leverandørens detaljerede Tidsplan er etableret ud fra Kundens krav, beskrevet i dette bilag, samt Kundens øvrige krav til ydelser, herunder især bilag 3 – Kravspecifikation og bilag 5 – Prøver.]
+Leverandøren opfylder evalueringskravets positive egenskaber med en detaljeret, realistisk og robust tidsplan, der dækker hele forløbet fra kontraktindgåelse den 1. august 2026 til idriftsættelse af alle tre Instanser senest den 1. oktober 2027.
+Tidsplanen er opbygget med sekventielle milepæle, indlagte buffere, parallelle arbejdsspor og en bevidst sekventiel udrulningsstrategi pr. Instans, der tilsammen sikrer fremdrift, håndtering af risici og en problemfri overgang for slutbrugerne. Nedenstående viser hovedaktiviteter og de 12 milepæle i de tre faser:
+Afklaringsfasen
+Implementeringsfasen
+Driftsfasen.
+Figur 1 - Oversigt over Hovedaktiviteter
+Figur 2 - Milepælsplan
+Den detaljerede Tidsplan kan ses i  ”Underbilag 1a - Projektplan for ESDH-implementeringen for 3 Instanser”.
+Bemærkninger til tidsplanen:
+Der er taget højde for fridage og helligdage i planen. Der var i kravene ikke nævnt ferieplanlægning. Leverandøren har derfor også planlagt med aktiviteter i juli måned, dog vil det være muligt at rykke disse aktiviteter til august, og ibrugtagning af Løsningen vil stadig kunne gennemføres i god tid inden 1. oktober 2027. Den detaljerede tidsplan vil blive gennemgået, og evt. tilpasset i Afklaringsfasen.
+Alle aktiviteter er planlagt med ”god luft” til at gennemføre dem. Dette sikrer, at der er tid til at levere en høj kvalitet, og en Løsning, der lever op til Kundens krav.
+Afklaringsfasen
+Figur 3 - Oversigt over Afklaringsfasen
+Afklaringsfasen er af én måneds varighed og slutter den 1. september 2026, hvor afklaringsrapporten er endeligt godkendt af Kunden.Afklaringsfasen er tilrettelagt som et tæt samarbejdsforløb, der sikrer en realistisk og robust fælles forståelse af krav, løsning og plan, inden implementeringsarbejdet påbegyndes. Fasen indledes med opstartsmøde den 1. august 2026, der fastlægger governance, kommunikationsveje og ansvarsfordeling. Herefter gennemføres en systematisk kontraktgennemgang, hvor Parterne i fællesskab identificerer eventuelle præciseringer med henblik på at sikre en fælles forståelse af alle centrale punkter i udbudsmaterialet.
+Der er planlagt med to forskellige workshopspor, der løber fra 10. august til 28. august 2026.
+Det første workshopspor, ”Workshops – Kravspecifikation (bilag 2 & 3)” gennemgår kravspecifikationen med direkte afsæt i Bilag 2 - Kundens It-miljø samt underbilag og Bilag 3 - Kravspecifikation i udbudsmaterialet, og har til formål at få afklaret og præciseret Kundens IT-miljø, datamodel og krav for de tre Instanser. Krav, der fordrer yderligere præcisering, identificeres og behandles proaktivt frem for at blive udskudt.
+Det andet workshopspor ”Workshops – Implementeringsfasen (tidsplan)” fokuserer på Implementeringsfasens tilrettelæggelse og vil resultere i en detaljeret tidsplan, der redegør for hvordan eventuelle forsinkelser imødegås, herunder via indlagte buffere, parallelisering af aktiviteter og en sekventiel idriftsættelse af de respektive Instanser. I denne periode vil Kunden også skulle booke de nødvendige ressourcer og sikre, at tidsplanen er robust ift. Kundens egne allokeringer af de nødvendige ressourcer.Det er også her, at Leverandørens risikomodel gennemgås, risici identificeres og mitigeringsstrategier aftales.
+Afklaringsrapporten udarbejdes fra 24. august og gennemgås i fællesskab den 29. august 2026, så rapporten afspejler en gensidig forståelse og ikke alene Leverandørens perspektiv. Der er indlagt en godkendelsesperiode, inden Kunden formelt godkender rapporten senest den 1. september 2026 (M1).
+For Kunden betyder det, at når Afklaringsfasen er afsluttet:
+Er der en godkendt afklaringsrapport
+En detaljeret tidsplan
+Uklarheder er identificeret og løst inden implementeringsarbejdet påbegyndes
+Risici er identificerede og håndteres løbende
+Parterne er enige om krav, løsning og forventninger inden implementeringsfasen påbegyndes.
+Beskrivelse af Leverandørens proces for risikostyring i implementeringen.
+Udover Leverandørens prøveprincipper, metoder og -værktøjer, som også indgår i Leverandørens overordnede risikostyringsstrategi, omfatter Leverandørens risikostyring flere elementer, der identificerer, vurderer og styrer potentielle risici, som kan påvirke Leverancens succes, overholdelse af leveringstidspunkter og opfyldelse af leverance- og servicemål:
+Risikoidentifikation: Som det indledende skridt identificeres potentielle risici, der kan påvirke implementeringen og driften af løsningen. Dette indebærer brug af Leverandørens erfaringer fra tidligere lignende projekter, inddragelse af interessenter og ekspertise samt en grundig gennemgang af krav og kontekst. Identifikationen omfatter blandt andet tekniske, organisatoriske, økonomiske og operationelle faktorer. Identificerede risici nedfældes i projektstyringsværktøjet ”Risikolog” til videre behandling.
+Risikovurdering: Når risici er identificeret, vurderes de for at bestemme deres sandsynlighed og indvirkning på implementeringen og løsningen. Risikofaktoren fastlægges og sammenholdes med risikokonsekvensen i en matrice.
+Risikobehandling: Kundens og Leverandørens Projektledelse har som fast dagsordenspunkt på Projektstyringsmøderne at monitorere de identificerede risici og mitigerende handlinger.
+Risikokommunikation: Kunderne bliver løbende opdateret om de identificerede risici, deres mulige konsekvenser samt de tiltag, der er iværksat for at håndtere dem. Dette sikrer, at alle relevante parter er opmærksomme på potentielle risici og er forberedte på at håndtere dem.
+Overvågning og kontrol: Risikostyringen er en kontinuerlig proces, hvor risici regelmæssigt identificeres, overvåges og kontrolleres, hvilket sikrer, at der findes en handlingsplan til at håndtere dem.
+Implementeringsfasen
+Figur 4 - Oversigt over Implementeringsfasen.
+Fra Implementeringsfasens start den 1. september 2026 løber et teknisk og et forretningsmæssigt spor parallelt.
+Teknisk spor:
+Krav til infrastruktur fremsendes allerede den 1. august 2026 til Statens IT, så Statens IT kan nå at bestille det nødvendige hardware, og forberede sig til den tekniske workshop og samarbejdet med Leverandøren.I det tekniske spor etablerer Leverandøren i tæt samarbejde med Statens IT tre separate testmiljøer med en uges indbyrdes forskydning:
+Instans 1: 1. september 2026
+Instans 2: 8. september 2026
+Instans 3: 15. september 2026.
+Etableringen afsluttes senest 27. oktober 2026. Parallelt udarbejdes tekniske vejledninger, der skal sætte Statens IT i stand til at kunne opsætte miljøerne i Preproduktion og Produktion med tiltagende mindre assistance fra Leverandøren.
+Det forretningsmæssige spor - Løsningsdesign og konfiguration
+Det forretningsmæssige spor ”Løsningsdesign workshops (Forretningsspor)” gennemføres som tre dedikerede workshops fra 1. september til 16. oktober 2026.
+Workshop 1 (ESDH-Løsning, 1.–15. september) afdækker sagstyper, kundespecifikke objekter, dokumenttyper, kontakttyper og metadatafelter.
+Workshop 2 (Sikkerhedsworkshop, 14.–26. september) behandler rettighedsstruktur og vandtætte skotter.
+Workshop 3 (Integrationer, 22. september – 6. oktober) gennemgår API-snitflader og standardintegrationer.
+Efter gennemførslen af de tre workshops udarbejdes det fælles løsningsdesign for Løsningen. Godkendelsen af det opdaterede Løsningsdesign er projektplanens milepæl nr. 2.
+Det fælles løsningsdesign er grundlaget for konfigurationen af Løsningen og udarbejdelsen af testcases, der anvendes i Leverandørens egne prøver og Overtagelsesprøven. Konfiguration af Løsningen og udarbejdelse af testcases sker i et parallelt og iterativt forløb således, at Kunden løbende inkluderes i både konfigurationen og udarbejdelse af testcases med henblik på løbende  forventningsafstemning med Kunden. Konkret betyder det, at der løbende vil være demo af konfiguration og at Kunden får testcases til review. Godkendelsen af testcases er projektplanens 3. milepæl.
+Testmiljø: Installationsprøve
+Som det første efter en vellykket konfiguration af Løsningen, udarbejdes en installationsvejledning til deploymentpakken og prøveplanen for installationsprøven udarbejdes og fremsendes til Kundens godkendelse. Efter godkendelse af prøveplanen installeres konfigurationen herefter på alle tre testmiljøer i perioden 16. februar 2027 til den 23. februar 2027. Installationsprøven gennemføres i henhold til prøveplanen, og der udarbejdes en prøverapport, der fremsendes til Kundens godkendelse. Den godkendte prøverapport er projektplanens 4. milepæl.
+Testmiljø: Leverandørens egne prøver
+Leverandørens egne prøver starter med udarbejdelse af en prøveplan, der fremsendes til Kunden for godkendelse. Leverandørens egne prøver starter efter godkendelsen af prøveplanen den 16. marts 2027 og slutter den 12. april 2027. Fejl og tilpasninger håndteres på én gang på alle tre Instanser, hvilket reducerer risikoen for inkonsekvenser og forkorter det samlede tidsforløb. Bemandingen af opgaven vil ske i henhold til opgavens omfang. Det er værd at bemærke, at der er gennemført mange tests under selve konfigurationen, og forventningen er derfor, at det vil være under konfigurationen, at langt de fleste fejl vil være fundet og rettet. Når testen er gennemført er:
+Alle funktionelle og ikke-funktionelle krav testede
+Kravspecifikationen med undtagelse af afsnit 17, 18 og 19 testede
+Test af drifts- og sikkerhedsopsætning, herunder backup, logning, overvågning og hændelseshåndtering i Kundens testmiljø.
+Der udarbejdes og fremsendes en prøverapport, til Kundens godkendelse. Godkendelsen af prøverapporten er projektplanens 5. milepæl
+For Kunden betyder dette, at Løsningens konfiguration er udviklet og valideret på tværs af alle tre Instanser, inden den installeres i Preproduktionsmiljøerne.
+Undervisning
+Efter at Leverandørens egne prøver er gennemførte, og før Kunden selv skal konfigurere Løsningen, afholdes administratorkurserne, så Kunden er selvhjulpen, når Kunden skal konfigurere den resterende del af Løsningen. Leverandøren har stor erfaring med afholdelse af administratorkurser og tilrettelæggelse af uddannelsen og uddannelsesmaterialet vil således blive udarbejdet, så Kunden er i stand til selvstændigt at konfigurere Løsningen.
+Preproduktionsmiljøerne
+Kundens instansspecifikke konfiguration i Preproduktionsmiljøer understøttes af én hel måneds varighed pr. Instans i hvert miljø, med indbyrdes forskydning pr. Instans.
+Statens IT påbegynder etablering af Preproduktionsmiljøerne allerede den 8. marts 2027 parallelt med konfigurationsarbejdet, så installation af konfigurationen i Preproduktion kan gennemføres umiddelbart fra den 3. maj 2027 til den 17. maj 2027, når Leverandørens egne prøvers prøverapport er godkendt af Kunden og administratorkurserne er afholdt.
+Hver instans har i projektplanen én måned til at konfigurere Løsningen:
+Instans 1 (SLKS): 03. maj – 03. juni 2027
+Instans 2 (Rigsarkivet): 10. maj – 10. juni 2027
+Instans 3 (Øvrige): 17. maj – 17. juni 2027.
+Produktionsmiljøerne
+Statens IT etablerer Produktionsmiljøerne fra den 19. april 2027 til den 19. maj 2027. Der er afsat lidt kortere tid til etableringen af Produktionsmiljøerne, da der efter etablering af de foregående 6 miljøer, må forventes at være oparbejdet en vis ekspertise hos Statens It.
+Det er også antagelsen i projektplanen, at konfigurationen af Produktionsmiljøerne ikke vil have samme varighed, som på Preproduktionsmiljøet, da der er tale om at konfigurere Produktionsmiljøerne præcis på samme måde, som Preproduktionsmiljøerne. Også ved Kundens konfiguration af Produktionsmiljøerne konfigureres hvert miljø, med en indbyrdes forskydning:
+Instans 1 (SLKS): 03. juni – 17. juni 2027
+Instans 2 (Rigsarkivet): 10. juni – 24. juni 2027
+Instans 3 (Øvrige): 17. juni – 01. juli 2027.
+Samlet set har Kunden halvanden måned pr. Instans til instansspecifik konfiguration fordelt på Preproduktionsmiljøer og Produktionsmiljøer, herunder journalplaner, institutionsadskillelse, kontakthierarki og institutionsspecifikke metadatafelter.
+For Kunden betyder dette, at der er afsat tilstrækkelig og sammenhængende tid til Kundens egne konfigurationer i begge miljøer uden tidspres, at den indbyrdes forskydning mellem Instanserne sikrer mulighed for løbende leverandørsupport, hvis aftalt, og at en velopsat og afprøvet instans er den mest effektive garanti for, at overtagelsesprøven gennemføres planmæssigt.
+Overtagelsesprøver
+Implementeringsfasens afsluttes med aktiviteter relateret til Overtagelsesprøven.
+Kvaliteten af Løsningen er sikret via fire successive test:
+Installationsprøve
+Leverandørens egne prøver
+Overtagelsesprøverne
+Driftsprøve.
+Som del af Overtagelsesprøven indgår der også en belastningsprøve. Hver test skal bestås, inden næste fase igangsættes.
+Overtagelsesprøverne gennemføres af Kunden med én måneds varighed pr. Instans i de respektive Produktionsmiljøer, jf. bilag 5, Prøver, med en Prøveplan, der er godkendt af Kunden 5 arbejdsdage inden prøvestart. For hver Overtagelsesprøve udarbejder Leverandøren en Prøverapport og fremsender den til Kunden. Godkendelserne af prøverapporterne er projektplanens milepæle 6, 7 og 8.Belastningsprøven gennemføres af Leverandøren som en del af Overtagelsesprøven pr. Instans med henblik på at forsikre Kunden om at Løsningen er robust og performer stærkt efter ibrugtagning.Overtagelsesprøverne:
+Instans 1 (SLKS): 21. juni – 14. juli 2027
+Instans 2 (Rigsarkivet): 05. juli – 23. juli 2027
+Instans 3 (Øvrige): 22. juli – 19. august 2027.
+Godkendelsen af Prøverapporterne er forudsætningen for et  ”Go ” til ibrugtagningen og idriftsættelsen af ESDH-Løsningen for de respektive instanser.
+Driftsfasen: Ibrugtagning, Hypercare & Driftsprøve
+Figur 5 - Oversigt over Driftsfasen
+Når der i overtagelsesprøven er godkendt, idriftsættes Instanserne sekventielt med to uger imellem hver Instans:
+Instans 1 (SLKS): 30. juli 2027 – Projektplanens milepæl 9
+Instans 2 (Rigsarkivet): 14. august 2027 – Projektplanens milepæl 10
+Instans 3 (Øvrige): 28. august 2027 – Projektplanens milepæl 11.
+Den sekventielle udrulning og forskydning sikrer en robust tidsplan, da det giver Leverandøren mulighed for at fokusere fuldt ud på én Instans ad gangen og reagere hurtigt på evt. udfordringer, inden næste Instans idriftsættes. Erfaringer og eventuelle tilpasninger fra Instans 1 (SLKS) indarbejdes aktivt inden idriftsættelse af Instans 2 og 3, så udrulningens robusthed øges for hver Instans.
+Fra dagen efter de respektive Instansers ibrugtagning indledes fem dages hypercare med forstærket og dedikeret support, der adresserer udfordringer inden for timer i den kritiske indkøringsperiode. Leverandørens projektteam vil i Hypercareperioden fortsat være dedikeret projektet, hvis der skulle være behov for at undersøge, fejlrette, eller sparre med Kunden om Løsningen.
+Driftsprøven påbegyndes 10 arbejdsdage efter overtagelsesdagen pr. Instans og gennemføres over 30 sammenhængende arbejdsdage, jf. bilag 5.
+Strategien for idriftsættelse af de respektive Instanser er tilrettelagt for at sikre den størst mulige robusthed, minimal nedetid og en problemfri overgang for slutbrugerne via sekventiel ibrugtagning, fem dages hypercare med et fortsat dedikeret projektteam og 30 arbejdsdages Driftsprøve pr. Instans.
+Alle tre Instanser er idriftsat senest den 28. august 2027 således, at der er en ”buffer” på over 1 måned til den kontraktuelle deadline den 1. oktober 2027. Denne ”buffer” er for at sikre, at eventuelle forsinkelser kan imødegås, og at den samlede leverance opfylder kontraktens krav.
+For Kunden betyder dette, at alle tre Instanser er idriftsat med en realistisk og robust tidsmargin til den kontraktuelle deadline, at den sekventielle udrulning minimerer nedetid og risiko, at hypercare sikrer en problemfri overgang for slutbrugerne i indkøringsperioden, og at driftsprøven dokumenterer systemets ydeevne og stabilitet i normal drift.
+Fasen afsluttes, når Leverandøren har udarbejdet og fremsendt en driftsprøverapport til Kundens godkendelse. Kundens godkendelse af driftsprøverapporten er projektplanens sidste milepæl, milepæl nr. 12. Hvorefter Løsningen overgår til ”Normal drift”.
+Leverandøren vil efter overdragelsen invitere til en evaluering af projektforløbet, så Kunden har mulighed for at evaluere projektforløbet sammen med Leverandøren.

@@ -1,0 +1,373 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Bilag 7.i Exitplan (Leverandø-
+rens løsningsbeskrivelse) 
+Dynamisk Indkøbssystem  02.19 Fagsystemer (202 4) 
+Kontrakt om levering af ESDH løsning til Danmarks Nationalbank 
+SKI0219.2503.0030 
+Version 1.0
+
+## Page 2
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 1 af 6 
+ 
+Indhold 
+1 Indledning .................................................................................................................................... 2 
+1.1 Exitprocessen ............................................................................................................................. 2 
+2 Option på opbevaring af Kundens data ................................................................................... 5
+
+## Page 3
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 2 af 6 
+1 Indledning 
+Leverandøren har i nærværende bilag beskrevet den tilbudte exitplan iht. Kundens krav til exit, jf. 
+bilag 7 Exit. Exitprocessen skal leveres, såfremt Kunden vælger at aktivere optionen for Exitpro-
+cessen.   
+1.1 Kontaktoplysninger for Leverandøren 
+ 
+Titel/Navn Funktion Kontaktdata Kompetencer 
+    
+    
+ (Indsæt flere linjer ef-
+ter behov) 
+  
+ 
+1.2 Exitprocessen 
+ 
+Tidsplan for exitproces 
+Leverandørens beskrevne exitproces, der har en maksimal varighed på 5 dage for dataekstraktion 
+og levering, forudsætter en effektiv og rettidig involvering fra Kundens side. Nedenfor beskrives de 
+krævede roller, kompetencer og deres primære ansvar i exitprocessen. 
+Forudsætninger til Kundens kompetencer og organisation 
+Kundens Rolle  Primært Ansvar i Exit-
+processen 
+Krævede Kompeten-
+cer 
+Forventet  
+Risiko 
+Styregruppe 
+Overordnet Godken-
+delse: Godkender igang-
+sættelsen af exitproces-
+sen. Håndterer overord-
+nede kontraktuelle spørgs-
+mål og risiko vedrørende 
+transitionen. 
+Ledererfaring & Kon-
+traktkendskab: 
+Kendskab til leverings-
+kontrakten og beføjelse 
+til at godkende store 
+ændringer i system-
+landskabet. 
+Lav 
+(kun ved kriti-
+ske milepæle) 
+Intern Projektle-
+der 
+Koordination og Tids-
+plan: Styrer den daglige 
+kommunikation og koordi-
+nering mellem Leverandø-
+ren, den nye Leverandør 
+Projektledelse: Erfa-
+ring med koordinering 
+af it-projekter, risikosty-
+ring og 
+Høj (især i de 
+5 dages leve-
+ringsfase)
+
+## Page 4
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 3 af 6 
+og interne ressourcer. Sik-
+rer, at Leverandørens tids-
+plan overholdes. 
+ressourceallokering. 
+Kendskab til Kundens 
+organisation. 
+Fagansvarlig 
+Indholdsvalidering & 
+Godkendelse: Ansvarlig 
+for at validere det udtrukne 
+data fra Løsningen (sager, 
+dokumenter og metadata) i 
+henhold til kundens krav. 
+Slutgodkender dataleve-
+rancen og validerer sletnin-
+gen. 
+Arkiv-viden: Indgå-
+ende kendskab til Løs-
+ningens datamodel, 
+Kundens journalise-
+ringspraksis, taksono-
+mier og klassifikations-
+struktur.  
+Høj (især i Va-
+liderings-fa-
+sen) 
+ 
+ 
+Tidsplan for Exitproces: Maks. 5 Dage (Dataekstraktion og Levering) 
+Den samlede varighed af dataekstraktion og levering er fastsat til 5 Dage (96 arbejdstimer), som 
+beskrevet i Leverandørens tidsplan for exitprocessen, jf. Bilag 7, punkt 2.1.2. 
+Nedenfor overordnet beskrivelse med efterfølgende detaljeret aktiviteter samt produkter/resultater i 
+en plan. 
+• Dag 1: Kick-off og Forberedelse 
+o Intern Projektleder og Styregruppeformand godkender den detaljerede tidsplan og 
+de nødvendige ressourcer. 
+• Dag 2-3: Ekstraktion af Metadata og Strukturdata (Leverandørens primære aktivitet): 
+o Intern Projektleder fungerer som primært kontaktpunkt og sikrer hurtig afklaring af 
+eventuelle spørgsmål vedrørende dataudtræk. 
+o Kunden forudsættes at have ressourcer til at modtage de udtrukne data sikkert via 
+det aftalte elektroniske medie/server/cloud-placering. 
+• Dag 4: Kvalitetssikring (QA) og Endelig Pakning 
+o Fagansvarlig er fuldt afsat i den periode, der er nødvendig for at udføre de krævede 
+stikprøver og kontrollere, at data kan læses og er i det aftalte maskinlæsbare format 
+(XML, CSV og/eller JSON). Denne validering er et acceptkriterium for Kundens god-
+kendelse af exitprocessen. 
+• Dag 5: Levering og Formaliseret Overdragelse 
+o Fagansvarlig og Intern Projektleder godkender Leverandørens dokumentation for 
+sletning, herunder sletteerklæringen. Den Fagansvarlige sikrer, at kontrol af sletning 
+jf. gældende GDPR-regler er opfyldt 
+ 
+Tidsplanen dækker de primære aktiviteter, roller og ansvarsfordeling samt produkt/resultater frem 
+til levering af Kundens Data og Dokumentation.
+
+## Page 5
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 4 af 6 
+Dag Aktivitet Rolle- og Ansvars-
+fordeling Produkt/Resultat 
+1 Formel igangsæt-
+ning  
+(Kick-off) 
+Leverandør: Projekt-
+leder  
+Kunde: 
+Intern Projektleder  
+Godkendt detaljeret aktivitetsplan og 
+tidsplan for de kommende 4 dage. 
+1 Sikker adgang og 
+konfiguration 
+Leverandør: 
+Teknisk specialist  
+ 
+Kunde: 
+It-driftskoordinator 
+Etablering af sikker netværksforbin-
+delse/VPN/Azure Access til dataud-
+træk. Leverandøren sikrer sig den 
+seneste produktionsbackup til data-
+udtræk, hvis Servicen skal forblive 
+fuldt operationel under ekstraktionen. 
+1 Udarbejdelse af Da-
+tamodel 
+Leverandør: Data-
+model-ekspert 
+Første udkast til Datamodel – dia-
+gram og Relationsbeskrivelse 
+2 Ekstraktion af me-
+tadata 
+Leverandør: 
+Teknisk specialist 
+Komplet udtræk af samtlige metadata 
+(journalnumre, versionskontrol-id'er, 
+relationer, rettigheder) i aftalt format 
+(XML, CSV og/eller JSON) 
+2 Ekstraktion af forret-
+ningsdata 
+Leverandør:  
+Teknisk specialist 
+Komplet udtræk af procesdata (work-
+flows), taksonomier, klassifikationer 
+og alle øvrige strukturdata (drop-
+down lister, valideringsdata) 
+2 Fremsendelse af 
+data-definition 
+Leverandør: Data-
+model-ekspert 
+Kunde: Fagansvarlig 
+Levering af Datamodel/Entiteter/Da-
+tagrupper-dokumentation (inkl. filfor-
+mater og feltbeskrivelser) til Kundens 
+Fagansvarlige for indledende gen-
+nemsyn. 
+3 Ekstraktion af doku-
+menter 
+Leverandør:  
+Teknisk specialist 
+Komplet udtræk af alle dokumenter, 
+herunder seneste redigerbare ver-
+sion samt færdigbehand-
+lede/PDF’ede versioner, med tekni-
+ske identifikatorer og versionering. 
+3 Ekstraktion af log-
+data 
+Leverandør:  
+Teknisk specialist 
+Udtræk af alle relevante logdata, der 
+beskriver Løsningens anvendelse, 
+med henblik på sporbarhed. 
+4 Afsluttende doku-
+mentation 
+Leverandør: Data-
+model-ekspert 
+Finalisering af Dokumentation og for-
+beredelse af den tekniske leverings-
+manual.
+
+## Page 6
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 5 af 6 
+4 Pakning og Krypte-
+ring 
+Leverandør:  
+Teknisk specialist 
+Data pakkes og krypteres for sikker 
+overførsel på det aftalte medie eller 
+cloud-placering. 
+5 Levering af data og 
+dokumentation 
+Leverandør:  
+Teknisk specialist 
+Kunde:  
+Intern Projektleder/ 
+It-driftskoordinator 
+Den krypterede datapakke og kom-
+plet Dokumentation leveres til Kun-
+den. Produkterne "Kundens data" og 
+"Dokumentation" er hermed leveret. 
+5 Gennemgang af le-
+verance 
+Leverandør: Projekt-
+leder  
+Kunde: Intern Pro-
+jektleder/ Fagan-
+svarlig 
+Gennemgang af datamodellen og le-
+verancens indhold med henblik på at 
+starte Kundens valideringsfase (Ac-
+ceptprøve). 
+5 Formaliseret Afslut-
+ning af Leverance 
+Leverandør: Projekt-
+leder  
+Kunde: 
+Intern Projektleder 
+Underskrift af Leveringsprotokol der 
+bekræfter, at Leverandøren har op-
+fyldt sin forpligtelse om dataekstrak-
+tion og levering inden for 5 dage. 
+ 
+ 
+Værktøjer 
+Nedenstående beskrivelse af værktøjerne sikrer, at alle data, metadata, dokumenter og relationer 
+trækkes ud i de aftalte, maskinlæsbare formater (XML, CSV og/eller JSON ). 
+ 
+Værktøj Beskrivelse og Formål 
+Leverandørens-
+udtræksværktøjer 
+Leverandørens udtræksværktøjer anvendes til at udføre en fuld data-
+ekstraktion af samtlige persisterede data fra Løsningens database. 
+Disse værktøjer sikrer, at alle tabeller, registre og metadata trækkes ud 
+i et struktureret og anvendeligt format. 
+Dokumentations-
+generatorer 
+Leverandøren værktøjer, der automatisk kan generere Datamodel – di-
+agrammer og Relationsbeskrivelser fra den udtrukne datastruktur. 
+Disse værktøjer sikrer, at dokumentationen af filformater, felter, dataty-
+per og længder er præcis. 
+ 
+Prøver 
+Leverandøren gennemfører følgende prøver for at sikre, at dataekstraktion og sletning opfylder 
+Kundens krav til kvalitet, læsbarhed og lovmedholdelighed (GDPR).
+
+## Page 7
+Bilag 7.i Exit 
+Dynamiske Indkøbssystem 02.19 Fagsystemer (2024)  
+ 
+ 
+ 
+Version 1.0   Side 6 af 6 
+Leverandørens Interne Kvalitetssikringsprøver (QA-prøver) 
+Disse prøver udføres af Leverandøren umiddelbart efter dataekstraktionen (typisk på Dag 4 i den 
+aftalte tidsplan) for at sikre dataudtrækkets integritet og anvendelighed. 
+Prøve Beskrivelse og Formål 
+Gendannelsestest 
+af dataudtræk 
+Leverandøren anvender dataudtrækket til at gendanne en delmængde af 
+data i et separat, isoleret testmiljø. Formålet er at sammenholde de gen-
+dannede data med det tilsvarende indhold i den originale Løsning for der-
+ved at sikre uforvansket indhold i dataudtrækket. Dette sikrer, at me-
+tadata og relationer følger dokumenterne korrekt. 
+Læsbarhedstest af 
+filformater 
+Der foretages en stikprøveprøve på de udtrukne data fra Løsningen for at 
+verificere, at filformaterne (XML, CSV og/eller JSON) er gyldige og ma-
+skinlæsbare. 
+Dokumentations-
+match 
+Leverandøren gennemfører en kontrol af, at den udtrukne datastruktur 
+(metadata, felter, datatyper) stemmer overens med den leverede Doku-
+mentation (Datamodel – diagram og Relationsbeskrivelse). 
+ 
+Kundens Acceptprøver og Acceptkriterier 
+De interne prøver efterfølges af Kundens acceptprøver, som fungerer som de formelle acceptkrite-
+rier for Leverandørens levering af Exit-optionen. 
+Accept- 
+kriterium Prøve (Ansvarlig: Kunden) Dokumentation/ 
+Produkt 
+Kontrol af dataens 
+læsbarhed 
+Kunden foretager en kontrol af, at data kan læ-
+ses jf. det valgte dataformat (XML, CSV og/eller 
+JSON). Dette sikrer, at den nye leverandør kan 
+indlæse data. 
+Kundens skriftlige 
+godkendelse af læs-
+barhed. 
+Stikprøver af data-
+sæt 
+Kunden udfører stikprøver af udvalgte datasæt. 
+Dette omfatter en kontrol af, at komplekse data-
+sæt (f.eks. sager med mange versioner, bilag og 
+komplekse relationer) er komplette og korrekte. 
+Kundens interne vali-
+deringsrapport. 
+Kontrol af sletning 
+jf. GDPR 
+Kunden skal kontrollere, at data er slettet jf. gæl-
+dende GDPR-regler. Denne prøve foretages ef-
+ter Kundens accept af dataudtrækket og godken-
+delse af, at sletning kan påbegyndes. 
+Leverandørens Slette-
+erklæring og eventuel 
+rapport over slettepro-
+ces (jf. GDPR). 
+ 
+Slutgodkendelse: Exitprocessen anses først for fuldt afsluttet, når Kunden har godkendt resulta-
+terne af alle Acceptprøver, herunder modtagelse af sletteerklæring efter kontrol af sletning.

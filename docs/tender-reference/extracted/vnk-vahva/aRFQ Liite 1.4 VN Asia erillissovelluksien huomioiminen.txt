@@ -1,0 +1,115 @@
+Asianhallinnan erillissovellukset
+Yleistä
+Asianhallinnan järjestelmäkokonaisuutta täydentävien Erillissovellusten toiminnallisuudet ja tietosisältö integroidaan uuteen asianhallintaratkaisuun. Tässä dokumentissa kuvataan selainkäyttöisten Erillissovellusten toimintaa, ja niiden vaatimuksia nykytilanteessa. Tämä dokumentti ei kuvaa niitä Erillissovellusten toimintoja, jotka eivät liity varsinaiseen hankittavaan asianhallintajärjestelmään tai niitä integraatioita, jotka eivät liity suoraan asianhallintajärjestelmään.
+Erillissovellukset koostuvat seuraavista kokonaisuuksista ja sovelluksista:
+Päätöksenteko (PTS ja Istuntosovellus, integraatiot)
+UH-kokonaisuus (Asiasanajakelu, VAHVA-doc, koodistointegraatio)
+EU-valmistelu (Asiasanajakelu, MINVA-paketin muodostaminen, integraatiot (eduskunta, CIxP, koodisto)
+Raportointisovellus
+Lähtökohtana on, että em. Erillissovellusten käyttö jatkuu asianhallinnan uudistamisen jälkeen. Jos uusi asianhallintajärjestelmä mahdollistaa yksittäisen kuvatun toiminnallisuuden ja sujuvamman käyttäjäkokemuksen ilman mittavia räätälöintejä, voi uusi järjestelmä mahdollisesti korvata kyseisen Erillissovellusten yksittäisen toiminnallisuuden.
+Päätöksenteko
+Nykyisin käytössä olevan valtioneuvoston yhteisen asianhallintajärjestelmä VAHVAn Päätöksenteko-osuutta (Päätöksentekosovellus (PTS), Istuntosovellus ja VAHVA) käytetään valtioneuvoston yleisistuntojen, tasavallan presidentin esittelyjen ja raha-asiainvaliokunnan istuntojen valmisteluun ja päätöksentekoon. Järjestelmä on valtioneuvoston toiminnan kannalta yksi keskeisimmistä tietojärjestelmistä. Kokonaisuuden työvaiheissa asian valmistelu alkaa VAHVAssa. PTS:ssä tehdään istuntokäsittelyn valmistelu, istuntokäsittely, istunnon jälkeiset toiminnot (mm. päätöskirjaus, korjaukset, pöytäkirjat), tiedostojen siirtäminen VAHVAaan ja eduskunnan vastausten käsittely.
+PTS toimii myös osittain irrallaan VAHVAsta, esimerkiksi silloin kun VAHVAssa on käyttökatko. Päätettäväksi vietävät asiakirjat voidaan tuoda VAHVAsta PTS:ään, mutta ne voidaan tuoda myös muuta kautta manuaalisesti.
+Istuntokäsittelyn jälkeen PTS:ssa käsitelty aineisto arkistoituu automaattisesti VAHVAan. Automaattinen arkistointi onnistuu myös tapauksissa, jossa aineisto on tuotu PTS:en VAHVAn ohitse.
+Istuntoprosessi
+Istuntoprosessilla tarkoitetaan valtioneuvoston ylintä päätöksentekoa ja siihen liittyvää asioiden esittelyä. Valtioneuvoston ylin päätöksenteko tapahtuu valtioneuvoston yleisistunnossa (VN), tasavallan presidentin esittelyssä (TP) sekä raha-asiainvaliokunnassa (RV).
+Istuntoprosessi alkaa esittelylistan liitteiden laadinnasta. Istunnossa käsiteltävät asiakirjat ovat viranomaisen asiakirjoja, jotka valmistellaan asianhallintajärjestelmässä. Valmiit asiakirjat siirretään integraation avulla päätöksentekosovellukseen (PTS), jossa liitteet kootaan määrämuotoiseksi esittelylistaksi istuntokäsittelyä varten.
+Asioiden käsittelystä VN:ssä, TP:ssä ja RV:ssa säädetään perustuslaissa, valtioneuvostolaissa (VNL) ja valtioneuvoston ohjesäännössä (VNOS). Varsinainen istuntokäsittely tapahtuu päätöksentekosovelluksessa ja istuntosovelluksessa, jossa perustetaan tulevat istunnot, tehdään istuntoja koskevat päätöskirjaukset ja laaditaan asiakohtaiset pöytäkirjat. Lisäksi RV:ssa olennaisena osana on esittelylistojen kommentointimahdollisuus.
+Istunnon päätöskirjauksen jälkeen istunnon asialista sekä istuntoon jaetut esittelylistat liitteineen arkistoituvat automaattisesti integraation avulla PTS:stä valtioneuvoston asianhallintajärjestelmään. Istunnon pöytäkirjat siirtyvät PTS:stä oikeuskanslerinvirastoon (OKV) tarkastettavaksi. Kun OKV on tarkastanut istunnon pöytäkirjat, arkistoituvat myös pöytäkirjat automaattisesti valtioneuvoston asianhallintajärjestelmään samalle istuntoasialle kuin asialista ja esittelylistat.
+Asialista on koonti istunnossa käsitellyistä asioista. Asialistoja julkaistaan valtioneuvoston verkkosivuilla ennen istuntokäsittelyä.
+Istuntosovellusta käytetään VN, TP ja RV-istuntojen läpivientiin istuntosalissa. Istunnon kulku pääpiirteissään:
+Esittelyavustajat avaavat päätelaitteet ja kirjaavat istunnon osallistujat sisälle istuntosovellukseen ennen kokouksen alkua.
+Istunnon puheenjohtaja aloittaa istunnon istuntosovelluksessa. Istunnon osallistujat osallistuvat istuntoihin istuntosovelluksen avulla. He seuraavat istunnon etenemistä sovelluksen kautta. Osallistujat voivat olla kokouksessa läsnä tai osallistua etänä.
+Kun asia on kokouksessa käsitelty, puheenjohtaja merkitsee asian istuntosovelluksessa käsitellyksi, jolloin järjestelmä ottaa automaattisesti seuraavan asian käsiteltäväksi. Puheenjohtaja voi perua asian käsittelyn tai siirtää asian käsittelyn asialistalla toiseen kohtaan.
+Puheenjohtaja päättää kokouksen ja istunnon järjestelmästä
+PTS:n ja asianhallintajärjestelmän tärkeä ominaisuus on automaattinen tiedonsiirto eduskuntaan. Istunnon jälkeen aineisto siirtyy automaattisesti PTS:stä eduskunnan käytössä olevaan järjestelmään. Eduskunnasta saapuva aineisto, esim. eduskunnan vastaukset, siirtyvät integraation avulla sekä asianhallintajärjestelmään että PTS:ään.
+PTS-Eduksi-integraatio
+Istuntoasioilla tarkoitetaan VAHVAn Päätöksenteko- ja istuntosovelluksessa käsiteltäviä asioita ja asiakirjoja. Nämä siirretään eduskuntaan ja eduskunnan vastaukset ja kirjelmät tuodaan takaisin eduskunnasta. Eduskunnan käyttämä järjestelmä on Eduksi.
+Valtioneuvoston yleisistunto on yleensä torstaisin ja asiakirjat siirretään Eduskuntaan heti yleisistunnon päätöskirjauksen jälkeen. Päätöskirjauksessa eduskuntaan siirtyville asiakirjoille muodostetaan eduskuntatunnus.
+PTS:stä Eduksiin siirrettävät asiakirjatyypit ovat: Hallituksen esitys (HE), Hallituksen kertomus, Hallituksen kirjelmä, Ministerien sidonnaisuudet (VN), Valtioneuvoston asetus (ilm. EK:lle), Valtioneuvoston kirjelmä (U), Valtioneuvoston selonteko (VNS), Valtioneuvoston tiedonanto (VNT). Siirrettävien asiakirjojen tiedostomuodot ovat pdf ja xml (hallituksen esitykset ja valtioneuvoston kirjelmät). Integraatiossa on mahdollista lähettää korjattuja asiakirjoja Eduksiin.
+Eduskunnan vastaus ja eduskunnan kirjelmä luetaan Eduksista integraation kautta Päätöksentekosovellukseen ja VAHVAan (Istuntoasiat Eduskunnasta). Vastaus tai kirjelmä tallennetaan VAHVAn asialle asian eduskuntatunnuksen perusteella. Ns. eduskuntalähtöinen eduskunnan kirjelmä tallennetaan VAHVAn projektille.  Eduksi voi lähettää integraation kautta korjatun tiedoston, joka tulee VAHVAan ja PTS:ään
+Vastauksesta tai kirjelmästä tulee heräte valmistelijalle. Vastaus tai kirjelmä tulevat XML- ja PDF-asiakirjana. XML-muodossa oleva, säädösosan sisältävä eduskunnan vastaus tai harvinaisessa tapauksessa eduskunnan kirjelmä puretaan valtioneuvostossa vahvistettaviksi laeiksi.
+PTS-Edilex-integraatio
+Integraation tarkoituksena on välittää julkaistavat asiakirjat, kuten hallituksen esitykset, lait ja asetukset Edilex-palvelussa julkaistavaksi. Hallituksen esitykset ja niiden mukana välitettävät asiakirjat välitetään automaattisesti valtioneuvoston yleisistunnon jälkeen päätöskirjauksesta.
+Lähetystapoja on kaksi:
+Automaattinen lähetys Valtioneuvoston yleisistunnon päätöskirjauksesta (Hallituksen esitykset)
+Esittelijän tekemä manuaalinen lähetys
+Lait, valtioneuvoston asetukset, sopimukset, tasavallan presidentin asetukset ja tasavallan presidentin avoimet kirjeet esittelijä lähettää järjestelmästä Edilexiin julkaistavaksi istuntokäsittelyn jälkeen.
+Ministeriöiden asetukset, säädösilmoitukset ja sopimukset valmistelija lähettää Edilexiin julkaistavaksi VAHVA:sta Päätöksentekosovelluksen kautta ilman istuntokäsittelyä.
+UH-kokonaisuus
+Asiasanajakelu
+Asiasanajakelun tarkoituksena on tarjota UH-käyttäjille (ulkoasiainhallinto, kattaen sekä ulkoministeriön että sen alaiset ulkomaan edustustot) mahdollisuus lähettää VAHVA-järjestelmässä tuotettuja asiakirjoja asiasanoja käyttäen. Asiasanojen takana on jakelulistoja organisaatioista ja henkilöistä, joita ylläpidetään koodistossa. Prosessi lähtee liikkeelle VAHVAsta, jossa käyttäjä luo asiakirjan, jonka haluaa lähettää tietyille vastaanottajille. Käyttäjä siirtyy VAHVAsta asiakirjalla olevan linkin avulla asiasanajakeluun ja määrittää asiakirjalle vastaanottajat ja kopion saajat täältä käsin. Asiasanajakelussa asiakirjalle voidaan valita asiasanoja (jotka sisältävät jakelulistoja), organisaatioita, henkilöitä sekä ulkopuolisia kontakteja, jotka tallentuvat suoraan asiakirjalle. Asiasanoja on kahta eri tyyppiä: EU ja UH ja näitä ylläpidetään nykyisin eri koodistoissa.
+VAHVA-doc
+Valtioneuvostossa on käytössä Asiakirjankäsittely-sovelluksen VAHVA-doc -toiminto, joka on tarkoitettu asiakirjojen tallentamiseen ja jakeluun Suomen ulkomaan edustustojen paikallisesti palkatuille ei-Suomen kansalaisille (PPESK), joilla ei ole käyttöoikeusrajoitusten takia pääsyä varsinaiseen asianhallintajärjestelmään. Erillissovellus toimii asianhallintajärjestelmän rinnalla siten, että sovelluksessa tallennetut ja jaellut asiakirjat tallentuvat rajapinnan kautta automaattisesti myös asianhallintajärjestelmään oikealle asialle oletusmetatietoineen. Kaikki yhdessä organisaatioyksikössä yhtenä vuonna tallennetut asiakirjat tulevat asianhallintajärjestelmässä samalle asialle. VAHVA-doc avaa organisaatioyksikölle automaattisesti tämän asian, kun vuoden ensimmäistä asiakirjaa aletaan laatia. VAHVA-doc:lla laaditut asiakirjat voidaan jaella suoraan sovelluksesta vastaanottajille hyödyntäen asiasanajakelua.
+Sovellus tarjoaa heille seuraavat toiminnot:
+Omien asiakirjojen haku VAHVAsta
+Asiakirjan luonti
+Asiakirjan muokkaaminen
+Asiakirjan lähettäminen
+Suosikkijakelut
+EU-valmistelu
+Erillissovellusten EU-kokonaisuuteen kuuluu MINVA-paketin (EU-ministeriövaliokunnan koontiasiakirja) muodostaminen ja asiasanajakelu. Lisäksi kokonaisuuteen kuuluu EU:n neuvoston asiakirjoja VAHVAan siirtävä CIxP-integraatio sekä EU-asiakirjoja ja EU-asian käsittelyn päättymistietoja VAHVAsta eduskunnan Eduksi-järjestelmään siirtävä toiminnallisuus. EU-asioilla tarkoitetaan Euroopan komission lainsäädäntö- ja muiden aloitteiden lisäksi muita neuvostossa tai muissa EU:n toimielimissä ja elimissä käsiteltäviä asioita.
+MINVA-paketin muodostaminen
+MINVA-paketin muodostamista varten käyttäjän on ensin VAHVAn käyttöliittymässä varmistettava, että kaikki sille koottavat perus- ja tavoitemuistiot on viety asiakirjoina VAHVAan. Tämän jälkeen käyttäjä luo MINVA-pakettia varten uuden asiakirjan VAHVAan ja lisää sille asiakirjaviittaukset kaikille mukaan otettaville muistioasiakirjoille. Sen jälkeen käyttäjä klikkaa VAHVAn käyttöliittymässä olevaa Muodosta MINVA-paketti-linkkiä. Tämä linkki vie Erillissovellusten MINVA-toimintoon, jossa varsinainen paketin muodostaminen tehdään.
+Käyttäjä valitsee MINVA-pakettiin liitettävät tiedostot sekä niiden järjestyksen. Tämän jälkeen hän voi muodostaa MINVA-paketin. Sovellus muodostaa MINVA-paketin siten, että valittujen muistioiden sisältö liitetään pakettiin sisällön aloitus- ja lopetuspaikkamerkkien väliselle alueelle. MINVA-paketin pohjatiedostona käytetään VAHVAn MINVA-asiakirjan tiedostoa. Käyttäjä voi muokata MINVA-pakettia VAHVAssa kuten muitakin docx-muotoisia tiedostoja. Jos tiedoston muutokset tehdään muistioalueen paikkamerkkien ulkopuolelle, ne säilyvät, vaikka MINVA-paketti muodostettaisiin uudelleen. Paikkamerkkien väliin tehdyt muutokset eivät sen sijaan säily, ellei vastaavia muutoksia tehdä myös alkuperäisiin muistiotiedostoihin.
+Eduskunta (Eduksi) -integraatio
+Erillissovellusten Asiakirjavälitin siirtää eduskuntaan tiettyjä VAHVAssa käsiteltäviä EU-asiakirjoja, niihin liittyviä uusia versiota ja metatietoja eduskunnan järjestelmään ja sähköposteihin ja tiettyjen EU-asioiden päättymistietoja. Asiakirjavälitin kokoaa myös sähköpostiin koosteen päivän aikana päätetyistä EU-asioista.
+CIxP-integraatio
+Integraation tarkoitus on tiettyjen Euroopan unionin neuvostosta saapuneiden asiakirjojen tuominen CIxP-ratkaisulla (Council Information Exchange Platform) Erillissovellusten Asiakirjavälittimen kautta VAHVAn rekisteröimättömät asiakirjat -näkymään niin, että toimielinasiakirjojen (EU:n neuvoston laatimien asiakirjojen) jatkokäsittely VAHVAssa on mahdollista. Asiakirjoista saapuu tiettyjä kieliversioita ja osa näistä voi saapua pidemmän ajan päästä; integraatio siirtää ne rekisteröimättömien asiakirjojen näkymään asiakirjalle tai asianhallintaan siirretylle asiakirjalle. Kyseinen toimielinasiakirjojen dokumenttivarasto (asiakirjan metatiedot ja niihin liittyvät tiedostot) näkyvät verkossa Delegates Portalissa (EU:n neuvoston portaali, johon EU-asioiden valmisteluun osallistuvilla virkamiehillä on käyttäjätunnus).
+Virastokäyttö
+Virastokäyttö on osa EU-asioiden valmistelun kokonaisuutta. Ministeriöiden ulkopuolista EU-valmistelua kutsutaan virastokäytöksi; eduskunnalle, Ahvenanmaan maakunnan hallitukselle ja tietyille virastoille tulee mahdollistaa järjestelmän EU-valmistelun käyttö. Virastojen EU-valmistelijat voivat käyttää vain VN Asian EU-valmistelun osuutta käyttöoikeuksiensa puitteissa. Virastojen EU-valmistelijat laativat asiakirjoja EU-asioille, mutta virastojen vastuulla ei ole EU-asioita, eikä virastoissa ole tarvetta avata uusia EU-asioita. He voivat hyödyntää EU-asiakirjojensa jakeluun Asiasanajakelu-erillissovellusta.
+EU-valmisteluun osallistuvien virastokäyttö jakautuu kolmeen eri käyttötapaan:
+VAHVA käyttöoikeus, EU-asiakirjojen laadinta ja asiasanajakelu.
+VAHVA aineistonhakumahdollisuus ja asiasanajakeluiden vastaanottaminen. Nämä organisaatiot eivät laadi lainkaan EU-asiakirjoja, vaan hakevat vain EU-aineistoa VAHVAsta.
+Asiasanajakelun vastaanotto. Nämä virastot eivät tarvitse pääsyä VAHVAan, koska heille kaikki aineisto toimitetaan asiasanajakelulla ja ko. viraston käyttäjät ovat VAHVAssa ulkoisina kontakteina
+Asiasanajakelu
+Asiasanajakelun tarkoituksena on tarjota EU-valmistelijoille (sekä ministeriöiden että virastojen) mahdollisuus lähettää VAHVA-järjestelmässä tuotettuja EU-asiakirjoja EU-asiasanoja käyttäen. EU-asiasanojen takana on jakelulistoja organisaatioista ja henkilöistä, joita ylläpidetään koodistossa. Prosessi lähtee liikkeelle VAHVAsta, jossa käyttäjä luo EU-asiakirjan, jonka haluaa lähettää tietyille vastaanottajille. Käyttäjä siirtyy VAHVAsta asiakirjalla olevan linkin avulla asiasanajakeluun ja määrittää asiakirjalle vastaanottajat ja kopion saajat täältä käsin. Asiasanajakelussa asiakirjalle voidaan valita EU-asiasanoja (jotka sisältävät jakelulistoja), organisaatioita, henkilöitä sekä ulkopuolisia kontakteja, jotka tallentuvat suoraan asiakirjalle. Asiasanoja ylläpidetään nykyisin koodistoissa.
+Raportointisovellus
+Raportointisovelluksen tarkoituksena on nopeuttaa yksinkertaisten asiakirjojen laadintaa etenkin Suomen edustustoverkon hitaampien verkkoyhteyksien kohteissa. Sovellus on tarkoitettu UH- ja EU-raportointiin (esim. ulkoasiainhallinnon virkamieskunnan raporttien laadintaan ulkoministeriössä tai sen edustustossa ja raporttien laadintaan EU:n neuvoston tai komission työryhmien ja komiteoiden kokouksista). Raporttiprosessin kulku pääpiirteissään:
+Omalla työasemalla laaditaan raportti VAHVAn offline-pohjia hyödyntäen
+Raportointisovelluksessa tuodaan tiedosto(t), valitaan oikea koontiasia hakemalla diaarinumerolla tai omista suosikeista, tarkistetaan automaattisesti täydentyneet metatiedot, kootaan lisäämällä asiasanat ja muut vastaanottajat
+VAHVAssa raportti tallentuu määritellyillä tiedoilla valmiiksi asiakirjaksi ja raportti jaellaan vastaanottajille
+Erillissovellusten nykyinen integroituminen VAHVAan
+Erillissovellukset on integroitu VAHVAn tarjoamaan rajapintaan. Rajapintaa hyödynnetään tarvittaessa myös loppukäyttäjänä interaktiivisen käytön yhteydessä. Tässä kappaleessa on kuvattu ylätasolla tärkeimmät toiminnot, jossa integraatiota hyödynnetään. Rajapinnan kautta hyödynnetään seuraavia VAHVAn toiminnallisuuksia:
+Asioiden haku ja luonti
+Asiakirjojen haku, luonti ja päivittäminen
+Tiedoston sekä tiedoston metadatan haku, tiedoston lisääminen ja tiedoston päivittäminen
+Käyttöoikeusryhmien haku
+Käyttäjien haku (osittainen toteutus, ei käytössä erillissovelluksissa)
+Yhteyshenkilöiden ja organisaatiokontaktien haku
+Koodistotaulujen sisällön haku
+Esimerkiksi PTS hyödyntää VAHVAa päätöksenteossa useissa vaiheissa:
+Asian luonnin yhteydessä voidaan yhdistää substanssi- ja PTS-asia
+Asiaan voidaan tuoda asiakirjoja
+Asiakirjojen tilaa päivitetään PTS:stä VAHVAan.
+Arkistointia varten VAHVAan luodaan automaattisesti integraatiotunnuksella arkistointia varten istuntoasia.
+Asioiden asiakirjat ja istuntojen pöytäkirjat arkistoidaan VAHVAan.
+Asiasanajakelussa hauissa muodostetaan kysely SIF-rajapintaan ja haku suoritetaan käyttäjänä itsenään. Poikkeuksena tähän ovat paikallisesti palkatut ei Suomen kansalaiset, joilla ei ole pääsyä VAHVAan. Heidän toimintonsa suoritetaan integraatiotunnuksella ja lisäksi heille on toteutettu rajaus, että he pääsevät käsiksi vain itsensä laatimiin asiakirjoihin.
+Tiedot VAHVAn organisaatioista ja koodistotaulujen sisällöstä tallennetaan ajastetusti kerran vuorokaudessa välimuistipalveluun indeksoituun tietokantatauluun. Tällöin vältetään hakemasta näitä usein tarvittavia tietoja VAHVAsta saakka sovellusten käytön aikana, mikä nopeuttaa sovellusten toimintaa.
+Alla on listattu toiminnot, joita varten sovellukset lukevat VAHVAsta koodistotauluja. Sovellus hakee koodistotaulujen sisällön välimuistiin kerran vuorokaudessa.
+Asiakirjan luonnin käyttöliittymä
+Edustuston kirjeenvaihtoasian automaattinen luonti
+Rekisteröimättömän epävirallisen kontaktin uudelleen tallentaminen, jos maatieto asetettu VAHVAssa
+Eduksi-integraation konfiguraatio
+Koodisto-integraatio
+Asiasanajakelusovelluksessa muodostetaan jakeluita VAHVAn asiakirjoihin. Yhtenä olennaisena osana tässä ovat asiasanapohjaiset jakeluehdotukset. Käyttäjä voi asiasanajakelusovelluksen käyttöliittymän kautta lisätä asiakirjalle UH- tai EU-asiasanoja (käyttäjän rooleihin ja asiakirjatyyppiin perustuen), poistaa asiasanan mukana tulevasta ehdotuksesta yksittäisiä vastaanottajia sekä lisätä jakeluun asiasanan ulkopuolisia vastaanottajia. Koodistointegraation tarkoituksena on hakea ajastetusti asiasanasovelluksen käyttöön ym. asiasanapohjaisia jakeluehdotuksia.
+Koodiston hallintaan ja lukuun käytetään TC Codes -tuotetta. Asiasanapohjaisia jakeluehdotuksia varten koodistoon on luotu koodistot asiasanoille ja näihin liittyville vastaanottajille. Taustalla VNK:n koodisto synkronoi asiasanoja ja vastaanottajia UH:n koodistosta ajastetusti. Vastaanottajatietoja täydennetään lisäksi ylläpitäjien toimesta, mm. VAHVAn kontaktien recno-tiedon osalta. Asiasanajakelusovellukselle olennaisimmat koodistot ovat asiasanat ja vastaanottajat. Integraatio koodistoon on yksisuuntainen ja "pull"-tyyppinen: asiasanajakelusovellus ainoastaan lukee koodistoja, ei koskaan muokkaa niitä.
+Koodistopalvelua on kuvattu tarkemmin liitteessä 2.2 VN Asia käyttökonsepti, kappale 5.4.4
+TOS-integraatio
+TOS-integraation tehtävänä on hakea TOS-hierarkian (tiedonohjaussuunnitelma) tiedot Tieto Classify -järjestelmästä ja tallentaa ne tietokantaan. Tietojen päivitys ei ole reaaliaikaista eikä ajastettua, vaan se tulee käynnistää manuaalisesti samassa yhteydessä, kun TOS päivitetään VAHVA-järjestelmään, jotta sen sisältö on järjestelmien kesken identtinen. TOS-integraatio tarjoaa erillissovelluksille rajapinnat hierarkiasta tapahtuviin hakuihin.
+TOS:n vaatimuksia on kuvattu tarkemmin liitteessä 2.2 VN Asia käyttökonsepti, kappaleessa 5.4.5
+Uuden asianhallinnan järjestelmän korvaamat toiminnallisuudet
+Nykyinen koodistopalvelu tuotetaan osana VAHVAn palvelua, joten uuden järjestelmän tulee tarjota vastaava palvelu Erillissovellusten käyttöön rajapinnan kautta. Korvaava palvelu tulee toteuttaa siten että siihen on mahdollista tuoda sisältöä automatisoidusti kolmannen osapuolen koodistosta rajapintojen kautta. Koodiston ja TOS:in sisältämä data migratoidaan uuteen ratkaisuun.
+Lisäksi harkittavaksi tulee Asiasanajakelun ja MINVA-paketin laadinnan korvaaminen uudessa järjestelmässä, jos se on mahdollista ilman mittavia räätälöintejä. Perusteluna tälle on toiminallisen prosessin ja käyttäjäkokemuksen suoraviivaistaminen.
+VaRa-palvelu ei ole kiinteä osa nykyistä VAHVA-kokonaisuutta, mutta myös sen korvaamista tulisi arvioida ylläpidon järjestämisen ja sovelluksen elinkaaren tilanteen näkökulmasta. VaRa on PTS:n käyttämä erillissovellus, joka muuntaa doc(x) -muotoisia esittelyasioiden liiteasiakirjoja XML- ja zip-formaattiin. Pääsääntöisesti asiakirjat muunnetaan XML-muotoon. Jos asiakirja sisältää kuvia, niin tällöin asiakirja konvertoidaan XML-muotoon, ja pakataan zip-pakettiin asiakirjan kuvien kanssa.
+PTS kutsuu VaRaa RESTin kautta. VaRa-konversiota kutsutaan seuraavien rajapintakutsujen tapauksessa:
+Kun PTS:ssä liite luodaan
+Kun PTS:ssä liitettä päivitetään
+Kun Eduksista noudetaan dokumentteja PTS:hin
+Kun VAHVAsta haetaan liite esittelyasiaan
+VaRassa on lisäksi selainpohjainen käyttöliittymä, jota käytetään RakAs-asiakirjapohjilla laadittujen asiakirjojen rakenteen tarkistamiseen ja xml-tiedoston muodostamiseen
+PTS:n ja Istuntosovelluksen toiminnallisuuksia ei korvata tässä hankkeessa vaan ne integroidaan uuteen järjestelmään.
+Muut vaatimukset ja riippuvuudet
+Erillissovellukset on asennettu Valtorin kapasiteettipalvelun tuottamalle alustalle. Palvelua kuvataan tarkemmin liitteessä 1.1 Ympäristökonsepti
+Toteutusvaiheessa Erillissovellusten integrointi uuteen asianhallintajärjestelmään edellyttää yhteistyötä Erillissovellusten järjestelmätoimittajan kanssa, mikä tulee ottaa huomioon toteutuksen suunnittelussa.
+Asianhallinnan jatkuva palvelu on usean järjestelmätoimittajan tuottama ja tilaajan johtama monitoimittajakokonaisuus. Asianhallintajärjestelmän ylläpito, kuten esimerkiksi muutos- tai häiriönhallinta sovitetaan tähän kokonaisuuteen. Aihepiiriä on kuvattu tarkemmin liitteissä 1 VN Asia hankinnan kohteen kuvaus, kappale 16 Jatkuva palvelu (ylläpito) ja 3.7 Käyttöönoton edellytysten luomisen konsepti.

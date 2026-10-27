@@ -1,0 +1,57 @@
+VN Asia Proof of Concept (PoC) -vaiheen kuvaus
+Tässä dokumentissa kuvataan, miten VN Asia-järjestelmä toimitetaan, asennetaan ja testataan asiakkaan Proof of Concept (PoC) -ympäristössä. PoC:ssa hyödynnetään Tilaajan määrittelemiä käyttötapauksia, jotka perustuvat Tilaajan omiin prosesseihin ja toimintamalleihin.
+Tarjouspyyntömateriaalin liitteessä RFQ liite 3.1.1 PoC–Käyttötapaukset on määritelty käyttötapauksia, joita tullaan suorittamaan PoC:n aikana. Käyttötapaukset puretaan tarkemmalle tasolle käyttäjätarinoiksi tukemaan suoritettavaa testausta. Käyttötapausten ja käyttäjätarinoiden tarkempi määrittely tehdään yhdessä Toimittajan kanssa ja käyttötapauksia voidaan luoda myös uusia.
+PoC-projektivaiheen tavoitteet
+Projektivaiheen tavoitteena on toimittaa valtioneuvoston kanslialle PoC-vaatimukset täyttävä asiahallintaratkaisu sovitussa aikataulussa.
+Projektiin sisältyy seuraavat:
+Ratkaisun tekninen suunnittelu
+Ratkaisun ja sovellusten konfigurointi VN Asia käyttötapauksien kuvaamaan tarpeeseen
+PoC-osuudessa määriteltyjen toiminnallisuuksien toteutus
+Ratkaisu perustuu tarjouspyynnön vaatimusmäärittelyyn.
+Liitynnät muihin VN Asia -hankeen vaiheisiin
+PoC-vaihetta edeltää aloitusvaihe. Aloitusvaiheessa aloitetaan käytännön yhteistyö Toimittajan ja Tilaajan välillä.
+VN Asia -hankkeen jatkuminen PoC-vaiheen jälkeen seuraavaan vaiheeseen on riippuvainen PoC-vaiheen lopputuloksesta ja onnistumisesta. Mikäli Tilaaja päättää jatkaa hanketta PoC-vaiheen jälkeen, projekti jatkuu erillisen suunnitelman mukaan. Seuraavassa vaiheessa toteutetaan Rakentamisvaihe 1.
+Laajuus ja ositus
+Vastaanotetun valmisohjelmiston laajuuden todentaminen
+Mikäli toimittajalla ei ole valmisohjelmistossa kaikkea VN Asia vaatimusmäärittely dokumenteissa vaadittua toiminallisuutta, joka voitaisiin konfiguroida PoC-vaiheessa käyttöön, vaaditaan PoC-vaiheen tuotoksena toteutussuunnitelma, käyttöliittymä mockup, ja roadmap/aikataulu puuttuvien toiminnallisuuksien toteuttamiseksi (Product Backlog).
+PoC-vaiheen lopputuloksena syntyvä vähimmäistoiminnallisuus on kuvattuna RFQ liitteessä 3.1.1 PoC-käyttötapaukset. Siinä on eriteltynä todennettavat käyttäjätarinat ja niihin liittyvät palvelut sekä järjestelmät.
+Valmisohjelmistoihin sisältyvien toimintojen osalta tarkennetaan mitä konfigurointia ominaisuuden todentaminen edellyttää. Tässä vaiheessa kartoitetaan järjestelmän vaatimuksenmukaisuutta ja tarkennusta jatketaan PoC-vaiheessa. Valmisohjelmistoiksi ilmoitettujen kokonaisuuksien kattavuus todennetaan. Puuttuvat kokonaisuudet luetellaan ja niille vaaditaan sekä hyväksytään toteutussuunnitelma ja - aikataulu.
+PoC-vaiheen laajuus
+Tarvittavat ympäristöt luodaan, asennetaan, konfiguroidaan ja testataan PoC vaiheessa siltä osin, kun ne on toteutettu valmisohjelmistoilla toimittajan määrittelemässä ympäristössä.
+PoC:ssa pyritään mahdollisimman tuotannon kaltaiseen järjestelmään.
+Järjestelmän asennuksen, konfiguraation toimivuus todennetaan testiautomaation avulla. Toimittaja määrittelee mitkä palvelut sekä integraatiot pitää olla käynnissä/toiminnassa ja kuinka niiden tila/toimivuus todennetaan. Käyttötapausten toimivuus voidaan todentaa testiautomaatiolla tai manuaalitestauksella. Toimittaja kuvaa kuinka PoC-vaiheen käyttötapausten toimivuus todennetaan.
+Yhteenvetona PoC-vaiheessa todennetaan järjestelmäkokonaisuuden toiminnallisuus suhteessa vaadittuun vähimmäistoiminnallisuuteen (PoC-käyttötapaukset). PoC-vaiheen lopputuloksia käytetään hankkeen jatkopäätösten perusteena.
+PoC-projektin rajaukset ja reunaehdot
+Vaiheeseen ei kuulu ylläpitopalvelu.
+PoC-projektin toteutustyö tapahtuu Toimittajan tiloissa ja ympäristössä.
+Toimittaja/Tilaaja vastaa järjestelmän todentamiseen tarvittavien testimateriaalien laadusta sekä niiden tuottamisesta.
+Hyväksymistestaus on tilaajan vastuulla, toimittaja tukee.
+Toimittaja vastaa käyttäjäryhmien ja käyttäjätietojen ylläpidosta käyttäjähakemistossa (AD).
+Projektin dokumentaation kielenä on suomi. Tekninen dokumentaatio saa sisältää myös englanninkielistä materiaalia.
+PoC-vaiheeseen tarvittavien lisenssien hankinta ja riittävyys on Toimittajan vastuulla.
+PoC-vaiheen tuotoksista pyritään tekemään sellaisia, että niitä voidaan hyödyntää myöhemmin rakentamis- ja käyttöönottovaiheessa
+VNK:n PoC-vaiheen henkilöstö osallistuu yhdessä toimittajan kanssa ketterien tiimien toimintaan, tuoden tarkentavaa tietoa prosesseista ja prosessien tarpeista, joita vasten konfiguroinnit tehdään.
+PoC-projektin lopputulokset
+PoC-projektin lopputuloksena syntyvät:
+Toteutus - VN Asia ratkaisun PoC-osuuteen määritellyn toiminnallisuuden ja ominaisuuksien toteutus ja testaus
+PoC-projektin validointi
+Projektin tulosten validointi perustuu seuraaviin kokonaisuuksiin ja arviointikriteereihin
+Vaatimusten mukaisuus PoC-laajuus huomioiden
+Ympäristö toimii
+Palveluiden käynnistymisen todentaminen testiautomaatiolla toimii
+Kaikki käyttötapaukset on todennettu toimiviksi (käyttötapausten suoritus ja testitulokset)
+Tietoturva-auditointi (Katakri)
+Tilaajan oma sisäinen tarkastus hyväksytty sekä Toimittajan itsearviointilomake hyväksytty
+Suorituskykytestaus ympäristön tukemissa puitteissa
+Toimittajan generoi järjestelmään riittävän suuren/kattavan testiaineiston, jonka perustella todennetaan järjestelmän riittävä suorituskyky ja tunnistetaan järjestelmä/ympäristön suorituskykyyn liittyvät pullonkaulat
+Toimittaja kuvaa kuinka ympäristöön saadaan aikaan käyttäjiä simuloiva ’keinokuorma’
+Vikasietoisuustestaus VN Asia-järjestelmän omien kyvykkyyksien osalta
+Todennetaan järjestelmän palautuminen, kun yksittäinen palvelu tai palvelukokonaisuus käynnistetään uudelleen
+Osoitetaan dokumentaatio, jonka avulla järjestelmä ja sen data voidaan palauttaa. Varmistusta ja palauttamista ei harjoitella PoC:ssa.
+Käytettävyystestaus
+Perustuu käyttävyys dokumentaatioon
+Datan import ja export kyvykkyydet
+Toiminnallisuus todennetaan PoC:in aikana mm. testidatan tuontiin, toipumisen todentamisessa, migraatiodatan tuontiin yms.
+Toimittajan ja tilaajan vastuut PoC-projektissa
+Dokumenttiluettelo
+Alla olevaan taulukkoon on kuvattu kaikki PoC-projektilta edellytetty dokumentaatio. Dokumenttien tuottamisesta vastaavat viime kädessä projektipäälliköt. Eri osa-alueiden asiantuntijat osallistuvat työhön tarpeen mukaan.

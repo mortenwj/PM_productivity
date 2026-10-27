@@ -1,0 +1,853 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Leveringskontrakt 
+02.06 Standardsoftware  (2026)  
+Version 1.0 
+Dato 15. april 2026
+
+## Page 2
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 2 af 23 
+ 
+Leveringskontrakt 
+om 
+Standardsoftware vedrørende Application samt tilhørende support, vedligehold, 
+installation, implementering, konfiguration og rådgivning. 
+mellem 
+Social- og Boligstyrelsen  
+Lerchesgade 35, 5  
+5000 Odense C 
+(i det følgende kaldet ”Kunden”) 
+ 
+og 
+ 
+… 
+… 
+… 
+(i det følgende kaldet ”Leverandøren”)
+
+## Page 3
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 3 af 23 
+ 
+Bilagsfortegnelse 
+bilag 1 : Kundens opgavebeskrivelse  
+bilag 1a : Brugsvilkår  
+bilag 1b : Undervisning og rådgivning  
+bilag 2 : Producentens standardvilkår  
+bilag 3 : Leverandørens løsningsbeskrivelse  
+bilag 4 : Leverandørens priser  
+bilag 5 : Databehandling 
+bilag 6 : CSR  
+bilag 7 : Trepartsaftale  
+bilag 8 : Skabelon til Erklæring vedrørende restriktive foranstaltninger af Ruslands handlinger  
+bilag 9: AI 
+bilag 10: Leverandørens forpligtigelser ved ophør 
+bilag 11: Dokumentation  
+bilag 12: Drift, support og vedligehold 
+bilag 13: Servicemål  
+bilag 14: Samarbejdsorganisation 
+bilag 15: Migrering af data  
+bilag 16: Sikkerhed 
+bilag A : Støtteerklæring(er)
+
+## Page 4
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 4 af 23 
+ 
+ 
+ 
+ 
+ 
+ 
+Indhold 
+1 Definitioner .................................................................................................................................. 6 
+2 Baggrund og formål.................................................................................................................... 6 
+3 Leverancen .................................................................................................................................. 6 
+4 Levering ....................................................................................................................................... 7 
+4.1 Generelt ...................................................................................................................................... 7 
+4.2 Leveringstid ................................................................................................................................ 7 
+5 Persondata, AI-forordningen og Dataforordningen................................................................ 7 
+5.1 Behandling af persondata .......................................................................................................... 7 
+5.2 Overholdelse af AI-forordningen ................................................................................................ 8 
+5.2.1 Generelt ................................................................................................................................... 8 
+5.2.2 Oplysningspligt ........................................................................................................................ 9 
+5.3 Overholdelse af Dataforordningen ............................................................................................. 9 
+6 Immaterielrettigheder ............................................................................................................... 10 
+7 Konsortier eller andre sammenslutninger ............................................................................. 10 
+8 Støttende enheder .................................................................................................................... 10 
+9 Vederlag ..................................................................................................................................... 10 
+10 Betalingsbetingelser ................................................................................................................ 11 
+10.1 Generelt .................................................................................................................................... 11 
+10.2 Fakturering ................................................................................................................................ 11 
+10.2.1 Fakturaens indhold ................................................................................................................ 12 
+10.2.2 Ændring i krav til den elektroniske faktura ............................................................................ 12 
+11 Suppleringskøb og optioner .................................................................................................... 13 
+11.1 Suppleringskøb ......................................................................................................................... 13 
+11.2 Optioner .................................................................................................................................... 13 
+12 Fortrolighed ............................................................................................................................... 14 
+13 Ændringer .................................................................................................................................. 14 
+13.1 Generelt .................................................................................................................................... 14 
+13.2 Overdragelse af Leveringskontrakten til ny Leverandør .......................................................... 14 
+13.2.1 Vilkår for Kundens samtykke ................................................................................................. 14 
+13.3 Ændringer hos Kunden ............................................................................................................ 15 
+14 Varighed og opsigelse ............................................................................................................. 16 
+14.1 Varighed.................................................................................................................................... 16 
+14.2 Generel opsigelsesadgang ....................................................................................................... 16 
+14.3 Opsigelse ved annullation af tildelingsbeslutning .................................................................... 16 
+14.4 Opsigelse ved uden virkning .................................................................................................... 17
+
+## Page 5
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 5 af 23 
+14.5 Opsigelse i andre særlige tilfælde ............................................................................................ 17 
+14.6 Opsigelse ved underkendelse af det dynamiske indkøbssystem ............................................ 17 
+15 Samfundsansvar og arbejdsklausul ....................................................................................... 17 
+16 Tredjemandsrettigheder........................................................................................................... 17 
+17 Misligholdelse ........................................................................................................................... 18 
+17.1 Leverandørens forsinkelse ....................................................................................................... 18 
+18 Erstatning .................................................................................................................................. 19 
+18.1 Generelt .................................................................................................................................... 19 
+18.1.1 Erstatning ved opsigelse som følge af annullation eller uden virkning................................. 19 
+18.1.2 Erstatning ved opsigelse i andre særlige tilfælde ................................................................. 20 
+19 Forsikring ................................................................................................................................... 20 
+20 Force majeure ........................................................................................................................... 20 
+21 Trepartsaftale ............................................................................................................................ 21 
+22 Standardvilkårene ..................................................................................................................... 21 
+23 Underleverandører .................................................................................................................... 21 
+24 Fortolkning ................................................................................................................................ 22 
+25 Forrang ....................................................................................................................................... 22 
+26 Tvister......................................................................................................................................... 23 
+27 Underskrifter.............................................................................................................................. 24
+
+## Page 6
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 6 af 23 
+1 Definitioner 
+Ved Arbejdsdag forstås mandag, tirsdag, onsdag, torsdag og fredag, bortset fra søgnehelligdage, 
+juleaftensdag, nytårsaftensdag og grundlovsdag. 
+Ved ”Dag” forstås kalenderdag. 
+Ved ”Leveringskontrakten” forstås denne leveringskontrakt med bilag og senere ændringer og 
+tillæg. 
+Ved ”Leverancen” forstås de ydelser, der er beskrevet i Bilag 1 Kundens opgavebeskrivelse og i 
+Bilag 3 Leverandørens løsningsbeskrivelse. 
+Ved ”Parterne” forstås Kunden og Leverandøren, og ved ”Part” forstås én af disse. 
+Ved ”Producenten” forstås den eller de virksomhed(er), der har de immaterielle rettigheder til den 
+Standardsoftware, der indgår i Leverancen. Producenten skal betragtes som en underleverandør til 
+Leverandøren, medmindre Producenten selv er Leverandøren. 
+Ved ”SKI” forstås Staten og Kommunernes Indkøbsservice A/S. 
+Ved ”Standardsoftware” forstås software, der er præfabrikeret og er kommercielt tilgængeligt. 
+Ved ”Standardvilkårene” forstås de standardvilkår i Bilag 2 Producentens standardvilkår, som 
+Producenten har fastsat for brugen af den Standardsoftware, der indgår i Leverancen.  
+2 Baggrund og formål 
+Leveringskontrakten er indgået mellem Parterne efter en konkurrenceudsættelse under det 
+dynamisk indkøbssystem 02.06 Standardsoftware (2026), som er udbudt af SKI. 
+Kundens eksisterende aftale om et sags- og dokumenthåndteringssystem (”ESDH-system”) 
+udløber med udgangen af 2026.  
+Kunden ønsker ved Leveringskontrakten at anskaffe licenser til et ESDH-system, der 
+tilbyder samme funktionalitet og effektiv understøttelse af Kundens forretningsprocesser 
+som nuværende system. Kontrakten skal endvidere give Kunden adgang til at købe diverse 
+implementerings-, konfigurations-, support-, rådgivnings- og undervisningsydelser relateret 
+til ESDH-systemet. 
+ESDH-systemet er teknisk og organisatorisk implementeret på tværs af Kundens 
+organisation, og anvendes af alle medarbejdere i Kundens organisation.  
+Kundens ibrugtagning og anvendelse af elektronisk sags- og dokumenthåndteringssystem 
+skal kunne ske uden at påvirke Kundens daglige opgavevaretagelse og uden at trække på 
+Kundens medarbejdere i væsentlig grad
+
+## Page 7
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 7 af 23 
+3 Leverancen 
+Leverandøren skal levere Leverancen i overensstemmelse Leveringskontraktens vilkår. 
+Leverancen skal være egnet til at realisere Kundens formål som beskrevet i punkt 2. 
+Leveringskontrakten skal opfyldes under overholdelse af gældende dansk ret. 
+Kunden er forpligtet til at aftage Leverancen, jf. bilag 1, i overensstemmelse Leveringskontraktens 
+vilkår. 
+4 Levering 
+4.1 Generelt 
+Levering anses for at have fundet sted, når de enkelte dele af Leverancen er udført eller stillet til 
+rådighed for Kunden i overensstemmelse med Bilag 1. 
+4.2 Leveringstid 
+Leverandøren skal levere de enkelte dele af Leverancen i overensstemmelse med tidsplanen 
+og/eller tidsfristerne i Bilag 1. 
+5 Persondata, AI-forordningen og Dataforordningen 
+5.1 Behandling af persondata 
+I det omfang det er relevant, skal Leveringskontrakten opfyldes under overholdelse af de 
+persondataretlige regler, navnlig databeskyttelsesforordningen og databeskyttelsesloven. 
+Der må ikke påbegyndes behandling af personoplysninger under Leveringskontrakten på vegne af 
+Kunden og efter Kundens instruks, før databehandleraftale er indgået. Leverandørens forpligtelser 
+som databehandler, er reguleret i Bilag 5a. Manglende overholdelse af en databehandleraftale i 
+Bilag 5 udgør misligholdelse af Leveringskontrakten, uanset hvem misligholdelsen kan tilskrives. 
+5.2 Overholdelse af AI-forordningen 
+5.2.1 Generelt 
+Hvis Leverancen eller dele heraf indeholder et AI-system, som er omfattet af Europa-Parlamentets 
+og Rådets forordning (EU) 2024/1689 af 13. juni 2024 om harmoniserede regler for kunstig 
+intelligens (AI-forordningen), er Leverandøren forpligtet til at sikre overholdelse af AI-forordningen 
+samt enhver gældende national supplerende lovgivning.
+
+## Page 8
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 8 af 23 
+Hvis Leverandøren kvalificerer sig som udbyder af et AI-system som defineret i AI-forordningen, 
+skal Leverandøren overholde de relevante forpligtelser vedrørende udbydere af AI-systemer 
+indenfor den risikokategori, som AI- systemet hører under.  
+Leverandøren skal i det omfang, det er nødvendigt, aktivt bistå Kunden med at sikre Kundens 
+overholdelse af de regler, der finder anvendelse på Kunden, afhængig af den rolle som Kunden 
+har og den risikokategori, som AI-systemet hører under, fx rollen som idriftsætter af et høj-risiko AI-
+system.  
+Hvis Leverandøren kvalificerer sig som importør, distributør eller bemyndiget repræsentant som 
+defineret i AI-forordningen, skal Leverandøren overholde de relevante forpligtelser vedrørende 
+disse roller. 
+Leverandøren skal desuden overholde kravene i Bilag 9. Kravene i Bilag 9 vil skulle opdateres og 
+ændres, hvis AI-systemet ændrer sig under brugen. Sådanne ændringer gennemføres i 
+overensstemmelse med punkt 13. 
+Leverancen eller dele heraf må ikke udgøre eller indeholde forbudt AI praksis efter AI-
+forordningens artikel 5. 
+Hvis Leverancen eller dele heraf indeholder en AI- model til almen brug eller AI-system til almen 
+brug, som er omfattet af AI-forordningen, er Leverandøren forpligtet til at sikre overholdelse af AI-
+forordningens regler hertil samt enhver gældende national supplerende lovgivning.  
+Leverandøren skal i det omfang, det er nødvendigt, aktivt bistå Kunden med at sikre Kundens 
+overholdelse af de regler, der finder anvendelse på Kunden ved anvendelse af AI- modeller til 
+almen brug eller AI-systemer til almen brug. 
+I det omfang Leverandøren har en anden rolle efter AI-forordningen, fx importør, er Leverandøren 
+forpligtet til at overholde de relevante bestemmelser hertil i AI-forordningen. 
+Hvis AI forordningen eller national supplerende lovgivning ændres, ophæves, erstattes eller på 
+anden måde modificeres på en måde, der påvirker Parternes forpligtelser i henhold til denne 
+Leveringskontrakt, kan hver af Parterne anmode om, at Leveringskontrakten ændres tilsvarende. 
+Parterne skal i god tro drøfte og gennemføre sådanne ændringer, som er nødvendige for at sikre 
+fortsat overholdelse af de gældende retlige krav. Indtil Leveringskontrakten er ændret, skal 
+Parterne træffe rimelige midlertidige foranstaltninger for at overholde den opdaterede retlige 
+ramme. 
+Leverandøren skal samarbejde med relevante tilsynsmyndigheder og i relevant omfang 
+implementere myndighedernes vejledninger, afgørelser mv. med henblik på at sikre overholdelse 
+af AI forordningen eller national supplerende lovgivning. 
+Leverandørens overholdelse af egne forpligtelser efter AI-forordningen vederlægges ikke særskilt. 
+Leverandørens ydelser vedrørende bistand til Kunden i henhold til dette punkt vederlægges 
+særskilt efter medgået tid efter timepriserne i bilag 4.
+
+## Page 9
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 9 af 23 
+5.2.2 Oplysningspligt 
+Leverandøren har i oversigten i Bilag 3 oplyst, hvorvidt og i givet fald hvilke dele af Leverancen der 
+udgør et AI-system, AI model til almen brug eller AI system til almen brug.  
+Leverandøren er forpligtet til i Leveringskontraktens løbetid at vedligeholde og opdatere 
+oversigten.  
+5.3 Overholdelse af Dataforordningen 
+I det omfang det er relevant, skal Leverandøren overholde Europa-Parlamentets og Rådets 
+forordning (EU) 2023/2854 af 13. december 2023 om harmoniserede regler for rimelig adgang til 
+og brug af data og om ændring af forordning (EU) 2017/2394 og direktiv (EU) 2020/1828 
+(Dataforordningen), samt enhver gældende national supplerende lovgivning. 
+Leverandøren skal bl.a. etablere operationelle, tekniske eller organisatoriske foranstaltninger, der 
+er nødvendige for at sikre korrekt overholdelse af Dataforordningen. Leverandøren skal desuden i 
+nødvendigt omfang aktivt medvirke til, at Kunden overholder de regler, der gælder for Kunden, 
+implementere vejledninger, retningslinjer og standarder udstedt i medfør af Dataforordningen og 
+gældende national supplerende lovgivning samt samarbejde med de relevante tilsynsmyndigheder 
+på området. 
+Leverandøren skal endvidere overholde kravene i Bilag 10. 
+Hvis Dataforordningen eller national supplerende lovgivning ændres, ophæves, erstattes eller på 
+anden måde modificeres på en måde, der påvirker Parternes forpligtelser i henhold til denne 
+Kontrakt, kan hver af Parterne kræve, at Kontrakten ændres tilsvarende. Parterne skal i god tro 
+gennemføre sådanne ændringer, som er nødvendige for at sikre fortsat overholdelse af de 
+gældende krav. Indtil Kontrakten er ændret, skal Parterne træffe rimelige midlertidige 
+foranstaltninger for at overholde den opdaterede retlige ramme. 
+Leverandørens overholdelse af egne forpligtelser efter Dataforordningen vederlægges ikke 
+særskilt. 
+6 Immaterielrettigheder  
+Kundens erhvervelse af immaterielle rettigheder til Standardsoftware sker i henhold til 
+bestemmelserne herom i Standardvilkårene.  
+For så vidt angår rettigheder til datasæt i AI-systemer er disse reguleret i bilag 9. 
+7 Konsortier eller andre sammenslutninger  
+Hvis Leverandøren er en sammenslutning af økonomiske aktører (f.eks. et konsortium), hæfter 
+deltagerne i sammenslutningen solidarisk for opfyldelsen af Leveringskontrakten.
+
+## Page 10
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 10 af 23 
+Leverandøren har udpeget en fælles befuldmægtiget økonomisk aktør, til hvem Kunden er 
+berettiget til at rette henvendelse om ethvert forhold i relation til Leveringskontrakten, herunder for 
+så vidt angår eventuelle påkrav. 
+Den fælles befuldmægtigede skal være bemyndiget til at træffe beslutninger på vegne af de 
+deltagende økonomiske aktører om ethvert forhold i relation til Leveringskontrakten.  
+Ved eventuelle senere ændringer af den befuldmægtigede økonomiske aktør skal Leverandøren 
+uden ugrundet ophold give Kunden skriftlig meddelelse herom. Sådanne ændringer håndteres i 
+overensstemmelse med punkt 13. 
+8 Støttende enheder 
+Hvis Leverandøren i forbindelse med optagelse i det dynamiske indkøbssystem har baseret sig på 
+andre enheders faglige formåen, jf. Bilag 16, skal Leverandøren sikre, at de konkrete ydelser 
+under Leveringskontrakten udføres af den/de pågældende enhed(er) som krævet i udbudslovens § 
+144, stk. 3. 
+9 Vederlag 
+Leverandøren er berettiget til vederlag i overensstemmelse med priserne i Bilag 4.  
+Alle priser er angivet i danske kroner. I priserne er inkluderet told og øvrige afgifter bortset fra 
+moms. Ved ændring af danske afgifter, der pålægges direkte på produkter eller ydelser omfattet af 
+Leverancen som ikke var kendt på tilbudstidspunktet for udbuddet af leveringskontrakten, (både i 
+opad- og nedadgående retning) skal priserne reguleres med den økonomiske nettokonsekvens 
+heraf, således at Leverandøren stilles uændret. I priserne er inkluderet evt. transport, fortæring og 
+ophold for Leverandørens ansatte. 
+De i Bilag 4 angivne priser er faste i Leveringskontraktens løbetid.   
+10 Betalingsbetingelser 
+10.1 Generelt 
+• Betaling af engangsvederlag (dvs. vederlag for en afgrænset, ikke-tilbagevendende 
+leverance) jf. Bilag 4 Leverandørens priser, sker ved levering.  
+• Betaling af løbende vederlag, jf. Bilag 4 sker kvartalsvis bagud. 
+• Betaling af timebaserede vederlag jf. Bilag 4 månedsvis bagud. 
+Vederlaget forfalder til betaling 30 Dage efter Leverandørens afsendelse af fyldestgørende faktura, 
+jf. punkt 10.2.
+
+## Page 11
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 11 af 23 
+10.2  Fakturering 
+Leverandøren skal - i henhold til bekendtgørelse af lov nr. 494 af 4. maj 2023 om offentlige 
+betalinger mv., med senere ændringer, samt bekendtgørelse nr. 354 af den 26. marts 2010 om 
+informa-tion i og transport af OIOUBL elektronisk regning til brug for elektronisk afregning med 
+offentlige myndigheder, med senere ændringer, - fremsende elektronisk faktura til Kunden 
+vedrørende Leverancen omfattet af nærværende Leveringskontrakt. 
+Den elektroniske faktura skal udarbejdes i det fælles offentlige format OIOUBL og fremsendes via 
+Nemhandel-infrastrukturen (eDelivery). 
+Leverandøren skal sikre, at fremsendte fakturaer opfylder gældende lovgivning med hensyn til ind-
+hold, udformning og elektronisk format. 
+Leverandøren skal selv afholde alle omkostningerne ved elektronisk fakturering og kan derfor ikke 
+opkræve gebyr for fremsendelse af elektronisk faktura. 
+Leverandøren skal fremsende faktura, og evt. rykkere, i elektronisk format, til den bestillende 
+enhed. 
+Kundens manglende betaling af en faktura, som ikke opfylder ovenstående krav, afstedkommer 
+ingen misligholdelsesbeføjelser eller krav på morarente.      
+Kundens EAN-nummer er: 5798000354838 
+Fakturering kan først ske i takt med endelig levering af de enkelte ydelser, jf. punkt 4.2, punkt 10.1 
+og Bilag 4. 
+10.2.1 Fakturaens indhold 
+Den elektroniske faktura skal indeholde følgende oplysninger: 
+• Fakturadato   
+• Fakturanummer   
+• Leverandørens CVR-nr.   
+• Kundens navn og adresse   
+• Leveringsdato/slutdato   
+• Mængde/omfang og art af de leverede varer/ydelser 
+o Licenstype  
+o Antal  
+o Stykpris  
+• • Momsgrundlag   
+o Gældende momssats  
+• Momsbeløb der skal betales 
+ 
+I referencefeltet anføres:   
+• Initialer på bestiller: BELU  
+• Opgavenummer: 19151001
+
+## Page 12
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 12 af 23 
+10.2.2 Ændring i krav til den elektroniske faktura 
+Kravene til den elektroniske faktura kan ændres af Kunden, herunder fx krav til dataformat. Ændrer 
+Kunden kravene til den elektroniske faktura, vil Leverandøren blive varslet i rimelig tid, hvilket vil 
+sige minimum 20 Arbejdsdage. Leverandøren er ikke berettiget til vederlag i anledning af 
+ændringen. 
+ 
+10.2.3 Fejlbehæftet faktura  
+Såfremt Leverandøren ikke overholder kravene i punkt 10.2.1-10.2.3, kan Kunden afvise 
+betaling af fakturaen. Dette forudsætter dog, at Kunden hurtigst muligt efter modtagelse af 
+den fejlbehæftede faktura underretter Leverandøren om, at fakturaen ikke kan betales med 
+angivelse af årsagen hertil.  
+Leverandøren skal herefter fremsende en korrekt faktura. Betalingsfristen, jf. punkt 10.1, 
+regnes fra det tidspunkt Kunden modtager en korrekt faktura.  
+Ved fejlbehæftede fakturaer eller øvrige forhold hos Leverandøren, der bevirker, at Kunden 
+ikke er i stand til at betale via elektronisk overførsel inden for betalingsfristen, kan Kunden 
+ikke gøres ansvarlig herfor. Kunden skal således ikke betale rente i overensstemmelse med 
+Rentelovens regler eller morarenter, og Leverandøren kan ikke gøre 
+misligholdelsesbeføjelser gældende. 
+10.2.4 Kreditnota  
+Leverandørens skyldige beløb til Kunden afregnes i form af særskilte kreditnotaer 
+opfyldende kravene til den elektroniske faktura, jf. punkt 10.2.1.  
+Leverandøren skal fremsende kreditnota af egen drift, og senest inden for 30 Dage fra det 
+tidspunkt Leverandøren bliver bekendt med årsagen til, at Kunden er berettiget til en 
+kreditnota.  
+Kunden er berettiget til at modregne tilgodehavender hos Leverandøren, såfremt Kunden 
+forinden har afsendt en påkravsskrivelse til Leverandøren, og Leverandøren ikke inden for 
+en af Kunden fastsat frist i påkravsskrivelsen, som ikke kan være mindre end 30 Dage, har 
+fremsendt en kreditnota. 
+Fakturering kan først ske i takt med endelig levering af de enkelte ydelser, jf. punkt 4.2 og 
+bilag 4. 
+11 Suppleringskøb og optioner 
+11.1 Suppleringskøb 
+Kunden kan i Leveringskontraktens periode foretage supplerende anskaffelser hos 
+Leverandøren af ydelser omfattet af Leverancen under følgende betingelser:
+
+## Page 13
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 13 af 23 
+a. Den samlede værdi af supplerende anskaffelser, der falder inden for et bestemt 
+ydelsesområde, jf. nærmere  Bilag 1, må ikke overstige 100 % af den oprindelige samlede 
+værdi af ydelserne, herunder værdien af eventuelle optioner, jf. 11.2, i dette ydelsesområde. 
+ 
+b. Leveringstiden fastsættes af Kunden; dog kan Leverandøren kræve, at leveringstiden ikke 
+fastsættes kortere end de eventuelle frister i  Bilag 1, der fandt anvendelse for tilsvarende 
+ydelser. 
+ 
+c. I øvrigt skal suppleringskøbene leveres i henhold til Leveringskontraktens vilkår, herunder til 
+priserne i Bilag 4. 
+ 
+Ønsker Kunden at foretage suppleringskøb, skal Kunden inden for ovenfor angivne periode give 
+Leverandøren skriftlig meddelelse om, hvilke supplerende anskaffelser Kunden ønsker at foretage. 
+Kunden kan foretage suppleringskøb flere gange, så længe den procentuelle grænse i litra a) ikke 
+overskrides. 
+11.2 Optioner 
+Nærværende punkt regulerer, hvilke krav og vilkår der gælder for bestilling og brug af optioner i 
+Leveringskontrakten. Leveringskontraktens øvrige vilkår gælder også for bestilte optioner, 
+medmindre andet specifikt fremgår heraf.  
+Optioner skal bestilles indenfor Leveringskontraktens varighed, jf. punkt 14. Bestilling af en option 
+skal meddeles med et varsel på mindst 30 dage. Leverandørens leveringsforpligtelse indtræder fra 
+udløbet af det meddelte varsel, medmindre Parterne aftaler andet.  
+Kunden kan ved bestilling af en option, hvor leveringen skal foretages helt eller delvist efter 
+Leveringskontrakten udløb, jf. punkt 14, forlænge Leveringskontraktens varighed. 
+Alle optioner er angivet i Bilag 1 og evt. Bilag 4.  
+ 
+12 Fortrolighed 
+Leverandøren, underleverandører og ansatte hos Leverandøren og underleverandører skal 
+iagttage ubetinget tavshed med hensyn til oplysninger vedrørende Kundens eller andres forhold, 
+som de får kendskab til i forbindelse med Leveringskontrakten.  
+Hvis Kunden er omfattet af regler om offentlighed i forvaltningen, er Kunden berettiget og forpligtet 
+til at give oplysninger i overensstemmelse med lovgivningen. Hvis Kunden ikke er omfattet af 
+regler om offentlighed, gælder første tekstafsnit tilsvarende for Kunden. 
+Leverandøren kan på en simpel referenceliste medtage Kunden, men må ikke derudover uden 
+Kundens forudgående samtykke udsende offentlig meddelelse om Leveringskontrakten,
+
+## Page 14
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 14 af 23 
+offentliggøre indholdet af Leveringskontrakten eller anvende Kunden i Leverandørens 
+markedsføring uden Kundens forudgående samtykke. 
+Kunden er berettiget til at give SKI meddelelse om alle forhold vedrørende Leveringskontrakten, 
+herunder oplysninger om Leverandørens forhold.  
+Tavshedspligten efter nærværende punkt er også gældende efter Leveringskontraktens ophør, 
+uanset ophørsgrunden. 
+ 
+13 Ændringer 
+13.1 Generelt  
+Leveringskontrakten kan alene ændres ved skriftlig aftale mellem Parterne. Sådanne ændringer 
+skal fremgå af en allonge, der er underskrevet af Kunden og Leverandøren, og som herefter indgår 
+som et tillæg til Leveringskontrakten. 
+Ændringer må kun ske under overholdelse af de til enhver tid gældende udbudsregler. 
+13.2 Overdragelse af Leveringskontrakten til ny Leverandør  
+Overdragelse af Leveringskontrakten til en ny leverandør kræver Kundens forudgående skriftlige 
+samtykke, jf. punkt 13.2.1. 
+Leverandøren skal afholde alle omkostninger forbundet med overdragelsen, herunder alle 
+omkostninger til en af Kunden antagen advokat, jf. punkt 13.2.1.  
+13.2.1 Vilkår for Kundens samtykke 
+Såfremt Leverandøren ønsker at overdrage Leveringskontrakten til en ny leverandør, skal 
+Leverandøren fremsende en redegørelse til Kunden, der beskriver baggrunden for ønsket om 
+overdragelse, identiteten på den nye leverandør, som Leveringskontrakten ønskes overdraget til, 
+samt oplysning om ejerforhold for den nye leverandør. Endvidere skal redegørelsen indeholde 
+dokumentation for, at den nye leverandør vil kunne blive optaget på det dynamiske indkøbssystem 
+samt ville kunne opfylde Leverandørens tilbud, som lå til grund for tildelingen af 
+Leveringskontrakten. Leverandøren skal herudover oplyse om alle øvrige relevante forhold om 
+overdragelsen, som Kunden måtte kræve. 
+Det er en forudsætning, at overdragelsen kan ske under iagttagelse af de på 
+overdragelsestidspunktet gældende udbudsregler, og Kunden kan antage en advokat til at 
+gennemføre en juridisk undersøgelse og vurdering af Leverandørens redegørelse. Undersøgelsen 
+og vurderingen vil mindst omfatte en redegørelse for sagens faktum, en beskrivelse af de 
+gældende retsregler og praksis samt advokatens vurdering af, om overdragelsen kan ske under 
+iagttagelse af de på overdragelsestidspunktet gældende udbudsregler. Kunden kan til enhver tid 
+kræve, at undersøgelsen og vurderingen udbygges og/eller uddybes. Leverandøren er forpligtet til 
+loyalt at bistå advokaten i forbindelse med den juridiske undersøgelse og vurdering af
+
+## Page 15
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 15 af 23 
+overdragelsen. Det omfatter blandt andet, at Leverandøren skal stille de nødvendige ressourcer til 
+rådighed samt udlevere enhver information, som advokaten vurderer, er nødvendig for at 
+gennemføre undersøgelsen og vurderingen. 
+Uanset advokatens undersøgelse og vurdering er det Kundens prærogativ frit at beslutte, om 
+Kunden vil samtykke i overdragelsen af Leveringskontrakten til en ny leverandør.  
+Det er en forudsætning for Kundens samtykke, at Leverandøren og den nye leverandør, som 
+Leveringskontrakten overdrages til, påtager sig at friholde Kunden for ethvert tab, der måtte opstå 
+som følge af overdragelsen, herunder som følge af at overdragelsen ikke måtte være sket under 
+iagttagelse af de på overdragelsestidspunktet gældende udbudsregler. Det er en betingelse for 
+Kundens samtykke, at Leverandøren og den nye leverandør, som Leveringskontrakten overdrages 
+til, påtager sig solidarisk at friholde Kunden for ethvert tab, der måtte opstå som følge af 
+overdragelsen, herunder som følge af at overdragelsen ikke måtte være sket under iagttagelse af 
+de på overdragelsestidspunktet gældende udbudsregler. 
+Det er endvidere en betingelse for Kundens samtykke, at den nye leverandør, som 
+Leveringskontrakten skal overdrages til, indtræder (i Leverandørens sted) i trepartsaftalen i Bilag 7 
+og herved påtager sig de forpligtelser, der påhviler Leverandøren efter trepartsaftalen, herunder 
+løbende at rapportere Kundens køb/omsætning og videreformidle kundebetalingen til SKI. 
+13.3 Ændringer hos Kunden 
+Såfremt der sker ændringer i Kundens organisation, fx ressortændringer, ændringer i den 
+kommunale inddeling og lignende, der indebærer overførsel af dele af Kundens område(r) til en 
+anden offentlig myndighed, offentligretligt organ eller sammenslutninger heraf, herunder overførsel 
+af områder til selvejende institutioner, der har en driftsoverenskomst med den kommunale Kunde 
+om udførelse af opgaver omfattet af det overførte område, eller til selskaber eller andre 
+institutioner, der er oprettet efter § 60 i bekendtgørelse nr. 47 af 15. januar 2019 om kommunernes 
+styrelse, kan Leveringskontrakten anvendes af de fortsættende myndigheder, offentligretlige 
+organer eller sammenslutninger heraf under iagttagelse af de til enhver tid gældende 
+udbudsregler. Dette gælder dog ikke, såfremt der overføres et meget begrænset område til den 
+fortsættende myndighed, offentligretlige organ eller sammenslutning heraf, medmindre den 
+fortsættende myndighed, offentligretlige organ eller sammenslutning heraf er abonnent hos SKI og 
+også var det på udbudstidspunktet.   
+ 
+14 Varighed og opsigelse  
+14.1  Varighed  
+Leveringskontrakten træder i kraft ved Parternes underskrift og har en varighed svarende til 
+varigheden af Leverancen som angivet i Bilag 1.  
+Databehandleraftale(r) er gældende, så længe der under Leveringskontrakten behandles 
+personoplysninger på vegne af Kunden eller frem til Leveringskontraktens ophør, jf. ovenfor, alt
+
+## Page 16
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 16 af 23 
+efter hvilket tidspunkt, der indtræder senest. Parternes forpligtelse til at behandle 
+personoplysninger fortroligt vil fortsat være gældende, uanset Leveringskontraktens eller 
+databehandleraftalens ophør.   
+14.2  Generel opsigelsesadgang  
+Kunden kan opsige Leveringskontrakten med et skriftligt varsel på seks måneder til udgangen af 
+en måned. 
+Leveringskontrakten er uopsigelig for Leverandøren. 
+14.3 Opsigelse ved annullation af tildelingsbeslutning  
+Kunden kan opsige Leveringskontrakten med et skriftligt varsel på mindst 30 Dage, hvis Kundens 
+tildelingsbeslutning annulleres, eller en beslutning om videreførelse underkendes ved 
+Klagenævnet for Udbud eller ved domstolene, uanset om afgørelsen eller dommen er endelig. 
+Kunden er ikke forpligtet til at benytte Leveringskontrakten til køb i opsigelsesperioden. 
+I henhold til udbudslovens § 185, stk. 2, kan Klagenævnet for Udbud eller de almindelige domstole 
+ved endelig afgørelse eller dom annullere en tildelingsbeslutning, hvorefter ordregiveren skal 
+bringe en kontrakt, som er indgået på grundlag af beslutningen, til ophør med et passende varsel, 
+medmindre særlige forhold, der tilsiger kontraktens videreførelse, gør sig gældende.  
+Kunden kan i sådanne tilfælde opsige Leveringskontrakten helt eller delvist med et passende 
+varsel. 
+14.4 Opsigelse ved uden virkning 
+I henhold til lov om Klagenævnet for Udbud kan klagenævnet i særlige tilfælde ved overtrædelse af 
+udbudsreglerne erklære en indgået kontrakt for uden virkning og påbyde ordregiver at bringe 
+kontrakten til ophør inden for en fastsat frist. På den baggrund er nedenstående bestemmelser 
+fastsat om Kundens adgang til i sådanne tilfælde at opsige Leveringskontrakten. 
+Kunden kan i sådanne tilfælde opsige Leveringskontrakten helt eller delvist med et skriftligt varsel i 
+overensstemmelse med klagenævnets eller domstolenes påbud, uanset om afgørelsen er endelig. 
+Ved Kundens opsigelse ophører Leveringskontrakten således helt eller delvist som fastsat i 
+påbuddet og med virkning fra det i påbuddet angivne virkningstidspunkt.  
+Hvis påbuddet indeholder yderligere betingelser eller krav, er Kunden berettiget til at videreføre 
+disse betingelser eller krav i opsigelsen over for Leverandøren, under forudsætning af at dette er 
+sagligt begrundet. Leverandøren er i disse tilfælde forpligtet til at efterleve betingelserne og/eller 
+kravene.
+
+## Page 17
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 17 af 23 
+14.5 Opsigelse i andre særlige tilfælde 
+Kunden kan skriftligt opsige Leveringskontrakten uden varsel i de tilfælde, der er beskrevet i 
+udbudslovens § 185, stk. 1, nr. 1-4, samt hvis det ved endelig afgørelse eller dom konstateres, at 
+Leverandøren har fået tildelt Leveringskontrakten ved afgivelse af et tilbud, hvis indhold strider 
+mod præceptive retsregler, forudsat at det retsstridige indhold har haft betydning for tildelingen af 
+Leveringskontrakten. 
+14.6 Opsigelse ved underkendelse af det dynamiske indkøbssystem  
+Kunden kan opsige Leveringskontrakten med et skriftligt varsel på mindst 30 Dage, såfremt det 
+udbudte dynamiske indkøbssystem eller den kategori, hvori Leveringskontrakten er udbudt, 
+underkendes ved Klagenævnet for Udbud eller ved domstolene, uanset om afgørelsen er endelig. 
+ 
+15 Samfundsansvar og arbejdsklausul 
+Leverandøren og dennes eventuelle underleverandører skal overholde Kundens krav vedrørende 
+samfundsansvar og arbejdsklausul i henhold til Bilag 6. 
+16 Tredjemandsrettigheder 
+Leverandøren indestår for, at Leverandøren under opfyldelsen af Leveringskontrakten ikke 
+krænker tredjemands rettigheder, herunder ejendomsret og immaterielle rettigheder. Rejser 
+tredjemand krav mod Kunden med påstand om retskrænkelse, skal Kunden give Leverandøren 
+skriftlig meddelelse herom. Leverandøren er herefter forpligtet til at bistå Kunden ved sagen.   
+Leverandøren er forpligtet til at holde Kunden skadesløs for ethvert krav, herunder 
+erstatningsomkostninger, sagsomkostninger og advokatomkostninger, som måtte blive rejst imod 
+Kunden som følge af forhold, der skyldes krænkelse af tredjemands rettigheder.  
+Hvis tredjemands rettigheder hindrer Leverandørens opfyldelse af Leveringskontrakten, i et 
+omfang som er væsentligt for Kunden, er Kunden berettiget til skriftligt at hæve 
+Leveringskontrakten med omgående virkning. Leverandøren vil herefter blive erstatningsansvarlig 
+for det tab, som Kunden måtte lide som følge af denne ophævelse. 
+ 
+17 Misligholdelse  
+Ved afgørelsen af, om en Part er i misligholdelse af Leveringskontrakten, og – i givet fald – hvilke 
+misligholdelsesbeføjelser dette giver den anden Part, gælder dansk rets almindelige regler, jf. dog 
+punkt 17.1 (om Leverandørens forsinkelse) og punkt 18 (om erstatning) samt eventuel anden 
+regulering i bilag til Leveringskontrakten.
+
+## Page 18
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 18 af 23 
+Hvis Leverandøren misligholder eller forventer at misligholde Leveringskontrakten, påhviler det 
+Leverandøren straks skriftligt at give Kunden meddelelse herom med oplysning om årsagen til 
+misligholdelsen samt med angivelse af, hvilke tiltag Leverandøren agter at iværksætte med henblik 
+på at overvinde eller begrænse misligholdelsen, og hvornår årsagen til misligholdelsen kan 
+forventes at ophøre.  
+Det påhviler Leverandøren at afværge eller, hvis dette ikke er muligt, mindske følgerne af 
+misligholdelsen mest muligt. 
+17.1 Leverandørens forsinkelse 
+Hvis Leverandøren er i forsinkelse, eller så snart det står klart, at Leverandøren vil blive forsinket 
+med Leverancen i mere end 30 Dage, kan Kunden ved skriftlig meddelelse ophæve 
+Levereringskontrakten. Hvis der alene foreligger forsinkelse af en del af Leverancen, kan Kunden 
+dog kun ophæve Leveringskontrakten sin i helhed, hvis dette er begrundet i sammenhængen 
+mellem ydelserne. Kunden er dog altid berettiget til at ophæve den del af Leverancen, som er 
+forsinket, medmindre en delvis ophævelse vil være urimelig byrdefuld over for Leverandøren.  
+18 Erstatning 
+18.1  Generelt 
+Kunden og Leverandøren er erstatningspligtige over for hinanden efter dansk rets almindelige 
+regler, jf. dog nedenstående bestemmelser.  
+Ingen af Parterne kan gøre krav på erstatning for indirekte tab, driftstab og tabt avance.  
+Parternes erstatningsansvar er begrænset til 100 % af den evalueringstekniske pris. Denne 
+begrænsning gælder dog ikke, hvis tabet kan henføres til grov uagtsomhed eller forsætlige forhold 
+hos den skadevoldende Part. 
+Ansvarsbegrænsningen i dette punkt 17.2.1 finder ikke anvendelse på tab som følge af krænkelse 
+af tredjemands rettigheder, jf. punkt 16. 
+Ansvarsbegrænsningen i dette punkt 17.2.1 finder endvidere ikke anvendelse på tab som følge af 
+forhold omfattet af punkt 3 og 5 (overtrædelse af persondataregler). 
+ 
+18.1.1 Erstatning ved opsigelse som følge af annullation eller uden virkning  
+Leverandørens eventuelle krav om erstatning for tab som følge af, at Leveringskontrakten opsiges 
+i henhold til punkt 14.3 eller 14.4, skal afgøres efter bestemmelserne i punkt 18.1, dog med 
+nedenstående modifikationer. Dette gælder også for omkostninger ved at efterkomme yderligere 
+betingelser eller krav i et af Klagenævnet for Udbud udstedt påbud, som Kunden har videreført i 
+opsigelsen.
+
+## Page 19
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 19 af 23 
+Hvis Leverandøren på tidspunktet for Leveringskontraktens indgåelse havde eller burde have haft 
+kendskab til de faktiske og/eller retlige omstændigheder, som bevirker, at Leveringskontrakten 
+opsiges, kan Leverandøren ikke gøre krav på erstatning eller anden form for godtgørelse for tab, 
+herunder fx for omkostninger i relation til betingelser eller krav, som Kunden har videreført i 
+opsigelsen. Ved vurderingen af, om Leverandøren ”burde have haft kendskab” som nævnt ovenfor, 
+skal det lægges til grund, at Leverandøren har handlet som en professionel aktør samt har ladet 
+sig bistå af professionel udbudsretlig ekspertise i forbindelse med tildeling af Leveringskontrakten.  
+Et krav om erstatning i disse tilfælde er ikke omfattet af erstatningsmaksimering i punkt 18.1, men 
+er derimod maksimeret til DKK 125.000. 
+18.1.2 Erstatning ved opsigelse i andre særlige tilfælde 
+Leverandøren kan ikke gøre krav på erstatning for tab som følge af, at Leveringskontrakten 
+opsiges i henhold til punkt 14.5. Kunden bevarer i dette tilfælde retten til at gøre erstatningskrav 
+gældende mod Leverandøren for eventuelle tab i henhold til bestemmelserne i punkt 18.1. 
+ 
+19 Forsikring   
+Leverandøren skal opretholde en sædvanlig erhvervs- og produktansvarsforsikring og hvis relevant 
+en professionel ansvarsforsikring, der dækker Leverandørens ansvar under Leveringskontrakten 
+op til DKK 10.000.000. 
+20 Force majeure 
+Ved force majeure suspenderes en Parts forpligtelser i henhold til Leveringskontrakten, så længe 
+force majeure-situationen varer, i det omfang Partens opfyldelse af forpligtelserne er forhindret af 
+force majeure-situationen. 
+Force majeure dækker forhold af særlig kvalificeret karakter (fx naturkatastrofer), som ligger uden 
+for Partens kontrol, og som Parten ikke forud for Leveringskontraktens ikrafttrædelse burde have 
+taget i betragtning og ej heller efter Leveringskontraktens ikrafttrædelse burde have undgået eller 
+overvundet. Forhold hos en underleverandør anses for force majeure, såfremt der for 
+underleverandøren foreligger en hindring, der omfattes af første punktum, og som Leverandøren 
+ikke burde have forudset, undgået eller overvundet. 
+Force majeure kan kun påberåbes, såfremt den Part, der er berørt af force majeure, har givet 
+Skriftlig meddelelse herom til den anden Part uden ugrundet ophold, senest 5 Arbejdsdage efter 
+force majeure er indtrådt. Der skal samtidig gives en orientering om den forventede varighed af 
+force majeure- situationen. 
+Kunden er berettiget til vederlagsfrit at afbestille ydelser, der forsinkes som følge af force majeure, 
+og Kunden skal på forespørgsel fra Leverandøren inden for rimelig tid meddele, om Kunden ønsker 
+at afbestille eller afvente levering efter ophør af force majeure.  
+Såfremt en force majeure -situation varer i mere end 60 Arbejdsdage, eller hvis force majeure -
+situationen er af en sådan karakter eller har en sådan varighed, at Leveringskontraktens endelige
+
+## Page 20
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 20 af 23 
+opfyldelse må anses for umulig, er den anden Part berettiget til at bringe Leveringskontrakten til 
+ophør med virkning for fremtiden. Ingen af Parterne kan gøre krav gældende i anledning heraf. 
+ 
+21 Trepartsaftale 
+Ved indgåelsen af Leveringskontrakten indgår Parterne og SKI bilag 7 Trepartsaftale, hvorefter 
+Leverandøren bl.a. påtager sig løbende at rapportere Kundens køb/omsætning og 
+videreformidle kundebetalingen til SKI. 
+22 Standardvilkårene 
+Standardvilkårene udgør en integreret del af Leveringskontrakten.  
+Standardvilkårene fastlægger – med respekt for Leveringskontraktens øvrige vilkår, jf. nærmere 
+punkt 25 – alene vilkårene for Kundens brug af den Standardsoftware, der indgår i Leverancen. 
+Parterne kan således ikke påberåbe Standardvilkårene i relation til andre forhold under 
+Leveringskontrakten, fx relaterede ydelser, som er omfattet af Leverancen. Såfremt 
+Standardvilkårene indeholder bestemmelser, som strider imod Leveringskontraktens øvrige vilkår, 
+er Parterne enige om, at der i alle forhold mellem Parterne skal bortses fra disse bestemmelser i 
+Standardvilkårene, jf. punkt 25.  
+I det omfang Standardvilkårene indeholder vilkår, der fastlægger et aftaleforhold mellem Kunden 
+og Producenten, skal disse vilkår også ses som en integreret del af Leveringskontrakten, som 
+Kunden enten ved sin underskrift af Leveringskontrakten eller ved underskrift af Standardvilkårene 
+accepterer under forbehold for bestemmelserne ovenfor og bestemmelserne om forrang i punkt 25.  
+Leverandøren er forpligtet til at sikre, at Kunden opnår de rettigheder, der følger af 
+Standardvilkårene, uanset om Leverandøren ikke formelt er en aftalepart i henhold hertil. 
+Kunden forpligter sig til at underskrive aftalevilkår, som indgår i Standardvilkårene, såfremt disse 
+betinger en underskrift af Kunden. Kundens underskrivelse af sådanne vilkår skal dog ikke ses 
+som udtryk for en fravigelse af bestemmelserne i Leveringskontrakten, herunder navnlig 
+bestemmelserne ovenfor om Standardvilkårenes rækkevidde og bestemmelserne om forrang i 
+punkt 25. 
+Leverandøren skal skadesløsholde Kunden for eventuelle krav fra Producenten eller andre, der 
+støttes på Standardvilkårene, og som i medfør af ovenstående bestemmelser ikke påhviler 
+Kunden. 
+23 Underleverandører 
+Leverandøren er berettiget til at anvende og udskifte underleverandører i forbindelse med 
+opfyldelse af Leveringskontrakten, når det sker under overholdelse af de til enhver tid gældende 
+udbudsregler.
+
+## Page 21
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 21 af 23 
+Leverandørens anvendelse af underleverandører indebærer ingen begrænsning i Leverandørens 
+ansvar for opfyldelsen af Leveringskontrakten.  
+Kunden kan i alle tilfælde rette direkte henvendelse til Leverandøren, selv om Leverandøren helt 
+eller delvist har overladt opfyldelsen af kravene til en eller flere underleverandører. 
+Leverandøren skal sikre, at anvendelse af underleverandører ikke giver anledning til 
+habilitetsproblemer. 
+Kunden kan til enhver tid kræve, at Leverandøren oplyser navn og kontaktoplysninger på og 
+juridisk repræsentant for de underleverandører, herunder underleverandører længere nede i 
+underleverandørkæden, der benyttes i forbindelse med opfyldelsen af Leveringskontrakten. 
+Leverandøren er forpligtet til, uanset om Kunden har anmodet herom at fremsende oplysningerne 
+senest når gennemførelsen af leveringen af ydelserne påbegyndes, hvis underleverandører 
+kendes på dette tidspunkt, og ellers når anvendelse af underleverandører til leveringen af 
+ydelserne påbegyndes.  
+Levering af ydelserne eller dele heraf, som opfyldes af en underleverandør, skal faktureres af 
+Leverandøren. Leverandøren hæfter for sine underleverandørers ydelser på ganske samme måde 
+som for sine egne forhold. Derudover kan underleverandører ikke i medfør af Leveringskontrakten 
+rejse nogen former for krav over for Kunden. 
+ 
+24 Fortolkning 
+Bestemmelser i udbudsmaterialet, i Leverandørens tilbud, i forudgående korrespondance eller 
+lignende, der ikke er medtaget i Leveringskontrakten, kan ikke efterfølgende påberåbes som 
+fortolkningsgrundlag. 
+Tilsvarende gælder viden om ydelser, der skal leveres under Leveringskontrakten, Kundens it-miljø 
+m.v., som en Part måtte have erfaret som led i et tidligere samarbejde. Dog har hver af Parterne i 
+denne situation en udvidet forpligtelse til at søge afklaring af ethvert forhold, som måtte give 
+anledning til tvivl på grundlag af en sådan viden. 
+Henvisninger til Leveringskontrakten eller til en bestemmelse heri omfatter også de til 
+Leveringskontrakten hørende bilag, henholdsvis de bilag, der er relevante for den pågældende 
+bestemmelse. 
+ 
+25 Forrang 
+Bestemmelser i nærværende dokument har forrang frem for bestemmelser i Leveringskontraktens 
+bilag, hvorfor bestemmelser indeholdt i et bilag, som strider mod bestemmelser i nærværende 
+dokument, ikke tillægges retsvirkning.  
+I tilfælde af indbyrdes modstrid mellem Leveringskontraktens bilag, har bilagene forrang i følgende
+
+## Page 22
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 22 af 23 
+prioritetsrækkefølge: 
+• Bilag 7 Trepartsaftale 
+• Bilag 6 CSR  
+• Bilag 1 Kundens opgavebeskrivelse 
+• Bilag 5 og 5a Databehandleraftalen 
+• Bilag 16 Sikkerhed 
+• Bilag 9 AI 
+• Bilag 1b Undervisning og rådgivning 
+• Bilag 11 Dokumentation 
+• Bilag 12 Drift, support og vedligehold 
+• Bilag 13 Servicemål 
+• Bilag 14 Samarbejdsorganisation  
+• Bilag 15 Migrering af data 
+• Bilag 10 Leverandørens forpligtelser ved ophør 
+• Bilag 4 Leverandørens priser 
+• Bilag 3 Leverandørens løsningsbeskrivelse  
+• Bilag 2 Producentens standardvilkår 
+Henvisningerne til de enkelte bilag ovenfor omfatter eventuelle underbilag hertil.  
+Det forhold, at Kundens krav har forrang for modstridende krav i Leverandørens 
+løsningsbeskrivelse (Bilag 3) og Standardvilkårene (Bilag 2), kan ikke påberåbes af Leverandøren 
+som begrundelse for ikke at levere det yderligere, der måtte fremgå af Leverandørens 
+løsningsbeskrivelse (Bilag 3).  
+26 Tvister 
+Enhver tvist, der måtte opstå i forbindelse med Leveringskontrakten, skal afgøres efter dansk ret 
+både med hensyn til materielle og processuelle spørgsmål, dog undtaget de danske lovvalgsregler 
+og FN’s konvention om aftaler om internationale køb (CISG).  
+Enhver tvist skal afgøres ved de almindelige domstole. Kundens hjemting er værneting. 
+27 Underskrifter 
+Hvis Leverandøren er en sammenslutning af deltagere, eksempelvis et konsortium, skal alle 
+deltagere underskrive Leveringskontrakten.  
+ 
+Sted:   Sted: 
+Dato:   Dato: 
+For Kunden:   For Leverandøren:
+
+## Page 23
+Leveringskontrakt 
+02.06 Standardsoftware (2026)  
+ 
+ 
+ 
+Version 1.0   Side 23 af 23

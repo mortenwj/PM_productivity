@@ -1,0 +1,179 @@
+02.06 StandardsoftwareDynamisk indkøbssystemBilag 1 Kundens opgavebeskrivelse02.06 StandardsoftwareDynamisk indkøbssystemBilag 1 Kundens opgavebeskrivelse
+Indledning
+Kunden har i dette bilag angivet sit behov. Tilbudsgiver kan ikke tage forbehold overfor disse krav, der alle skal opfyldes.
+Nærværende miniudbud vedrører standardsoftware, support og vedligehold, installation og/eller konfiguration, undervisning og rådgivning.
+Funktionelle standardsoftwareområder
+Kundens behov opfyldes indenfor følgende af det dynamiske indkøbssystems funktionelle standardsoftwareområder:
+8.1 Content Service
+Behovsopgørelse
+Kunden har indenfor rammerne af de(t) angivne funktionelle standardsoftwareområde(r) opgjort sit behov til at omfatte nedenstående ydelsesområder.
+1) Standardsoftware
+2) Support- og vedligeholdsaftaler til Standardsoftware
+3) Installation/implementering og/eller konfiguration
+samt følgende ydelser, der er relateret til Standardsoftware:
+4) Undervisning
+5) Rådgivning
+Standardsoftware – ydelsesområde 1
+Leverancen omfatter genanskaffelse af standardsoftware til brug for Elektronisk Sags- og Dokumenthåndtering (ESDH).
+Supplerende specifikation
+Standardsoftwaren skal sikre, at organisationen lever op til lovgivningens krav om pligt til at lagre, arkivere og dokumentere (ESDH) oplysninger om afgørelser truffet over for borgere og virksomheder, herunder krav til den offentlige forvaltnings håndtering af skriftlige afgørelser og notater.
+Standardsoftwaren skal ligeledes sikre, at organisationens medarbejdere kan dokumentere de henvendelser og den kommunikation (journalpligt), der sker mellem organisationen og borgerne, virksomheder og andre interessenter, der henvender sig til organisationen, samt relevant intern kommunikation. Dokumentationen kan være i form af medarbejders notater udarbejdet efter fysisk møde eller telefonisk/video-samtale med person, korrespondance modtaget og sendt via lovmedholdelige kommunikationskanaler og dokumenter.
+Standardsoftwaren skal sikre, at organisationens medarbejdere og ledelse har adgang til de lagrede dokumenter og, at de i arbejdet med dokumenterne kan dokumentere de ændringer, der foretages i en given sag gennem lovgivningskrav til åbenhed i organisationens forvaltning.
+Standardsoftwaren skal gøre det muligt at hente eller lagre data direkte mellem eksempelvis ESDH og mailsystem, så servicen understøtter sammenhæng til organisationens andre it-systemer.
+Standardsoftwaren skal sikre organisationens behov for at kunne fremfinde de konkrete dokumenter og registreringer, der er foretaget omkring den enkelte borger, virksomhed eller anden aktør, gennem retten til aktindsigt. Denne service skal endvidere gælde for organisationens generelle myndighedsarbejde, hvor der kan anmodes om aktindsigt i denne, så den samlede aktindsigtsproces understøttes digitalt.
+Standardsoftwaren skal sikre organisationens pligt til at sikre overholdelse af arkivlovgivning, herunder overførsel af data til andre centrale arkiver.
+Anskaffelse af standardsoftwaren sker som lejebaseret og skal etableres on-premise på servere hos Statens It og på medarbejdernes pc’er.
+Kunden har følgende mindstekrav:
+Genanskaffelse af eksisterende softwarefunktionalitet
+Kundens kontrakt med nuværende leverandør udløber 31.december 2026. Kunden har behov for at genanskaffe Standardsoftware med tilsvarende funktionalitet, jf. punkt 3.
+Kompatibilitetskrav
+Standardsoftwaren og kundespecifikt programmel skal kunne afvikles som en on-premise-løsning hos Kundens driftsleverandør og skal være kompatibel med Kundens øvrige it-miljø som beskrevet nedenfor i punkt 3. Ved kompatibilitet forstås, at Standardsoftwaren kan fungere med Kundens øvrige it-miljø uden tab af funktionalitet, performance, stabilitet eller garanti.
+Support- og vedligeholdelsesaftaler – ydelsesområde 2
+Leverancen omfatter support og vedligeholdelse af Standardsoftware, jf. punkt 2.1, hvilket omfatter fejlrettelse, opdateringer, forbedringer mm. samt teknisk support relateret til Standardsoftwaren.
+Servicemål er nærmere beskrevet i Bilag 13
+Support og vedligehold er nærmere beskrevet i Bilag 12.
+Kunde vil i leveranceperioden blandt andet have behov for:
+Leverandørbistand i forbindelse med opgradering og patches af Standardsoftware jf. Bilag 12 pkt. 5. Leverandørens bistand afregnes efter medgået tid, jævnfør timeraterne i bilag 4.
+Leveringsbistand i forbindelse med aflevering af data til Rigsarkivet jf. retningslinjer i bekendtgørelse nr. 128 af 12. februar 2020. Afleveringen sker forventeligt hvert femte år. Leverandørens bistand afregnes efter medgået tid, jævnfør timeraterne i bilag 4.
+Installation/implementering og/eller konfiguration – ydelsesområde 3
+Leverancen omfatter
+installation,
+implementering og/eller
+konfiguration
+af Standardsoftware, jf. punkt 2.1 (i det følgende omfattet af definitionen ”Standardsoftware”), herunder projektledelse relateret hertil.
+Supplerende specifikation
+Såfremt Leverancen baseres på Kundens eksisterende softwarefunktionalitet, jf. punkt 3, vil der ikke være behov for indledende ydelser, herunder installation, implementering og konfiguration.
+Såfremt Leverandøren baserer sig på et andet system end Kundens eksisterende softwarefunktionalitet, vil Leverancen omfatte indledende ydelser, herunder installation, implementering og konfiguration, som skal være afsluttet inden nuværende aftale udløber 31. december 2026. Derudover skal der ske en ekstraordinær aflevering af data til Rigsarkivet, hvilket Leverandøren har prissat i bilag 4 – Leverandørens priser.
+Derudover vil der være en forventning om migrering af data fra det nuværende ESDH-system til det nye ESDH-system. Dette er nærmere beskrevet i Bilag 15
+De indledende ydelser skal ved skift til et andet system end Kundens nuværende system, være af en sådan karakter og omfang, at Kunden, herunder brugerne og opgavevaretagelsen, ikke forstyrres.
+Undervisning – ydelsesområde 4
+Leverancen omfatter undervisning relateret til brugen af Standardsoftwaren.
+Supplerende specifikation
+Kunden skal kunne indkøbe undervisning til de i Bilag 1a beskrevne licenser. Undervisning i kontraktperioden planlægges efter behov og undervisning afregnes som fastpris for den konkrete opgave efter priserne angivet i Bilag 4.
+Såfremt Leverandøren baserer sig på et andet system end Kundens eksisterende system, vil Leverancen omfatte indledende uddannelse af Kundens medarbejdere. Leverandørens engangsvederlag for disse indledende ydelser er i så fald angivet i Bilag 4.
+Rådgivning – ydelsesområde 5
+Leverancen omfatter rådgivning relateret til anskaffelse og/eller brug af Standardsoftwaren, herunder rådgivning om funktionalitet, integrationer, data, sikkerhed, driftsafvikling m.m.
+Supplerende specifikation
+Kunden skal kunne indkøbe rådgivning og bistand relateret til de af kontrakten omfattede ydelser.
+Leverandørens vederlag beregnes på baggrund af de i Bilag 4 angivne priser. Kunden skal have mulighed for at indkøbe ydelser som afregnes efter medgået tid for den konkrete opgave.
+Eksisterende it-miljø
+I nærværende punkt beskrives Kundens it-miljø.
+Beskrivelsen understøtter Leverandørens opfyldelse af Leveringskontrakten. Beskrivelsen af Kundens it-miljø indeholder ingen selvstændig kravsætning til Leverandøren.
+Ved underskrift af Leveringskontrakten beskrives Kundens it-miljø, således som det eksisterer forud for kontraktindgåelsen.
+Eksisterende softwarefunktionalitet
+Kunden har hidtidigt anvendt cBrain ”F2” som elektronisk sags- og dokumenthåndteringssystem.
+ESDH-systemet anvendes af alle brugere i Kundens organisation - brugere som har forskelligartede behov og forudsætninger for anvendelsen af systemet.
+ESDH-systemet er bygget til at understøtte hele Kundens sagsbehandlingsproces digitalt. Det fungerer som en central platform, hvor dokumenter, e-mails og opgaver håndteres struktureret og sikkert. ESDH-systemet automatiserer journalisering, så registrering af dokumenter og korrespondance sker som en naturlig del af arbejdet, uden at brugeren skal gøre det manuelt.
+Kernefunktionaliteten i ESDH-systemet omfatter
+Sagsstyring og dokumenthåndtering: Alle dokumenter og akter knyttes til den relevante sag, hvilket giver et klart overblik over status og historik.
+Automatiseret e-mail-integration: Indgående og udgående e-mails gemmes direkte i systemet sammen med vedhæftede filer.
+Bestillings- og godkendelsesprocesser: Indbyggede arbejdsgange sikrer ensartet behandling, fx ved godkendelser, bestillinger og aktindsigt.
+Arkivering og compliance: Systemet understøtter afleveringsversioner til arkivmyndigheder og sikrer overholdelse af journaliseringspligt og GDPR.
+Søgefunktion og overblik: Avanceret søgning gør det nemt at finde dokumenter og sager hurtigt.
+Mobil adgang: Brugere kan tilgå systemet via mobile enheder, hvilket understøtter fleksibilitet og effektivitet.
+AI-Understøttelse: Mulighed for brug af AI på akt-niveau til udarbejdelse af udkast til sagsfremstilling, resume af dokumenter og oversættelse af dokumenter.
+Kommunikation indgår som en del af de officielle sagsoptegnelser og ESDH-systemet har integration til Outlook, hvorfra mails automatisk kan flyttes ind i ESDH-systemet. Til støtte for internt samarbejde har ESDH-systemet desuden en chatfunktion, som kan bruges til at udveksle information og koordinere opgaver uden at påvirke de formelle sagsmapper.
+Da brugerne af ESDH-systemet udfører arbejde både på kontoret, hjemme og i felten, understøtter ESDH-systemet at brugerne har sikker adgang til sager og dokumenter uanset arbejdssted. ESDH-systemet fungerer på pc og på mobile enheder og understøtter dermed en fleksibel, hybrid arbejdsform.
+Relevant funktionalitet inden for forskellige opgaveområder fra forskellige slutbrugerenheder er beskrevet forneden:
+Adgang til ESDH-systemet via følgende platforme
+PC
+Mobil
+iOS
+Kommunikationsmuligheder via ESDH-systemet
+E-post
+Chat
+Fælles indbakker (unit inboxes)
+Proces
+Sagsflow og tjeklister
+Selvbetjening
+Registre
+Godkendelser og anmodninger
+Status
+AI-assistent via lokal LLM hos Statens It
+Sag og Dokument
+Fritekstsøgning
+Søgelister
+Mapper
+Journalisering
+Nøgleord
+Ledelsesrapportering
+Versionsstyring
+Audit trail (sporbarhed)
+Organisation og adgang
+Organisationsstruktur
+Enheder, brugere og teams
+Rollebaseret adgangsstyring
+Adgangsgrupper
+Eksterne brugere og borgere
+Virksomheder
+Integration og infrastruktur
+REST-API
+Data Transfer Service
+AD & single sign-on (enkeltlogon)
+Historisk/langtidsarkiv
+Data
+Central datalagring/database
+3.1.1   Kundespecifik programmel i ESDH-systemet
+ESDH-systemet indeholder desuden forskellig kundespecifikke programmel, som er relevant for Kunden
+Licensserver integration: Adgang til henholdsvis desktop-version og mobile versioner af ESDH-systemet.
+Arkiv: Arkiv med data fra tidligere ressortområdet
+Analytics: Der kan udtrækkes komplete datalister på Sagsfremstilling og Dokumenter.
+API: Funktionalitet, der muliggør integrationer med Exchange og Kundens øvrige sagsbehandlingssystemer VIAS, CMM Datadoc, Topdesk mm.
+Klassificeret miljø: Særskilt miljø til håndtering af sager og data kategoriseret som ”Til tjenestebrug”.
+Eksisterende infrastruktur
+Kundens it-miljø driftes ved Statens It med en driftsaftale 1A. Kundens nuværende IT-miljø anvender SQL som databaseteknologi og skal fortsat anvende denne teknologi ifm. indgåelse af nærværende kontrakt.
+Eksisterende integrationer
+Kundens eksisterende system benytter følgende integrationer
+Active Directory (AD) med ADFSStandardsoftwaren skal understøtte integration til Kundens Active Directory (AD) for understøttelse af blandt andet Single Sign-on. Kunden anvender Statens Its on-premis ADFS-løsning
+Microsoft Exchange
+Standardsoftwaren skal understøtte integration til Exchange. Integrationen er baseret på standard interfaces og følger gængse regler for integration med henholdsvis AD og Exchange.
+REST APIStandardsoftwaren skal understøtte integration til andre fagsystemer via Servicens REST API.
+Tidsplan, evt. testplan
+Såfremt Leverancen baserer sig på Kundens eksisterende system, vil der ikke være behov for indledende ydelser, for eksempel installation, implementering eller konfiguration, og normal drift vil derfor kunne forsætte straks efter indgåelse af Leveringskontrakten.
+Såfremt Leverandøren baserer sig på et andet elektronisk sags- og dokumenthåndteringssystem end Kundens eksisterende system, vil Leverancen omfatte indledende ydelser, for eksempel installation, implementering og konfiguration af Standardsoftwaren inkluderet i Leverancen.
+En eventuel udskiftning af Kundens eksisterende system med et andet elektronisk sags- og dokumenthåndteringssystem skal ske hurtigt, sikkert og effektivt under hensyntagen til Kundens afhængigheder og tilgængeligheden af Kundens ESDH, samt hensyntagen til Kundens medarbejderressourcer. Det vil være en ESDH-ansvarlig medarbejder tilrådighed under udskiftningen svarende til 30 timer pr. uge.
+Der vil også være en indledende fase i udskiftningsprocessen, hvor både Kunden og Leverandøren skal bl.a.
+kortlægge it-landskabet (identificere datakilder, afhængigheder og integrationer),
+arkitektur og design,
+datatype og risikoanalyse (ift. evt. fallback-planer)
+Leverandørens afregnes efter medgået tid, jævnfør timeraterne i bilag 4.
+Kundens timeforbrug er også indarbejdet i bilag til at evaluere den evalueringstekniske pris.
+For at sikre minimal påvirkning af Kundens forretning og for at minimere perioden med paralleldrift, skal en eventuel udskiftning af kundens Eksisterende system med et andet elektronisk sags- og dokumenthåndteringssystem være succesfuld afsluttet (inklusive teknisk og organisatorisk implementering for superbrugere) senest den 1. januar 2027.
+Undervisning for resten af Kundens medarbejdere skal være afsluttet senest d. 1. februar 2027.
+Varighed
+Leveringskontrakten træder i kraft ved begge Parters underskrift.
+Leverandøren skal i perioden fra Leveringskontraktens ikrafttræden og frem til den 31. december 2026 levere de implementerings-, konfigurations-, undervisnings- og øvrige ydelser, der efter Leveringskontrakten skal leveres forud for licensperiodens begyndelse.
+Licensperioden løber fra den 1. januar 2027 til og med den 31. december 2032.
+Standardsoftware – ydelsesområde 1
+Kunden skal opnå de i Standardvilkårene angivne rettigheder til Standardsoftwaren fra 1. januar 2027 og indtil 31. december 2032.
+Support- og vedligeholdelsesaftaler – ydelsesområde 2
+Leverandøren skal yde support og vedligeholdelse fra 1. januar 2027 og indtil 31. december 2032.
+Installation/implementering og/eller konfiguration – ydelsesområde 3
+Leverandøren skal forestå installation/implementering og/eller konfiguration fra kontrakten træder i kraft og indtil 31. december 2032. Efter den 31. december 20232 kan der forsat være behov for enkelte ydelser i relation til installation/implementering og/eller konfiguration efter aftale mellem Parterne.
+Undervisning – ydelsesområde 4
+Ved evt. udskiftning af ESDH-system skal leverandøren sikre:
+Undervisning til superbrugere senest d. 1. december 2026
+Undervisning til resten af Kundens medarbejdere senest d. 1. januar 2027.
+Leverandøren skal også forestå undervisning ved behov i leveranceperioden.
+Rådgivning – ydelsesområde 5
+Leverandøren skal forestå rådgivning ved behov i leveranceperioden.
+Optioner
+Optioner på forlængelse
+Kunden har ret til at forlænge licensperioden med op til to (2) perioder af ét (1) år ad gangen på uændrede vilkår. Kunden skal meddele Leverandøren skriftligt, hvis en forlængelsesoption ønskes udnyttet, senest tre (3) måneder før udløbet af den igangværende licensperiode.
+Hvis Kunden ikke udnytter en forlængelsesoption inden den fastsatte frist, ophører Leveringskontrakten ved udløbet af licensperioden eller den forlængede licensperiode uden yderligere varsel.
+Sikkerhedskrav, herunder -godkendelse
+Ledelsessystem for informationssikkerhedsstyring
+Leverandøren skal med henblik på løbende sikring af informationssikkerhed i tilknytning til levering af:
+Standardsoftware
+Support- og vedligeholdsaftaler til Standardsoftware,
+Installation/implementering og/eller konfiguration relateret til Standardsoftware,
+Rådgivning relateret til Standardsoftware
+(i det følgende benævnt ”Ydelsesområdet”) opretholde et ledelsessystem for informationssikkerhedsstyring (ISMS) baseret på en risikostyringsproces, jf. punkt 8.2. Leverandøren skal herunder løbende tilpasse sit ISMS, såfremt Leverandørens opdatering af risikovurdering, jf. 7.2, medfører et behov herfor.
+Risikovurdering
+Leverandørens risikostyring af informationssikkerheden i forhold til Leverandørens levering af Ydelsesområdet skal baseres på en dokumenteret og regelmæssigt opdateret risikovurdering. I relation til Leverandørens risikovurdering gælder det, at:
+Risikovurderingen skal omfatte de ydelser og de dele af Leverandørens virksomhed, som kan have konsekvenser for informationssikkerheden i Ydelsesområdet.
+Leverandøren skal opdatere sin risikovurdering løbende samt i forbindelse med forestående ændringer af Leverandørens egne organisatoriske forhold, forestående ændringer af en eventuel underleverandørs forhold eller forestående ændringer af Ydelsesområdet, der erfaringsmæssigt kan have konsekvenser for informationssikkerheden for de med Ydelsesområdet forbundne ydelser.
+Leverandøren skal opdatere sin risikovurdering, når Leverandøren har kendskab til en specifik trussel, som den foreliggende risikovurdering ikke har taget højde for.
+Øvrige sikkerhedsforanstaltninger
+Leverandøren, dennes medarbejdere, underleverandører og disses medarbejdere skal som accessoriske ydelser i forhold til Ydelsesområdet implementere og overholde de sikkerhedsforanstaltninger, der er anført nedenfor.
+Leverandøren skal sikre, at systemet lever op til Digitaliseringsstyrelsens tekniske minimumskrav og Center for Cybersikkerheds tiltag til styrket cyberberedskab samt NIS2-direktivet,

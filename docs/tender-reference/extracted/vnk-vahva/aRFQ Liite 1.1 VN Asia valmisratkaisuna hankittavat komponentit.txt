@@ -1,0 +1,124 @@
+VN Asia valmisratkaisuna hankittavat komponentit
+Tässä dokumentissa kuvataan toiminnan näkökulmasta ne hankittavan asianhallintajärjestelmän kokonaisuudet, jotka sisältävät yleisiä asianhallinnan toiminnallisuuksia ja jotka siten toivotaan tarjottavan valmisratkaisuna. Jaottelu on tehty loogisella tasolla, eikä sen tarkoituksena ole rajata tarjottavan ratkaisun teknistä rakennetta.
+Asianhallintasovellus
+Toiminnallisuudet
+Asianhallinnan järjestelmäkokonaisuuden ytimenä toimiva Sähke2-suosituksen täyttävä asianhallinnan sovellus, joka tarjoaa kattavat toiminnallisuudet asianhallinnan perusprosessien tueksi:
+Asioiden, toimenpiteiden ja asiakirjojen rekisteröinnit
+Asioiden, toimenpiteiden ja asiakirjojen säilytys mukaan lukien pitkäaikaissäilytys
+Asioiden, toimenpiteiden ja asiakirjojen säilytyksen aikaiset käsittelytarpeet: Jakelut, haut, metatietojen päivittäminen myös massana
+Asioiden, toimenpiteiden ja asiakirjojen tuhoaminen ja siirto Kansallisarkistoon
+Kattavat asianhallinnan rekisterien hallinnan toiminnot, kuten seulonnat, laadunhallinta ja erilaiset pääkäyttäjätoiminnot
+Työnkulkujen hallinta: Puollot, tarkastukset, hyväksynnät, allekirjoitukset ja kommentointi
+Asiarekisteriin kuulumattomien asiakirjojen valmistelu
+Asioiden, toimenpiteiden ja asiakirjojen rekisteröinnit
+Asiarekisteriin rekisteröitävät tiedot on määrätty tiedonhallintalaissa, ja konkretisoitu tiedonhallintalautakunnan suosituksessa asiarekisterin metatiedoista. Asiarekisteri noudattaa SÄHKE2-suosituksen metatietomallia ja tiedonhallintalautakunnan suositusta asiarekisterin metatiedoista. Asiakkaalla on myös tiedonhallintalaissa määrättyjen metatietojen lisäksi omia erityistarpeita rekisteröinnille ja metatiedottamiselle.
+Asioiden, toimenpiteiden ja asiakirjojen säilytyksen aikaiset käsittelytarpeet: laadinta, jakelut, haut, metatietojen päivittäminen myös massana
+Järjestelmässä voi laatia asiakirjoja tai ne voi tuoda järjestelmän ulkopuolelta. Järjestelmä mahdollistaa myös asiarekisterin ulkopuolisten aineistojen laatimisen ja tallentamisen dokumentinhallintaan. Asiakirjat on voitava jakaa tarvittaessa useita kertoja sekä toimeksi että tiedoksi, sekä sisäisille että ulkoisille vastaanottajille – riippumatta siitä, onko asiakirja saapunut ulkopuolelta vai laadittu järjestelmässä. Asioiden ja asiakirjojen toimeksi-jakelua käytetään myös työnjohdollisessa tarkoituksessa asioiden käsittelyn vastuuttamiseen. Sekä sisäisessä että ulkoisessa jakelussa tulee voida käyttää sekä organisaatioyksiköiden yhteisiä että yksittäisten käyttäjien omia jakelulistoja. Sisäisille vastaanottajille on jakelun yhteydessä tultava asiakirjan käyttöön tarvittavat oikeudet. Sekä järjestelmän sisäisiä että sen ulkopuolelle tehtäviä jakeluita tulee voida muodostaa myös asiasanoihin sidotuilla jakelulistoilla. Asiasanajakeluita voidaan myös muokata lisäämällä tai poistamalla vastaanottajia.  Asiakirjat jaetaan sisäisille vastaanottajille käyttäjän valinnan mukaan joko asiakirjan tietoihin vievinä linkkeinä sähköpostinotifikaatioissa tai järjestelmän sisäisesti ja ulkoisille ja sisäisille vastaanottajille sähköpostin liitetiedostoina. Tiedosto on voitava lähettää sekä natiivi- että pdf-muodossa. Salassa pidettävät sekä TLIV-luokitellut asiakirjat ohjautuvat automaattisesti jakeluun turvapostin kautta ja esim. henkilötietoja sisältäviä asiakirjoja jakaessaan laatija voi ohjata jakelun tapahtumaan turvapostissa. Jakeluiden seurannan on oltava järjestelmässä mahdollista.
+Työnkulkujen hallinta: Puollot, tarkastukset, hyväksynnät, allekirjoitukset ja kommentointi
+Asiakirjat tulee voida lähettää järjestelmän työnkuluilla puollettavaksi, tarkastettavaksi, hyväksyttäväksi sekä sähköisesti allekirjoitettavaksi. Järjestelmän tulee päivittää asiakirjantila, käyttöoikeudet ja muut tarvittavat metatiedot myöhemmin tarkennettavalla tavalla
+Järjestelmän tulee mahdollistaa sähköistä allekirjoitusta edeltävä asiakirjan puoltaminen ja toiminnot tulee voida suorittaa saman työnkulun aikana usean käyttäjän toimesta. Asiakirja tulee voida myös tarkastaa sekä hyväksyä allekirjoitusta kevyemmällä hyväksymismenettelyllä. Asiakirjan allekirjoittajat voivat olla sekä järjestelmän sisäisiä että sen ulkopuolisia käyttäjiä ja asiakirjoja voi allekirjoittaa useita samalla allekirjoituskerralla.
+Jakeluiden sekä työnkulkujen lisäksi, asia ja asiakirjat voidaan vastuuttaa käyttäjäorganisaatioiden ylimmistä tasoista lähtien aina yksittäisille käyttäjille, jolloin käyttäjä saa tarvittavat käyttöoikeudet. Toiveena olisi, että järjestelmässä voidaan hyödyntää automatiikkaa asiakirjojen vastuuttamisessa oikealle taholle. Vastuuttamisessa ja asiakirjojen ryhmittelyssä voidaan hyödyntää automaattisesti asiasanoitusta, joka tunnistaa tiedoston sisällöstä avainsanoja.
+Järjestelmässä tulee voida muodostaa sekä diaari- että tilastoraportteja, joiden tuloksia voidaan käyttäjän toimesta muokata toimistosovelluksissa. Metatietojen perusteella pitää pystyä muodostamaan erilaisia raportteja.
+Pääkäyttäjätoiminnot
+Tilaajan pääkäyttäjät hoitavat pääkäyttäjätehtäviä selkeäkäyttöisessä käyttöliittymässä, jossa ei ole tarpeettomia toimintoja nähtävillä. Pääkäyttäjätehtäviä voisivat olla tulevasta asianhallintaratkaisusta riippuen esim. seuraavat:
+Tarvittaessa manuaalisesti käyttäjänhallinnan tehtävät, jos automatiikka ei riitä/toimi
+Erilaisten parametrien ja koodistojen määrittely, kuten esim. valintalistojen sisältöjen ja käyttäjille lähtevien ilmoitusten ja niiden sisällön hallinta
+Rooli- ja ryhmäkohtaisten näkymien hallinta, esim. työpöytänäkymät ja hakutulosnäkymät
+Kaikille käyttäjille tai tietylle käyttäjäryhmälle kohdistettavat tallennetut haut (esim. ministeriökohtaisesti)
+Raporttien tuottaminen kaikkien metatietojen ja niiden yhdistelmien perusteella. Raportti voi olla dynaaminen ja se voidaan jakaa suoraan käyttäjille käytettäväksi
+Asiakirjapohjien tuottaminen ja ylläpito vaivattomasti, asiakirjapohjien määrittely tehtäväluokkakohtaisesti
+Loki- ja valvontatietojen tarkastelu ongelmatilanteissa, esim. asiakirjan allekirjoitukset ja lähetykset
+Tiedonohjaus ja aineiston säilytys, Kansallisarkistoon siirto sekä tuhoaminen
+Asianhallintajärjestelmän kautta tulee pystyä selaamaan tehtäväluokitusta ja tiedonohjaussuunnitelmaa puurakenteena. Puurakenne tulee ulottua prosessitason alimmalle asiakirjatasolle asti. Tehtäväluokkiin tulee olla mahdollista lisätä prosessien kuvaustekstiä, joka on käyttäjän nähtävissä esim. Pop up-ikkunana. Käyttäjä voi lisätä omia tehtäväluokkasuosikkeja.
+Järjestelmän on mahdollistettava asioiden, toimenpiteiden ja asiakirjojen pitkäaikaissäilytys. Lisäksi järjestelmässä täytyy olla mahdollista tuhota asioita, toimenpiteitä ja asiakirjoja. Järjestelmästä on pystyttävä siirtämään asioiden, toimenpiteiden, asiakirjat ja niiden metatiedot Kansallisarkiston vaatimusten mukaisesti Sähke2-muotoisina siirtoina.
+Asianhallinnan perusprosessien edellyttämät toiminnallisuudet on oltava käytettävissä sovelluksen omien käyttöliittymien lisäksi myös rajapintojen kautta.
+Sovellusta käyttävät kaikki valtioneuvoston ja sen ministeriöiden, tasavallan presidentin kanslian, oikeuskanslerin viraston työntekijät. Lisäksi ulkoisia käyttäjäryhmiä muista valtionhallinnon virastoista.
+Sovellusta käytetään pääasiassa työasemilla, mutta sen on oltava käytettävissä myös mobiililaitteilla.
+Tiedot
+Asianhallinnan sovelluksessa käsiteltävät ja säilytettävät merkittävimmät tietokokonaisuudet:
+Asioiden, toimenpiteiden sekä asiakirjojen metatiedot
+Asiakirjat ja niiden metatiedot
+Käyttäjätiedot
+Yhteystiedot ja jakeluun liittyvät asiasanat
+Metatietoja pitää voida täydentää asiakaskohtaisilla attribuuteilla ja ne voidaan sisällyttää myös hakuihin, raportteihin ja rajapintoihin.
+Asianhallinnassa pitää voida käsitellä myös salassa pidettävää tietoa siten, että asiakirjojen tietosisältö ja metatietoihin mahdollisesti sisältyvät vapaat kuvailutekstit voivat sisältää enintään TLIV-luokiteltua tietoa. Ratkaisun tulee tukea salassa pidettävän tietoaineiston käsittelyä niin, että salassa pidettävän aineiston näkyvyys on rajattavissa suppeammaksi sekä TOS:n tarjoamin ohjaustiedoin että käyttäjän toimenpitein. Järjestelmässä on voitava metatiedoin ohjata myös EU- ja NATO-aineistojen käsittelyoikeuksia ja näkyvyyttä.
+Julkiset ja salassa pidettävät asiakirjat voivat sisältää myös arkaluonteisia henkilötietoja sekä erityisiä henkilötietoryhmiä. Metatiedot, yhteystiedot ja käyttäjätiedot sisältävät henkilötietoja. Asianhallintaratkaisun tulee tukea henkilötietojen turvallista käsittelyä niin, että mikäli aineiston määritellään sisältävän muita kuin julkisia henkilötietoja, on näkyvyys rajattava suppeammaksi kuin julkisissa aineistoissa.
+Asioiden, toimenpiteiden ja asiakirjojen käsittely on oltava mahdollista eriyttää aktiiviseen säilytykseen ja pitkäaikaissäilytykseen, eli ns. passiviarkistoon. Aktiivikannasta asioita siirretään kokonaisuuksina tarvittaessa pitkäaikaissäilytykseen tai suoraan SAPA-siirtoina Kansallisarkistoon. Tietojen tuhoaminen järjestelmästä tai siirtäminen Kansallisarkistoon on toteutettava tiedonhallintalain ja Sähke2-suosituksen mukaisesti.
+Asianhallinnan sovelluksella on oltava mahdollista hallita useampaa toisistaan eriytettyä rekisteriä:
+Valtioneuvosto (ml. EU- ja NATO-asioiden valmistelu)
+Tasavallan presidentin kanslia
+Tasavallan presidentti
+Oikeuskanslerin virasto
+Rekistereitä on oltava mahdollisuus ohjata rekisterikohtaisilla tiedonohjaussuunnitelmilla ja pääsyä eri rekisterien tietoihin ja toiminnallisuuksia voidaan rajata rekisterikohtaisilla käyttövaltuuksilla.
+Käyttövaltuudet
+Lähtökohtaisesti asianhallintajärjestelmässä rekisteröidyt asiat ja asiakirjat ovat julkisia, jolloin ne näkyvät valtioneuvostolle ja sen ministeriöille käyttörajoituksetta. Asianhallintajärjestelmässä tulee kuitenkin olla mahdollista hallinnoida myös asioita, joiden näkyvyyttä voidaan rajata esim. organisaatio-, organisaatioyksikkö- tai jopa henkilötasolla ja laatia sekä liittää järjestelmään asiakirjoja, joiden käyttöoikeudet on mahdollista rajata joko henkilö-, organisaatio- tai organisaatioyksikkötasolla.
+Käyttäjät toimivat mm. seuraavissa rooleissa, jotka täsmentyvät lopullisessa tarjouspyynnössä:
+Peruskäyttäjä
+Rekisteröijä
+Asianhallinnan erityisroolit (esim. hävitysesityksen tekijä, EU-tuomioistuinasioiden rekisteröijä)
+Pääkäyttäjä
+Johtaja
+Sovelluksen käyttövaltuuksia hallitaan seuraavilla tasoilla:
+Rekisterit: Käyttäjille määritellään oikeudet päästä sovellukseen ja sovelluksen hallinnoimiin eri rekistereihin.
+Toiminnallisuudet: Rekisterien sisällä käyttäjille annetaan oikeudet sovelluksen toiminnallisuuksiin ja niiden edellyttämiin tietosisältöihin kyseisen rekisterin osalta. Käyttövaltuudet kootaan rooleiksi ja myönnetään käyttäjille roolikohtaisesti VN keskitetyssä käyttövaltuushallinnan palvelussa mahdollisuuksien mukaan automatisoidusti.
+Kohteet: Sovellukseen rekisteröitävien asioiden ja asiakirjojen käyttöoikeuksia hallinnoidaan osana sovelluksen toiminnallisuuksia. Oikeus lukea ja muokata asioita, asiakirjoja ja dokumentteja voidaan määritellä erikseen sovelluksen sisällä.
+Erityistapauksia käyttövaltuuksien osalta ovat EU- ja NATO-asioiden ja -asiakirjojen käyttöoikeudet sekä ulkoasiainhallinnon edustustojen määrätyt käyttäjäryhmät
+Toiminnallisuuksiin liittyvät erityisoikeudet voivat ylittää kohdekohtaiset oikeudet. Hallintarooleihin liitetyillä oikeuksilla voidaan käsitellä kaikkia asioita ja asiakirjoja riippumatta niille määritellyistä kohdekohtaisista oikeuksista.
+Pääsääntöisesti käyttäjätilejä ja käyttövaltuuksia hallinnoidaan automatisoidusti osana VN:n keskitettyjä IAM-palveluja (ks. liite 1.3 Ympäristökonsepti). Sovellukseen tulee kuitenkin pystyä lisäämään ja hallinnoimaan esimerkiksi sovellustoimittajan hallintatilejä tai palvelutunnuksia myös manuaalisesti.
+Tietoturvallisuus ja jatkuvuus
+Sovelluksen tietoturvaluokitus on TLIV. Sovelluksen tulee tarvittaessa olla asennettavissa TLIII-ympäristöön ja hyväksyttävissä myös tietoturvaluokkaan TLIII. (optio jatkokehittämiseen)
+Sovelluksen tietojen saatavuus on varmistettava kaikissa tilanteissa.
+Sovelluksen toiminnallisuuksien saatavuus on varmistettava kaikissa tilanteissa.
+Instanssit
+Sovelluksesta asennetaan tarvittava määrä instansseja kehittämistä, testausta sekä käytettävyyden ja skaalautuvuuden varmistamista varten.
+Lisäksi rinnakkaisia instansseja voidaan asentaa tilanteessa, jossa asianhallinnan palveluita halutaan laajentaa korkeamman tietoturvan ympäristöihin tai mikäli rekistereiden tai käyttötapausten eriyttäminen edellyttää useamman instanssin käyttöä esimerkiksi kasautumavaikutuksen takia.
+Allekirjoituskomponentti
+Toiminnallisuudet
+Asianhallintasovellukseen integroitu tai erillinen allekirjoituskomponentti, joka täyttää Euroopan unionin eIDAS-asetuksen vaatimukset.
+Lisäksi sähköinen allekirjoitus tulee lisäksi voida verifioida ja sen tulee täyttää Digi- ja väestötietoviraston tarkastuspalvelun (Fineid.fi/validation) kelvollisuuskriteerit.
+Jos allekirjoitukseen käytetään erillistä sovellusta, asiakirjatiedosto siirretään rajapinnan kautta erilliseen allekirjoitussovellukseen, jossa käyttäjä tarkistaa asiakirjan oikeellisuuden ja allekirjoittaa asiakirjan. Allekirjoitus liitetään asiakirjaan ja allekirjoitettu asiakirja palautetaan rajapinnan kautta alkuperäiseen sovellukseen.
+Allekirjoitussovellusta käyttävät kaikki asianhallinnan sovelluksen käyttäjät/ Allekirjoitus voidaan tehdä työasemalla tai tavoitetilassa myös mobiililaitteella. Käyttövaltuushallinnan kannalta oikeus allekirjoitustoimintoon myönnetään osana loppukäyttäjän peruskäyttöoikeuksia. Asiakirjojen allekirjoitus on mahdollista myös sellaisten tahojen kanssa, jotka eivät käytä ao. asianhallintajärjestelmää.
+Allekirjoituspalvelu tukee yleisiä allekirjoitettavia tiedostomuotoja kuten PDF, word, lisäksi allekirjoitettavan asiakirjan liitteiksi on tämän lisäksi voitava liittää mahdollisimman monipuolisesti eri tiedostomuotoja. Allekirjoitettavalle asiakirjalle on voitava lisätä useita liitteitä.
+Allekirjoitussovellus tarjoaa toiminnallisuudet myös allekirjoitetun tiedoston allekirjoituksen tarkastamiseen. Jos allekirjoitukseen käytetään erillistä allekirjoitussovellusta, asiakirjatiedosto siirretään rajapinnan kautta allekirjoitussovellukseen ja allekirjoitussovellus palauttaa tiedon tarkastuksen lopputuloksesta.
+Allekirjoituspalvelua on oltava mahdollisuus hyödyntää myös muissa valtioneuvoston prosesseissa ja järjestelmissä.
+Tiedot
+Allekirjoittamista varten palveluun siirretään vain allekirjoittamisen edellyttämät minimitiedot: allekirjoitettavat tiedostot, allekirjoittajan varmennekortin tarjoamat nimi- ja yksilöintitiedot, sekä palvelun pääsyn- ja käyttövaltuushallinnan edellyttämät käyttäjä- ja organisaatiotiedot.
+Allekirjoitettavia tiedostoja ja allekirjoittajien tietoja säilytetään palvelussa vain käsittelyn aikana.  Osa allekirjoitettavista asiakirjoista sisältää TLIV-luokiteltua tietoa sekä arkaluonteista tai erityisesti suojattavaa henkilötietoa.
+Tietoturvallisuus ja jatkuvuus
+Allekirjoituskomponentissa saa käsitellä korkeintaan tietoturvaluokan TLIV tietoja, mutta komponentti tulee tarvittaessa olla asennettavissa TLIII-ympäristöön ja hyväksyttävissä myös tietoturvaluokkaan TLIII. (optio jatkokehittämiseen)
+Toiminnallisuuksien saatavuuden on oltava normaalioloissa korkealla tasolla.
+Instanssit
+Sovelluksesta asennetaan tarvittava määrä instansseja kehittämistä, testausta sekä käytettävyyden ja skaalautuvuuden varmistamista varten.
+Lisäksi rinnakkaisia instansseja voidaan asentaa tilanteessa, jossa asianhallinnan palveluita halutaan laajentaa korkeamman tietoturvan ympäristöihin.
+Tiedonohjaussuunnitelman ja muiden ohjaustietojen hallinta
+Toiminnallisuudet
+Asianhallintaratkaisuun tulee olla integroituna tai erillisenä komponenttina tiedonohjausjärjestelmä (TOJ), joka tarjoaa toiminnallisuudet tiedonohjaussuunnitelmien laatimiseen, ylläpitoon ja jakeluun. TOJ-sovelluksessa on oltava mahdollista hallita myös muita erityyppisiä ohjausmetatietoja asianhallintajärjestelmän ja valtioneuvoston muiden sovellusten käyttöön.
+Tiedonohjausjärjestelmän tulee tukea versioiden hallintaa, sekä elinkaaren tilojen hallintaa. Tiedonohjausjärjestelmässä tulee pystyä hallitsemaan useita eri tiedonohjaussuunnitelmia. Tiedonohjausjärjestelmän tulee sisältää teknisissä vaatimusmäärittelyissä määriteltyjä massatyökaluja, sekä elinkaaren hallintaan liittyviä työkaluja. Tiedonohjausjärjestelmän tulee tuottaa tarvittavat metatietorakenteet ja tiedot tarvittaessa muille valtioneuvoston käytössä oleville sovelluksille erikseen määriteltävien rajapintojen avulla.
+Tiedonohjausjärjestelmä on asianhallintasovellukseen integroitava sovellus tiedonohjaussuunnitelmien ja muiden ohjaustietojen hallintaan ja jakeluun. Sovellusta on oltava mahdollisuus hyödyntää myös muissa valtioneuvoston prosesseissa ja järjestelmissä.
+Tiedonohjaussuunnitelmasta tulee pystyä tuottamaan raportteja, joiden ulkoasu tulee olla TOJ-ylläpitäjien muokattavissa. Tiedonohjausjärjestelmän tulee kerätä ja tallentaa lokitietoja järjestelmän tapahtumista.
+Käyttäjät ovat valtioneuvoston erikseen nimettyjä asiantuntijoita, jotka toimivat erilaisissa asianhallinnan tai järjestelmänhallinnan rooleissa. Valtioneuvoston loppukäyttäjien ei ole tarkoitus käyttää tiedonohjausjärjestelmää. Sovelluksessa hallittavat tiedonohjaussuunnitelmat julkaistaan loppukäyttäjille asianhallinnan sovelluksen ja tarvittavin osin muiden sovellusten kautta.
+Toiminnallisuudet koodistojen osalta
+Muiden ohjaustietojen hallinta mahdollistaa erilaisten koodistojen ja sanastojen laatimisen, ylläpitämiseen ja jakeluun.  Sovelluksen on mahdollistettava eri kieliversiot. Lisäksi on mahdollistettava koodiston sekä koodien versiointi ja tilojen hallinta.
+Koodistoja käytetään mm. jakelujen hallintaan ulkoasianhallinnon tarpeisiin (UM ja ulkomaan edustustot) sekä EU-valmistelun osalta. Asiasanajakelun tarkoituksena on tarjota mahdollisuus lähettää järjestelmässä tuotettuja asiakirjoja asiasanoja käyttäen. Asiasanojen takana on jakelulistoja organisaatioista ja henkilöistä, joita ylläpidetään koodistoissa.  Nykyisessä UH-jakeluratkaisussa UH TC Codes -tuotteessa ylläpidettävästä koodistosta siirretään tiedot VNK:n TC Codes -tuotteen koodistoon. EU-valmistelun osalta koodistoa ylläpidetään VNK:n TC Codes-tuotteessa.
+Sovellus tarjoaa kattavat rajapinnat ohjaustietojen jakeluun, tietojen tuontiin, luontiin ja päivittämiseen.
+Käyttäjät ovat valtioneuvoston erikseen nimettyjä asiantuntijoita, jotka toimivat erilaisissa asianhallinnan tai järjestelmänhallinnan rooleissa. Koodiston käyttäjillä on erilaisia rooleja ja oikeuksia.
+Asianhallintasovellukseen on integroitava sovellus koodistojen hallintaan ja jakeluun. Sovellusta on oltava mahdollisuus hyödyntää myös muissa valtioneuvoston prosesseissa ja järjestelmissä.
+Muut ohjaustiedot ovat koodistoja tai sanastoja, joita voidaan hyödyntää erilaisiin tarpeisiin. Koodistot muodostuvat erilaisista koodi-arvo -pareista ja mahdollistavat tietojen väliset suhteet, kuten synonyymien, korvaavuuden kuvaamisen. Arvot on voitava määritellä eri kieliversioina. Koodistoille, sanastoille ja niiden elementeille tulee voida määritellä tilatiedot ja voimassaoloajat.
+Tiedot
+Tiedonohjaussuunnitelma koostuu Kansallisarkiston SÄHKE2-vaatimusten mukaisesta tietorakenteesta, joka sisältää prosessit, tehtäväluokat, asianhallinnan toimenpiteet sekä asiakirjatyypit. Jokaiselle tasolle voidaan määritellä SÄHKE2 mukaiset metatiedot sekä rekisterikohtaisia lisämetatietoja. Metatiedot voivat olla pakollisia tai tarvittaessa käytettäviä ja niiden arvot voidaan määritellä vakioiksi tai oletusarvoiksi.
+TOJ:n tuottama tietorakenne tulee täyttää minimissään tiedonhallintalain 26 § (Laki julkisen hallinnon tiedonhallinnasta 906/2019) sekä Kansallisarkiston SÄHKE2-vaatimusten mukaiset pakolliset metatiedot. Tämän lisäksi tietorakenteeseen tulee olla mahdollista lisätä valtioneuvoston tarvitsemia operatiivisia metatietoja tai rekisterikohtaisia metatietoja. Tietorakenteen malli ja koodistoarvot tulee olla TOJ-käyttäjien vapaasti muokattavissa. Tiedonohjaussuunnitelmalle ja sen elementeille tulee voida määritellä tilatiedot ja voimassaoloajat, jotka mahdollistavat tietojen hallitun ylläpidon ja elinkaarenhallinnan.
+Tiedonohjaussuunnitelmassa on pystyttävä määrittelemään TihL 21 § mukainen säilytysaika alkuperäiseen käyttötarkoitukseen, sekä tieto siitä onko ko. Tietorakenteen elementti arkistoitava Kansallisarkiston päätöksen mukaisesti. Nämä tiedot on pystyttävä erottelemaan omiksi metatiedoiksi elementtikohtaisesti.
+Tiedonohjausjärjestelmän tulee esittää tiedonohjaussuunnitelma hierarkisena puurakenteena, joka sisältää luokitustason, tehtäväluokkatason, toimenpide- ja asiakirjatason. Jokaiselle hierarkiatasolle tulee pystyä laatimaan ja muokkaamaan metatiedot voimassa olevan viranomaisvaatimusten tietorakenteen mukaisesti. Tietomallin koodistoarvot tulee olla muokattavissa ja koodistoarvot tulee esittää alasvetovalikkoina sekä vapaasti muokattavissa olevina metatietokenttinä.
+Tiedonohjaussuunnitelmien, koodistojen ja koodien edelliset versiot ja niiden voimassaoloajat on voitava säilyttää historiatietona niitä hyödyntävien sovellusten tietosisällön eheyden ylläpitoa varten.
+Käyttövaltuudet
+Sovelluksen käyttövaltuuksia hallitaan seuraavilla tasoilla:
+Toiminnallisuudet: Käyttäjille annetaan oikeudet sovelluksen toiminnallisuuksiin ja niiden edellyttämiin tietosisältöihin. Käyttövaltuudet kootaan rooleiksi ja myönnetään käyttäjille roolikohtaisesti VN keskitetyssä käyttövaltuushallinnan palvelussa mahdollisuuksien mukaan automatisoidusti.
+Kohteet: Sovelluksessa hallinnoitavien suunnitelmien ja koodistojen hallinta-, katselu- ja muokkausoikeuksia hallinnoidaan osana sovelluksen toiminnallisuuksia.
+Tietoturvallisuus ja jatkuvuus
+Sovelluksessa saa käsitellä korkeintaan julkista/salassa pidettävää tietoa. Sovelluksen tulee tarvittaessa olla asennettavissa tietoturvaluokiteltuun ympäristöön ja mahdollisesti hyväksyttävissä myös tietoturvaluokkaan TLIII (optio jatkokehittämiseen).
+Tiedonohjaussuunnitelman ja ohjaustietojen tietosisällön sekä toiminnallisuuksien saatavuuden on oltava normaalioloissa korkealla tasolla. Tavoitteena on, että hyödyntävillä järjestelmillä omat välimuisti- tai vastaavat pysyvämmät ratkaisut ohjaustietojen saatavuuden varmistamiseen.
+Instanssit
+Sovelluksesta asennetaan tarvittava määrä instansseja kehittämistä, testausta sekä käytettävyyden ja skaalautuvuuden varmistamista varten.
+Lisäksi rinnakkaisia instansseja voidaan asentaa tilanteessa, jossa asianhallinnan palveluita halutaan laajentaa korkeamman tietoturvan ympäristöihin tai mikäli rekistereiden tai käyttötapausten eriyttäminen edellyttää useamman instanssin käyttöä esimerkiksi kasautumavaikutuksen takia.
+Valmisratkaisujen hallintaan sisältyvä asiantuntijatyö
+Valmisratkaisuiden hankinta sisältää tuotteen ominaisuuksien jatkokehittämisen ja ylläpidon mm. tietoturvapäivitysten ja korjausten osalta

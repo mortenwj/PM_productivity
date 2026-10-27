@@ -1,0 +1,564 @@
+## Page 1
+Staten og Kommunernes Indkøbsservice A/S 
+Montagehallen | Pakkerivej 6, 2500 Valby 
+Telefon +45 33 42 70 00 | CVR 17472437 
+Bilag 4 CSR  
+02.06  Standardsoftware  (2026)  
+ 
+Miniudbud - Indkøb af ESDH -system  
+SKI0206.2608.0077  
+Version 1.0 
+Dato 15. april 2026
+
+## Page 2
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 1 af 13 
+ 
+Indhold 
+1 Leverandørens forpligtelser vedrørende samfundsansvar ................................................... 2 
+2 Internationalt anerkendte principper ........................................................................................ 2 
+2.1 FN´s Global Compact ................................................................................................................. 2 
+2.2 FN´s retningslinjer for menneskerettigheder og erhvervsliv ...................................................... 3 
+2.3 OECD's retningslinjer for multinationale virksomheder ............................................................. 3 
+2.4 OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-
+Affected and High-Risk Areas .................................................................................................... 3 
+2.5 Mæglings- og klageinstitutionen for ansvarlig virksomhedsadfærd .......................................... 3 
+3 Materielle krav til Leverandøren................................................................................................ 4 
+3.1 Menneskerettigheder .................................................................................................................. 4 
+3.2 Arbejdstagerrettigheder .............................................................................................................. 4 
+3.3 Arbejdsklausul ............................................................................................................................ 4 
+3.4 Miljø ............................................................................................................................................ 5 
+3.5 Ulovlige handlinger mv. .............................................................................................................. 6 
+4 Krav om nødvendig omhu (due diligence) .............................................................................. 6 
+4.1 Indledning ................................................................................................................................... 6 
+4.2 Generelt ...................................................................................................................................... 6 
+4.3 Mineraler og metaller fra konfliktramte og højrisiko områder .................................................... 7 
+5 Dokumentation ............................................................................................................................ 8 
+5.1 Dokumentation – generelt .......................................................................................................... 8 
+5.1.1 Erklæring fra Leverandørens ledelse ...................................................................................... 8 
+5.1.2 Beskrivelse af praktiske tiltag .................................................................................................. 8 
+5.1.3 Beskrivelse af resultatmålinger ............................................................................................... 8 
+5.2 Dokumentation – særligt om arbejdsklausuler ........................................................................... 8 
+6 Procedure ved konkret begrundet mistanke eller dom mv. .................................................. 9 
+6.1 Forhold der vedrører Leveringskontraktens opfyldelse ............................................................. 9 
+6.2 Forhold der potentielt vedrører Leveringskontraktens opfyldelse ........................................... 10 
+6.2.1 Konkret begrundet mistanke ................................................................................................. 10 
+6.2.2 Dom eller vedtagelse af bødeforlæg ..................................................................................... 11 
+7 Misligholdelse ........................................................................................................................... 11 
+7.1 Bod ............................................................................................................................................ 11 
+7.2 Tilbagehold ............................................................................................................................... 11 
+7.3 Kundens ophævelse af Leveringskontrakten ........................................................................... 12
+
+## Page 3
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 2 af 13 
+1 Leverandørens forpligtelser vedrørende 
+samfundsansvar 
+Leverandøren forpligter sig til at udvise samfundsansvar ved opfyldelse af Leveringskontrakten. 
+Leverandøren udviser samfundsansvar og skaber værdi for både virksomhed og samfund ved i 
+dialog med sine interessenter at håndtere sociale, miljømæssige og etiske udfordringer i 
+overensstemmelse med internationalt anerkendte principper. 
+Leverandørens forpligtigelser i henhold til nærværende bilag, herunder kravene i punkt 3, 4, 5 og 
+6, gælder ved opfyldelse af Leveringskontrakten. Leverandørens forpligtelser efter punkt 6.2 
+gælder i hele Leveringskontraktens løbetid.  
+Ved vurderingen af om Leverandøren kan holdes ansvarlig for en opfyldelse af 
+Leveringskontrakten, som strider mod de nævnte krav, lægges der bl.a. vægt på, om 
+Leverandøren har udvist nødvendig omhu i forhold til, hvad der med rimelighed kan forventes af 
+Leverandøren ud fra den kontekst, Leverandøren opererer i. Nødvendig omhu afhænger af den 
+pågældende Leverandørs størrelse, forretningsmæssige sammenhæng og kompleksitet, 
+overtrædelsens alvor, om årsagen til overtrædelsen er uden for eventuel kontrol og indflydelse, om 
+der består en afhængighed af de pågældende varer eller tjenesteydelser og endelig perspektivet i 
+forhold til den pågældende overtrædelse ved afbrydelse af et samarbejde eller indkøb, dvs. om en 
+afbrydelse af samarbejdet forværrer eller forbedrer situationen. 
+2 Internationalt anerkendte principper 
+Leverandøren skal udvise samfundsansvar ved at overholde de nedenfor i punkt 3-5 nævnte krav. 
+Kravene baserer sig på de internationalt anerkendte principper, der er nævnt i punkt 2.1-2.4, og de 
+konventioner, som ligger til grund for principperne. 
+2.1 FN´s Global Compact 
+FN's Global Compact består af 10 principper, der lyder som følger: 
+1. Virksomheden bør støtte og respektere beskyttelsen af internationalt erklærede 
+menneskerettigheder.  
+2. Virksomheden bør sikre, at den ikke medvirker til krænkelser af menneskerettighederne.  
+3. Virksomheden bør opretholde foreningsfriheden og effektivt anerkende retten til kollektiv 
+forhandling.  
+4. Virksomheden bør støtte udryddelsen af alle former for tvangsarbejde.  
+5. Virksomheden bør støtte effektiv afskaffelse af børnearbejde.  
+6. Virksomheden bør afskaffe diskrimination i relation til arbejds- og ansættelsesforhold.  
+7. Virksomheden bør støtte en forsigtighedstilgang til miljømæssige udfordringer.  
+8. Virksomheden bør tage initiativ til at fremme større miljømæssig ansvarlighed.  
+9. Virksomheden bør opfordre til udvikling og spredning af miljøvenlige teknologier.  
+10. Virksomheden bør modarbejde alle former for korruption, herunder afpresning og 
+bestikkelse.
+
+## Page 4
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 3 af 13 
+2.2 FN´s retningslinjer for menneskerettigheder og erhvervsliv 
+FN’s retningslinjer for menneskerettigheder og erhvervsliv (UN Guiding Principles on Business and 
+Human Rights) blev vedtaget af FN’s Menneskerettighedsråd i juni 2011. FN’s retningslinjer 
+udstikker vejledende principper for, hvordan stater og virksomheder skal agere for at sikre, at der 
+ikke sker menneskerettighedskrænkelser i forbindelse med virksomheders aktiviteter.  
+2.3 OECD's retningslinjer for multinationale virksomheder  
+OECD's retningslinjer for multinationale virksomheder er en internationalt anerkendt 
+referenceramme for virksomheders globale ansvarlighed, der indarbejder en lang række 
+internationale standarder og principper, herunder FN's retningslinjer for menneskerettigheder og 
+erhvervsliv (jf. punkt 2.2). Retningslinjerne fastlægger, hvad der forventes af virksomheder globalt 
+og nationalt, uanset hvor de opererer, hvad angår at sikre respekt for arbejdstager- og 
+menneskerettigheder, internationale miljøstandarder og retningslinjer for anti-korruption mv.  
+OECD's retningslinjer for multinationale virksomheder er ikke begrænset til kun at omfatte 
+multinationale virksomheder. Således opfordrer OECD's retningslinjer alle virksomheder uanset 
+størrelse til at efterleve retningslinjerne.  
+2.4 OECD Due Diligence Guidance for Responsible Supply Chains 
+of Minerals from Conflict-Affected and High-Risk Areas 
+OECD’s retningslinjer "Due Diligence Guidance for Responsible Supply Chains of Minerals from 
+Conflict-Affected and High-Risk Areas" giver detaljerede anbefalinger og hjælp til virksomheder 
+med at respektere menneskerettighederne og undgå at bidrage til konflikter gennem deres praksis 
+for indkøb af mineraler. 
+ 
+2.5 Mæglings- og klageinstitutionen for ansvarlig 
+virksomhedsadfærd 
+Mæglings- og klageinstitutionen for ansvarlig virksomhedsadfærd (NCP Danmark) har til opgave at 
+behandle sager om overtrædelser af OECD’s retningslinjer for multinationale virksomheder (jf. 
+punkt 2.3) og udbrede kendskabet til retningslinjerne. Institutionen er også OECD's kontaktpunkt i 
+Danmark. Institutionens virksomhed er reguleret i lov om mæglings- og klageinstitutionen for 
+ansvarlig virksomhedsadfærd. 
+NCP Danmark kan blandt andet på baggrund af en klage eller af egen drift behandle sager 
+vedrørende overtrædelser af OECD’s retningslinjer for multinationale virksomheder, der enten er 
+begået i Danmark eller vedrører en dansk virksomhed (gælder både offentlige og private 
+virksomheder), statslige eller regionale myndigheder.
+
+## Page 5
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 4 af 13 
+3 Materielle krav til Leverandøren 
+3.1 Menneskerettigheder  
+Leverandøren skal sikre overholdelse af gældende lovgivning om forbud mod forskelsbehandling 
+på grund af hudfarve, religion eller tro, politisk anskuelse, seksuel orientering, alder, handicap og 
+national, social eller etnisk oprindelse, hvilket blandt andet indebærer, at det leverede og dele 
+heraf:  
+• Er produceret under forhold, hvor det generelle princip om eliminering af diskrimination er 
+respekteret, således som dette princip bl.a. har fundet udtryk i ILO -konvention nr. 111 om 
+diskrimination. 
+• Er produceret under forhold, hvor det generelle princip om retten til ligeløn er respekteret, 
+således som dette princip bl.a. har fundet udtryk i ILO-konvention nr. 100. 
+Leverandøren skal sikre overholdelse af grundlæggende menneskerettigheder, som fastlagt i 
+princip 1 og 2 i FN's Global Compact og FN’s retningslinjer for menneskerettigheder og erhvervsliv. 
+3.2 Arbejdstagerrettigheder  
+Leverandøren skal sikre overholdelse af de grundlæggende arbejdstagerrettigheder, hvilket blandt 
+andet indebærer, at det leverede og dele heraf: 
+• Ikke er produceret i strid med det generelle forbud imod tvangsarbejde, således som dette 
+blandt andet har fundet udtryk i ILO-konvention nr. 29 og 105. 
+• Ikke er produceret i strid med det generelle forbud imod anvendelse af børnearbejde, således 
+som dette blandt andet har fundet udtryk i ILO-konvention nr. 138 og 182. 
+• Er produceret under forhold, hvor de generelle principper om retten til organisationsfrihed og 
+retten til kollektive forhandlinger er sikret, således som dette princip blandt andet har fundet 
+udtryk i ILO-konvention nr. 87, 98 og 135. 
+• Er produceret under forhold, hvor det generelle princip om retten til rimelig aflønning er 
+overholdt, således som dette princip blandt andet har fundet udtryk i ILO -konvention nr. 26 
+og 131 og FN's Menneskerettighedserklærings artikel 23, stk. 3. 
+• Er produceret under forhold, hvor det generelle princip om retten til rimelige arbejdstider er 
+overholdt, således som dette princip blandt andet har fundet udtryk i ILO-konvention nr. 1 og 
+30 samt FN's Menneskerettighedserklærings artikel 24. 
+• Er produceret under forhold, hvor det generelle princip om retten til et sikkert og sundt 
+arbejdsmiljø er overholdt, således som dette princip blandt andet har fundet udtryk i ILO -
+konvention nr. 155. 
+Leverandøren skal sikre overholdelse af de grundlæggende arbejdstagerrettigheder, herunder 
+forbuddet mod børnearbejde og tvangsarbejde, som fastlagt i princip 3, 4, 5 og 6 i FN´s Global 
+Compact. 
+3.3 Arbejdsklausul 
+Leverandøren skal sikre, at arbejdstagere, som medvirker til at opfylde Leveringskontrakten, er 
+sikret løn (herunder særlige ydelser), arbejdstid og andre arbejdsvilkår, som ikke er mindre 
+gunstige end dem, der gælder for arbejde af samme art i henhold til en kollektiv overenskomst
+
+## Page 6
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 5 af 13 
+indgået af de inden for det pågældende faglige område mest repræsentative arbejdsmarkedsparter 
+i Danmark, og som gælder på hele det danske område.  
+Uanset ovenstående kan løn, arbejdstid og andre arbejdsvilkår, der for den pågældende ydelse er 
+fastsat ved ufravigelig lovgivning, som gælder i Danmark, opfyldes i overensstemmelse med den 
+pågældende lovgivning. Hvor ufravigelig lovgivning regulerer et vilkår gennem direkte normering 
+eller lovbestemt henvisningsmodel til kollektive overenskomster eller omkostningsniveau, udgør 
+lovens krav minimumsstandarden for opfyldelsen af arbejdsklausulen for dette vilkår; for øvrige 
+vilkår finder hovedreglen i første tekstafsnit anvendelse.  
+Ved ”medvirker til at opfylde Leveringskontrakten” forstås arbejde udført i Danmark med henblik på 
+Leveringskontraktens opfyldelse, herunder i form af eventuelle tilknyttede serviceydelser. Arbejde 
+er udført med henblik på Leveringskontraktens opfyldelse, når det er direkte relateret til 
+Leveringskontraktens opfyldelse, herunder for så vidt angår ethvert aspekt og ethvert trin af det 
+leveredes livscyklus, uanset om det ikke udgør en del af det leveredes materielle indhold, f.eks. 
+levering, eller kun udgør en andel af arbejdstagerens arbejdstid. Tilsvarende gælder for ethvert 
+andet arbejde, der er forbundet med det leverede, uanset om det alene er indirekte relateret til 
+Leveringskontraktens opfyldelse, f.eks. administrativt arbejde, der understøtter arbejde, som er 
+direkte relateret til Leveringskontraktens opfyldelse. 
+Leverandøren skal sikre, at ovennævnte arbejdstagere får oplysninger om de vilkår, der følger af 
+arbejdsklausulen senest 4 uger efter, at arbejdstagerne har påbegyndt deres medvirken til 
+Leveringskontraktens opfyldelse. 
+Hvis en underleverandør overtræder arbejdsklausulen, er Leverandøren ansvarlig for at sikre, at 
+underleverandøren lever op til arbejdsklausulen. Såfremt underleverandøren groft misligholder eller 
+gentagne gange overtræder arbejdsklausulen, kan K unden kræve , at Leverandøren udskifter 
+underleverandøren i forbindelse med opfyldelsen af Leveringskontrakten.  
+3.4 Miljø 
+Leverandøren skal medvirke til at værne om natur og miljø, så samfundsudviklingen kan ske på et 
+bæredygtigt grundlag i respekt for menneskets livsvilkår og for bevarelsen af dyre- og plantelivet. 
+Der sigtes hermed særligt til, at Leverandøren ved produktion og levering af det af 
+Leveringskontrakten omfattede på god vis søger at: 
+• Forebygge og bekæmpe forurening af luft, vand, jord og undergrund samt vibrations - og 
+støjulemper. 
+• Anvende hygiejnisk begrundede processer af betydning for miljøet og for mennesker. 
+• Begrænse anvendelse og spild af råstoffer og andre ressourcer. 
+• Fremme anvendelsen af renere teknologi. 
+• Fremme genanvendelse og begrænse problemer ved affaldsbortskaffelse, herunder ved at 
+anvende den bedst tilgængelige teknik og forureningsbekæmpende foranstaltninger, mindre 
+forurenende råvarer samt processer og anlæg. 
+Leverandøren skal medvirke til at værne om natur og miljø, som fastlagt i princip 7, 8 og 9 i FN's 
+Global Compact. 
+Leverandøren skal overholde eventuelle specifikt fastlagte krav til det leveredes egenskaber samt 
+fastlagte krav vedrørende miljø og energi.
+
+## Page 7
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 6 af 13 
+3.5 Ulovlige handlinger mv. 
+Leverandøren skal afholde sig fra, herunder forsøge på, at foretage handlinger omfattet af 
+udbudslovens § 135, stk. 1, nr. 1-6, herunder: 
+• handlinger begået som led i en kriminel organisation, 
+• bestikkelse, 
+• svig, 
+• terrorhandlinger eller strafbare handlinger med forbindelse til terroraktivitet, 
+• hvidvaskning af penge eller finansiering af terrorisme og 
+• børnearbejde og andre former for menneskehandel 
+Leverandøren skal sikre, at den personkreds, som er nævnt i udbudslovens § 135, stk. 2, og 
+personer, som i øvrigt medvirker til at opfylde Leveringskontrakten, afholder sig fra herunder 
+forsøger på at foretage handlinger omfattet af udbudslovens § 135, stk. 1, nr. 1-6. 
+Hvad angår bestikkelse, jf. definitionerne i udbudslovens § 135, stk. 1, nr. 2, anses sådanne 
+handlinger eller forsøg herpå, der eventuelt er foretaget inden aftaleindgåelse, at være sket i 
+forbindelse med opfyldelsen af Leveringskontrakten, hvis handlingen eller forsøget herpå har 
+nogen relation til Leveringskontrakten, f.eks. i forhold til Leveringskontraktens indgåelse, i forhold 
+til håndhævelse eller manglende efterlevelse af Leveringskontrakten, i forhold til et køb eller 
+forestående køb på Leveringskontrakten eller i forhold til andre indkøbsbeslutninger vedrørende 
+Leveringskontrakten. 
+4 Krav om nødvendig omhu (due diligence) 
+4.1 Indledning 
+Kravene om nødvendig omhu baserer sig navnlig på FN’s retningslinjer for menneskerettigheder 
+og erhvervsliv (jf. punkt 2.2) og OECD's retningslinjer for multinationale virksomheder (jf. punkt 
+2.3). Nødvendig omhu indebærer, at virksomheden aktivt og metodisk undersøger risikoen for 
+overtrædelser af retningslinjerne i forbindelse med virksomhedens forretningsaktiviteter, både hos 
+virksomheden selv og hos andre virksomheder, som den har indflydelse på, f.eks. leverandører. 
+Endvidere omfatter begrebet nødvendig omhu, at virksomheden træffer foranstaltninger til at 
+forebygge risikoen for sådanne overtrædelser. 
+De omfattede virksomheder skal ifølge retningslinjerne konkret identificere, forebygge, udbedre og 
+redegøre for aktuelle og potentielle overtrædelser og negative påvirkninger. 
+Retningslinjerne omfatter både overtrædelser, som virksomheden er årsag eller medvirkende til, 
+eller som er direkte forbundet med virksomhedens operationelle aktiviteter, produkter eller 
+serviceydelser. 
+4.2 Generelt 
+Leverandøren skal udvise nødvendig omhu i relation til kravene i punkt 3. Leverandøren skal 
+således undersøge risikoen for overtrædelse af kravene i punkt 3 i forbindelse med Leverandørens 
+forretningsaktiviteter, både hos Leverandøren selv og hos andre virksomheder, som den har 
+indflydelse på, f.eks. væsentlige underleverandører, og træffe foranstaltninger til at forebygge 
+risikoen for sådanne overtrædelser.
+
+## Page 8
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 7 af 13 
+Ansvaret vedrørende overholdelse af menneskerettighederne gælder for alle virksomheder uanset 
+deres størrelse, sektor, operationelle kontekst, ejerskab og struktur. Imidlertid kan omfanget og 
+kompleksiteten af de midler, hvorigennem virksomhederne har mulighed for at overholde 
+menneskerettighederne, variere, som følge af ovenfornævnte faktorer og som følge af 
+virksomhedernes mulighed for at udøve negativ indflydelse på menneskerettighederne.  
+De midler, hvormed Leverandøren skal opfylde ansvaret for overholdelse af 
+menneskerettighederne vil derfor skulle være proportionale med blandt andet faktorer som 
+virksomhedens størrelse. Små og mellemstore virksomheder kan have mindre kapacitet såvel som 
+flere uformelle processer og ledelsesstrukturer end større virksomheder. Men nogle små og 
+mellemstore virksomheder vil kunne forårsage stor indvirkning på menneskerettighederne, der vil 
+kunne kræve dertil svarende forholdsregler, uanset virksomhedernes størrelse. Alvoren af en 
+negativ indvirkning skal bedømmes ud fra dens omfang, rækkevidde og ubodelige karakter. 
+Leverandører, der er større virksomheder, anses under alle omstændigheder for at udvise 
+nødvendig omhu, når Leverandøren har sikret følgende fire grundlæggende tiltag i relation til det af 
+Leveringskontrakten omfattede: 
+1. En politik, der beskriver Leverandørens holdning til ansvarlig leverandørstyring. 
+2. En risikovurdering, der omfatter løbende vurdering af aktuelle og potentielle krænkelser 
+relateret til Leverandørens aktiviteter og relationer i forbindelse med det under 
+Leveringskontrakten leverede. 
+3. Implementering af politik for ansvarlig leverandørstyring, der bl.a. med udgangspunkt i 
+risikovurderingen omfatter monitorering af udvalgte underleverandørers aktiviteter og 
+løbende forbedringer. Leverandøren bør skride til øjeblikkelig handling, hvis der konstateres 
+grove krænkelser af grundlæggende rettigheder og internationale miljøstandarder. 
+4. Rapportering om indsatsen og dens resultater. 
+Leverandøren kan udvise nødvendig omhu på anden vis, som er tilpasset Leverandørens indsats 
+set ud fra en pragmatisk tilgang og under hensyntagen til de konkrete forhold og Leverandørens 
+ressourcer.   
+4.3 Mineraler og metaller fra konfliktramte og højrisiko områder  
+Såfremt der ved opfyldelsen af Leveringskontrakten leveres produkter eller dele heraf, hvori der 
+indgår metaller eller mineraler ("Minerals"), som er omfattet af OECD retningslinjerne i punkt 2.4, 
+skal Leverandøren i sine forretningsmæssige systemer integrere OECD's "Due Diligence Guidance 
+for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas" i form af 
+den i guiden nævnte "Five-Step Framework for Risk-Based Due Diligence in the Mineral Supply 
+Chain", jf. annex I til guiden. 
+Disse forpligtelser medfører, at Leverandøren for de af Leveringskontrakten omfattede produkter 
+eller dele heraf i overensstemmelse med OECD-retningslinjerne skal: 
+1. etablere stærke forretningsmæssige systemer, som understøtter retningslinjerne, 
+2. identificere og håndtere risici i leverandørkæden, 
+3. udarbejde og implementere en strategi som svar på identificerede risici, 
+4. understøtte uafhængige tredjeparts audits i leverandørkæden, og 
+5. foretage offentlig rapportering om Leverandørens due diligence.
+
+## Page 9
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 8 af 13 
+5 Dokumentation 
+Dokumentationskravene i punkt 5.1 udgør Kundens beføjelser til at indhente dokumentation for 
+Leverandørens efterlevelse af de krav til Leverandørens samfundsansvar, der fremgår af punkt 3-
+4.   
+Dokumentationskravene i punkt 5.2 udgør Kundens beføjelser til at indhente dokumentation for 
+Leverandørens efterlevelse af arbejdsklausulen i punkt 3.3.  
+Kunden kan bemyndige en tredjepart til at anmode om og indhente dokumentation samt 
+kontrollere, og herunder foretage uanmeldte besøg på arbejdsstedet, for at sikre overholdelse af 
+de krav, der fremgår af punkt 3-4.   
+5.1 Dokumentation – generelt 
+Leverandøren skal til hver en tid, og senest 30 Dage efter Skriftlig anmodning herom, opfylde 
+dokumentationskravene (jf. punkt 5.1.1-5.1.3). 
+5.1.1 Erklæring fra Leverandørens ledelse 
+Heri erklæres det, at Leverandøren løbende sikrer overholdelsen af ovennævnte krav vedrørende 
+menneskerettigheder, arbejdstagerrettigheder, miljø, ulovlige handlinger mv. og nødvendig omhu 
+(jf. punkt 3.1-3.2, punkt 3.4-3.5 og punkt 4). 
+5.1.2 Beskrivelse af praktiske tiltag 
+Heri beskrives de tiltag, som Leverandøren har gennemført med henblik på at sikre overholdelsen 
+af de nævnte krav. Denne beskrivelse kan omfatte en beskrivelse af påtagne forpligtelser, 
+implementerede systemer og andre iværksatte tiltag. 
+5.1.3 Beskrivelse af resultatmålinger 
+Heri beskrives, hvorledes resultatet af iværksatte tiltag måles. Dette kan ske ved brug af 
+standarder såsom Global Reporting Initiatives standarder for rapportering. 
+Dokumentationskravene anses som opfyldt ved, at Leverandøren har udarbejdet en såkaldt 
+"Communication on Progress" (fremskridtsrapport) i forbindelse med Leverandørens tilslutning til 
+FN's Global Compact. Andre bevistyper, der opfylder de i nærværende punkt 5 fastlagte 
+dokumentationskrav, accepteres også. 
+5.2 Dokumentation – særligt om arbejdsklausuler 
+Leverandøren skal til hver en tid, og senest 5 Arbejdsdage efter Skriftlig anmodning herom, opfylde 
+dokumentationskravene i nærværende punkt 5.2. Leverandøren skal desuden sikre, at 
+arbejdstagere på forlangende dokumenterer deres identitet ved fremvisning af billedlegitimation. 
+Leverandøren er forpligtet at fremskaffe relevant dokumentation, såsom mandskabsliste, løn- og 
+timesedler, lønregnskab, kvitteringer på betalt skat og pension, ansættelseskontrakter og -beviser 
+samt den referenceramme, der er anvendt i forbindelse med fastsættelsen af løn- og arbejdsvilkår 
+for arbejdstagerne. 
+Leverandøren skal sikre, at dokumentationen ikke omfatter oplysninger om arbejdstagerens:
+
+## Page 10
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 9 af 13 
+• Race og etniske oprindelse  
+• politiske overbevisning  
+• religiøse eller filosofiske overbevisning  
+• fagforeningsmæssige tilhørsforhold  
+• genetiske data  
+• biometriske data  
+• helbredsoplysninger eller  
+• seksuelle forhold eller seksuelle orientering,  
+der ikke har betydning for Kundens vurdering af, om arbejdsklausulen er opfyldt.  
+Oplysninger af denne art skal fjernes fra dokumentationen, inden materialet overgives til Kunden. 
+Kunden kan til brug for sin vurdering af, om kravene i arbejdsklausulen er overholdt, søge 
+rådgivning hos relevante arbejdsgiver- og/eller arbejdstagerorganisationer. 
+Det påhviler Leverandøren at godtgøre, at ethvert arbejde udført i Leveringskontraktens løbetid 
+ikke er sket som led i Leveringskontraktens opfyldelse.  
+6 Procedure ved konkret begrundet mistanke eller dom 
+mv.  
+6.1 Forhold der vedrører Leveringskontraktens opfyldelse  
+Såfremt der opstår konkret begrundet mistanke om, at Leverandøren ikke efterlever de i punkt  3-4 
+nævnte krav, skal Leverandøren straks efter Kundens Skriftlige anmodning herom fremsende en 
+Skriftlig redegørelse indeholdende følgende punkter: 
+1. Afvisning eller bekræftelse af den konkret begrundede mistanke.  
+2. Redegørelse for de omhandlede forhold samt, ved bekræftelse af mistanken, en 
+handlingsplan for, hvorledes der kan rettes op på situationen, herunder hvilke 
+foranstaltninger Leverandøren sætter i værk for at påvirke forholdet, herunder at mindske 
+risikoen for, at tilsvarende situationer opstår. 
+Redegørelsen kan i relevant omfang omfatte dokumentation for, under hvilke produktionsprocesser 
+og/eller -metoder de varer og/eller tjenesteydelser, der indgår til opfyldelsen af 
+Leveringskontrakten, er tilvirket, samt fornøden dokumentation for, hvilke materialer der indgår i 
+det leverede, samt angivelse af hvorledes en part har mulighed for at søge genoprejsning og 
+udbedring af eventuelle skader, såfremt en sag om krænkelse af menneskerettighederne måtte 
+opstå (jf. FN’s retningslinjer for menneskerettigheder og erhvervsliv nr. 29). Endvidere skal 
+Leverandøren redegøre for, hvorvidt årsagen til mistanken er uden for eventuel kontrol og 
+indflydelse, om der består en afhængighed af de pågældende varer eller tjenesteydelser og 
+endelig perspektivet i forhold til den pågældende overtrædelse ved afbrydelse af et samarbejde 
+eller indkøb, dvs. om en afbrydelse af samarbejdet forværrer eller forbedrer situationen.  
+Konkret begrundet mistanke kan bl.a. anses at foreligge, såfremt Leverandøren indbringes for 
+NCP Danmark (jf. punkt 2.5), eller et andet nationalt kontaktpunkt i et andet land, eller i øvrigt 
+gøres til genstand for retsforfølgning for overtrædelser af de i punkt 3-4 nævnte krav, uanset i 
+hvilket land retsforfølgelsen finder sted. Konkret begrundet mistanke kan også bestå af stærke
+
+## Page 11
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 10 af 13 
+indicier eller lignende, herunder henvendelser fra Kunden om underliggende Leveringskontrakter, 
+der konkret betvivler Leverandørens overholdelse af kravene, der følger af punkt 3-4.  
+Leverandøren skal endvidere af egen drift straks kontakte Kunden og SKI, og fremsende en 
+Skriftlig redegørelse samt dokumentation, hvis Leverandøren: 
+• bliver opmærksom på, at der foreligger overtrædelse af kravene i punkt 3 og/eller 4, 
+• indbringes for NCP Danmark (jf. punkt 2.5) eller et andet nationalt kontaktpunkt i et andet 
+land, eller 
+• gøres til genstand for retsforfølgning for overtrædelser af de i punkt 3 nævnte krav.  
+Kunden vil på baggrund af overnævnte Skriftlige redegørelse og dokumentation mv. foretage en 
+konkret vurdering af den enkelte sag, hvorunder alle relevante forhold vil blive taget i betragtning. 
+6.2 Forhold der potentielt vedrører Leveringskontraktens 
+opfyldelse 
+6.2.1 Konkret begrundet mistanke 
+Såfremt der opstår konkret begrundet mistanke om, at Leverandøren måtte have foretaget 
+handlinger, der risikerer at kunne føre til domfældelse eller vedtagelse af bødeforlæg for et eller 
+flere forhold omfattet af punkt 3 – uanset om handlingerne er udført i forbindelse med opfyldelse af 
+Leveringskontrakten – skal Leverandøren på Kundens Skriftlige anmodning straks forpligte sig til 
+løbende at fremsende redegørelser og dokumentation, jf. nedenfor.   
+Forpligtelserne i relation til dokumentation og underretning gælder også, hvis der er tale om:   
+• konkret begrundet mistanke om handlinger foretaget af en anden juridisk enhed, men inden 
+for samme koncern, herunder et søster-, datter- eller moderselskab, eller  
+• konkret begrundet mistanke om handlinger foretaget af en person i den personkreds, som er 
+nævnt i udbudslovens § 135, stk. 2. 
+De nærmere retningslinjer for Leverandørens dokumentations- og underretningspligt aftales 
+mellem Kunden og Leverandøren, idet Leverandøren som minimum forpligtes til at: 
+• Redegøre for, om Leverandørens procedurer på tidspunktet for den eventuelle handling må 
+vurderes at være tilstrækkelige, jf. principperne om self-cleaning i udbudslovens § 138. 
+• Underrette Kunden straks ved enhver ny udvikling i sagen, herunder ved nye eller ændrede 
+sigtelser/tiltaler af parter i sagen med tilknytning til Leverandøren. 
+• Underrette Kunden om de tiltag, som er iværksat og/eller implementeret, som er i stand til på 
+fuldt betryggende vis at begrænse risikoen for en eventuel gentagelse af den eller de 
+pågældende handlinger i forbindelse med opfyldelse af Leveringskontrakten, jf. principperne 
+om self -cleaning i udbudslovens § 138, samt at Leverandøren fortsat følger op på disse 
+forhold og løbende fremsender behørig dokumentation for dette i forhold til Leverandørens 
+opfyldelse af Leveringskontrakten. 
+• Samarbejde loyalt med de offentlige myndigheder i sagen, herunder f.eks. SØIK i forbindelse 
+med eventuel efterforskning eller lignende.
+
+## Page 12
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 11 af 13 
+6.2.2 Dom eller vedtagelse af bødeforlæg  
+Hvis Leverandøren i Leveringskontraktens varighed modtager en dom eller vedtager et bødeforlæg 
+for en eller flere handlinger omfattet af punkt 3 – uanset om handlingerne er udført i forbindelse 
+med opfyldelse af Leveringskontrakten – er Leverandøren forpligtet til at oplyse Kunden herom.  
+Herudover skal Leverandøren på Kundens Skriftlige anmodning straks forpligte sig til løbende at 
+fremsende redegørelser og dokumentation, jf. nedenfor.  
+Forpligtelserne i relation til dokumentation og underretning gælder også, hvis der er tale om:   
+• en dom eller vedtagelse af bødeforlæg for samme handlinger foretaget af en anden juridisk 
+enhed, men inden for samme koncern, herunder et søster-, datter- eller moderselskab, eller  
+• dom over en person i den personkreds, som er nævnt i udbudslovens § 135, stk. 2. 
+De nærmere retningslinjer for Leverandørens dokumentations- og underretningspligt aftales 
+mellem Kunden og Leverandøren, idet Leverandøren som minimum forpligtes til at: 
+• Underrette Kunden om de forhold, som er iværksat og/eller implementeret, som er i stand til 
+på fuldt betryggende vis at begrænse risikoen for en eventuel gentagelse af den eller de 
+pågældende handlinger i forbindelse med opfyldelsen af Leveringskontrakten, jf. 
+principperne om self-cleaning i udbudslovens § 138, samt at Leverandøren fortsat følger op 
+på disse forhold og løbende fremsender behørig dokumentation for dette i forhold til 
+Leverandørens opfyldelse af Leveringskontrakten.  
+7 Misligholdelse 
+7.1 Bod  
+Kunden er berettiget til at opkræve bod ved misligholdelse af kravene i dette bilag i følgende 
+tilfælde: 
+a) Hvis fristen for fremsendelse af dokumentation i punkt 5.1 og punkt 5.2  overskrides, kan 
+Kunden kræve en dagbod på DKK 2.500,- pr. påbegyndt arbejdsdag, som fristen overskrides 
+med. Bod påløber, indtil Kunden har modtaget den i påkravet krævede dokumentation. Den 
+samlede bod efter dette afsnit kan dog ikke overstige DKK 75.000,-.  
+b) Hvis arbejdsklausulen i punkt 3.3 overtrædes, kan Kunden kræve en bod på DKK 25.000, - 
+pr. overtrædelse af arbejdsklausulen.  Kunden kan derudover kræve en dagbod på DKK 
+2.500,- pr. påbegyndt arbejdsdag fra den arbejdsdag, hvor Kunden skriftligt meddeler 
+Leverandøren om overtrædelsen, og indtil overtrædelsen er bragt til ophør, alle ansattes 
+berettigede krav er godtgjort, og Leverandøren har dokumenteret dette over for Kunden. Den 
+samlede dagbod som Kunden kan kræve, kan dog ikke overstige DKK 75.000, - pr. 
+overtrædelse af arbejdsklausulen for samme forhold. 
+7.2 Tilbagehold 
+Såfremt Leverandøren ikke kan løfte sin bevisbyrde, jf. punkt 5.2, sidste tekstafsnit, eller Kunden 
+konstaterer, at arbejdsklausulen er overtrådt, kan Kunden tilbageholde Leverandørens fakturerede 
+og fremtidige vederlag, indtil Leverandøren har dokumenteret at overtrædelsen er bragt til ophør
+
+## Page 13
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 12 af 13 
+og alle Leverandørens og/eller Leverandørens underleverandørers ansattes berettigede krav er 
+godtgjort. Med berettigede krav menes ansattes krav på løn op til niveauet i arbejdsklausulen for 
+arbejde udført som led i opfyldelsen af Leveringskontrakten, uanset om arbejdet er udført inden 
+Leveringskontrakten trådte i kraft. Leverandøren er i den forbindelse ikke berettiget til at 
+suspendere eller på anden måde undlade at opfylde Leveringskontrakten, herunder levere 
+produkter eller udføre ydelser. 
+7.3 Kundens ophævelse af Leveringskontrakten  
+Kunden er berettiget til uden varsel at ophæve Leveringskontrakten som følge af Leverandørens 
+væsentlige misligholdelse af kravene i dette bilag.  
+Følgende forhold - men ikke begrænset hertil - betragtes som væsentlig misligholdelse, der 
+berettiger Kunden til at ophæve Leveringskontrakten: 
+ 
+a. Leverandøren har efter påkrav fra Kunden, ikke igangsat reelle initiativer, der har 
+fokus på at bringe misligholdelsen til ophør, jf. punkt 5 og/eller 6.  
+b. Leverandøren har ikke inden for 60 Dage efter Kundens eller Leverandørens 
+henvendelse igangsat initiativer, der har til formål at bringe det misligholdende 
+forhold til ophør, jf. punkt 5 og/eller 6.  
+c. Såfremt Leverandøren væsentlig misligholder punkt 3.3, eller Kunden kan kræve 
+maksimal bod i henhold til punkt 7.1.  
+d. Leverandøren - eller dennes underleverandører - dømmes ved en retskraftig dom 
+for overtrædelse af en eller flere af de i punkt 3 nævnte bestemmelser, love, 
+konventioner, erklæringer og/eller øvrige krav.  
+e. Leverandøren - eller dennes underleverandører - i en redegørelse til Kunden eller i 
+øvrigt erkender overtrædelse af en eller flere af de i punkt 3 nævnte bestemmelser, 
+love, konventioner, erklæringer og/eller øvrige krav.  
+f. Leverandøren har ikke inden for den i punkt 5 og/eller 6 anførte tidsfrister fremsendt 
+skriftlig dokumentation for, at de i punkt 3 nævnte bestemmelser, love, 
+konventioner, erklæringer og/eller øvrige krav er overholdt.  
+g. Såfremt Leverandøren ikke vil indgå aftale om fremsendelse af dokumentation, 
+redegørelse og underretning i henhold til punkt 5 og/eller 6, eller såfremt 
+Leverandøren ikke overholder fristerne i punkt 5 og/eller 6, eller såfremt 
+dokumentationen, redegørelsen eller underretningen i mindst 1 tilfælde har været 
+væsentlig mangelfuld, i forhold til at skabe betryggelse for, at en eventuel 
+gentagelse ikke vil kunne ske i relation til opfyldelse af Leveringskontrakten.  
+h. Såfremt Leverandøren i forbindelse med opfyldelse af Leveringskontrakten opnår 
+endelig dom eller vedtager bødeforlæg for et eller flere forhold omfattet af punkt 3.5 
+Ulovlige handlinger jf. udbudslovens § 135, stk. 1 nr. 1-6. Dette gælder også, hvis 
+der er tale om endelig dom eller vedtagelse af bødeforlæg for samme forhold for så 
+vidt angår den personkreds, som er nævnt i udbudslovens § 135, stk. 2, herunder 
+medlemmer af Leverandørens direktion, bestyrelse, tilsynsråd eller lignende.  
+ 
+Kunden kan vælge ikke at ophæve Leveringskontrakten efter denne bestemmelse, blandt andet 
+hvis Kunden vurderer, at ophævelsen ikke er proportional med Leverandørens handlinger. Kunden 
+kan i vurderingen blandt andet lægge vægt på, hvilke tiltag Leverandøren har igangsat og/eller
+
+## Page 14
+Bilag 4 CSR  
+02.06 Standardsoftware (2026)  
+ 
+ 
+   Side 13 af 13 
+implementeret, som er i stand til på fuldt betryggende vis at begrænse risikoen for en eventuel 
+gentagelse i forbindelse med opfyldelsen af Leveringskontrakten, samt i hvilket omfang 
+Leverandørens procedurer på tidspunktet for fejlen vurderes tilstrækkelige, jf. principperne om self-
+cleaning i udbudslovens § 138, i forhold til at sikre lovlig opfyldelse af Leveringskontrakten.

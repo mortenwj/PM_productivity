@@ -1,0 +1,684 @@
+## Page 1
+Page 1 of 15 
+Underbilag 6B - Testplan og 
+Leverandørens testprincipper, 
+metoder og -værktøjer   
+ 
+Underbilag 6B - Testplan og Leverandørens testprincipper, metoder og -værktøjer ....... 1 
+Formål .......................................................................................................................................... 2 
+1 Testprincipper, -metoder og -værktøjer for løbende test af udvikling ............................. 2 
+Testprincipper ..................................................................................................................... 3 
+1.1 Testmetoder .................................................................................................................. 4 
+1.2 Testværktøjer ................................................................................................................ 5 
+2 Tilrettelæggelse og gennemførsel af tests i implementeringsprojektet .......................... 5 
+2.1 Installationsprøve .......................................................................................................... 5 
+2.1.1 Testens formål.................................................................................................. 5 
+2.1.2 Startkriterier (herunder testdata) ...................................................................... 5 
+2.1.3 Roller, ansvar og forventede ressourceforbrug for Kunden ............................ 6 
+2.1.4 Testens genstandsfelt ...................................................................................... 6 
+2.1.5 Testrapport ....................................................................................................... 6 
+2.2 Leverandørens egne prøver ......................................................................................... 6 
+2.2.1 Testens formål.................................................................................................. 6 
+2.2.2 Startkriterier (herunder testdata) ...................................................................... 7 
+2.2.3 Roller, ansvar og forventet ressourceforbrug for Kunden ............................... 7 
+2.2.4 Testens genstandsfelt ...................................................................................... 7 
+2.2.5 Testrapport ....................................................................................................... 8 
+2.3 Konverteringstest .......................................................................................................... 8 
+2.3.1 Testens formål.................................................................................................. 8 
+2.3.2 Startkriterier (herunder testdata) ...................................................................... 9 
+2.3.3 Roller, ansvar og forventet ressourceforbrug for Kunden ............................... 9 
+2.3.4 Testens genstandsfelt ...................................................................................... 9 
+2.3.5 Godkendelseskriterier .................................................................................... 10 
+2.3.6 Testrapport ..................................................................................................... 10 
+2.4 Overtagelsesprøve (UAT)........................................................................................... 11 
+2.4.1 Prøvens formål ............................................................................................... 11 
+2.4.2 Startkriterier (herunder prøvedata) ................................................................ 11 
+2.4.3 Roller, ansvar og forventede ressourceforbrug for Kunden .......................... 12 
+2.4.4 Prøvens genstandsfelt ................................................................................... 12 
+2.4.5 Godkendelseskriterier .................................................................................... 14
+
+## Page 2
+Side 2 af 15 
+2.4.6 Prøverapport .................................................................................................. 15 
+ 
+ 
+Formål 
+Testplanen har til formål at give en systematisk, gennemsigtig og overordnet beskrivelse af de 
+installationer og afprøvninger, der vil blive gennemført som en del af implementeringen. 
+Testplanen fastlægger derudover principperne og de metoder og værktøjer, som anvendes, 
+ifm. afvikling af samme.  
+ 
+Testplanen skildrer, hvorledes Leverandøren arbejder med prøver og tests samt hvad Kunden 
+skal forvente at lægge af ressourcer og indsats i forbindelse med afvikling af samme. 
+ 
+Leverandørens testmetoder, -principper og risikostyring inkluderer en grundig og udførlig 
+afprøvning, før standardløsningen forlader Leverandørens produkthus – herunder over 30.000 
+automatiske tests – for at sikre højest mulig kvalitet i det produkt, som tilbydes Kunden, så 
+Kunden oplever et minimum af fejl i løsningen samt en effektiv udnyttelse af egne ressourcer 
+under implementeringen og en projekt- og leverancestyring med lav risiko for forsinkelser. 
+ 
+Nedenstående figur viser prøver, som testplanen afdækker og omfatter.  
+ 
+ 
+Figur 1 - Overblik over prøver omfattet af testplanen. 
+1 Testprincipper, -metoder og -værktøjer for løbende test af 
+udvikling 
+I nedenstående afsnit giver Leverandøren et dybere indblik i Leverandørens principper og 
+metoder i forbindelse med afvikling af tests og prøver – med særligt fokus på Leverandørens 
+afprøvninger inden Servicen installeres på Kundens miljø hos Leverandøren for at give et 
+indblik i den omfattende kvalitetssikring. 
+ 
+Grundlaget for de beskrevne principper og metoder bygger på et mål om at sikre den højeste 
+kvalitet, robusthed og sikkerhed i Leverandørens service, før den forlader Leverandørens 
+produkthus og afprøvning. Dette giver en stram risikostyring fra start og medvirker til en 
+minimering af Kundens og Leverandørens ressourceforbrug senere i testforløbet, da Servicen 
+allerede inden installation på Kundens miljø hos Leverandøren har gennemgået flere 
+dybdegående tests under forhold, som er sammenligneligt med Leverandørens mest 
+komplekse kundeopsætninger i Norden. 
+ 
+Installations-prøve Leverandørens 
+egne prøver
+Konverterings-
+test
+Overtagelses-
+prøve
+
+## Page 3
+Side 3 af 15 
+Testprincipper 
+Grundlæggende arbejder Leverandøren ud fra udviklingsprocessen ”Test-driven development” 
+(TDD), hvor løsningskrav konverteres til testcases, før ændringerne er færdigudviklet, og 
+udviklingen drives ved gentagne gange at teste koden mod alle relevante testcases. 
+ 
+Denne fremgangsmåde har en række fordele (se bl.a. nedenstående liste), som samlet set 
+leder til højere kvalitet af kode: 
+ 
+ 
+ 
+ 
+ 
+Da udvikleren skal fokusere på krav, før de skriver selve koden, bliver designet mere 
+strømlinet til Kundens behov. Det sikrer en dybere forståelse af kravene og Kundens 
+behov. 
+• Ved at fokusere på kun at skrive den kode, der er nødvendig for at bestå tests, kan 
+design ofte gøres renere og klarere, end det opnås ved andre principper. 
+• TDD fører til mere ”modul-baseret”, fleksibel og udvidelsesbar kode. Udvikleren skal 
+tænke på softwaren i form af små enheder, der kan skrives og testes uafhængigt og 
+først integreres sammen senere. Dette fører til mindre, mere fokuserede klasser og 
+løsere kobling og renere grænseflader. 
+• Da testene er skrevet før implementeringerne er udviklet, sikres det, at løsningen er 
+”testbar” ift. kundernes behov og krav. 
+ 
+Afprøvning af ny funktionalitet og ændringer er generelt tæt integreret med 
+udviklingsprocessen hos Leverandøren:  
+ 
+• Automatiseret test anvendes i stor udstrækning for kontinuerlig og tidlig feedback om 
+kvalitet. 
+• Ny udvikling godkendes af Leverandørens produktmanagere gennem interne 
+accepttests og kodereviews. 
+Figur 1 - Test-driven development cyklus, hvor 
+testcases tager udgangspunkt i krav og 
+udviklingen drives ved at teste koden mod 
+relevante testcases/krav.
+
+## Page 4
+Side 4 af 15 
+• Inden frigivelsen af nye versioner til kunder gennemføres omfattende verifikation ved 
+hjælp af automatiserede regressionstest for at sikre høj kvalitet og at systemet 
+fungerer korrekt sammen med nyudviklinger og fejlrettelser. 
+ 
+1.1 Testmetoder 
+I forbindelse med Leverandørens tests anvendes forskellige testmetoder for at sikre, at 
+Servicen bliver grundigt afprøvet inden frigivelse til Kunden. Nedenfor beskrives flere af de 
+anvendte metoder. 
+ 
+• Unit tests: Fokuseret test på de områder, der er påvirket af den udførte kodeændring - 
+først når denne test er godkendt, kan ændringen integreres i resten af koden. 
+ 
+ 
+ 
+ 
+• Integration tests: Afprøvning af kodeændringer i sammenhæng med den øvrige kode 
+udføres gennem automatiserede tests hver nat for at sikre effektiv 
+ressourceudnyttelse. 
+• Automatiske UI-tests: Automatiske regressionstest udføres hver nat på de forskellige 
+moduler af Servicen for at sikre, at ny kode eller ændringer ikke introducerer fejl. Disse 
+tests køres også inden frigivelse af en ny version, hvor over 20.000 automatiske tests 
+gennemføres for at opretholde høj kvalitet. 
+• Accepttest af produktmanager: Ved afslutning af sprint skal den ansvarlige 
+produktmanager for de forskellige områder af Servicen reviewe og acceptteste 
+kodeændringer inden for det berørte område. 
+• Performance test: Leverandørens interne belastningstest til at teste Servicens evne til 
+at håndtere belastning ift. tilgængelighed og svartider.  
+• Sikkerhedstest: Ved udgivelse af en ny version udføres sikkerhedstest, herunder 
+både "Dynamic Application Security Testing" (DAST) og "Static Application Security 
+Testing" (SAST). Resultaterne deles med Leverandørens arkitektteam, som analyserer 
+dem for at identificere falske positiver og reducere sikkerhedsrisici. 
+ 
+Dertil anvender Leverandøren i visse tilfælde eksterne bureauer til at udføre sikkerhedsaudits 
+af deres produkter for at sikre en uvildig kvalitetssikring. Dette er blandt andet blevet gjort for 
+Leverandørens overstregningsværktøj, der anvendes i aktindsigtsmodulet, for at garantere 
+sikkerheden og kvaliteten af Kundens overstregninger, så de ikke kan fjernes eller forringes af 
+modtagere af det overstreget materiale.
+
+## Page 5
+Side 5 af 15 
+1.2 Testværktøjer 
+Leverandøren benytter forskellige værktøjer til at teste løsningen. Specielt under 
+automatiserede tests i Leverandørens produkthus bruges en række testværktøjer, og dertil 
+anvendes specialiserede testværktøjer til belastnings- og sikkerhedstest:  
+ 
+• ”Page Object Model” (POM): POM er et designmønster til at oprette et "Object 
+Repository" for web-UI-elementer. Det gør det muligt for Leverandøren at modellere 
+brugergrænsefladen i deres tests. 
+• Selenium: Anvendes som verifikationsværktøj og til at skabe en række testscenarier.  
+• NUnit: NUnit er et enhedstestrammeværk, der understøttes af Visual Studio og 
+Selenium WebDriver. NUnit er det mest udbredte enhedstestrammeværk til .Net-
+applikationer. NUnit præsenterer testresultaterne i et læsbart format og giver 
+Leverandøren mulighed for at fejlsøge de automatiserede tests og giver derved en 
+mere fokuseret fejlsøgningsproces og effektiv udnyttelse af ressourcer.  
+• ”Static Application Security Testing” (SAST) tool: Udfører statisk kodescanning på 
+applikationen fra et sikkerhedsperspektiv for at minimere sikkerhedsrisici i Servicen 
+inden denne installeres på Kundens miljøer hos Leverandøren.  
+2 Tilrettelæggelse og gennemførsel af tests i 
+implementeringsprojektet 
+I afsnit 2.1-2.5 vil Leverandøren give en systematisk, gennemsigtig og overordnet beskrivelse 
+af de installationer og tests, der skal gennemføres som en del af implementeringen. For at 
+give et overblik over det samlede prøveforløb og den enkelte tests placering i samme er der 
+indsat et procesdiagram i begyndelsen af hvert afsnit. 
+2.1 Installationsprøve  
+ 
+Figur 2 - Installationsprøvens placering i det samlede prøveforløb. 
+2.1.1 Testens formål 
+Formålet med installationsprøven er at kontrollere, at applikationen er installeret korrekt og 
+responderer, som forventet efter installation, samt om installationsvejledningen har været 
+retvisende og fyldestgørende.  
+ 
+Det er Leverandørens ansvar at installere samt at installationsvejledningen er 
+fyldestgørende.   
+  
+Prøven vil blive gennemført på Kundens testmiljø hos Leverandøren, så det er en 
+forudsætning, at serveropsætning er etableret inden prøvens opstart. Det er Leverandøren, 
+som forestår dette. 
+2.1.2 Startkriterier (herunder testdata) 
+Inden prøven igangsættes, verificerer Leverandøren, at hardware og basissoftware på IT-
+miljøet, hvor prøven afholdes, er korrekt. Herunder bl.a. tjek af:  
+Installations-prøve Leverandørens 
+egne prøver Konverterings-test Overtagelses-
+prøve
+
+## Page 6
+Side 6 af 15 
+ 
+• Applikationsservere og databaseservere  
+• Styresystem på servere   
+• Adgang til referenceklient  
+ 
+Prøvedata er ikke nødvendigt ifm. afvikling af installationsprøve. 
+2.1.3 Roller, ansvar og forventede ressourceforbrug for Kunden 
+Kundens rolle og ansvar i denne prøve er begrænset til at være observerende ift. prøvens 
+resultat, da Leverandøren er udførende og handler iht. Leverandørens udarbejdede 
+vejledninger. 
+2.1.4 Testens genstandsfelt 
+Installationsprøven verificerer, at applikationen er installeret korrekt og responderer, som 
+forventet efter installation.  
+  
+I slutningen af installationsforløbet vil Leverandøren foretage en verifikationstest, som tjekker, 
+at alle aftalte programmer er installeret og funktionsdygtige.  
+ 
+Der er bl.a. tale om følgende overordnede standardtest:  
+ 
+• Adgang til databasen  
+• Oprettelse af sager, kontakter og dokumenter  
+• Søgning, inkl. fritekst søgning  
+• Åbning af Office-integration  
+ 
+Testen afholdes umiddelbart efter installation og gennemføres efter et fast verifikationsskema 
+fra Leverandøren på en referenceklient.  
+2.1.5 Testrapport 
+Når installationsprøven er afholdt, deler Leverandøren resultatet ved fremsende et udfyldt 
+verifikationsskema, så Kunden får indsigt i prøvens forløb, resultat og evt. udeståender med 
+plan for løsning af samme. 
+ 
+2.2 Leverandørens egne prøver  
+ 
+Figur 3 - Leverandørens egne prøvers placering i det samlede prøveforløb. 
+2.2.1 Testens formål 
+Formålet med Leverandørens egne prøver er at sikre, at en leverance har en høj kvalitet, så 
+den er klar til afprøvning i Kundens miljø og leverancen i sin helhed opfylder alle funktionelle 
+krav i Leveringsaftalen.  
+ 
+Leverandørens egne prøver muliggør rettidig håndtering og optimering af identificerede fejl i 
+Servicen, hvilket vil forbedre Kundens oplevelse og ressourceudnyttelse i forbindelse med 
+Installations-prøve Leverandørens 
+egne prøver Konverterings-test Overtagelses-
+prøve
+
+## Page 7
+Side 7 af 15 
+Kundens egen afprøvning af Servicen. Dette sikrer også, at leverancens tidsplan og 
+gennemførelse overholdes ved at minimere risici. 
+ 
+Prøverne for Leverandørens standard ESDH-service udføres først og fremmest internt hos 
+Leverandøren som en del af Leverandørens kvalitetssikring i Leverandørens produkthus (som 
+beskrevet 1.1-1.3). Test af kundespecifik konfiguration gennemføres på Kundens testmiljø hos 
+Leverandøren, så det er en forudsætning, at dette er etableret inden den afsluttende 
+funktionstest, som Leverandøren udfører, opstartes.  
+ 
+2.2.2 Startkriterier (herunder testdata) 
+Prøverne vil blive gennemført med fyldestgørende prøvedata genereret til formålet af 
+Leverandøren. Prøvedata vil bl.a. blive generet ved brug af værktøjer, som generer generisk 
+prøvedata automatisk, samt manuelt oprettede testdata, som er målrettet enkelte testcases.  
+ 
+Leverandøren vil kontinuerligt gennem implementeringsfasernes forløb udføre egne prøver for 
+verificering af funktionalitet og kundespecifik konfiguration af standardløsning. Disse prøver 
+finder fortrinsvis sted på Kundens testmiljø for at sikre test i et miljø, hvor infrastruktur og 
+andre ydre faktorer er så tæt på Kundens driftsmiljø hos Leverandøren som muligt. Derved 
+minimeres risici og Kundens ressourceforbrug i videre testforløb.  
+ 
+Det er en forudsætning, at Kundens testmiljø er sat op, før de afsluttende egne prøver kan 
+påbegyndes i videre omfang. Leverandøren står for opsætning af miljø og brugere og 
+efterfølgende kundetilpasset konfiguration i Kundens testmiljø. Udarbejdelse af relevante 
+testcases til testene sker i samarbejde med Kunden. 
+ 
+Standardløsningen verificeres grundigt gennem bl.a. automatiseret test (se afsnit1.1-1.3) før 
+denne forlader Leverandørens produkthus. Herefter foretager Leverandørens 
+implementeringsteam test ved anvendelse af standardtestcases efter installation på Kundens 
+miljø relateret til implementeringen.  
+ 
+Inden overgang til næste prøver vil Leverandøren afholde en afsluttende funktionstest, som 
+sikrer, at leverancen er klar til næstkommende prøver samt Kundens afprøvning.  
+2.2.3 Roller, ansvar og forventet ressourceforbrug for Kunden 
+Leverandøren er prøveansvarlig for prøven og den udførende part. 
+ 
+Kundens rolle og ansvar er begrænset til at bistå med godkendelse af testcases i samarbejde 
+med Leverandøren, så det sikres, at kvaliteten af Leverandørens test øges ved at teste i 
+overensstemmelse med Kundens arbejdsgange.  
+2.2.4 Testens genstandsfelt 
+Testens genstandsfelt er leverancen i sin helhed, dvs. verifikation af, at Servicen opfylder alle 
+funktionelle krav. 
+ 
+Leverandøren gennemfører bl.a. en række funktionstest og konfigurationen af samme, f.eks.:  
+ 
+• Adgang til klient og administrator modul  
+• Oprettelser af brugere, kontakter, samt projekt, sag og dokument  
+• Office-integration 
+• Sags- og dokumentfunktioner
+
+## Page 8
+Side 8 af 15 
+• Ledelsesbetjeningsfunktioner 
+• Sikkerhed og rettigheder  
+• Søgninger og fritekst 
+• Rapporter og skabeloner  
+• Masseopdatering og omjournalisering mm.  
+• Dokumentation og online hjælp  
+ 
+Testen gennemføres efter testdrejebøger udarbejdet af Leverandøren i henhold til det 
+godkendte Løsningsdesign. Drejebøgerne er opbygget med angivelse af testtrin og 
+forudsætninger for opstart og accept. 
+ 
+Herudover gennemfører Leverandøren integrationstest. Integrationstesten udføres som en 
+samlet del af de enkelte funktionstests, hvor den fulde funktion gennemtestes. I udarbejdelse 
+af de enkelte testcases tages der højde for at sikre, at de enkelte integrationer ligeledes bliver 
+testet med fyldestgørende testdata og forventet retursvar. Forudsætningerne for testdata og 
+forventede retursvar vil være til stede i de enkelte testcases, hvor man derved sikrer, at testen 
+afspejler et fuldt flow til/fra tilstødende systemer til Kundens Service.  
+2.2.5 Testrapport   
+Når Leverandørens egne prøver er afsluttede, udarbejder Leverandøren en 
+afprøvningsrapport, som angiver hvad Leverandøren har testet og hvilke observationer man 
+har gjort sig.  
+ 
+Leverandøren udarbejder en afhjælpningsplan for evt. konstaterede udestående fejl. Kunden 
+skal godkende afhjælpningsplanen. 
+ 
+2.3 Konverteringstest 
+ 
+Figur 4 - Konverteringstestens placering i det samlede prøveforløb. 
+2.3.1 Testens formål 
+Formålet med konverteringstesten er primært at validere og sikre, at Kundens data fra de 
+nuværende system, som skal overføres til den nye løsning, bliver korrekt indlæst og 
+præsenteret i den nye løsning. 
+ 
+Dernæst har konverteringstesten også til formål at sikre og validere, at data fra det tidligere 
+system kan anvendes i samspil med data oprettet i den nye løsning. Derudover har 
+konverteringstesten til formål at give indsigt i tidsforbruget for de specifikke aktiviteter, der skal 
+udføres ved den endelige konvertering under idriftsættelsen. Dette muliggør udarbejdelsen af 
+en detaljeret drejebog og plan for processen, som omfatter både selve konverteringen og 
+rollback-proceduren. 
+ 
+Installations-prøve Leverandørens 
+egne prøver Konverterings-test Overtagelses-prøve
+
+## Page 9
+Side 9 af 15 
+2.3.2 Startkriterier (herunder testdata) 
+Leverandøren indleder alle konverteringsopgaver med en konverteringsworkshop, hvor der 
+forventningsafstemmes ift. datas udgangspunkt, krav, metodik og slutresultat. Workshoppen 
+danner ramme for konverteringsløbet og konverteringstesten og skal derfor være afholdt i god 
+tid, inden konverteringstesten finder sted. 
+ 
+For at gennemføre konverteringerne skal der etableres et konverteringsmiljø. Dette miljø er 
+identisk med Kundens test- og produktionsmiljø og skal bruges til at arbejde med 
+konverteringerne og til at teste de importerede data. 
+ 
+Konverteringstesten gennemføres på et udtræk af Kundens produktionsdatasæt fra Kundens 
+nuværende system. Produktionsdatasættet anvendes for at ramme alle funktionelle scenarier 
+og få et klart billede af tidsforbrug og tidsestimater for de enkelte aktiviteter, som skal 
+gennemføres i konverteringen i forbindelse med idriftsættelse af Kundens nye løsning.  
+ 
+Kunden skal derfor levere alle filer, der ønskes konverteret over i Kundens nye løsning inden 
+konverteringstesten. Filerne vil blive lagt på konverteringsmiljøet, så konverteringerne kan 
+testes internt af Leverandøren og efterfølgende af Kunden. Filerne skal have fil-endelse 
+angivet (filtype). Dertil skal metadata leveres som sql-server-database i et aftalt format. 
+Udformningen af dette format er grundigt dokumenteret af Leverandøren. 
+ 
+Til sidst skal Kundens brugere, som skal anvendes i forbindelse med UAT testens 
+gennemførsel være oprettet i løsningen inden testens start. Dette udføres af Leverandøren.  
+2.3.3 Roller, ansvar og forventet ressourceforbrug for Kunden 
+Leverandøren anvender specialister til konverteringsopgaver og følger en fast metodik og 
+drejebog for ESDH-migreringer. Leverandøren har mange års erfaring med at migrere data 
+både fra og over i ESDH-løsningen og kender til, og har arbejdet med, flere leverandørers 
+datamodeller og migreringsmetodiker. Leverandøren vil være den ansvarlige under 
+konverteringstestens gennemførsel. 
+ 
+Kundens opgave og ressourceforbrug i forbindelse med konverteringstesten vil være at 
+validere resultatet af prøvemigreringen i forhold til det, der blev aftalt på konverterings-
+workshoppen. Det vil sige at sikre, at metadata fra kildesystemerne optræder i de aftalte felter 
+i Kundens nye løsning, samt at filer er korrekt placeret og kan åbnes. Forventeligt vil denne 
+validering ske over en 1-5 dages periode, så Kunden har mulighed for at involvere forskellige 
+dele af Kundens forretning i testen, hvis Kunden finder det gavnligt. 
+ 
+Før konverteringstesten vil Kunden have en rolle i at facilitere kontakt til Kundens 
+eksisterende leverandører, hvis system der skal importeres data fra, så Kunden og 
+Leverandøren kan initiere en dialog med tredje part om udlevering af data. 
+2.3.4 Testens genstandsfelt 
+Leverandøren udfører prøvekonverteringer i 9 overordnede trin:   
+ 
+1. Dataformat fastlægges i samarbejde mellem Leverandøren, Kunden og dennes 
+nuværende ESDH-leverandører. 
+2. Datasæt modtages i aftalt format fra Kundens eksisterende ESDH-leverandører. 
+3. Leverandøren validerer og sikrer datasættet og -grundlaget inden arbejde med 
+konvertering opstartes. 
+4. Mapning af kildedata til ny ESDH-løsning fastlægges i samarbejde med Kunden.
+
+## Page 10
+Side 10 af 15 
+5. Leverandøren gennemfører konverteringen af Kundens data til Leverandørens løsning 
+med konverteringsværktøjet DMF på etableret konverteringsmiljø.  
+6. Leverandøren tester konverteringen og hvordan løsningen og datasættet reagerer på 
+oprettelse af ny data oprettet i løsningen.  
+7. Leverandøren afleverer en konverteringsrapport, hvor evt. identificerede fejl og 
+mangler fremgår samt kontroltællinger omkring hvor mange sager og dokumenter, som 
+indgik i udleveret dataudtræk og hvor mange, som er importeret til Leverandørens 
+løsning. Dertil udarbejdes en drejebog for processen, som redegør for alle trin i 
+processen og hvor lang tid de enkelte trin tager at gennemføre. 
+8. Kunden og Leverandøren gennemfører i samarbejde en slutbruger-test af 
+konverteringen og melder tilbage, hvis der er fejl og mangler.  
+9. Konverteringen godkendes af Kunden eller trin 5-8 gentages, hvis Kunden og/eller 
+Leverandøren har fundet fejl eller mangler, som skal udbedres og testes i ny 
+konverteringstest, inden godkendelse kan finde sted. 
+  
+Testforløbet består typisk af 1-2 prøvekonverteringer.  
+ 
+Inden prøvekonvertering igangsættes, sørger Leverandøren altid for at have backup af 
+kildedata og database, så rollback-procedure kan gennemføres om nødvendigt. Test af 
+rollback-procedure og restore gennemføres inden opstart af prøvekonvertering. 
+ 
+Leverandøren gennemfører Leverandørens egen test af det importerede data og parallelle 
+tests med importerede data og data, der er blevet oprettet manuelt på konverteringsmiljøet, for 
+at identificere eventuelle forskelle/fejl, som skal håndteres  
+ 
+Herefter tester Kunden konverteringen - under Leverandørens vejledning - ved en 
+sammenligningstest, hvor de indlæste data sammenlignes med hvorledes metadata 
+præsenteres i eksisterende systemer på udvalgte, repræsentative stikprøver af sager og 
+dokumenter (stikprøver udvælges af Kunden). Alle fejl eller ændringsønsker rapporteres 
+tilbage til Leverandøren ved brug af en standard fejl-formular-skabelon. 
+ 
+Leverandøren visiterer herefter Kundens indberetninger og tilretter herefter 
+konverteringskoden og data i det omfang de indrapporterede fejl eller ændringsønsker 
+påkræver det.  
+ 
+Forløbet gentages evt. under 2. prøvekonvertering, hvis rettelser påkræver en rollback og en 
+ny indlæsning af data. 
+2.3.5 Godkendelseskriterier 
+Når alle fejl og/eller ændringsønsker er håndteret af Leverandøren og verificeret af Kunden, 
+indstilles konverteringstesten til Kundens godkendelse. 
+2.3.6 Testrapport 
+Resultatet af prøvekonverteringen er en færdig minut-for-minut drejebog for konverteringen, 
+som anvendes i forbindelse med idriftsættelsen.
+
+## Page 11
+Side 11 af 15 
+2.4 Overtagelsesprøve (UAT) 
+ 
+Figur 5 - Overtagelsesprøvens placering i det samlede prøveforløb. 
+2.4.1 Prøvens formål  
+Formålet med overtagelsesprøven er at konstatere, om den aftalte funktionalitet for 
+leverancen som helhed og dokumentation opfylder Kontraktens krav. Overtagelsesprøven 
+omfatter tillige test af visse servicemål i tillæg til den test, der finder sted som led i 
+driftsprøven. 
+  
+Godkendelse af prøven medfører, at løsningen er klar til ibrugtagning og til at blive rullet ud til 
+Kundens brugere.   
+  
+Overtagelsesprøven gennemføres i produktionsmiljøet på konverterede produktionsdata med 
+Kundens aktive deltagelse. Kundens deltagelse vil være fokuseret og efter instruks fra 
+Leverandøren, som har det overordnede ansvar for prøven. 
+  
+Overtagelsesprøven omfatter funktionstest, integrationstest, svartidstest og migreringstest:   
+  
+• Funktionstest skal påvise, at løsningernes enkelte funktioner virker efter hensigten og 
+iht. den aftalte konfiguration. Det skal i forbindelse med funktionstesten verificeres, at 
+funktionelle krav i leverancebeskrivelsen og det godkendte løsningsdesign er 
+opfyldte.   
+  
+• Integrationstest har til formål at sikre, at Leverandørens løsning fungerer korrekt i 
+sammenhæng med øvrige løsninger. Leverandøren skal teste, at alle integrationer 
+virker i overensstemmelse med leverancebeskrivelsen og løsningsdesignet og i 
+henhold til de aftalte og beskrevne snitflader. 
+ 
+• Svartidstestens formål er at verificere, at løsningen kan tilgås og benyttes af samtidige 
+brugere under overholdelse af de krav til Kontrakten, i en produktionslignende 
+opsætning med en belastning af løsningen svarende til Kundens samtidige brugeres 
+anvendelse i almindelig drift. Svartidstestens fokus er kapacitet, stabilitet og robusthed. 
+ 
+• Migreringstesten har til formål at verificere, at migrering er gennemført korrekt og alle 
+data er behandlet iht. specifikation af Kunden. 
+2.4.2 Startkriterier (herunder prøvedata) 
+Følgende skal være til stede før en overtagelsesprøve kan påbegyndes: 
+ 
+1. Konverteringstesten skal være godkendt. 
+2. Leverandøren har udarbejdet testcases, som kan anvendes under prøven. 
+3. Nødvendige prøvedata og integrationer er opsat på prøvemiljøet. 
+ 
+Overtagelsesprøven udføres på konverterede produktionsdata, som Leverandøren har 
+behandlet og klargjort inden prøvens start i forbindelse med migreringsforløbet. Dertil udføres 
+Installations-prøve Leverandørens 
+egne prøver Konverterings-test Overtagelses-prøve
+
+## Page 12
+Side 12 af 15 
+prøven med alle de aftalte kundetilpassede konfiguration, som er opsat og klargjort inden 
+prøvens start. 
+2.4.3 Roller, ansvar og forventede ressourceforbrug for Kunden 
+Leverandøren er prøveansvarlig for prøven, men Kundens aktive deltagelse er påkrævet i 
+forbindelse med prøvens afvikling og forberedelse. 
+ 
+Leverandøren forbereder testcases til prøven. Kunden spiller en aktiv part i test og verifikation 
+af løsningen iht. testcases, som leveres af Leverandøren. Kundens deltagelse og 
+ansvarsområder beskrives inden prøven påbegyndes. 
+ 
+Leverandøren installerer alt programmel til ESDH-applikationen i Kundens IT-miljø, herunder 
+etablering af integrationer, håndtering af segregerede databaser og adgang for alle relevante 
+brugere til at bruge ESDH-løsningen i produktions øjemed.  
+ 
+Svartidstesten simuleres af automatiserede virtuelle brugere, som udfører forskellige 
+realistiske scenarier og brugsmønstre på løsningen. Oplevede svartider vil blive målt 
+automatisk og kontinuerligt uden ophold ved brug af et testværktøj beregnet til samme, for at 
+sikre effektiv og fokuseret udnyttelse af ressourcer på Kundens og Leverandørens side. 
+2.4.4 Prøvens genstandsfelt 
+Overtagelsesprøven verificerer at Leverandøren har etableret løsningen i overensstemmelse 
+med kontrakten. Dette gælder funktionelle krav samt emner som f.eks. migrering og 
+responstider. 
+ 
+Prøven er delt op i tre overordnede test; funktionstest, integrationstest og migreringstest. 
+ 
+Funktionstest:  
+Funktionstesten har til formål at verificere, at funktionelle krav i Kundens leverancebeskrivelse 
+og løsningsdesign er opfyldt. Det vil ske ved brug af drejebog med testcases. 
+  
+Testcases er funktionstests, og er opbygget med angivelse af testtrin. Til hver test er der 
+beskrevet eventuelle forudsætninger for prøvens gennemførsel. Dette kan eksempelvis være 
+forudsætninger angående prøvedata eller sikkerhed i forbindelse med forskellige testbrugeres 
+roller.  
+  
+Drejebogen/testcases beskriver en række standard funktionsprøver. Der er bl.a. tale om 
+følgende funktionsprøver (ikke udtømmende):  
+ 
+• Adgang til klient og administrator modul  
+• Oprettelser af brugere, kontakter, samt projekt, sag og dokument  
+• Office-integration 
+• Sags- og dokumentfunktioner  
+• Ledelsesbetjeningsfunktioner 
+• Sikkerhed og rettigheder  
+• Søgninger og fritekst 
+• Rapporter og skabeloner  
+• Masseopdatering og omjournalisering mm.  
+• Dokumentation og online hjælp  
+• Kundespecifik konfiguration til systemet, m.m. afhængig af Kundens løsning
+
+## Page 13
+Side 13 af 15 
+Til hver funktionsprøve i drejebogen vil følgende bl.a. fremgå:  
+ 
+• Forudsætninger for prøven: eksempelvis særlig rolle til testbrugeren. Data der skal 
+stilles til rådighed osv.  
+• Handling via testtrin 
+• Verificer at: det anføres, hvad der forventeligt skal ske, når brugeren udfører 
+handlingen  
+• Beskrivelse af evt. fundne fejl (gerne med skærmdumps) til senere brug for 
+kategorisering i forbindelse med udarbejdelse af rapport over forløbet.  
+  
+Det skal i forbindelse med funktionstesten verificeres, at funktionaliteten i 
+leverancebeskrivelsen og det godkendte løsningsdesign er opfyldte. Det vil fremgå af 
+prøveforskrifter hvilke krav, som de dækker (sporbarhed mellem testcases og krav).  
+ 
+Integrationstest:  
+Integrationstesten udføres som særlige funktionstests, hvor det fulde flow fra/til integrerede 
+eksterne systemer gennemtestes. Testcases følger design og metodik, som ved funktionstest. 
+I udarbejdelse af de enkelte testcases tages der højde for at sikre de enkelte integrationer 
+ligeledes bliver testet med de korrekte data og forventet retursvar. Forudsætningerne for disse 
+testdata og forventede retursvar vil være til stede i de enkelte testcases, hvor man derved 
+sikrer, at Kundens krav til integrationerne er opfyldt.  
+ 
+Svartidstest: 
+Testen simulerer simple transaktioner i løsningen i et scenarie med en belastning af løsningen 
+svarende til samtidige brugeres anvendelse i almindelig drift. 
+ 
+Leverandøren har udviklet et testværktøj, der baserer sig på JMeter og Selenium. Med dette 
+værktøj kan niveauet af fiktive brugere angives og derved simuleres en svartidstest ud fra et 
+eller flere definerede scenarier. Svartidstesten kan afvikles fra over et par timer til flere dage 
+afhængigt af, hvad der vurderes som hensigtsmæssigt for at vise et realistisk resultat. 
+  
+Værktøjerne JMeter og Selenium er open source og kræver ikke licens. De afvikles med 
+scripts designet til at kunne benyttes af tekniker med minimal tilpasning. De skal eksekveres 
+fra almindelige brugerpc’er, der har adgang til den relevante løsning. Der benyttes horisontal 
+skaleringsmetodik, hvilket betyder, at der skal opsættes flere brugerpc’ere, hvis der skal 
+inkluderes flere virtuelle brugere. Hver bruger-pc kan belaste med op til 300 virtuelle brugere.  
+  
+Svartidstesten er designet til at afprøve, hvor mange forespørgsler, der bliver genereret for de 
+services ESDH-løsningen består af, uden at systemet oplever fejl ved høj belastning.  
+  
+Ved måling af svartider benyttes Dynatrace, hvor det er muligt at lave kontinuerlige end-user 
+målinger og overvågning og dermed sikre en overholdelse af de anførte svartider. Dynatrace 
+OneAgent (monitoreringsagent) installeres på både frontend- og databaseserver, og måler 
+derfor direkte på ressourceforbrug for serveren samt teknologistakken, som løsningen 
+anvender. Måleværktøjet vil herefter udføre målinger på de opsatte målepunkter for de 
+udvalgte scenarier, og det er herefter muligt at se, om svartiderne overholdes. Svartiderne 
+måles som maskinelt (automatiseret). Svartider måles på flere referencearbejdsplads(er), og 
+der mindst 100 målinger af hver transaktionstype fordelt over testens tidsrum.  
+ 
+De pågældende referencearbejdspladser skal modsvare de konkrete arbejdsmaskiner, som 
+brugerne skal bruge i dagligdagen i produktionsmiljøet. Kunden skal sørge for en ligelig 
+fordeling af de understøttede browsere, så svartidsmåling fremstår repræsentativt.
+
+## Page 14
+Side 14 af 15 
+ 
+Ved svartid for en transaktion forstås, tidsintervallet fra brugeren sender sin kommando, til 
+resultatet er synligt for brugeren, og løsningen er klar til modtagelse af ny kommando, dog 
+fratrukket eventuelle svartider fra andre systemer; driftshindringer, som Kunden eller andre 
+leverandører bærer ansvaret for; udefrakommende forstyrrelser (eksempelvis fejl i datanet og 
+linjer, som Kunden eller Kundens 3. parts leverandører har ansvaret for, og lignende). 
+Transmissionstiden i netværket fratrækkes som ”latency” ved beregning af svartiderne, efter 
+nærmere aftale mellem Kunden og Leverandøren. 
+ 
+For at sikre en så realistisk test som muligt er det nødvendigt at sikre, at det er flows, der 
+testes for, og ikke individuelle funktioner, der stresstestes. Med dette menes, at det ikke er et 
+realistisk scenarie, at alle brugere udfører en søgehandling samtidig. I et realistisk flow vil det 
+være blandet med sagsoprettelse, dokumentproduktion, søgninger, visninger m.v.  
+  
+Når en svartidstest udføres, vil de enkelte brugere ligeledes blive pålogget løsningen gradvis 
+for at simulere bl.a. starten på en arbejdsdag. Dette vil ske med en trappevis tilgang af 
+brugere, hvor det præcise antal afklares under projektet. F.eks. start med 100 brugere, vent 1 
+minut, hvorefter yderligere 100 brugere lægges på.  
+ 
+I forbindelse med fejlsøgning har Leverandøren ret til at afprøve svartiderne på en klient, som 
+er koblet direkte til serveren uden mellemliggende routere eller switche for dermed at 
+eliminere mistanke om problemer i Kundens infrastruktur eller internetforbindelse til driften af 
+løsningen. 
+  
+Svartidstesten udføres altid på produktionsmiljøet, da dette miljø er det eneste, som er 
+specificeret til at kunne håndtere den nødvendige mængde brugere (og derved belastning).  
+  
+Da de enkelte testcases i svartidstesten kan have invasive forløb (opret/slet), sikrer 
+Leverandøren, at det altid sker i et meget kontrolleret forløb, hvor man ligeledes sikre at ingen 
+utilsigtet udadgående kommunikation eksekveres. 
+ 
+Migreringstest: 
+Migreringstesten har til formål at verificere, at Kundens data optræder i ESDH-løsningen i 
+henhold til det aftalte migreringsdesign. Denne test vil adskille sig fra de to foregående idet 
+den i mindre omfang vil anvende testcases med fokus på funktionalitet og i højere grad vil 
+have fokus på verificering af data og metadata. Dvs. optællingstest ift. om alle data er 
+medtaget og stikprøvetest ift. om metadata optræder i de korrekte felter og er søgbare i 
+henhold til det aftalte i afklaring af migreringsdesign. Migreringstesten er bevidst adskilt fra de 
+øvrige tests, da det erfaringsmæssigt giver det bedste resultat, da adskillelsen hjælper 
+Kunden og dennes brugere med at fokusere sine tests på data i denne test og funktionalitet i 
+de øvrige tests. Dette giver et resultat, som i højere grad er ”renset” fra bias, som skyldes 
+øvrige forhold udenfor testens formål og indhold.  
+ 
+Både funktions-, integrations-, svartids- og migreringstesten gennemføres fra en almindelig 
+pc, mobil enhed og/eller server, der netværksmæssigt er placeret således, at afprøvningen 
+dækker alle løsningens infrastrukturkomponenter og integrationer, så som firewall, SSL-
+terminering og loadbalancing. 
+2.4.5 Godkendelseskriterier  
+Kunden godkender overtagelsesprøven, når denne vurderer, at overtagelsesprøven er 
+godkendt.
+
+## Page 15
+Side 15 af 15 
+2.4.6 Prøverapport 
+Når Overtagelsesprøven er afsluttet, udarbejder Leverandøren en afprøvningsrapport.  
+ 
+På baggrund af prøverapporten og Leverandørens forslag til fejlkategorisering, foretager 
+Kunden en endelig kategorisering af de konstaterede fejl og afgør kategori ift. udbedring. 
+Afprøvningsrapporten og overtagelsesprøven godkendes af Kunden, hvis denne vurderer, at 
+overtagelsesprøven er godkendt.  
+ 
+Som for øvrige prøver, udarbejder Leverandøren en afhjælpningsplan for kendte udestående 
+fejl. Kunden skal godkende afhjælpningsplanen.  
+  
+  
+Ved svartid for en transaktion forstås, tidsintervallet fra brugeren sender sin kommando, til 
+resultatet er synligt for brugeren og løsningen er klar til modtagelse af ny kommando, dog 
+fratrukket eventuelle svartider fra andre systemer; driftshindringer, som Kunden eller dennes 
+tredjepart bærer ansvaret for og/eller udefrakommende forstyrrelser (eksempelvis fejl i datanet 
+og linjer, som Kunden eller Kundens 3. parts leverandører har ansvaret for, og lignende). 
+Transmissionstiden i netværket fratrækkes som ”latency” ved beregning af svartiderne, efter 
+nærmere aftale mellem Kunden og Leverandøren.  
+  
+I forbindelse med fejlsøgning har Leverandøren ret til at afprøve svartiderne på en klient, som 
+er koblet direkte til serveren uden mellemliggende routere eller switche for dermed at 
+eliminere mistanke om problemer i Kundens infrastruktur eller internetforbindelse til driften af 
+løsningen.

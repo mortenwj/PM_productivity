@@ -1,0 +1,52 @@
+Indledning
+Dette bilag indeholder Kundens krav til dokumentation af Standardsoftwaren.
+Overordnende dokumentationstyper
+Dokumentationen opdeles i følgende typer:
+Systemdokumentation
+Generel standardsoftwaredokumentation
+Konfigurationsdokumentation
+Prøve- og testdokumentation
+Drifts- og supportdokumentation
+Brugerdokumentation
+Kundens formål med at få leveret dokumentationen er at sikre tilstrækkelig viden, der gør Kunden i stand til at anvende Standardsoftwaren korrekt, opnå et samlet overblik over Standardsoftwaren samt de tilhørende vedligeholdelses-, drifts- og supportprocesser. Dokumentationen skal desuden sætte Kunden i stand til at træffe beslutninger på et sammenhængende og veldokumenteret grundlag samt understøtte en eventuel fremtidig genanskaffelse af Standardsoftwaren.
+Leverandøren skal opdatere dokumentationen indenfor maksimalt 3 måneder, når der sker ændringer i planer, Standardsoftware eller Leverancen.
+Systemdokumentation
+Generel softwaredokumentation
+Generel standardsoftwaredokumentation er den dokumentation, der foreligger vedrørende Standardsoftwaren. Det kan fx være:
+Roadmaps
+Integrationsbeskrivelser
+Begrebs- og informationsmodeller
+Konfigurationsdokumentation
+Konfigurationsdokumentation vedrører dokumentation af konfigurationer foretaget i Standardsoftwaren af Leverandøren, fx opsætning af proces- og godkendelsesflow og integrationer. Dokumentationen skal foreligge på et niveau, der gør det muligt for en tredjepart med indsigt i Standardsoftwaren at forstå de foretagne konfigurationer.
+Dokumentationen skal indeholde scripts, kode, billeder af opsætninger o.l. For integrationer skal dokumentationen desuden omfatte beskrivelser af de fortolkninger og mappinger, der eventuelt indgår i konfigurationen af integrationen.
+Prøve- og testdokumentation
+Prøve- og testdokumentation indgår i systemdokumentationen. Prøve- og testdokumentation skal sikre et veldokumenteret test- og prøveforløb.
+Leverandørens prøve- og testdokumentation skal indeholde prøveplan, testcases og testrapporter for Leverancens prøver.
+Drifts- og supportdokumentation
+Drifts- og supportdokumentationen skal sikre, at Kunden har indblik i Standardsoftwarens driftsafvikling samt forståelse for processerne relateret til Leverandørens drift, vedligeholdelse og support – herunder processer for fejlhåndtering, fejlretning, nødplaner og backup mv.
+Leverandøren skal levere drifts- og supportdokumentation, der indeholder den nødvendige dokumentation af driftsmiljøet, og som minimum omfatter en beskrivelse af følgende elementer:
+Overordnet beskrivelse af driftsarkitekturen
+Kontaktinformation til snitfladesupport
+Miljøoversigt, med angivelse af miljøer, inkl. snitflade-URL’er og konfiguration
+Sikkerhedsadministration
+Installation og krav til vedligeholdelse af driftsmiljøet herunder backup/recovery procedurer
+Drifts- og supportdokumentationen skal indeholde dokumentation, der beskriver de nærmere procedurer for levering af ydelserne beskrevet i bilag 12 Drift, support og vedligehold og bilag 13 Servicemål, og skal:
+Opdateres løbende af Leverandøren i Leveringskontraktens løbetid
+Beskrive de tekniske og faglige forhold, som skal tages i betragtning ved ydelse af support for standardsoftwaren
+Give læserne den fornødne viden til at kunne supportere Standardsoftware, herunder indeholde en vejledning, der dokumenterer samarbejdet med og kontaktmuligheder til leverandørens second-level-support
+Beskrive relevante dele af vedligeholdelsen og driften af Standardsoftwaren, fejlhåndteringsprocessen, nød- og re-etableringsplaner, backup, kommunikationsplan, eskalationsprocedurer, driftsorganisation og kontaktoplysninger samt andre relevante forhold
+Beskrive den etablerede konfiguration for driftsmiljøet, de herpå installerede komponenter og deres kommunikation samt beskrivelse af integrationer
+Indeholde en driftsplan, der beskriver de aktiviteter, der indgår i den løbende drift af Standardsoftwaren samt frekvensen af aktiviteterne
+Liste over supportberettigede brugere
+Liste over kontaktpersoner hos tredjepart
+Drifts- og supportdokumentationen indeholder en ændringslog for alle ændringer til Standardsoftwaren i driftsmiljøet
+Brugerdokumentation
+Brugerdokumentationen har til formål at sikre, at brugerne af Standardsoftwaren besidder det nødvendige indblik i og forståelse af Standardsoftwarens funktioner, datagrundlag og forretningsregler, opsætning og konfiguration samt optimal brug heraf.
+Leverandøren skal levere fyldestgørende og opdateret brugerdokumentation, der beskriver indhold og samtlige funktionaliteter samt redegør for anvendelsen af Standardsoftwaren for alle relevante brugerroller.
+Brugerdokumentationen dækker:
+Slutbrugerdokumentation
+Brugerrettede funktioner
+Opsætning og systemadministration
+Beskrive navigation, brugergrænseflader samt anvendelse af standardsoftwaren
+Brugerdokumentation indgår som en integreret del af standardsoftwarens brugergrænseflade.
+Brugerdokumentation skal leveres på dansk, medmindre andet eksplicit aftales mellem Kunden og Leverandøren.

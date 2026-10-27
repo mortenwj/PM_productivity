@@ -1,0 +1,110 @@
+Bilag 3: Plan for etableringsfasen – Public 360° Sak og Arkiv
+Statens standardavtaler for IT-anskaffelser
+bilag til SSA-L – versjon 2018
+Bilag 3 - Plan for etableringfasen
+Kundens tekst i kursiv.
+PLAN FOR ETABLERINGSFASEN
+Leverandøren skal som del av tilbudet utarbeide en tentativ  prosjekt- og fremdriftsplan for etablering av tjenesten.
+Planen skal bygge på Kundens krav i Bilag 1 og føringene i dette bilaget. Etter avtaleinngåelsen skal planen detaljplanlegges i samarbeid mellom partene. Detaljeringen skal ikke medføre endring i avtalt omfang, pris, leveringsfrist, ansvarsfordeling eller Kundens estimerte ressursinnsats med mindre dette avtales etter avtalens endringsregime.
+Leverandøren har det samlede ansvaret for planlegging, koordinering og gjennomføring av etableringen, med de begrensninger som følger av Kundens uttrykkelig angitte medvirkningsplikter.
+Endelig plan for etablering av tjenesten lages av Kunden og Leverandøren i fellesskap umiddelbart etter avtalesignering, jf. punkt 3.1 i den generelle avtaleteksten.
+Leverandøren gir sitt forslag til etableringsplan her under punkt 2.
+Planen skal minimum inneholde;
+Tidsplan med milepæler for etablering, forberedelse, konfigurering og levering,
+Planlagt fremdrift og involvering og anslått timeforbruk for Kunden i de ulike fasene.
+Leverandøren skal beskrive roller og ansvar hos leverandør i etableringsfasen.
+Nødvendige aktiviteter for å sette løsningen i produksjon, inkludert alle konfigurasjoner og obligatoriske/nødvendige integrasjoner.
+Godkjenningskriterier må utarbeides av kunde og leverandør i felleskap etter avtalesignering.
+Akseptansetest med resultatrapport skal godkjennes av kunde.
+Plan for opplæring. Leverandøren skal beskrive planlagt opplæring for de ulike brukergruppene. Planen skal angi målgruppe, innhold, omfang, tidspunkt, gjennomføringsform, nødvendig forkunnskap og hvilket opplæringsmateriell som leveres. Opplæringsbehov vil avklares videre etter kontraktsignering.
+Plan for migrering av eksisterende database – denne må være tilgjengelig fra dag 1 når oppstart av ny løsning starter.
+Testplan
+Testmiljøet skal baseres på kundens faktiske data.
+leverandør skal teste konfigurert løsning før kunden starter verifisering.
+kunden vil verifisere konfigureringer fortløpende i testmiljø, med bistand fra leverandør.
+kunden vil gjennomføre en samlet test når alle konfigureringer er ferdigstilt. Leverandør skal bistå med dette.
+Akseptansetest
+Testplan for akseptansetest utformes av kunde og leverandør i felleskap etter avtalesignering.
+Kunden ønsker oppstart av etableringsfasen omgående etter signering av kontrakt. Etableringsfasen, inkludert testing (inklusiv akseptansetest og opplæring), bør ha en tidsramme på maksimalt 2 uker for hele leveransen. Sak- og arkivsystem med integrasjoner skal lanseres til hele organisasjonen umiddelbart etter testperioden er ferdig.
+LEVERANDØRENS BESVARELSE - HELHETLIG PROSJEKT- OG FREMDRIFTSPLAN
+Leverandørens plan for etableringsfasen
+Avtalens punkt 3.1 Plan for etableringsfasen
+Innledning
+Forsvarshistorisk museum benytter i dag Public 360° som en skybasert tjeneste levert av Tieto. Virksomheten har etablert arbeidsprosesser, erfaring med Tjenesten og en organisasjon som allerede er kjent med systemet og de sentrale funksjonene. Leverandøren ser frem til å videreføre Tjenesten og utvide med ny funksjonalitet, opplæring og oppfølging for å sikre en helhetlig og god leveranse av sak og arkivtjeneste til Forsvarshistorisk museum.
+Leveransen vil ta utgangspunkt i dagens eksisterende Skytjeneste, der Oppdragsgiver allerede er på den nyeste versjonen av Public 360°. Prosjektets hovedfokus vil være å realisere ny funksjonalitet og videreutvikle dagens Tjeneste i tråd med virksomheten sitt behov og kravene som er beskrevet i konkurransegrunnlaget. Dette omfatter etablering av nye moduler og tjenester, aktivering av funksjonalitet som ikke benyttes i dag, konfigurering av Tjenesten i henhold til virksomheten sitt behov, etablering av testmiljø, samt etablering eller videreutvikling av nødvendige integrasjoner.
+Selv om Forsvarshistorisk museum allerede benytter Public 360°, vil Leverandøren gjennomføre leveransen som et strukturert prosjekt med tydelig prosjektledelse, fremdriftsstyring og kvalitetssikring. Formålet er å sikre en kontrollert gjennomføring, god forankring i organisasjonen og en trygg overgang til nye arbeidsmåter.
+Gjennom denne tilnærmingen legger Leverandøren til rette for en smidig videreutvikling av Forsvarshistorisk museum eksisterende Public 360°-løsning, med lav risiko, høy grad av gjenbruk og fokus på å realisere de behovene som ligger til grunn for anskaffelsen.
+Etableringsfase og gjennomføringsmodell
+Etter kontraktsinngåelse etableres prosjektorganisasjonen og det utarbeides en detaljert prosjekt- og aktivitetsplan i samarbeid mellom partene. Planen vil beskrive aktiviteter, ansvar, milepæler og avhengigheter knyttet til leveransen.
+Prosjektet tar utgangspunkt i Forsvarshistorisk museum eksisterende løsning og vil fokusere på å etablere, konfigurere og ta i bruk de modulene, funksjonene og arbeidsprosessene som inngår i den nye avtalen. Omfanget vil derfor være vesentlig annerledes enn ved en tradisjonell systemimplementering, hvor etablering av grunnløsning, migrering av data og innføring av et nytt system utgjør hoveddelen av arbeidet.
+Siden Forsvarshistorisk museum allerede benytter Public 360° i produksjon og prosjektet skal etablere et testmiljø, anbefaler Tieto en trinnvis innføringsmodell. Prosjektet starter med behovsavklaringer og kompetansebygging for prosjektgruppe og superbrukere, slik at nødvendige beslutninger kan tas på et godt grunnlag. Deretter etableres og konfigureres avtalt funksjonalitet, samt testmiljø etableres på bakgrunn av beslutninger tatt. Deretter tester og verifiserer prosjektgruppen at løsning og arbeidsprosesser fungerer som forventet.
+Leverandøren legger stor vekt på en robust, effektiv og vellykket gjennomføring av prosjektet. For å sikre høy kvalitet i alle leveranser og redusere risiko i gjennomføringen, anbefales det at kunden setter av tilstrekkelig tid og nødvendige ressurser til å gjennomføre samtlige planlagte aktiviteter.
+Rollebasert opplæring gjennomføres tett opp mot aktivering av funksjonaliteten, slik at brukerne raskt kan omsette ny kunnskap i praksis. Denne tilnærmingen reduserer risiko, sikrer god forankring og bidrar til høy brukeradopsjon og raskere gevinstrealisering.
+Gjennomføringen av arbeidsmøtene vil ha fokus på behovsavklaringer, konfigurering av funksjonalitet, eventuelle integrasjoner, verifikasjon og opplæring. Arbeidet gjennomføres i tett samarbeid mellom Tieto og Forsvarshistorisk museum for å sikre at Tjenesten understøtter virksomheten sitt behov og arbeidsprosesser på en best mulig måte.
+Prosjektet organiseres rundt faste arbeidsmøter og milepæler som sikrer fremdrift, kvalitet og nødvendig involvering fra relevante fagmiljøer.
+Tidsramme og fleksibilitet
+Basert på omfanget av nye moduler, opplæringsbehov samt akseptansetest, anbefaler Leverandøren en etableringsperiode på 4 uker fra kontraktsinngåelse. Dette sikrer en robust og kontrollert implementering uten å kompromittere på kvalitet.
+Tidsplanen omfatter:Fase 1: Forberedelse og organiseringFase 2: Installering, opplæring og spesifiseringFase 3: Implementering og konfigureringFase 4: AkseptansetestFase 5: IdriftssettelseFase 6: Evaluering og avslutning
+Leverandøren er imidlertid fleksibel og åpen for alternative gjennomføringsmodeller dersom Forsvarshistorisk museum ønsker det. For eksempel kan en eller flere av følgende aktiviteter kan gjennomføres etter produksjonssetting dersom dette ønskes:
+Opplæring av superbrukere
+Etablering og konfigurering av valgfrie moduler som ikke er kritiske for oppstart
+Den endelige fremdriftsplanen med konkrete datoer avtales i samarbeid mellom partene umiddelbart etter kontraktsinngåelse. Forsvarshistorisk museum vil ha full operativ drift av sin nåværende produksjonsbasis under hele etableringsfasen, og det vil ikke være behov for nedetid.
+Roller og ansvar
+Prosjektet gjennomføres som et samarbeid mellom Forsvarshistorisk museum og Tieto, hvor begge parter bidrar med nødvendige ressurser og kompetanse.
+Tieto har ansvar for prosjektledelse, koordinering av leveransen, etablering av avtalt funksjonalitet, rådgivning, teststøtte, opplæring og produksjonssetting. Forsvarshistorisk museum har ansvar for å stille nødvendige beslutnings- og fagressurser til rådighet, gjennomføre nødvendige avklaringer og godkjenne leveranser og milepæler.
+For å sikre effektiv gjennomføring anbefales følgende nøkkelroller hos kommunen:
+Ressursbehov fra Forsvarshistorisk museum
+Siden Forsvarshistorisk museum allerede benytter Public 360° og har etablert arbeidsprosesser og kompetanse knyttet til Tjenesten, forventes ressursbehovet å være betydelig lavere enn ved en full implementering av et nytt sak- og arkivsystem.
+Kundens ressursbruk vil i hovedsak være knyttet til deltakelse i arbeidsmøter, nødvendige beslutninger, testing, kvalitetssikring og opplæring. Det anbefales at Kunden stiller med én ressurs fra hvert relevant fagområde, i tillegg til prosjektleder. Dette omfatter blant annet fagressurs innen sak og arkiv, relevante saksbehandlingsområder og tekniske ressurser. Ressursene bør ha nødvendig fagkompetanse, beslutningsmyndighet og kapasitet til å delta i prosjektets aktiviteter.
+Omfanget vil variere gjennom prosjektperioden, men erfaring tilsier at den største ressursinnsatsen vil være knyttet til behovsavklaringer, møter, testing og opplæring. Tidlig involvering av relevante fagressurser bidrar til raskere beslutninger, bedre kvalitet og mer effektiv innføring av ny funksjonalitet.
+I vedlegg Tentativ fremdriftsplan vil Kunde finne omfang på de ulike aktivitetene og møtene, samt hvilken fagressurs som Leverandøren anbefaler at stiller.
+Arbeidsmøter, oppsett av testmiljø, konfigurasjon og obligatoriske/nødvendige integrasjoner
+Opplæring og arbeidsmøter
+Vi vil starte med å gjennomføre avtalte opplæringsaktiviteter, blant annet opplæring av prosjektgruppen. Hensikten med opplæring for prosjektgruppen er at prosjektdeltakerne skal få kunnskap om Tjenesten og dermed settes i stand til å ta beslutninger i arbeidsmøter relatert til konfigurering, samt en forberedelse til verifikasjon av Tjenesten som skjer senere i prosjektet.
+Leverandøren har satt opp to arbeidsmøter, ett møte har hensikten i å gå gjennomgåelse eksisterende konfigurasjonsdokument for å sikre at Løsningen er satt opp optimalt for Kunden, samt forberede etablering av de moduler og standardintegrasjoner som inngår i Leveransen. Leverandøren vil også gjennomgå i arbeidsmøte Kundes rutiner, prosesser og avklare behov.
+Opprettelse av testmiljø og konfigurering
+Leverandøren vil etableres det avtalte testmiljøet og legger inn konfigurasjonsoppsettet som avtalt og gjennomgått i arbeidsmøter, og klargjør moduler og standardintegrasjoner som er avtalt å bli satt opp til Akseptansetesten. Det vil bli satt opp egne møter for oppsett og installasjon av nye moduler. For detaljer se «vedlegg Tentativ fremdriftsplan»
+Testmiljøet vil bli satt opp tilnærmet identisk med produksjonsmiljøet, noen unntak vil være moduler som krever tredjeparts sertifikater, avtaler eller spesifikke lisensieringsavtaler (slik som integrasjoner mot nasjonale registre, eformidling og lignende).
+Datakopi fra produksjon: For å sikre realistisk testing av arbeidsprosesser og systemfunksjonalitet, vil Leverandøren kopiere produksjonsdatabasen til testmiljøet. Kopien vil inneholde:
+Alle brukere og brukerroller
+All kontaktinformasjon
+Tomme saker og dokumenter (dokumentinnhold vil ikke bli kopiert)
+Denne tilnærmingen gir Forsvarshistorisk museum mulighet til å verifisere systemfunksjonalitet og arbeidsprosesser med realistiske data, samtidig som det bevares fokus på sikkerhet og relevante testscenarioer.
+Når den avtalte løsningen er satt opp og konfigurasjonsoppsettet er implementert, gjennomfører Leverandøren sin test. Etter at Leverandøren har gjennomført sin test sendes en testrapport til Kunden med oversikt over evt. feil eller mangler. For at Kundens godkjenningsprøve kan starte må testrapportens funn være innenfor akseptansekriteriene. Ler mer om test i kapittel 6.
+Databasemigrering
+Siden Forsvarshistorisk museum allerede er etablert kunde med eksisterende løsning i Public 360°, og implementeringen fokuserer på utvidelse av funksjonalitet heller enn etablering av nytt system, vil det ikke være behov for migrering av historiske data.
+Alle nødvendige brukerdata og kontaktinformasjon er allerede tilgjengelig i gjeldende Public 360°-instans og vil automatisk være tilgjengelig for de nye modulene og funksjonaliteten som etableres.
+Leverandørens deltakelse ved håndtering av tredjepartsløsninger
+Leverandøren tilgjengeliggjør et integrasjonsrammeverk som kan benyttes for å sette opp tredjepartsintegrasjoner, og har et vedlikeholdsansvar knyttet til rammeverket. Det er eieren av tredjepartsintegrasjonen som er ansvarlig for å vedlikeholde og sørge for at tredjepartsintegrasjonen er kompatibel med de API-ene som Tjenesten tilgjengeliggjør. Leverandøren bistår ved behov under oppsett av tredjepartsintegrasjonen. Se ansvarsfordelingen i figuren under.
+Figur: Ansvarsfordeling ved tredjepartsintegrasjon
+Test, verifikasjon og fortsettelse av drift
+Når det etableres en ny instans av Tjenesten, skal Leverandøren verifisere at avtalte løsninger som Leverandøren er ansvarlig for, er blitt implementert og klargjort for Kunden. Denne testen er kjent som Leverandørens test (FAT) og gjennomføres normalt før Kundens test starter.
+Kundens akseptansetest og verifikasjon tilpasses leveransens karakter og gjennomføres i Kundens egne testmiljø. Dette betyr at avklaringer, kvalitetssikring og eventuell kontroll av ny funksjonalitet testes i kontrollert Miljø før det vil settes opp mot Produksjonsmiljøet. Akseptansetesten er kunden sitt ansvar, men Leverandør vil bistå.
+Prosjektgruppen verifiserer at avtalt funksjonalitet og relevante arbeidsprosesser fungerer som forventet i testmiljøet. All ny funksjonalitet som dekkes av denne avtalen testes og verifiseres i samråd mellom Kunde og Leverandør, i oppsatte arbeidsmøter som en del av implementeringen.
+Formålet er å sikre en stabil og forutsigbar overgang til ny funksjonalitet, samtidig som prosjektet unngår et mer omfattende testregime enn leveransens omfang og risiko tilsier.
+Akseptansekriterier for Tjenesten er 0 A feil, 5 B feil og 20 C feil, jf. også generell avtaletekst punkt 3.3.
+Eventuelle gjenstående B-feil, innenfor akseptansekriteriene, ved Leveringsdag føres på en restanseliste/resultatrapport med avtalt tidsramme for avklaring. Eventuelle gjenstående C-feil skal kun være mindre feil i standardproduktet og håndteres etter Leverandørens prioriteringsliste for produktforbedringer.
+Etter at Løsningen er godkjent i testmiljet, vil produksjonsmiljø oppdateres med avtalte endringer. Kunde og Leverandør vil gjennomføre en verifisering i samråd, deretter vil Løsningen være produksjonsatt og i vanlig drift.
+Etableringsfasen er planlagt og gjennomføres på en måte som sikrer full kontinuitet i Kundes drift. Det vil ikke være behov for nedetid.
+Test av standardintegrasjoner og tredjepartsintegrasjoner
+Test av eventuelle standardintegrasjoner gjennomføres i fellesskap mellom Kunden, Leverandøren og eventuell tredjepart ettersom gjennomføring forutsetter at personer som skal utføre testen har tilgang til både Tjenesten og tredjepartssystemet for komplett ende-til-ende-test.
+Leverandøren er ikke ansvarlig for å teste kundespesifikke tredjepartsintegrasjoner da standardfunksjonalitet i Tjenesten ikke omfatter tredjepartsløsninger. Dette gjelder tredjepartsintegrasjoner som ikke eies eller drifts av Leverandøren. Nevnte integrasjoner er det Kunden som er ansvarlig for å teste, ofte i samarbeid med tredjepartsleverandør.
+Opplæring og kompetansebygging
+For Forsvarshistorisk museum vil opplæring være en sentral del av leveransen. Gjennom anskaffelsen investerer Virksomheten i ny funksjonalitet og nye muligheter i Public 360°. For å realisere gevinster av investeringen er det avgjørende at organisasjonen har nødvendig kompetanse til å ta funksjonaliteten i bruk og omsette den til mer effektive arbeidsprosesser.
+Erfaring fra tilsvarende prosjekter viser at de største gevinstene ikke oppstår som følge av teknisk etablering alene. Gevinstene oppnås først når brukerne forstår hvordan de nye funksjonene skal benyttes, hvorfor arbeidsprosessene endres og hvordan Tjenestene bidrar til å forenkle arbeidshverdagen.
+Tietos opplæringskonsept er derfor bygget opp rundt kompetansebygging, praktisk anvendelse og organisatorisk forankring.
+Opplæringen gjennomføres rollebasert slik at hver brukergruppe får opplæring tilpasset sine oppgaver og sitt ansvar. Prosjektgruppen og Superbrukere får utvidet kompetanse innen funksjonalitet, arbeidsprosesser og brukerstøtte, slik at de kan fungere som lokale ressurspersoner etter prosjektets avslutning. Arkivpersonell får opplæring med fokus på arkivfaglige prosesser, kvalitetssikring og informasjonsforvaltning, mens saksbehandlere og ledere får opplæring knyttet til de arbeidsprosessene og funksjonene de benytter i sitt daglige arbeid.
+Opplæringen kan gjennomføres som en kombinasjon av workshops, klasseromsundervisning, digitale kurs, brukerveiledninger og praktiske øvelser. Denne tilnærmingen gir brukerne mulighet til å repetere innhold og videreutvikle kompetansen også etter at prosjektet er avsluttet.
+Alle sluttbrukerne vil få tilgang til E-læring i hele kontraktsperioden.
+Leverandørens opplæringsaktiviteter er tilpasset Kundes ønskede opplæringsmengde ihht prisliste.
+Oppsummert kursoversikt
+Oppsummerende oversikt over antall opplæringsaktiviteter inkludert i leveransen:
+Kursoversikt
+Avtalens punkt 3.2 Leveransefrist og leveransemelding
+Tidspunkt for etablering og aktivering av de enkelte modulene og funksjonsområdene avtales mellom partene etter kontraktsinngåelse og dokumenteres i prosjektplanen.
+Når avtalt funksjonalitet er etablert og tilgjengelig for Forsvarshistorisk museum, oversender Tieto leveransemelding i henhold til avtalens bestemmelser.
+Avtalens punkt 3.3 Akseptansetest og leveringsdag
+Leveransen omfatter videreutvikling av Forsvarshistorisk museum eksisterende Public 360°-løsning. Det legges derfor ikke opp til en særskilt godkjenningsprøve utover avtalens standardbestemmelser. Nødvendig verifikasjon av ny funksjonalitet og eventuelle integrasjoner gjennomføres som en del av prosjektets kvalitetssikring før produksjonssetting.
+Avtalens punkt 3.4 Dokumentasjon og opplæring
+Dokumentasjon som er nødvendig for å ta i bruk avtalt funksjonalitet, gjøres tilgjengelig som en del av leveransen. Dette kan omfatte relevant brukerdokumentasjon, veiledninger, kursmateriell og annen informasjon som understøtter opplæring, test og overgang til ordinær bruk.
+Opplæringsopplegget avtales nærmere i etableringsfasen og tilpasses Forsvarshistorisk museum roller, behov og valgte funksjonsomfang.

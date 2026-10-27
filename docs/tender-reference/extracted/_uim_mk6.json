@@ -1,0 +1,159 @@
+{
+  "mk6": {
+    "#": "6",
+    "ReqID": "MK-6",
+    "Document": "Bilag 1.b",
+    "Section (Headline)": "Generelle krav",
+    "Requirement title": "Håndtering af sletteregler",
+    "Requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen.",
+    "Requirement type": "Mindstekrav",
+    "Action": "Verify",
+    "Indgår i officiel krav-count?": "Ja",
+    "Vægt": "",
+    "Round #1": "",
+    "Responsible": "Morten",
+    "Reviewer": "",
+    "Module": "",
+    "Can we meet the requirement?": "3. Not able to meet",
+    "Comment": "ADN: \"Sletteregler for alle entiteter\", kan vi sige at vi har det på kontakter?",
+    "Commitment needed?": "",
+    "Risk Element?": "",
+    "Cost Driver": "",
+    "Link to answer document": "",
+    "Status (phase)": "Not Started",
+    "Status (%)": "0"
+  },
+  "related": {
+    "Commitment": [
+      {
+        "Req ID": "MK-6",
+        "Included": "3. Not able to meet"
+      },
+      {
+        "Req ID": "MK-6",
+        "Included": "3. Not able to meet"
+      }
+    ],
+    "Risk Management": [
+      {
+        "Req ID": "MK-6",
+        "Included": "ADN: \"Sletteregler for alle entiteter\", kan vi sige at vi har det på kontakter?",
+        "Requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen.",
+        "Risk Element": "Describe",
+        "Severity": "High",
+        "Issue description": "We are unable to meet requirement",
+        "Mitigation": "We build a new module",
+        "Comment": "Their budget is not big enough for this.",
+        "Decision": "No bid",
+        "Decider": "Name",
+        "Decision date": "46023",
+        "Conditions for Approval": "-"
+      },
+      {
+        "Req ID": "MK-6",
+        "Included": "ADN: \"Sletteregler for alle entiteter\", kan vi sige at vi har det på kontakter?",
+        "Requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen."
+      }
+    ],
+    "Cost Drivers": [
+      {
+        "Req ID": "MK-6",
+        "Included": "0",
+        "Requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen.",
+        "Reason for increased cost": "Describe",
+        "Severity": "High",
+        "Estimated increase in cost": "Estimation - DKK or EUR value and/or ressource use.",
+        "Estimator": "Name",
+        "Estimation date": "46023",
+        "Included in pricing": "Yes"
+      },
+      {
+        "Req ID": "MK-6",
+        "Included": "0",
+        "Requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen."
+      }
+    ]
+  },
+  "context": [
+    {
+      "req_id": "MK-4",
+      "title": "GDPR – Ret til indsigt i egne personoplysninger",
+      "can_meet": "1. Fully met",
+      "responsible": "Anton",
+      "comment": "",
+      "requirement": "ESDH-løsningen skal understøtte fremsøgning, sammenstilling og udlevering af personoplysninger om den registrerede i overensstemmelse med GDPR-artikel 15. ESDH-løsningen skal ligeledes understøtte behandling af anmodninger fremsat af en lovlig repræsentant for den registrerede, herunder forældremyndighed eller værgemål. Udleveringen skal kunne leveres i et almindelig læsbart format og skal kunne fremsendes til den registrerede via Digital Post, sikker e-mail og fjernprint."
+    },
+    {
+      "req_id": "MK-5",
+      "title": "Anmodninger fra registrerede",
+      "can_meet": "1. Fully met",
+      "responsible": "Anton",
+      "comment": "",
+      "requirement": "ESDH-løsningen skal understøtte håndtering af indsigts-, slette- og berigtigelsesanmodninger fra de registrerede i Løsningen."
+    },
+    {
+      "req_id": "MK-6",
+      "title": "Håndtering af sletteregler",
+      "can_meet": "3. Not able to meet",
+      "responsible": "Morten",
+      "comment": "ADN: \"Sletteregler for alle entiteter\", kan vi sige at vi har det på kontakter?",
+      "requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen."
+    },
+    {
+      "req_id": "MK-7",
+      "title": "Opsætning af slettepolitikker",
+      "can_meet": "1. Fully met",
+      "responsible": "Anton",
+      "comment": "",
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden selv uden Leverdørens involvering kan konfigurere slettepolitikker i Løsningens administrationsmodul."
+    },
+    {
+      "req_id": "MK-8",
+      "title": "Klassifikationskoder",
+      "can_meet": "1. Fully met",
+      "responsible": "Anton",
+      "comment": "",
+      "requirement": "ESDH-løsningen skal understøtte, at klassifikationskoder kan oprettes af Administrator, hvortil Kunden valgfrit kan bestemme hvilke klassifikationskoder Løsningen skal indeholde."
+    },
+    {
+      "req_id": "MK-4",
+      "title": "Arkivloven",
+      "can_meet": "",
+      "responsible": "",
+      "comment": "",
+      "requirement": "Leverandøren skal sikre, at ESDH-løsningen understøtter Kundens forpligtelser i medfør af Arkivloven."
+    },
+    {
+      "req_id": "MK-5",
+      "title": "NIS2",
+      "can_meet": "",
+      "responsible": "",
+      "comment": "",
+      "requirement": "Leverandøren skal sikre, at ESDH-løsningen, herunder drift, support og udvikling, understøtter Kundens forpligtelser i medfør af NIS2-direktivet."
+    },
+    {
+      "req_id": "MK-6",
+      "title": "Statens tekniske minimumskrav",
+      "can_meet": "",
+      "responsible": "",
+      "comment": "",
+      "requirement": "Leverandøren skal sikre, at EDSH-løsningen opfylder de tekniske minimumskrav til it-sikkerhed for statslige Myndigheder, hvor disse har implikation for ESDH-løsningen."
+    },
+    {
+      "req_id": "MK-7",
+      "title": "Leverandørens single point of contact",
+      "can_meet": "",
+      "responsible": "",
+      "comment": "",
+      "requirement": "Leverandøren skal oplyse en Single Point of Contact (SPOC) for Leverandørens sikkerhedsorganisation, som er i stand til at sikre en effektiv håndtering ved it-sikkerhedsbrud. Servicemålene for it-sikkerhedsbrud er uddybet i Bilag 1.h Servicemål. Ved aktivering af sikkerhedsberedskabet, skal Leverandøren kunne indgå i Kundens sikkerhedsorganisation."
+    },
+    {
+      "req_id": "MK-8",
+      "title": "Informations-sikkerhed under driftsforstyrrelse",
+      "can_meet": "",
+      "responsible": "",
+      "comment": "",
+      "requirement": "Leverandøren skal efterleve kravene i ISO 27001, Anneks A, punkt 5.29\n\nOrganisationen skal planlægge, hvordan informationssikkerhed opretholdes på et passende niveau under driftsforstyrrelser. \n\nESDH Leverandøren skal indgå i et samarbejde med Kunden og driftsleverandøren for at opnå dette."
+    }
+  ]
+}

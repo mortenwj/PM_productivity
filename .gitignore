@@ -63,9 +63,7 @@ Thumbs.db
 /_bmad-output/
 /design-artifacts/
 
-# Tender reference library (sensitive bid material — keep local unless policy allows)
-docs/tender-reference/source/
-docs/tender-reference/extracted/
+# Tender reference library — source + extracted tracked in private repo; zip bundles stay local
 docs/tender-reference/export/*.zip
 
 # Generated outputs (structure only in git)

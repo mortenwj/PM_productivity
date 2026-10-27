@@ -1,0 +1,411 @@
+## sheet1.xml
+Krav nr	Krav	Dekning i standard – eksplisitt (internt)	Dekning i standard – felles mekanisme (internt+eksternt)	RDF – helhetlig løsning eller annen custom løsning	Eksterne eksplisitt nevnt
+1.67 (A) – Automatisk metadata Gransket/Godkjent/Signert av	Metadataverdier av typen "gransket av", "godkjent av" og "signert av" skal settes automatisk av systemet koblet til at aktiviteten blir utført i en dokumentflyt og være loggført i Skytjensten. Metadataverdiene skal ikke kunne redigeres manuelt.	Delvis oppfylt	Ikke oppfylt	Oppfylles (trolig)
+1.94 – Arbeidsflyt for dokumenter	Skytjenesten bør ha funksjonalitet for å sende dokumenter enkelt på arbeidsflyt, enkeltvis eller en gruppe av dokumenter. Med arbeidsflyt menes:
+- Sende på høring/granskning
+- Sende på godkjenning
+- Sende til signering
+- Distribuere for at mottager skal kvittere "lest og forstått"	Delvis oppfylt	Ikke oppfylt	Oppfylles (trolig)
+1.101–1.103 – Avslag, tidsfrister, tvingende/mindre streng flyt	Dersom én av mottagerne i en dokumentflyt gir avslag eller ikke godkjenner bør flyten avbrytes.
+
+Det bør være mulig for saksbehandler å sette en tidsfrist for mottagerne i en dokumentflyt til å utføre oppgaven de er tildelt. Mottagerne bør få varsel før og etter fristen er utløpt.
+
+Det bør være mulig å ha både tvingende dokumentflyter der flyten ikke kan fullføres før alle mottagere har utført sin oppgave og mindre strenge dokumentflyter der det er mulig for saksbehandler å avlutte flyten etter at fristen har gått ut selv om ikke alle deltagere har utført sin oppgave. I slike tilfeller bør det loggføres hvilke deltagere som har og ikke har fullført sin oppgave.	Oppfylt	Ikke oppfylt	Oppfylles (trolig)
+1.104 (A)  – Digital signering	Skytjenesten skal ha støtte for å kunne sende dokumenter til digital, personunik og rettslig bindende signering av dokumenter. Det skal være mulig å sende til både interne og eksterne for signering.	Delvis oppfylt	Ikke oppfylt	Oppfylles (trolig)	Ja
+1.37 – Sikker deling uten ordinær bruker	Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol.
+
+Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)
+
+Behov kan være:
+- Ekstern part trenger tilgang til ett eller fler dokumenter midlertidig for å utføre et oppdrag på vegne av Kunden, eksempelvis tilgang til områdekart eller annen anleggsdokumentasjon.
+- Ekstern part skal granske og kommentere et dokument på oppdrag fra Kunden.
+- Ekstern part skal produsere et dokument i samarbeid med Kundens ansatte.
+- Ekstern part er medlem i et av Kundens utvalg, feks Sikkerhetskommitéen og behøver tilgang til møtedokumenter.
+Beskriv om Skytjenesten har mulighet for sikker deling av dokumenter med eksterne parter.
+
+Beskrivelsen bør inkludere:
+- Hvordan tilgangsstyring ivaretas
+- Hvordan logging av hvilke brukere som har åpnet/endre et dokument ivaretas.
+- Hvordan versjonskontroll for dokumentet som redigeres ivaretas.	Oppfylt for intene ikke for eksterne	Delvis / ikke oppfylt
+granske - ikke
+samskriving - støttet
+utvalg kan være støttet
+kontekst er min side, ikke støttet som en felles løsning	Oppfylles (trolig)	Ja
+1.46 – Automatisk tilgang for mottakere	Brukere som får dokumenter tilsendt på granskning, høring, signering bør få lesetilgang til dokumentet inkl. vedlegg og refererte dokumenter uten at saksbehandler (eller andre) skal måtte tildele tilgang manuelt. Mottager bør ikke ha mulighet til å dele dokumentene videre i den tiden hen har tilgang.
+Beskriv hvordan mottagere i en arbeidsflyt får lesetilgang til et dokument de er bedt om å behandle samt om tilgangen også dekker dokumenter på referanselisten.
+Beskriv også om tilgangen opphører når mottager har utført sin oppgave samt hvilke muligheter mottager har til å dele dokumentet videre i den tiden hen har tilgang.	Delvis oppfylt, ulikepotensielle løsninger.  Med standard arbeidsflyt støtet via rettighetsmatrise.	Ikke oppfylt	Oppfylles (trolig)
+1.98 – Eksterne mottakere i flyt	Det bør være mulig å sette eksterne personer som mottager i en dokumentflyt, eksempelvis skal en ekstern ekspert kunne granske et dokument i en flyt, parallelt eller i serie, med andre interne granskere.
+
+Beskriv hvordan dette ivaretas i Skytjenesten samt hvordan og hvilke tilganger mottageren får til dokumentet og hvordan det logges at mottager har utført oppgaven.	Ikke oppfylt	Delvis oppfylt, amnuelt. Krasjer med andre krav.	Oppfylles (trolig)	Ja
+1.99 – Kommentarer ved beslutning	Mottager i en dokumentflyt bør kunne gi kommentarer knyttet til sin beslutning om å utføre oppgaven eller avslå. Det bør være mulig for saksbehandler å velge om mottager skal kunne knytte kommentarer direkte til avsnitt i dokumentet eller gi sine kommentarer sammenstilt i et kommentarfelt.	Ikke oppfylt	Delvis oppfylt	Oppfylles (trolig)
+1.100 – Rapport over kommentarer	Det bør være mulig å generere en rapport som sammenstiller kommentarer fra flyter et dokument har vært igjennom slik som gransking, høring og godkjenning, samt eksportere listen til word, excel eller pdf.	Delvis oppfylt, per flyt ikke alle flyter for ett dokument.	Ikke oppfylt	Oppfylles (trolig)
+1.71–1.72 – Header-tabell og sperring	Det bør være mulig å flette metadata fra registreringen eller dokumentbeskrivelsen inn i en "header-tabell" i dokumentobjektet.
+Eksempel på slike metadata er:
+- Versjon, feks versjon 3 av 5
+- hvem som har utarbeidet dokumentet
+- hvem som har gransket dokumentet
+- hvem som har godkjent dokumentet
+- om dokumentet har vært oppe til et formelt møte eksempelvis sikkerhetskomitéen
+- "gyldighetsperiode fra -til" 
+- merking iht. sikkerhetsloven.
+
+NB! Med "header-tabell" menes ikke det samme som topp og bunntekst. Se Bilag 1 Vedlegg 3.
+
+Det bør ikke være mulig å endre metadataverdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet. Det er viktig at disse opplysningene er pålitelige og ikke kan manipuleres.	Oppfylt/delvis oppfylt, måp sees I kontekst av valgte løsninger for flyt.	Ikke oppfylt	Oppfylles (trolig)
+1.73 – Metadata på eksterne PDF	Det bør være mulig for Kunden å merke pdf-dokumenter utarbeidet av eksterne fageksperter på tilsvarende måte som "header-tabellen" beskrevet over, slik at dokumentene påføres metadataverdier som er nødvendige for dokumentets gyldighet og bruksverdi, etter at de har gjennomgått saksbehandling med gransking, godkjenning og utvalgsbehandling på samme måte som dokumenter som er utarbeidet internt.
+
+Med papirdokumenter ble dette løst ved å tilføre dokumentene en ekstra forside der metadataverdiene ble fylt ut manuelt og deretter skannet inn. Kunden mottar nå dokumentene digitalt i pdf-format.	Ikke oppfylt, men kan trolig konfigureres på en eller annen måte se andre excel.	Delvis oppfylt	Oppfylles (trolig)	Ja, men ulik kontekst
+1.95 – Oversikt over flyter	Det bør være mulig for saksbehandler å se hvilke faste dokumentflyter som er konfigurert i Skytjenesten samt om respektive flyt er generell, det vil si tilgjengelig for alle saker og dokumenter, eller laget for en spesifikk dokumentkategori eller sakstype.
+
+Beskriv hvordan tilgjengelige dokumentflyter presenteres/visualiseres for brukeres samt om flytene er knyttet til spesifikke saktyper eller dokumentkategorier eller er tilgjengelige for alle. Legg gjerne ved skjermdump. Eventuelle vedlegg skal merkes med korrekt Krav ID.	Delvis oppfylt, kan argumentere for ikke oppfylt gitt kontekstuell forståelse. Flyt spesifikt for sakstyker, dokumentkategorier er jo ikke støttet. Sees I kontekst av krav om egendefinerte flyter (der vi har svart at de kan egendefineres innenfor standard med settings..)	Ikke oppfylt	Oppfylles (trolig)
+1.96 – Endringer i flyt ikke påvirke igangsatte	Dersom administrator gjør endringer i en dokumentflyt bør endringene tre i kraft neste gang noen starter den aktuelle flyten og ikke påvirke dokumenter som hadde startet flyten før endringen ble gjort.	Delvis oppfylt. Kontekst er at de skal kunne lage egne arbeidsflyter som I seg selv er tvilsomt om går, og om er mulig å lage custom wf - dekker de hensikten?	Ikke oppfylt	Oppfylles (trolig)
+1.97 – Grupper og tilleggs­mottakere	Det bør være mulig å knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt. Gruppene bør kunne være basert både på organisasjonsrolle og navn/personlig bruker. Saksbehandler bør i tillegg kunne legge til brukere manuelt samt legge til ekstra mottager også etter at flyten er startet uten å måtte avbryte flyten.
+
+Beskriv hvilke muligheter for å:
+1. knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt
+2. angi faste mottagere både som organisasjonsrolle og navn/personlig bruker
+3. legge til en ekstra bruker manuelt
+4. legge til en ekstra bruker etter at flyten er startet uten å måtte avbyte flyten.	Delvis oppfylt (4 tror jeg ikke er støttet)	Ikke oppfylt	Oppfylles (trolig)
+1.77 – Levende dokumenter	Skytjenesten bør ha funksjonalitet for å ivareta behov relatert til arkivverdige "levende dokumenter" som beskrevet i Brukerscenario 1.
+
+Beskriv hvordan Skytjenesten kan ivareta behovene og problemstillingene i "Brukerscenario 1" beskrevet i Bilag 1 Vedlegg 2 - Brukerscenarier. Dette gjøres ved å svare ut problemstillingene som er angitt i spørsmål 1-6 under "Brukerscenario 1".	Delvis oppfylt,  implisitt støtte for eksterne via krav selv om ikke eksplisitt nevnt I brukerhistorie.	Ikke oppfylt	Oppfylles (trolig)
+1.82 – Store dokumenter	Skytjenesten bør kunne håndtere store dokumenter (10-30 MB) uten at dette påvirker brukervennligheten ved håndtering av dokumentene.
+Beskriv eventuelle begrensninger i Skytjenesten for tunge filer og påvirkning på ytelse/responstid ved vanlige operasjoner slik som:
+- Åpne et dokument
+- Ekspedere et dokument
+- Ekspedere samme dokument til mange mottagere.
+- Sende et dokument på godkjenning/høring/gransking
+- Dele et dokument som del av innkalling til eksterne deltagere i nemd/formelt møte"	Oppfylt	Ikke oppfylt	Oppfylles (trolig)
+1.140 – Integrasjoner (gradert miljø)	Det bør være mulig å etablere integrasjoner mellom Skytjenesten for Sikkerhetsgradert dokumentasjon og følgende systemer:
+
+1. Arkivere arbeidsordre og logger fra fagsystemene Vircore (FLYT) og View Maintenance
+2. Oppdatere status på et objekt i fagsystem for «objektregister» trigget av saksbehandlingaktiviteter (gransking og godkjenning) i Skytjenesten.
+3. Knytte dokument i Skytjenesten til objekt i system for objektregister slik at bruker i objektregisteret kan klikke på en link som åpner dokumentet.
+4. Eksport av logger fra Skytjenesten til Kundens sentrale loggtjeneste Splunk
+5. Eksport av data fra Skytjenesten til Kundens tjeneste for sikkerhetsovervåkning, Security Incident and Event Management (SIEM)
+
+Aktuelle systemer vil være på samme plattform og samme nettverk som Skytjenesten for Sikkerhetsgradert dokumentasjon.
+
+Beskriv anbefalt API for og eventuell erfaring med de ulike systemene fra listen. Ved en tosystemløsning bør det tydelig framgå hvilket av de to systemene som skal integreres med respektive fagsystem.	Delvis oppfylt - custom integrasjon men det må være lov å tilby	Ikke oppfylt	Oppfylles (trolig)
+1.33 – Stedfortreder	For hver bruker bør det være mulig å angi en annen bruker som "stedfortreder". Stedfortrederen overtar brukerens aktiviteter i Skytjenesten dersom brukeren er satt til inaktiv. Hensikten er å sikre kontinuitet i prosesser som gransking og godkjenning dersom en bruker er fraværende over lenger tid feks på grunn av permisjon, ferie eller sykemelding.	Oppfylt	Ikke oppfylt	Oppfylles (trolig)
+## sheet2.xml
+Område	RDF_rel	Eksterne løst med RDF	Krav	Krav nr	Dekning I standard	Kommentar	RDF status	Dekning standard – uten eksterne	Gjelder eksterne (premiss)	Standard status – gitt premiss (med eksterne)	Blokkårsaktype (standard vs premiss)
+1. Intern gransking, godkjenning og signering	Kan foreslå en løsnng der RDF appen oppdaterer metadata automatisk via API kall når arbeidsflyt er initiert fra p360 og ferdigstilt med gitt status.	Kan foreslå en løsnng der RDF appen oppdaterer metadata automatisk via API kall når arbeidsflyt er initiert fra p360 og ferdigstilt med gitt status.	Metadataverdier av typen "gransket av", "godkjent av" og "signert av" skal settes automatisk av systemet koblet til at aktiviteten blir utført i en dokumentflyt og være loggført i Skytjensten. Metadataverdiene skal ikke kunne redigeres manuelt.	1.67 (A) – Automatisk metadata Gransket/Godkjent/Signert av	Kravet er delvis støttet, men kun i scenarioer der kun interne kontakter benyttes. Metadatafeltet "godkjenner" kan settes automatisk, men det benyttes feil ledetekst i dagens løsning, men det kan være akseptabelt for vi kan alltids flette feltet til header-tabell som "gransker". Ved bruk av arbeidsflyt Send til Gjennomgang låses metadatafeltene ved ferdigstillelse basert på rettighetsmatrisen, noe som ivaretar integritet. Delvis pga mangler støtte for eksterne. 
+
+Vi så bl.a. på alternativ løsning der metadata legges inn manuelt ved å definere dokumentkontakt med rollen Gransker etter avsluttet prosess – dette er imidlertid ikke i tråd med krav, da det innebærer manuell redigering.
+
+Ved denne fremgangsmåten kan vi låse metadatafeltene ved ferdigstillelse av dokumentet, basert på rettighetsmatrisen, noe som delvis ivaretar integritet, men oppfyller ikke kravet om automatisk systemhendelse fullt ut.	Kan foreslå en løsnng der RDF appen oppdaterer metadata automatisk via API kall når arbeidsflyt er initiert fra p360 og ferdigstilt med gitt status.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+Støtte I RDF appen	Støtte I RDF appen	Skytjenesten bør ha funksjonalitet for å sende dokumenter enkelt på arbeidsflyt, enkeltvis eller en gruppe av dokumenter. Med arbeidsflyt menes:
+- Sende på høring/granskning
+- Sende på godkjenning
+- Sende til signering
+- Distribuere for at mottager skal kvittere "lest og forstått"	1.94 – Arbeidsflyt for dokumenter	1. Generell støtte for arbeidsflytfunksjonalitet
+
+Kravet er delvis oppfylt, men forutsetter visse tolkninger og har noen begrensninger, spesielt i håndtering av eksterne kontakter og hvordan "dokument" er definert i praksis.
+
+2. Høring og granskning
+
+Sende på høring kan i stor grad løses med dagens funksjon for å sende dokumenter inn og ut. Dette samsvarer med vanlig definisjon av høring.
+
+Granskning, slik det er beskrevet i kravet, er mer krevende og støttes ikke fullt ut – spesielt ikke for eksterne kontakter. Her stilles det gjerne særskilte krav til metadata og godkjenningsroller.
+
+3. Godkjenning og signering
+
+Sende til godkjenning støttes for interne kontakter i en viss grad, men mangler full støtte som automatisert systemprosess som kan skille mellom interne og eksterne flyter.
+
+Signering kan løses gjennom integrasjon med 360° sign. Det er likevel viktig å merke seg at signering virker å være tenkt som en delprosess i en helhetlig arbeidsflyt, ikke en separat aktivitet.
+
+4. Masseutsendelse / dokumentgrupper
+
+Kravet tolkes som oppfylt under forutsetning av at “dokument” refererer til filer og ikke til “dokumentkort”. Dersom man legger til grunn at dokumentkort er det som menes, støttes normalt ikke masseutsendelse, og man må sende ett og ett dokumentkort.	Støtte I RDF appen	Oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+Støtte I RDF appen, parameterstyre om prosessen skal være tvunget/sekvensiell eller paralell, intrykk av at dette skal kunne defineres ved opprettelse av arbeidflyt for ett dokument initiert via rdf appen ved "ny dokumentflyt" (mange regler)	Støtte I RDF appen, parameterstyre om prosessen skal være tvunget/sekvensiell eller paralell, intrykk av at dette skal kunne defineres ved opprettelse av arbeidflyt for ett dokument initiert via rdf appen ved "ny dokumentflyt" (mange regler)	Dersom én av mottagerne i en dokumentflyt gir avslag eller ikke godkjenner bør flyten avbrytes.
+
+Det bør være mulig for saksbehandler å sette en tidsfrist for mottagerne i en dokumentflyt til å utføre oppgaven de er tildelt. Mottagerne bør få varsel før og etter fristen er utløpt.
+
+Det bør være mulig å ha både tvingende dokumentflyter der flyten ikke kan fullføres før alle mottagere har utført sin oppgave og mindre strenge dokumentflyter der det er mulig for saksbehandler å avlutte flyten etter at fristen har gått ut selv om ikke alle deltagere har utført sin oppgave. I slike tilfeller bør det loggføres hvilke deltagere som har og ikke har fullført sin oppgave.	1.101–1.103 – Avslag, tidsfrister, tvingende/mindre streng flyt	Støttet for interne kontakter.	Støtte I RDF appen, parameterstyre om prosessen skal være tvunget/sekvensiell eller paralell, intrykk av at dette skal kunne defineres ved opprettelse av arbeidflyt for ett dokument initiert via rdf appen ved "ny dokumentflyt" (mange regler)	Oppfylt	Oppfylt	1	Ikke oppfylt	Kun ekstern-blokk
+Kan løses med 360° sign, men I den større konteksten her kan det se ut til at det også er hensiktsmessing å vurdere det som en del av en RDF flyt.	Kan løses med 360° sign, men I den større konteksten her kan det se ut til at det også er hensiktsmessing å vurdere det som en del av en RDF flyt.	Skytjenesten skal ha støtte for å kunne sende dokumenter til digital, personunik og rettslig bindende signering av dokumenter. Det skal være mulig å sende til både interne og eksterne for signering.	1.104 (A)  – Digital signering	Støttet via 360° eSignering I standard, men denne oppdaterer muligens ulike metadata felt enn f.eks. Intern arbeidsflyt som igjen fører til problemer med fletting av metadataen I maler, presentasjon/Brukervennlighet I GUI.	Kan løses med 360° sign, men I den større konteksten her kan det se ut til at det også er hensiktsmessing å vurdere det som en del av en RDF flyt.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+2. Ekstern samhandling og gransking	Argument for RDF app, vi har ikke støtte for eksterne I intern dokumentflyt. Merk at de også her nevner andre arbeidsformer som samskriving, som kan løses med modul for integerasjon med Sharepoint. Møtehåndtering som kan løses "på vanlig vis" men siden dette er knyttet opp mot/nevnt i kontekst til denne "Min side", kan det jo hende det er aktuelt å kunne dele møtepapirer her i en safe kanal, ikke delt i andre usikre kanaler som epost, eller kanskje også modulene eMeetings prepare/live. 
+
+Ulike prosesser her som skal løses via Min side: 1) Gransking, 2) Samskriving (f.eks. I Sharepoint eller teams), 3) Møte og utvalg. 
+
+For 1) Skal eksterne kontakter kunne samskrive på dokument i granskningsflyt? Det er i så fall ikke i samsvar med innledende beskrivelse i samme krav. 
+
+for 3) føringer for møteog utvalg, det betyr at de som er medlemmer da ikke følger samme prosess som interne. I vanlig praksis lages jo møtedok i 360 og distribueres eller deles via emeetings prepare/live - skal det fortsatt gjelde for interne, hvorfor ikke eksterne? likt prinsipp som politikere i kommune egentlig. ikke beskrevet godt nok. krav 1.82 nevner Deling av stort dokument i konteksten.	Argument for RDF app, vi har ikke støtte for eksterne I intern dokumentflyt. Merk at de også her nevner andre arbeidsformer som samskriving, som kan løses med modul for integerasjon med Sharepoint. Møtehåndtering som kan løses "på vanlig vis" men siden dette er knyttet opp mot/nevnt i kontekst til denne "Min side", kan det jo hende det er aktuelt å kunne dele møtepapirer her i en safe kanal, ikke delt i andre usikre kanaler som epost, eller kanskje også modulene eMeetings prepare/live. 
+
+Ulike prosesser her som skal løses via Min side: 1) Gransking, 2) Samskriving (f.eks. I Sharepoint eller teams), 3) Møte og utvalg. 
+
+For 1) Skal eksterne kontakter kunne samskrive på dokument i granskningsflyt? Det er i så fall ikke i samsvar med innledende beskrivelse i samme krav. 
+
+for 3) føringer for møteog utvalg, det betyr at de som er medlemmer da ikke følger samme prosess som interne. I vanlig praksis lages jo møtedok i 360 og distribueres eller deles via emeetings prepare/live - skal det fortsatt gjelde for interne, hvorfor ikke eksterne? likt prinsipp som politikere i kommune egentlig. ikke beskrevet godt nok. krav 1.82 nevner Deling av stort dokument i konteksten.	Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol.
+
+Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)
+
+Behov kan være:
+- Ekstern part trenger tilgang til ett eller fler dokumenter midlertidig for å utføre et oppdrag på vegne av Kunden, eksempelvis tilgang til områdekart eller annen anleggsdokumentasjon.
+- Ekstern part skal granske og kommentere et dokument på oppdrag fra Kunden.
+- Ekstern part skal produsere et dokument i samarbeid med Kundens ansatte.
+- Ekstern part er medlem i et av Kundens utvalg, feks Sikkerhetskommitéen og behøver tilgang til møtedokumenter.
+Beskriv om Skytjenesten har mulighet for sikker deling av dokumenter med eksterne parter.
+
+Beskrivelsen bør inkludere:
+- Hvordan tilgangsstyring ivaretas
+- Hvordan logging av hvilke brukere som har åpnet/endre et dokument ivaretas.
+- Hvordan versjonskontroll for dokumentet som redigeres ivaretas.	1.37 – Sikker deling uten ordinær bruker	Tilgjengelig funksjonalitet i dag
+
+Skytjenesten har ikke innebygget støtte for "Min side"-funksjonalitet eller annen løsning for sikker visning av dokumenter for eksterne brukere uten ordinær pålogging (PublicFile delvis, men krever at dokument ikke er untatt offentligheten).
+
+Det finnes ikke støtte for ekstern deltakelse i intern arbeidsflyt i standardløsningen.
+
+Samskriving og deling kan trolig r løses via SharePoint-integrasjon, forutsatt at SharePoint allerede finnes i kundens systemlandskap. Dette vurderes som den best egnede løsningen innenfor dagens støtte, men det kan være aspekter som taler imot dette. De spør egentlig om en Min side lsønign for alle disse områdene. 
+
+Alternativt kan Teams benyttes til samarbeid, men dette dekker ikke krav om gransking eller beskyttet visning.	Argument for RDF app, vi har ikke støtte for eksterne I intern dokumentflyt. Merk at de også her nevner andre arbeidsformer som samskriving, som kan løses med modul for integerasjon med Sharepoint. Møtehåndtering som kan løses "på vanlig vis" men siden dette er knyttet opp mot/nevnt i kontekst til denne "Min side", kan det jo hende det er aktuelt å kunne dele møtepapirer her i en safe kanal, ikke delt i andre usikre kanaler som epost, eller kanskje også modulene eMeetings prepare/live. 
+
+Ulike prosesser her som skal løses via Min side: 1) Gransking, 2) Samskriving (f.eks. I Sharepoint eller teams), 3) Møte og utvalg. 
+
+For 1) Skal eksterne kontakter kunne samskrive på dokument i granskningsflyt? Det er i så fall ikke i samsvar med innledende beskrivelse i samme krav. 
+
+for 3) føringer for møteog utvalg, det betyr at de som er medlemmer da ikke følger samme prosess som interne. I vanlig praksis lages jo møtedok i 360 og distribueres eller deles via emeetings prepare/live - skal det fortsatt gjelde for interne, hvorfor ikke eksterne? likt prinsipp som politikere i kommune egentlig. ikke beskrevet godt nok. krav 1.82 nevner Deling av stort dokument i konteksten.	Delvis oppfylt	Delvis oppfylt	0	Delvis oppfylt	Kun annen
+ikke støttet I standard, og argument for RDF app. Litt usikker på hvordan denne delingen skal gjøres uatomatisk ,men da kanskje basert på registrerte dokumentkontakter med rolle gransker. Disse har fødselsnummer registrert, dette gjenbrukes ift autentisering i portalen.	ikke støttet I standard, og argument for RDF app. Litt usikker på hvordan denne delingen skal gjøres uatomatisk ,men da kanskje basert på registrerte dokumentkontakter med rolle gransker. Disse har fødselsnummer registrert, dette gjenbrukes ift autentisering i portalen.	Brukere som får dokumenter tilsendt på granskning, høring, signering bør få lesetilgang til dokumentet inkl. vedlegg og refererte dokumenter uten at saksbehandler (eller andre) skal måtte tildele tilgang manuelt. Mottager bør ikke ha mulighet til å dele dokumentene videre i den tiden hen har tilgang.
+Beskriv hvordan mottagere i en arbeidsflyt får lesetilgang til et dokument de er bedt om å behandle samt om tilgangen også dekker dokumenter på referanselisten.
+Beskriv også om tilgangen opphører når mottager har utført sin oppgave samt hvilke muligheter mottager har til å dele dokumentet videre i den tiden hen har tilgang.	1.46 – Automatisk tilgang for mottakere	1. Tilgangsstyring i arbeidsflyt (interne brukere)
+
+For interne kontakter i standard arbeidsflyt, vurderes det som sannsynlig at kravet i hovedsak er støttet gjennom eksisterende funksjonalitet, inkludert:
+
+Rettighetsmatrise, som automatisk gir mottaker tilgang til dokumentet basert på rolle og arbeidsflyttrinn.
+
+Automatisk tildeling av lesetilgang til dokumentet ved granskning, godkjenning eller signering.
+2. Automatikk i rettighetstildeling
+
+Det er noe uklarhet i kravet om hvorvidt det forventes:
+
+Automatisk tildeling av tilgang (dvs. systemet setter lesetilgang uten manuell inngripen), eller
+
+Sømløs flytinitiering, der systemet også automatisk velger riktige kontakter basert på saksinformasjon (f.eks. ansvarlig enhet, sakstilknytning).
+
+Per i dag støttes automatisk tilgangstildeling i standard intern flyt, men ikke nødvendigvis automatisk valg av mottaker uten oppsett eller manuell spesifisering.
+
+Tilgang opphører normalt når oppgaven er utført og dokumentet eventuelt er ferdigstilt/låst.
+
+Likevel vil graden av støtte kunne variere avhengig av valgt løsning for arbeidsflyt (standard flyt, signering, SharePoint-deling).	ikke støttet I standard, og argument for RDF app. Litt usikker på hvordan denne delingen skal gjøres uatomatisk ,men da kanskje basert på registrerte dokumentkontakter med rolle gransker. Disse har fødselsnummer registrert, dette gjenbrukes ift autentisering i portalen.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+Argument for RDF app. Ikke støtte I standard. Viktig at det her lenkes til interne også, som er argument for samlet løsning og ikke skille mellom eksterne og interne.	Argument for RDF app. Ikke støtte I standard. Viktig at det her lenkes til interne også, som er argument for samlet løsning og ikke skille mellom eksterne og interne.	Det bør være mulig å sette eksterne personer som mottager i en dokumentflyt, eksempelvis skal en ekstern ekspert kunne granske et dokument i en flyt, parallelt eller i serie, med andre interne granskere.
+
+Beskriv hvordan dette ivaretas i Skytjenesten samt hvordan og hvilke tilganger mottageren får til dokumentet og hvordan det logges at mottager har utført oppgaven.	1.98 – Eksterne mottakere i flyt	Per i dag støtter ikke Skytjenesten bruk av eksterne kontakter i dokumentflyt (hverken i serie eller parallelt med interne granskere). Det betyr at:
+
+Eksterne personer kan ikke inngå som aktive mottakere i en dokumentflytprosess, som gransking, godkjenning eller høring, slik interne brukere gjør.
+
+Det finnes ingen automatisk tildeling av tilgang eller logging av gjennomført oppgave for eksterne i selve arbeidsflyten.	Argument for RDF app. Ikke støtte I standard. Viktig at det her lenkes til interne også, som er argument for samlet løsning og ikke skille mellom eksterne og interne.	Delvis oppfylt	Delvis oppfylt	0	Delvis oppfylt	Kun annen
+Støtte I RDF appen, gi kommentarer, avslå, godkjenne, muligens også opplaste fil, siden dette også er beskrevet og idirekte kan bety dette. Eksterne skal da ikke kunne redigere filene ref krav for dette, interne skal da kunne parameterstyres per arbeidsflyt om de kan gi kommentarer rett i filen eller kun gi i kommentarfelt.	Støtte I RDF appen, gi kommentarer, avslå, godkjenne, muligens også opplaste fil, siden dette også er beskrevet og idirekte kan bety dette. Eksterne skal da ikke kunne redigere filene ref krav for dette, interne skal da kunne parameterstyres per arbeidsflyt om de kan gi kommentarer rett i filen eller kun gi i kommentarfelt.	Mottager i en dokumentflyt bør kunne gi kommentarer knyttet til sin beslutning om å utføre oppgaven eller avslå. Det bør være mulig for saksbehandler å velge om mottager skal kunne knytte kommentarer direkte til avsnitt i dokumentet eller gi sine kommentarer sammenstilt i et kommentarfelt.	1.99 – Kommentarer ved beslutning	1. Status for støtte i Skytjenesten
+
+For interne kontakter i dokumentflyt er det i dag delvis støtte for å legge inn kommentarer som del av arbeidsflytopplevelsen.
+
+Mottaker kan legge inn generelle kommentarer knyttet til sin beslutning (f.eks. godkjenne eller avslå).
+
+Rettighetsmatrisen styrer om brukeren har lov til å redigere dokumentet eller kun kommentere – men dette er ikke ad-hoc styrt, dvs. ikke fleksibelt per oppgave eller bruker.
+
+kommentering må egentuelt uføres i eksempelvis word.	Støtte I RDF appen, gi kommentarer, avslå, godkjenne, muligens også opplaste fil, siden dette også er beskrevet og idirekte kan bety dette. Eksterne skal da ikke kunne redigere filene ref krav for dette, interne skal da kunne parameterstyres per arbeidsflyt om de kan gi kommentarer rett i filen eller kun gi i kommentarfelt.	Delvis oppfylt	Delvis oppfylt	0	Delvis oppfylt	Kun annen
+Støtte I RDF appen, lage rapport om alle flyter ett dokument har vært på, fra sak?	Støtte I RDF appen, lage rapport om alle flyter ett dokument har vært på, fra sak?	Det bør være mulig å generere en rapport som sammenstiller kommentarer fra flyter et dokument har vært igjennom slik som gransking, høring og godkjenning, samt eksportere listen til word, excel eller pdf.	1.100 – Rapport over kommentarer	Delvis støttet. Arbeidsflyt gjennomgang (for interne kontakter) hra støtte for å skrive ut rapport per arbeidsflyt, men ikke fra sak, skrive ut rapport om alle arbeidsflyter for dokument I sak.	Støtte I RDF appen, lage rapport om alle flyter ett dokument har vært på, fra sak?	Oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+3. Metadata og dokumentmerking	Må ikke støttes I RDF appen, men metadata fra RDF app flowen må kunne lagres I 360° for gjenbruk I fletting til maler.	Må ikke støttes I RDF appen, men metadata fra RDF app flowen må kunne lagres I 360° for gjenbruk I fletting til maler.	Det bør være mulig å flette metadata fra registreringen eller dokumentbeskrivelsen inn i en "header-tabell" i dokumentobjektet.
+Eksempel på slike metadata er:
+- Versjon, feks versjon 3 av 5
+- hvem som har utarbeidet dokumentet
+- hvem som har gransket dokumentet
+- hvem som har godkjent dokumentet
+- om dokumentet har vært oppe til et formelt møte eksempelvis sikkerhetskomitéen
+- "gyldighetsperiode fra -til" 
+- merking iht. sikkerhetsloven.
+
+NB! Med "header-tabell" menes ikke det samme som topp og bunntekst. Se Bilag 1 Vedlegg 3.
+
+Det bør ikke være mulig å endre metadataverdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet. Det er viktig at disse opplysningene er pålitelige og ikke kan manipuleres.	1.71–1.72 – Header-tabell og sperring	Dette kravet er delvis støttet, hovedsakelig gjennom bruk av Word Content Controls:
+Metadata fra dokumentbeskrivelse kan flettes inn i dokumentet via innholds-kontroller (content controls).
+Disse feltene kan låses mot redigering, men:
+Det er mulig å låse opp feltene manuelt via "Utvikler"-fanen i Word, noe som gjør løsningen sårbar for manipulering. Løsningen tilfredsstiller ikke krav om uforanderlighet fullt ut med mindre dokumentet låses ned i PDF etter ferdigstillelse.
+Dersom dokumentet konverteres til PDF, blir feltene faktisk låst og ikke mulig å endre, noe som gjør dette til et mulig sluttpunkt for distribusjon.
+
+2. Støtte gjennom arbeidsflyt
+
+Dersom man bruker formelle arbeidsflyter som Gjennomgang eller Godkjenning, vil metadatafeltene som:
+
+Utarbeidet av
+Gransket av
+Godkjent av
+
+...automatisk settes av systemet og være låst for manuell redigering, i tråd med andre krav om systemgenerert historikk og sporbarhet. Disse verdiene kan da flettes inn i dokumentet, forutsatt at man bruker korrekt maloppsett med flettemekanismer.	Må ikke støttes I RDF appen, men metadata fra RDF app flowen må kunne lagres I 360° for gjenbruk I fletting til maler.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+Dette er ikke noe som må støttes I RDF appen, men sier noe om tilgjengeligheten for de samme metadatafeltene som skal brukes I løsningen. Her er det snakk om ett eksternt produsert dokuemnt (fil) som må påføres denne header-tabellen - slik jeg ser det kan dette komme fra granskningsprosessen (Støtte i RDF, at når en fil sendes inn - lages denne cover pagen på lastet opp fil fra arbeidsflyten)	Dette er ikke noe som må støttes I RDF appen, men sier noe om tilgjengeligheten for de samme metadatafeltene som skal brukes I løsningen. Her er det snakk om ett eksternt produsert dokuemnt (fil) som må påføres denne header-tabellen - slik jeg ser det kan dette komme fra granskningsprosessen (Støtte i RDF, at når en fil sendes inn - lages denne cover pagen på lastet opp fil fra arbeidsflyten)	Det bør være mulig for Kunden å merke pdf-dokumenter utarbeidet av eksterne fageksperter på tilsvarende måte som "header-tabellen" beskrevet over, slik at dokumentene påføres metadataverdier som er nødvendige for dokumentets gyldighet og bruksverdi, etter at de har gjennomgått saksbehandling med gransking, godkjenning og utvalgsbehandling på samme måte som dokumenter som er utarbeidet internt.
+
+Med papirdokumenter ble dette løst ved å tilføre dokumentene en ekstra forside der metadataverdiene ble fylt ut manuelt og deretter skannet inn. Kunden mottar nå dokumentene digitalt i pdf-format.	1.73 – Metadata på eksterne PDF	Per i dag er dette ikke støttet som en standardfunksjon i Skytjenesten, men det kan løses delvis gjennom manuelle rutiner og tilpasninger, f.eks.:
+Generere et metadataark (forside eller rapport) etter at dokumentet er registrert og behandlet, som inneholder:
+Gransket av, Godkjent av, Utvalgsbehandling, Versjon, Gyldighetstid mv.
+Dette metadataarket kan enten flettes digitalt foran PDF-en (ingen støtte) eller skrives ut og vedlegges ved fysisk skanning (lage en mal for dette?).
+Det finnes ingen støtte for automatisk påføring av metadata direkte inn i mottatt PDF fra eksterne (slik som i Word med Content Controls).
+
+Dersom metadata skal flettes inn i dokumentet (ikke bare lagres i dokumentkort), må det skje via PDF-redigering eller ved å legge til en ekstra PDF-side.
+For digitalt innsendte dokumenter (e-post, opplasting), finnes det ingen automatisk mekanisme for å legge til metadata eller generere metadataforside. Dette må initieres manuelt.
+Gransket av-feltet blir spesielt utfordrende her:
+
+Kravet i andre sammenhenger er at dette skal settes automatisk av arbeidsflyten og være låst for manuell redigering.
+
+I dette tilfellet ser det ut til at feltet må kunne registreres manuelt ved innregistrering, noe som bryter med øvrige krav om sporbarhet og kontroll.	Dette er ikke noe som må støttes I RDF appen, men sier noe om tilgjengeligheten for de samme metadatafeltene som skal brukes I løsningen. Her er det snakk om ett eksternt produsert dokuemnt (fil) som må påføres denne header-tabellen - slik jeg ser det kan dette komme fra granskningsprosessen (Støtte i RDF, at når en fil sendes inn - lages denne cover pagen på lastet opp fil fra arbeidsflyten)	Delvis oppfylt	Delvis oppfylt	0	Delvis oppfylt	Kun annen
+4. Arbeidsflytkonfigurasjon og prosessoversikt	Det er ett krav om at kunden skal kunne lage arbeidsflyter selv, som vi ser av denne standard flyten virker der som om de har komplekse behov. Dette kravet omhandler da slik jeg ser det mulighet for å se om flytene de har laget er tilgjengelige for hvilke elementer (som da gir inntrykk av at dett err ett indirekte krav i disse custom flytene at man skal kunne definere de for saker, dokumenter, dokumentkategorier..) utvider indirekte scopet for kravet om å lage egne flyter og gjør også dette mer komplekst - les. dette er ikke noe vi enkelt støtter. 
+
+Her skal vi også beskrive hvordan flytene visualiseres - som betyr at vi må lage RDF appen for å kunne svare.	Det er ett krav om at kunden skal kunne lage arbeidsflyter selv, som vi ser av denne standard flyten virker der som om de har komplekse behov. Dette kravet omhandler da slik jeg ser det mulighet for å se om flytene de har laget er tilgjengelige for hvilke elementer (som da gir inntrykk av at dett err ett indirekte krav i disse custom flytene at man skal kunne definere de for saker, dokumenter, dokumentkategorier..) utvider indirekte scopet for kravet om å lage egne flyter og gjør også dette mer komplekst - les. dette er ikke noe vi enkelt støtter. 
+
+Her skal vi også beskrive hvordan flytene visualiseres - som betyr at vi må lage RDF appen for å kunne svare.	Det bør være mulig for saksbehandler å se hvilke faste dokumentflyter som er konfigurert i Skytjenesten samt om respektive flyt er generell, det vil si tilgjengelig for alle saker og dokumenter, eller laget for en spesifikk dokumentkategori eller sakstype.
+
+Beskriv hvordan tilgjengelige dokumentflyter presenteres/visualiseres for brukeres samt om flytene er knyttet til spesifikke saktyper eller dokumentkategorier eller er tilgjengelige for alle. Legg gjerne ved skjermdump. Eventuelle vedlegg skal merkes med korrekt Krav ID.	1.95 – Oversikt over flyter	Delvis støttet. Uvisst om systemet støtter visning av alle definerte dokumentflyter for saksbehandler. Prøvde å lage egendefinert flyt (fra BTE-input) feilet. Ingen kjent visuell oversikt som viser om flyt er generell eller koblet til dokumentkategori/sakstype. Brukerbehovet synes å være oversikt, ikke nødvendigvis mulighet til å lage flytene selv, som er ett annet krav. Krever trolig kobling til saksprosesser og metadata. Anbefales å avklare visningsstøtte og evt. vurdere forbedret visning av flytvalg med tilknytningstype.	Det er ett krav om at kunden skal kunne lage arbeidsflyter selv, som vi ser av denne standard flyten virker der som om de har komplekse behov. Dette kravet omhandler da slik jeg ser det mulighet for å se om flytene de har laget er tilgjengelige for hvilke elementer (som da gir inntrykk av at dett err ett indirekte krav i disse custom flytene at man skal kunne definere de for saker, dokumenter, dokumentkategorier..) utvider indirekte scopet for kravet om å lage egne flyter og gjør også dette mer komplekst - les. dette er ikke noe vi enkelt støtter. 
+
+Her skal vi også beskrive hvordan flytene visualiseres - som betyr at vi må lage RDF appen for å kunne svare.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+påvirker kravet om å kunne lage egne flyter. Ikke nødvendigvis gjeldende for denne RDF appen (ettersom vi kan avgrense den for kun gransking og godkjenning), alternativt må RDF appen støtte utarbeidelse av andre flyter, men dette er riski siden det også setter krav til interne komponenter.	påvirker kravet om å kunne lage egne flyter. Ikke nødvendigvis gjeldende for denne RDF appen (ettersom vi kan avgrense den for kun gransking og godkjenning), alternativt må RDF appen støtte utarbeidelse av andre flyter, men dette er riski siden det også setter krav til interne komponenter.	Dersom administrator gjør endringer i en dokumentflyt bør endringene tre i kraft neste gang noen starter den aktuelle flyten og ikke påvirke dokumenter som hadde startet flyten før endringen ble gjort.	1.96 – Endringer i flyt ikke påvirke igangsatte	Sannsynligvis ikke støttet i standard. Avhenger av krav 1.95. Kravet peker mot behov for fleksibilitet i prosessdesign, inkl. egne steg, roller og handlinger. Løsningen bør støtte at endringer i flyt gjelder kun for nye instanser og ikke påvirker pågående. Indikasjoner finnes på behov for prosessmotor fremfor faste flyter, særlig der flyt skal kunne trigge oppdateringer i eksterne systemer.	påvirker kravet om å kunne lage egne flyter. Ikke nødvendigvis gjeldende for denne RDF appen (ettersom vi kan avgrense den for kun gransking og godkjenning), alternativt må RDF appen støtte utarbeidelse av andre flyter, men dette er riski siden det også setter krav til interne komponenter.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+Krav til RDF app, evt kan løses som søkefavoritter, som brukes for å sette kontakter på dokument/sak som igjen gjenbrukes til å opprette flyten automatisk ref krav 1.46.	Krav til RDF app, evt kan løses som søkefavoritter, som brukes for å sette kontakter på dokument/sak som igjen gjenbrukes til å opprette flyten automatisk ref krav 1.46.	Det bør være mulig å knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt. Gruppene bør kunne være basert både på organisasjonsrolle og navn/personlig bruker. Saksbehandler bør i tillegg kunne legge til brukere manuelt samt legge til ekstra mottager også etter at flyten er startet uten å måtte avbryte flyten.
+
+Beskriv hvilke muligheter for å:
+1. knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt
+2. angi faste mottagere både som organisasjonsrolle og navn/personlig bruker
+3. legge til en ekstra bruker manuelt
+4. legge til en ekstra bruker etter at flyten er startet uten å måtte avbyte flyten.	1.97 – Grupper og tilleggs­mottakere	Delvis støttet. For interne kontakter kan saksbehandler legge til mottakere i forkant av flytstart.  Ikke mulig å legge til nye mottakere etter at flyten er startet uten å avbryte den. Delegering er teknisk mulig, men vurderes som feil kontekst her. Begrenset fleksibilitet totalt sett.	Krav til RDF app, evt kan løses som søkefavoritter, som brukes for å sette kontakter på dokument/sak som igjen gjenbrukes til å opprette flyten automatisk ref krav 1.46.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+5. Versjonshåndtering og levende dokumenter	Brukerscenario omfatter gransking men ikke I detalj, ellers kunne det vært førende for RDF app.	Brukerscenario omfatter gransking men ikke I detalj, ellers kunne det vært førende for RDF app.	Skytjenesten bør ha funksjonalitet for å ivareta behov relatert til arkivverdige "levende dokumenter" som beskrevet i Brukerscenario 1.
+
+Beskriv hvordan Skytjenesten kan ivareta behovene og problemstillingene i "Brukerscenario 1" beskrevet i Bilag 1 Vedlegg 2 - Brukerscenarier. Dette gjøres ved å svare ut problemstillingene som er angitt i spørsmål 1-6 under "Brukerscenario 1".	1.77 – Levende dokumenter	Støttet. Revisjon og versjon håndteres i 360°.	Brukerscenario omfatter gransking men ikke I detalj, ellers kunne det vært førende for RDF app.	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+RDF appen må kunne håndtere store filer som en del av samlekravet. Kravet er generelt og omfatter all annen funskjonalitet ellers I løsningen I tillegg.	RDF appen må kunne håndtere store filer som en del av samlekravet. Kravet er generelt og omfatter all annen funskjonalitet ellers I løsningen I tillegg.	Skytjenesten bør kunne håndtere store dokumenter (10-30 MB) uten at dette påvirker brukervennligheten ved håndtering av dokumentene.
+Beskriv eventuelle begrensninger i Skytjenesten for tunge filer og påvirkning på ytelse/responstid ved vanlige operasjoner slik som:
+- Åpne et dokument
+- Ekspedere et dokument
+- Ekspedere samme dokument til mange mottagere.
+- Sende et dokument på godkjenning/høring/gransking
+- Dele et dokument som del av innkalling til eksterne deltagere i nemd/formelt møte"	1.82 – Store dokumenter	Støttet. 10–30 MB håndteres uten ytelsesproblem internt I public 360°, for interne brukere.	RDF appen må kunne håndtere store filer som en del av samlekravet. Kravet er generelt og omfatter all annen funskjonalitet ellers I løsningen I tillegg.	Oppfylt	Oppfylt	1	Ikke oppfylt	Kun ekstern-blokk
+6. Integrasjoner og hendelser	Ikke noe som nødvendigvis må støttes I RDF appen, men det er snakk om at ved endt gransking og godkjenning så skal integrasjon oppdatere tredjeparts system driftet av kunden -dette kan jo initieres fra RDF appen, men også fra 360°..	Ikke noe som nødvendigvis må støttes I RDF appen, men det er snakk om at ved endt gransking og godkjenning så skal integrasjon oppdatere tredjeparts system driftet av kunden -dette kan jo initieres fra RDF appen, men også fra 360°..	Det bør være mulig å etablere integrasjoner mellom Skytjenesten for Sikkerhetsgradert dokumentasjon og følgende systemer:
+
+1. Arkivere arbeidsordre og logger fra fagsystemene Vircore (FLYT) og View Maintenance
+2. Oppdatere status på et objekt i fagsystem for «objektregister» trigget av saksbehandlingaktiviteter (gransking og godkjenning) i Skytjenesten.
+3. Knytte dokument i Skytjenesten til objekt i system for objektregister slik at bruker i objektregisteret kan klikke på en link som åpner dokumentet.
+4. Eksport av logger fra Skytjenesten til Kundens sentrale loggtjeneste Splunk
+5. Eksport av data fra Skytjenesten til Kundens tjeneste for sikkerhetsovervåkning, Security Incident and Event Management (SIEM)
+
+Aktuelle systemer vil være på samme plattform og samme nettverk som Skytjenesten for Sikkerhetsgradert dokumentasjon.
+
+Beskriv anbefalt API for og eventuell erfaring med de ulike systemene fra listen. Ved en tosystemløsning bør det tydelig framgå hvilket av de to systemene som skal integreres med respektive fagsystem.	1.140 – Integrasjoner (gradert miljø)	Ikke støttet i standard. Løsning forutsetter custom integrasjon, noe som kan komme i konflikt med krav om «ingen custom code» (jf. krav 1) - men trolig ikke siden integrasjoner pleier å gå braMå analyseres av Olga. Ingen standardstøtte for å trigge oppdatering av objektstatus i fagsystem basert på flythendelser i Skytjenesten (gransking/godkjenning). Vurder behov for API-tilgang og hvilke systemer som inngår ved tosystemløsning.	Ikke noe som nødvendigvis må støttes I RDF appen, men det er snakk om at ved endt gransking og godkjenning så skal integrasjon oppdatere tredjeparts system driftet av kunden -dette kan jo initieres fra RDF appen, men også fra 360°..	Delvis oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+7. Tilgang og stedfortreder	Påvirker totalvurderingen, hvis man går for en samlet løsning for interne og eksterne brukere for arbeidsflyt, bortfaller støtten for stedsfortreder for det som er I RDF appen, med mindre det settes opp en eller annen sync. Høres vedlig kompleskt ut.	Påvirker totalvurderingen, hvis man går for en samlet løsning for interne og eksterne brukere for arbeidsflyt, bortfaller støtten for stedsfortreder for det som er I RDF appen, med mindre det settes opp en eller annen sync. Høres vedlig kompleskt ut.	For hver bruker bør det være mulig å angi en annen bruker som "stedfortreder". Stedfortrederen overtar brukerens aktiviteter i Skytjenesten dersom brukeren er satt til inaktiv. Hensikten er å sikre kontinuitet i prosesser som gransking og godkjenning dersom en bruker er fraværende over lenger tid feks på grunn av permisjon, ferie eller sykemelding.	1.33 – Stedfortreder	Støttet I standard for interne kontakter. Bruker kan tildele stedfortreder som tar over oppgaver.	Påvirker totalvurderingen, hvis man går for en samlet løsning for interne og eksterne brukere for arbeidsflyt, bortfaller støtten for stedsfortreder for det som er I RDF appen, med mindre det settes opp en eller annen sync. Høres vedlig kompleskt ut.	Oppfylt	Delvis oppfylt	1	Ikke oppfylt	Både ekstern og annen
+## sheet3.xml
+Område	Kravet omfatter "Eksterne"	krav	Krav	Dagens dekning	Kommentar (observasjoner fra dokumentasjonen)	Avhengigheter
+1. Intern gransking, godkjenning og signering	Metadataverdier av typen "gransket av", "godkjent av" og "signert av" skal settes automatisk av systemet koblet til at aktiviteten blir utført i en dokumentflyt og være loggført i Skytjensten. Metadataverdiene skal ikke kunne redigeres manuelt.	1.67 (A) – Automatisk metadata Gransket/Godkjent/Signert av	Delvis støttet. Metadata "godkjenner" settes automatisk dog feil ledetekst, alternativt legges metadata inn manuelt som dokumentkontakt med rolle Gransker etter avsluttet prosess. Låses ved ferdigstillelse via rettighetsmatrise.	Kravet brytes formelt siden det ikke er automatisk systemhendelse. Henger tett sammen med arbeidsflytlogikken totalt og behov for Eksterne arbeidsflyt som pusher I retning av alternativ approach. Signering kan fungere for signering spesifik, men tviler på øvrige. Mulig vi heller burde gå for process engine (spesielt fordi en godkjent flyt også skal kunne trigge oppdatering av ekstern system/objektregister)	Avhengig av 1.94 (arbeidsflyt) for å vite når oppgaven er utført. Påvirker 1.71–1.73 (metadata i dokument) og 1.140 (integrasjoner).
+Skytjenesten bør ha funksjonalitet for å sende dokumenter enkelt på arbeidsflyt, enkeltvis eller en gruppe av dokumenter. Med arbeidsflyt menes:
+- Sende på høring/granskning
+- Sende på godkjenning
+- Sende til signering
+- Distribuere for at mottager skal kvittere "lest og forstått"	1.94 – Arbeidsflyt for dokumenter	Støttet for interne. Arbeidsflytmodulen håndterer granskning, godkjenning, signering og kvittering.	Grunnprosess for dokumentforløp. Kan hende den kkun gjelder for interne litt avhengig av hvordan man tolker kravene, noen krav nevner eksterne eksplisitt, men totalen får meg til å tenke at de egentlig vil ha én prosess for arbeidsflyt. Som minimum må eventuelt to prosesser sette metadata i samme felt automatisk.	Overordnet avhengighet for 1.67, 1.95–1.97, 1.101–1.103, 1.46.
+Dersom én av mottagerne i en dokumentflyt gir avslag eller ikke godkjenner bør flyten avbrytes.
+
+Det bør være mulig for saksbehandler å sette en tidsfrist for mottagerne i en dokumentflyt til å utføre oppgaven de er tildelt. Mottagerne bør få varsel før og etter fristen er utløpt.
+
+Det bør være mulig å ha både tvingende dokumentflyter der flyten ikke kan fullføres før alle mottagere har utført sin oppgave og mindre strenge dokumentflyter der det er mulig for saksbehandler å avlutte flyten etter at fristen har gått ut selv om ikke alle deltagere har utført sin oppgave. I slike tilfeller bør det loggføres hvilke deltagere som har og ikke har fullført sin oppgave.	1.101–1.103 – Avslag, tidsfrister, tvingende/mindre streng flyt	Delvis støttet. Standard dokument arbeidsflyt tillater godkjenning/avslag, men ikke differensiering mellom tvingende og fleksibel flyt.Noe varslingsstøtte.	Manglende konfigurasjon påvirker sporbarhet og kontroll. Mangler ved ekstern proses hvis vi baserer den på dokument inn og ut, evt. Avbrytelse gjøres manuelt og trigges av saksbehandler manuelt for eksterne. For krav 103 har vi grei støtte for interne, naturlig nok ikke for eksterne om vi går for dokument inn/dokument ut prosessen. Merk krav om Min side for eksterne.	Sterk avhengighet av 1.94 (flytlogikk) og 1.95 (synlighet av flyter).
+Ja	Skytjenesten skal ha støtte for å kunne sende dokumenter til digital, personunik og rettslig bindende signering av dokumenter. Det skal være mulig å sende til både interne og eksterne for signering.	1.104 (A)  – Digital signering	Støttet via 360° eSignering.	Dette er vel dekket av 360° eSignering for generell signering, hvis det skal brukes for granskning, er det ingen løsning for å automatisk sette metdata "gransket av"	Kobles direkte til 1.67 for oppdatering av metadata.
+2. Ekstern samhandling og gransking	Ja	Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol.
+
+Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)
+
+Behov kan være:
+- Ekstern part trenger tilgang til ett eller fler dokumenter midlertidig for å utføre et oppdrag på vegne av Kunden, eksempelvis tilgang til områdekart eller annen anleggsdokumentasjon.
+- Ekstern part skal granske og kommentere et dokument på oppdrag fra Kunden.
+- Ekstern part skal produsere et dokument i samarbeid med Kundens ansatte.
+- Ekstern part er medlem i et av Kundens utvalg, feks Sikkerhetskommitéen og behøver tilgang til møtedokumenter.
+Beskriv om Skytjenesten har mulighet for sikker deling av dokumenter med eksterne parter.
+
+Beskrivelsen bør inkludere:
+- Hvordan tilgangsstyring ivaretas
+- Hvordan logging av hvilke brukere som har åpnet/endre et dokument ivaretas.
+- Hvordan versjonskontroll for dokumentet som redigeres ivaretas.	1.37 – Sikker deling uten ordinær bruker	Delvis støttet. Deling via SharePoint (Sharepoint finnes I kundens systemlandskap), alternativt Teams; Ingen native “Min side”-løsning for fomålet.
+
+Ulike prosesser her som skal løses via Min side: 1) Gransking, 2) Samskriving (f.eks. I Sharepoint eller teams), 3) Møte og utvalg. 
+
+For 1) Skal eksterne kontakter kunne samskrive på dokument i granskningsflyt? Det er i så fall ikke i samsvar med innledende beskrivelse i samme krav. 
+
+for 3) føringer for møteog utvalg, det betyr at de som er medlemmer da ikke følger samme prosess som interne. I vanlig praksis lages jo møtedok i 360 og distribueres eller deles via emeetings prepare/live - skal det fortsatt gjelde for interne, hvorfor ikke eksterne? likt prinsipp som politikere i kommune egentlig. ikke beskrevet godt nok. krav 1.82 nevner Deling av stort dokument i konteksten.	Ingen full kontroll på nedlasting, videresending eller tidsutløp.
+"..behov for støtte for dokumentdeling, også av dokumenter med sensitivt innhold og som derfor ikke kan spres ukontrollert, med parter som ikke har påloggingsrettigheter til Skytjenesten.» og  «Det bør være mulig med sikker deling av dokumenter med eksterne aktører som ikke har ordinær bruker i Skytjenesten. Kunden ser for seg funksjonalitet tilsvarende "min side"-funksjonalitet eller portaler som finnes for å dele møtedokumenter med politikere, eksterne entreprenører ol. Ekstern part bør kunne lese dokumentet, men ikke kunne laste ned dokumentet eller dele det videre. (Kunden er inneforstått med at skjermdump ikke vil kunne unngås.)" Mulig RDF og avart av av PublicFile løsning kan løse noe?	Nært knyttet til 1.98 (eksterne mottakere), 1.46 (automatisk tilgang), og 1.99 (kommentarføring).
+Brukere som får dokumenter tilsendt på granskning, høring, signering bør få lesetilgang til dokumentet inkl. vedlegg og refererte dokumenter uten at saksbehandler (eller andre) skal måtte tildele tilgang manuelt. Mottager bør ikke ha mulighet til å dele dokumentene videre i den tiden hen har tilgang.
+Beskriv hvordan mottagere i en arbeidsflyt får lesetilgang til et dokument de er bedt om å behandle samt om tilgangen også dekker dokumenter på referanselisten.
+Beskriv også om tilgangen opphører når mottager har utført sin oppgave samt hvilke muligheter mottager har til å dele dokumentet videre i den tiden hen har tilgang.	1.46 – Automatisk tilgang for mottakere	Støttet ved intern arbeidsfly på dokument. Da gis det bl.a. rettigheter relatert til. Eksternt, avhenging av løsning.	Tilgang til referansedokumenter er ett viktig aspekt, dette er relatert til "levende dokumenter" hvis jeg tolker korrekt, og krav til at disse dokumentene lenkes/legges til i generell saksbehandling. Må ha i bakhodet, men det er teknisk også støttet ved dokument ut/inn basert prosess, eller sharepoint basert prosess for deling. 
+
+Mulig vi kan tolke dette til å kun gjelde interne, siden andre krav spesifikt går på eksterne ref. 1.37 (Sikker deling til eksterne; Gransking, produsere dokument på vegne av, medlem av utvalg), 1.98 (sette eksterne personer som mottager i en dokumentflyt).	Avhengig av 1.37 (ekstern deling) og 1.94 (flyt) for automatisering.
+Ja	Det bør være mulig å sette eksterne personer som mottager i en dokumentflyt, eksempelvis skal en ekstern ekspert kunne granske et dokument i en flyt, parallelt eller i serie, med andre interne granskere.
+
+Beskriv hvordan dette ivaretas i Skytjenesten samt hvordan og hvilke tilganger mottageren får til dokumentet og hvordan det logges at mottager har utført oppgaven.	1.98 – Eksterne mottakere i flyt	Ikke støttet direkte. Håndteres manuelt via utsendelse og registrering.
+
+Denne beskrivelsen taler imot ulike prosesser. Både eksterne og interne I samme	Eksplisitt for eksterne. En mulighet er fortsatt eSignering som støtter Signering og Godkjenning. Usikker på om man kan legge inn kommentarer.	Avhengig av 1.37 (deling) og 1.94 (flyt); påvirker 1.67 (metadata).
+Mottager i en dokumentflyt bør kunne gi kommentarer knyttet til sin beslutning om å utføre oppgaven eller avslå. Det bør være mulig for saksbehandler å velge om mottager skal kunne knytte kommentarer direkte til avsnitt i dokumentet eller gi sine kommentarer sammenstilt i et kommentarfelt.	1.99 – Kommentarer ved beslutning	Delvis støttet. Interne kommentarer i arbeidsflyt; eksterne kommentarer registreres manuelt hvis dokument/inn og ut.	Kommentarer I dokument inn/ut, evt signering, vet ikke om støtter kommentarer ved flyt godkjenning I signering.	Avhengig av 1.94 (flyt) og 1.100 (rapport).
+Det bør være mulig å generere en rapport som sammenstiller kommentarer fra flyter et dokument har vært igjennom slik som gransking, høring og godkjenning, samt eksportere listen til word, excel eller pdf.	1.100 – Rapport over kommentarer	Delvis støttet. Finnes for interne flyter (Arbeidsflyt); ikke samlet for eksterne.	"fra flyter ett dokument har vært igjennom" så delvis på arbeidsflyt, også usikker på støtte her hvis vi går for dok inn/ut, esignering, evt minsideløsning RDF.	Avhengig av 1.94 (flyt) og 1.99 (kommentarer).
+3. Metadata og dokumentmerking	Det bør være mulig å flette metadata fra registreringen eller dokumentbeskrivelsen inn i en "header-tabell" i dokumentobjektet.
+Eksempel på slike metadata er:
+- Versjon, feks versjon 3 av 5
+- hvem som har utarbeidet dokumentet
+- hvem som har gransket dokumentet
+- hvem som har godkjent dokumentet
+- om dokumentet har vært oppe til et formelt møte eksempelvis sikkerhetskomitéen
+- "gyldighetsperiode fra -til" 
+- merking iht. sikkerhetsloven.
+
+NB! Med "header-tabell" menes ikke det samme som topp og bunntekst. Se Bilag 1 Vedlegg 3.
+
+Det bør ikke være mulig å endre metadataverdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet. Det er viktig at disse opplysningene er pålitelige og ikke kan manipuleres.	1.71–1.72 – Header-tabell og sperring	Delvis støttet. Word Content Controls brukes, men kan låses opp. Gjelder det også dokument inn og brukerhistorie 3: "De ulike påleggene i tilsynsrapporten blir besvart til DSA i omganger med en samlet
+dokumentpakke (en gruppe dokumenter) og følgebrev hver gang. Dokumentene i
+dokumentpakken skal hver for seg gjennom obligatorisk saksbehandlingsprosess med
+gransking, godkjenning og utvalgsbehandling. DSA kan underkjenne en første versjon av
+besvarelsen på et eller flere pålegg og be om kompletterende informasjon.
+Oppsummert så er det mye forskjellig dialog frem og tilbake som involverer hele
+bredden av Kundens organisasjon."	Gir et visst nivå av integritet, men ikke full beskyttelse.	Henger tett med 1.67 (metadata generering) og 1.73 (PDF-merking).
+Det bør være mulig for Kunden å merke pdf-dokumenter utarbeidet av eksterne fageksperter på tilsvarende måte som "header-tabellen" beskrevet over, slik at dokumentene påføres metadataverdier som er nødvendige for dokumentets gyldighet og bruksverdi, etter at de har gjennomgått saksbehandling med gransking, godkjenning og utvalgsbehandling på samme måte som dokumenter som er utarbeidet internt.
+
+Med papirdokumenter ble dette løst ved å tilføre dokumentene en ekstra forside der metadataverdiene ble fylt ut manuelt og deretter skannet inn. Kunden mottar nå dokumentene digitalt i pdf-format.	1.73 – Metadata på eksterne PDF	Delvis støttet. Løses manuelt ved generert forside (metadataark).	Ikke automatisk ved digital innsendelse, men kan løses ved å benytte en mal/rapport på dokument som fletter manuelt registrert metadata (hvordan blir det med gransker, hvis akutuelt I scenario vis innkommende . Kanskje ikke akutelt (flere felter I 'dokument header')). Malen skrives ut og legges ved etter barcode ved scanning. Veldig usikker for digitalt innsendt. Kan vi argumentere for alternative løsninger, f.eks. om det er noe i forsvaret som løser tilsvarende. kan også sees i lys av merking av gradering. 
+SPM: Gjelder dette også feltet Gransker? Tolker vi dit at f.eks. DSA også gransker og påfører denne informasjonen ifm tilsyn (beskrevet i brukerhistorie 3) og at det derfor må støttes. NV: legger føringer for hvilke metafelter som kan benyttes for Gransking, og skaper litt kompleksitet ift krav om at feltet Granskes av skal være låst, men noen ganger også være tilgjengelig for i hvert fall registrering.	Avhengig av 1.71 (feltene) og 1.67 (metadata som skal flettes).
+4. Arbeidsflytkonfigurasjon og prosessoversikt	Det bør være mulig for saksbehandler å se hvilke faste dokumentflyter som er konfigurert i Skytjenesten samt om respektive flyt er generell, det vil si tilgjengelig for alle saker og dokumenter, eller laget for en spesifikk dokumentkategori eller sakstype.
+
+Beskriv hvordan tilgjengelige dokumentflyter presenteres/visualiseres for brukeres samt om flytene er knyttet til spesifikke saktyper eller dokumentkategorier eller er tilgjengelige for alle. Legg gjerne ved skjermdump. Eventuelle vedlegg skal merkes med korrekt Krav ID.	1.95 – Oversikt over flyter	Uvisst / Avhenig av definisjon av arbeidsflyt.	Avhening av hva vi ender opp med som definisjon av arbeidsflyt.	Bygger på 1.94 (flyt) og påvirker 1.96 (versjonering) og 1.97 (grupper). 1.7 (opprette egne arbeidsflyter og egne saksprosesser)
+Dersom administrator gjør endringer i en dokumentflyt bør endringene tre i kraft neste gang noen starter den aktuelle flyten og ikke påvirke dokumenter som hadde startet flyten før endringen ble gjort.	1.96 – Endringer i flyt ikke påvirke igangsatte	Ikke støttet med arbeidsflyt, kan peke I retning av prosesser som mulig køsning for arbeidsflyt.Vi har kanskje visninge	Det er både implisitt og eksplisitt kravstilt at løsningen skal støtte muligheten for å lage egne arbeidsflyter. I denne konteksten er det sannsynlig at kravet retter seg mot fleksibilitet i prosessdesign, inkludert muligheten til å definere egne steg, roller og handlinger. Enkelte krav peker mot behov for prosessbasert tilnærming, og det kan derfor være hensiktsmessig å løse dette gjennom konfigurerbare prosesser fremfor faste arbeidsflyter. Det er også indikert at løsningen bør kunne trigge oppdateringer i eksterne systemer som en del av flyten.	Avhengig av 1.95 (flytstruktur) og 1.94 (flyt).
+Det bør være mulig å knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt. Gruppene bør kunne være basert både på organisasjonsrolle og navn/personlig bruker. Saksbehandler bør i tillegg kunne legge til brukere manuelt samt legge til ekstra mottager også etter at flyten er startet uten å måtte avbryte flyten.
+
+Beskriv hvilke muligheter for å:
+1. knytte forhåndsdefinerte grupper av brukere som mottagere i en dokumentflyt
+2. angi faste mottagere både som organisasjonsrolle og navn/personlig bruker
+3. legge til en ekstra bruker manuelt
+4. legge til en ekstra bruker etter at flyten er startet uten å måtte avbyte flyten.	1.97 – Grupper og tilleggs­mottakere	Delvis støttet. Bruker kan legge til mottakere, men ikke etter start uten avbrudd (Workflow) for interne. Men igjen, kan vi bruke den, bør vi fokusere på annen funskjonalitet.	Begrenset fleksibilitet i alle områdene av flyt.	Avhengig av 1.94 (flyt).
+5. Versjonshåndtering og levende dokumenter	Det bør ikke være mulig å endre metadataverdier som er flettet inn i en "header tabell" manuelt i filen/dokumentet. Det er viktig at disse opplysningene er pålitelige og ikke kan manipuleres.
+Beskriv hvordan Skytjenesten kan ivareta behovene og problemstillingene i "Brukerscenario 1" beskrevet i Bilag 1 Vedlegg 2 - Brukerscenarier. Dette gjøres ved å svare ut problemstillingene som er angitt i spørsmål 1-6 under "Brukerscenario 1".	1.77 – Levende dokumenter	Støttet. Revisjon og versjon håndteres i 360°.	Søkbarhet og kobling mellom revisjoner fungerer, tror jeg. Men her må vi passe på at det henger sammen med f.eks. Krav om at disse refererte andre revisjonsdokumentene internt også blir med/krav til rettigheter. For arbeidsflyt tror jeg det er ok, men usikker på løsning for eksterne.	Indirekte avhengig av 1.67 (for oppdatering av metadata) og 1.82 (ytelse).
+Skytjenesten bør kunne håndtere store dokumenter (10-30 MB) uten at dette påvirker brukervennligheten ved håndtering av dokumentene.
+Beskriv eventuelle begrensninger i Skytjenesten for tunge filer og påvirkning på ytelse/responstid ved vanlige operasjoner slik som:
+- Åpne et dokument
+- Ekspedere et dokument
+- Ekspedere samme dokument til mange mottagere.
+- Sende et dokument på godkjenning/høring/gransking
+- Dele et dokument som del av innkalling til eksterne deltagere i nemd/formelt møte"	1.82 – Store dokumenter	Støttet. 10–30 MB håndteres uten ytelsesproblem.	Begrensning ligger i kanal (Teams/e-post), usikker på hva de faktiske begrensinger er, men det må belyses. Det er jo også avhengig av hvilken løsning vi får for.	Avhengig av 1.37 (deling) og 1.94 (flyt) ved overføring.
+6. Integrasjoner og hendelser	Det bør være mulig å etablere integrasjoner mellom Skytjenesten for Sikkerhetsgradert dokumentasjon og følgende systemer:
+
+1. Arkivere arbeidsordre og logger fra fagsystemene Vircore (FLYT) og View Maintenance
+2. Oppdatere status på et objekt i fagsystem for «objektregister» trigget av saksbehandlingaktiviteter (gransking og godkjenning) i Skytjenesten.
+3. Knytte dokument i Skytjenesten til objekt i system for objektregister slik at bruker i objektregisteret kan klikke på en link som åpner dokumentet.
+4. Eksport av logger fra Skytjenesten til Kundens sentrale loggtjeneste Splunk
+5. Eksport av data fra Skytjenesten til Kundens tjeneste for sikkerhetsovervåkning, Security Incident and Event Management (SIEM)
+
+Aktuelle systemer vil være på samme plattform og samme nettverk som Skytjenesten for Sikkerhetsgradert dokumentasjon.
+
+Beskriv anbefalt API for og eventuell erfaring med de ulike systemene fra listen. Ved en tosystemløsning bør det tydelig framgå hvilket av de to systemene som skal integreres med respektive fagsystem.	1.140 – Integrasjoner (gradert miljø)	Delvis støttet. 360° har API-er, men ingen hendelsesdrevet kobling. Ingen standard funksjonalitet for ". Oppdatere status på et objekt i fagsystem for «objektregister» trigget av saksbehandlingaktiviteter (gransking og godkjenning) i Skytjenesten." (del av krav). Ikke tydelig om det gjelder kun interne eller eksterne granskere, godkjennere.	Her må vi passe på at løsning for arbeidsflyt også kan dekke dette, evt er det krav som utgår.	Avhengig av 1.67 (hendelsesmetadata) og 1.94 (flythendelser).
+7. Tilgang og stedfortreder	Skytjenesten bør ha funksjonalitet for å identifisere hvilken sak et brev Kunden motta via Digdir eFormidling hører til slik at brev uten saksreferanse plasseres i innboks for uregistrerte journalposter i Skytjenesten og brev med saksreferanse plasseres på korrekt sak.	1.33 – Stedfortreder	Støttet. Bruker kan tildele stedfortreder som tar over oppgaver.	Kan ikke forstå noe annet enn at dette gjelder interne brukere. Tror at stedsfortreder lar man ta over  aktiviteter (prosesser og arbeidsflyt, avhengig av løsning, for interne: Godkjening/Gjennomgang, eller prosesser)	Koblet til 1.94 (flyt) og 1.46 (tilgang).
+Brukerhistorie 1 - LEvende dokumenter: I 2025 har saksbehandler opprettet en Safety case –sak i Skytjenesten og har utarbeidet
+en “Safety case rapport” knyttet til anlegget. Rapporten er utarbeidet iht. kundens
+interne prosess. Det vil si at det er logget på saken at dokumentet har blitt gransket og
+godkjent av de obligatoriske rollene. Det er blitt sendt på høring. Høringskommentarene
+er sammenstilt i et eget dokument og det er redegjort for, i samme dokument, hvordan
+de respektive hørings-innspillene er blitt håndtert. Videre har saksbehandler skrevet et
+saksframlegg til utvalg Sikkerhetskommitéen og fått dokumentet godkjent der. Alle
+disse dokumentene dokumenterer at Safety case-rapporten er produsert iht. prosess
+og er tilstrekkelig kvalitetssikret.	Skille mellom gransking og høring. Argumentet med at ekstern granskning ofte løses med nettopp høring utgår derfor, da det skisseres en separat Granskingsprosess.	Beskriver ikke I detalj hvordan prosessen med eksterne skal utførtes, ref. forsøke å forstå kravene til ekspern godkjenningsprosess. Eksempelvis hvordan ser de for seg at prosessen skal være; hva skal ekstern godkjenner faktisk gi av input; kommentar, ja/nei/avbryt, laste opp filer etc. Det nenves i krav sekvensiell og paralell flyt, automatisk oppdatering av gransket av (men ikke spesifik hva som trigger setting av metadata, f.eks. kun ved godkjent), det nevnes at flyten skal avbrytes automatisk.
+Brukerhistorie 3 - Tilsyn med pålegg fra DSA: Rapporten fra DSA inneholder en rekke pålegg om hva Kunden må forbedre for at
+tilsynet skal godkjennes. Kunden skal dokumentere og formidle til DSA at hvert enkelt
+pålegg er utført. DSA skal deretter granske og godkjenne dokumentasjonen av
+utførelsen. Det kan også være at DSA gir tvangsmulkt knyttet til tilsynet/påleggene.	Mulig at dette er relatert til prosess om å påføre granset av på innkommende dokument.
+Brukerhistorie 3 - Tilsyn med pålegg fra DSA: De ulike påleggene i tilsynsrapporten blir besvart til DSA i omganger med en samlet
+dokumentpakke (en gruppe dokumenter) og følgebrev hver gang. Dokumentene i
+dokumentpakken skal hver for seg gjennom obligatorisk saksbehandlingsprosess med
+gransking, godkjenning og utvalgsbehandling. DSA kan underkjenne en første versjon av
+besvarelsen på et eller flere pålegg og be om kompletterende informasjon.
+Oppsummert så er det mye forskjellig dialog frem og tilbake som involverer hele
+bredden av Kundens organisasjon.	Tror gransking her er ekstern prosess hos DSA, 1.71
+Det virker som DSA har samme prosess. Vår kunde, men løsningsbeskrivelsen deres nevner ikke gransking som egen prosess.	Kanskje krav 1.71 hvis gjelder for eksternt produserte dokumenter også

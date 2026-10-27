@@ -1,0 +1,335 @@
+## sheet1.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia	Liite 2.6
+VN/1860/2026-VNK-2
+Tässä taulukossa on tämän sivun ohella kuusi välilehteä, jotka sisältävät tietoturvavaatimukset hankinnan kohteeseen liittyen. Vaatimukset täydentävät hankinnan toiminnallisia ja ei-toiminnallisia vaatimuksia.
+Toimittaja sitoutuu täyttämään kaikki tämän tiedoston välilehdillä listatut vaatimukset palvelun hyväksymisen/käyttöönoton yhteydessä suoritettavassa auditoinnissa. Vaatimukset tullaan myöhemmin luokittelemaan kahteen ryhmään. 
+Luokkaan V1 luokitellut vaatimukset tulevat pakollisiksi vaatimuksiksi, Luokkaan V2 luokitellut vaatimukset ovat luonnoksia vaatimuksista, joihin sitoutumista voidaan edellyttää tarjouspyynnön yhteydessä, mutta joita käsitellään vielä neuvotteluvaiheessa.
+HUOM! Osallistumispyyntövaiheessa toimittajan ei tarvitse täyttää ja palauttaa lomaketta. Osallistumispyyntövaiheessa Toimittajan tulee tutustua tämän liitteen välilehtiin.
+Vaatimusalue	Selite
+Tietoturvatasovaatimukset	Tiedonhallintalakiiin (906/2019) Valtioneuvoston asetukseen asiakirjojen turvallisuusluokittelusta valtionhallinnossa (1101/2019) pohjautuvat hankinnan tietoturvan vähimmäisvaatimukset ja vaatimukset salassa pidettäville ja turvallisuusluokitelluille tietoaineistoille. Koskee kaikkia hankintoja, joilta tiedonhallintalaki edellyttää tietoturvatoimenpiteiden toteutumista.
+ICT-varautumisen vaatimukset	Tiedonhallintalakiin (906/2019) ja  VAHTI 2/2012 pohjautuvat palvelun ICT-varautumisen vaatimukset.
+Yleiset vaatimukset	Palvelun tuottamiseen käytettävän palvelin- ja tietoliikenneympäristön, sekä käyttöpalvelu- ja sovellustoimittajia koskevat yleiset tietoturvavaatimukset, sekä palvelun tietoturvallisuuden vuosikelloon sisältyvät vaatimukset. Koskee kaikkia hankintoja.
+Sovelluskehityksen vaatimukset	VAHTI 1/2013 (Sovelluskehityksen tietoturvaohje) ja DVV Turvallinen sovelluskehitys käsikirja mukaiset palvelussa tai palvelulle tuotettavalle sovelluskoodille ja sovelluskehitysprosessille asetettavat vaatimukset. Koskee kaikkia hankintoja, joissa toimitukseen sisältyy sovelluskehitystä.
+Pilvipalveluvaatimukset	PITUKRIin pohjautuvat pilvipalveluihin kohdistuvat vaatimukset. Koskee, mikäli hankinnan kohteena on pilvipalvelu tai hankinnan kohteena olevassa palvelussa hyödynnetään pilvipalvelua esimerkiksi kapasiteetin tai tiedontallennuksen osalta.
+Perus	Kyllä
+Korotettu	Ei
+Korkea
+## sheet2.xml
+VN Asia hankinta
+Tällä välilehdellä esitetyt esiehdot ovat taustatietoa koskien hankinnan kohteen tietoturvan ja tietosuojan tasoon kohdistuvia vaatimuksia sekä ennen käyttöönottoa suoritettavaan arviointiin sovellettavia tasoja.
+Esiehdot: (tarkennetaan myöhemmin komponentti kohtaiseksi)
+Turvallisuustasot
+Vaadittava luottamuksellisuuden taso	TLIV	
+Vaadittava eheyden taso	Kriittinen
+Vaadittava saatavuuden taso	Tärkeä
+Henkilötiedot arvioinnin kohteessa	Henkilötietoja
+Arviointiin sisällytettävät osa-alueet
+Hallinnollinen turvallisuus	Kyllä
+Fyysinen turvallisuus	Kyllä
+Tekninen turvallisuus	Kyllä
+Tietosuoja	Kyllä
+Varautuminen ja jatkuvuudenhallinta	Kyllä
+Käyttötapaus
+Lisätietoja turvalllisuustasoista
+Eheys
+On tiedon ominaisuus, joka tarkoittaa sitä, että tietoa ei ole muutettu luvatta tai että se ei ole muuttunut vahingossa ja että mahdolliset muutokset voidaan todentaa
+Taso	Kuvaus
+Vähäinen	Tiedon häviämisestä tai muuttumisesta ei aiheudu olennaista haittaa.
+Normaali	Tiedon häviäminen tai muuttuminen aiheuttaa kohtuullista haittaa, mutta se voidaan havaita ja siitä voidaan toipua.
+Tärkeä	Tiedon häviäminen tai muuttuminen aiheuttaa merkittävää haittaa tai mainevahinkoa ja sen havaitseminen voi olla vaikeaa.
+Kriittinen	Tiedon häviäminen tai muuttumista ei voida hyväksyä missään tilanteessa.
+Saatavuus 
+Tarkoittaa sitä, miten tieto, tietojärjestelmä tai palvelu on hyödynnettävissä haluttuna aikana ja vaaditulla tavalla
+Taso	Kuvaus
+Vähäinen	Tiedon saatavuuden osalta pystytään hyväksymään useiden viikkojen mittaisia häiriöitä.
+Normaali	Tiedon saatavuuden osalta pystytään hyväksymään enintään päivien mittaisia häiriöitä.
+Tärkeä	Tiedon saatavuuden osalta pystytään hyväksymään enintään tuntien mittaisia häiriöitä.
+Kriittinen	Tiedon saatavuuden osalta pystytään hyväksymään enintään minuuttien mittaisia häiriöitä.
+## sheet3.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia
+V1	Pakollinen vaatimus, palvelun tulee täyttää tämä vaatimus
+V2	Alustava vaatimus, jota voidaan vielä arvioida ja muokata neuvotteluvaiheen aikana
+Yleiset vaatimukset	Luokka	Viite	Toimittajaan kohdistuva vaatimus, Tietoturvallisuuden vähimmäisvaatimukset	Vastaus (Kyllä/Osittain/Ei)	Tarkentava seloste	Osittain
+1.1	TihL 13.1§	Mikäli hankinnan kohdetta koskeva lainsäädäntö muuttuu, toimittaja sitoutuu tiedottamaan muutoksesta hankinnan kohteen tuottamisesta vastaavalle henkilöstölleen sekä alihankkijoilleen hankinnan kohteen tuottamisen edellyttämässä laajuudessa.
+1.2	TihL 4.2§	Toimittaja määrittelee (ja dokumentoi) hankinnan kohteeseen liittyvät toimittajan prosessien vastuut ja tehtävät hankinnan edellyttämällä tavalla. Prosessin vastuissa Toimittajan on huomioitava hankinnan kohteeseen ja sen jatkuvuuteen oleellisesti vaikuttavat ulkoiset ja sisäiset tekijät.
+1.3	TihL 12§	Toimittaja ylläpitää listaa siitä, mitkä sen alihankkijat käsittelevät mitäkin hankinnan kohteen tietoturvallisuuden kannalta tärkeää tietoa ja missä rooleissa. Toimittaja luovuttaa Tilaajalle listan pyydettäessä.
+1.4	TihL 13.1§	Toimittajalla on kirjallinen tietoturvamenettely, jota Toimittaja noudattaa käsitellessään hankinnan kohteeseen liittyvää tietoa.
+1.5	TihL 12§	Toimittaja määrittelee ja dokumentoi hankinnan kohteeseen liittyvät toimittajan toimintojen ja prosessien työtehtävät ja roolit, jotka edellyttävät erityistä luotettavuutta. Henkilöistä tehdään turvaselvitykset ja heidän kanssaan sovitaan vaitiolosta Tilaajan prosessin mukaisesti.
+1.6	TihL 12§	Toimittaja varmistaa henkilön luotettavuuden ennen kuin henkilö aloittaa yllämainitun hankinnan kohteeseen liittyvän työtehtävän.
+1.7	TihL 4.2§	Toimittaja kuvaa hankinnan kohteen tietoturvallisuuteen, jatkuvuuteen ja tietosuojaan liittyvät tehtävät ja nimeää niihin vastuu- ja varahenkilöt.
+1.8	TihL 4.2§	Toimittaja määrittelee tehtävät ja vastuut sekä nimeää henkilöt hankinnan kohteeseen liittyvistä Asiakkaaseen vaikuttavista tietoturva-asioista raportointiin sekä tietoturvapoikkeamista tiedottamiseen. Toimittaja ulottaa tämän myös palvelun toimittamiseen liittyviin alihankkijoihin.
+1.9	TihL 13.1§	Toimittaja raportoi palveluun liittyvien tietojärjestelmien ja niiden hallinnan tietoturvallisuuden tilasta asiakasorganisaatiolle säännöllisesti, vähintään kerran vuodessa ja aina kun tietoturvallisuudessa esiintyy poikkeamia.
+1.10	TihL 4.2§ & 13§	Toimittaja reagoi hankinnan kohteeseen liittyviin tietoturvapoikkeamiin viivytyksettä, ryhtyy niiden johdosta asianmukaisiin toimenpiteisiin, pitää niistä kirjaa ja raportoi ne Asiakkaalle. Henkilötietojen suojan vaarantuminen on aina vakava poikkeama, josta on ilmoitettava Asiakkaalle ilman aiheetonta viivytystä.
+1.11	TihL 4.2§	Toimittaja laatii kirjallisen hankinnan kohteeseen liittyvän palvelun turvakuvauksen. Turvakuvaus toimitetaan Tilaajalle tarkastettavaksi pyydettäessä.
+Tietojen elinkaareen liittyvät vaatimukset
+1.12	TihL 13.1§	Toimittaja on tunnistanut (ja dokumentoinut) hankinnan kohdetta koskevan tiedon käsittelyyn liittyvät käytännöt ja käsittely-ympäristöt (tekniset ja fyysiset) sekä muut käsittelyyn liittyvät tekijät (tiedonhallintamalli)
+1.13	TihL 13.1§	Toimittaja toteuttaa tiedon säilytyksen siten, että vain ne tahot, joilla on oikeutettu pääsy tietoon pääsevät siihen käsiksi.
+1.16	TihL 13.1§	Toimittaja sitoutuu noudattamaan asiakasorganisaation kullekin hankinnan kohteeseen liittyvän ydintoiminnon ja -prosessin tietoturvallisuuden kannalta suojattavalle kohteelle laatimaa luokitusta ja sen mukaisia käsittelysääntöjä.
+1.17	TihL 13.1§	Hankinnan kohteeseen liittyvää tietoaineistoa jakaessa, siirtäessä tai luovuttaessa toimittaja varmistaa vastaanottajan identiteetin riittävän luotettavalla tavalla.
+1.18	TihL 13.1§	Hankinnan kohteeseen liittyvän tietoaineiston siirrossa käytetään salassa pidettävyyden tai turvallisuusluokittelulle sovittua ja hyväksyttyä turvapostiratkaisua.
+1.19	TihL 13.1§	Toimittaja varmistaa yhteistyössä Tilaajan kanssa sen, että tiedon luovuttaminen on lainmukaista ja, että vastaanottajalla on oikeus tietoaineiston käsittelyyn ennen tietojen luovuttamista.
+1.20	TihL 13.1§	Hankinnan kohteeseen liittyvän tiedon arkistoinnissa on huomioitu tiedon säilytysaika, -paikka ja tapa arkistolain, muun lainsäädännön tai tilaajan vaatimusten mukaisesti.
+1.21	TihL 13.1§	Toimittaja vastaa hankinnan kohteeseen liittyvän tiedon tuhoamisesta ja arkistoimisesta määritellyn säilytysajan tai käyttötarpeen päättyessä riskienarvioinnissa määritetyllä luotettavalla tavalla.
+1.22	TihL 13.1§	Toimittaja luovuttaa tarvittaessa asiakasorganisaatiolle tiedon siitä, mitkä sen alihankkijat käsittelevät mitäkin hankinnan kohteen tietoturvallisuuden kannalta tärkeää tietoa ja missä rooleissa.
+1.23	TihL 13.1§	Toimittaja on laatinut hankinnan kohteeseen liittyvän jatkuvuussuunnitelman tai –suunnitelmia toimittamansa oman palvelun osalta), joista se toimittaa asiakasorganisaatiolle aina ajantasaisen version.
+Tietojärjestelmien elinkaareen liittyvät vaatimukset
+1.24	TihL 13.1§	Hankinnan kohteen liittymät muihin järjestelmiin sekä tästä muodostuvat riippuvuudet ja tietovirrat on tunnistettu ja dokumentoitu ennen käyttöönottoa.
+1.25	TihL 13.1§	Toimittaja testaa hankinnan kohteena olevan järjestelmän toimivuuden ennen tuotantokäyttöön ottamista.
+1.26	TihL 13.1§	Toimittaja laatii yhdessä käyttöpalvelutoimittajan kanssa ennen palvelun tuotantokäyttöön ottamista hankinnan kohteesta kirjallisen perustason dokumentaation: turvakuvauksen, asiakastuen ohjeen, toipumissuunnitelman, toipumisohjeen, sekä käyttäjän ohjeen, joissa kerrotaan, miten järjestelmä suojataan tuotantokäytössä ja millaiset ovat käyttäjiltä vaadittavat tietoturvatoimenpiteet. Tilaajalla on oikeus katselmoida suunnitelmat ja Toimittaja päivittää suunnitelmat katselmoinnin havaintojen mukaisesti.
+1.27	TihL 13.1§	Hankinnan kohteen tiedonkäsittely-ympäristöihin on olemassa muutoshallintamenettelyt, joissa turvallisuus on huomioituna.
+1.28	TihL 13.1§	Toimittaja vastuuttaa ja organisoi hankinnan kohteen tuottamisessa käytettävien laitteiden ja tietojärjestelmien päivitys- ja muutostarpeen seurannan, päivityspäätösten teon ja päivitysten asennuksen erityisesti tietoturvapäivitysten osalta.
+1.29	TihL 13.1§	Toimittaja ja Tilaaja sopivat yhdessä järjestelmän päivitysprosessista ja -käytännöistä kokonaisuutena, mm. mitkä päivitykset voidaan ajaa välittömästi ilman erillistä sopimista ja mitkä edellyttävät riskitason mukaista tarveharkintaa.
+1.30	TihL 13.1§	Jos hankinnan kohteeseen liittyvien tietojen varmuuskopiointi on sovittu Toimittajan vastuulle, Toimittaja huolehtii tietojen varmuuskopioinnista ja palauttamisesta siten kuin Tilaajan kanssa on sovittu.
+1.31	TihL 13.1§	Toimittaja testaa hankinnan kohteeseen liittyvien eri järjestelmien palautusta säännöllisesti ja on laatinut toipumissuunnitelman normaaleista häiriöistä palautumiseen.
+1.33	TihL 13.1§	Hankinnan kohteeseen liittyvien olennaisten tietojärjestelmien vikasietoisuus testataan säännöllisesti.
+1.34	TihL 13.1§	Tilaajan pyynnöstä hankinnan kohteeseen voidaan kohdistaa auditointeja.
+1.35	TihL 13.1§	Toimittaja pitää kirjaa palvelua koskevien auditointien tai arviointien lopputuloksena tulevista suosituksista ja seuraa parannustoimenpiteiden toteutumista.
+1.36	TihL 13.1§	Toimittaja luetteloi hankinnan kohteena olevan palvelun toteuttamiseen käytettävät fyysiset ja virtuaaliset laitteet, tietojärjestelmät, palvelut, ohjelmistot, virtuaalipalvelimet, sertifikaatit ja lisenssit ja vastuuttaa näiden omistajuuden ja ylläpidon.
+1.37	TihL 13.1§	Hankinnan kohteena olevan palvelun tuottamisessa käytettävissä palveluympäristöissä suodatetaan haittaohjelmia sekä työasematasolla että sähköpostin ja www-liikenteen sisääntulo- ja ulosmenopisteissä.
+Riskienhallintaan kohdistuvat vaatimukset
+1.38	TihL 13.1§	Toimittaja sopii yhdessä Tilaajan kanssa  menetelmän ja ohjeistuksen, joita käytetään hankinnan kohteeseen liittyvien tietoturvariskien arviointiin.
+1.39	TihL 13.1§	Toimittaja on määritellyt tunnistetuille riskeille hallintatoimenpiteet, aikataulun ja vastuut.
+1.40	TihL 13.1§	Toimittaja arvioi yhteistyössä Tilaajan kanssa hankinnan kohteen tietoturvallisuuteen liittyviä riskejä säännöllisesti (vähintään vuosittain) koko järjestelmän elinkaaren ajan
+1.41	TihL 13.1§	Toimittaja seuraa riskienhallintatoimenpiteiden toteutumista vähintään vuosittain.
+1.42	TihL 13.1§	Toimittaja parantaa tietoturvallisuutta riskiarvioinnin perusteella asiakasorganisaation kanssa yhteistyössä sovituilla toimenpiteillä.
+1.44	TihL 13.1§	Tietoturvallisuustoimenpiteet hankinnan kohteeseen liittyvien tietoaineistojen muuttumattomuuden varmistamiseksi tiedon elinkaaren eri vaiheissa on määritetty.
+1.45	TihL 13.1§	Turvatoimenpiteet tulee suunnitella riskienarvioinnissa todetut riskit huomioiden.
+1.46	TihL 13.1§	Mikäli hankinnan kohteen tuottamiseen kohdistuu merkittävä muutos, esimerkiksi merkittävän tuotantoympäristöön liittyvän toimenpiteen johdosta, Toimittaja arvioi tähän liittyvät tietoturvariskit erikseen.
+Henkilöstölle asetettavat vaatimukset
+1.47	TihL 4§	Toimittaja järjestää hankinnan kohteen toimittamiseen osallistuville henkilöille säännöllisesti (vähintään joka toinen vuosi tai lainsäädännön muuttuessa) tietoturvakoulutusta. Toimittaja kehittää ja ylläpitää kyseisen henkilöstön tietoturvaosaamista ja tiedottaa henkilöstölle muuttuneista tietoturvaohjeista ja -käytännöistä.
+1.48	TihL 4§	Toimittaja seuraa hankinnan kohteeseen liittyvien, tietoturvallisuutta koskevien sopimusvelvoitteiden noudattamista ja puuttuu poikkeamiin.
+1.49	TihL 4§	Toimittaja huolehtii hankinnan kohteeseen liittyvien sähköisten viestien, sähköpostien, tunnistamistietojen sekä paikkatietojen luottamuksellisuudesta ja oikeasta käsittelystä myös tietoturvapoikkeamatilanteita selvitettäessä (sähköisen viestinnän tietosuojalaki 4 § ja 5 § sekä laki yksityisyyden suojasta työelämässä 6 luku)
+1.50	TihL 4§	Toimittaja huolehtii siitä, että hankinnan kohteen tuottamiseen osallistuva henkilöstö tietää kenelle hankinnan kohteeseen kohdistuvista tietoturvapoikkeamista ja -tapauksista tai niiden uhkista tulee ilmoittaa.
+Kumppanuuksille ja resurssien hallinnalle asetettavat vaatimukset
+1.51	TihL 13.4§	Toimittaja tekee alihankkijoidensa kanssa sopimukset, joissa määritellään myös yhteistyön tai hankinnan kohteen tietoturvavaatimukset alihankinnan osalta sekä se, miten hankinnan kohdetta koskeva tietoturvallisuuden valvonta, seuranta, auditointi ja raportointi tapahtuu.
+1.52	TihL 13.4§	Toimittaja valvoo hankittavan palvelun tietoturvallisuuden toteutumista, kirjaa poikkeamat ja raportoi ne asiakasorganisaatiolle välittömästi sekä aloittaa korjaustoimet sovitusti. Toimittaja velvoittaa myös alihankkijansa myötävaikuttamaan tämän vaatimuksen toteutumiseen.
+Tietoturva-alueiden muodostus ja niiden välinen suodatus
+1.54	Turvallisuusluokitteluasetus  11§	Toimittaja yhteistyössä alustatoimittajan kanssa vastuuttaa ja organisoi hankinnan kohteeseen liittyvien palomuurien ja muiden tietoliikennelaitteiden sääntöjen lisäämisen, muuttamisen ja poistamisen.
+1.55	Turvallisuusluokitteluasetus  11§	Toimittaja yhteistyössä alustatoimittajan kanssa dokumentoi palomuurien ja muiden suodatuslaitteiden suodatussäännöt.
+Pääsynvalvonta & Käyttöoikeuksien hallinta
+1.57	TihL 16§	Asiakkaalla on oikeus päättää, kuinka luotettavaa identiteettiä ja vahvaa tunnistamista hankinnan kohteena olevan järjestelmän sisältämien tietojen käyttöön tarvitaan. Tästä mahdollisesti aiheutuvista kustannuksista sovitaan erikseen, jos vaatimustaso muuttuu hankinnan kohteessa kuvatusta tasosta.	
+1.58	TihL 16§	Hankittavan järjestelmän tulee kyetä vaikuttamaan salasanan laatuvaatimuksiin (esimerkiksi pituus, eri merkkisarjojen käyttö eli kompleksisuus, vaihtoväli, tunnuksen lukkiutuminen liian monen epäonnistuneen yrityksen jälkeen), mikäli salasanaa käytetään toimittajan tunnistautumismenetelmänä.	Vaatimusta sovelletaan ylläpitosalasanaan, jos sellainen on käytössä.
+1.59	TihL 16§	Hankittavassa kohteessa ja sen apuna käytettävissä tietojärjestelmissä tulee kyetä määrittämään käyttöoikeuksille eri laajuiset käyttövaltuudet (esim. työtehtävien tai -roolien perusteella).
+1.60	TihL 16§	Käyttövaltuudet Toimittajan tietojärjestelmiin, jotka liittyvät hankinnan kohteeseen, perustuvat kirjalliseen sopimukseen tai palvelussuhteeseen. Lisäksi järjestelmien käyttö tulee kyetä estämään teknisesti ilman tarpeetonta viivytystä, kun käyttöperuste on päättynyt (esim. Toimittajan työntekijän vaihdettua työpaikkaa).
+1.61	TihL 16§	Hankinnan kohteena olevan tietojärjestelmäpalvelun tunnusten ja valtuuksien myöntö, muuttaminen ja poisto organisoidaan asiakasorganisaation kanssa yhdessä sovittavalla tavalla.
+1.62	TihL 16§	Toimittaja tunnistaa ja dokumentoi hankinnan kohteeseen liittyvät erityisen laajoja käyttöoikeuksia vaativat tehtävät ja näitä tehtäviä suorittavat roolit.
+1.63	TihL 16§	Yksittäisen käyttäjän käyttövaltuudet voidaan selvittää.
+Lokitiedot
+1.64	TihL 17§	Hankinnan kohteen tietojärjestelmien käytöstä ja tietojen luovutuksista tulee kyetä keräämään lokitietoa tapauksista, joissa käyttö edellyttää tunnistautumista tai muuta kirjautumista.
+1.65	TihL 17§	Hankinnan kohteen tietojärjestelmien osalta tulee kyetä tukemaan lokien siirtoa hallintajärjestelmään.
+1.66	TihL 17§	Hankinnan kohteena oleva tai siihen liittyvä tietojärjestelmän lokitietojen osalta tulee kyetä tunnistamaan sekä onnistuneet että epäonnistuneet sisäänkirjautumiset niin, että yksittäisen käyttäjän kirjautumiset järjestelmään kyetään selvittämään ja yhdistämään hänen henkilöllisyyteensä luotettavasti.
+TihL 4 a luku (NIS2) Kyberturvallisuutta koskevat velvollisuudet
+1.67	TihL 18 b §	Toimittajalla on oltava riskienhallinnan toimintamalli, jolla tunnistetaan, arvioidaan ja hallitaan kyberriskejä ja poikkeamia, joita kohdistuu sen toiminnoissa tai palveluntarjonnassa käytettävien viestintäverkkojen ja tietojärjestelmien turvallisuuteen, toimintaan, toiminnan jatkuvuuteen, palvelujen vastaanottajiin ja muihin palveluihin.
+1.68	TihL 18 b §	Riskienhallinnan toimintamallissa on oltava kaikki vaaratekijät huomioiva lähestymistapa, minkä lisäksi siinä on määritettävä ja kuvattava kyberturvallisuutta koskevan riskienhallinnan tavoitteet, menettelyt ja vastuut.
+1.69	TihL 18 b §	Toimittajan johto vastaa kyberturvallisuutta koskevan riskienhallinnan toteuttamisen ja valvonnan järjestämisestä sekä hyväksyy riskienhallinnan toimintamallin ja valvoo sen toteuttamista. Johdolla tulee olla riittävä perehtyneisyys.
+1.70	TihL 18 c §	Toimittajan on toteuttava oikeasuhtaiset tekniset, operatiiviset ja organisatoriset kyberturvallisuutta koskevat riskienhallintatoimenpiteet käyttämiensä viestintäverkkojen ja tietojärjestelmien turvallisuuteen kohdistuvien kyberriskien hallitsemiseksi ja haitallisten vaikutusten estämiseksi tai minimoimiseksi.
+1.71	TihL 18 c §	Toimenpiteiden on oltava ajantasaiset, asianmukaiset ja oikeasuhtaiset suhteessa viestintäverkkojen ja tietojärjestelmien riskialttiuteen, viestintäverkon tai tietojärjestelmän merkitykseen toiminnalle sekä niissä ilmenevän poikkeaman kohtuudella ennakoitavissa oleviin välittömiin vaikutuksiin. Lisäksi toimenpiteiden mitoittamisessa on otettava huomioon poikkeaman todennäköisyys ja vakavuus.
+## sheet4.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia
+V1	Pakollinen vaatimus, palvelun tulee täyttää tämä vaatimus
+V2	Alustava vaatimus, jota voidaan vielä arvioida ja muokata neuvotteluvaiheen aikana
+Tunniste	Luokka	ICT-varautumisen vaatimusten kohta	Toimittajaan kohdistuvat vähimmäisvaatimukset	Vastaus kyllä/ei	Kommentit
+1. JOHTAJUUS
+Organisointi
+2.1	1.3-1	Toimittaja kuvaa, ohjeistaa ja vastuuttaa hankinnan kohteen häiriötilanteisiin liittyvän oman päätöksentekonsa ja poikkeamien käsittelyn.
+2.4	1.4-1	Toimittaja määrittelee omalta osaltaan hankinnan kohteen ICT-varautumisen johtamisen roolit ja vastuut.
+Yhteistyö, viestintä ja raportointi
+2.6	1.6-1 - 1.6-2	Toimittaja ja Asiakas kokoontuvat säännöllisesti käsittelemään hankinnan kohteen jatkuvuuden ja tiedon turvaamisen tilannetta, linjauksia ja periaatteita sekä toteutumista ja koordinaatiota.	Koskee ylläpidon hallintamallin mukaista yhteistoimintaa.
+2.8	1.7-1	Toimittaja raportoi Asiakkaalle riskianalyysin perusteella päätettyjen, hankinnan kohteeseen liittyvien ICT-varautumisen kehittämistoimenpiteiden edistymisestä normaalin raportoinnin osana.
+2.10	1.8-1	Toimittaja noudattaa hankinnan kohteen osalta Asiakkaan antamaa kriisiviestinnän ohjetta.
+STRATEGIAT JA TOIMINNAN SUUNNITTELU
+Toiminnan suunnittelu riskienhallinnan avulla
+2.15	2.2-1	Toimittaja toteuttaa riskienhallinnan toimenpiteitä, jotka liittyvät hankinnan kohteeseen ja joista on yhdessä Asiakkaan kanssa sovittu.
+Palveluiden jatkuvuuden suunnittelu
+2.17	2.4-2	Toimittaja vastuuttaa ja organisoi hankittavan palvelun toiminnan jatkuvuuden, tiedon turvaamisen ja varautumisen suunnitelmien päivityksen.
+2.20	2.5-1	Toimittaja järjestää CERT-FI ilmoitusten seurannan, sisäisen välityksen ja käsittelyn hankinnan kohteeseen liittyen.
+2.21	2.5-2	Toimittaja ilmoittaa Asiakkaalle vakavista hankinnan kohteeseen kohdistuvista tietoturvaloukkauksista ja niiden epäilyistä.
+2.22	2.5-3	Toimittaja valvoo hankinnan kohteeseen liittyviä palveluita, järjestelmiä ja verkkoja  Asiakkaan edellyttämällä tavalla.
+4. KUMPPANUUDET JA RESURSSIT
+Sopimusten hallinta
+2.36	4.1-1	Toimittaja kuvaa hankinnan kohteen tuottamiseen osallistuvan palvelu- ja alihankkijaverkostonsa sekä sen merkityksen palvelun tuottamisessa.
+Toiminnan varmistaminen erityistilanteissa
+2.41	4.3-1	Toimittaja sopii vastuut resurssien hallinnasta ja saatavuudesta alihankkijaverkostossaan hankinnan kohteeseen liittyen.
+2.45	4.4-1	Toimittaja tekee hankinnan kohteen tuottamiseen liittyvissä häiriötilanteissa Asiakkaan edellyttämää yhteistyötä muiden viranomaisten ja sidosryhmien kanssa.
+5. ICT-JATKUVUUDEN HALLINTA
+ICT-palvelujen turvaaminen
+2.50	5.2-1	Toimittaja suunnittelee ja dokumentoi hankinnan kohteeseen liittyvät varajärjestelyt ja häiriöistä toipumisen prosessit.
+2.53	5.3-1	Toimittaja vastaa siitä, että hankinnan kohteena olevan palvelun tuottamiseen osallistuvat työntekijät tietävät miten  tietoaineistoja käsitellään Asiakkaan ohjeistuksen mukaisesti.
+Tiedon turvaaminen
+2.56	5.4-2	Toimittaja suojaa palvelun tuottamiseen liittyvät laitteet ja laitetilat ympäristötekijöitä vastaan (murto, palo, lämpö, kosteus, kaasut, vesi ja pöly).
+6. MITTAAMINEN
+2.61	6.1-2	Toimittaja ja Asiakas seuraavat hankinnan kohteena olevan palvelun tilannetta ja toimintaa sekä sovittujen toimenpiteiden toteutumista säännöllisesti.
+## sheet5.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia
+V1	Pakollinen vaatimus, palvelun tulee täyttää tämä vaatimus	Kyllä
+V2	Alustava vaatimus, jota voidaan vielä arvioida ja muokata neuvotteluvaiheen aikana	Osittain
+Ei
+Tunniste	Vaatimus-luokka	Vaatimus	Vastaus	Vastauksen perustelu ja selvennys
+3.1	Toimittaja koventaa hankinnan kohteeseen liittyvien ja sen ylläpitoon käytettävien palvelin-, työasema- ja verkon aktiivilaitteiden asetukset käyttäen ajantasaista kovennusohjetta. Ensisijaisesti käytetään Asiakkaan osoittamia kovennusohjeita. Muita hyväksyttäviä standardeja ovat mm. seuraavien organisaatioiden tuottamat ohjeet: Center for Internet Security, SANS, NIST. Mikäli käytettävälle teknologialle ei ole yleistä standardia olemassa voidaan käyttää sovellus- tai laitetoimittajan tietoturvasuosituksia.
+3.2	Toimittaja jakelee tietoturvapäivitykset hankinnan kohteeseen littyville ja sen ylläpitoon käytettäville palvelin-, työasema- ja verkon aktiivilaitteille yhdessä sovitun aikataulun mukaisesti. Kriittiset päivitykset tulee asentaa järjestelmiin 30 päivän sisällä niiden julkaisusta, muut päivitykset 90 päivän sisällä niiden julkaisusta. Kriittisiksi päivityksiksi katsotaan CVSS-luokituksen (http://www.first.org/cvss) mukaisesti 7.0 ja sitä suuremmat arvot. Ehdotuksesta mahdollisesti poikkeava tietoturvapäivitysten päivityssykli tulee sopia erikseen.
+3.3	Toimittaja jakelee tietoturvapäivitykset hankinnan kohteeseen liittyville ja sen ylläpitoon käytettäville laitteille asennettuihin ohjelmistoihin yhdessä sovitun aikataulun mukaisesti, kriittiset päivitykset tulee asentaa järjestelmiin 30 päivän sisällä niiden julkaisusta, muut päivitykset 90 päivän sisällä niiden julkaisusta. Vaatimus kattaa kaikki ympäristössä käytössä olevat sovellukset, apuohjelmat, väliohjelmistot (middleware), rajapinnat, laiteohjelmistot (firmware) ja muut ohjelmistot, joille julkaistaan tietoturvapäivityksiä.
+3.4	Toimittaja koventaa hankinnan kohteeseen kuuluvien tai sen ylläpitoon käytettävien palvelinohjelmistojen ja tietokantasovellusten (esim. Oracle, MS SQL, MS IIS jne.) asetukset käyttäen ajantasaista kansainvälisesti tunnustettua kovennusstandardia. Hyväksyttäviä standardeja ovat mm. seuraavien organisaatioiden tuottamat ohjeet: Center for Internet Security, SANS, NIST. Mikäli käytettävälle teknologialle ei ole yleistä standardia olemassa voidaan käyttää sovellus- tai laitetoimittajan tietoturvasuosituksia.
+3.5	Toimittaja asentaa kaikkiin hankinnan kohteeseen kuuluviin tai sen ylläpitoon käytettäviin ja tyypillisesti haittaohjelmille alttiisiin käyttöjärjestelmiin haittaohjelmien torjuntaohjelmiston, jonka tunnistetiedot päivitetään automaattisesti vähintään päivittäin. Havaituista haittaohjelmista syntyy hälytys ja lokimerkintä keskitettyyn hallintajärjestelmään. Kirjoitushetkellä tyypillisesti haittaohjelmille alttiiksi käyttöjärjestelmiksi lasketaan Microsoft Windows -käyttöjärjestelmät. Vuosittaisessa riskienarvioinnissa tulee tarkastaa onko tilanteeseen tullut muutoksia ja tehdä tarvittavat päivitykset käytäntöön.
+3.6	Toimittaja varmistaa hankinnan kohteeseen liittyvien ja sen ylläpitoon käytettävien laitteiden ja sovellusten sisältämät tiedot säännöllisesti siten, että sen toiminnan häiriytyessä käytettävissä on ajantasainen varmuuskopio järjestelmän toiminnan palauttamiseksi. Varmistuskäytännöt kuvataan palvelulle laadittavaan varmistussuunnitelmaan.
+3.7	Toimittaja todentaa hankinnan kohteeseen liittyvien ja sen ylläpitoon käytettävien laitteiden ja sovellusten tiedoista otettavien varmistusten toimivuuden säännöllisesti toteutettavin palautustestein. Testit toteutetaan vähintään vuosittain.
+3.8	Mikäli Asiakas niin edellyttää, hankinnan kohteesta otettavista varmistuksista tehdään suojakopioita erikseen sovitulla tavalla. Suojakopioita säilytetään erillisessä palotilassa.
+3.9	Toimittaja toteuttaa hankinnan kohteelle testausympäristön, joka vastaa loogiselta kokoonpanoltaan tuotantoympäristöä riittävällä tavalla, jotta sitä voidaan käyttää muutoshallinnan ja häiriöhallinnan edellyttämään testaukseen.
+3.10	Toimittaja toteuttaa kaikki muuten kuin palvelimen paikalliselta fyysiseltä konsolilta tapahtuvan etäylläpidon suojattujen yhteyksien yli. Hyväksyttäviä suojaustapoja ovat tunnelointiratkaisut (esim. SSL/TLS/IPSec) sekä etähallintatuotteen tarjoama suojaus, mikäli se tukee riittävää salausta (minimissään AES 128bit).
+3.11	Toimittaja määrittää hankinnan kohteeseen liittyvät ja sen ylläpitoon käytettävät laitteet, palvelinohjelmistot ja verkon aktiivilaitteet tuottamaan riittävät lokitiedot kattavien tapahtumaketjujen muodostamiseen  tietoturvapoikkeamatilanteissa. Lokitiedot tulee kerätä erityisesti seuraavista: 
+- Käyttäjähakemistot (esim. AD/LDAP)
+- DNS-, DHCP-, gateway-,VPN- ja proxy-palvelut
+- www-, tietokanta- ja sovelluspalvelimet
+- palomuurit, reitittimet, kuormanjakajat
+Lokitietojen tulee olla saatavilla vähintään 24 kuukauden ajan ellei toisin sovita
+3.12	Toimittaja valvoo säännöllisesti hankinnan kohteeseen liittyvien ja sen ylläpitoon käytettävien laitteiden tuottamia tapahtumalokeja tietoturvapoikkeamien varalta. Kriittisissä järjestelmissä seurannan tulee olla päivittäistä tai reaaliaikaista (automatisoitua).
+3.13	Toimittaja suojaa lokitiedot hyväksymättömiä muutoksia vastaan paikallisesti rajoittamalla käyttöoikeuksia tai siirtämällä lokitiedot keskitettyyn lokihallintajärjestelmään. Muutosoikeudet lokitietoihin tulee olla vain lokienhallintaa toteuttavilla käyttäjärooleilla. Palvelinten ylläpitoa tekevillä ja esim. vianselvitykseen osallistuvilla rooleilla tulee olla lokitietoihin vain lukuoikeudet.
+3.14	Toimittaja määrittää hankinnan kohteeseen liittyvien tai sen ylläpitoon käytettävien palvelinten ja verkon aktiivilaitteiden kellot synkronoitumaan varmennetusta aikalähteestä.
+3.17	Toimittaja ylläpitää ajantasaista verkkokuvausta ympäristöstä.
+3.18	Toimittaja käyttää hankinnan kohteeseen liittyvissä tai sen ylläpitoon käytettävissä sisäverkoissa joko julkiseen verkkoon kuulumattomia, ns. privaattiosoitteita (RFC 1918), tai sisäverkon rakenteen ja liikenteen tarpeeton näkyminen verkon ulkopuolelle on muutoin estetty.
+3.19	Toimittaja käyttää kaikissa palomuurisääntöjen muutoksissa muutoshallintaprosessia, jossa kaikki muutokset dokumentoidaan. Kaikissa muutospyynnöissä on kirjattuna muutoksen hyväksyjä ja perustelu avaukselle. Toimittaja katselmoi palomuurisäännöstöjen oikeellisuuden ja asianmukaisuuden säännöllisesti, vähintään vuosittain. Katselmoinnista toimitetaan Asiakkaalle kirjallinen raportti.
+3.20	Toimittajan henkilöstö käyttää hankinnan kohteeseen liittyvissä ja sen ylläpitoon käytettävissä järjestelmissä vain henkilökohtaisia käyttäjätunnuksia. Jaettuja tai ryhmätunnuksia ei saa olla eikä niitä saa käyttää.
+3.21	Sisäänrakennettuja pääkäyttäjätunnuksia (Administrator, root, sa jne.) ei saa käyttää päivittäiseen työskentelyyn. Näiden tunnusten salasanat tulee tallentaa suojattuun paikkaan ja ottaa käyttöön vain tarpeen vaatiessa. Toimittaja kirjaa kyseisten tunnusten käytöstä tapahtumatiedot ja vaihtaa tunnusten salasanat käytön jälkeen.
+3.22	Sovellus- ja palvelutunnuksia, joita käytetään palvelujen suorittamiseen tai sovellusten käyttämiin kirjautumisiin ei saa käyttää interaktiivisiin hallintatoimiin. Toimittaja poistaa sovellus- ja palvelutunnuksilta interaktiiviset kirjautumisoikeudet.
+3.23	Toimittajan palvelun tuottamiseen liittyvät nimetyt pääkäyttäjät pitää tunnistaa vahvalla tunnistuksella ennen kuin he voivat hallinnoida hankinnan kohdetta tai sen ylläpitoon käytettäviä järjestelmiä etäyhteyksiä käyttäen.
+3.24	Toimittaja ylläpitää listaa henkilöistä, joilla on pääsy hankinnan kohteeseen liittyviin tai sen ylläpitoon käytettäviin järjestelmiin, sekä heille määritellyistä rooleista/oikeuksista. Toimittaja katselmoi käyttö- ja pääsyoikeudet säännöllisesti. Toimittaja ilmoittaa listaan liittyvistä henkilömuutoksista Asiakkaalle välittömästi. Asiakkaalla on oikeus hyväksyä henkilömuutokset.
+3.25	Toimittaja tunnistaa hankinnan kohteeseen liittyviin tai sen ylläpitoon käytettäviin järjestelmiin liittyvien käyttöoikeuksien osalta vaaralliset työyhdistelmät ja estää niiden syntymisen. Vaarallisia työyhdistelmiä ovat esim. oikeus sekä asentaa ohjelmistoja tuotantoympäristöön että hyväksyä toimenpide, tai toimia pääkäyttäjäoikeuksin palvelimelle ja poistaa toimenpiteidensä lokimerkinnät.
+3.28	Toimittajalla on dokumentoitu tietoturvatapahtumien hallintaprosessi, joka sisältää roolit, vastuut ja yhteyshenkilöt.
+3.29	Toimittaja osallistuu säännöllisiin hankinnan kohteen tietoturvallisuutta käsitteleviin yhteistyökokouksiin, joissa käsitellään tietoturvallisuuteen liittyvät asiat Asiakkaan kanssa sovittavalla tavalla.
+3.30	Toimittaja tuottaa palvelusta toipumissuunnitelman, jossa kuvataan yksityiskohtaisesti korjaavat toimenpiteet riskialtteimmista vikatilanteista toipumiseksi. Toipumissuunnitelman tulee täyttää Valtorin jatkuvuuspolitiikassa esitetyt vaatimukset.
+3.31	Toimittaja vastaa toipumissuunnitelman kehityksestä sekä vuosittaisesta päivityksestä ja testauksesta.
+3.32	Toimittaja kuvaa hankinnan kohteen hallintaan ja operointiin liittyvät vastuunsa Asiakkaan niin halutessa palvelun vastuunjakotaulukkoon.
+## sheet6.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia
+V1	Pakollinen vaatimus, palvelun tulee täyttää tämä vaatimus
+V2	Alustava vaatimus, jota voidaan vielä arvioida ja muokata neuvotteluvaiheen aikana
+Tunniste	Vaatimus-luokka	Vaatimus	Vastaus	Vastauksen perustelu ja selvennys
+4.1	Toimittaja nimeää hankinnan kohteen sovelluskehityksen tietoturvan vastuu- ja varahenkilöt seuraaville rooleille:
+- Arkkitehdit ja projektipäälliköt
+- Sovelluskehitykseen käytettyjen kehitys- ja testausympäristöjen omistajat ja ylläpitäjät
+- Testausvastaava
+4.2	Toimittaja järjestää hankinnan kohteen sovelluskehityksestä ja sen tietoturvasta vastaaville henkilöille ja näiden varanhenkilöille tietoturvakoulutusta. Koulutuksessa käydään läpi hankinnan kohteeseen liittyviä tyypillisiä tietoturvaongelmia. Tietoturvakoulutus tulee uusia säännöllisesti, vähintään kerran vuodessa.
+4.5	Toimittaja kuvaa menettelyn, jolla testattu ja hyväksytty sovellus siirretään tuotantoympäristöön.
+Ohjelmiston tietoturvatestaustarpeet on määritelty ja ne on dokumentoitu.
+4.6	Toimittaja käyttää lähdekoodin säilytykseen soveltuvaa
+versionhallintajärjestelmää. Järjestelmää tulee käyttää henkilökohtaisin tunnuksin siten, että jokainen muutos lähdekoodiin pystytään jäljittämään sen tehneeseen henkilöön.
+4.9	Toimittaja toteuttaa hankinnan kohteen siten, että siinä ei käytetä kovakoodattuja konfiguraatioarvoja, eikä sovellus ole riippuvainen tietyistä ohjelmistoversioista. Toteutettavaa sovellusta ei suunnitella siten, että se on riippuvainen käytetyn komponentin ominaisuudesta, joka löytyy vain komponentin tietystä versiosta.
+4.11	Toimittaja määrittelee ja dokumentoi sovelluksen luottamusrajat (trust boundaries). Kaikkea rajan toiselta puolelta tulevaa dataa tulee käsitellä ei-luotettuna, ja luottorajan toisella puolella oleviin tarkastuksiin ei tule luottaa. Toimittaja toteuttaa syötteenä saatavan ei-luotetun datan validoinnin ja kanonisoinnin ennen sen käyttöä, sekä luottamusrajojen ulkoisille komponenteille luovutettavan datan enkoodauksen ja kanonisoinnin ennen lähettämistä. Validointi tulee toteuttaa ns. white list –pohjaisesti, ts. vain erikseen sallittu syöte hyväksytään ja muu hylätään. Myös salausmenetelmiä ja sähköistä allekirjoitusta voidaan käyttää tiedon aitouden ja muuttumattomuuden varmistamiseksi.
+4.12	Toimittaja suunnittelee ja toteuttaa sovelluksen poikkeus- ja virhetilanteiden käsittelyn siten, että virhetilanteet eivät johda sovelluksen tietoturvan vaarantumiseen. Huomioitavia asioita ovat ainakin:
+- Virheiden ja poikkeusten käsittely tulee suunnitella koko sovelluksen kattavasti.
+- Virheiden käsittely tulee toteuttaa keskitetysti ja koko sovelluksen kattavasti, jolloin testaus saadaan kattavaksi ja virheiden korjaamien on nopeampaa.
+- Ns. fail-secure suunnitteluperiaatteella varmistetaan, että virhetilanteessa komponentin tai sovelluksen käyttö ennemmin estetään kuin sallitaan tietoturvaloukkauksen hyväksikäyttö.
+- Virheilmoitukset eivät saa sisältää luottamuksellista tietoa, kuten tietokantapalvelimen vastauksia, sovelluspalvelimen versiotietoja jne. Kaikissa virhetilanteissa näytetään yleinen virheilmoitus, joka kuvaa tapahtuneen virheen mutta ei anna tietoa sovelluksen toteutuksesta. Myöskään ”henkilökohtaista” tietoa, kuten ylläpitäjien nimiä ja yhteystietoja, ei tulisi sisällyttää virheviesteihin social engineering -hyökkäysten estämiseksi.
+https://www.owasp.org/index.php/Error_Handling
+4.13	Toimittaja määrittää hankinnan kohteena tuotettavan sovelluksen tuottamaan riittävästi lokia virhetilanteista sekä tietoturvapoikkeamista.  Lokitapahtuma pitää kirjoittaa seuraavista tapahtumista:
+- Onnistuneet ja epäonnistuneet kirjautumisyritykset sovellukseen
+- Onnistuneet ja epäonnistuneet pääsynhallintapäätökset
+- Onnistuneet ja epäonnistuneet syötteenkäsittelypäätökset
+- Onnistuneet ja epäonnistuneet muutokset sovelluksen käyttövaltuuksissa
+- Onnistuneet ja epäonnistuneet sovelluksen konfiguraation muutokset
+4.14	Toimittaja määrittää hankinnan kohteena tuotettavan sovelluksen lokitapahtumat sisältämään riittävästi tietoa operaation tekijän identifioimiseksi, hyökkäyksen tunnistamiseksi ajoissa ja jälkiselvityksen helpottamiseksi. Jokaisen lokikirjoituksen pitää sisältää ainakin seuraavat tiedot:
+- Aikaleima luotettavasta aikalähteestä
+- Tapahtuman merkitys tietoturvan kannalta (esim. matala, korkea, kriittinen)
+- Indikaatio siitä, että kyseessä on tietoturvaan liittyvä tapahtuma (mikäli tietoturvalokia ei ole eriytetty omaan tiedostoonsa)
+- Käyttäjätunnus ja lähde-IP
+- Onnistuiko tapahtuma
+- Tapahtuman kuvaus
+Lokeihin ei kuitenkaan saa kirjoittaa luottamuksellista tietoa, kuten selväkielisiä salasanoja, henkilötietoja tai luottokorttinumeroita.
+4.15	Toimittaja toteuttaa hankinnan kohteena tuotettavan sovelluksen siten, että autentikoituneen käyttäjän istuntoa ei voida kaapata luvattomasti. Keinoja istunnon kaappaamisen estämiseksi ovat esimerkiksi:
+- Yhteyden salaus
+- Istunnon aikakatkaisu
+- Vaikeasti arvattava istuntotunniste
+- Istuntotunnisteen suojaaminen (esim. seuraavat attribuutit: secure, httpOnly, domain, path, expires).
+- Istunnon tuhoaminen käyttäjän kirjautuessa ulos
+- Sivukohtaiset tunnisteet ns. CSRF-hyökkäyksen estämiseksi
+- Istunnon aloittajan IP-osoitteen tallentaminen ja käyttäminen istunnon seuraamisessa tunnisteen lisäksi
+4.18	Toimittaja laatii hankinnan kohteena olevan sovelluksen tietoturvasuunnitelman tai -suunnitelmat, jossa kuvataan miten sovellus toteuttaa sille asetetut tietoturvavaatimukset. Asiakkaalla on oikeus katselmoida suunnitelmat ja Toimittaja päivittää suunnitelmat katselmoinnin havaintojen mukaisesti.
+4.19	Toimittaja suorittaa hankinnan kohteena olevan sovelluksen tietoturvatestit osana sovelluksen normaalia testausprosessia. Testauksesta valmistuu testiraportti, joka sisältää tiedon tietoturvatestien suorituksesta. Tietoturvatestitapaukset tulee johtaa sovelluksen tietoturvavaatimuksista.
+4.21	Tietoturvatestien läpäisy hyväksyttävästi on edellytys sovelluksen hyväksymisessä tuotantokäyttöön ja asentamiselle tuotantoympäristöön.
+4.23	Toimittaja laatii hankinnan kohteena olevasta sovelluksesta ns. kovennusdokumentin, jossa kuvataan sovelluksen tietoturvan näkökulmasta suositeltavat asetukset, sekä miten sovelluksen asetukset vaikuttavat tietoturvaan.
+4.24	Toimittajalla on dokumentoitu tietoturvapoikkeamien raportointimenettely. Dokumentin katselmointi ja päivittämien on organisoitu ja vastuutettu. Tietoturvapoikkeamaraportille on olemassa dokumenttipohja.
+4.25	Toimittaja korjaa sovelluksessa havaitut tietoturvapoikkeamat ja –puutteet välittömästi.
+4.27	Toimittaja laatii sovelluksesta kirjallisen varmuuskopiointiohjeen.
+Ohjeessa kuvataan miten sovellus tulee varmuuskopioida, miten varmistus tulee palauttaa ja miten palautuksen toimivuus tulee testata. Ohjeessa on lisäksi otettu huomioon mm. fyysisten varmuuskopioiden säilyttäminen, siirto ja tuhoaminen. Dokumentin katselmointi ja päivittäminen on organisoitu ja vastuutettu.
+4.28	Toimittajan hankinnan kohteeseen liittyvien järjestelmäkehityksen prosessien tulee sisältää kontrollit ajantasaisten SANS/CWE Top 25 yleisimpien ohjelmointivirheiden tunnistamiseen ja ehkäisyyn.
+4.29	Toimittajan hankinnan kohteeseen liittyvien web-sovellusten ja -rajapintojen kehityksen tulee sisältää kontrollit ajantasaisten OWASP Top Ten -haavoittuvuuksien tunnistamiseen ja ehkäisyyn.
+Tuotantooon viennin vaatimukset
+4.32	Käyttöpalvelujen ylläpitoon liittyvien ympäristöjen omistajuus ja päivitysperiaatteet on vastuutettu ja kuvattu selkeästi.
+4.33	Ohjelmistosta on olemassa ajantasainen tietoturva-arkkitehtuurikuvaus.
+## sheet7.xml
+Tietoturvavaatimukset hankittavassa kohteessa : VN Asia
+Tämän välilehden vaatimuksen kuuluvat kaikki luokkaan V2, eli ovat alustavia vaatimuksia, joita voidaan muokata vielä neuvotteluvaiheen aikana
+Tunniste	Vaatimus	Täyttyykö (kyllä, osittain, ei)	Lisätiedot
+Pilvipalveluvaatimukset
+Yleiset vaatimukset
+5.1	Ennen palvelun tai tietovaraston pilveen viemistä on arvioitava ainakin:
+- Tietoturvaan, -suojaan ja varautumiseen liittyvät riskit
+- Sekä lainsäädäntöjohdannaiset riskit
+
+Lisäksi on suunniteltava ja toteutettava riittävän tasoiset varautumistoimenpiteet havaituille riskeille. Kaikille tunnistetuille riskeille tulee luoda dokumentoidut hallintatoimenpiteet, jotka vastuutetaan. Toimenpiteiden toteutumista tulee seurata säännöllisesti.	Palvelun tulee täyttää tietoturvavaatimusten lisäksi EU-tietosuoja-asetuksen ja   Suomen tietosuojalain vaatimukset sekä olla kohdetta koskevien muiden säädösten mukainen.
+5.2	Pilviympäristöstä tulee olla kattava järjestelmäkuvaus, josta käy ilmi vähintään: 
+
+- Käyttöönoton, kehittämisen, käytön ja käytöstä poiston vaiheittaiset kuvaukset, mukaan lukien valvontatoimet
+- Pilviympäristössä käytettävien infrastruktuurin, verkon ja järjestelmäkomponenttien kuvaus.
+- Valvonnan, häiriönhallinnan sekä muutostenhallinnan periaatteet ja käytännöt sekä erityisesti turvallisuuteen vaikuttavien muutosten käsittelyprosessit.
+- Roolit ja vastuut palveluntarjoajan ja Tilaajan välillä. Pilvipalveluympäristöä koskevan tietoturvan vastaava tulee olla nimetty
+5.3	Pilviympäristön suunnittelussa ja rakentamisessa tulee käyttää mahdollisimman paljon valmiita malleja ja suojauksessa hyödyntää pilviympäristöä tarjoavan palvelun hyviä käytäntöjä.
+5.4	Pilviympäristölle tulee määrittää sovitut palvelutasovaatimukset ennen käyttöönottoa ja ne on kirjattu sopimukseen.
+5.5	Pilvipalveluympäristössä käytettäville palveluille tulee kuvata dokumentoitu jatkuvuussuunnitelma. 
+
+Jatkuvuussuunnitelma tulee läpikäydä / tarkastaa vähintään kerran vuodessa.
+Infrastruktuuri
+5.7	Hallintaliittymien osalta tulee määritellä vaatimukset vähintään suojaukselle, monitoroinnille ja hallinnoinnille. 
+
+Hallintapääsyn tulee tapahtua rajatun, hallitun ja valvotun pisteen kautta.
+5.8	Rajapinnat on suojattu palvelunesto- ja murtautumisyrityksiltä.
+
+Lisäksi tulee olla toteutettuna menetelmät, joiden avulla kyetään havaitsemaan pilvipalveluympäristöön kohdistuvat hyökkäykset.
+5.9	Palvelimia, sovellusversioita tai sisäisiä verkko-osoitteita ei ole mahdollista saada ilman tunnistautumista.
+5.10	Tuotanto- ja kehitys/testausympäristö tulee olla eriytettyjä.
+5.11	Pilvipalveluympäristö tulee olla eriytetty muista ympäristöistä. Lisäksi pilvipalveluympäristö tulee olla segmentoitu tarpeen mukaisesti.
+5.12	Pilvipalveluympäristön osalta tulee ottaa käyttöön menetelmät, joilla kyetään tunnistamaan salassapidettävän tai turvaluokitellun tiedon vuotaminen (Data Loss Prevention, DLP).
+5.13	Käytössä tulee olla menettelytapa, jonka avulla pilvipalvelun järjestelmät asennetaan kovennettuna. Kovennusohjeina voidaan noudattaa esim. CIS-kovennusohjeita (Center for Internet Security) soveltuvin osin.
+Datan suojaus
+5.14	Kaikki siirrettävä tieto tulee suojata. Salauksessa ja rajapintojen todennuksessa tulee käyttää standardoituja protokollia ja algoritmeja. 
+
+Lisäksi viranomaisen turvallisuusluokitellun tiedon siirrossa tulee käyttää viranomaisen hyväksymiä salausratkaisuja.
+5.15	Salausavainten hallintaprosessit tulee suunnitella dokumentoidusti ja niitä tulee seurata päivittäisissä prosesseissa. 
+Prosesseilta edellytetään vähintään seuraavia:
+a) kryptografisesti vahvoja avaimia,
+b) turvallista avaintenjakelua,
+c) turvallista avainten säilytystä,
+d) säännöllistä avaintenvaihtoja,
+e) vanhojen tai paljastuneiden avainten vaihdon, ja
+f) valtuuttamattomien avaintenvaihtojen estämisen
+5.16	Henkilötiedot, salassa pidettävä tieto ja turvallisuusluokitellut tiedot tulee olla mahdollista siirtää salatun siirtoratkaisun avulla.
+5.17	Henkilötiedot, salassa pidettävät ja turvallisuusluokitellut tiedot tulee olla mahdollista tallentaa salattuina.
+5.18	Henkilötietojen, salassa pidettävien ja turvallisuusluokiteltujen tietojen hävittämisessä tulee olla mahdollista hyödyntää menetelmiä, joiden johdosta ei ole mahdollista koota osittain tai kokonaan hävitettävää tietosisältöä.
+Käyttövaltuushallinta
+5.19	Käyttövaltuushallinnan prosessikuvauksen tulee sisältää myös pilviympäristöön liittyvien tunnusten hallinta (tavalliset käyttäjät, pääkäyttäjät sekä ylläpitokäyttäjät).
+5.20	Käyttöoikeuksien määrittämisessä tulee noudattaa vähimpien oikeuksien periaatetta ja oikeudet jakaa vain sillä laajuudella, mihin käyttäjällä on tehtävien suorittamiseksi välttämätön tarve.
+5.21	Myönnetyistä käyttöoikeuksista tulee jäädä dokumentoitu kirjanpito.	Koskee Toimittajan oman henkilöstön tai alihankkijoiden oikeuksia
+5.22	Koskee Toimittajan oman henkilöstön tai alihankkijoiden oikeuksia+B32:E38
+5.23	Ylläpito- ja muut tekniset tunnukset tulee olla erotettavissa henkilökohtaisista käyttäjätunnisteista.
+5.24	Palvelun salasanaparametrit (mm. pituus, kompleksisuus, ikä, lukittuminen, avaaminen) tulee olla riittävän turvallinen.
+5.25	Hallintaliittymään kirjautuessa tulee käyttää vahvaa tunnistautumista.
+Muutostenhallinta
+5.27	Dokumentoidun muutoshallinnan prosessin tulee sisältää myös pilviympäristöön kohdistuvien muutosten sekä näiden tietoturvan vaikutuksen arvioinnin ja hallinnan periaatteet.
+5.28	Muutokset tulee  testata ennen käyttöönottoa eriytetyssä  testausympäristössä. Testauksen tuloksena tulee tuottaa kuva muutoksen vaikutuksista ennen siirtoa tuotantoympäristöön.
+5.29	Versionhallinta tulee toteuttaa siten, että menettelyt estävät luotettavalla tasolla valtuuttamattomien versioiden siirron tuotantoympäristöön.
+5.30	Mikäli pilvipalvelun lähdekoodin suunnittelu, kehittäminen, testaus tai provisiointi ulkoistetaan, tulee sopimuksissa huomioida erityisesti seuraavat kohdat:
+a) turvallinen ohjelmistokehitysprosessi ja sen vaatimukset
+b) näyttö riittävästä testauksesta
+c) hyväksymistestaus sovittujen vaatimusten mukaisesti
+d) oikeus testata kehitysprosessia ja valvontatoimia
+Haavoittuvuuksien hallinta
+5.31	Päivitykset tulee asentaa hallitusti sovittuina ajankohtina.
+5.32	Pilviympäristön järjestelmät tulee tarkastaa säännöllisesti haavoittuvuuksien, tietoturvapäivitysten sekä turvattomien asetusten varalta.
+5.33	Merkittävien poikkeamien korjaustoimenpiteet tulee toteuttaa välittömästi.
+Lokitus ja monitorointi
+5.34	Lokienhallintaperiaatteet tulee suunnitella dokumentoidusti. Arvioituna tulee olla ne tapahtumat, joista lokitietoa on tarve saada.
+5.35	Epäonnistuneet ja onnistuneet kirjautumiset tallentuvat lokiin.
+5.36	Lokitietojen säilytyksen kesto sovitaan tilaajan ja toimittajan toimesta.
+5.37	Toimittaja pyrkii kehittämään lokien havainnointia esimerkiksi palvelun avulla, joka mahdollistaa pilviympäristöön liittyvien tietoturvatapahtumien seurannan/valvonnan keskitetysti reaaliaikaisesti (esim. Väärinkäyttöyritykset, hyökkäykset)
+5.38	Pilvipalveluympäristöjen laitteiden kellot tulee synkronoida virallisista aikapalvelimista.
+5.39	Pilviympäristöä valvotaan ja ylläpidetään siten, että se on käytettävissä Tilaajan ja palveluntarjoajan välisen sopimuksen mukaisesti. Vianselvitys tehdään saatavuuslupausten mukaisesti.
+5.40	Lokitiedot ja niiden kirjauspalvelut tulee suojata luvattomalta pääsyltä vähimpien oikeuksien periaatetta noudattaen.

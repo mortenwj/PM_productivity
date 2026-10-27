@@ -1,0 +1,56 @@
+Indledning
+Dette bilag indeholder Kundens krav til drift (herunder installation), support og vedligehold, som Leverandøren skal levere under Leveringskontrakten.
+Installation
+Leverandøren skal installere Standardsoftwaren til Kundens anvendelse i følgende miljøer:
+Test
+Produktion
+Arkiv
+Miljøerne skal konfigureres, så de opfylder Kundens krav som angivet i Bilag 1 Kundens opgavebeskrivelse.
+Drift
+Kundens driftsorganisation
+Kundens nuværende driftsorganisation består af Statens IT og cBrain og tager udgangpunkt i driftsmodellen er 1A – applikationsdrift, som stiller middelware, operativsystem og driftsinfrastruktur til rådighed for etabelering af kundens applikation. Statens it står for drift og support af applikationen efter anvisning fra kunden.
+Med applikationsdrift opnår kunden, at alle driftsmæssige aspekter vedrørende drift af applikationen håndteres af Statens It, og kunden kan således alene koncentrere sig om det funktionelle indhold af applikationen.
+Kunden er selv ansvarlig for udvikling og ændringer af applikationen via applikationsleverandøren, mens Statens It sikrer idriftsættelse, jobafviklingen og de tilhørende driftsmæssige aspekter efter anvisning fra kunden. Vedligehold af applikationen sker efter kundens anvisninger.
+Kilde: Statens It
+Leverandørens drift
+Kunden sørger selv for den grundlæggende drift af operativsystemer og for backup, mens Leverandøren har ansvaret for drift af Standardsoftwaren på Kundens installationer. Leverandøren skal derfor tilpasse sin drift, så den fungerer problemfrit sammen med Kundens basisdrift.
+Driften skal opfylde kravene beskrevet i Bilag 13 Servicemål.
+Leverandøren skal levere drift af Standardsoftwaren i de miljøer, der er angivet i afsnit 2.
+Leverandøren skal agere proaktivt og har initiativpligten og skal på baggrund heraf levere rådgivning og give anbefalinger til Kunden om relevante initiativer, som kan forbedre driften generelt.
+Driftsovervågning
+Leverandøren skal driftsovervåge Standardsoftwaren i produktionsmiljøet, så der sikres opfyldelse af servicemål angivet i Bilag 13 Servicemål.
+Leverandøren skal proaktivt samarbejde og koordinere med Kundens driftsorganisation samt eventuelle relevante tredjepartsleverandører om planlægning af driftsopgaver, fx opgradering af Standardsoftwaren med nye versioner, releases og patches, som potentielt kan påvirke Kundens adgang til eller anvendelse af leverancen.
+Arbejdet med driften skal planlægges og udføres, så det er til mindst mulig gene for Kunden. Arbejdet skal herunder tilrettelægges under hensyntagen til Kundens behov for opretholdelse af sine arbejdsprocesser uden afbrydelse.
+Kunden foretager backup af Standardsoftwaren, men Leverandøren skal bistå med installation og konfigurering af backup’en.
+I tilfælde af, at Leverandøren observerer afvigelser eller incidents, skal Leverandøren straks foretage afhjælpende handlinger og indrapporterer til Kunden som beskrevet i Bilag 14 Samarbejdsorganisation.
+Support
+Leverandøren skal stille en supportorganisation til rådighed, som er tilgængelig for personlige henvendelser via telefon indenfor normal arbejdstid kl. 8-15.30 og døgnet rundt via internetside (ITSM) for 5 navngivne brugere. Kunden kan udskifte navngivne brugere på månedsbasis. Supporthenvendelser og dialog skal foregå på dansk.
+Via servicedesken kan Kunden fejlmelde(fejl) Standardsoftwaren og følge tidligere fejlmeldinger. Ved fejlmeldinger angiver Kunden fejlkategorien i overensstemmelse med de fejlkategorier, der er beskrevet i Bilag 13 Servicemål.
+Reaktionstider mv. ved fejlmeldinger er beskrevet i Bilag 13 Servicemål.
+Hvis Leverandøren vurderer, at årsagen til fejlmeldingen skyldes forhold i driften (operativsystem o.l.), som Leverandøren ikke er ansvarlig for, er Leverandøren forpligtet til at inddrage Kundens driftsorganisation, jf. Bilag 14 Samarbejdsorganisation.
+Rapportering vedrørende support
+Leverandøren skal på månedlig basis udarbejde og fremsende månedsrapporter til Kunden, som skal indeholde en opgørelse over antal supporthenvendelser samt deres status.
+Månedsrapporterne udarbejdes for hver kalendermåned og skal fremsendes elektronisk til Kunden senest 10 Arbejdsdage efter udløbet af den måned, der måles.
+Rapporterne supplerer månedsrapporterne vedr. servicemål beskrevet i Bilag 13 Servicemål.
+Leverandørens månedsrapporter skal som minimum indeholde følgende:
+Opgørelse af
+Antal henvendelser
+Henvendelsernes fejlkategori
+Henvendelsernes nuværende status
+Beskrivelse af eventuel løsning
+Eventuelle ”Problems”, som henvendelserne indgår i, samt disses status
+Hypercare ved implementering
+Leverandøren skal levere 20 dages hypercare i forbindelse med implementeringen af Standardsoftwaren.
+I Hypercare gælder følgende særlige forhold:
+Et dedikeret supportteam med viden om Kunden og kundens implementering håndterer supporthenvendelser. Supportteamet består både af medarbejdere til at modtage henvendelser og vejlede kundens medarbejdere såvel som af konfiguratører, som kan ændre konfigurationen nødvendige steder (fx procesflows, integrationer)
+Leverandøren overvåger Standardsoftwaren proaktivt for at imødekomme fejl og problemer
+Daglig opfølgning mellem Kunden og Leverandøren via kanaler beskrevet i Bilag 14 Samarbejdsorganisation
+Ugentlig rapportering som beskrevet i afsnit 3.1 i stedet for månedligt
+Vedligehold
+Leverandøren skal vedligeholde Standardsoftwaren i hele Leveringskontraktens løbetid.
+Vedligehold omfatter løbende tilpasning af Standardsoftwaren med henblik på at sikre, at Standardsoftwaren fremadrettet kan afvikles hos Kunden fejlfrit i overensstemmelse med den indgåede Leveringskontrakt, herunder løbende patches/fejlrettelser samt løbende opretholdelse af cybersikkerhed. Vedligehold omfatter ligeledes planlægning og gennemførelse af versions- og releasestyring herunder udarbejdelse og vedligeholdelse af releasestyringsplaner.
+Vedligeholdelse, der i øvrigt kan påvirke Standardsoftwarens drift, skal, medmindre andet aftales, udføres uden for normal arbejdstid, kl. 8-15.30.
+Leverandøren skal vedligeholde Standardsoftwaren via versioner, releases og patches. Leverandøren skal teste disse, så de har samme kvalitet som tidligere version eller release af Standardsoftwaren.
+Leverandøren er ansvarlig for, og har således initiativpligten i forhold til koordinering, installation af versioner, releases og patches. Installation af disse skal således varsles som beskrevet nedenfor.
+Leverandøren skal varsle Kunden om ændringer og tilpasninger af Standardsoftwaren i god tid før den pågældende ændring eller tilpasning finder sted, herunder hvad ændringen har af betydning for Kundens brug af Standardsoftwaren. Sådanne ændringer eller tilpasninger må ikke forringe Standardsoftwarens funktionalitet, stabilitet eller brugervenlighed. Dette gælder ligeledes, hvis ændringen har indflydelse på Kundens drift eller backup af Standardsoftwaren.
+Varslingen sker i henhold til de opstillede samarbejdsfora og relationer, jf. Bilag 14 Samarbejdsorganisation.

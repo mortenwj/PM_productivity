@@ -1,0 +1,76 @@
+Indledning
+Dette bilag indeholder Kundens krav til migrering af data i forbindelse med Standardsoftwaren.
+Det er afgørende for en succesfuld implementering af Standardsoftwaren, at data migreres fra det tidligere system til den ny Standardsoftware, så slutbrugeren kan arbejde videre i den nye Standardsoftware på baggrund af eksisterende data.
+Prisen for migreringen fremgår af Bilag 4.
+Generelt om datamigrering
+Kunden anvender i dag system F2, som udvikles og leveres af Cbrain. Eksisterende leverandør er, i henhold til deres aftale med Kunden, forpligtiget til at indgå i et effektivt samarbejde med ny leverandør og levere relevante data fra det eksisterende system i forbindelse med migrering af data (svarende til en ”transition ud”).
+Kunden ønsker migrering af følgende data beskrevet nedenfor i dette afsnit fra eksisterende system ind i Standardsoftwaren (svarende til en ”transition ind”).
+Datatyper, der skal migreres:
+Stamdata
+Transaktionsdata
+Metadata
+Dokumenter og andre filer
+Øvrige data
+Datatyper, der ikke skal migreres:
+Ingen
+Kunden er ansvarlig for at levere en specifikation af datamodellen for det eksisterende system.
+Stamdata
+Stamdata er de grundlæggende og relativt stabile data, som danner fundamentet for forretningsprocesser og transaktioner i et It-system. Stamdata beskriver entiteter, som systemet arbejder med – fx personer, produkter, organisationer eller lokationer – og bruges på tværs af moduler og funktioner.
+Transaktionsdata
+Transaktionsdata er data, der opstår som følge af en konkret handling, aktivitet eller begivenhed i et It-system. De beskriver hvad der er sket, hvornår det skete, og hvem der var involveret. Transaktionsdata er typisk dynamiske og ændrer sig løbende i takt med, at nye handlinger udføres. Et eksempel på transaktionsdata er en økonomisk pengeoverførsel mellem to konti, en kundens aftale og lignede.
+Metadata
+Metadata er data om data. Det beskriver egenskaber, struktur, kontekst eller oprindelse for andre data i et It-system – uden selv at være indholdet. Metadata gør det muligt at forstå, organisere, finde og bruge data korrekt og effektivt. Det kan fx være tidspunktet for en transaktion, fx tidspunktet, hvor kundens aftale er booket eller hvem som har booket den.
+Dokumenter og andre filer
+Her kan være tale om sagsdokumenter, som er gemt i fx Word eller pdf-format. Andre typer kan være lyd, video eller proprietærer formater.
+Øvrige data
+Øvrige data kan være logningsdata og lignende.
+Datamigreringsopgaver
+Leverandøren har det overordnede styringsansvar for migreringsopgaven.
+Kunden har følgende opgaver i forbindelse med migreringsprocessen:
+Afklaring af data, som skal migreres
+Skal alle både aktive og historiske data migreres?
+Levere datamodel for eksisterende data
+Dataklargøring
+Identificere og fjerne dubletter og fejldata
+Levering af dataudtræk med data som migreres
+Både fulde og begrænsede udtræk til test og endelige migrering
+Test af migrering
+Test af kvalitet og placering (i den nye løsning)
+Leverandøren har følgende opgaver i forbindelse med migreringsprocessen:
+Analysere og planlægge migrering
+Udarbejde migreringsstrategi
+Udarbejde proces for migreringen jævnfør afsnit 4
+Identificere risici og fall backplan
+Mapping og konvertering
+Mappe data mellem eksisterende datamodel og Standardsoftwarens datamodel
+Teknisk migrering
+Klargøre værktøjer
+Opsætte scripts og lignende til migreringen
+Udføre selve migreringen
+Test og kvalitetssikring
+Opsætte teknisk test af migrering (bl.a. integritetstest), jævnfør afsnit 5
+Afrapportere løbende og afsluttende
+Løbende afrapportering af testmigreringer
+Afsluttende afrapportering af endelige migrering
+Proces for datamigrering
+Leverandøren skal benytte en struktureret og velafprøvet proces for migrering af data. Tidsplanen for migrering, herunder milepæle, skal Leverandøren beskrive i Bilag 3.
+Leverandørens proces for datamigrering
+Leverandøren skal løbende gennemføre automatiseret kvalitetssikring og dokumentere både forberedelse, gennemførsel og resultater.  Leverandørens proces skal sikre, at datamigreringen udføres pålideligt, effektivt og med korrekt resultat.
+Leverandøren skal anvende en struktureret, velafprøvet og planlagt proces for migrering af forretningsdata. Leverandørens proces skal som minimum bestå af følgende overordnede trin:
+Planlægning
+Godkendelse af migreringsløsning (generalprøve)
+Migrering
+Post-migrering
+Planlægningen omfatter tilrettelæggelse af den samlede migrering med henblik på at sikre høj kvalitet i migreringen.
+Godkendelse af migreringsløsning (generalprøve) omfatter, at Leverandøren gennemfører migrering af et udvalgt datasæt fra det eksisterende system til Standardsoftwaren. Kunden skal efterfølgende godkende migreringen ved at inspicere de migrerede data i Standardsoftwaren.
+Migrering omfatter indlæsningen og konverteringen af forretningsdata til Standardsoftwaren på de samlede data fra det eksisterende system.
+Post-migrering omfatter de aktiviteter, der skal udføres efter den gennemførte migrering, herunder kvalitetssikring, sletning af midlertidige data, oprydning af data som Kunden har vurderet er forældede, opdatering eller berigelse af data, etablering og validering af datasammenhænge samt gennemførsel af backup.
+Processen for generalprøve, migrering og post-migrering skal være reversibel og gentagelig med henblik på kvalitetssikring.
+Leverandøren gennemfører minimum én succesfuld migrering af det komplette datasæt forud for migrering til produktionsmiljø, med henblik på at sikre at alle relevante data kan migreres korrekt og indenfor den aftalte tidsramme.
+En migrering anses for succesfuld, når den kan godkendes i henhold til migreringsprøven.
+Kvalitetssikring
+Leverandøren skal sikre, at datamigreringen gennemføres med løbende kvalitetssikring og test.
+Leverandøren skal sikre, at kvalitetssikring indgår gennem hele processen for datamigrering, og skal kunne påvise og dokumentere at data er valide og korrekt migrerede, når migreringen er gennemført. Dette kan ske via kontrolsummer eller lignende.
+Kunden er berettiget til løbende at kontrollere migreringen, fx ved opslag i det eksisterende system eller ved udførsel af testcases, test af at forretningsregler fungerer uændret eller efter hensigten med de migrerede data eller test af integrationer til andre systemer fungerer korrekt. Finder Kunden en ikke aftalt diskrepans mellem data i det eksisterende system og de migrerede data i Standardsoftwaren, er Leverandøren forpligtet til løse denne diskrepans uden ugrundet ophold.
+Leverandøren skal gennemføre tidlig test af datamigreringen på en delmængde af data (ukomplette datasæt), som en integreret del af den løbende kvalitetssikring af migreringsprocessen. Leverandøren skal dokumentere resultatet af disse tidlige tests og anvende dem til af identificere og afhjælpe fejl inden den endelige datamigrering.
+Som en del af kvalitetssikringen skal Leverandøren desuden kunne præsentere dokumentation, som understøtter og påviser kvaliteten af den gennemførte migrering.

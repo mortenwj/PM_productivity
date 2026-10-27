@@ -1,0 +1,64 @@
+VN Asia räätälöitävät kokonaisuudet
+Tässä dokumentissa kuvataan toiminnallisesta näkökulmasta ne hankittavan asianhallintajärjestelmän kokonaisuudet, jotka sisältävät valtioneuvostolle räätälöityjä ominaisuuksia tai toiminnallisuuksia. Jaottelu on tehty loogisella tasolla, eikä sen tarkoituksena ole rajata tarjottavan ratkaisun teknistä rakennetta.
+Räätälöidyissä komponenteissa voidaan hyödyntää avoimen lähdekoodin ratkaisuja ja erilaisia arkkitehtuurimalleja, kehyksiä tai tuotteistuksia, mutta asiakkaalla tulee olla oikeus hyödyntää ja jatkokehittää toteutettuja komponentteja.
+Integraatioalusta
+Toiminnallisuudet
+Asianhallinnan palveluarkkitehtuuria tukeva teknologiariippumaton integraatioratkaisu, joka mahdollistaa asianhallinnan toiminnallisuuksien hyödyntämisen kattavasti myös teknisten rajapintojen kautta.
+Integraatioalusta päälle toteutetaan tuotteistetut rajapintapalvelut yleisimpiin asioiden, toimenpiteiden ja asiakirjojen käsittelyn käyttötapauksiin. Tuotteistus kattaa versioidut rajapinnat, tietomallit ja liittymismenettelyt sekä mahdollistaa kustannustehokkaan tavan automatisoida substanssiprosessien asianhallintaa.
+Lisäksi integraatioalustalle toteutetaan erilaisia räätälöityjä asianhallinnan integraatioita esimerkiksi tilanteissa, joissa integroitavien järjestelmien rajapintaratkaisuihin ei voida vaikuttaa tai käyttötapaus sisältää erityispiirteitä, joita ei ole järkevää tuotteistaa.
+Ratkaisun tulee tukea erilaisia rajapintateknologioita, sanomien ja laajempien aineistojen välittämistä, tietomuunnoksia ja muuta tiedon käsittelylogiikkaa. Nykyiset ja tulevat RPA-integraatiot pyritään mahdollisuuksien mukaan toteuttamaan integraatioalustan kautta.
+Integraatioratkaisun on tarjottava tietoturvavaatimusten edellyttämät ratkaisut rajapintoja kutsuvien järjestelmien autentikointiin, autorisointiin ja käsiteltävän tiedon suojaamiseen.
+Tiedot
+Integraatioalustalla käsitellään pääasiassa asiakirjatietoja. Rajapintojen kautta välitettävä muu tieto määritellään tapauskohtaisesti.
+Asiakirjojen tietoa säilytetään alustalla vain väliaikaisesti ja rajatusti integraatiokäyttötapausten niin vaatiessa. Muilta osin säilytettävä tietosisältö koostuu rajapintojen ja liittymien hallintaan ja ohjaamiseen liittyvistä tiedoista.
+Tietoturvallisuus ja jatkuvuus
+Integraatioalustan tietoturvallisuuden luokitus on TLIV.
+Integraatioalustan toiminnallisuuksien saatavuuden on oltava normaalioloissa korkealla tasolla.
+Käyttövaltuudet
+Rajapintapalveluita kutsuvat järjestelmät tulee autentikoida ja autorisoida. Rajapintaa käyttävien sovellusten identiteetit ja käyttövaltuudet hallinnoidaan osana räätälöityjen komponenttien pääsynhallinnan ratkaisua (luku 3).
+Käsiteltäessä asianhallintasovelluksen tietoja rajapintapalveluiden kautta käsittelyn autorisointi tapahtuu asianhallinnan sovelluksessa esimerkiksi tilanteessa, jossa asiakirjoja haetaan tai päivitetään käyttäjän omilla käyttövaltuuksilla.
+Käyttöliittymäkerros
+Toiminnallisuudet
+Käyttöliittymäkerros koostuu räätälöidyistä asianhallinnan sovelluksista, jotka tarjoavat valtioneuvostolle sen erityispiirteet huomioivia, käytettävyyttä ja tehokkuutta parantavia tai erityisryhmiä palvelevia asianhallinnan käyttöliittymiä ja toiminnallisuuksia. Sovelluksen hyödyntävät samassa kokonaisuudessa hankittavan asianhallinnan sovelluksen (Liite 1.1) rajapintoja ja tietovarantoa.
+Ensimmäisessä toteutusvaiheessa toteuttavien käyttöliittymien lukumäärä ja toiminnallisuudet riippuvat uuden asianhallintasovelluksen toiminnallisuuksista sekä siitä, miten erillissovellusten integraatio tullaan toteuttamaan.
+Tiedot
+Käyttöliittymäkerroksen sovelluksissa käsitellään asiakirjatietoja. Muut mahdolliset tiedot käsitellään käyttötapauskohtaisesti. Asianhallinnan käyttöliittymäkerrosta ei ole tarkoitettu korvaamaan substanssijärjestelmiä tai niiden tietojen säilytystä.
+Tietoturvallisuus ja jatkuvuus
+Tietoturvallisuuden ja jatkuvuuden vaatimukset arvioidaan käyttötapauskohtaisesti.
+Käyttövaltuudet
+Käyttöliittymäkerroksen sovellusten käyttäjät autentikoidaan ja autorisoidaan. Käyttövaltuudet määritellään käyttötapauskohtaisesti. Identiteetit ja käyttövaltuudet hallitaan keskitetysti VN IAM-palvelussa.
+Pääsynhallinta toteutetaan osana räätälöityjen komponenttien pääsynhallinnan ratkaisua (luku 3).
+Muuta huomioitavaa
+Käyttöliittymäkerrosta varten suunnitellaan teknologia- ja alustariippumaton arkkitehtuuri, joka mahdollistaa kustannustehokkaan ja ketterän sovelluskehityksen. Kehittämistä ja ylläpitoa varten määritellään hallintamalli, joka tarvittaessa mahdollistaa myös muiden kehitystiimien hyödyntämisen sovellusten kehittämisessä.
+Räätälöintikerros on toteutettava alustariippumattomasti. Sovelluksia on voitava asentaa käsiteltävän tiedon tietoturvan ja jatkuvuuden vaatimusten perusteella pilvi- ja on-premises-alustalle.
+DevSecOps-ympäristö
+Toiminnallisuudet
+Kehitysympäristö tukee sovellusten kehittämisen ja ylläpidon kustannustehokkuuden, laadun, tietoturvallisuuden sekä sovellusten alustariippumattomuuden tavoitteita:
+Konttipohjainen kehittäminen
+Testauksen, asennusten ja ympäristöjen hallinnan automatisointi
+Selkeä yhtenäinen toimintamalli, vastuut ja hyväksymispisteet
+Kehitysympäristön on oltava alusta- ja teknologiariippumaton ja toteutettu varajärjestelyineen siten, että kriittisten sovelluskomponenttien hallinta on mahdollista myös erilaisissa varautumisen tilanteissa.
+Kehitysympäristö toteutetaan vaihtoehtoisesti tilaajan osoittamaan keskitettyyn palveluun (tarkemmin Ympäristökonsepti-liitteessä) tai se toteutetaan kokonaan osana asianhallintajärjestelmän toteutusta.
+Tiedot
+Lähdekoodit, konfiguraatiot, skriptit
+Tietoturvallisuus ja jatkuvuus
+Kehitysympäristön tietoturvallisuuden luokitus salassa pidettävä.
+Kehitysympäristön toiminnallisuuksien on oltava käytettävissä kriittisten komponenttien osalta erilaisissa varautumisen tilanteissa
+Kehitysympäristön tietosisällön on oltava käytettävissä kriittisten komponenttien osalta erilaisissa varautumisen tilanteissa
+Räätälöityjen komponenttien hallintaan sisältyvä asiantuntijatyö
+Räätälöityjen komponenttien kehittämistä ja ylläpitoa varten hankitaan asiantuntijatiimi ja sen hallinnan palvelut.
+Tiimin tehtäviin kuuluu:
+Integraatioalustan ja tuotteistettujen rajapintapalveluiden suunnittelu, toteutus ja ylläpito
+Integraatioalustan päälle toteutettavien rajapintojen ja liittymien suunnittelu, toteutus ja ylläpito
+Räätälöidyn sovelluskerroksen arkkitehtuurikehikon suunnittelu, toteutus, ylläpito ja jatkokehittäminen
+Räätälöityjen käyttöliittymien ja toimintojen suunnittelu, toteutus, ylläpito ja jatkokehittäminen
+Räätälöityjen käyttöliittymien määrittelyn tukeminen mm. palvelumuotoilun, käytettävyyden ja käyttöliittymäsuunnittelun keinoin
+Optiona:
+Kehitysympäristön suunnittelu, toteutus, ylläpito ja jatkokehittäminen joko omana toteutuksena tai osana valtioneuvoston keskitettyä DevSecOps-ympäristöratkaisua.
+Tiimin hallinnan tulee kattaa seuraavat kokonaisuudet:
+Kehitystiimin roolituksen, resursoinnin ja osaamisen hallinta
+Kehitystiimin tehtävien hallinta
+Kehitystiimin tehtävien työmäärien, kustannusten ja tarvittavat osaamisen arviointi
+Kehitystiimin kehittämispolkujen suunnittelu yhteystyössä asiakkaan asiantuntijoiden kanssa
+Tiimin kokoonpano ja roolitus tulee suunnitella siten, että tiimissä on riittävästi osaamista ja resursseja edellä lueteltujen tehtävien toteuttamiseksi.
+Asiantuntijatyön määrää ja tiimien kokoonpanoa on voitava muuttaa kehittämiseen myönnetyn rahoituksen sekä tunnistettujen kehittämistarpeiden määrän ja sisällön mukaan. Tiimin kokoonpano ja roolitus sovitaan yhteistyössä asiakkaan ja toimittajan välillä osana kehittämispolkujen suunnittelua.

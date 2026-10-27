@@ -1,0 +1,459 @@
+ASIANHALLINTAJÄRJESTELMÄKOKONAISUUS
+PÄÄSOPIMUS
+VALTIONEUVOSTON KANSLIA
+JA
+XXX OY
+Sopimus nro VN/1860/2026
+SISÄLLYSLUETTELO
+1	Sopijapuolet ja yhteyshenkilöt	1
+2	Määritelmät	1
+3	Sopimuksen tausta ja tarkoitus	2
+4	Sopimuksen kohde	3
+5	Sopijapuolten yleiset vastuut ja velvoitteet	4
+6	Toimittajan kokonaisvastuu ja alihankinnat	5
+7	Toimittajan ja tilaajan välinen yhteistyö	6
+8	Palveluhenkilöstö	6
+9	Seuranta ja raportointI	7
+10	Hinnat ja hinnanmuutokset sekä Laskutus ja maksuehto	8
+11	Muutoshallinta	11
+12	Ylivoimainen este	11
+13	Oikeudet	12
+14	Tarkastusoikeus	16
+15	Referenssikäyttö ja sopimuksesta tiedottaminen	17
+16	Tietoturvallisuus, tietosuoja ja salassapito	18
+17	Varautuminen	19
+18	Vahingonkorvaus ja vastuunrajoitus	19
+19	Sopimuksen siirto	20
+20	Sopimusmuutokset	20
+21	Sopimuksen voimassaolo, irtisanominen JA PURKAMINEN	21
+22	Toimittajan avustamisvelvollisuus SOPIMUKSEN PÄÄTTYESSÄ	23
+23	Pakotteet	24
+24	Valmisohjelmistot ja niiden ehdot	25
+25	Kartelliehto	26
+26	Järjestelmän jatkokehitys	26
+27	Jatkuva palvelu	26
+28	Palvelujen laatutaso ja vastuu virheistä	28
+29	Sovellettava laki ja erimielisyyksien ratkaiseminen	28
+30	Sopimusasiakirjat ja niiden soveltamisjärjestys	29
+31	Sopimuksen allekirjoittaminen	30
+Sopijapuolet ja yhteyshenkilöt
+Sopijapuolet ovat:
+Valtioneuvoston kanslia (jäljempänä "Tilaaja")
+PL 23
+00023 Valtioneuvosto
+Y-tunnus: 0245975-5
+XXX Oy (jäljempänä ”Toimittaja”)
+Sopijapuolten yhteyshenkilöt vastuualueineen on nimetty tämän sopimuksen liitteessä X (Yhteyshenkilöt). Sopijapuoli ilmoittaa yhteyshenkilönsä vaihdoksesta toiselle sopijapuolelle kirjallisesti etukäteen.
+Määritelmät
+Tässä sopimuksessa käytetään alla määriteltyjä käsitteitä, ellei muualla sopimuksessa ole nimenomaisesti muuta sovittu taikka asiayhteydestä selvästi muuta ilmene. Tilaajaa ja Toimittajaa lukuun ottamatta määritelmät on kirjoitettu sopimuksen luettavuuden vuoksi pienellä alkukirjaimella.
+Alihankkija tarkoittaa kaikkia sellaisia kolmansia tahoja, jotka osallistuvat tässä sopimuksessa tarkoitettujen sopimusvelvoitteiden täyttämiseen sopijapuolen puolesta.
+Dokumentaatio tarkoittaa Toimittajan Tilaajalle toimittamia järjestelmän toteuttamiseksi ja käyttämiseksi laadittua teknistä ja muuta dokumentaatiota (tuotedokumentaatio), järjestelmän ja palvelun käyttämisen kannalta välttämättömiä asiakirjoja ja dokumentteja, kuten toimituksen projektidokumentaatiota, toimitusprojektin käynnistysvaiheessa sovittua dokumentaatiota, järjestelmän loppukäyttäjän ohjeita, järjestelmän kuvausta (sisältäen kuvauksen tilaajan sovelluksesta, valmisohjelmistoista ja liittymistä), teknisiä kuvauksia, määrityksiä, koulutussuunnitelmaa, projektin loppuraporttia ja muita projektisuunnitelmassa määriteltyjä dokumentteja, jotka ovat toimitusprojektin lopputuloksia sekä järjestelmän jatkuvan palvelun toteuttamiseksi tarvittavaa dokumentaatiota. Dokumentaatio kattaa toimitusprojektissa syntyneet ja käytettävät sekä sen jälkeisessä jatkuvassa palvelussa käytettävät työ-, käyttö- ja muut ohjeet, -dokumentit sekä tapahtuma-, ongelma- ja muutoshallinnan tuloksena syntyneet aineistot.
+Jatkuva palvelu tarkoittaa järjestelmän ylläpitoa ja tukipalveluita sovitussa laajuudessa.
+Järjestelmä tarkoittaa tässä sopimuksessa ja sen liitteissä kuvatun mukaista asianhallintajärjestelmää, siihen sisältyviä tilaajan sovelluksia ja valmisohjelmistoja. Mitä tässä sopimuksessa todetaan järjestelmästä, koskee soveltuvin osin myös toimituksen vaiheiden tuloksina käyttöönotettuja järjestelmän versioita.
+Kehitystyö tarkoittaa jatkuvan palvelun alkuperäiseen kokonaisuuteen kuulumatonta, erikseen tilattavaa työtä, jonka tulokset kuitenkin liitetään järjestelmän tai sen dokumentaation osaksi taikka joka muutoin palvelee tämän sopimuksen tarkoituksen toteuttamista.
+Käyttöpalvelutoimittaja tarkoittaa tahoa, joka tuottaa järjestelmän tarvitsemat kapasiteetti- ja käyttöpalvelut sekä muut tekniseen infrastruktuuriin vaadittavat palvelut. Käyttöpalvelutoimittaja on sopimussuhteessa Tilaajaan ja toimii Tilaajan alihankkijana.
+Lisätyö tarkoittaa palvelun alkuperäiseen kokonaisuuteen kuulumatonta, erikseen tilattavaa työtä, jonka tulokset kuitenkin liitetään järjestelmän tai sen määritysten, toteutusohjeistuksen tai muun dokumentaation osaksi taikka joka muutoin palvelee tämän sopimuksen tarkoituksen toteuttamista.
+Palvelu tai Palvelut tarkoittaa tässä sopimuksessa ja sen liitteissä yksilöityä palvelukokonaisuutta, joka sisältää muun ohella järjestelmän toimituksen ja toteutuksen sekä järjestelmään liittyvät kehitys-, ja jatkuvat palvelut.
+Tilaajan aineisto tarkoittaa seuraavia: palvelun tuottamisen yhteydessä käytettävät tai siihen sisältyvät Tilaajan asiakirjat, kirjalliset tiedot, tietokannat ja ohjelmistot, sekä muu aineisto, jonka Tilaaja on luovuttanut Toimittajalle palvelun tuottamista varten, sekä lisäksi palvelua ja järjestelmiä käytettäessä syntynyt Tilaajan tietoaineisto, tämän muotoilu, rakenne ja metatieto. Tilaajan tietoaineiston rakenteella ei tarkoiteta tietosisällön tallennusteknistä rakennetta, vaan sen käsitteellistä muotoilua ja jäsennystä Tilaajan tarkoitusta varten. Tässä määritelmässä tietosisällöllä ja tiedolla tarkoitetaan sekä raakatietoa että jalostettua tietoa. Myös asiakaskohtainen aineisto on sopimuksessa Tilaajan aineistoa.
+Tilaajan sovellus tarkoittaa järjestelmään sisällytettävää tai liitettävää, Tilaajan vaatimusten nojalla Tilaajaa varten tehtyä ohjelmistoa tai sen osaa, Tilaajaa varten tehtyjä valmisohjelmiston laajennuksia ja lisäyksiä, kuten liittymiä, konfiguraatioita ja parametrointeja, joita Toimittaja toimittaa Tilaajalle osana palveluja tai järjestelmän jatkokehitystä.
+Toimittajan aineisto tarkoittaa Toimittajan palvelun käyttöä varten Tilaajalle luovuttamaa tai käyttöön asettamaa aineistoa sekä muuta sopijapuolten toimittajan aineistoksi määrittelemää tietoa tai aineistoa.
+Toimitus tarkoittaa tämän sopimuksen ja sen liitteiden mukaiset vaatimukset ja tilaajan niihin hyväksymät tarkennukset tai muutokset sekä tilaajan hyväksymät toimittajan laatimat tekniset määritykset täyttävää sopimuksen kohteena olevien palvelujen toimitusta mukaan lukien projektisuunnitelman mukaiset tuotokset ja lopputulokset.
+Toimitusprojekti tarkoittaa järjestelmän toteuttamiseksi ja toimittamiseksi perustettua projektia, jonka tuloksena tässä sopimuksessa ja sen liitteissä määritelty järjestelmä ja sitä koskevat palvelut voidaan ottaa käyttöön. Toimitusprojektista tehdään erillinen toimitusprojektisopimus.
+Valmisohjelmisto tarkoittaa sekä järjestelmään sisältyviä valmisohjelmistoja, että muita valmisohjelmistoksi yksilöityä Toimittajan tai kolmannen osapuolen kehittämää ja markkinoimaa ohjelmistoa tai sen osaa sekä valmisohjelmiston dokumentaatiota. Valmisohjelmisto voi olla avoimen lähdekoodin ohjelma. Valmisohjelmisto tai sen dokumentaatio ei ole tilaajan sovellus.
+Virhe tarkoittaa sitä, että toimitus tai muu palvelu ei täytä ehdottomia tilaajan vaatimuksia, toimituksen kohteeseen sovittuja valinnaisia vaatimuksia ja/tai tilaajan niihin hyväksymiä tarkennuksia ja/tai tilaajan hyväksymiä teknisiä määrityksiä ja ratkaisu- tai palvelukuvauksia, taikka ettei se toimi niiden mukaisesti taikka vastaa dokumentaatiota tai sitä, mitä tässä sopimuksessa ja sen liitteissä muuten on sovittu.
+Yhdistetty aineisto tarkoittaa Tilaajan aineiston esittämistä palvelussa siten, että Tilaajan ja Toimittajan aineistot yhdistyvät tuotoksessa (esimerkiksi Toimittajan laatiman mallipohjan täyttäminen Tilaajan aineiston tietosisällöllä).
+Sopimuksen tausta ja tarkoitus
+Tämä sopimus perustuu Tilaajan asianhallintajärjestelmän kilpailutukseen.
+Sopimuksen tavoitteena on ottaa valtioneuvoston käyttöön toimittajan toimittama valmisohjelmistoon perustuva, modulaarinen ja käyttäjäystävällinen asianhallintajärjestelmä. Järjestelmä sisältää tässä sopimuksessa ja sen liitteissä määritellyt toiminnallisuudet, kuten asianhallinnan, dokumentinhallinnan, säilytysratkaisun, tiedonohjausjärjestelmän sekä hakutoiminnallisuuden, joka mahdollistaa tiedon hakemisen Järjestelmän kaikista osista ja tietolähteistä (valtioneuvoston sisäiset tieto- ja dokumenttivarastot). Järjestelmän modulaarisuudella tavoitellaan sitä, että Järjestelmään voidaan kustannustehokkaasti lisätä toiminnallisuuksia tai poistaa tarpeettomia osia sekä sekä sitä, että tilaaja voi hankkia ja teettää muutoksia Järjestelmään myös kolmansilla osapuolilla.
+Sopimuksen tavoitteena on ottaa Järjestelmä käyttöön koko valtioneuvostossa sekä tasavallan presidentin kansliassa ja oikeuskanslerinvirastossa vuoden 2028 loppuun mennessä.
+Järjestelmää kehitetään valtioneuvoston toiminnan lähtökohdista ja käyttäjälähtöisesti tukemaan asianhallinnan yhteistä toimintatapaa valtioneuvostossa. Järjestelmään sisällytetään myös NATO-asioiden sekä EU-asioiden valmistelu ja Järjestelmän käyttö EU-asioiden valmistelun tukena valtioneuvoston ulkopuolella. Järjestelmästä on toteutettu kiinteät integraatiot käytössä oleviin erillissovelluksiin, joilla toteutetaan mm. tasavallan presidentin ja valtioneuvoston päätöksenteon ja esittelymenettelyn tuki sekä raportointi EU- ja ulkoasiainhallinnon tarpeisiin.
+Tämän sopimuksen tavoitteena on varmistaa toimituksen tulosten, kuten asiakaskohtaisten sovitusten, toteutettujen integraatioiden ja rajapintojen laaja hyödynnettävyys julkishallinnossa.
+Sopimuksen kohde
+Tämän sopimuksen kohteena on järjestelmän toimitus valtioneuvoston, tasavallan presidentin kanslian ja oikeuskanslerinviraston käyttöön sekä järjestelmän jatkuvat palvelut sekä muut asiantuntijapalvelut.
+Toimittaja toimittaa tilaajalle tilaajan sovellukset, jotka yhdessä asianhallinnan valmisohjelmiston kanssa sisältää tämän sopimuksen mukaiset, erityisesti hankinnan kohteen kuvauksessa sekä muissa vaatimuksissa kuvatut toiminnallisuudet. Toimituksen sisältöä ja siihen sisältyviä toimittajan tehtäviä on kuvattu lisäksi toimitusprojektisopimuksessa.
+Toimitukseen sisältyy valtioneuvoston palvelu- ja toimintaprosessien digitalisointi ja toimituksessa toteutetaan prosesseissa liikkuvien sähköisten tietojen ja asiakirjojen elinkaarenhallinta sovitussa laajuudessa. Järjestelmä tukee sähköistä asiointia ja toteuttaa sovittujen vaatimusten mukaisesti digitaalisten toimintaprosessien asian- ja dokumentinhallintaa, jossa sidosryhmät ja asiakkaat voivat asioida sähköisesti järjestelmää käyttävän organisaation kanssa. Järjestelmän on täytettävä Kansallisarkiston asettamat SÄHKE2-suosituksen vaatimukset tässä sopimuksessa ja sen liitteissä vaaditulla tavalla.
+Tämä sopimus on pääsopimus (jatkossa myös Pääsopimus), jossa on sovittu toimitusta ja muita toimittajan tuottamia palveluita koskevat yhteiset ehdot. Sopimuksen liitteinä ovat muun ohella ehdot toimitusprojektista ja asiantuntijapalveluista. Tätä Pääsopimusta sovelletaan sen liitteinä oleviin ehtoihin siltä osin kuin niissä ei ole asiasta muuta taikka toisin sovittu. Pääsopimuksessa oleva viittaus ”tähän sopimukseen” tarkoittaa aina myös viittausta sen liitteisiin, ellei nimenomaisesti toisin ole todettu. Viittaus johonkin tämän sopimuksen liitteeseen, tarkoittaa aina myös viittausta kyseisen liitteen alaliitteisiin, ellei nimenomaisesti toisin ole todettu.
+Järjestelmän jatkuvat palvelut hankitaan toimittajalta tämän sopimuksen mukaisin ehdoin.
+Toimittaja ei saa tällä sopimuksella tai toimitusprojektisopimuksella yksinoikeutta palvelujen tuottamiseen vaan tilaajalla on oikeus hankkia tämän sopimuksen kohteena olevia palveluita myös kolmansilta osapuolilta. Tilaajan käyttämien kolmansien osapuolten toteuttamat muutokset ja niiden vaikutus palveluihin, takuuseen ja palvelutasoehtoihin käsitellään tämän sopimuksen ja toimitusprojektisopimuksen mukaisesti.
+Sopijapuolten yleiset vastuut ja velvoitteet
+Toimittaja
+Toimittaja toimittaa tässä sopimuksessa tarkoitetut tuotteet ja palvelut huolellisesti ja harkiten, laadukkaasti, tietoturvallisesti ja sellaisella ammattitaidolla, jota voidaan kohtuudella olettaa ammattitaitoiselta ja kokeneelta toimittajalta. Toimittaja noudattaa työssään hyvää teknistä tapaa ja laatutasoa. Toimittajalla on toimittamansa järjestelmän ja sen käyttötarkoitukseen saattamiseksi vaadittavien ohjelmistojen, komponenttien sekä niiden yhdistelmien tuntemus ja osaaminen.
+Toimittaja vastaa siitä, että toimitettava palvelu ja tuote ovat vaatimusten mukaisia. Vaatimuksia ovat:
+Tämän sopimuksen mukaiset vaatimukset ja sopijapuolten sopimien muutosten mukaiset vaatimukset.
+Tuotteen ja palvelun soveltuvuus tilaajan tässä sopimuksessa ilmaisemaan tuotteen ja palvelun aiottuun käyttötarkoitukseen ottaen huomioon, mitä alalla toimivalta huolelliselta ja ammattitaitoiselta toimittajalta voidaan edellyttää.
+Kaikki lisävaatimukset, jotka toimittaja on itse määrittänyt, edellyttäen että ne eivät heikennä edellä kuvattuja vaatimuksia 1-2 taikka ole ristiriidassa niiden kanssa.
+Toimittaja huolehtii, että palveluiden toteutustapa, tulokset ja tuotokset ovat tässä sopimuksessa määriteltyjen laatutavoitteiden mukaisia.
+Toimittaja on velvollinen toimimaan yhteistyössä Tilaajan muiden palveluntuottajien kanssa tämän sopimuksen tarkoituksen toteuttamiseksi.
+Toimittaja on omalta osaltaan velvollinen tutkimaan mahdollisuuksia kehittää järjestelmää ja palvelujaan yhteistyössä Tilaajan kanssa vastaamaan paremmin Tilaajan toiminnan tarpeita ottaen huomioon kustannustehokkuuden. Toimittaja raportoi kehitysehdotuksista yhteistyökokouksissa. Tilaaja ilmoittaa Toimittajalle tulevat kehittämistarpeet, jotka voivat koskea esimerkiksi uusien ominaisuuksien käyttöönottoa. Tällaisina uusina ominaisuuksina voi tulla kyseeseen esimerkiksi erilaiset järjestelmään sisältyvät komponentit. Tämän kohdan mukaisten kehitystöiden toteuttamisesta ja niiden aiheuttamista kustannuksista sovitaan kuitenkin erikseen.
+Toimittaja noudattaa sovittua palvelunhallintamallia, muita yhdessä sovittuja laadunhallintamenettelyjä sekä Toimittajalle luovutettua Tilaajan ohjeistusta sekä muita Tilaajan kirjallisesti antamia ohjeita.
+Toimittajalla on sopimuskauden alkaessa voimassa sopimuksen kohteena olevaa toimintaa koskeva vastuuvakuutus, jonka vakuutussumman tulee olla vähintään 1 000 000 (miljoona) euroa. Toimittaja sitoutuu pitämään mainitun vakuutuksen voimassa koko Hankintasopimuksen voimassaoloajan.
+Toimittajan on huolehdittava siitä, että Suomessa toteutettavassa tämän sopimuksen mukaisessa työssä noudatetaan vähintään niitä työsuhteen vähimmäisehtoja, joita Suomen lain ja työehtosopimusmääräysten mukaan on noudatettava samanlaatuisessa työssä.
+Tilaaja
+Tilaaja vastaa siitä, että sen Toimittajalle luovuttama Tilaajan kirjallinen ohjeistus, jota Toimittajan tulee noudattaa, on ajantasainen ja vastaa Tilaajan tavoitteita tässä sopimuksessa tarkoitetun palvelun osalta.
+Tilaajan vastuulla on toimitusprojektia ja muuta palvelua koskeva päätöksenteko, laatutavoitteiden asettaminen sekä tulosten ja tuotosten hyväksyminen.
+Tilaajan on myötävaikutettava sen vaikutuspiirissä olevin tavoin tämän sopimuksen tarkoituksen täyttämiseksi. Mikäli Tilaaja ei Toimittajan näkemyksen mukaan myötävaikuta sopimuksen toteuttamiseksi riittävästi taikka Tilaajan antamat tiedot ovat Toimittajan näkemyksen mukaan puutteelliset tai epäselvät, Toimittaja on velvollinen viipymättä ja viimeistään seitsemän (7) päivän kuluessa ilmoittamaan tällaisesta kirjallisesti, esimerkiksi sähköpostitse, Tilaajalle.
+Toimittajan kokonaisvastuu ja alihankinnat
+Toimittajalla on kokonaisvastuu tämän sopimuksen mukaisten velvoitteidensa täyttämisestä Tilaajaa kohtaan.
+Toimittajalla on oikeus käyttää sopimuksen liitteessä X (Alihankkijat) nimettyjä alihankkijoita tässä sopimuksessa tarkoitettujen palvelujen tuottamisessa. Toimittaja voi esittää alihankkijaluetteloon muutoksia, jotka Tilaaja erikseen hyväksyy tai perustellusta syystä hylkää. Muutokset alihankintasuhteissa eivät saa johtaa olennaiseen sopimusmuutokseen. Muutokset eivät ole mahdollisia muun muassa seuraavissa tilanteissa:
+muutos heikentää Toimittajan taloudellisia, teknisiä tai muita edellytyksiä palvelun tuottamisessa; tai
+muutos heikentää tai muuttaa olennaisesti Toimittajan kyvykkyyttä tai heikentää palvelun tasoa.
+Alihankkijan hyväksyminen edellyttää muun ohella, että siihen ei kohdistu hankintalain 80 tai 81 §:ssä tarkoitettu poissulkuperuste. Jos Toimittajan liitteessä X (Alihankkijat) listattuun alihankkijaan kohdistuu hankintalain 80 tai 81 §:ssä tarkoitettu poissulkuperuste, pakote tai varojen jäädyttämispäätös, Toimittajan tulee poistaa tai vaihtaa tämä alihankkija Tilaajan kanssa tarkemmin sovittavalla tavalla.
+Tilaajalla on oikeus käyttää omia alihankkijoitaan tässä sopimuksessa tarkoitettujen sopimusvelvoitteidensa täyttämiseen ilman Toimittajan suostumusta.
+Sopijapuolet vastaavat käyttämänsä alihankkijan osuudesta kuten omastaan, sekä vastaavat siitä, että alihankkija noudattaa omalta osaltaan sopimuksen mukaisia velvoitteita. Toimittajan on tarvittaessa tiedotettava alihankkijalleen, että turvallisuusjärjestelyjen saattamisesta sopimuksen edellyttämälle tasolle saattaa syntyä kustannuksia. Tilaaja ei vastaa näistä kustannuksista.
+Mitä tässä sopimuksessa on sovittu Toimittajan henkilöstöstä, sovelletaan myös palvelujen tuottamiseen osallistuvan alihankkijan henkilöstöön.
+Toimittajan ja tilaajan välinen yhteistyö
+Toimittaja nimeää kaikille tämän sopimuksen puitteissa tarjottaville palveluille asiakkuusvastaavan (asiakkuuspäällikkö tms.), jonka tehtävä on sopimusyhteyshenkilönä huolehtia asiakkuudesta ja palvelujen yleisestä koordinoinnista tilaajan ja tilaajan alihankkijoiden kanssa ja palvelunhallintamalliin perustuen ilman eri veloitusta. Asiakkuusvastaavan tehtävien hoitaminen voi tässä sopimuksessa tarkoittaa useampaa henkilöä, jotta tehtävät tulevat tarkoituksenmukaisesti ja sopimuksen mukaisesti hoidetuksi. Toimittaja vastaa asiakkuusvastaavan palvelujen riittävästä resursoinnista. Toimittajan asiakkuusvastaavan tulee säännöllisesti järjestää laatu- ja asiakastapaamisia tilaajan yhteyshenkilön ja/tai tämän nimeämän ryhmän kanssa. Asiakkuusvastaavan tulee koota tilaajalle tarjottavien palveluiden laaturaportit ja toimeksiannot yhteen.
+Tilaajan ja toimittajan yhteistyötä varten perustetaan yhteistyöorganisaatioita, joiden tehtävät ja kokoonpanot on kuvattu toimitusprojektisopimuksessa ja tämän sopimuksen liitteenä olevassa palvelunhallintamallissa. Ellei toisin ole sovittu, toimittaja osallistuu yhteistyöorganisaatioiden toimintaan ja suorittaa yhteistyöhön sovitut tehtävät ilman eri veloitusta.
+Toimitukseen liittyvä yhteistyömalli on kuvattu tarkemmin toimitusprojektisopimuksessa.
+Palveluhenkilöstö
+Sen lisäksi, mitä muualla tässä sopimuksessa ja sen liitteissä on sovittu palveluun käytettävästä henkilöstöstä, sovelletaan jäljempänä tässä luvussa sovittua.
+Toimittaja huolehtii siitä, että palvelujen suorittamisessa käytetään ammattitaitoista henkilökuntaa, että henkilöstöä osallistuu projekteihin ja jatkuvaan palveluun riittävästi palvelun laatuun ja laajuuteen nähden ja että Toimittajan palveluun varaamat henkilöt ovat Tilaajan käytettävissä kunkin tehtävän edellyttämässä määrin ja projektisuunnitelman ja sopimusten mukaisesti.
+Toimitusprojektin avainhenkilöistä ja heidän vaihdoksistaan aiheutuvista velvoitteista on sovittu toimitusprojektisopimuksessa.
+Toimittajan on viivytyksettä ja veloituksetta vaihdettava tämän sopimuksen tai sen liitteiden mukaisia tehtäviä hoitava henkilönsä, jolta puuttuu riittävä ammattitaito tai joka tehdyn turvallisuusselvityksen perusteella ei ole sopiva kyseiseen tehtävään. Toimittaja perehdyttää uuden henkilön ennen henkilövaihdosta, ellei se olosuhteisiin nähden ole mahdotonta. Toimittaja vastaa uuden henkilön perehdyttämisen aiheuttamista kuluista. Korvaavan henkilön on oltava pätevyydeltään ja kokemukseltaan soveltuva tehtävään ja jos korvattavan henkilön osaamista ja kokemusta on arvioitu osana tarjousten vertailua, korvaavan henkilön on oltava osaamis- ja kokemusvaatimuksiltaan vastaavaa tasoa.
+Tilaajan kanssa tapahtuvan työskentelyn ja dokumentaation kieli on suomi, ellei Tilaajan kanssa ole nimenomaisesti muuta sovittu. Muu tekninen dokumentaatio voi olla suomeksi tai englanniksi.
+Seuranta ja raportointI
+Toimittaja raportoi Tilaajalle projektityön etenemisestä ja jatkuvista palveluista siten kuin tässä sopimuksessa ja toimitusprojektisopimuksessa on tarkemmin sovittu.
+Toimittaja raportoi tilaajalle kuukausittain vähintään seuraavat jatkuvaa palvelua koskevat seikat:
+Kuvaus järjestelmän sovellus- tai tietokantavioista tai virheellisestä konfiguroinnista johtuneista kriittisistä tai vakavista ja mahdollisesti suunnittelemattomia käyttökatkoja aiheuttaneista häiriötilanteista ja niistä toipumisesta sekä häiriötilanteiden lukumäärät ja suunnittelemattomien käyttökatkojen kestot;
+Tietoturvapoikkeamat ja niiden korjaustoimenpiteet
+Raportointijaksolla saapuneiden palvelupyyntöjen määrä ja jakauma jaoteltuna häiriö- ja vikatilanteita koskeviin palvelupyyntöihin, kehitysehdotuksiin ja muihin tukipyyntöihin;
+Raportointijaksolla saapuneiden palvelupyyntöjen lukumäärä ja tila (ratkaistujen lukumäärä ja niiden ratkaisuaika, avointen palvelupyyntöjen lukumäärä ja niiden avoinnaoloaika);
+Saapuneiden ja avointen palvelupyyntöjen lukumäärien trendi 12 kk:n ajalta
+Edellisiltä raportointijaksoilta siirtyneet avoimet palvelupyynnöt sekä niiden avoinnaoloajat;
+Palvelutasojen toteuma ja poikkeamat sovitusta palvelutasosta;
+Mitä kiinteään kuukausihintaan kuulumattomia jatkuvan palvelun tehtäviä ja kehitystehtäviä Toimittaja on tehnyt raportointijaksolla, miltä osin ne ovat vielä tekemättä tai kesken ja milloin niiden tuotantoon siirron on sovittu tapahtuvan.
+Ellei muuta ole sovittu, raportit on toimitettava Tilaajalle raportointikuukautta seuraavan kalenterikuukauden 10. päivään mennessä. Raportti on toimitettava kuitenkin viimeistään kyseistä palvelua koskevan laskun yhteydessä.
+Lisäksi Toimittaja raportoi muista tilauksista, niiden etenemisestä ja toimituksista erikseen tilattujen tehtävien ja kehitystöiden osalta vähintään kuvattujen tulosten valmistuessa ja tarvittaessa yhteistyöorganisaatioiden kokousten yhteydessä.
+Toimittajan tulee analysoida palvelupyyntöjä, raportoida usein toistuvista ongelmista Tilaajalle sekä tunnistaa vaikutusmahdollisuuksiensa rajoissa kohdeympäristön puutteita ja haavoittuvuuksia. Toimittajan tulee oma-aloitteisesti esittää ehdotuksia ympäristön kehittämiseksi ja usein toistuvien palvelupyyntöjen vähentämiseksi.
+Toimittaja ylläpitää ilman eri veloitusta tietoturvavaatimusten mukaista poikkeamaraporttia ja raportoi Tilaajalle turvallisuusasioista sovitun mukaisesti ilman eri veloitusta.
+Hinnat ja hinnanmuutokset sekä Laskutus ja maksuehto
+Palvelujen hinnat sisältävät sopimuksen mukaisen palvelun ja vähintään seuraavat kustannuserät:
+a) tullin, julkiset maksut ja muut hankintaan kohdistuvat verot arvonlisäveroa lukuun ottamatta,
+b) sovitun dokumentaation ja sovitut lopputulokset sekä todistukset, luvat ja muut asiakirjat, joita tarvitaan palvelun hyödyntämiseen sopimuksen mukaisesti,
+c) myynnin (ml. hinta-arvioiden ja muutoshallintatarjousten tekeminen), myynnin tuen ja hallinnolliset tehtävät,
+d) laskutustehtävät sekä sopimusyhteistyön, mukaan lukien asiakkuusvastaavan ja palvelupäällikön tehtävät, toimittajan toiminnan palvelunhallintamallissa ja toimituksessa sovituissa yhteistyöorganisaatioissa sekä muut palvelunhallintamallin mukaiset kokoukset ja tehtävät, ellei toisin ole sovittu,
+e) sovitun palvelu- ja palvelutasoraportoinnin ja niihin liittyvät tehtävät; ja
+f) sellaiset muutoshallinnan tehtävät, joiden korvaamisesta ei ole etukäteen kirjallisesti Tilaajan kanssa toisin sovittu.
+Toimitusprojektin hinta on tämän sopimuksen hinnaston mukainen. Toimitusprojektin laskutus tapahtuu toimitusprojektisopimuksen mukaisesti. Muu kuin toimitusprojektiin sisältyvä koulutus tuotetaan liitteenä olevan hinnaston mukaisilla kouluttajahinnoilla.
+Toimittaja veloittaa jatkuvasta palvelusta sopimuksen liitteen X (Hinnat) mukaan. Jatkuva palvelu laskutetaan kuukausittain jälkikäteen. Jatkuvan palvelun kuukausiveloitukset käynnistyvät, kun toimituksen osa on läpäissyt Tilaajan hyväksymistestauksen, toimituksen osa on otettu tuotantokäyttöön ja luovutettu ylläpitoon sopimuksen kohdan 27.5 mukaisesti.
+Toimittaja veloittaa Tilaajalta sopimuksen mukaisista palveluista liitteenä olevan hinnaston mukaiset hinnat.
+Laskun maksaminen ei merkitse, että Tilaaja olisi hyväksynyt laskun perusteena olleet palvelut, niiden lopputulokset tai muut tuotokset.
+Kustannusten korvaukset
+Toimittajalla ei ole oikeutta periä pientoimitus- tai laskutuslisiä.
+Kaikki hinnat sisältävät matka-, matkustamis- ja majoituskustannukset, päivärahat ja ylityökorvaukset eikä niitä veloiteta erikseen. Toimittaja ei myöskään ole oikeutettu veloittamaan korvausta matka-ajasta. Kohtuullisten matka-, matkustamis- ja majoituskustannusten korvaamisesta valtion matkustussäännön mukaisesti voidaan sopia erikseen Tilaajan kanssa. Tilaajalla on aina oikeus saada hinnastossa esitetyn asiantuntijaroolin mukaista työtä suoritetuksi Tilaajan luona ilman tässä kohdassa mainittuja kuluja ja kustannuksia.
+Sopijapuolet voivat sopia, että toimittajan asiantuntijan on oltava tavoitettavissa niin, että hänet voidaan tarvittaessa kutsua suorittamaan asiantuntijapalvelua hänen säännöllisen työaikansa ulkopuolella (varallaolo). Varallaolo-ajan laskutus voi olla korkeintaan 50 % hinnastossa määritellystä henkilötyön tuntihinnasta. Jos varalla oleva henkilö kutsutaan suorittamaan asiantuntijapalvelua varallaoloaikana, toimittajalla oikeus laskuttaa tästä palvelusta sovittu henkilötyöhinta. Tämän kohdan perusteella tehtäviin ylitöihin ja niiden korvaamiseen sovelletaan kohtaa 10.8.
+Tilaajalla on aina oikeus tilata muuta kuin sovittuun palveluun sisältymätöntä ja tuntiperusteisesti laskutettavaa lisätyötä myös sovitun palveluajan ulkopuolella siltä osin kuin se on tarpeen sopimuksen mukaisiin tarkoituksiin, tarve johtuu muusta erillisestä tai ennakoimattomasta tilanteesta, Tilaajan tehtävien hoito vaarantuu tai Tilaajalla on muu perusteltu syy. Toimittajalla on oikeus kieltäytyä lisätöistä ainoastaan, mikäli sen ammattitaidon voidaan katsoa olevan riittämätön kyseisten tehtävien suorittamiseen. Mikäli lisätyö sovitaan tehtäväksi ylitöinä, arkipäivinä kello 17:00–08.00 sekä arkilauantaina tehty ylityö korvataan 40 prosentilla korotetulla hinnalla sekä sunnuntaina ja pyhäpäivinä tehty ylityö korvataan 80 prosentilla korotetulla hinnalla. Ennakoimattomissa tilanteissa Toimittajan on aloitettava lisätöiden suorittaminen ilman aiheetonta viivytystä Tilaajan sitä koskevasta pyynnöstä.
+Hintojen muutokset
+Hinnaston mukaiset henkilötyöhinnat ovat kiinteänä voimassa yhden (1) vuoden sopimuksen allekirjoittamisesta. Selvyyden vuoksi todetaan, että kiinteähintaiseksi sovitut osuudet ovat sellaisenaan sitovana voimassa koko sopimuksen ajan.
+Jatkuvan palvelun hinta on kiinteänä voimassa yhden (1) vuoden kullekin versiolle tuotettavien jatkuvien palveluiden käynnistämisestä lukien, ellei kohdasta 10.10 muuta johdu.
+Järjestelmän jatkokehitys ei vaikuta jatkuvan palvelun hintaan, ellei jatkokehityksen osalta ole erikseen sovittu erityisistä siihen liittyvistä jatkuvan palvelun vaatimuksista. Mahdollisesta hintavaikutuksesta on sovittava kehitystoimeksiannosta sopimisen yhteydessä. Jos jokin Tilaajaa varten tehty konfiguraatio, räätälöinti, ohjelmisto taikka niiden osa poistuu jatkuvan palvelun piiristä, esimerkiksi korvataan uudella ohjelmistolla tai sen osalla, sopijapuolet voivat sopia sen vaikutuksesta jatkuvan palvelun hintaan.
+Kiinteän hinnoittelujakson jälkeen kohtien 10.10 ja 10.11 mukaisia hintoja voidaan korottaa vuosittain näiden palvelujen kustannuskehitystä vastaavasti. Vuosittainen korotus ei kuitenkaan voi ylittää kahta (2) prosenttia. Kiinteän hinnoittelujakson jälkeen liitteen X hintoja voidaan muuttaa seuraavien edellytysten täyttyessä aina kunkin vuoden alusta lukien:
+Hinnanmuutos perustuu sopimuksen kohteena olevan palvelun todelliseen yleiseen kustannuskehitykseen. Henkilötyön osalta yleistä kustannuskehitystä tarkastellaan Tilastokeskuksen julkaiseman ansiotasoindeksin tietokantataulukko 14um Ansiotasoindeksi, säännöllisen ansion indeksi, sopimuspalkkaindeksi ja reaaliansioindeksi sektorin mukaan, neljännesvuositiedot, Ansiotasoindeksi 2015=100, sektori "Yritykset sekä rahoitus- ja vakuutuslaitokset", palkkausmuoto ”Kaikki”, sukupuoli "Yhteensä", saatavilla sopimuksen tekohetkellä osoitteesta https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ati/statfin_ati_pxt_14um.px. Ensimmäisessä hinnantarkistusesityksessä perusindeksinä käytetään sopimuksen voimaantulon jälkeen ensimmäisenä julkaistun indeksin pistelukemaa. Tarkistusindeksi on tarkistusajankohtana tiedossa oleva viimeksi julkaistu pisteluku, joka voi olla ennakkotieto. Seuraavassa hinnantarkistusesityksessä perusindeksi on edellisen hinnantarkistusesityksen tarkistusindeksinä käytetty pistelukema. Mikäli Tilastokeskus on tarkentanut ennakkotietona annettua pistelukemaa, niin hinnantarkistusesityksessä tulee soveltaa ennakkotiedosta tarkentunutta indeksin pistelukemaa. Jos edellä mainittua indeksiä ei ole hinnanmuutosesityksen hetkellä voimassa, indeksinä käytetään edellä mainittua indeksiä vastaavaa voimassa olevaa indeksiä;
+Hinnanmuutoksen peruste on syntynyt sopimuksen allekirjoittamisen jälkeen;
+Hinnanmuutoksen peruste vaikuttaa välittömästi sopimuksen kohteena olevan palvelun hintaan;
+Hinnankorotus on kunkin yksikköhinnan osalta vuosittain enintään kaksi (2) prosenttia; ja
+Hinnanmuutoksen peruste ei johdu Toimittajan omasta toiminnasta (pois lukien yleiseen palkkakehitykseen perustuvat muutokset).
+Toimittajan on tehtävä perusteltu hinnanmuutosesitys Tilaajalle viimeistään kaksi (2) kuukautta ennen hinnanmuutoksen aiottua voimaantuloa. Tilaaja ilmoittaa toimittajalle hinnanmuutosesityksen hyväksymisestä tai hylkäämisestä.
+Hintoja alennetaan edellä mainitusta määräajasta riippumatta aina yleisen kustannustason laskiessa vastaavaa indeksiä käyttäen mitä sovelletaan hinnankorotusten osalta.
+Jos sopimuksen hinnanmuutoksista ei päästä yksimielisyyteen, Tilaajalla on mahdollisuus irtisanoa sopimus kohdan 21.8 mukaisesti.
+Laskutus ja maksuehdot
+Toimittaja laskuttaa Tilaajaa Eurooppa-normin mukaisella verkkolaskulla. Eurooppa-normin mukaisella verkkolaskulla tarkoitetaan hankintayksiköiden ja elinkeinonharjoittajien sähköistä laskutusta koskevassa laissa tarkoitettua sähköistä laskua.
+Maksut maksetaan laskun perusteella. Lasku erääntyy maksettavaksi kahdenkymmenenyhden (21) päivän kuluttua sopimuksen mukaisen laskun lähettämisestä.
+Tilaajan laskutusosoite on:
+Toimittaja on oikeutettu laskuttamaan sovitut maksut, kun Tilaaja on kirjallisesti hyväksynyt laskun kohteena olevan toimituksen tai sen osan. Toistuvaismaksut Toimittaja kuitenkin laskuttaa kerran kuukaudessa. Laskussa on oltava riittävä erittely laskutuksen perusteista.
+Jos Tilaaja ei maksa oikein laskutettua maksua viimeistään eräpäivänä, Toimittajalla on oikeus periä viivästyskorkoa korkolain perusteella. Korkoa peritään korkolain mukaisesti ilmoitetun, viivästysaikana voimassa olevan korkotason mukaisesti.
+Toimittaja maksaa mahdolliset sanktiot mm. viivästymisestä ja palvelutason alituksesta lähtökohtaisesti aina seuraavan kuukauden aikana tehtävällä hyvityslaskulla.
+Jatkuvaa palvelua koskevan laskun yhteydessä on eriteltävä vähintään laskutusjakso, laskutuksen peruste, erikseen tilatut jatkuvan palvelun tehtävät ja niiden veloituksen perusteena oleva työmäärä.
+Asiantuntijapalveluiden osalta on laskun yhteydessä eriteltävä vähintään laskutuskausi, mitä tehtäviä lasku koskee, laskutuksen perusteena oleva työmäärä ja Tilaajan viite.
+Laskujen erittelyvaatimuksista voidaan lisäksi sopia tarkemmin sopimuskaudella.
+Muutoshallinta
+Tilaaja voi vaatia ja Toimittaja voi ehdottaa muutoksia palvelun sisältöön. Muutospyynnöt tulee tehdä kirjallisesti sopijapuolten erikseen hyväksymällä lomakkeella, jotka numeroidaan juoksevasti.
+Toimittaja valmistelee viivytyksettä Tilaajan muutospyynnön perusteella muutosehdotuksen ilman erillistä veloitusta. Muutosehdotuksen tulee sisältää muutoksen kuvaus, toteutuksen kustannusarvio, valmistumisaikataulu ja arvio muutoksen todennäköisestä vaikutuksesta muuhun palveluun. Toimittaja antaa Tilaajan pyynnöstä tarjouksen muutoksen toteutuksesta. Muutokset hyväksyy esittelystä ohjausryhmä tai sen nimeämä edustaja ja muutoksen lopullisesta sisällöstä sovitaan kirjallisesti. Mikäli muutos ei aiheuta Toimittajalle lisätyötä tai kustannuksia, ei muutoksesta peritä lisähintaa. Selvyyden vuoksi todetaan, että muutos voi myös alentaa sovittujen palveluiden hintaa.
+Toimittaja vastaa siitä, että kaikki sovitut muutokset päivitetään viipymättä muutoshallintalokiin ja muuhun tarvittavaan dokumentaatioon ilman erillisiä lisäkustannuksia siten, että dokumentaatio on jatkuvasti ajantasainen, virheetön ja kattava.
+Muutostyön hinnoittelussa noudatetaan sopimuksen liitteenä olevaa asiantuntijatyön hinnastoa.
+Jatkuvan palvelun muutoshallinta
+Tilaaja ja Toimittaja voivat sopia muutoshallintamenettelyllä muutoksista jo sovittuihin pienkehitystehtäviin ja hyväksyttyihin kehitystehtävien kuvauksiin ja määrityksiin. Palvelukuvauksen muuttaminen tai jatkuvan palvelun sisällön muuttaminen on kuitenkin aina tehtävä muutossopimuksella. Muutokset voivat koskea myös palveluaikoja.
+Sopijapuolet voivat sopia jatkuvan palvelun volyymin lisäämisestä tai vähentämisestä. Ellei toisin sovita, volyymimuutoksen vaikutusta hinnoitteluun arvioidaan suhteessa arvioituun palvelupyyntöjen määrään tai vastaavaan raportoinnilla osoitettavaan muutokseen. Merkittävistä palvelun volyymin muutoksista sovitaan kirjallisesti etukäteen ja ne tulevat voimaan hyväksymistä seuraavan kalenterikuukauden alusta lukien.
+Kaikki muutospyynnöt on tehtävä kirjallisesti ja muutospyynnön tekijän on ehdotettava muutokselle luokitusta (kiireellinen / merkittävä / vähäinen). Jos toinen sopijapuoli ei hyväksy muutospyynnön tekijän luokitusehdotusta, sopijapuolet neuvottelevat tilanteesta. Viime kädessä Tilaaja päättää luokituksesta.
+Toimittajan tulee arvioida muutospyynnön vaikutukset palvelutasoihin, kustannuksiin, tietoturvallisuuteen ja resursseihin.
+Muutospyynnöt käsitellään tarvittaessa palvelunhallintamallin mukaisessa yhteistyöorganisaatiossa.
+Muutoshallintaprosessi noudattaa soveltuvin osin palveluhallintamallin mukaista muutoshallintaprosessia. Muutoksen toteuttamiseen ei saa ryhtyä ennen kuin Tilaaja on antanut kirjallisen hyväksyntänsä.
+Ylivoimainen este
+Vapauttamisperusteeksi (force majeure) katsotaan sellainen sopimuksen täyttämisen estävä ja sopimuksen syntymisen jälkeen sattunut epätavallinen ja asiaan vaikuttava tapahtuma, jota sopijapuolten ei ole ollut syytä ottaa huomioon sopimusta tehdessään, joka on sopijapuolista riippumaton ja jonka seuraamuksia ei voida estää ilman kohtuuttomia lisäkustannuksia tai kohtuutonta ajanhukkaa. Tällainen tapahtuma voi olla sota, kapina, viranomaisen suorittama pakko-otto tai takavarikko julkiseen tarpeeseen, tuonti- tai vientikielto, luonnonmullistus, yleisen liikenteen, yleisen tietoliikenteen tai energiajakelun keskeytys, lakko tai muu työselkkaus, tulipalo tai muu vaikutuksiltaan yhtä merkittävä ja epätavallinen sopijapuolista riippumaton syy.
+Jos sopimusvelvoitteen viivästyminen johtuu tällaisesta ylivoimaisesta esteestä, sopimusvelvoitteen täyttämisaikaa jatketaan niin paljon kuin kaikki tapaukseen vaikuttavat olosuhteet huomioon ottaen on pidettävä kohtuullisena.
+Sopijapuolten on viipymättä ilmoitettava ylivoimaisesta esteestä kirjallisesti toiselle sopijapuolelle samoin kuin esteen lakkaamisesta.
+Vapauttamisperusteeksi katsotaan myös sopijapuolen alihankkijaa kohdannut ylivoimainen este, mikäli alihankintaa ei voida ilman kohtuuttomia kustannuksia tai oleellista ajanhukkaa hankkia muualta.
+Sopijapuoli saa irtisanoa sopimuksen päättymään välittömästi, jos sopimuksen täyttäminen todetun ylivoimaisen esteen jatkumisen vuoksi viivästyy yli neljä (4) kuukautta.
+Oikeudet
+Tämän sopimuksen keskeisenä tavoitteena on hyödyntää valtioneuvoston asianhallintajärjestelmän toimituksen ja muiden palvelujen tuloksia mahdollisimman laajasti valtioneuvoston organisaatiossa (ml. tasavallan presidentin kanslia ja oikeuskanslerinvirasto). Mitä tässä luvussa 13 sovitaan Tilaajan oikeuksista, koskee koko valtioneuvoston organisaatiota sekä tasavallan presidentin kansliaa ja oikeuskanslerin virastoa.
+Toimittaja myöntää Tilaajalle lisäveloituksetta käyttöoikeuden toimitettavaan aineistoon avoimen lähdekoodin ohjelman ehdoin. Vaatimus ei kuitenkaan koske niitä valmisohjelmistoja, joihin ei sovelleta avoimen lähdekoodin ehtoja.
+Mikäli Tilaaja ja Toimittaja eivät ole sopineet käytettävästä avoimen lähdekoodin lisenssistä, määrittelee Toimittaja sovellettavan avoimen lähdekoodin lisenssin. Toimittajan on varmistuttava siitä, että toimitettavan aineiston jokainen lisenssi on yhteensopiva toimitettavan aineiston muiden lisenssien kanssa ja yhteensopiva Tilaajan mahdollisesti sopimuksessa esittämään lisenssivaatimukseen nähden. Tilaaja sitoutuu noudattamaan vastaanottamaansa aineistoon soveltuvia avoimen lähdekoodin lisenssiehtoja.
+Oikeudet Tilaajan aineistoon
+Jollei toisin ole kirjallisesti sovittu, tekijänoikeus ja muut immateriaalioikeudet palvelun tuottamisessa käytettäviin Toimittajan välineisiin ja menetelmiin sekä palveludokumentaatioon, pois lukien Tilaajan aineisto, kuuluvat Toimittajalle tai kolmannelle osapuolelle eivätkä siirry Tilaajalle.
+Immateriaalioikeudet järjestelmään kuuluvat Toimittajalle tai kolmannelle osapuolelle. Toimittaja myöntää Tilaajalle tai taholle, jolle Tilaajan tehtävät mahdollisesti siirtyvät, oikeuden käyttää järjestelmää tämän sopimuksen mukaisessa laajuudessa. Toimittaja takaa, että oikeus käyttää palveluita ja niihin liittyvää aineistoa on tämän sopimuksen tarkoituksen edellyttämässä laajuudessa.
+Kaikki oikeudet Tilaajan aineistoon, mukaan lukien Tilaajan henkilökunnan tai muiden Tilaajan edustajien tallentama aineisto, kuuluvat Tilaajalle tai kolmannelle osapuolelle eivätkä siirry Toimittajalle. Toimittajalla on oikeus käyttää Tilaajan aineistoa vain sopimuksen mukaisiin tarkoituksiin sopimuksen mukaisessa laajuudessa ja sopimuksen voimassaoloaikana. Selvyyden vuoksi todetaan, että Tilaajan aineiston tulee olla rajoituksetta käytettävissä myös muissa järjestelmissä, eivätkä Toimittajan oikeudet voi rajata Tilaajan tai kolmannen osapuolen käyttöä Tilaajan aineiston suhteen.
+Kaikki oikeudet lopputuloksiin, pois lukien Toimittajan tai kolmannen osapuolen tekijänoikeuden alainen aineisto, kuuluvat Tilaajalle.
+Tilaajalla ja Tilaajan lukuun toimivalla kolmannella osapuolella sekä taholla, jolle Tilaajan tehtävät mahdollisesti siirtyvät, on oikeus käyttää ja muokata Toimittajan aineistoa sopimuksen voimassaoloajan Tilaajan, tai tahon, jolle Tilaajan tehtävät mahdollisesti siirtyvät, toimintaa varten.
+Tilaajalla ja Tilaajan lukuun toimivalla kolmannella osapuolella sekä taholla, jolle Tilaajan tehtävät mahdollisesti siirtyvät, on rajoittamaton oikeus käyttää ja muokata palvelusta saatua yhdistettyä aineistoa ja Tilaajalle luotua aineistoa, mukaan lukien Tilaajalle mahdollisesti luovutetut varmuuskopiot näistä aineistoista, sopimuskauden ajan sekä sopimuksen päättymisen jälkeen.
+Toimittaja vakuuttaa, että Tilaaja voi hyödyntää yllä olevia oikeuksia toimittajan tai kolmannen liike- tai ammattisalaisuuksien niitä rajoittamatta.
+Tilaajan sovellus
+Tilaajalla on vapaa oikeus lisäveloituksetta itse tai ulkopuolisen palveluntuottajan avustuksella ja Toimittajan tai kolmannen osapuolen tekijän­ ja immateriaalioikeuden tai liike­ ja ammattisalaisuuden rajoittamatta:
+käyttää tilaajan sovellusta omissa toiminnoissaan ja muussa erikseen sovitussa toiminnassa
+muuttaa ja kehittää tilaajan sovellusta edelleen omaan käyttöön
+valmistaa tilaajan sovelluksesta uusia kappaleita omaan käyttöön
+käyttää muiden sovellusten yhteydessä tilaajan sovelluksen teon yhteydessä syntynyttä aineistoa ja tietotaitoa
+siirtää tilaajan sovellus toiseen laitealusta­ tai käyttöjärjestelmäympäristöön tai maantieteelliseen paikkaan ottaen kuitenkin huomioon mahdolliset maastavientirajoitukset
+siirtää tilaajan sovelluksen käyttöoikeuksia kolmansille tahoille, mikäli tilaajan tehtävien hoito tai uudelleenjärjestelyt sitä edellyttävät
+saada hallinta­ ja käyttöoikeus tilaajan sovelluksen kone­ ja lähdekieliseen versioon.
+Kohdassa 13.11 sanotut Tilaajan oikeudet eivät muuta tai laajenna takuuta tai Toimittajan muuta vastuuta siitä, mikä takuu­ ja hyväksymisehtojen tai muiden velvoitteiden tai vaatimusten osalta koski tilaajan sovellusta sen alkuperäisessä sovellusympäristössä.
+Immateriaalioikeuksien loukkaukset
+Toimittaja vastaa siitä, ettei järjestelmä tai palvelu sopimuksen mukaisesti käytettynä loukkaa Suomessa voimassa olevia kolmannen osapuolen patentti-, tekijän- tai muita immateriaalioikeuksia.
+Toimittaja on velvollinen puolustamaan kustannuksellaan Tilaajaa, jos Tilaajaa vastaan esitetään väite siitä, että järjestelmä tai palvelu loukkaa kolmannen osapuolen immateriaalioikeuksia Suomessa, edellyttäen, että Tilaaja viipymättä ilmoittaa kirjallisesti Toimittajalle esitetystä väitteestä ja antaa Toimittajan käyttää vastaajan puhevaltaa sekä antaa Toimittajalle Toimittajan pyynnöstä ja kustannuksella kaikki saatavissa olevat tarpeelliset tiedot ja avun sekä tarpeelliset valtuutukset. Toimittaja vastaa tuomittujen tai sovittujen korvausten maksamisesta kolmannelle osapuolelle, jos Tilaaja on menetellyt edellä kerrotun mukaisesti. Tilaaja on oikeutettu ryhtymään kaikkiin vaatimukseen vastaamiseksi tarpeellisiin toimenpiteisiin siihen saakka, kun Toimittaja nimeää Tilaajaa tyydyttävän tahon hoitamaan asiaa. Tilaaja ei voi kieltäytyä hyväksymästä Toimittajan nimeämää tahoa ilman perusteltua syytä.
+Jos Toimittaja perustellusti katsoo tai oikeudenkäynnissä on todettu, että toimituksen kohde loukkaa kolmannen osapuolen immateriaalioikeuksia Suomessa, Toimittajalla on oikeus ja velvollisuus kustannuksellaan ja valintansa mukaan joko (a) hankkia Tilaajalle oikeus jatkaa järjestelmän ja palvelun käyttämistä, (b) vaihtaa järjestelmä ja palvelu sitä vastaavaan sopimuksen mukaiseen tuotteeseen tai palveluun tai (c) muuttaa järjestelmää ja palvelua siten, että oikeudenloukkaus lakkaa ja muutettu järjestelmä ja palvelu on edelleen sopimuksen mukainen. Jos mikään edellä mainituista vaihtoehdoista ei ole mahdollista sopijapuolelle kohtuullisin ehdoin, sopijapuolella on oikeus purkaa sopimus loukkaavilta osin. Sopimuksen saa purkaa kokonaan, jos sopimuksen tarkoitus jää loukkauksen johdosta olennaisesti saavuttamatta.
+Toimittaja ei kuitenkaan vastaa väitteestä, joka:
+(a) tehdään sellaisen tahon toimesta, jolla on määräysvalta Tilaajaan tai johon Tilaajalla on määräysvalta;
+(b) johtuu Tilaajan järjestelmään tekemästä muutoksesta tai Tilaajan kirjallisesti antamien ohjeiden noudattamisesta;
+(c) johtuu siitä, että järjestelmää on käytetty yhdessä toimitukseen kuulumattoman tuotteen tai palvelun kanssa eikä tällaisesta käytöstä ole sovittu sopijapuolten kesken tai
+(d) olisi voitu välttää käyttämällä julkistettua ja Toimittajan Tilaajan käyttöön ilman erillistä veloitusta tarjoamaa järjestelmää tai palvelua vastaavaa sopimuksen mukaista tuotetta tai palvelua.
+Toimittaja vastaa immateriaalioikeuksien loukkauksista vain siinä laajuudessa kuin kohdissa 13.13 ja 13.14 on sovittu.
+Luvussa 18 (Vahingonkorvaus ja vastuunrajoitus) tarkoitetut vahingonkorvausta koskevat vastuunrajoitukset eivät koske edellä kohdissa 13.13 ja 13.14 tarkoitettuja mahdollisia immateriaalioikeuksien loukkauksista johtuvia vastuita.
+Valmisohjelmiston immateriaalioikeuksien loukkaukseen sovelletaan ensisijaisesti tämän luvun ehtojen sijasta kyseisen valmisohjelmiston ehtoja. Sovellettavat valmisohjelmistojen ehdot tulee liittää sopimukseen. Tämän luvun ehtoja sovelletaan kuitenkin, jos valmisohjelmiston oikeudenomistaja on Toimittaja tai sellainen taho, jolla on määräysvalta Toimittajaan tai johon Toimittajalla on määräysvalta.
+Muut ehdot
+Toimittajan tulee erikseen sovittavalla tavalla ja ilman eri veloitusta luovuttaa Tilaajan haltuun Tilaajaa varten luotu lähdekoodi sekä muu lähdekielinen aineisto, jota Tilaaja tarvitsee järjestelmän muokkaamisen, jatkokehittämiseen ja jatkuvaan palveluun. Luovutusvelvollisuus ei koske sellaista valmisohjelmiston lähdekoodia, jota Toimittajalla ei ole oikeutta luovuttaa. Lähdekoodin tarkastuksesta on määrätty liitteenä olevissa tietoturvavaatimuksissa.
+Jos Tilaaja vaatii, Toimittaja pyrkii myötävaikuttamaan siihen, että järjestelmään tai palveluun kuuluvan valmisohjelmiston lähdekoodi yhdessä siihen Tilaajaa varten tehtyjen muutosten ja lisäysten kanssa talletetaan puolueettoman lähdekoodin talletuspalvelun tarjoajan (escrow-agentin) haltuun siten, että Tilaaja saa lähdekoodin ja sen käyttöoikeuden, mikäli
+i. valmisohjelmistojen oikeuksien haltija asetetaan konkurssiin tai 	selvitystilaan, tai
+ii. valmisohjelmistolle ei ole saatavissa ylläpitoa Toimittajalta, 	kyseisen valmisohjelmiston oikeudenhaltijalta tai muulta kolmannelta 	taholta olennaisesti vastaavin ehdoin kuin Toimittaja ja Tilaaja ovat 	ylläpidosta sopineet.
+Tilaajalla on oikeus liittää järjestelmään tähän sopimukseen kuulumattomia Toimittajan tai kolmannen osapuolen sovelluksia ilman, että siitä aiheutuu Tilaajalle kustannuksia. Tilaajalla on oikeus hankkia järjestelmään kuulumattoman ohjelman integraation määrittely ja suunnittelu sekä toteutus kolmannelta.
+Toimittaja takaa Tilaajalle oikeuden käyttää ja jakaa toimitettua järjestelmää kokonaisuudessaan tässä sopimuksessa sovitulla tavalla ilman kolmannen osapuolen tai Toimittajan omista oikeuksista johtuvia rajoituksia.
+Toimittajan toimittaman järjestelmän rajapinnan tulee olla avoin siten kuin jäljempänä tässä kohdassa ja muualla tämän sopimuksen mukaisissa vaatimuksissa määritellään.
+- Tilaaja voi käyttää ja levittää rajapintaa vapaasti ja ilman sen käyttöön kohdistuvia, yksinoikeuksiin perustuvia maksuja.
+- Tilaaja voi halutessaan avata rajapinnan Toimittajasta riippumatta.
+- Dokumentaatio siitä, miten rajapintaa käytetään, tulee toimittaa Tilaajalle ja Tilaaja testaa rajapinnan toimitusprojektisopimuksen mukaisessa hyväksymistestauksessa. Dokumentaatio tulee voida asettaa Toimittajan tai kolmannen immateriaalioikeuden rajoittamatta julkisesti saataville ilman mitään dokumentaation julkaisijalle tai sen käyttäjälle aiheutuvia maksuja oikeudenhaltijalle.
+- Rajapintaan tulee olla pääsy kenelle tahansa eli pääsynhallintaa ei vaadita. Rajapinnalla saatavan datan käyttöoikeus määräytyy datan käyttöoikeuksien perusteella, eikä rajapintaa käyttämällä toimittajalla, tai sen kanssa samaan konserniin kuuluvilla, ole mitään kielto-oikeutta rajapinnan välittämään dataan tai sen uudelleen käyttöön millään tavalla.
+- Oikeudenhaltijoilla ei ole mitään kielto-oikeutta rajapinnan käyttöön Tilaajan tai kolmansien toimesta riippumatta siitä, millä tavalla rajapintaa käytetään. Vastaavasti oikeudenhaltijoilla ei ole mitään oikeutta periä maksuja, esim. rojalteja, rajapinnan käytöstä Tilaajalta tai kolmansilta riippumatta siitä, millä tavalla rajapintaa käytetään.
+Tarkastusoikeus
+Tämän luvun 14 mukaisia ehtoja sovelletaan ensisijaisesti suhteessa turvallisuussopimuksen luvun 10 mukaisiin ehtoihin.
+Tilaajalla on oikeus tehdä tai teettää kolmannella riippumattomalla taholla tarkastus, jonka kohteena voivat olla toimituksen kohde ja sen vaatimuksenmukaisuus, laskutuksen oikeellisuus, valvonta- ja hallintajärjestelmien toimivuus, Tilaajan henkilötietojen käsittely ja suojaaminen, tietoturvallisuus sekä raportoinnin oikeellisuus.
+Kohdan 14.2 mukainen tarkastus voidaan teettää myös viranomaisten tietojärjestelmien ja tietoliikennejärjestelyjen tietoturvallisuuden arvioinnista annetun lain (1406/2011) mukaisena auditointina. Toimittajan on sallittava ja mahdollistettava Traficomin tai Traficomin hyväksymän arviointilaitoksen tarkastus siinä laajuudessa ja niillä menetelmillä, mitä edellytetään Traficomin hyväksyntään tai todistukseen tähtäävältä tarkastukselta. Tämän luvun mukaiset tarkastukset voidaan suorittaa hyödyntäen arviointityökaluna voimassa olevaa Kansallista turvallisuusauditointikriteeristöä (Katakri).
+Kohtien 14.2 ja 14.3 mukaisten tarkastusten suorittajan perimistä palkkioista ja Tilaajan omista kustannuksista vastaa Tilaaja. Muilta osin tarkastuksen kustannuksista ja mahdollisista tarkastuksesta aiheutuvista kustannuksista vastaa Toimittaja.
+Tilaajan on ilmoitettava tahdostaan suorittaa tarkastus vähintään neljätoista (14) päivää ennen ehdotettua tarkastuspäivää. Tarkastus saadaan suorittaa kuitenkin enintään kaksi (2) kertaa vuodessa, ellei ole erityisen painavia syitä useammille tarkastuksille.
+Toimittaja on velvollinen tarjoamaan tarkastajalle tarvittavat työtilat ja antamaan tarvittavat tiedot tarkastuksen suorittamiseksi mukaan lukien käytettävyysraportit valmisohjelmistoista. Tarkastus pyritään suorittamaan siten, ettei siitä aiheudu Toimittajalle kohtuutonta haittaa.
+Toimittajan tulee korjata tarkastuksissa havaitut virheet ja puutteet viivytyksettä Tilaajan kirjallisesta ilmoituksesta. Olennaiset virheet ja puutteet, jotka muodostavat ilmeisen uhkan turvallisuudelle tai tietoturvallisuudelle, on korjattava heti. Toimittaja laatii tilaajan pyynnöstä todettuja virheitä ja puutteita koskevan aikataulutetun korjaussuunnitelman Tilaajan hyväksyttäväksi. Tilaaja ei vastaa edellä mainituista korjauksista aiheutuvista kuluista ja kustannuksista. Tässä kohdassa sanotusta huolimatta Tilaajalla on oikeus vaatia sopimussakkoa turvallisuussopimuksen mukaisesti.
+Mikäli tarkastuksissa havaitaan olennaisia virheitä tai puutteita, Toimittaja korvaa Tilaajalle tarkastuksesta aiheutuneet kustannukset.
+Tarkastusoikeus ei miltään osin rajoita Tilaajan sopimuksen mukaisia oikeuksia, eikä se vapauta Toimittajaa mistään sen sopimuksen mukaisista velvoitteista.
+Tilaaja voi kohdistaa myös järjestelmään ja Toimittajan palveluihin haavoittuvuusskannauksia. Näiden osalta palvelun tarkastuksia voidaan tehdä edellä mainituista määräajoista riippumatta erikseen sovittavina ajankohtina.
+Tilaajalla on oikeus suorittaa tiloissaan jatkuvaa valvontaa ja tehdä tiloissaan ennalta ilmoittamatta turvallisuustarkastuksia asetettujen velvoitteiden täyttämisen arvioimiseksi.
+Tarkastukset eivät saa vaarantaa Toimittajan tai sen alihankkijoiden tietoturvallisuutta tai Toimittajan tai sen alihankkijoiden salassapitovelvoitteita muita asiakkaita kohtaan.
+Tämän sopimuksen mukainen tarkastusoikeus voidaan ulottaa myös Toimittajan alihankkijaan. Toimittajan tulee huolehtia siitä, että alihankkijan tarkastus on mahdollinen ja toteutettavissa tämän sopimuksen mukaisesti.
+Tilaajalla on oikeus luovuttaa muille viranomaisille tieto siitä, että tämän luvun mukainen tarkastus on suoritettu ja siitä, onko tarkastus läpäisty.
+Referenssikäyttö ja sopimuksesta tiedottaminen
+Toimittaja tai sen alihankkijat saavat mainita kaupallisena referenssinä tehneensä Työtä tilaajalle ainoastaan, jos asiasta erikseen kirjallisesti sovitaan. Mikäli Toimittaja haluaa käyttää hankintasopimusta referenssitietona tehdessään tarjouksia hankintalainsäädännössä tarkoitetuille hankintayksiköille tai muussa vastaavassa tarjouskilpailussa, Toimittajan tulee etukäteen pyytää kirjallisesti lupa referenssikäyttöön Tilaajalta.
+Tilaaja vastaa tämän sopimuksen tiedottamisesta ja hoitaa tiedottamista tarvittaessa yhteistyössä Toimittajan kanssa.
+Mikäli Toimittajaa koskee arvopaperimarkkinalaissa (746/2021) tai muussa lainsäädännössä tarkoitettu velvollisuus julkistaa ja pitää saatavilla yhtiön arvopaperin arvoon olennaisesti vaikuttavat päätökset ja muut seikat, Toimittajalla on tähän oikeus edellä kohdassa 14.2 sovitun estämättä.
+Tietoturvallisuus, tietosuoja ja salassapito
+Sen lisäksi mitä turvallisuussopimuksessa on sovittu, Tilaajan ja Toimittajan välisessä yhteistyössä noudetaan tämän luvun mukaisia ehtoja.
+Tilaaja noudattaa järjestelmähankkeessa lakia julkisen hallinnon tiedonhallinnasta (906/2019). Valtioneuvoston asianhallintajärjestelmän vaatimuksena on, että se tulee toimimaan olennaisilta osin kansallisen turvallisuusluokka TL IV KÄYTTÖ RAJOITETTU mukaisesti sekä tiedon käsittelyn että säilytyksen osalta. Toimittajan tulee noudattaa tässä sopimuksessa yksilöityjä tietoturvallisuusvaatimuksia, mukaan lukien lokitusta koskevat vaatimukset, käsiteltävän aineiston turvallisuusluokituksen mukaisesti. Toimittaja vastaa, että toimitettava järjestelmä sekä Toimittajan tuotantoon ja ylläpitoon tarvittavat osat vastaavat sovittuja tietoturvavaatimuksia.
+Tilaajan tehtävät turvallisuuden osalta ovat seuraavat:
+Vastaa turvallisuuteen, tietoturvallisuuteen, riskienhallintaan ja varautumiseen liittyvien toimittajaa koskevien konkreettisten vaatimusten määrittelystä.
+Seuraa palvelun tietoturvavaatimusten toteutumista yhteistyössä toimittajan kanssa.
+Auditoi toimittajan osalta tietoturvavaatimusten täyttymisen sovitulla tavalla.
+Päättää toimenpiteistä tietoturvarikkomustapauksissa ja -poikkeamissa.
+Tilaajalla on oikeus vaatia ja saada palvelua tuottavalta asiantuntijalta tai muulta Toimittajan edustajalta turvallisuussopimuksen liitteenä oleva vaitiolositoumus.
+Toimittaja on oikeutettu käyttämään Tilaajan aineistoa ainoastaan tämän sopimuksen mukaisten velvoitteiden täyttämiseksi.
+Toimittaja valvoo tämän sopimuksen mukaisen turvallisuustason toteutumista toiminnassaan säännöllisesti ja suunnitelmallisesti, kirjaa mahdolliset poikkeamat ja raportoi ne Tilaajalle viivytyksettä sekä aloittaa korjaustoimet ensi tilassa.
+Tietosuojaan sovelletaan liitettä X Tietosuojan pakolliset vaatimukset.
+Toimittaja vastaa siitä, että palvelu on kulloinkin voimassa olevan henkilötietojen käsittelyä koskevan lainsäädännön vaatimusten mukainen, ottaen erityisesti huomioon tietojärjestelmien oletusarvoisen ja sisäänrakennetun tietosuojan.
+Toimittaja huolehtii käsittelemiensä tietojen asianmukaisesta suojaamisesta varmistaakseen Tilaajan aineiston luottamuksellisuuden, eheyden ja saatavuuden.
+Siltä osin kuin Toimittaja käsittelee Tilaajan henkilörekisterissä olevia tietoja tietosuojalainsäädännössä tarkoitettuna henkilötietojen käsittelijänä, Toimittaja noudattaa liitteenä X olevia JYSE/JIT – Henkilötiedot 2025 -ehtoja.
+Varautuminen
+Toimittaja kehittää häiriönsietoa ja palveluiden toimitusvarmuutta alalla yleisesti noudatettavan jatkuvuussuunnittelun avulla.
+Toimittaja noudattaa toiminnassaan tämän sopimuksen liitteenä olevia ICT-varautumisen vaatimuksia, jotka on kuvattu Tietoturvallisuusvaatimukset-liitteessä.
+Vahingonkorvaus ja vastuunrajoitus
+Sopijapuolella on velvollisuus korvata toiselle sopijapuolelle aiheuttamansa vahingot siten kuin tässä luvussa on sovittu. Sopijapuolten toiminnasta johtuvien vahinkojen korvaaminen käsitellään sovitussa yhteistyöorganisaatiossa.
+Turvallisuussopimukseen perustuva vahingonkorvausvelvollisuus määräytyy yksinomaan turvallisuussopimuksen luvun 14 mukaisesti eikä tämän sopimuksen mukaisia vastuurajoituksia sovelleta.
+Toimittajalla on oikeus saada vahingonkorvausta Tilaajan tuottamuksellisesta sopimusrikkomuksesta aiheutuneesta välittömästä vahingosta. Tilaajan sopimukseen perustuva vahingonkorvausvelvollisuus Toimittajalle on mahdolliset hyvitykset mukaan lukien enintään viisisataatuhatta (500 000) euroa sopimuskaudella. Toimittajalla ei ole oikeutta saada korvausta välillisistä vahingoista.
+Sopijapuolella on oikeus saada vahingonkorvausta toisen sopijapuolen sopimusrikkomuksesta aiheutuneesta välittömästä vahingosta. Sopijapuoli ei vastaa välillisestä vahingosta.
+Sopimukseen perustuva Toimittajan vahingonkorvausvelvollisuus Tilaajalle on mahdolliset viivästys-, palvelutaso- tai muut sopimussakot tai hyvitykset mukaan lukien yhteensä enintään viisi miljoonaa (5 000 000) euroa.
+Välittömien ja välillisten vahinkojen määrittelyyn sovelletaan kauppalain (355/1987) 67 §:ää.
+Toimittaja vastaa menetettyjen tietojen palauttamisesta rikkoutuneilta medioilta tai varmistusmedioilta (siltä osin, kun ne ovat palautettavissa) aiheutuvista kustannuksista, niiltä osin kuin tietojen menettämisen katsotaan aiheutuneen toimittajan sovittujen varmistusta koskevien palvelujen laiminlyönneistä tai muusta varmuuskopiointiin liittyvästä toimittajan vastuulla olevasta virheestä. Palautusvelvollisuus koskee Toimittajaa vain siltä osin, kun sen palveluvelvoitteisiin on sovittu varmuuskopioiden ottaminen.
+Jos sopijapuoli on aiheuttanut vahingon tahallisesti tai törkeällä huolimattomuudella tai salassapitovelvoitetta rikkomalla tai loukkaamalla immateriaalioikeuksia, vastaa rikkonut sopijapuoli myös välillisistä vahingoista mukaan lukien immateriaalioikeuden loukkauksista mahdollisesti maksettavaksi tulevat hyvitykset eikä tämän sopimuksen vastuunrajoituksia sovelleta.
+Tilaajalla ei ole vahingonkorvausvelvollisuutta sopimuksen ennenaikaisesta päättymisestä, mikäli tuomioistuin määrää tämän sopimuksen tehottomaksi tai lyhentää sopimuskautta.
+Jos sopijapuoli on maksanut rekisteröidylle korvauksen tietosuojalainsäädännön rikkomisen johdosta aiheutuneesta vahingosta, on tällä sopijapuolella oikeus sovittujen vastuunrajoitusten rajoittamatta periä samaan tietojenkäsittelyyn osallistuneelta toiselta sopijapuolelta EU:n yleisen tietosuoja-asetuksen 82 artiklan 5 kohdan mukaisesti tämän vastuuta vastaava osuus korvauksesta. Sopijapuolen vastuu rekisteröidylle aiheutuneesta vahingosta määräytyy EU:n yleisen tietosuoja-asetuksen 82 artiklan 4 kohdan tai muussa tietosuojalainsäädännössä olevan vastaavan määräyksen mukaan.
+Sopimuksen siirto
+Tilaajalla on oikeus siirtää tämä sopimus kokonaan tai osittain, kuten esimerkiksi jatkuvien palvelujen osalta, Valtion tieto- ja viestintätekniikkakeskus Valtorille tai sellaiselle muulle organisaatiolle, jolle Valtorin tehtävät siirtyvät. Tällaisen siirron yhteydessä tehdään tarvittaessa muutossopimus, jolla tarkistetaan tilaajan ja Valtorin välinen työnjako ja vastuut tämän sopimuksen osalta.
+Toimittajalla ei ole oikeutta osaksikaan siirtää Sopimusta tai sen mukaisia oikeuksia tai velvoitteita kolmannelle osapuolelle ilman Tilaajan kirjallista hyväksyntää.
+Tilaajalla on oikeus siirtää sopimukseen liittyvät oikeutensa ja velvollisuutensa toiselle valtionhallinnon tai muulle organisaatiolle, jolle Tilaajan tehtävät siirtyvät. Siirrosta on ilmoitettava Toimittajalle etukäteen kirjallisesti. Muunlainen Sopimuksen siirto on sallittu vain kummankin Sopijapuolen allekirjoittamalla siirtosopimuksella.
+Sopimusmuutokset
+Kaikki muutokset tähän sopimukseen on tehtävä kirjallisesti ja molempien sopijapuolten asianmukaisesti allekirjoitettava. Muutokset tulevat voimaan, kun molemmat sopijapuolet ovat allekirjoituksillaan hyväksyneet muutokset, ellei muutosasiakirjoissa ole toisin sovittu.
+Sopijapuolet tiedostavat, että hankintalainsäädäntö rajoittaa sellaisten sopimusmuutosten tekemistä, joita ei ole mahdollistettu palvelua koskevissa alkuperäisissä hankinta-asiakirjoissa. Sopimukseen tai sen tarkoittamaan palveluun ei siten voida tehdä sellaisia muutoksia, jotka muodostaisivat hankintalainsäädännössä kielletyn olennaisen sopimusmuutoksen.
+Seuraavia liitteitä voidaan muuttaa ilman erillistä sopimusmuutosta kirjallisesti yhteyshenkilöiden tai muun toimivaltaisen henkilön toimesta, kun liitemuutos on käsitelty sovitussa yhteistyöorganisaatiossa ja muutoksesta on tehty kyseiseen käsittelyyn perustuva kirjallinen muutosesitys:
+Liite 1.4 Toimittajan turvallisuudenhallinnan kuvaus
+Liite 2.1 Avainhenkilöt
+Liite 2 Proof of Concept liitteineen
+Liite 2.3 Projektisuunnitelma liitteineen
+Liite 3.1 Palvelunhallintamalli
+Liite 3.6 Yhteistyöryhmien kokoonpano ja yhteyshenkilöt
+Liite 10 Alihankkijat
+Liite 11 Yhteyshenkilöt
+Sopimuksen voimassaolo, irtisanominen JA PURKAMINEN
+Yleinen irtisanomisperuste
+Tämä pääsopimus tulee voimaan, kun se on allekirjoitettu, ja on voimassa toistaiseksi. Tilaaja voi irtisanoa pääsopimuksen päättymään kolmen (3) kuukauden irtisanomisajalla ja Toimittaja yhdeksän (9) kuukauden irtisanomisajalla kirjallisesta ilmoituksesta lukien. Sopimus voidaan kuitenkin yleisellä irtisanomisperusteella irtisanoa päättymään Toimittajan osalta aikaisintaan neljä (4) vuotta jatkuvan palvelun alkamisesta laskettuna.
+Tilaajalla on oikeus irtisanoa tämä sopimus ja sen alaiset sopimukset päättymään välittömästi, jos turvallisuussopimus on irtisanottu.
+Jos tämä sopimus irtisanotaan, päättyvät samalla kaikki sen liitteenä olevat sopimukset.
+Erityinen irtisanomisperuste ja sopimuksen purkaminen
+Tilaajalla on oikeus irtisanoa tämä sopimus ja kaikki tämän sopimuksen liitteenä olevat sopimukset, jos tilaaja käyttää oikeuttaan irtisanoa toimitusprojektisopimus. Tämän kohdan mukainen irtisanomisaika on vastaava, mitä noudatetaan toimitusprojektisopimuksen mukaisessa irtisanomisessa.
+Tilaajalla on oikeus irtisanoa sopimus välittömästi päättymään osittain tai kokonaisuudessaan, jos Toimittajaa [tai ryhmittymän jäsentä] koskee hankintalaissa tarkoitettu pakollinen tai harkinnanvarainen poissulkemisperuste, Euroopan unionin tai YK:n kohdistama pakote tai rajoite taikka viranomaisen tekemä varojen jäädyttämispäätös, vaikka peruste olisi syntynyt, pakote tai rajoite asetettu tai varojen jäädyttämispäätös tehty vasta sopimussuhteen alkamisen jälkeen.
+Sopijapuolella on oikeus irtisanoa pääsopimus välittömästi päättymään, jos toinen sopijapuoli:
+joutuu sellaisiin taloudellisiin vaikeuksiin, että on syytä olettaa sopimusvelvoitteiden täyttämisen vaarantuvan,
+ryhtyy toimenpiteeseen, joka voi vaikuttaa olennaisesti järjestelmän tai palvelun toimittamiseen ja tällä seikalla on sopimukselle tai sen toimivuudelle oleellinen merkitys ja sopijapuoli tämän tiesi tai hänen olisi tullut se tietää,
+ei kykene suorittamaan velvoitteitaan sovitun aikataulun puitteissa, ja tällä on olennaista vaikutusta toiseen sopijapuoleen tai sopijapuolella on perusteltu syy uskoa näin tai jos toinen sopijapuoli on muutoin toistuvasti viivästynyt suorituksessaan tai suoritus on ollut toistuvasti virheellinen muusta kuin sopimusrikkomuksen kohteena olevasta sopijapuolesta tai ylivoimaisesta esteestä johtuvasta syystä,
+rikkoo olennaisesti sopimusta, eikä korjaa rikkomustaan kolmenkymmenen (30) päivän kuluessa sitä koskevan kirjallisen huomautuksen lähettämisestä; tai
+tai sen johto- tai hallintotehtävissä toimii tai siihen suoraan tai epäsuorasti käyttää määräysvaltaa henkilö, joka on liiketoimintakiellossa.
+Maksujen vähäistä myöhästymistä ei pidetä olennaisena sopimusrikkomuksena.
+Sopijapuolilla on oikeus irtisanoa tämä sopimus päättymään yhdeksän (9) kuukauden irtisanomisajalla, jos hinnanmuutoksesta ei päästä yksimielisyyteen. Irtisanominen on tehtävä kirjallisesti ennen uusien hintojen aiottua voimaantuloa. Irtisanomisaikana noudatetaan hintoja, jotka olivat voimassa ennen hinnanmuutosehdotuksen tekemistä.
+Jos Tilaaja ei hyväksy Toimittajan sopimuksen luvun 6 (Toimittajan kokonaisvastuu ja alihankinnat) mukaisesti esittämää uutta alihankkijaa tai jos Tilaaja edellyttää Toimittajaa poistamaan tai vaihtamaan alihankkijan kohdan 6.3 perusteella, eikä Toimittaja yrityksistään huolimatta kykene löytämään tilalle alihankkijaa, jonka Tilaaja hyväksyy, sopijapuolilla on oikeus irtisanoa sopimus päättymään välittömästi siltä osin kuin Toimittaja ei edellä mainitun vuoksi pysty tuottamaan sopimuksen mukaisia palveluita.
+Tilaajalla on oikeus irtisanoa sopimus päättymään välittömästi kokonaan tai osittain, jos sopimukseen on tehty hankintalain 136 §:n 1 momentissa tarkoitettu olennainen muutos.
+Tilaajalla on oikeus irtisanoa sopimus päättymään välittömästi, jos sopimusta ei olisi voinut tehdä Toimittajan kanssa, koska Euroopan unionin tuomioistuin on Euroopan unionin toiminnasta tehdyn sopimuksen 258 artiklan mukaisessa menettelyssä todennut Tilaajan rikkoneen vakavasti perussopimusten ja hankintadirektiivien mukaisia velvoitteita.
+Mikäli tuomioistuin määrää tehottomuusseuraamuksen tai lyhentää sopimuskautta, Tilaajalla on oikeus irtisanoa sopimus noudattaen kahden (2) kuukauden pituista irtisanomisaikaa tai tätä lyhyempää tuomioistuimen määräämää irtisanomisaikaa.
+Jos tästä sopimuksesta, siihen tehdystä muutoksesta, sopimuksessa tarkoitetusta hankinnasta tai hankintaan johtaneesta menettelystä valitetaan markkinaoikeuteen tämän sopimuksen allekirjoittamisen jälkeen, Tilaajalla on oikeus irtisanoa sopimus päättymään kahden (2) kuukauden irtisanomisajalla.
+Sopimuksen irtisanominen on tehtävä ilmoittamalla siitä kirjallisesti toiselle sopijapuolelle.
+Turvallisuussopimus on voimassa niin kauan kuin Pääsopimus on voimassa, ellei sitä irtisanota. Tilaaja voi irtisanoa Turvallisuussopimuksen päättymään kolmen (3) kuukauden irtisanomisajalla ja toimittaja yhdeksän (9) kuukauden irtisanomisajalla kirjallisesta ilmoituksesta lukien. Irtisanominen ei poista velvollisuutta täyttää ennen irtisanomista syntyneitä velvoitteita ja noudattaa salassapitoa koskevia velvoitteita myös irtisanomisen jälkeen.
+Sopimuksen purkaminen
+Sopijapuolella on oikeus purkaa tämä sopimus liitteineen, mikäli toista sopijapuolta on kohdannut ylivoimainen este ja sopijapuoli on kykenemätön täyttämään sopimusvelvoitteitaan sen johdosta kahden (2) kuukauden ajan.
+Tilaajalla on oikeus purkaa tämä sopimus, mikäli jokin toimitusprojektin vaihe viivästyy Toimittajasta johtuvasta syystä yli kahdeksan (8) viikkoa. Tilaaja voi purkamisen sijaan vain periä luvun X (Viivästys) mukaista viivästyssakkoa ja Tilaaja voi päättää purkamisesta myös kahdeksan (8) viikon täyttymisen jälkeen.
+Sopimuksen purkautuessa sopijapuolet ovat velvollisia palauttamaan toiselta sopijapuolelta vastaanottamansa maksut ja muut suoritteet, ellei toisin sovita siinä tapauksessa, että Tilaaja pystyy hyödyntämään ja haluaa hyödyntää jotakin Toimittajan toimittamaa osaa toimitusprojektista tai palveluista, jolloin maksuja ei tältä osin palauteta.
+Tämän sopimuksen päättymisestä huolimatta sen kohdat, jotka sisältävät luonteeltaan pysyviä velvoitteita, jäävät voimaan. Tällaisia ovat ainakin sopimuksen luvut (Oikeudet), (Kolmannen osapuolen oikeuksien loukkaukset), (Vahingonkorvaus), (Toimittajan avustamisvelvollisuus sopimuksen päättyessä) ja (Sovellettava laki ja erimielisyyksien ratkaiseminen).
+Toimittajan avustamisvelvollisuus SOPIMUKSEN PÄÄTTYESSÄ
+Toimittaja toimittaa Tilaajalle osana avustamisvelvollisuutta vähintään sopimuksissa mainitut avustamisvelvollisuuden piiriin kuuluvat tiedot ja dokumentaation.
+Toimittaja palauttaa sopimuksen tai siirtoavun päättyessä Tilaajalle Tilaajan luovuttaman aineiston sekä hävittää omilta taltioiltaan Tilaajan tietoaineiston, ellei muuta ole sovittu.
+Toimittaja on velvollinen edesauttamaan palvelujen siirtoa ja tarjoamaan Tilaajan käyttöön palvelujen siirtoon tarvittavan työvoiman, osaamisen, tiedot ja dokumentaation. Siirtoapu tulee toteuttaa niin, ettei Tilaajan toimintaan tule keskeytyksiä siirrosta johtuen.
+Toimittajan on tarjottava Tilaajalle asiantuntevat resurssit siirtoavun toteuttamiseen. Toimittajan tulee huolehtia siitä, että myös sen alihankkijat osallistuvat tarvittaessa siirtoavun antamiseen. Toimittajan on toimittava lojaalisti yhteistyössä myös Tilaajan uuden palveluntuottajan kanssa ja annettava tälle palvelujen siirtoon tarvittavat tiedot ja dokumentaatio.
+Toimittaja veloittaa siirtoavusta tämän sopimuksen mukaiseen asiantuntijatyön hintoihin perustuen. Siirtoapuna laskutettava työ ei saa sisältää mitään sovittuun palvelutuotantoon tai Palvelun hallintaan ja johtamiseen kuuluvia tehtäviä.
+Toimittaja laatii Tilaajan pyynnöstä vastuunsiirtoprojektin siirtosuunnitelman, jonka tulee sisältää vähintään toimenpiteet, jotka ovat tarpeen palvelujen siirtämiseksi; mahdolliset lisäpalvelut, jotka ovat tarpeen siirtymisen onnistumiseksi sekä siirtymisen aikataulut, siirtoprojektin vastuunjaot, tehtäväluettelot, resurssitarpeet ja niiden allokointi.
+Toimittaja vastaa omalta osaltaan siitä, että palvelun sisältämä Tilaajan tietoaineisto voidaan siirtää Tilaajalle tai kolmannelle osapuolelle aiheuttamatta häiriöitä tai keskeytyksiä Tilaajan toiminnalle tai tietojen katoamista tai muuntumista. Toimittaja sitoutuu palvelun siirrossa yhteistyöhön muiden Tilaajalle ICT-palveluja ja -teknologiaa toimittavien palveluntuottajien kanssa.
+Toimittajan on tämän sopimuksen koko voimassaoloajan tallennettava ja käsiteltävä Tilaajan tietoja ja aineistoja sellaisessa muodossa ja sellaisella tavalla, että se pystyy viipymättä täyttämään velvollisuutensa Tilaajan pyynnöstä palauttaa tiedot Tilaajalle, siirtämään Tilaajan aineistoja kolmannelle osapuolelle tai tuhoamaan ne. Toimittajan on varmistettava tietojärjestelmiensä yhteensopivuus Tilaajan ja muiden toimittajien tavanomaisten tietojärjestelmien kanssa siten, että Tilaajan aineistojen palauttaminen Tilaajalle tai siirtäminen kolmannelle taholle on mahdollista ja turvallista ja että tuhoaminen Tilaajan pyynnöstä on mahdollista.
+Toimittajan tulee laatia ja toimittaa Tilaajalle hyväksyntää varten palvelujen siirtosuunnitelma viimeistään kolmenkymmenen (30) työpäivän kuluessa Tilaajan kirjallisesta pyynnöstä. Siirtosuunnitelman tulee sisältää yksityiskohtainen kuvaus sellaisista sopijapuolten toimenpiteistä, menetelmistä ja menettelytavoista, jotka ovat tarpeellisia menestykselliseen, häiriöttömään ja sujuvaan Palvelujen siirtoon.
+Toimittajalla on oikeus veloittaa siirtosuunnitelman laatimisesta sovitun ja voimassa olevan asiantuntijatyön hinnaston mukaisesti.
+Tässä luvussa 23 (Toimittajan avustamisvelvollisuus sopimuksen päättyessä) kuvattu avustamisvelvollisuus alkaa tämän sopimuksen päättyessä ja on voimassa korkeintaan kaksitoista (12) kuukautta Sopimuksen päättymisestä.
+Pakotteet
+Toimittaja vakuuttaa,
+että sopimukseen perustuvia taloudellisia suorituksia ei aseteta suoraan tai välillisesti Suomen, Euroopan unionin tai Yhdistyneiden kansakuntien asettamien pakotteiden, rajoitteiden tai jäädyttämispäätösten kohteena olevan henkilön tai häneen yhteydessä olevan tahon saataville,
+että Rajoittavista toimenpiteistä Ukrainan tilannetta epävakauttavien Venäjän toimien johdosta annetussa asetuksessa (EU) 833/2014 ja erityisesti sen 5k artiklassa tarkoitetut rajoitteet eivät koske Toimittajaa taikka asetuksessa tarkoitettuja tahoja,
+että tämän sopimuksen mukaisiin toimituksiin ei kohdistu pakotteita tai rajoitteita.
+Toimittaja sitoutuu ilmoittamaan välittömästi Tilaajalle, jos edellä tarkoitettuihin tahoihin tai toimituksiin kohdistuu EU:n, YK:n tai Suomen viranomaisen asettama pakote, rajoite taikka varojen jäädyttämispäätös.
+Pakotteiden ja rajoitteiden soveltamisessa noudatetaan EU:n ja Suomen viranomaisten antamia, kulloinkin voimassa olevia määräyksiä ja ohjeita.
+Valmisohjelmistot ja niiden ehdot
+Valmisohjelmistot
+Siltä osin kuin järjestelmä tai palvelu edellyttää Toimittajan toimittamia valmisohjelmistoja, Toimittaja on hyväksyttänyt ne etukäteen Tilaajalla ja vastaa kustannuksellaan siitä, että sen toimituksessa käyttämät valmisohjelmistot ja muut ohjelmistokomponentit ovat keskenään yhteensopivia ja toimivat yhdessä muodostaen Tilaajalle toimivan kokonaisuuden.
+Toimittaja tekee järjestelmän tai palvelun vaatimat tilaajakohtaiset sovitukset mahdollisiin valmisohjelmistoihin siten, etteivät ne vaikuta valmisohjelmistotoimittajan antamaan tukipalveluun tai takuuseen.
+Toimittaja vastaa siitä, että Tilaajalla on aina ajantasainen tieto Toimittajalta hankittujen valmisohjelmistojen ehdoista siten, ettei Tilaaja tiedostamattaan ajaudu tilanteeseen, joka rikkoo kyseisiä ehtoja. Toimittaja kantaa lisäksi vastuun siitä, ettei se omalla toiminnallaan saata Tilaajaa tai järjestelmää tilaan, joka rikkoo edellä mainittuja ehtoja.
+Toimittaja vastaa siitä, että sopimuksen kohteena oleville valmisohjelmistoille on saatavissa tukea ja ylläpitoa sekä versio- ja tietoturvapäivityksiä vähintään neljän (4) vuoden ajan toimituspäivästä. Toimittajan tulee ilmoittaa valmisohjelmiston ohjelmistoversion tuen päättymisestä Tilaajalle välittömästi siitä tiedon saatuaan kirjallisesti vähintään kuusi (6) kuukautta etukäteen. Toimittaja toimittaa versiopäivitykset kustannuksitta Tilaajan saataville siten, että ne ovat Tilaajan käytössä ja hyödynnettävissä viipymättä versiopäivityksen julkaisusta. Toimittaja takaa ohjelmistoversion tuen ja ylläpidon vähintään 24 kuukauden ajan kyseisen ohjelmistoversion saataville tulosta Suomessa.
+Kolmannen osapuolen valmisohjelmistoihin sovelletaan yksinomaan kolmannen osapuolen valmisohjelmistojen omia ehtoja.
+Tilaaja katselmoi ehdotetut valmisohjelmistot ennen niiden hyväksymistä osaksi järjestelmää tai palvelua. Merkittävän valmisohjelmiston sisällyttäminen järjestelmään ilman Tilaajan hyväksyntää muodostaa Tilaajalle perusteen purkaa sopimus.
+Tilaajalla on hankintapäätöksen tekemisen jälkeen oikeus katselmoida valmisohjelmiston ehdot. Mikäli ehdot muodostaisivat olennaisen sopimusmuutoksen tai muuttaisivat olennaisesti sopimuksen luonnetta, on Tilaajalla oikeus olla allekirjoittamatta sopimusta tai vaihtoehtoisesti purkaa sopimus. Mikäli ehdot muuttuvat sopimuskauden aikana palvelun käynnistyttyä, on Tilaajalla oikeus irtisanoa sopimus tämän sopimuksen kohdan 21.7 mukaisesti.
+Valmisohjelmistojen lisenssit
+Toimittaja on ilmoittanut kaikki ne lisenssit, joita tarvitaan järjestelmän ja siihen liittyvien palveluiden toimittamiseksi, käyttöönottamiseksi, käyttämiseksi ja ylläpitämiseksi sopimuksen mukaisesti. Toimittajalla ei ole oikeutta veloittaa mitään sellaisia lisenssikustannuksia, jotka eivät sisälly liitteen X (Hinnat) mukaisiin hintoihin.
+Kartelliehto
+Mikäli Toimittajan todetaan lainvoimaisella päätöksellä syyllistyneen elinkeinonharjoittajien väliseen kiellettyyn kilpailunrajoitukseen (kartelliin) tämän sopimuksen kohteena olevaa palvelua koskevilla markkinoilla, Toimittaja on velvollinen suorittamaan Tilaajalle sopimussakkona 20 % suoritetun ja maksetun palvelun kokonaisarvosta korkoineen vaatimuspäivästä lukien ja korvaamaan sopimussakon määrän ylittävät Tilaajalle aiheutuneet vahingot. Näiden lisäksi Toimittajan on korvattava Tilaajalle asian selvittämisestä aiheutuneet kustannukset ja oikeudenkäyntikulut korkoineen.
+Mikäli Toimittaja vapautetaan kokonaan kilpailunrajoituksesta määrätystä seuraamusmaksusta kilpailulainsäädännön perusteella, Toimittaja vapautuu tämän luvun mukaisen sopimussakon maksamisesta.
+Tämän luvun mukainen kartelliehto on voimassa myös tämän sopimuksen päättymisen jälkeen.
+Järjestelmän jatkokehitys
+Järjestelmää voidaan kehittää sopimuskaudella Tilaajan tarpeisiin siten kuin tässä luvussa ja erikseen sovitaan.
+Tilaaja määrittelee kehitystyön sisällön ja halutun lopputuloksen. Jatkokehitys voi sisältää kehitystyötä (asiantuntijapalveluja) tai hankinnan kohteen edellyttämiä lisenssihankintoja, ellei lisenssihankintoja voida tehdä Valtorin välityksellä. Toimittaja voi omaan osaamiseensa perustuen tehdä ehdotuksia määritellyn asiantuntijapalvelun sisältöön ja toteuttamistapaan.
+Tilauksiin ja tilausprosessiin liittyvät vaatimukset on kuvattu liitteessä X (palvelunhallintamalli). Kehitystyötä ja muuta asiantuntijapalvelua koskevat erityisehdot ovat tämän sopimuksen liitteenä X (Ehtoja asiantuntijapalveluille). Tilaaja voi edellyttää kehitystyön projektoimista sekä toimitusprojektisopimuksen ehtojen noudattamista kehitystyössä soveltuvin osin. Tilaajan halutessa voidaan käyttää Tilaajan määrittämiä ketterän kehittämisen ehtoja.
+Jatkuva palvelu
+Toimittaja noudattaa tämän sopimuksen liitteenä olevaa palvelunhallintamallia, palveluita koskevia vaatimuksia sekä niitä täydentävää Toimittajan palvelukuvausta.
+Toimittajan tulee ennen jatkuvan palvelun käynnistämistä huolehtia kaikista sellaisista käynnistystoimenpiteistä, että jatkuvaa palvelua voidaan tuottaa ilman häiriöitä ja viivästyksiä.
+Ellei toisin sovita, jatkuva palvelu käynnistyy, kun toimitus tai sen osatoimitus on läpäissyt Tilaajan hyväksymistestauksen, toimitus tai sen osa on otettu tuotantokäyttöön ja luovutettu jatkuvaan palveluun.
+Mikäli hyväksytty toimituksen osa otetaan tuotantokäyttöön ja luovutetaan jatkuvaan palveluun ennen koko toimituksen hyväksymistä, Toimittaja käynnistää jatkuvan palvelun kyseiselle toimituksen osalle. Edellä mainituissa tilanteissa Toimittaja on oikeutettu aloittamaan jatkuvan palvelun veloitukset toimituksen osan osalta sopimuksen liitteenä olevan hinnaston mukaisesti. Jatkuvan palvelun käynnistäminen sisältyy jatkuvan palvelun kuukausihintaan eikä Toimittaja veloita käynnistämisestä erikseen.
+Jatkuva palvelu ja sen kuukausihinta sisältää sovitun palvelutason mukaisen jatkuvan palvelun sekä vähintään seuraavat tehtävät:
+Järjestelmän ylläpito- ja huoltotoimenpiteiden suunnittelu ja toteutus siten, että järjestelmän jatkuva ja sujuva käyttö on mahdollista;
+Järjestelmävirheiden ja ongelmien selvitystyö palvelunhallintamallin ja palvelutasovaatimusten mukaisesti sekä niiden korjaaminen tai vaihtoehtoisen tavan esittäminen toiminnan turvaamiseksi jatkuvan palvelun prosessien mukaisesti;
+Tilaajan nimeämien yhteyshenkilöiden informointi ongelmanratkaisun etenemisestä palvelutasovaatimusten mukaisesti;
+Korjausten testaus ja Tilaajan tukeminen testausten hyväksymisessä;
+Virheiden korjaamiseen liittyvien asennus-, päivityspakettien ja asennusohjeiden laatiminen viipymättä;
+Järjestelmädokumentaation päivittäminen tehtyjen muutosten osalta ja teknisen dokumentaation ajantasaisuudesta huolehtiminen;
+Järjestelmäympäristöön liittyvien muutos- ja kehitysehdotusten laadinta;
+Valmisohjelmistojen pääversioiden (major), pienjakeluiden/minor-versioiden, tietoturvapäivitysten ja ohjelmistokorjausten (Hot-fix) toimitukset (mukaan lukien toimituksiin liittyvät työt) valmisohjelmistotuotteen valmistajan tukemina versioina, mikäli sellainen on saatavilla. Tämän kohdan mukaiset tuotteet ja palvelut sisältyvät sovellusylläpidon hintaan siltä osin kuin ne eivät sisälly valmisohjelmiston ylläpitomaksuun;
+Edellä mainitun kohdan mukaisten tuotteiden ja niiden päivitysten (pois lukien palvelun tuottamisen aikaiset Major-versiot) asennukset ja asennukseen liittyvät työt kaikkien hankinnan kohteen kuvauksessa sovittujen ympäristöjen osalta ja/tai asennus- ja päivityspaketin asennuksesta vastaavan käyttöpalvelutoimittajan tukemiseen liittyvät työt sekä asennus- ja päivityspakettien testaamiseen sisältyvät työt;
+Järjestelmän tietoturvan jatkuva varmistaminen ja ylläpito siltä osin kuin se on sovittu Toimittajan vastuulle;
+Palvelun tuottamiseen tarvittavan osaamisen ylläpito ja tarvittavat varahenkilöjärjestelyt;
+Toimittajan edustajien osallistuminen hallintamallin mukaisiin kokouksiin.
+Toimittajalla on velvollisuus tarkastaa järjestelmän osaksi otettavien, Tilaajan käyttämien kolmansien osapuolten palvelujen tulokset. Tässä tarkoituksessa Toimittaja suorittaa arvioinnin siitä, että tulokset ovat järjestelmää koskevien vaatimusten mukaisia ja että ne voidaan ottaa Toimittajan tuottamien jatkuvien palveluiden piiriin ilman, että niillä olisi haitallista vaikutusta järjestelmän tekniseen toimintaan, käytettävyyteen tai palvelutasoihin. Toimittaja ilmoittaa kolmansien osapuolten tulosten hyväksynnästä osaksi Toimittajan jatkuvan palvelun vastuuta Tilaajalle kirjallisesti. Toimittajan on annettava tämän kohdan mukainen hyväksyntä, ellei sillä ole perusteltua syytä kieltäytyä sen antamisesta. Jos Toimittaja ei hyväksy kolmannen osapuolen työn tuloksia osaksi Toimittajan jatkuvaa palvelua, Toimittajan on ilmoitettava kieltäytymisen syy ja perusteltava, miksi työn tulokset eivät ole hyväksyttävissä. Menettelyä jatketaan, kunnes kolmansien suorittamat työn tulokset on hyväksytty. Tämän kohdan mukaiset tehtävät Toimittaja suorittaa Tilaajan toimeksiannosta sopimuksen liitteenä olevan hinnaston henkilötyöhintoihin perustuen.
+Toimittaja vastaa toimittajan tekemien tilaajan sovellusten toimivuudesta kohdassa 27.5 tarkoitettujen versiopäivitysten tekemisen jälkeen. Selvyyden vuoksi todetaan, ettei versiomuutoksista saa aiheutua Tilaajalle lisäkustannuksia muuta kuin tilaajan sovellukseen tehtyjen räätälöintien tai konfiguraatioiden versiomuutoksesta johtuvien päivitystarpeiden vuoksi. Jos tilaajan sovellusta täytyy päivittää versiomuutoksen vuoksi, Tilaaja sitoutuu korvaamaan siitä aiheutuneet henkilötyökustannukset toteuman mukaan.
+Toimittaja takaa ohjelmistoversion tuen ja ylläpidon vähintään 36 kuukauden ajan kyseisen ohjelmistoversion saataville tulosta Suomessa. Toimittajan tulee ilmoittaa tuen päättymisestä kirjallisesti vähintään yhdeksän (9) kuukautta etukäteen.
+Toimittaja järjestää Tilaajan erikseen nimeämille henkilöille mahdollisuuden tutustua uuden version sisältöön sekä tarvittaessa koulutusta uusista toiminnallisuuksista hyvissä ajoin ennen version käyttöönottoa. Toimittaja toimittaa Tilaajalle uutta versiota koskevat ohjeet ilman eri veloitusta.
+Tukipalvelun sisältö
+Tukipalvelun palveluaika ja palvelutaso on kuvattu liitteinä olevissa palvelutasovaatimuksissa. Toimittaja tuottaa tukipalvelun suomen kielellä.
+Toimittaja tuottaa tilaajan käyttöön ilman eri veloitusta näkymän Toimittajan tiketöintijärjestelmään tai vastaavaan. Toimittaja tallentaa tukipyyntöjen ratkaisukuvaukset ratkaisutietokantaansa. Lisäksi Toimittaja ylläpitää usein kysyttyjen kysymysten luetteloa tukipyynnöistä ja niiden ratkaisuista, sekä toimittaa luettelon säännöllisesti tilaajalle (erityisesti tilaajan pääkäyttäjille).
+Toimittaja vastaa tukipalvelussa valmisohjelmistotuotteiden ylläpitoon liittyvästä yhteydenpidosta teknologiatoimittajaan, tarkemmasta vikaselvittelystä kyseisen teknologiatoimittajan tukipalvelun kanssa ja tuotteiden elinkaarikartan ylläpidosta yhdessä Valtorin kanssa. Vikaselvitys kattaa tuotannonaikaisen vikatilanteiden selvitystyön.
+Palvelujen laatutaso ja vastuu virheistä
+Toimittaja vastaa siitä, että tämän sopimuksen mukaiset palvelut suoritetaan palvelua koskevien vaatimusten mukaisesti, huolellisesti ja tehtävien edellyttämällä ammattitaidolla.
+Jos Toimittaja ei ole saavuttanut kaikissa palveluissa sovittua palvelutasoa tai palvelutavoitetta, Toimittajan tulee esittää, mitä toimenpiteitä on jo tehty ja mitä tullaan tekemään havaittujen ongelmien ratkaisemiseksi.
+Mikäli tämän sopimuksen mukainen palvelu tai palvelun lopputulos ei vastaa vaatimuksia, yhteisesti sovittuja ja hyväksyttyjä kirjallisia määrityksiä tai palvelukuvauksia, on palvelussa tai sen lopputuloksessa virhe.
+Jos palvelussa tai sen lopputuloksessa havaitaan Toimittajan vastuulla oleva virhe, Toimittajalla on velvollisuus kustannuksellaan korjata virhe viipymättä sekä saattaa palvelu vaatimusten ja palvelukuvausten mukaiseksi.
+Mikäli palvelutaso ei ole sovitun mukainen, tilaajalla on oikeus vaatia sovittuja palvelutasosanktioita. Sanktioiden hyvittäminen tapahtuu vähentämällä palvelutasosanktiot kuukausittain jälkikäteen seuraavan kuukauden palveluveloituksista.
+Palvelutasosanktiot on kuvattu liitteenä olevissa palvelutasovaatimuksissa.
+Sovellettava laki ja erimielisyyksien ratkaiseminen
+Tähän sopimukseen sovelletaan Suomen lakia, ei kuitenkaan sen kansainvälistä lainvalintaa koskevia säännöksiä eikä YK:n kansainvälistä kauppalakia (CISG).
+Sopimuksen tulkinnasta tai muista seikoista mahdollisesti johtuvat erimielisyydet pyritään selvittämään sopijapuolten välisin neuvotteluin. Jos erimielisyyksiä ei saada sopijapuolten välillä sovituiksi, ratkaistaan asia ensimmäisenä asteena Helsingin käräjäoikeudessa.
+Sopimusasiakirjat ja niiden soveltamisjärjestys
+Tämä sopimus muodostuu tästä pääsopimusasiakirjasta ja seuraavista liitteistä:
+LIITELUETTELO ON ALUSTAVA JA PÄIVITTYY VIELÄ
+Turvallisuus- ja tietoturvallisuussopimus liitteineen
+Tietosuojan pakolliset ehdot
+Turvallisuussopimuksen yhteyshenkilöt
+VN Asia -hankkeen turvallisuusohje
+Salassa pidettävän kansallisen tietoaineiston käsittelyohje
+Vaitiolositoumusmalli
+JYSE/JIT Henkilötietojen käsittelyn ehdot
+Hankinnan kohteen kuvaus liitteineen
+Valmisratkaisuna hankittavat komponentit
+Räätälöidyt komponentit
+Ympäristökonsepti
+Erillissovelluksien huomioiminen
+Käsitteet ja sanasto
+Vaatimusmäärittely liitteineen
+Palveluiden kuvaus
+Käyttökonsepti
+Käyttötapaukset
+Valtioneuvoston prosessit
+Toiminnalliset vaatimukset
+Ei-toiminnalliset vaatimukset
+Toimitusprojektisopimus liitteineen
+Avainhenkilöt
+Proof of Concept
+Vaatimukset Proof of Concept
+Säädösvalmisteluprosessi (POC) liitteineen
+Projektisuunnitelma
+Projektinaikainen Raci-matriisi
+Määrittely ja tekninen suunnittelu -suunnitelma
+Riskianalyysi
+Laadunvarmistussuunnitelma
+Testaussuunnitelma
+Käyttöönottosuunnitelma
+Koulutussuunnitelma
+Palvelunhallintamalli
+Palvelutasoehdot
+Ehtoja asiantuntijapalveluille
+Ylläpito- ja tukipalvelun palvelukuvaus
+Yhteistyöryhmien kokoonpanot ja yhteyshenkilöt
+Hinnat
+Projektisuunnitelman perusteet
+PoC-vaiheen kuvaus
+PoC-käyttötapaukset
+Rakentamis- ja käyttöönottovaiheen suunnitteluvaiheen kuvaus
+Projektin aikataulukuvaus
+Projektin organisoitumis- ja hallintomalli
+Toimittajan osaamisvaatimukset
+Koulutuskonsepti
+Käyttöönoton edellytysten luomisen konsepti
+Ratkaisu- ja arkkitehtuurikuvaus liitteineen
+Laadunhallintamenettelyn kuvaus
+Alihankkijat
+Yhteyshenkilöt
+Mikäli sopimusasiakirjan ja liitteiden välillä on ristiriitaa, ratkaisee sopimusasiakirjan sanamuoto. Mikäli liitteiden välillä on ristiriitaa, noudatetaan soveltamisjärjestyksenä niiden numerojärjestystä siten, että ristiriitatilanteessa sovelletaan sitä liitettä, jonka järjestysnumero on pienempi.
+Sopimuksen allekirjoittaminen
+Tämä sopimus on allekirjoitettu sähköisesti.
+Helsingissä _____/_____2026		Helsingissä _____/_____2026
+Valtioneuvoston kanslia		XXX Oy
