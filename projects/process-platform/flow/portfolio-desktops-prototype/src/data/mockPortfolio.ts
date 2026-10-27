@@ -1,0 +1,127 @@
+import type { PhaseMetric, PortfolioCase } from '../types/portfolio'
+
+export const processModels = [
+  'Permit application',
+  'Deficiency letter',
+  'Environmental assessment',
+] as const
+
+export const phases = [
+  'Registration',
+  'Processing',
+  'Consultation',
+  'Decision',
+  'Appeal',
+  'Closed',
+] as const
+
+export const portfolioCases: PortfolioCase[] = [
+  {
+    id: '2026-0142',
+    title: 'Wind farm expansion — Fosen Nord',
+    processModel: 'Permit application',
+    phase: 'Processing',
+    assignee: 'Kari Nordmann',
+    deadline: '2026-06-28',
+    daysInPhase: 12,
+    urgency: 'due-soon',
+    followUp: true,
+    municipality: 'Åfjord',
+  },
+  {
+    id: '2026-0098',
+    title: 'Hydro intake modification',
+    processModel: 'Permit application',
+    phase: 'Consultation',
+    assignee: 'Erik Hansen',
+    deadline: '2026-06-18',
+    daysInPhase: 21,
+    urgency: 'overdue',
+    followUp: true,
+    municipality: 'Orkland',
+  },
+  {
+    id: '2026-0201',
+    title: 'Minor deficiency — access road',
+    processModel: 'Deficiency letter',
+    phase: 'Decision',
+    assignee: 'Kari Nordmann',
+    deadline: '2026-07-05',
+    daysInPhase: 4,
+    urgency: 'on-track',
+    municipality: 'Rindal',
+  },
+  {
+    id: '2026-0115',
+    title: 'Grid connection permit',
+    processModel: 'Permit application',
+    phase: 'Registration',
+    assignee: 'Unassigned',
+    deadline: '2026-06-30',
+    daysInPhase: 2,
+    urgency: 'on-track',
+    municipality: 'Snillfjord',
+  },
+  {
+    id: '2026-0077',
+    title: 'Appeal — turbine height variance',
+    processModel: 'Permit application',
+    phase: 'Appeal',
+    assignee: 'Erik Hansen',
+    deadline: '2026-06-20',
+    daysInPhase: 8,
+    urgency: 'overdue',
+    followUp: true,
+    municipality: 'Åfjord',
+  },
+  {
+    id: '2026-0188',
+    title: 'Environmental screening — coastal route',
+    processModel: 'Environmental assessment',
+    phase: 'Processing',
+    assignee: 'Ingrid Solberg',
+    deadline: '2026-07-12',
+    daysInPhase: 6,
+    urgency: 'on-track',
+    municipality: 'Hitra',
+  },
+  {
+    id: '2026-0054',
+    title: 'Deficiency response — noise study',
+    processModel: 'Deficiency letter',
+    phase: 'Processing',
+    assignee: 'Ingrid Solberg',
+    deadline: '2026-06-22',
+    daysInPhase: 15,
+    urgency: 'overdue',
+    municipality: 'Orkland',
+  },
+  {
+    id: '2026-0220',
+    title: 'Permit renewal — existing site',
+    processModel: 'Permit application',
+    phase: 'Decision',
+    assignee: 'Kari Nordmann',
+    deadline: '2026-07-01',
+    daysInPhase: 9,
+    urgency: 'due-soon',
+    municipality: 'Rindal',
+  },
+]
+
+export const phaseMetrics: PhaseMetric[] = [
+  { phase: 'Registration', openCases: 14, overdue: 1, avgDaysInPhase: 3 },
+  { phase: 'Processing', openCases: 38, overdue: 6, avgDaysInPhase: 11 },
+  { phase: 'Consultation', openCases: 12, overdue: 3, avgDaysInPhase: 18 },
+  { phase: 'Decision', openCases: 9, overdue: 2, avgDaysInPhase: 7 },
+  { phase: 'Appeal', openCases: 4, overdue: 2, avgDaysInPhase: 14 },
+  { phase: 'Closed', openCases: 156, overdue: 0, avgDaysInPhase: 0 },
+]
+
+export const reportingSummary = {
+  totalOpen: portfolioCases.filter((c) => c.phase !== 'Closed').length,
+  overdue: portfolioCases.filter((c) => c.urgency === 'overdue').length,
+  dueThisWeek: portfolioCases.filter((c) => c.urgency === 'due-soon').length,
+  followUps: portfolioCases.filter((c) => c.followUp).length,
+  avgDaysToDecision: 42,
+}

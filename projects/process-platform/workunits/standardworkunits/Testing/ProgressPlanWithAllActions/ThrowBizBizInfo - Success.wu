@@ -1,0 +1,24 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="ThrowBizBizInfoSuccess{C4A9F650-92EB-42E4-9D69-EA7401E3D644}"
+  visibility="public"
+  displayName="ThrowBizBizInfo - Success">
+  <description>ThrowBizBizInfo - Success</description>
+  <categories>
+	  <category>WaitTask Action Closed</category>
+	  <category>WaitTask Action Complete</category>
+	  <category>WaitTask Action Expired</category>
+    <category>Test</category>
+
+  </categories>
+  <executable file="ThrowBizBizInfo.xaml">
+    <wf startOption="invoker">
+      <arguments>
+		  <argument name="ProgressPlanId" type="string">Dummy</argument>
+		  <argument name="CorrelationToken" type="string">Dummy</argument>
+		  <argument name="ServerActionId" type="string">Dummy</argument>
+		  <argument name="WaitTaskId" type="string">Dummy</argument>
+		  <argument name="Message" type="string">The execution was successfully, ignore that the activity does not change status. Refresh page with F5</argument>
+	  </arguments>
+    </wf>
+  </executable>
+</workUnit>

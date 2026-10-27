@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="D1139080-80F0-4C5B-B77D-365D2FE5EF9B"
+    displayName="[LOCALIZED(D1139080-80F0-4C5B-B77D-365D2FE5EF9B,*Executes passive and active time calculations)]">
+  <description>[LOCALIZED(D1139080-80F0-4C5B-B77D-365D2FE5EF9B,*Executes passive and active time calculations)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.ProcessEngine.Runtime.PassiveActiveCalculations, SI.Biz.Core.ProcessEngine.Runtime">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Hourly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

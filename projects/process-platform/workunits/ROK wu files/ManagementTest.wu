@@ -1,0 +1,9 @@
+<workUnit id="6D9EDE32-85BB-4387-BE94-3724F572074D"
+          displayName="Management testing"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>...</description>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Management.Test.Execute"/>
+  </executable>
+</workUnit>

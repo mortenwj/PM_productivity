@@ -1,0 +1,14 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="0a8edb79-ee78-4d99-9f2f-7f651dc5ec25"
+    displayName="[LOCALIZED(30f83dc0-bd06-4aca-b369-8fd4f7c41e46,*Update closed cases with a new status)]">
+  <description>
+    [LOCALIZED(06ab498d-dee3-428f-a192-df3a60f42033,*Update closed cases with a new status given in Setting: 'New status code to set on closed cases'.)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.DelayCaseStatusJob, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none" category="AnyServer"/>
+</workUnit>

@@ -1,0 +1,151 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Reciept_to_applicant"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="CaseId" Type="InArgument(x:String)" />
+    <x:Property Name="CaseContactRoleId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentArchiveId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTemplateId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentCategoryId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentContactRoleId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTitle" Type="InArgument(x:String)" />
+    <x:Property Name="DispatchChannelId" Type="InArgument(x:String)" />
+    <x:Property Name="ServerActionId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>Workflow1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Linq.Provider</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="_result" />
+      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_caseContacts" />
+      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="_docId" />
+      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+    </Sequence.Variables>
+    <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_3" Message="[&quot;&gt;&gt; SendRecieptToCaseApplicant process started for case &quot; + CaseId]" />
+    <sbcpa:ContextBinder DisplayName="ContextBinder" sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+      <sbcpa:ContextBinder.Parameters>
+        <Assign DisplayName="Assign _case" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(CaseId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="not _case is Nothing" Eval="[Not _case Is Nothing]" Exception="[New BizErrorException(&quot;[LOCALIZED(BBCACCEA-31BB-44A9-9A4C-AB8C0DDA1030,Case with id {0} not found)]&quot;, CaseId)]" sap2010:WorkflowViewState.IdRef="Assert_1" />
+        <Assign DisplayName="Assign _caseContacts" sap2010:WorkflowViewState.IdRef="Assign_4">
+          <Assign.To>
+            <OutArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_caseContacts]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_case.GetContactInstances(CaseContactRoleId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="_caseContacts.Count = 1" Eval="[_caseContacts.Count = 1]" Exception="[New BizErrorException(&quot;[LOCALIZED(ADDACCEA-31BB-44A9-9A4C-AB8C0DDA1030,Missing exactly one contact with role {0})]&quot;, CaseContactRoleId)]" sap2010:WorkflowViewState.IdRef="Assert_2" />
+        <ForEach x:TypeArguments="sbcps:CaseContact" DisplayName="ForEach&lt;CaseContact&gt;" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[_caseContacts]">
+          <ActivityAction x:TypeArguments="sbcps:CaseContact">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="sbcps:CaseContact" Name="item" />
+            </ActivityAction.Argument>
+            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sbcpa:CreateOutboundDocument BatchItems="{x:Null}" DocumentFileComment="{x:Null}" EntityItems="{x:Null}" CaseId="[_case.Id.ToString()]" DocumentArchiveId="[DocumentArchiveId]" DocumentCategoryId="[DocumentCategoryId]" DocumentFileTemplateId="[DocumentTemplateId]" sap2010:WorkflowViewState.IdRef="CreateOutboundDocument_1" Recipient="[New ActivityContactInfo() With&#xA;{&#xA;    .ContactId = item.ContactId,&#xA;    .ContactpersonId = item.ContactPersonId,&#xA;    .Address = item.Address,&#xA;    .Name = item.Name,&#xA;    .ZipCode = item.ZipCode,&#xA;    .ZipPlace = item.ZipPlace,&#xA;    .RoleId = Int32.Parse(DocumentContactRoleId)&#xA;}]" RelatedServerActionId="[ServerActionId]" Result="[_docId]" Title="[DocumentTitle]" />
+              <Assign DisplayName="Assign _dispatchInfo" sap2010:WorkflowViewState.IdRef="Assign_5">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="sbcps:DocumentDispatchInfo">[_dispatchInfo]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="sbcps:DocumentDispatchInfo" xml:space="preserve">[New DocumentDispatchInfo() With
+{
+    .dispatchChannelId = If(DispatchChannelId Is Nothing, Nothing, Int32.Parse(DispatchChannelId)),
+    .DocumentId = Int32.Parse(_docId)
+}]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Assign DisplayName="Assign _dispatchResult" sap2010:WorkflowViewState.IdRef="Assign_6">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Boolean">[_dispatchResult]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Boolean">[DocumentHandler.DispatchDocument(_dispatchInfo)]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_2" Message="[&quot;Document &quot; + _docId + If(_dispatchResult, &quot; dispatched.&quot;, &quot;failed to dispatch&quot;)]" />
+            </Sequence>
+          </ActivityAction>
+        </ForEach>
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d2dDOlwzNjBcMzYwIFByb2dyYW0gRmlsZXNcd29ya3VuaXRzXFN5c3RlbVxQcm9jZXNzZXNcQ2FzZVxQcm9ncmVzc1BsYW4gU3VwcG9ydFxSZWNpZXB0IHRvIGFwcGxpY2FudC54YW1sJDgDeA4CAQE9ND0/AgECQQVBpQECAS9CBXYbAgEDQUxBogECATBECUsSAgErTAlMiwICAShNCVQSAgElVQlVqwICASJWCXQTAgEESTZJeQIBLkY3Rj4CASxMP0xXAgEqTGJM3QECASlSR1J1AgEnT0hPVwIBJlVCVV0CASRVaFX9AQIBI1aUAValAQIBIVsNchgCAQVcD1zsBQIBEl0PaBgCAQ5pD3AYAgEKcQ9xywECAQZcgQJclwICAR9cgAFclwECAR5cqgFcvwECARxc3QJclgUCARtcxwVc0QUCARlc2AVc6QUCARdcrQVcvwUCARVc0wFc6QECARNfTV9cAgEPbjtubAIBDWs8a00CAQtxVnHIAQIBBw==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="TraceLine_3" sap:VirtualizedContainerService.HintSize="308,22" />
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="294,59" />
+      <sap2010:ViewStateData Id="Assert_1" sap:VirtualizedContainerService.HintSize="294,22" />
+      <sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="294,59" />
+      <sap2010:ViewStateData Id="Assert_2" sap:VirtualizedContainerService.HintSize="294,22" />
+      <sap2010:ViewStateData Id="CreateOutboundDocument_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_5" sap:VirtualizedContainerService.HintSize="242,61" />
+      <sap2010:ViewStateData Id="Assign_6" sap:VirtualizedContainerService.HintSize="242,59" />
+      <sap2010:ViewStateData Id="TraceLine_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="264,408">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ForEach`1_1" sap:VirtualizedContainerService.HintSize="294,553" />
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="308,901" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="330,1087">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Workflow1_1" sap:VirtualizedContainerService.HintSize="370,1167" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

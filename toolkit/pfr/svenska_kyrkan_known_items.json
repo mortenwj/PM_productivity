@@ -1,0 +1,18 @@
+[
+  {"id": 44661, "title": "Performance HotFix - redesign", "state": "Active", "assignedTo": "Geir Are Bjørnsrud <geirare.bjornsrud@tieto.com>", "customername": "SVENSKA KYRKAN"},
+  {"id": 196608, "title": "Include existing access groups on case", "state": "New", "assignedTo": "Willy Koch <willy.koch@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 219865, "title": "Make it possible to set more validation requirements when closing a case", "state": "New", "assignedTo": "Morten Jensen <morten.jensen@tieto.com>", "customername": "Tullverket, Strålsäkerhetsmyndigheten, Institutet för mänskliga rättigheter RFP, Regeringskansliet, Svenska kyrkan"},
+  {"id": 231258, "title": "Multiple logos in documents produced from templates", "state": "Pending", "assignedTo": "Anton Nielsen <anton.nielsen@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231318, "title": "Control access to metadata fields", "state": "Active", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231319, "title": "A function that helps the user to remove general documents from a case when closed", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231323, "title": "Possibility to make the field \"Included in\" mandatory and the possibility to delete an estate even though \"Included in\" is mandatory", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231324, "title": "The field \"Included in\" added to search", "state": "New", "assignedTo": "Bjørn Tore Eriksen <bjorn.eriksen@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231334, "title": "Faster function to add profiles to a user in webadmin", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 231335, "title": "Possibility to add customer specific columns in database", "state": "Pending", "assignedTo": "Willy Koch <willy.koch@tieto.com>", "customername": "Svenska Kyrkan"},
+  {"id": 239125, "title": "Possibility to give users edit file permissions without including delete file", "state": "New", "assignedTo": "Willy Koch <willy.koch@tieto.com>", "customername": "Regeringskansliet, Svenska kyrkan"},
+  {"id": 239139, "title": "New date field for journal documents", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Regeringskansliet, Svenska kyrkan"},
+  {"id": 239174, "title": "Possibility to add shortcut for new unregistered contacts", "state": "New", "assignedTo": "Willy Koch <willy.koch@tieto.com>", "customername": "Regeringskansliet, Svenska kyrkan, UKÄ"},
+  {"id": 239192, "title": "Default value for mandatory fields where only one value is possible to select", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Regeringskansliet, Svenska kyrkan, Tullverket"},
+  {"id": 239206, "title": "Possibility to configure items in the main meny for different roles", "state": "New", "assignedTo": "Jarle Steira <jarle.steira@tieto.com>", "customername": "Regeringskansliet, Svenska kyrkan"},
+  {"id": 257460, "title": "Arbetsmiljöverket - Tokens", "state": "New", "assignedTo": "Willy Koch <willy.koch@tieto.com>", "customername": "Arbetsmiljöverket, IVO, Svenska Kyrkan, VNK VAHVA"}
+]

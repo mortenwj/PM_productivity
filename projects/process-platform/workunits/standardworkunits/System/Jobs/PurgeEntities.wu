@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="3CE7EBC5-2886-4288-B98C-521C8C6548E9"
+    visibility="public"
+    displayName="[LOCALIZED(3289E7F5-DDED-43E5-B52E-A01B1C11451B,*Purge Entites)]">
+  <description>[LOCALIZED(C964685D-3611-4BE2-A0F1-0D914DFB80DF,*Deletes the database records as well as physical files related to entites)]</description>
+  <executable file="PurgeEntities.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="allaccess_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

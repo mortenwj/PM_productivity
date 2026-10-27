@@ -1,0 +1,11 @@
+<workUnit id="D901571B-5CB7-4DC7-B97B-45EB6C07B50C" displayName="[LOCALIZED(76B7804E-67DF-4BC0-924B-CD108DF0E987,*Expired Warning date on activities)]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(C797290B-9FE7-4806-BF66-E2AF47DFF97A,*Process actions for activities like phases that has an expired warning date (not Wait Task). Activity must have a connected Work Unit to be processed)]</description>
+  <executable file="ProcessWaitActions.xml">
+    <invoke>
+      <arguments>
+        <argument name="expiredDateField" type="string">WarningDate</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.Hourly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

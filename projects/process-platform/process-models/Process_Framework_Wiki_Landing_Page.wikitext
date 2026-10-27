@@ -1,0 +1,133 @@
+<div style="border: 2px solid #c00; background: #ffe0e0; padding: 0.5em 1em; margin-bottom: 1em;">'''DRAFT''' – This page is under development and has not been approved for publication. Content may change.</div>
+
+{| cellpadding="0" cellspacing="0" width="100%"
+|-
+| style="vertical-align:top" |
+<div style="margin: 0 10px 0 0; border: 2px solid #0E76B7; padding: 0em 1em 1em 1em; background-color: #FFFDCA;">
+==Key info==
+* '''Part of:''' [[Public 360°]]
+* '''Applies to version(s):''' '''Public 360° version 6.7 / 6.8 and newer''' (process models and framework capabilities)
+* '''Availability:''' '''Available in relevant markets''' (see commercial aspects)
+* '''Product Manager:''' See [[Product teams]]
+* Page last updated: {{REVISIONYEAR}}-{{REVISIONMONTH}}-{{REVISIONDAY}}
+</div>
+<div style="margin: 0 10px 0 0; border: 2px solid #0E76B7; padding: 0em 1em 1em 1em; background-color: #FFFFFF;">
+
+== Product information ==
+{{PSNote}}
+
+The '''Process Framework''' in Public 360° is a configurable process platform that standardizes and automates end-to-end case handling for public-sector organizations. It provides a single, productized foundation for processes—with different consumption and delivery models layered on top—so customers get consistent structure, compliance, and flow without bespoke development.
+
+'''In short:''' One platform – multiple ways to consume value.
+
+=== What it is ===
+* A '''productized process platform''' embedded in Public 360°
+* A standardized yet configurable foundation for end-to-end processes (phases, milestones, rules, automation)
+* A platform that includes a curated set of '''process model templates''' and process engine templates to speed up adoption
+* A starting point, not a blank canvas: customers get ready-made structures they can configure and extend
+* A value multiplier for other Public 360° capabilities (e-services, documents, integrations, AI)
+
+=== What it is not ===
+* A one-off consulting framework
+* A fully bespoke process development service
+* Just a template library (templates are included, but value comes from the platform + execution + rules)
+* A single-purpose workflow engine
+
+=== Core idea: Individual Standard ===
+''Individual Standard'' is the central promise of the Process Framework. Public-sector organizations need:
+* Standard, commercially supported solutions with SaaS-like benefits (predictable upgrades, security, compliance)
+* The ability to support their specific processes, integrations, metadata, and regulatory context
+
+The Process Framework combines the benefits of standard software with the flexibility required for individual and segment-specific needs—without reverting to bespoke development or upgrade debt.
+
+== Core components ==
+The Process Framework is built around three tightly integrated components that form the execution heart of the platform:
+
+{| class="wikitable"
+|-
+! Component
+! Purpose
+! Wiki / documentation
+|-
+| '''Process Models'''
+| Define '''what''' the process looks like: structure, phases (stages), milestones, and transitions. Reusable, versioned templates tied to case types.
+| [[Process Framework - Process models|Process Framework – Process models]] (functional description)
+|-
+| '''Process Engine'''
+| Execute '''how''' the process runs: orchestration of tasks, automation, integrations, and user actions across the case lifecycle.
+| [[360° Process Engine|360° Process Engine]] (module page)
+|-
+| '''Business Rules Engine (BRE)'''
+| Decide '''when''' actions are allowed or required: no-code/low-code rules, event- and time-based triggers, compliance and constraints.
+| Described in [[Flexibility initiatives]]; dedicated BRE documentation to be added when released.
+|}
+
+'''Process model templates''' (case/process templates) and '''stage templates''' are part of the adoption accelerators delivered with the platform—reusable building blocks that reduce implementation time and support standardization.
+
+Together, these components enable standardized, automated, and compliant end-to-end processes without custom code that breaks upgrades.
+
+== Value propositions ==
+* '''Standardization without rigidity''' – Configure and extend within the platform; no upgrade debt.
+* '''Automation without bespoke development''' – Rules, deadlines, and flow are built into the process.
+* '''Compliance by design''' – Rules and deadlines embedded in workflows; consistent treatment and traceability.
+* '''Faster time-to-market''' – Start from standard process and engine templates; add only what you need.
+* '''Lower total cost of ownership''' – Predictable upgrades, shared improvements, no long-term maintenance burden from custom code.
+* '''One platform, multiple consumption models''' – From single process delivery to full platform access and hosted processes.
+
+== Consumption and delivery models ==
+The Process Framework can be consumed in different ways (details depend on commercial offering and market):
+* '''Single process delivery''' – One end-to-end process delivered and operated on the platform; low barrier to entry.
+* '''Process model framework (configurable)''' – Access to the framework and standard process templates; self-service configuration and extension within the platform.
+* '''Hosted processes (standardized)''' – Predefined processes delivered as a managed service with limited configuration; fast onboarding and predictable operation.
+* '''Full platform access''' – Full access to Process Framework capabilities including self-service process modeling and governance.
+
+One platform; multiple pricing and consumption models; clear upgrade paths as organizations grow or mature.
+
+== Who this is for ==
+* Public-sector organizations with regulated, repeatable case handling
+* Organizations that want standardization and flexibility without dependency on custom development
+* Large agencies, directorates, and municipalities (full platform or hosted); smaller organizations via single-process or hosted offerings
+
+== Product documentation ==
+Below, please find documentation developed and maintained by Enablement.
+
+==== Product sheets / sales material ====
+{| class="wikitable"
+| (To be added when published)
+|}
+
+==== End-user and administrator documentation ====
+* Process models: See [[Process Framework - Process models|Process Framework – Process models]] for functional description of process models, stages, milestones, triggers, and configuration.
+* Process Engine: See [[360° Process Engine]] and linked technical documentation.
+
+==== Additional material ====
+* [[Product training sessions]]
+* Release and process-related features: See [[:Category:360° Release information|360° Release information]].
+
+| width="40%" style="vertical-align:top" |
+<div style="margin: 0 10px 0 0; border: 2px solid #0E76B7; padding: 0em 1em 1em 1em; background-color: #E5F6FE;">
+
+== Documentation from other units ==
+Quality assurance relies on the individual departments owning the material.
+
+=== Value proposition / Selling points ===
+* '''Individual Standard''' – standard software, individually adaptable; no need to choose between rigid standards and expensive bespoke solutions.
+* '''No upgrade debt''' – Configure without breaking future versions.
+* '''SaaS benefits, public-sector fit''' – Security, compliance, predictability.
+* '''Start fast, evolve safely''' – One platform, many ways to consume (single process, framework, hosted).
+* Predictability instead of project risk; flexibility without bespoke cost; long-term sustainability instead of technical debt.
+
+=== Implementation guidelines ===
+(When applicable. Implementation guidelines for the Process Framework and process models to be added by Consultancy SPOC. See [[Implementation guidelines - template]].)
+
+=== Relevant links ===
+* [[Module overview|360° module overview]]
+* [[360° Process Engine]]
+* [[Public 360°]]
+* [[Product teams|Core teams and responsibility areas]]
+* [[Single points of contact|SPOCs for modules]]
+
+</div>
+|}__NOTOC__
+[[Category:Product information]]
+[[Category:360°]]

@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="AC267873-1C2A-4D60-B120-93752FBC1B16"
+      displayName="[LOCALIZED(77C1EE5D-0F0A-420D-B352-10E93333D66B,*Notification for activity due dates expiring today)]">
+  <description>[LOCALIZED(41EFECC8-26F8-4412-952D-7A8F1C3655C1,*Send notification to responsible person for the activities that has a due date expiring today)]</description>
+  <executable file="DeadlineTodayAlerts.xml">
+    <invoke/>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"></job>
+</workUnit>

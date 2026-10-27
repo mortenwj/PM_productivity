@@ -1,0 +1,14 @@
+<workUnit id="ftxsearch"
+          displayName="Management REST"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+  visibility="external">
+  <description>...</description>
+  <executable assemblyType="SI.Biz.Core.Search.Management.ManagementSvc, SI.Biz.Core.Search">
+    <invoke>
+      <arguments>
+        <argument name="system.httprequestmessage" type="object"/>
+      </arguments>
+    </invoke>
+  </executable>
+</workUnit>

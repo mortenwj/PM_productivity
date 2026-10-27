@@ -1,0 +1,8 @@
+<workUnit displayName="Opdaterer ejerskaber fra Ejerfortegnelsen" id="24c1181a-fec2-4d91-bcc1-382010b44fc6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Jobbet henter deltafiler fra Datafordeleren med ændringer foretaget hos Ejerfortegnelsen indenfor det sidste døgn og opdaterer ejerskaber i eDoc</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

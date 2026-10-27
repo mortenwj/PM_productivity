@@ -1,0 +1,852 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="ProcessEngineProgressplanTest"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcpap="clr-namespace:SI.Biz.Core.ProcessEngine.Activities.ProgressPlan;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+    <x:Property Name="ApplicantRole" Type="InArgument(x:String)" />
+    <x:Property Name="ExParticipantRole" Type="InArgument(x:String)" />
+    <x:Property Name="PublicAccessGroup" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentArchive" Type="InArgument(x:String)" />
+    <x:Property Name="OutboundDocumentCategory" Type="InArgument(x:String)" />
+    <x:Property Name="TemplateOne" Type="InArgument(x:String)" />
+    <x:Property Name="TemplateTwo" Type="InArgument(x:String)" />
+    <x:Property Name="TemplateThree" Type="InArgument(x:String)" />
+    <x:Property Name="TitleDocumentOne" Type="InArgument(x:String)" />
+    <x:Property Name="TitleDocumentTwo" Type="InArgument(x:String)" />
+    <x:Property Name="TitleDocumentThree" Type="InArgument(x:String)" />
+    <x:Property Name="LegacyClientAction" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>DemoProgressPlan_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Provider</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <StateMachine DisplayName="ProcessEngineProgressplanTest" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+    <StateMachine.InitialState>
+      <State x:Name="__ReferenceID0" DisplayName="Test selector" sap2010:WorkflowViewState.IdRef="State_5">
+        <State.Entry>
+          <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_2" ProgressPlanId="[ProgressPlanId]">
+            <sbcpap:PhaseContainer.Phases>
+              <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="True" CalculateOnActivation="False" DeadlineInDays="[0]" Description="Select tests" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_2" ReuseOnLoop="False" WarningInDays="[0]">
+                <sbcpap:Phase.PhaseActivities>
+                  <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must run all test categories, follow instructions on tasks, activity titles ond\or activity notes" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_22" />
+                  <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Select tests" DisplayName="Decision dialog" sap2010:WorkflowViewState.IdRef="Decision_1" Notes="Decision notes" />
+                </sbcpap:Phase.PhaseActivities>
+                <sbcpap:Phase.Variables>
+                  <sco:Collection x:TypeArguments="Variable" />
+                </sbcpap:Phase.Variables>
+              </sbcpap:Phase>
+            </sbcpap:PhaseContainer.Phases>
+            <sbcpap:PhaseContainer.Variables>
+              <sco:Collection x:TypeArguments="Variable" />
+            </sbcpap:PhaseContainer.Variables>
+          </sbcpap:PhaseContainer>
+        </State.Entry>
+        <State.Transitions>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_11">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="TestServerActions" Description="3. Test server actions" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_6" SortOrder="2" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID2" DisplayName="ServerActions" sap2010:WorkflowViewState.IdRef="State_3">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_4" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[0]" Description="3. Test server actions" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_4" ReuseOnLoop="False" WarningInDays="[0]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must be caseworker" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_20" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Test criterias can be found by looking at activity note on each client action" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_21" />
+                            <sbcpap:WorkUnitServerAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" AutoStart="True" Description="Legacy server action - AutoStart" DisplayName="Server action" sap2010:WorkflowViewState.IdRef="WorkUnitServerAction_9" Notes="Legacy server action that does nothing, it is configured to automatically phen phas enters , should work and activity shoul be status done" WorkUnit="Server Action that does nothing =&gt; ServerAction-DoNothing{FECE8F90-05AD-453D-BF03-D87D59FCD69D}" />
+                            <sbcpap:WorkUnitServerAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" AutoStart="False" Description="Legacy server action - Run me should work" DisplayName="Server action" sap2010:WorkflowViewState.IdRef="WorkUnitServerAction_11" Notes="Legacy server action that does nothing, should work and close activity when run" WorkUnit="Server Action that does nothing =&gt; ServerAction-DoNothing{FECE8F90-05AD-453D-BF03-D87D59FCD69D}" />
+                            <sbcpap:WorkUnitServerAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" AutoStart="False" Description="ServerAction - I should not be visible" Disabled="[True]" DisplayName="Server action" sap2010:WorkflowViewState.IdRef="WorkUnitServerAction_10" WorkUnit="Server Action that does nothing =&gt; ServerAction-DoNothing{FECE8F90-05AD-453D-BF03-D87D59FCD69D}" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_4" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_10" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_8">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="TestWaitTasks" Description="4. Test wait tasks" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_7" SortOrder="3" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID4" DisplayName="WaitTasks" sap2010:WorkflowViewState.IdRef="State_6">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_6" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="True" CalculateOnActivation="False" DeadlineInDays="[0]" Description="4. Test wait tasks" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_6" ReuseOnLoop="False" WarningInDays="[0]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitDays="{x:Null}" CompletedAction="ThrowBizBizInfo - Success =&gt; ThrowBizBizInfoSuccess{C4A9F650-92EB-42E4-9D69-EA7401E3D644}" Description="WaitTask - Set status Closed - Should give message" DisplayName="External due date(WaitTask)" sap2010:WorkflowViewState.IdRef="WaitTask_2" WaitExpiredAction="ThrowBizBizInfo -  You have failed =&gt; ThrowBizBizInfoFailed{A7DB989C-1417-4D14-9462-B51DCFB4CBAE}" />
+                            <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitDays="{x:Null}" CompletedAction="ThrowBizBizInfo -  You have failed =&gt; ThrowBizBizInfoFailed{A7DB989C-1417-4D14-9462-B51DCFB4CBAE}" Description="WaitTask - Set status Expired - Should give message" DisplayName="External due date(WaitTask)" sap2010:WorkflowViewState.IdRef="WaitTask_3" WaitExpiredAction="ThrowBizBizInfo - Success =&gt; ThrowBizBizInfoSuccess{C4A9F650-92EB-42E4-9D69-EA7401E3D644}" />
+                            <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitDays="{x:Null}" CompletedAction="ThrowBizBizInfo -  You have failed =&gt; ThrowBizBizInfoFailed{A7DB989C-1417-4D14-9462-B51DCFB4CBAE}" Description="WaitTask - I should not be visibe!" Disabled="[True]" DisplayName="External due date(WaitTask)" sap2010:WorkflowViewState.IdRef="WaitTask_4" WaitExpiredAction="ThrowBizBizInfo -  You have failed =&gt; ThrowBizBizInfoFailed{A7DB989C-1417-4D14-9462-B51DCFB4CBAE}" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually set status Canceled on all waittask before closing phase." DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_9" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_3" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_12" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_5">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="TestClientActions" Description="2. Test client actions" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_8" SortOrder="1" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID3" DisplayName="NewClientActions" sap2010:WorkflowViewState.IdRef="State_4">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_5" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="True" CalculateOnActivation="False" DeadlineInDays="[0]" Description="2. Test client actions" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_5" ReuseOnLoop="False" WarningInDays="[0]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Ensure all arguments to the Process template has valid values" DisplayName="Ensure the arguments" sap2010:WorkflowViewState.IdRef="Task_30" Notes="Open the Process template from web admin and edit all arguments to have valid values for the system. If any arguments are changed, please cancel this process and start a new process with the updated process template." />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must be caseworker" DisplayName="Be a case worker" sap2010:WorkflowViewState.IdRef="Task_10" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact with role Applicant (If it is not already created)" DisplayName="Add an applicant" sap2010:WorkflowViewState.IdRef="Task_15" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact from existing contact, with role Ext. Participant (If it is not already created)" DisplayName="Add an external participant" sap2010:WorkflowViewState.IdRef="Task_11" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact as 'Unregistered contact', with role Ext. Participant (If it is not already created)" DisplayName="Addd an unregistered contact" sap2010:WorkflowViewState.IdRef="Task_13" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually run all client actions in correct order!" DisplayName="Run actions in sequence" sap2010:WorkflowViewState.IdRef="Task_12" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Test criterias can be found by looking at activity note on each client action" DisplayName="Criterias are in notes" sap2010:WorkflowViewState.IdRef="Task_14" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentCase="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentSendersReference="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingCategory="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" Description="1. Client action - New document wizard - Check note for testing requirements" DisplayName="New document wizard" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_1" NewDocumentAccessCodeAndLaw="AccessCode :'R'. Authorization : 'Offl § 20' =&gt; 1, 50" NewDocumentAccessGroup="[PublicAccessGroup]" NewDocumentArchive="[DocumentArchive]" NewDocumentCategory="[OutboundDocumentCategory]" NewDocumentCopyRecipientsFromCaseRoles="[ExParticipantRole]" NewDocumentNotes="Test notes" NewDocumentProcessMark="FirstTest" NewDocumentPublicTitle="[TitleDocumentOne]" NewDocumentPublicTitleBehaviour="[3]" NewDocumentRecipientsFromCaseRoles="[ApplicantRole]" NewDocumentScreenContacts="[True]" NewDocumentTemplateId="[TemplateOne]" NewDocumentTitle="[TitleDocumentOne]" Notes="&#xA;Check that the document dialog has the following options set : &#xA;Document Archive : 'Case document =&gt; 2'&#xA;AccessCode:'R'. &#xA;Authorization: 'Offl § 20'&#xA;Access group :  'Public =&gt; 0'&#xA;Screen contacts should be true\marked\selected&#xA;Document receiver should be ONE contact that has Role 'Applicant =&gt; 50011' from case&#xA;Document CC receivers should be TWO contacts that has Role 'Ext. Participant =&gt; 9' from case&#xA;Check that contact information Is correct on the dialog&#xA;Document category :  'Outbound e-mail =&gt; 115'&#xA;Document public title : 'TestPublicTitle'&#xA;Document public title option : set manually&#xA;Docment title :  'TestDocumentTitle'&#xA;Document note : Test notes&#xA;Finish the document wizard, &#xA;New document should be created.&#xA;Activity should change status to Complete.&#xA;Word should open the new document.&#xA;Create text in file 'FIRST TEST' to make furter testing easier.&#xA;&#xA;" WizardTitle="My custom dialog title" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentAccessCodeAndLaw="{x:Null}" NewDocumentAccessGroup="{x:Null}" NewDocumentArchive="{x:Null}" NewDocumentCase="{x:Null}" NewDocumentCategory="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentCopyRecipientsFromCaseRoles="{x:Null}" NewDocumentNotes="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentPublicTitle="{x:Null}" NewDocumentPublicTitleBehaviour="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentRecipientsFromCaseRoles="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentScreenContacts="{x:Null}" NewDocumentSendersReference="{x:Null}" NewDocumentTemplateId="{x:Null}" NewDocumentTitle="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingCategory="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="2. Client action - New document wizard - Open on Existing ProcessMark - Should open first created document" DisplayName="Open latest created document based on document mark" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_2" NewDocumentProcessMark="FirstTest" Notes="The client action should open the first created document in word.&#xA;Activity should change status to Complete&#xA;Icon should automatically change to complete" OpenOnExistingProcessMark="[True]" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentAccessCodeAndLaw="{x:Null}" NewDocumentAccessGroup="{x:Null}" NewDocumentArchive="{x:Null}" NewDocumentCase="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentCopyRecipientsFromCaseRoles="{x:Null}" NewDocumentNotes="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProcessMark="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentPublicTitle="{x:Null}" NewDocumentPublicTitleBehaviour="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentRecipientsFromCaseRoles="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentScreenContacts="{x:Null}" NewDocumentSendersReference="{x:Null}" NewDocumentTemplateId="{x:Null}" NewDocumentTitle="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="3. Client action - New document wizard - Open on doc category - Should open first created document" DisplayName="Open document based on Category" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_3" NewDocumentCategory="[OutboundDocumentCategory]" Notes="The client action should open the first created document in word.&#xA;Activity should change status to Complete&#xA;Icon should automatically change to complete" OpenOnExistingCategory="[True]" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentCase="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentSendersReference="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingCategory="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardCustomUrl="{x:Null}" Description="4. Client action - New document wizard - Should auto close wizard and create new document" DisplayName="Create document Auto" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_4" NewDocumentAccessCodeAndLaw="AccessCode :'R'. Authorization : 'Offl § 20' =&gt; 1, 50" NewDocumentAccessGroup="[PublicAccessGroup]" NewDocumentArchive="[DocumentArchive]" NewDocumentCategory="[OutboundDocumentCategory]" NewDocumentCopyRecipientsFromCaseRoles="[ExParticipantRole]" NewDocumentNotes="Test notes" NewDocumentProcessMark="FirstTest" NewDocumentPublicTitle="[TitleDocumentTwo]" NewDocumentPublicTitleBehaviour="[3]" NewDocumentRecipientsFromCaseRoles="[ApplicantRole]" NewDocumentScreenContacts="[True]" NewDocumentTemplateId="[TemplateTwo]" NewDocumentTitle="[TitleDocumentTwo]" Notes="The client action should automatically click the finish button on the dialog, it may be that you only se the dialog for a short moment.&#xA;Activity should change status to complete.&#xA;Icon should automatically change to complete.&#xA;New document should be created" WizardAutoFinish="[True]" WizardTitle="My custom dialog title" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentCase="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentSendersReference="{x:Null}" OpenOnExistingCategory="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" Description="5. Client action - New document wizard - RunWorkUnit - Should throw message" DisplayName="New document - exception" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_5" NewDocumentAccessCodeAndLaw="AccessCode :'R'. Authorization : 'Offl § 20' =&gt; 1, 50" NewDocumentAccessGroup="[PublicAccessGroup]" NewDocumentArchive="[DocumentArchive]" NewDocumentCategory="[OutboundDocumentCategory]" NewDocumentCopyRecipientsFromCaseRoles="[ExParticipantRole]" NewDocumentNotes="Test notes" NewDocumentProcessMark="FirstTest" NewDocumentPublicTitle="[TitleDocumentThree]" NewDocumentPublicTitleBehaviour="[3]" NewDocumentRecipientsFromCaseRoles="[ApplicantRole]" NewDocumentScreenContacts="[True]" NewDocumentTemplateId="[TemplateThree]" NewDocumentTitle="[TitleDocumentThree]" Notes="When you click the finish button a message should popup telling you that it run successfully&#xA;Activity will NOT change status, as the message is a Exception by code&#xA;Icon will NOT change" OnDialogCloseRunWorkUnitId="ThrowBizBizInfo - Success =&gt; ThrowBizBizInfoSuccess{C4A9F650-92EB-42E4-9D69-EA7401E3D644}" WizardTitle="My custom dialog title" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually set status 'Closed' on the previous client action" DisplayName="Close previous action" sap2010:WorkflowViewState.IdRef="Task_16" />
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocByCategory="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByWorkUnit="{x:Null}" GetFileBehavior="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" Description="6. Client action - Edit file - Open on ProcessMark - Should open first created document" DisplayName="Edit a file based on process mark" GetDocBehavior="[2]" GetDocByProcessMark="FirstTest" sap2010:WorkflowViewState.IdRef="EditFile_1" Notes="This client action should open the first created document.&#xA;Verify it is correct document.&#xA;Activity should atomatically change status to Complete.&#xA;Icon should automatically change to complete.">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByProcessMark="{x:Null}" GetDocByWorkUnit="{x:Null}" GetFileBehavior="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" Description="7. Client action - Edit file - Open on document category, use first found - Should open first created document" DisplayName="Edit a file based on category - latest hit" GetDocBehavior="[2]" GetDocByCategory="[OutboundDocumentCategory]" sap2010:WorkflowViewState.IdRef="EditFile_2" Notes="This client action should open the first created document.&#xA;Verify it is correct document.&#xA;Activity should atomatically change status to Complete.&#xA;Icon should automatically change to complete.">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocBehavior="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByProcessMark="{x:Null}" GetDocByWorkUnit="{x:Null}" GetFileBehavior="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" Description="8. Client action - Edit file - Open on document category, multiple DOCUMENT hits - Should open message about multiple document hits" DisplayName="Edit a file - multiple hits" GetDocByCategory="[OutboundDocumentCategory]" sap2010:WorkflowViewState.IdRef="EditFile_3" Notes="Edit file - Open on document category, multiple hits - Should open message about multiple hits, activity must be manually closed after test run">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually set status 'Closed' on the previous client action" DisplayName="Close previous action" sap2010:WorkflowViewState.IdRef="Task_17" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must add a Word file with content on the First created document" DisplayName="Add a file on the first document" sap2010:WorkflowViewState.IdRef="Task_18" />
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByProcessMark="{x:Null}" GetDocByWorkUnit="{x:Null}" GetFileBehavior="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" Description="9. Client action - Edit file - Open on document category, multiple FILE hits - Should open message about multiple file hits" DisplayName="Edit a file - first doc - warning if more files" GetDocBehavior="[2]" GetDocByCategory="[OutboundDocumentCategory]" sap2010:WorkflowViewState.IdRef="EditFile_4" Notes="This client action is not configured to handle multiple files on document. A error\info message should appear" SearchOnCaseForExistingDocument="[True]">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually set status 'Closed' on the previous client action" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_19" />
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByProcessMark="{x:Null}" GetDocByWorkUnit="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" Description="10. Client action - Edit file - Open on document category, multiple hits - Open the file you just added" DisplayName="Edit a file - first doc - last file" GetDocBehavior="[2]" GetDocByCategory="[OutboundDocumentCategory]" GetFileBehavior="[1]" sap2010:WorkflowViewState.IdRef="EditFile_5" Notes="This client action is configured to open the last file on first document found">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:EditFile AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" GetDocById="{x:Null}" GetDocByProcessId="{x:Null}" GetDocByProcessMark="{x:Null}" GetDocByWorkUnit="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" Description="11. Client action - Edit file - Open on document category, multiple hits - Should open first file" DisplayName="Edit a file - first doc - first file" GetDocBehavior="[2]" GetDocByCategory="[OutboundDocumentCategory]" GetFileBehavior="[2]" sap2010:WorkflowViewState.IdRef="EditFile_6" Notes="This client action is configured to open the first file on first document found">
+                              <sbcpap:EditFile.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:EditFile.CloseActivityWhenClicked>
+                            </sbcpap:EditFile>
+                            <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="[LegacyClientAction]" Description="12. Legacy client action - Run me should work" DisplayName="Client action" sap2010:WorkflowViewState.IdRef="ClientAction_8" Notes="Legacy Client Action notes - Run me should work. This is a old-school client action that is looking up client action information from code table. In this case it should open the new document wizard, verify it is and try creating a document" />
+                            <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="[LegacyClientAction]" Description="ClientAction - I should not be visible" Disabled="[True]" DisplayName="Client action" sap2010:WorkflowViewState.IdRef="ClientAction_9" Notes="ClientAction Notes - I should not be visible" />
+                            <sbcpap:OpenUrl AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" UrlWorkUnit="{x:Null}" Description="13. Client action - Open URL - Manually specified URL - Should open google.com&#xA;Staus should change to completed&#xA;Icon should change to complete" DisplayName="Open a Url" sap2010:WorkflowViewState.IdRef="OpenUrl_1" Notes="This is a client action that is trying to open a URL. It may be failing because of security issues, but if it tries to open google.com whitout error message from BL, it is success" UrlManually="http://google.com">
+                              <sbcpap:OpenUrl.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:OpenUrl.CloseActivityWhenClicked>
+                            </sbcpap:OpenUrl>
+                            <sbcpap:OpenUrl AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" UrlManually="{x:Null}" Description="14. Client action - Open URL - Specified by work unit - Should open google.com&#xA;Staus should change to completed&#xA;Icon should change to complete" DisplayName="Open a Url" sap2010:WorkflowViewState.IdRef="OpenUrl_2" Notes="This is a client action that is trying to open a URL. It may be failing because of security issues, but if it tries to open google.com whitout error message from BL, it is success" UrlWorkUnit="CreateUrl.wu =&gt; PE Test CreateUrl.wu[67ECreate48D4-A9A3-D8B5AA6E6CFC]">
+                              <sbcpap:OpenUrl.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:OpenUrl.CloseActivityWhenClicked>
+                            </sbcpap:OpenUrl>
+                            <sbcpap:OpenUrl AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" UrlWorkUnit="{x:Null}" Description="I should not be visible" Disabled="[True]" DisplayName="Open a Url" sap2010:WorkflowViewState.IdRef="OpenUrl_3" UrlManually="CreateUrl.wu">
+                              <sbcpap:OpenUrl.CloseActivityWhenClicked>
+                                <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+                                  <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="True" />
+                                </InArgument>
+                              </sbcpap:OpenUrl.CloseActivityWhenClicked>
+                            </sbcpap:OpenUrl>
+                            <sbcpap:WfWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" DocumentIDs="{x:Null}" DueDate="{x:Null}" DueDatePeriod="{x:Null}" GetDocByCategory="{x:Null}" GetDocByWorkUnit="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="15. Client action - Review workflow - OnProcessMark - UseLatest - Should open latest created document for review" DisplayName="Workflow" GetDocByProcessMark="FirstTest" GetOnlyLatest="[True]" sap2010:WorkflowViewState.IdRef="WfWizard_1" Notes="This review should contain only one document (Last document created)" WorkflowType="Review =&gt; 50020" />
+                            <sbcpap:WfWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" DocumentIDs="{x:Null}" DueDate="{x:Null}" DueDatePeriod="{x:Null}" GetDocByCategory="{x:Null}" GetDocByWorkUnit="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" Description="17. Client action - Review workflow - OnProcessMark - UseLatest - Dialog title should be 'TEST'" DisplayName="Workflow" GetDocByProcessMark="FirstTest" GetOnlyLatest="[True]" sap2010:WorkflowViewState.IdRef="WfWizard_5" Notes="This review Dialog should have caption TEST" WizardTitle="TEST" WorkflowType="Review =&gt; 50020" />
+                            <sbcpap:WfWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" DocumentIDs="{x:Null}" DueDate="{x:Null}" DueDatePeriod="{x:Null}" GetDocByCategory="{x:Null}" GetDocByWorkUnit="{x:Null}" GetOnlyLatest="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="18. Client action - Approval workflow  - ProcessMark -  Should open all documents approval" DisplayName="Workflow" GetDocByProcessMark="FirstTest" sap2010:WorkflowViewState.IdRef="WfWizard_2" Notes="This approval workflow should contain all documents" WorkflowType="Approval =&gt; 50021" />
+                            <sbcpap:WfWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" DocumentIDs="{x:Null}" DueDate="{x:Null}" DueDatePeriod="{x:Null}" GetDocByCategory="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="19. Client action - Approval workflow  - ByWorkUnit - Should throw message" DisplayName="Workflow" GetDocByProcessMark="FirstTest" GetDocByWorkUnit="ThrowBizBizInfo - Success =&gt; ThrowBizBizInfoSuccess{C4A9F650-92EB-42E4-9D69-EA7401E3D644}" GetOnlyLatest="[True]" sap2010:WorkflowViewState.IdRef="WfWizard_4" Notes="This Workflow client action is configured to open document a document ID that is provided by a workunit. The test is successfull if you get a message that says success." WorkflowType="Approval =&gt; 50021" />
+                            <sbcpap:WfWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" DocumentIDs="{x:Null}" DueDate="{x:Null}" DueDatePeriod="{x:Null}" GetDocByCategory="{x:Null}" GetDocByWorkUnit="{x:Null}" Notes="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" Description="I should not be visible" Disabled="[True]" DisplayName="Workflow" GetDocByProcessMark="FirstTest" GetOnlyLatest="[True]" sap2010:WorkflowViewState.IdRef="WfWizard_3" WorkflowType="Review =&gt; 50020" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually set status 'Closed' on the previous client action" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_23" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually close all workflows created on this phase using the client actions above." DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_31" Notes="It is not possible to close a phase with an active workflow attatched, therefore these needs to be closed" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_2" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_4" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_3">
+            <Transition.Trigger>
+              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sbcpap:WaitForDecision BookmarkName="TestBasics" Description="1. Test basics" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_5" SortOrder="0" />
+              </Sequence>
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID5" DisplayName="Basics" sap2010:WorkflowViewState.IdRef="State_7">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_3" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[0]" Description="1. Test basics" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_3" ReuseOnLoop="False" WarningInDays="[0]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Task - Run me should work" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_7" Notes="Task notes that should be visible" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Task - I should not be visible" Disabled="[True]" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_8" Notes="Task Notes - I should not be visible" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_1" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_9" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_14">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="TestClientActionsLegacy" Description="5. Test legacy client actions" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_9" SortOrder="5" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID6" DisplayName="VanillaClientActions" sap2010:WorkflowViewState.IdRef="State_8">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_7" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[0]" Description="2. Test client actions" DisplayName="Phase" sap2010:WorkflowViewState.IdRef="Phase_7" ReuseOnLoop="False" WarningInDays="[0]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must be caseworker" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_24" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact with role Applicant =&gt; 50011 (If it is not already created)" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_25" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact from existing contact, with role Ext. Participant =&gt; 9 (If it is not already created)" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_26" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually add one case contact as 'Unregistered contact', with role Ext. Participant =&gt; 9 (If it is not already created)" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_27" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="You must manually run all client actions in correct order!" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_28" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Test criterias can be found by looking at activity note on each client action" DisplayName="Task" sap2010:WorkflowViewState.IdRef="Task_29" />
+                            <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="Edit Case =&gt; 19" Description="Edit case" DisplayName="Edit case" sap2010:WorkflowViewState.IdRef="ClientAction_12" Notes="Edit case dialog should appear, try changing case title. All contacts should exist in the contact detail section. After client action is run, it should update the client action status to completed (Icon should also change)" />
+                            <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="New Case =&gt; 20" Description="New case" DisplayName="New Case" sap2010:WorkflowViewState.IdRef="ClientAction_13" Notes="New case dialog should appear. Try creating a new case. After client action is run, it should update the client action status to completed (Icon should also change)." />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_5" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_13" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_6">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="Exit" Description="Exit" DisplayName="Wait for decision" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_4" SortOrder="10" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID1" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True" />
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="WTMagic" sap2010:WorkflowViewState.IdRef="Transition_16">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="&quot;TestMagic&quot;" Description="6. Test Wait task magic" DisplayName="6. Test Wait task magic" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_10" SortOrder="6" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID7" DisplayName="Process Engine Magic" sap2010:WorkflowViewState.IdRef="State_9">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sbcpa:ContextBinder DisplayName="Run in 360 context (ContextBinder)" sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+                      <sbcpa:ContextBinder.Parameters>
+                        <Assign sap2010:WorkflowViewState.IdRef="Assign_1">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[_caseId]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[ProgressPlanHandler.GetCase(ProgressPlanId).Id]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                    <sbcpap:PhaseContainer DisplayName="Phase container" sap2010:WorkflowViewState.IdRef="PhaseContainer_8" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="True" CalculateOnActivation="True" DeadlineInDays="[10]" Description="WaitTask Task Magic" DisplayName="Wait task magic" sap2010:WorkflowViewState.IdRef="Phase_8" Notes="This phase is intented for testing the magic of process Engine" ReuseOnLoop="False" WarningInDays="[8]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" sap2010:Annotation.AnnotationText="In this phase you create a document with a wait task connected. &#xA;When this document is dispatched, the wait task will be set 'scheduled' (the timer will start),  the process will automatically be checked in (set passive and our ref will be deleted.&#xA;&#xA;When an incoming letter is archived on this case, a dialogue will ask if the wait task should be signed off.&#xA;If selected to sign off, the process automatically will be set active again and the wait task will be closed.&#xA;&#xA;If the wait task is expired, the process will also be set active again." Description="1. Explanation (pls check notes)" DisplayName="Explanation (pls check notes)" sap2010:WorkflowViewState.IdRef="Task_32" Notes="In this phase you create a document with a wait task connected. &#xA;When this document is dispatched, the wait task will be set 'scheduled' (the timer will start),  the process will automatically be checked in (set passive and our ref will be deleted.&#xA;&#xA;When an incoming letter is archived on this case, a dialogue will ask if the wait task should be signed off.&#xA;If selected to sign off, the process automatically will be set active again and the wait task will be closed.&#xA;&#xA;If the wait task is expired, the process will also be set active again.&#xA;" />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentAccessCodeAndLaw="{x:Null}" NewDocumentAccessGroup="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentCopyRecipientsFromCaseRoles="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentScreenContacts="{x:Null}" NewDocumentSendersReference="{x:Null}" NewDocumentTemplateId="{x:Null}" Notes="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingCategory="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" sap2010:Annotation.AnnotationText="&quot;This document will be created and connected to the wait task below&quot;" Description="2. Document 1 connected to wait task 1" DisplayName="Create first outbound document" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_6" NewDocumentArchive="[DocumentArchive]" NewDocumentCase="[_caseId]" NewDocumentCategory="[OutboundDocumentCategory]" NewDocumentNotes="This document will be created and connected to the wait task below" NewDocumentProcessMark="WaitTask1" NewDocumentPublicTitle="Document 1 connected to wait task" NewDocumentPublicTitleBehaviour="[1]" NewDocumentRecipientsFromCaseRoles="[ApplicantRole]" NewDocumentTitle="Document 1 connected To wait task 1">
+                              <sbcpap:NewDocumentWizard.RelatedWaitTask>
+                                <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" CompletedAction="{x:Null}" Disabled="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" sap2010:Annotation.AnnotationText="If the wait task is scheduled and from there set to Expired, the progress plan will automaticlly be set active again." CheckInWhenScheduled="True" Description="3. Wait task 1 to do magic stuff - do not touch" DisplayName="Wait task to do magic stuff" sap2010:WorkflowViewState.IdRef="WaitTask_5" WaitDateCalculation="WorkDays" WaitDays="[10]" />
+                              </sbcpap:NewDocumentWizard.RelatedWaitTask>
+                            </sbcpap:NewDocumentWizard>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" sap2010:Annotation.AnnotationText="When the document is dispatched (archived) the process will automatically be set passive and responsible case handler will be removed (checked in). and the wait task will be set scheduled." Description="4. Dispatch the first outbound document (progress plan becomes passive)" DisplayName="Dispatch the first outbound document" sap2010:WorkflowViewState.IdRef="Task_33" Notes="When dispatching the document, the connected waittask will automatically be scheculed, the progress plan will be set in passive, and the responsible casehandler will be removed." />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="5. Create incoming doc while process is passive" DisplayName="Create incoming doc while process is passive" sap2010:WorkflowViewState.IdRef="Task_37" />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" sap2010:Annotation.AnnotationText="When the inbound document is archived and you select to signoff the outbound letter, the process will be activated automatically.&#xD;&#xA;" Description="6. While passive: Archive the inbound document and signoff the wait task" DisplayName="Archive the inbound document on the case and signoff the outbound document" sap2010:WorkflowViewState.IdRef="Task_38" Notes="When the inbound document is archived and you select to signoff the outbound letter, the process will be activated automatically." />
+                            <sbcpap:NewDocumentWizard AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Disabled="{x:Null}" NewDocumentAccessCodeAndLaw="{x:Null}" NewDocumentAccessGroup="{x:Null}" NewDocumentCopyRecipients="{x:Null}" NewDocumentCopyRecipientsContactCategory="{x:Null}" NewDocumentCopyRecipientsFromCaseRoles="{x:Null}" NewDocumentProcessId="{x:Null}" NewDocumentProject="{x:Null}" NewDocumentRecipients="{x:Null}" NewDocumentRecipientsContactCategory="{x:Null}" NewDocumentResponsibleContact="{x:Null}" NewDocumentScreenContacts="{x:Null}" NewDocumentSendersReference="{x:Null}" NewDocumentTemplateId="{x:Null}" Notes="{x:Null}" OnDialogCloseRunWorkUnitId="{x:Null}" OpenOnExistingCategory="{x:Null}" OpenOnExistingProcessMark="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" SearchOnCaseForExistingDocument="{x:Null}" WizardAutoFinish="{x:Null}" WizardCustomUrl="{x:Null}" WizardTitle="{x:Null}" sap2010:Annotation.AnnotationText="&quot;This document will be created and connected to the wait task below&quot;" Description="7. Create Document 2 connected To wait task 2" DisplayName="Create Second outbound document" sap2010:WorkflowViewState.IdRef="NewDocumentWizard_8" NewDocumentArchive="[DocumentArchive]" NewDocumentCase="[_caseId]" NewDocumentCategory="[OutboundDocumentCategory]" NewDocumentNotes="This document will be created and connected to the wait task below" NewDocumentProcessMark="WaitTask2" NewDocumentPublicTitle="Document 2 connected To wait task 2" NewDocumentPublicTitleBehaviour="[1]" NewDocumentRecipientsFromCaseRoles="[ApplicantRole]" NewDocumentTitle="Document 2 connected To wait task 2">
+                              <sbcpap:NewDocumentWizard.RelatedWaitTask>
+                                <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" CompletedAction="{x:Null}" Disabled="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" sap2010:Annotation.AnnotationText="If the wait task is scheduled and from there set to Expired, the progress plan will automaticlly be set active again." CheckInWhenScheduled="True" Description="8. Wait task 2 to do magic stuff" DisplayName="Wait task 2 to do magic stuff" sap2010:WorkflowViewState.IdRef="WaitTask_6" WaitDateCalculation="WorkDays" WaitDays="[10]" />
+                              </sbcpap:NewDocumentWizard.RelatedWaitTask>
+                            </sbcpap:NewDocumentWizard>
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" sap2010:Annotation.AnnotationText="When the document is dispatched (archived) the process will automatically be set passive and responsible case handler will be removed (checked in). and the wait task will be set scheduled." Description="9. Dispatch the Second outbound document" DisplayName="Dispatch the second outbound document" sap2010:WorkflowViewState.IdRef="Task_35" Notes="When dispatching the document, the connected waittask will automatically be scheculed, the progress plan will be set in passive, and the responsible casehandler will be removed." />
+                            <sbcpap:Task AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Date="{x:Null}" Disabled="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" sap2010:Annotation.AnnotationText="When the wait task is set to expired (automatically or manually) the connected process will automatically wake up and be active" Description="10. Set the second wait task to 'Expired'. Progress plan should become active." DisplayName="Set the second wait task to &quot;Expired&quot;" sap2010:WorkflowViewState.IdRef="Task_36" Notes="When the wait task is set to expired (automatically or manually) the connected process will automatically wake up and be active" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpap:WaitForPhaseClosed DisplayName="Wait for phase closed" sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_6" />
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="" sap2010:WorkflowViewState.IdRef="Transition_15" To="{x:Reference __ReferenceID0}" />
+                </State.Transitions>
+                <State.Variables>
+                  <Variable x:TypeArguments="x:Int32" Name="_caseId" />
+                </State.Variables>
+              </State>
+            </Transition.To>
+          </Transition>
+        </State.Transitions>
+      </State>
+    </StateMachine.InitialState>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID3</x:Reference>
+    <x:Reference>__ReferenceID4</x:Reference>
+    <x:Reference>__ReferenceID5</x:Reference>
+    <x:Reference>__ReferenceID6</x:Reference>
+    <x:Reference>__ReferenceID7</x:Reference>
+    <sads:DebugSymbol.Symbol>d3lDOlxQcm9ncmFtIEZpbGVzICh4ODYpXFRpZXRvXDM2MFxfaW5zdGFuY2VzXDM2MERldlx3b3JrdW5pdHNcVGVzdGluZ1xQcm9ncmVzc1BsYW5XaXRoQWxsQWN0aW9uc1xQRSBUZXN0IFByb2dyZXNzUGxhbi54YW1s8AI/A68DEgIBAeICD+ICggEDAa0DQQekAw8DAZcDWg92FwMB+wKhAQ+QAhcDAZcBfg+ZARcCAXyaAg+zAhcCAWm7Ag/aAhcCAUnqAg+gAxcCAQJDC1IjAwGhA1cPV+ABAwGgA3sPe9gBAwGfA54BD54B4AEDAZ4DlQIPlwIaAwGcA7gCD7gC7QEDAZsD3wIP3wLCAQMBmgPnAg/nAuwBAwGZA1wTcR4DAf4CowETiwIeAwGaAYABE5QBHgIBf5wCE64CHgIBbL0CE9UCHgIBTOwCE5gDHgIBBUOCAUOUAQMBogNFD00eAwGkA5YCEZYC0wEDAZ0DXRVvLQMBgANwFXCNAQMB/wKkARWJAi0DAZwBigIVigKNAQMBmwGBARWSAS0DAYEBkwEVkwGNAQMBgAGdAhWsAi0CAW6tAhWtAo0BAgFtvgIV0wItAgFO1AIV1AKNAQIBTe0CFfgCKwIBRPkCFZYDLQIBB5cDFZcDjQECAQZFhwNFjAMDAacDRYYCRYsCAwGmA0WYAkWmAgMBpQNHE0foAgMBqwNIE0iXAgMBqANdjAFdngEDAYEDXxlqKAMBgwOkAYwBpAGeAQMBnQGmARmEAigDAZ8BgQGMAYEBngEDAYIBgwEZjQEoAwGEAZ0CjAGdAp4BAgFvnwIZpwIoAgFxvgKMAb4CngECAU/AAhnOAigCAVHvAhn2AiICAUX5AowB+QKeAQIBCPsCGZEDKAIBCkfBAUeoAgMBrANIhAJIlAIDAaoDSKQBSLIBAwGpA1+cA1+hAwMBhgNfkQJflgIDAYUDX6MCX7sCAwGEA2EdYaMCAwGVA2IdYtoCAwGTA2MdY+EEAwGPA2QdZLEEAwGLA2UdZeUDAwGHA6YBmwOmAaADAwGiAaYBkAKmAZUCAwGhAaYBogKmAboCAwGgAagBHagBqgQDAfgCqQEdqQGvAgMB9gKqAR2qAfICAwH0AqsBHasBmwMDAfICrAEdrAGgAwMB8AKtAR2tAdoCAwHuAq4BHa4B7AIDAewCrwEdrwHaEwMB0wKwAR2wAe0MAwHOArEBHbEB4gwDAcgCsgEdsgGyDgMBrgKzAR2zAbkOAwGUArQBHbQB4QIDAZICtQEduwEvAwGMArwBHcIBLwMBhQLDAR3JAS8DAf8BygEdygHhAgMB/QHLAR3LAewCAwH7AcwBHdIBLwMB8wHTAR3TAdACAwHxAdQBHdoBLwMB6QHbAR3hAS8DAeEB4gEd4gGHBQMB3AHjAR3jAbsDAwHWAeQBHeoBLgMB0QHrAR3xAS4DAcwB8gEd+AEuAwHHAfkBHfkBwgYDAcEB+gEd+gGUBgMBugH7AR37AZ8GAwG1AfwBHfwB1gcDAa4B/QEd/QGrBQMBqAH+AR3+AdACAwGmAf8BHf8ByQMDAaMBgwGXA4MBnAMDAYcBgwGQAoMBlQIDAYYBgwGiAoMBtgIDAYUBhQEdhQGQBQMBkwGGAR2GAZEFAwGPAYcBHYcBhgUDAYoBiAEdiAHXAgMBiAGfApQDnwKZAwIBdJ8CkQKfApYCAgFznwKjAp8CswICAXKhAh2hAr4CAgF5ogIdogLEAgIBdcACnAPAAqEDAgFUwAKRAsAClgICAVPAAqMCwAK7AgIBUsICHcICowICAWfDAh3DAvICAgFlxAIdxAKMAwIBY8UCHcUCkAMCAWHGAh3GAscCAgFfxwIdxwLaAgIBXcgCHcgCzQQCAVnJAh3JApEEAgFV9AJD9AJzAgFI8QJE8QJNAgFG+wLYA/sC3QMCAQ77AvUC+wK1AwIBDfsC/gH7AoQCAgEM+wKRAvsCpgICAQv9Ah39AtILAgFB/gIdggM4AgEvgwMdgwP+BQIBLIQDHYQD5AICASqFAx2FA8QFAgEnhgMdigM4AgEViwMdiwPgBQIBEowDHYwDoQUCAQ9hywFh4wEDAZYDYssBYpoCAwGUA2PkAmPwAwMBkgNj5gFjiAIDAZEDY/oDY94EAwGQA2TvAmTAAwMBjgNk5wFkkgIDAY0DZMoDZK4EAwGMA2XkAWWMAgMBigNl/gJl4gMDAYkDZZYCZZ4CAwGIA6gBzQKoAacEAwH6AqgBugGoAfkBAwH5AqkBywGpAeMBAwH3AqoBywGqAaYCAwH1AqsBywGrAcQCAwHzAqwBywGsAcgCAwHxAq0BywGtAYcCAwHvAq4BywGuAZoCAwHtAq8BxQmvAdEJAwHrAq8BngmvAbMJAwHpAq8B8QuvAbITAwHoAq8BlguvAZ4LAwHnAq8BtwevAfEHAwHmAq8B9AWvAcIGAwHlAq8BvxOvAdcTAwHkAq8B2givAfYIAwHiAq8B6gqvAfsKAwHgAq8BiQivAZ4IAwHeAq8B6QmvAfQJAwHdAq8BtQuvAcQLAwHbAq8B1guvAeoLAwHZAq8BsgivAcUIAwHXAq8BwQqvAcYKAwHWAq8BjAqvAaAKAwHUArAB4gywAeoMAwHSArABpQuwAccMAwHRArABlwmwAYMKAwHQArABkwuwAZ4LAwHPArEBnQuxAb8MAwHNArEBnQmxAYEKAwHMArEB+gqxAZYLAwHKArEB1wyxAd8MAwHJArIBtwmyAcMJAwHHArIBkAmyAaUJAwHFArIBgg6yAYoOAwHEArIB4wuyAfANAwHDArIBiAuyAZALAwHCArIBqQeyAeMHAwHBArIB2AWyAbMGAwHAArIBlw6yAa8OAwG/ArIBzAiyAegIAwG9ArIB3AqyAe0KAwG7ArIB+weyAZAIAwG5ArIB2wmyAeYJAwG4ArIBpwuyAbYLAwG2ArIByAuyAdwLAwG0ArIBpAiyAbcIAwGyArIBswqyAbgKAwGxArIB/gmyAZIKAwGvArMBowmzAa8JAwGtArMB/AizAZEJAwGrArMB1QuzAZcNAwGqArMB9gqzAf4KAwGpArMBlQezAc8HAwGoArMBzgWzAZsGAwGnArMBng6zAbYOAwGmArMBuAizAdQIAwGkArMBygqzAdsKAwGiArMBsw2zAZEOAwGhArMB5wezAfwHAwGfArMBxwmzAdIJAwGeArMBlQuzAaYLAwGcArMBuAuzAc4LAwGaArMBkAizAaMIAwGYArMBoQqzAaYKAwGXArMB6gmzAYAKAwGVArQBywG0AZACAwGTArUB7AS1AbkGAwGRArUB+gK1AdMDAwGQArgBI7gBYwMBjwK1Aa0EtQG4BAMBjgK1AZMEtQGYBAMBjQK8AZ0FvAHqBgMBiwK8Af0CvAHtAwMBigK8Ac0EvAHpBAMBiAK/ASO/AWMDAYcCvAG2BLwBuwQDAYYCwwGoBcMBuQYDAYQCwwGXA8MBnAQDAYMCwwHYBMMB9AQDAYECxgEjxgFjAwGAAsoBywHKAZACAwH+AcsBywHLAZACAwH8AcwBhAXMAfMFAwH6AcwB0gLMAc8DAwH5AcwBtATMAdAEAwH3Ac8BI88BYwMB9gHMAZQGzAGcBgMB9QHMAZ0EzAGiBAMB9AHTAcsB0wGQAgMB8gHUAYoF1AHaBQMB8AHUAeIC1AHLAwMB7wHUAaQE1AHABAMB7QHXASPXAWMDAewB1AHRBNQB1gQDAesB1AGNBNQBkgQDAeoB2wGFBdsB1gUDAegB2wHiAtsBxQMDAecB2wGfBNsBuwQDAeUB3gEj3gFjAwHkAdsBzATbAdEEAwHjAdsBiATbAY0EAwHiAeIBkwPiAYQFAwHgAeIBkALiAb8CAwHfAeIB7QHiAYMCAwHdAeMBigPjAbgDAwHbAeMB/AHjAaQCAwHaAeMB2QHjAe8BAwHYAeMBrgLjAbYCAwHXAeQBwwPkAfgEAwHVAeQB3wHkAfcCAwHUAeQBhQXkAZgFAwHTAecBI+cBYwMB0gHrAcMD6wH4BAMB0AHrAd8B6wH3AgMBzwHrAYUF6wHPBQMBzgHuASPuAWMDAc0B8gHcAfIB9QEDAcsB8gHZAvIB5wIDAcoB9QEj9QFjAwHJAfIB/wHyAYcCAwHIAfkBqwb5Ab8GAwHGAfkB1wX5AZ0GAwHFAfkBmwX5AaMFAwHEAfkB4wP5AdUEAwHDAfkBgQX5AYwFAwHCAfoB/QX6AZEGAwHAAfoBrwX6AdwFAwG/AfoB8wT6AfsEAwG+AfoBzAP6Aa0EAwG9AfoB6QX6Ae8FAwG8AfoB2QT6AeQEAwG7AfsBhgb7AZwGAwG5AfsBwwX7AfgFAwG4AfsB/AP7AdgEAwG3AfsBhAX7AY8FAwG2AfwBvQf8AdMHAwG0AfwBhQb8Aa8HAwGzAfwByQX8AdEFAwGyAfwBxwP8AZMEAwGxAfwBvwT8AcoEAwGwAfwB3AT8AboFAwGvAf0BlAX9AagFAwGtAf0B0QT9AdkEAwGsAf0B4AP9AfkDAwGrAf0BtwT9AcIEAwGqAf0BgwT9AYsEAwGpAf4BywH+AZACAwGnAf8B2wL/AcYDAwGlAf8BugH/AZcCAwGkAYUBiQOFAb0DAwGWAYUBngKFAfwCAwGVAYUBpwSFAY0FAwGUAYYBkQOGAcYDAwGSAYYBngKGAYQDAwGRAYYBsASGAY4FAwGQAYcB/QKHAaEDAwGOAYcBigKHAfACAwGNAYcBnQSHAYMFAwGMAYcBqwOHAbMDAwGLAYgBywGIAZgCAwGJAaECmAKhArsCAgF7oQK6AaEC1QECAXqiApsCogLBAgIBeKICpgGiAsYBAgF3ogLQAaIC2AECAXbCAssBwgLjAQIBaMMCywHDArICAgFmxALLAcQCzAICAWTFAssBxQLQAgIBYsYCywHGAocCAgFgxwLLAccCmgICAV7IAuoCyALKBAIBXMgCjgLIApkCAgFbyALtAcgCgQICAVrJAucCyQKOBAIBWMkCjQLJApcCAgFXyQLtAckCgAICAVb9ApMH/QLPCwIBQ/0ClAb9ArYGAgFC/gLdCf4C6AkCATz+AqsK/gLvCgIBO/4Cmgj+AsIIAgE6/gL9Cf4CmQoCATj+ApcM/gKoDAIBNv4Chwv+ApILAgE1/gK6DP4C3wwCATT+ArkJ/gLMCQIBMv4C7gv+AvMLAgEx/gKqC/4CzQsCATCAAyGAA7IFAgE+gwPIBIMD+wUCAS6DA5sDgwPkAwIBLYQDywGEA/wBAgErhQO+BIUDwQUCASmFA+oChQO0AwIBKIYD5QmGA/AJAgEihgOzCoYD9woCASGGA5oIhgPJCAIBIIYDhQqGA6EKAgEehgOhDIYDsgwCARyGA48LhgOaCwIBG4YDxAyGA+kMAgEahgPBCYYD1AkCARiGA/gLhgP9CwIBF4YDsguGA9cLAgEWiAMhiAOlBQIBJIsDqgSLA90FAgEUiwObA4sDxQMCAROMA50EjAOeBQIBEYwD3gKMA64DAgEQgAP4A4ADqQQCAUCAA6kFgAOvBQIBP4gD+AOIA5oEAgEmiAOcBYgDogUCASU=</sads:DebugSymbol.Symbol>
+  </StateMachine>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Task_22" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Decision_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_2" sap:VirtualizedContainerService.HintSize="214,155" />
+      <sap2010:ViewStateData Id="PhaseContainer_2" sap:VirtualizedContainerService.HintSize="228,241" />
+      <sap2010:ViewStateData Id="WaitForDecision_6" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Task_20" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_21" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="WorkUnitServerAction_9" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WorkUnitServerAction_11" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WorkUnitServerAction_10" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Phase_4" sap:VirtualizedContainerService.HintSize="214,383" />
+      <sap2010:ViewStateData Id="PhaseContainer_4" sap:VirtualizedContainerService.HintSize="228,469" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_4" sap:VirtualizedContainerService.HintSize="228,22" />
+      <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="250,655">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_10" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">420.8,389.5 420.8,359.5 504,359.5 504,242.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">62</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">7</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_3" sap:VirtualizedContainerService.HintSize="136,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">312,389.5</av:Point>
+            <av:Size x:Key="ShapeSize">136,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">122</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_11" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">474.5,228.2 359.6,228.2 359.6,389.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">69</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">26</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_7" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WaitTask_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="WaitTask_3" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="WaitTask_4" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_9" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_6" sap:VirtualizedContainerService.HintSize="214,249" />
+      <sap2010:ViewStateData Id="PhaseContainer_6" sap:VirtualizedContainerService.HintSize="228,335" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_3" sap:VirtualizedContainerService.HintSize="228,22" />
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="250,521">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_12" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">595.85,389.5 595.85,359.5 636.75,359.5 636.75,242.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">66</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">43</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_6" sap:VirtualizedContainerService.HintSize="131,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">484.5,389.5</av:Point>
+            <av:Size x:Key="ShapeSize">131,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">117</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_8" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">563,242.5 563,272.5 563.1,272.5 563.1,389.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">23</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">46</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_8" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Task_30" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_10" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_15" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_11" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_13" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_12" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_14" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="NewDocumentWizard_1" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="NewDocumentWizard_2" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="NewDocumentWizard_3" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="NewDocumentWizard_4" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="NewDocumentWizard_5" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Task_16" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="EditFile_1" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="EditFile_2" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="EditFile_3" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="Task_17" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_18" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="EditFile_4" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="Task_19" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="EditFile_5" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="EditFile_6" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="ClientAction_8" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="ClientAction_9" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="OpenUrl_1" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="OpenUrl_2" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="OpenUrl_3" sap:VirtualizedContainerService.HintSize="200,23" />
+      <sap2010:ViewStateData Id="WfWizard_1" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WfWizard_5" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WfWizard_2" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WfWizard_4" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="WfWizard_3" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Task_23" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_31" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_5" sap:VirtualizedContainerService.HintSize="214,2016" />
+      <sap2010:ViewStateData Id="PhaseContainer_5" sap:VirtualizedContainerService.HintSize="228,2102" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_2" sap:VirtualizedContainerService.HintSize="228,22" />
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="250,2288">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_4" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">722.8,389 722.8,359 681,359 681,242.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">30</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">55</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_4" sap:VirtualizedContainerService.HintSize="172,62">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">654,389</av:Point>
+            <av:Size x:Key="ShapeSize">172,62</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">158</x:Double>
+            <x:Double x:Key="StateContainerHeight">26.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_5" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">725.25,242.5 725.25,272.5 748.6,272.5 748.6,389</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">67</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">42</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_5" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="222,175">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Task_7" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_8" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_3" sap:VirtualizedContainerService.HintSize="214,155" />
+      <sap2010:ViewStateData Id="PhaseContainer_3" sap:VirtualizedContainerService.HintSize="228,241" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_1" sap:VirtualizedContainerService.HintSize="228,22" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="250,427">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_9">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">249.3,389.5 249.3,199.6 474.5,199.6</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">62</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">53</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_7" sap:VirtualizedContainerService.HintSize="131,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">144.5,389.5</av:Point>
+            <av:Size x:Key="ShapeSize">131,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">117</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_3" sap:VirtualizedContainerService.HintSize="430,620">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">474.5,171 190.35,171 190.35,389.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">37</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">26</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_9" sap:VirtualizedContainerService.HintSize="231,51" />
+      <sap2010:ViewStateData Id="Task_24" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_25" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_26" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_27" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_28" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Task_29" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="ClientAction_12" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="ClientAction_13" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Phase_7" sap:VirtualizedContainerService.HintSize="214,495" />
+      <sap2010:ViewStateData Id="PhaseContainer_7" sap:VirtualizedContainerService.HintSize="228,581" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_5" sap:VirtualizedContainerService.HintSize="228,22" />
+      <sap2010:ViewStateData Id="Sequence_7" sap:VirtualizedContainerService.HintSize="250,767">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_13" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">931.05,389.5 931.05,213.9 769.5,213.9</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">26</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">60</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_8" sap:VirtualizedContainerService.HintSize="193,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">863.5,389.5</av:Point>
+            <av:Size x:Key="ShapeSize">193,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">179</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_14" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">769.5,235.35 882.8,235.35 882.8,389.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">72</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">6</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_4" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="State_1" sap:VirtualizedContainerService.HintSize="114,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">993,19.5</av:Point>
+            <av:Size x:Key="ShapeSize">114,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_6" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">754.75,99.5 754.75,0 1055.7,0 1055.7,19.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">74</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">42</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_10" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="256,146" />
+      <sap2010:ViewStateData Id="Task_32" sap:VirtualizedContainerService.HintSize="214,375">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitTask_5" sap:VirtualizedContainerService.HintSize="200,105">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="NewDocumentWizard_6" sap:VirtualizedContainerService.HintSize="214,194">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Task_33" sap:VirtualizedContainerService.HintSize="214,135">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Task_37" sap:VirtualizedContainerService.HintSize="214,22" />
+      <sap2010:ViewStateData Id="Task_38" sap:VirtualizedContainerService.HintSize="214,120">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitTask_6" sap:VirtualizedContainerService.HintSize="200,105">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="NewDocumentWizard_8" sap:VirtualizedContainerService.HintSize="214,194">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Task_35" sap:VirtualizedContainerService.HintSize="214,135">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Task_36" sap:VirtualizedContainerService.HintSize="214,105">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Phase_8" sap:VirtualizedContainerService.HintSize="228,1541" />
+      <sap2010:ViewStateData Id="PhaseContainer_8" sap:VirtualizedContainerService.HintSize="256,1627" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_6" sap:VirtualizedContainerService.HintSize="256,22" />
+      <sap2010:ViewStateData Id="Sequence_8" sap:VirtualizedContainerService.HintSize="278,1999">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_15" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1060.6,139.5 1060.6,112.4 799.5,112.4 799.5,142.4 769.5,142.4</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">26</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">20</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_9" sap:VirtualizedContainerService.HintSize="326,2361">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">992,139.5</av:Point>
+            <av:Size x:Key="ShapeSize">196,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">182</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_16" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">769.5,171 799.5,171 799.5,179.15 992,179.15</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">36</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">49</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_5" sap:VirtualizedContainerService.HintSize="295,143">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">474.5,99.5</av:Point>
+            <av:Size x:Key="ShapeSize">295,143</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">281</x:Double>
+            <x:Double x:Key="StateContainerHeight">107.08000000000001</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="StateMachine_1" sap:VirtualizedContainerService.HintSize="1247,881">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <av:Point x:Key="ShapeLocation">20,2.5</av:Point>
+            <x:Double x:Key="StateContainerWidth">1233</x:Double>
+            <x:Double x:Key="StateContainerHeight">845.232</x:Double>
+            <av:PointCollection x:Key="ConnectorLocation">77,77.5 77,142.4 474.5,142.4</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="DemoProgressPlan_1" sap:VirtualizedContainerService.HintSize="1287,961" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

@@ -1,0 +1,160 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Wait_task_expiration_response"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="WaitTaskId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTitle" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTemplateId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentContactRoleId" Type="InArgument(x:String)" />
+    <x:Property Name="DispatchChannelId" Type="InArgument(x:String)" />
+    <x:Property Name="FinalWaitTaskWorkUnit" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>Workflow1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Linq.Provider</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="8Sequence" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Object" Name="_void" />
+      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+      <Variable x:TypeArguments="x:String" Name="_docId" />
+      <Variable x:TypeArguments="s:Nullable(x:Int32)" Name="_phaseRecno" />
+      <Variable x:TypeArguments="x:String" Name="_createdDocId" />
+      <Variable x:TypeArguments="sbcps:WaitTask" Name="_waitTask" />
+      <Variable x:TypeArguments="x:String" Name="_finalWaitTaskId" />
+    </Sequence.Variables>
+    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+      <sbcpa:ContextBinder.Parameters>
+        <Assign DisplayName="Assign _waitTask" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:WaitTask">[_waitTask]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:WaitTask">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.WaitTask)(WaitTaskId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="_waitTask &lt;&gt; null" Eval="[Not _waitTask Is Nothing]" Exception="[New BizErrorException(&quot;[LOCALIZED(BBCACCEA-FFFF-44A9-9A4C-AB8C0DDA1030,WaitTask with id {0} not found)]&quot;, WaitTaskId)]" sap2010:WorkflowViewState.IdRef="Assert_1" />
+        <sbcpa:Ensure DisplayName="_waitTask.CaseId &lt;&gt; null" Eval="[Not _waitTask.CaseId Is Nothing]" Exception="[New BizErrorException(&quot;[LOCALIZED(BBCACCEA-EEEE-44A9-9A4C-AB8C0DDA1030,WaitTask with id {0} must be connected to a case)]&quot;, WaitTaskId)]" sap2010:WorkflowViewState.IdRef="Ensure_1" />
+        <sbcpa:InvokeWorkUnit x:TypeArguments="x:String" DisplayName="Create reminder case document" sap2010:WorkflowViewState.IdRef="InvokeWorkUnit`1_2" Result="[_createdDocId]" WorkUnit="Create reminder document =&gt; 06F80B75-A38D-4567-B94A-21FA69588980">
+          <sbcpa:InvokeWorkUnit.Parameters>
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_1" ParameterName="WaitTaskId" ParameterValue="[WaitTaskId]" />
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_9" ParameterName="DocumentTitle" ParameterValue="[DocumentTitle]" />
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_10" ParameterName="DocumentTemplateId" ParameterValue="[DocumentTemplateId]" />
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_11" ParameterName="DocumentContactRoleId" ParameterValue="[DocumentContactRoleId]" />
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_12" ParameterName="DispatchChannelId" ParameterValue="[DispatchChannelId]" />
+          </sbcpa:InvokeWorkUnit.Parameters>
+          <sbcpa:InvokeWorkUnit.Variables>
+            <sco:Collection x:TypeArguments="Variable" />
+          </sbcpa:InvokeWorkUnit.Variables>
+        </sbcpa:InvokeWorkUnit>
+        <Assign DisplayName="Assign _phaseRecno" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:Nullable(x:Int32)">[_phaseRecno]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:Nullable(x:Int32)">[WaitTaskHandler.GetPhaseForWaitTask(WaitTaskId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="Ensure _phaseRecno != null" Eval="[Not _phaseRecno Is Nothing]" Exception="[New BizErrorException(&quot;[LOCALIZED(BBCACCEA-ADAD-44A9-9A4C-AB8C0DDA1030,WaitTask with id {0} must be connected to a phase)]&quot;, WaitTaskId)]" sap2010:WorkflowViewState.IdRef="Ensure_2" />
+        <sbcpa:InvokeWorkUnit x:TypeArguments="x:String" DisplayName="InvokeWorkUnit - Create final wait task" sap2010:WorkflowViewState.IdRef="InvokeWorkUnit`1_4" Result="[_finalWaitTaskId]" WorkUnit="[FinalWaitTaskWorkUnit]">
+          <sbcpa:InvokeWorkUnit.Parameters>
+            <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" DisplayName="Argument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_8" ParameterName="DocumentId" ParameterValue="[_createdDocId]" />
+          </sbcpa:InvokeWorkUnit.Parameters>
+          <sbcpa:InvokeWorkUnit.Variables>
+            <sco:Collection x:TypeArguments="Variable" />
+          </sbcpa:InvokeWorkUnit.Variables>
+        </sbcpa:InvokeWorkUnit>
+        <Assign DisplayName="Connect wait task to phase" sap2010:WorkflowViewState.IdRef="Assign_9">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Object">[_void]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Object">[WaitTaskHandler.ConnectToProgressPlanPhase(_finalWaitTaskId, _phaseRecno.ToString())]</InArgument>
+          </Assign.Value>
+        </Assign>
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_1" Message="All done!" />
+    <sads:DebugSymbol.Symbol>d4gBQzpcdGZzXERldlxUaXRhdGludW1cQnJhbmNoM1xTb3VyY2VcQkxcV29ya1VuaXRzXFN5c3RlbVxQcm9jZXNzZXNcQ2FzZVxQcm9ncmVzc1BsYW4gU3VwcG9ydFxSZW1pbmRpbmdcV2FpdCB0YXNrIGV4cGlyYXRpb24gcmVzcG9uc2UueGFtbC42A3UOAgEBQAVyGwIBBHMFc1oCAQJCCUkSAgE4SglKmgICATVLCUu6AgIBMkwJVyACARpYCV8SAgEWYAlgsgICARJhCWggAgEJaQlwEgIBBXNMc1cCAQNHOkeFAQIBO0Q7REYCATlKQkpeAgE3SmlK7AECATZLSUtsAgE0S3dLjAICATNMogFMswECARxMvQFMggICARtODU7XAQIBLk8NT90BAgEqUA1Q6AECASZRDVHuAQIBIlINUuYBAgEeXT9dcAIBGVpAWk0CARdgRWBjAgEUYG5ghAICARNhrAFhwAECAQxhygFh4wECAQpjDWPaAQIBDm40booBAgEIazVrPAIBBk6qAU62AQIBMU7GAU7UAQIBL0+qAU+5AQIBLU/JAU/aAQIBK1CrAVC/AQIBKVDPAVDlAQIBJ1GrAVHCAQIBJVHSAVHrAQIBI1KrAVK+AQIBIVLOAVLjAQIBH2OqAWO2AQIBEWPGAWPXAQIBDw==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Assert_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Ensure_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_1" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_9" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_10" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_11" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_12" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnit`1_2" sap:VirtualizedContainerService.HintSize="242,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_8" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Ensure_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_8" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnit`1_4" sap:VirtualizedContainerService.HintSize="242,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="256,609" />
+      <sap2010:ViewStateData Id="TraceLine_1" sap:VirtualizedContainerService.HintSize="256,22" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="278,795">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Workflow1_1" sap:VirtualizedContainerService.HintSize="318,875" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

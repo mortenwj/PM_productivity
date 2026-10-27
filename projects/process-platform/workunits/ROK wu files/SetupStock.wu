@@ -1,0 +1,9 @@
+<workUnit id="02E954B9-334E-4C82-8C17-BC25E5502FE6"
+          displayName="Contact fulltext crawler"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" visibility="external">
+  <description>...</description>
+  <executable>
+    <xscript language="csharp" entryPoint="Crawler.Setup.Execute"/>
+  </executable>
+</workUnit>

@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="8AEB04A0-29FD-47B0-A19A-B37B4F75F0AE"
+    displayName="[LOCALIZED(5D820A32-15C0-43FA-87C0-29EF21B17ADD,*Perform file replication)]">
+  <description>[LOCALIZED(FCEF5A54-8CF8-4B1A-9DE4-994A5C2700F7,*If the storage replication feature is enabled, this job performs replication of files that for some reason failed to be written to all storage accounts..)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.InvokePendingFileReplications, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.3Minutes" runAs="SystemDefault" resultType="none" category="AnyServer"/>
+</workUnit>

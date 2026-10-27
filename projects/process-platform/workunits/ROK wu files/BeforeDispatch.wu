@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="947511CF-EDC5-4C3D-A08D-22A63ABEAAA8" 
+          displayName="[LOCALIZED(89EE2DCE-6F9E-4CAF-B197-3F57978EB9F7,*Before Actual Dispatch)]">
+  <description>[LOCALIZED(4BF85497-BF58-48C1-9096-604B6EC80E9C,*Set document status to Finished before files are dipsatched)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.WUScript.BeforeDispatch.DispatchInvoker.BeforeDispatchEvent">
+	<arguments>
+        	<argument name="docRecno" type="string"/>
+		<argument name="dispatchXml" type="string"/>
+	</arguments>
+	<return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

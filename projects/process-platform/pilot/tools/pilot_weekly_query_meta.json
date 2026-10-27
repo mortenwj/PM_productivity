@@ -1,0 +1,8 @@
+{
+  "as_of_utc": "2026-04-21T20:31:38.820Z",
+  "wiql_nonbug_as_of": "2026-04-21T20:31:38.820Z",
+  "wiql_bug_as_of": "2026-04-21T20:31:46.653Z",
+  "nonbug_ids": 50,
+  "bug_ids": 28,
+  "parent_closure_rows": 24
+}

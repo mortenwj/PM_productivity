@@ -1,0 +1,8 @@
+<workUnit displayName="Afsend adviseringer" id="5C28C445-58FE-4F77-A2B6-5D0CC3E87D78" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Afsender adviseringer som er opsamlet i kø</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+          id="43B2BFA8-39F9-4E3B-AB19-5CF0C2E74E46"
+          displayName="[LOCALIZED(F3E4812A-2D75-4B0C-A455-53386F1CE582,360 AutoSaver)]">
+  <description>[LOCALIZED(CD956C49-AD15-44DE-B4AF-670479607E2D,Job to automatically save documents to P360 with correct metadata for configured processes in '360 AutoSaver' properties under 360 Web Admin -> Configuration -> Registers)]</description>
+  <executable assemblyType="SI.Biz.Core.Integration.AutomaticArchiveEnabler.StartJob, SI.Biz.Core.Integration.AutomaticArchiveEnabler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke />
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="allaccess_serviceaccount" resultType="none"/>
+</workUnit>

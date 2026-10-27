@@ -1,0 +1,8 @@
+<workUnit displayName="Opdater sagsskabelon adgange" id="814FE032-A791-42BB-A096-65FB893E445F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Tjekker om der er ændringer i sagsskabeloner og opdaterer adgange til adgangsgrupper</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

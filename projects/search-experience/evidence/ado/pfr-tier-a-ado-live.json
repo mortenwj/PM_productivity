@@ -1,0 +1,152 @@
+{
+  "generated": "2026-07-08",
+  "source": "Azure DevOps MCP — project 360, live wit_get_work_item / wit_query_by_wiql",
+  "wiql_open_search_pfr_count": "100+ (query capped at top 100; excludes Closed/Rejected)",
+  "tier_A_live": [
+    {
+      "id": 181607,
+      "title": "Sundvall Kommun/Tullverket - Possibility to search from advanced search Case/document using contact info",
+      "state": "Active",
+      "assigned": "Willy Koch",
+      "customer": "Sundsvalls kommun; Tullverket; Uppsala Kommun",
+      "impacted_module": "Search",
+      "tags": "SEmigrationblocker",
+      "themes": ["cross_entity", "meta_fields"],
+      "demand_summary": "Search cases AND documents by contact personal identity number / enterprise number in one advanced search flow.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/181607"
+    },
+    {
+      "id": 386280,
+      "title": "Additional data functionality - enhanced filtering options",
+      "state": "New",
+      "assigned": null,
+      "customer": "NAV",
+      "impacted_module": null,
+      "themes": ["meta_fields_all", "cross_entity"],
+      "demand_summary": "All customer metadata in Add Search Field; wants case-type filtering. Explicit gap: 'cannot search across all fields; you must search one field at a time' for child welfare FNR metadata.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/386280"
+    },
+    {
+      "id": 231324,
+      "title": "The field \"Included in\" added to search",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen",
+      "customer": "Svenska Kyrkan",
+      "impacted_module": "Search",
+      "themes": ["cross_entity", "relation_search"],
+      "demand_summary": "Search estate↔object relationships via 'Included in'; add to result views. Already exists as customer customization.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/231324"
+    },
+    {
+      "id": 172703,
+      "title": "HAVS- OCH VATTENMYNDIGHETEN- multiple value lookup fields in advanced search",
+      "state": "Active",
+      "assigned": "Willy Koch",
+      "customer": null,
+      "impacted_module": "Search",
+      "themes": ["meta_fields", "multi_value"],
+      "demand_summary": "Multiple-value lookup field searchable with multiple values at once (today one value per Add search field). Implementation-phase blocker.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/172703"
+    },
+    {
+      "id": 203211,
+      "title": "Search resultview - add contacts to custom result views",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen",
+      "customer": "Strålsäkerhetsmyndigheten, Tullverket, Sveriges Riksbank, Transitio, Jordbruksverket",
+      "impacted_module": "Search",
+      "tags": "Innovation board meeting; Knowledge Team SE; SEmigrationblocker",
+      "themes": ["cross_entity", "result_views"],
+      "demand_summary": "Contact column in custom case AND document advanced search result views.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/203211"
+    },
+    {
+      "id": 208230,
+      "title": "Jordbruksverket: add fields to Case advanced search result views",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen",
+      "customer": "Jordbruksverket",
+      "impacted_module": "Search",
+      "themes": ["meta_fields", "result_views", "one_to_many"],
+      "demand_summary": "Contacts, process plan, case references, keywords in result views; including one-to-many fields. 'If possible to add all relevant fields... probably interesting for many customers.'",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/208230"
+    },
+    {
+      "id": 239645,
+      "title": "Estate - Search field is missing in Advances search",
+      "state": "New",
+      "assigned": "Sebastian Reichmann",
+      "customer": "KUM - Slots- og Kulturstyrelsen",
+      "impacted_module": "Search",
+      "themes": ["meta_fields", "default_search_form"],
+      "demand_summary": "Property number should be on standard Estate advanced search form, not only via Add search field.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/239645"
+    },
+    {
+      "id": 129543,
+      "title": "Alignment of 'Enter' use in 'Advanced Search'.",
+      "state": "New",
+      "assigned": "Willy Koch",
+      "customer": "KFST",
+      "impacted_module": "Search",
+      "themes": ["ux_parity"],
+      "demand_summary": "Enter-key search works for Contact but not Case/Document/Project in advanced search.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/129543"
+    },
+    {
+      "id": 258728,
+      "title": "Change search field to show results of \"all words\" instead of \"begins with\"",
+      "state": "New",
+      "assigned": null,
+      "customer": "DSS",
+      "impacted_module": "Search",
+      "themes": ["meta_fields", "operator"],
+      "demand_summary": "Responsible field: 'all words' matching instead of 'begins with' across Case/Document wizards.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/258728"
+    },
+    {
+      "id": 377579,
+      "title": "PB360: Search for responsible units different than the ones being used in PB360",
+      "state": "New",
+      "assigned": null,
+      "customer": "Arendal kommune P&B, Grimstad kommune P&B",
+      "impacted_module": "Plan&Build",
+      "themes": ["cross_entity", "case_document"],
+      "demand_summary": "Advanced search case+document for wrong responsible unit vs PB360 units.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/377579"
+    },
+    {
+      "id": 188808,
+      "title": "Advanced search to eArchive when adding access requests from P360",
+      "state": "New",
+      "assigned": null,
+      "customer": "DSS",
+      "impacted_module": "eArchive",
+      "themes": ["cross_system", "search_entry"],
+      "demand_summary": "Advanced search when adding eArchive requests (parity with P360 path).",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/188808"
+    },
+    {
+      "id": 388375,
+      "title": "Configure valid journal units (impacts advanced search case)",
+      "state": "Closed",
+      "assigned": "Willy Koch",
+      "customer": "SVENSKA KYRKAN",
+      "impacted_module": "Configurations",
+      "themes": ["cross_entity"],
+      "note": "Closed 2026-03-27 — was Tier A in CSV extract; no longer open PFR",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/388375"
+    }
+  ],
+  "related_live": [
+    {
+      "id": 386446,
+      "title": "NIPPON GASES - Global Search filter views as in Advanced Search",
+      "state": "Closed",
+      "customer": "NIPPON GASES NORGE",
+      "impacted_module": "Search",
+      "changed": "2026-03-02",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/386446"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<workUnit id="F1D9413A-B5DD-421E-8F95-C49F6E8473C3" displayName="[LOCALIZED(AD2B76F8-AB53-4D3C-9E15-8FBE3688D406,*Expired Deadline date on activities)]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(3AB14FD7-0DBA-4B65-AE9C-A8F46EA24D7C,*Process actions for activities like phases that has an expired deadline date (not Wait Task). Activity must have a connected Work Unit to be processed)]</description>
+  <executable file="ProcessWaitActions.xml">
+    <invoke>
+      <arguments>
+        <argument name="expiredDateField" type="string">DeadlineDate</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.Hourly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

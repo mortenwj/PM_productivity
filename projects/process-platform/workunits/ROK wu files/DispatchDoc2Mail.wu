@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="FU23DB2B27-2BD4-4980-A18D-BC6E6E68BD77" 
+	visibility="external"
+    displayName="Dispatch Document - Doc2Mail">
+  <description>Dispatches a specific document through Doc2Mail</description>
+  <categories>
+    <category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Fujitsu.eDoc.WU.DispatchDocumentThroughDoc2Mail.Execute">
+      <arguments>
+        <argument name="DocumentRecno" type="string">#null#</argument>
+      </arguments>
+	  <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

@@ -1,0 +1,405 @@
+Process Framework – Identity & Positioning (v1)
+1. Anchor Identity
+Product Anchor: Productized process platform with multiple consumption models
+The Process Framework is positioned first and foremost as a product platform, not a consulting offering and not a single hosted service. It provides a standardized, configurable foundation for end-to-end public-sector processes, with different commercial and delivery models layered on top.
+In short: One platform – multiple ways to consume value.
+2. One-Sentence Positioning
+For public-sector organizations that need compliant, efficient, end-to-end case handling, the Process Framework is a configurable process platform that standardizes and automates core workflows—without bespoke development—while supporting both self-service configuration and ready-made hosted processes.
+3. What It Is / What It Is Not
+What it is
+A productized process platform embedded in Public 360°
+A standardized yet configurable foundation for end-to-end processes
+A platform that includes a curated collection of process model templates and process engine templates to ensure fast adoption
+A starting point, not a blank canvas: customers get ready-made structures they can configure and extend
+A scalable alternative to custom process development
+A value multiplier for other Public 360° capabilities (e-services, documents, integrations, AI)
+A platform designed for reuse, consistency, and continuous improvement across customers
+What it is not
+❌ A one-off consulting framework
+❌ A fully bespoke process development service
+❌ Just a template library (templates are included, but value comes from the platform + execution + rules)
+❌ A static collection of diagrams or documentation
+❌ A single-purpose workflow engine
+4. Mental Model (How Customers Should Think About It)
+“A process operating system for Public 360°.”
+The framework defines how work flows, what must happen, and when decisions are allowed
+Customers plug in:
+Standard processes
+Rules and compliance logic
+Documents, integrations, and automations
+They choose how much they want to configure themselves vs. consume as a managed service
+5. Platform Layers & Value Acceleration
+The Process Framework is structured in clear layers to separate core product value from adoption acceleration and optional extensions. This ensures fast customer adoption while preserving long-term scalability and pricing clarity.
+5.1 Core Platform (Always Included)
+The core platform is always included as part of the Process Framework subscription and represents the non-negotiable foundation of the product.
+It consists of three tightly integrated components:
+Process Models – define structure, phases, milestones, and transitions
+Process Engine – executes workflows, automation, and integrations
+Business Rules Engine (BRE) – governs decisions, compliance, and constraints
+These components together form the execution heart of the framework and enable standardized, automated, and compliant end-to-end processes.
+5.2 Adoption Accelerators (Included by Default)
+To ensure rapid time-to-value and reduce implementation risk, the platform includes a curated set of adoption accelerators by default.
+Included accelerators:
+Process model templates for common public-sector case types
+Process engine templates with preconfigured automation and flow logic
+Standard process library built on validated customer and pilot use cases
+Best-practice configurations for phases, milestones, and checklists
+These accelerators ensure customers do not start from a blank canvas, while still allowing full configuration and extension within the platform.
+5.3 Extensions & Add-ons (Optional)
+Extensions are optional capabilities and services that allow customers to scale, specialize, or accelerate beyond the default platform.
+Examples include:
+Custom or domain-specific process development
+Advanced automation and integration scenarios
+Additional process packs or specialized templates
+Advisory services, workshops, and training
+This layer supports differentiated customer needs without fragmenting the core product.
+6. Commercial Consumption & Pricing Models
+The Process Framework is delivered as one unified platform. All customers access the same core capabilities and adoption accelerators. Differentiation is achieved through how the platform is consumed and paid for, not through feature fragmentation.
+This ensures:
+A single product roadmap
+Predictable product behavior across customers
+Flexible commercial models aligned to customer maturity
+6.1 Consumption Model 1: Single Process Access
+Purpose: Low-barrier entry and targeted use cases.
+Customers pay for access to one specific end-to-end process, delivered on top of the unified platform.
+Characteristics:
+Access limited to one activated process
+Platform capabilities are used but not fully exposed
+Ideal for small organizations or isolated needs
+Acts as an entry point to broader platform adoption
+Commercial intent:
+Transactional or limited subscription pricing
+Clear upgrade path to broader access models
+6.2 Consumption Model 2: End-to-End Process Subscription
+Purpose: Standardized, repeatable value with fast time-to-market.
+Customers subscribe to a set of standardized end-to-end processes (Hosted Processes), fully managed and continuously improved.
+Characteristics:
+Predefined processes with limited configuration
+Platform is consumed as a managed service
+Low operational overhead for the customer
+Predictable pricing and rapid onboarding
+Commercial intent:
+Subscription priced per process or process bundle
+Optimized for volume and scalability
+6.3 Consumption Model 3: Full Platform Access
+Purpose: Maximum flexibility and long-term value creation.
+Customers subscribe to full access to the Process Framework, including self-service configuration and modeling.
+Characteristics:
+Full access to platform capabilities
+Ability to configure, extend, and govern processes independently
+Supports complex, cross-domain process landscapes
+Designed for mature or large organizations
+Commercial intent:
+Subscription pricing anchored in organizational value and scale
+Optional add-ons for services and advanced capabilities
+6.4 Strategic Principle
+One platform. Multiple pricing models. Clear upgrade paths.
+Customers can start small and expand their usage over time without migrating products or changing architecture.
+7. Pricing Dimensions (Architecture)
+Pricing for the Process Framework is anchored in organizational tiering, with controlled variation based on process scope and complexity. This makes pricing predictable, procurement-friendly, and easy to scale.
+7.1 Primary Pricing Anchor: Organization Tier
+The organization tier is the primary unit for quoting and contracting.
+Typical tier indicators:
+Organization size (e.g. small, medium, large municipality or agency)
+Estimated annual case volume
+Number of users / departments involved
+Each tier defines:
+A base platform subscription
+A set of included process entitlements
+Expected support and governance level
+Rationale:
+Aligns with how public-sector organizations budget and procure
+Provides predictable and transparent pricing
+Creates a stable foundation for long-term subscriptions
+7.2 Included Process Entitlements (per Tier)
+Each organization tier includes a defined level of process usage.
+Examples of entitlements:
+Number of active end-to-end processes included
+Allowed complexity level (e.g. automation, integrations, rules)
+Access to standard process and engine templates
+This ensures customers clearly understand what is included before additional costs apply.
+7.3 Variable Expansion: Process Scope & Complexity
+Beyond the included entitlements, pricing scales with process scope and complexity.
+Expansion triggers may include:
+Activating additional end-to-end processes beyond the included amount
+Introducing higher automation or integration complexity
+Covering additional domains or case types
+Commercial handling:
+Step-up pricing or add-on subscriptions
+Clear, predefined price increments
+7.4 Guardrails for Sales and Customers
+To avoid ad-hoc pricing and negotiation drift, the model enforces clear guardrails:
+Organization tier sets the starting price
+Process entitlements are explicit and measurable
+All expansions follow predefined pricing rules
+This ensures consistency across deals while remaining flexible for different customer needs.
+7.2 Dimension B: Process Scope & Complexity
+Pricing also scales with how broadly and deeply the platform is used.
+Typical scope indicators:
+Number of active end-to-end processes
+Complexity of processes (phases, milestones, rules)
+Degree of automation and integration
+Number of domains or case types covered
+Rationale:
+More processes and higher complexity unlock more efficiency and automation
+Encourages expansion while keeping entry barriers low
+7.3 Combined Pricing Logic
+Customers pay more as they grow larger and as they activate more processes and complexity.
+This combined model:
+Avoids penalizing small customers
+Rewards gradual adoption and expansion
+Aligns price with realized value over time
+8. Example Packaging (Public-Sector–Specific, Non-Numeric)
+To make the pricing architecture concrete and easy to communicate, the unified platform can be packaged using public-sector–specific organization tiers. These examples are illustrative and intentionally non-numeric.
+8.1 Small Municipality / Small Public Agency
+Typical profile
+Limited number of departments
+Focus on a few high-impact, regulated processes
+Limited internal IT and process modeling capacity
+Included access
+Unified Process Platform (full core platform)
+Adoption accelerators and standard templates
+Access to 1–2 end-to-end standard processes
+Basic automation and integration patterns
+Typical use cases
+Single permit or application process
+Complaints or simple case handling
+Growth path
+Add additional end-to-end processes
+Upgrade to broader subscription as needs mature
+8.2 Medium Municipality / Mid-sized Public Agency
+Typical profile
+Multiple departments and case domains
+Clear need for standardization across teams
+Moderate internal digitalization maturity
+Included access
+Unified Process Platform (full core platform)
+Adoption accelerators and standard templates
+Access to multiple end-to-end processes across domains
+Higher automation and integration usage
+Typical use cases
+Multiple citizen-facing services
+Cross-departmental case flows
+Growth path
+Activate additional processes
+Increase automation and rule complexity
+Expand toward full platform governance usage
+8.3 Large Municipality / Directorate / Central Government Agency
+Typical profile
+High case volume and regulatory complexity
+Many domains and specialized case types
+Strategic focus on efficiency, compliance, and reuse
+Included access
+Unified Process Platform (full access)
+Full self-service process modeling and governance
+Broad portfolio of end-to-end processes
+Advanced automation, integrations, and rules
+Typical use cases
+Large-scale, regulated end-to-end processes
+Portfolio-level process governance and optimization
+Growth path
+Continuous expansion of process portfolio
+Advanced analytics, optimization, and AI-enabled automation
+8.4 Key Packaging Principle
+All tiers use the same platform. Differences are defined by scope, scale, and activated value—not by different products.
+This approach ensures fairness, transparency, and a clear upgrade path as organizations grow or mature.
+9. Market Narrative & Product Story (v1)
+This section defines a clear, repeatable narrative that can be used by sales, leadership, partners, and product to explain the Process Framework consistently.
+9.1 The Core Idea: Individual Standard
+Individual Standard captures the central promise of the Process Framework.
+Public-sector organizations no longer want:
+Expensive, slow, and risky bespoke software projects
+Solutions that degrade over time due to heavy customization
+Vendor lock-in caused by upgrades that break tailored functionality
+At the same time, they cannot accept rigid one-size-fits-all standard solutions.
+They need:
+Standard, commercially available solutions with SaaS-like benefits
+Predictable upgrades, security, and compliance
+The ability to support their specific processes, integrations, metadata, and regulatory context
+Individual Standard means combining the benefits of standard software with the flexibility required for individual and segment-specific needs — without reverting to bespoke development.
+9.2 The Problem We Solve
+Public-sector organizations are under increasing pressure to:
+Deliver faster and more predictable case handling
+Ensure compliance with complex and changing regulations
+Reduce manual work and operational cost
+Provide better transparency for citizens and employees
+Today, many organizations are forced to choose between:
+Rigid standard solutions that don’t fit their reality, or
+Costly bespoke development that is slow, risky, and hard to maintain
+This trade-off is no longer acceptable.
+9.3 Our Answer
+The Process Framework delivers Individual Standard in practice.
+It provides a unified process platform where organizations can:
+Start quickly with standard, proven end-to-end processes
+Configure and extend processes to match individual or segment-specific needs
+Integrate with existing systems and metadata models
+Embed compliance, deadlines, and decision logic directly into workflows
+All of this is achieved without custom code that breaks upgrades or increases long-term cost.
+9.4 How to Explain It in 30 Seconds
+“The Process Framework in Public 360° is built on the idea of Individual Standard. Customers get a standard, commercially supported process platform with SaaS benefits, but with the flexibility to adapt processes, rules, integrations, and metadata to their own reality. It removes the need to choose between rigid standards and expensive bespoke solutions.”
+9.5 Why This Is Different
+Compared to bespoke development
+Faster implementation
+Lower total cost of ownership
+No upgrade debt or solution degradation
+Reduced vendor lock-in
+Compared to rigid standard or generic workflow tools
+Designed for public-sector case handling
+Individual and segment-specific configuration built in
+Native integration with Public 360°
+End-to-end processes with compliance by design
+9.6 Core Value Messages (Sales-Ready)
+Individual Standard – standard software, individually adaptable
+No upgrade debt – configure without breaking future versions
+SaaS benefits, public-sector fit – security, compliance, predictability
+Start fast, evolve safely – one platform, many ways to consume
+9.7 What Customers Actually Buy
+Customers are not buying templates or diagrams. They are buying:
+Predictability instead of project risk
+Flexibility without bespoke cost
+Long-term sustainability instead of technical debt
+Freedom from vendor lock-in
+9.8 Positioning Statement (External)
+The Process Framework in Public 360° delivers *******************************Individual Standard*********************************: a unified process platform that combines standard end-to-end processes with deep configurability — giving public-sector organizations SaaS benefits without sacrificing their individual needs.**
+10. Objection Handling & Narrative Stress Test
+This section prepares sales, leadership, and product teams to confidently address common objections from customers, procurement, IT, and architecture stakeholders.
+10.1 “Why not just build this ourselves?”
+What they mean:
+We want control
+We already have developers or partners
+Custom feels safer
+Response:
+Building processes is not the hard part — maintaining them over time is
+Custom solutions quickly accumulate upgrade debt, compliance risk, and hidden cost
+The Process Framework provides the same control through configuration, but with:
+Predictable upgrades
+Shared improvements
+No long-term maintenance burden
+Anchor back to Individual Standard:
+“You get individual fit without owning bespoke code.”
+10.2 “Isn’t this just a template library?”
+What they mean:
+We’ve seen template promises before
+We’re worried about rigidity
+Response:
+Templates are starting points, not the product
+The real value is the platform:
+Process execution
+Rules and compliance enforcement
+Integration and automation
+Templates accelerate adoption but do not limit flexibility
+Anchor back to Individual Standard:
+“Standard where it should be, individual where it must be.”
+10.3 “Will this lock us into your way of working?”
+What they mean:
+Fear of vendor lock-in
+Fear of forced upgrades or loss of control
+Response:
+The framework separates:
+Platform logic
+Process structure
+Business rules
+This allows adaptation without rewriting or breaking the solution
+Upgrades improve the platform without invalidating customer-specific configuration
+Anchor back to Individual Standard:
+“You adapt the standard — the standard does not lock you in.”
+10.4 “Is this flexible enough for our special cases?”
+What they mean:
+Our organization is unique
+Regulations or processes are complex
+Response:
+The platform is designed specifically for regulated, complex public-sector processes
+Business Rules Engine enables fine-grained control without code
+Integrations, metadata, and process variations are first-class capabilities
+Anchor back to Individual Standard:
+“Individual complexity handled on a standard platform.”
+10.5 “How is this different from a BPM or workflow tool?”
+What they mean:
+Why not buy a generic engine?
+Response:
+Generic BPM tools require heavy tailoring to fit public-sector case handling
+The Process Framework is:
+Built into Public 360°
+Aware of cases, documents, deadlines, and compliance
+End-to-end, not task-centric
+Anchor back to Individual Standard:
+“Not a generic tool adapted to government — but a government-ready standard.”
+10.6 “What happens when our needs change?”
+What they mean:
+Fear of future constraints
+Fear of reimplementation
+Response:
+The unified platform supports gradual expansion:
+Start with one process
+Add more over time
+Increase automation and governance as maturity grows
+No migration between products or architectures
+Anchor back to Individual Standard:
+“Change is expected — the platform is built for it.”
+10.7 Summary for Sales
+Individual Standard means customers never have to choose between:
+Standard software or individual needs
+Fast delivery or long-term sustainability
+Control or predictability
+The Process Framework is designed to remove these trade-offs — permanently.
+11. Core Elements of the Process Platform
+At its core, the Process Framework is a process platform built around three tightly integrated components. Together, these components form the heart of the framework and enable standardized, automated, and compliant end-to-end processes.
+11.1 Process Models
+Purpose: Define what the process looks like.
+Process Models describe the structural blueprint of a case or workflow. They define how work is organized from start to finish and provide a shared, standardized understanding of the process.
+Key characteristics:
+Definition of phases, states, milestones, and transitions
+Reusable and versioned process templates
+Adaptable to different case types and domains
+Supports standardization while allowing local configuration
+Process Models ensure consistency, predictability, and transparency across cases and organizations.
+11.2 Process Engine
+Purpose: Execute how the process runs.
+The Process Engine is the execution layer that brings process models to life. It orchestrates tasks, automation, integrations, and user interactions across the lifecycle of a case.
+Key characteristics:
+Event-driven execution of process steps
+Automation of tasks, handoffs, and system actions
+Integration with e-services, documents, notifications, and external systems
+Supports both synchronous and asynchronous processing
+The Process Engine ensures reliable flow, reduces manual work, and enables true end-to-end automation.
+11.3 Business Rules Engine (BRE)
+Purpose: Decide when actions are allowed or required.
+The Business Rules Engine evaluates conditions and enforces rules independently of hard-coded logic. It ensures compliance, quality, and consistent decision-making across all processes.
+Key characteristics:
+No-code / low-code rule definition
+Event-, state-, and time-based rule triggers
+Separation of rules from process logic
+Explainability and traceability of decisions
+The BRE enables rapid adaptation to regulatory changes and reduces risk by embedding compliance directly into the process platform.
+11.4 How the Components Work Together
+Process Models define the structure
+Process Engine executes the flow
+Business Rules Engine governs decisions and constraints
+Together, they form a cohesive platform that supports automation, governance, and continuous improvement—without bespoke development.
+12. Primary Value Promise
+Standardization without rigidity. Automation without custom code. Compliance by design.
+Key value dimensions:
+Faster time-to-market for new processes
+Reduced manual work and fewer errors
+Predictable compliance and deadline handling
+Lower total cost of ownership over time
+Reuse of best-practice processes across customers
+13. Who This Is For (Primary Lens)
+Public-sector organizations with regulated, repeatable processes
+Customers who want:
+Standardization and flexibility
+Reduced dependency on custom development
+Predictable cost and delivery models
+This includes:
+Large state agencies and directorates
+Mid-sized and large municipalities
+Smaller organizations via hosted or single-process offerings
+14. Strategic Implications (Internal Alignment)
+Product: Invest in standard process libraries and self-service capabilities
+Sales: Lead with platform value, then guide customers to the right consumption model
+Services: Support adoption and acceleration—not act as a bottleneck
+Pricing: Anchor on subscription value, with clear upgrade paths and add-ons
+14. Open Questions (to Validate Next)
+Should the platform be branded as a distinct sub-brand, or remain tightly coupled to Public 360° naming?
+How explicit should we be about automation and AI as part of the identity vs. future roadmap?
+Do we want to position this as a market category creator or a best-in-class execution platform?

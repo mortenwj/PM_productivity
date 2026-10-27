@@ -1,0 +1,15 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" id="285A7028-7043-4978-B9B8-D14424E0619D" displayName="[LOCALIZED(64EC8313-386D-425C-B683-6BFED31CAEED,*Change document status for signing)]">
+  <description>[LOCALIZED(4BC0DE07-A437-4168-BD22-B3C39A3C8B25,*Change document status after the file has been sent to signing)]</description>
+  <categories>
+    <category>Script</category>
+    <category>Signing</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.Signing.WorkUnits.SetDocumentStatusAfterSendToSigning, SI.Biz.Core.Signing">
+    <invoke>
+      <arguments>
+        <argument name="signingId" type="int"/>
+        <argument name="documentId" type="int"/>
+      </arguments>
+    </invoke>
+  </executable>
+</workUnit>

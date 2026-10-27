@@ -1,0 +1,8 @@
+<workUnit displayName="Fu Dispatch Monitor Engine" id="e4128d49-5428-47f8-994c-9066b1419ce7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Start or stop the FU Dispatch Monitor Engine</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Immediatly" runAs="SystemDefault" resultType="none" category="Server:SRVPRDAPP11" />
+</workUnit>

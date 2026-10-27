@@ -1,0 +1,155 @@
+Slides: 27
+
+
+--- Slide 1 ---
+
+Process Framework in Public 360° – Commercial Packaging & Sales Playbook
+Structured methods enhancing sales and packaging strategies
+[NOTES] AI-generated content may be incorrect.
+
+---
+
+--- Slide 2 ---
+
+Executive Overview
+[NOTES] Title Slide: Process Framework in Public 360°
+
+--- Slide 3 ---
+
+Title Slide: Process Framework in Public 360°
+[NOTES] The Process Framework in Public 360° Commercial Packaging & Sales Playbook is designed to empower sales teams, product leaders, delivery leadership, and public-sector decision makers with a strategic, platform-first approach to value creation. The central message is clear: One Platform. Multiple Ways to Create Value. This unified solution eliminates fragmentation, offering a consistent architecture for municipalities and agencies to streamline operations, enhance compliance, and drive efficiency. The playbook sets the stage for a procurement-friendly, confident, and clear engagement model, emphasizing a clean corporate layout and visual hierarchy. By focusing on minimal text, strong headlines, and simple diagrams, the presentation ensures clarity and executive accessibility. The platform-centric philosophy positions Public 360° as the foundation for scalable, sustainable transformation, enabling organizations to start small, expand intelligently, and mature their process governance without disruptive migrations or costly bespoke development. This introduction establishes the tone for a strategic journey through commercial packaging, sales guardrails, and customer-centric value propositions.
+
+--- Slide 4 ---
+
+Platform Strategy
+[NOTES] fied Platform: Core Idea
+
+--- Slide 5 ---
+
+One Unified Platform: Core Idea
+[NOTES] Public 360° operates as a single, unified platform where all customers leverage the same Process Framework, core engine, and roadmap. Continuous improvements are delivered across the board, ensuring every organization benefits from the latest advancements. The platform supports different consumption levels, allowing flexibility without product fragmentation. This approach guarantees that municipalities and agencies avoid the pitfalls of bespoke solutions, maintaining standardization and automation without custom code. The visual representation—a platform block with three layered consumption levels—illustrates how organizations can scale their engagement while remaining anchored to a robust, future-ready architecture. By centralizing process management, Public 360° simplifies procurement, reduces operational complexity, and fosters a culture of innovation. The strategic focus on platform unity ensures that every customer, regardless of size or maturity, can access the same high-value capabilities, driving consistent outcomes and supporting long-term sustainability.
+
+--- Slide 6 ---
+
+Public-Sector Challenges
+[NOTES] Why Change Is Needed
+
+--- Slide 7 ---
+
+Why Change Is Needed
+[NOTES] Public-sector organizations face mounting pressure to standardize case handling, reduce manual work, improve compliance, and shorten processing times. The traditional reliance on bespoke development leads to costly, fragmented solutions that hinder agility and scalability. By adopting Public 360°, agencies can achieve standardization without rigidity and automation without custom code, addressing key pain points such as operational inefficiency, regulatory risk, and resource constraints. The platform’s design enables municipalities to streamline workflows, enhance data integrity, and support transparent governance. This strategic shift is essential for meeting evolving public expectations, optimizing service delivery, and ensuring sustainable transformation. The closing message—Standardization without rigidity. Automation without custom code—captures the essence of the platform’s value proposition, positioning Public 360° as the answer to the sector’s most pressing challenges.
+
+--- Slide 8 ---
+
+Commercial Model
+[NOTES] to Start
+
+--- Slide 9 ---
+
+Three Ways to Start
+Model | Key Features | Sales Message
+Single Process Access | One activated process, managed configuration, standard automation, fixed implementation package | Start small. Demonstrate value. Expand when ready.
+Managed Multi-Process | Multiple activated processes, predictable operational model, scalable up to 5+ processes, structured implementation | Scale standardization safely.
+Full Platform Access | Self-service modeling, governance & portfolio visibility, advanced automation, version control ownership | Own your process architecture.
+[NOTES] Public 360° offers three distinct entry points for organizations: Single Process Access, Managed Multi-Process, and Full Platform Access. Each model is tailored to different consumption depths, enabling customers to prove value, scale safely, or own and govern their process architecture. Single Process Access allows organizations to start with one end-to-end process, demonstrating immediate value and establishing a clear expansion path. Managed Multi-Process supports scaling standardization across multiple processes without increasing platform fees, providing predictable operations and structured implementation. Full Platform Access empowers customers with self-service modeling, governance visibility, advanced automation, and version control ownership. The commercial model emphasizes flexibility, scalability, and governance, ensuring that every organization can engage at the right level and transition seamlessly as their needs evolve. The table below summarizes the three models, highlighting their unique benefits and alignment with the platform’s unified architecture.
+
+--- Slide 10 ---
+
+Consumption Levels
+[NOTES] Level 1: Single Process Access, Level 2: Managed Multi-Process, Level 3: Full Platform Access
+
+--- Slide 11 ---
+
+Level 1: Single Process Access
+[NOTES] Level 1 enables organizations to prove value with a single end-to-end process. The offering includes a platform subscription anchored at the organization tier, one activated process, managed configuration, standard automation, and a fixed implementation package. This model is designed for rapid deployment, minimizing risk and complexity while providing a clear path for expansion. The sales message—Start small. Demonstrate value. Expand when ready—underscores the strategic advantage of beginning with a focused, manageable scope. Organizations benefit from predictable outcomes, streamlined onboarding, and the ability to scale as their needs grow. This entry point is ideal for municipalities seeking to validate the platform’s impact before committing to broader adoption, ensuring alignment with procurement requirements and operational goals.
+
+--- Slide 12 ---
+
+Level 2: Managed Multi-Process
+[NOTES] Level 2 supports organizations in scaling standardization without introducing complexity. Multiple activated processes are managed through a predictable operational model, with scalable capacity up to five or more processes without platform fee increases. Each process receives structured implementation, ensuring consistency and efficiency across the organization. Managed configuration and operational discipline enable agencies to expand their process portfolio safely, maintaining control over scope and delivery. The sales message—Scale standardization safely—highlights the platform’s ability to support growth while protecting margins and avoiding bespoke pitfalls. This model is suited for organizations ready to move beyond initial pilots, leveraging the platform’s strengths to drive broader transformation and operational excellence.
+
+--- Slide 13 ---
+
+Level 3: Full Platform Access
+[NOTES] Level 3 empowers organizations to take full control of their process governance. Features include self-service modeling, governance and portfolio visibility, advanced automation capabilities, version control ownership, and cross-domain orchestration. This model is future-ready, supporting advanced use cases and complex operational requirements. Customers gain autonomy over their process architecture, enabling rapid innovation and strategic alignment. The sales message—Own your process architecture—emphasizes the premium value of governance, control, and flexibility. Full Platform Access is ideal for mature organizations seeking to optimize their operations, manage risk, and drive sustainable transformation across multiple domains.
+
+--- Slide 14 ---
+
+Growth Strategies
+[NOTES] Horizontal vs Vertical Growth
+
+--- Slide 15 ---
+
+Horizontal vs Vertical Growth
+Growth Type | Key Actions | Benefits
+Horizontal Growth | Add processes, structured implementation, no platform fee increase beyond ~5 processes | Flexible scaling, predictable costs, operational consistency
+Vertical Growth | Upgrade to Full Platform, unlock modeling autonomy, governance control, advanced automation | Premium control, strategic governance, future-ready capabilities
+[NOTES] Customers expand within Public 360° through two primary strategies: horizontal growth (scale) and vertical growth (power). Horizontal growth involves adding processes, each with structured implementation, without increasing platform fees beyond approximately five processes. This approach enables organizations to scale their operations flexibly, supporting incremental adoption and operational consistency. Vertical growth focuses on upgrading to Full Platform Access, unlocking modeling autonomy, governance control, and advanced automation. The tagline—Scale is flexible. Control is premium—captures the essence of the platform’s value proposition, offering organizations the choice to expand breadth or deepen control as their needs evolve. This dual strategy ensures that municipalities and agencies can tailor their engagement to their unique requirements, supporting both operational efficiency and strategic governance.
+
+--- Slide 16 ---
+
+Implementation Approach
+[NOTES] Structured, Predictable Delivery
+
+--- Slide 17 ---
+
+Structured, Predictable Delivery
+[NOTES] Public 360° delivers a structured, predictable implementation model for each process. Fixed implementation packages define clear scope envelopes, eliminating open-ended consulting and ensuring margin protection. Structured add-on packs are available for extra integrations or complexity, supporting tailored solutions without compromising delivery discipline. This approach emphasizes operational predictability, procurement alignment, and risk mitigation. By avoiding bespoke promises and maintaining a standardized delivery framework, organizations benefit from consistent outcomes, transparent pricing, and scalable transformation. The model is designed to protect delivery margins, support rapid onboarding, and enable agencies to focus on value creation rather than project management challenges.
+
+--- Slide 18 ---
+
+Customer Journey
+[NOTES] Prove → Expand → Mature
+
+--- Slide 19 ---
+
+Prove → Expand → Mature
+[NOTES] The customer journey within Public 360° follows a clear progression: prove value with one process, expand by adding more processes, reach maturity, and upgrade to Full Platform Access. This flow ensures organizations can start small, validate outcomes, and scale intelligently without disruptive migrations or reimplementation. The architecture remains consistent throughout, supporting seamless transitions and long-term sustainability. Key messages include the elimination of migration risk, preservation of operational continuity, and alignment with strategic goals. By providing a clear expansion path and supporting maturity through governance and automation, Public 360° enables municipalities and agencies to achieve their transformation objectives efficiently and confidently.
+
+--- Slide 20 ---
+
+Year 1 Focus
+[NOTES] What We Emphasize Now (Pre-BRE)
+
+--- Slide 21 ---
+
+What We Emphasize Now (Pre-BRE)
+[NOTES] In Year 1, Public 360° emphasizes structured flow, standardization, faster time-to-value, reduced manual coordination, and upgrade-safe architecture. The focus is on delivering immediate operational improvements and supporting procurement-friendly engagements. Advanced rule automation and deep decision logic are not prioritized at this stage, ensuring organizations can achieve rapid results without unnecessary complexity. This approach aligns with public-sector requirements for predictability, transparency, and risk reduction. By concentrating on foundational capabilities, Public 360° sets the stage for future enhancements, supporting a phased transformation journey that maximizes value and minimizes disruption.
+
+--- Slide 22 ---
+
+Customer Value Proposition
+[NOTES] What Customers Actually Buy: Beyond Features
+
+--- Slide 23 ---
+
+What Customers Actually Buy: Beyond Features
+[NOTES] Customers engage with Public 360° for benefits that go beyond technical features. The platform delivers predictability instead of project risk, flexibility without bespoke cost, upgrade safety, long-term sustainability, and reduced transformation risk. These value drivers are essential for public-sector organizations seeking to optimize operations, manage budgets, and ensure compliance. By focusing on outcomes rather than features, Public 360° positions itself as a strategic partner in transformation, supporting agencies in achieving their goals with confidence and clarity. The procurement-friendly model ensures transparent pricing, clear expansion paths, and sustainable engagement, making Public 360° the platform of choice for municipalities and agencies.
+
+--- Slide 24 ---
+
+Sales Guardrails
+[NOTES] Deal Discipline: Sales Checklist
+
+--- Slide 25 ---
+
+Deal Discipline: Sales Checklist
+Guardrail | Description
+Organization tier defined | Clear customer segmentation and entitlement
+Process entitlement clear | Explicit process allocation per deal
+Capability level selected | Appropriate feature set chosen
+Implementation package included | Fixed scope and pricing
+Expansion path communicated | Transparent growth options
+No bespoke promises | Standardized delivery, no custom commitments
+No feature-based discounting | Value-driven pricing discipline
+[NOTES] Sales teams are guided by a disciplined checklist to ensure deal integrity and alignment with the platform’s value proposition. Key guardrails include defining the organization tier, clarifying process entitlement, selecting the appropriate capability level, including the implementation package, communicating the expansion path, avoiding bespoke promises, and refraining from feature-based discounting. This structured approach protects margins, supports predictable delivery, and maintains the platform’s strategic positioning. By adhering to these guardrails, sales teams can engage confidently with public-sector decision makers, ensuring transparent, procurement-friendly transactions that drive sustainable growth and customer satisfaction.
+
+--- Slide 26 ---
+
+Executive Summary
+[NOTES] The 30-Second Pitch: Clear Positioning
+
+--- Slide 27 ---
+
+The 30-Second Pitch: Clear Positioning
+[NOTES] The Process Framework in Public 360° is a unified platform. You can start with one end-to-end process to prove value. As you grow, you activate more processes. When you’re ready for deeper governance and modeling control, you upgrade — without changing architecture. This concise summary encapsulates the strategic, procurement-friendly, and platform-first philosophy of Public 360°, providing sales teams, product leaders, and public-sector decision makers with a clear, confident positioning statement. The executive-friendly design, consistent color palette, and use of icons for scale, control, governance, and automation reinforce the platform’s value and support effective communication across all stakeholder groups.

@@ -1,0 +1,14 @@
+<workUnit id="AA9EDE32-85BB-4387-BE94-3724F572074D"
+          displayName="Search testing"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>...</description>
+  <executable assemblyType="SI.Biz.Core.Search.WorkUnits.SearchTest, SI.Biz.Core.Search">
+    <invoke>
+      <arguments>
+        <argument name="entities">ContactGeneric,File</argument>
+        <argument name="query">thor</argument>
+      </arguments>
+    </invoke>
+  </executable>
+</workUnit>

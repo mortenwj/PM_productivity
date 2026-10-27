@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="340B6706-3341-4468-998F-7CB068FFBB62"
+          displayName="ImportArchiveCleanup Office">
+  <description>Event handler for cleaning up old documents from importarchive that are created by Office add-in</description>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Events.ImportArchiveCleanup.CleanupForOfficeAddin, SI.Biz.Core.WorkUnits">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.ImportArchiveCleanupEventShim, SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430" name="OnCleanup"/>
+</workUnit> 

@@ -1,0 +1,13 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="4EE7711C-68BC-4DCF-AE33-C8C1894D6E1D"
+          displayName="Document note summary event">
+  <description>Event handler for generating a summary file of document notes when the document closes.</description>
+  <executable assemblyType="SI.Biz.Core.EntityNotes.Events.DocumentNoteSummary, SI.Biz.Core.EntityNotes">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.DocumentManagerEventShim, SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430" name="AfterUpdate"/>
+</workUnit>

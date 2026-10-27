@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="d72c88ec-57e4-41d0-9caa-25adbc9c6e84"
+      displayName="[LOCALIZED(078551b1-f0c2-4f21-a305-024f7785cc0a,*Non-accepted/rejected case distribution notification)]">
+  <description>[LOCALIZED(159e43a7-b1d8-4a03-a03f-ea152ce3894e,*Job that checks if there are distributed cases that have been not accepted/rejected for a certain number of days and based on that triggers notification to be sent. The days are specified in the setting "case.distributionresponsegracedays")]</description>
+  <executable file="CaseDistributionNotifications.xml">
+    <invoke/>
+  </executable>
+  <job queue="Sys.Nightly" runAs="SystemDefault" resultType="none"></job>
+</workUnit>

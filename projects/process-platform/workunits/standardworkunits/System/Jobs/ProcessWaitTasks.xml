@@ -1,0 +1,8 @@
+<invokes>
+    <invoke routing='route://SI.Biz.Core.ProcessEngine.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430//SI.Biz.Core.ProcessEngine.Runtime.Surface.WaitTaskManager/ProcessWaitTasks'> 
+        <parameters> 
+           <parameter name='categories' dtype='string'>[Categories]</parameter>
+           <parameter name='maxExecutionMinutes' dtype='int'>[maxExecutionMinutes]</parameter>
+        </parameters> 
+    </invoke> 
+</invokes>

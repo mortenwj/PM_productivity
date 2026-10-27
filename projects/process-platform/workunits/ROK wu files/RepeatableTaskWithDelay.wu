@@ -1,0 +1,31 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="48533940-2291-4147-904C-93AEB22C9D27"
+    displayName="Repeatable task with delay">  
+  <description>Perform a task, wait for a given time on a respose. And repeat</description>
+  <categories>
+    <category>WaitTask Action Expired</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="WaitTaskId" type="string" comment="table: Activity"/>
+        <!-- TimeSpan object -->
+        <argument name="XTaskExpirationDate" type="object"/>
+        <!-- Will be called if we dont get a response within the delay time -->
+        <argument name="XTaskExpirationWorkUnitId" type="string"/>
+        <!-- Will be called if we get a response -->
+        <argument name="XTaskCompletionWorkUnitId" type="string"/>
+        <!-- Will be called with correlation token as input -->
+        <argument name="XTaskWorkUnitId" type="string"/>
+        <!-- The delay waittask description -->
+        <argument name="XTaskDescription" type="string"/>
+        <!-- We repeat the same workunit -->
+        <argument name="XTaskNextWorkUnitId" type="string"/>
+        <!-- The next waittask description -->
+        <argument name="XTaskNextDescription" type="string"/>
+        <!-- Will be called with correlation token as input -->
+        <argument name="RepeatAtDate" type="object"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

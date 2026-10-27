@@ -1,0 +1,7 @@
+﻿<invokes>
+  <invoke routing='route://SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430//SI.Biz.Core.Compatibility.HistoryManager/CleanUp'>
+    <parameters>
+      <parameter name='id' dtype='string'></parameter> `        
+    </parameters>
+  </invoke>
+</invokes>

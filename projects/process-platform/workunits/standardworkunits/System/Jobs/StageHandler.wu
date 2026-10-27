@@ -1,0 +1,9 @@
+<workUnit id="b9ec5581-8143-4f2a-b7c4-1d453e287626" xsi:noNamespaceSchemaLocation="..\..\..\WorkUnit.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ displayName="[LOCALIZED(b9ec5581-8143-4f2a-b7c4-1d453e287626,*Stage date handler )]">
+  <description>[LOCALIZED(b9ec5581-8143-4f2a-b7c4-1d453e287626,*Stage date handler)]</description>
+  <executable assemblyType="SI.Biz.Core.ProcessPlatform.Support.Jobs.StageDateJob.StageDateJob, SI.Biz.Core.ProcessPlatform.Support">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="allaccess_serviceaccount" resultType="none" />
+</workUnit>

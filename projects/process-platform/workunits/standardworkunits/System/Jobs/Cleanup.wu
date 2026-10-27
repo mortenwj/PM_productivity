@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="58063E6D-0DBF-421C-8DAE-5F779A5498BF"
+    visibility="public"
+    displayName="[LOCALIZED(57e53f3e-b038-4533-a6b9-6e49fe08fbdf,*Cleanup Files)]">
+  <description>[LOCALIZED(53f5112b-1110-4841-95b4-f90e1511b309,*Cleanup Files)]</description>
+  <executable file="Cleanup.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="disposal_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

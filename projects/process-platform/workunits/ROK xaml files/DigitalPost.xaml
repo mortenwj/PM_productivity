@@ -1,0 +1,69 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="DigitalPost"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="DocumentId" Type="InArgument(x:String)" />
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>DigitalPost_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sbcpa:ContextBinder>
+      <sbcpa:ContextBinder.Parameters>
+        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call Terminate If Passed Away" Parameters="[{ProgressPlanId}]" WorkUnit="TermindateIfCaseContactPassedAway =&gt; FuBFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_3" />
+      </sbcpa:ContextBinder.Parameters>
+      <sap2010:WorkflowViewState.IdRef>ContextBinder_4</sap2010:WorkflowViewState.IdRef>
+    </sbcpa:ContextBinder>
+    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_3">
+      <sbcpa:ContextBinder.Parameters>
+        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call Dispatch via Doc2Mail" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_2" Parameters="[{DocumentId}]" WorkUnit="Dispatch Document - Doc2Mail =&gt; FU23DB2B27-2BD4-4980-A18D-BC6E6E68BD77" />
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d2hDOlxQcm9ncmFtIEZpbGVzICh4ODYpXFNvZnR3YXJlIElubm92YXRpb25cMzYwXHdvcmt1bml0c1xDdXN0b21cZURvY0dlbmVyaWNcRGlnaXRhbFBvc3RcRGlnaXRhbFBvc3QueGFtbAknAzQOAgEBKAUtGwIBBy4FMhsCAQIqCSqbAgIBCDAJMI8CAgEDKnMqhwECAQoqkQEq4QECAQkwpwEwtwECAQUwwQEwjAICAQQ=</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_3" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="ContextBinder_4" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="ContextBinder_3" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="236,380">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="DigitalPost_1" sap:VirtualizedContainerService.HintSize="276,460" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

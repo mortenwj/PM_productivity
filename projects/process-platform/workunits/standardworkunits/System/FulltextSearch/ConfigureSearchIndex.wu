@@ -1,0 +1,10 @@
+<workUnit id="ED6B85B1-2192-4856-9D26-B3C48E3B7F81"
+          displayName="Search Index Configuration"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" visibility="external">
+  <description>Configures the search index</description>
+  <executable assemblyType="SI.Biz.Core.Search.AzureSearch.ConfigureAzureSearchIndex, SI.Biz.Core.Search">
+    <invoke>
+    </invoke>
+  </executable>
+</workUnit>

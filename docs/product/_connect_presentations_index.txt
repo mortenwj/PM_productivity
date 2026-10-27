@@ -1,0 +1,721 @@
+
+================================================================================
+1_JennyFelldin_MortenJensen___Hvordan formes morgendagens løsninger.pptx
+================================================================================
+--- Slide 1 ---
+1 (1) List the primary groups or individuals to whom you’ll be communicating. (2) If you had to narrow that to a single person, who would that be What does your audience care about That we have a product that evolves with their needs If what we are showing them is accessible for them (available in DK, for their hosting setup, their version...) A common thread between this presentaiton & what will be the focus throughout the coming day(s) (4) What action does your audience need to take? FORM YOUR BIG IDEA What is at stake? Who is your audience ? Big Idea worksheet for: Hvordan formes modgondagens losninger For å lykkes med å forme morgendagens løsninger må vi sammen med våra kunder och deras eiere av Public 360° ta aktive steg nå, ikke bare for å effektivisere saksbehandling, men for å skape smartere, mer intuitive løsninger som gir reell samfunnsnytte What are the benefits if your audience acts in the way that you want them to? They understand the value of our product portfolio They become engaged and connect to P360 employees throughout the days to discuss their needs & how our products can support these They participate actively in the workshop sessions What are the risks if they do not?
+--- Slide 2 ---
+Confidential 2 Public 360° Connect​ 2026 Hvordan formes morgendagens løsninger ? Jenny Felldin, Morten Jensen Public 360 °
+--- Slide 3 ---
+Agenda Sådan har 360 ° formet morgendagen , allerede i dag Hvordan 360 ° former fremtidens løsninger 3
+--- Slide 4 ---
+4 Forbedre offentligt ansattes arbejdsliv og borgernes hverdag.
+--- Slide 5 ---
+Understøtter værdikæden for digitale tjenester – et samlet, forbundet økosystem 5 Indsaml Sagsbehandle Effektivisér arbejdsgange med sagsstyringsværktøjer, der automatiserer beslutninger, følger fremdriften og reducerer manuelt arbejde. Højere datakvalitet. Få adgang til vores rammeværk til procesautomatisering. Publicér Lever information og opdateringer med det samme via webportaler eller apps, og skab gennemsigtighed og engagement Arkivér Sikr compliance og tilgængelighed ved at opbevare kritiske data, dokumenter og sagsforløb sikkert Engagér Indsaml enkle , strukturerede data gennem intuitive digitale selvbetjeningsløsninger på web og i portaler 360 ° Opengov 360 ° collect 360 ° med indbygget intelligens Sikker tovejskommunikation med borgere og opdateringer af sager i realtid (beta) 360 ° My pages
+--- Slide 6 ---
+Sådan har 360 ° formet morgendagen , allerede i dag
+--- Slide 7 ---
+Sådan har 360 ° formet morgendagen , allerede i dag 360 ° OpenGov Cases and Documents Indsaml Arkivér 360 ° Collect 360 ° RDF Sagsbehandling Publicér Engagér 360 ° Mimir 360 ° Flow 360 ° Management Reporting API 360 ° Search Assistant
+--- Slide 8 ---
+Sådan har 360 ° formet morgendagen , allerede i dag Løbende forbedring af eksisterende løsninger
+--- Slide 9 ---
+Confidential 9 … I får mere at vide i løbet af de kommende dage
+--- Slide 10 ---
+360 ° Flow 31. august 13:15 – 13:45: Public 360° som motor for end-to-end-processer 10
+--- Slide 11 ---
+Confidential 11 Sammenhængende flow til bedre sagsbehandling 360° Flow samler processer, sagsbehandling og understøttende information i Public 360° Flow fra dag ét Kontrol over hver sag Tid til det, der kræver mere mindre manuelt arbejde • hurtigere sagsbehandling • ensartet kvalitet • lettere onboarding Fejl koster. 360° Flow sikrer indbygget struktur og vejledning gennem alle trin i processen Alle sager behandles ens – uanset hvem der håndterer dem. Faser, milepæle, dokumenter og tjeklister på én skærm. 360° Flow giver jer færdige, aktiverbare processer Rutineopgaver automatiseres. Sagsbehandlere får mere tid til arbejde, der kræver faglig dømmekraft og erfaring.
+--- Slide 12 ---
+Fra: Enkeltstående opgaver, dokumenter ind/ud, information tilgængelig
+i flere faner
+--- Slide 13 ---
+Til: Et procesorienteret arbejdsområde med de nødvendige
+oplysninger samlet ét sted
+--- Slide 14 ---
+360 ° Collect 31. august 14:00 – 14:30: Vores nye skemaløsning - 360° Collect 14
+--- Slide 15 ---
+Confidential 15 En indgang til al interaktion mellem borgere/virksomheder og den offentlige sektor. Direkte indsamling Modtager strukturerede data direkte i Public 360 via SIF. Bedre drift Reducerer manuel efterbehandling . Forbedrer datakvaliteten . Opret formularer Gør det nemt for den offentlige sektor at oprette og digitalisere formularer . Intuitivt for borgerne Udviklet til Public 360 Udviklet specifikt til at levere data til det system I har tillid til .
+--- Slide 16 ---
+16 360 ° Collect – digital dataindsamling
+--- Slide 17 ---
+360 ° mimir 360 ° Search Assistant 31. august 14:30 – 15:00: AI i sagsbehandling – Search Assistant ( og 360° Mimir) 17
+--- Slide 18 ---
+18 360 ° Mimir – personlig assistent Forklarer rutiner Vejleder i Public 360° Gør opgaver enklere 360 ° Search Assistant – find information med naturligt sprog Søg med naturligt sprog Sikrer resultater på tværs af data Kobler søgning med analyse og statistik Integreret intelligent support til alle medarbejdere
+--- Slide 19 ---
+360 ° Management Reporting API 31. august 15 :50 – 16:20: Management reporting En klar vej fra 360° til BI-værktøjer 19
+--- Slide 20 ---
+360 ° Management Reporting API - en klar vej fra 360° til BI-værktøjer 20 Mindre manuelt arbejde, mere analyse Bygget til store datamængder Stabilt, hurtigt og skalerbart Erstatter egne SQL-løsninger og manuel API-mapping
+--- Slide 21 ---
+360 ° Sign 1. September 12:40 – 13:10: eSigning with MitID and FK Login 21 Gør digitale processer til sikre transaktioner
+--- Slide 22 ---
+22 360 ° Sign 360 ° eSigning Connect 360 ° Underskrivere identificerer sig Gennemgår dokumenter til underskrift Underskriver eller afviser Start underskriftsflowet fra 360° Følg flowets status Flyt det underskrevne dokument fra 360° Sign til 360° Færdiggør indholdet, før det sendes til underskrift Opbevaringssted for jeres dokumenter eSigning med 360° Send til underskrift Overfør det underskrevne dokument tilbage til 360°
+--- Slide 23 ---
+Plan & Build 360 ° 1. September 09 :40 – 10:10: Byggesager : Hvad er Plan & Build? 23
+--- Slide 24 ---
+Plan & Build 360° - én løsning til hele planlægnings- og byggesagsprocessen​​ P lan & Build 360° Historisk arkiv Folkeregister Digital post Ansøgningsservices Økonomisystemer Ejendomsregister Integreret kort / GIS Indbygget process- støtte
+--- Slide 25 ---
+Produktopdateringer, der er særligt relevante for det danske marked Confidential 25 eSigning med MitID og FK Login er nu klar til danske kunder 360° Collect understøtter danske borgere direkte med MitID-autentificering eDoc-kommunalfunktionalitet er indbygget i Public 360° som standard Byggesager + GIS & BOM Integration til KOMBIT-infrastruktur Møder Generisk sagsbehandling 360°-integration med Det Centrale Personregister (CPR) Understøttelse af dansk flerniveausagsstruktur
+--- Slide 26 ---
+Hvordan 360 ° former fremtidens løsninger
+--- Slide 27 ---
+Faktorer , der former morgendagens løsninger Ny teknologi Samfund , brugere , organisation Regulatorisk landskab
+--- Slide 28 ---
+Faktorer , der former morgendagens løsninger Brugerorienteret værdiskabelse Fokus på at forstå problemerne og løse de reelle udfordringer Kundesamarbejde og feedback! Ny teknologi Samfund , brugere , organisation Regulatorisk landskab
+--- Slide 29 ---
+29 Lad os identificere behovene sammen under
+Public 360° Connect 2026 1. September: Workshops 1 0.10 - 11.40: Procesjagten – vær med til at identificere morgendagens procesløsninger Search and reporting Mere end teknologi – realisér det fulde potentiale i Public 360° Fra eDoc til Public 360°
+--- Slide 30 ---
+Faktorer , der former morgendagens løsninger Indbygget compliance Databeskyttelse og sikkerhed – ”by design” Udvikles i takt med lovgivningsmæssige ændringer Håndtere det geopolitiske landskab Brugerorienteret værdiskabelse Fokus på at forstå problemerne og løse de reelle udfordringer Kundesamarbejde og feedback! Ny teknologi Samfund, brugere , organisation Regulatorisk landskab
+--- Slide 31 ---
+Public 360º – en langsigtet partner Vores pålidelige software opfylder en lang række branchestandarder ISO 9001 Quality ISO 14001 Environment ISO 27701 – Information security ISO 27001 Privacy
+--- Slide 32 ---
+Faktorer , der former morgendagens løsninger Ansvarlig innovation AI og automatisering integreret på en ansvarlig måde Menneskecentreret , forklarlig og sikker Fra data til indsigt : bedre beslutningsstøtte Indbygget compliance Databeskyttelse og sikkerhed – ”by design” Udvikles i takt med lovgivningsmæssige ændringer Brugerorienteret værdiskabelse Fokus på at forstå problemerne og løse de reelle udfordringer Kundesamarbejde og feedback! Ny teknologi Samfund , brugere , organisation Regulatorisk landskab
+--- Slide 33 ---
+Med indbygget intelligens tilbyder vi AI-innovation til dokument - og sagsbehandling i den offentlige sektor på en tryg , omkostningseffektiv og fremtidssikker måde . 33 2. Brugerdrevet design Sikker og effektiv implementering i hele organisationen 3. Kontrollerbare omkostninger Public 360 ° AI-innovation 4. Central drift og videreudvikling 1. Integreret i fagprocesserne og skaber målbare gevinster Integreret AI og analyse Automatisering &
+Intelligent brugeroplevelse Proces innovation
+--- Slide 34 ---
+Roadmap
+--- Slide 35 ---
+Individuel standard Fleksibilitet til forskellige behov Intelligent processtøtte fra start til slut (E2E) Fokusér på det, der skaber mest værdi Byg en digital helhed Sømløs integration mellem systemerne
+--- Slide 36 ---
+Note: All areas on the Public360° roadmap can be changed, both in terms of delivery time and whether they will be delivered. Public 360° Roadmap Individuel standard
+( Kernefleksibilitet ) Byg en digital helhed (E2E-økosystem ) Intelligent processtøtte Intelligent Registration 360°  Flow: Online Process Models New 360° API Full Flex UI for all entities 360° Flow: Process Library NG 360° Meeting Mgmt API Gateway 360° My Pages 360° Asset Management Office Alternatives 360° Flow: Business Rules Engine New search experience
+--- Slide 37 ---
+37 Tak for opmærksomheten Vi ser frem til dialogen Tieto Indtech – Public 360° public360@tietoevry.com www.tieto.com/public-360
+--- Slide 38 ---
+Public 360° Roadmap Proactive Decision​ Support​ Expert Domain​ Knowledge​ Automated & Transparent​ Intuitive Design Sustainable & Ethical​ Case Templates Process Models Process Library FFUI: Contact FFUI: Document New Outlook Support 360° API Gateway 360° Search Assistant Case Time Prediction Intelligent Registration NG Integration API 360° GAI API NG 360° Meeting Mgmt 360° My Page 360° Asset Management Digital Notice Board eDoc (DK Municipality Market Fit) Note: All areas on the Public360° roadmap can be changed, both in terms of delivery time and whether they will be delivered. Linux / Custom Containers / Kubernetes Platform OpenGov (Publishing from P&B, Board & Meetings)
+
+================================================================================
+2_Tone&Morten_Public_360°_som_motor_for_processer.pptx
+================================================================================
+--- Slide 1 ---
+Problemet 1 I offentlig sagsbehandling bliver vi konstant bedt om at gøre to ting på én gang. Vi skal behandle sager på samme måde – samtidig med at vi håndterer, at ingen to sager er ens Det er ikke et kompetenceproblem. Det er et strukturelt problem.
+--- Slide 2 ---
+Hvad er udfordringen i den offentlige sektor? Mange organisationer har digitale løsninger, men opfølgningen af sager og processer er stadig ofte fragmenteret. 1 Fragmenteret opfølgning Sagshåndtering går på tværs af roller, enheder og systemer. Det gør det udfordrende at følge den samme sag helhedsorienteret fra start til slut. 2 For lidt ledelsesinformation Ledere og professionelle fællesskaber mangler ofte et overordnet billede af status, deadlines, ansvar og flaskehalse i processen. 3 Højere efterspørgsel med knappere ressourcer Organisationer skal levere mere effektivt, mere ensartet og med bedre overholdelse, mens kapacitet og ekspertise er under pres. Konsekvensen er en større risiko for forsinkelser, forskellige praksisser og svagere opfølgning. Derfor er der behov for bedre processtøtte og et klarere overblik over hverdagen.
+--- Slide 3 ---
+Baggrund, behov og retning fremadrettet 3 Intern
+--- Slide 4 ---
+Vores løfte i Public 360 4
+--- Slide 5 ---
+5 Vi understøtter hele værdikæden af digitale tjenester Indsamling/e-tjenester Indsaml strukturerede data nemt gennem intuitive e-tjenester. Øget datakvalitet Automatisering af processer Strømliner arbejdsgange med sagsværktøjer, der kan hjælpe med at automatisere processer, følge fremskridt og reducere manuelt arbejde. Øget datakvalitet Udgivelse Offentliggør information og opdateringer direkte via webportaler eller apps, hvilket sikrer gennemsigtighed og engagement Arkivering Sikre overholdelse og tilgængelighed ved sikkert at opbevare kritiske data, dokumenter og sagshistorik digitalt Mine sider Sikre tovejskommunikation til borgerne og opdateringer i realtid af sager. (Under afprøvning) 360 ° 360 ° OpenGov 360° My Pages 360° Capture eArchive 360° Public 360° 360° Flow
+--- Slide 6 ---
+Understøtter værdikæden for digitale tjenester – et samlet, forbundet økosystem 6 Indsaml Sagsbehandle Effektivisér arbejdsgange med sagsstyringsværktøjer, der automatiserer beslutninger, følger fremdriften og reducerer manuelt arbejde. Højere datakvalitet. Få adgang til vores rammeværk til procesautomatisering. Publicér Lever information og opdateringer med det samme via webportaler eller apps, og skab gennemsigtighed og engagement Arkivér Sikr compliance og tilgængelighed ved at opbevare kritiske data, dokumenter og sagsforløb sikkert Engagér Indsaml enkle , strukturerede data gennem intuitive digitale selvbetjeningsløsninger på web og i portaler 360 ° Opengov 360 ° collect 360 ° med indbygget intelligens Sikker tovejskommunikation med borgere og opdateringer af sager i realtid (beta) 360 ° My pages
+--- Slide 7 ---
+Understøtter værdikæden for digitale tjenester – et samlet, forbundet økosystem 7 Indsaml Publicér Lever information og opdateringer med det samme via webportaler eller apps, og skab gennemsigtighed og engagement Arkivér Sikr compliance og tilgængelighed ved at opbevare kritiske data, dokumenter og sagsforløb sikkert Engagér Indsaml enkle , strukturerede data gennem intuitive digitale selvbetjeningsløsninger på web og i portaler 360 ° Opengov 360 ° collect 360 ° med indbygget intelligens Sikker tovejskommunikation med borgere og opdateringer af sager i realtid (beta) 360 ° My pages 360° Flow Strømliner arbejdsgange med sagsværktøjer, der kan hjælpe med at automatisere processer, følge fremskridt og reducere manuelt arbejde. Øget datakvalitet Automatisering af processer
+--- Slide 8 ---
+Digital arbejdsgang Proces fra start til slut for digital ansøgningsbehandling Alle trin samlet på én vandret linje fra indsendelse til arkivering → → → → → → → 1 Indsendelse Ansøgning indsendt digitalt 2 Sagsoprettelse Sagen oprettes automatisk 3 Kobling Procesmodel og tjeklistesæt 4 Kvittering Ansøgeren modtager et automatisk svar 6 Mangler Afvigelser opdages og korrigeres 7 Deadlines Tid og deadlines styres 8 Mine sider Ansøgeren ser status undervejs 9 Arkivering Sagen afsluttes og arkiveres Bemærk: Nummereringen er bevaret fra originalen. Tieto Intern 2
+--- Slide 9 ---
+9 Procesmodel - Kernekomponenter
+--- Slide 10 ---
+Offentlig 360°, version 6.8 - Fremskridt - Fra: Enkeltopgaver, dokument ind/ud, information tilgængelig i flere faner 10 10
+--- Slide 11 ---
+11 Til: Et procesorienteret arbejdsområde med den nødvendige information samlet ét sted - Public 360°, version 6.10/6.12 - Proces
+--- Slide 12 ---
+Demo 12
+--- Slide 13 ---
+Sådan kommer du i gang med Flow. 13 13 Mål og forventet resultat af workshoppen Gennem en praktisk og faciliteret workshop vil du kunne arbejde med en eller to specifikke processer fra din egen virksomhed. Målet er at skabe et fælles grundlag for yderligere procesforbedring og samtidig give dig erfaring med Flow-procesrammen. . Flow er inkluderet i Basic for op til to procesmodeller og forudsat at kunden bestiller et implementeringsprojekt samtidig.
+--- Slide 14 ---
+Leveringsmetoder Nem levering af processer Nu Procesrammeværk Snart Hostet tjeneste (standardiseret) Senere Hvordan kommer du videre? 14
+--- Slide 15 ---
+15 Tak for opmærksomheden
+
+================================================================================
+4_Lisa_Olausson_our new eservices solution.pptx
+================================================================================
+--- Slide 1 ---
+From digital intake to case follow-up Our new eServices solution - 360° Collect Lisa Olausson – Product manager DK Connect 2026 Confidential 1
+--- Slide 2 ---
+Supports the value chain for digital services – All in one seamlessly connected ecosystem 2 Capture Process Streamline workflows with case management tools that automate decisions, track progress, and reduce manual workload. Increased data quality. Gain access to our process automation framework. Publish Deliver information and updates immediately via web portals or apps, and ensure transparency and engagement Archive Ensure compliance and accessibility by securely storing critical data, documents, and case history Engage Collect simple structured data through intuitive e-services in web and portals 360 ° Opengov 360 ° collect 360 ° with built-in intelligence Secure two-way communication with citizens and real-time case updates (beta) 360 ° My pages Public
+--- Slide 3 ---
+Why we built 360° Collect 3 The challenge we saw at our customers: Fragmented processes for data capture Low data quality A lot of manual rework No connection between forms and case handling Poor data capture leads to inefficiency, errors and uncertainty across the whole value chain. Public
+--- Slide 4 ---
+What is 360 ° Collect ? Public 4 Platform to build and manage digital forms Built in integration to 360° via SIF
+--- Slide 5 ---
+Guided fields Mandatory fields, drop-downs, choices and format validation. Fewer input errors Dynamic forms Questions appear or hide based on the user's own answers. Only relevant answers Direct to 360 ° Submissions flow directly into 360 ° via SIF integration No re-keying How 360° Collect improves data quality Public 5 Prefilled data Name, address and contact details fill in at log-in. No re-typing
+--- Slide 6 ---
+Built for public sector requirements Public 6 Retention and archiving Aligned with your policies ✓ Nordic eID login BankID, MitID, Buypass, FTN and more ✓ Entra ID for staff Organisations and internal users sign in with existing accounts ✓ Authentication before submit Can be required form by form ✓ Accessible forms Fulfils accessibility requirements on any device ✓ Logging and audit trail Full traceability of what was submitted and when ✓ Admin notifications Alerts to administrators when something fails
+--- Slide 7 ---
+Highlights in 360° Collect Public 7 AI assistant Describe a form in natural language, or upload an existing one, and get a draft in seconds. Automatic translation Offer the same form in several languages without building it twice. AutoSaver & Flow Archive submissions with 360° AutoSaver and trigger processes in 360° Flow.
+--- Slide 8 ---
+Where 360° customers start with Collect 8 Building & planning Permits, notifications and neighbour processes — many attachments, much manual work today. Social & welfare Applications and change-of-circumstance forms — sensitive data handled correctly. Business & licensing Registrations, permits and recurring reporting from companies. HR & operations Leave, onboarding and internal requests — a fast, low-risk first win. Identify the unstructured attachments that arrives today Re-design as a digital form Structured case in 360° From unstructured intake to a case that is already registered
+--- Slide 9 ---
+Three roles, one integrated flow Public 9 Role In Collect / portal In Public 360° Administrator Builds forms, authentication, branding, publishing — Citizen / user Finds the e-service, logs in with eID, submits — Caseworker — Handles the case exactly as today Configure Publish Submit Case in 360 ° Collect owns the intake experience.
+--- Slide 10 ---
+10 Time to demo
+--- Slide 11 ---
+11 - Want to test submit a form in Collect?
+--- Slide 12 ---
+Collect fixes intake. What is the next natural step?
+--- Slide 13 ---
+13 “We need a better way to communicate with citizens and businesses. Not just send in, but also follow up.”
+--- Slide 14 ---
+The way forward 14 360° Collect and 360° My Page together for a stronger citizen journey The next major step is to build a My Page module for a complete citizen interface See clear status on submitted cases Receive notifications and a better overview of important events Access information linked to the case and communicate with caseworkers Support for submitting complements The goal is a coherent experience for citizens, where forms, communication and case handling in 360° all connect.
+--- Slide 15 ---
+Tusen tack! Contact me for more information: Lisa.olausson@tieto.com
+--- Slide 16 ---
+Five reasons to add Collect to your 360 environment Confidential 16 Save time Automate data flow into 360 — less manual registration Ensure compliance Security, governance and regulatory alignment built in Control costs Usage-based pricing — pay for forms submitted Deploy quickly First e-services in days, not a multi-year programme Easy to use Customer can build and maintain forms with minimal training
+--- Slide 17 ---
+Collect starts the journey — My Page continues it Confidential 17 The gap after submission No unified place to follow case status Decisions and documents are hard to reach Complements arrive as email attachments Neighbour hearings and referrals handled ad hoc My Page — the next step Clear status on submitted cases Notifications and an overview of key events Access to tasks and documents linked to the case Complements submitted digitally, not by email 360° Collect and 360° My Page together — one coherent citizen journey
+--- Slide 18 ---
+Predictable packages, fast time to value Confidential 18 Commercial model Annual package based on the number of submitted forms Three tiers, with overage if volumes grow Integration with Public 360° is included in the Collect licence eID through Idura is priced separately Implementation approach Start with 5–10 forms: workshop, build, test, go live Consultant packages from light technical setup to full advisory Typical first production go-live in weeks, not years Next step: a 90-minute discovery workshop  ·  live demo  ·  pilot conversation
+--- Slide 19 ---
+Organisations like yours are already on this journey Confidential 19 Market pull Active customer dialogues and tender requirements across Nordic municipalities, regions and agencies. Shared learning Collect is on the agenda at user days, brukerforum and customer webinars. Close support Product team and SPOCs engaged directly in every early-release implementation.
+--- Slide 20 ---
+Next steps — then let's look at it live Confidential 20 1 Book a 90-minute discovery workshop with registrars, IT and communications 2 Pick 5–10 high-volume or high-pain forms to digitise first 3 Build, test and go live — in weeks, with as much or as little help as you want Up next: 10 minutes live in 360 Collect Questions afterwards: [Your name] · [email] · Public 360 RDF team
+--- Slide 21 ---
+21 With 360° Collect we are meeting a sector need. The Norwegian Agency for Shared Services in Education and Research ( Sikt ) have long needed a solution like this. Now it’s here. It makes it possible to quickly establish support for processes when needed. The solution is fast, reliable, secure, and accessible — and is an integral part of a stronger digital value chain. It is important that the solution is built in a responsible and secure manner, adapted to the requirements of the public sector. “
+--- Slide 22 ---
+What is 360 ° Collect is today? Confidential 22 Today we have a product that Makes it easy for the public sector to create and digitalize forms. Receives data directly into Public 360 via SIF. Reduces manual post-processing. Improves data quality.
+--- Slide 23 ---
+Drag-and-Drop E-Services in Days, Not Months Confidential 23 Create, publish and track forms with unlimited users — no extra licences, no code. Browser builder: add fields, logic and uploads in seconds. Drag-and-drop components—no code, no plugins. Conditional pages, repeaters and rich text out of the box Publish to your own branded portal—citizens log in, track status. BankID / eIDAS sign-in, multi-language UI, mobile-first. Built-in “My cases” dashboard; zero extra licence cost. Tenants & templates: head office creates once, every branch reuses. Parent → Sub-tenant sharing with one click. Governance logs who changed what and when. Seamless integration with case/document systems Automated data collection, no code.
+--- Slide 24 ---
+Collect starts the journey. My Page continues it. Confidential 24 The gap after submission No unified place to follow case status Decisions and documents are hard to reach Complements arrive as email attachments Neighbour hearings and referrals handled ad hoc My Page (Min side) Standalone citizen portal connected to Public 360° via SIF Caseworkers stay in 360 — My Page is the outward window Case list, documents, decisions, upload and message 360 Collect — intake optional Public 360° — handling you already have this My Page — follow-up roadmap: target H2 2027
+--- Slide 25 ---
+Design, publish and manage digital forms Confidential 25 Build and manage digital forms and e-services Collect data from citizens, businesses and internal users Authenticate with Nordic eID ( MitID ) and Entra ID Integrate securely with Public 360° Replaces fragmented paper and email workflows with structured digital intake.
+--- Slide 26 ---
+Citizens submit. Caseworkers re-type. Everyone waits. Confidential 26 Fragmented intake Impact Paper, email, PDF, scattered web forms Unstructured data Manual registration in 360 Delays and errors Phone and email for status Caseworker time lost Compliance and accessibility Hard to guarantee
+--- Slide 27 ---
+A day in the life of one application Confidential 27 Same story in every municipality — and none of it is the caseworker’s fault Monday Anna applies She fills in a PDF at her kitchen table and emails it in. Tuesday Erik re-types it A caseworker keys the same details into Public 360° by hand. Thursday Anna calls There is no status to look up, so she phones the switchboard. Two weeks on The case starts Most of that time was waiting and re-typing, not case work.
+--- Slide 28 ---
+One application, four manual hand-offs Confidential 28 Two weeks before real case work starts — every hand-off is manual, and nothing is anyone’s fault Anna, citizen Emails in a PDF form — and leaves two fields blank Day 0 Whichever channel is easiest Registrar Keys the same details into Public 360° by hand Day 1–2 One submission at a time Distribution Case routed to the right unit and caseworker Day 3–5 Someone has to decide who owns it and owner to pick it up Erik, caseworker Calls Anna for the missing details — processing stops Day 6+ The case waits until she picks up
+--- Slide 29 ---
+360° Collect — Build and manage digital forms Public 29 Citizen Meets you through branded digital e-services 360 Collect Forms and e-services — structured, authenticated intake Public 360° Cases, documents, caseworkers — the system of record Integration with Public 360° runs through SIF — the standard integration layer. Also works with Plan & Build 360°, Business 360° and eArchive 360°.
+--- Slide 30 ---
+Capabilities in 360° Collect Public 30 AI assistant Describe a form in natural language, or upload an existing one, and get a draft in seconds. Automatic translation Offer the same form in several languages without building it twice. AutoSaver & Flow Archive submissions with 360° AutoSaver and trigger processes in 360° Flow.
+--- Slide 31 ---
+What is 360 ° Collect ? Public 31 Platform to build and manage digital forms Built in integration to 360° via SIF Reduce manual post-processing Improve data quality
+
+================================================================================
+BrianRasmussen_Fra eDoc til Public 360.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 Fra eDoc til Public 360° Public 360 °
+--- Slide 2 ---
+Status på eDoc migreringen 2
+--- Slide 3 ---
+Public 360 ° Roadmap Confidential 3 Sagsoprettelse samt sags- og dokumentskabeloner Statistik over anvendelsen af sags‑ og dokumentskabeloner Sagsoprettelse samt sags- og dokumentskabeloner Det skal være muligt at se brugerens afdeling ved tildeling af en template Sagsoprettelse samt sags- og dokumentskabeloner Ved søgning på CPR‑nummer skal søgningen altid foretages eksternt Mødehåndtering Nyt og mere brugervenligt design Mødehåndtering Mulighed for at ændre låste detaljer Andre emner Masseopdateringsfunktionen skal have bedre rettighedsstyring, så almindelige sagsbehandlere ikke kan foretage masseændringer. Andre emner Notifikation når en sag lukkes som led i et sagsstatus‑flow Tilgængelighed Genvejstaster skal udrulles på tværs af hele brugergrænsefladen - ikke kun hvor de findes i dag Brugergrænseflade Tilpasning af kolonner i listevisning, herunder en kolonne der viser dokumentgruppe Brugergrænseflade Fane‑visning og Oversigts-visning skal vise de samme data og respektere samme listekonfiguration (herunder visning af CPR‑oplysninger) Brugergrænseflade Funktionsmæssig paritet mellem Oversigt og Forevisning (Preview)
+--- Slide 4 ---
+Public 360° Roadmap Proactive Decision​ Support​ Expert Domain​ Knowledge​ Automated & Transparent​ Intuitive Design Sustainable & Ethical​ Case Templates Process Models Process Library FFUI: Contact FFUI: Document New Outlook Support 360° API Gateway 360° Search Assistant Case Time Prediction Intelligent Registration NG Integration API NG 360° Meeting Mgmt 360° My Pages 360° Asset Management Digital Notice Board eDoc (DK Municipality Market Fit) Note: All areas on the Public360° roadmap can be changed, both in terms of delivery time and whether they will be delivered. Linux / Custom Containers / Kubernetes Platform OpenGov (Board & Meetings, MLP Publishing from P&B ) 360° RDF Platform New detail views Accessibility
+--- Slide 5 ---
+Nye features I standard produktet Mange år , versioner og udviklingstimer senere
+--- Slide 6 ---
+7 år og mange versioner senere 6 5.1 2019 Brugt som basis for mange eksisterende eDoc løsninger 5.9 2021 Teams integration introduceret 5.18 2023 Sidste version 5 med Sharepoint integration introduceret 6.0 2023 Next-gen P360° Første version 6 6.2 2024 AutoSaver introduceret 6.11 2026 Seneste Public 360° release med eDoc release Fra 5.1 I 2019 til 6.11 I 2026 med  nye muligheder ​
+--- Slide 7 ---
+7 år og mange versioner senere Fra 5.1 I 2019 til 6.11 I 2026 med  nye muligheder 5.1 2019 Brugt som basis for mange eksisterende eDoc løsninger 5.9 2021 Teams integration introduceret 5.18 2023 Sidste version 5 med Sharepoint integration introduceret 6.0 2023 Next-gen P360° Første version 6 6.2 2024 AutoSaver introduceret 6.11 2026 Seneste Public360 release med eDoc release 3
+--- Slide 8 ---
+Pains indberettet af jer 8 INDMELDT BEHOV LØSNING I PUBLIC 360° Aktindsigtfunktion der kan håndtere store datamængder Ubegrænset filupload Uploadfunktion der kan håndtere store datamængder Ubegrænset filupload Lettere vej til API Veldokumenteret SIF API Office 365 (New Outlook) Office Online-integration ( tilkøb ) Masseopdatering (timeout- problemer ) Timeout håndteret og masseopdatering direkte fra en søgning ( kvalitetssikring ) Ekstraheringssoftware Helt nyt aktindsigtmodul Redigering og sletning af favoritsøgninger — fx når de hober sig op til Sapa Ubegrænset antal favoritsøgninger i “Saved searches” JERES INPUT  →  KONKRET HÅNDTERING 1 AF 2
+--- Slide 9 ---
+Pains indberettet af jer Confidential 9 INDMELDT BEHOV LØSNING I PUBLIC 360° Færre klik Tilføj parter Nem fremsøgning af , hvornår en eller flere sager er afsluttet AI assisted search ( Tilkøb ) Logning i adminmodulet Introduceret i Public 360° Følsomhedsmærkater , så oplysninger kun skal opmærkes én gang Introduceret i Public 360° Automatiseret release Ny release hvert kvartal Bedre oversigt over historik Menubar og følg feature Mulighed for EG sagskom og Create integration Dialog foretaget med EG og Omnidocs (Pilot) Aktindsigt og workflow Helt nyt modul To- faktor Mulighed 360 – allerede aftestet JERES INPUT  →  KONKRET HÅNDTERING 2 AF 2
+--- Slide 10 ---
+Workflow I brug I Public 360°
+--- Slide 11 ---
+Workflowet binder dokument, deltagere og beslutning sammen Ét konfigurerbart forløb — fra valg af workflowtype til dokumenteret resultat GODKENDELSE     •     GENNEMGANG     • DOKUMENTER 1 Start workflow Vælg dokumenter , workflowtype (Review eller godkendelse ) 2 Vælg deltagere Sekventielt, parallelt eller betinget — person eller gruppe. 3 Behandl opgaven Læs , kommentér , eskaler godkend , afvis eller underskriv . (MitID, eSigning) 4 Afslut automatisk Opdatér status, dokumentér historik Resultat: ét sammenhængende audit-spor med realtidsstatus, kommentarer og beslutninger.
+--- Slide 12 ---
+Hvor kan workflow skabe mest værdi i jeres kommune? Tag udgangspunkt i en konkret proces — og brug spørgsmålene til at kvalificere en første pilot 01 Find friktionen Hvor oplever I ventetid , mange overleveringer eller manuel opfølgning ? Måske godkendelse via mail? 02 Design flowet Hvem skal involveres — og hvilke krav, beslutninger og data skal dokumenteres? 03 Første step Hvor kunne første step være I implementering og er der nogen friktioner for at få det implementeret ? MULIGE SAMTALESTARTERE • Indkøb og kontrakter • HR-processer • Tilskud • Borgerhenvendelser Diskussionens output: Overblik over mulige kommunale use-cases til workflow
+
+================================================================================
+BrianRasmussen_The value eDoc adds to 360°.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 Hvordan forbedrer eDoc det generelle 360° -produkt? Public 360 °
+--- Slide 2 ---
+2
+--- Slide 3 ---
+Hvorfor var eDoc interessant for Tietoevry? 3 Stærk kundeorganisation Mangeårig erfaring I det dansk kommunale ESDH landskab. Fagkompetence både inden for mødehåndtering, generel sagsbehandling, geosager mm Århus Kontor Forankret I Public 360° Selv om eDoc var sit eget produkt, var det baseret på Public 360. Det betyder at onboarding , produktforståelse og synergier var åbenlyse Funktionelt potentiale Mange små , men værdifulde tilføjelser til Public 360°, som vil løfte brugeroplevelsen markant Sagsskabeloner Automatisk sagslukning Søgebestillinger Udviklet tæt på kundernes behov Rig integrationsportefølje Meget stærkt bagkatalog med integrationer til det danske marked, udvilket tæt på kunderne KOMBIT GIS Byg & Miljø KLE Blanketløsninger
+--- Slide 4 ---
+Hvad betyder det for eksisterende Public 360°-kunder? 4 Public 360° En stærkere produktorganisation omkring Public 360°. Mere dansk kommunal domæneviden samlet ét sted. Et bredere udvalg af integrationer og funktioner. Bedre mulighed for at dele løsninger på tværs af kunder. Et stærkere grundlag for den fremtidige produktudvikling. Flere kompetencer samlet omkring Public 360° og 360°-moduler giver et bedre udgangspunkt for at løfte kundernes behov med mere sammenhæng og bedre genbrug. “Sammenlægningen handler ikke om at flytte fokus væk fra eksisterende kunder. Den handler om at samle kompetencerne, så vi kan skabe mere værdi for dem.”
+--- Slide 5 ---
+Fra kommunal tilpasning til fælles værdi Udviklet sammen med og for kommunerne eDoc er en tilpasning af Public 360 ° Formet gennem mange års kommunal praksis Tilpasset danske kommunale arbejdsprocesser Migreret til Public 360 ° v. 6 eDoc -funktionaliteten er migreret til Public 360° v. 6 Første kommune går live i september 2026 Alle kommuner forventes opgraderet inden udgangen af 2027 Værdien bliver en del af Public 360 ° standarden Udvalgt eDoc -funktionalitet moderniseres og integreres i Public 360°-standarden Dermed får alle kunder adgang til det bedste fra eDoc Confidential 5 eDoc repræsenterer mange års udvikling drevet af danske kommuners behov. Vores fokus er nu at bringe denne værdi videre ind i Public 360 ° standarden, så alle kunder får glæde af den.
+--- Slide 6 ---
+Hvilken værdi tilfører eDoc til Public 360 ° ? Effektiv og ensartet sagsbehandling Skabeloner til sagsoprettelse Planer for styring af sagsstatus Automatisk journalisering af sagsoplysninger ved sagslukning Automatisk afslutning af relaterede projekter, sager og dokumenter ved projektlukning Styrket samspil med det digitale økosystem Integration til KOMBIT-infrastrukturen Integration til GIS-løsninger Styrket kommunikation Understøttelse af masseforsendelser Understøttelse af Memo-metadata (Digital Post) Confidential 6
+--- Slide 7 ---
+Sagsoprettelse og sagsskabeloner Confidential 7
+--- Slide 8 ---
+Intuitiv og fleksibel sagsoprettelse Konfiguration af brugergrænsefladen Grænseflade i tre ruder Træk-og-slip af felter og sektioner Tilføj/fjern felter Egne sektioner, fuld skærmbredde Brugerdefinerede felter Feltegenskaber: obligatorisk, skjult m.m. Omdøb og oversæt felter Standardværdier Standardværdier på alle felter Rollebaseret konfiguration – forenklet UI med forudfyldte værdier Tilpasset til jeres forretningsprocesser og rutiner Brugerdefineret hjælpetekst (tooltip) på felter og sektioner Forretningsregler Felters synlighed, værdier og egenskaber styres af brugerens input Kun relevante felter vises – nye felter fremkommer dynamisk baseret på tidligere valg Metadata udfyldes automatisk ud fra den valgte proces Eksempel: en leder opretter en personalesag – kun minimumsfelter vises, resten udfyldes ud fra den valgte proces Confidential 8
+--- Slide 9 ---
+Demo Confidential 9
+--- Slide 10 ---
+Tusind tak ​ Build purpose-built applications faster, without customising the core system. Contact me for more information: xx.xx@tieto.com
+
+================================================================================
+HansFrom-KaareLeonhardt_ManagementReporting.pptx
+================================================================================
+--- Slide 1 ---
+Public 1 Management Reporting Ledelsesinformation, datakvalitet og compliance i Public 360° Hans From · Kaare Leonhardt Connect 2026 Public 360°
+--- Slide 2 ---
+Værdien 2
+--- Slide 3 ---
+3 Sagsdata skaber først værdi, når de gør det muligt at handle tidligere. En frist tæt på overskridelse. En voksende sagspukkel. En fejl i datakvaliteten, der opdages før aflevering eller tilsyn.
+--- Slide 4 ---
+Fire steder, hvor ledelsesinformation skaber værdi 4 De samme data understøtter daglig drift, compliance og strategiske beslutninger Høj datakvalitet Opdag manglende metadata, utilgængelige filer og ufuldstændige sagsforløb systematisk. Effektiv drift Find flaskehalse, sagspukler og kapacitetsbehov, mens der stadig kan handles. Rettidig service Se sager tæt på fristoverskridelse, før borgeren mærker konsekvensen. Sikker compliance Dokumentér frister, procedurer og obligatoriske registreringer på tværs af sager. Værdien opstår, når indsigt fører til handling Mindre manuelt kontrolarbejde, bedre prioritering og et fælles, dokumenterbart billede af driften.
+--- Slide 5 ---
+Afvigelser er dyre at opdage for sent 5 Automatiske kontroller gør kvalitet og compliance til en løbende proces — ikke en stikprøve efter skaden er sket. Frister Sager tæt på eller over den aftalte sagsbehandlingstid. Metadata Manglende, modstridende eller forkert klassificerede oplysninger. Afslutning Lukkede sager uden afslutningsdato eller korrekt status. Stilstand Åbne sager uden aktivitet gennem længere tid. Filer Korrupte dokumenter og formater, der ikke kan behandles. Adgang Passwordbeskyttede eller på anden måde utilgængelige dokumenter. Dokumentation Manglende journalisering, bilag eller obligatoriske dokumenter. Oprydning Dubletter, forældede oplysninger og data med udløbet opbevaringsbehov. Find afvigelser, før de bliver til klager og ekstraarbejde
+--- Slide 6 ---
+6 Teknikken
+--- Slide 7 ---
+7 XML-definitioner Eksempler på entiteter: Projekt Sag Sagskontakt Dokument Workflow Ejendom Etc. Skal opdateres ved tilføjelse af nye felter
+--- Slide 8 ---
+8 Dataudtræk Metoder: ETL Software Databricks i Azure Karakteristika for udtræk: Via API Delta udtræk Ønsket frekvens
+--- Slide 9 ---
+9 Dataopbevaring Mange mulige platforme: Microsoft SQL Server PostgreSQL Delta Lake på cloudlagring Kan samle data fra mange kilder inden rapportering Samlet data: Public 360° Plan & Build 360° Økonomi Andre fagsystemer Undersøgelser
+--- Slide 10 ---
+10 Visualisering Link: Informationsstyring
+--- Slide 11 ---
+Dashboardet skal føre fra overblik til handling 11 En god fremvisning besvarer fire konkrete ledelsesspørgsmål Hvad virker? Følg om en indsats reducerer fejl, ventetid eller restancer. Hvor er presset? Sammenlign sagspukler, gennemløbstid og aktivitet på tværs. Hvor er risikoen? Vis sager tæt på frist, overskredne frister og udviklingen over tid. Hvor opstår fejlene? Filtrér på sagstype, afdeling og konkrete metadataafvigelser. Fra overblik til handling 1. Overblik  →  2. Filtrering  →  3. Fremfind konkrete sager  →  4. Aftal opfølgning
+--- Slide 12 ---
+12 Kom i gang
+--- Slide 13 ---
+Overholdes frister for sagsforløb? Kommer der flere sager ind end der afsluttes i nogle afdelinger? Har vi sager liggende, som er gået i stå? Hvor mange sager bliver genåbnet? Er der en stor klage- eller omgørelsesandel? Kræver mange sager supplerende oplysninger? Har vi korrupte eller password beskyttede filer? Findes der åbne sager i lukkede arkiver? 13
+--- Slide 14 ---
+14 Find konkrete problemstillinger eller rapporteringsbehov. Definer nødvendige nøgletal at styre efter ( KPI’er ). Vurder mulige tiltag for at opnå forbedring. Følg udviklingen og se konkret effekt af handlinger (kombiner nøgletal).
+--- Slide 15 ---
+I får mere end et dataudtræk 15 Vi hjælper fra den første problemstilling til stabil opfølgning i driften Rådgivning Vi hjælper med datakvalitet, governance , fortolkning og iterativ forbedring. Tilpasning Vi tilpasser KPI'er , regler, frekvens og visninger til organisationens praksis. Afklaring Vi prioriterer styringsbehov, datakilder, målgrupper og succeskriterier. Implementering Vi etablerer definitioner, dataudtræk og integration til den valgte platform. Start småt — og skab synlig værdi hurtigt Vælg én konkret problemstilling, ét prioriteret datasæt og én tydelig målgruppe. Udvid derefter baseret på dokumenteret effekt.
+
+================================================================================
+ioanaFaber-KristofferHeideWinter - Dag 2 - WS 3.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Mere end teknologi Realiser det fulde potentiale i Public 360° Ioana Faber, Senior Forretningskonsulent Kristoffer Heide-Winther, Projektleder Den 01.09.2026
+--- Slide 2 ---
+Agenda Indledning Hvor er vi i dag? Hvor er hullerne i osten? Hvor vil vi hen? En snak om strategi Hvordan kommer vi derhen? Hvilke handlinger skal der til? Hvad gør vi nu? Opsummering og afslutning 2
+--- Slide 3 ---
+Indledning 3
+--- Slide 4 ---
+Hvor er vi i dag? 4
+--- Slide 5 ---
+Mennesker og teknologi ESDH-systemer handler ikke bare om teknologi – det handler om at få styr på organisation, dokumenter, processer og information. Der vil være behov for at koble menneske og teknologi. Teknologi mulig gøre , men er ikke en garanti for værdi. Hvad er værdien af teknologi, der ikke bliver brugt? Vigtigheden af at kende virksomhedens behov og processer. Hvad skal der til for at en ny måde at arbejde på, bliver den nye normal? 5
+--- Slide 6 ---
+Schweizisk ost Når vi ikke tager tilstrækkelig højde for den menneskelige side af organisationsudvikling, forandringer eller indførelse af teknologi, ender vi i en ”schweizisk ost-tilstand”. Med andre ord: Det er svært at udnytte fordelene og høste gevinsterne, når der bliver for mange huller. 6
+--- Slide 7 ---
+Mange organisationer har huller i osten Sags- og arkivsystemet betragtes som et nødvendigt onde ”Jeg er så sjældent inde, at jeg ikke ved, hvad jeg skal gøre derinde.” Chefen er ikke særlig interesseret i Public 360⁰ Fik ikke deltaget i kurset, har heller ikke tid til at gennemføre e-læringskurserne Fortsætter med at sagsbehandle i Outlook og ”gemmer” dokumenter der "Søgefunktion bruges ikke fordi metadataer ikke er konsistente” Manglende indsigt i muligheder Arbejdsgange er ikke analyseret – alt registreres manuelt – vi gør som vi plejer ”Det fungerede godt, da vi implementerede løsningen, men desværre  blev den ikke opdatere i takt med vores ændrede behov”. 7 Der er meget at vinde ved at lukke dem ! 
+--- Slide 8 ---
+OPGAVE Hvad er det, der får os til at investere så mange penge i teknologi, men alligevel oplever, at gevinsterne udebliver? Individuelt – 1 min Gruppe – 14 min (pr. organisation) Plenum – 5 min
+--- Slide 9 ---
+Gevinstrealisering og forvaltning 9
+--- Slide 10 ---
+10 Er et ESDH projekt lykkedes når systemet er gået i drift? Systemet virker Brugerne kan finde ud af det Arbejdsgangene fungerer Folk bruger systemet rigtigt Vi har færre fejl Vi arbejder mere effektivt Organisationen har taget det til sig Økonomien holdt Hvornår er et projekt egentlig lykkedes?
+--- Slide 11 ---
+11 … og det der sker i virkeligheden! Det der står på projektplanen Kan et projekt være grønt mens organisationen stadig er rød ? Her er 5-6 typiske udsagn: Vi har kommunikeret, at den nye løsning kommer. Vi har sendt brugervejledningen ud. Vi har gennemført undervisningen. Systemet er konfigureret. Projektet er gået i drift. Er ovenstående nok til at skabe en succesfuld forandring ?
+--- Slide 12 ---
+OPGAVE Vælg et konkret ESDH-projekt fra jeres egen organisation. Det kan være et tidligere projekt, et igangværende projekt eller noget, I overvejer. Brug score carden til at vurdere: 1) Hvor er I stærke? 2) Hvor er jeres største forbedringsmuligheder? Individuelt – 5 min
+--- Slide 13 ---
+Observerede årsager og udfordringer 13 Implementering af ny software Fokus ligger på den tekniske løsning, og målet er fantastiske resultater Topledelsen bestiller en løsning uden at inddrage slutbrugerne Kortsigtede investeringer > Langsigtede investeringer Slutbrugeren bliver overset Softwaren er blot et værktøj, der skal forbedre kvaliteten i den daglige arbejdsgang Det er let at glemme, at det er et menneske, der betjener softwaren Ved korrekt brug af systemet vil virksomhedens værdi stige Brug af ny software Indførelse og kompetenceudvikling er mangelfuld Frustration fører til utilfredshed med både softwaren og organisationen Brugerne er tilbageholdende med at anvende løsningen -> ventetiden på sagsbehandlingen bliver unødvendigt lang Motivation og trivsel Interne konflikter blandt medarbejderne pga. frustration over arbejdsredskaberne Øget sygefravær -> øget pres på de øvrige medarbejdere -> øget sygefravær -> Arbejdets kvalitet er i bedste fald tvivlsom
+--- Slide 14 ---
+Sammenhæng mellem produkt og behov Public 14 2020 2022 2024 2026 2028 2030 Ændringer i organisationsbehov, kompetence krav, organisation udvikling og krav til effektivisering Nuværende konfiguration og brug af system Nye muligheder i Public 360 ⁰ Øget GAP - mindsker fordelene ved brug af Public 360 ⁰ Funktionalitet i Public360 ⁰ GoLive
+--- Slide 15 ---
+Produkt og behov i samspil Public 15 2020 2022 2024 2026 2028 2030 Effektiv forvaltning Løbende opfølgning af oganisation og behov Løbende opfølgning  af Public360 ° og tilgængelige løsninger Opdatering af konfigurationsindstillinger og kompetencer med fokus på brugernes behov Funktionalitet i Public 360 ⁰ Ændringer i organisationsbehov, kompetence krav, organisation udvikling og krav til effektivisering Nuværende konfiguration og brug af system GoLive
+--- Slide 16 ---
+OPGAVE Hvordan arbejder I i dag med at realisere gevinster? Hvilke konkrete tiltag iværksætter I? Hvor proaktiv oplever I, at jeres organisation er, når det gælder om at udnytte mulighederne? 10 min – Gruppe – Diskuter og skriv jeres egne erfaringer ned 10 min – Plenum – Hvad er smarte tiltag?
+--- Slide 17 ---
+Pause – 10 min Internal 17
+--- Slide 18 ---
+Hvor vil vi hen? 18
+--- Slide 19 ---
+19 Vision Hvad ønsker jeres organisation at opnå over de næste 1-3 år?
+--- Slide 20 ---
+Sammenhæng mellem person, system og organisation Public 20 Når man implementerer et nyt IT-system, er det ofte de tekniske aspekter, der er i fokus. Men et værktøj giver ikke fordele, hvis man ikke udnytter det optimalt. Mennesket bør være i fokus allerede inden man planlægger et projekt. Implementering af et nyt system bør håndteres som et projekt med brugerinddragelse  fordi det åbner op for nye problemstillinger. Og nye løsninger kan opstå gennem et samarbejde. Kunne jeres organisation rustes til at tage systemet i brug på en mere effektiv måde?
+--- Slide 21 ---
+Hvordan får man folk til at engagere sig? 21 ✅ Lederengagement : Uden det sker intet ✅ Realistisk tidsplan : Rushed implementeringer mislykkes ✅ Kommunikation : Medarbejdere skal forstå hvorfor forandring finder sted – og hvornår ✅ Brugerinvolvering : Vigtigt med ejerskab og de ved hvad der kræves i praksis ✅ Kompetencer : Den rette træning på den rette tid ✅ Kontinuerlig feedback : Juster undervejs
+--- Slide 22 ---
+Siden Public 360° blev implementeret… Har organisationens eller slutbrugernes behov ændret sig? Er der kommet nye love eller forskrifter? Er der kommet ny ledelse ? Er der stadig urealiserede gevinster inden for effektivisering og automatisering? Hvordan sikres det, at løsningen understøtter virksomhedens strategi ? Hvordan arbejdes der med løbende forbedringer? Er systemets konfiguration forberedt på fremtidige løsninger ? 22
+--- Slide 23 ---
+Quick wins vs. det lange løb 23
+--- Slide 24 ---
+Hvorfor er det vanskeligt? Confidential 24 Forankring kræver tid Personlig nytte: “ What’s in it for me ?” Opbyg relationer og skab dialog. Tilbyd skræddersyet uddannelse – ikke én løsning til alle. Inddrag medarbejderne i løsningen og arbejdsformen. Følg op efter implementeringen – det giver større succes.
+--- Slide 25 ---
+OPGAVE Tag udgangspunkt i et aktuelt eller tidligere projekt og vurdere det på disse 4 dimensioner: Vi har/havde et tydeligt mål De rigtige mennesker er/var involveret Forandringen er/var tænkt ind fra starten Organisationen kan/kunne selv drive løsningen videre 10 min – Gruppe 5 min – Plenum
+--- Slide 26 ---
+Hvordan kommer vi derhen? 26
+--- Slide 27 ---
+Hvad skal der til? 27
+--- Slide 28 ---
+Anbefalet værktøj… Confidential 28
+--- Slide 29 ---
+Succesfaktorer -  de vigtigste ting, der giver resultater 29 ✔ Tydelige mål : Taxi-analogien  Hvis du ikke siger, hvor du skal hen, kommer du heller ikke frem. ✔ Brugerinddragelse : Inddrag brugerne tidligt – folk støtter det, de er med til at skabe. ✔ Løbende opfølgning : Forandring sker ikke på én dag. Det sker over tid. ✔ Klare roller og ansvar: Hvem har ansvaret for at gevinsten rent faktisk udnyttes – ikke blot for, at projektet gennemføres? ✔ Uddannelse : Det er en proces, ej en engangsforeteelse. Uddannelse skal finde sted, når folk er midt i forandringen eller som brush-up. ✔ Kapacitet Forandring tager tid. Hvis folk allerede „løber efter driften“, kan de ikke nå at ændre praksis.
+--- Slide 30 ---
+OPGAVE Brug 2 minutter på at svare individuelt på: Hvad gør I allerede godt? Hvor har I størst potentiale for forbedring? Hvad kunne I  bruge hjælp til?
+--- Slide 31 ---
+Jeres næste skridt 31 Uge 1 Konstituering af styringsgruppe Interview med 10 slutbrugere om udfordringer Kortlægning af nuværende processer ( gap analyse) Udkast til strategi & handlingsplan Godkendelse i ledelsesteam Uge 2-3 Uge 4 Uge 5-6 Uge 7 -8
+--- Slide 32 ---
+Hvad gør vi nu? 32
+--- Slide 33 ---
+Opsamling 33 De vigtigste budskaber Budskab 1 : Public360° og ESDH handler om mennesker og processer, ikke bare teknologi Budskab 2 : Gevinster realiseres ikke automatisk – de skal arbejdes for Budskab 3 : Governance og klare ansvar er essentiel for vedholdenhed Budskab 4 : Start med quick wins , så bygger I momentum
+--- Slide 34 ---
+Hvordan kan vi bidrage til jeres g evinstrealisering? 34 Gennemført mulighedsanalyse sammen med kunden. Holdt Fælles møder med repræsentanter fra produkthuset, konsulentafdelingen og salg. Tæt dialog med produkthuset for at undersøge innovative ideer fx er KI/AI aktuelt. Investering i uddannelse for alle medarbejdere. Funktionel og teknisk assistance bidrager til at lukke hullerne . Indgået administrationsaftale med dedikerede konsulenter, der kender løsningen godt. Hvad er 360 ⁰ Mulighedsanalyse ? Tieto kan udføre en procesorienteret gennemgang af løsningen og brugen heraf med fokus på: Mulige tiltag med fordele og ulemper Kost-nytte-vurdering af tiltagene Køreplan for det videre forløb Workshops afholdes sammen med repræsentanter fra din organisation. Mål og forventninger: Hvad er målene? Effektivisering? Realisering af gevinster? Øget dokumentindsamling? Bedre kvalitet? Succeshistorier fra virkeligheden
+--- Slide 35 ---
+Afslutning Hvis I tager én ting med fra denne workshop, så lad det være : Et ESDH-projekt handler ikke kun om at få systemet til at virke. Det handler om, at få organisationen til at lykkes med det! Ræk ud endelig ud hvis der er noget vi kan hjælpe med  Confidential 35
+--- Slide 36 ---
+Spørgsmål? Dialog og opklaringer
+--- Slide 37 ---
+Tak for jeres tid og fokus Lad os sammen skabe mere værdi med Public 360° Ioana.faber@tieto.com & Kristoffer.Heide-Winther@tieto.com
+
+================================================================================
+Kim Hansen & Willy Koch - Cloud-suverænitet I en ny tech-virkelighed.pptx
+================================================================================
+--- Slide 1 ---
+Public 360° Connect 2026 Cloud- suverænitet i en ny tech- virkelighed Kontrol uden at give afkald Kim Hansen · Head of Cloud Operations · kim.hansen@tieto.com Willy Koch · Technical Product Manager, Public 360° · willy.koch@tieto.com 1 September 2026 · 13:45–14:15 Public 1
+--- Slide 2 ---
+Public 360° Connect 2026 Vi skal lige have styr på begrebern e Vi bruger “ suverænitet ” på to forskellige niveauer Cloud-suverænitet Et krav eller en egenskab: hvor meget kontrol og handlefrihed organisationen har over data, drift, teknologi og jurisdiktion. Microsoft Sovereign Cloud Et konkret Microsoft- tilbud og produkt. ≠ Vores regel Sovereignty er en vurdering af kontrol og risiko. Microsoft Sovereign Cloud er kun én mulig control-model i Microsoft-økosystemet. Public 2
+--- Slide 3 ---
+Strategic context Cloud-valget ændrer karakter Tidligere var cloud-valg primært et spørgsmål om skala, sikkerhed, økonomi og funktionalitet. Nu kommer jurisdiktion og geopolitik ind som praktiske arkitekturparametre. 01 Hvor ligger data? Data, metadata, logs, AI-dataflows og backup. 02 Hvem kan få adgang? Support, drift, underleverandører og myndighedskrav. 03 Kan vi fortsætte? Drift, restore, beredskab og kritiske processer. 04 Kan vi vælge om? Portabilitet, åbne formater og exit-plan når rammme betingelsene endres EU’s CADA-forslag peger i samme retning: cloudvalg for offentlige tjenester kan blive vurderet efter suverænitetsrisiko og assurance-niveau — ikke kun pris og funktionalitet. Public 3
+--- Slide 4 ---
+Public 360° Connect 2026 Public cloud er vores default Suverænitet er ikke et argument for at forlade cloud. Det er et argument for at forstå afhængigheder og dokumentere controls. Public Cloud Strategic default Roadmap Security capabilities Scale AI-track 1 Innovation Hurtigere adgang til roadmap, AI og nye platform capabilities. 2 Dokumenterbar sikkerhed Controls, evidence, logging, encryption, restore og access governance. 3 Kundens governance bevares Kunden ejer data, klassifikation, processer og organisatoriske beslutninger. Default betyder: vi starter her, med mindre der findes konkrete krav der trækker i en anden retning. Public 4
+--- Slide 5 ---
+Public 360° Connect 2026 Default er ikke eneste mulighed Hostingmodel og suverænitetsniveau er ikke det samme. Vi vælger model ud fra krav, controls, evidens og ansvar. Lavere kundeejet platformansvar Højere kundeejet platformansvar Public Cloud Default Roadmap, skala, security og AI-track. Domestic Cloud Kravspor Når krav, politik eller risikoprofil kræver domestic drift. Microsoft Sovereign Cloud Microsoft control-model Når Microsoft-sporet kræver ekstra sovereignty controls. Self-hosted / on-prem Exception Når kunden bevidst ejer platform, lifecycle og drift. Kundens sovereignty-krav ligger ovenpå modellen: Data Jurisdiktion Adgang Drift Portabilitet Teknologi Jo længere mod højre , jo mere direkte kontrol — men også mere ansvar , mere kompleksitet og ofte langsommere innovation. Public 5
+--- Slide 6 ---
+Public 360° Connect 2026 Mere kontrol giver også mere ansvar Når man flytter ansvar hjem fra public cloud, flytter man ikke kun kontrol. Man flytter også drift, kompetencer og risiko. Mindre kundeejet platformdrift Mere kundeejet platformdrift Public Cloud Tieto/Microsoft driver platformen. Kunden styrer data, klassifikation, adgangsmodel og governance. Domestic Cloud Mere kravstyret drift og leverandørkæde. Flere afklaringer om scope, økonomi og lifecycle. Self-hosted Kunden ejer mere af Linux/Kubernetes, patching, monitorering, backup, release og incident response. Kontrol uden driftsmodel er falsk tryghed Der skal være konkrete ejere for patching, restore, monitorering , adgang , hændelser og dokumentation . Forretningen skal kunne bære valget Et mere suverænt setup kan være rigtigt . Men så skal budget, kompetencer , governance og tempo følge med. Public 6
+--- Slide 7 ---
+Public cloud evidence Kontroller slår sådan én powerpoint som denne ! Når kunder spørger om cloud, skal svaret være: krav → kontrol → evidens → residual risk → beslutning. 1 Data residency Regioner , service mapping, EU/EØS dataflows 2 Encryption & keys TLS, database/file encryption, key management 3 Access control RBAC, MFA, least privilege, operator access 4 Detection & response Monitoring, alerting, SOC/security processes 5 Continuity Backup, restore routines, BCP and recovery evidence 6 AI posture Separate dataflows, explicit region and purpose Pointen: Public Cloud skal ikke sælges på “trust us”. Den skal dokumenteres med konkrete controls og kundens egen governance. Public 7
+--- Slide 8 ---
+Public 360° Connect 2026 Når kravene ændrer target Vi skal hjælpe kunden med at oversætte suverænitetskrav til valg — ikke starte med leverandørnavne. 1 Klassificér workload Hvor kritisk er processen? Hvilke data behandles? 2 Kortlæg afhængigheder Data, support, drift, software, integrationer, exit. 3 Match controls Hvad opfylder Public Cloud allerede med evidens? 4 Vælg undtagelse Kun hvis kravene ikke kan løftes i default-sporet. Default- spor Public Cloud: strategisk default for innovation, security capabilities, scale og AI-track. Kravspor Domestic Cloud: når konkrete krav om drift, leverandørkæde eller risikoprofil kræver domestic setup. Exception track Self-hosted/on-prem: når kunden bevidst tager platformansvar og kan bære det. Microsoft Sovereign Cloud kan indgå som Microsoft-specifikt control-spor — men det er ikke vores generelle definition af cloud-suverænitet. Public 8
+--- Slide 9 ---
+Public 360° Connect 2026 Public 360°: valgfrihed højere oppe i stacken Sovereignty handler ikke kun om hvor serveren står. Det handler også om hvordan Public 360° fra klientsiden . Hvor låst kunden er i dokumentproduksjon , integrationer, dataflows og exit fra en enkelt tilbyder Kundens processer sagsbehandling, dokumenter, journalisering, arkiv Public 360° case management, workflows, APIs, access control Dokument- og integrationslag Office, Collabora/WOPI, integrations, open formats Hosting og operations Public Cloud, Domestic Cloud, Microsoft-specific controls, self-hosted Positionen Ikke anti-Microsoft. Pro-valgfrihed, pro-portabilitet og pro-dokumenteret kontrol. Uavhengighet Støtte for å bruke Public 360° på Windows/Mac/Linux med både desktop og browserbaseret dokumentredigering For kunden Valgfrihed skal kunne mærkes i drift, dokumenter, integrationer og exit — ikke kun i en kontrakttekst. Fra cloudmodeller til produktarkitektur og reelle valgmuligheder i Public 360°. Public 9
+--- Slide 10 ---
+Public 360° Connect 2026 Digital sovereignty vinder frem i Tyskland , Frankrig og Holland Flere lande investerer i sovereign stacks – og økosystemet omkring OpenDesk , Nextcloud , ownCloud og Collabora/LibreOffice vokser hurtigt . Dette vil vi at Public 360° skal være en del av, via Linux, Kubernetes og .NET Core Nextcloud — Storage & samarbejde ownCloud — Filsync , tysk oprindelse Collabora / LibreOffice — Dokumentredigering Tyskland — ZenDiS ' openDesk (lanceret okt. 2024) bruges af flere delstater og Den Internationale Straffedomstol (ICC). Hamborg evaluerer et skift fra Microsoft inden dec. 2026. Public 10 OpenDesk — ZenDiS – tysk statssuite Frankrig — DINUM's La Suite numérique ruller Nextcloud og Collabora ud i stor skala — bl.a . 550.000 elever / ansatte i Île-de-France og 50.000 brugere hos energiministeriet . Holland — Centric og Nextcloud leverer en fælles sovereign workspace til den offentlige sektor. Uddannelse og kommuner presser på for mindre Microsoft-afhængighed.
+--- Slide 11 ---
+Public 360° Connect 2026 Digital sovereignty vinder frem i Tyskland , Frankrig og Holland Public 10
+--- Slide 12 ---
+Public 360° Connect 2026 Public 10
+--- Slide 13 ---
+Public 360° Connect 2026 Mål - Public 360° skal støtte et bredt økosystem av klientplattformer Med Public 360° skal du kunne velge hvilken klientplattform du vil bruke uansett operativsystem og browser Public 360° Desktop Office MS Office LIbreOffice Collabora Desktop Collabora Online Browserbaseret redigering + collaboration/ samarbejde 10 Innebygget redigering Direkte i Public 360° browser MS Office Apps Office Web apps New Outlook Google Workspace Google Docs Gmail Browserbaseret (Chrome/Edge/Firefox) Desktop- baserte (Win/Mac/Linux)
+--- Slide 14 ---
+Public 360° Connect 2026 Collabora-sporet: ét konkret eksempel Et discovery- spor handler om browserbaseret dokumentredigering og samarbejde uden at gøre Office- formatkompatibilitet til et Microsoft-only valg . Public 360° UI Sags- og dokumentkontekst WOPI / iframe Integrationsmodel Collabora Online Browserbaseret redigering basert på Open-Source med støtte for collaboration OpenXML files docx · xlsx · pptx Public 10
+--- Slide 15 ---
+Public 360° Connect 2026 Exit er en capability, ikke en kontraktparagraf En nødudgang skal kunne bruges. Ellers er det bare håb med filnavn. 1 Data ud Database og arkivfiler skal kunne udleveres i aftalte formater. 2 Sikker transfer Kunden vælger destination. Overførsel skal være kontrolleret og dokumenteret. 3 Separat klargøring Udtræk og dekryptering sker separat og kun midlertidigt ved klargøring. 4 Oprydning Midlertidige data slettes. Kontraktophør følger aftalt retention/immutability. Exit-planen skal være klar før man får brug for den. Det er en del af suverænitet — også når kunden vælger Public Cloud. Public 11
+--- Slide 16 ---
+Fire ting at tage med hjem Og én ting vi gerne vil huskes for. 1 Public Cloud er default Fordi innovation, lifecycle, security capabilities, scale og AI-track er stærkest her for de fleste kunder. 2 Sovereignty er kontrol, ikke et produktnavn Microsoft Sovereign Cloud er et Microsoft-spor. Cloud-suverænitet er bredere: data, adgang, drift, jurisdiktion, portabilitet. 3 Alternativer kræver ansvar Domestic og self-hosted kan være rigtige valg, men kun når krav, controls, økonomi og driftsmodel bærer dem. Public 360° skal opleves som forberedt: public-cloud first, men med realistiske valgmuligheder og dokumenteret kontrol. Spørgsmål? Kim Hansen · Willy T. Koch Public 12 4 Public 360° skal være klient-uafhængig Skal fungere godt på Mac/Windows/Linux  - både lokalt installeret software på desktop og direkte i browseren. Desktop og browser skal fungere godt sammen , med hybrid funktionalitet som komplementerer hinan den
+--- Slide 17 ---
+Public 360° Connect 2026 Public 2
+--- Slide 18 ---
+Public 360° Connect 2026 Default er ikke eneste mulighed Hostingmodel og suverænitetsniveau er ikke det samme. Vi vælger model ud fra krav, controls, evidens og ansvar. Lavere kundeejet platformansvar Højere kundeejet platformansvar Public Cloud Default Roadmap, skala, security og AI-track. Domestic Cloud Kravspor Når krav, politik eller risikoprofil kræver domestic drift. Microsoft Sovereign Cloud Microsoft control-model Når Microsoft-sporet kræver ekstra sovereignty controls. Self-hosted / on-prem Exception Når kunden bevidst ejer platform, lifecycle og drift. Kundens sovereignty-krav ligger ovenpå modellen: Data Jurisdiktion Adgang Drift Portabilitet Teknologi Jo længere mod højre, jo mere direkte kontrol — men også mere ansvar, mere kompleksitet og ofte langsommere innovation. Public 5
+
+================================================================================
+new 4_Lisa_Olausson_our new eservices solution Kopier.pptx
+================================================================================
+--- Slide 1 ---
+From digital intake to case follow-up Our new eServices solution - 360° Collect Lisa Olausson – Product manager DK Connect 2026 Confidential 1
+--- Slide 2 ---
+Supports the value chain for digital services – All in one seamlessly connected ecosystem 2 Capture Process Streamline workflows with case management tools that automate decisions, track progress, and reduce manual workload. Increased data quality. Gain access to our process automation framework. Publish Deliver information and updates immediately via web portals or apps, and ensure transparency and engagement Archive Ensure compliance and accessibility by securely storing critical data, documents, and case history Engage Collect simple structured data through intuitive e-services in web and portals 360 ° Opengov 360 ° collect 360 ° with built-in intelligence Secure two-way communication with citizens and real-time case updates (beta) 360 ° My pages Public
+--- Slide 3 ---
+Why we built 360° Collect 3 The challenge we saw at our customers: Fragmented processes for data capture Low data quality A lot of manual rework No connection between forms and case handling Poor data capture leads to inefficiency, errors and uncertainty across the whole value chain. Public
+--- Slide 4 ---
+What is 360 ° Collect ? Public 4 Platform to build and manage digital forms Built in integration to 360° via SIF
+--- Slide 5 ---
+Guided fields Mandatory fields, drop-downs, choices and format validation. Fewer input errors Dynamic forms Questions appear or hide based on the user's own answers. Only relevant answers Direct to 360 ° Submissions flow directly into 360 ° via SIF integration No re-keying How 360° Collect improves data quality Public 5 Prefilled data Name, address and contact details fill in at log-in. No re-typing
+--- Slide 6 ---
+Built for public sector requirements Public 6 Retention and archiving Aligned with your policies ✓ Nordic eID login BankID, MitID, Buypass, FTN and more ✓ Entra ID for staff Organisations and internal users sign in with existing accounts ✓ Authentication before submit Can be required form by form ✓ Accessible forms Fulfils accessibility requirements on any device ✓ Logging and audit trail Full traceability of what was submitted and when ✓ Admin notifications Alerts to administrators when something fails
+--- Slide 7 ---
+Highlights in 360° Collect Public 7 AI assistant Describe a form in natural language, or upload an existing one, and get a draft in seconds. Automatic translation Offer the same form in several languages without building it twice. AutoSaver & Flow Archive submissions with 360° AutoSaver and trigger processes in 360° Flow.
+--- Slide 8 ---
+Where 360° customers start with Collect 8 Building & planning Permits, notifications and neighbour processes — many attachments, much manual work today. Social & welfare Applications and change-of-circumstance forms — sensitive data handled correctly. Business & licensing Registrations, permits and recurring reporting from companies. HR & operations Leave, onboarding and internal requests — a fast, low-risk first win. Identify the unstructured attachments that arrives today Re-design as a digital form Structured case in 360° From unstructured intake to a case that is already registered
+--- Slide 9 ---
+Three roles, one integrated flow Public 9 Role In Collect / portal In Public 360° Administrator Builds forms, authentication, branding, publishing — Citizen / user Finds the e-service, logs in with eID, submits — Caseworker — Handles the case exactly as today Configure Publish Submit Case in 360 ° Collect owns the intake experience.
+--- Slide 10 ---
+10 Time to demo
+--- Slide 11 ---
+Collect fixes intake. What is the next natural step?
+--- Slide 12 ---
+12 “We need a better way to communicate with citizens and businesses. Not just send in, but also follow up.”
+--- Slide 13 ---
+The way forward 13 360° Collect and 360° My Page together for a stronger citizen journey The next major step is to build a My Page module for a complete citizen interface See clear status on submitted cases Receive notifications and a better overview of important events Access information linked to the case and communicate with caseworkers Support for submitting complements The goal is a coherent experience for citizens, where forms, communication and case handling in 360° all connect.
+--- Slide 14 ---
+Tusen tack! Contact me for more information: Lisa.olausson@tieto.com
+--- Slide 15 ---
+Five reasons to add Collect to your 360 environment Confidential 15 Save time Automate data flow into 360 — less manual registration Ensure compliance Security, governance and regulatory alignment built in Control costs Usage-based pricing — pay for forms submitted Deploy quickly First e-services in days, not a multi-year programme Easy to use Customer can build and maintain forms with minimal training
+--- Slide 16 ---
+Collect starts the journey — My Page continues it Confidential 16 The gap after submission No unified place to follow case status Decisions and documents are hard to reach Complements arrive as email attachments Neighbour hearings and referrals handled ad hoc My Page — the next step Clear status on submitted cases Notifications and an overview of key events Access to tasks and documents linked to the case Complements submitted digitally, not by email 360° Collect and 360° My Page together — one coherent citizen journey
+--- Slide 17 ---
+Predictable packages, fast time to value Confidential 17 Commercial model Annual package based on the number of submitted forms Three tiers, with overage if volumes grow Integration with Public 360° is included in the Collect licence eID through Idura is priced separately Implementation approach Start with 5–10 forms: workshop, build, test, go live Consultant packages from light technical setup to full advisory Typical first production go-live in weeks, not years Next step: a 90-minute discovery workshop  ·  live demo  ·  pilot conversation
+--- Slide 18 ---
+Organisations like yours are already on this journey Confidential 18 Market pull Active customer dialogues and tender requirements across Nordic municipalities, regions and agencies. Shared learning Collect is on the agenda at user days, brukerforum and customer webinars. Close support Product team and SPOCs engaged directly in every early-release implementation.
+--- Slide 19 ---
+Next steps — then let's look at it live Confidential 19 1 Book a 90-minute discovery workshop with registrars, IT and communications 2 Pick 5–10 high-volume or high-pain forms to digitise first 3 Build, test and go live — in weeks, with as much or as little help as you want Up next: 10 minutes live in 360 Collect Questions afterwards: [Your name] · [email] · Public 360 RDF team
+--- Slide 20 ---
+20 With 360° Collect we are meeting a sector need. The Norwegian Agency for Shared Services in Education and Research ( Sikt ) have long needed a solution like this. Now it’s here. It makes it possible to quickly establish support for processes when needed. The solution is fast, reliable, secure, and accessible — and is an integral part of a stronger digital value chain. It is important that the solution is built in a responsible and secure manner, adapted to the requirements of the public sector. “
+--- Slide 21 ---
+What is 360 ° Collect is today? Confidential 21 Today we have a product that Makes it easy for the public sector to create and digitalize forms. Receives data directly into Public 360 via SIF. Reduces manual post-processing. Improves data quality.
+--- Slide 22 ---
+Drag-and-Drop E-Services in Days, Not Months Confidential 22 Create, publish and track forms with unlimited users — no extra licences, no code. Browser builder: add fields, logic and uploads in seconds. Drag-and-drop components—no code, no plugins. Conditional pages, repeaters and rich text out of the box Publish to your own branded portal—citizens log in, track status. BankID / eIDAS sign-in, multi-language UI, mobile-first. Built-in “My cases” dashboard; zero extra licence cost. Tenants & templates: head office creates once, every branch reuses. Parent → Sub-tenant sharing with one click. Governance logs who changed what and when. Seamless integration with case/document systems Automated data collection, no code.
+--- Slide 23 ---
+Collect starts the journey. My Page continues it. Confidential 23 The gap after submission No unified place to follow case status Decisions and documents are hard to reach Complements arrive as email attachments Neighbour hearings and referrals handled ad hoc My Page (Min side) Standalone citizen portal connected to Public 360° via SIF Caseworkers stay in 360 — My Page is the outward window Case list, documents, decisions, upload and message 360 Collect — intake optional Public 360° — handling you already have this My Page — follow-up roadmap: target H2 2027
+--- Slide 24 ---
+Design, publish and manage digital forms Confidential 24 Build and manage digital forms and e-services Collect data from citizens, businesses and internal users Authenticate with Nordic eID ( MitID ) and Entra ID Integrate securely with Public 360° Replaces fragmented paper and email workflows with structured digital intake.
+--- Slide 25 ---
+Citizens submit. Caseworkers re-type. Everyone waits. Confidential 25 Fragmented intake Impact Paper, email, PDF, scattered web forms Unstructured data Manual registration in 360 Delays and errors Phone and email for status Caseworker time lost Compliance and accessibility Hard to guarantee
+--- Slide 26 ---
+A day in the life of one application Confidential 26 Same story in every municipality — and none of it is the caseworker’s fault Monday Anna applies She fills in a PDF at her kitchen table and emails it in. Tuesday Erik re-types it A caseworker keys the same details into Public 360° by hand. Thursday Anna calls There is no status to look up, so she phones the switchboard. Two weeks on The case starts Most of that time was waiting and re-typing, not case work.
+--- Slide 27 ---
+One application, four manual hand-offs Confidential 27 Two weeks before real case work starts — every hand-off is manual, and nothing is anyone’s fault Anna, citizen Emails in a PDF form — and leaves two fields blank Day 0 Whichever channel is easiest Registrar Keys the same details into Public 360° by hand Day 1–2 One submission at a time Distribution Case routed to the right unit and caseworker Day 3–5 Someone has to decide who owns it and owner to pick it up Erik, caseworker Calls Anna for the missing details — processing stops Day 6+ The case waits until she picks up
+--- Slide 28 ---
+360° Collect — Build and manage digital forms Public 28 Citizen Meets you through branded digital e-services 360 Collect Forms and e-services — structured, authenticated intake Public 360° Cases, documents, caseworkers — the system of record Integration with Public 360° runs through SIF — the standard integration layer. Also works with Plan & Build 360°, Business 360° and eArchive 360°.
+--- Slide 29 ---
+Capabilities in 360° Collect Public 29 AI assistant Describe a form in natural language, or upload an existing one, and get a draft in seconds. Automatic translation Offer the same form in several languages without building it twice. AutoSaver & Flow Archive submissions with 360° AutoSaver and trigger processes in 360° Flow.
+--- Slide 30 ---
+What is 360 ° Collect ? Public 30 Platform to build and manage digital forms Built in integration to 360° via SIF Reduce manual post-processing Improve data quality
+
+================================================================================
+Panu Kiskola&Alexander Zahariev_Fra idé til løsning - AI-drevet innovation i praksis.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 “Board Manager Beyond” Rethinking committee meeting and agenda management in 360° Panu Kiskola, Product Manager & Alexander Zahariev, Tech Lead Panu.Kiskola@tieto.com Alexander.Zahariev@tieto.com Public 360 °
+--- Slide 2 ---
+Where Board Manager Beyond fits in the full process 2 360 ° Collect, email, letter etc. 1 Initiate a case 360 ° Digital Dashboard, 360 ° OpenGov Meetings 7. Publish to citizens 360 ° eMeetings Prepare 4. Decision makers prepare for upcoming meetings 360° eSigning Connect + 360° Sign Sweden 6. Sign the protocols 360 ° eMeetings Live 5. Run the meeting WE ARE HERE 2. Process the case and create a case proposition 360 ° Board and Council Manager, 360° Agenda => BOARD MANAGER BEYOND 3. Prepare meetings and agendas 8. Process information requests and possible complaints 360 ° Collect, 360° Case and document management, 360° IFAR 360° Case and document management
+--- Slide 3 ---
+Why rethink it now? Today : Two existing and stable products with overlapping purposes: 360° Board and Council Manager and 360° Agenda. Opportunity : Modernize design, functionality and tech Ambition : One simpler, coherent and efficient experience
+--- Slide 4 ---
+Board Manager Beyond – a vision for a modern, unified product 4 New design, UX and tech Board Manager Beyond Faster and more efficient workflow Faster evolution Support customer-specific needs, but leverage 360 ° platform features New features and value Market leading product in the Nordics Easy, modern, intuitive Proven functionalities of existing products
+--- Slide 5 ---
+Outcomes Case workers : better and easier experience when producing decision propositions for cases, better visibility on the decision-making process Committee secretaries : Better overview and control on the meeting process, arrange meetings and agendas faster and easier Committee members : Get your materials earlier before meeting Citizens : consistent, timely publishing
+--- Slide 6 ---
+Confidential 6 DEMO
+--- Slide 7 ---
+Demo Confidential 7
+--- Slide 8 ---
+Agent Orchestration Confidential 8 CEO · Orchestrator Routes work across agents Reflection Coach Evidence-backed reviews CTO · System Architect Owns stack decisions Summarizer Readable Markdown output PM Product manager · PRD BackendDev .NET Core engineer FrontendDev React engineer Designer UX flows · Cursor QA BE Backend test architect QA FE Frontend test architect
+--- Slide 9 ---
+Software Architecture
+--- Slide 10 ---
+Development Process Confidential 10
+--- Slide 11 ---
+The path forward Moving from experimental stage to building the actual product Co-creation with our customers Optimize and complete the design
+--- Slide 12 ---
+12 Thank you Tieto Indtech – Public 360° public360@tietoevry.com www.tieto.com/public-360
+
+================================================================================
+Panu Kiskola_eSigning with MitID.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 eSigning with MitID and FK Login Panu Kiskola, Product Manager Panu.Kiskola@tieto.com Public 360 °
+--- Slide 2 ---
+eSigning – Turning digital processes into trusted transactions Case and document management with compliance and digital trust
+--- Slide 3 ---
+eSigning - From a signature to a verifiable event Handwritten signatures eSigning Who signed? Based on the signature Signer is identified and authenticated When was it signed? May be difficult to verify Date and time are recorded Has anything changed? Changes may be difficult to detect Changes after signing will be detected What proof is available? The signed document itself Document + digital record of the signings
+--- Slide 4 ---
+eSigning – Key benefits 4 Trusted integrity Trusted identity Reduced use of paper Legal compliance (eIDAS) Sign documents easier & faster
+--- Slide 5 ---
+Use case examples Sign protocols for committee meetings Sign contracts between your organization and vendors Sign letters, decisions etc. Sign employment contracts
+--- Slide 6 ---
+eSigning with 360° – Key capabilities 6 Start eSigning workflows directly from 360 ° Notifications and reminders make the signing process easy to follow Automated PDF conversion Automated transfer of files between 360 ° and 360 ° Sign Identify with MitID, FK Login, Entra ID or SMS OTP Track eSigning workflows from start to end Internal & external contacts can participate in eSigning workflows Used by 100+ customers in Norway, Sweden and Finland Standards based PDF signatures with eIDAS compliance 360° eSigning Integrated Inclusive Controlled Simple EU data processing
+--- Slide 7 ---
+7 360 ° Sign 360 ° eSigning Connect 360 ° Signatories identify themselves
+Read through documents-to-be-signed
+Sign or reject Start signing workflow from 360°
+Track workflow status
+Move signed document from 360° Sign to 360° Finalize contents before sending for signing 
+Storage place for your documents eSigning with 360° Send for signing Transfer signed document back to 360°
+--- Slide 8 ---
+Confidential 8
+--- Slide 9 ---
+Now available for Danish customers Official launch in 360 6.12 release (planned for late September) Supported 360 versions: 6.10, 6.11, 5.18 Ready for Denmark 9
+--- Slide 10 ---
+10 Thank you Tieto Indtech – Public 360° public360@tietoevry.com www.tieto.com/public-360
+
+================================================================================
+Tony Oussi_Byggesager - Hvad er Plan & Build.pptx
+================================================================================
+--- Slide 1 ---
+Plan&Build 360° Hvad er Plan & Byg ? Cases, processes and municipal services in one connected solution Tony Oussi 2026-09-01 Public 360 °
+--- Slide 2 ---
+The challenge is not storing information The challenge is moving the case forward Confidential 2 Case management is essential. But complex regulatory processes require more..
+--- Slide 3 ---
+What is Plan & Build 360°? Confidential 3 One working environment for the entire planning and building process
+--- Slide 4 ---
+One solution. Connected to the municipal ecosystem . Confidential 4
+--- Slide 5 ---
+One case. One complete overview Process, activities and relevant information in the same working environment Confidential 5
+--- Slide 6 ---
+A process that guides the caseworker Phases, tasks, milestones and deadlines Confidential 6 Phases Tasks Milestones & deadlines
+--- Slide 7 ---
+Documents and case information connected to the work Confidential 7 7 Documents & files Available in the context of the process
+--- Slide 8 ---
+From application to structured case data Confidential 8 8 Information becomes part of the case, not just a document
+--- Slide 9 ---
+From information to action Confidential 9 9 Checklist → deficiency → document → process update
+--- Slide 10 ---
+The property at the centre Confidential 10 10 Integrated maps and geographical information directly in the case
+--- Slide 11 ---
+Confidential 11 From map to case data Property information becomes part of the working process
+--- Slide 12 ---
+What caseworkers need beyond the individual case Confidential 12 Plan & Build 360° supports the whole working day , not only the individual case
+--- Slide 13 ---
+Plan & Build 360° The right process. The right information. In one working environment . Confidential 13
+--- Slide 14 ---
+Tusind tak ​ Contact me for more information: Tony Oussi Product manager Plan & Build 360° tony.oussi@tieto.com +46766265546
+
+================================================================================
+Willy Koch - AI i sagsbehandling - Search Assistant (og 360° Mimir).pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 AI i sagsbehandling 360° Search Assistant og 360° Mimir Sebastian Reichmann, Willy T. Koch Public 360 °
+--- Slide 2 ---
+Agenda Intro AI i saksbehandling 360 ° Search Assistant 360° Mimir 2
+--- Slide 3 ---
+AI i sagsbehandling 3
+--- Slide 4 ---
+4 Public 360 ° KI-bruk er ikke lenger valgfritt. Spørsmålet er hvilke verktøy vi bruker til hva h vordan bruker vi det på riktig måte. Skalering, kontroll og videre utvikling
+--- Slide 5 ---
+5 AI Modell teoretisk oppgavedekning (blått ) VS Observert praktisk oppgavedekning (rødt) Labor market impacts of AI: A new measure and early evidence \ Anthropic Anthropic , Mar 5, 2026
+--- Slide 6 ---
+Krav til KI løsninger som støtte for arbeids oppgaver og forretningsprosesser 6 S ikker og effektiv bruk for alle brukere uansett AI modenhet Forutsigbar og kontrollert kvalitet og kostnader Framtidssikkerhet av løsningen (vedlikehold og videreutvikling) Integrasjon i fagprosess og fast definert format av resultater
+--- Slide 7 ---
+Med innebygd intelligens tilbyr vi AI innovasjon dokument- og saksbehandling i offentlig sektor på en trygg, kostnadseffektiv og framtidssikker måte. 7 Integrert AI og analyse Automasjon & Intelligent bruker-opplevelse Prosess innovasjon
+--- Slide 8 ---
+Med innebygd intelligens tilbyr vi AI innovasjon dokument- og saksbehandling i offentlig sektor på en trygg, kostnadseffektiv og framtidssikker måte. 8 2. Brukerdreven design 3. Standard- løsninger Public 360 ° AI Innovasjon for offentlig forvaltning 4. Sentral drift og videreutvikling 1. Laget for dedikerte fagoppgaver Integrert AI og analyse Automasjon & Intelligent bruker-opplevelse Prosess innovasjon S ikker og effektiv bruk gjennom hele organisasjonen Kontrollert kvalitet og kostnader Redusert kost og risiko Kontroll på prosessen og resultater
+--- Slide 9 ---
+9 Public 360 AI støtte for sak og arkiv 360 ° Mimir Digital assistent for brukerstøtte (interne rutiner & 360 hjelp) Løsning i skalering Kunder: 19 360 ° Search Assistant Språk (chat) basert tilgang til enkel og avansert søk Løsning i introduksjonsfase Kunder: 4 (5 piloter) 360 ° Archive Inspector Støtter brukeren med kvalitetskontroll for sensitiv innhold Etablert markedsløsning 40 Kunder >10.000 skjerminger
+--- Slide 10 ---
+10 Public 360 ° Hvordan skal framtiden ser ut? KI-støttet offentlig forvaltning AI støtte for Ende-til-Ende prosesser
+--- Slide 11 ---
+11 360° Intelligent Document Registration Ny standard for effektiv og lagret innholdsregistrering Fleksibel Fleksible justeringer, preferanser og behov for prosess og felt Intelligent Integrert dokument- og prosessintelligens for å støtte effektiv og sparsom registrering Intuitivt Prosessfokusert redesign for dokumentregistrering
+--- Slide 12 ---
+12 Intuitivt og fleksibelt grensesnitt Integrert automasjon og analyse Sammendrag Referansesaker Sakstittel Saksfordeling Sensitivitet Kontakt management … Intelligent Dokument registrering (under utvikling)
+--- Slide 13 ---
+13 Intuitivt og fleksibelt grensesnitt Integrert automasjon og analyse Sammendrag Referansesaker Sakstittel Saksfordeling Sensitivitet Kontakt management … Intelligent Dokument registrering (under utvikling)
+--- Slide 14 ---
+Slik støtter vi en felles innovasjonsreise 14 Public 360° Innebygd Intelligens Pågående prosjekter: Intelligent dokumentregistrering Agentisk saksbehandling 360° GAIIA API Generative AI Integrity Access (under pilotering) Nest generasjon API for GenAI og Agentisk KI Enkel, sikker, sikker og ansvarlig KI-aktivert tilgang til arkivdata. Rapid Development Framework Rask applikasjonsutvikling fra idé til implementering. RDF Produktdreven Kundedreven Støtte for ny innovasjons landskap
+--- Slide 15 ---
+15 360° Search Assistant
+--- Slide 16 ---
+Utfordringen Public 360° har kraftig og omfattende søkefunksjonalitet Det støtter presise søkefilter og kontrollerte søk på metadata in 360° Resultat : Mye tid og mange klikk for å utføre kompliserte avanserte søk Klassiske søk - mange klikk, nedtrekksmenyer , velge fra/til dato i datovelger Komplekse søk omfatter vanligvis mer enn én informasjonstype, og brukerne trenger ofte flere søk og manuell oppfølging for å få et komplett svar Ofte nødvendig med søk på tvers av datatyper
+--- Slide 17 ---
+Løsningen 360° Search Assistant skjønner hva du søker etter og oversetter til et søk som fungerer i Public 360° Dette lar brukeren søke på en rask og enkel måte , mens 360° Search Assistant bygger opp selve søkespørringen og viser resultatet Bygger på dagens Avansert søk Brukeren beskriver hva de ønsker med vanlig språk (prompts) og ESDH ord og uttrykk Søkeassistenten oversetter det brukeren skriver til et søk som fungerer i Public 360° Støtter både standard og brukerdefinerte felt i selve søket og i søkeresultatet
+--- Slide 18 ---
+360° Search Assistant – for søk og innsikt Søgeassistent – Hovedsøket hvor brukeren “prompter” og søker etter saker, dokumenter , filer, prosjekt , m.m. . “Vis dokumenter , der har “ klage ” i titlen , og som er oprettet i de siste 90 dager . Vis adgangskoden og oprettet dato som den første kolonne . Halvard Bachke er ansvarlig .” Statistik og optælling - Lag dynamiske rapporter med oppsummert og grupperte data. Støtter gruppering , som mnd , år , avdeling , saksbehandler m.m. “Create a summary of documents with created date in the past 12 months. Create a count and group on each of the document categories in the system. Add file count as last column for each row.” Vis dokumenter, der har “mangel” i titlen, og som er oprettet i de siste 90 dager. Vis adgangskoden og opprettet dato som den første kolonne. Hilde Løwe er ansvarlig.
+--- Slide 19 ---
+Search Assistant Hva er det AI-assistert søk for å finne data i Public 360° med vanlig språk opp mot datamodellen i Public 360° Hva er det ikke Komplett AI/LLM søk likt ChatGPT eller Claude direkte i Public 360° Verdi Skriv hva du ønsker å finne relatert til datafelt i 360°. Bygget på eksisterende avansert søk for nøyaktighet, sikkerhet og lagrede spørringer Fungerer på tvers av datatyper - Sak  ⇆ Dokument ⇆ Fil Eksporter data til Excel for videre behandling i andre verktøy som PowerBI eller andre LLM/AI verktøy Eksempler “Vis alle dokumenter fra siste måned som ikke har en ansvarlig person” “Finn saker med naboklage i tittelen eller i filinnhold opprettet etter 2025 med status Under arbeid “Finn filer av typen MP4 som er større enn 5 Mb ” “Vis alle prosjekter opprettet i  fjor” “Hva bør jeg jobbe på i dag?” Confidential 19
+--- Slide 20 ---
+Eksempel: Search assistant Confidential 20
+--- Slide 21 ---
+Statistik og optælling Hva er det? Ad-hoc rapporter med oppsummert og gruppert data, med støtte for “drill-down” ned i underliggende data Verdi Gir mulighet for å lage dynamiske og fleksible rapporter Gir enkel og hurtig oversikt over deres data i Public 360° Grupper , tell, sorter på standard og customfelt . Klikk i resultat for å drille videre ned i datagrunnlaget Typisk bruksområde Arkivarer – Kvalitetskontroll og vedlikehold for avlevering til nasjonalarkiv Ledere – Få oversikt over behandlingstid , arbeidsmengder , gruppert på relevante felt som avdeling og sakstyper Saksbehandlere – Få oversikt over utsjekkede eller slettede filer Confidential 21
+--- Slide 22 ---
+Eksempel: Statistik og optælling 22
+--- Slide 23 ---
+Hva gjør 360° Search Assistant unik ? 23 Ikke et generisk «chat- søk » – men leverer pålitelige fakta Det konverterer naturlig språk til et strukturert søk som samsvarer med datamodellen i Public 360° Pålitelig, transparent og etterprøvbart – tilpasset offentlig styring Spørringer konverteres til et deterministisk, strukturert søk, og kriteriene som er benyttet vises over resultatene koblet til de reelle 360° datafelt Søk på tvers av all relatert informasjon ( krysskobling mellom entiteter / flere entiteter ) er innebygd Løsningen utnytter plattformens relasjonsmodell til å søke på tvers av sammenknyttet informasjon i én forespørsel. Søkmodellen kan også utvides av kunden ved hjelp av administratorverktøyene i 360°. Fungerer sammen med – og styrker – Avansert søk, i stedet for å erstatte det Avansert søk forblir det kontrollerte , skjemabaserte verktøyet for presise søk . Søkeassistenten tilbyr konvertering fra naturlig språk til strukturerte avanserte søk for en bedre brukeropplevelse
+--- Slide 24 ---
+Why it matters Gjør kraftfult søk enkelt å bruke: Avanserte søkespørringer via enkle tekstinstrukser. Ikke nødvendig å finne fram felt, skrive inn spesifikke vedier eller klikke inn i datovelgere Søk på tvers av informasjon: 360° Search assistant bruker relasjonsmodellen i 360 ° til å søke på tvers av datatyper Forenkler kompliserte kvalitetsrutiner : Kompliserte rutiner som krever mange manuelle steg kan bli uført med en spørring,
+--- Slide 25 ---
+DEMO Confidential 25
+--- Slide 26 ---
+Get started What you need 360° Search Assistant – ta kontakt med din salgskontakt Modulen er tilgjengelig for Public 360° Online – hosted i Public cloud Domestic/private cloud er støttet om man godtar å bruke Azure AI Foundry i region SWE / EU Data region Enkel installasjon Selv om module er enkel å sette opp , så anbefales en mini-workshop med konsulent for å få mest ut av 360° Search Assistant Få innsikt i hva som er mulig og behov i din virksomhet Opprett søkemaler for ulike roller, for alle eller per avdeling La søkerapporter som gir brukerne innsikt i Public 360° Lær mer om do’s and don’ts Gi tilbakemeldinger for ønsker til Produktavdelingen Kom i gang med 360° Search Assistant! Få raske svar og innsikt i din Public 360°
+--- Slide 27 ---
+27
+--- Slide 28 ---
+Din intelligente assistent og nye bestevenn på jobben.
+--- Slide 29 ---
+Brukerens utfordringer: 29 Mange brukere sliter med et komplisert hverdag på jobb Hvor er finner jeg det Public 360° hjelpen? Er dette den nyeste versjonen av våre rutiner? Hjelpeteksten er for komplisert – jeg er usikker hva det betyr. Kan jeg få en beskrivelse som løser mitt problem? Mange rutiner — Komplekse prosesser — Vanskelig språk — Stress med å ikke gjøre feil
+--- Slide 30 ---
+Organisasjoner investerer tungt i å lage interne rutiner og brukerveiledninger. 30 Vanlige verktøy for intern opplæring og støtte: Skriftlige rutiner og retningslinjer
+Kurs og undervisning
+Film og nanolæring
+Spillbasert trening
+Tips og triks 1-til-1-støtte fra superbrukerne Fortsatt sterkt behov for å støtte brukere og etterlevelse.
+--- Slide 31 ---
+Organisasjonenes utfordringer: 31 Å oppnå høy prosesskvalitet og godt arbeidsmiljø for sine medarbeider Hvordan støtter vi spesielt nye ansatte, ledere og andre fagbruker som ikke er «arkiv» eksperter? Hvordan gjør vi det lettere å følge alle interne rutiner og oppdateringer? Kan vi forvente at alt blir lest? Hvordan øker vi verdien av alt godt intern dokumentasjon? Hvordan reduserer vi arbeid til superbrukerne? Hjelpe brukerne direkte når dem måter ett problem — Gir personalisert støtte uten å bruker for mye ressurser
+--- Slide 32 ---
+32 Integrert
+--- Slide 33 ---
+33 Hvordan det funker: Tilgang til dine interne rutiner og 360° hjelp Brukertilpasset Forstår brukerens spørsmål Gir tilpasset trinnvise forklaringer Justeringer etter bruker ønkser – rekkefølge/detaljer Trygg Link til kilder Oppfølgingsspørsmål Hva det ikke gjør : Svarer på andre spørsmål Avansert prompting Utføre oppgaver (til nå)
+--- Slide 34 ---
+34 Hva er verdien av det? Brukere kan spørre med egne ord og få svar tilpasset deres problem døgnet rundt Superbrukere får færre rutinespørsmål Rutinene blir følget opp bedre Spesielt god støtteverktøy for endringsledelse
+--- Slide 35 ---
+AI ≠ AI Public 360 ° utvikling for "industriklare" AI løsninger 35 Integrert med forretningsregler og prosesser Optimalisert for oppgaver og brukere i offentlig sektor Sikre og ansvarlige standarder for AI-utvikling Innholds- og kvalitetsstyring Kun faktabaserte svar
+Lenker til klare kilder Begrenset dialogomfang
+Begrenset veltalenhet
+Avhengig av kildemateriale
+--- Slide 36 ---
+Prosesser som sikrer trygt KI produktutvikling Confidential 36 Our software development process complies with a comprehensive range of industry standards, such as AI development is based on requirements of the EU AI Act and ISO 23894. ISO 9001 Quality ISO 27001 Privacy ISO 27701  Information security ISO 14001 Environment
+--- Slide 37 ---
+Tusind tak ​ Improve working life for public servants and daily life for citizens.​ Contact us: sebastian.reichmann@tieto.com willy.koch@tieto.com
+--- Slide 38 ---
+Confidential 38
+--- Slide 39 ---
+AI ≠ AI Public 360 ° utvikling for "industriklare" AI løsninger 39 Integrert med forretningsregler og prosesser Optimalisert for oppgaver og brukere i offentlig sektor Sikre og ansvarlige standarder for AI-utvikling Innholds- og kvalitetsstyring Kun faktabaserte svar
+Lenker til klare kilder Begrenset dialogomfang
+Begrenset veltalenhet
+Avhengig av kildemateriale
+--- Slide 40 ---
+Prosesser som sikrer trygt KI produktutvikling Confidential 40 Our software development process complies with a comprehensive range of industry standards, such as AI development is based on requirements of the EU AI Act and ISO 23894. ISO 9001 Quality ISO 27001 Privacy ISO 27701  Information security ISO 14001 Environment
+--- Slide 41 ---
+Hvordan tenker dere det vi påvirke saksbehandling om 1 eller 5 år? 41 Bruker: Ser resultatrapport Håndterer unntak Kan validere Agent/KI Utfører prosess Utforming Bare chat/språkbasert Ingen tradisjonell Brukergrensesnitt Fylt automatisert Agenter KI støttet manuell saksbehandling Del-automatisering Bruker: Får anbefalinger Får beslutningsstøtte Kan validere anbefalinger KI / agent Utfører deloppgaver basert på bruker godkjenning Utforming Kombinasjon av tradisjonell brukergrensesnitt og chat Bruker: Får anbefalinger Får beslutningsstøtte Kan validere anbefalinger KI Ikke utfører oppgaver selv (bare fyller felter eller tekst) Utforming Tradisjonell brukergrensesnitt med KI elementer
+--- Slide 42 ---
+The future software will be Intelligent and Agentic . Making the impossible now possible . From natural language to visual understanding .
+--- Slide 43 ---
+Generative AI journey Pure LLM Assistant chatbot Virtual Assistant Agent workflow Insight generation Workflow automation Multiagent teams Value Time We are here Summarization and Q&A Data driven decisioning Agent automation Multiagent systems Agentic automation Kombinasjon av generativ AI og automatisering
+Målrettet
+Autonom oppgavefordeling og utførelse
+Læring og optimalisering innebygd
+--- Slide 44 ---
+44 Public 360 ° Hvordan skal framtiden ser ut? KI-støttet offentlig forvaltning Fra enkelte oppgaver til Ende-til-Ende prosesser
+--- Slide 45 ---
+360 ° Intelligent Dokument Registrering
+--- Slide 46 ---
+360 ° AI Ende-til-ende-støtte Sammendrag i forskjellige form Søk – finne eksisterende saker, relevant dokumentasjon Behandle sensitiv data korrekt Klassifisering og metadata forslag
+--- Slide 47 ---
+47 360° Intelligent Document Registration Ny standard for effektiv og lagret innholdsregistrering Fleksibel Fleksible justeringer, preferanser og behov for prosess og felt Intelligent Integrert dokument- og prosessintelligens for å støtte effektiv og sparsom registrering Intuitivt Prosessfokusert redesign for dokumentregistrering
+--- Slide 48 ---
+48 Intelligent Dokument Registrering (under utvikling) Mere intuitivt og fleksibelt dokumentregistrering Intelligent støtte under hele prosessen
+--- Slide 49 ---
+Confidential 49 360° Intelligent Document Registration
+--- Slide 50 ---
+Public 360 ° Generativ AI utvikling for bransjeklare løsninger 50 Integrert med forretningsregler og prosesser Laget for oppgaver og brukere i offentlig sektor Innholds- og kvalitetsstyring Standarder for sikker og ansvarlig for KI-utvikling
+--- Slide 51 ---
+Confidential 51 KI ≠ KI Hoved valg: Sterkere frihet vs skalerbarhet og kontroll Hvor mye frihet trenger brukeren og hvor mye kontroll trenger oppgaven/prosessen? Integrerte KI-prosessverktøy Prosesspesialister » — forhåndsdefinert omfang, formålsbygd Eksempler: 360 KI moduler, andre fagapplikasjoner Best for gjentakende og regulerte oppgaver God kost- og kvalitetskontroll Lavere fleksibilitet Begrenset tilpasning til forskjellig brukermodenhet Personlige KI-produktivitetsverktøy «Generalister» — bredt omfang, brukerdefinerte oppgaver Eksempler: Copilot , chat gpt , Gemini … + Spesial fag-assistenter – coding , design og lignende Best for utforskning og individuell produktivitet Høy fleksibilitet i oppgaver, formater og arbeidsmåter Krever tydelige bruksregler, KI-kompetanse og aktiv menneskelig vurdering Vanskelig skalering og kontroll
+--- Slide 52 ---
+52 Improve working life for public servants and daily life for citizens.​
+
+================================================================================
+Willy Koch - Workshop - Search and reporting.pptx
+================================================================================
+--- Slide 1 ---
+Confidential 1 Public 360° Connect​ 2026 Workshop Search & Reporting Public 360 °
+--- Slide 2 ---
+Agenda Velkommen Introduktion til søgning og rapportering i Public 360° Opgave 1: Nuværende arbejdsgange AI- assistent : Søgning og rapportering Opgave 2: Kvalitetssikring Opgave 3: Case – fra behov til løsning Opsamling 2
+--- Slide 3 ---
+Velkommen ! 3
+--- Slide 4 ---
+4 Introduktion til søgning og rapportering i Public 360°
+--- Slide 5 ---
+Standard søgning og rapportering i Public 360° Confidential 5
+--- Slide 6 ---
+Global søgning Confidential 6 Søger på udvalgte datafelter på tværs af alle datatyper i Public 360° samt i filernes indhold Bruges i det daglige arbejde til at finde f.eks . en sag, et dokument , en kontakt , en ejendom m.m. F.eks .: Sagstitel Dokumentnummer Kontaktperson Filtitel
+--- Slide 7 ---
+Global søgning Confidential 7
+--- Slide 8 ---
+Avanceret søgning 8 Klassisk søgning med foruddefinerede felter for alle datatyper i Public 360° Giver mulighed for at afgrænse søgningen ud fra f.eks . sagstype , status og dokumentarkiv Mulighed for at oprette forskellige visninger og gemte søgninger Mulighed for at eksportere data til Excel eller fil til videre analyse uden for Public 360°
+--- Slide 9 ---
+Gemte søgninger 9 Avancerede søgninger kan gemmes som globale , afdelingsspecifikke eller personlige Vises under Gemte søgninger i sidepanelet , herunder en række foruddefinerede søgninger
+--- Slide 10 ---
+Confidential 10
+--- Slide 11 ---
+Confidential 11
+--- Slide 12 ---
+Confidential 12
+--- Slide 13 ---
+Rapporter 13 Foruddefinerede statistikker og rapporter til mange forskellige behov
+--- Slide 14 ---
+14 Opgave 1: Nuværende arbejdsgang
+--- Slide 15 ---
+Hvordan arbejder I i dag ? Hvad har I behov for at kunne finde og få overblik over i jeres daglige arbejde? Hvordan finder I den information i dag, og hvor oplever I udfordringer? Er der information eller overblik, som I har behov for at kunne tilgå hurtigt eller løbende? Er behovene forskellige for de forskellige roller – f.eks. sagsbehandler, leder og arkivar? Confidential 15
+--- Slide 16 ---
+16 Pause
+--- Slide 17 ---
+17 AI- assisteret søgning og rapportering
+--- Slide 18 ---
+360° Search Assistant – for søk og innsikt Søgeassistent – Hovedsøket hvor brukeren “prompter” og søker etter saker, dokumenter , filer, prosjekt , m.m. . “Vis dokumenter , der har “ mangelbrev ” i titlen , og som er oprettet i de siste 90 dager . Vis adgangskoden og oprettet dato som den første kolonne . Hilde Løwe er ansvarlig .” Statistik og optælling - Lag dynamiske rapporter med oppsummert og grupperte data. Støtter gruppering , som mnd , år , avdeling , saksbehandler m.m. “Create a summary of documents with created date in the past 12 months. Create a count and group on each of the document categories in the system. Add file count as last column for each row.” Vis dokumenter, der har “mangel” i titlen, og som er oprettet i de siste 90 dager. Vis adgangskoden og opprettet dato som den første kolonne. Hilde Løwe er ansvarlig.
+--- Slide 19 ---
+Eksempel: Search assistant Confidential 19
+--- Slide 20 ---
+Eksempel: Statistik og optælling 20
+--- Slide 21 ---
+DEMO Confidential 21
+--- Slide 22 ---
+22 Opgave 2: Kvalitetssikring
+--- Slide 23 ---
+Kvalitetssikring Confidential 23 Hvilken information har I behov for at følge og få overblik over? Hvilke rapporter og overblik bruger I i dag – og hvad bruger I dem til ? Hvilke kvalitetstjek har I behov for i jeres arbejde ? Er der forskel på behovene mellem de forskellige roller – ledelse eller sagsbehandler ? Hvor bruger I i dag meget tid på at samle , bearbejde eller følge op på information, som kunne automatiseres eller understøttes af AI?
+--- Slide 24 ---
+24 Opgave 3: Case - fra behov til løsning
+--- Slide 25 ---
+Case: Overblik over sagsbehandlingen En afdeling oplever , at det er svært at få et samlet overblik over, hvordan sagsbehandlingen forløber . Ledelsen ønsker derfor et overblik , der kan vise, om sagerne bliver behandlet rettidigt , om der er sager, der er gået i stå , og hvor der eventuelt er behov for opfølgning . Afdelingen har endnu ikke defineret præcist , hvad der skal indgå i overblikket , hvem der skal bruge det, eller hvordan informationen skal anvendes i det daglige arbejde . Opgave : Hvad betyder " styr på sagsbehandlingen " konkret ? Hvad har vi behov for at kunne se eller følge op på ? Hvem skal bruge overblikket – og hvad skal det bruges til ? Hvilken periode skal overblikket dække ? Hvordan skal resultatet bruges i praksis ? Hvilke data skal vi være særligt opmærksomme på eller validere ? Confidential 25
+--- Slide 26 ---
+26 Opsamling
+--- Slide 27 ---
+Confidential 27

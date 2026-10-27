@@ -1,0 +1,13 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" 
+    visibility="public"
+    displayName="getCaseId">
+  <description>Get case ID from current process</description>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

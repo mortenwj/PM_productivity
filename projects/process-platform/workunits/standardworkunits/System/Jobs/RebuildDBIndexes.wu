@@ -1,0 +1,7 @@
+<workUnit displayName="[LOCALIZED(70FCA2F7-28AE-4F09-9896-B3E868172125,*Rebuild Database Indexes)]" id="215F5DA8-C1FC-4255-8C1A-7A51571E98C7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(2A78F4BC-ED76-475F-B98E-09FE673294B7,*Rebuild database table indexes to improve performance)]</description>
+  <executable>
+    <invoke/>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

@@ -1,0 +1,8 @@
+﻿<workUnit displayName="FK Organisation synkronisering org-enhed" id="33d1bcbb-6677-4000-a477-800f6a28eeca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Synkroniserer de organisatoriske enheder og deres hierarki fra FK Organisation - SF1500 OrganisationEnhedService v5</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

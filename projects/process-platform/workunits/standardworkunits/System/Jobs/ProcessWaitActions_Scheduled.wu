@@ -1,0 +1,11 @@
+<workUnit id="C9DBE770-64E6-44D2-A32B-76F56D7B4A1C" displayName="[LOCALIZED(CF83D3B6-D4DC-4D9C-A9AF-A9666F9FA1EB,*Wait tasks with external calls)]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(5992F0F7-9D2C-444B-BD4F-5EDAE490AD02,*Process actions for Wait tasks that that does external calls)]</description>
+  <executable file="ProcessWaitActions.xml">
+    <invoke>
+      <arguments>
+        <argument name="expiredDateField" type="string">StartDate</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.Immediatly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

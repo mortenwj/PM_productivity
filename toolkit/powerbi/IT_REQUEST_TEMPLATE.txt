@@ -1,0 +1,36 @@
+Subject: App registration for read-only Power BI API (PM portfolio reporting)
+
+Hi,
+
+I need read-only access to a Power BI report via the REST API for an internal PM portfolio tool (Module Health Scorecard). Sign-in with Microsoft's public Azure CLI app is blocked in our tenant:
+
+  Error: AADSTS65002
+  Request Id: (paste from your sign-in error)
+  Resource: Power BI Service (00000009-0000-0000-c000-000000000000)
+
+Could you please either:
+
+Option 1 — App registration (preferred)
+  • Create an app registration (single tenant) for: [your name], [your email]
+  • Authentication → Allow public client flows: Yes
+  • API permissions (Delegated, Power BI Service):
+      - Dataset.Read.All
+      - Report.Read.All
+  • Grant admin consent
+  • Send me: Tenant ID, Application (client) ID
+
+Option 2 — Enable existing internal tooling app
+  • If we already have an approved app for Power BI / Fabric API, add the permissions above and share the Client ID.
+
+Report scope (read-only):
+  • Workspace ID: 813e80d7-5ba4-4629-a456-30255b5085c4
+  • Report ID:   2693f2f6-4104-48c6-b741-95959d135323
+  • Tenant ID:   cbede638-a3d9-459f-8f4e-24ced73b4e5e
+
+Tenant setting (if DAX queries fail later):
+  • Power BI Admin → Integration → "Dataset Execute Queries REST API" = Enabled
+
+I already have browser access to the report; this is only for programmatic read of revenue by product/module.
+
+Thanks,
+[Your name]

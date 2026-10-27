@@ -1,0 +1,10 @@
+<workUnit id="591ABBAC-615C-4132-BA8A-7A6C054DF04B" displayName="[LOCALIZED(591ABBAC-615C-4132-BA8A-7A6C054DF04B,*GEMI - General e-mail importer)]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(B45EBAF7-D2FC-4AEE-BFF5-AF7780387FBD,*GEMI - General e-mail importer)]</description>
+  <executable assemblyType="SI.Biz.Core.Mail.Importer.GemiJob, SI.Biz.Core.Mail">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.3Minutes" runAs="allaccess_serviceaccount" resultType="none" category="InternalZone" />
+</workUnit>
+
+

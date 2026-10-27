@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="0DA11CCF-74FB-4F07-B103-E98B663CC431"
+          displayName="[LOCALIZED(1D0A9FF4-7DBF-417D-AC58-9C0C184B08BE,*After File Insert)]">
+  <description>[LOCALIZED(F557CC70-2743-4C04-B243-3050FF49BBCE,*Event fired after File is inserted to check if the respective document has to be registered for continuous transfer)]</description>
+  <executable assemblyType="SI.Biz.Core.ContinuousTransfer.Events.ContinuousTransfer_FileInsertEvents, SI.Biz.Core.ContinuousTransfer.Events">
+    <invoke>     
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.FileManagerEventShim" name="AfterInsert"/>
+</workUnit>

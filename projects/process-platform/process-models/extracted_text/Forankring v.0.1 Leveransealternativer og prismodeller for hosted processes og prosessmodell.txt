@@ -1,0 +1,1862 @@
+Etablering
+ og 
+utrulling
+ 
+av
+ 
+prosessrammeverket
+ i Public 360
+Standardisering og effektivisering med prosessrammeverk i Public 360"
+21/10-2025 
+Tone Fjeller, PDM
+
+---
+
+Time to market
+Leveranse
+Time to market
+Economy of scale
+Additional work needed
+Work effort
+Prosessmodell-rammeverk
+2
+Medium
+Documentation, training, intuitive UI
+Medium
+Hosted Processes
+3
+High
+Customer Subscription framework in place ,UI
+High
+Single process
+1
+Low
+Framework in place in Public 360, Experienced consultants in processes
+Low
+Internal
+10
+
+---
+
+«
+Hosted
+ prosesser» er standardiserte løsninger som passer alle kunder med tilsvarende behov
+Internal
+11
+
+---
+
+Alternativ 1 – Prosessmodell-rammeverk (konfigurerbart)
+ 
+Kunden kjøper tilgang til prosessmodell-rammeverket i Public 360°, som inkluderer et sett med 
+standardprosesser
+.
+Rammeverket gir mulighet til å konfigurere og tilpasse egne modeller basert på de standardprosessene som leveres.
+Målet er å tilby en skalerbar plattform som gir kunden fleksibilitet til selv å modellere og videreutvikle prosessene sine.
+Kunden får:
+Tilgang til prosessrammeverket med ferdige 
+standardprosesser
+Mulighet til å konfigurere og tilpasse egne prosessmodeller basert på standard
+Støtte for kommunespesifikke sjekklister, milepæler og prosesser
+Leveransen inkluderer:
+En fast implementeringspakke med rådgivning , oppsett, standard konfigurasjon og testing
+Kurs ved behov
+Utvikling av nye prosesser eller skjema i henhold til bestilling
+Overlevering til drift i samsvar med forvaltningsavtale
+Avgrensning:
+Ingen utvikling av kundespesifikke prosesser utenfor definerte tilleggstimer
+Tillegg for utvikling og rådgivning faktureres på timebasis
+Internal
+12
+
+---
+
+Alternativ 2 – 
+Hosted
+ tjeneste/ Subscription (standardisert)
+Kunden kjøper en standard hostet tjeneste /Subscription som er lik for alle kunder.
+Løsningen inkluderer et forhåndsdefinert sett av prosesser med begrenset mulighet for konfigurering. ( Eks. Tilskudd, Søknad om skjenkebevilling, Søknad om HC kort, Klagebehandling)
+Målet er å levere en ferdig tjeneste som gir rask oppstart, lav forvaltningskostnad og forutsigbar drift.
+Kunden får:
+Tilgang til en standardisert løsning med felles konfigurasjon
+Stabil og oppdatert tjeneste levert som driftet løsning
+Leveransen inkluderer:
+Oppsett og aktivering av tjenesten etter standardmal
+Tilgang til dokumenterte 
+standardprosesser
+Valgfrie tillegg for skjemaaktivering eller konfigurasjon
+Avgrensning:
+Kun begrenset konfigurering innenfor standardmal
+Endringer utover standard faktureres som tillegg
+Løsningen er lik for alle kunder og kan ikke tilpasses unikt
+Internal
+13
+
+---
+
+Alternativ 3 – Enkel prosessleveranse
+Kunden kjøper enkeltprosesser med eller uten tilhørende skjema, men uten tilgang til det fulle prosessmodell-rammeverket.
+Dersom prosessen kan baseres på vårt standardrammeverk, brukes dette.
+Kunden får:
+Leveranse av enkeltprosesser som kan tas i bruk direkte
+Mulighet til å kjøpe tillegg for tilpasning eller rådgivning
+Fleksibilitet til å velge kun de prosessene som er relevante
+Leveransen inkluderer:
+En fast implementeringspakke med rådgivning , oppsett, standard konfigurasjon og testing
+Kurs ved behov
+Utvikling av nye prosesser eller skjema i henhold til bestilling
+Overlevering til drift i samsvar med forvaltningsavtale
+Leveranse med dokumentasjon og eventuelle skjema
+Avgrensning:
+Ingen tilgang til hele prosessrammeverket
+Nye eller komplekse prosesser faktureres på timebasis (utvikling/rådgivning)
+Internal
+14
+
+---
+
+Bakgrunn og hvorfor
+Internal
+15
+
+---
+
+Stort fokus på Standardisering av prosesser i norske kommuner og i  statlige virksomheter 
+16
+
+---
+
+Hvorfor
+ 
+har
+ vi 
+utviklet
+ 
+nytt
+ 
+rammeverk
+ for 
+prosesstøtte
+?
+17
+Dagens 
+prosesstøtte
+ er for rigid
+– vi jobber 
+ikke
+ 
+fra
+ A 
+til
+ Å
+Det er 
+vanskelig
+ å 
+få
+ 
+oversikt
+ over status i 
+saken
+Vi 
+må
+ ha 
+bedre
+ 
+støtte
+ 
+til
+ 
+porteføljestyring
+ og 
+rapportering
+ 
+Det 
+må
+ 
+være
+ 
+mulig
+ å 
+automatisere
+ 
+mer
+Det er for mange 
+klikk
+Det er 
+vanskelig
+ å 
+få
+ 
+oversikt
+ over 
+informasjonen
+ 
+jeg
+ 
+trenger
+Vi 
+må
+ ha 
+sjekklister
+ 
+utenfor
+ 
+løsningen
+ for å ha 
+kontroll
+Ikke god 
+nok
+ 
+håndtering
+ av 
+saksbehandlingstid
+
+---
+
+Gjennomført spørreundersøkelse for å kartlegge prosesser og identifisert automatiseringspotensial
+35  svar- representert bredt fra våre kunder, både fra forskjellige sektorer, avdelinger og  roller i virksomhetene
+18
+
+---
+
+19
+
+---
+
+Agenda 
+Internal
+2
+Hva
+ er «
+Produktet
+» vi 
+skal
+ 
+levere
+ og 
+forslag
+ 
+til
+ alternative 
+leveransemodeller
+ og 
+tjenestepakker
+Avklar
+ roller og 
+ansvarsfordeling
+ for 
+videre
+ 
+etablering
+ og 
+utrulling
+Bakgrunn
+ – 
+hvorfor
+ og 
+hva
+ vi 
+ønsker
+ å 
+oppnå
+ 
+Status- 
+Hvilke
+ 
+kunde
+ 
+aktiviteter
+ 
+som
+ er i gang 
+Enighet
+ om 
+veien
+ 
+videre
+ 
+Spørsmål
+
+---
+
+Spørreundersøkelsen
+ - 
+Oppsummert
+Internal
+20
+Dette sier kundene våre:
+Brukervennlighet, god opplæring og støtte, og sikkerhet er avgjørende for effektiv saksbehandling.
+Integrasjon med eksisterende systemer er en nøkkelfaktor for å få arbeidsflyten til å fungere.
+Utfordringer som går igjen:
+For mye manuelt arbeid
+Manglende samarbeid på tvers av avdelinger
+Lite oversikt og rapporteringsmuligheter
+Lange saksbehandlingstider
+Størst potensial for forbedring innen:
+Arkiv- og dokumenthåndtering
+Saksbehandling
+Innbyggertjenester (henvendelser, klager, søknader)
+HR- og personalprosesser
+Kundene peker på behov for:
+Bedre digital integrasjon
+Reduksjon av manuelle oppgaver
+Mer opplæring og støtte til brukerne
+
+---
+
+Aktiviteter og status 
+Public 360-kunder
+Internal
+21
+
+---
+
+Kundeaktiviteter
+Internal
+22
+Kunde
+Aktivitet
+ Status 
+Pilot
+ Oppfølgning
+Leveranse
+Kommentar
+Add on moduler 
+NAV
+ Demo
+Gjennomført 
+Nei
+Q1- Priser/Utvikling av prosesser/ konsulentbistand
+Alt.1
+Prosess for Domstolene ++
+Teams
+Datatilsynet
+Demo
+Gjennomført
+Ja
+Pilotavtale under utarbeidelse
+Alt. 1/Alt. 3
+Klage fra enkelt personer/Klage på vedtak – Sagt ja til å være referanse
+ 
+Collect
+NVE
+Demo/WS/POC
+Pågående ut uke 42
+?
+Møter med PP, Jarle, Arve og Ole Jørgen og demo av Teams
+Alt. 1
+Teams/ Integrasjon/
+Fullflex UI
+Drammen kommune 
+Demo/WS
+Gjennomført 
+Nei
+Gjennomført og avsluttet/-hadde ikke økonomi og tid til å gå videre  
+Alt. 3 Hosted P
+Høringspross
+Teams/
+Collect
+Drammen kommune
+Demo
+Planlagt
+?
+ Ønsker å være med i 
+Discovery
+Alt. 3 Hosted P
+Skjenkebevilling/søknad
+Team/Collect
+Norec
+Demo
+Gjennomført
+?
+Ny demo med ledergruppa
+Alt. 2
+Collect
+Kristiansand kommune
+Planlagt
+?
+Jan Faye følger opp 
+Alt. 3
+Skjenkebevilling/Søknad
+Sarpsborg kommune
+Planlagt 
+?
+Jan Faye følger opp 
+Alt. 3
+Skjenkebevilling/Søknad
+Kunder i spørreundersøkelse
+Sende forespørsel 
+ Planlagt 
+?
+Må følges opp
+Alt .3
+Skjenke  og servering bevilling/Klagebehandling/Søknader
+Bergen kommune
+Sende forespørsel
+?
+
+---
+
+For å 
+levere
+ – 
+trenger
+ vi 
+målrettet
+ 
+satsing
+Ressurser
+ 
+til
+ 
+videreutvikling
+ av 
+prosessbiblioteket
+Team for 
+produktisering
+ og 
+opplæring
+Samarbeid
+ med 
+salg
+ og marked for 
+posisjonering
+
+---
+
+Kundene er klare – vi må være det også
+ 
+Konsulentressurser
+ (
+faglig
+ /
+funksjonell
+):
+Gjennomføre
+ workshops med 
+kundene
+ for å 
+kartlegge
+ 
+behov
+ og 
+utarbeide
+ 
+prosessforslag
+.
+Bidra
+ i 
+dokumentasjon
+, 
+rådgivning
+ og 
+opplæring
+.
+ 
+Tekniske
+ 
+ressurser
+ (
+utvikling
+ / 
+konfigurasjon
+):
+Utvikle
+ og 
+konfigurere
+ 
+prosesser
+ i 
+standardpakken
+.
+Implementere
+ 
+kundespesifikke
+ 
+prosesser
+ 
+som
+ 
+tillegg
+.
+Kvalitetssikring
+, testing og 
+overlevering
+ 
+til
+ drift.
+Bygge kompetanse hos eksisterende tekniske ressurser.
+Neste 
+steg
+ – 
+etablering
+ av 
+standardprosessbase
+:
+Etablere
+ 
+en
+ base av 
+standardiserte
+ 
+prosesser
+ 
+som
+ fundament for 
+utrulling
+.
+Bruke 
+pilotprosjektet
+ med 
+Datatilsynet
+ 
+til
+ å 
+kartlegge
+ og 
+validere
+ de 
+første
+ 
+standardprosessene
+.
+Starte workshop med 
+utvalgte
+ 
+kommunekunder
+ for å 
+modellere
+ 
+en
+ 
+søknadsprosess
+, 
+f.eks
+. 
+skjenkebevilling
+.
+Bruke 
+resultatet
+ 
+som
+ 
+grunnlag
+ for 
+utvikling
+ av den 
+generelle
+ 
+standardpakken
+.
+
+---
+
+Hvordan utvikle 
+Hosted
+ prosesser
+25
+Discovery
+ – identifisere behov
+Vi kartlegger sammen med kunder hvilke prosesser som egner seg for standardisering, og prioriterer de med størst gevinstpotensial.
+Felles prosessworkshop med kunder (4-5) – detaljert kartlegging
+Gjennom workshops beskriver vi arbeidsflyt, regelverk og informasjonsbehov for å sikre en felles og komplett prosess på tvers av kommuner.
+Utvikling  
+Prosessene bygges som gjenbrukbare moduler, tilpasses for drift og kobles mot nødvendige skjema, integrasjoner og automasjoner.
+Tilgjengeliggjøring i kundeportalen
+Ferdige prosesser publiseres i kundeportalen, der virksomheter kan utforske, velge og ta dem i bruk.
+Kontinuerlig forbedring
+Vi oppdaterer prosessene løpende basert på brukererfaringer, regelverksendringer og nye behov.
+
+---
+
+Fordeling av ansvar 
+Internal
+26
+Rolle / 
+Ressurstype
+Hovedansvar
+Ansvar
+Rådgivere
+Fange kundebehov, lede workshops og sikre funksjonell kvalitet.
+Aase / Hans
+Tekniske ressurser
+Utvikle
+, teste og 
+ 
+levere
+ 
+prosesser
+ i Public 360
+. (Behov for omskolering /bygge kompetanse)
+Aase / Hans
+Salg
+Posisjonere
+ 
+prosessrammeverket
+ og 
+selge
+ 
+riktige
+ 
+leveransemodelle
+r til våre kunder
+Espen / Tone
+Process Platform-team
+ 
+Tilgjengeliggjøring av funksjonalitet i Public 360°. Sikre at nødvendig funksjonalitet er tilgjengelig og fungerer som forutsetning for prosessrammeverket.
+Morten / Tone
+Enablement
+Utarbeide priser, produktark og materiell. Støtte salg og leveranse.
+Enablement / Morten / Tone
+RDF-teamet
+Sikre
+ at 
+RDF rammeverket med 
+skjemaer
+ og ‘Mine sider’ er 
+kompatible
+ med 
+prosessrammeverket
+.
+Leon
+/ 
+Lisa
+
+---
+
+Aktiviteter
+Internal
+27
+
+---
+
+Styringsgruppe 
+28
+Forslag til styringsgruppe deltakere
+Morten /Jenny
+Leon
+Hans
+Ansvar:
+Styringsgruppen skal sikre retning, ressurser og realisering av gevinster – slik at 
+Hosted
+ 
+Processes
+ blir en satsing som leverer verdi både til kunder og organisasjonen.
+Godkjenne mål, veikart og prioriterte leveranser.
+Være beslutningstaker på større endringer i retning, ressursbruk og investeringer
+Sørge for tilstrekkelig ressurser (tid, budsjett og kompetanse) for å gjennomføre initiativet.
+Avklare finansieringsmodell og investeringsrammer for videre utvikling av prosessbibliotek, plattform og abonnementstjenester
+Være sponsor og ambassadør for initiativet internt i organisasjonen-  Bidra til forankring på tvers av enheter (utvikling, salg, kundesuksess, drift).
+Sikre at prosjektet ikke stopper ved leveranse, men går over i kontinuerlig produkt- og tjenesteutvikling.
+Sikre at kundeperspektivet ivaretas i beslutninger.
+Sørge for plan for hvordan 
+Hosted
+ 
+Processes
+ skal videreutvikles, skaleres og markedsføres.
+.
+.
+
+---
+
+Etablering og utrulling av prosessrammeverket i Public 360°
+ 
+29
+Executive
+ 
+summary
+  
+Målet med møtet er å:
+Skape en felles forståelse for hva prosessrammeverket er, og hvordan prosessrammeverket i Public 360° skal implementeres i Public.
+Avklare eierskap og ansvar i våre forskjellige team/avdelinger
+Enes om å sette av dedikerte ressurser til utrullingen av prosessrammeverket – Starte utrulling via pilotprosjekt og workshops med kund
+er.
+Etablere en styringsgruppe for å sikre forankring og fremdrift.
+Forventet resultat:
+Gjennom pilotprosjekt Pilotene (Datatilsynet/NVE) validerer at  løsningen dekker kundens behov og gir et første sett standardiserte prosesser. Pilotene skal legge  grunnlag for et gjenbrukbart, standardisert rammeverk  på tvers av kunder prosjekter.
+Oppsummert
+Møtet skal sikre felles retning, tydelig ansvar og dedikerte ressurser for utrulling og videreutvikling av prosessrammeverket i Public 360
+°
+Pilotfasen skal gi oss konkrete erfaringer og et solid fundament for videre skalering og gevinstrealisering
+
+---
+
+Etablering og utrulling av prosessrammeverket i Public 360°
+ 
+3
+Executive
+ 
+summary
+  
+Målet med møtet er å:
+Skape en felles forståelse for hva prosessrammeverket er, og hvordan prosessrammeverket i Public 360° skal implementeres i Public.
+Avklare eierskap og ansvar i våre forskjellige team/avdelinger
+Enes om å sette av dedikerte ressurser til utrullingen av prosessrammeverket – Starte utrulling via pilotprosjekt og workshops med kund
+er.
+Etablere en styringsgruppe for å sikre forankring og fremdrift.
+Forventet resultat:
+Gjennom pilotprosjekt Pilotene (Datatilsynet/NVE) validerer at  løsningen dekker kundens behov og gir et første sett standardiserte prosesser. Som skal legge  grunnlag for et gjenbrukbart, standardisert rammeverk på tvers av kunder prosjekter.
+Oppsummert
+Møtet skal sikre felles retning, tydelig ansvar og dedikerte ressurser for utrulling og videreutvikling av prosessrammeverket i Public 360
+°
+Pilotfasen skal gi oss konkrete erfaringer og et solid fundament for videre skalering og gevinstrealisering
+
+---
+
+Scope og 
+Suksesskriterrier
+18/9-2025
+
+---
+
+Scope – 
+Alternativ 1 –Prosessmodell-rammeverk (konfigurerbart)
+  
+Levere Public 360 som et konfigurerbart prosessmodell-rammeverk som kan tilbys som abonnementstjeneste med mulighet for tilpasninger og timebasert tillegg.
+Målet er å etablere en skalerbar plattform som gir kunden selvbetjent prosessmodellering, samtidig som vi sikrer lønnsomhet  gjennom tilleggssalg.
+Avgrensning
+Ingen utvikling av kundespesifikke prosesser utenfor definerte tilleggstimer
+Leveransen inkluderer:
+En fast implementeringspakke som omfatter oppsett, standard konfigurasjon og testing.
+Pakken kan deles i nivåer (for eksempel Basis og Premium) basert på Kundens behov.
+Premium-nivå kan inkludere tilleggstjenester som rådgivning, workshops eller spesialtilpasninger.
+Utvikling av prosess eller skjema i henhold til bestilling.
+Overlevering til drift i samsvar med forvaltningsavtale.
+Internal
+31
+
+---
+
+Hvorfor vi gjør dette
+Markedet etterspør ferdig driftede prosesser som kan tas i bruk raskt
+Dagens leveranser krever mye tid og ressurser
+Kunder ønsker fleksibilitet og betaler for verdien de får
+Hosted Processes gir stabile, gjentakende inntekter gjennom abonnement
+
+---
+
+Suksesskriterier
+Minimum 
+X
+ nye abonnementsavtaler første 12 mnd.
+Minst Y % av kundene kjøper tilleggstimer/prosesser innen 1. år.
+Prosess rammeverket  må muliggjøre selvbetjent prosesskonfigurasjon uten utviklerhjelp i ≥80 % av tilfellene.
+Standard prosessbibliotek dekker minst 60 % av typiske behov ved lansering.
+Stabilitet: 99,9 % oppetid og dokumentert 
+skalerbarhet
+ for store organisasjoner.
+ 
+Bevis på oppnådd digitaliseringsgevinst hos minst 2 referansekunder innen første år.
+Internal
+33
+
+---
+
+Gevinst for kunder- Alternativ 1 – Prosessmodell-rammeverk (konfigurerbart)
+Internal
+34
+Selvbetjent prosessmodellering:
+Kunden får et fleksibelt rammeverk som gjør det mulig å konfigurere og tilpasse egne 
+prosessesmodeller
+ uten behov for omfattende utvikling eller konsulentbistand.
+Raskere implementering:
+Standardisert oppsett og konfigurering reduserer tid og risiko ved innføring av nye prosesser.
+Lavere kostnader over tid:
+Fordi løsningen er konfigurerbar og ikke krever spesialutvikling, blir vedlikehold og videreutvikling billigere.
+Forutsigbare leveranser og priser:
+         Fast implementeringspakke gir forutsigbarhet i både tid og kostnad, samtidig som kunden kan kjøpe tilleggstjenester etter behov.
+Skalerbarhet
+:
+Plattformen oppdateres og utvikles i tråd med standarder, teknologi og sikkerhet   
+Tilgang til kompetanse ved behov:
+Tilgang til rådgivning, workshops og spesialtilpasninger dersom kunden ønsker støtte utover det som ligger i prosessrammeverket. Betalbar tjeneste.
+Kontinuerlig drift og forvaltning:
+Tjenesten inngår i en forvaltningsavtale, slik at kunden får trygg oppfølging og jevnlig forbedring.
+ 
+
+---
+
+Scope – 
+Alternativ 2 – 
+Hosted
+ prosess
+ 
+Internal
+35
+Etablere en hostet, standardisert løsning som leveres som abonnement med mulighet for begrenset konfigurasjon og tillegg for skjemaaktivering.
+Målet er rask markedsadopsjon, lave inngangsbarrierer og skalerbar volumvekst
+Kjerneleveranse
+Driftet (
+SaaS
+/hostet) standardplattform med  konfigurasjonsmuligheter.
+Standard skjema- og prosesspakker inkludert i basisabonnement.
+Mulighet for å aktivere ekstra skjema som tilleggstjeneste 
+Selvbetjent administrasjonsgrensesnitt for enkel aktivering og bruk.
+Avgrensning
+Ingen 
+kundespesifik
+ utvikling utenfor standard konfigurasjonsmuligheter.
+ 
+
+---
+
+Suksesskriterier
+ 
+Minimum 
+X
+ nye abonnementsavtaler første 12 mnd.
+Minst Y % av kundene kjøper tilleggstimer/prosesser innen 1. år.
+Gjennomsnittlig aktiveringstid for ny kunde < 2 uker fra signert avtale til produksjon.
+Minst 80 % av kundene kan aktivere tilleggsskjema selv uten teknisk bistand.
+Kundeopplevelse
+Minst 2 referansekunder dokumenterer gevinst (f.eks. reduksjon i saksbehandlingstid eller kostnader) innen første år.
+Internal
+36
+
+---
+
+ 
+Hosted
+ 
+process
+ (Standardiserte prosesser)
+Rask oppstart og lav risiko:
+Kunden får en ferdig hostet (
+SaaS
+) løsning som kan tas i bruk raskt uten behov for installasjon eller tung implementering.
+Lav inngangsbarriere:
+Standardisert oppsett gjør det rimelig og enkelt å komme i gang – spesielt gunstig for mindre kommuner eller virksomheter med begrensede ressurser.
+Selvbetjening og fleksibilitet:
+ Administrasjonsgrensesnitt gjør at kunden selv kan aktivere og konfigurere skjema og prosesser uten teknisk kompetanse.
+Skalerbarhet
+:
+Kunden kan starte i liten skala og utvide ved behov gjennom tilleggsskjema og prosessmodell aktivering.
+Forutsigbar kostnadsmodell:
+Alt leveres som abonnement, noe som gir forutsigbare kostnader og enkel budsjettering.
+Redusert behov for teknisk drift og vedlikehold:
+Løsningen er hostet og driftes av leverandøren, slik at kunden slipper å bruke interne ressurser på infrastruktur og oppdateringer.
+Dokumentert effekt:
+Standardisering og automatisering bidrar til kortere saksbehandlingstid og lavere administrasjonskostnader, noe som kan dokumenteres gjennom gevinster i første driftsår
+.
+Internal
+37
+
+---
+
+Scope – 
+Alternativ 3 – Enkel prosessleveranse
+Public 360 leverer enkeltstående prosesser, med eller uten tilhørende skjema, i Public 360-plattformen. 
+Dersom den bestilte prosessen kan baseres på eksisterende prosessrammeverk, skal dette benyttes. Tilpasninger begrenses til nødvendig konfigurasjon og parameterinnstillinger for å møte Kundens krav.
+Hvis prosessen ikke kan dekkes av eksisterende rammeverk, kan Kunden bestille:
+a) Kartlegging og rådgivning knyttet til prosessutforming, og/eller
+b) Utvikling av ny prosess og/eller tilhørende skjema.
+Arbeid som nevnt i punkt 2 utføres 
+på timebasis
+ til avtalt timesats og faktureres etter medgått tid.
+Avgrensing
+Kunden får ikke tilgang til hele prosessmodellrammeverket.
+Leveransen inkluderer:
+En fast implementeringspakke som omfatter oppsett, standard konfigurasjon og testing.
+Pakken kan deles i nivåer (for eksempel Basis og Premium) basert på Kundens behov.
+Premium-nivå kan inkludere tilleggstjenester som rådgivning, workshops eller spesialtilpasninger.
+Utvikling av prosess eller skjema i henhold til bestilling.
+Overlevering til drift i samsvar med forvaltningsavtale.
+Internal
+38
+
+---
+
+Suksesskriterier
+Enkel prosessleveranse-gjenbruk: Minst  80% av leveransen/utvikling skal kunne baseres på standardrammeverket for å redusere utviklingstid og risiko.
+Enkel prosessleveranser leveres innen 4–6 uker i minst 90 % av tilfellene.
+Mersalg-muligheter: Identifisere minst én potensiell tilleggsleveranse (f.eks. salg av nye prosesser eller skjema i 50% av leveransene)
+Markedsinnsikt: Dokumentere trender eller nye behov fra kunden som kan brukes i produktutvikling.
+Solgt 2-5 Enkel prosessleveranser i løpet av 2025
+Generert leads på  2 nye enkeltprosesser i løpet av 2025
+Internal
+39
+
+---
+
+ Prosessrammeverket  i Public 360
+«Prosessrammeverket  en komponent/modul  i Public 360°», utviklet for å gi kundene et fleksibelt og konfigurerbart fundament for saksbehandling og prosesstyring.
+Løsningen gjør det mulig for kunder å modellere, standardisere og automatisere  prosesser på tvers av fagområder – samtidig som den gir rom for lokale tilpasninger.
+Rammeverket støtter saksbehandlingsmodeller, saksbehandlingsfaser, milepæler, prosessoppgaver og 
+virksomhetssespesifikke
+ sjekklister, alt presentert i en brukervennlig arbeidsflate.
+I tillegg inneholder rammeverket innebygde beregningstyper for tidsfrister tilpasset ulike sakstyper og 
+saksbehandligsfaser
+, som sikrer presis og konsekvent håndtering av lovpålagte frister.
+Prosessrammeverket kan brukes:
+Som en  del av Public 360° for avansert saks- og prosesshåndtering
+Som en konfigurerbar prosessmotor for virksomheter som ønsker å effektivisere og standardisere saksbehandlingen med 
+prosessstøtte
+ 
+Internal
+4
+
+---
+
+Gevinst for kunder- Alternativ 3 –Enkel prosessleveranse 
+Rask og målrettet leveranse:
+Kunden får levert én konkret prosess (med eller uten skjema) innen få uker, uten å måtte gå gjennom en større innføringsprosess.
+Lav kompleksitet og tydelig kostnadsbilde:
+Arbeidet utføres på timebasis etter avtalt timesats, noe som gir kunden full oversikt over kostnader og omfang.
+Fleksibilitet:
+Kunden kan bestille én enkelt prosess basert på behov, uten å måtte investere i et helt prosessrammeverk eller abonnement.
+Mulighet for skreddersøm:
+Der eksisterende rammeverk ikke dekker behovet, kan kunden få rådgivning og utvikling av ny prosess og/eller skjema – tilpasset egne krav.
+Gjenbruk av eksisterende standarder:
+Der det er mulig, benyttes standardrammeverket, noe som reduserer utviklingstid, risiko og vedlikeholdskostnader.
+Trygg overlevering og drift:
+Leveransen inngår i en forvaltningsavtale, slik at prosessen kan driftes og forvaltes på linje med øvrige løsninger i Public 360.
+Gradvis modenhet:
+Kunden kan starte i liten skala, teste ut nye prosesser og bygge videre på erfaringene før eventuelt større investeringer.
+Internal
+40
+
+---
+
+Kundesegmentering
+18/9-2025
+
+---
+
+Kundesegmentering
+ 
+Typiske kunder
+Kjennetegn
+Anbefalt leveranse
+Uanbefalt
+ leveranse
+1
+Store statlige etater, direktorater, store kommuner/fylkeskommuner
+Kompleks prosessportefølje • Eget utviklings-/IT-miljø • Behov for fleksibilitet, tilpasning og eierskap
+Alternativ 1 – Prosessmodell-rammeverk (konfigurerbart)
+Alternativ 3 – Enkel prosessleveranse
+2
+Mellomstore kommuner, mindre direktorater, interkommunale samarbeid
+Moderate prosessbehov • Ønsker rask implementering og lav drift • Begrensede interne ressurser
+Alternativ 2 – 
+Hosted
+ tjeneste (standardisert)/Alternativ 3 – Enkel prosessleveranse
+Alternativ 1 – Prosessmodell-rammeverk
+3
+Små kommuner, prosjektavdelinger i større etater
+Enkle, avgrensede prosesser • Behov for rask leveranse og lav kostnad • Lite/ingen egen IT-kapasitet
+Alternativ 2 – 
+Hosted
+ tjeneste (standardisert)
+Alternativ 1 – Prosessmodell-rammeverk
+Internal
+42
+
+---
+
+1 – Prosessmodell-rammeverk (konfigurerbart)
+Typisk kundeprofil:
+Store statlige virksomheter, direktorater og større kommuner/fylkeskommuner
+Har komplekse prosessbehov, flere fagområder og interne utviklingsressurser.
+Ønsker egenkontroll og fleksibilitet til å modellere, tilpasse og kontinuerlig forbedre prosesser.
+Har strategiske digitaliseringsmål og ofte egne IT-/forretningsutviklingsteam.
+Eksempel: Departementer, større etater (NAV, Skatteetaten), fylkeskommuner med egne utviklingsmiljø.
+Beslutningsdriver:
+Skalerbarhet
+, tilpasningsmuligheter og langsiktig eierskap til prosessene.
+Internal
+43
+
+---
+
+2 – 
+Hosted
+ tjeneste (standardisert), (og Muligens 3)
+Typisk kundeprofil:
+Mellomstore kommuner, mindre direktorater og statlige etater
+Har moderat kompleksitet, men ønsker rask gevinst og lite intern drift.
+Foretrekker ferdig hostet løsning med begrenset konfigurering for lavere kostnad og risiko.
+Har gjerne begrensede IT-ressurser, men krav til sikkerhet og drift (
+SaaS
+).
+Eksempel: Mindre direktorater, mellomstore kommuner, interkommunale samarbeid.
+Beslutningsdriver:
+Forutsigbar pris, lav driftsbelastning og kort implementeringstid.
+Internal
+44
+
+---
+
+3 – 
+Hosted
+ tjeneste (standardisert)
+Typisk kundeprofil:
+Små kommuner,  prosjektbaserte enheter eller enkeltavdelinger i staten
+Har enkle og avgrensede behov, ofte bare én eller noen få prosesser.
+Ønsker lav inngangspris og minst mulig forpliktelse.
+Brukes gjerne for å løse et enkelt, akutt behov eller teste digitalisering i liten skala.
+Eksempel: Små kommuner, enkeltprosjekter i større etater, mindre statlige tilskuddsordninger.
+Beslutningsdriver:
+Rask leveranse og lav kostnad for et konkret behov.
+Internal
+45
+
+---
+
+Prismodeller
+18/9-2025
+
+---
+
+De forskjellige prismodellene 
+Markedsskumming
+Definisjon:
+ En strategi hvor man setter en høy pris ved lansering, rettet mot kunder som er villige til å betale ekstra.
+Fordel:
+ Optimaliserer inntektene fra de tidlige brukerne.
+Eksempel:
+ Apple 
+iPhone
+Penetrasjonsprising
+Definisjon:
+ En lav prisstrategi for raskt å tiltrekke seg kunder.
+Fordel:
+ Bidrar til økt markedsandel.
+Eksempel:
+ 
+Netflix
+Nøytral prisstrategi
+Definisjon:
+ Prisnivå som ligger på linje med konkurrentenes priser.
+Fordel:
+ Fokuserer på andre konkurransefaktorer enn pris.
+Eksempel:
+ Zara
+Internal
+47
+Verdibasert prising
+Definisjon:
+ Prisfastsettelse basert på kundens oppfattede verdi
+Fordel:
+ Passer godt for 
+premiumprodukter
+Eksempel:
+ Rolex
+Kostnadsbasert
+ prising
+Definisjon:
+ Pris settes som summen av kostnader og ønsket fortjeneste
+Fordel:
+ Enkel å implementere og gir forutsigbarhet
+Eksempel:
+ Mindre produsenter
+Abonnementsmodell
+Definisjon:
+ Løpende betaling for tilgang til tjenester eller produkter
+Fordel:
+ Gir stabil inntekt og styrker kundelojaliteten
+Eksempel:
+ Spotify, Adobe
+
+---
+
+Prismodell Alternativ 1 – Prosessmodell-rammeverk (konfigurerbart)
+Internal
+48
+
+---
+
+Prismodell Alternativ 2 – 
+Hosted
+ tjenester (standardisert)
+Internal
+49
+
+---
+
+Prosessrammeverket
+ i
+ 
+praksis
+ ->
+Et 
+rammeverket
+ 
+som
+ 
+skaper
+ 
+struktur
+, 
+flyt
+ og 
+kontroll
+Internal
+5
+
+---
+
+Prismodell Alternativ 3 – Enkel prosessleveranse med eller uten skjema 
+Internal
+50
+
+---
+
+Oppstartskost
+ og 
+opplæring
+
+---
+
+Oppstartskost og Opplæring
+Oppstartskost og opplæringsvideo
+For å sikre en enkel og profesjonell innføring bør vi ha en oppstartskostnad og tilby opplæringsvideoer. 
+Dette dekker reelle implementeringskostnader, forankrer verdien hos kunden og reduserer behovet for løpende support.
+Oppstartskost
+• Fast implementeringspakke som dekker oppsett, standard konfigurering og testing.
+• Kan deles i nivåer (for eksempel Basis og Premium) basert på kundens behov.
+• Premium kan inkludere ekstra rådgivning, workshops eller spesialtilpasninger.
+Opplæringsvideo
+• Standard opplæringsvideo kan inkluderes i oppstartspakken for å øke verdien.
+• Reduserer supportbehov ved å gi brukerne tilgang til selvbetjent læring.
+• Kundetilpasset opplæringsvideo kan tilbys mot tillegg (verdibasert eller timepris).
+Prisstrategi
+• Oppstartspakken prises som en engangskostnad.
+• Kan kombineres med abonnement (for eksempel redusert oppstartskost ved lengre bindingstid).
+• 
+Timepris
+ 
+kan
+ 
+brukes
+ for 
+ekstra
+ workshops 
+eller
+ 
+kundetilpasset
+ 
+opplæringsmateriale
+.
+Internal
+52
+
+---
+
+Vedlikehold
+ 
+ 
+
+---
+
+Vedlikehold av tjenestene
+Vedlikeholdsrutiner
+Kvartalsvis prosessgjennomgang
+Prosesseiere møter produkt-/prosesseier.
+Sjekk at prosessene fortsatt samsvarer med lovkrav, teknologi og arbeidspraksis.
+Årlig strategirevisjon
+Produkt-/prosesseier og ledelse vurderer hele prosessporteføljen.
+Identifiser nye behov, prioriter utvikling og budsjett for videreutvikling.
+Endringshåndtering (løpende)
+Bruk et enkelt 
+change
+ 
+request
+-skjema i Public 360 ?
+Mindre justeringer kan godkjennes av prosesseier; større endringer krever godkjenning fra produkt-/prosesseier.
+Internal
+54
+
+---
+
+Salg
+ 
+ 
+
+---
+
+Kundebrev- Effektiviser deres arbeid med 
+prosesstøtte
+ og 
+automagi
+ 
+Vi ser at mange virksomheter i dag bruker unødvendig mye tid og ressurser på å bygge, drifte og vedlikeholde prosesser selv. Ofte blir resultatet fragmenterte løsninger, høye kostnader og utfordringer med å sikre kvalitet og etterlevelse.
+ 
+Vi ønsker derfor å introdusere dere for vår nye løsning: 
+Hosted
+ prosesser med vårt prosess rammeverk.
+ 
+Med 
+hosted
+ prosesser leverer vi komplette og ferdig driftede prosessløsninger, klare til bruk. Det betyr at dere kan:
+Ta i bruk digitale prosesser raskere uten tunge utviklingsløp
+Redusere kostnader til systemdrift og vedlikehold
+Vær trygg på at løsningen alltid følger gjeldende regelverk
+Få bedre kontroll og oversikt gjennom standardiserte prosesser
+ 
+Eksempel:
+En 
+hosted
+ prosess for søknad om skjenkebevilling kan inkludere:
+Digitalt søknadsskjema
+Automatisert saksbehandling med støtte for regelverk, saksbehandlingstid++
+OpenGov
+ for kommunen og innbyggerdialog
+Ferdig integrasjon til sak/arkivsystem
+ 
+I stedet for at dere bygger alt selv, får dere hele prosessen levert – som en tjeneste.
+Vi tror dette kan gi dere både økt effektivitet, bedre kvalitet og lavere risiko.
+Ønsker du en prat om hvordan dette kan passe inn hos dere, tar vi gjerne et møte.
+ 
+Internal
+56
+
+---
+
+Salgskanaler
+​
+1. Direktesalg (Key 
+Account
+ / B2G)
+• Kommuner og offentlige institusjoner krever både dialog og anbudsprosesser.
+• Tiltak: Dedikert salgsteam eller senior konsulenter, aktiv deltakelse i markedsdialoger og anbudsprosesser.
+• Fordel: Gir høy tillit, større kontrakter og muligheter for mersalg.
+• 
+Egnet for: Alternativ 1 (prosessrammeverk) og Alternativ 2 (hostet tjeneste).
+​
+3. 
+Inbound
+ / Digital markedsføring
+• Kommunale beslutningstakere foretar egen 
+research
+ før de tar kontakt.
+• Tiltak: Vise til ROI-kalkulator og gjennomføring av 
+webinarer
+.
+• Fordel: Genererer kvalifiserte leads med forhåndsinteresse.
+• 
+Passer for: Alle alternativer.
+​
+Internal
+57
+4. Bransjearrangementer og nettverksbygging
+• Kommuner samles på felles møteplasser for informasjon og erfaringsutveksling.
+• Eksempler på tiltak: KS-konferanser, Digitaliseringskonferansen, 
+eForvaltningsforum
+.
+• Fordel: Styrker tillit og øker synlighet.
+• 
+Egnet for: Prosessrammeverket som krever et mer strategisk anskaffelsesforløp
+.
+Overordnet strategi
+• Primærkanal: Direktesalg skal være hovedfokus i den innledende fasen.
+• Støttekanal: 
+Inbound
+ 
+marketing
+ brukes for å bygge pipeline og generere potensielle kunder.
+• På sikt: En selvbetjent modell (nettside med bestillingsfunksjon) for enklere prosesser når markedet er mer modent.
+
+---
+
+Kartlegging
+ 
+av
+ 
+prosesser
+Tietoevry at a glance
+2 September 2025
+
+---
+
+Kartlegging av standard prosesser 
+Kartlegging av standard ende-til-ende prosesser anbefales gjennomført i fire trinn
+Forarbeid med definering av 
+scope
+ (POC)
+Prosesskartlegging med 
+swimlane
+-diagrammer (
+FigJam
+/
+Miro
+)
+Validering og standardisering av prosesser med prosesseier og kunder
+Leveranse av prosessbibliotek med anbefalinger for automatisering. 
+Internal
+59
+
+---
+
+Leveransealternativer og prismodeller for «
+Hosted
+ 
+processes
+» og 
+prosessesrammeverket
+  
+Internal
+6
+
+---
+
+Dokumentasjon 
+Internal
+60
+
+---
+
+Thank you
+
+---
+
+Ekstra slide bak denne – ikke i bruk
+62
+
+---
+
+Fordeling av ansvar  
+Rolle / Ressurstype
+Tjenester / Leveranser
+Lederansvar / Oppfølging
+Ansvar
+Rådgivere
+Sørge for at kundens behov fanges opp og omsettes til konkrete prosessbeskrivelser og leveranseforslag. Lede workshops og kvalitetssikre funksjonell utforming av prosesser. Workshop, prosesskartlegging, rådgivning, opplæring.
+Leder for rådgivning (eller fagansvarlig for prosess) har ansvar for metodikk, kompetanse og kvalitet i leveransene. Skal sikre at rådgivere jobber etter felles standard og leverer gjenbrukbare resultater.
+Aase / Hans
+Tekniske ressurser
+Konfigurasjon, prosessutvikling, testing, drifts­overlevering i Public 360° – både standard og kundetilpassede. Sørge for teknisk kvalitet, struktur og gjenbruk.
+Leder for teknisk leveranse har ansvar for prioritering, ressursplanlegging og at tekniske leveranser følger standardrammeverket. Skal også sørge for opplæring og dokumentasjon.
+Aase / Hans
+Salg
+Identifisere kundebehov, posisjonere prosessrammeverket og selge riktige leveransemodeller og tilleggstjenester. Sikre gode forventningsavklaringer mot leveranse.
+Salgsleder har ansvar for at tilbudene er forankret i leveransekapasitet og at salgsteamet kommuniserer riktig verdi og omfang. Skal koordinere tett med rådgivning før tilbud sendes.
+Espen / Aase / Tone
+Process Platform-team
+Tilgjengeliggjøring av funksjonalitet i Public 360°. Sikre at nødvendig funksjonalitet er tilgjengelig og fungerer som forutsetning for prosessrammeverket. Ivareta teknisk plattform, utvikling og forvaltning.
+Teamleder for 
+Process
+ Platform har ansvar for planlegging, prioritering og kvalitet i leveranser som understøtter prosessrammeverket. Skal samhandle tett med tekniske leveranser og rådgivning.
+Morten / Tone
+Enablement
+Utarbeide prising, produktark og opplæringsmateriell. Sikre at salg og leveranse har oppdaterte maler og kommersielt grunnlag. Bistå i tilbudsarbeid og dokumentasjon.
+Leder for 
+enablement
+ har ansvar for at prissetting, produktbeskrivelser og materiell er konsistente, oppdaterte og tilgjengelige. Skal koordinere med salg og rådgivning ved endringer i produktporteføljen.
+Enablement/Morten/Tone
+RDF teamet
+Internal
+63
+
+---
+
+Kundesegment og Gevinst
+Primære kundesegmenter
+Kommuner, små og store kommuner i hele Norden som bruker Public 360° til saks- og dokumenthåndtering
+Offentlige virksomheter og regionale myndigheter med komplekse eller regulerte saksprosesser som krever fleksibel og 
+tilpassbar
+ 
+prosessstøtte
+Kundeverdier / Gevinster
+Effektiv saksbehandling - Felles prosesslogikk og bedre kontroll
+Fleksibel løsning - Tilpass uten behov for utvikling
+Høy kvalitet og etterlevelse - Standardiserte prosesser reduserer feil
+Tids- og kostnadsbesparelser - Mindre manuelt arbeid og færre systemer
+Fremtidsrettet plattform - Klar for RDF, automasjon og AI i Public 360
+°
+Internal
+64
+
+---
+
+Dette har vi avdekket i dialog med kundene
+Behovene varierer etter størrelse, modenhet og kapasitet
+Alle ønsker standardiserte prosesser som gir rask verdi
+Kunder etterspør ferdige moduler de kan abonnere på
+Ulike ambisjonsnivå krever ulike innganger
+
+---
+
+Slik skaper dette verdi for oss
+Øker lønnsomhet gjennom abonnement og tilleggstjenester
+Reduserer behovet for skreddersøm
+Skalerbar modell med gjenbrukbare komponenter
+Posisjonerer oss som ledende innen prosessautomatisering
+
+---
+
+Hva er prosessrammeverket?
+Internal
+67
+
+---
+
+Utfordringen i dag
+Internal
+68
+
+---
+
+Søknadsprosessen – Ende-til-ende flyt i Public 360°
+Internal
+69
+
+---
+
+Leveransealternativer
+7
+Alternativ
+Kort 
+beskrivelse
+Typisk
+ for
+Nøkkelverdier
+Prismodell
+1. 
+Prosessmodell-rammeverk
+ (
+konfigurerbart
+)
+Kunden 
+kjøper
+ 
+tilgang
+ 
+til
+ 
+prosessrammeverket
+ i Public 360° med 
+ferdige
+ 
+standardprosesser
+. Gir 
+mulighet
+ 
+til
+ å 
+konfigurere
+ og 
+tilpasse
+ 
+egne
+ 
+modeller
+ 
+basert
+ 
+på
+ standard.
+ Utvikling av nye prosesser eller skjema i henhold til bestilling.
+V
+irksomheter
+ 
+som
+ 
+ønsker
+ 
+fleksibilitet
+ og 
+selvbetjent
+ 
+prosessmodellering
+.
+Fleksibelt og skalerbart
+Eierskap til egne prosesser
+Tilpasning innenfor standardrammer
+Alt. 1: 
+Tilgang til  å definere prosessmodeller basert på standard prosesser.
+Alt. 2: 
+Tilgang til 
+Processmodell
+, 
+Process
+ designer og business 
+rule
+ 
+engine
+. Saksmaler.
+Konsulent /utviklere pr. timebasis
+2. Hosted tjeneste (standardisert)
+Ferdig hostet løsning med forhåndsdefinerte prosesser og begrenset konfigurasjon. Leveres som driftet tjeneste med rask oppstart og lav forvaltningskostnad.
+Kommuner
+ 
+som
+ 
+ønsker
+ 
+standardiserte
+ 
+prosesser
+ 
+uten
+ 
+behov
+ for 
+lokal
+ 
+konfigurasjon
+.
+Rask 
+oppstart
+Forutsigbar
+ drift
+Lav 
+administrasjon
+Abonnement/Subscription 
+pt
+. ende til ende prosess
+Tjeneste-Oppstartspakke/e-Læringsvideo
+3. Enkel prosessleveranse
+Kjøp
+ av 
+enkeltprosesser
+ med 
+eller
+ 
+uten
+ 
+skjema
+, 
+uten
+ 
+tilgang
+ 
+til
+ hele 
+prosess
+rammeverket
+. 
+Mulighet til å konfigurere og tilpasse modell basert på standard. Utvikling av nye prosesser eller skjema i henhold til bestilling.
+Kunder 
+som
+ 
+ønsker
+ 
+kun
+ 
+enkelte
+ 
+prosesser
+ 
+uten
+ full 
+løsning
+.
+Rimelig
+ og 
+målrettet
+Leveres
+ 
+raskt
+Tilpasning
+ 
+ved
+ 
+behov
+Lisens pr. aktiv prosess.  
+Konsulent /utviklere pr. timebasis
+
+---
+
+Hva betyr dette for saksbehandleren?
+Internal
+70
+
+---
+
+Hvordan opplever søker dette?
+Internal
+71
+• 
+Søker
+ 
+får
+ 
+mottaksbrev
+ og 
+vedtak
+ 
+automatisk
+ 
+på
+ Mine sider
+• SMS-
+varsler
+ 
+ved
+ 
+mottak
+, mangler og 
+vedtak
+• Kan 
+stille
+ 
+spørsmål
+ 
+direkte
+ i 
+saken
+• Last 
+opp
+ 
+manglende
+ 
+dokumenter
+ 
+uten
+ e-post 
+eller
+ 
+postgang
+💬 «Jeg 
+får
+ 
+beskjed
+ med 
+én
+ gang 
+noe
+ mangler – det sparer 
+både
+ meg og 
+kommunen
+ 
+tid
+.»
+
+---
+
+Oppstartspakke og opplæringsvideoer
+72
+
+---
+
+Gevinster og verdi for brukerne
+Internal
+73
+Mindre
+ 
+manuelt
+ 
+arbeid
+Raskere
+ og 
+mer
+ 
+forutsigbar
+ 
+saksbehandling
+Færre
+ 
+feil
+ og mangler
+Sømløs
+ 
+kommunikasjon
+ 
+mellom
+ 
+søker
+ og 
+saksbehandler
+Økt
+ 
+kvalitet
+ og 
+brukertilfredshet
+
+---
+
+Neste steg
+Internal
+74
+
+---
+
+75
+ 
+🎯 
+Søknadsprosess – Ende-til-ende flyt i Public 360°
+Swimlanes
+Søker | System (Public 360° / Mine sider) | Saksbehandler | Leder
+Prosessflyt
+1️⃣ 
+Søker
+Fyller ut digitalt skjema
+Sender søknad
+Mottar bekreftelse på 
+Mine sider
+ + SMS-varsel
+2️⃣ 
+System (Public 360° / Mine sider)
+Oppretter sak automatisk
+Starter prosessmodell
+Genererer og sender mottaksbrev (Mine sider + SMS)
+Utfører automatisk sjekk mot sjekkliste
+Oppretter mangelbrev ved mangler (Mine sider + SMS)
+3️⃣ 
+Saksbehandler
+Gjennomgår sjekkliste og 
+kvitterer ut sjekkpunkter
+ manuelt
+Får varsel når søker har sendt inn nye dokumenter
+Vurderer forslag til vedtak som systemet genererer
+Sender vedtak til godkjenning
+4️⃣ 
+Leder
+Godkjenner vedtak
+Ved godkjenning sender systemet automatisk vedtaksbrev (Mine sider + SMS)
+5️⃣ 
+System (Public 360° / Mine sider)
+Journalfører alt automatisk
+Lukker saken, eller oppretter oppfølgingsaktiviteter ved behov
+Tilgjengeliggjør status og rapporter i arbeidsbord
+💡 
+Gevinster og verdibidrag (slide 2)
+Effektivitet:
+ Reduserer manuell oppfølging og dokumenthåndtering
+Kvalitet:
+ Strukturert sjekkliste gir høyere presisjon
+Brukeropplevelse:
+ Søker får løpende status via Mine sider og SMS
+Transparens:
+ Saksbehandler og leder ser status og behandlingstid i sanntid
+Skalerbarhet
+:
+ Prosessrammeverket muliggjør automatisering og gjenbruk
+Forretningsverdi:
+ Med prosessrammeverket skaper vi en ny og skalerbar inntektsstrøm
+
+---
+
+Prosessbingo
+ – 
+offentlige
+ 
+utfordringer
+Venter på svar
+Gjør dobbeltarbeid
+Bruker Excel for mye
+Manglende prosessoversikt
+Uklart ansvar
+Samme data flere steder
+Ingen automatisering
+Ustrukturert informasjon
+Lang saksbehandlingstid
+For mange systemer
+Avhengig av enkeltpersoner
+Manglende tilbakemeldinger
+Ulike arbeidsmåter
+Vanskelige skjemaer
+Ingen felles maler
+Lav 
+prosessmodenhet
+
+---
+
+Tjenestepotensial – Prosessrammeverket i Public 360°
+Mål:
+Etablere en tjenestemodell som skaper verdi for både kunde og leverandør.
+Oppstartspakke –  effektiv implementering
+Fast implementeringspakke som dekker oppsett, standard konfigurering/kurs, testing og opplæring
+Tilbys i nivåer (Basis / Premium) basert på behov
+Premium kan inkludere rådgivning, workshops og spesialtilpasninger
+➡ Gir forutsigbar leveranse og høyere opplevd kundeverdi
+Opplæringsvideo – læring som skalerer
+Standard opplæringsvideo inkludert i oppstartspakken
+Reduserer supportbehov gjennom selvbetjent læring
+Kundetilpassede videoer tilbys som tilleggstjeneste
+➡ Øker brukeradopsjon og frigjør interne ressurser
+Prisstrategi – fleksibel  
+Engangskost for oppstartspakke
+Ekstra workshops og kundetilpasset opplæring etter time- eller verdibasert modell
+➡ Skaper kombinasjon av engangsinntekter og repeterende verdi
+Resultat:
+Med prosessrammeverket skaper vi en ny og skalerbar inntektsstrøm
+Internal
+8
+
+---
+
+“Hosted 
+prosesser
+”
+Phase
+Process Model
+eService
+Document template
+Casetype
+Integration
+AI – 
+vedtak
+ 
+oppsummering
+ 
+Phase 1
+X
+X
+Phase2
+x
+X
+x
+Phase 3
+x
+x
+x
+x
+X
+Phase 4
+x
+x
+x
+x
+x
+x
+Internal
+9
+Prosessrammeverket
+ er 
+kjernen
+ 
+som
+ 
+utløser
+ 
+verdien
+ av 
+andre
+ 
+moduler
+. 
+ 
+Man kan
+ 
+koble
+ e-
+tjenester
+, 
+dokumentmaler
+, 
+sakstyper
+, 
+integrasjoner
+ og AI 
+sømløst
+ 
+sammen
+ – 
+noe som 
+gir
+ 
+kommunen
+ 
+økt
+ 
+effektivitet
+ for 
+hver
+ 
+fase
+.
+Verdi for kunde 
+
+prosessmodellen utløser e-tjenester, dokumenter, integrasjoner og AI som sammen skaper en komplett, datadrevet og effektiv arbeidsflyt med ende til ende prosesser

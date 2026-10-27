@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="workUnit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:choice minOccurs="0" maxOccurs="1">
+          <xs:element name ="categories" type="categoryType" />
+        </xs:choice>
+        <xs:element name="executable" minOccurs="1" maxOccurs ="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice minOccurs="1" maxOccurs="1">
+                <xs:element name="invoke">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="arguments"  type="argumentType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="powerShell">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="arguments"  type="argumentType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="wf">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="arguments"  type="argumentType" minOccurs="0" maxOccurs="1"/>
+                      <xs:element name="return"  type="returnType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                    <xs:attribute name="startOption" type="wfStartOptionType" use="required" />
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="xscript">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="arguments"  type="argumentType" minOccurs="0" maxOccurs="1"/>
+                      <xs:element name="return"  type="returnType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                    <xs:attribute name="language" type="languageType" use="required" />
+                    <xs:attribute name="entryPoint" type="xs:string" use="required" />
+                    <xs:attribute name="debug" type="xs:string" use="optional" default="false"/>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="file" type="xs:string" use="optional" />
+            <xs:attribute name="assemblyType" type="xs:string" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice minOccurs="0" maxOccurs="1">
+          <xs:element name="job">
+            <xs:complexType>
+              <xs:attribute name="queue" type="xs:string" use="required" />
+              <xs:attribute name="runAs" type="xs:string" use="optional" />
+              <xs:attribute name="resultType" type="resultType" use="required" />
+              <xs:attribute name="category" type="xs:string" use="optional" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="event">
+            <xs:complexType>
+              <xs:attribute name="shim" type="xs:string" use="required" />
+              <xs:attribute name="name" type="xs:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" type="identifierGuid" use="required" />
+      <xs:attribute name="overrides" type="xs:string" use="optional"/>
+      <xs:attribute name="visibility" type="visibilityType" use="optional" />
+      <xs:attribute name="displayName" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name ="categoryType">
+    <xs:sequence>
+      <xs:element name="category" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="comment" type="xs:string" use="optional" />
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name ="argumentType">
+    <xs:sequence>
+      <xs:element name="argument" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="name" type="xs:string" use="required" />
+              <xs:attribute name="type" type="dataType" use="optional" />
+              <xs:attribute name="comment" type="xs:string" use="optional" />
+              <xs:attribute name="editable" type="xs:string" use="optional" />
+              <xs:attribute name="origin" type="originType" use="optional" />
+              <xs:attribute name="hidden" type="xs:string" use="optional" />
+              <xs:attribute name="keyfieldvalue" type="xs:string" use="optional" />
+              <xs:attribute name="descriptionfieldvalue" type="xs:string" use="optional" />
+              <xs:attribute name="category" type="xs:string" use="optional" />
+              <xs:attribute name="categoryLocalizationId" type="xs:string" use="optional" />
+              <xs:attribute name="nameLocalizationId" type="xs:string" use="optional" />
+              <xs:attribute name="commentLocalizationId" type="xs:string" use="optional" />
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name ="returnType">
+    <xs:attribute name="type" type="dataType" use="required" />
+    <xs:attribute name="comment" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:simpleType name="visibilityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="external" />
+      <xs:enumeration value="public" />
+      <xs:enumeration value="internal" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="resultType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="none" />
+      <xs:enumeration value="database" />
+      <xs:enumeration value="eventlog" />
+      <xs:enumeration value="both" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="originType">
+    <xs:restriction base="xs:string">
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="wfStartOptionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="invoker" />
+      <xs:enumeration value="application" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dataType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="string" />
+      <xs:enumeration value="int" />
+      <xs:enumeration value="dateTime" />
+      <xs:enumeration value="identity" />
+      <xs:enumeration value="object" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="languageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vb" />
+      <xs:enumeration value="csharp" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="identifierGuid">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="254" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

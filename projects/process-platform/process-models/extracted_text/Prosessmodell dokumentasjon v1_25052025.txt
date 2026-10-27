@@ -1,0 +1,373 @@
+Prosessmodeller
+Funksjonell designbeskrivelse
+Dette dokumentet gir en oversikt over prosessmodellene i Public 360°, og forklarer hvordan de brukes til å strukturere, styre og automatisere arbeidsflyt i en sak. Prosessmodellen gir virksomheter mulighet til å konfigurere og forenkle Saksbehandlingsfase, milepæler og prosesser – og dermed oppnå en mer effektiv og enhetlig saksbehandling.
+Ved å beskrive struktur, funksjonalitet og automasjon, gjør dette dokumentet det enklere for brukere, administratorer og beslutningstakere å benytte prosessmodellen for å forbedre arbeidsflytene. Innholdet dekker konfigurasjon av modeller, bruk av maler for saksbehandlingsfase og automatisering gjennom triggere.
+⚠️ Dette dokumentet oppdateres jevnlig.
+1. Saksbehandling med prosessmodeller
+1.1 Innledning til saksbehandling
+I Public 360° og Plan & Build 360° fungerer en "sak" som den sentrale strukturen der all informasjon, aktiviteter og dokumentasjon samles. Denne strukturen gjør det mulig å jobbe systematisk og oversiktlig fra start til slutt.
+Prosessmodellen ble introdusert for å erstatte tidligere, statiske fremdriftsplaner. Den gir en mer fleksibel og skalerbar måte å jobbe med flyt og oppgaver på. Med prosessmodellen kan man automatisere arbeidsflyt, jobbe strukturert og tilpasse håndteringen av ulike sakstyper – enten man jobber steg for steg eller med flere Saksbehandlingsfaser samtidig.
+1.2 Prosessmodell i saksbehandling
+1.2.1 Oversikt
+En prosessmodell er som en oppskrift på hvordan en sak skal behandles. Den beskriver hvordan Saksbehandlingsfase, milepæler og prosesser skal opprettes og håndteres – enten automatisk eller manuelt – slik at behandlingen blir effektiv og konsekvent. Hver modell er knyttet til en bestemt sakstype, noe som sikrer at riktig arbeidsflyt aktiveres automatisk.
+Når en prosessmodell kobles til en sak, definerer den hvilke Saksbehandlingsfase og milepæler som skal inngå. Modellen bestemmer også hva som opprettes automatisk, og hva saksbehandleren kan legge til manuelt. I tillegg kan prosessene i saksbehandlingsfasene starte oppgaver, oppdatere sakens status og sende varsler – alt for å drive saken fremover.
+1.2.2 Tentativ modus
+En prosessmodell kan settes i "tentativ modus" – en slags kladdemodus. Da opprettes saksbehandlingsfasen automatisk, men ingen milepæler eller prosesser blir lagt til. Det er heller ikke mulig å endre saksbehandlingsfasen eller legge til noe annet – bortsett fra dokumenter. Dette gjør det mulig for saksbehandleren å legge til et dokumenter før selve arbeidsflyten aktiveres.
+Tentativ modus er også nyttig når man er usikker på om riktig prosessmodell er valgt. Brukergrensesnittet gir da tilgang til en egen visning for å endre prosessmodellen.
+1.2.3 Endre prosessmodell
+Det kan oppstå situasjoner der det er behov for å bytte prosessmodell i en sak. Dette er støttet og kan gjøres enten fra rediger sak eller direkte fra saksoversikten – så lenge saken er i tentativ modus.
+Når du skal bytte modell, får du følgende valg i grensesnittet:
+Endre sakstype
+Bytte til en annen prosessmodell
+Aktivere prosessmodellen og starte saksbehandlingen
+Flytte dokumenter til ny saksbehandlingsfase
+Flytte milepæler til ny  saksbehandlingsfase
+Når saksbehandleren aktiverer modellen, opprettes alle saksbehandlingsfasene og elementer (prosesser og milepæler) slik de er definert i den nye prosessmodellen.
+Hvis samme modell brukes på nytt:
+Systemet starter likevel en ny instans, og de tidligere saksbehandlingsfasene og delene håndteres automatisk, slik:
+Endring av sakstype
+Hvis det er tillatt å endre sakstype, viser systemet en liste over gyldige alternativer. Listen er basert på underliggende konfigurasjon – for eksempel at alle har samme mal-kode. Dersom det ikke er lov å endre sakstype, vises den nåværende typen som skrivebeskyttet.
+Bytte av prosessmodell
+Det er mulig å bytte prosessmodell selv om du velger den samme som før. I begge tilfeller lages en ny instans, og dokumenter og milepæler beholdes for å sikre dataintegritet.
+Systemet lar deg tilknytte eksisterende dokumenter og milepæler til Saksbehandlingsfasene i den nye modellen.  På denne måten unngår, men datatap eller avbrudd i arbeidsflyten.
+Omfordeling av dokumenter og milepæler
+Ved bytte av modell får du oversikt over alle dokumenter og milepæler som hører til de gamle saksbehandlingsfasene.
+Du må så:
+For dokumenter:
+Velge hvilke ny Saksbehandlingsfaser hvert dokument skal knyttes til
+Hvis du ikke gjør noe, blir dokumentene liggende i arkivet uten å være knyttet til noe Saksbehandlingsfase
+For milepæler:
+Velge ny Saksbehandlingsfasen
+Velge milepæltype (tilgjengelig i den nye saksbehandlingsfasen)
+Velge status (som er gyldig for valgt type)
+Hvis du flytter en milepæl:
+En ny milepæl opprettes i den nye saksbehandlingsfasen
+Den gamle markeres som "Flyttet", for å sikre historikk
+Milepæler som ikke flyttes og som ikke er lukket, blir automatisk fjernet når ny modell aktiveres. Lukkede milepæler bevares, men kopieres ikke.
+Automatisk oppretting og duplikater
+Dersom milepæltypen du velger er satt opp for automatisk oppretting, vurderer systemet om dette fortsatt skal skje – basert på regler om samtidighet og status. Eksempler:
+Bare én milepæl tillatt: automatisk oppretting stoppes
+Kun én aktiv tillatt: systemet vurderer status
+Flere tillatt: både ny og flyttet milepæl kan eksistere
+Noen ganger blir brukeren spurt direkte om milepælen fortsatt skal opprettes automatisk. Systemet sikrer at alt opprettes uten konflikt.
+1.3 Saksbehandlingsfasen Saksbehandlingsfase (Stage)
+Saksbehandlingsfaser er et definert steg i en prosessmodell – omtrent som en “fase” i en tradisjonell fremdriftsplan. Forskjellen er at Saksbehandlingsfasen i prosessmodellen ikke nødvendigvis må være i rekkefølge – de kan også kjøres parallelt. Hver Saksbehandlingsfase har tilhørende prosesser og milepæler.
+Dette gjør at ulike deler av en sak kan behandles samtidig av én eller flere personer, noe som gir bedre flyt og kortere behandlingstid.
+1.3.1 Tilgjengelighet for Saksbehandlingsfasen
+Når man lager en prosessmodell, må man bestemme hvordan hver Saksbehandlingsfase skal gjøres tilgjengelig:
+Automatisk opprettet: opprettes når prosessmodellen starter eller ved en bestemt hendelse
+Kan legges til manuelt: tilgjengelig for saksbehandleren ved behov
+Begge deler: kan opprettes automatisk, men også legges til manuelt hvis nødvendig
+Dette gir både fleksibilitet og struktur – og lar organisasjonen tilpasse arbeidsflyten etter behov.
+1.3.2 Status for Saksbehandlingsfasen
+Et Saksbehandlingsfasen kan ha ulike statuser som styrer hva brukeren kan gjøre, og hvordan innhold opprettes eller avsluttes. Tabellen under forklarer de viktigste:
+Valideringer for Saksbehandlingsfasens status
+For å sikre korrekt arbeidsflyt, har systemet regler for hvilke statusendringer som er lov. Eksempler:
+Du kan ikke hoppe over “Pågår” for å gå direkte til avsluttede statuser
+En lukket eller avbrutt Saksbehandlingsfasen kan ikke åpnes igjen
+Tentative Saksbehandlingsfaser kan ikke få innhold før saken aktiveres
+Ved avslutning vises alltid en bekreftelsesdialog, siden det er en permanent handling
+Disse reglene beskytter integriteten i saksbehandlingen og hindrer utilsiktet datatap.
+1.3.3 Automatisk opprettede Saksbehandlingsfasen
+Noen Saksbehandlingsfasen i en prosessmodell er satt opp til å bli automatisk opprettet. Dette skjer enten:
+Når en ny sak starter, eller
+Når en bestemt hendelse (trigger) utløses
+Hensikten er å sikre at viktige deler av arbeidsflyten alltid inkluderes, uten at noen trenger å gjøre det manuelt.
+Status for automatisk opprettede Saksbehandlingsfaser
+En Saksbehandlingsfase kan ha ulike startstatus:
+Pågår (In Progress): Saksbehandlingsfasen aktiveres umiddelbart, og alle tilknyttede prosesser og milepæler opprettes med en gang.
+Kommende (Upcoming): Saksbehandlingsfasen legges inn i modellen, men innholdet opprettes ikke før Saksbehandlingsfasen blir aktivt.
+Tentativ: Hvis modellen er i tentativ modus, får alle Saksbehandlingsfasen status Tentativ. Når saken startes, får hver Saksbehandlingsfase sin definerte startstatus.
+Eksempel:En prosessmodell har tre Saksbehandlingsfasen som skal starte automatisk. To av dem er satt til "Kommende". Hvis modellen brukes i tentativ modus, får alle tre først status "Tentativ". Når saken aktiveres, får en Saksbehandlingsfase status "Pågår" og de to andre "Kommende".
+Dette gir fleksibilitet – man kan planlegge arbeidsflyten uten å aktivere alt på en gang.
+1.3.4 Manuelt tillegg av Saksbehandlingsfasen
+Noen Saksbehandlingsfasene er konfigurert slik at saksbehandleren selv kan legge dem til når det er behov. Dette er spesielt nyttig hvis:
+Saksbehandlingsfasen bare er aktuelt i noen saker
+Arbeidsflyten må utvides underveis
+Brukeren klikker da på “Legg til Saksbehandlingsfase”-knappen og velger fra en liste over tilgjengelige Saksbehandlingsfaser. Systemet passer samtidig på at ingen regler brytes (som regler om samtidige Saksbehandlingsfaser, se neste kapittel).
+1.3.5 Kombinert tilgjengelighet
+Et Saksbehandlingsfasen kan være satt opp både som:
+Automatisk opprettetog
+Tilgjengelig for manuelt tillegg
+Dette gir maksimal fleksibilitet – systemet kan opprette Saksbehandlingsfasen når det trengs, men saksbehandleren kan også gjøre det selv hvis behovet oppstår senere.
+Systemet sjekker samtidig reglene for samtidighet (se neste kapittel), slik at man unngår duplikater eller konflikter i arbeidsflyten.
+1.4 Milepæler
+Milepæler er viktige hendelser eller tidspunkter i saksbehandlingen – de markerer noe som må skje, som f.eks. godkjenning, innsendelse, frist eller vedtak.
+Mens en Saksbehandlingsfase er en fase som ofte inneholder mange aktiviteter, er en milepæl et punkt som markerer fremdrift eller krav i prosessen.
+Hva består en milepæl av?
+Hver milepæl har:
+En type (f.eks. “Frist”, “Godkjenning”, “Mottatt søknad”)
+En status:
+Planlagt
+Oppnådd
+Kansellert
+Milepæler kan opprettes automatisk eller manuelt – avhengig av hva som er definert i prosessmodellen.
+Rolle i måling av tid (Saksbehandlingstid)
+Milepæler brukes også til å måle tid i saksbehandlingen:
+Hvor lang tid det tar mellom to milepæler
+Hvor lang tid en Saksbehandlingsfase varer
+Total saksbehandlingstid
+Systemet kan følge med på dette, og hjelpe med å oppfylle frister og krav til saksbehandlingstid.
+Hvordan legges milepæler til?
+Hvis du legger inn en milepæl manuelt:
+Du velger type, status og dato
+Hvis du markerer den som oppnådd, regnes datoen som faktisk fullført
+Hvis du markerer den som planlagt, er det en forventet frist
+Disse brukes som kontrollpunkter – slik at saken ikke kan gå videre før det som er definert, er gjennomført.
+1.5 Prosess
+En prosess er en forhåndsdefinert kjede av oppgaver som utføres automatisk eller manuelt innenfor et Saksbehandlingsfase. Hensikten er å forenkle og effektivisere saksbehandlingen ved å automatisere det som kan automatiseres – og støtte opp om rutiner som må utføres av brukere.
+Hva gjør en prosess?
+En prosess kan for eksempel:
+Sende ut varsler
+Opprette eller oppdatere dokumenter
+Endre status på en sak
+Starte en ny prosess eller et nytt Saksbehandlingsfase
+Prosesser kan:
+Startes automatisk, f.eks. når et Saksbehandlingsfase går til “Pågår”
+Startes manuelt av saksbehandler, når det er behov
+Ved å kombinere flere slike prosesser i en modell, kan man lage en komplett og effektiv flyt for ulike sakstyper – uten å være avhengig av at brukeren husker hvert eneste steg.
+1.6 Tidsmåling
+God tidshåndtering er viktig for både kvalitet og regelverk. Prosessmodellen har innebygd støtte for å måle tidsbruk på flere nivåer:
+Den kan f.eks. måle:
+Tid mellom to milepæler
+Hvor lang tid et Saksbehandlingsfase varer
+Hvor lang tid hele saken tar
+Dette gir innsikt i:
+Hvor det oppstår forsinkelser
+Hvor lang tid ulike typer saker faktisk tar
+Om man møter frister og krav
+Slike data kan brukes til forbedringer, rapportering og etterlevelse.
+1.7 Langvarige prosesser
+Noen prosesser tar lang tid og går over flere uker eller måneder. For å håndtere dette trygt, tar systemet et øyeblikksbilde (snapshot) av hele prosessmodellen når saken starter.
+Dette betyr at:
+Eventuelle endringer i modellen ikke påvirker allerede pågående saker
+Administratorer kan trygt oppdatere eller fjerne modeller og maler, uten å forstyrre aktive prosesser
+Man kan også velge at nye saker alltid skal bruke den siste versjonen av en mal, mens pågående saker beholder den versjonen de ble startet med.
+1.8 Innstillinger for samtidighet (Concurrency Setting)
+Samtidighetsinnstillinger styrer hvor mange ganger en enhet – for eksempel En Saksbehandlingsfase, en prosess eller en milepæl – kan forekomme i en og samme sak. Dette er viktig for å:
+Unngå duplisering
+Sikre datakvalitet
+Holde flyten konsistent og oversiktlig
+Hvor brukes det?
+Samtidighetsregler kan brukes på:
+Saksbehandlingsfase: Skal det være mulig med flere av samme type Saksbehandlingsfase?
+Prosesser: Skal prosessen kunne kjøres flere ganger samtidig?
+Milepæler: Skal samme type milepæl kunne finnes flere steder i samme sak?
+1.8.1 Typer av samtidighetsregler
+Eksempler
+En bestemt milepæl (f.eks. “Godkjenning”) skal kun finnes én gang – da bruker man “Kun én forekomst”.
+En prosess som automatisk sender ut varsel, skal bare kunne være aktiv én gang – da bruker man “Kun én aktiv forekomst”.
+Et Saksbehandlingsfase som kan brukes flere ganger i ulike faser – da velger man “Flere tillatt”.
+Slik kontroll sikrer at modellen fungerer stabilt, uten overlapp eller kaos i saksgangen.
+1.9 Trigger-funksjonalitet
+Triggere brukes for å automatisere neste steg i en prosess. En trigger er en regel som sier:
+"Når noe skjer, skal noe annet settes i gang."
+Dette gjør arbeidsflyten smidig og automatisk, og reduserer behovet for manuell oppfølging.
+1.9.1 Hvordan fungerer triggere?
+Triggere settes opp direkte på den Saksbehandlingsfasen eller den prosessen som skal aktiveres, ikke på den som utløser det.
+Et Saksbehandlingsfase kan kun trigge en annen Saksbehandlingsfase
+En prosess kan kun trigge en annen prosess
+For mer avansert automasjon må man bruke egne forretningsregler eller en dedikert prosess.
+Når trigges noe?
+En trigger aktiveres typisk når:
+En Saksbehandlingsfase får ny status (f.eks. går til “Lukket”)
+En prosess avsluttes
+Men: hva som faktisk skjer, styres også av samtidighetsreglene (se forrige kapittel).
+Hva tar systemet hensyn til?
+Systemet sørger dermed for at automatiseringen følger modellens regler og ikke skaper duplikater eller konflikter.
+✅ Oppsummering kapittel 1
+Kapittel 1 gir en fullstendig innføring i hvordan prosessmodellen fungerer i sakshåndteringen:
+Den gjør det mulig å strukturere og automatisere oppgaver og steg i saksbehandlingen.
+Saksbehandlingsfaser og milepæler er byggesteiner som kan tilpasses og gjenbrukes.
+Med trigger-regler, samtidighetskontroll og tentativ modus får man både fleksibilitet og kontroll.
+Målet er å gjøre sakshåndteringen mer effektiv, oversiktlig og regelmessig.
+2 KONFIGURERING AV PROSESSMODELLER
+2.1 Prosessstyring
+Konfigurering av hovedentiteter i prosessstyring gjøres via egne administrasjonssider. Entiteter som Prosesser, Fase-maler og Prosessmodeller har hver sine konfigurasjonssider, som alle er tilgjengelige under seksjonen for Prosessstyring.
+2.2 Prosessmodell
+Tilgang til konfigurasjon av prosessmodell krever riktige brukertillatelser. Hovedsiden for prosessmodeller viser en liste over eksisterende modeller, sammen med alternativer for å opprette, redigere eller administrere dem. En egen knapp lar brukere starte opprettelsen av en ny prosessmodell.
+2.2.1 Opprette en prosessmodell
+Første steg for å opprette en ny prosessmodell er å klikke på knappen for ny prosessmodell.Et nytt skjema for prosessmodell vises for brukeren. Obligatoriske kjerneegenskaper må fylles ut.Kjerneegenskaper kan redigeres på nye og eksisterende prosessmodeller (se kapittel for publiseringslogikk).
+Tittel: Navnet på prosessmodellen.
+Notater: En kort oppsummering som forklarer modellens formål.
+Saksarter: Tildel relevante saksarter som skal bruke denne modellen.
+Aktive datoer: Definer perioden modellen skal være tilgjengelig.
+Versjonskontroll: Versjonskontroll og nummerering håndteres automatisk av systemet.
+2.2.2 Publiseringslogikk
+Når en prosessmodell er fullstendig konfigurert, må den publiseres for å kunne brukes i saksbehandling. Publisering låser modellen for å sikre konsistens og stabilitet for aktive saker. Etter publisering kan kun ikke-strukturelle felt redigeres, som: Tittel, Notater, Aktive datoer (Fra/Til), tildeling av saksarter, og valget "Start som foreløpig".Strukturelle endringer, som modifisering av faser, prosesser eller milepæler, krever opprettelse av en ny versjon av prosessmodellen. Dette versjonssystemet sikrer at oppdateringer ikke påvirker eksisterende saker, og bevarer arbeidsflytens stabilitet.Et valg kalt "Bruk siste malversjon" lar modellen alltid referere til den nyeste versjonen av fase-maler ved opprettelse av saker. Dette sikrer at oppdateringer i maler reflekteres i nye saker uten å endre publiserte modeller.
+2.5 Saksbehandlingsfase-maler
+Saksbehandlingsfase-maler er gjenbrukbare konfigurasjoner som bidrar til å standardisere saksflyt ved å definere Saksbehandlingsfaser som kan brukes i flere prosessmodeller. De forenkler oppsett, sikrer konsistens, og reduserer behovet for manuell konfigurasjon. Siden malene er et administrativt verktøy, interagerer ikke saksbehandlere direkte med dem – kun med Saksbehandlingsfasene som opprettes fra malene.Når en mal for en saksbehandlingsfase legges til en prosessmodell, lagres en kopi av malen i modellen. Det betyr at endringer i originalmalen ikke påvirker eksisterende prosessmodeller med mindre de oppdateres manuelt. Dersom valget "Bruk siste" er aktivert, henter systemet den nyeste versjonen av malen ved opprettelse av saker. Etter dette vil ingen senere endringer i malen påvirke aktive saker.Manuelt lagt til Saksbehandlingsfase følger samme regel – de bruker alltid samme versjon av malen som ble brukt i prosessmodellen. Dette sikrer konsistens og hindrer avvik mellom automatisk og manuelt opprettede Saksbehandlingsfaser.Ved effektiv bruk av Sakbehandlingsfase-maler kan administratorer sikre standardisering samtidig som stabiliteten i pågående saker opprettholdes.
+2.2 Konfigurering av Saksbehandlingsfaser
+Saksbehandlingsfaser legges til en prosessmodell for å definere dens arbeidsflytfaser. Hver Saksbehandlingsfase kan konfigureres med spesifikke egenskaper som status, samtidighetsinnstillinger og triggere som automatiserer overganger mellom Saksbehandlingsfasene. Saksbehandlingsfasene kan også inkludere tilknyttede prosesser og milepæler, som sikrer en strukturert og dynamisk arbeidsflyt.
+2.3 Bruk av Saksbehandlingsfase-maler
+Saksbehandlingsfase-maler forenkler konfigurasjonsprosessen ved å tillate gjenbruk av Saksbehandlingsfase mal på tvers av flere prosessmodeller. Administratorer kan bruke eksisterende maler eller lage egne for standardiserte arbeidsflyter. Valget "Bruk siste malversjon" sikrer at den nyeste versjonen av en mal brukes ved opprettelse av nye saker.
+2.4 Legge til milepæler
+Milepæler er viktige fremdriftsmarkører som kan knyttes til en saksbehandlingsfase eller til hele saken. De kan konfigureres til automatisk opprettelse basert på fasehandlinger eller legges til manuelt av saksbehandlere. Milepæler hjelper til med å spore viktige hendelser og måle sakens progresjon.
+2.5 Oppsett av prosesser
+Prosesser definerer arbeidsflyten innenfor hver fase. Brukere kan konfigurere automatiserte eller manuelle prosesser bestående av oppgaver som varsler, dokumentgodkjenninger eller statusoppdateringer. Prosesser effektiviserer saksbehandlingen ved å automatisere rutineoppgaver og støtte komplekse arbeidsflyter.
+2.6 Publisering og versjonskontroll
+Når en prosessmodell er ferdig, må den publiseres for å kunne brukes i saker. Publiserte modeller kan ikke redigeres, bortsett fra enkelte felt som tittel, notater og aktive datoer. For å gjøre strukturelle endringer må brukere opprette en ny versjon av modellen. Dette sikrer at aktive saker ikke påvirkes av oppdateringer.
+2.7 Deaktivering og sletting av modeller
+Prosessmodeller som ikke lenger er i bruk kan deaktiveres eller slettes. Deaktivering hindrer nye saker i å bruke modellen, men den beholdes for referanse. Sletting fjerner modellen helt, forutsatt at den ikke er tilknyttet aktive saker.
+3. Saksbehandlingsfase- Prosess
+En prosess er en strukturert rekke aktiviteter i konkrete trinn, med milepæler og oppgaver som utføres i en bestemt rekkefølge for å oppnå et bestemt mål eller resultat innenfor en bestemt saksbehandlingsfase i en sak eller et prosjekt. I en organisasjons- eller systemkontekst handler en prosess gjerne om hvordan en oppgave utføres – hvem som gjør hva, når, og i hvilken rekkefølge.
+Ved å etablere en én-til-mange-relasjon mellom Saksbehandlingsfase -entiteten og prosessene kan brukere definere flere prosesser innenfor én enkelt Saksbehandlingsfase. Denne fleksibiliteten gjør det mulig å planlegge og håndtere ulike aspekter ved en sak eller et prosjekt på et detaljert nivå i hver saksbehandlingsfase.
+4. Saksbehandlingsfase - Sjekklister
+Saksbehandlingsfase-entiteten kan også ha en én-til-mange-relasjon med sjekklister. Det betyr at én fase kan ha flere globale sjekklister knyttet til seg, og dermed tilføre et ekstra lag av struktur og organisering i saks- eller prosjektbehandlingen.
+Sjekklister bidrar til å sikre at spesifikke oppgaver gjennomføres på en konsekvent og grundig måte, og de kan tilpasses ulike typer saker eller prosjekter.
+Det finnes 3 hovedtyper sjekklister:
+Søknadsbehandling: Ting som må kontrolleres før fasen kan fullføres (Ja/Nei-avkrysning)
+Søknadsbehandling: Ting som må kontrolleres før fasen kan fullføres (Ja/Nei/Ikke relevant -avkrysning)
+Oppgaver: Ting som må utføres før fasen kan fullføres (Utført/Ikke utført)
+Selvfølgelig! Her er en oversettelse til norsk, tilpasset en brukerveiledning eller funksjonell dokumentasjon:
+5. Malbibliotek for Saksbehandlingsfaser
+Malbiblioteket er et sentralisert arkiv som inneholder et sett med ferdig definerte maler for Saksbehandlingsfaser. En Saksbehandlingsfasemal representerer et forhåndskonfigurert og gjenbrukbart oppsett for én enkelt Saksbehandlingsfase i saksbehandlingsprosessen.
+Formålet med malblioteket er å gi brukerne et omfattende sett med forhåndsdefinerte maler som enkelt kan hentes frem og brukes på ulike sakstyper. Dette er et verdifullt verktøy for saksbehandlere og administratorer som ønsker å bygge opp og tilpasse saksflyter raskt og effektivt.
+5.1 Bruk av Saksbehandlingfase biblioteket
+5.1.1 Standardisering
+Fasebiblioteket bidrar til konsistens og standardisering i saksbehandlingen ved å tilby ferdig definerte maler for faser. Disse malene er basert på beste praksis og velprøvde arbeidsprosesser, noe som sikrer at lignende faser i ulike sakstyper følger en enhetlig struktur.
+5.1.2 Effektivitet
+I stedet for å opprette nye faser fra bunnen av for hver sakstype, kan brukere velge relevante maler direkte fra biblioteket. Dette sparer tid og ressurser, ettersom malene allerede inneholder definerte oppgaver, milepæler, sjekklister og andre komponenter.
+5.1.3 Gjenbruk
+Malene i biblioteket er laget for å kunne brukes på tvers av flere sakstyper. Brukere kan enkelt bruke en Saksbehandlingsfasemal i ulike saker, uten å måtte lage samme fase flere ganger. Dette gir økt effektivitet og reduserer dobbeltarbeid.
+5.1.4 Tilpasning
+Selv om malene gir et godt utgangspunkt, kan de tilpasses spesifikke behov. Brukere kan endre oppgaver, milepæler og andre komponenter i fasemalen for å tilpasse den til virksomhetens eller sakstypens krav.
+5.1.5 Fleksibilitet
+Malbiblioteket gir brukere mulighet til å legge til, redigere eller fjerne Saksbehandlingsfasemaler etter behov. Dette gir organisasjoner fleksibilitet til å utvikle og forbedre saksbehandlingsprosessene over tid, i takt med endrede behov og krav.
+Funksjonell beskrivelse av prosessrammeverket
+Prosessmodell
+En prosessmodell fungerer som en oppskrift på hvordan en sak skal behandles. Den definerer hvilke saksbehandlingsfaser, milepæler, prosesser og sjekklister som inngår – og om de opprettes automatisk eller manuelt. Hver modell er knyttet til en bestemt sakstype, noe som sikrer at riktig arbeidsflyt aktiveres automatisk.
+Formålet er å gi virksomheter mulighet til å:
+Konfigurere og forenkle saksbehandlingen
+Sikre enhetlige rutiner
+Øke effektiviteten
+Når en prosessmodell kobles til en sak, avgjør den hvilke elementer som opprettes automatisk, og hva saksbehandleren kan legge til manuelt. Den kan også utløse oppgaver, oppdatere status og sende varsler – alt for å drive saken fremover.
+Saksbehandlingsfase
+En saksbehandlingsfase er et definert steg i en prosessmodell – tilsvarende en fase i en fremdriftsplan. I motsetning til tradisjonelle planer kan fasene i en prosessmodell kjøres både sekvensielt og parallelt. Hver fase har egne prosesser og milepæler.
+Dette gir mulighet for at flere deler av en sak kan behandles samtidig, noe som gir bedre flyt og kortere behandlingstid.
+Når man definerer en fase, kan den gjøres tilgjengelig på tre måter:
+Automatisk – opprettes når prosessmodellen starter eller ved en bestemt hendelse
+Manuelt – tilgjengelig for saksbehandler ved behov
+Kombinert – opprettes automatisk, men kan også legges til manuelt
+Denne fleksibiliteten gjør det mulig å tilpasse arbeidsflyten etter både regelverk og praktiske behov.
+Milepæler
+En milepæl markerer en viktig hendelse eller et bestemt tidspunkt i saksbehandlingen – for eksempel en godkjenning, innsendelse, frist eller et vedtak.
+Forskjellen på fase og milepæl er:
+Fase = et steg som ofte består av mange aktiviteter
+Milepæl = et enkelt punkt som markerer fremdrift eller krav
+Hver milepæl har:
+En type (f.eks. Frist, Godkjenning, Mottatt søknad)
+En status (Planlagt, Oppnådd, Kansellert)
+Milepæler kan opprettes både automatisk og manuelt, og de brukes også til å måle tid, f.eks.:
+Tid mellom to milepæler
+Varighet av en saksbehandlingsfase
+Total saksbehandlingstid
+Systemet kan følge opp dette og bidra til at frister og lovpålagte behandlingstider overholdes.
+Prosess
+En prosess er en forhåndsdefinert kjede av oppgaver som utføres automatisk eller manuelt innenfor en saksbehandlingsfase. Hensikten er å sikre at nødvendige handlinger utføres riktig og til rett tid, og å automatisere det som kan automatiseres.
+Eksempler på prosesser:
+Sende varsler
+Opprette eller oppdatere dokumenter
+Endre status på en sak
+Starte en ny prosess eller saksbehandlingsfase
+Prosesser kan:
+Startes automatisk, f.eks. når en fase settes til Under behandling
+Startes manuelt av saksbehandler ved behov
+Ved å kombinere flere prosesser i en modell får man en komplett og effektiv arbeidsflyt for ulike sakstyper – uten å være avhengig av at brukeren husker hvert enkelt steg.
+Ja 🙌 Det kan gjøres mer visuelt ved å sette opp et rammeverk som en figur/infografikk. Her er et forslag på struktur (tekstlig beskrevet først, og så kan jeg lage en grafisk skisse hvis du vil):
+📊 Visualisering av prosessrammeverket
+1. Prosessmodell (øverste nivå)
+🟦 Prosessmodell
+"Oppskriften" på saksbehandlingen
+Bestemmer hvilke faser, milepæler, prosesser og sjekklister som inngår
+Knyttet til en sakstype
+⬇️
+2. Saksbehandlingsfaser (hovedstegene)
+🟩 Saksbehandlingsfaser
+Definerte steg i saksflyten
+Kan være sekvensielle eller parallelle
+Har egne milepæler og prosesser
+⬇️
+3. Milepæler (kontrollpunkter)
+🟨 Milepæler
+Marker viktige hendelser/tidspunkter
+Har type og status (Planlagt, Oppnådd, Kansellert)
+Brukes til å måle tid og fremdrift
+⬇️
+4. Prosesser (handlingene)
+🟧 Prosesser
+Kjede av oppgaver (automatisk eller manuell)
+Kan sende varsler, opprette dokumenter, endre status osv.
+Starter automatisk eller manuelt
+🔗 Sammenhengen
+Prosessmodell definerer strukturen
+Faser er hoveddelene
+Milepæler gir kontrollpunkter i fasene
+Prosesser utfører handlingene som driver saken fremover
+Her er teksten din med det nye punktet flettet inn om å knytte sjekklistepunkter til prosess og filtrering på milepæl:
+Prosessmodell
+En prosessmodell viser hvordan en sak skal behandles. Den definerer saksbehandlingsfaser, milepæler, prosesser og sjekklister, og sørger for en mer effektiv og konsekvent saksbehandling. Hver modell er knyttet til en sakstype, slik at riktig arbeidsflyt aktiveres automatisk.
+Når modellen kobles til en sak, bestemmer den hvilke faser, milepæler og sjekklister som skal brukes. Den angir også hva som opprettes automatisk og hva saksbehandleren kan legge til manuelt. Prosessene kan starte oppgaver, oppdatere sakens status og sende varsler.
+Sjekklistepunkter kan knyttes direkte til en prosess, med mulighet for å filtrere dem på milepæl. Dette gjør det enkelt å se hvilke punkter som hører til hver del av prosessen og hvor i fremdriften de skal gjennomføres.
+Saksbehandlingsfase
+En saksbehandlingsfase er et steg i prosessen, omtrent som en fase i en fremdriftsplan. Faser kan kjøres parallelt, slik at flere deler av saken behandles samtidig.
+Hvordan faser kan opprettes:
+Automatisk: ved oppstart eller bestemt hendelse
+Manuelt: tilgjengelig for saksbehandler
+Begge: automatisk, men kan også legges til manuelt
+Dette gir både fleksibilitet og struktur.
+Milepeler
+Milepeler markerer viktige hendelser eller tidspunkter, som godkjenning, frist eller vedtak. De viser fremdrift i prosessen og kan opprettes automatisk eller manuelt.
+Hver milepel har:
+Type: f.eks. “Frist” eller “Godkjenning”
+Status: Planlagt, Oppnådd, Kansellert
+Milepæler hjelper med å måle:
+Tid mellom milepæler
+Varighet på saksbehandlingsfaser
+Total saksbehandlingstid
+Prosess
+En prosess er en kjede av oppgaver innenfor en saksbehandlingsfase. Den kan utføres automatisk eller manuelt og forenkler saksbehandlingen.
+Eksempler på prosessoppgaver:
+Sende varsler
+Opprette eller oppdatere dokumenter
+Endre status på en sak
+Starte nye prosesser eller faser
+Prosesser kan starte automatisk (f.eks. når fase går til “Under behandling”) eller manuelt av saksbehandler. Kombineres flere prosesser, skapes en komplett og effektiv flyt for ulike sakstyper.
+Ah, nå skjønner jeg poenget ditt – og her må vi være nøye med terminologien:
+I mange kommunale eller forvaltningssystemer, som i Public 360 / Plan & Build, brukes begrepet “saksbehandlingsfase” litt annerledes enn “fase” i et generelt prosessperspektiv:
+Saksbehandlingsfase
+En saksbehandlingsfase kan faktisk dekke hele saksbehandlingen fra start til slutt, altså hele reisen for en sak.
+Den representerer ikke nødvendigvis et segment i en prosess, men den komplette sekvensen som saksbehandleren jobber med.
+Innenfor denne fasen kan det fortsatt finnes sjekkpunkter eller interne steg, men de er mer detaljer i fasen enn separate faser.
+Forskjellen på prosess vs saksbehandlingsfase her
+💡 Konklusjon:I praksis kan altså saksbehandlingsfasen være hele prosessen for en sak, men du kan fortsatt ha sjekkpunkter internt for kvalitet og kontroll.
+Hvis du vil, kan jeg lage en enkel figur som viser saksbehandlingsfase med sjekkpunkter slik det typisk ser ut i Public 360.
+Flott! Her er en superforenklet, visuell versjon av teksten, egnet for presentasjon eller opplæring:
+Prosessmodell
+Viser hvordan en sak skal behandles
+Inneholder faser, milepæler, prosesser og sjekklister
+Knyttet til sakstype → aktiverer riktig arbeidsflyt automatisk
+Sjekklistepunkter kan kobles til prosesser og filtreres på milepæl
+Saksbehandlingsfase
+Steg i prosessen (som en fremdriftsplan)
+Kan kjøres parallelt
+Opprettes:
+Automatisk
+Manuelt
+Begge
+Milepeler
+Marker viktige hendelser (godkjenning, frist, vedtak)
+Status: Planlagt / Oppnådd / Kansellert
+Hjelper med å måle:
+Tid mellom milepæler
+Varighet på faser
+Total saksbehandlingstid
+Prosess
+Kjede av oppgaver innen en fase
+Utføres automatisk eller manuelt
+Oppgaver kan:
+Sende varsler
+Opprette/oppdatere dokumenter
+Endre sakens status
+Starte nye prosesser eller faser
+Dette gir en rask oversikt over hvordan sakshåndtering flyter, og hvordan sjekklister kan brukes effektivt i kombinasjon med prosesser og milepæler.

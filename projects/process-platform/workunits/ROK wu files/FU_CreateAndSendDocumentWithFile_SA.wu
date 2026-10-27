@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="FU_CreateAndSendDocumentWithFile_SA{AAE5FF5D-A337-44E4-9FC4-D2035DC6FF78}"
+    visibility="public"
+    displayName="FU CreateAndSendDocument - SA">
+  <description>FU CreateAndSendDocument - ServerAction</description>
+  <categories>
+    <category>Server Action</category>
+    <category>Server action create document</category>
+    <category>create document</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

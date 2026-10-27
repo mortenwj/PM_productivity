@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WorkUnitTestProject
+</name>
+</assembly>
+<members>
+<member name="M:WorkUnitTestProject.CreateUrlTestWorkUnit.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:WorkUnitTestProject.ProcessEngineProgressplanTest.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:WorkUnitTestProject.ServerActionDonNothingTest.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:WorkUnitTestProject.ThrowBizInfoTest.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:WorkUnitTestProject.AutomationProgressPlan.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:WorkUnitTestProject.CreateReminder.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>KK commitment heatmap</title>
+<style>
+@page { size: A4 landscape; margin: 12mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.risk-high td { background: #fdecea; }
+.risk-med td { background: #fff8e6; }
+.risk-low td { background: #eefaf0; }
+.gap-not-met { color: #a1260d; font-weight: 600; }
+.gap-partial, .gap-in-flight { color: #8a6d00; font-weight: 600; }
+.gap-draft { color: #1f4e79; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.roadmap-d { background: #fafafa; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+.small { font-size: 8pt; color: #555; }
+.page-break { page-break-before: always; }
+</style></head><body>
+<h1>KK tender — commitment heatmap</h1>
+<p class="meta">Københavns Kommune · Foundation epic #434005 (200 days) + 25 tender PFR delta · ADO verified 18 Aug 2026 · Go-live ukendt</p>
+<div class="callout info"><strong>Timeline:</strong> No fixed Overtagelsesdag in tender. Supplier proposes implementation plan (4.1.1, 15% weight).</div>
+<div class="callout info"><strong>Gap profile (tender tool, 18 Aug):</strong>
+Not met 3 · Partial 19 · In flight 1 · TBD 2</div>
+<div class="stats">
+  <div class="stat"><div class="val">200 d</div><div class="lbl">Foundation epic #434005</div></div>
+  <div class="stat"><div class="val">25</div><div class="lbl">Tender PFR delta</div></div>
+  <div class="stat"><div class="val">3</div><div class="lbl">Not met blockers</div></div>
+  <div class="stat"><div class="val">19</div><div class="lbl">Partial</div></div>
+  <div class="stat"><div class="val">30–55 mo</div><div class="lbl">PFR delta only (excl. foundation)</div></div>
+</div>
+<div class="callout info"><strong>Roadmap alignment:</strong>
+A 5 · B 6 · C 11 · D 3.</div>
+<h2>PFR portfolio detail</h2>
+<table>
+<thead><tr>
+<th>ID</th><th>Ref</th><th>Title</th><th>Roadmap</th><th>Roadmap ref</th><th>Cluster</th><th>Size</th>
+<th>Gap</th><th>Risk</th><th>Owner</th><th>Notes</th>
+</tr></thead>
+<tbody><tr class='roadmap-b'><td>435490</td><td>B2-12+</td><td>Danish servicemål deadline model + dashboard + notifications</td><td>B — Accelerate</td><td>Plan &amp; Build 360 / Flow</td><td>Servicemål / deadlines</td><td>XL</td><td class='gap-partial'>Partial</td><td>High</td><td>Bjørn Henrik</td><td>Consolidates 434878/434881</td></tr><tr class='roadmap-c'><td>435495</td><td>B2-18</td><td>Integration landscape</td><td>C — Strategic</td><td>—</td><td>Integration spine</td><td>XL</td><td class='gap-partial'>Partial</td><td>High</td><td>Olga</td><td></td></tr><tr class='roadmap-c'><td>435489</td><td>5.2.15.x</td><td>FilArkiv archive transfer from P&amp;B</td><td>C — Strategic</td><td>Archive automation</td><td>FilArkiv archive</td><td>L</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Bjørn Henrik</td><td></td></tr><tr class='roadmap-c'><td>435491</td><td>B2-14</td><td>Time registration on cases</td><td>C — Strategic</td><td>—</td><td>Time registration</td><td>L</td><td class=''>TBD</td><td>Medium</td><td>Morten</td><td></td></tr><tr class='roadmap-a'><td>435486</td><td>B2-03</td><td>BRE write-back to BOM</td><td>A — Aligns</td><td>Business Rules Engine</td><td>BOM + BRE</td><td>L</td><td class='gap-partial'>Partial</td><td>High</td><td>Bjørn Henrik</td><td>MK minimum</td></tr><tr class='roadmap-c'><td>435480</td><td>5.2.1.1</td><td>Tagging, structuring and sorting</td><td>C — Strategic</td><td>—</td><td>Case UX / search</td><td>L</td><td class='gap-partial'>Partial</td><td>High</td><td>Jarle</td><td>Was Not met</td></tr><tr class='roadmap-c'><td>435501</td><td>B2-20</td><td>Log delivery to SIEM (LogPoint)</td><td>C — Strategic</td><td>—</td><td>Security / SIEM</td><td>L</td><td class='gap-not-met'>Not met</td><td>High</td><td>—</td><td>MK blocker</td></tr><tr class='roadmap-c'><td>435493</td><td>5.3.7.2.6</td><td>Log integrity manual deletion</td><td>C — Strategic</td><td>—</td><td>Security / SIEM</td><td>M</td><td class='gap-not-met'>Not met</td><td>High</td><td>Jarle</td><td>MK blocker</td></tr><tr class='roadmap-a'><td>435499</td><td>5.3.8.2.7.1.4</td><td>MeMo Digital Post actions</td><td>A — Aligns</td><td>Digital Post</td><td>Integration spine</td><td>S</td><td class='gap-not-met'>Not met</td><td>High</td><td>—</td><td>Was In flight</td></tr><tr class='roadmap-c'><td>435484</td><td>5.2.8.4+</td><td>Case overview and process control</td><td>C — Strategic</td><td>—</td><td>Process control</td><td>L</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Morten</td><td></td></tr><tr class='roadmap-b'><td>435483</td><td>5.2.4.3</td><td>Search, sorting, filtering, export</td><td>B — Accelerate</td><td>Refactor search experience</td><td>Case UX / search</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Jarle</td><td></td></tr><tr class='roadmap-a'><td>435496</td><td>5.3.8.2.2.1</td><td>Master data from registers</td><td>A — Aligns</td><td>NG Integration API</td><td>Integration spine</td><td>L</td><td class='gap-partial'>Partial</td><td>High</td><td>—</td><td></td></tr><tr class='roadmap-b'><td>435487</td><td>5.2.9.x</td><td>BOM data as search criteria</td><td>B — Accelerate</td><td>Plan &amp; Build / BOM</td><td>BOM + BRE</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Bjørn Henrik</td><td></td></tr><tr class='roadmap-b'><td>435488</td><td>5.2.13.1</td><td>Case templates</td><td>B — Accelerate</td><td>Hosted Processes / Flow</td><td>Process control</td><td>M</td><td class='gap-partial'>In flight</td><td>Medium</td><td>Bjørn Henrik</td><td></td></tr><tr class='roadmap-b'><td>435503</td><td>5.4.2.1</td><td>AI Assist integration (option)</td><td>B — Accelerate</td><td>Agentic case management</td><td>Integration spine</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-c'><td>435502</td><td>5.4.1.1</td><td>Debtor system (option)</td><td>C — Strategic</td><td>—</td><td>Integration spine</td><td>M</td><td class='gap-partial'>Partial</td><td>Low</td><td>—</td><td></td></tr><tr class='roadmap-b'><td>435482</td><td>5.2.1.3</td><td>Flexible journalisation</td><td>B — Accelerate</td><td>Plan &amp; Build / BOM</td><td>Case UX / search</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-c'><td>435481</td><td>5.2.1.2</td><td>Conflict resolution</td><td>C — Strategic</td><td>—</td><td>Case UX / search</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Linn</td><td></td></tr><tr class='roadmap-c'><td>435485</td><td>5.2.8.5</td><td>Handling received information</td><td>C — Strategic</td><td>—</td><td>Case UX / search</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Morten</td><td></td></tr><tr class='roadmap-a'><td>435497</td><td>5.3.8.2.3</td><td>Deep link integrations</td><td>A — Aligns</td><td>NG Integration API</td><td>Integration spine</td><td>M</td><td class=''>TBD</td><td>Medium</td><td>Jarle</td><td></td></tr><tr class='roadmap-c'><td>435498</td><td>5.3.8.2.7.1.2</td><td>Remote print SF1601</td><td>C — Strategic</td><td>—</td><td>Integration spine</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-d'><td>434878</td><td>5.2.11.2</td><td>Servicemålstid start/stop</td><td>D — Low priority</td><td>—</td><td>Servicemål / deadlines</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Bjørn Henrik</td><td>Superseded by 435490</td></tr><tr class='roadmap-d'><td>434881</td><td>5.2.11.3</td><td>Sagsbehandlingstid ikke-BOM</td><td>D — Low priority</td><td>—</td><td>Servicemål / deadlines</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Bjørn Henrik</td><td></td></tr><tr class='roadmap-a'><td>434352</td><td>Data delimitation</td><td>Data delimitation of cases</td><td>A — Aligns</td><td>Access matrix</td><td>Security / SIEM</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-d'><td>435492</td><td>5.3.4.2</td><td>Error texts and messages</td><td>D — Low priority</td><td>—</td><td>Point fix</td><td>S</td><td class='gap-partial'>Partial</td><td>Low</td><td>Jarle</td><td></td></tr></tbody>
+</table>
+</body></html>

@@ -1,0 +1,10 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="E4FEB395-0897-4F3B-B152-5BB0EC11D917"
+          displayName="[LOCALIZED(A7CE7491-D4F1-4A22-BB6F-62DE0F560819,*Cleanup cache area)]">
+  <description>[LOCALIZED(BF738065-FF3F-410A-B9DC-C80D56F28EF4,*Delete old files from cache area)]</description>
+  <executable file="CleanupCache.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none" category="AllServers"/>
+</workUnit>

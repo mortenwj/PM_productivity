@@ -1,0 +1,11 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="7BE50ECA-1403-4E86-9939-7D1E1A8B4E96"
+    visibility="public"
+    displayName="[LOCALIZED(DAFF3565-0893-497A-A201-ACBACEDEF90C,Mimir Get All Policy Documents)]">
+  <description>"[LOCALIZED(4C969CF9-858A-4FD0-880F-19C36EA67DEB,Job to send all policy documents metadata to Mimir AI for processing)]"</description>
+  <executable file="MimirGetAllPolicyDocuments.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

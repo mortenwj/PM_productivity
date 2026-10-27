@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="8F8A125A-AB03-47C8-8FFD-70CC1F18E0B4"
+    visibility="public"
+    displayName="[LOCALIZED(870fefc5-0dbe-43eb-8423-b3e85c1067fd,*Update Case Class Code)]">
+  <description>[LOCALIZED(ebf19436-8804-456b-b896-a71efd81b32d,*Update Case Class Code)]</description>
+  <executable file="ClassCodeUpdate.xml">
+    <invoke>
+    </invoke>
+  </executable>
+ <job queue="Sys.Nightly" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

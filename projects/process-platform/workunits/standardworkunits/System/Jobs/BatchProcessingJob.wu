@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" 
+    id="3CA25312-D983-4155-87F7-A6F4C2B278CD"
+    visibility="public"
+    displayName="[LOCALIZED(3EA69F8F-375D-47AE-9EED-E62DC32E3FEB,*Batch Processing Job)]">
+  <description>[LOCALIZED(93AA9F77-CEF5-4F5D-84BE-37C9E4019126,*Process the records in batch according to the specified workunits.)]</description>
+  <executable file="BatchProcessingJob.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Hourly" runAs="allaccess_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Opdater eksterne links" id="EED38983-9821-4619-9A03-3A8569C73664" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Opdaterer eksterne link (dynamiske link opdateres og udløbne link fjernes)</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

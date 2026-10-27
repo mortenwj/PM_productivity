@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="658B7C0A-5F42-4A09-880D-8F4F76AFA99F"
+          displayName="[LOCALIZED(343137F6-5561-4653-BD90-94DE48CAB94A,*After File Update)]">
+  <description>[LOCALIZED(96651307-4FC2-4074-8764-2459A1262E39,*Event fired after new file version is created to check if the respective document has to be registered for continuous transfer)]</description>
+  <executable assemblyType="SI.Biz.Core.ContinuousTransfer.Events.ContinuousTransfer_FileUpdateEvents, SI.Biz.Core.ContinuousTransfer.Events">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.FileManagerEventShim" name="AfterUpdate"/>
+</workUnit>

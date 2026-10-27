@@ -1,0 +1,20 @@
+{
+  "tender": "UIM ESDH",
+  "drafts": [
+    {
+      "req_id": "MK-6",
+      "document": "Bilag 1.b",
+      "generated": "2026-07-07",
+      "source": "Cursor / tender-response",
+      "compliance": "Partial",
+      "confidence": "Verified (sag/dokument/fil); Lead (alle Entiteter)",
+      "summary": "Sletteregler og bevaringskoder for sag, dokument og fil; midlertidig vs. permanent sletning med adskilte rettigheder (disposal/purge, skjul permanent sletning for sagsbehandlere). Jf. MK-7 og MK-117.",
+      "gaps": "«Alle Entiteter» er uafklaret: kontakter har sletning (MK-62) men ikke samme sletteregel-model; øvrige entitetstyper ikke dokumenteret. Tool-rating stadig 3. Not able to meet — afstem internt før opdatering af kolonne O.",
+      "evidence": "HSØ Bilag 2 kassasjon; Ratatoskr Retention (Disposal), Disposal, Purge, File; MK-7, MK-117, MK-14; MK-62 (ikke dækning for MK-6)",
+      "next_action": "Q&A: præcisér hvad Ordregiver mener med «alle Entiteter». Koordinér med Anton (MK-7/MK-117/MK-14). Opdatér ikke kolonne O før review.",
+      "reviewed_by": "",
+      "review_status": "Draft",
+      "run_id": "uim-mk6-2026-07-07"
+    }
+  ]
+}

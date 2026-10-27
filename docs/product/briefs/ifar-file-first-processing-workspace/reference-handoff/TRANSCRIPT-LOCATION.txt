@@ -1,0 +1,7 @@
+Full JSONL transcript (not included in zip due to size/sensitivity):
+C:\Users\MortenJensen\.cursor\projects\c-Users-MortenJensen-cursor-projects-PM-productivity\agent-transcripts\451980ca-b93d-4453-abc5-15916a488305\451980ca-b93d-4453-abc5-15916a488305.jsonl
+
+Chat reference for humans:
+451980ca-b93d-4453-abc5-15916a488305
+
+Structured excerpts: agent-transcript-excerpts.md (same folder)

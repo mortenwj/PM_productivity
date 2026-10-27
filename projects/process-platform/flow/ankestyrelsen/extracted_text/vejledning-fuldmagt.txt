@@ -1,0 +1,1222 @@
+--- Page 1 ---
+1 
+ 
+Indledning  
+  
+Denne vejledning er udarbejdet som et tværgående samarbejde mellem alle teams i Administrationen. 
+Formålet har været at sikre en ensretning af praksis for håndtering og vurdering af fuldmagter. I de tilfælde 
+hvor der gælder noget særligt for et af de administrative teams, er det præciseret i vejledning.  
+Vejledningen anvendes som udgangspunkt af Administrationen, der håndterer fuldmagtsforhold, uanset 
+om sagen er frigivet til fagkontoret og herudover er fordelt til en sagsbehandler.  
+Indholdet af vejledningen  
+  
+Afsnit 1 – Fuldmagtsforhold  
+Afsnittet beskriver hvad det betyder at have en partsrepræsentant. Det er beskrevet, hvad det indebærer at 
+have en stillingsfuldmagt og hvornår Ankestyrelsen kræver en skriftlig fuldmagt.  
+Der er desuden en kort gennemgang af forskellige fuldmagtstyper.  
+Afsnit 2 – Formkrav til fuldmagt  
+Afsnittet beskriver, hvilke formelle krav vi stiller til en fuldmagt for, at fuldmagten kan anses for at være 
+tilstrækkelig dokumentation.  
+Afsnit 3- Fuldmagtens omfang  
+Afsnittet beskriver nærmere om indholdet af en fuldmagt, herunder hvad vi gør, hvis indholdet af 
+fuldmagten er uklart. Det er også beskrevet, hvor længe en fuldmagt gælder.  
+Afsnit 4 – Fuldmagtsskabeloner – eksempler  
+Afsnittet beskriver en række typeeksempler på problemer, der kan opstå i sagsbehandlingen og det er 
+beskrevet, hvilke skabeloner, der skal anvendes i de enkelte situationer.  
+Afsnit 5 – Fuldmagter og snitflader  
+Afsnittet beskriver håndteringen i P360. Desuden er snitflader til fagkontor og Team Aktindsigt beskrevet.  
+Afsnit 6 – Værgebeskikkelser  
+Afsnittet giver en kort beskrivelse af de forskellige typer værgemål. Det fremgår desuden, hvornår en 
+værgebeskikkelse kan danne grundlag for at agere i en sag i Ankestyrelsen.  
+  
+--- Page 2 ---
+2 
+ 
+1. Fuldmagtsforhold  
+ 
+Afsnittet beskriver hvad det betyder at have en partsrepræsentant. Det er beskrevet, hvad det indebærer 
+at have en stillingsfuldmagt og hvornår Ankestyrelsen kræver en skriftlig fuldmagt.  
+Der er desuden en kort gennemgang af forskellige fuldmagtstyper.  
+Ajourført 9. marts 2026 /JAKR 
+Indledning 
+ 
+Når man er part i en sag, har man på ethvert tidspunkt af sagens 
+behandling ret til at lade sig repræsentere eller bistå af en anden 
+(både en fysisk person eller en virksomhed, fx et fagforbund).  
+Vi har som myndighed pligt til at få afklaret, hvem der har ret og 
+pligt til at føre sagen i Ankestyrelsen.   
+Vi skelner mellem  
+• Partsrepræsentant – den, der har overtaget alle partens 
+rettigheder i sagen og som derfor handler på vegne af 
+parten.   
+Partsrepræsentanten kan agere i sagen og kan vælge at 
+afslutte sagen ved at trække klagen tilbage.  
+  
+• Fuldmagtshaver med begrænsede rettigheder – når 
+fuldmagten giver adgang til nogle definerede rettigheder, 
+men ikke som partsrepræsentant. Det kan fx være at få 
+kopi af afgørelsen, udgående breve, aktindsigt og anmode 
+om status for sagen.   
+Den begrænsede fuldmagtshaver kan ikke bestemme over 
+sagen. Det er fortsat borger, der har ansvaret for sagen.  
+  
+• Bisidder – har ingen selvstændige rettigheder eller pligter, 
+men fungerer blot som støtte og et ”ekstra øre” ved 
+møder.  
+  
+Ankestyrelsen har pligt til at afklare, hvilket fuldmagtsforhold, der 
+er tale om.   
+Det er borgeren, der skal afklare enhver tvivl om omfanget af 
+fuldmagten.
+ 
+Hvornår kræver vi 
+fuldmagt? 
+ 
+Fuldmagten er vores dokumentation for, at vi må videregive 
+følsomme personoplysninger til en anden end parten selv.  
+--- Page 3 ---
+3 
+ 
+Vi kræver derfor fuldmagt i de tilfælde, hvor en anden overtager 
+ansvaret for sagen eller skal have fortrolige oplysninger. 
+Man kan godt få hjælp af andre til at skrive en klage, uden at 
+vedkommende skal fungere som partsrepræsentant. Hvis klagen 
+er underskrevet ”på vegne af” kan det være et element, der 
+peger i retning af, at der er tale om en hjælp. Men det kan ikke i 
+sig selv begrunde, at vi ikke indhenter en fuldmagt. Eksempel 1 – 
+Borgerrådgiver i kommunen:  
+En borgerrådgiver er en neutral og uafhængig person, der er ansat 
+af kommunalbestyrelsen. Borgerrådgiveren kan rådgive og vejlede 
+i forhold til klagemuligheder og regler for sagsbehandling inden 
+for kommunens områder.  
+Borgerrådgiveren vil aldrig fungere som partsrepræsentant og skal 
+derfor ikke fremvise fuldmagt for at hjælpe med en klage.  
+Eksempel 2 – Kriminalforsorgen  
+Når en borger er indsat, vil al korrespondance meget ofte ske 
+igennem Kriminalforsorgen. Kriminalforsorgen kan – på baggrund 
+af en særlig aftale – udtale sig og få oplysninger i borgerens sag 
+uden at fremvise fuldmagt. Det vil derfor være det klare 
+udgangspunkt, at Kriminalforsorgen ikke skal anses for at være 
+partsrepræsentant.  
+Eksempel 3 – Naboen eller ægtefællen  
+En privatperson, fx en nabo, søster eller en ægtefælle skal altid 
+fremvise en fuldmagt. Det gælder også i de tilfælde, hvor 
+kommunen har accepteret, at en ægtefælle kan fungere som 
+partsrepræsentant alene i kraft af det familiære tilhørsforhold.   
+Der gælder ikke regler om ”uskreven fuldmagt” for forældre til 
+voksne børn eller ægtefæller.
+ 
+Stillingsfuldmagt 
+ 
+Stillingsfuldmagt betyder, at en person har en fuldmagt i kraft af 
+sin stilling. En stillingsfuldmagt er derfor dokumentation i sig selv 
+og vi kræver som udgangspunkt ikke yderligere skriftlig 
+dokumentation.  
+Stillingsfuldmagten giver ret til partsrepræsentation.  
+Stillingsfuldmagten dækker hele virksomheden og ikke kun den 
+eller de medarbejdere, der har stillingsfuldmagten.  
+ I Ankestyrelsen anvender vi de typer af stillingsfuldmagter, der er 
+nævnt i bemærkningerne til forvaltningsloven.  
+Alle andre end nedenstående skal sende en skriftlig fuldmagt.  
+--- Page 4 ---
+4 
+ 
+• Advokater (ikke cand.jur. eller advokatfuldmægtige) 
+ 
+• Udenlandske advokater, der praktiserer i et EU-land 
+ 
+• Københavns Retshjælp og Aarhus Retshjælp (der arbejder 
+under ledelse af en advokat)  
+  
+• Revisorer (statsautoriserede eller registrerede)  
+  
+• Uddannede socialrådgivere, der har det som sit virke at 
+repræsentere borgere  
+  
+Eksempel:  
+En advokatsekretær i et advokatfirma arbejder under ledelse af en 
+eller flere advokater. Sekretæren skal derfor ikke sende en skriftlig 
+fuldmagt, men er omfattet af advokatfirmaets stillingsfuldmagt.  
+OBS! Som nævnt vil stillingsfuldmagten give ret til 
+partsrepræsentation uden skriftlig fuldmagt.  
+Hvis der kun er tale om begrænsede rettigheder, skal den 
+pågældende fremvise en skriftlig fuldmagt, der definerer 
+fuldmagtens omfang. 
+ 
+Særlig for advokater 
+ 
+Advokatens stillingsfuldmagt gælder kun, når advokaten er 
+antaget af borger til at repræsentere. Hvis advokaten oplyser, at 
+han/hun ikke repræsenterer borger endnu, kræver vi fuldmagt.  
+Advokatsamfundet fører tilsyn med advokater og jf. RPL § 120 er 
+europæiske advokattitler tilsvarende beskyttet i Danmark. 
+Stillingsfuldmagten gælder derfor også udenlandske advokater, 
+der praktiserer i et EU-land.  
+ Stillingsfuldmagten gælder ikke længere, når advokaten er 
+pensioneret. Her kræver vi skriftlig fuldmagt. 
+Særligt for 
+socialrådgivere 
+ 
+Det er ikke alene titlen ”socialrådgiver”, der indikerer, om der er 
+stillingsfuldmagt.   
+Vores praksis er, at stillingsfuldmagten dækker (privat) 
+praktiserende socialrådgivere. Det har altså ikke sigte på 
+socialrådgivere, der er ansat i fx fagforbund, uanset om de 
+underskriver sig som socialrådgiver.    
+Socialrådgivere er ikke undergivet et tilsyn fra et branchenævn og 
+har heller ikke en lovpligtig ansvarsforsikring. Vi anser os derfor for 
+at have en særlig forpligtelse til at sikre os, at borgeren er klar 
+--- Page 5 ---
+5 
+ 
+over, hvad det vil sige at have en socialrådgiver som 
+partsrepræsentant.  
+Derfor sender vi et særligt fuldmagtsbrev (FULDM-3), medmindre 
+der er medsendt en tilstrækkelig præcis fuldmagt.  
+Se i øvrigt afsnittet om anvendelse af fuldmagtsskabeloner.  
+Fuldmagtshavere med 
+begrænsede rettigheder 
+ 
+En fuldmagtshaver med begrænsede rettigheder fungerer ikke 
+som partsrepræsentant, men har kun fuldmagt til visse 
+begrænsede dispositioner, fx kopi af udgående breve eller 
+aktindsigt.  
+Vi skal derfor reagere, hvis en fuldmagtshaver med begrænsede 
+rettigheder begynder at agere i sagen, fx ved at sende 
+bemærkninger ind. Det gør vi ved at orientere borger (FULDM-7).  
+Det er formuleringen i fuldmagten, der definerer rettighederne. 
+Du skal derfor sikre dig, hvad fuldmagten omfatter, før du sender 
+breve til en ”Anden fuldmagtshaver”.  
+ 
+Generalfuldmagt 
+ 
+ 
+ 
+Generel fuldmagt 
+ 
+En generalfuldmagt gælder ikke kun i en konkret sag eller til en 
+konkret disposition.  
+Ved en generalfuldmagt giver man fuldmagt til, at en anden fysisk 
+eller juridisk person kan varetage alle borgerens personlige 
+forhold fremover.  
+OBS!  
+Generalfuldmagten må ikke forveksles med de 
+fuldmagtsskabeloner, som kommunerne anvender. Her er der ofte 
+angivet ”generel fuldmagt”, når der er tale om 
+partsrepræsentation.  
+ 
+Fremtidsfuldmagt 
+ 
+En fremtidsfuldmagt svarer til en generalfuldmagt, men vil som 
+udgangspunkt først blive sat i kraft, når borgeren ikke længere selv 
+kan varetage sine anliggender.  
+Fremtidsfuldmagten er et tinglyst dokument og kan ses på 
+tinglysning.dk, når fuldmagten er sat i kraft.  
+En fremtidsfuldmagt vil ofte have flere fuldmagtshavere. De kan 
+være sideordnede eller subsidiære. Vi afklarer på sædvanlig vis, 
+hvem der skal være partsrepræsentant i Ankestyrelsen, hvis der er 
+tale om sideordnede fuldmagtshavere.  
+Det er tilstrækkeligt at notere på sagen, når man har tjekket, at 
+der findes en tinglyst fremtidsfuldmagt, der omhandler alle 
+personlige forhold. Notér også ved flere fuldmagtshavere, om de 
+er sideordnede eller subsidiære. Se vejledning i bilag 1 om, 
+hvordan denne oplysning søges frem på tinglysning.dk.   
+--- Page 6 ---
+6 
+ 
+ 
+Borgere, der ikke er i 
+stand til at afgive 
+fuldmagt 
+ 
+Det hænder, at i sager, hvor en anden end borgeren har skrevet til 
+os/klaget, at vi falder over oplysninger i sagen, der tyder på, at 
+borgeren er så dårlig, at han/hun ikke er i stand til at afgive 
+fuldmagt.   
+Det kan fx være:  
+- Oplysninger om demens eller lignende kognitive 
+sygdomme  
+- Oplysninger om at borger bor på et demensplejehjem  - 
+ eller er indlagt og ukontaktbar  
+Du skal sende sagen til fagkontoret til vurdering 
+ 
+  
+--- Page 7 ---
+7 
+ 
+2. Formkrav til fuldmagter  
+ 
+Afsnittet beskriver, hvilke formelle krav vi stiller til en fuldmagt for, at fuldmagten kan anses for at være 
+tilstrækkelig dokumentation.  
+Ajourført 28. juni 2024 / LOMI 
+Formkrav 
+ 
+Vi kan ikke stille krav om, at fuldmagten udfærdiges på en bestemt 
+blanket. Vi vejleder alene om, at man kan anvende Ankestyrelsens 
+fuldmagtsblanket eller Ankestyrelsens digitale fuldmagtsløsning.  
+Vi stiller krav om, at fuldmagten skal være  
+• Skriftlig  
+• Underskrevet af borger  
+• Aktuel 
+ 
+Skriftlig 
+ 
+Fuldmagten kan indsendes via vores kontaktformular eller digitalt.  
+Vi stiller som udgangspunkt krav om, at det er borger selv, der 
+indsender fuldmagten.  
+Vi kan dog se bort fra dette, hvis det er en professionel 
+partsrepræsentant (fx et fagforbund), der indsender blanketten, 
+eller den er vedlagt akterne fra førsteinstansen.
+ 
+Underskrift 
+ 
+Vi skal stille krav om, at fuldmagten er underskrevet af borger. 
+Enten med en almindelig underskrift på blanketten eller en digital 
+underskrift (sendt med digital signatur).
+ 
+Aktuel 
+ 
+Vi er forpligtet til at sikre, at fuldmagtsforholdet stadig er aktuelt. 
+Det er grunden til, at fuldmagten helst ikke skal være mere end 1 
+år gammel.   
+  
+Hvis sagen har verseret i mere end 1 år, men partsrepræsentanten 
+hele tiden har været aktiv, behøver du som udgangspunkt ikke at 
+bede om en aktuel fuldmagt.  
+Hvis partsrepræsentanten derimod har været inaktiv i en lang 
+periode, vil det være en god ide at få bekræftet 
+fuldmagtsforholdet hos borger (FULDM-2) 
+ 
+Fuldmagten lever ikke op 
+til formkravene 
+ 
+Hvis fuldmagten ikke lever op til vores formkrav, skriver vi til 
+borger og beder om en præcisering. Vi anvender FULDM-2. Det er 
+vigtigt, at du gør dig helt klart, hvorfor fuldmagten er upræcis.   
+--- Page 8 ---
+8 
+ 
+Borgers præcisering af 
+fuldmagten 
+ 
+Når vi modtager svar på FULDM-2 om præcisering af en fuldmagt, 
+kan det være både skriftligt og telefonisk. 
+Der er ingen problemer i at modtage en præcisering mundtligt. Vi 
+har jo allerede fået en underskrift på selve fuldmagten. Nu er det 
+alene indholdet, der giver anledning til tvivl.   
+Det er dog vigtigt, at du i samtalen får afklaret helt præcist, hvad 
+fuldmagten skal omfatte. Hvis det alene handler om en begrænset 
+fuldmagt, skal borger definere rettighederne. Vi kan her hjælpe 
+borger på vej ved at høre, om det skal gælde kopi af udgående 
+breve og aktindsigt.   
+Vi kan samtidig vejlede borger om, at en begrænset fuldmagt 
+betyder, at borger selv har ansvaret for sagen, og selv må sørge 
+for at komme med bemærkninger.  
+Det er vigtigt, at du noterer indholdet af samtalen i et § 13 notat 
+(NOTAT-5).  
+ 
+ 
+  
+--- Page 9 ---
+9 
+ 
+3. Fuldmagtens omfang  
+ 
+Afsnittet beskriver nærmere om indholdet af en fuldmagt, herunder hvad vi gør, hvis indholdet af 
+fuldmagten er uklart. Det er også beskrevet, hvor længe en fuldmagt gælder.  
+Ajourført 28. juni 2024 / LOMI 
+Hvornår gælder 
+fuldmagten i 
+Ankestyrelsen 
+ 
+Vi kan ikke stille et håndfast krav om, at der i fuldmagten skal stå 
+”Ankestyrelsen”, før fuldmagten er gældende hos os. Det kan 
+være tilstrækkeligt, at det kan udledes indirekte.  
+Der kan for eksempel stå:  
+• Alle offentlige myndigheder  
+• Indtil min sag er endelig afgjort  
+• Ret til at klage  
+• Repræsentere mig i min klagesag  
+ 
+Det forudsætter dog, at fuldmagten har givet ret til 
+partsrepræsentation i førsteinstansen. 
+Fuldmagt til en konkret 
+sag 
+ 
+Kan vi videreføre 
+fuldmagten fra en sag til 
+en anden? 
+En fuldmagt gælder normalt, til sagen er endelig afgjort. I 
+hjemviste sager kan der være tale om en langt sagsforløb og man 
+kan argumentere for, at det er den samme sag.  
+Det er afgørende, at vi er sikre på, at fuldmagtsforholdet stadig 
+består. Det kan derfor være en god ide af hensyn til vores egen 
+dokumentation, at vi beder om en aktuel fuldmagt, hvis vi er i tvivl 
+om, hvorvidt der er sket ændringer. 
+Generalfuldmagt 
+Skal registreres, så de 
+kan videreføres 
+Du skal give besked til Bettina (BEKN), der vil sørge for at 
+registrere fuldmagten på kontakten som en frist. 
+Din mail skal indeholde følgende oplysninger 
+• Generalfuldmagt 
+• J.nr. som fuldmagten er journaliseret på 
+ 
+Hvornår kan du hente en 
+generalfuldmagt fra en 
+anden sag 
+Når fristen på kontakten er aktiv, kan du hente 
+fuldmagt/værgebeskikkelse fra den sag, der er angivet i 
+fristen. 
+Hvis fristen er afsluttet, betyder det, at du ikke må 
+hente generalfuldmagten fra en anden sag. 
+Du skal skrive til Jura, der vurderer, om fristen skal åbnes 
+igen eller om vi skal have en aktuel fuldmagt. 
+--- Page 10 ---
+10 
+ 
+Hvor længe gælder en 
+fuldmagt til en konkret 
+sag? 
+ 
+Fuldmagten bortfalder, når vi træffer afgørelse i sagen. Nye 
+henvendelser fra partsrepræsentanten forudsætter en ny 
+fuldmagt.   
+  
+Hvis der dog i umiddelbar forlængelse af, at vi har truffet 
+afgørelse, anmodes om aktindsigt i fx lægesvaret fra den tidligere 
+partsrepræsentant, antager vi dog, at der ikke skal kræves ny 
+fuldmagt til at behandle denne aktindsigtsanmodning.  
+”I umiddelbar forlængelse” dækker over 6 måneder. Det vil dog 
+altid bero på en konkret vurdering, om fuldmagten må anses for 
+bortfaldet før dette tidspunkt.   
+  
+Hvis henvendelsen kommer fra en anden end den tidligere 
+partsrepræsentant, anser vi fuldmagten for at være bortfaldet, 
+da vi afsluttede sagen.  
+Indsigelse fra 
+partsrepræsentant til 
+afgørelsen 
+ 
+Henvendelser fra partsrepræsentant efter sagens afslutning  
+Hvis vi i umiddelbar forlængelse af sagens afslutning modtager en 
+indsigelse/anmodning om genoptagelse fra (den tidligere) 
+partsrepræsentant, må udgangspunktet være, at fuldmagten er 
+bortfaldet, da vi traf afgørelse.  
+Det vil imidlertid kun være i forbindelse med en genoptagelse af 
+sagen, at vi bør sikre os, at fuldmagtsforholdet stadig er aktuelt.  
+Så når vi journaliserer henvendelser fra partsrepræsentanten på 
+en lukket sag, noterer vi i resumefeltet, at:    
+”Fuldmagtsforholdet er ikke afklaret i forbindelse med 
+indsigelsen.  
+Hvis fagkontoret vurderer, at der skal oprettes en 
+genoptagelsessag, skal fagkontoret kontakte journalpostkassen”  
+Vi vil så afklare fuldmagtsforholdet før genoptagelsessagen frigives 
+til fagkontor  
+Herefter ændres rollerne jf. afsnit 4. 
+ 
+Fuldmagt i lukkede sager 
+ 
+Hvis vi modtager en fuldmagt til en sag, der er afsluttet, sender vi 
+oplysning om, at fuldmagten er journaliseret på sagen (FULDM11). 
+Vi orienterer om, at vi ikke foretager yderligere.  
+Det gælder dog kun, hvis der ikke er bemærkninger eller andet, 
+som afsender må forvente at få svar på. 
+ 
+--- Page 11 ---
+11 
+ 
+Kan en fuldmagtshaver 
+lade sig repræsentere af 
+en anden? 
+ 
+Nej.  
+ Fuldmagtshaver kan ikke videregive de beføjelser, man har fået 
+ved en fuldmagt.   
+Det er kun borger, der kan give fuldmagt. 
+Kan man have flere 
+partsrepræsentanter? 
+ 
+Der må ikke være tvivl om, hvem der fører sagen i Ankestyrelsen. 
+Derfor stiller vi krav om, at der kun er 1 person, der repræsenterer 
+borger i forhold til sagens behandling hos os, ligesom vi kun 
+korresponderer med den valgte partsrepræsentant.  
+Vi lægger også vægt på hensynet til, at vi selv skal være i stand til 
+at administrere, hvem der må involvere sig i vores personsager.  
+ Mulighed 1:  
+En fuldmagt er givet til flere personer, der ofte er nævnt i en 
+prioriteret rækkefølge.  
+Vi vil kun have behov for at indhente yderligere oplysninger, hvis 
+det er uklart, hvem der skal repræsentere borger under vores 
+behandling af sagen. Se mere under afsnittet om skabeloner.  
+ Mulighed 2:  
+Borger er repræsenteret under sagens behandling i Ankestyrelsen. 
+Det er ikke til hinder for, at fx en advokat får en begrænset 
+fuldmagt til aktindsigt.  
+Særligt for Team ASK 
+Fuldmagtstyper ved AES 
+ 
+AES benytter sig udelukkende af en række definerede 
+fuldmagtstyper, der ikke nødvendigvis har betydning i 
+Ankestyrelsen.  
+• Kode 11  
+Kopi af alle afgørelser. Anvendes normalt af 
+arbejdsmedicinsk klinik, kommune og 
+pensionsmyndigheder  
+• Kode 21  
+En begrænset fuldmagt med rettigheder, der svarer til 
+partsrepræsentation.  
+Vi bliver nødt til at afklare, hvordan fuldmagtsforholdet 
+skal være i Ankestyrelsen  
+• Kode 31  
+Almindelig partsrepræsentation.  
+Fuldmagten kan uden videre anvendes i Ankestyrelsen.  
+• Kode 99  
+Adgang til SeSag.  
+--- Page 12 ---
+12 
+ 
+ 
+ 
+ 
+  
+--- Page 13 ---
+13 
+ 
+4. Fuldmagtsskabeloner – eksempler  
+ 
+Afsnittet beskriver en række typeeksempler på problemer, der kan opstå i sagsbehandlingen og det er 
+beskrevet, hvilke skabeloner, der skal anvendes i de enkelte situationer. 
+Ajourført 5. januar 2026 / JAKR 
+Fuldmagtsskabeloner 
+ 
+Alle skabelonerne hedder FULDM-(XX).   
+FULDM 1, 2, 3, 4, 9 og 10 findes under dokumentkategorien: 
+”Dokument ud – vi beder om oplysninger”  
+FULDM 5, 6, 7, 8 og 11 findes under dokumentkategorien:  
+”Dokument ud” 
+En anden end borger 
+klager 
+Fuldmagten er i orden 
+Der kvitteres over for ”den anden person”, som bliver registreret 
+som partsrepræsentant på sagen 
+En anden end borger 
+klager 
+Der er ikke medsendt 
+fuldmagt 
+ 
+Hvis noget tyder på, at ”den anden person” har til hensigt at agere 
+i sagen, skal vi have fuldmagtsforholdet dokumenteret.  
+FULDM-1, Anmodning om fuldmagt  
+• Sendes til borger med kopi til ”den anden person”, der 
+registreres som ”ikke part”  
+ 
+Herefter:  
+• Modtages præcis fuldmagt, kvitteres over for ”ikke part”, 
+der nu bliver partsrepræsentant  
+ 
+• Modtages ingen fuldmagt, kvitteres over for borger og 
+”ikke part” slettes fra sagen.  
+ 
+Særligt ift. underretningssager 
+• Hvis underretningen kommer fra en borger, der angiver at 
+være partsrepræsentant for fx en af forældrene, sender vi 
+de sædvanlige samtykkebreve og indhenter sagsakter fra 
+kommunen samtidig med, at vi anmoder om fuldmagt. 
+Borger, der underretter, oprettes her som ”ikke part” og 
+modtager bekræftelse som underretter 
+• Modtages præcis fuldmagt, registreres borgeren som 
+”partsrepræsentant”/”forælders partsrepræsentant”. Vi 
+sender FULDM-5 brev med kopi af de breve, der tidligere 
+--- Page 14 ---
+14 
+ 
+er sendt til den forælder, vedkommende er 
+partsrepræsentant for 
+• Modtages ingen fuldmagt, fortsætter borgeren med at 
+være ”ikke part” på sagen (som underretter) 
+ 
+En anden end borger 
+klager 
+Der er medsendt en 
+upræcis fuldmagt 
+ 
+FULDM-2, Upræcis fuldmagt  
+• Sendes til borger med kopi til ”ikke part”  
+ 
+ Herefter:  
+• Modtages en tilstrækkelig fuldmagt, kvitteres over ”ikke 
+part”, der bliver partsrepræsentant  
+  
+• Modtages en fuldmagt til begrænsede rettigheder, 
+kvitteres over for borger med kopi til den begrænsede 
+fuldmagtshaver (hvis det fremgår af fuldmagten). ”Ikke 
+part” bliver ”Anden fuldmagtshaver”  
+ 
+• Modtages ingen fuldmagt, kvitteres over for borger og 
+”ikke part” slettes fra sagen. 
+ 
+Særligt ift. underretningssager 
+• Hvis underretningen kommer fra en borger, der angiver at 
+være partsrepræsentant for fx en af forældrene, sender vi 
+de sædvanlige samtykkebreve og indhenter sagsakter fra 
+kommunen samtidig med, at vi sender FULDM-2 brevet til 
+forælderen med kopi til ”ikke part”. Borger, der 
+underretter, oprettes her som ”ikke part”, og 
+vedkommende modtager bekræftelse som underretter 
+• Modtages præcis fuldmagt, registreres ”ikke part” som 
+”partsrepræsentant”/”forælders partsrepræsentant”. Vi 
+sender FULDM-5 brev med kopi af de breve, der tidligere 
+er sendt til den forælder, vedkommende er 
+partsrepræsentant for 
+• Modtages en fuldmagt til begrænsede rettigheder, 
+registreres ”ikke part” som ”anden fuldmagtshaver” 
+• Modtages ingen fuldmagt, fortsætter borgeren med at 
+være ”ikke part” på sagen (som underretter) 
+ 
+En anden person klager 
+sammen med borger 
+Der er ikke medsendt 
+fuldmagt 
+ 
+Mulighed 1:  
+Hvis der ikke er noget, der tyder på, at den anden person vil agere 
+i sagen, kan vi efter omstændighederne gå ud fra, at der alene er 
+tale om en hjælp i forbindelse med klagen.  
+--- Page 15 ---
+15 
+ 
+ Vi kvitterer over for borger, der betragtes som ”klager”. Den 
+anden person skal ikke registreres på sagen.  
+ Mulighed 2:  
+Hvis noget tyder på, at den anden person har til hensigt at agere i 
+sagen, skal vi have fuldmagtsforholdet dokumenteret.  
+FULDM-1, Anmodning om fuldmagt  
+• Sendes til borger med kopi til ”ikke part”  
+ 
+Herefter:  
+• Modtages præcis fuldmagt, kvitteres over for ”ikke part”, 
+der nu bliver partsrepræsentant  
+  
+• Modtages ingen fuldmagt, kvitteres over for borger og 
+”ikke part” slettes fra sagen.  
+ 
+Mulighed 2 - Særligt ift. underretningssager 
+• Hvis noget tyder på, at den anden person har til hensigt at 
+agere i sagen, skal vi have fuldmagtsforholdet 
+dokumenteret, hvis vedkommende skal være 
+partsrepræsentant for fx en af forældrene. Vi sender de 
+sædvanlige samtykkebreve og indhenter sagsakter fra 
+kommunen samtidig med, at vi anmoder om fuldmagt. 
+Borger, der underretter, oprettes her som ”ikke part” og 
+modtager bekræftelse som (med)underretter 
+• Modtages præcis fuldmagt, registreres borgeren som 
+”partsrepræsentant”/”forælders partsrepræsentant”. Vi 
+sender FULDM-5 brev med kopi af de breve, der tidligere 
+er sendt til den forælder, vedkommende er 
+partsrepræsentant for 
+• Modtages ingen fuldmagt, fortsætter borgeren med at 
+være ”ikke part” på sagen (som (med)underretter) 
+ 
+En anden person klager 
+sammen med borger 
+Der er medsendt en 
+upræcis fuldmagt 
+ 
+FULDM-2, Upræcis fuldmagt  
+• Sendes til borger med kopi til ”ikke part”  
+  
+Herefter:  
+• Modtages en tilstrækkelig fuldmagt, kvitteres over ”ikke 
+part”, der bliver partsrepræsentant  
+  
+• Modtages en fuldmagt til begrænsede rettigheder, 
+kvitteres over for borger med kopi til den begrænsede 
+--- Page 16 ---
+16 
+ 
+fuldmagtshaver (jf. fuldmagten). ”Ikke part” bliver ”Anden 
+fuldmagtshaver”  
+ 
+• Modtages ingen fuldmagt, kvitteres over for borger og 
+”ikke part” slettes fra sagen.  
+ 
+Særligt ift. underretningssager 
+• Hvis underretningen kommer fra en borger (sammen med 
+fra forælderen), der angiver at være partsrepræsentant 
+for fx en af forældrene, sender vi de sædvanlige 
+samtykkebreve og indhenter sagsakter fra kommunen 
+samtidig med, at vi sender FULDM-2 brevet til forælderen 
+med kopi til ”ikke part”. Borger, der underretter, oprettes 
+her som ”ikke part”, og vedkommende modtager 
+bekræftelse som underretter 
+• Modtages præcis fuldmagt, registreres ”ikke part” som 
+”partsrepræsentant”/”forælders partsrepræsentant”. Vi 
+sender FULDM-5 brev med kopi af de breve, der tidligere 
+er sendt til den forælder, vedkommende er 
+partsrepræsentant for 
+• Modtages en fuldmagt til begrænsede rettigheder, 
+registreres ”ikke part” som ”anden fuldmagtshaver” 
+• Modtages ingen fuldmagt, fortsætter borgeren med at 
+være ”ikke part” på sagen (som (med)underretter) 
+ 
+Socialrådgiver klager for 
+borger 
+Der er medsendt en 
+tilstrækkelig fuldmagt 
+Vi kvitterer over for socialrådgiveren, som bliver 
+partsrepræsentant 
+Socialrådgiver klager for 
+borger 
+Der er ikke medsendt en 
+fuldmagt 
+eller 
+Der er medsendt en 
+upræcis fuldmagt 
+ 
+FULDM-3, Socialrådgiver (gælder kun, når socialrådgiver har 
+stillingsfuldmagt)  
+ • Sendes til borger med kopi til ”ikke part” (socialrådgiveren)  
+ 
+Herefter: 
+ 
+• Modtager vi ingen bemærkninger inden for fristen, 
+kvitterer vi over for socialrådgiveren, der bliver 
+partsrepræsentant  
+ 
+• Hvis vi modtager protest, kvitterer vi over for borger og 
+”ikke part” (socialrådgiveren) slettes fra sagen 
+ 
+--- Page 17 ---
+17 
+ 
+Socialrådgiver klager 
+sammen med borger 
+Der er ikke medsendt en 
+fuldmagt 
+ 
+Mulighed 1:  
+Hvis der ikke er noget, der tyder på, at socialrådgiveren vil agere i 
+sagen, kan vi efter omstændighederne gå ud fra, at der alene er 
+tale om en hjælp i forbindelse med klagen.  
+ Vi kvitterer over for borger, der betragtes som ”klager”.  
+ Socialrådgiveren skal ikke registreres på sagen.  
+ Mulighed 2:  
+Hvis noget tyder på, at socialrådgiveren har til hensigt at agere i 
+sagen, skal vi have fuldmagtsforholdet afklaret.  
+FULDM-3, Socialrådgiver (gælder kun, når socialrådgiver har 
+stillingsfuldmagt)  
+• Sendes til borger med kopi til ”ikke part”  
+(socialrådgiveren)  
+ Herefter:  
+• Modtager vi ingen bemærkninger inden for fristen, 
+kvitterer vi over for socialrådgiveren, der bliver 
+partsrepræsentant  
+• Hvis der protesteres, kvitterer vi over for borger og ”ikke 
+part” (socialrådgiveren) slettes fra sagen.  
+ 
+Socialrådgiver klager 
+sammen med borger 
+Der er medsendt en 
+tilstrækkelig fuldmagt 
+Vi kvitterer over for socialrådgiveren, som bliver 
+partsrepræsentant 
+Socialrådgiver klager 
+sammen med borger 
+Der er medsendt upræcis 
+fuldmagt 
+FULDM-3, Socialrådgiver (gælder kun, når socialrådgiver har 
+stillingsfuldmagt)  
+• Sendes til borger med kopi til ”ikke part”  
+(socialrådgiveren)  
+Herefter:  
+• Modtager vi ingen bemærkninger inden for fristen, 
+kvitterer vi over for socialrådgiveren, der bliver 
+partsrepræsentant  
+ 
+Hvis der protesteres, kvitterer vi over for borger og ”ikke part” 
+(socialrådgiveren) slettes fra sagen. 
+ 
+--- Page 18 ---
+18 
+ 
+Borger har givet 
+fuldmagt til flere 
+personer 
+FULDM-4A, Flere personer – samme fuldmagt  
+VÆR OPMÆRKSOM PÅ, AT DENNE SITUATION ADSKILLER SIG 
+FRA DE ØVRIGE FULDMAGTSSPØRGSMÅL. DET ER DERFOR 
+VIGTIGT, AT DU INDDRAGER DIN TEAMKOORDINATOR  
+Det er ikke i sig selv et problem, at fuldmagten er givet til flere 
+personer i prioriteret rækkefølge. Det er dog vigtigt, at vi sikrer os, 
+hvem der skal føre sagen i Ankestyrelsen.  
+Hvis der af klagen (og af sagen i øvrigt) kun er henvendelser fra en 
+af personerne på listen, så er det den person, vi kommunikerer 
+med.  
+ Hvis der er flere af fuldmagtshaverne, der har underskrevet 
+klagen, sender vi FULDM-4A. Her beder vi om at få navnet på den 
+af fuldmagtshaverne, der skal føre sagen i Ankestyrelsen.  
+  
+• Sendes til de personer, der er anført i fuldmagten og efter 
+omstændighederne til borger. Alle fuldmagtshavere skal 
+have rollen ”sagspart”  
+  
+Herefter:  
+• Når det er besluttet, hvem der skal føre sagen, kvitterer vi 
+over for vedkommende, der bliver ”partsrepræsentant”  
+  
+• De øvrige fuldmagtshavere slettes fra sagen  
+ 
+En person uden fuldmagt 
+angiver at være ny 
+partsrepræsentant 
+Der findes i forvejen en 
+partsrepræsentant på 
+sagen 
+FULDM-4, Valg ml. flere fuldmagter   
+• Sendes til borger med kopi til ”ikke part”  
+  
+Herefter:  
+• Modtages en tilstrækkelig fuldmagt, kvitteres over ”ikke 
+part”, der bliver partsrepræsentant  
+ 
+• Modtages ingen fuldmagt, kvitteres over for borger og 
+”ikke part” slettes fra sagen.  
+  
+Vi kan ikke fortsætte med at skrive til den tidligere 
+partsrepræsentant, når der er skabt uklarhed om, hvorvidt 
+vedkommende stadig har en fuldmagt  
+ 
+--- Page 19 ---
+19 
+ 
+En person med 
+tilstrækkelig fuldmagt 
+henvender sig i sagen 
+Der findes i forvejen en 
+partsrepræsentant på 
+sagen 
+eller 
+Vi har kvitteret over for 
+borger 
+FULDM-5, Registrering af partsrepræsentant  
+• Sendes til (den nye) partsrepræsentant  
+• Bilag: Kvitteringsbrev   
+• Partsrepræsentant registreres på sagen  
+• Eventuelt tidligere partsrepræsentant slettes fra sagen  
+ 
+Den tidligere partsrepræsentant har ikke længere ret til at få 
+oplysninger om sagen. De får derfor ikke orientering fra os. Hvis 
+vedkommende henvender sig, må vi henvise vedkommende til at 
+tale med borger.  
+ 
+Vi får oplysning om, at 
+en person ikke længere 
+skal betragtes som 
+partsrepræsentant i 
+sagen 
+FULDM-6, Fuldmagten bortfalder  
+• Sendes til borger med kopi til tidligere partsrepræsentant  
+• Bilag: Kvitteringsbrev kun til borger  
+• Partsrepræsentant slettes fra sagen  
+ 
+En begrænset 
+fuldmagtshaver 
+begynder at agere i 
+sagen ved at komme med 
+bemærkninger 
+FULDM-7, Returnering af udtalelse fra bisidder  
+Den indsendte udtalelse journaliseres dog på sagen, så 
+sagsbehandleren i fagkontoret kan tage stilling til betydningen af 
+udtalelsen.  
+ 
+Vi får oplysning om, at vi 
+har håndteret den 
+samme fuldmagt 
+forskelligt i forskellige 
+sager 
+FULDM-8, Håndtering af fuldmagt  
+Sendes til borger med kopi til fuldmagtshaver  
+ MÅ KUN SENDES EFTER AFTALE MED TEAMKOORDINATOR  
+ Men ordlyden i brevet kan være til inspiration ved telefonopkald 
+omkring fuldmagtsforhold  
+ 
+Vi modtager en 
+anmodning om aktindsigt 
+Der er ikke medsendt en 
+fuldmagt 
+eller 
+Fuldmagten er upræcis 
+ 
+FULDM-10, Anmodning om fuldmagt til aktindsigt  
+Sendes til borger med kopi til den, der anmoder om aktindsigt. 
+Vi modtager en fuldmagt 
+til en afsluttet sag 
+FULDM-11, Fuldmagt til afsluttet sag  
+Hvis vi modtager en fuldmagt til en sag, der er afsluttet, sender vi 
+oplysning om, at fuldmagten er journaliseret på sagen.   
+--- Page 20 ---
+20 
+ 
+Vi orienterer om, at vi ikke foretager yderligere.  
+Det gælder dog kun, hvis der ikke er bemærkninger eller andet, 
+som afsender må forvente at få svar på.  
+Sendes til borger med kopi til fuldmagtshaver.   
+Brevet indeholder to fraser:   
+• Frase 1 – fuldmagten er tilstrækkelig (oprettes som part)  
+• Frase 2- fuldmagten er upræcis (oprettes som ikke-part)  
+ 
+Borger og 
+fuldmagtshaver er 
+uenige om omfanget 
+FULDM-12, Uenighed om fuldmagtens omfang  
+ Eksempel:  
+Borger har oplyst, at 3F skal være partsrepræsentant. 
+Efterfølgende henvender 3F sig til os og oplyser, at de alene 
+ønsker at have fuldmagt med begrænsede rettigheder.  
+Her er der uenighed om omfanget af fuldmagten. Borger og 3F 
+skal derfor afklare fuldmagtsforholdet, før vi kan registrere 3F på 
+sagen.  
+ 
+ 
+  
+--- Page 21 ---
+21 
+ 
+5. Fuldmagter og snitflader  
+ 
+Afsnittet beskriver håndteringen i P360. Desuden er snitflader til fagkontor og Team Aktindsigt beskrevet.  
+ 
+Ajourført 28. juni 2024 / LOMI 
+Snitflader 
+ 
+Administrationen håndterer alle afklaringer og ændringer af 
+fuldmagtsforhold i åbne sager. Dette gælder uanset  
+• om sagen er kvitteret eller ej  
+• om der er sagsbehandler på sagen eller ej  
+• om det er en fristsag eller ej  
+ 
+Når der er sagsbehandler 
+på sagen 
+ 
+Fuldmagten er upræcis: Sagsbehandler stopper udgående 
+aktivitet i sagen, indtil fuldmagtsforholdet er på plads, medmindre 
+der er tale om en underretningssag.  
+Fuldmagtsbrevet sendes fra eget administrative team: Brevet 
+sendes altid med eget team som dokumentansvarlig. Det må ikke 
+se ud som om, at det er sagsbehandler, der har sendt brevet.  
+•  Du kan læse under afsnittet om skabeloner, hvilket brev 
+du skal sende i den konkrete situation.  
+ Hvis sagsbehandleren har påbegyndt en afgørelse: Send link til 
+sagsbehandler om, at der muligvis er ændringer i forhold til 
+partsrepræsentationen. Det er vigtigt, at afgørelsen ikke meddeles 
+til den forkerte person.  
+Resuméfeltet: Notér i resuméfeltet, at fuldmagtsforholdet er 
+under afklaring i ADM. Bemærkningen slettes igen, når 
+fuldmagtsforholdet er afklaret.  
+Fristen: Sæt fristen til eget team, så den kommer med i teamets 
+egen opfølgning af frister.  
+Roller: Rollerne tilrettes løbende, jf. status på afklaring af 
+fuldmagtsforholdet.
+ 
+Når vi modtager 
+oplysning om 
+partsrepræsentation og 
+der samtidig anmodes 
+om aktindsigt 
+Henvendelsen vil gå til Team Aktindsigt automatisk, der 
+journaliserer den på sagen.  
+Team Aktindsigt giver besked til det team, hvor sagen hører til for 
+at få fuldmagtsforholdet afklaret.  
+--- Page 22 ---
+22 
+ 
+ Dette team sender et fuldmagtsbrev. Team Aktindsigt medsender 
+en frase, der skal medtages i fuldmagtsbrevet. 
+Frister, når vi sender 
+fuldmagtsbreve 
+ 
+Fristen i P360 og fristen i brevet skal altid være den samme.  
+Som hovedregel sætter vi fristen til  
+• 14 dage i brevet og 15 dage i P360  
+ 
+Hvis borger modtager digital post, eller der er tale om en 8 ugers 
+sag, kan vi med fordel reducere fristen til  
+• 7 dage i brevet og 8 dage i P360  
+  
+Sagen registreres i P360 som ”Afventer ekstern” 
+Tjek om borger modtager 
+digital post 
+ 
+Gå i Outlook – klik Ny mail – Send Digitalt - Indsæt cpr.nr. -  √ Tjek 
+Vi må IKKE sende mailen – det er alene et tjek   
+   
+Grønt felt betyder, at borger modtager digitalt post  
+Rødt felt betyder, at borger modtager fysisk post  
+Resuméfeltet bruges til 
+overlevering 
+ 
+Brug resuméfeltet som overlevering til din kollega.   
+ Husk at slette unødig tekst, når sagen frigives. 
+Underskrift på brevet 
+ 
+Skabelonerne underskrives ved, at dit navn indsættes i feltet 
+”Dokumentansvarlig”, når du opretter brevet.  
+ Elever og studerende underskriver også med eget navn, men altid 
+med teamkoordinator/tovholder som medunderskriver.  
+ Eksempel:  
+ Venlig hilsen  
+  
+Navn på elev/studerende                Teamkoordinator/tovholder  
+
+--- Page 23 ---
+23 
+ 
+  
+Roller i P360 
+ 
+ 
+• ” Ikke part” er rollen for ”mulig partsrepræsentant” så 
+længe fuldmagtsforholdet er under afklaring. 
+• ”Partsrepræsentant” er rollen, når det er afklaret og 
+dokumenteret på sagen, at fuldmagten giver ret til fuld 
+partsrepræsentation  
+  
+• ”Anden fuldmagtshaver” er rollen, når det er afklaret og 
+dokumenteret på sagen, at fuldmagten giver ret til visse 
+definerede rettigheder  
+  
+• ”Sagspart”  er rollen til arbejdsgivers partsrepræsentant 
+eller når et fagforbunds advokat repræsenterer borger 
+(særligt for arbejdsskadesager)  
+  
+Herudover er følgende roller  
+• Forsikringsselskabets partsrepræsentant  
+• Forældres partsrepræsentant  
+• Barnets partsrepræsentant  
+  
+Når en eller flere personer ikke længere har relevans for sagen, 
+skal de slettes fra sagen igen. 
+ 
+ 
+  
+--- Page 24 ---
+24 
+ 
+6. Værgebeskikkelser  
+ 
+Afsnittet giver en kort beskrivelse af de forskellige typer værgemål. Det fremgår desuden, hvornår en 
+værgebeskikkelse kan danne grundlag for at agere i en sag i Ankestyrelsen.  
+Ajourført 28. juni 2024 / LOMI 
+Værgemål 
+ 
+Når en person lider af nedsat funktionsevne, kan der etableres et 
+værgemål. Det betyder, at personen får en værge, der handler på 
+vedkommendes vegne i de spørgsmål, der er omfattet af 
+værgemålet.  
+Værgemålet vil blive iværksat af enten Familieretshuset eller 
+retten.  
+Værgen skal dokumentere sin ret til at handle ved en 
+værgebeskikkelse. Det fremgår af værgebeskikkelsen, hvad 
+værgemålet omfatter. 
+Værgemålet skal omfatte 
+personlige forhold 
+ 
+Håndtering af en sag ved en offentlig myndighed er en retlig 
+disposition og er en del af de personlige forhold.  
+Det betyder, at værgen kun kan handle som partsrepræsentant i 
+Ankestyrelsen, hvis det fremgår af værgebeskikkelsen, at der er 
+iværksat værgemål for vedkommendes personlige forhold.  
+Det gælder også, selv om sagen omhandler noget økonomisk. 
+Værgemålet omfatter 
+kun økonomiske forhold 
+ 
+Når værgemålet omfatter de økonomiske forhold, skal værgen 
+varetage den daglige økonomi, dvs. at betale regninger, sørge for 
+penge til mad, oprettelse af konti i banken mv.   
+Hvis værgemålet kun omfatter økonomiske forhold, vil personen 
+stadig (retligt set) kunne give en fuldmagt. 
+ 
+Borgeren er frataget den 
+retlige handleevne 
+Registreres i CPR 
+ 
+En person kan helt eller delvist fratages sin økonomiske retlige 
+handleevne. Det betyder, at personen mister retten til at indgå 
+gyldige økonomiske aftaler.  
+Handleevnefratagelse hænger altså sammen med det økonomiske 
+værgemål.                 
+Fratagelse af den retlige handleevne registreres i CPR, fordi 
+personen skal beskyttes mod kreditorer. En eventuel registrering 
+har ikke betydning for vores sagsbehandling.   
+ 
+Samværgemål Hvis en person har behov for støtte til at træffe beslutninger om 
+sin private økonomi, kan personen få en samværge.   
+--- Page 25 ---
+25 
+ 
+ Samværgemål omfatter kun økonomiske forhold.   
+En person, som er under samværgemål, skal samarbejde med 
+værgen.   
+Bistandsværge 
+ 
+Når et menneske med psykisk sygdom bliver dømt til anbringelse 
+på en psykiatrisk afdeling, får personen tildelt en bistandsværge.   
+En bistandsværge kan ikke agere i sager ved Ankestyrelsen uden 
+en fuldmagt. 
+En personlig værge kan 
+give fuldmagt 
+ 
+Den personlige værge kan lade sig repræsentere. Værgen kan altså 
+give fuldmagt til en anden person eller antage fx en advokat med 
+stillingsfuldmagt. Det løses efter de almindelige regler om 
+fuldmagter.  
+Hvis borgeren er under personligt værgemål, kan borgeren ikke 
+selv give fuldmagt eller antage en advokat. 
+Roller 
+ 
+”Ikke part” er rollen for mulig værge, så længe værgebeskikkelsen 
+ikke er modtaget på sagen.  
+”Værge” er rollen, når værgebeskikkelsen er modtaget og 
+vurderet tilstrækkelig (personlige forhold) 
+ 
+Frister 
+ 
+Fristen i P360 og fristen i brevet skal altid være den samme.  
+Som hovedregel sætter vi fristen til  
+• 14 dage i brevet og 15 dage i P360  
+  
+Hvis borger modtager digital post kan vi med fordel reducere 
+fristen til  
+• 7 dage i brevet og 8 dage i P360  
+Sagen registreres i P360 som ”Afventer ekstern” 
+ 
+Værgemålet omfatter 
+kun økonomiske forhold 
+Vi mangler en fuldmagt 
+Vi skal bede om en fuldmagt (FULDM-1).  
+ Hvis vi ikke modtager en fuldmagt eller det ud af sagen tyder på, 
+at borger ikke er i stand til at afgive fuldmagt:  
+ Sagen sendes til fagkontor uden kvittering. 
+Værgen klager 
+Der er ikke medsendt en 
+værgebeskikkelse 
+FULDM-9, Anmodning om værgebeskikkelse  
+• Sendes til værgen  
+  
+Herefter:  
+• Modtages værgebeskikkelsen, kvitteres over for værge 
+ 
+--- Page 26 ---
+26 
+ 
+• Modtager vi ingen værgebeskikkelse, sendes link til 
+bagvagt med bemærkning om, at ”værgebeskikkelsen ikke 
+er modtaget, sagen er ikke kvitteret og vi foretager os ikke 
+yderligere”. 
+ 
+En anden end værgen 
+klager 
+Tilstrækkelig 
+værgebeskikkelse på 
+sagen 
+Der er medsendt 
+fuldmagt 
+ 
+ 
+Hvis fuldmagten er tilstrækkelig, kvitterer vi sagen.  
+ Hvis fuldmagten er upræcis, skal vi afklare fuldmagtsforhold jf. 
+vejledning herom. Husk at stillingsfuldmagten også gælder i denne 
+situation. 
+En anden end værgen 
+klager 
+Der er ingen 
+værgebeskikkelse på 
+sagen 
+Der er medsendt 
+fuldmagt 
+ 
+FULDM-9, Anmodning om værgebeskikkelse  
+• Sendes til værgen  
+  
+Herefter:  
+• Modtages værgebeskikkelsen, kvitteres over for 
+partsrepræsentanten, hvis fuldmagten er tilstrækkelig. Er 
+fuldmagten upræcis – følg vejledningen om fuldmagt.  
+  
+• Modtager vi ingen værgebeskikkelse, sendes link til 
+bagvagt. Det gælder også, selv om der er tale om en 
+stillingsfuldmagt.  
+ 
+Videreførsel af 
+værgebeskikkelse 
+(personligt værgemål) 
+Du skal give besked til Bettina (BEKN), der vil sørge for at 
+registrere værgebeskikkelse på kontakten som en frist. 
+Din mail skal indeholde følgende oplysninger 
+• Værgebeskikkelse (alle personlige 
+forhold/begrænsede personlig forhold) 
+• J.nr. som værgebeskikkelsen er journaliseret på 
+ 
+Hvornår kan du hente en 
+værgebeskikkelse fra en 
+anden sag 
+Når fristen på kontakten er aktiv, kan du hente 
+fuldmagt/værgebeskikkelse fra den sag, der er angivet i 
+fristen. 
+Hvis fristen er afsluttet, betyder det, at du ikke må 
+hente værgebeskikkelsen fra en anden sag. 
+Du skal skrive til Jura, der vurderer, om fristen skal åbnes 
+igen eller om vi skal have en aktuel 
+fuldmagt/værgebeskikkelse. 
+--- Page 27 ---
+27 
+ 
+Værgebeskikkelser i 
+klagefristsager 
+I modsætning til det, der gælder for fuldmagter, skal der altid 
+indhentes værgebeskikkelse, uanset om der er tale om en 
+klagefristsag.  
+Grunden hertil er, at afgørelsen ikke er gyldig, hvis den er truffet 
+over for en person, der er under værgemål. Det gælder, uanset om 
+førsteinstansen er bekendt med værgemålet eller ej. 
+ 
+ 
+  
+--- Page 28 ---
+28 
+ 
+Bilag 1 – Vejledning om fremtidsfuldmagter på tinglysning.dk 
+(sideordnede eller subsidiære fuldmagtshavere, hvor der er flere 
+fuldmagtshavere) 
+ 
+ Forespørg med log ind. 
+ 
+ 
+ 
+ Log på med dit Mit ID Erhverv. 
+ 
+ Angiv cpr.nr. + navn på borger. 
+ 
+ Klik på borgers navn. 
+ 
+ Klik på pil ned for at folde ”Persondokumenter” ud. 
+
+--- Page 29 ---
+29 
+ 
+ 
+ 
+ Klik på Dato/løbenummer. 
+ 
+Herefter kommer det fulde tinglyste dokument frem, hvor blandt andet omfanget af 
+fuldmagten kan ses.  
+I dette eksempel er der tale om både subsidiære og sideordnede fuldmagtshavere. Der er en 
+fuldmagtshaver, som er nr. 1. Hvis vedkommende ikke kan eller vil eller ikke er stand til at 
+påtage sig opgaven, overtager de to sidstnævnte fuldmagtshavere beføjelserne. De er 
+sideordnede, hvilket ses ved, at der står XX og YY og ikke noget om, at YY kun skal være 
+fuldmagtshaver i tilfælde af, at XX ikke kan eller vil eller ikke er i stand til at påtage sig 
+opgaven. 
+
+--- Page 30 ---
+30

@@ -1,0 +1,12 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="84764685-C79E-4A0E-888A-0C1DA78C124F"
+    visibility="public"
+    displayName="[LOCALIZED(E52CB550-DBC2-445B-94BB-0869344C9048,*Export to eArchive)]">
+  <description>[LOCALIZED(91DCDB0E-7D3C-4D26-BBB4-CA55631CCFDE,*Exporting cases and documents, sending exports to eArchive.)]</description>
+  <executable assemblyType="SI.Biz.Core.ContinuousTransfer.Export.ExportToEArchiveJob, SI.Biz.Core.ContinuousTransfer.Export, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke/>
+  </executable>
+  <job queue="Sys.Hourly" runAs="allaccess_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>
+
+

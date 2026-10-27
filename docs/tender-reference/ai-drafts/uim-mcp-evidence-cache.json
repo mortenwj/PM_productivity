@@ -1,0 +1,778 @@
+{
+  "run_id": "uim-mcp-enrich-2026-07-07",
+  "generated": "2026-07-07",
+  "entries": {
+    "MK-6|Bilag 1.b": {
+      "ratatoskr": [
+        "Disposal (admin-en)",
+        "Retention (Disposal) (admin-en)",
+        "Purge (admin-en)",
+        "Delete File Permanently (admin-en)"
+      ],
+      "wiki": [
+        "360° settings - internal reference",
+        "Overview of Critical Areas and Components",
+        "Privacy Risk Assessment in Archer"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "Disposal/retention/purge admin docs; wiki covers retention settings; limited GDPR-specific wiki"
+    },
+    "MK-30|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "EArchive 360°",
+        "Setup of Continuous Transfer",
+        "EDoc KOMBIT integrations - foundation services (DK)"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No direct hierarchical collection help topic; wiki has related-case/archive search leads only"
+    },
+    "MK-35|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° AutoSaver - Technical documentation",
+        "Process Engine - Manual"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Wiki mentions recno/document IDs in technical docs; no UI visibility topic in help"
+    },
+    "MK-49|Bilag 1.b": {
+      "ratatoskr": [
+        "360° File Viewer (incl Prizm) (release)",
+        "File (admin-en)"
+      ],
+      "wiki": [
+        "Overview of PDF functionality in 360",
+        "6.0 release information"
+      ],
+      "confidence": "Verified"
+    },
+    "MK-50|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "6.5 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No auto-preview-on-navigation topic found; single wiki release note on document navigation"
+    },
+    "MK-56|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Contact register cleaning tools",
+        "360° Integration with Enhetsregisteret (BRREG)"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Contact registry docs found; no duplicate-prevention enforcement topic"
+    },
+    "EK-1|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "No help or wiki match for foreigner contact overview (udlændingeoverblik)"
+    },
+    "MK-66|Bilag 1.b": {
+      "ratatoskr": [
+        "Search and Result lists (admin-en)",
+        "Advanced search (admin-en)",
+        "360° Search Assistant (admin-en)"
+      ],
+      "wiki": [
+        "6.8 release information",
+        "Feature Toggles 2025-2026"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Search docs exist but not joint all-entity all-fields search"
+    },
+    "MK-68|Bilag 1.b": {
+      "ratatoskr": [
+        "Advanced search (admin-en)"
+      ],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Truncation via Begins with operator in advanced search release notes"
+    },
+    "MK-70|Bilag 1.b": {
+      "ratatoskr": [
+        "Search and Result lists (admin-en)"
+      ],
+      "wiki": [
+        "CIM - How to create Reports"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Result list column config partially documented; all-fields display not confirmed"
+    },
+    "MK-74|Bilag 1.b": {
+      "ratatoskr": [
+        "Advanced search (admin-en)",
+        "Search and Result lists (admin-en)"
+      ],
+      "wiki": [
+        "5.11 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Search form configuration not explicitly documented for all entities"
+    },
+    "MK-75|Bilag 1.b": {
+      "ratatoskr": [
+        "Advanced search (admin-en)"
+      ],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No dedicated search-form field picker admin topic"
+    },
+    "K-6|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° settings - internal reference"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "maxrowsforexcelexport setting documents Excel export row limit"
+    },
+    "EK-2|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No real-time dashboard product documentation found"
+    },
+    "MK-76|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Frontend guidelines for modern web applications",
+        "BSP design goals and technical changes"
+      ],
+      "confidence": "Verified"
+    },
+    "MK-77|Bilag 1.b": {
+      "ratatoskr": [
+        "Search and Result lists (admin-en)"
+      ],
+      "wiki": [
+        "5.14 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Infinite pagination documented; unlimited results requirement not met in docs"
+    },
+    "MK-78|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "No keyboard shortcut documentation in help or wiki"
+    },
+    "MK-80|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "5.14 release information",
+        "6.0 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Mass update via SIF referenced; UI mass-change for all entities not documented"
+    },
+    "MK-81|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "6.8 release information",
+        "EDoc Documentation for Support"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Incoming/outgoing document distinction mentioned in release notes only"
+    },
+    "MK-83|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Version 5 changes in detail views and wizards"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Column view configuration on overview webparts not documented"
+    },
+    "MK-84|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Version 5 changes in detail views and wizards"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Custom entity column views not documented"
+    },
+    "MK-85|Bilag 1.b": {
+      "ratatoskr": [
+        "Custom fields (admin-en)"
+      ],
+      "wiki": [
+        "Build log hotfix packages",
+        "6.0 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Custom fields exist; column view usage on standard entities unclear"
+    },
+    "MK-86|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Build log hotfix packages",
+        "5.9 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Filter/sort with saved default view not documented for column views"
+    },
+    "MK-87|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "No custom tabs/widgets on entity overviews documentation"
+    },
+    "MK-88|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Flexibility initiatives",
+        "Full-Flex UI entity creation"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "FFUI flexibility partial; full placement flexibility not confirmed"
+    },
+    "EK-3|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Full-Flex UI entity creation",
+        "Flexibility initiatives"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Descriptive EK requirement; partial UI customization evidence only"
+    },
+    "EK-4|Bilag 1.b": {
+      "ratatoskr": [
+        "360° Information Act Request (admin-en)",
+        "Automatic IFAR process (admin-en)"
+      ],
+      "wiki": [
+        "Changes to module names and availability",
+        "360° eInnsyn export"
+      ],
+      "confidence": "Verified"
+    },
+    "MK-99|Bilag 1.b": {
+      "ratatoskr": [
+        "Workflow (admin-en)"
+      ],
+      "wiki": [
+        "360° settings - internal reference",
+        "Implementation Process"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Workflow docs exist; automatic approval-history document generation not confirmed"
+    },
+    "MK-100|Bilag 1.b": {
+      "ratatoskr": [
+        "Workflow (admin-en)"
+      ],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Hearing workflow history auto-document not documented"
+    },
+    "MK-102|Bilag 1.b": {
+      "ratatoskr": [
+        "Reminder (admin-en)"
+      ],
+      "wiki": [
+        "5.13 release information",
+        "360° Flow - Demo setup"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Deadline/reminder notifications partially documented; flexible per-task config unclear"
+    },
+    "MK-103|Bilag 1.b": {
+      "ratatoskr": [
+        "Reminder (admin-en)"
+      ],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Task notification configuration partially in release notes"
+    },
+    "MK-111|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "6.10 release information",
+        "SubSetupConfig"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Configuration preservation on upgrade not explicitly guaranteed in docs"
+    },
+    "MK-113|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Virtual metadata"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No 3500-character field length requirement documentation"
+    },
+    "MK-118|Bilag 1.b": {
+      "ratatoskr": [
+        "Welcome to 360° Administrator (admin-en)"
+      ],
+      "wiki": [
+        "5.0 Functional news and QnA"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Whole-UI configuration scope not documented"
+    },
+    "K-10|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° settings - internal reference",
+        "6.0 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Journal plan access group via archive settings; journalplan-specific topic not found"
+    },
+    "K-11|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° AutoSaver - Technical documentation",
+        "Feature Toggles 2025-2026"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Schema export/import exists for AutoSaver; UI config import/export not documented"
+    },
+    "K-12|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "EArchive 360°",
+        "Feature Toggles 2025-2026"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Web admin config import/export not found"
+    },
+    "K-13|Bilag 1.b": {
+      "ratatoskr": [
+        "360° Modules (admin-en)"
+      ],
+      "wiki": [
+        "Module overview"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Module administration referenced; full admin-module maintenance scope partial"
+    },
+    "K-14|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Coding Standards and Quality Requirements for Development"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "No administrator-configurable date format display topic found"
+    },
+    "EK-5|Bilag 1.b": {
+      "ratatoskr": [
+        "Welcome to 360° Administrator (admin-en)",
+        "Custom fields (admin-en)"
+      ],
+      "wiki": [
+        "360° settings - internal reference"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Descriptive EK; admin module no-code scope partially evidenced"
+    },
+    "EK-6|Bilag 1.b": {
+      "ratatoskr": [
+        "Custom fields (admin-en)"
+      ],
+      "wiki": [
+        "Virtual metadata",
+        "360° AutoSaver - Technical documentation"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Data model extension partially documented"
+    },
+    "EK-7|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Full-Flex UI entity creation",
+        "Flexibility initiatives",
+        "6.10 release information"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "FFUI configuration interface well documented on wiki"
+    },
+    "EK-8|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Decision entity referenced in hotfix log; no full afgørelse module documentation"
+    },
+    "MK-133|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° settings - internal reference"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Orphaned access-restricted entity list not documented"
+    },
+    "MK-135|Bilag 1.b": {
+      "ratatoskr": [
+        "Access group (admin-en)"
+      ],
+      "wiki": [
+        "Integration users"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Ad hoc custom entity access restriction not explicitly documented"
+    },
+    "EK-9|Bilag 1.b": {
+      "ratatoskr": [
+        "Access group (admin-en)"
+      ],
+      "wiki": [
+        "User management for Online services",
+        "5.1 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "AD group role mapping partially documented"
+    },
+    "EK-10|Bilag 1.b": {
+      "ratatoskr": [
+        "Audit trails (admin-en)",
+        "Entity Log Messages (admin-en)"
+      ],
+      "wiki": [
+        "360° Online Security Specifications customer version"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "Audit trail admin and case history logging documented"
+    },
+    "MK-136|Bilag 1.b": {
+      "ratatoskr": [
+        "SIF (Simple Integration Framework) (admin-en)"
+      ],
+      "wiki": [
+        "How to: Migrate From On-Premise to Online",
+        "Simple Integration Framework (SIF)"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "API/migration paths documented; vendor-tool-free extraction requirement partial"
+    },
+    "MK-142|Bilag 1.b": {
+      "ratatoskr": [
+        "Custom fields (admin-en)"
+      ],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Office integration custom field registration not found in wiki"
+    },
+    "K-16|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "QA for Next Generation",
+        "6.3 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "LibreOffice integration discussed as future; not supported in current docs"
+    },
+    "MK-145|Bilag 1.b": {
+      "ratatoskr": [
+        "Enable counters in Outlook sidebar (admin-en)"
+      ],
+      "wiki": [
+        "5.17 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Outlook journalization marking partially in sidebar settings"
+    },
+    "MK-148|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "6.0 release information",
+        "EDoc Documentation for Support"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Functional mailbox/inbox case not explicitly documented for Public 360"
+    },
+    "K-17|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Roadmap overview",
+        "5.11 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Alternative email clients not supported; Outlook-centric docs only"
+    },
+    "EK-11|Bilag 1.b": {
+      "ratatoskr": [
+        "Enable counters in Outlook sidebar (admin-en)",
+        "Client (admin-en)"
+      ],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Outlook sidebar settings in help; descriptive EK needs manual draft"
+    },
+    "MK-150|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "No scanner hardware compatibility documentation (Kodak/Ricoh models)"
+    },
+    "MK-151|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "5.16 release information",
+        "5.18 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Scanning inbox/import to unregistered documents; team/individual routing unclear"
+    },
+    "MK-152|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "5.8 release information",
+        "6.2 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Pre-registration of scanned mail partially via file importer"
+    },
+    "MK-153|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "EDoc Documentation for Support",
+        "5.16 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Separator sheet sorting documented for eDoc IntelliScan; Public 360 scanning routing unclear"
+    },
+    "MK-157|Bilag 1.b": {
+      "ratatoskr": [
+        "360° Integration with eFormidling (admin-en)",
+        "360° Dispatch adapter: NgDP adapter (DK) (admin-en)"
+      ],
+      "wiki": [
+        "360° Integration with eFormidling",
+        "Integrasjonspunktet and eFormidling for Support"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "Digital Post/eFormidling two-way integration documented; complete parameter setup scope needs verification"
+    },
+    "EK-12|Bilag 1.b": {
+      "ratatoskr": [
+        "SIF (Simple Integration Framework) (admin-en)"
+      ],
+      "wiki": [
+        "Simple Integration Framework (SIF)",
+        "SIF API for internal developers"
+      ],
+      "confidence": "Verified"
+    },
+    "MK-165|Bilag 1.b": {
+      "ratatoskr": [
+        "Dispatch settings (admin-en)",
+        "360° Dispatch adapter: SvarUt (NO) (admin-en)"
+      ],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Remote print/fjernprint not explicitly named; dispatch adapter config exists"
+    },
+    "MK-167|Bilag 1.b": {
+      "ratatoskr": [
+        "Document Dispatch channel (admin-en)",
+        "360° Dispatch adapter: SvarUt (NO) (admin-en)"
+      ],
+      "wiki": [
+        "6.0 release information"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Physical post via SvarUt dispatch channel documented"
+    },
+    "MK-168|Bilag 1.b": {
+      "ratatoskr": [
+        "Dispatch settings (admin-en)"
+      ],
+      "wiki": [
+        "5.16 release information",
+        "Feature Toggles 2025-2026"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Automatic fallback between dispatch channels not documented"
+    },
+    "MK-169|Bilag 1.b": {
+      "ratatoskr": [
+        "Dispatch status (admin-en)"
+      ],
+      "wiki": [
+        "6.6 release information",
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Dispatch failure handling in release notes; user advisering not explicit"
+    },
+    "K-18|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "6.4 release information",
+        "Build log hotfix packages"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Large dispatch handling partial; split shipment without manual handling not confirmed"
+    },
+    "MK-170|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Consultancy",
+        "How to: Migrate From On-Premise to Online"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Migration process referenced; Public 360-to-P360 specific import mechanism not detailed"
+    },
+    "MK-175|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Endpoint configuration",
+        "Core-testing process"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Environment setup docs partial; NON-PROD/PRE-PROD contract obligation not in product docs"
+    },
+    "MK-181|Bilag 1.b": {
+      "ratatoskr": [],
+      "wiki": [
+        "Product documentation"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Danish documentation availability mentioned; full scope vs technical exception unclear"
+    },
+    "MK-23|Bilag 1.e": {
+      "ratatoskr": [
+        "Generate audit log (admin-en)"
+      ],
+      "wiki": [
+        "360° Online Security Specifications customer version",
+        "Cloud Automation Factory Management Portal"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Audit log export partially documented; complete action export not confirmed"
+    },
+    "MK-24|Bilag 1.e": {
+      "ratatoskr": [
+        "Audit trails (admin-en)"
+      ],
+      "wiki": [
+        "6.8 release information",
+        "Feature Toggles 2025-2026"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Entity logging captured in 6.8; export logging on entity vs admin partial"
+    },
+    "K-10|Bilag 1.e": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Online Security Specifications customer version",
+        "How to: Migrate From On-Premise to Online"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Encryption at rest documented for Online; on-prem/migration environment scope needs clarification"
+    },
+    "K-11|Bilag 1.e": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Online Security Specifications customer version",
+        "ADR-001: Security Approach and Principles for APISIX + Keycloak + OpenBao"
+      ],
+      "confidence": "Verified",
+      "evidence_note": "TLS 1.2+ in transit documented in security specifications"
+    },
+    "K-12|Bilag 1.e": {
+      "ratatoskr": [
+        "Disposal (admin-en)",
+        "Classification system and classes (admin-en)"
+      ],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Records management via disposal/classification; ISO 15489 not explicitly referenced"
+    },
+    "K-13|Bilag 1.e": {
+      "ratatoskr": [
+        "Custom fields (admin-en)",
+        "Audit trails (admin-en)"
+      ],
+      "wiki": [
+        "Virtual metadata"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Metadata management documented; ISO 23081 not explicitly referenced"
+    },
+    "Tilbudsbrev|Tilbudsbrev": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Administrative tender document; no product help or wiki match"
+    },
+    "Bilag 2 Producentens standardvilkår|Bilag 2 Producentens standardvilkår": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Contract terms document; no product help or wiki match"
+    },
+    "Bilag 3 Leverandørens priser|Bilag 3 Leverandørens priser": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Pricing annex; no product help or wiki match"
+    },
+    "ESPD|ESPD": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "ESPD form; no product help or wiki match"
+    },
+    "Bilag 1 - tidsplan og implementering|Bilag 1": {
+      "ratatoskr": [],
+      "wiki": [
+        "Implementation Process"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Generic implementation process; Go-live date requirement is tender-specific"
+    },
+    "Bilag 1 - Optioner|Bilag 1": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Contract options/pricing; no product help or wiki match"
+    },
+    "Bilag 1 - Sikkerhed|Bilag 1": {
+      "ratatoskr": [],
+      "wiki": [
+        "Internal 360",
+        "360° Online Security Specifications customer version"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Security clearance process referenced internally; UIM-specific approval not in product docs"
+    },
+    "B1.A-7|Bilag 1.a": {
+      "ratatoskr": [],
+      "wiki": [],
+      "confidence": "Lead",
+      "evidence_note": "Contract clause on parallel operation during migration; no product documentation"
+    },
+    "B1.A-9|Bilag 1.a": {
+      "ratatoskr": [],
+      "wiki": [
+        "360° Online Security Specifications customer version"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Customer backup/source code rights are contractual; wiki covers data backup only"
+    },
+    "B1.A-10|Bilag 1.a": {
+      "ratatoskr": [],
+      "wiki": [
+        "Module overview",
+        "Incident Management Third Party Softwares"
+      ],
+      "confidence": "Lead",
+      "evidence_note": "Third-party operations referenced; customer right to use third-party ops is contractual"
+    }
+  }
+}

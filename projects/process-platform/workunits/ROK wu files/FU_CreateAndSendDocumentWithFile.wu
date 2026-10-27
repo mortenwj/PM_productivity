@@ -1,0 +1,13 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="FU_Create_and_send_document_with_file{EC03B796-8A3A-4ABC-9314-E3D5F59EA9F7}"
+    visibility="public">
+  <description>Create and send document with file</description>  
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"></argument>
+      </arguments>
+      <return type="string"/>
+    </wf>
+  </executable>
+</workUnit>

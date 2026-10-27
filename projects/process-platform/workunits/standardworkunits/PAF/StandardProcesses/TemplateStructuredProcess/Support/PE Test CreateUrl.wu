@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="B8639F29-047B-46F0-A412-6EBAEEC3D57B"
+  visibility="public"
+  displayName="CreateUrl.wu">
+	<description>CreateUrl.wu</description>
+	<categories>
+    <category>Test</category>
+	</categories>
+	<executable>
+		<wf startOption="invoker">
+			<arguments>
+				<argument name="ActivityId" type="string"/>
+			</arguments>
+			<return type="string"/>
+		</wf>
+	</executable>
+</workUnit>

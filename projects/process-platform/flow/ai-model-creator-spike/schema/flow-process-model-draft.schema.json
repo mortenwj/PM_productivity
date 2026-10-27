@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "flow-process-model-draft.schema.json",
+  "title": "FlowProcessModelDraft",
+  "description": "Intermediate representation for AI-assisted Flow process model drafts (internal experiment v1).",
+  "type": "object",
+  "required": ["processModel", "metadata"],
+  "additionalProperties": false,
+  "properties": {
+    "processModel": {
+      "type": "object",
+      "required": ["name", "stages"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "stages": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/stage" }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["scenarioId", "sourcePrompt"],
+      "additionalProperties": false,
+      "properties": {
+        "scenarioId": { "type": "string" },
+        "sourcePrompt": { "type": "string" },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "mode": { "type": "string", "enum": ["live", "dry-run"] }
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/annotation" }
+    }
+  },
+  "$defs": {
+    "stage": {
+      "type": "object",
+      "required": ["id", "name", "order", "activities"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "order": { "type": "integer", "minimum": 1 },
+        "milestones": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/milestone" }
+        },
+        "activities": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/activity" }
+        }
+      }
+    },
+    "milestone": {
+      "type": "object",
+      "required": ["id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "onTransitionToStageId": { "type": "string" }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "required": ["id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "buildingBlockRef": { "type": "string" }
+      }
+    },
+    "annotation": {
+      "type": "object",
+      "required": ["type", "appliesToStageId", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string", "enum": ["deadline", "note", "building-block-hint"] },
+        "appliesToStageId": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

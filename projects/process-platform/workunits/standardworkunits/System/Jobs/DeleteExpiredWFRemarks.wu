@@ -1,0 +1,7 @@
+<workUnit id="927c5de1-3472-4835-8d0b-951948cc45cd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" displayName="[LOCALIZED(bed09216-4112-47ac-a5db-6ebdb3475edd,*Delete Workflow Remarks after number of days)]">
+  <description>[LOCALIZED(01dd1987-9f28-4f7f-8e61-b370efcc34b8,*The workflow remarks will be deleted after the number of days specified in the setting.)]</description>
+  <executable file="DeleteExpiredWFRemarks.xml">
+    <invoke />
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

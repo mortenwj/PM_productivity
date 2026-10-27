@@ -1,0 +1,59 @@
+{
+  "package": "bre-information-package",
+  "product": "360 Business Rules Engine",
+  "assembled": "2026-06-16",
+  "assembled_by": "bmad-prd discovery (Cursor agent)",
+  "purpose": "Evidence bundle for BRE PRD authoring",
+  "sources": [
+    {
+      "id": "local-sources",
+      "path": "projects/process-platform/bre/sources/",
+      "status": "ingested",
+      "as_of": "2026-06-08"
+    },
+    {
+      "id": "local-inventory",
+      "path": "projects/process-platform/bre/BRE_Inventory.md",
+      "status": "ingested"
+    },
+    {
+      "id": "local-reverse-prd",
+      "path": "projects/process-platform/bre/BRE_Reverse_Engineered_PRD.md",
+      "status": "ingested"
+    },
+    {
+      "id": "local-pilot-assessment",
+      "path": "projects/process-platform/bre/BRE_Pilot_Readiness_Assessment.md",
+      "status": "ingested"
+    },
+    {
+      "id": "ado-mcp",
+      "tool": "user-azure-devops/wit_get_work_items_batch_by_ids",
+      "status": "refreshed",
+      "as_of": "2026-06-16",
+      "ids": [11122, 301056, 301062, 362499, 364464, 371193, 392248, 345523, 219865]
+    },
+    {
+      "id": "wiki-mcp",
+      "tool": "user-mediawiki/mediawiki_get_page_summary",
+      "status": "failed",
+      "error": "403 Forbidden",
+      "fallback": "projects/process-platform/bre/sources/wiki-and-product.md"
+    },
+    {
+      "id": "core-bl",
+      "path": "core-bl/Source/si-bl-process-platform-build/SI.Biz.Core.ProcessPlatform.RulesEngine/",
+      "status": "scanned",
+      "as_of": "2026-06-16"
+    }
+  ],
+  "files": [
+    "01-purpose-and-vision.md",
+    "02-customer-scenarios.md",
+    "03-devops-snapshot.md",
+    "04-wiki-snapshot.md",
+    "05-codebase-snapshot.md",
+    "06-pilot-readiness-and-gaps.md",
+    "07-prd-input-checklist.md"
+  ]
+}

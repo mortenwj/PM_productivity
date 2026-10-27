@@ -1,0 +1,16 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="FUGeneric624D070B-380D-4712-AB2D-13F9D8B9D290"
+    visibility="public"
+    displayName="eDoc Børneflyttesag">
+  <description>eDoc Generisk</description>
+  <categories>
+    <category>ProgressPlan Process</category>
+  </categories>
+  <executable>
+    <wf startOption="application">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

@@ -1,0 +1,8 @@
+<workUnit displayName="Opdater sagsbehandler adgang til eDoc webadmin" id="6C270781-6B13-4F74-BC88-173B2F515E69" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Tildeler brugere med rollen Sagsbehandler adgang til eDoc webadmin SharePoint sitet</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

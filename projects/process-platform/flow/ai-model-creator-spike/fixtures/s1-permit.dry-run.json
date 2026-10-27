@@ -1,0 +1,112 @@
+{
+  "processModel": {
+    "name": "Permit Application Process",
+    "description": "Linear permit application from intake through closure. Progress Plan execution on case is out of scope for this draft.",
+    "stages": [
+      {
+        "id": "intake",
+        "name": "Intake",
+        "order": 1,
+        "milestones": [
+          {
+            "id": "m-intake-complete",
+            "name": "Application received",
+            "onTransitionToStageId": "assessment"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-receive-application",
+            "name": "Receive application",
+            "description": "Register incoming permit application on the case."
+          }
+        ]
+      },
+      {
+        "id": "assessment",
+        "name": "Assessment",
+        "order": 2,
+        "milestones": [
+          {
+            "id": "m-assessment-complete",
+            "name": "Assessment complete",
+            "onTransitionToStageId": "decision"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-completeness-check",
+            "name": "Completeness check",
+            "description": "Verify application package is complete before technical assessment."
+          },
+          {
+            "id": "act-technical-assessment",
+            "name": "Technical assessment",
+            "description": "Evaluate permit request against technical criteria."
+          }
+        ]
+      },
+      {
+        "id": "decision",
+        "name": "Decision",
+        "order": 3,
+        "milestones": [
+          {
+            "id": "m-decision-recorded",
+            "name": "Decision recorded",
+            "onTransitionToStageId": "closure"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-decision-recording",
+            "name": "Decision recording",
+            "description": "Record permit decision outcome on the case."
+          },
+          {
+            "id": "act-notify-applicant",
+            "name": "Notify applicant",
+            "description": "Send decision notification to applicant.",
+            "buildingBlockRef": "notification-pattern"
+          }
+        ]
+      },
+      {
+        "id": "closure",
+        "name": "Closure",
+        "order": 4,
+        "milestones": [
+          {
+            "id": "m-case-closed",
+            "name": "Case closed"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-close-case",
+            "name": "Close case",
+            "description": "Close the permit case after notification."
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "scenarioId": "S1",
+    "sourcePrompt": "Permit application: receive, completeness check, technical assessment, decision, notify, close. Deadlines at assessment and decision.",
+    "generatedAt": "2026-06-16T12:00:00Z",
+    "mode": "dry-run"
+  },
+  "annotations": [
+    {
+      "type": "deadline",
+      "appliesToStageId": "assessment",
+      "note": "Regulatory deadline applies to completeness check and technical assessment."
+    },
+    {
+      "type": "deadline",
+      "appliesToStageId": "decision",
+      "note": "Decision must be recorded within configured decision deadline."
+    }
+  ]
+}

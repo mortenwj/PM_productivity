@@ -1,0 +1,37 @@
+{
+  "project": "search-experience",
+  "purpose": "Product discovery — Search Assistant as unified advanced search",
+  "assembled": "2026-07-08",
+  "owner": "Morten Jensen",
+  "bmad_phase": "1-analysis",
+  "files": {
+    "01-problem-and-opportunity.md": "Why patch fails; hypothesis",
+    "02-current-state-p360.md": "Global, Advanced, SA, limits",
+    "03-competitive-landscape.md": "KMD WorkZone search + QueryBuilder",
+    "04-tender-and-market-pull.md": "UIM MK-66, KUM language",
+    "05-evidence-registry.md": "Tiered source index",
+    "06-open-questions.md": "Gates before brief/PRD",
+    "07-prd-input-checklist.md": "PRD readiness"
+  },
+  "evidence_paths": {
+    "screenshots": "../evidence/screenshots/",
+    "competitor": "../evidence/competitor/",
+    "help_snapshots": "../evidence/help-snapshots/",
+    "tender": "../evidence/tender/"
+  },
+  "bmad_outputs": {
+    "planning": "_bmad-output/planning-artifacts/search-experience/",
+    "implementation": "_bmad-output/implementation-artifacts/search-experience/"
+  },
+  "upstream_links": [
+    "docs/tender-reference/",
+    "docs/product/Module_platform_support_overview.md",
+    "projects/process-platform/bre/information-package/"
+  ],
+  "refresh_status": {
+    "ratatoskr_help": "partial",
+    "mediawiki": "not_run",
+    "ado": "not_run",
+    "product_demo": "screenshot_only"
+  }
+}

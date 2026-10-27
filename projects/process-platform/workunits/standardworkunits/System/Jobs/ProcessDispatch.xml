@@ -1,0 +1,5 @@
+<invokes>
+    <invoke routing='route://SI.Biz.Core.Dispatch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430//SI.Biz.Core.Dispatch.DispatchJobExecutor/ProcessStarted'> 
+        <parameters /> 
+    </invoke> 
+</invokes>

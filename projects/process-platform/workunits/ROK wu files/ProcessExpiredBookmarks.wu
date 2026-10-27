@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="940A6345-7B70-4917-85AC-46E3425E275E" 
+          displayName="[LOCALIZED(4D21EA63-50C4-41F4-8293-5DD69CB8B479,*Trigger external wakeup for Process)]">
+  <description>[LOCALIZED(781FE433-13D2-4B52-8E49-8823C8630B2A,*Resume processes that are waiting for external action)]</description>
+  <executable assemblyType="SI.Biz.Core.ProcessEngine.Runtime.ProcessExpiredBookmarks, SI.Biz.Core.ProcessEngine.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke/>
+  </executable>
+  <job queue="Sys.Immediatly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

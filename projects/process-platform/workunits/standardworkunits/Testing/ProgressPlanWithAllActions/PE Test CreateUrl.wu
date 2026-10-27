@@ -1,0 +1,17 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="PE Test CreateUrl.wu[67ECreate48D4-A9A3-D8B5AA6E6CFC]"
+  visibility="public"
+  displayName="CreateUrl.wu">
+	<description>CreateUrl.wu</description>
+	<categories>
+    <category>Test</category>
+	</categories>
+	<executable>
+		<wf startOption="invoker">
+			<arguments>
+				<argument name="ActivityId" type="string"/>
+			</arguments>
+			<return type="string"/>
+		</wf>
+	</executable>
+</workUnit>

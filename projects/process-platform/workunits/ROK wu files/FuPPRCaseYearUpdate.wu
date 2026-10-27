@@ -1,0 +1,8 @@
+<workUnit displayName="PPRsag opdatering skoleår og klassetrin" id="0a609683-c6b2-4836-9c5b-b91f34c2c34a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Opdatere automatisk indholdet af felterne Skoleår og Klassetrin på PPRsager. Det sker hvert år d. 1. august med tillæg af +1 årgang/klassetrin.</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.OnceAfterMidnight" runAs="SystemDefault" resultType="none" category="AnyServer"/>
+</workUnit>

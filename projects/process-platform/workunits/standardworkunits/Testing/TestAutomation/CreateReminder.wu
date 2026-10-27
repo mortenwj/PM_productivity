@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="CreateReminder{38B8EA70-9B44-40BE-8BBA-C9EF0CD5FFAA}"
+  visibility="public"
+  displayName="CreateReminder">
+  <description>CreateReminder</description>
+  <categories>    
+    <category>Server action</category>
+    <category>Test</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

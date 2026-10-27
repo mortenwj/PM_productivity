@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Wireframe 02 — Document exception</title>
+  <link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+  <nav class="wf-nav-pages">
+    <a href="index.html">Index</a>
+    <a href="01-process-files-default.html">01 Default</a>
+    <a href="02-document-exception.html">02 Exception</a>
+    <a href="03-all-decided.html">03 Complete</a>
+    <a href="04-request-detail.html">04 Request</a>
+    <a href="05-redaction-mode.html">05 Redaction</a>
+  </nav>
+  <div class="wf-app">
+    <div class="wf-topbar">Public 360° — FIB · Process files (wireframe)</div>
+    <div class="wf-breadcrumb">
+      <a href="#">Case 2026/1842</a> › <a href="04-request-detail.html">Access request</a> › <strong>Process files</strong>
+    </div>
+    <header class="wf-header">
+      <h1>Access request case 2026/1842</h1>
+      <div class="wf-stats">
+        <div class="wf-stat"><strong>3</strong><span>undecided</span></div>
+      </div>
+    </header>
+    <div class="wf-tabs">
+      <div class="wf-tab">Case</div>
+      <div class="wf-tab active">Process files</div>
+    </div>
+    <div class="wf-main">
+      <aside class="wf-queue">
+        <div class="wf-queue-toolbar">
+          <span class="wf-filter on">Undecided only</span>
+        </div>
+        <div class="wf-banner">
+          2 of 3 files match a prior grant — review <strong>exhibit-3.pdf</strong> (newer file version).
+        </div>
+        <div class="wf-queue-scroll">
+          <div class="wf-doc-group">
+            <div class="wf-doc-head">
+              <span>▼ Document VED-44</span>
+              <span class="wf-chip suggest">2/3 match</span>
+              <button type="button" class="wf-secondary-btn wf-disabled" style="font-size:11px;padding:4px 8px">Apply to all</button>
+            </div>
+            <div class="wf-file">
+              <span class="wf-chip undecided">Undecided</span>
+              <span class="wf-chip suggest">Suggestion</span>
+              <span class="wf-file-name">exhibit-1.pdf</span>
+              <span class="wf-file-size">520 KB</span>
+            </div>
+            <div class="wf-file">
+              <span class="wf-chip undecided">Undecided</span>
+              <span class="wf-chip suggest">Suggestion</span>
+              <span class="wf-file-name">exhibit-2.pdf</span>
+              <span class="wf-file-size">610 KB</span>
+            </div>
+            <div class="wf-file selected">
+              <span class="wf-chip warn">Review required</span>
+              <span class="wf-file-name">exhibit-3.pdf</span>
+              <span class="wf-file-size">980 KB</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <section class="wf-right">
+        <div class="wf-preview">
+          <div class="wf-preview-label">Preview — FIB FileViewer</div>
+          <div class="wf-preview-body">
+            exhibit-3.pdf<br /><br />
+            New version since 2024 decision — no automatic suggestion
+          </div>
+        </div>
+        <div class="wf-decision">
+          <div class="wf-banner info" style="margin:0 0 12px">
+            No suggestion for this file. Choose a decision manually.
+          </div>
+          <div class="wf-form">
+            <label>Decision
+              <select><option>— select —</option><option>Full grant</option><option>Partial grant</option><option>Denied (rejected)</option><option>Not assessed</option></select>
+            </label>
+            <label>Legal paragraph
+              <select><option>— select —</option></select>
+            </label>
+            <div class="wf-form-actions">
+              <button type="button" class="wf-primary-btn">Save and next undecided</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <p class="wf-note">Flow 2 — bulk disabled, exception named (EXPERIENCE.md)</p>
+  </div>
+</body>
+</html>

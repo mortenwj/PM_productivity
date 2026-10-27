@@ -1,0 +1,5 @@
+<invokes>
+    <invoke routing='route://SI.Biz.Core.MassOperation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430//SI.Biz.Core.MassOperation.MassOperationJobExecutor/ProcessStarted'> 
+        <parameters /> 
+    </invoke> 
+</invokes>

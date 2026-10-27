@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="085751AF-9D87-4E23-BA16-C61DFB5616DA"
+    displayName="[LOCALIZED(C8B7681F-C7EF-44D4-9C26-073B4CD8A9C3,*Run filecontent validation)]">
+  <description>[LOCALIZED(46CAD3B3-7564-41C6-9C62-323D4F87CACE,*Validate files that are flagged for validation.)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.FileContentValidator, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="SystemDefault" resultType="none" category="AnyServer"/>
+</workUnit>

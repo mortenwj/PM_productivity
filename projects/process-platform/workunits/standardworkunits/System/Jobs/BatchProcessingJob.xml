@@ -1,0 +1,4 @@
+﻿<invokes>
+  <invoke routing='route://SI.Biz.Core.BatchProcessExecutor//SI.Biz.Core.BatchProcessExecutor.Manager.JobManager/Execute'>
+  </invoke>
+</invokes>

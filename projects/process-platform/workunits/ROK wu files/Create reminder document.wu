@@ -1,0 +1,21 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\WorkUnit.xsd"
+    id="06F80B75-A38D-4567-B94A-21FA69588980"
+    displayName="Create reminder document">  
+  <description>...</description>
+  <categories>
+    <category>ProgressPlan Support/Reminding</category>
+    <category>Case</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="WaitTaskId" type="string" comment="table: Activity"></argument>
+        <argument name="DocumentTitle" type="string"></argument>
+        <argument name="DocumentTemplateId" type="string"></argument>        
+        <argument name="DocumentContactRoleId" type="string" comment="codetable: Activity - Contact role (Default: Recipient)"></argument>
+        <argument name="DispatchChannelId" type="string" comment="codetable: Document Dispatch Channel (Default: [from system])"></argument>        
+      </arguments>
+      <return type="string"/>
+    </wf>
+  </executable>
+</workUnit>

@@ -1,0 +1,24 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\WorkUnit.xsd"
+    id="8BE4B50B-4112-40C6-90C3-7B80BBE8EA66"
+    displayName="Send Reciept to applicant">  
+  <description>...</description>
+  <categories>
+    <category>ProgressPlan Support</category>
+    <category>Case</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+		    <argument name="ServerActionId" type="string"/>
+        <argument name="CaseId" type="string"></argument>
+        <argument name="DocumentTitle" type="string"></argument>
+        <argument name="DocumentTemplateId" type="string" comment="table: Template"></argument>
+        <argument name="CaseContactRoleId" type="string" comment="codetable: Contact - Case role (Default: Applicant)"></argument>
+        <argument name="DispatchChannelId" type="string" comment="codetable: Document Dispatch Channel (Default: [from system])"></argument>        
+        <argument name="DocumentArchiveId" type="string" comment="codetable: Document archive (Default: Case document)"></argument>
+        <argument name="DocumentCategoryId" type="string" comment="codetable: Document category (Default: Outbound document)"></argument>
+        <argument name="DocumentContactRoleId" type="string" comment="codetable: Activity - Contact role (Default: Reciever)"></argument>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

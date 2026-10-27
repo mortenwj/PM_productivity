@@ -1,0 +1,103 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="PaymentTimeout"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="CaseId" Type="InArgument(x:String)" />
+    <x:Property Name="CaseContactRole" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTemplateRecno" Type="InArgument(x:String)" />
+    <x:Property Name="CreatedDocumentRecno" Type="OutArgument(x:String)" />
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTitle" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>PaymentTimeout_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontact" />
+    </Sequence.Variables>
+    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_3">
+      <sbcpa:ContextBinder.Parameters>
+        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="CurrentUserRole=Sagsbehandler" Parameters="[{&quot;4&quot;}]" WorkUnit="VerifyUserRole =&gt; FU1E4A168C-E12C-44B9-9BDE-57ADB4EDBA5D" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_2" />
+        <Assign sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(Integer.Parse(CaseId))]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure Eval="[Not _case Is Nothing]" Exception="[New SI.Util.BizInfoException(&quot;(($((#5BBBFAC4-C659-482A-85D3-046AD1E0EF94#))Case: Noget er galt.$))&quot;)]" sap2010:WorkflowViewState.IdRef="Ensure_2" />
+        <Assign sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign.To>
+            <OutArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_casecontact]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_case.GetContactInstances(Integer.Parse(CaseContactRole))]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure Eval="[Not _casecontact Is Nothing]" Exception="[New SI.Util.BizInfoException(&quot;(($((#5BBBFAC4-C659-482A-85D3-046AD1E0EF94#))Noget er galt.$))&quot;)]" sap2010:WorkflowViewState.IdRef="Ensure_1" />
+        <sbcpa:CreateOutboundDocument BatchItems="{x:Null}" DocumentFileComment="{x:Null}" EntityItems="{x:Null}" RelatedServerActionId="{x:Null}" CaseId="[CaseId]" DisplayName="Opret Udgående dokument" DocumentArchiveId="Dokument =&gt; 2" DocumentCategoryId="Udgående dokument =&gt; 111" DocumentFileTemplateId="[DocumentTemplateRecno]" sap2010:WorkflowViewState.IdRef="CreateOutboundDocument_1" Recipient="[New ActivityContactInfo() With&#xA;{&#xA;    .Address = _casecontact(0).Address,&#xA;    .Name = _casecontact(0).Name,&#xA;    .ContactpersonId = _casecontact(0).ContactPersonId,&#xA;    .ContactId = _casecontact(0).ContactId,&#xA;    .RoleId = 6,&#xA;    .ZipCode = _casecontact(0).ZipCode,&#xA;    .ZipPlace = _casecontact(0).ZipPlace&#xA;}]" Result="[CreatedDocumentRecno]" Title="[DocumentTitle]" />
+        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="Send Digital Post" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_1" Parameters="[{ProgressPlanId, CreatedDocumentRecno}]" WorkUnit="Digital Post =&gt; FuDP9181ABD0-984D-4575-8E8D-E412EEABE4C9" />
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d4wBQzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxTb2Z0d2FyZSBJbm5vdmF0aW9uXDM2MFx3b3JrdW5pdHNcQ3VzdG9tXGVEb2NHZW5lcmljXENyZWF0ZUFuZFNlbmRPdXRCb3VuZERvY3VtZW50XENyZWF0ZUFuZFNlbmRPdXRCb3VuZERvY3VtZW50LnhhbWwcMwNSDgIBATgFUBsCAQI6CTqBAgIBITsJQhICAR1DCUPfAQIBGkQJSxICARdMCUzgAQIBFE0JTa0GAgEITglOjAICAQM6bTqAAQIBIzqKATrHAQIBIkA2QIgBAgEgPTc9PgIBHkMcQzQCARxDP0OxAQIBG0lHSYIBAgEZRkhGVgIBGEwcTDsCARZMRkyyAQIBFU25Ak3SAgIBEk2bAU2lAQIBEE3eAU3wAQIBD02YA03yBQIBDk36BU2SBgIBDE2ZBk2qBgIBCk2EAk2hAgIBCU6YAU7CAQIBBU7MAU6JAgIBBA==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="CallWorkUnitAction_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Ensure_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Ensure_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CreateOutboundDocument_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_3" sap:VirtualizedContainerService.HintSize="256,466" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="278,590">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="PaymentTimeout_1" sap:VirtualizedContainerService.HintSize="318,670" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

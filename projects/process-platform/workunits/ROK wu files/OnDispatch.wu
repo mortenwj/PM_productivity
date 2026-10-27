@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="54991B4B-9827-4AAE-AE2E-648199168EEB" 
+          displayName="[LOCALIZED(9c0ed33b-77ca-412a-a41a-059e8e506868,*On Dispatch)]">
+  <description>[LOCALIZED(0d1f15bb-0657-42d6-8ab5-33ce0ad044a5,*On Dispatch)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.WUScript.OnDispatch.DispatchInvoker.OnDispatchEvent">
+	<arguments>
+        <argument name="docRecno" type="string"/>
+		 <argument name="dispatchXml" type="string"/>
+      </arguments>
+		<return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

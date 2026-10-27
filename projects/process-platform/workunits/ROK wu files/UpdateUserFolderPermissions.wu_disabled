@@ -1,0 +1,17 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="_UPDATE_USERFOLDER_PERMISSIONS_"
+    displayName="Update the folder permission to give user access to their folder">
+  <description>...</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.WUScript.FolderPermission.Set">
+	  <arguments>
+        <argument name="RootFolder" type="string">[ROOT FOLDER HERE]</argument>
+      </arguments>
+      <return type="string"/>
+    </xscript>
+  </executable>
+  <job queue="Sys.Frequently" runAs="SystemDefault" resultType="none"/>
+</workUnit>

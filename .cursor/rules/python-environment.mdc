@@ -1,0 +1,49 @@
+---
+description: Project Python via uv — canonical interpreter and dependency management
+alwaysApply: true
+---
+
+# Python in PM_productivity
+
+Dependencies are declared in **`pyproject.toml`** and locked in **`uv.lock`**. The virtualenv is **`.venv/`** (managed by uv).
+
+## Shell commands (agent and humans)
+
+From the **repository root**, always use:
+
+```powershell
+uv run python <script.py> [args...]
+```
+
+Examples:
+
+```powershell
+uv run python projects/process-platform/flow/ai-model-creator-spike/generate_draft.py --scenario s1-permit --dry-run
+uv run python -m pip list
+```
+
+Shortcut for the Flow AI spike:
+
+```powershell
+.\toolkit\scripts\run-ai-spike.ps1 --scenario s1-permit --dry-run
+```
+
+## Bootstrap / sync
+
+```powershell
+winget install astral-sh.uv --accept-package-agreements --scope user   # once per machine
+.\toolkit\scripts\bootstrap-python.ps1                                 # uv sync
+```
+
+Or: `uv sync` from repo root.
+
+## Do not use
+
+- Bare **`python`** or **`pip`** without `uv run` — may hit system Python without project packages.
+- Windows Store **`python.exe`** stub under `WindowsApps`.
+- Legacy **`requirements.txt`** alone (kept for reference; **`pyproject.toml`** is authoritative).
+
+## Optional
+
+- Install/sync deps after pulling: `uv sync`
+- Add a dependency: edit `pyproject.toml`, then `uv lock` and `uv sync`

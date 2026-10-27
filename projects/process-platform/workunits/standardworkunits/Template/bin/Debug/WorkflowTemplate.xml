@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WorkflowTemplate
+</name>
+</assembly>
+<members>
+<member name="M:WorkflowTemplate.ActivityTemplate123.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="13D6C1E4-F4CF-4DF6-B128-987C4F453E11"
+          displayName="[LOCALIZED(5D1AB908-D2F3-4497-8EAB-639DCF20DB09,*Create new file version from Signing)]">
+  <description>[LOCALIZED(F1470AB7-90B5-4099-B684-D1EDC4A97124,*Create a new file version from Signing)]</description>
+  <categories>
+    <category>Script</category>
+    <category>Signing</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.WUScript.Signing.FileVersionCreator.CreateNewFileVersion">
+      <arguments>
+        <argument name="signingId" type="int"/>
+      </arguments>
+      <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

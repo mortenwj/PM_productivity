@@ -1,0 +1,10 @@
+<workUnit id="ECD675E1-B4D2-4C8D-88DB-021FD68EDC3D"
+          displayName="[LOCALIZED(721ACB34-7F07-4AB1-B034-23B8D9AA676B, *Fulltext crawler)]"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(09F01ABF-ABC2-4BE2-A94D-25FD1F83D66E, *Fulltext Crawler)]</description>
+  <executable assemblyType="SI.Biz.Core.Search.Crawl.Merger, SI.Biz.Core.Search">
+    <invoke>
+    </invoke>
+  </executable>  
+</workUnit>

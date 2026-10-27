@@ -1,0 +1,8 @@
+<workUnit id="9790E360-5BF9-4C3D-A82C-BDA69468003F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" 
+displayName="[LOCALIZED(BEC02499-B407-4619-9E84-D820FD77935C,*Execute automatic conversion)]">
+  <description>[LOCALIZED(5739319B-47DF-452E-BE5C-2D807241027F,*Execute automated format conversion.)]</description>
+  <executable assemblyType="SI.Biz.Core.FormatConverter.Support.Surface.AutoConvertFiles, SI.Biz.Core.FormatConverter.Support, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke />
+  </executable>
+  <job queue="Sys.Nightly" runAs="formatconverter_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

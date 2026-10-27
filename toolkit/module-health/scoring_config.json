@@ -1,0 +1,78 @@
+{
+  "version": "1.1",
+  "description": "Module Health Scorecard weights. Default mode is ado_only (bugs + PFRs). Revenue optional via --with-revenue.",
+  "mode": "ado_only",
+  "weights": {
+    "revenue_rank": 0.35,
+    "revenue_growth": 0.15,
+    "bug_burden": 0.25,
+    "pfr_backlog": 0.25
+  },
+  "weights_ado_only": {
+    "bug_burden": 0.55,
+    "pfr_backlog": 0.45
+  },
+  "bands": {
+    "healthy": 75,
+    "watch": 55,
+    "at_risk": 35
+  },
+  "penalties": {
+    "bugs_per_point": 2,
+    "p1_bug_multiplier": 10,
+    "open_pfr_per_point": 3
+  },
+  "windows_days": {
+    "bugs": 90,
+    "pfr_open": null
+  },
+  "insights": [
+    {
+      "id": "investment_candidate",
+      "when": "revenue_rank < 30 and open_pfrs >= 10",
+      "text": "High PFR demand relative to revenue — investment candidate."
+    },
+    {
+      "id": "quality_debt",
+      "when": "revenue_rank >= 70 and bug_score < 50",
+      "text": "Strong revenue but elevated bug load — maintenance / quality debt risk."
+    },
+    {
+      "id": "pfr_backlog_pressure",
+      "when": "open_pfrs >= 20 and pfr_customers >= 5",
+      "text": "Broad customer PFR backlog — prioritise grooming and Impacted Module hygiene."
+    },
+    {
+      "id": "low_signal",
+      "when": "revenue_eur == 0 and open_pfrs == 0 and bugs_90d == 0",
+      "text": "Low activity signal — confirm module is in active portfolio or legacy."
+    }
+  ],
+  "insights_ado_only": [
+    {
+      "id": "quality_hotspot",
+      "when": "bugs_90d >= 10 or p1_bugs_90d >= 3",
+      "text": "Elevated bug volume — review triage, regressions, and release readiness."
+    },
+    {
+      "id": "pfr_demand",
+      "when": "open_pfrs >= 10 and pfr_customers >= 3",
+      "text": "Strong open PFR demand from multiple customers — prioritise backlog review."
+    },
+    {
+      "id": "combined_pressure",
+      "when": "bugs_90d >= 5 and open_pfrs >= 10",
+      "text": "Quality debt plus customer demand — module under combined pressure."
+    },
+    {
+      "id": "pfr_backlog_pressure",
+      "when": "open_pfrs >= 20 and pfr_customers >= 5",
+      "text": "Broad customer PFR backlog — prioritise grooming and Impacted Module hygiene."
+    },
+    {
+      "id": "p1_attention",
+      "when": "p1_bugs_90d >= 2",
+      "text": "Multiple P1 bugs in 90 days — escalate stability review."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="E64E212E-907C-4C26-A3D0-1CA0A00B2F8C"
+    visibility="public"
+    displayName="[LOCALIZED(8c5bc2cd-071f-4642-a446-b4044d5673c3,*Dispose Files)]">
+  <description>[LOCALIZED(0998426e-ead3-4149-88be-9abb4b8b37db,*Dispose Files)]</description>
+  <executable file="DisposalFiles.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="disposal_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

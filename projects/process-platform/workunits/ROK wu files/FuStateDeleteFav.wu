@@ -1,0 +1,8 @@
+<workUnit displayName="Automatisk opdatering af sagsstatus" id="3E8F0004-CCD5-4F0A-8393-A44889208F97" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Anvender globale favoritsøgninger registreret i Fu State Change Favorites til at skifte sagsstatus</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

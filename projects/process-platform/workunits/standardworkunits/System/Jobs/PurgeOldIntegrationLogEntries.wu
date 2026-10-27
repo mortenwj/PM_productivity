@@ -1,0 +1,8 @@
+<workUnit id="3BA15826-DF8A-4D51-A754-4DCB4E6C7BFD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+displayName="[LOCALIZED(5A1F22F5-904C-45C3-882B-6CD89C7B31A4,Purge old integration log entries)]">
+  <description>[LOCALIZED(4AE97FB9-D7FD-4459-BEC1-075F2DDD19AA,Removes old entries from integration log table.)]</description>
+  <executable assemblyType="SI.Biz.Core.Signing.CleanupLogs, SI.Biz.Core.Signing, version = 4.0.0.0, Culture = neutral, PublicKeyToken = 84474dc3c65e4430">
+    <invoke />
+  </executable>
+  <job queue="Sys.Nightly" runAs="signing_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

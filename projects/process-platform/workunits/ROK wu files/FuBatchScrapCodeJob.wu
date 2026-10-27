@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Synkronisering af kassationskoder fra KLE-Online" id="FC61D83A-93A0-4181-B7D5-8F69BFD466A1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Afhentning af kassationskoder fra KLE-online</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

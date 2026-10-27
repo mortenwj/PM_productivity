@@ -1,0 +1,8 @@
+<workUnit displayName="STS update system roles (prod)" id="A84C58BF-972D-44C2-8AAD-F49F31DCEF73" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Update system roles for STS Admin (Serviceplatformen.dk) customers</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

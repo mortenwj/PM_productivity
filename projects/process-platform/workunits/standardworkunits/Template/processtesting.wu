@@ -1,0 +1,22 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+    id="A180EE8A-E513-4D70-B3E5-43F9CEBEA3A5"
+    visibility="public"
+    displayName="various process testing">
+  <description>Collection of tests and verifications</description>
+  <categories>
+    <category>ProgressPlan Process</category>
+    <category>Stage Process</category>
+  </categories>
+  <executable>
+    <wf startOption="application">
+      <arguments>
+        <argument name="ProgressPlanId" type="string" category="Document creation"/>
+        <argument name="_outboundArchive" origin="code table: Document archive" editable="true" category="Document creation"/>
+        <argument name="_outboundCategory" origin="code table: Document category" editable="true" category="Document creation"/>        
+        <argument name="_receiptTemplateID" type="string" editable="true" category="Document creation"/>
+        <argument name="_receiptDocumentTitle" type="string" editable="true" category="Document creation"/>
+        <argument name="_caserole" origin="code table: Contact - Case role" editable="true" category="Document creation"/>        
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

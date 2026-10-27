@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Automatisk afsendelse af notifikationer for aktiviteter" id="0C6DDC87-29EA-485B-A9C2-0082B6B28C84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Der afsendes notifikationer til sagsbehandleren for aktiviteter dagen før, på dagen, samt ved overskridels af forfaldsdato</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

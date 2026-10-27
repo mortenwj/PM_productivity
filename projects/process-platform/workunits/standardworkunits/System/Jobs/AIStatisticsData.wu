@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="58063E6D-0DBF-421C-8DAE-5F779A5498BG"
+    visibility="public"
+    displayName="[LOCALIZED(643f4019-cfaf-48f6-b7b4-a1fd58875424,Archive Inspector generate Statistics)]">
+  <description>"[LOCALIZED(1054930a-da53-444a-a079-e13a68d0762c,Job to prepopulate necessary data for Archive Inspector Statistics)]"</description>
+  <executable file="AIStatisticsData.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

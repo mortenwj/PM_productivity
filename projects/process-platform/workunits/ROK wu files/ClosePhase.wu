@@ -1,0 +1,18 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\WorkUnit.xsd"
+    id="FU1FF253B2-C4C7-424F-94EF-C47AF0297D90"
+    displayName="ClosePhase">
+  <description>Close a Phase</description>
+  <categories>
+    <category>WaitTask Action ClosePhase</category>
+    <category>ProgressPlan Support/Reminding</category>
+    <category>Case</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="WaitTaskId" type="string"></argument>
+        <argument name="TaskDescription" type="string">Close Phase</argument>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

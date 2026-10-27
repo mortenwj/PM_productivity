@@ -1,0 +1,8 @@
+<workUnit displayName="Start Workflow Process Engine" id="2C350782-7B13-3F74-AC78-273B3F525E68" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Is starting or stopping the Workflow Process Engine</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

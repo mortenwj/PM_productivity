@@ -1,0 +1,2256 @@
+{
+  "evaluatedAt": "2026-03-31T13:13:03.138683+00:00",
+  "scope": {
+    "team": "Core-Process-platform",
+    "iterationName": "PP - 22 - 16.03.2026 - 03.04.2026",
+    "iterationId": "24c69368-31d8-4ecd-9316-2f6c46253853",
+    "workItemTypes": [
+      "User Story"
+    ],
+    "storyCount": 71
+  },
+  "evaluationNotes": [
+    "Work item batch loaded from local file: story_eval/pp22_mcp_batch_current.json.",
+    "Automated heuristic scoring from System.Description, Microsoft.VSTS.Common.AcceptanceCriteria, System.Parent, Microsoft.VSTS.Common.Risk, and Custom.Riskdescription.",
+    "Risk classification uses Microsoft.VSTS.Common.Risk (1\u20133). Risk description uses Custom.Riskdescription when risk is 1 or 2."
+  ],
+  "stories": [
+    {
+      "id": 230794,
+      "title": "PE Designer Component - Create a Milestone",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 100,
+        "acTestability": 85,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 91.6,
+      "complianceStatus": "Compliant",
+      "issues": [],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 230795,
+      "title": "PE Designer Component - Create a Stage",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 49.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 273412,
+      "title": "PMC - Admin - Revert changes on the progressplan BIF page",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 280267,
+      "title": "Keep Process Trigger Configuration when Creating Copy of Models, Stages, StageTemplates",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307028,
+      "title": "PM - DB & Meta - Change to multi trigger system",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307036,
+      "title": "PM - Admin - React - New dialog for choosing (Parent) Trigger Automation ID",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 54.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307040,
+      "title": "PM - Admin - BL - API for searching Automation IDs",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 57.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307123,
+      "title": "PM - BL - Make sure AutomationIDs are uniqe across entities",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 66.0,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307153,
+      "title": "PM - BL - Trigger all entities connected to triggering (parent)",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 66.0,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307171,
+      "title": "PM - BL - Comment out code using TriggerAutomationId",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 57.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 307202,
+      "title": "PM - BL - Uncomment commented code",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 349917,
+      "title": "PM - Trigger - DB & Meta - Add AutomationID on MilestoneConfig",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 350217,
+      "title": "PM - Trigger - BL - AutomationID validations",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 364011,
+      "title": "Mailscanner migration - Register the unregistered document instead of creating a copy",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 2,
+      "riskDescriptionPresent": true,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 60,
+        "acTestability": 85,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 86.6,
+      "complianceStatus": "Compliant",
+      "issues": [
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 379584,
+      "title": "DB Changes: Milestone and Case Connection Removal",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 381921,
+      "title": "DB - Create data model for Process Model Capabilities",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 382094,
+      "title": "PMC - Admin - TreeView - Support for accessibility and keyboard navigation",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 391652,
+      "title": "Stage defined process - NOR \"Mottak\" - ENU \"Received- Process\"",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 70,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 54.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 394044,
+      "title": "PMC - StageTemplate - TemplateState Validations and Logic",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 397393,
+      "title": "BEFORE ASYNC - PM - Performance - Analyse of ProcessModel cloning flow during case creation",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 42.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 397394,
+      "title": "Started - PM - Performance - Identify instance-specific fields in cloned ProcessModel sub-entities",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 42.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 397400,
+      "title": "PM - Performance \u2013 Investigate abnormal MilestoneConfig & StageProcessConfig row counts",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 45,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 50,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 35.2,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 397406,
+      "title": "PM - Performance \u2013 Analyse of legacy StageTemplate behaviour and requirements for redesign - UseLatestVersion",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 42.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 398964,
+      "title": "PMC - Admin - HitoricView - Display what version we are looking at",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 399014,
+      "title": "PM360 - Urestricted Milestones - Add Milestones on a Closed Stage",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 100,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 76.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 399150,
+      "title": "PM - P360 - UI - Analyze all API calls executed during case UI load",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 399156,
+      "title": "TO FIX Cache - PM - Performance - Analyze StageApi/CalculateDeadLine for unnecessary data loading",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 399167,
+      "title": "OK - PM - Performance - Analyze ChecklistInstanceView/GetChecklistThemeList",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 399169,
+      "title": "TO FIX - PM - Performance - Analyze ChecklistInstanceView/GetMilestoneListByChecklist",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 401241,
+      "title": "PM - Performance \u2013 Analyze - Could we wait with creating the instances of the stac/milc/stapc until instantiation and get those from the templates",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 405221,
+      "title": "Stage Closure Blocked Message Is Misleading When Milestones Are Still Active",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 407075,
+      "title": "Input Field Loses Cursor Focus After Exceeding 50 Characters in Description/Admin Notes fields",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 407206,
+      "title": "Follow up - Fix focus issue in Deadline Control Web Part (Progress Plan Overview)",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 409527,
+      "title": "PMC - Admin - ArgumentsTab - FrontEnd - Show arguments for global stage processes read only",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 42.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 411061,
+      "title": "IFAR processing should exclude file references",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 50,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 36.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 411642,
+      "title": "PM - Fix all places using Milestone.ToCase & Milestone.ToCaseKey - Copy",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 412227,
+      "title": "E-mail scanner should remove spaces surrounding the names in configuration",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": false,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 15,
+        "acTestability": 45,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 0,
+        "dependencies": 70
+      },
+      "finalScore": 32.8,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "No System.Parent; story must link to Feature or Epic.",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 413628,
+      "title": "IFAR - Redaction - Enable flattening for PDF forms and emails",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": true,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 60,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 71.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414030,
+      "title": "Major deficiency letter",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 60,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 71.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414452,
+      "title": "Autoreceipt",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414618,
+      "title": "Create documment with review and approval",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 45,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 32.4,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414619,
+      "title": "PMC - DB - Add standard milestones",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 67.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414620,
+      "title": "Add default outcome types",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414671,
+      "title": "Implement initial DB",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414751,
+      "title": "UX - Design Process Model Capabilities Configuration UI",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414762,
+      "title": "PE Designer Component - Extend server action to support params",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 49.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414763,
+      "title": "PE designer Create client action for registering milestone date",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 49.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414799,
+      "title": "Add Application Master as an example in ProcessEngineToolkit",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414845,
+      "title": "Plan handling",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414846,
+      "title": "Implement auto scroll and highlight process model item in sidebar as per recno",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414862,
+      "title": "Process Withdrawn",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 45,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 32.4,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414875,
+      "title": "PM - Trigger - UI - Enable Automation ID on Milestone",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414964,
+      "title": "PMC - DB - Remove required Case Type on MilestoneTypes",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 44.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 414997,
+      "title": "PE Designer Component - Create a Milestone Dialog in Case Handling view",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 59.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415106,
+      "title": "Move CreateMilestoneOnStage logic to MilestoneMetaHandlers",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 30,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 67.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415193,
+      "title": "GEMI - Create Document for Mail-enabled Security Group for GEMI permission.",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415772,
+      "title": "Support Stage pre-selection in New Document Wizard and Dialog when opened from Process Engine client action",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 60,
+        "acTestability": 85,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 60.4,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415985,
+      "title": "Add standard milestone status",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415988,
+      "title": "Add standard contact - case roles",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415992,
+      "title": "add shorcmong statuses",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415994,
+      "title": "add condition statuses",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 415997,
+      "title": "Add document categories",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416101,
+      "title": "Register or update milestone",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416108,
+      "title": "Invoke subprocess as server action",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416208,
+      "title": "Translations - Fileviewer",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416287,
+      "title": "Open URL with arguments",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 54.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416534,
+      "title": "IFAR - Redaction - Enable flattening for PDF forms and emails - 5.18",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416667,
+      "title": "UI - Admin panel - Create Extended Search Dialog for Workflow Definition Dropdown in Process Property",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 25,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 34.6,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416922,
+      "title": "PE designer component - email dialogue",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 72.9,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 416932,
+      "title": "Create process task",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": null,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 55,
+        "acFormat": 0,
+        "acTestability": 35,
+        "riskClassification": 0,
+        "riskDescription": 0,
+        "storySize": 90,
+        "businessValue": 20,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 39.1,
+      "complianceStatus": "Non-Compliant",
+      "issues": [
+        "Set Microsoft.VSTS.Common.Risk to 1, 2, or 3 (field label: Risk on User Story).",
+        "Standard user story should use classic As a / I want / so that format.",
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then).",
+        "Acceptance criteria may be vague or insufficiently testable."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    },
+    {
+      "id": 417345,
+      "title": "Dispatch dialogue",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 60,
+        "acTestability": 85,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 86.6,
+      "complianceStatus": "Compliant",
+      "issues": [
+        "Acceptance criteria should use explicit Gherkin (Given / When / Then)."
+      ],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    }
+  ],
+  "aggregateSummary": {
+    "count": 71,
+    "avgFinalScore": 45.4,
+    "nonCompliantCount": 68,
+    "topSystemicIssues": [
+      "Unset or invalid Microsoft.VSTS.Common.Risk; populate Risk (1\u20133) and Risk description when risk is 1\u20132.",
+      "Many standard stories deviate from strict As a / I want / so that and Gherkin AC; see per-item issues."
+    ],
+    "quickWins": [
+      "Add Given/When/Then to Acceptance Criteria field for stories with bullets-only AC.",
+      "Shorten or split very large descriptions that look like multi-sprint specs."
+    ]
+  }
+}

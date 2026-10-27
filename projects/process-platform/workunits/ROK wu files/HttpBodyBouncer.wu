@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\WorkUnit.xsd"
+          visibility="external"
+          id="_HTTP_BODY_BOUNCER_"
+          displayName="Http Body Bouncer">
+  <description>Bounces back the posted body. Use to verify communication stack</description>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Bridge.HttpDispatcher.Execute">
+      <arguments>
+        <argument name="WebOperationContext" type ="object"/>
+      </arguments>
+    </xscript>
+  </executable>
+</workUnit>

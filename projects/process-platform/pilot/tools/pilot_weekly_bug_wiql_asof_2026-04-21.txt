@@ -1,0 +1,17 @@
+SELECT [System.Id]
+FROM WorkItems
+WHERE [System.AreaPath] UNDER '360\Core-Process-platform'
+  AND [System.WorkItemType] = 'Bug'
+  AND (
+        ( [System.State] = 'New'
+          AND [Microsoft.VSTS.Common.StateChangeDate] >= @Today - 14
+        )
+     OR ( [System.State] <> 'New'
+          AND [System.State] <> 'Closed'
+          AND [System.State] <> 'Resolved'
+          AND [System.ChangedDate] >= @Today - 14
+        )
+     OR ( [Microsoft.VSTS.Common.ResolvedDate] >= @Today - 14 )
+     OR ( [Microsoft.VSTS.Common.ClosedDate] >= @Today - 14 )
+      )
+ORDER BY [System.ChangedDate] DESC

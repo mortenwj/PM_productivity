@@ -1,0 +1,58 @@
+<workUnit id="51512F6A-32C8-4C8D-8DD1-087D74AB4753"
+          displayName="Get the configuration"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>...</description>
+  <executable assemblyType="SI.Biz.Core.Search.GetConfiguration, SI.Biz.Core.Search">
+      <invoke>
+      <arguments>
+        <argument name ="languageAnalyzerMapping" type="string">
+          {
+          "ar":"arabic",
+          "hy":"armenian",
+          "eu":"basque",
+          "pt-BR":"brazilian",
+          "bg":"bulgarian",
+          "ca":"catalan",
+          "cs":"czech",
+          "da":"danish",
+          "nl":"dutch",
+          "en":"english",
+          "fi":"finnish",
+          "fr":"french",
+          "gl":"galician",
+          "de":"german",
+          "el":"greek",
+          "hi":"hindi",
+          "hu":"hungarian",
+          "id":"indonesian",
+          "ga":"irish",
+          "it":"italian",
+          "lv":"latvian",
+          "lt":"lithuanian",
+          "nb":"norwegian",
+          "nn":"norwegian",
+          "no":"norwegian",
+          "fa":"persian",
+          "pt-PT":"portuguese",
+          "ro":"romanian",
+          "ru":"russian",
+          "ku":"sorani",
+          "es":"spanish",
+          "se":"swedish",
+          "sv":"swedish",
+          "tr":"turkish",
+          "th":"thai"
+          }
+        </argument>
+
+        <argument name ="maxConcurrentThreads" type="int">4</argument>
+        <argument name ="maxThreadRuntimeInSeconds" type="int">6000</argument>
+        <argument name ="DefaultSearchOperator" type="string" comment="And/Or">And</argument>
+
+        <!-- SECURE ZONE -->
+        <!-- TO WHOEEVER will implement the "secure zone" stuff for search: Do not use the workunit file for storing these credentials - use the database and propertyvalues. See the search properties in mssql_source\Data\psc_propertyschema.sql and Setup\Server\Subsetups\common\scripts\ms_update_core_settings.sql in core-db. -->
+      </arguments>
+    </invoke>
+  </executable>
+</workUnit>

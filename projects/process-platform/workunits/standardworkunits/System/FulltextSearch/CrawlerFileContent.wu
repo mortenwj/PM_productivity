@@ -1,0 +1,14 @@
+<workUnit id="4EC43915-4325-47A0-9FEA-FF50DF6944FF"
+          displayName="[LOCALIZED(ff059ce6-bbe3-40aa-aad7-f8af180a053d,*Search index filecontent crawler)]"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(ff81881a-d267-4fba-8542-8a8c10a5003f,*Crawls all 360 files (and content), and indexes it for search.)]</description>
+  <executable assemblyType="SI.Biz.Core.Search.Crawl.CrawlerJob, SI.Biz.Core.Search">
+    <invoke>
+      <arguments>
+        <argument name ="includeEntities" type="string">File;FileContent;FilePermission</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.3Minutes" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

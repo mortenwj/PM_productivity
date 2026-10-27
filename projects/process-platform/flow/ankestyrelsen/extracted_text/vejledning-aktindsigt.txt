@@ -1,0 +1,5920 @@
+--- Page 1 ---
+1  
+Vejledning - Aktindsigt 
+Senest ajourført: 4. juni 2026 
+ 
+Indholdsfortegnelse 
+Generelt om posthåndtering og indgange ......................................................................4  
+01-indbakken ........................................................................................................ 4 
+Andre indgange ..................................................................................................... 7 
+Hvilken lov og hvem skal behandle anmodningen/sagen? ...............................................9  
+Hvilken lov skal anmodningen behandles efter? ..........................................................9  
+Snitflader for partsaktindsigter – hvem skal behandle anmodningen/sagen? ................. 10 
+Anmodning om aktindsigt i administrative sager ....................................................... 14 
+Journalisering af anmodninger .................................................................................. 16 
+Frister ............................................................................................................... 16 
+Skal der ske forlængelse af fristen? ........................................................................ 16 
+Anmodning i en sag, der skal håndteres af fagkontoret ..............................................  16 
+Anmodning i en sag, der håndteres af Adm Akt ........................................................  17 
+Særligt vedrørende anmodninger modtaget på mail ............................................... 17 
+Særligt vedrørende anmodninger modtaget i et § 13-notat ...................................... 17 
+Særligt vedr. reserverede dokumenter .................................................................  17 
+Sager til robotbehandling ................................................................................... 17 
+Anmodningen dækker flere eller alle borgers sager ................................................... 19 
+Anmodningen inde-holder både aktind-sigt (behandles af Adm Akt) og bemærk-ninger 
+(håndteres af fagkontor) ...................................................................................... 19 
+Dobbeltsager med helt identiske akter ....................................................................  19 
+Genoptagelsessager............................................................................................. 20 
+Anmodning om partsaktindsigt og logfiler/logoplysninger ...........................................  21 
+Sagen er mødebooket / der er oprettet afgørelsesudkast ............................................ 21 
+Særligt for Klagenævnet for Specialundervisning ...................................................... 21 
+Særligt for det tidligere Psykolognævn ....................................................................  21 
+Indsigt efter databeskyttelsesreglerne – særlige sager ..............................................  22 
+Indsigt efter databeskyttelsesreglerne ....................................................................  22 
+Sager registreret som FOB-sager ............................................................................ 22 
+Tilsynsvurderingssager og fogedsager ....................................................................  23 
+Forlængelse af anmodninger .................................................................................... 24 
+Afslag og videresendelse ......................................................................................... 26 
+Indsigelser som følge af afgørelsen om aktindsigt (FVL) ................................................ 26 
+Fuldmagtsforhold – særligt for aktindsigt ....................................................................  27 
+--- Page 2 ---
+2  
+Oprettelse af sager .................................................................................................  29 
+Direkte aktindsigt – ikke parter (offentlighedsloven) .................................................. 29 
+Indsigt efter databeskyttelsesreglerne ....................................................................  31 
+Sagen er endnu ikke modtaget i Ankestyrelsen ......................................................... 33 
+Sager, der ikke findes i P360 eller E-arkivet ............................................................. 34 
+Videreførelsessag ................................................................................................ 35 
+Adoptionssager ................................................................................................... 38 
+Generelt for alle sager ....................................................................................... 38 
+Aktindsigt i national adoptionssag ....................................................................... 38 
+Aktindsigt i international adoptionssag .................................................................  39 
+Aktindsigt i international adoptionssag (DIA) ......................................................... 43 
+Familieretlige sager ..............................................................................................  47 
+Sager fra Beskæftigelsesankenævnet og Det Sociale Nævn ......................................... 49 
+Kontrol af WEB-sager ...........................................................................................  51 
+Klagesager ............................................................................................................ 53 
+Klagesag – parter (forvaltningsloven) (Outlook) ........................................................  53 
+Klage over førsteinstansens sagsbehandlingstid – forvaltningsloven .............................. 57 
+Klagesag – ikke parter (offentlighedsloven) – oversendt fra førsteinstansen – (Outlook) .. 59 
+Klage over førsteinstansens sagsbehandlingstid – offentlighedsloven ............................ 61 
+Direkte klage over aktindsigt efter offentlighedsloven – indsendt af borger .................... 64 
+Håndtering af anmodninger ...................................................................................... 66 
+Anmodningen om aktindsigt (FVL) – hvad omfatter den? ............................................ 66 
+Afgørelsen om aktindsigt (FVL) – robotbehandlet sag .................................................. 69 
+Afgørelsen om aktindsigt (FVL) – manuel behandlet sag ..............................................  72 
+Dokumentlisten – robotbehandlet sag ..................................................................... 77 
+Pakning af akter – robotbehandlet sag ....................................................................  79 
+Pakning af akter og dokumentliste – manuel behandlet sag ........................................  82 
+Send lyd- og videofiler via filkassen (digital post) ...................................................... 86 
+Forsendelse ........................................................................................................ 88 
+Afslutning af sagen (FVL) ...................................................................................... 91 
+Klagenævnet for Specialundervisning ...................................................................... 93 
+Arbejdsskadesager – fuld aktindsigt – verserende sager ............................................. 93 
+Arbejdsskadesager – afsluttede sager ...................................................................... 94 
+Arbejdsskadesager – kun anmodet om lægekonsulentudtalelse/navne/referat ........................ 98 
+e-arkivet .......................................................................................................... 102 
+Fraser – sagsbehandling .....................................................................................  104 
+Fraser – afgørelsesdokument ..............................................................................  107 
+Fraser – afvisning og svar på indsigelse ................................................................ 110 
+--- Page 3 ---
+3  
+Anonymisering af PDF-filer ..................................................................................  111 
+Reducering af en PDF-fil ...................................................................................... 114 
+Særligt om PDF-filer ...........................................................................................  116 
+Del aktpakken op efter filstørrelse ........................................................................  117 
+Bilag 1 - Oversigt over lægekonsulenter ................................................................ 120 
+Bilag 2 – Fjerne kommentarbokse ........................................................................  124 
+Bilag 3 – Ændre i sagstitel på dokumentlisten ........................................................  125 
+Bilag 4 - Vejledning til indhentelse af oplysninger hos Rigsarkivet (i arkivdatabasen Daisy)
+ ...................................................................................................................... 126 
+Bilag 5 - 1 a – Aktindsigt i adoptionssagen fra en tidligere formidlende organisation 
+(adopterede) ....................................................................................................  136 
+Bilag 6 - 1 b – Aktindsigt i adoptionssagen fra en tidligere formidlende organisation 
+(adoptanterne) .................................................................................................  140 
+Bilag 7 – Oversigt over relevante skabeloner ift. adoptions aktindsigter ..................... 143 
+Bilag 8 – Vejledning til afslutning af adoptionsaktindsigtssag .................................... 145 
+Bilag 9 - Oversigt over frister – aktindsigt ............................................................. 147 
+Bilag 10 – Beslutningsreferat – Ankemøde ............................................................. 148 
+Bilag 11 – Beslutningsreferat – Skriftlig votering .................................................... 149 
+ 
+ 
+  
+--- Page 4 ---
+4  
+Generelt om posthåndtering og indgange 
+ 
+01-indbakken 
+ 
+ 
+Ajourført  
+17-02-2026 / JAKR 
+Indledning 01-indbakken visteres af en af juristerne i Team Aktindsigt og 
+Jura. Som hovedregel må andre i teamet derfor ikke 
+trække post fra 01- indbakken. Juristen visiterer dagens 
+post ned i 01-indbakkens undermapper. 
+ 
+Det fremgår af den daglige vagtplan, hvem der har 
+ansvaret for at håndtere opgaverne i undermapperne i 01-
+indbakken den pågældende dag. 
+ 
+Efter endt håndtering fra undermappen flyttes mailen til 
+”11. Behandlet post”. 
+1. Direkte aktindsigt – 
+ikke parter 
+Anmodning efter OFL – opret en sag Direkte aktindsigt 
+– ikke parter (offentlighedsloven). 
+2. Indsigt efter 
+databeskyttelsesregler 
+Anmodning om indsigt, efter der er modtaget et 
+databeskyttelsesbrev. 
+ 
+Læs afsnit i vejledning: Hvilken lov skal anmodningen 
+behandles efter? 
+ 
+Opret en sag Indsigt efter databeskyttelsesreglerne. 
+3. Diverse post til 
+journalisering 
+Post, der er klar til at blive journaliseret direkte på sager, 
+der i forvejen er oprettet i P360. F.eks. høringssvar fra 
+KM eller indsigelse/bemærkninger fra borger. 
+ 
+Vær obs på, om det er post, der skal håndteres eller 
+svares på eller eventuelt efter journalisering flyttes til 
+andre mapper. 
+--- Page 5 ---
+5  
+4. Anm. aktindsigt til 
+AST sager +  
+5. Adoptionsaktindsigts-
+sager 
+ 
+OBS: Prioriter mails med 
+kategorien ”Indhent fuldmagt”. 
+Juristen har vurderet, at den 
+medsendte fuldmagt ikke er ok, 
+eller at der mangler en fuldmagt. 
+ 
+Er kategorien ”Spørg Jannie/Tina” på 
+skal Jannie/Tina spørges, inden du 
+gør noget. 
+En anmodning efter FVL skal journaliseres ind på 
+relevante sag/sager og evt. sendes til robotten @gathe, 
+læs afsnittene Anmodning om aktindsigt i 
+administrative sager, Journalisering af 
+anmodninger og Adoptionssager  
+ 
+Eventuelt fuldmagtsforhold skal afklares, læs 
+Fuldmagtsforhold – særligt for aktindsigt. Sæt 
+kategori ”Afventer fuldmagt” på. 
+Hvis sagen afventer at blive kontrolleret/kvitteret af 
+andet team, sættes kategorien ”Afventer kontrol ADM” 
+på. 
+OBS! Hvis der anmodes om logoplysninger/logfiler, skal 
+denne del af anmodningen behandles fra en særskilt sag 
+– Indsigt efter databeskyttelsesreglerne
+. 
+6. Uklar henvendelse, 
+borgerhenvendelse 
+m.m. 
+Henvendelser, hvor vi er i tvivl om omfanget af 
+anmodningen eller klagen, mangler oplysninger el.lign. - 
+gælder både vores egne sager i AST og klage over 
+afgørelse om aktindsigt i førsteinstans. 
+Vi kontakter afsender: ring, send præciserings- eller 
+ringebrev. 
+ 
+Henvendelser, der modtages til orientering, eller hvor vi 
+ikke er rette myndighed, eller hvor vi ikke har en sag og 
+derfor skal give afslag, placeres også i denne mappe. Opret 
+generel sag, typisk borgerhenvendelsessag, journaliser 
+henvendelsen og placér herefter mail med link til sagen i 
+anmodningsmappe 8. Afslag og videresendelse. 
+7. Klagesag fra 1. 
+instans (FVL og OFL) 
+Opret og kontroller sagen i P360, læs Klagesag – parter 
+(forvaltningsloven) (Outlook) hhv. Klagesag – ikke 
+parter (offentlighedsloven) – oversendt fra 
+førsteinstansen (Outlook). 
+--- Page 6 ---
+6  
+8. Klage fra borger (FVL) Borger klager direkte til AST over afgørelse fra 
+førsteinstans om aktindsigt efter forvaltningsloven. 
+Opret sag og send i høring ved førsteinstans, læs 
+Klagesag – parter (forvaltningsloven) (Outlook). 
+ 
+Klage over sagsbehandlingstid ifm. aktindsigt kan også 
+ligge i denne mappe, læs Klage over førsteinstansens 
+sagsbehandlingstid – forvaltningsloven. 
+9. Direkte klage fra borger 
+(OFL) 
+Borger klager direkte til AST over afgørelse fra 
+førsteinstans om aktindsigt efter offentlighedsloven. 
+Opret sag og send til genvurdering ved førsteinstans, læs 
+Direkte klage over aktindsigt efter 
+offentlighedsloven – indsendt af borger. 
+ 
+Klage over sagsbehandlingstid ifm. aktindsigt kan også 
+ligge i denne mappe, læs Klage over førsteinstansens 
+sagsbehandlingstid – offentlighedsloven. 
+10.Videregivelse af opl. 
+til andre myndigheder 
+Anmodning om akter fra en myndighed. 
+ 
+Læs afsnittet Hvilken lov skal anmodningen behandles 
+efter? 
+11. Behandlet post Her placeres mails, når de er journaliseret, håndteret osv. 
+Mails er i mappen i 30 dage, hvorefter de automatisk 
+slettes. 
+ 
+ 
+  
+--- Page 7 ---
+7  
+Andre indgange 
+ 
+Ajourført 17-02-2026 / JAKR 
+Indledning Betegnelsen ”andre indgange” omfatter: 
+• Journal_Aktindsigt postkassen 
+• ESDH-postkassen 
+• Afventer ekstern (P360 skrivebord) 
+• Nye Klagesager (robot færdigbehandlet) (P360 
+skrivebord) 
+• Post beriget link (P360 skrivebord) 
+Journal_Aktindsigt Postkassen er til intern brug. Dvs. til mails, der kommer fra 
+INFO, øvrige teams i Adm. eller sagsbehandlere i 
+fagkontorerne. Der vil typisk komme opgaver som: 
+• Anmodning om aktindsigt modtaget i INFO 
+• Omjournalisering af sager 
+• Flytning af post/anmodning 
+• Oprettelse af afgørelsesmodul (partsaktindsigt) 
+• Svar fra bagvagter til henvendelser, der ligger i 
+undermapperne i 01-indbakken 
+ 
+OBS! Nye anmodninger om aktindsigt, der er modtaget i 
+INFO/i fagkontoret, placeres i rette mappe, fx 4. Anm 
+aktindsigt til AST sager eller 1. Direkte aktindsigt – ikke 
+parter. 
+ESDH-postkassen Find ESDH-postkassen: 
+P360 - klik på ”Menu” – under fanen Ankestyrelsen vælges 
+”uregistrerede dokumenter” – ansvarlig enhed vælg 
+”Administration Akt”. 
+ 
+Visitering af post: 
+For at se posten trykkes på  
+Rediger teksten: Klik på de tre prikker og vælg ”rediger”. 
+Noter foran BM-nr. den ønskede tekst. Tryk udfør. 
+ 
+Journalisering af dokumentet: 
+Klik på titel eller de tre prikker og ”registrer”. Udfyld 
+herefter: sag, titel, afsender og dato for modtagelse. Tryk 
+udfør. 
+ 
+Er dokumentet visiteret forkert, ændres ansvarlig enhed 
+ved at klikke på ”rediger”, herefter vælges rette. 
+
+--- Page 8 ---
+8  
+Afventer ekstern 
+(P360 skrivebord) 
+Klik på AKT - AdmTeam skrivebordet i P360. 
+• Vælg: AdmTeam AKT – Afventer ekstern 
+• Vælg visningen: AdmTeam – Frist 
+• Filtrer i datoerne, ved at klikke på ”tidsfrist” 
+ 
+ 
+For at se arbejdsgangen, kig under: 
+• Fuldmagtsforhold – særligt for aktindsigt = 
+hvis vi har bedt om fuldmagt 
+• Klagesag – parter (forvaltningslov) = hvis vi 
+har bedt om høringssvar/rykket for høringssvar 
+Nye klagesager (robot 
+færdigbehandlet) 
+(P360 skrivebord) 
+Sager, der ligger i denne søgning, er nye klagesager, der er 
+modtaget fra en førsteinstans på ankeskema. 
+Læs: Kontrol af WEB-sager 
+Post beriget link 
+ 
+(P360 skrivebord) 
+Her ligger post indsendt via beriget link, typisk supplerende 
+oplysninger fra en førsteinstans. 
+ 
+Klik på posten og ret dokumentkortet til – obs fjern ”Web 
+supplerende oplysninger” under ”Oprindelse” på 
+dokumentkortet for at fjerne posten fra søgningen på 
+skrivebordet. 
+  
+--- Page 9 ---
+9  
+Hvilken lov og hvem skal behandle anmodningen/sagen? 
+ 
+Hvilken lov skal anmodningen behandles efter? 
+ 
+ 
+Ajourført 17-02-2026 / JAKR 
+Hvilken lov? Når vi får en anmodning om aktindsigt, skal du først finde 
+ud af, om anmodningen skal behandles efter 
+forvaltningsloven, offentlighedsloven eller 
+databeskyttelsesreglerne. 
+Man får altid aktindsigt efter den lov, der giver den bedste 
+ret (der, hvor man får flest oplysninger). 
+Hvilken myndighed? Den myndighed, der behandler sagen, skal tage stilling til 
+aktindsigt. 
+Modtager v i en anmodning om aktindsigt i en anden 
+myndigheds område, videresender vi anmodningen 
+snarest muligt (BREV-3). 
+OBS! Anmodninger til Arbejdstilsynet må vi gerne 
+videresende (aftalt med sekretariatet for AMK)  
+Forvaltningsloven 
+(FVL) 
+Hvis der er tale om en part i en sag, hvor der vil blive 
+truffet afgørelse. 
+Parter har som udgangspunkt ret til fuld aktindsigt i sagen 
+med undtagelse af visse interne dokumenter. 
+Offentlighedsloven 
+(OFL) 
+Alle kan få aktindsigt efter offentlighedsloven. 
+Hvis aktindsigten vedrører dokumenter i den 
+administrative sagsbehandling, behandles 
+anmodningen efter OFL. 
+Administrativ sagsbehandling er bredere end 
+afgørelsessager. Som tommelfingerregel er alt, hvad der 
+arbejdes med i Ankestyrelsen, undergivet administrativ 
+sagsbehandling. 
+Anmodningen kommer ofte fra interesseorganisationer, 
+studerende, privatpersoner og journalister. 
+Eksempler 
+Aktindsigt i praksis på e-konsulenten 
+Aktindsigt i andre borgeres sager 
+Aktindsigt i medarbejderes personalesager 
+--- Page 10 ---
+10  
+Databeskyttelsesreglerne Alle har ret til at få indsigt i oplysninger om sig selv, også 
+selv om man ikke er part i en sag. 
+ 
+Anmodning om logfiler/logoplysninger (o.lign. formulering) 
+fra ens egne sager skal behandles efter 
+databeskyttelsesreglerne. 
+Myndigheder er ikke 
+parter 
+En myndighed vil stort set aldrig være part i en sag og vil 
+derfor heller ikke være omfattet af reglerne om aktindsigt. 
+ 
+Der er særlige regler for videregivelse af oplysninger til 
+andre myndigheder. Her er udgangspunktet, at en 
+myndighed har ret til at få de oplysninger, som 
+myndigheden beder om. 
+Snitflader for partsaktindsigter – hvem skal behandle anmodningen/sagen? 
+ 
+ 
+Ajourført 24-03-2026 / JAKR 
+Hovedregel Aktindsigt efter FVL (partsaktindsigt) vil som 
+udgangspunkt blive håndteret af administrationen, 
+medmindre der er tale om en af nedenstående 
+undtagelser. 
+Undtagelse: Aktindsigt 
+håndteres af fagkontor 
+ 
+ 
+§ 15 b, nr. 5 
+ 
+ 
+ 
+FOB-sag 
+ 
+ 
+ 
+ 
+Sagen robotbehandlet 
+inden oversendelse til 
+fagkontor 
+På nedenstående områder journaliserer vi kun 
+anmodningen, herefter sendes link til den pågældende 
+bagvagtspostkasse. 
+ 
+Hvis der evt. skal undtages oplysninger efter FVL § 15b, nr. 
+5, skal aktindsigten håndteres af fagkontor. Angiv, hvor der 
+er fundet oplysninger om andre personer, der eventuelt 
+skal undtages (fagkontoret har ansvaret for at gennemgå 
+den resterende del af aktpakken for lignende oplysninger).  
+ 
+Hvis sagen er en FOB-sag (fremgår typisk af 
+afgørelsesmodulet på sagen), skal aktindsigten håndteres 
+af fagkontoret. 
+ 
+Angiv tydeligt, at vi ikke foretager os yderligere. 
+ 
+Hvis sagen sendes til fagkontor, efter at den er blevet 
+robotbehandlet af @gathe, sættes denne frase ind i mailen 
+til fagkontoret: 
+ 
+”Vi gør opmærksom på, at sagen er robotbehandlet. Det 
+betyder, at der er oprettet et udkast til afgørelse, 
+dokumentliste og aktpakke på sagen. Der er således tale 
+om et ufærdigt udkast til afgørelse, aktpakke og 
+dokumentliste, som skal færdiggøres manuelt. Udkastene 
+til afgørelse, dokumentliste og aktpakke er ikke klar til 
+afsendelse i den nuværende form.”  
+--- Page 11 ---
+11  
+Tilbud om indsats til 
+dagpengemodtager – § 
+205 
+ 
+ 
+Dagpengegodtgørelse 
+(G-dage) 
+Seniorjob 
+Ansættelsesbevisloven 
+Ferieloven 
+EØS-sager 
+VEU (Godtgørelse og 
+tilskud til befordring ved 
+VEU) 
+OBS: h ar  28 dages sagsbehandlingstid 
+Link til: Vagtpostkasse_BESK2 og CC sagsbehandler 
+ 
+ 
+Link til: 
+Vagtpostkasse_BESK2 
+Magtanvendelse, voksne, 
+tilbageholdelse i boligen 
+- § 127 
+Magtanvendelse, voksne 
+- § 129 og § 129 a (§§ 
+131, 131 a og 134) 
+56 dages sagsbehandlingstid 
+Link til: 
+Team-magt@ast.dk 
+ 
+med sagsbehandler CC 
+Personlig assistance i 
+erhverv - § 17, stk. 2 og 
+3 samt kap. 3 og 4 
+Fagkontoret skal vurdere, om arbejdsgiver må få 
+aktindsigt i hele sagen 
+Arbejdsgiver anmoder 
+om aktindsigt 
+- Refusion 
+(sygedagpenge) 
+- Barselsdagpenge 
+- Arbejdsskade 
+Sager, hvor arbejdsgiver har klaget over afgørelsen og 
+efterfølgende anmoder om aktindsigt 
+ 
+Link til det relevante fagkontor 
+• Arbejdsgiverrefusion – anmeldelse § 59 
+• Arbejdsgiver refusion – øvrige betingelser § 54-58 
+og § 60 
+• UDK Orlov og dagpenge ved barsel 
+• Arbejdsskadesager om anerkendelse af 
+ulykke/erhvervssygdom 
+ 
+OBS! Hvis interessent anmoder om aktindsigt i 
+arbejdsgiverrefusionssag, se i afsnittet ”Indsigt efter 
+databeskyttelsesreglerne – særlige sager” 
+Klagesag - aktindsigt Både ’Klagesag – parter (FVL)’ og ’Klagesag – ikke parter 
+(OFL)’ 
+ 
+Link til det relevante fagkontor (OBS på børneområdet 
+(AUS’s områder) behandles de af Social 4) 
+ 
+OBS! Anmodning om aktindsigt i en klagesag aktindsigt 
+--- Page 12 ---
+12  
+behandles af det fagkontor, der har behandlet klagesagen. 
+Børnesager 
+ 
+- Alle sagsemner, der 
+starter med ”Børn – KSB 
+- …” 
+- Alle sagsemner, der 
+starter med ”Børn – 
+Tvang - …” eller ”UKN 
+…” 
+- Børn – Underretning 
+ 
+- OBS! Partsaktindsigt i 
+international 
+adoptionssag behandles 
+dog af ADM 
+Link til (tjek journalplan): Journalplan og journalinstruks — 
+Ajour - Ankestyrelsen Intranet 
+VAGTPOSTKASSE – BØRN (AUS – også retssager på 
+børneområdet)  
+Vagtpostkasse_Adoption 
+Vagtpostkasse_SOC4 
+ 
+Vagtpostkasse_Underretning 
+Bidragsopkrævning Link til: 
+Vagtpostkasse_BESK4 
+Mellemkommunal 
+uenighed 
+Handlekommune – 
+opsamlingskommune 
+(tidligere opholdskommune) 
+ 
+ 
+Integrationslovens § 18, 
+stk. 2 
+Bemærk – her er kommunen part 
+Link til: 
+Vagtpostkasse_Mellemkommunal@ast.dk 
+ 
+ 
+ 
+OBS: Hvis afgørelsen er truffet efter integrationslovens § 
+18, stk. 2, står sagen til BESK 3, og de skal have link. 
+ 
+Vagtpostkasse_BESK3@ast.dk 
+ 
+ 
+OBS: Hvis det er borger, der anmoder, skal der 
+oprettes Indsigt efter databeskyttelsesreglerne 
+Socialtilsyn Link til:  
+ 
+Vagtpostkasse_Mellemkommunal@ast.dk 
+--- Page 13 ---
+13  
+Nævnssager Link til: 
+ 
+Ligebehandlingsnævnet: Vagtpostkasse_LBN 
+Det tidligere Psykolognævn: 
+Vagtpostkasse_Social4_KSB 
+SU-Ankenævnet: Vagtpostkasse_SU 
+Arbejdsmiljøklagenævnet: Vagtpostkasse_AMK 
+Adoptionsnævnet: Vagtpostkasse_Adoption 
+Tolkesager Link til: 
+ 
+Vagtpostkasse_SOC2 
+Retssager Gælder både AUS og arbejdsskade. Sagen hører til i det 
+fagkontor, der har sagen. 
+ 
+Særligt for retssager arbejdsskade – link til 
+Retssagsopgaver@ast.dk 
+ 
+Særligt for retssager på børneområdet – link til 
+Vagtpostkasse_BOERN 
+ 
+--- Page 14 ---
+14  
+Anmodning om aktindsigt i administrative sager 
+ 
+ 
+Ajourført 02-12-2025 /JAKR 
+Post til 
+direktør/direktion - 
+Der findes ikke en sag 
+Send mailen til Ledelsessekretariatet (lsekr@ast.dk). 
+Oplys at der er modtaget aktindsigt, men at der ikke 
+findes en sag. 
+Sæt kategori ”Sendt til Ledelsessekretariat” på 
+Flyt mailen til ”Behandlet post” 
+Vi får besked, hvis der skal oprettes en sag. 
+Post til 
+direktør/direktion - 
+Der findes en sag 
+Henvendelsen journaliseres ind på sagen. 
+Send link til Ledelsessekretariat (lsekr@ast.dk). 
+Skriv, at der er anmodet om aktindsigt i 
+sagen. 
+Sæt kategori ”Sendt til Ledelsessekretariat” på 
+ 
+Flyt mailen til ”Behandlet post”. 
+Post fra Folketingets 
+Ombudsmand 
+Registrer s agen som en FOB-sag: 
+ 
+Sagsemne: FOB, Ombud + udfylde dato for henvendelsen 
+fra FO 
+ 
+Sagsinfo: Ombudsmandssag 
+ 
+Opret Folketingets Ombudsmand på sagen. 
+Tilføj FO’s j.nr. i Att.feltet på kontakten 
+ 
+Send link til relevante distributionsliste: 
+ 
+FOB_BESK1 + CC sagsbehandler 
+FOB_BESK2 + CC sagsbehandler 
+FOB_BESK3 + CC sagsbehandler  
+FOB_BESK4 + CC sagsbehandler 
+FOB_SOC1 + CC sagsbehandler 
+FOB_SOC2 + CC sagsbehandler  
+FOB_SOC4 + CC sagsbehandler 
+FOB_AUS + CC sagsbehandler 
+FOB_BØF2 + CC sagsbehandler 
+FOB_Jura + CC sagsbehandler 
+FOB_ASK1 + CC sagsbehandler 
+--- Page 15 ---
+15  
+ FOB_ASK2 + CC sagsbehandler 
+FOB_ASK3 + CC sagsbehandler 
+FOB_ASK4 + CC sagsbehandler 
+FOB_LBN + CC sagsbehandler 
+FOB_KNS + CC sagsbehandler 
+FOB_SU + CC sagsbehandler 
+FOB_TIL + CC sagsbehandler 
+ 
+Flyt mailen til ”Behandlet post”. 
+Anmodninger fra 
+journalister 
+Sendes til presse@ast.dk 
+CC: Ledelsessekretariat (lsekr@ast.dk) 
+Vi får besked, hvis der skal oprettes en sag 
+Sæt kategori ”Sendt til presse” på mailen 
+Flyt mailen til ”Behandlet post”. 
+Aktindsigt i 
+statistikoplysninger 
+Sendes til statistik@ast.dk 
+ 
+Sæt kategori ”Sendt til Statistik” på 
+Flyt mailen til ”Behandlet post”. 
+Vi får besked, hvis der skal oprettes en sag 
+Aktindsigt i 
+personalesager 
+Sendes til HR@ast.dk  
+HR opretter selv sager 
+Sæt kategori ”Sendt til HR” på mailen 
+ 
+Flyt mailen til ”Behandlet post”. 
+ 
+  
+--- Page 16 ---
+16  
+Journalisering af anmodninger 
+ 
+ 
+Ajourført 04-06-2026 / JAKR 
+Generelt om 
+journalisering 
+Når du skal journalisere en anmodning om aktindsigt,  vil 
+der være sagsgange, der gælder for alle anmodninger, og 
+sagsgange, der kun er gældende i særlige situationer. 
+Det er derfor vigtigt, at du er opmærksom på, at der kan 
+være flere af nedenstående bokse, der har betydning for 
+den samme anmodning. Læs derfor det hele. 
+Frister Der gælder forskellige (korte) frister i forhold til 
+behandling af aktindsigtssager og klagesager efter 
+forvaltningsloven og offentlighedsloven samt 
+indsigtssager efter databeskyttelsesreglerne. 
+ 
+Se oversigt over beregning af frister i bilag 9. 
+Skal der ske forlængelse af 
+fristen? 
+Hvis du allerede ved journalisering af anmodningen kan 
+se, at vi ikke kan nå at behandle den inden for fristen på 7 
+dage, skal du tale med din teamkoordinator. 
+Årsagen kan være, at borger har bedt om aktindsigt i et 
+meget stort antal sager. 
+ 
+Det er vigtigt, at vi forlænger fristen, så snart vi kan se, at 
+det er nødvendigt. 
+Anmodning i en sag, der 
+skal håndteres af 
+fagkontoret - gælder alle 
+anmodninger 
+• Brug CPR-opslag for at kontrollere 
+forældremyndighed og evt. adressebeskyttelse, 
+hvis det er relevant for sagen. Der kan være sket 
+ændringer i forhold til den CPR-udskrift, der ligger 
+på sagen. 
+ 
+• Anmodningen journaliseres på sagen, så 
+sagsbehandler eller fagkontor kan se mailen på en 
+postliste 
+ 
+• Tilføj sagsemnet ”Partsaktindsigt” under 
+afgørelsesmodulet 
+ 
+• Skriv i mailen, at sagen skal håndteres af 
+fagkontoret, jf. snitfladeoversigten 
+ 
+• Skriv i resumefelt ”Link sendt til vagt vedr. 
+aktindsigt/dato+initialer” 
+ 
+• Mailen flyttes til ”Behandlet post” i 01-indbakken. 
+--- Page 17 ---
+17  
+Anmodning i en sag, der 
+håndteres af Adm Akt  - 
+gælder alle anmodninger 
+ 
+ 
+Særligt vedrørende 
+anmodninger modtaget på 
+mail 
+ 
+ 
+ 
+ 
+Særligt vedrørende 
+anmodninger modtaget i et § 
+13-notat 
+ 
+Særligt vedr. reserverede 
+dokumenter 
+ 
+Sager til robotbehandling 
+ 
+- OBS! Hvis fuldmagts-   
+forhold er uafklaret, se 
+nedenfor under afsnit 
+”Fuldmagtsforhold – 
+særligt for aktindsigt” 
+• Brug CPR-opslag for at kontrollere 
+forældremyndighed og evt. adressebeskyttelse, 
+hvis det er relevant for sagen. Der kan være sket 
+ændringer i forhold til den CPR-udskrift, der ligger 
+på sagen. 
+ 
+• Anmodningen er modtaget på mail: 
+ Journaliser anmodningen på sagen med 
+ansvarlig enhed ”Adm. Akt” 
+ Anmodningen skal navngives “Anm. 
+Aktindsigt” 
+ Vælg afsender fra kontaktlisten på sagen 
+(der må kun være én afsender) 
+ Hvis der er vedhæftet en fuldmagt, skal 
+den kontrolleres. Navngiv anmodningen 
+som ”Anm. Aktindsigt og fuldmagt” 
+ 
+• Anmodningen er modtaget i et § 13-notat: 
+ Navngiv notatet ”Anm. Aktindsigt” 
+ Vælg modtager (den, der anmoder om 
+aktindsigt) 
+ 
+• Tjek, at alle dokumenter på sagen er journalført, 
+hvis de skal med i aktpakken. Ikke journalførte 
+dokumenter medtager robotten ikke i aktpakken. 
+ 
+• Vælg status ”Robot under behandling AKT” på 
+dokumentniveau. Sagen sendes dermed til 
+robotbehandling 
+OBS! Udgangspunktet er, at alle sager sendes til 
+robotbehandling, medmindre der er tale om 
+anmodning om aktindsigt i 
+1) lægekonsulentudtalelse, eller 
+2) et enkelt dokument 
+ 
+• Skriv i emnefeltet på mailen, hvilken sag der 
+skal gives aktindsigt i 
+ 
+• Sæt kategori på følgende sagstyper: 
+o Genoptagelsessager 
+o Videreførelsessager 
+--- Page 18 ---
+18  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Afslag  
+ 
+ 
+ 
+Send kun én sag til robot ad 
+gangen 
+o Dobbeltsager 
+ 
+• Hvis der er ændret i titlen, så kontakt din 
+teamkoordinator. Titelfeltet skal rettes, inden 
+sagens sendes til robot hhv. du udskriver 
+dokumentlisten (ved manuelt behandlede 
+anmodninger) 
+ 
+• Sæt en frist på mailen. Fristen starter den første 
+hverdag efter modtagelsen og udløber 7 hverdage 
+efter. Klik på ”opfølgning” og vælg 
+”brugerdefineret”. Udfyld start og forfaldsdato. 
+Anmodningen markeres nu med et flag. 
+ 
+• Skriv i resumefelt: Dato / Aktindsigt håndteres af 
+Adm Akt (frist for aktindsigt) / initialer 
+ 
+• Tilføj sagsemnet ”Partsaktindsigt” under 
+afgørelsesmodul 
+ 
+• Flyt anmodningen til den relevante underpostkasse 
+under ”Anmodninger” og sæt kategorien ”Sendt til 
+robot” på, hvis sagen er sendt til robotbehandling. 
+Hvis sagen skal håndteres manuelt, påføres 
+anmodningen kategorien ”Behandles manuelt” 
+eller flyttes til en af undermapperne: 
+ 2. Lægekonsulentudtalelser 
+ 5. Enkelte dokumenter 
+ 
+OBS! Skal der gives afslag
+ på anmodningen om 
+aktindsigt, fx fordi vi ikke har de anmodede oplysninger, 
+skal mailen placeres i mappen ”8. Afslag og 
+videresendelse”. 
+ 
+• Robotten kan kun håndtere én sag ad gangen. 
+Hvis den samme sag sendes flere gange, er 
+robotten kodet til kun at behandle den nyeste 
+anmodning. Hvis flere parter anmoder om 
+aktindsigt på samme tid, skal den ældste 
+anmodning færdigbehandles først 
+(dokumentkortet med afgørelsen skal være 
+journalført). Herefter kan den nyeste anmodning 
+sendes til robot. 
+--- Page 19 ---
+19  
+Anmodningen dækker 
+flere eller alle borgers 
+sager  
+• Kontroller både P360 og e-arkivet 
+ 
+• OBS, hvis borger har mange sager, skal der eventuelt 
+tages kontakt til borger om evt. afgrænsning af 
+anmodningen, læs mere her. 
+ 
+• Anmodningen journaliseres på alle de sager, hvor 
+anmoder har rollen ”part”. De sager, der skal 
+håndteres af fagkontoret, prioriteres først. 
+ 
+• Hvis der er sager, hvor anmoder har rollen ”ikke- 
+part” – se afsnittet om ”direkte aktindsigt – ikke 
+part” 
+ 
+Alle eller flere sager skal behandles af Adm Akt: 
+• Kopier originalmailen, så der er én pr. sag. Skriv 
+i emnefeltet på mailen, hvilken sag der skal 
+gives aktindsigt i.  
+Anmodningen inde-
+holder både aktind-
+sigt (behandles af 
+Adm Akt) og bemærk-
+ninger (håndteres af 
+fagkontor) 
+• Anmodningen journaliseres, så 
+fagkontor/sagsbehandler kan se den på postliste 
+ 
+• Send link til vagten i det relevante fagkontor 
+om, at de skal besvare bemærkningerne 
+ 
+• Skriv i mailen, at aktindsigt håndteres af Adm 
+Akt 
+Dobbeltsager med 
+helt identiske akter 
+Anmodningen journaliseres ind på begge sager. 
+ 
+Begge sager skal behandles af Adm Akt: 
+ 
+• Skriv begge j.nr. i emnefeltet på anmodningen 
+ 
+• Sæt kategorien ”dobbeltsag” på anmodningen 
+ 
+• Send kun den ene sag til robotbehandling 
+ 
+• Flyt mailen til den relevante undermappe 
+--- Page 20 ---
+20  
+Genoptagelsessager Det står noteret i resumefeltet, hvis sagen er en 
+ulovbestemt genoptagelse. 
+Det kan også fremgå under ”supplerende oplysninger”, at 
+der står en dato ud for ”Genoptagelsesdato” 
+• Anmodningen journaliseres kun ind på 
+genoptagelsessagen  
+OBS! Følgende er vigtigt, hvis sagen skal sendes til 
+robotbehandling, for at robotten danner dokumentliste 
+og aktpakke for både genoptagelsessagen og den 
+tidligere sag: 
+• Sagsinfo i P360 skal være udfyldt med ”ulovbe-
+stemt genoptagelse” 
+• Der skal oprettes en note på sagen med 
+sagsnummeret på den tidligere sag i P360. 
+Notetypen skal være ”Robot AKT”.  
+Sagen skal behandles af Adm Akt: 
+• Sæt kategorien ”genoptagelsessag” på mailen 
+ 
+Flyt mailen til den relevante undermappe 
+Anmodningen 
+indeholder links 
+Mailen journaliseres ind på sagen. OBS DU MÅ IKKE 
+TRYKKE PÅ LINKET 
+Send BREV-9 til afsender om, at vi ikke henter materiale 
+via links. 
+BREV-9 kan anvendes, uanset om mailen er modtaget fra 
+borger eller fra myndighed. 
+Anmodning om 
+aktindsigt og 
+hastebehandling 
+Send link til journalpostkassen i det team, hvor sagen 
+hører til. 
+ 
+Hvis sagen ikke er kvitteret, skal du bede om at få sagen 
+kontrolleret. Gør samtidig opmærksom på, at der er bedt 
+om hastebehandling. 
+--- Page 21 ---
+21  
+Anmodning om 
+partsaktindsigt og 
+logfiler/logoplysninger 
+Hvis der også anmodes om indsigt i 
+logfiler/logoplysninger, eller lignende formulering, skal 
+denne del af anmodningen behandles efter 
+databeskyttelsesreglerne. Der oprettes én sag (Indsigt 
+efter databeskyttelsesreglerne) pr. fagkontor.  
+Denne del af anmodningen skal behandles af fagkontor. 
+I mailen til fagkontoret skriver vi: 
+”…. Vi gør desuden opmærksom på, at I efter aftale med 
+vores DPO skal inddrage hende i besvarelsen af 
+anmodningen.”  
+Sagen er mødebooket / der 
+er oprettet 
+afgørelsesudkast 
+Giv besked til bagvagt og sagsbehandler om, at der er 
+modtaget en aktindsigtsanmodning, og at der derfor ikke 
+kan træffes afgørelse, før aktindsigtsanmodningen er 
+behandlet og fristen for bemærkninger er udløbet. 
+ 
+Mødebooking i arbejdsskadesager fremgår under 
+”Udvalgshandling” 
+Særligt for Klagenævnet for 
+Specialundervisning 
+Her vil forældremyndighed altid have betydning. 
+Brug CPR-opslag for at kontrollere forældremyndighed og 
+eventuel adressebeskyttelse. Der kan være sket ændringer 
+i forhold til den CPR-udskrift, der ligger på sagen. 
+ 
+Journaliseres på samme måde som angivet i afsnittet 
+”Anmodning i en sag, der håndteres af Adm Akt”. 
+ 
+Hvis der er spørgsmål, rettes de til fagkontoret (Helene 
+Steen - hno@ast.dk) 
+Særligt for det tidligere 
+Psykolognævn 
+Hvis en psykolog anmoder om kopi af sin egen 
+autorisationsbevillig eller beder om aktindsigt, oprettes en 
+generel sag – borgerhenvendelse, hvorfra anmodningen 
+behandles på almindelig vis. 
+ 
+Hvis der i en klagesag over en psykolog kommer en 
+anmodning om aktindsigt fra en anden end psykologen, 
+oprettes anmodningen efter offentlighedsloven (direkte 
+aktindsigt). 
+ 
+Sagerne fordeles til Social 4, som tidligere havde 
+sekretariatsbetjeningen af Psykolognævnet. 
+--- Page 22 ---
+22  
+Indsigt efter 
+databeskyttelsesreglerne – 
+særlige sager 
+ – særligt for BESK 1 
+(arbejdsgiverrefusion) 
+ 
+- særligt for SOC 3 (UDK 
+orlov og dagpenge ved 
+barsel) 
+ 
+ 
+En anmodning fra en interessent behandles efter 
+offentlighedsloven, der giver en bedre ret. 
+Se Direkte aktindsigt – ikke parter (offentlighedsloven) 
+Sagsemnet bruges både, når arbejdsgiver og borger klager. 
+Borger har rollen ”borger”. 
+Indsigt efter 
+databeskyttelsesreglerne 
+Selv om borger har modtaget et databeskyttelsesbrev 
+(f.s.v.a. parter - orienteringen om 
+databeskyttelsesreglerne fremgår også af vores 
+kvitteringsbreve/bekræftelsesbreve), kan vi i visse tilfælde 
+behandle aktindsigten efter FVL. 
+Sendt et link til fagkontor og bed dem om at tage stilling 
+til, om aktindsigten skal behandles efter FVL eller efter 
+databeskyttelsesreglerne. 
+OBS på indsigt i 
+logfiler/logoplysninger, se ovenfor. 
+Aktindsigt efter FVL håndteres af Adm Akt, medmindre det 
+jf. snitfladerne er fagkontoret, der håndterer 
+partsaktindsigter på fagområdet. 
+Indsigt efter databeskyttelsesreglerne håndteres af 
+Fagkontoret. Her oprettes en sag ”Indsigt efter 
+databeskyttelsesreglerne”, hvorfra anmodningen 
+håndteres. 
+Sager registreret som FOB-
+sager 
+Sagen sendes til robotbehandling (@gathe) med henblik på 
+udarbejdelse af afgørelsesudkast, dokumentliste og aktpakke. 
+ 
+Sagen sendes til det relevante fagkontor, der overtager 
+sagen og sender afgørelsen. 
+--- Page 23 ---
+23  
+Tilsynsvurderingssag
+er og fogedsager  
+Anmodning om aktindsigt: 
+ 
+Sagerne i P360 vil være registeret: 
+Sagstype: Tilsynssag 
+Sagstitel: Tilsynsvurderingssag eller Fogedsag 
+ 
+Når vi modtager en anmodning om aktindsigt i 
+Tilsynsvurderings- og fogedsager betragtes de som 
+tilsynssager. Anmodningen skal behandles efter 
+offentlighedsloven. Det betyder, at det er fagkontoret 
+selv, der skal behandle aktindsigt i disse sager. 
+Vi opretter en ”Direkte aktindsigt – ikke parter”. 
+Journaliser anmodningen på sagen og frigiv sagen til det 
+fagkontor, der har behandlet Tilsynsvurderingssagen/ 
+Fogedsagen.  
+Vi laver sagsreference mellem sagerne. Sender link til 
+fagkontoret, hvor vi beder dem om at håndtere 
+anmodningen. 
+ 
+ 
+ 
+Anmodning om oprettelse af Tilsynsvurderings- og 
+Fogedsager: 
+ 
+Hvis en sagsbehandler beder om, at oprette en 
+Tilsynssag, henviser vi dem til at skrive direkte til Tilsyn 
+1. Vagtpostkasse_TIL1 (Vagtpostkasse_TIL1@ast.dk) 
+ 
+Hvis Tilsynet er enig i, at sagen skal oprettes, skriver 
+Tilsynet selv til Adm. team Nævn, der opretter sagen. 
+ 
+Hvis en sagsbehandler beder os om at oprette en Fogedsag 
+ud fra en konkret sag, opretter vi sagen: 
+• Sagstype: Tilsynssag 
+• Adgangsgruppe: følger den tidligere sag 
+• Titel: Fogedsag 
+• Ansvarlig enhed: Fagkontoret 
+• Ansvarlig person: Sagsbehandleren 
+• Niveau 1: Tilsyn i fagkontor 
+• Parter: Borger og Førsteinstans 
+• Ankemodtaget dato: dato for modtagelse 
+• Sagsreference: til den tidligere sag 
+• Dokumenter: Borgers henvendelse 
+• Afgørelsesmodul (Niveau2): Fogedsag 
+ 
+  
+--- Page 24 ---
+24  
+Forlængelse af anmodninger 
+ 
+ 
+Ajourført 24-01-2025 / JAKR 
+Forlængelsesfrist Aftalt altid med teamkoordinatoren, hvor mange dage vi 
+forlænger fristen med og begrundelsen 
+Find anmodningerne - Åben Outlook 
+- Klik på undermappe: 01 ADM_AKTINDSIGT 
+- Udvid ”Indbakken” ved at klikke på pilen 
+- Udvid ”Anmodninger” ved at klikke på pilen 
+Opmærksomhedspunker OBS: Kategorier der kan være på: 
+ 
+Dobbeltsager: Noter begge j.nr. i højre side af brevet. Når 
+det er sendt og journalført, kopieres det over på den 
+anden sag. 
+Videreførelsessager: N oter j.nr. fra eArkivet i 
+forlængelsesbrevet. 
+Tjekliste Inden afsendelse af forlængelsesbrevet tjekkes hver gang: 
+- Hvem anmoder om aktindsigt? 
+- Hvornår anmodningen har frist (7 hverdage)? 
+Send forlængelsesbrev Opret ”nyt dokument” 
+Dokumentkategori: Dokument ud 
+Modtager: den der anmoder 
+Skabelon: AKTI-5 
+- Udfyld ”Att.:” og ”deres sagsnummer”, når det er 
+en anden end borger der anmoder om aktindsigt 
+- Indsæt de dage fristen for aktindsigt er 
+forlænget med 
+- Indsæt den begrundelse, der er aftalt med 
+teamkoordinatoren, fx: Vi har i en periode 
+modtaget et ekstraordinært stort antal 
+anmodninger om aktindsigt. 
+Afsend forlængelsesbrevet. 
+--- Page 25 ---
+25  
+Registreringer i P360 Ændre teksten i resuméet til: 
+d.d.: Aktindsigt håndteres af adm. akt – frist forlænget til 
+den XXX /initialer 
+Registreringer i Outlook Klik på ”opfølgning” 
+Klik på ”Brugerdefineret” 
+Ændre forfaldsdatoen til den dato, anmodningen er 
+forlænget til 
+Klik OK 
+Sæt kategorien: ”Forlænget” på anmodningen 
+--- Page 26 ---
+26  
+Afslag og videresendelse 
+ 
+Ajourført 05-01-2026 / JAKR 
+Mappe 8. Afslag og 
+videresendelse under 
+”Anmodninger” i 01-
+postkassen.  
+ 
+ 
+Afslag  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Videresendelse 
+ 
+ 
+ 
+ 
+Henvendelser, hvor vi ikke har en sag på vedkommende. 
+Vi sender et afslag, læs 
+Sager, der ikke findes i 360 
+og E-arkivet og ”Sag er endnu ikke modtaget i 
+Ankestyrelsen”. 
+ 
+Det samme gælder anmodninger om oplysninger, der 
+ikke findes på borgers sag i endelig form. Her sendes 
+afslaget fra borgers sag. 
+ 
+Anmodning om aktindsigt sendt til os, hvor vi ikke er 
+rette myndighed, skal videresendes, læs 
+Hvilken lov 
+skal anmodningen behandles efter?  
+ 
+Efter endt håndtering flyttes henvendelsen til ”11. 
+Behandlet post”. 
+ 
+Indsigelser som følge af afgørelsen om aktindsigt (FVL) 
+ 
+ 
+Ajourført 17-11-2025 / JAKR 
+Indsigelser til afgørelse 
+om partsaktindsigt  
+Besvares som udgangspunkt af Tina eller Jannie eller 
+fagkontor. 
+Hvis indsigelsen vedrører selve aktindsigten, håndteres 
+den af Adm Akt, medmindre det er fagkontoret, der har 
+behandlet anmodningen. 
+Indsigelser til klagesager 
+parter/ikke-parter 
+Behandles af det fagkontor, der har truffet afgørelsen. 
+ 
+Send link til vagten og bed dem om at håndtere 
+indsigelsen. 
+  
+--- Page 27 ---
+27  
+Fuldmagtsforhold – særligt for aktindsigt 
+ 
+ 
+Ajourført 17-02-2026 / JAKR 
+Generelt om fuldmagt Den generelle praksis for fuldmagter gælder også for 
+aktindsigt. 
+Her henvises til fællesvejledningen om fuldmagter 
+ 
+Team ASK har en oversigt over fagforbund, deres 
+afdelinger m.m. med angivelse af CVR-numre. Den kan 
+bruges til at tjekke, om det er den juridiske enhed, der er 
+givet fuldmagt til, som retter henvendelse.  
+ 
+Link til oversigten (OBS åben altid i ”vis”-tilstand). 
+ 
+Vær obs på, at CVR.dk er det officielle sted at tjekke CVR-
+numre/juridiske enheder. 
+Fuldmagtsforhold er 
+under afklaring 
+Hvis vi modtager en anmodning om aktindsigt i en sag, 
+hvor fuldmagtsforholdet er under afklaring, flytter vi 
+anmodningen over i undermappe 4 eller 5 i 01-indbakken.  
+ 
+Vi opretter også frist på sagen og påfører kategorien 
+”Afventer fuldmagt/værgebeskikkelse” – se afsnittet 
+nedenfor. 
+Der er ingen fuldmagt, 
+eller fuldmagten er 
+utilstrækkelig 
+Hvis vi får en anmodning om aktindsigt fra en ikke-part, 
+der ikke har fuldmagt, eller fuldmagten er utilstrækkelig, 
+sender vi FULDM-10. 
+Vi sender brevet til: 
+Hovedmodtager: Borger 
+Kopimodtager: Vedkommende, der anmoder om 
+aktindsigt (ikke part) 
+Når brevet er afsendt, flytter vi anmodningen over i 
+undermappe 4 eller 5 i 01-indbakken. Vi opretter også 
+frist på sagen og påfører kategorien ”Afventer 
+fuldmagt/værgebeskikkelse” – se afsnittet nedenfor. 
+--- Page 28 ---
+28  
+Frist Ved afklaring af fuldmagtsforhold sætter vi en frist på 
+sagen på 8 dage. 
+Opret frist: 
+Titel: Afventer fuldmagt til aktindsigt 
+Forfaldsdato: 8 dage 
+Ansv.enhed: ADM AKT 
+Status: Planlagt 
+Adgangsgruppe: Public 
+Robotbehandling 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS! Husk at rette 
+anmoder og modtager af 
+afgørelsen, hvis 
+tilstrækkelig fuldmagt 
+modtages 
+ 
+Hvis sagen skal sendes til robotbehandling, og 
+fuldmagtsforhold er uafklaret, påføres borger/den mulige 
+fuldmagtsgiver som anmoder på anmodningen om 
+aktindsigt. Dette for at undgå muligt sikkerhedsbrud, 
+hvis afgørelsen ender med at skulle sendes til 
+borger/”fuldmagtsgiver”. 
+ 
+Modtages der tilstrækkelig fuldmagt til aktindsigt, rettes 
+anmoder og modtager af aktindsigten til fuldmagtshaver i 
+forbindelse med, at fuldmagten registreres på sagen/der 
+træffes afgørelse om aktindsigt.  
+Vi modtager en fuldmagt 
+til aktindsigt 
+Hvis vi modtager en begrænset fuldmagt til aktindsigt, 
+flytter vi mailen over i den relevante undermappe under 
+”Anmodninger”. 
+Vi modtager en fuldmagt 
+til partsrepræsentation 
+Hvis vi modtager en fuldmagt i en verserende sag, der 
+dækker mere end aktindsigt, skal der sendes et almindeligt 
+fuldmagtsbrev. 
+I en verserende sag beder vi rette team om at sende et 
+fuldmagtsbrev ud i sagen. 
+Ved afklaring af fuldmagtsforhold sætter vi en frist på 
+sagen på 8 arbejdsdage. Herefter sender vi aktindsigten. 
+--- Page 29 ---
+29  
+Oprettelse af sager 
+ 
+Direkte aktindsigt – ikke parter (offentlighedsloven) 
+ 
+ 
+Ajourført 16-07-2025 / JAKR 
+Alle har ret til at få 
+oplysninger 
+ 
+ 
+ 
+ 
+ 
+Tilsynssager 
+Offentlighedsloven giver ret til aktindsigt, når man ikke er 
+part i en sag, dvs. alle andre end parter. 
+Vær opmærksom på myndigheder, herunder Folketingets 
+Ombudsmand. Deres ret til oplysninger følger af andre 
+bestemmelser og er altså ikke aktindsigt, men 
+videregivelse af oplysninger. 
+OBS! Aktindsigt i tilsynssager håndteres af Team Nævn 
+Opret sag • Klik på ”Menu” i værktøjslinjen 
+• Under fanen ”Sag” vælg =Aktindsigtssag 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+Titel = Direkte aktindsigt – ikke parter 
+ 
+Ansvarlig enhed = Sagen fordeles til det kontor, som ville 
+have behandlet den materielle del af sagen. 
+ 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+ 
+Forløb = Aktindsigt 7 dage (9 kalenderdage) – ny (hvis 
+anmodningen er indkommet mandag-onsdag) eller 
+Aktindsigt 7 dage (11 kalenderdage) – ny (hvis 
+anmodningen er indkommet torsdag-fredag) 
+Eksterne kontakter Borger = Når vi opretter en CPR-kontakt  
+Sagspart = Når vi opretter en CVR-kontakt 
+Resumefelt Skriv i resumé: Link sendt til vagten/dato + initialer 
+Supplerende oplysninger Anke modtaget = den dag, anmodningen er modtaget 
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Direkte aktindsigt – ikke parter 
+ 
+Klik ”udfør” 
+ 
+Klik på ”Annullér forløbet” hvis sagen skal frigives til 
+fagkontoret. 
+--- Page 30 ---
+30  
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning aktindsigt 
+• Ansvarlig enhed = Fagkontoret 
+• Klik ”udført” 
+ 
+Anmodningen flyttes til ”Behandlet post”. 
+Bemærkninger Når sagen er oprettet, sendes link til den relevante 
+vagtpostkasse. 
+OBS! Socialtilsyn = 
+Vagtpostkasse_Mellemkommunal@ast.dk 
+ 
+  
+--- Page 31 ---
+31  
+Indsigt efter databeskyttelsesreglerne 
+ 
+Ajourført 02-03-2026 / JAKR 
+Alle har ret til indsigt i 
+oplysninger om sig selv 
+Selv om man ikke er part i en sag, har man ret til indsigt i 
+egne oplysninger, som myndigheden behandler, herunder 
+også logoplysninger/logfiler. 
+Anmodningen vil normalt komme som følge af et DATA- 
+brev, hvor man er blevet orienteret om, at ens 
+personoplysninger indgår i en sag. 
+Opret sag • Klik på ”Menu” i værktøjslinjen 
+• Under fanen ”Sag” vælg = ”Aktindsigtssag” 
+Generelt Adgangsgruppe = Følger den materielle sag 
+Titel = Indsigt efter databeskyttelsesreglerne 
+Ansvarlig enhed = Følger den materielle sag 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+ 
+Forløb = Aktindsigt 20 dage – ny  
+ 
+Særligt i Mellemkommunal refusion sagerne: 
+Ansvarlig enhed: Social 2 
+Adgangsgruppe: Social og Beskæftigelse  
+ 
+Link til vagtpostkasse: 
+Vagtpostkasse_mellemkommunal@ast.dk 
+Eksterne kontakter Borger = den, der anmoder 
+Resumefelt Link sendt til vagten vedr. fordeling af sag /dato + initialer 
+Supplerende oplysninger Anke modtaget = den dag, anmodningen er modtaget 
+ 
+Klik ”udfør” for at oprette sagen. 
+Sagsreference Lav sagsreference til den materielle sag: 
+Klik på ”Ny sagsreference” 
+Relation: Sagshenvisning 
+Sag: J.nr. til den materielle sag 
+Klik ”OK” 
+--- Page 32 ---
+32  
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Indsigt efter databeskyttelsesreglerne 
+ 
+Underinstans afg. dato = udfyldes ikke 
+Klik ”udfør” 
+Klik på ”Annullér forløbet” så sagen frigives til fagkontoret. 
+Registrering af 
+henvendelse 
+Anmodningen er i telefonnotat på den materielle sag 
+ 
+Er der lavet et telefonnotat på den materielle sag, flyttes 
+notatet over på ”indsigt efter databeskyttelsesreglerne”. 
+Anmodningen er modtaget på mail 
+ 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning om indsigt 
+• Ansvarlig enhed = Fagkontoret 
+• Klik ”udført” 
+Bemærkninger Når sagen er klar til sagsbehandling, sendes link til den 
+relevante vagtpostkasse. 
+OBS! Socialtilsyn = 
+Vagtpostkasse_Mellemkommunal@ast.dk 
+ 
+OBS ved anmodning om indsigt i logfiler/logoplysninger 
+skal der desuden stå følgende i mailen: 
+”Vi gør desuden opmærksom på, at I efter aftale med vores 
+DPO skal inddrage hende i besvarelsen af anmodningen.” 
+  
+--- Page 33 ---
+33  
+Sagen er endnu ikke modtaget i Ankestyrelsen 
+ 
+ 
+Ajourført 17-02-2026 /JAKR 
+ Man har ret til aktindsigt i sager og dokumenter, der 
+findes i vores system på tidspunktet for anmodningen. 
+Hvis sagen endnu ikke er modtaget, giver vi afslag og 
+henviser borger til at bede om aktindsigt igen, når vi 
+modtager sagen. 
+Det er vigtigt, at du først undersøger, om der er uoprettet 
+post i relevante postmapper. Det kan være, at sagen blot 
+afventer oprettelse. 
+Opret sag 
+• Klik på ”Menu” i værktøjslinjen 
+ 
+• Under fanen ”Sag” vælg = Generel sag 
+Generelt 
+Adgangsgruppe = Administrationen 
+ 
+Titel = Borgerhenvendelse  
+Ansvarlig enhed = Administration Akt 
+Status = Ny sag 
+1. Niveau = Henvendelse 
+2. Niveau = Borgerhenvendelse 
+ 
+Forløb = Ingen forløb 
+Eksterne kontakter Klager = Borger 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning om aktindsigt 
+• Ansvarlig enhed = ADM.AKT hvis anmodningen 
+besvares af administrationen 
+• Klik ”udført” 
+Skabelon AKTI-18 omskrives 
+Afslutning af sagen Påfør fristen ”Kontrol A”. 
+ 
+Sagen sættes til ”Afsluttet”. 
+--- Page 34 ---
+34  
+Sager, der ikke findes i P360 eller E-arkivet 
+ 
+ 
+Ajourført 27-02-2026 / JAKR 
+Findes sagen på 
+Rigsarkivet? 
+Start med at undersøge, om sagen kan indhentes på 
+Rigsarkivet. Se bilag 4 for fremgangsmåde. 
+ 
+Følgende har adgang til at bestille sagsakter hos 
+Rigsarkivet: Caisa, Mie, Lillian, Karin, Sara, Tina og Jannie. 
+ 
+Det er kun Adm. AKT, der har adgang til at bestille 
+sagsakter hos Rigsarkivet. Vi beder altid om indscannede 
+akter, ALDRIG original akter. 
+ 
+For at kunne bestille sagsakter skal der angives et 
+pakkenummer, som kan findes her:  
+25-126942-1 Pakkefortegnelse fra Rigsarkivet  
+https://public360.ast.dk/locator.aspx?name=Common.Deta
+ils.Navigate&module=Document&subtype=2&recno=13002
+586  
+ 
+Hvis der er tale om en familieretlig sag (adoptionssag), 
+høres Lene Gramgaard om journalnummer på sagen, 
+forinden bestilling hos Rigsarkivet. 
+ 
+Hvis sagen skal indhentes fra Rigsarkivet, orienterer vi 
+anmoder om, at vi ikke kan færdigbehandle aktindsigten 
+inden for de 7 arbejdsdage. 
+AKTI-5 fristforlængelsesbrev 
+Ingen sag i E-arkivet 
+Ikke bevaret på 
+Rigsarkivet 
+Opret en generel sag 
+Send AKTI-18 (afslag) med den begrundelse, at sagen er 
+kasseret 
+Delvist i E-arkivet 
+Ikke bevaret på 
+Rigsarkivet 
+Opret en videreførelsessag – se Videreførelsessag 
+--- Page 35 ---
+35  
+Kassationsbestemmelsens 
+ordlyd 
+Statens Arkivers bevarings- og kassationsbestemmelse for 
+arkivalier, som er skabt eller tilvejebragt af Ankestyrelsen: 
+ 
+Arkivalier som skal bevares: 
+• Ankenævnet for Invalideforsikringsrettens sager 1957-73 
+generelt 
+• Ulykkesforsikringsrådets sager 1960-73 generelt 
+• Ankestyrelsens sager mærket VB, SM, OFF og 
+Bevaringsværdig 
+• Ankestyrelsens retssager 
+• Ankestyrelsens sager på fødselsdatoen 01 
+• Journalkort og (hjælpe) registre til de ovenfor nævnte 
+sager 
+• Ankestyrelsens journalhovedgruppe 0, Administration, 
+undergruppe 025 Klager/trusler 
+• Ankestyrelsens journalhovedgruppe 6 Øvrige love, dvs. 
+offentlighedsloven, folkeskoleloven, lov om almene 
+boliger, om offentlig sygesikring, om sygehuse og 
+integrationsloven. 
+ 
+Kassation af arkivalier, som ikke skal bevares 
+Arkivalier, som ikke skal bevares i henhold til afsnit 2, 
+kan kasseres, når de ikke længere har retlig eller 
+administrativ betydning. Tidspunktet for kassation 
+fastsættes efter Ankestyrelses egen vurdering, bortset 
+fra de tilfælde, hvor der i medfør af anden lovgivning er 
+fastsat opbevaringspligt i et bestemt åremål. 
+Videreførelsessag 
+ 
+Ajourført 24-04-2024 / STBL 
+Begrebsafklaring Videreførelsessag: En videreførelsessag oprettes på 
+baggrund af en henvendelse på en sag fra en tidligere 
+journalperiode. Dvs. en henvendelse på en sag, som ikke 
+er overført til P360, og dermed kun findes i eArkivet.  
+Opret sag Klik på ”Menu” i værktøjslinjen 
+ 
+Under fanen ”Sag” vælges den sagstype fra tidligere sag 
+(AKT, ASK, BESK, FAMILIE, GENEREL, NÆVN, RET, SOC) 
+--- Page 36 ---
+36  
+Generelt Adgangsgruppe = følger sagens materielle emne 
+ 
+Titel = Videreførelse af tidligere sag med j.nr. XXXX 
+ 
+Ansvarlig enhed = Adm. Akt (hvis vi håndterer 
+anmodningen) eller fagkontoret som behandler den 
+materielle del af sagen. 
+ 
+Status = Under behandling 
+1. Niveau = udfyld lovområde 
+Eksterne kontakter Borger = den, der anmoder 
+Førsteinstans 
+Resumé Skriv ”Aktindsigt i tidligere sag med j.nr.: XX” 
+Skriv i resumé: Aktindsigt håndteres af adm. akt eller link 
+sendt til vagten/initialer 
+Supplerende oplysninger Anke modtaget = den dag, anmodningen er modtaget 
+Kun i ASK-sager = skadedato 
+Klik ”udfør” for at oprette sagen 
+Stikord 01 VIDEREFØRELSESSAG 
+Note Opret ny note – angiv det tidligere j.nr. fra eArkivet. 
+Vælg: Intern 
+Afgørelsesmodul Klik på ”Ny” 
+ 
+Sagsemne = partsaktindsigt  
+ 
+Klik ”udfør” 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+Træk mail over i ”Oprette dokumenter og aftaler” 
+Udfyld ”sag” = j.nr. 
+Titel = Anm. Aktindsigt 
+ 
+Ansvarlig enhed = Fagkontoret eller ADM.AKT hvis 
+anmodningen besvares af administrationen 
+Klik ”udført” 
+--- Page 37 ---
+37  
+Bemærkninger Hvis anmodningen skal håndteres af Administrationen: 
+ 
+Skriv det nye j.nr. ind i mailens emnefelt. Marker som 
+ulæst og flyt anmodningen ned i den relevante postkasse 
+under ”Anmodninger”. Sæt kategorien ”Videreførelsessag” 
+på. 
+Hvis anmodningen håndteres af fagkontoret: 
+ 
+Send en mail til vagten, med link til videreførelsessagen. 
+--- Page 38 ---
+38  
+Adoptionssager 
+ 
+Generelt for alle sager 
+ 
+Ajourført 01-05-2025 / JAKR 
+Kun egen eller forældres 
+adoptionssag 
+Anmodning om genpart af adoptionsbevilling betragtes 
+ikke som en aktindsigtssag men en sag under 
+adoptionsloven og journaliseres af Team Nævn. 
+Mailen flyttes til 05 – Nævn. Sæt kategori ”ikke aktindsigt” 
+på mailen. 
+ 
+Nedenstående vejledning gælder reelle 
+aktindsigtsanmodninger, dvs. aktindsigt i egen eller 
+forældres adoptionssag. 
+ 
+OBS! Ved tvivl, om det er en national eller international 
+adoptionssag, foretages tjek i CPR. 
+ 
+OBS! Hvis der anmodes om andet end aktindsigt, fx hjælp 
+til at finde biologisk slægt, skal henvendelsen også til Team 
+Nævn. 
+ 
+Aktindsigt i national adoptionssag 
+ 
+Ajourført 24-01-2025 / JAKR 
+Opret sag • Klik på ”Ny” i værktøjslinjen 
+ 
+• Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt  Adgangsgruppe = Børn 
+Titel = Aktindsigt i adoptionssager 
+Ansvarlig enhed = Adoption 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+Forløb = Aktindsigt 7 dage (9 kalenderdage) – ny (hvis 
+anmodningen er indkommet mandag-onsdag) eller 
+Aktindsigt 7 dage (11 kalenderdage) – ny (hvis 
+anmodningen er indkommet torsdag-fredag) 
+Eksterne kontakter Borger = den der anmoder 
+Resumefelt Link sendt til vagten i Adoption /initialer 
+Supplerende oplysninger Anke modtaget = den dag anmodningen er modtaget 
+ 
+Planlagt afsluttet = Udfyldes ikke 
+Klik ”udfør” for at oprette sagen 
+--- Page 39 ---
+39  
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Aktindsigt i adoptionssager 
+Underinstans afg. dato = udfyldes ikke 
+Klik ”udfør” 
+Klik på ”Annullér forløbet” så sagen frigives til fagkontoret. 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+• Skriv j.nr. i rubrikken og søg sagen frem eller 
+dobbeltklik på huset: 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning aktindsigt 
+• Ansvarlig enhed = Adoption 
+• Klik ”udført” 
+Bemærkninger Sagen er en hastesag. 
+ 
+Når sagen er oprettet sendes link til sagen til bagvagt. 
+Emnefeltet i mailen udfyldes med: HASTESAG – 
+anmodning om aktindsigt i adoptionssag. 
+ 
+Aktindsigt i international adoptionssag 
+ 
+Ajourført 05-01-2026 / JAKR 
+Opret sag • Klik på ”Ny” i værktøjslinjen 
+ 
+• Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt  
+OBS! Anvendes også til 
+anmodninger om 
+aktindsigt i sager fra DIA 
+(Danish International 
+Adoption)  – se nedenfor i 
+forhold til overtagne sager 
+fra DIA 
+Adgangsgruppe = Børn 
+Titel = Indsigt i egen international adoptionssag  
+ 
+Ansvarlig enhed = Administration AKT 
+ 
+Status = Ny sag 
+ 
+1. Niveau = Aktindsigt 
+ 
+Forløb = Aktindsigt 20 dage – ny  
+OBS! Hvis aktindsigt i sag fra DIA påføres forløb først 
+ved modtagelse af sagens akter fra Rigsarkivet. Her 
+vælges: Forløb = Aktindsigt 90 dage 
+Eksterne kontakter Borger = den, der anmoder 
+ 
+--- Page 40 ---
+40  
+Hvis den adopterede anmoder, sættes adoptanterne på 
+som ”forælder”. 
+ 
+Hvis adoptanten/adoptanterne anmoder, sættes den 
+adopterede på som ”barn”. 
+Resumefelt Sagsakter bestilt hos Rigsarkivet [dato]. Anm. om 
+aktindsigt behandles af ADM AKT. /{initialer} 
+Supplerende oplysninger Anke modtaget = den dag, anmodningen er modtaget 
+(DIA-sager = den dag, vi modtager sagsakterne fra 
+Rigsarkivet) 
+ 
+Planlagt afsluttet = Udfyldes ikke  
+ 
+Klik ”udfør” for at oprette sagen 
+Sagsemne - 
+afgørelsesmodul 
+Sagsemne = Indsigt i egen international adoptionssag 
+Underinstans afg. dato = udfyldes ikke  
+Stikord Hvis adoptionssagen ikke er en DIA-sag, påføres stikordet 
+”Ikke DIA”.  
+Det gælder, uanset om adoptionen er formidlet igennem en 
+adoptionsformidlende organisation, Terre des Hommes, 
+eller er en privat adoption. 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+• Skriv j.nr. i rubrikken og søg sagen frem eller 
+• dobbeltklik på huset: 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning aktindsigt 
+• Ansvarlig enhed = Administration AKT 
+• Klik ”udført” 
+Kvitteringsbrev Send kvitteringsbrevet: 
+- ”DIA-2, Kvitteringsbrev – DIA, Til nye aktindsigter” 
+(DIA-sager) 
+ELLER 
+- ”AKTI-27, Kvitteringsbrev – aktindsigt i 
+adoptionssag – FVL” (øvrige sager, fx TDH) 
+Bemærkninger – obs 
+på evt. øvrige sager 
+Hvis der anmodes om andet end aktindsigt, fx oplysninger 
+om biologisk slægt, skal henvendelsen også sendes til 
+Team Nævn ad oprettelse af øvrige adoptionssager 
+Bestilling af 
+sagsakter fra 
+Rigsarkivet 
+ 
+ 
+ 
+ 
+ 
+Sagsakterne bestilles fra Rigsarkivet.  
+Se bilag 4 for fremgangsmåde, hvis der IKKE er tale om en 
+DIA-sag.  
+Hvis der er tale om en DIA-sag, bestilles sagsakterne via 
+dette link: Post Adoption Service - Ankestyrelsen 
+ 
+Følgende har adgang til at bestille sagsakter hos 
+Rigsarkivet, hvor der ikke er tale om en DIA-sag (dvs. via 
+--- Page 41 ---
+41  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modtagelse af 
+sagsakter fra 
+Rigsarkivet 
+ 
+- DIA-sager 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS! Workaround for 
+særlig word-filtype 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Daisy): Keisie, Mie, Lillian, Karin, Sara, Tina og Jannie.  
+Er der tale om en DIA-sag, hvor sagsakterne skal bestilles 
+via det særlige link ovenfor, har alle adgang til at bestille 
+sagsakter. 
+ 
+Er der tvivl om, om der er tale om en DIA-sag eller en 
+adoption formidlet gennem en anden organisation eller en 
+privat adoption, bestilles sagsakterne via linket til bestilling 
+af sagsakter i en DIA-sag. Dette er aftalt med Rigsarkivet. 
+ 
+DIA-sag: 
+Rigsarkivet sender sagsakterne via Filkassen.  
+Vi modtager en mail herom med koden til at tilgå de 
+enkelte filer.  
+ 
+Mailen med link til filkassen og mailen med koden til 
+filkassen er gemt i 01-postkassen i undermappe 3 ”Diverse 
+post til journalisering”. Begge mails er sendt af Casper 
+Foged. 
+ 
+I filkassen vil der som udgangspunkt være en pdf-fil 
+indeholdende indscanning af de fysiske sagsakter samt en 
+zip-fil indeholdende udtræk af de elektroniske registreringer 
+vedrørende sagen.  
+OBS! Husk at pakke zip-filen ud inden journalisering. 
+ 
+Alle sagsakterne journaliseres efter udpakning ind på ét 
+dokumentkort på sagen med titlen ”Akter fra Rigsarkivet”. 
+ 
+Anmodningen om aktindsigt journaliseres ind på et særskilt 
+dokumentkort med titlen ”Anm. Aktindsigt” med 
+journalstatus ”Robot UB AKT – Robot Under Behandling 
+AKT”.  
+Vær obs på, om anmodningen om aktindsigt indeholder 
+øvrige anmodninger, der skal behandles af Adoption (se 
+ovenfor om evt. øvrige sager). 
+  
+Hvis der i akterne fra Rigsarkivet er en akt med titlen 
+’Journalark-xxxxx’, skal filen konverteres til en txt-fil på 
+dokumentkortet, inden sagen sendes til robotbehandling. 
+Ellers vil @gathe fejle.  
+ 
+Gør følgende: 
+1: Hent en kopi af dokumentet ’Journalark-xxxxx’ ud på 
+pakkebord 
+2: Omdøb filnavnet, så det slutter på .txt i stedet for .doc 
+3: Upload en ny version af dokumentet i P360, som 
+--- Page 42 ---
+42  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Husk forløb (DIA-
+sager) 
+ 
+ 
+- Øvrige (ikke DIA) 
+sager 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Husk mail til 
+anmodnings-
+undermappen  
+erstatter word-filen på dokumentkortet 
+ 
+På den måde omdannes filen til en tekstfil, som @gathe 
+kan håndtere, uden at sagen vil fejle. 
+ 
+Hvis dokumentkortet med akterne fra Rigsarkivet er blevet 
+journalført på sagen med den ”ikke-gangbare” word-
+filtype, 
+kan følgende fremgangsmåde anvendes: 
+1) På dokumentkortet > gå op i dokumentfunktioner > 
+Rediger egenskaber > notere de datoer der er angivet 
+på dokumentkortet > skifte dokumentkategori til internt 
+notat uden opfølgning > skifte status til reserveret > 
+Klik på Udfør  
+2) Upload den nye txt.version af dokumentet > gå op i 
+dokumentfunktioner > Rediger egenskaber > skift 
+dokumentkategori til ’Indkommende’ > sæt datoerne på 
+igen > skift status til udgået > Klik på Udfør  
+3) Klik på dokumentfunktioner > Rediger egenskaber > 
+Skift status fra udgået til journalført > Klik på Udfør. 
+ 
+Husk forløb ”Aktindsigt 90 dage” – tjek, at 
+ankemodtagelsesdato = datoen for modtagelse af 
+sagsakterne. 
+ 
+Øvrige sager (bestilt via Daisy): 
+Rigsarkivet sender som udgangspunkt en mail med 
+sagsakterne samlet i en pdf-pakke. 
+ 
+Sagsakterne journaliseres ind på ét dokumentkort på sagen 
+med titlen ”Akter fra Rigsarkivet”. 
+ 
+Sagen sendes til robotbehandling – sæt journalstatus på 
+dokumentkortet med anmodningen om aktindsigt til ”Robot 
+UB AKT – Robot Under Behandling AKT”. Titlen på 
+dokumentkortet skal være ”Anm. Aktindsigt”, og der skal 
+være afsender på (skal vælges fra kontakter på sagen).  
+ 
+Der laves en mail til 01-postkassen, som placeres i enten 
+undermappe 6. Adoption – 3 mdr.’s sager (DIA) eller 
+undermappe 7. Adoption – 3 ugers sager (fx TDH) under 
+mappen Anmodninger.  
+ 
+I mailen indsættes der link til sagen. Det noteres, hvis der 
+er sendt høringsbrev og med datoen herfor. I emnefeltet på 
+mailen skrives j.nr. på sagen og egne initialer, fx 25-2020 
+– JAKR.  
+ 
+--- Page 43 ---
+43  
+Påfør mailen kategorien ”sendt til robot” og frist for sagens 
+behandling. 
+Høringsbrev Hvis det er den adopterede, der har anmodet om 
+aktindsigt, sendes høringsbrev til adoptivforældrene (AKTI-
+26), når vi har modtaget sagsakterne. Det gælder, uanset 
+hvem den formidlende organisation er. Der sendes kopi af 
+brevet til den adopterede.  
+ 
+Hvis adoptanterne er døde, eller der af anden grund, fx 
+fordi aktindsigtsanmodningen ikke omfatter oplysninger om 
+adoptanterne, ikke skal sendes høringsbrev, noteres dette i 
+resuméfeltet på sagen. 
+Afbestilling af 
+sagsakter fra 
+Rigsarkivet 
+Hvis vi har bestilt sagsakter hos Rigsarkivet, hvor borger 
+efterfølgende trækker sin anmodning om aktindsigt tilbage, 
+skal vi afbestille sagsakterne. 
+ 
+Det gøres ved at sende en mail til Rigsarkivets interne 
+postkasse – salg@rigsarkivet.dk - hvor vi orienterer om, at 
+borgeren ikke længere ønsker dennes aktindsigtssag 
+behandlet. Husk at anføre navnet på borger.  
+ 
+Rigsarkivet sørger herefter for at afslutte bestillingen 
+internt hos dem.  
+ 
+ 
+Aktindsigt i international adoptionssag (DIA) 
+ 
+OPRETTES IKKE LÆNGERE SAGER PÅ SAGSEMNET 
+ 
+Ajourført 05-01-2026 / JAKR 
+Opret sag • Klik på ”Ny” i værktøjslinjen 
+ 
+• Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt  
+OBS! Sagsemnet må kun 
+anvendes til de sager, der 
+er overtaget fra DIA 
+(Danish International 
+Adoption). Dvs. 
+aktindsigtssager, der var 
+verserende hos DIA, da 
+de lukkede ned den 1. 
+november 2024. 
+Adgangsgruppe = Børn 
+Titel = Indsigt i egen international adoptionssag (DIA) 
+Ansvarlig enhed = Administration AKT  
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+Forløb = Aktindsigt 90 dage (påføres først, når 
+sagsakterne modtages fra Rigsarkivet) 
+ 
+Eksterne kontakter Borger = den, der anmoder 
+ 
+Den adopterede oprettes som “Barn” på sagen (uanset 
+alder), hvis det er adoptivforældrene, der anmoder om 
+aktindsigt 
+--- Page 44 ---
+44  
+ 
+Adoptanterne oprettes som ”forælder” på sagen, hvis den 
+adopterede har anmodet om aktindsigt 
+Resumefelt Sagsakter bestilt hos Rigarkivet [dato]. Anm. om aktindsigt 
+behandles af ADM AKT. /{initialer} 
+Supplerende oplysninger Anke modtaget = den dag anmodningen er modtaget 
+ 
+Planlagt afsluttet = Udfyldes ikke 
+Klik ”udfør” for at oprette sagen 
+Sagsemne i 
+afgørelsesmodulet 
+Sagsemne = Indsigt i egen international 
+adoptionssag (DIA) 
+Underinstans afg. dato = udfyldes ikke  
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+• Skriv j.nr. i rubrikken og søg sagen frem eller 
+dobbeltklik på huset: 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning aktindsigt 
+• Ansvarlig enhed = Administration AKT 
+• Klik ”udført” 
+Kvitteringsbrev Send kvitteringsbrevet ”Kvitteringsbrev – aktindsigt i 
+overtagen sag fra DIA” 
+Bemærkninger – obs 
+på evt. øvrige sager 
+Hvis der anmodes om andet end aktindsigt, fx oplysninger 
+om biologisk slægt, skal henvendelsen også sendes til 
+Team Nævn ad oprettelse af øvrige adoptionssager 
+Bestilling af 
+sagsakter fra 
+Rigsarkivet 
+ 
+ 
+ 
+ 
+ 
+Modtagelse af 
+sagsakter fra 
+Rigsarkivet 
+ 
+ 
+ 
+ 
+ 
+Sagsakterne bestilles fra Rigsarkivet via dette link: Post 
+Adoption Service - Ankestyrelsen 
+ 
+Er der tvivl om, om der er tale om en DIA-sag eller en 
+adoption formidlet gennem en anden organisation eller en 
+privat adoption, bestilles sagsakterne via linket til bestilling 
+af sagsakter i en DIA-sag. Dette er aftalt med Rigsarkivet. 
+ 
+Rigsarkivet sender sagsakterne via Filkassen.  
+Vi modtager en mail herom med koden til at tilgå de 
+enkelte filer.  
+ 
+Mailen med link til filkassen og mailen med koden til 
+filkassen er gemt i 01-postkassen i undermappe 3 ”Diverse 
+post til journalisering”. Begge mails er sendt af Casper 
+Foged. 
+--- Page 45 ---
+45  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS! Workaround for 
+særlig word-filtype 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Husk forløb (DIA-
+sager) 
+ 
+ 
+I filkassen vil der som udgangspunkt være en pdf-fil 
+indeholdende indscanning af de fysiske sagsakter samt en 
+zip-fil indeholdende udtræk af de elektroniske registreringer 
+vedrørende sagen.  
+OBS! Husk at pakke zip-filen ud inden journalisering. 
+ 
+Alle sagsakterne journaliseres efter udpakning ind på ét 
+dokumentkort på sagen med titlen ”Akter fra Rigsarkivet”. 
+ 
+Anmodningen om aktindsigt journaliseres ind på et særskilt 
+dokumentkort med titlen ”Anm. Aktindsigt” med 
+journalstatus ”Robot UB AKT – Robot Under Behandling 
+AKT”. 
+  
+Hvis der i akterne fra Rigsarkivet er en akt med titlen 
+’Journalark-xxxxx’, skal filen konverteres til en txt-fil på 
+dokumentkortet, inden sagen sendes til robotbehandling. 
+Ellers vil @gathe fejle.  
+ 
+Gør følgende: 
+1: Hent en kopi af dokumentet ’Journalark-xxxxx’ ud på 
+pakkebord 
+2: Omdøb filnavnet, så det slutter på .txt i stedet for .doc 
+3: Upload en ny version af dokumentet i P360, som 
+erstatter word-filen på dokumentkortet 
+ 
+På den måde omdannes filen til en tekstfil, som @gathe 
+kan håndtere, uden at sagen vil fejle. 
+ 
+Hvis dokumentkortet med akterne fra Rigsarkivet er blevet 
+journalført på sagen med den ”ikke-gangbare” word-filtype, 
+kan følgende fremgangsmåde anvendes: 
+4) På dokumentkortet > gå op i dokumentfunktioner > 
+Rediger egenskaber > notere de datoer der er angivet 
+på dokumentkortet > skifte dokumentkategori til internt 
+notat uden opfølgning > skifte status til reserveret > 
+Klik på Udfør  
+5) Upload den nye txt.version af dokumentet > gå op i 
+dokumentfunktioner > Rediger egenskaber > skift 
+dokumentkategori til ’Indkommende’ > sæt datoerne på 
+igen > skift status til udgået > Klik på Udfør  
+6) Klik på dokumentfunktioner > Rediger egenskaber > 
+Skift status fra udgået til journalført > Klik på Udfør. 
+ 
+Husk forløb ”Aktindsigt 90 dage” – tjek, at 
+ankemodtagelsesdato = datoen for modtagelse af 
+--- Page 46 ---
+46  
+ 
+Husk mail til 
+anmodnings-
+undermappen  
+sagsakterne. 
+ 
+Der laves en mail til 01-postkassen, som placeres i enten 
+undermappe 6. Adoption – 3 mdr.’s sager (DIA) eller 
+undermappe 7. Adoption – 3 ugers sager (fx TDH) under 
+mappen Anmodninger.  
+ 
+I mailen indsættes der link til sagen. Det noteres, hvis der 
+er sendt høringsbrev og med datoen herfor. I emnefeltet på 
+mailen skrives j.nr. på sagen og egne initialer, fx 25-2020 
+– JAKR.  
+ 
+Påfør mailen kategorien ”sendt til robot” og frist for sagens 
+behandling. 
+Høringsbrev Hvis det er den adopterede, der har anmodet om 
+aktindsigt, sendes høringsbrev til adoptivforældrene (AKTI-
+26), når vi har modtaget sagsakterne. Det gælder, uanset 
+hvem den formidlende organisation er. Der sendes kopi af 
+brevet til den adopterede.  
+ 
+Hvis adoptanterne er døde, eller der af anden grund, fx 
+fordi aktindsigtsanmodningen ikke omfatter oplysninger om 
+adoptanterne, ikke skal sendes høringsbrev, noteres dette i 
+resuméfeltet på sagen. 
+Afbestilling af 
+sagsakter fra 
+Rigsarkivet 
+Hvis vi har bestilt sagsakter hos Rigsarkivet, hvor borger 
+efterfølgende trækker sin anmodning om aktindsigt tilbage, 
+skal vi afbestille sagsakterne. 
+ 
+Det gøres ved at sende en mail til Rigsarkivets interne 
+postkasse – salg@rigsarkivet.dk - hvor vi orienterer om, at 
+borgeren ikke længere ønsker dennes aktindsigtssag 
+behandlet. Husk at anføre navnet på borger.  
+ 
+Rigsarkivet sørger herefter for at afslutte bestillingen 
+internt hos dem.  
+ 
+  
+--- Page 47 ---
+47  
+Familieretlige sager 
+ 
+ 
+Ajourført 27-11-2023 / LOMI 
+Familieretssager fra 
+Statsforvaltningen 
+Statsforvaltningens familieretlige sager er overgået til 
+Familieretshuset, der skal behandle anmodningen. 
+Sagsområder • Adoption 
+• Bidrag 
+• Faderskab og medmoderskab 
+• Forældremyndighed 
+• Navne 
+• Prøvelse af ægteskabsbetingelser 
+• Separation og skilsmisse 
+• Værgemål 
+Familieretssager 
+overgået fra 
+Ankestyrelsen 
+Visse familieretssager har været behandlet i Ankestyrelsen, 
+men er nu overgået til enten Familieretshuset eller 
+domstolene. 
+ 
+Du må aldrig journalisere en anmodning ind på disse sager. 
+Du skal oprette en ny sag. 
+Sagsområder • Børnebidrag/uddannelsesbidrag 
+• Ægtefællebidrag 
+• Faderskab 
+• Ægteskab 
+• Navne 
+• Udenlandsk/national forældremyndighed 
+• Bopæl 
+• Samvær (tidligere fastsat af Statsforvaltningen) 
+Sagen er oversendt til 
+Familieretshuset 
+Hvis sagen er lukket med særlig lukningsårsag (sagen 
+henlagt/afsluttet af AST), er sagen oversendt til Familieretshuset 
+Opret en ny sag: 
+• Sagstype: Generel sag 
+• Titel: Videreførelse af tidligere sag med j.nr.: 
+• 1.Niveau: Generelle spørgsmål 
+• 2.Niveau: Familieretlig sag 
+• 3. Niveau: Tidligere Familieretlig sag 
+• Kontakter: Den, der anmoder om aktindsigt og 
+Familieretshuset (førsteinstans) 
+• Supplerende oplysninger: Særlig lukningsårsag: 
+”Sagen henlagt/afsluttet af AST” 
+ Anmodningen oversendes til Familieretshuset 
+• BREV-3, AST ikke rette myndighed. 
+--- Page 48 ---
+48  
+Sagen er oversendt til 
+retten 
+Hvis der ligger en kvittering fra retten på sagen, er sagen 
+oversendt til Familieretten (byretten). 
+Opret en ny sag 
+• Sagstype: Generel sag 
+• Titel: Videreførelse af tidligere sag med j.nr.: 
+• 1.Niveau: Generelle spørgsmål 
+• 2.Niveau: Familieretlig sag 
+• 3. Niveau: Tidligere Familieretlig sag 
+• Kontakter: Den, der anmoder om aktindsigt 
+ 
+ 
+Send link til Adoption, der håndterer sagen 
+Sagen er afgjort i 
+Ankestyrelsen 
+Opret en ny sag 
+• Sagstype: Generel sag 
+• Titel: Videreførelse af tidligere sag med j.nr.: 
+• 1.Niveau: Generelle spørgsmål 
+• 2.Niveau: Familieretlig sag 
+• 3. Niveau: Tidligere Familieretlig sag 
+• Kontakter: Den, der anmoder om aktindsigt. 
+ 
+ 
+Send link til Adoption, der håndterer sagen 
+--- Page 49 ---
+49  
+Sager fra Beskæftigelsesankenævnet og Det Sociale Nævn 
+  
+ 
+Ajourført 27-11-2023 / LOMI 
+Ankestyrelsen er rette 
+myndighed 
+De sager, der er afgjort af Statsforvaltningens 
+Beskæftigelsesankenævn og Det Sociale Nævn, er overgået 
+til Ankestyrelsen den 1. juli 2013. 
+Det er Ankestyrelsen, der håndterer anmodninger om 
+aktindsigt i disse sager. 
+Opret sag • Klik på ”Ny” i værktøjslinjen 
+• Under fanen ”Sag” vælg = ”Generel sag” 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+Titel = Borgerhenvendelse – anm. om aktindsigt 
+Ansvarlig enhed = Adm. Akt. 
+Status = Ny sag 
+1. Niveau = Henvendelser 
+ 
+2. Niveau = Borgerhenvendelse 
+Forløb = Ingen forløb 
+Eksterne kontakter Borger = den der anmoder 
+ 
+Evt. myndighed = hvis akterne skal indhentes fra 
+Familieretshuset 
+Resumefelt Skriv, hvad henvendelsen omhandler 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+• Skriv j.nr. i rubrikken og søg sagen frem eller 
+dobbeltklik på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Anmodning aktindsigt 
+• Ansvarlig enhed = Adm. Akt 
+• Klik ”udført” 
+--- Page 50 ---
+50  
+Anmod om akter fra 
+Familieretshuset 
+BREV-1: 
+Vi anmoder Familieretshuset om akterne/sagen for, at vi 
+kan behandle anmodningen om aktindsigt. 
+ 
+Den, der anmoder om aktindsigt skal på som 
+kopimodtager 
+ 
+HUSK at vedhæfte anmodningen til Familieretshuset 
+  
+--- Page 51 ---
+51  
+Kontrol af WEB-sager 
+ 
+ 
+Ajourført 24-01-2025 / JAKR 
+Træk sager fra Find sagerne i søgningen på AKT ADM-skrivebordet: 
+ 
+- AdmTeam AKT – nye klagesager (Robot 
+færdigbehandlet) – KSB 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+Titel = 
+• Klagesag – parter (forvaltningslov) 
+• Klagesag – ikke parter (offentlighedslov) 
+ 
+Ansvarlig enhed = Sagen fordeles til det kontor, som ville 
+have behandlet den materielle del af sagen. 
+OBS: 
+Arbejdsskadesager = Arbejdsskadeafdelingen 
+ 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+ 
+Forløb = Aktindsigt 20 dage – ny  
+Eksterne kontakter Borger = Klager 
+Førsteinstans 
+Planlagt afslut dato Planlagt afslut dato: Tæl manuelt 20 arbejdsdage 
+beregnet fra ankemodtagelsesdato. 
+Sagshenvisning Hvis der er sagshenvisninger på en WEB sag, skyldes det, 
+at førsteinstansen i deres WEB formular har anvendt flere 
+§§, der jf. vores journalplan udløser forskellige 
+sagsgrupper. Førsteinstansen har stadig kun indsendt én 
+formular 
+• Vi tjekker om sagshenvisningssager skal bevares 
+eller annulleres 
+Sagsemne Kontroller, at sagsemnet er oprettet korrekt i forhold til 
+kommunens afgørelsesgrundlag 
+--- Page 52 ---
+52  
+Sagen er klar til 
+fagkontor 
+Forvaltningslov: AKTI-10 kvitteringsbrev (linje om 
+høring slettes). 
+ 
+Offentlighedslov: AKTI-1 
+ 
+Resuméfelt: dato: Link sendt til vagt vedr. fordeling af 
+sag / initialer 
+ 
+Klik på ”Luk fase” så sagen bliver frigives til fagkontoret. 
+Sagen er ikke klar til 
+fagkontor 
+- akter/fuldmagt 
+mangler 
+Vi indhenter manglende akter/fuldmagt, og sætter status 
+til Afventer ekstern. 
+ 
+Opret frist: 
+Titel: Afventer (hvad der afventes) 
+Forfaldsdato: 8 arbejdsdage 
+Ansv.enhed: Administration AKT 
+Status: Planlagt 
+Adgangsgruppe: Public 
+ 
+ 
+Registrering på sag: 
+Status: Afventer ekstern 
+Ansvarlig enhed: Administration AKT 
+Rykke for svar på 
+anmodning om 
+akter/fuldmagt 
+Skabelon: OPLY-4. Vedhæft tidligere brev. 
+Sagen sættes igen i erindring i 8 arbejdsdage. 
+Når denne frist udløber, frigives sagen til fagkontor, 
+uanset at vi fortsat ikke har modtaget akter. 
+  
+--- Page 53 ---
+53  
+Klagesager 
+ 
+Klagesag – parter (forvaltningsloven) (Outlook) 
+ 
+Ajourført 04-06-2026 / JAKR 
+Direkte klageadgang 
+Ingen klagefrist 
+Man kan klage direkte til Ankestyrelsen over en afgørelse 
+om aktindsigt efter forvaltningsloven. Der gælder altså 
+ikke en genvurderingsordning. 
+Der er ikke fastsat en klagefrist. 
+Sagen kan komme både som en sag fra underinstansen og 
+i form af en (direkte) klage fra den, der har fået en 
+afgørelse om aktindsigt. 
+Hvem sagen kommer fra, har betydning for, om sagen 
+umiddelbart er klar til frigivelse eller ej. 
+OBS! Klage over en aktindsigtsafgørelse truffet af et af de 
+5 regionale børnehuse, skal behandles af Tilsynet. Team 
+Nævn skal håndtere den. 
+Opret sag Klik på ”Menu” i værktøjslinjen 
+Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+ 
+Titel = Klagesag – parter (forvaltningslov) 
+Ansvarlig enhed = Sagen fordeles til det kontor, der er 
+relevant fagkontor for den materielle del af sagen. 
+Hvis vi afventer akter, er Administration AKT ansvarlig 
+enhed 
+OBS: 
+Arbejdsskadesager = Arbejdsskadeafdelingen 
+På børneområdet (AUS’s områder) = Social 4 
+ 
+Status = Ny sag eller Afventer ekstern, hvis der skal 
+foretages høring/hentes akter 
+1. Niveau = Aktindsigt 
+Forløb 
+• Aktindsigt 20 dage – ny  (bruges når 
+klagesagen kommer fra førsteinstans) 
+• Aktindsigt 40 dage – ny (bruges når klagen 
+kommer direkte fra borger) 
+--- Page 54 ---
+54  
+Eksterne kontakter Borger = Klager 
+ 
+Førsteinstans = der, hvor sagen kommer fra 
+OBS! Hvis kommer fra et af de fem socialtilsyn, så skal 
+kommunen oprettes som ”Socialtilsyn” og ikke ”Førsteinstans”. 
+Resumefelt Link sendt til vagt vedr. fordeling af sag/dato + initialer 
+Supplerende oplysninger Anke modtaget = den dag, hvor sagen modtages  
+ 
+Klik ”udfør” for at oprette sagen 
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Klagesag – parter (forvaltningslov) 
+ 
+Underinstans afg. dato = XX-XX-XXXX 
+Klik ”udfør” 
+Klik på ”Annullér forløbet”, hvis sagen skal frigives til 
+fagkontoret. Hvis vi mangler akter, venter vi med at gøre 
+mere nu. 
+Rediger – planlagt 
+afsluttet 
+For at sagen står med den rigtige planlagt afslutningsdato, 
+skal den redigeres, efter sagen er oprettet. 
+Klik på ”Sagsfunktioner” herefter ”Rediger egenskaber” 
+ 
+Under ”Supplerende oplysninger” udfyldes Planlagt 
+afsluttet =Klagesag modtaget fra førsteinstansen. 
+Tæl manuelt 20 arbejdsdage fra modtagelsen, hvis sagen 
+kommer fra førsteinstansen. 
+Tæl ma nuelt  40 arbejdsdage fra modtagelsen, hvis klagen 
+kommer fra borger. 
+Klik ”udfør” 
+--- Page 55 ---
+55  
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Klage 
+• Ansvarlig enhed = Fagkontoret 
+• Klik ”udført” 
+Skabeloner AKTI-10 = kvittering til borger (linje om høring slettes, 
+hvis sagen kommer fra førsteinstansen). 
+AKTI-11 = høring af førsteinstans, klagen vedhæftes. 
+ 
+DATA-4 = til borger, hvis arbejdsgiver klager, og sagen 
+omhandler refusion af barselsdagpenge 
+ 
+DATA 4a = til borger, hvis arbejdsgiver klager, og sagen 
+omhandler refusion af sygedagpenge 
+Oprette frist, hvis der er 
+sket høring af 
+førsteinstansen 
+Opret frist: 
+Titel: Afventer høringssvar 
+Forfaldsdato: 8 arbejdsdage 
+Ansvarlig enhed: Administrationen Aktindsigt 
+Status: Planlagt 
+Adgangsgruppe: Public 
+ 
+Registrering på sag: 
+Status: Afventer ekstern 
+Ansvarlig enhed: Administrationen Aktindsigt 
+Rykke for høringssvar Skabelon: OPLY-4. Vedhæft tidligere brev og klage. 
+Sagen sættes igen i erindring i 8 arbejdsdage. 
+Når denne frist udløber, frigives sagen til fagkontor, 
+uanset at vi fortsat ikke har modtaget høringssvar. 
+Klagen trækkes tilbage, 
+inden sagen er kvitteret 
+Fagkontoret skal besvare henvendelsen. 
+--- Page 56 ---
+56  
+Særligt for Klagenævnet 
+for Specialundervisning 
+Hvis det er klart, at sagen hører til Klagenævnet for 
+Specialundervisning, brug denne skabelon: 
+- KNS08 (indhente sag og udtalelse fra 
+førsteinstans) 
+ 
+Ved kvitteringsbrev bruger vi teksten fra AKTI-10 i blank 
+KNS-brev (KNSBREV). 
+Sager fra Socialtilsyn Send link til Vagtpostkasse_Mellemkommunal@ast.dk 
+ 
+  
+--- Page 57 ---
+57  
+Klage over førsteinstansens sagsbehandlingstid – forvaltningsloven 
+ 
+ 
+Ajourført 04-06-2026 / JAKR 
+Kan ikke påklages 
+særskilt efter FVL 
+Vi kan ikke behandle en klage over sagsbehandlingstiden, 
+før der er truffet afgørelse om aktindsigt. 
+ 
+Hvis der er gået tilstrækkelig lang tid, kan det manglende 
+svar være et udtryk for et afslag. Her skal der været gået 
+mindst en måned fra anmodningen er modtaget i 
+førsteinstansen. Så opretter vi en klagesag. Se afsnit om 
+Klagesag – parter (forvaltningsloven) (Outlook)
+. 
+ 
+Hvis der er gået mindre end en måned, afviser vi at 
+behandle klagen. Se nedenfor. 
+ 
+OBS! Klage over sagsbehandlingstiden ifm. en anmodning 
+om aktindsigt til et af de 5 regionale børnehuse, skal 
+behandles af Tilsynet. Team Nævn skal håndtere den. 
+Opret sag Klik på ”Menu” i værktøjslinjen 
+Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+ 
+Titel = Klagesag – parter (forvaltningslov) 
+Ansvarlig enhed = Administration AKT 
+ 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+Forløb = Ingen 
+Eksterne kontakter 
+Borger = den, der anmoder  
+Førsteinstans 
+OBS! Hvis kommer fra et af de fem socialtilsyn, så skal 
+kommunen oprettes som ”Socialtilsyn” og ikke 
+”Førsteinstans”. 
+--- Page 58 ---
+58  
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Klage 
+• Ansvarlig enhed = Adm. Akt 
+• Klik ”udført” 
+Skabelon Brevskabelon: AKTI-21 (dokument ud) 
+ 
+Hovedmodtager: Borger 
+Kopimodtager: Førsteinstans 
+ 
+HUSK at vedhæfte klagen til brevet. 
+Afslutning af sagen Afgørelsesmodul = Klagesag parter 
+Afgørelseskode = ”Særlig lukningsårsag” 
+- Lukningsårsag = ”Sendt til anden myndighed” 
+ 
+Status: Afsluttet 
+  
+--- Page 59 ---
+59  
+Klagesag – ikke parter (offentlighedsloven) – oversendt fra førsteinstansen – (Outlook) 
+ 
+ 
+Ajourført 04-06-2026 / JAKR 
+Opret sag • Klik på ”Menu” i værktøjslinjen 
+• Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+Titel = Klagesag – ikke parter (Offentlighedslov) 
+Ansvarlig enhed = Sagen fordeles til det kontor, der er 
+relevant fagkontor for den materielle del af sagen. 
+OBS: 
+Arbejdsskadesager = Arbejdsskadeafdelingen 
+På børneområdet (AUS’s områder) = Social 1 
+Socialtilsyn – skriv til 
+Vagtpostkasse_Mellemkommunal@ast.dk, når sagen skal 
+frigives 
+ 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+ 
+Forløb = Aktindsigt 20 dage – ny  
+ 
+OBS! Klage over en aktindsigtsafgørelse truffet af et af de 5 
+regionale børnehuse, skal behandles af Tilsynet. Team 
+Nævn skal håndtere den. 
+ 
+Eksterne kontakter Borger = Klager  
+ 
+Førsteinstans 
+OBS! Hvis kommer fra et af de fem socialtilsyn, så skal 
+kommunen oprettes som ”Socialtilsyn” og ikke ”Førsteinstans”. 
+Resumefelt Link sendt til vagt vedr. fordeling af sag/Initialer 
+Supplerende oplysninger Anke modtaget = den dag, hvor sagen modtages  
+ 
+Klik ”udfør” for at oprette sagen 
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Klagesag – ikke parter (Offentlighedslov) 
+ 
+Underinstans afg. dato = XX-XX-XXXX 
+Klik ”udfør” 
+ 
+Klik på ”Annullér forløbet” når sagen skal frigives til 
+fagkontoret. 
+--- Page 60 ---
+60  
+Rediger – planlagt 
+afsluttet 
+For at sagen står med den rigtige planlagt afslutningsdato, 
+skal den redigeres, efter sagen er oprettet. 
+Klik på ”Sagsfunktioner” herefter ”Rediger egenskaber” 
+ 
+Under ”Supplerende oplysninger” udfyldes Planlagt 
+afsluttet = Tæl manuelt 20 arbejdsdage fra modtagelsen 
+Klik ”udfør” 
+Registrering af 
+henvendelse 
+Mailen registreres på sagen via sidepanelet i Outlook: 
+ 
+Skriv j.nr. i rubrikken og søg sagen frem eller dobbeltklik 
+på huset: 
+ 
+• Træk mail over i ”Oprette dokumenter og aftaler” 
+• Udfyld ”sag” = j.nr. 
+• Titel = Klage 
+• Ansvarlig enhed = fagkontor 
+• Klik udført 
+Skabeloner AKTI-1 = kvittering til borger/virksomhed 
+ 
+DATA-4 = til borger, hvis arbejdsgiver klager, og sagen 
+omhandler refusion af barselsdagpenge 
+ 
+DATA 4a = til borger, hvis arbejdsgiver klager, og sagen 
+omhandler refusion af sygedagpenge 
+Klagen trækkes tilbage, 
+inden sagen er kvitteret 
+Fagkontoret besvarer henvendelsen 
+Særligt for arbejdsskade 
+– besættelsestidens ofre 
+Hvis klagen over aktindsigt vedrører besættelsestidens 
+ofre og de gamle sagsakter ikke kan ses i Se Sag, men er 
+papirakter, rekvirerer vi dem (OPLY-2). 
+  
+--- Page 61 ---
+61  
+Klage over førsteinstansens sagsbehandlingstid – offentlighedsloven 
+ 
+ 
+Ajourført 04-06-2026 / JAKR 
+Sagsbehandlingstid kan 
+påklages særskilt 
+Efter OFL § 39 kan der klages særskilt over 
+sagsbehandlingstiden, hvis førsteinstansen ikke har 
+færdigbehandlet anmodningen inden 14 dage. 
+Hvis klagen kommer, før de 14 dage er gået, afviser vi 
+sagen. 
+Hvis klagen kommer efter udløbet af de 14 dage, 
+behandler fagkontoret sagen. 
+OBS! Klage over sagsbehandlingstiden hos et af de 5 
+regionale børnehuse, skal behandles af Tilsynet. Team 
+Nævn skal håndtere den. 
+Opret sag • Klik på ”Ny” i værktøjslinjen 
+• Under fanen ”Sag” vælg = ”Aktindsigtssag” 
+Generelt 
+Adgangsgruppe = følger sagens materielle emne 
+Titel = Klagesag – ikke parter (Offentlighedsloven) 
+Ansvarlig enhed = Adm. Akt. 
+Status = Ny sag 
+ 
+Niveau = Aktindsigt 
+Forløb = Aktindsigt 20 dage – ny  
+Eksterne kontakter Borger = den der anmoder 
+Førsteinstans = den førsteinstans der klages over 
+OBS! Hvis kommer fra et af de fem socialtilsyn, så skal 
+kommunen oprettes som ”Socialtilsyn” og ikke ”Førsteinstans”. 
+Resumefelt Klage over sagsbehandlingstiden efter OFL 
+Supplerende oplysninger Anke modtaget = den dag, hvor sagen modtages  
+ 
+Klik ”udfør” for at oprette sagen 
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Klagesag – ikke parter (Offentlighedslov) 
+ 
+Underinstans afg. dato 
+ 
+Klik ”udfør” 
+ 
+Klik på ”Annullér forløbet” når sagen skal frigives til 
+fagkontoret. 
+--- Page 62 ---
+62  
+Rediger – planlagt 
+afsluttet 
+For at sagen står med den rigtige planlagt afslutningsdato, 
+skal den redigeres, efter sagen er oprettet. 
+Klik på ”Sagsfunktioner” herefter ”Rediger egenskaber” 
+ 
+Under ”Supplerende oplysninger” udfyldes Planlagt 
+afsluttet = Tæl manuelt 20 arbejdsdage fra modtagelsen 
+Klik ”udfør” 
+Skabelon Brevskabelon: AKTI-20 
+ 
+Modtager: Borger 
+Kopimodtager: Førsteinstans 
+Her vælges afsnit - alt efter om der klages inden for 14 
+dage eller efter. 
+ 
+HUSK at vedhæfte klagen til brevet. 
+Frist – klagen er efter 
+udløbet af 14 dage 
+Når klagen kommer mere end 14 dage efter, der er 
+anmodet, kan vi behandle sagen. Det betyder, at der 
+skal oprettes en frist på sagen. 
+Opret frist: 
+Titel: Afventer svar fra KM 
+Forfaldsdato: 8 arbejdsdage 
+Ansvarlig enhed: Administrationen Aktindsigt 
+Status: Planlagt 
+Adgangsgruppe: Public 
+ 
+Registrering på sag: 
+Status: Afventer ekstern 
+Ansvarlig enhed: Administrationen Aktindsigt 
+Førsteinstansen reagerer 
+ikke på vores brev 
+Hvis vi efter fristens udløb stadig ikke har hørt fra 
+førsteinstans, frigives sagen til relevante fagkontor med 
+bemærkning om, at vi ikke har fået svar fra førsteinstans 
+vedr. sagsbehandlingstiden. 
+I resumé noteres det, at der er sendt link til 
+vagtpostkassen / dato og initialer 
+--- Page 63 ---
+63  
+Afslutning af sagen – 
+klagen er før udløbet af 
+de 14 dage 
+Udfyldelse af afgørelsesmodulet: 
+ 
+• Afgørelseskode: Særlig lukningsårsag 
+ 
+• Lukningsårsag: Sendt til anden myndighed 
+• Afgørelsesdato: d.d. 
+• Årsag: Sagen henlagt/afsluttet af AST/nævn 
+• Kritik: Nej 
+• Afgørelsesform: Særlig lukningsårsag 
+ 
+Afslut sagen. 
+  
+--- Page 64 ---
+64  
+Direkte klage over aktindsigt efter offentlighedsloven – indsendt af borger 
+ 
+ 
+Ajourført 04-06-2026 /JAKR 
+Der gælder en 
+genvurderingsordning 
+Ingen klagefrist 
+Når førsteinstansen har truffet afgørelse om aktindsigt 
+efter OFL, skal man klage til den myndighed, der har 
+truffet afgørelsen. Der gælder altså her en 
+genvurderingsordning. 
+Det betyder, at en direkte klage først skal retur til 
+genvurdering. 
+Der er ikke fastsat en klagefrist.  
+OBS! Klage over en aktindsigtsafgørelse truffet af et af de 5 
+regionale børnehuse, skal behandles af Tilsynet. Team 
+Nævn skal håndtere den. 
+Opret sag • Klik på ”Menu” i værktøjslinjen 
+• Under fanen ”Sag” vælg = Aktindsigtssag 
+Generelt Adgangsgruppe = følger sagens materielle emne 
+Titel = Klagesag – ikke parter (Offentlighedslov) 
+Ansvarlig enhed = Adm AKT 
+Status = Ny sag 
+1. Niveau = Aktindsigt 
+Forløb = Aktindsigt 7 dage (9 kalenderdage) – ny (hvis 
+anmodningen er indkommet mandag-onsdag) eller 
+Aktindsigt 7 dage (11 kalenderdage) – ny (hvis 
+anmodningen er indkommet torsdag-fredag) 
+Eksterne kontakter Borger = den der anmoder  
+ 
+Førsteinstans 
+OBS! Hvis kommer fra et af de fem socialtilsyn, så skal 
+kommunen oprettes som ”Socialtilsyn” og ikke 
+”Førsteinstans”. 
+Forløb Klik på ”Play knappen” 
+ 
+Sagsemne = Klagesag – ikke parter (Offentlighedslov) 
+ 
+Underinstans afg. dato = XX-XX-XXXX 
+Klik ”udfør” 
+ 
+Klik på ”Annullér forløbet”  
+--- Page 65 ---
+65  
+Skabelon Brevskabelon: AKTI-19 
+ 
+Modtager = Borger 
+Kopimodtager = Førsteinstansen 
+ 
+Vigtigt: Klage og evt. bilag skal vedhæftes ved 
+forsendelsen til førsteinstansen. 
+Afgørelsesmodulet  
+ 
+Supplerende oplysninger 
+Sagen kodes med ”Særlig lukningsårsag” 
+ 
+Særlig lukningsårsag = udfyldes med ”Sendt til anden 
+myndighed” 
+ 
+Herefter lukkes sagen ved at trykke på ”Sæt Status” og 
+vælg ”Afsluttet”. 
+  
+--- Page 66 ---
+66  
+Håndtering af anmodninger 
+ 
+Anmodningen om aktindsigt (FVL) – hvad omfatter den? 
+ 
+Ajourført 11-03-2026 / JAKR 
+@gathe Sager, der er sendt til robotbehandling, er klar til 
+behandling, når status på dokumentet er ”Robot FB AKT - 
+Robot Færdigbehandlet AKT”. 
+ 
+Der er oprettet en favoritsøgning til disse sager. Vælg 
+”Avanceret Søgning” – ”Dokument” – fanebladet 
+”Favoritter” – ”Afdeling” og ”Robot færdigbehandlede 
+sager” – klik på ”Søg”. Der fremkommer nu en liste over 
+de sager, der er klar til behandling. 
+ 
+Når sagen er klar til behandling, er der følgende på sagen: 
+• Et reserveret afgørelsesudkast 
+• En dokumentliste 
+• En aktpakke 
+Hvem er part på sagen? Det er vigtigt, at du sikrer dig, at aktindsigten kun sendes 
+til en, der har status af part. 
+Vær derfor meget opmærksom hvis den, der anmoder om 
+aktindsigt, har en begrænset fuldmagt. Der må ikke være 
+tvivl om, at fuldmagten er tilstrækkelig. 
+Hvad omhandler 
+anmodningen? 
+Vi giver aktindsigt i det, der er bedt om. 
+Hvis der anmodes om aktindsigt i de akter, der har dannet 
+grundlag for afgørelsen, håndteres det som fuld aktindsigt. 
+Hvis der er tvivl om, hvad anmodningen omhandler (både 
+f.s.v.a. akter og sager) afklarer vi tvivlen ved den, der har 
+anmodet om aktindsigt. VI SKRIVER ELLER RINGER TIL 
+BORGER 
+Hvilke sager omfatter 
+anmodningen? 
+Hvis borger har et stort antal afsluttede og verserende 
+sager, vil vi som udgangspunkt kontakte borger. Også i de 
+tilfælde, hvor anmodningen er i ”alle mine sager”. 
+ 
+Det kan i sidste ende være meget tidsbesparende, at vi 
+tager kontakt til borger for at få afklaret, om det i 
+virkeligheden handler om verserende sager eller sager på 
+et bestemt område. 
+ 
+Anvend skabelonen AKTI-2 til brevet til borger med 
+tilpasset frase. 
+--- Page 67 ---
+67  
+Er der tidligere givet 
+aktindsigt til den 
+samme? 
+En tidligere afgørelse om aktindsigt har kun betydning, 
+hvis den nye anmodning kommer fra den samme 
+anmoder. 
+Hvis borger har fået aktindsigt, får det ikke betydning, 
+hvis borgers partsrepræsentant efterfølgende beder om 
+aktindsigt i samme sag. 
+Er sagen kontrolleret? Hvis sagen endnu ikke er kontrolleret, kan der være fejl i 
+parterne på sagen. 
+Skriv til journalpostkassen i det relevante team og bed om 
+at få sagen kontrolleret. Gør opmærksom på, at der er 
+anmodet om aktindsigt i sagen. 
+Bemærk, at det ikke udsætter 7-dages fristen. 
+Anmodning om 
+aktindsigt i en 
+genoptagelsessag 
+Vi vurderer, om der skal gives aktindsigt i både 
+genoptagelsessagen og den sag, der er blevet genoptaget 
+(den underliggende sag). 
+Det afhænger af, hvad der står i anmodningen, og om der 
+tidligere er givet aktindsigt i den underliggende sag. 
+Henvendelsen er 
+mangelfuld 
+Hvis henvendelsen er så mangelfuld, at vi ikke 
+umiddelbart kan behandle den som en aktindsigt, opretter 
+du en generel sag. 
+Se vejledning om generelle henvendelser 
+Der er tidligere givet 
+aktindsigt 
+Vi træffer kun en ny afgørelse om de akter, der er 
+journaliseret på sagen, siden vi senest gav aktindsigt. 
+Vi sender kun de akter, der er journaliseret på sagen siden 
+seneste aktindsigt. 
+Husk at skrive i afgørelsen, at vi alene sender de akter, der 
+er journaliseret på sagen siden seneste afgørelse om 
+aktindsigt af den [dato]. 
+ 
+Dokumentlisten viser alle akter. 
+ 
+OBS! Vender borger tilbage og anmoder om fuld aktindsigt i 
+sagen igen, imødekommer vi det. Det samme gælder, hvis 
+det fremgår af anmodningen, at borger ikke længere er i 
+besiddelse af tidligere modtaget anmodning og derfor ønsker 
+fuld aktindsigt på ny. 
+--- Page 68 ---
+68  
+Dobbeltsager Hvis s agerne  indeholder præcis de samme akter, sender vi 
+kun 1 sæt akter. 
+ 
+• Der skal være én dokumentliste pr. sag 
+• Indsæt frase om dobbeltsager i afgørelsen 
+• Noter begge j.nr. i højre side af afgørelsen 
+• Når afgørelsen er afsendt, kopieres afgørelsen over 
+på den anden dobbeltsag 
+  
+--- Page 69 ---
+69  
+Afgørelsen om aktindsigt (FVL) – robotbehandlet sag 
+ 
+Ajourført 20-03-2026 / JAKR 
+Generelt Afgørelsen s kal indeholde en begrundelse for hvert 
+dokument, der er undtaget fra aktindsigt. 
+Vi har standardbegrundelser for de akter, vi rutinemæssigt 
+undtager. 
+Dokumentansvarlig og 
+dokumentfrase 
+ 
+ 
+ 
+ 
+ 
+Inden du går i gang med at arbejde i 
+afgørelsesdokumentet, skal du sætte dig på som 
+underskriver af afgørelsen.  
+ 
+Det gør du ved at trykke på:  
+• Dokumentfunktioner  
+• Rediger egenskaber  
+• Anføre dit navn under ”dokumentansvarlig” 
+ 
+Husk desuden at vælge dokumentfrasen ”- aktindsigt”, så 
+titlen på afgørelsesdokumentet bliver ”Afgørelse fra 
+Ankestyrelsen – aktindsigt”. Klik på dette ikon ved siden af 
+titlen:  
+Modtager af afgørelsen Modtager af afgørelsen er den kontakt, der står under 
+”Anm. Aktindsigt”, og dermed er afsender af anmodningen. 
+Vær dog obs på, om der er modtaget en fuldmagt, efter 
+sagen er sendt til robot, se i afsnittet 
+”Fuldmagtsforhold – 
+særligt for aktindsigt”.  
+ 
+Hvis robotten ikke kan identificere modtager, er robotten 
+kodet til at vælge ”Borger” som modtager. Der laves en 
+note på sagen ”Obs – tjek modtager af afgørelsen”. 
+ 
+Du skal derfor sikre dig, at det er den korrekte modtager, 
+der fremgår af afgørelsen. 
+Skabeloner – udfylde 
+afgørelsen 
+Når du skal skrive din afgørelse, skal du trykke på  
+• GemDagsorden og GenFlet  
+• Tryk på ikonet ”Frasesystem”  
+ 
+Så kommer frasetræet frem, og du kan vælge begrundelse 
+og retsregler på normal vis. 
+ 
+AKTI-15 – FULD AKTINDSIGT ELLER AKTI-28 
+(ADOPTIONSSAG) 
+Lovgrundlag 
+FVL § 9 (hovedbestemmelsen) 
+ 
+ 
+
+--- Page 70 ---
+70  
+AKTI-13 og AKTI-13a (arbejdsskade) – DELVIS / 
+AFSLAG ELLER AKTI-28 (ADOPTIONSSAG) 
+Lovgrundlag: 
+FVL § 9 (hovedbestemmelsen) 
+§ 10 (meroffentlighed) 
+§12 (undtagelse af interne arbejdsdokumenter) 
+§ 14 a (ekstrahering af faktiske oplysninger) 
+Dokumenter, der 
+altid undtages fra 
+aktpakken  
+• Mødebilag 
+• Referat 
+• Mødepakke 
+• Arbejdskopi 
+• Ekstrakt 
+• Udgåede documenter 
+• Interne documenter (NOTAT-2, NOTAT-3, PRINCIP-4 
+og PRINCIP-5) 
+• Reserverede dokumenter, der senere skal sendes 
+ 
+@gathe sørger for ikke at pakke ovennævnte 
+dokumenttyper med i aktpakken. 
+Interne akter ud over 
+standardakter – skal 
+muligvis undtages fra 
+aktindsigt 
+Når du skal overveje, om du skal give aktindsigt, skal du 
+spørge dig selv om følgende: 
+• Er der tale om faktiske oplysninger, der ikke i 
+øvrigt fremgår af sagen, fx en telefonsamtale? 
+ 
+• Er der tale om interne overvejelser? 
+ 
+• Er der tale om sagsbehandlerens arbejdsnoter, der 
+skal danne grundlag for afgørelsen? 
+ 
+• Er der reelt tale om et internt dokument? 
+ 
+ 
+Det vil også give dig et fingerpeg om, hvilken begrundelse 
+du skal bruge for at undtage. 
+ 
+Se også bilag 5 eller bilag 6 f.s.v.a. det særlige for 
+adoptionssager. 
+Dubletter Hvis der er fjernet dubletter i aktpakken, skal du i 
+afgørelsen gøre opmærksom på, at der kun er medsendt et 
+eksemplar af (XX), selv om det fremgår flere gange på 
+dokumentlisten. 
+Praksisnotat Der kan i sjældne tilfælde være et dokument på sagen, 
+der alene indeholder en gennemgang af praksis over tid. 
+ 
+Praksisnotater vil være undergivet aktindsigt efter OFL – 
+og dermed så også efter FVL. 
+ 
+Vi spørger fagkontor. 
+--- Page 71 ---
+71  
+Lovgrundlag FVL § 9 – h ovedbestemmelsen om retten til aktindsigt 
+Er der undtaget akter: 
+FVL § 10 – meroffentlighed 
+FVL §12 – interne akter er ikke undergivet aktindsigt 
+FVL § 14 a – faktiske oplysninger, der ikke i øvrigt fremgår 
+Er der undtaget oplysninger: 
+FVL § 15b, nr. 5 – personoplysninger om en anden person 
+ 
+Se også bilag 5 eller bilag 6 f.s.v.a. det særlige for 
+adoptionssager. 
+Løbende aktindsigt Vi giver aktindsigt i det, der fremgår af sagen på 
+tidspunktet for anmodningen. 
+ 
+Skriv i resuméfeltet: OBS løbende aktindsigt. 
+ 
+Det er sagsbehandleren, der har ansvaret for at give 
+besked, når der igen skal gives aktindsigt. 
+Der er tidligere givet 
+aktindsigt 
+Når der tidligere er givet aktindsigt, vil robotten kun 
+medtage selve afgørelsen. Dokumentlisten og aktpakken 
+frasorteres.  
+ 
+Det gælder dog kun, hvis den tidligere afgørelse (eller 
+følgebrev) indeholder ordet ”Aktindsigt”.  
+ 
+Hvis aktpakke og dokumentlisten af den grund er pakket 
+med, fjernes den fra aktpakken. 
+ 
+Se ovenfor, om hvad vi giver aktindsigt i, når der 
+tidligere er givet aktindsigt til samme anmoder. OB S! 
+Vender borger tilbage og anmoder om fuld aktindsigt i 
+sagen igen, imødekommer vi det. Det samme gælder, 
+hvis det fremgår af anmodningen, at borger ikke længere 
+er i besiddelse af tidligere modtaget anmodning og derfor 
+anmoder om fuld aktindsigt på ny. 
+--- Page 72 ---
+72  
+Frist for bemærkninger – 
+kun verserende sager 
+7 dage 
+• Aktindsigt sendt med digital post 
+• Sager med korte lovbestemte frister 
+• TH- og VO-sager (TH = tidligere hjemvist, VO = 
+varslingsordning) 
+ 
+14 dage 
+• Aktindsigt sendt med fysisk post 
+• Sagens omfang (normalt over 500 sider) 
+• Særligt komplicerede (rodede) sager 
+ 
+Ingen frist 
+I sager med en lovbestemt frist kan fagkontoret beslutte, 
+at der ikke gives en frist. 
+ 
+Her skriver vi i stedet: 
+Vi fortsætter behandlingen af din sag uden at afvente dine 
+bemærkninger til aktindsigten. 
+7-dages fristen er 
+overskredet 
+Vi beklager, hvis fristen er overskredet med mere end 2 
+dage. 
+Aktindsigten skal deles 
+op i flere dele 
+Del 1 sendes med afgørelsen om aktindsigt. Skriv at 
+aktindsigten sendes i X dele. 
+ 
+De øvrige dele sendes med et følgebrev (brev-1) 
+Oversættelse Se retningslinjer på eKonsulenten. OBS! Gør ved 
+bestillingen af oversættelse særligt opmærksom på, at 
+lovuddraget også skal oversættes, da der gælder noget 
+andet på fx børneområdet, hvor parten stort set altid har 
+en partsrepræsentant. 
+ 
+Af hensyn til overholdelse af fristen for aktindsigt sender vi 
+som udgangspunkt først afgørelsen (med dokumentliste og 
+aktpakke) på dansk. Den oversatte afgørelse eftersendes, 
+når den foreligger. 
+ 
+Skriv følgende på forsiden i afgørelsen:  
+”Vi sender en oversat afgørelse snarest muligt.”  
+Afslutning af 
+adoptionsaktindsigtssag 
+Se bilag 8 for vejledning om, hvilke registreringer m.m. der 
+skal foretages på adoptionsaktindsigtssagen, når den 
+afsluttes. 
+ 
+Afgørelsen om aktindsigt (FVL) – manuel behandlet sag 
+ 
+ 
+--- Page 73 ---
+73  
+Ajourført 20-03-2026 / JAKR 
+Generelt Afgørelsen s kal indeholde en begrundelse for hvert 
+dokument, der er undtaget fra aktindsigt. 
+Vi har standardbegrundelser for de akter, vi rutinemæssigt 
+undtager. 
+Opret skabelon Sagsbehandler = dig selv 
+Ansvarlig enhed = Administration aktindsigt 
+Husk desuden at vælge dokumentfrasen ”- aktindsigt”, så 
+titlen på afgørelsesdokumentet bliver ”Afgørelse fra 
+Ankestyrelsen – aktindsigt”. Klik på dette ikon ved siden af 
+titlen:  
+Skabeloner AKTI-15 – FULD AKTINDSIGT ELLER AKTI-28 
+(ADOPTIONSSAG) 
+Lovgrundlag  
+FVL § 9 (hovedbestemmelsen) 
+ 
+ 
+AKTI-13 og AKTI-13a (arbejdsskade) ELLER AKTI-28 
+(ADOPTIONSSAG) – DELVIS / AFSLAG 
+Lovgrundlag: 
+FVL § 9 (hovedbestemmelsen) 
+§ 10 (meroffentlighed) 
+§12 (undtagelse af interne arbejdsdokumenter) 
+§ 14 a (ekstrahering af faktiske oplysninger) 
+AKTI-16 – aktindsigt – LÆGEKONSULENT UDTALELSE 
+AKTI-18 – AFSLAG FORDI DOKUMENT IKKE FINDES 
+LK har ikke medvirket 
+LK udt. – sagen verserende 
+Ingen deltagelse af beskikkede medlemmer 
+Akter, der 
+standardmæssigt 
+undtages 
+• Mødebilag 
+• Mødepakke 
+• Arbejdskopi 
+• Ekstrakt 
+• Mødereferater og beslutningsreferater 
+• Interne documenter (NOTAT-2, NOTAT-3, PRINCIP-4 
+og PRINCIP-5) 
+• Reserverede dokumenter, der senere skal sendes 
+ 
+Se også bilag 5 eller bilag 6 f.s.v.a. det særlige for 
+adoptionssager. 
+
+--- Page 74 ---
+74  
+Interne akter ud over 
+standardakter 
+Når du skal overveje, om du skal give aktindsigt, skal du 
+spørge dig selv om følgende: 
+• Er der tale om faktiske oplysninger, der ikke i 
+øvrigt fremgår af sagen, fx en telefonsamtale? 
+ 
+• Er der tale om interne overvejelser? 
+   
+• Er der tale om sagsbehandlerens arbejdsnoter, der 
+skal danne grundlag for afgørelsen? 
+ 
+• Er der reelt tale om et internt dokument? 
+ 
+Det vil også give dig et fingerpeg om, hvilken begrundelse 
+du skal bruge for at undtage. 
+ 
+Se også bilag 5 eller bilag 6 f.s.v.a. det særlige for 
+adoptionssager. 
+Reserverede 
+telefonnotater 
+Aktindsigten omhandler de akter, der er på sagen på 
+tidspunktet for anmodningen. 
+ 
+Reserverede notater skal derfor journalføres. 
+ 
+Det gælder dog ikke reserverede afgørelsesudkast eller 
+breve, der ikke er sendt endnu. 
+Praksisnotat Der kan i sjældne tilfælde være et dokument på sagen, 
+der alene indeholder en gennemgang af praksis over tid. 
+ 
+Praksisnotater vil være undergivet aktindsigt efter OFL – 
+og dermed så også efter FVL. 
+ 
+Vi spørger fagkontor. 
+Sagen indeholder filer, der 
+er fejlet 
+Vi indhenter ikke akterne på ny. Vi gør i stedet 
+opmærksom på de fejlede filer. 
+Lovgrundlag FVL § 9 – hovedbestemmelsen om retten til aktindsigt 
+Er der undtaget akter: 
+FVL § 10 – meroffentlighed 
+FVL §12 – interne akter er ikke undergivet aktindsigt 
+FVL § 14 a – faktiske oplysninger, der ikke i øvrigt fremgår 
+Er der undtaget oplysninger: 
+FVL § 15b, nr. 5 – personoplysninger om en anden person 
+ 
+Se også bilag 5 eller bilag 6 f.s.v.a. det særlige for 
+adoptionssager. 
+--- Page 75 ---
+75  
+Løbende aktindsigt Vi giver aktindsigt i det, der fremgår af sagen på 
+tidspunktet for anmodningen. 
+ 
+Skriv i resuméfeltet: OBS løbende aktindsigt. 
+ 
+Det er sagsbehandleren, der har ansvaret for at give 
+besked, når der igen skal gives aktindsigt. 
+Tidligere givet aktindsigt Se ovenfor, om hvad vi giver aktindsigt i, når der tidligere 
+er givet aktindsigt til samme anmoder.  
+ 
+OBS! Vender borger tilbage og anmoder om fuld aktindsigt i 
+sagen igen, imødekommer vi det. Det samme gælder, hvis 
+det fremgår af anmodningen, at borger ikke længere er i 
+besiddelse af tidligere modtaget anmodning og derfor 
+anmoder om fuld aktindsigt på ny. 
+Frist for bemærkninger – 
+kun verserende sager 
+7 dage 
+• Aktindsigt sendt med digital post 
+• Sager med korte lovbestemte frister 
+• TH- og VO-sager (TH = tidligere hjemvist, VO = 
+varslingsordning) 
+ 
+14 dage 
+• Aktindsigt sendt med fysisk post 
+• Sagens omfang (normalt over 500 sider) 
+• Særligt komplicerede (rodede) sager 
+ 
+Ingen frist 
+I sager med en lovbestemt frist kan fagkontoret beslutte, 
+at der ikke gives en frist. 
+ 
+Her skriver vi i stedet: 
+Vi fortsætter behandlingen af din sag uden at afvente dine 
+bemærkninger til aktindsigten. 
+7-dages fristen er 
+overskredet 
+Vi beklager, hvis fristen overskredet med mere end 2 
+dage. 
+Aktindsigten skal deles 
+op i flere dele 
+Del 1 sendes med afgørelsen om aktindsigt. Skriv at 
+aktindsigten sendes i X dele. 
+ 
+De øvrige dele sendes med et følgebrev (brev-1) 
+Oversættelse Se retningslinjer på eKonsulenten. OBS! Gør ved 
+bestillingen af oversættelse særligt opmærksom på, at 
+lovuddraget også skal oversættes, da der gælder noget 
+andet på fx børneområdet, hvor parten stort set altid har 
+en partsrepræsentant. 
+ 
+Af hensyn til overholdelse af fristen for aktindsigt sender vi 
+som udgangspunkt først afgørelsen (med dokumentliste og 
+aktpakke) på dansk. Den oversatte afgørelse eftersendes, 
+--- Page 76 ---
+76  
+når den foreligger. 
+ 
+Skriv følgende på forsiden i afgørelsen:  
+”Vi sender en oversat afgørelse snarest muligt.” 
+--- Page 77 ---
+77  
+Dokumentlisten – robotbehandlet sag 
+ 
+ 
+Ajourført 03-02-2025 / JAKR 
+Generelt Robotten opretter en dokumentliste på sagen. 
+ 
+Hvis sagen behandles manuelt, se vejledning om oprettelse 
+af dokumentliste nedenfor i afsnittet ”Pakning af akter – 
+manuel behandlet sag”. 
+Ændre i sagstitel Hvis sagstitlen ikke er blevet rettet, inden sagen blev sendt 
+til robotbehandling, skal den rettes efterfølgende. Se 
+hvordan i bilag 3. 
+Gule markeringer De filer, der er markeret med gult, er tilføjet af robotten.  
+ 
+Du skal kontrollere følgende:  
+ 
+• Er der tale om et dokument, der ikke i forvejen fremgik af 
+dokumentlisten (fx mails i mail)? Her skal du fjerne den 
+gule markering  
+ 
+• Er der tale om et dokument, der i forvejen fremgik som 
+bilag? Her skal du fjerne linjen med den tilføjede dublet 
+Dokumentreferencer Dokumentreferencer bliver tilføjet i dokumentlisten under 
+det dokumentnummer, som dokumentet havde på 
+referencesagen. Det placeres på den plads, der svarer til 
+dokumentets nummer.  
+ 
+Der kan derfor være flere dokumenter med samme 
+nummer.  
+ 
+Der kan også være et spring fra sidste dokument til 
+dokumentreferencen.  
+ 
+Dokumentreferencer får tilføjet en tekst i dokumentlisten 
+”Kopieret fra” efterfulgt af sagsnummeret på 
+referencesagen. 
+Udgåede dokumenter Udgåede dokumenter overstreges på dokumentlisten.  
+ 
+Hvis en dokumentreference har samme nummer som et 
+udgået dokument på aktindsigtssagen, bliver dokument-
+referencen også overstreget ved en fejl. Her skal du 
+manuelt fjerne overstregningen fra dokumentreferencen. 
+--- Page 78 ---
+78  
+Slettede filer og 
+”Capevoform” 
+Slettede filer  
+Det kan forekomme, at der kommer rækker med slettede 
+filer i dokumentlisten.  
+ 
+Det sker, når der er slettet en fil uden flueben i ”Slet uden 
+fortryd”. Så findes filen stadig på dokumentkorten, men 
+den er skjult. Den vil derfor fremgå af dokumentlisten.  
+ 
+Du skal manuelt slette dem fra dokumentlisten.  
+ 
+Capevoform  
+Capevoform er en fil på dokumentkortet, der henfører til en 
+usynlig fil, der er gemt som led i sags- og 
+dokumentoprettelse på den gamle ankeskemaløsning.  
+ 
+Enten skal rækken fjernes, eller du skal forklare i 
+afgørelsen, hvorfor akten ikke er en del af aktpakken.  
+ 
+Det er ikke en robotfejl. 
+Dokumentlister med 
+mere end 250 rækker 
+Dokumentlisten har en begrænsning på 250 rækker.  
+ 
+Hvis dokumentlisten af den grund ikke er komplet, vil det 
+blive noteret i en note på sagen. Af noten fremgår, hvor 
+mange filer, der mangler at blive tilføjet i dokumentlisten.  
+ 
+Du skal selv tilføje de manglende filer på dokumentlisten. 
+ 
+  
+--- Page 79 ---
+79  
+Pakning af akter – robotbehandlet sag 
+ 
+ 
+Ajourført 17-02-2026 / JAKR 
+Inden du går igang Start med at se, om der er en note på sagen med fejlede 
+eller frasorterede filer. Så er du på forhånd opmærksom 
+på, hvis der manuelt skal tilføjes filer i aktpakken. 
+Dokumenter, der altid 
+undtages fra aktpakken 
+• Mødebilag  
+• Referat  
+• Mødepakke  
+• Arbejdskopi  
+• Ekstrakt  
+• Udgåede dokumenter  
+• Interne dokumenter (NOTAT-2, NOTAT-3, 
+PRINCIP-4 og PRINCIP-5)  
+• Reserverede dokumenter 
+Frasorterede dokumenter Når aktpakken skal kombineres, og alle filerne 
+konverteres til PDF, vil robotten frasortere filer, hvis de 
+indeholder fejl, der forhindrer, at aktpakken kombineres.  
+ 
+Det vil fremgå af en note på sagen, hvilke dokumenter 
+der er frasorteret ved kombinering.  
+ 
+Listen over filer, der frasorteres, er ikke udtømmende. 
+Der kan være situationer, hvor aktpakken ikke kan 
+genereres på grund af en fil/filtype, der ikke kan 
+kombineres. Her vil robotten fejle. 
+Lyd- og videofiler Lyd- og videofiler bliver pakket med i aktpakken, hvis 
+filerne er i et format, der kan konverteres i Adobe.  
+ 
+I aktpakken vil filerne fremgå som et ”Play”-ikon, som du 
+kan trykke på og få afspillet filen.  
+ 
+Hvis aktindsigten sendes digitalt: 
+Når akterne bliver sendt via Digital Post, dør linket, og 
+modtageren vil kun se en side med et play-ikon på.  
+ 
+Alle lyd- og videofiler skal derfor sendes via filkassen. 
+ 
+Hvis aktindsigten sendes med fysisk post: 
+Hvis aktindsigten skal sendes med fysisk post, skriver vi, 
+at vi ikke kan medsende filerne på grund af filtypen. Vi 
+oplyser samtidig anmoder om, at denne kan fremsende 
+et USB-stik. 
+ 
+--- Page 80 ---
+80  
+Hvis vi modtager USB-stik, skal lydfilerne fra P360 ud på 
+skrivebordet. Herefter kan de flyttes over på USB-stikket.  
+ 
+HUSK at få digisupport til at scanne USB-stikket for 
+virus, inden du sætter det i din pc/dockingstation!  
+ 
+USB-stikket sendes med almindelig post. Brug Brev-1 
+skabelonen. 
+Mails i mails Robotten er kodet til at fjerne dubletter inden for samme 
+dokumentkort, men ikke på tværs af dokumentkort.  
+ 
+Det kan ske, at en mail fremgår to gange på samme 
+dokumentkort, men ikke er fjernet som en dublet i 
+aktpakken. Det kan skyldes, at der er forskel på det 
+unikke referencenummer, der er tildelt ved kombinering 
+til html.  
+ 
+Det samme kan ske med to filer, der ser totalt identiske 
+ud, men filnavnet på den ene dublet indeholder et ekstra 
+mellemrum. Det vil robotten ikke anse for at være en 
+dublet, fordi der er divergens i antallet af tegn i filnavnet.  
+ 
+Ingen af delene er robotfejl. 
+Koder og kommentarer i 
+Word-filer 
+Robotten fjerner de koder, der kan henføres til 
+skabelonen (kommentarbokse med frasetekst-valg).  
+ 
+Hvis der er foretaget ændringer ved hjælp af 
+gennemsynsfunktionen, og disse ikke er blevet 
+accepteret korrekt, vil de blive synlige ved 
+konverteringen til PDF. Disse skal fjernes manuelt, da det 
+ikke kan håndteres af robotten, se bilag 2. 
+Der er tidligere givet 
+aktindsigt 
+Når der tidligere er givet aktindsigt, vil robotten kun 
+medtage selve afgørelsen. Dokumentlisten og aktpakken 
+frasorteres.  
+ 
+Det gælder dog kun, hvis den tidligere afgørelse (eller 
+følgebrev) indeholder ordet ”Aktindsigt”.  
+ 
+Hvis aktpakke og dokumentlisten af den grund er pakket 
+med, fjernes den fra aktpakken. 
+ 
+Se ovenfor om håndtering af aktindsigt, hvor der tidligere 
+er givet aktindsigt til samme anmoder. 
+--- Page 81 ---
+81  
+Rullende dato i P360 • Vælg det pågældende dokumentkort, hvori datoen 
+ruller. 
+• Vælg ”Leveret NgDP” under `Kontakter` ud for 
+modtageres navn. 
+Så kan dokumentet hentes i pdf-format. 
+Rullende dato i e-arkivet Der er word-dokumenter i e-arkivet, der har rullende 
+dato. Det betyder, at dokumentet automatisk indsætter 
+dags dato. 
+ 
+Her skal du påføre dokumentets korrekte dato. 
+Aktindsigtens størrelse Tjek filstørrelsen 
+Filstørrelsen må max være: 
+• 70 MB ved digital forsendelse (digital post) 
+• 2 kg eller op til ca. 340 sider ved Strålfors 
+ 
+Se mere under ”Forsendelse”. 
+Forhåndsvisning Du skal kontrollere en sidste gang ved, at forhåndsvise 
+forsendelsen for at tjekke at afgørelsen, dokumentlisten 
+og sagens akter er på den rigtige borger. 
+Når du har kontrolleret forsendelsen, skal du klikke på 
+”afbryd”. 
+Herefter kan du klikke på ”ekspeder”, så forsendelsen bliver 
+konverteret til PDF. 
+--- Page 82 ---
+82  
+Pakning af akter og dokumentliste – manuel behandlet sag 
+ 
+Ajourført 24-04-2026 / JAKR 
+Udnyt tiden Start med at folde akterne ud på dobbeltpilen, så du kan se, 
+om der er dokumenter du skal være OBS på, fx mails og Excel 
+ark 
+ 
+ 
+Rækkefølge når du laver en aktindsigt, så tiden udnyttes: 
+• Dan dokumentlisten 
+• Dan afgørelsen – men vent med at udfylde den 
+• Sæt P360 til at pakke akterne 
+• Du kan sagtens lave dokumentlisten og afgørelsen, 
+mens akterne pakkes – du kan som regel også 
+arbejde i P360 imens, men den kan fejle i 
+pakningen 
+Dokumentlisten 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tomt eller udgået 
+dokumentkort 
+ 
+Fuld eller delvis aktindsigt 
+Dokumentlisten er et krav uanset omfanget af 
+aktindsigten. 
+ 
+Opret en dokumentliste 
+ 
+Klik på sagsfunktioner > Vælg rapport > Vælg 
+dokumentliste 
+Dokumentlisten gemmes ned på pakkebordet. 
+ 
+Vigtigt: Tjek at det er den korrekte sag, dokumentlisten 
+omhandler. Systemet kan engang imellem oprette 
+dokumentlisten fra en tidligere sag. 
+ 
+Akten overstreges på dokumentlisten. 
+ 
+Anmodning om fuld aktindsigt 
+Dokumentlisten viser alle akter. 
+ 
+Dokumentlisten kan kun danne 60 linjer i alt (inkl. titlen 
+på dokumentkort og vedhæftede filer). 
+Er der mere end 60 linjer, skal de sidste skrives på 
+manuelt. 
+ 
+Anmodning om delvis aktindsigt 
+Dokumentlisten tilrettes, så den viser de akter, der er i 
+aktpakken (der er anmodet om aktindsigt i). 
+
+--- Page 83 ---
+83  
+Samle aktpakken • Klik på ”firkanten” ud for fanen dokumenter 
+ 
+• Klik på fluebenet i øverste venstre hjørne. Herved 
+markeres alle sagens dokumenter. OBS: (Du kan 
+maks. pakke 20 akter af gangen). Husk at fjerne 
+fluebenet ved de akter, der skal undtages. 
+ 
+• Klik på udskriv dokumenter. Vælg ”udskriv valgte”, 
+og tryk herefter ”OK”. 
+ 
+• Aktpakken dannes og gemmes ned på pakkebordet. 
+ 
+Vigtigt: Når aktpakken er lavet skal du tjekke, 
+• at akterne er i samme rækkefølge som 
+dokumentlisten 
+ 
+• at der ikke er akter, der skal undtages 
+ 
+• om der er sider, der skal vendes 
+ 
+Bogmærker må ikke slettes. 
+Pakning i sager med 
+mange akter eller mange 
+dokumenter i akterne 
+• Der kan kun pakkes 20 akter af gangen – ofte vil 
+det være en fordel at pakke i flere omgange, hvis 
+der er mange akter eller mange dokumenter på 
+dokumentkortet 
+ 
+• Når der er mange dokumenter på et dokumentkort, 
+kan det være svært at overskue ved 
+forhåndsvisning. Åbn i stedet akten på en fane for 
+sig selv, og tjek af i ”Brug visningsprogram”, så får 
+du 15 akter ad gangen 
+ 
+• Særligt i arbejdsskadesager: Akterne fra AES 
+(typisk akt 1) er ofte store filer, og det kan være 
+en fordel at åbne akten for sig selv og så pakke 
+resten uden. Bagefter kombineres de to pakker i 
+Adobe (bogmærker må ikke fjernes). 
+Fejlkilder ved pakning Hvis der er excel ark blandt akterne, vil det ofte fejle i 
+pakning. Pak akten manuelt i stedet. 
+ 
+Mails med vedhæftede filer. Hvis mailen pakkes og der 
+står ”Attached”, men der ikke er pakket noget, skal mailen 
+åbnes og filerne pakkes manuelt. 
+ 
+Mails i mails. Hver mail skal åbnes og tjekkes for 
+vedhæftede filer. 
+--- Page 84 ---
+84  
+Genoptagelsessager Sagen pakkes sådan: 
+• Dokumentliste fra den oprindelige sag 
+• Akterne fra den oprindelige sag 
+• Dokumentliste fra genoptagelsessagen 
+• Akterne fra genoptagelsessagen 
+Gennemsyn af akter Du skal altid kontrollere aktindsigten inden forsendelse 
+ 
+• Tjek, at der ikke mangler noget. Du skal åbne 
+alle dokumentkort på sagen og sammenholde 
+med aktpakken 
+ 
+• Tjek, at sidetal passeer 
+ 
+• Tjek, at der ikke er uvedkommende oplysninger 
+ 
+Alle mails skal åbnes ved gennemgang af sagens akter. 
+Det er ikke altid, at eventuelle vedhæftninger i mails er 
+pakket ud. 
+Rullende dato i P360 • Vælg det pågældende dokumentkort, hvori datoen 
+ruller. 
+• Vælg ”Leveret NgDP” under `Kontakter` ud for 
+modtagerens navn. 
+Så kan dokumentet hentes i pdf-format. 
+Rullende dato i e-arkivet Der er word-dokumenter i e-arkivet, der har rullende 
+dato. Det betyder, at dokumentet automatisk indsætter 
+dags dato. 
+ 
+Her skal du påføre dokumentets korrekte dato. 
+Filkassen (akter, der ikke 
+kan sendes) 
+Hvis der er lyd-, video- eller andre filtyper, der ikke kan 
+sendes på grund filtypen. 
+ 
+Hvis aktindsigten sendes digitalt:  
+Hvis aktindsigten skal sendes med digital post, sender vi 
+filerne via ”Filkassen”.  
+ 
+Alle lyd- og videofiler skal derfor sendes via filkassen
+. 
+ 
+Hvis aktindsigten sendes med fysisk post: 
+Hvis aktindsigten skal sendes med fysisk post, skriver vi, 
+at vi ikke kan medsende filerne på grund af filtypen. Vi 
+oplyser samtidig anmoder om, at denne kan fremsende 
+et USB-stik. 
+ 
+Hvis vi modtager USB-stik, skal lydfilerne fra P360 ud på 
+skrivebordet. Herefter kan de flyttes over på USB-stikket.  
+ 
+--- Page 85 ---
+85  
+HUSK at få digisupport til at scanne USB-stikket for 
+virus, inden du sætter det i din pc/dockingstation!  
+ 
+USB-stikket sendes med almindelig post. Brug Brev-1 
+skabelonen. 
+ 
+Aktindsigtens størrelse Tjek filstørrelsen 
+Filstørrelsen må max være: 
+• 70 MB ved digital forsendelse (digital post) 
+• 2 kg eller op til ca. 340 sider ved Strålfors 
+ 
+Se mere under ”Forsendelse”. 
+Forhåndsvisning Du skal kontrollere en sidste gang ved at forhåndsvise 
+forsendelsen for at tjekke, at afgørelsen, dokumentlisten 
+og sagens akter er på den rigtige borger. 
+Når du har kontrolleret forsendelsen, skal du klikke på 
+”afbryd”. 
+Herefter kan du klikke på ”ekspeder”, så forsendelsen bliver 
+konverteret til PDF. 
+ 
+  
+--- Page 86 ---
+86  
+Send lyd- og videofiler via filkassen (digital post) 
+ 
+ 
+Ajourført 27-11-2024 / LOMI 
+Video- eller lydfiler i 
+aktindsigt 
+Hvis der er lyd-, videofiler eller andre filtyper, der ikke kan 
+sendes digitalt, så anvendes filkassen. 
+Her kan du uploade materialer og sende link samt 
+adgangskode til modtager. 
+Åbne filkassen Brug dette link: 
+Filkassen (statens-it.dk) 
+Klik på ”Use network login” 
+Hvis du arbejder hjemmefra, skal du logge ind med dit B- 
+nummer og din adgangskode. 
+Opret mappe 1. Tryk på ”New folder” – skriv mappens navn ”J.nr. xxxx” 
+2. Klik på ”Create” 
+3. Klik på ”Upload” i filkassen Find lyd- eller videofilen som 
+du har gemt ned på dit pakkebord, dobbeltklik på denne 
+og filen overføres til filkassen 
+Del mappen med teamet 1. Gå til forsiden. Højreklik på mappen i Filkassen og 
+vælg ”Share folder”. 
+ 
+2. Klik på ”Share folder”. Søg de personer frem, der 
+skal have adgang til mappen. Det er alle faste 
+medarbejdere i Team Akt og Jura. 
+ 
+3. Klik på ”+Add”. De skal have rollen ”Collaborator”. 
+Klik dernæst på ”Done”. 
+Nu modtager alle en mail med link til mappen, som de skal 
+godkende. 
+Link og kode til filkassen 1. Højreklik på den relevante mappe og vælg ”Share via 
+link” 
+2. Vælg, at filen skal deles ”Public” (alle med linket kan 
+downloade mappen). 
+3. Sæt flueben ved ”View”. Vælg Permissions. 
+4. Klik ”Advanced” 
+--- Page 87 ---
+87  
+ 5. Sæt flueben i ”Set access code” 
+6. Under ”Expiration” skal der stå 30 dage – linket er 
+aktivt i 30 dage derefter 
+7. Klik på ”Create” 
+8. Du får nu et link og kode til Filkassen 
+9. Link til Filkassen skal indsættes i vores afgørelse om 
+aktindsigt 
+10. Der sendes et separat brev med koden til filkassen 
+11. Opret en frist til ADM AKT på 30 dage. Herefter 
+lukkes adgangen i filkassen. 
+ 
+ 
+  
+--- Page 88 ---
+88  
+Forsendelse 
+ 
+ 
+Ajourført 04-06-2026 / JAKR 
+Forsendelsesmuligheder 
+i P360 
+Digital post 
+Strålfors fjernprint – Strålfors printer og sender 
+Udskriv – Ankestyrelsens printer 
+ 
+Du må kun ændre den forsendelsesmulighed, der fremgår 
+af P360, hvis der specifikt er anmodet om at få 
+aktindsigten tilsendt på en bestemt måde. 
+Særligt om Strålfors 
+fjernprint og Udskriv 
+Inden du trykker ”ekspeder”, skal du undersøge: 
+• Er borgeren afgået ved døden eller udrejst (ofte vil 
+kontakten være streget over i P360) - vi slår op i 
+CPR 
+• Er parten oprettet forkert på sagen (kontakten er 
+grå/sort i stedet for blå, når vi kigger under 
+kontakter på sagen i P360) – vi opdaterer eller 
+henter kontakten ind i P360 
+• Er borgeren/partsrep. fritaget for digital post – vi 
+undersøger via ”Send Digtalt” funktionen i Outlook 
+• Er e-boks nede – kig på Ajour, i højre side under 
+IT-driftsinfo – vi venter til der kommer udmelding 
+om, at vi kan sende digital post 
+Begrænsninger Strålfors:  
+• Max. 340 sider/2 kg. Overstiger forsendelsen dette, 
+skal den enten deles op, eller udskrives 
+• Ingen billedfiler 
+• Alle sider skal være i A4 format (kan tjekkes på 
+følgende måde:  
+Åben filen i Adobe, tryk Ctrl + D og under fanen 
+’Beskrivelse’ finder man Sidestørrelsen. Hvis der står 
+ca. 210 × 297 mm, så er det A4. 
+• c/o adresser skal stå som følger (slet flettefeltet i 
+adressehovedet og skriv adressen som følger): 
+Anders And 
+c/o Joakim von And 
+Gåsestien 1 
+0101 Andeby 
+ 
+Digital post: 
+• Max. 10 bilagsfiler excl. hoveddokumentet.  
+Er der flere bilagsfiler, der skal sendes med, kan 
+flere filer eventuelt samles i én pdf-fil og tæller så 
+kun for én bilagsfil. 
+Se vejledning hertil: Vejledning til at samle PDF og 
+bevare tilgængelighed  
+--- Page 89 ---
+89  
+Ligger et dokument 
+forkert ved forsendelse 
+Har et hoveddokument ændret sig til et bilagsdokument 
+eller omvendt? 
+Sådan ændrer du det: 
+1) Klik på dokumentkortet 
+2) Klik på de … tre prikker > Klik ”rediger egenskaber” 
+Du kan nu ændre i rubrikken ”tilknyttet som” 
+Når en forsendelse med 
+vedhæftede filer fejler 
+1. Åbn den pågældende PDF 
+2. Gå ind i ”Filer” og vælg ”Udskriv” 
+3. Vælg Printer = Adobe PDF – og tryk på 
+”Egenskaber” 
+4. Vælg ”Mindste filstørrelse” i dropdown menuen 
+under standardindstillinger 
+5. Tryk ”Udskriv” 
+6. Gem herefter filen på dit pakkebord 
+7. Gå ind i P360 
+8. Stå på dokumentkortet og tryk på de ”3 prikker” 
+9. Tryk derefter på ”Ny version” 
+10. Tryk på ”Gennemse” – vælg den fil du lige har 
+gemt, tryk ”ok” og tryk derefter på ”Tilknyt fil” 
+11. Nede i filvariant vælges ”P – Produktionsformat” 
+12. Forsøg at ekspedere aktindsigten igen 
+Forsendelse med Udskriv • Ekspeder aktindsigten via ”Udskriv” 
+ 
+• Vælg udskriv og print aktindsigten på en printer 
+ 
+• Afgørelsen skal underskrives med kuglepen 
+ 
+Hvis du arbejder hjemmefra, skal du 
+ 
+• Gemme den samlede PDF på dit pakkebord 
+ 
+• Send den samlede PDF fil til en medarbejder på 
+Nytorv, der kan printe aktindsigten 
+ 
+• Husk at gøre opmærksom på, at afgørelsen skal 
+underskrives med kuglepen 
+--- Page 90 ---
+90  
+Forsendelse på USB • Ekspeder aktindsigten via ”udskriv” 
+ 
+• Gem den samlede PDF på dit pakkebord 
+ 
+• Lav et følgebrev (BREV-1 eller BREV-2), som også 
+ekspederes via ”udskriv”. 
+ 
+• Print brevet ud 
+ 
+• Sæt USB-nøglen i computeren og åbn USB-nøglen 
+HUSK at få digisupport til at scanne USB-
+stikket for virus, inden du sætter det i din 
+pc/dockingstation! 
+ 
+• Flyt den samlede aktindsigt fra pakkebordet over 
+på USB-nøglen. Tag USB-nøglen ud af computeren 
+ 
+• VIGTIGT: Sæt USB-nøglen fast med tape på 
+følgebrevet, og underskriv brevet med kuglepen 
+ 
+• Skriv navn og adresse på en kuvert med bobleplast 
+ 
+• Noter i resumé på sagen, at aktindsigten er sendt 
+med fysisk post (USB-nøgle) d.d 
+  
+--- Page 91 ---
+91  
+Afslutning af sagen (FVL) 
+ 
+ 
+Ajourført 27-01-2025 / JAKR 
+Registrere udfaldet af 
+afgørelsen 
+Partsaktindsigt 
+Du skal afslutte sagen med en afgørelseskode. 
+ 
+Du skal sætte √ ud for ’Partsaktindsigt’ i 
+afgørelsesmodulet og trykke på rediger. Så får du 
+nedenstående billede frem, som du udfylder på følgende 
+måde: 
+ Afgørelseskode Her vælges en af nedenstående, alt 
+efter hvad udfaldet af aktindsigten 
+er: 
+- Fuld aktindsigt FVL 
+- Delvis aktindsigt FVL 
+- Afslag på aktindsigt FVL 
+ 
+Afgørelsesdato Datoen vi har truffet afgørelse om 
+aktindsigt – oftest d.d. 
+ 
+Kritik Nej  
+Afgørelsesform Administrativ afgørelse  
+Kontrolfrist Du skal sætte en kontrolfrist på sagen, selv om du har 
+påført en afgørelseskode. 
+ 
+Tilføj en frist under ”Detaljer” 
+ 
+Titel = Kontrol A  
+ 
+Forfaldsdato = dags dato 
+ 
+Ansvarlig enhed = Administration AKT  
+ 
+Ansvarlig person = dig selv 
+ 
+Status = udført 
+Adgangsgruppe = Administrationen / public 
+Klik på ok 
+--- Page 92 ---
+92  
+Robotbehandlet sag – 
+ændre dokumentstatus på 
+anmodning 
+Når du har sendt afgørelsen, skal sagen afsluttes på normal 
+vis.  
+Husk at ændre dokumentstatus på anmodningen fra ”Robot 
+færdigbehandlet” til ”Journalført”. Ellers vil afsluttede 
+aktindsigtssager fortsat blive fanget i søgningen, selv om 
+aktindsigten er afsluttet. 
+Lukke sagen Hvis sagen er sat i efterbehandling på grund af 
+anmodningen om aktindsigt, skal du lukke sagen igen. 
+ 
+Det gælder dog ikke, hvis anmodningen også indeholder 
+bemærkninger, indsigelse eller andet, der skal svares på af 
+sagsbehandleren. 
+ 
+  
+--- Page 93 ---
+93  
+Klagenævnet for Specialundervisning 
+ 
+ 
+Ajourført 03-06-2025 / JAKR 
+Tjek CPR Hvis sagen omhandler et barn, skal du tjekke i CPR, at der 
+ikke er sket ændringer i forældremyndigheden for den, der 
+anmoder om aktindsigt. 
+Titel på afgørelsen Afgørelsens titel skal ændres til: 
+Afgørelse fra Klagenævnet - Aktindsigt 
+Skabelon KNS04, Aktindsigt 
+ 
+Brug ”Søg og erstat” i Word til at sikre, at ”Ankestyrelsen” 
+er ændret til ”Klagenævnet for Specialundervisning”. 
+ 
+Du skal ikke rette i brevets sidepanel, hvor Ankestyrelsens 
+kontaktoplysninger fremgår. 
+Underskriver Formanden for nævnet skal ikke stå på afgørelsen som 
+underskriver. Afgørelsen underskrives alene af den, der har 
+truffet afgørelsen om aktindsigt.  
+Arbejdsskadesager – fuld aktindsigt – verserende sager 
+ 
+Ajourført 24-03-2026 / JAKR 
+Akter fra AES indgår i 
+aktindsigten 
+Team ASK vil i forbindelse med oprettelse af sagen hente 
+akter fra AES. Det drejer sig om alle akter frem til AES’ 
+oversendelsesbrev (Klage til Ankestyrelsen). Sagsakterne 
+er omfattet af aktindsigten. 
+Frabedt sig akter fra AES Når anmoder har frabedt sig akterne fra AES, skriver vi 
+følgende i afgørelsen: 
+”Du har frabedt dig akterne fra Arbejdsmarkedets 
+Erhvervssikring, hvorfor du alene modtager 
+Ankestyrelsens egne akter. Det betyder, at vi har 
+undtaget akt nr. 1, Sagsakter, fra aktindsigten, da det er 
+sagsakter fra AES.” 
+Afgørelsen om aktindsigt 
+fremgår af 
+dokumentlisten 
+Når afgørelsen om aktindsigt fremgår af dokumentlisten, 
+skriver vi følgende på side 1 i afgørelsen: 
+”Vi gør opmærksom på, at akt nr. XX, Afgørelse fra 
+Ankestyrelsen - aktindsigt, er denne afgørelse om 
+aktindsigt.” 
+--- Page 94 ---
+94  
+Fuld lægejournal er 
+indhentet til sagen 
+Når forsikringsselskabet (modparten) beder om fuld 
+aktindsigt, skal du være opmærksom på, om der er 
+indhentet en fuld lægejournal. 
+ 
+Hvis der er indhentet fuld lægejournal, skal fagkontoret 
+behandle aktindsigtsanmodningen, da der evt. skal 
+undtages oplysninger efter FVL § 15, b, nr. 5. 
+Lægekonsulentens 
+udtalelse 
+Der kan ikke gives aktindsigt i lægekonsulentens 
+u
+dtalelse, før der er truffet afgørelse i sagen. 
+ 
+Hvis sagen er verserende på grund af en indsigelse , vil et 
+eventuelt nyt lægesvar være  internt, indtil der er truffet 
+afgørelse om eventuel genoptagelse.  Et nyt lægesvar 
+fremgår af et internt notat på sagen (notatet er oftest 
+oprettet i tilknytning til indsigelsen).  
+ 
+Der vil derimod godt kunne gives aktindsigt i det 
+lægekonsulentsvar, der blev indhentet, før der blev truffet 
+afgørelse i sagen  (svaret fremgår typisk af ekstrakten), 
+herunder også eventuelt lægekonsulentsvar afgivet på 
+ankemøde med medvirken af lægekonsulent  (dette svar 
+fremgår af mødereferatet). 
+ 
+Hvis der specifikt er anmodet om et lægekonsulentsvar, der 
+ikke kan gives aktindsigt i på nuværende tidspunkt, skal det 
+undtages. Skabelonen indeholder en frase. 
+Skabelon – særligt for 
+arbejdsskadesager 
+Husk anmoders j.nr. 
+AKTI-13A, Afg om aktindsigt FVL – arbejdsskade 
+ 
+Hvis der er angivet et j.nr. hos anmoder (fx advokat, 
+forsikringsselskab), skal det angives i overskriften på 
+forsiden, fx ”Afgørelse om aktindsigt – jeres j.nr. XXX”. 
+ 
+ 
+Arbejdsskadesager – afsluttede sager 
+ 
+ 
+Ajourført 17-03-2026 / JAKR 
+Sagsakter er ikke på 
+sagen 
+Sagen kan ikke tilgås ved AES. 
+Vi oversender mailen til AES, så de kan tage stilling til 
+anmodningen for den del af akterne. 
+Skabelon – særligt for 
+arbejdsskadesager 
+ 
+Husk anmoders j.nr. 
+AKTI-13A, Afg om aktindsigt FVL – arbejdsskade 
+ 
+ 
+Hvis der er angivet et j.nr. hos anmoder (fx advokat, 
+forsikringsselskab), skal det angives i overskriften på forsiden, 
+fx ”Afgørelse om aktindsigt – jeres j.nr. XXX”. 
+--- Page 95 ---
+95  
+Referater 
+ 
+ 
+Beslutningsreferat  
+ 
+ 
+Mødereferat 
+De referater, der er på en arbejdsskadesag kan have flere 
+n
+avne. Men det er faktisk indholdet, der afgør, om referatet 
+er undergivet aktindsigt. 
+ 
+Beslutningsreferat 
+Hvis referatet kun indeholder oplysning om afgørelsens 
+resultat, vil det være omfattet af retten til aktindsigt efter FVL 
+§ 13. 
+ 
+Mødereferat 
+Hvis referatet indeholder en reel gengivelse af, hvad der er 
+foregået på mødet, så har det ikke karakter af 
+beslutningsreferat. Det betyder, at det er et almindeligt 
+internt dokument, der indeholder vores overvejelser om 
+sagen. 
+I det tilfælde er det altså ikke omfattet af retten til aktindsigt 
+efter FVL § 13. 
+Hvornår udarbejder vi et 
+beslutningsreferat? 
+Vi danner kun et beslutningsreferat, hvis der slet ikke er et 
+referat på sagen, og der specifikt bliver anmodet om det. 
+ 
+Det fremgår af Ankestyrelsens forretningsorden, at der altid 
+udarbejdes et referat efter et ankemøde. Så derfor reparerer 
+vi på en mangel. 
+ 
+Skabelon findes i bilag 10 (ankemøde) henholdsvis bilag 11 
+(skriftlig votering).  
+Ikke mødebehandlet sag 
+/ formandsafgørelse 
+Efter den 1. januar 2020 har det været muligt at afgøre 
+arbejdsskadesager uden mødebehandling. 
+ 
+Det betyder, at der ikke har deltaget beskikkede medlemmer. 
+ Det fremgår af afgørelsesmodulet, om sagen er afgjort 
+administrativt: 
+ 
+ 
+ 
+Se frase hertil under Fraser – afgørelsesdokument 
+ 
+
+--- Page 96 ---
+96  
+Lægekonsulentens 
+udtalelse – hvor findes 
+den? 
+En anmodning om fuld aktindsigt indbefatter altid spørgsmål 
+og svar fra lægekonsulenten. 
+ 
+Det fremgår af afgørelsen, om der har medvirket en 
+lægekonsulent. 
+ 
+Spørgsmål til og svar fra lægekonsulenten findes normalt i 
+ekstrakten under ”Lægeligt”. 
+ 
+Hvis der ikke er stillet spørgsmål under ”Lægeligt”, vil vi her 
+undtagelsesvist give aktindsigt i de spørgsmål og svar, der 
+fremgår under ”Sagsbehandlers noter”. 
+ 
+OBS! Der kan være lægesvar i mødereferatet, når sagen 
+har været behandlet på ankemøde med læge. 
+ 
+OBS! Der kan også være lægesvar i et internt notat, hvis 
+sagen har været forelagt lægekonsulenten i forbindelse med 
+en indsigelse til afgørelsen. 
+ 
+OBS! Vi giver ikke aktindsigt i oplægget til lægekonsulenten. 
+Lægekonsulentens 
+udtalelse – hvad 
+omfatter det? 
+Vi giver som udgangspunkt aktindsigt i det aktuelle lægesvar, 
+medmindre der specifikt er anmodet om tidligere svar. 
+ 
+Hvis der er flere lægekonsulenter, der har afgivet svar i sagen, 
+startes der med det første svar osv. 
+Lægekonsulentens navn eller initialer findes i ekstraktet. 
+Lægens speciale findes i telefonbogen på Ajour eller i listen 
+over lægekonsulenter (bilag 1). 
+Vi giver ikke aktindsigt i oplæg til lægekonsulenten. 
+Spørgsmål og svar kan være udformet meget forskelligt i 
+ekstrakterne. Det er ikke så vigtigt, hvordan du skriver det i 
+afgørelsen – bare det er tydeligt for modtager, hvad der er 
+spørgsmål og svar. 
+Tidligere givet aktindsigt 
+i lægekonsulentens 
+udtalelse til samme 
+anmoder 
+Når der er sendt aktindsigt ud i lægekonsulentens udtalelse, 
+skal lægekonsulentens udtalelse ikke tilføjes i afgørelsen. I 
+stedet skal dette afsnit tilføjes på side 1 i afgørelsen: 
+”Vi bemærker, at der tidligere er anmodet om aktindsigt i 
+lægekonsulentens udtalelse. Lægekonsulentens udtalelse ses 
+under akt nr. XX.” 
+Lægekonsulentudtal-
+elsen fremgår af en af de 
+fremsendte akter 
+Når lægekonsulentudtalelsen fremgår af en af de fremsendte 
+akter, skriver vi på side 1 i afgørelsen: 
+”Vi gør opmærksom på, at lægekonsulentens udtalelse fremgår 
+af akt nr. XX.” 
+--- Page 97 ---
+97  
+Når sager er behandlet 
+sammen  
+Når sager er behandlet sammen – der er kun et ekstrakt: 
+”Vi gør opmærksom på, at sagen er behandlet sammen med 
+sagen med j.nr. XX-XXXX. Du modtager derfor kun én samlet 
+afgørelse.” 
+Navne på beskikkede 
+medlemmer 
+Hvis anmoder også ønsker navne på de beskikkede, findes det 
+under ”Udvalgsbehandlinger” i P360. 
+Klik på datoen under ”Mødetidspunkt”, og klik på fanen 
+”Deltagelse”, hvor navnene på de beskikkede medlemmer 
+fremgår. 
+Navn på formand Vær obs på, om sagen er behandlet på egentligt ankemøde 
+eller skriftlig votering. På ankemøder er der en formand. Det er 
+der ikke på skriftlige voteringer. 
+  
+--- Page 98 ---
+98  
+Arbejdsskadesager – kun anmodet om lægekonsulentudtalelse/navne/referat 
+ 
+ 
+Ajourført 17-03-2026 / JAKR 
+Anmodningen om 
+aktindsigt 
+Anmodningerne er i 01-indbakken under ”Anmodninger” og 
+undermappen ”2. Lægekonsulentudtalelser”. 
+ 
+Husk at vælge sortering ”Efter Flag: Forfaldsdato” og for 
+at få anmodningerne sorteret i rækkefølge efter forfaldsdato. 
+ 
+Sæt altid din kategori på, når du trækker en anmodning, fx 
+JAKR. 
+Sagen er verserende Der kan ikke gives aktindsigt i lægekonsulentens udtalelse, 
+før der er truffet afgørelse i sagen. 
+ 
+Hvis sagen er verserende på grund af en indsigelse, vil et 
+eventuelt nyt  lægesvar være  internt, indtil der er truffet 
+afgørelse om eventuel genoptagelse. Et nyt lægesvar fremgår 
+af et internt notat på sagen  (notatet er oftest oprettet i 
+tilknytning til indsigelsen).  
+Der vil derimod godt kunne gives aktindsigt i det 
+lægekonsulentsvar, der blev indhentet, før der blev truffet 
+afgørelse i sagen, herunder også eventuelt lægekonsulentsvar 
+afgivet på ankemøde med medvirken af lægekonsulent. 
+ 
+Skal der gives afslag, anvendes skabelonen: 
+AKTI-18: Ingen lægekonsulent har medvirket/sagen er 
+verserende 
+Lægekonsulentens 
+udtalelse – hvor findes 
+den? 
+En anmodning om aktindsigt i lægekonsulentudtalelsen 
+omfatter altid både spørgsmål og svar fra lægekonsulenten.  
+ 
+Det fremgår af afgørelsen, om der har medvirket en 
+lægekonsulent. 
+ 
+Spørgsmål til og svar fra lægekonsulenten findes normalt i 
+ekstrakten under ”Lægeligt”. 
+ 
+Hvis der ikke er stillet spørgsmål under ”Lægeligt”, vil vi her 
+undtagelsesvist give aktindsigt i de spørgsmål og svar, der 
+fremgår under ”Sagsbehandlers noter”. 
+ 
+OBS! Der kan være lægesvar i mødereferatet, når sagen 
+har været behandlet på ankemøde med læge. 
+ 
+OBS! Der kan også være lægesvar i et internt notat, hvis 
+sagen har været forelagt lægekonsulenten i forbindelse med 
+en indsigelse til afgørelsen. 
+
+--- Page 99 ---
+99  
+ 
+OBS! Vi giver ikke aktindsigt i oplægget til 
+lægekonsulenten. 
+Lægekonsulentens 
+udtalelse – hvad 
+omfatter det? 
+Vi giver som udgangspunkt aktindsigt i det aktuelle lægesvar, 
+medmindre der specifikt er anmodet om tidligere svar. 
+ 
+Hvis der er flere lægekonsulenter, der har afgivet svar i sagen, 
+startes der med det første svar osv. 
+Lægekonsulentens navn eller initialer samt dato for udtalelsen 
+findes i ekstrakten. Hvis det ikke fremgår af ekstrakten, kan det 
+ses i loggen på ekstrakten. 
+Lægens speciale findes i telefonbogen på Ajour eller i listen 
+over lægekonsulenter (bilag 1
+). 
+Vi giver ikke aktindsigt i oplæg til lægekonsulenten. 
+ 
+Spørgsmål og svar kan være udformet meget forskelligt i 
+ekstrakterne. Det er ikke så vigtigt, hvordan du skriver det i 
+afgørelsen – bare det er tydeligt for modtager, hvad der er 
+spørgsmål og svar. 
+Skabelon 
+ 
+ 
+ 
+Husk anmoders j.nr. 
+AKTI-16: Lægekonsulent har medvirket 
+AKTI-18: Ingen lægekonsulent har medvirket/sagen er 
+verserende 
+ 
+Hvis der er angivet et j.nr. hos anmoder (fx advokat, 
+forsikringsselskab), skal det angives i overskriften på 
+forsiden, fx ”Afgørelse om aktindsigt – jeres j.nr. XXX”. 
+Hvis der også er 
+anmodet om aktindsigt i 
+referat 
+ 
+- Beslutningsreferat  
+ 
+ 
+- Mødereferat 
+De referater, der er på en arbejdsskadesag kan have f lere 
+navne. Men det er faktisk indholdet, der afgør, om referatet 
+er undergivet aktindsigt. 
+ 
+Beslutningsreferat 
+Hvis referatet kun indeholder oplysning om afgørelsens 
+resultat, vil det være omfattet af retten til aktindsigt efter FVL 
+§ 13. 
+ 
+Mødereferat 
+Hvis referatet indeholder en reel gengivelse af, hvad der er 
+foregået på mødet, så har det ikke karakter af 
+beslutningsreferat. Det betyder, at det er et almindeligt 
+internt dokument, der indeholder vores overvejelser om 
+sagen. 
+I det tilfælde er det altså ikke omfattet af retten til aktindsigt 
+efter FVL § 13. 
+--- Page 100 ---
+100  
+Hvornår udarbejder vi et 
+beslutningsreferat? 
+Vi danner kun et beslutningsreferat, hvis der slet ikke er et 
+referat på sagen, og der specifikt bliver anmodet om det. 
+ 
+Det fremgår af Ankestyrelsens forretningsorden, at der altid 
+udarbejdes et referat efter et ankemøde. Så derfor reparerer 
+vi på en mangel. 
+ 
+Skabelon findes i bilag 10 (ankemøde) henholdsvis bilag 11 
+(skriftlig votering).  
+Ikke mødebehandlet sag 
+/ formandsafgørelse 
+Efter den 1. januar 2020 har det været muligt at afgøre 
+arbejdsskadesager uden mødebehandling. 
+ 
+Det betyder, at der ikke har deltaget beskikkede medlemmer. 
+ 
+Det fremgår af afgørelsesmodulet, om sagen er afgjort 
+administrativt: 
+ 
+ 
+ 
+ 
+Se frase hertil under Fraser – afgørelsesdokument
+. 
+Når sager er behandlet 
+sammen  
+Når sager er behandlet sammen – der er kun et ekstrakt: 
+”Vi gør opmærksom på, at sagen er behandlet sammen med 
+sagen med j.nr. XX-XXXX. Du modtager derfor kun én samlet 
+afgørelse.” 
+Navne på beskikkede 
+medlemmer 
+Hvis anmoder også ønsker navne på de beskikkede, findes det 
+under ”Udvalgsbehandlinger” i P360. 
+Klik på datoen under ”Mødetidspunkt”, og klik på fanen 
+”Deltagelse”, hvor navnene på de beskikkede medlemmer 
+fremgår. 
+Navn på formand Vær obs på, om sagen er behandlet på egentligt ankemøde 
+eller skriftlig votering. På ankemøder er der en formand. Det er 
+der ikke på skriftlige voteringer. 
+
+--- Page 101 ---
+101  
+Registreringer på sagen, 
+når 
+aktindsigtsanmodningen 
+er behandlet 
+Se Afslutning af sagen (FVL). 
+ 
+Flyt mailen fra mappen ”2. Lægekonsulentudtalelser” til 
+mappen ”11. Behandlet post” 
+ 
+ 
+  
+--- Page 102 ---
+102  
+e-arkivet 
+ 
+ 
+Ajourført 27-01-2025 / JAKR 
+Videreførelsessag Opret en videreførelsessag, som aktindsigten håndteres fra. OBS! 
+Robotten kan ikke håndtere videreførelsessager. Sagen skal derfor 
+ikke sendes til robotbehandling. 
+Husk i afgørelsen at henvise til det oprindelige journalnummer. 
+Aktindsigtens 
+rækkefølge 
+1. Dokumentliste fra e-arkivet 
+2. Akterne fra e-arkivet 
+3. Dokumentliste fra videreførelsessag i P360 
+4. Akterne fra P360 
+Pakning af akterne fra 
+e-arkivet 
+1. Åbn sag i e-arkivet 
+2. Fremsøg sagen i e-arkivet 
+3. Tryk på firkanten så alle dokumenterne kommer frem 
+på oversigten. 
+4. Tryk Udskriv til PDF (valgte/alle) 
+5. Du vil modtage en mail med pdf-pakken, der kan 
+åbnes, og så er akterne pakket 
+6. Sorter filerne i rækkefølge, så de stemmer overens 
+med dokumentlisten 
+Dokumentliste Hent skabelon til dokumentlisten på Ajour – eKonsulenten - 
+Vejledninger Adm. Team Aktindsigt – Jura - ”Dokumentliste til E-
+arkivet” 
+ 
+Udfyld skabelonen med j.nr. og titel. 
+ 
+Tag et skærmbillede af sagen fra e-arkivet af felterne: 
+ 
+• Dokumentnr. 
+• Titel 
+• Journaldato 
+”Anke” kan være uden 
+tilknyttet dokument 
+Dette symbol indikerer, at der er tilknyttet dokumenter til anken: 
+ 
+ 
+Hvis symbolet mangler, betyder det, at det ikke indeholder 
+dokumenter, men kun er en dato for modtagelsen af sagen i 
+Ankestyrelsen. 
+Pas på rullende datoer Der er word-dokumenter i e-arkivet, der har rullende dato. Det 
+betyder, at dokumentet automatisk indsætter dags dato. 
+ 
+Her skal du påføre dokumentets korrekte dato. 
+
+--- Page 103 ---
+103  
+Find beskikkede 
+medlemmer 
+Eksempel 1 
+• Indtast sagsnummeret i øverste søgerubrik og tryk på 
+luppen: 
+ 
+ 
+ 
+• Klik på: 
+”Møde i Den Sociale Ankestyrelsen den XX/XX/XXXX” 
+ 
+ 
+ 
+• Udvid fanen ”Kontakter” eller ”Sagsoplysninger”, hvor 
+navnene på de beskikkede medlemmer og 
+lægekonsulenten fremgår. 
+Find beskikkede 
+medlemmer 
+Eksempel 2 
+• Klik på ”avanceret søgning” og vælg ”Dokument” 
+• Angiv journalnummer i ”indhold” 
+• Find dokumentnummeret der er søgt på, og tjek at 
+det ligger under ”klassifikationssystem” med titlen 
+”Referater” 
+• Klik på sagsnummeret 
+• Klik øverst i venstre hjørne, hvor mødet vises – klik 
+på mødet 
+ 
+ 
+ 
+Udvid fanen ”Kontakter” eller ”Sagsoplysninger”, hvor navnene på 
+de beskikkede medlemmer og lægekonsulenten fremgår. 
+
+--- Page 104 ---
+104  
+Fraser – sagsbehandling 
+ 
+Ajourført 11-03-2026 / JAKR 
+Fuldmagtsforhold under 
+afklaring 
+Vedr. aktindsigt i sag om {XX} vedr. {XX} 
+Ankestyrelsen har modtaget din anmodning om aktindsigt 
+den {XX}. Vi har endnu ikke modtaget den fuldmagt, vi 
+har bedt om. 
+Når vi modtager en tilstrækkelig fuldmagt, vil vi behandle 
+din anmodning om aktindsigt. 
+Der er bedt om, at 
+aktindsigten sendes på 
+et USB-stik 
+Du har {dato} anmodet om aktindsigt og bedt om, at du 
+får den tilsendt på et USB-stik. 
+Vi beder dig sende en tom USB-nøgle til os. Du skal sende 
+den til 
+Ankestyrelsen 
+Nytorv 7, 2. 
+9000 Aalborg 
+Du skal henvise til j.nr. {XX} og gøre opmærksom på, at 
+USB-nøglen er til brug for din aktindsigt. 
+Når vi har modtaget den, vil vi behandle din anmodning 
+om aktindsigt. 
+Anmodningen er upræcis Ankestyrelsen har den {dato} modtaget din anmodning 
+om aktindsigt. 
+ 
+Vi kan ikke ud fra din anmodning se, hvilken sag eller 
+hvilke sager du ønsker aktindsigt i, da du har et stort 
+antal verserende og afsluttede sager i Ankestyrelsen. Vi 
+har derfor behov for, at du præciserer din anmodning ved 
+angivelse af journalnumre eller periode. 
+ 
+Vi vil også gerne vide, om din anmodning kun gælder 
+verserende sager eller både verserende og afsluttede 
+sager. 
+ 
+Du kan indsende oplysningerne på vores kontaktformular, 
+som du finder her: {INDSÆT LINK} 
+ 
+Du er også velkommen til at ringe til os på tlf. 3341 1200. 
+--- Page 105 ---
+105  
+ Vi beder dig om at kontakte os hurtigst muligt og gerne 
+inden 5 dage. 
+ 
+Hører vi ikke fra dig i løbet af 5 dage, vil vi forstå din 
+anmodning på den måde, at du kun ønsker aktindsigt {i 
+dine verserende sager} {i sager, der er afsluttet inden for 
+de seneste 5 år}. 
+Borger har et stort antal 
+sager 
+I AKTI-2 indsættes efter dette afsnit: 
+ 
+”Afgrænsning af din anmodning om aktindsigt 
+ 
+Du har bedt om aktindsigt i {gengivelse af 
+aktindsigtsanmodningens ordlyd, gerne i citationstegn}. 
+Det har du gjort i et brev af den {dato}. 
+ 
+Vi beder dig om at præcisere din anmodning om 
+aktindsigt.” 
+ 
+Dette afsnit: 
+ 
+”En anmodning om aktindsigt skal indeholde de nødvendige 
+oplysninger for at identificere sagen/sagerne eller 
+dokumenterne, der bliver søgt om aktindsigt i. Det følger af 
+forvaltningslovens § 9 a. 
+ 
+Du har et stort antal sager i Ankestyrelsen, hvoraf nogle er 
+verserende og andre er afsluttede. Du har også sager inden 
+for flere forskellige temaer, fx {arbejdsskadesager, 
+beskæftigelsessager, socialsager, børnesager}. 
+ 
+Vi skal derfor bede dig oplyse, hvilke sager du ønsker 
+aktindsigt i, fx dine verserende sager, dine afsluttede sager 
+eller sager inden for et bestemt tema, fx {dine 
+arbejdsskadesager om tab af erhvervsevne}. 
+ 
+Vi skal bede om dine oplysninger inden 5 dage fra i dag.  
+ 
+Du er velkommen til at ringe til os for at drøfte eller 
+nærmere at præcisere din anmodning. 
+ 
+Hvis vi ikke hører fra dig, vil vi gå ud fra, at du alene 
+anmoder om aktindsigt i de af dine sager, der er 
+verserende på nuværende tidspunkt. 
+ 
+Venlig hilsen 
+XX”  
+ 
+--- Page 106 ---
+106  
+Herefter slettes resten af indholdet i skabelonen inkl. det 
+vedhæftede lovuddrag.  
+Vi mangler 
+kontaktoplysninger 
+Vi har kun mailadressen 
+Ankestyrelsen har den {dato} modtaget din anmodning 
+om aktindsigt. 
+ 
+Mailen indeholder ikke nok oplysninger til, at vi kan 
+behandle din anmodning. 
+ 
+Du skal sende din henvendelse igen med oplysning om 
+navn og adresse. Vi beder dig henvise til j.nr. {XX-XX}. 
+ 
+Hvis din henvendelse indeholder personfølsomme 
+oplysninger, anbefaler vi, at du indsender oplysningerne 
+via Ankestyrelsens kontaktformular, som du finder på 
+vores hjemmeside, eller ved at klikke på 
+linket her {INDSÆT LINK} 
+ 
+Det er også muligt at skrive til sikkermail@ast.dk. 
+ 
+Vi foretager os ikke yderligere før, at vi har modtaget dine 
+kontaktoplysninger. 
+  
+--- Page 107 ---
+107  
+Fraser – afgørelsesdokument 
+ 
+Ajourført 24-04-2026 / JAKR 
+Løbende aktindsigt På forsiden: 
+Vi sender her en aktoversigt og en kopi af de akter, der er 
+tilgået sagen, siden du senest fik aktindsigt den {dato}. 
+Fejlede filer i aktpakken På forsiden: 
+Vi gør opmærksom på, at akt {X} er et beskadiget 
+dokument, og det kan ikke åbnes. 
+Dokumentets titel er {X} og er indsendt af {X}. 
+Dokumentet fremgår af dokumentlisten, men findes ikke i 
+aktpakken. 
+7-dages fristen er 
+allerede overskredet 
+På forsiden: 
+Vi beklager, at vi ikke har imødekommet din anmodning 
+om aktindsigt inden for tidsfristen. Det skyldes en fejl i 
+posthåndteringen. 
+ 
+ELLER 
+ 
+Vi beklager, at vi ikke har imødekommet din anmodning 
+om aktindsigt inden for tidsfristen. Det skyldes fejl i 
+vores it-systemer. 
+Der er truffet afgørelse, 
+inden vi har håndteret 
+aktindsigten 
+På forsiden: 
+Vi er opmærksomme på, at du har modtaget en afgørelse i 
+sagen, før vi har behandlet din anmodning om aktindsigt. 
+Hvis du sender bemærkninger til sagen på baggrund af 
+aktindsigten, vil vi tage stilling til, om de giver anledning 
+til, at vi genoptager din sag. 
+Reserveret 
+afgørelsesudkast 
+undtages 
+Under begrundelsen – internt dokument: 
+{Vi lægger vægt på}, at sagen ikke er afgjort, og at 
+afgørelsesdokumentet derfor på nuværende tidspunkt ikke 
+er endeligt. 
+Der er tidligere givet 
+aktindsigt 
+På forsiden: 
+Vi sender alene de akter, der er journaliseret på sagen 
+siden seneste afgørelse om aktindsigt af den [dato]. 
+Dobbeltsager På forsiden: 
+Vi gør opmærksom på, at dine sager med j.nr. {XX} og 
+{XX} indeholder de samme akter. Vi har derfor alene 
+sendt én kopi af sagsakterne. 
+Digitale filer på sagen På forsiden: 
+Du har den {dato} fremsendt {fx lydfiler} til 
+Ankestyrelsen. 
+ 
+Disse filer indgår i sagen. Der er tale om digitale filer, som 
+vi ikke kan sende med fysisk post. Hvis du ønsker filerne 
+tilsendt, beder vi dig sende et USB-stik til os. 
+--- Page 108 ---
+108  
+Der er indsat link til 
+filkassen 
+På forsiden: 
+Vi bemærker, at akt {XX} indeholder {skriv filtype}. 
+Filerne findes i filkassen, som du finder via dette link: 
+{indsæt link til filkassen}. 
+ 
+For at tilgå materialet i filkassen, skal du bruge en kode. 
+Koden sendes i et separat brev. 
+ 
+Du har adgang til materialet i 30 dage. 
+Brev med koden til 
+filkassen 
+Skabelon: Brev-1 
+ 
+Aktindsigt – kode til filkasse 
+ 
+Som det fremgår af vores afgørelse af {dato} om 
+aktindsigt, sender vi her en kode, så du kan få adgang til 
+filkassen. 
+ 
+{INDSÆT KODE} 
+ 
+Du skal bruge det link, der er indsat i afgørelsen. 
+ 
+Vær opmærksom på, at du kun har adgang til materialet i 
+30 dage. 
+Slettet uvedkommende 
+oplysninger modtaget 
+ved en fejl 
+Under begrundelsen: 
+I de dokumenter, du har fået aktindsigt i, har vi slettet 
+enkelte oplysninger. Det drejer sig om oplysninger om {FX 
+ANDRE BORGERE – SKRIV HVAD DET ER}, som ved en fejl 
+er blevet registreret på din sag. 
+Der er således ikke tale om oplysninger, der relaterer sig 
+til din sag. Vi har modtaget dokumenterne fra {NAVN PÅ 
+KOMMUNE}. Vi har samtidig gjort kommunen opmærksom  
+på, at der ved en fejl er registreret oplysninger om andre 
+personer på din sag. 
+Frabedt sig akter fra AES På forsiden: 
+Du har frabedt dig akterne fra Arbejdsmarkedets 
+Erhvervssikring, hvorfor du alene modtager Ankestyrelsens 
+egne akter. Det betyder, at vi har undtaget akt nr. 1, 
+Sagsakter, fra aktindsigten, da det er sagsakter fra AES. 
+Afgørelsen om aktindsigt 
+fremgår af 
+dokumentlisten 
+På forsiden: 
+Vi gør opmærksom på, at akt nr. XX, Afgørelse fra 
+Ankestyrelsen, er denne afgørelse om aktindsigt. 
+--- Page 109 ---
+109  
+Tidligere givet aktindsigt i 
+lægekonsulentens 
+udtalelse til samme 
+anmoder 
+Når der er sendt aktindsigt ud i lægekonsulentens 
+udtalelse, skal lægekonsulentens udtalelse ikke tilføjes i 
+afgørelsen. I stedet skal dette afsnit tilføjes på forsiden: 
+”Vi bemærker, at der tidligere er anmodet om aktindsigt i 
+lægekonsulentens udtalelse. Lægekonsulentens udtalelse 
+ses under akt nr. XX.” 
+Lægekonsulentudtalelsen 
+fremgår af en af de 
+fremsendte akter 
+På forsiden: 
+Vi gør opmærksom på, at lægekonsulentens udtalelse 
+fremgår af akt nr. XX. 
+Når sager er behandlet 
+sammen, og der kun er én 
+ekstrakt 
+På forsiden: 
+Vi gør opmærksom på, at sagen er behandlet sammen med 
+sagen med j.nr. XX-XXXX. Du modtager derfor kun én 
+samlet afgørelse. 
+Anmodet om mødereferat, 
+men sagen ikke 
+mødebehandlet 
+På forsiden, som en afgørelsesdot: 
+Du får ikke kopi af sagens mødereferat. 
+ 
+Under begrundelsen: 
+Sagen har ikke været mødebehandlet i Ankestyrelsen. 
+ 
+Der er derfor ikke et mødereferat i sagen, som vi kan give 
+dig aktindsigt i. 
+Anmodet om navn på 
+mødedeltagere, men 
+sagen ikke 
+mødebehandlet 
+På forsiden, som en afgørelsesdot: 
+Du får ikke aktindsigt i navn på mødedeltagere/beskikkede 
+medlemmer/formand (vælg relevante). 
+ 
+Under begrundelsen: 
+Sagen har ikke været mødebehandlet i Ankestyrelsen. 
+ 
+Det er derfor ikke muligt at give dig aktindsigt i navn på 
+mødedeltagere/beskikkede medlemmer/formand (vælg 
+relevante). 
+ 
+  
+--- Page 110 ---
+110  
+Fraser – afvisning og svar på indsigelse 
+ 
+ 
+Ajourført 28-01-2025 / JAKR 
+Svar på indsigelse – 
+Arbejdskopi undtaget 
+Du får fortsat ikke aktindsigt i dokumentet ”arbejdskopi”, akt 
+{akt nr.}. 
+Som det fremgår af vores afgørelse af den {dato} er 
+”arbejdskopi 1-5” et internt arbejdsredskab for 
+sagsbehandleren. Arbejdskopien er alene en sammenstillet 
+kopi af de dokumenter, der er sendt fra kommunen. 
+Det betyder, at ”arbejdskopi” indeholder de samme akter, 
+som allerede ligger på sagen som enkeltdokumenter. De er 
+blot her samlet i én PDF-fil. Arbejdskopien indeholder altså 
+ikke andre dokumenter eller oplysninger end dem, som du 
+allerede har modtaget kopi af ved aktindsigten. 
+Dokumentet indeholder heller ikke faktiske oplysninger, som 
+du ikke allerede kender, fordi det alene er en kopi af de 
+akter, du allerede har fået. Det betyder, at dokumentet ikke 
+indeholder andre faktiske oplysninger, end hvad du får i de 
+øvrige akter, og som vi skal give dig efter loven. 
+Vi henviser i øvrigt til vores begrundelse i afgørelsen af den 
+{dato}. 
+Sagen er endnu ikke 
+modtaget hos os 
+Vi giver afslag, da vi ikke har modtaget sagen i 
+Ankestyrelsen. 
+Når Ankestyrelsen modtager din sag fra {SKRIV 
+FØRSTEINSTANS}, sender vi et kvitteringsbrev til dig. Så 
+kan du anmode om aktindsigt i din sag. 
+--- Page 111 ---
+111  
+Anonymisering af PDF-filer 
+ 
+ 
+Ajourført 05-12-2023 / LOMI 
+Dokumentet skal være 
+tekstgenkendt 
+Tryk på de 3 prikker. 
+ 
+Vælg herefter ”Genkend 
+tekst” 
+ 
+og ”I denne fil”. 
+ 
+ 
+Tryk på ”Genkend 
+tekst” 
+ 
+Selve Anonymiseringen 
+Tryk på ”Værktøjer” 
+Under fanen ”Beskyt og 
+standardiser” vælges 
+”Rediger” 
+ 
+ 
+
+--- Page 112 ---
+112  
+Tryk på ”Markér til 
+redigering” 
+Hvis det er tekst, kan 
+du markere 
+den, som du f.eks. 
+markerer tekst i Word. 
+Hvis det er billeder, kan 
+du trække en kasse 
+henover billedet. 
+ 
+ 
+Den markerede tekst 
+eller det markerede 
+billede bliver 
+rødt udenom for at 
+indikere, at det er klar 
+til at blive fjernet. 
+ 
+ 
+ 
+Du kan se hvordan, det 
+kommer til at se ud, når 
+du er færdig ved at 
+holde musen henover 
+det, du har markeret. 
+Når du er færdig med at 
+markere teksten, skal 
+redigeringen gøres 
+færdig. 
+Tryk på ”Anvend”. 
+ 
+ 
+ 
+
+--- Page 113 ---
+113  
+Når du trykker på 
+”Anvend” bliver alle de 
+markerede områder 
+fjernet. 
+Tryk ”OK” 
+ 
+ 
+ 
+ 
+Retningslinjer og arbejdsgang for anonymisering kan findes på 
+følgende link: 
+https://p360- 
+prod.ast.dk/GetFile.aspx?fileId=2811688&redirect=true 
+
+--- Page 114 ---
+114  
+Reducering af en PDF-fil 
+ 
+ 
+Metode 1 
+Trin 1: Filen skal være 
+gemt før den kan 
+reduceres – dernæst 
+følges vejledningen 
+nedenfor. 
+ 
+Filer  Gem som andet  PDF i reduceret størrelse 
+Trin 2 Bevar eksisterende  Tryk OK 
+Trin 3 Filen gemmes ned som en kopi i reduceret størrelse 
+(reduceringen kan godt tage flere minutter). 
+ Hvis ovenstående reducering ikke er nok benyttes 
+nedenstående vejledning til opdeling af aktpakken. 
+--- Page 115 ---
+115  
+Metode 2: 
+Trin 1: Forsøg at 
+nedsætte dpi 
+Tryk på Udskriv – vælg med Adobe PDF. 
+ 
+ 
+Vælg avanceret. I boksen ”dpi” vælges et lavere tal (240) alt efter 
+behov. 
+Husk at jo lavere tal der vælges, jo dårligere kvalitet vil filen få. 
+Skimt derfor 
+altid akterne igennem efter reduceringen. 
+Tryk dernæst på Udskriv, hvorefter pdf-filen genereres 
+(vær obs. på at dette kan tage tid.) 
+Trin 2 I tilfælde af at nedsættelsen af dpi ikke er tilstrækkeligt. 
+Tryk på gem som andet. Herefter tryk på PDF i reduceret størrelse. 
+Tryk på OK Dokumentet vil blive komprimeret til lavere størrelse. 
+Metode 3: Reducer filen: 
+-Klik på ”Filer”  ”Udskriv” 
+-Printer  vælg ”Adobe PDF” 
+-Klik på ”Egenskaber”  Standardindstillinger  vælg ”Mindste 
+filstørrelse” 
+
+--- Page 116 ---
+116  
+Særligt om PDF-filer 
+ 
+ 
+Ajourført 17-01-2024 / STBL 
+Udtrække en PDF 
+til flere filer 
+Hvis din pdf/aktpakke stadig er for stor til at sende som én fil, kan 
+du udtrække sider i din pdf, og derved dele din pdf fil op i flere filer. 
+Start med at overveje, hvor mange filer du har brug for at dele den 
+op i. 
+• 70 MB ved digital forsendelse (digital post) 
+• 2 kg eller op til ca. 340 sider ved Strålfors 
+ 
+OBS: Har du billeder eller indscannede dokumenter i din aktpakke vil 
+det typisk være dem, der fylder rigtig mange MB. Sørg derfor at de 
+bliver opdelt mellem de filer, du ender med at have udtrukket. Det er 
+derfor ikke altid ”nok” at dele filen op på midten. 
+Åbn din pdf. Vælg ”Organiser sider” under værktøjer (værktøjer 
+klikkes nemt frem ude i højre side) 
+ 
+Start med at skrive de sider ind, du vil trække ud. Hvis din fil f.eks. 
+er 20 sider og du skal dele den op i to, skriver du ”1-10”. Nu skulle 
+side 1-10 gerne blive markeret med blå. Herefter sætter du flueben i 
+”Slet sider efter udpakning”. Tryk på Udtræk. Herefter vil en fil med 
+de 10 sider du netop har udtrukket, åbne i en fil for sig. Denne fil 
+kan du herefter gemme som ”Sagsakter xx del 1” eller ”Sagsakter xx 
+
+--- Page 117 ---
+117  
+ s. 1-10” Husk at gemme den oprindelige fil (som nu også er på 10 
+sider) som del 2. 
+Et godt tip er at lave to kopier af den oprindelige fil og bruge kopien 
+til at udtrække i, da du altid vil have originalen tilbage, hvis 
+udtrækningen giver problemer. 
+Omdanne en PDF- 
+fil til Word-fil 
+1. Gem den PDF-fil I ønsker af omkonvertere til Word ned på 
+jeres pakkebord 
+2. I PDF-filen klikkes der på filer  eksportér til  Microsoft 
+Word  Word-dokument 
+3. Herefter omdanner den til Word fil og I kan gennem Word 
+filen ned på jeres pakkebord 
+Omdanne en PDF- 
+portefølje til en 
+samlet PDF 
+1. Hent PDF pakke i Se Sag  gem på pakkebord eller 
+skrivebord 
+2. Højreklik på filen  tryk på ’Kombiner filer i Acrobat’ 
+3. Tryk ok til den meddelelse som kommer op i Adobe. 
+4. Tjek filerne ligger i korrekt rækkefølge (ældste dokument i Se 
+Sag skal ligge først i PDF’en) 
+5. Tryk på ’kombiner’ (blå knap i højre hjørne) 
+6. Den samlede PDF-pakke kommer frem, når den har pakket 
+alle filerne 
+7. Gem filen og journaliser den ind i P360 
+ 
+Del aktpakken op efter filstørrelse 
+ 
+Gem først og fremmest aktpakken på pakkebordet. 
+Inde i aktpakken skal du ud i højre side, og klik på ”Organiser sider”: 
+--- Page 118 ---
+118  
+ 
+ 
+ 
+Derefter kommer der et nyt panel frem over dokumentsiderne, klik på ”Opdel efter”: 
+ 
+ 
+ 
+I ”Opdel efter” vil den normalt sige ”Antal sider”, klik på drop-down menuen og vælg i stedet 
+”Filstørrelse”: 
+ 
+ 
+
+--- Page 119 ---
+119  
+Den største filstørrelse Acrobat kan opdele aktpakken i er 50 MB, så tast 50 MB ind i feltet 
+efter. Klik ”Opdel”: 
+ 
+Filen vil så blive delt op i mindre dele, der automatisk vil gemme sig på pakkebordet. Den 
+originale aktpakke vil også blive gemt. De mindre fil-dele vil få suffikset ”_Artikel1” og 
+”_Artikel2” i korrekt rækkefølge.  
+  
+
+--- Page 120 ---
+120  
+Bilag 1 - Oversigt over lægekonsulenter 
+Ajour: 15-10-2025 /JAKR 
+ 
+Fornavn Efternavn Speciale E-mail 
+Anders  El-Galaly Ortopædi AELG@ast.dk  
+Anders Vedel Holst Neurologi  
+Agnete Parving Speciale i øre-, næse- og 
+halssygdomme 
+ 
+Alice Madsen Psykiatri  
+Allan Lundberg-Jensen Ortopædi alj@ast.dk 
+Annette Kier Børnepsykiatri anki@ast.dk 
+Annette Sylvest Ortopædi asy@adt.dk 
+Benn Rønnow Duus Ortopædi brdu@ast.dk 
+Birthe Lykkegaard Tandlæge bily@ast.dk 
+Christian Wied Ortopædi chwi@ast.dk  
+Christina Rostrup Kruuse Neurologi crrk@ast.dk 
+Claudia Christina Hilt Kristensen Neurologi cchk@ast.dk  
+Claus Otto Carl Zachariae Dermatologi cza@ast.dk 
+Diana Kristensen Psykiatri dikr@ast.dk 
+Erik Kjærsgaard Nielsen Psykiatri ekjn@ast.dk 
+Flemming Winther Bach Neurologi flwb@ast.dk 
+Finn Guntelberg Arbejdsmedicin  
+Gert Rahbek Andersen Ortopædi gan@ast.dk 
+Hanne Birthe Børner Børnepsykiatri habo@ast.dk 
+Hanne Vibe Hansen Psykiatri hvh@ast.dk 
+Helge Kasch Neurologi heka@ast.dk 
+Holger Jespersen Neurologi  
+Jakob Reith Neurologi  
+--- Page 121 ---
+121  
+Jens Buchhave Børnepsykiatri jebu@ast.dk 
+Jens Richard 
+Møllegaard 
+Jepsen Psykiatri jri@ast.dk 
+Jesper Nørregaard Reumatologi jnr@ast.dk 
+Jesper Ougaard 
+Schønnemann 
+Ortopædi jeos@ast.dk 
+Jesper (JDE) Degn Neurologi  
+Jesper Hvass Schmidt Øre/Næse/Hals jehs@ast.dk 
+Johnny Keller Ortopædi jke@ast.dk 
+Jon Ivar Tuxøe Ortopædi jit@ast.dk 
+Jørgen Friis Ortopædi jfr@ast.dk 
+Jørgen J. Brinck Tandlæge jabr@ast.dk 
+Jørgen Degn Neurologi  
+Jørgen Villumsen Øjenlæge jvi@ast.dk 
+Jørn Therkildsen Guldhammer Ortopædi jtg@ast.dk 
+Karen Østergaard Neurologi karn@ast.dk 
+Karsten Overgaard Neurologi  
+Kim Holck Ortopædi kho@ast.dk 
+Kim Pagh Sperling Ortopædi kps@ast.dk 
+Kirsten Norling-Christensen Børnepsykiatri kinc@ast.dk 
+Klaus Hindsø Ortopædi klhi@ast.dk 
+Klaus Ejner Andersen Dermatologi klea@ast 
+Knud Hjulmand Psykiatri khj@ast.dk 
+Kristian Winge Neurologi  
+Kristian Stahl Otte Ortopædi kot@ast.dk 
+Kristoffer Munk Psykiatri  
+Lars Bo Weywadt Mediciner (speciallæge i 
+intern medicin) 
+labw@ast.dk 
+--- Page 122 ---
+122  
+Leif Olstrup Psykiatri lol@ast.dk 
+Leif Berner Hansen Ortopædi  
+Lisbeth Sandal Kortegaard Psykiatri lisk@ast.dk 
+Lise Korbo Neurologi  
+Lone Pedersen Forsberg Tandlæge lpf@ast.dk 
+Lonnie Froberg Ortopædi lonf@ast.dk  
+Mayooran Perampalam Neurologi mayp@ast.dk 
+Michael Nielsen Ortopædi mni@ast.dk 
+Michael Bjørn Russell Neurologi mbr@ast.dk 
+Morten Boye Petersen Ortopædi mbo@ast.dk 
+Niels Ebbehøj Arbejdsmedicin  
+Niels Kjærgaard Jørgensen Arbejdsmedicin mkjj@ast.dk 
+Nis Fredensborg Ortopædi  
+Noémi Becser Andersen Neurologi nban@ast.dk 
+Ole Bjørn Greve Psykiatri  
+Per Hubbe Neurologi  
+Peter Gebuhr Ortopædi pge@ast.dk 
+Peter Michael Lausten Nielsen Neurologi peln@ast.dk 
+Peter Michael Bernt Ortopædi  
+Peter Toft Tengberg Ortopædi  
+Poul Jennum Neurologi  
+Pusjka Helene Cohn Psykiatri  
+Rachid Bech-Azeddine Neurologi  
+Rasmus Buck Bendtson Ortopædi rabb@ast.dk 
+Reza Ghahremanlo Ortopædi regh@ast.dk 
+Rolf Petersen Arbejdsmedicin  
+Sally Timm Børnepsykiatri sti@ast.dk 
+--- Page 123 ---
+123  
+Steen Gimsing Audiologi stgi@ast.dk 
+Sten Larsen Ortopædi stel@ast.dk  
+Steffen Jacobsen Ortopædi stj@ast.dk 
+Søren Larsen Ortopædi slr@ast.dk 
+Søren Kristian Sørensen Børnepsykiatri soso@ast.dk 
+Thomas Gjørup Mediciner (speciallæge i 
+intern medicin) 
+thgj@ast.dk 
+Thor Friis Psykiatri  
+Thor Munch-Andersen Ortopædi thma@ast.dk  
+Tina Bendixen Børnepsykiatri bend@ast.dk 
+Tobias Nygaard Ortopædi tobn@ast.dk  
+Tom Lemser Ortopædi tle@ast.dk 
+Torsten Warrer Psykiatri towa@ast.dk 
+Ulla Britt Pedersen Børnepsykiatri  
+Ulrik Becker Mediciner (speciallæge i 
+intern medicin) 
+ube@ast.dk 
+Vibeke Råberg Mikkelsen Psykiatri  
+ 
+  
+--- Page 124 ---
+124  
+Bilag 2 – Fjerne kommentarbokse 
+ 
+Fjerne grå kommentarboks i højre side  
+ 
+Hvis rettelser fra gennemsynsfunktionen ikke er accepteret, kan der ses en grå boks i højre side af 
+dokumentet.  
+ 
+Den sikre løsning er at udskiftet dokumentet med den PDF-fil, der findes under modtagers navn 
+under forsendelsesinfo.  
+ 
+Boksen kan også fjernes ved at ændre en indstilling i Word 
+ • Vælg fanen ”Gennemse” 
+ • Klik på ”Vis markering”  
+ • Hold musen over ”Bobler”  
+ • Vælg ”Vis alle ændringer i selve teksten”  
+ 
+Herefter skal dokumentet gemmes og konverteres igen. 
+ 
+ 
+ 
+  
+
+--- Page 125 ---
+125  
+Bilag 3 – Ændre i sagstitel på dokumentlisten 
+ 
+• Tryk på bogmærket ”Sagsnavn” 
+• Vælg ”Udvikler og egenskaber” 
+• I pop-uppen skal du fjerne flueben ved ”Indhold kan ikke redigeres” 
+ 
+ 
+  
+
+--- Page 126 ---
+126  
+Bilag 4 - Vejledning til indhentelse af oplysninger hos Rigsarkivet (i arkivdatabasen Daisy ) 
+ 
+Søg via blanket her: Lån jeres afleverede materiale og sager - Rigsarkivet  
+Klik herefter på: 
+ 
+  
+ 
+Vælg arkivdatabasen Daisy. 
+Herefter ser siden sådan ud:
+ 
+ 
+Under ”arkivskaber eller arkivserie” skrives navn på 
+adoptionsformidlingsorganisation -> søg 
+Herefter ser billedet således ud: 
+
+--- Page 127 ---
+127  
+ 
+Klik herefter på ”vis arkivserier”. 
+Så ser billedet således ud:  
+ 
+Klik på ”adoptionssager”, hvorefter billedet ser sådan her ud: 
+ 
+
+--- Page 128 ---
+128  
+ 
+Klik på ”vis indhold”, hvorefter man får vist pakkenumre.  
+ 
+ 
+Herefter skal man have kasse/pakke nr. ## for at søge efter den sag, man gerne vil 
+bestille. Kasse/pakkenummer har vi kun på Terre Des Hommes sager.  
+For at finde et kassenummer på Terre Des Hommes sag, skal man gå ind på sag 22-
+6939 i public 360 -> oversigt over TDH’s adoptionssager -> opdateret – Terre Des 
+Hommes adoptionssager - hovedoversigt. Herefter søger man på efternavn, vær obs 
+
+--- Page 129 ---
+129  
+på at forældrene kan have flere adoptioner, så navnet på det adopterede barn er 
+afgørende. Skriv kasse nr. og adoptionsnummer ned, da disse skal bruges.  
+Derefter skriver man pakkenummer i Daisy, hvorefter billedet ser således ud: 
+ 
+ 
+Sæt ”ønsket første benyttelsesdato” til dagen efter og tryk bestil. Herefter ser 
+kvitteringen for bestilling sådan ud: 
+
+--- Page 130 ---
+130  
+ 
+    OBS! Bestillingsnummer er vigtig ved senere bestilling af scanning 
+ 
+Bestilling af scanning af oplysninger 
+ 
+ 
+Blanketten findes her:  
+
+--- Page 131 ---
+131  
+  
+Klik på åbn blanket og bestil scanning, hvorefter vælges offentlig myndighed. 
+Klik 
+på næste. 
+ 
+
+--- Page 132 ---
+132  
+  
+Her skrives 
+adoptionsnumm
+er. 
+--- Page 133 ---
+133  
+ 
+Klik herefter på næste. 
+Skriv her 
+sikkermail@as
+t dk 
+ 
+--- Page 134 ---
+134  
+ 
+Klik herefter på næste.  
+ 
+ 
+
+--- Page 135 ---
+135  
+  
+Herefter modtages kvittering.  
+  
+
+--- Page 136 ---
+136  
+Bilag 5 - 1 a – Aktindsigt i adoptionssagen fra en tidligere formidlende organisation 
+(adopterede) 
+    
+J.nr.: 24-110337 
+ 
+Anmoder: Den adopterede  
+ 
+Lov: Forvaltningsloven 
+ 
+Den adopterede er den, sagen handler om. Den adopteredes interesse i at kende til sin egen 
+identitet og historie vejer meget tungt. Samtidig indeholder sagerne ofte en række 
+helbredsoplysninger på andre end den adopterede. Disse oplysninger skal vi passe på.  
+ 
+Skabelon: AKTI-28 – frase ”adoptivbarn” 
+ 
+BEMÆRK at der er tale om hovedregler, og at en konkret vurdering i sagen kan føre til, at vi 
+fraviger hovedreglen. Du skal altid gennemgå sagens dokumenter og oplysninger og 
+overveje konkret. Hvis vi undtager dokumenter eller oplysninger fra aktindsigt, skal dette 
+begrundes over for anmoder. 
+ 
+Oplysninger eller dokumenter Skal der gives aktindsigt? 
+Hovedregel 
+Bemærkninger 
+Oplysninger om den 
+adopterede selv 
++  
+Oplysninger om adoptanterne Høringssvar fra 
+adoptanterne er ja: + i alt 
+ 
+Høringssvar er nej eller 
+ubesvaret: se nedenfor 
+ 
+Adoptanterne er afgået 
+ved døden:  
++ i alt, hvis det er mere 
+end 10 år siden, 
+adoptanterne er døde. 
+Hvis mindre end 10 år 
+siden dødsfald, foretages 
+konkret vurdering som 
+neden for 
+ 
+ 
+- Helbredsoplysninger om 
+adoptanterne 
++ Bemærk at adoptanternes 
+høringssvar kan betyde, at 
+visse helbredsoplysninger 
+skal konkret undtages, jf. § 
+15 b, nr. 5 
+- Straffeattester -  § 15 b, nr. 5. Vi giver aldrig 
+aktindsigt i straffeattester – 
+heller ikke, hvor der ikke er 
+registreret noget. I modsat 
+fald ville man kunne slutte 
+modsætningsvis, hvis vi kun 
+undtog, når noget var 
+registreret. 
+- Økonomi +  
+- Sociale forhold +, det gælder også 
+adoptanternes 
+Bemærk, at der kan være 
+tilfælde, hvor der ikke gives 
+--- Page 137 ---
+137  
+barndomsbeskrivelser, 
+tidligere ægteskaber, 
+plejebørn mv. 
+aktindsigt i 
+helbredsoplysninger om 
+identificerbare tredjepersoner 
+– fx ”Adoptantens far havde 
+et stort alkoholmisbrug.” 
+ 
+- Andet, fx adoptionsmotiv 
+og ønsker til køn, land, 
+hudfarve o.lign. 
+ 
++ 
+ 
+Hvis adoptant siger nej til 
+sidste fire cifre i cpr.nr. og 
+begrunder dette, fx med evt. 
+misbrug i udlandet, undtager 
+vi de fire cifre med 
+begrundelsen, at der er tale 
+om fortrolige oplysninger 
+ 
+Hvis adoptant siger nej til 
+kontooplysninger – spørg 
+Jannie eller Tina 
+- Andet barn i forslag – fx 
+oplysninger om at der var 
+et andet barn 
++ Dog gives der ikke id-oplys 
+på barnet 
+ 
+Oplysninger om biologisk 
+slægt 
+  
+Biol mor og far 
+- Id.oplysninger 
+- Helbred 
+- Sociale forhold 
+- Afgået ved døden -  
+ 
++ 
++ 
++ 
++ 
+ 
+ 
+Biol søskende til den adopterede 
+- Id.oplysninger 
+- Helbred 
+- Sociale forhold 
+- Afgået ved døden 
+- At søskende også 
+er bortadopteret 
+- Til hvem (id-
+oplys) søskende 
+er bortadopteret 
+til. (Vi giver 
+landet) 
+ 
+ 
++ 
+-  
++ 
++ 
++ 
+-  
+ 
+Helbred: Hvis der angives at 
+være sammenhæng mellem 
+adoptivbarnets 
+helbredsforhold og biol 
+søskendes helbredsoplys, kan 
+der gives aktindsigt - fx 
+”Både barnet og dets 
+søskende er konstateret HIV-
+positive.” 
+  
+ 
+Oplysninger om andre 
+ 
+  
+Adoptanternes andre børn 
+- Id.oplysninger 
+- Helbred 
+- Afgået ved døden 
+- Plejebørn -  
+ 
++ 
+-  
++ 
++ 
+ 
+Der gives som udgangspunkt 
+ikke helbredsoplysninger om 
+tredjepersoner, der ikke er 
+en del af adoptionssagen. 
+- Samme adoptionssag med 
+flere søskende – 
+oplysninger om søskende 
+(”samme adoptionssag” 
+betyder de sager, hvor 
++ *Helbredsoplysninger om 
+søskende slettes, med 
+mindre det er 
+meningsforstyrrende 
+ 
+Der kan sendes en høring til 
+de øvrige adoptivbørn 
+--- Page 138 ---
+138  
+flere søskende er 
+adopteret samtidigt.)  
+ 
+(søskende), hvis der opstår 
+tvivl. Ofte ligger der 
+samtykke/fuldmagt fra de 
+øvrige søskende- hvis ikke 
+kan du bede om det. 
+ 
+*Ligger der oplysninger om 
+flere adskilte adoptioner på 
+samme sag udtages 
+oplysningerne om andre 
+børns adoptioner, og det 
+nævnes i afgørelsen under 
+frasen ”andre oplysninger”  
+Adoptivforældre til andre biol 
+søskende 
++ landet, hvortil barnet er 
+adopteret 
+Vi giver ikke id-oplys om 
+andre adoptanter 
+ 
+Sagsbehandlere og andre 
+professionelle 
++ Alle myndighedspersoner, 
+personnavne fra børnehjem 
+mv. er omfattet af retten til 
+aktindsigt 
+Dokumenter på sagerne på 
+original sprog 
+ 
++ Også selvom vi ikke selv kan 
+læse, hvad indholdet er 
+Dokumenter, der er håndskrevne, 
+eller på anden vis svært læsbare 
++ Dokumenterne gennemlæses 
+så godt det kan lade sig gøre, 
+men gives ellers i sin helhed 
+Interne dokumenter i den 
+formidlende organisation 
++ 
+ 
+Vi giver normalt 
+meroffentlighed i DIAs 
+interne dokumenter. Med 
+interne dokumenter menes 
+DIAs interne noter og mails 
+mv. Dokumenter bevarer 
+deres interne karakter efter 
+overførsel til AST.  
+ 
+(Er der tale om ASTs egne 
+sager er det normale 
+udgangspunkt et afslag på 
+aktindsigt i interne akter, jf. 
+FVL § 12.) 
+  
+Andre oplysninger   
+”Sagen” som den modtages fra 
+Rigsarkivet, kan indeholde en 
+række forskellige oplysninger 
+mv., som ikke vedrører selve 
+adoptionen af et konkret barn, 
+godkendelsen, formidlingen eller 
+adoptionsprocessen i det hele 
+taget. 
+ Disse oplysninger anses ikke 
+for at være en del af 
+adoptionssagen, og derfor 
+ikke noget, vi giver aktindsigt 
+i. Vi tager ikke stilling til, om 
+anmoder i øvrigt ville kunne 
+få aktindsigt. MEN vi skal 
+nævne i afgørelsen, at der er 
+oplysninger, vi ikke anser for 
+omfattet af anmodningen om 
+aktindsigt i ”adoptionssagen”. 
+Brug frasen ”andre 
+oplysninger” og skriv 
+konkret. 
+ 
+--- Page 139 ---
+139  
+ 
+  
+--- Page 140 ---
+140  
+Bilag 6 - 1 b – Aktindsigt i adoptionssagen fra en tidligere formidlende organisation 
+(adoptanterne) 
+   J.nr.: 24-110337 
+ 
+Anmoder: adoptanterne 
+ 
+Lov: Forvaltningsloven 
+ 
+Adoptanten er den, der har rejst sagen i den formidlende organisation, og som enten selv har 
+indsendt alle oplysninger, eller som vi antager ifm. adoptionen er blevet gjort bekendt med 
+alle oplysningerne. Det er bl.a. sket ifm., at adoptanterne skulle tage stilling til 
+matchningsforslaget og ved gennemførelsen af den endelige adoption i udlandet. 
+ 
+Skabelon: AKTI-28 – frase ”adoptivforældre” 
+ 
+BEMÆRK at der er tale om hovedregler, og at en konkret vurdering i sagen kan føre til, at vi 
+fraviger hovedreglen. Du skal altid gennemgå sagens dokumenter og oplysninger og 
+overveje konkret. Hvis vi undtager dokumenter eller oplysninger fra aktindsigt, skal dette 
+begrundes over for anmoder. 
+ 
+Typer af oplysninger eller 
+dokumenter  
+Skal der gives aktindsigt? 
+Hovedregel  
++ = der gives aktindsigt 
+- = der gives ikke aktindsigt 
+Bemærkninger 
+Oplysninger om 
+adoptanten selv  
++  
+   
+Oplysninger om den 
+adopterede 
++  Dette gælder alle former for 
+oplysninger, herunder 
+helbredsoplysninger 
+Oplysninger om biologisk 
+slægt 
++ 
+ 
+ 
+- Biol far og mor +  
+- Biol søskende + Bemærk, at der gives 
+aktindsigt som 1 a om biol 
+søskende. Visse oplysninger 
+kan derfor undtages.  
+Oplysninger om 
+adoptantens ægtefælle 
+(den ”anden” adoptant) 
++ Vær opmærksom på, om 
+anmodningen skal forstås 
+som sendt på begge 
+adoptanters vegne. Der skal 
+bedes om fuldmagt, hvis den 
+ene anmoder om aktindsigt 
+på den andens vegne. 
+Oplysninger om andre   
+Egne andre børn og 
+adoptivbørn 
++  
+Andre biol søskendes 
+adoptivforældre-id 
+-  
+Sagsbehandler og andre 
+professionelle 
++ Alle myndighedspersoner, 
+personnavne fra børnehjem 
+mv. er omfattet af retten til 
+aktindsigt 
+--- Page 141 ---
+141  
+Nye oplysninger, der er 
+tilgået adoptionssagen efter 
+adoptionens gennemførelse 
+-  Efterfølgende PAS-sager ville 
+af og til ligge i DIAs konkrete 
+adoptionssag – fx hvis at den 
+adopterede som voksen er 
+blevet vejledt.  
+Efterfølgende PAS-sager er 
+ikke en del af 
+adoptionssagen, og der gives 
+ikke aktindsigt til 
+adoptanterne. 
+ 
+Interne dokumenter i den 
+formidlende organisation 
++ 
+ 
+Vi giver normalt 
+meroffentlighed i DIAs 
+interne dokumenter. Med 
+interne dokumenter menes 
+DIAs interne noter og mails 
+mv. Dokumenter bevarer 
+deres interne karakter efter 
+overførsel til AST.  
+ 
+(Er der tale om ASTs egne 
+sager er det normale 
+udgangspunkt et afslag på 
+aktindsigt i interne akter, jf. 
+FVL § 12.) 
+  
+Et andet barn i forslag, fx 
+afgået ved døden, mv. 
++   
+Samme adoptionssag med 
+flere søskende – oplysninger 
+om søskende 
+(”samme adoptionssag” 
+betyder de sager, hvor flere 
+søskende er adopteret 
+samtidigt.)  
+ 
++ *Der kan ligge oplysninger 
+om flere adskilte adoptioner 
+på samme sag. Disse kan 
+gives til adoptivforældrene, 
+MEN vær obs på, om de 
+specifikt kun har bedt om et 
+af børnenes sager – fx ”Jeg 
+vil kun have Bjarnes 
+adoptionssag”. Beder de blot 
+om fx ”aktindsigt i sagen” 
+gives alle adoptioner. Tages 
+noget ud nævnes i 
+afgørelsen under frasen 
+”andre oplysninger”  
+Andre oplysninger   
+”Sagen” som den modtages 
+fra Rigsarkivet, kan indeholde 
+en række forskellige 
+oplysninger mv., som ikke 
+vedrører selve adoptionen af 
+et konkret barn, 
+godkendelsen, formidlingen 
+eller adoptionsprocessen i det 
+hele taget. 
+ Disse oplysninger anses ikke 
+for at være en del af 
+adoptionssagen, og derfor 
+ikke noget, vi giver aktindsigt 
+i. Vi tager ikke stilling til, om 
+anmoder i øvrigt ville kunne 
+få aktindsigt. MEN vi skal 
+nævne i afgørelsen, at der er 
+oplysninger, vi ikke anser for 
+omfattet af anmodningen om 
+aktindsigt i ”adoptionssagen”. 
+Brug frasen ”andre 
+oplysninger” og skriv 
+konkret. 
+--- Page 142 ---
+142  
+ 
+Se også 1 a for andre typer af dokumenter og oplysninger 
+ 
+  
+--- Page 143 ---
+143  
+Bilag 7 – Oversigt over relevante skabeloner ift. adoptions aktindsigter  
+ 
+Oversigt over skabeloner, der anvendes ifm. aktindsigter på 
+adoptionsområdet 
+ 
+ 
+Kvitteringsbreve 
+• DIA-1, Kvitteringsbrev, DIA, Aktindsigt (også rollebaseret udgave) 
+• DIA-2, Kvitteringsbrev - DIA, Til nye aktindsigter (også rollebaseret udgave) 
+• DIA-3, Kvitteringsbrev, Aktindsigt i overtagen sag fra DIA (også rollebaseret 
+udgave) 
+ 
+• AKTI-27, Kvitteringsbrev - aktindsigt i adoptionssag - FVL 
+ 
+Orienteringsbreve  
+• DIA-4, Orienteringsbrev, DIA, Aktindsigt (også rollebaseret udgave) 
+• DIA-5, Orienteringsbrev, DIA (nye anm.) Aktindsigt (også rollebaseret 
+udgave) 
+ 
+Alm. breve og div. sagsskridt 
+ 
+• BREV-1, Standard brev m j.nr. 
+• BREV-1A, Med orientering om databeskyttelsesreglerne 
+• BREV-4, Ringebrev 
+• BREV-9, Modtaget links og uhåndterbare filformater 
+ 
+• AKTI-2, Bede om afgrænsning af anmodning OFL 
+• AKTI-5, Fristbrev - fristen kan ikke holdes - OFL og FVL 
+• AKTI-25, Henlæggelse, aktindsigt 
+• AKTI-26, Høring i adoptionssager DIA 
+ 
+Afgørelsesbreve - Aktindsigt efter forvaltningsloven 
+ 
+• AKTI-18, Afslag (akten eksisterer ikke) 
+• AKTI-28, Afgørelse adoption – FVL 
+ 
+Afgørelsesbreve - Aktindsigt efter offentlighedsloven 
+• AKTI-8, Afgørelse om aktindsigt OFL fuld/delvis/afslag  
+ 
+Fuldmagter 
+ 
+• FULDM-1, Ingen fuldmagt 
+• FULDM-2, Upræcis fuldmagt 
+• FULDM-8, Håndtering af fuldmagt 
+--- Page 144 ---
+144  
+ 
+Indsigelser og genoptagelser 
+ 
+• GENOP-1, Bekræftelse på modtagelse af indsigelse (gælder alle områder) 
+• GENOP-3, Beslutning om genoptagelse 
+• GENOP-4, Brev til borger genoptagelse af egen drift 
+• GENOP-8, Afvisning af genoptagelse 
+ 
+Databeskyttelse og persondata 
+ 
+• DATA-1, Bekræftelsesbrev indsigtsanmodning 
+• DATA-2, Orientering om persondata 
+• DATA-3, Indsigt 
+• DATA-5, Underretning om sikkerhedsbrud til berørt borger 
+• DATA-6, Brev til uberettiget modtager af oplysninger 
+• DATA-7, Svar fra databeskyttelsesrådgiveren 
+• DATA-8, Orienteringsbrev grønlandsk 
+• DATA-9, Orienteringsbrev engelsk 
+• DATA-10, Indskærper sletning 
+• DATA-11, Orientering om brud på persondatasikkerheden 
+  
+--- Page 145 ---
+145  
+Bilag 8 – Vejledning til afslutning af adoptionsaktindsigtssag 
+ 
+Vejledning til lukning af et forløb i adoptionssag 
+ 
+Når vi har sendt en afgørelse i en adoptionssag, er der et par ting vi skal huske, 
+inden vi kan afslutte sagen.  
+ 
+1. Sørg for at udfylde afgørelseskode under Afgørelser. 
+ 
+  
+ 
+1. Husk herefter ”Kontrol A” under frist –> udfyld felter og tryk OK.  
+ 
+ 
+2. Herefter skal vi annullere forløbet. Du annullerer forløbet ved at klikke på ”Annuller 
+forløbet”.  
+Vær her OBS 
+på, at sagen 
+efter fristen 
+fortsat står til 
+Administration 
+AKT. 
+--- Page 146 ---
+146  
+ 
+ 
+Forløbet er herefter annulleret, hvorefter sagen lukkes ved at klikke på sæt status -> A-
+afsluttet -> OK 
+ 
+ 
+  
+ Vær her OBS på, at 
+sagen efter 
+afsluttet fortsat står 
+til Administration 
+AKT  
+--- Page 147 ---
+147  
+Bilag 9 - Oversigt over frister – aktindsigt 
+ 
+Fristtype Frist ALLE DAGE 
+TÆLLES 
+MED  
+(Fristen er 
+INKL. 
+lørdage, 
+søndage, 
+helligdage 
+og 
+lukkedage) 
+KUN 
+ARBEJDSDAGE 
+TÆLLES MED  
+(Fristen er 
+EXCL. lørdage, 
+søndage, 
+helligdage og 
+lukkedage) 
+Hvad sættes 
+fristen på 
+sagen til? 
+Partshøring af borgere 
+m.fl. 
+Individuelt X  Individuelle 
+frist (dagen 
+for afsendelse 
+af brevet 
+tælles ikke 
+med) 
+Adoptionssager, ikke 
+DIA (fx TDH) 
+3 uger 
+(dog 20 
+dages 
+forløb) 
+X  20 dages 
+forløb 
+Adoptionssager (DIA) 90 dage X  90 dages 
+forløb 
+Klagesager – fra borger 40 dage  X 40 dages 
+forløb 
+Høringsbrev til 
+førsteinstans i 
+klagesager 
+7 dage  X 7 arbejdsdage 
+excl. dagen, 
+hvor brevet 
+er sendt 
+Klagesager – fra 
+førsteinstans 
+20 dage  X 20 dages 
+forløb 
+Anm. om aktindsigt – 
+FVL 
+7 dage  X 7 arbejdsdage 
+excl. 
+arbejdsdagen, 
+hvor den er 
+modtaget 
+Anm. om aktindsigt - OFL 7 dage  X 7 arbejdsdage 
+excl. 
+arbejdsdagen, 
+hvor den er 
+modtaget 
+Klage over aktindsigt – 
+OFL 
+20 dage  X 20 
+arbejdsdage 
+excl. 
+arbejdsdagen, 
+hvor den er 
+modtaget 
+Indsigt efter 
+databeskyttelsesreglerne 
+1 måned X  20 dages 
+forløb 
+ 
+--- Page 148 ---
+148  
+Bilag 10 – Beslutningsreferat – Ankemøde 
+ 
+Mødenr.: {Nr.}  
+  
+Dato: {fx onsdag den 21. november 2012 kl. 14} J.nr.:  
+  
+Deltagere:  
+Lægekonsulentens navn} {(Lægekonsulent – Ort./Neu./  )} 
+{Nr.}{Det beskikkede medlems navn}{(Organisation)}  
+{Nr.}{Det beskikkede medlems navn}{(Organisation)}  
+  
+  
+Mødeleder: {Navn} Sagsbehandler: {Navn} 
+ Forelagt af: {Navn} 
+  
+  
+Beslutning: 
+ 
+Beslutningen fremgår af vores afgørelse.  
+ 
+  
+--- Page 149 ---
+149  
+Bilag 11 – Beslutningsreferat – Skriftlig votering 
+ 
+Mødenr.: {Nr.}  
+  
+Dato: {fx onsdag den 21. november 2012 kl. 14} J.nr.:  
+  
+Deltagere:  
+  
+{Nr.}{Det beskikkede medlems navn}{(Organisation)}  
+{Nr.}{Det beskikkede medlems navn}{(Organisation)}  
+  
+  
+Mødeleder: {Navn} Sagsbehandler: {Navn} 
+  
+  
+  
+Beslutning: 
+ 
+Beslutningen fremgår af vores afgørelse.

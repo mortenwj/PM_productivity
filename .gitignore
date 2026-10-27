@@ -66,4 +66,51 @@ Thumbs.db
 # Tender reference library (sensitive bid material — keep local unless policy allows)
 docs/tender-reference/source/
 docs/tender-reference/extracted/
+docs/tender-reference/export/*.zip
+
+# Generated outputs (structure only in git)
+outputs/*
+!outputs/README.md
+!outputs/**/.gitkeep
+
+# Local spreadsheets, archives, and scratch at repo root
+/*.xlsx
+/*.zip
+
+# Office lock / temp files
+~$*
+**/~$*
+
+# Word exports when markdown is canonical in git
+docs/**/*.docx
+
+# RFP unpack scratch
+rfp_docx_extract/
+
+# Canvas local typings (Cursor provides these)
+canvases/node_modules/
+
+# Skill sync metadata (machine-local)
+.cursor/skills/**/.sync-state.json
+
+# Toolkit scratch and caches
+toolkit/**/__pycache__/
+toolkit/scripts/_*.txt
+toolkit/scripts/nve_behov_ado_cache.json
+
+# Large reference binaries under Process Platform
+projects/process-platform/**/reference-product-sheets/
+projects/process-platform/**/*.pptx
+projects/process-platform/**/*.pdf
+projects/process-platform/**/__pycache__/
+projects/process-platform/workunits/**/obj/
+projects/process-platform/workunits/**/bin/
+projects/process-platform/workunits/**/*.dll
+projects/process-platform/workunits/**/*.pdb
+
+# Product brief bundles (markdown sources stay tracked)
+docs/product/**/*.zip
+
+# Legacy duplicate of pyproject deps (keep file for reference only if present)
+# requirements.txt is tracked intentionally for non-uv environments
 

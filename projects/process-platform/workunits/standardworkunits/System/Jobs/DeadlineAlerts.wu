@@ -1,0 +1,9 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="B862A992-9091-4E3B-A841-12962FF2DFFB"
+      displayName="[LOCALIZED(164f89f4-0131-4c9d-983c-a91e125a2a91,*Notification for expired activity)]">
+  <description>[LOCALIZED(71a2da1f-0058-4ed8-ac3c-bd63852abef9,*Automatic Email notification to responsible person for activity passed deadline date)]</description>
+  <executable file="DeadlineAlerts.xml">
+    <invoke/>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"></job>
+</workUnit>
