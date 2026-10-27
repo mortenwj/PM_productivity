@@ -1,0 +1,14 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="8E073682-4033-4893-9C15-784E338FF304"
+          displayName="[LOCALIZED(75AD3A42-4533-4C4F-A889-79AF7CA660FA,*After Document Insert)]">
+  <description>[LOCALIZED(0C19B8F6-8FF6-4DA2-9EFA-D401E0FD8929,*Event fired after Document Insert to check if the respective case has to be registered for continuous transfer)]</description>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.Biz.Core.ContinuousTransfer.Events.ContinuousTransfer_DocumentInsertEvents.AfterInsertEvent">     
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+      <return type="string"/>
+    </xscript>
+  </executable>
+  <event shim="SI.Biz.Core.Events.DocumentManagerEventShim" name="AfterInsert"/>
+</workUnit>

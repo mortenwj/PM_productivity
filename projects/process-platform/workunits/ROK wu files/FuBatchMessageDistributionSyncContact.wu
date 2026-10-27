@@ -1,0 +1,8 @@
+<workUnit displayName="Beskedfordeler kontaktsynkronisering" id="580CD10C-2258-4A46-A37D-8B0C33C912E6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Kontaktsynkronisering i eDoc</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.FiveTimesAfter7pm" runAs="SystemDefault" resultType="none" category="Server:SRVPRDAPP11" />
+</workUnit>

@@ -1,0 +1,4 @@
+﻿<invokes>
+  <invoke routing='route://SI.Biz.Core//SI.Biz.Core.Compatibility.RetentionManager/CleanUpFiles'>
+  </invoke>
+</invokes>

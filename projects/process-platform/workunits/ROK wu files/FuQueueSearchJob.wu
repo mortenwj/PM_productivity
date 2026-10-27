@@ -1,0 +1,8 @@
+<workUnit displayName="Udfør bestilte søgninger" id="2F884C9A-6A9E-42AF-A4AD-AB689CEF5E0E" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Udfører bestilte søgninger som er sat i kø</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

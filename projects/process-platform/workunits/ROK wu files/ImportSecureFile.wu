@@ -1,0 +1,7 @@
+<workUnit id="C7AA931F-8EF0-44F9-B0C7-064DD6E73A6C" displayName="[LOCALIZED(6CAEB137-BF08-4D2E-A388-247FABF0E890,*Ports secure files)]">
+  <description>[LOCALIZED(273A9E6F-9B3E-400C-869D-339540742DB5,*This task imports files in transit into the secure file archive.)]</description>
+  <executable file="ImportSecureFile.xml" >
+    <invoke />
+  </executable>
+  <job queue="Sys.Immediatly" runAs="allaccess_serviceaccount" resultType="none" category="SecureZoneOrSecureFileArchive"/>
+</workUnit>

@@ -1,0 +1,11 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="a79d8bd9-8e2e-4159-afb2-3e728852c995"
+    visibility="public"
+    displayName="[LOCALIZED(6272e78f-4956-45c8-bae8-9428b004a20f,*Send web part and saved search notifications - Immediate)]">
+  <description>[LOCALIZED(208e1b82-b04b-43c3-b98e-a35872edd0db,*Sends immediate notifications (every 3 min.) for web parts and saved searches that a user has subscribed to.)]</description>
+  <executable file="SendFollowNotificationsImmediately.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.3Minutes" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

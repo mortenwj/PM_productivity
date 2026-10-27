@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="FU1E4A168C-E12C-44B9-9BDE-57ADB4EDBA5D" 
+	visibility="external"
+    displayName="VerifyUserRole">
+  <description>Verifies the Current User's role</description>
+  <categories>
+    <category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Fujitsu.eDoc.WU.User.VerifyUserRole">
+      <arguments>
+        <argument name="UserRoleToCheck" type="string">#null#</argument>
+      </arguments>
+	  <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

@@ -1,0 +1,99 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="CreateReminder"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbc="clr-namespace:SI.Biz.Core;assembly=SI.Biz.Core"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>CreateReminder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Runtime</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Runtime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:Case_v2" Name="CaseInstance" />
+      <Variable x:TypeArguments="x:Int32" Name="ReminderId" />
+      <Variable x:TypeArguments="sbc:Identity" Name="PhaseId" />
+    </Sequence.Variables>
+    <sbcpa:ContextBinder DisplayName="Run in 360 context (ContextBinder)" sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+      <sbcpa:ContextBinder.Parameters>
+        <Assign DisplayName="Get case instance" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:Case_v2">[CaseInstance]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:Case_v2">[SI.Biz.Core.ProcessEngine.Support.ProgressPlanHandler.GetCase(ProgressPlanId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Get phase ID" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbc:Identity">[PhaseId]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbc:Identity">[SI.Biz.Core.ProcessEngine.Support.ProgressPlanHandler.GetCurrentPhaseId(ProgressPlanId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Create reminder" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[ReminderId]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">[SI.Biz.Core.ProcessEngine.Support.ActivityHandler.CreateReminder(ConnectingEntity.Case, CaseInstance.Id, CaseInstance.OurRefId, CaseInstance.OrgUnitId, "Created from server action", DateTime.Now.AddDays(1))]</InArgument>
+          </Assign.Value>
+        </Assign>
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d0dDOlxfc291cmNlXGNvcmUtYmxcV29ya1VuaXRzXFRlc3RpbmdcVGVzdEF1dG9tYXRpb25cQ3JlYXRlUmVtaW5kZXIueGFtbAsvA1IOAgEBNQVQGwIBAjcJPhICAQs/CUYSAgEHRwlOEgIBAzw5PIgBAgEOOTo5SAIBDEQ4RJEBAgEKQTlBQgIBCEwzTIMCAgEGSTRJQAIBBA==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="256,316" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="278,440">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="CreateReminder_1" sap:VirtualizedContainerService.HintSize="318,520" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

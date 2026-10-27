@@ -1,0 +1,3534 @@
+--- Page 1 ---
+1 
+ 
+ 
+ 
+ARBEJDSSKADEOMRÅDET 
+Administrativ vejledning 
+ 
+09-06-2026 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+--- Page 2 ---
+2  
+Indholdsfortegnelse  
+Indhold 
+Indholdsfortegnelse ..................................................................................... 2 
+Chefer/souschefer .......................................................................................................... 3 
+1. Arbejdsskadeområdet ............................................................................. 4 
+1.1. Opret ny sag ........................................................................................................... 9 
+1.2. Opret frist ............................................................................................................. 18 
+1.3. Særlige registreringer ............................................................................................ 19 
+1.4. Kvitteringsbreve .................................................................................................... 26 
+1.5. Spot en e-tabssag med flere perioder ....................................................................... 27 
+2. Indbakke og ESDH-postkasse ................................................................ 30 
+2.1. Verserende post .................................................................................................... 30 
+2.2. Herreløse sager ..................................................................................................... 37 
+2.3. Notifikationer fra AES ............................................................................................. 38 
+2.4. Trækker klage tilbage............................................................................................. 39 
+2.6. Ombudsmandssager .............................................................................................. 42 
+2.7. Videreførelsessager ............................................................................................... 43 
+3. Journalpostkassen ................................................................................. 46 
+3.1. Opgaver i journalpostkassen ................................................................................... 46 
+3.2. Fysisk post ............................................................................................................ 49 
+3.3. Annullering/lukning af sag ....................................................................................... 51 
+3.4. Opret ekstra sag/sagsemne .................................................................................... 53 
+3.5. Flyt og kopier dokumenter ....................................................................................... 54 
+3.5. Kopier en sag ........................................................................................................ 55 
+3.6. Ændring/lukning sagsemne ..................................................................................... 56 
+3.7. Bekræftelse af rettidig klagefristsag ......................................................................... 58 
+3.8. Hastesager ........................................................................................................... 59 
+3.9. Ulovbestemte genoptagelser .................................................................................... 61 
+3.10. Forlængelsesbreve ............................................................................................... 64 
+3.11. Politianmeldelse, svarfristsag ................................................................................ 66 
+ 
+--- Page 3 ---
+3  
+ 
+ 
+ 
+Chefer/souschefer 
+ 
+Kontor Chef Souschef 
+ASK 1 (KBH) Steen Østergaard Jensen Caroline Ramsø Villemann 
+ASK 2 (AAL) Rikke Nielsen Camilla Boddum Søndergaard 
+ASK 3 (AAL) Rikke Seidelmann Jørgensen Linette Agerbo Warming 
+RETSAGER Cathrine Tjellesen Jeanette Nørgaard Yeseta  
+--- Page 4 ---
+4  
+1. Arbejdsskadeområdet 
+ 
+Sagstype Lov Titel (afgørelsesmodul)/Stikord 
+Anerkendelse 
+ § 6 Ulykker OBS: Hvis anmeldt for sent, så er det 
+anmeldelsesfrist 
+ § 7 Erhvervssygdom 
+OBS: Også gl. Lov 
+§ 20 
+§ 36 og § 36, stk.1 Anmeldelsesfrist – Hvis der står at fristen er 
+overskredet, eller den er for sent anmeldt (se s. 3) 
+ § 2, 3, 4 og 5 Den sikrede personkreds (se s. 3) 
+ § 48, stk. 2 Arbejdsgivers sikringspligt 
+Kun psykiske 
+skader veteraner 
+§ 7 E-sygdom, Veteran SPEC VETERAN 
+Psykiske skader 
+veteraner/Særlov 
+§ 7 E-sygdom, Særlov, Veteran SPEC VETERAN 
+ Afslag § 41 og/eller 
+afslag ulovbestemt 
+Genoptagelse, anerkendelse 
+Bruges kun, når AES har givet afslag 
+på genoptagelse (se s.4) 
+ § 6, 7, 20-23 Forsørgertabserstatning m.v.  
+Ingen stikord 
+Udmåling 
+ § 17 og § 17 a 
+(OBS: kun det antal 
+der klages over) 
+Tab af erhvervsevne 
+Kapitalisering (udbetaling engangsbeløb) 
+ASK Kapitalisering 
+Efterregulering (modregne for meget udbetalt) 
+ASK Efterregulering 
+ § 18 Mén 
+Forskud § 26 
+stk. 2 
+§§ 52 og 55 m.fl. Diverse – Bl.a. Klage over AES gebyr 
+(manuelt kvitteringsbrev kun til klager) og Ret 
+til dagpenge i Grønlandssager (OBS: Skriv i 
+resumé, at det omhandler ret til dagpenge) 
+ § 24 Årsløn- kun hvis der er taget stilling til 
+årslønnen i afgørelsen (se s. 3) 
+ § 15, stk. 1 og 3 Sygebehandling – inkl. transport  
+OBS: Kun et sagsemne med mindre det er 
+under sagen og i fremtiden 
+ § 15, stk. 2 Hjælpemidler 
+OBS: Kun et sagsemne  
+ § 40 a Tilbagebetaling 
+Ingen stikord 
+HUSK: Kun et sagsemne tilbagebetaling pr. sag 
+OBS: modregning brug e-tab (se s. 4) 
+ Afslag § 42 og/eller 
+afslag ulovbestemt 
+Genoptagelse, ydelser 
+Bruges kun, når AES har givet afslag på 
+genoptagelse (se s. 4) 
+ Klage over afslag på 
+aktindsigt 
+Aktpakke med/uden evt. robotsag - send til 
+01 ADM_AKTINDSIGT 
+   §18a Uddannelsesgodtgørelse 
+  Dagpenge, Grønland 
+Bruges kun i Grønlandssager, når TSK har 
+ret/ikke ret til dagpenge 
+--- Page 5 ---
+5  
+Den sikrede 
+personkreds 
+§ 2, 3, 4 og 5 
+ 
+Se evt. 
+eKonsulenten, 
+Arbejdsskade, 
+Lovens område 
+Pejlemærker: 
+• Hvis der står ”retligt omfattet” eller som følge 
+af arbejdet eller de forhold, det foregår 
+under” el. lign. er det personkreds 
+• Tjek klagen, ofte nævnes det i klagen fra FS 
+ 
+Eks. på temaer, der indikerer, at det er en 
+personkredssag: 
+ 
+• Arbejdets forhold (firmaarrangementer, frokost 
+på arbejdet/tyggeskader, hjemmearbejde, 
+ildebefindende, kursus, private ærinder, 
+vaccinationsskader mv. 
+• Transport til og fra arbejde (var fx ikke mødt 
+på arbejde endnu) 
+• Foreningsarbejde 
+• Håndsrækninger 
+• Skader i udlandet 
+ 
+Er der nævnt lægelige forhold eller 
+årsagssammenhæng er sagsemnet Ulykker 
+ 
+Der kan fra forsikringsselskabets side både være klaget 
+over personkreds og ulykke. Står der fx i klagen både 
+noget om anerkendelse/årsagssammenhæng og retligt 
+omfattet, er det typisk både personkreds og ulykker 
+Anmeldelsesfrist 
+§ 36 og §36, stk. 1 
+Pejlemærke: 
+• TSK vil typisk klage over afslag på dispensation fra 
+anmeldelsesfristen. I så fald oprettet sagen som 
+anmeldelsesfrist 
+ 
+• Det er mere kompliceret, hvis FS klager. De vil 
+kunne klage over både dispensation fra 
+anmeldelsesfristen, anerkendelse af en ulykke 
+og/eller mén 
+ 
+ 
+Årsløn 
+§ 24 og §17 e-tab 
+Pejlemærke: 
+• Årsløn beregnes altid kun i den første afgørelse, 
+hvor TSK får erstatning for Tab af erhvervsevne 
+• Uenig i beløb/beregningsgrundlag 
+• Fastsættelse af årsløn, dvs. der skal stå: 
+Årslønnen er fastsat til xxx kr. i afgørelsen 
+Tilkendelse / lønnedgang / erstatning = e-tab 
+Der kan være klaget over både årsløn og tab af 
+erhvervsevne. 
+OBS: Hvis der er klaget over årsløn og årslønnen ikke er 
+fastsat i afgørelsen, skal sagsemne årsløn ikke på sagen 
+--- Page 6 ---
+6  
+Genoptagelse, 
+anerkendelse § 41 
+Pejlemærke: 
+• Der står i afgørelsen/genvurderingen  
+”Vi genoptager ikke spørgsmålet om 
+anerkendelse af en arbejdsskade/din 
+ulykke/din erhvervssygdom” 
+Genoptagelse, ydelser 
+§ 42 
+Pejlemærke: 
+• Der står i afgørelsen/genvurderingen  
+”Vi genoptager ikke spørgsmålet om 
+varigt mén/tab af erhvervsevne” 
+Tilbagebetaling § 40 a Pejlemærke: 
+• Der står i afgørelsen/genvurderingen 
+”Tilbagebetaling”, ”Du skal ikke betale din 
+erstatning tilbage” eller ”Du skal betale for 
+meget udbetalt erstatning tilbage” 
+En sag om tilbagebetaling vil typisk være en del af 
+samme afgørelse som e-tab. Det nemmeste er derfor at 
+kigge i genvurderingsbrevet og se, hvad klagen handler 
+om, og hvad der er genvurderet. Nogle gange er både e-
+tab og tilbagebetaling påklaget, andre gange er det kun 
+den ene del. 
+Eks. genvurderingsbrev, hvor sagsemne 
+tilbagebetaling bruges: 
+• Vi vurderer fortsat, at der ikke er grundlag for at 
+kræve tilbagebetaling 
+• … at du ikke har haft forudsætninger for at kunne 
+gennemskue, at der var udbetalt for meget 
+erhvervsevnetab… 
+• Afgørelsen indeholder både spørgsmål om e-tab og 
+tilbagebetaling. Flg. fremgår af genvurderingen: 
+Det fremgår af klagen, at der klages over 
+afgørelsen om tilbagebetaling af for meget 
+udbetalt erstatning og længere nede… 
+Vi vurderer fortsat, at du skal tilbagebetale for 
+meget udbetalt erstatning (kun sagsemne 
+Tilbagebetaling, dvs. ikke e-tab) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Page 7 ---
+7  
+Særlige sager Bemærkninger Stikord 
+Hudsager - Alle former for eksem 
+- Psoriasis 
+- Nældefeber 
+- Vansiring (ar, brandsår og andre 
+hudskader) 
+ASK HUD 
+Medicinersager 
+ 
+ 
+ 
+Erhvervssygdomme 
+efter fortegnelsen 
+gr. E, H, I og K – 
+ikke alle medicin- 
+ske sygdomme er 
+på fortegnelsen. 
+Medicinske sager 
+kan også være for- 
+årsaget af ulykker 
+- Allergi 
+- Astma 
+- Lungelidelser, asbestose 
+- Indre organer 
+- Blodpropper 
+- Brok 
+- Indeklimasymptomer 
+- Bronkitis 
+- meningitis 
+- KOL 
+- Åndenød/uspecificeret 
+- Vejrtrækningsproblemer 
+- Nyreskader 
+- Bronkitis 
+- Pleurale Plaques 
+- Forgiftningsskader 
+- Maveinfektion 
+- Irritation øjne/næse (allergisk 
+reaction) 
+ASK MEDICINSK 
+Høresager - Kun støjbetingede høreskader 
+(Både ydelser og anerkendelse) 
+ASK HØRELSE 
+Kræftsager - Alle former for kræft (også selvom 
+det ikke skyldes arbejdsskaden) 
+- Leukæmi 
+- Non-hodgkins lymfom 
+ASK KRÆFT 
+ 
+Øjensager -  Øjenskader 
+(ikke slimhindegener, 
+røde, tørre og løbende 
+øjne (ASK Medicinsk) 
+ASK ØJNE 
+Tandsager - Tandskader ASK TÆNDER 
+Grønlandssager Lov om arbejdsskadesikring I 
+Grønland 
+Oprettes under det sagsemne det 
+vedrører 
+SPEC GRØNLAND 
+Værnepligtssager Værnepligtsloven 
+Oprettes under det sagsemne 
+det vedrører 
+SPEC 
+VÆRNEPLIGTIGE 
+--- Page 8 ---
+8  
+Vaccinationsskader Lov om erstatning for 
+vaccinationsskader 
+Oprettes under det sagsemne 
+det vedrører 
+Sundheds- og Ældreminister, hvis 
+det drejer sig om børn 
+SPEC 
+VACCINATIONS-
+SKADER 
+Besættelses- 
+tidens ofre 
+Lov om besættelsestidens ofre 
+ 
+Oprettes under det sagsemne 
+det vedrører 
+SPED 
+BESÆTTELSES-
+TIDEN 
+Selvstændige –  
+E-tab/Årsløn 
+Arbejdsskadesikringsloven 
+Kun sager om e-tab og årsløn 
+Også stikord selvom borger var 
+selvstændig før ulykken og i et 
+ansættelsesforhold under ulykken 
+SPEC 
+SELVSTÆNDIG 
+ERHVERVSDRIV 
+Søg på  
+virks og selvst i 
+afgørelsen  
+Færøsager Latingslov nr. 67 af 25. 
+maj 2005 
+Oprettes under det sagsemne 
+det vedrører 
+SPEC FÆRØERNE 
+Veteransager Arbejdsskadesikrings- loven og 
+Særloven 
+Oprettes under det sagsemne 
+det vedrører 
+Tjek i afg. om det omhandler en 
+værnepligtig der har været 
+udsendt 
+SPEC VETERAN 
+M.FL. 
+OBS: 
+anerkendelse af 
+E- sygdom, brug 
+de nye sagsemner 
+Forældelsessager Arbejdsskadesikrings- lovens § 
+36, stk. 2-5 og Forældelsesloven 
+Oprettes under det 
+sagsemne det vedrører 
+SPEC FORÆLDELSE 
+Covid-19 
+ 
+ 
+ 
+ 
+* Når AES er på som 
+FS skrives intern 
+note med. Flg. tekst: 
+XX-XX-XX: FS og 
+faktureringsnr. er AES 
+jf. afgørelse pga. 
+lovændring 
+Alle alm. sager med stikord COVID- 
+19 fordeles til Arbejdsskadeafd., 
+inkl. sager vedr. vaccination 
+ 
+Sager med stikord COVID-19, hvor 
+skaden er sket under hjemmearbejde 
+fordeles til Bettina Høyer Olesen 
+ 
+OBS: AES skal på som FS fra 01-07- 
+22, hvis det er en vaccinations-skade 
+(kode 763) med skadedato 27-12-20-
+31-12-22 og normalt FS skal IKKE 
+længere på sagen *se blåt 
+Covid-19 
++ SPEC 
+VACCINATION 
+(hvis det er skade 
+pga. vaccination)  
+--- Page 9 ---
+9  
+1.1. Opret ny sag 
+ 
+Opret ny sag 
+Ajourført: 08-01-2024  
+ OBS: Genvurderingsbrev med klage over aktindsigt. 
+Journaliser aktpakken på robotsagen, tilføj klager og AES og 
+send link til 01 ADM_AKTINDSIGT, der færdiggør sagen 
+Nye sager – ASK skrivebord 
+Har man kun brug for at 
+sætte sig på en enkelt 
+sag, kan du påføre dig 
+selv som Ansvarlig 
+person, og ændre status 
+til B – Under behandling 
+ 
+OBS: Har vi >250 sager 
+skal du først sortere på 
+Anke modt. dato, 
+markere dig, gå i 
+Standardvisning, og 
+derefter i Handlinger for 
+at redigere ansvarlig 
+Arbejdsskadesager – Robot Færdigbehandlet 
+Visning: Standardvisning (Se OBS i blå margin) 
+Klik på pil efter sagsnr., og sorter med A øverst, for at 
+få de ældste sager øverst 
+ 
+Sæt hak i det antal sager du vil have, Klik på Handlinger, 
+Rediger ansvarlig, Ansvarlig enhed: Administration ASK 
+Ansvarlig person: dig selv 
+OK 
+ 
+Bliver du ikke færdig og skal finde de sager du står på 
+næste gang du oprette sager finder du dem på dit 
+skrivebord - Min Status – Mine åbne sager 
+Åbn SeSag 
+ Åbn sagen i SeSag og tjek Dokumenter om der er ikke 
+journaliseret post (Blå bjælke) 
+ 
+OBS: Hvis AES fx skriver forkert afgørelsedato eller 
+sagsemne, send evt. sagen omkring vagten, der 
+afklarer med AES, hvad de oversender 
+Søg på Cpr. i P360 
+Klik på borger, hvis 
+denne er tilføjet til 
+sagen, ellers søg i P360 
+Vi skal sikre os, at den robot-sag der er oprettet 
+ikke er et sagsemne til en allerede oprettet sag 
+(tjek altid sager om de er verserende fra dette år 
+og året tidligere) 
+ 
+Oversendes der et nyt sagsemne til en sag vi 
+allerede har oprettet 
+Vi færdiggør sagen separat og kvitterer fra den nye sag 
+ 
+OBS: Tjek ALTID nyere verserende sager om det er 
+samme sag man sidder og opretter 
+ 
+ 
+ 
+ 
+--- Page 10 ---
+10  
+Hent aktpakke fra SeSag via Filezilla 
+OBS: mangler pakken skal 
+der oprettes en 
+fejlmelddelelse på AES 
+Driftportal, frist 14 dg. 
+(HUSK dit navn) 
+ 
+• Brug Lyntilslut 
+• Stå i feltet med pdf-pakker, søg med Ctrl+F 
+• Indsæt AES’ j.nr. (ikke cpr.) 
+• Dobbeltklik på filen og den kopieres til dit -
+/overførselscenter 
+• Træk herefter pdf-pakken op i Afhentet 
+ 
+OBS: Hvis der er to aktpakker skal du være OBS på at 
+tage den rigtige (tjek genvurderingsdato og AES j.nr.) 
+Minimumsakter – SeSag 
+Genvurderingsbrev 
+(Oversendelsesbrev) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Afgørelsen 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Klagen 
+OBS: Arbg. kan kun 
+klage over 
+anerkendelse. En 
+uforsikret arbg. kan dog 
+også klage over 
+erstatningsspørgsmålet 
+Vi sender din arbejdsskadesag til Ankestyrelsen – 
+• Scroll ned i bunden af brevet, og tjek om der er 
+oversendt flere sagsemner  
+• Hvem klager 
+• Hvad klages der over 
+• Tjek om klagefristen er overholdt (4 uger + 1 
+dag) – er du i tvivl, tjek hvordan afgørelsen er 
+sendt (længere klagefrist ved fysisk brev). Hvis 
+ikke klagefrist er overholdt, se vejledningen 
+under ”Særlige registreringer” 
+• OBS: Hvis det er en klagefristsag, der er 
+genvurderet, skal du sikre dig, at det ikke er en 
+sag, hvor vi tidligere har vurderet klagefristen og 
+sendt tilbage til AES til genvurdering – så skal du 
+ikke sende Frist-6 igen 
+ 
+Står der, at advokaten/partsrepræsentanten har klaget, 
+er det vigtigt, at tjekke, hvem de repræsenterer (TSK, 
+FS, arbg.) 
+ 
+Vi har truffet afgørelse i din sag 
+• Tjek altid, at datoen er den samme som 
+nævnt i genvurderingsbrevet 
+• Tjek for Stikord/Tags (hud, øjne, kræft 
+osv.) – så snart man spotter noget med 
+fysisk el. knogler (skulder, lænd, knæ osv. 
+er der ingen stikord) 
+• E-tab/årsløn – Søg i afgørelsen på selvst 
+og virks, for at se om TSK har været 
+selvstændig 
+• Er du i tvivl om sagsemne, tjek § 
+Klage 
+• Sagsemne vi opretter kun det/de sagsemner der 
+er genvurderet, også selv om borger klager over 
+flere 
+• Hvem klager? Er det ikke FS, TSK el. arbg. skal der 
+være gyldig fuldmagt (altid nyeste) 
+ 
+OBS: Alle indkomne akter efter afgørelsen skal 
+”skimmes”, da de kan indeholde relevante 
+oplysninger – vær særlig opmærksom på post fra AST 
+--- Page 11 ---
+11  
+Færdiggør sag – Gå i Sagsfunktioner, Rediger egenskaber 
+Generelt Titel: Ændres til det/de sagsemne der oversendes 
+Forløb: Vælg Arbejdsskade 240 
+Eksterne Kontakter 
+(CVR-nr. i SeSag under 
+Parter og 
+fuldmagthavere) – 
+OBS: Tjek det er 
+korrekt 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Eksternt j.nr., 
+faktureringsnr., Att. 
+(tjek evt. 19-45450) 
+Tilføj, vælg rolle, skriv CVR/CPR nr., Enter, klik 
+på kontakten (det blå link) – tilføj de resterende 
+parter med samme rolle, og når du er færdig tryk 
+Tilføj kontakt 
+ 
+Sæt hak i kassen ud for de kontakter der skal have 
+rollen ændret – Ændre rolle – vælg korrekt rolle 
+ 
+Kan kontakten ikke søges frem på CVR/CPR, er det 
+fordi de ikke findes i P360, du skal i stedet vælge 
+Ny kontakt, rolle – vælg Privatperson el. 
+Virksomhed – OK, vælg virksomhed (med CVR) 
+eller Personer (med CPR) – skriv CVR/CPR og tryk 
+Hent fra CVR/CPR – sæt cursoren efter cvr.nr. Enter 
+– Sæt hak i øverste boks – Overfør 
+ 
+Herefter skal eksterne j.nr. på + altid 
+faktureringsnr. ved FS og klager markeres med ja 
+– Se nedenunder 
+ 
+Flg. 4 roller skal der ALTID være på en ASK-sag: 
+Førsteinstans: Er påført af robot 
+Forsikringsselskab: Faktureringsnr., evt. eksternt 
+j.nr. (Resumé) evt. Att. felt (Se Excel-ark) 
+Borger – er evt. påført af robot 
+Arbejdsgiver: (evt. Ingen/Flere arbejdsgivere) 
+ 
+Evt. partsrep./Anden FM-haver: OBS: Det er altid 
+den nyeste fuldmagt der er gældende og til den der 
+står på fuldmagten (ikke den der indsender) 
+Advokater har stillingsfuldmagt, hvis de skal være 
+partsrep. (der kræves fuldmagt, hvis de kun skal have 
+begr. FM). Man skal kunne læse i en akt, hvem 
+advokaten repræsenterer 
+Evt. FS-partsrep: Er der en adv. til FS, skal de på 
+med rollen FS og FS som sagspart. Når der er sendt 
+kvitteringsbrev, ændres rollerne korrekt. Hvis der 
+afventer fuldmagt fra borger, skriv i resumé, at rollerne 
+på FS og dennes adv. skal ændres efter der er sendt 
+--- Page 12 ---
+12  
+ 
+ 
+ 
+ 
+Marker 
+klager/klagere 
+kvitteringsbrev. 
+Evt. adv. arbg.: De får rollen sagspart (arbg., inden 
+kvitteringsbrev sendes, hvis arbg. klager) 
+Klager: Vælg JA, ved ”Er klager” ved den/dem der har 
+klaget OBS: Har borger, FS el. arbg. en fuldmagthaver 
+der klager, vælges ja, både ved partsrep./anden FM- 
+haver og den part de repræsenterer 
+ 
+HUSK: Vi trækker kun nye virksomhedskontakter ind 
+med CVR-nr. og IKKE P-nr. Opdater ALTID både 
+en CVR og en CPR kontakt der er i P360) 
+Resumé 
+ 
+Eks.: 
+Obs verserende sag, 
+KNÆ, signaturfejl 
+• Skriv OBS verserende sag først i resuméfelt, hvis 
+der er verserende sager på samme borger (ASK, 
+RET, ulov) HUSK: Skriv det også i den/de 
+verserende sager 
+OBS: Vær særlig opmærksom, hvis borger har 
+en sag fra i år, at du ikke dobbeltopretter 
+ 
+• Tjek LEGEMSDEL er korrekt 
+ 
+• Fællesafgørelser: Er der truffet fællesafgørelse i 2 
+sager opretter vi begge, også selv om vi ikke har 
+modtaget genvurderingsbrev i ”sag 2” 
+Resumé: Fællesafgørelse med xxx (j.nr. hos AES), 
+OBS: skrives på begge sager (Se yderligere under 
+afsnit 1.3 i vejledning) 
+ 
+• I sager om Tab af erhvervsevne sager skriv 
+tilkendt (>=15%) afslag (<15%) 
+Tjek for Selvstændig i afgørelsen 
+ 
+• Blå bjælke SeSag. Skriv flg. i Resumé: OBS ikke 
+journaliseret post i SeSag 
+ 
+Hvis der er anm. om fuldmagt, og sag skal fordeles til 
+en bestemt sagsbeh. skriv det i resumé 
+Supplerende 
+oplysninger 
+Anke modtaget dato: 
+Dato i genvurderingsbrev 
+ 
+Sagsinfo: 
+ASK Forsikringsklage, når FS klager (også ved flere 
+klagere) 
+ASK Borgerklage, når TSK/fuldmagthaver/arbg. klager 
+Skadedato: Tjek jf. genvurderingsbrev – Udfør 
+Tags (stikord) Gå under Tags, Administrér stikord Skriv stikord 
+eller søg med % i søgefeltet (ASK – SPEC) 
+Tryk OK 
+TIP: Se oversigt over særlige sager 
+--- Page 13 ---
+13  
+Opret et sagsemne Under Forløb, aktiver PLAY-knappen: 
+Sagsemne: Vælg 
+Underinstans afg. dato: AES’ afgørelsesdato 
+Udfør 
+Flere sagsemner Gå under Afgørelser og vælg Ny 
+Udfyld sagsemne og AES’ afgørelsesdato  
+Udfør 
+Journaliser aktpakken 
+fra SeSag som akt 1 
+Dokumentkategori: Indkommende uden opfølgning 
+Titel: Sagsakter Afsender: AES Dato modt.: d.d. 
+Luk fase 1 og sagen 
+fordeles til 
+Arbejdsskade- 
+afdelingen 
+Luk Fase 1  
+Er der en sagsbeh. der har en verserende sag i forvejen, 
+skal du fordele den nye sag til samme sagsbeh. og sende 
+link til vedkommende med Cc. til souschefen i kontoret 
+Det samme gælder, hvis en sagsbehandler har en 
+verserende retssag eller ulovbestemt genoptagelse 
+Opdatere med F5 
+Mødebilag 
+• Åbn pdf’en 
+• Klik Ekstramoduler, Split Documents, Split 
+Document, OK, OK, OK – luk pdf 
+• Slet den komplette aktpakke fra Filezilla, hvis du 
+har gemt den i samme pakkebord 
+• Søg UD (Sørg for din visning er oversigt) 
+• Hold Shift nede – marker første og sidste UD-akt 
+• Tryk Ctrl. ned og klik på alle de UD-akter du 
+skal beholde (så de fjernes fra søgningen) 
+(alle afgørelse og genvurderingsbreve (altid den 
+der ender på .00) 
+• Tryk Delete og luk søgningen på blå kryds  
+• Markér alt Ctrl + A – Højreklik – Kombiner filer i 
+Acrobat, Brug Ctrl og marker Afgørelse(r), klage 
+(r), både forhåndsanke og evt. uddybende bem. og 
+genvurderingsbrev op (OBS: KUN vedr. denne 
+oversendelse), træk dem op, så de er øverst i 
+pakken 
+• Kombiner 
+• Gem som j.nr. – Mødebilag.pdf 
+ 
+Træk pakken ind i på dokumentkortet – Mødebilag 
+ 
+Kontrolfrist  
+Frist 
+Titel: Kontrol 
+Forfaldsdato: dd – Enter 
+Ansvarlig enhed: Administration ASK 
+Ansvarlig person: Dig selv 
+Status: Udført 
+OK (OBS, fristen kan ikke ses på sagen) 
+ 
+ 
+ 
+ 
+--- Page 14 ---
+14  
+Hvis der kan sendes kvitteringsbrev 
+Bekra-4A dannes 
+automatisk til FS 
+Vælg brevskabelon 
+OBS: Hvis borger star 
+som udrejst, skal vi 
+tjekke i Outlook, om der  
+modtages digital post, 
+ellers skal brevet 
+udskrives 
+Under Sagsfunktioner vælges Rollebaserede breve 
+Tryk OK 
+BEKRA 2A – når TSK ikke har givet fuldmagt 
+BEKRA 21A – når TSK har givet begr. FM 
+BEKRA 9A – når TSK har partsrep. 
+Hvis arbejdsgiver klager: 
+ 
+BEKRA11-2C – FA, når TSK ikke har givet fuldmagt 
+BEKRA11-21C – FA, når TSK har givet begr. FM 
+BEKRA11-9C – FA, når TSK har partsrep. 
+OBS: Hvis du skal sende manuelle kvitteringsbreve, så 
+husk også et BEKRA-4A til FS 
+Hvis der skal sendes fuldmagtsbrev 
+OBS: Elever og 
+studenter må ikke 
+underskrive selvstændigt 
+OBS: Hvis borger star 
+som udrejst, skal vi 
+tjekke i Outlook, om der  
+modtages digital post, 
+ellers skal brevet 
+udskrives 
+Dokumenter, Nyt Dokument, Sagsdokument 
+ 
+Dokumentkategori: Dokument ud – Vi beder om opl. 
+Modtager: Borger 
+Kopimodtager: Ikke part 
+Status: Reserveret 
+Skabelon: ASK, FM-2 – Modstridende opl. (el. anden) 
+Brug F9 (vær OBS på A/S mv. i overskrift) 
+HUSK: Underskriv brevet 
+Tryk Udfør og sæt hak ved dokumentkortet og Ekspeder 
+Frist v. fuldmagtsbrev Gå i Frist og opret en frist med 
+Titel: fx Afv. FM2 – Kode 21 modstridende (OBS: notér i 
+fristen, hvis der er 2 nye sager vi har bedt om FM) 
+Forfaldsdato: dd. + 15 – enter 
+Ansvarlig enhed: Administration ASK – OK 
+ 
+Diverse 
+Sager, hvor det 
+IKKE er ATP der er 
+forsikringsselskab 
+ 
+Vi skal i stedet se på, 
+hvem arbejdsgiver er, og 
+ud fra det finde frem til, 
+hvem der skal på som FS 
+ 
+Er det en gammel 
+statssag med 
+skadedato før 
+01-01-97 
+ På forsiden af SeSag under Parter står der flg.: 
+ 
+ 
+ 
+ 
+I genvurderingsbrevet under FS står der flg.: 
+ 
+ 
+ 
+Som FS bruges kontakten Gamle Statssager, med 
+adressatkoden 750 – Gamle Statssager. Påfør den 
+faktureringskode for det FS der skal betale (se i 
+akter og evt. arbg. eller spørg TK) 
+OBS: Der sendes manuelt kvitteringsbrev kun til borger 
+el. evt. fuldmagtshaver 
+
+--- Page 15 ---
+15  
+Staten Generelt Er der ikke nævnt et FS, eller Gamle Statssager i en 
+sag, hvor borger ikke var statsansat el. skadedato er 
+efter 1987, sendes link til Maria Lindegaard, der 
+afklarer, hvilket FS der skal på sagen. Gem svar på 
+sagen som intern note  
+Ukendt selskab, U-Sag Oversendes en sag med Ukendt selskab, U-sag, sendes 
+link til Maria Lindegaard Jacobsen for afklaring af FS, 
+og vi venter vi med at kvittere til vi får svar. Gem svar 
+i intern note 
+Borger uden fast 
+bopæl/kendt 
+adresse 
+Brevet oprettes med borger som hovedmodtager. Sæt 
+ekspederingskanalen til ”Udskriv” 
+Opret og send et følgebrev til kommunen og vedhæft 
+det aktuelle kvitteringsbrev. Vi sætter ikke att. på 
+OBS: Iflg. aftale m. LOMI skal vi ikke anonymisere 
+FM-breve (ved navne- og/el. adr. beskyttelse ), så 
+længe det ikke er til en privat vi skriver 
+Afsend brev 
+Vær OBS på om der 
+står udskriv – så 
+skal du printe og 
+sende manuelt 
+ 
+Hvis TSK har eBoks, er Ekspederingskanal Digital Post 
+Skal brevet sendes til 
+mere en én modtager, 
+hvor hovedmodtageren 
+ikke har digital post, 
+og kopimodtageren 
+har, vælges 
+forsendelsestype 
+”Haster farve” 
+TIP: Under ”Svar information” kan man åbne 
+det brev, man er ved at sende 
+ 
+Tryk Ekspeder 
+ 
+OBS: Hvis hovedmodtager modtager digital post, og 
+kopimodtager ikke gør, skal brevet til kopimodtager 
+sendes med følgeskrivelse (Brev-2) 
+Børn under >15 og <18 
+år 
+ 
+Barn skal på som 
+borger – forældre skal 
+have rollen forælder  
+Kvittér til borger (barnet), med kopi til forælder 
+/forældre. Hvis man ikke kan se forældremyndighed i 
+CPR, skriv til den forælder der har fået AES’ afgørelse 
+ 
+Skriv i resumé, hvornår barnet bliver 18, og at 
+forældres partsbeføjelser bortfalder, hvorefter de skal 
+slettes fra sagen 
+ 
+”En myndighed bør følge udgangspunktet om, at det er 
+forældremyndigheds- indehaveren, der varetager barnet eller den 
+unges rettigheder, men bør dog altid foretage en konkret 
+vurdering af, om der i den enkelte sag er omstændigheder der 
+gør, at barnet eller den unge selv er i stand til at varetage sine 
+interesser. Et oplagt tilfælde vil fx være, hvor et barn er tæt på at 
+blive myndig, hvor sagen indeholder potentielle interessekonflikter 
+mellem barn og voksen, og hvor afgærelsen rækker videre ind i den 
+periode, hvor barnet er myndigt. 
+Hvis arbejdsgiver er en 
+privatperson 
+De oprettes manuelt som virksomhed uden cvr. 
+
+--- Page 16 ---
+16  
+Vidner Skal trækkes på sag med cpr.nr. fra cpr. registret og 
+rollen ikke-part 
+Tjek dine oprettede 
+sager 
+Avanceret søgning – Vælg aktivitet 
+Aktivitetstype: Frist 
+Titel: Kontrol 
+Aktivitetsstatus: Udført 
+Startdato: den aktuelle dag 
+Ansvarlig enhed: Administration ASK 
+Ansvarlig person: Dig selv 
+Søg 
+Brug af Filezilla 
+Hentes i Softwarecentret, 
+skriv til digi-support om 
+adgang 
+ 
+OBS: Hvis akterne ikke 
+gemmer sig i overførsels-  
+centret, se vejledning lille 
+opslagstavle! 
+ 
+Åbn programmet med flg. værdier: 
+Vært: sftp://131.165.101.150 
+Brugernavn: TPP_SITAST01 
+Adgangskode: oVFSjFg7fycZWoZO9zak2hksLBmJZZ1bOVLtfchy 
+Port: 9122 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sæt hak i Udfør altid denne handling - OK 
+ 
+Dette gøres kun første gang du logger på, 
+herefter bruges Lyntilslut 
+Mødebilags pakkebord 
+Autosplit Pro Plug in 
+hentes i Softwarecentret 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS: står der DOC under 
+Base filename skal det 
+slettes 
+ 
+ 
+ 
+ 
+ 
+Lav en mappe/pakkebord på dit skrivebord, som du vil 
+bruge til at lave mødebilag i 
+Tryk på fanen Ekstramoduler, Split Documents, 
+Split Document – OK 
+Udfyld jf. billedet – vælg dit pakkebord – OK 
+ 
+Tryk igen OK 
+
+--- Page 17 ---
+17  
+ Du skal nu åbne en pdf, gå under fanen Rediger og 
+vælg Indstillinger 
+Under Kategori vælger du Sikkerhed (udvidet) 
+Tjek at der ikke er flueben i Aktivé beskyttet 
+tilstand ved start (Preview) øverst. Tryk OK 
+ 
+Gem 2 tilfældige pdf’er i dit pakkebord og vælg 
+Kombiner filer i Acrobat 
+ Tryk på Tandhjulet og ”Aktiver altid 
+tilgængelighed om ombrydning” – Denne 
+akt skal færdigkombineres og gemmes, for at 
+indstillingerne bliver gemt 
+Hvis der skal laves om I 
+mødebilaget 
+Vi kan ikke ”bare” flytte på akterne, hvis vi har glemt 
+noget i mødebilaget, for så flytter vi kun bogmærket 
+men ikke selve siderne der hører til bogmærket 
+ 
+• Det letteste er at lave et helt nyt mødebilag 
+• Alternativt ligger der en vejledning på K-drevet 
+ 
+Kontordrev (K) Fællesfunktioner – Administrationen – 
+Arbejdsskade – ASK  
+Aktpakken mangler i 
+Filezilla 
+Log på AESs Driftsportal:  
+  https://atp2.service-now.com/driftsportal?id=csm_login  
+Brugernavn: journal.ask 
+Adgangskode: Kode2024! 
+ 
+Efter login, modtager man en 6-cifret verifikationskode  
+i Journal_ASK. Herefter er man inde på Driftsportalen, 
+hvor man kan Anmelde fejl 
+ 
+OBS: Husk en frist (dd+15). Afv. svar AES vedr. 
+manglende aktpakke 
+ 
+Opret Dokumentkortet Sagsakter som Internt notat 
+uden opfølgning - Reserveret 
+ 
+Resumé: Skriv hvilke akter der skal pakkes og trækkes 
+op 
+--- Page 18 ---
+18  
+ 
+1.2. Opret frist 
+ 
+Oprettelse af frister 
+Ajourført: 22-10-2024  
+Tilføj en frist 
+ 
+ 
+Udfyld de 
+obligatoriske felter 
+ 
+Titel: Vi skriver det der afventes, fx Afv. FM-2, 
+modstridende 
+ 
+Forfaldsdato: dd+15 eller hvad der er bestemt for 
+området – se tip 
+ 
+Ansvarlig enhed: Administration ASK 
+ 
+Adgangsgruppe: Public 
+Tryk OK 
+Tip: Ved ”Forfaldsdato” Skriv ”dd+15” = dags dato 
+plus det antal dage fristen skal være 
+ 
+Fristen ses nu under Detaljer 
+Tjekliste i 360, mens 
+sagen afventer akter 
+Fase = Sagen står i Fase 2 
+ 
+Sagsstatus = Ny sag 
+ 
+Ansvarlig enhed på frist = Arbejdsskadeafdelingen 
+Lukning af frist Når en frist på sagen skal lukkes 
+Tryk på ”…” ud for fristen 
+Vælg Sæt til lukket 
+
+--- Page 19 ---
+19 
+ 
+ 
+ 
+1.3. Særlige registreringer 
+ 
+Særlige registreringer ved 
+forskellige sagsemner 
+Ajourført: 22-10-2025 
+Klagefrist  
+Registreringer i 
+P360: 
+• Forløb Klagefrist 150 dage m.m. det er en hastesag 
+• Bilagspakke: Vi opretter ikke bilagspakke 
+• Resume: evt. OBS verserende sag – LEGEMSDEL  
+• HUSK: Sagsemne 
+• OBS: Luk IKKE Fase 1 
+• OBS: Der afklares ikke fuldmagtforhold, men parten 
+tilføjes som Ikke part 
+Er du i tvivl Du må meget gerne sende en genvurderet sag til 07 
+ADM_JURA vurdering til i af, om den kan kvitteres.  
+Hvis der skal vurdere konkrete akter, vil det være en stor 
+hjælp, at du henviser til de sider i sagspakken, der har udløst 
+tvivlen (Hvis AES har genvurderet fordi TSK har indsendt 
+dokumentation fx indlagt sygehus, sender vi Frist-6 og JURA 
+vurderer om dokumentation er ok) 
+ 
+Vi har allerede taget stilling til klagefristen 
+Er klagefristen overskredet, TJEK, om sagen allerede har 
+været til vurdering vedr. klagefrist i AST, og kommer 
+genvurderet tilbage fra AES. Er det tilfældet, oprettes ny sag 
+(ikke klagefrist) AST Klagefrist har truffet afgørelse om, at 
+AES skal genvurder 
+ 
+Hvis der mangler klagevejledning: 
+Klagefristen begynder først at løbe, når borger har fået en 
+klagevejledning. Har AES glemt klagevejledning i afgørelsen, 
+så gælder der ikke en frist for at klage. 
+Samme sagsemne -
+den ene part har 
+klaget rettidigt, og 
+den anden for sent  
+ 
+Lav kun én sag. Skriv i Resumé hvem der har klaget rettidigt, og 
+hvem der har klaget for sent (Vælg ALTID genvurderet uanset 
+om den er eller ej) 
+ 
+Vi færdiggør sagen men sender ikke breve. Sagen sættes til 
+ADM_JURA og de vurdere hvad der skal ske og vender tilbage til 
+Journal_ASK 
+ 
+Hvis vi er i tvivl om den der har klaget for sent har klaget, 
+eller kun har bemærkninger til den anden parts klage, sender 
+vi den forbi vagten, og beder dem tage stilling til om det er 2 
+selvstændige klager eller om den ene er bemærkninger til 
+første klage 
+
+--- Page 20 ---
+20 
+ 
+ 
+Hvis der er to 
+sagsemner, det ene 
+genvurderet og det 
+andet ikke 
+Vi opretter to sager 
+• En klagefristsag vedr. det sagsemne, hvor der er klaget 
+for sent (ikke genvurderet) 
+• En sag vedr. det sagsemne der er genvurderet som 
+kvitteres med BEKRA-breve 
+To sagsemner med 
+forskellige 
+afgørelsesdatoer  
+Vi opretter to klagefristsager 
+Afklaring vagt Vi frigiver ikke sagen til klagefrist, men beholder i eget navn 
+til der er svar fra vagten 
+HASTE-sag 
+ 
+• Forløb Klagefrist 8 uger  
+• Frist-6 – Husk at vælge 8 uger 
+• Ekstra stikord: HASTE – Akut behandling 
+• Send link til 07 ADM_JURA og overgiv sagen som 
+hastesag 
+Frist-6 brev FRIST-6 brev sendes i  
+ 
+• Alle sager, der ikke er genvurderet¨ 
+• Genvurderede sager, der reelt er klagefristsager 
+ 
+OBS: FRIST-6 brev sendes til den, der klager – også selv 
+om fuldmagtsforholdet ikke er afklaret med kopi til 
+modparten 
+ 
+Skabelon: FRIST-6  
+• Dokument ud 
+• Brug F9, vælg 5 måneder og slet evt. linje med engelsk 
+brev 
+HUSK: Hvis FS ikke har et eksternt j.nr. skal du indsætte cpr. 
+nr. og navn på borger. Er FS hovedmodt. og de ikke har 
+eksternt j.nr., slet i sidefod 
+Registrering i P360 
+– Hvis sagen IKKE 
+er genvurderet 
+ 
+Ansvarlig enhed: Adm Jura 
+Status: Ny sag 
+Stikord: Ikke genvurderet 
+ 
+AES skriver fx flg. i genvurderingsbrev: Vi har vurderet, at 
+der er klaget for sent, og derfor sender vi sagen videre 
+til behandling hos Ankestyrelsen 
+ 
+OBS: Skal også til klagefrist selvom vi kan se, at der er klaget 
+rettidigt 
+Registrering i P360 
+– Hvis sagen ER er 
+genvurderet 
+ 
+Ansvarlig enhed: Adm Jura 
+Status: Afv. intern 
+Stikord: Genvurderet sag 
+ 
+AES skriver fx flg. i genvurderingsbrevet: Vi vurderer 
+fortsat, at … 
+ 
+OBS: Hvis AES har genvurderet, og vi tydeligt kan se, at AES 
+har skrevet forkert klagedato, kvitterer vi 
+--- Page 21 ---
+21 
+ 
+ 
+Beregning af 
+klagefristen 
+ 
+ 
+(Se yderligere i 
+Fællesvejledningen  
+Klagefrist) 
+ 
+Alt d igital post (E-post, digital post, FTP, mail, 
+systemintegration, notifikation mv.) 
+4 uger + 1 dag (hvis afg. er sendt fr., så beregnes 
+klagefristen fra ma.) 
+ 
+OBS: Detaljer om forsendelsen finder du i SeSag 
+Breve og pakker 
+4 uger + 7 hverdage. Eks.: Sendt ma. fremme to. ugen efter 
+Færøsager – Sagerne kommer ind i Outlook 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  OBS:  
+Tilpas brevhoved, så 
+adressen står rigtigt  
+Tjek klagefristen – 3 måneder + 2 dage  
+ 
+1. Oprettes manuelt – Menu, Sag, Arbejdsskadesag 
+Adgangsgruppe: Arbejdsskade  
+Titel: Sagsemne jf. oversendelsen  
+2. Niveau: Arbejdsskadeloven  
+3. Forløb: Arbejdsskade 240  
+4. Eksterne Kontakter:  
+  Førsteinstans: Færøernes Ulykkesforsikringsråd (17)  
+Borger: Find i akter  
+Arbejdsgiver: Find i akter  
+Forsikringsselskab – Find i akter (Excel)  
+  Sagspart: Arbeiðs- og brúnaeftirlitið HUSK: Markér klager 
+og husk også eksterne j.nr.  
+5. Resumé: LEGEMSDEL – SPEC Færøerne  
+       Skriv at kvitteringsbreve er sendt med fysisk post  
+6. Supplerende oplysninger  
+Anke modtaget: Dato vi har modt. mail  
+Sagsinfo: ASK Forsikringsklage, hvis FS klager, ASK   
+Borgerklage, hvis øvrige klager  
+Skadedato: Find i akter  
+7. Tags/stikord: Spec Færøerne  
+8. Tryk Playpil – Tilføj sagsemne og afg. dato jf. akter  
+9. Journaliser mail som Sagsakter  
+ 
+Manuelle breve) Dokument ud – kvitteringsbrev: 
+(sættes til journalført og sendes med fysisk post) A2F 
+– Når borger klager/A9F – Når partsrep. klager  
+A4F – Til forsikringsselskabet  
+10. Luk Fase 1, så sagen fordeles  
+OBS: Står der selvforsikret skal arbejdsgiver (offentlig) på  
+som FS – Færøsk alfabet:  
+http://www.tedmontgomery.com/tutorial/ALTchrc.html  
+ 
+ 
+ 
+ 
+
+--- Page 22 ---
+22 
+ 
+ 
+Grønlandssager 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Breve – manuelle 
+OBS: 
+Der sendes ikke 
+særskilt brev til FS 
+ 
+1. Klagefrist: 6 uger for borger eller partsrep. 4 uger for 
+forsikringsselskaber og arbejdsgiver 
+2. Forløb: Arbejdsskade 240 
+3. Fuldmagtsforhold afklares (evt. på grønlandsk) 
+4. Klientens adresse skal ændres til at have Grønlandsk 
+landekode (medmindre personen bor i Danmark) 
+kun ved manuel oprettet kontakt 
+5. Resumé: LEGEMSDEL + SPEC GRØNLAND 
+6. Sagsinfo: ASK Forsikringsklage, hvis FS klager 
+ASK Borgerklage, hvis øvrige klager 
+7. Tags/stikord: SPEC Grønland 
+8. Vi laver mødebilagspakke 
+9. Fordel til Arbejdsskadeafdelingen 
+10. Er der klaget over Ret til dagpenge bruger vi 
+sagsemne Dagpenge, Grønland 
+ 
+A2G (dansk) til borger + kopi til FS (tilret brevet med F9) 
+AG2 (grønlandsk) kun til borger (kun hvis borger har fået en 
+afgørelse på grønlandsk) 
+  A9G (dansk) til partsrep. + kopi til FS (tilret F9) 
+Forsørgertab og dødssager 
+OBS: Hvis borger dør 
+under behandlingen 
+af sag, er det en alm. 
+Sag, der følger 
+sagsemne. Kun 
+forsørgertab, hvis 
+borger dør som følge 
+af ulykke, er det en 
+forsørgertabssag 
+ 
+Kvitteringsbreve er 
+dog som ved en 
+forsørgertabssag 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sagsemne: Forsørgertabserstatning mv. 
+ 
+• Resumé: LEGEMSDEL 
+• Sagsinfo: ASK Forsikringsklage, hvis FS klager ASK 
+Borgerklage, hvis øvrige klager 
+ 
+Ved oprettelse af kontakter/kvitteringsbreve 
+- Tjek om skifteretten er inde over sagen(bobestyrer) 
+- En evt. advokat skal skrive, hvis han/hun er bobestyrer 
+jf. svar fra Mads Fløe kræver det ikke en 
+bobestyrerattest, men adv. skal skrive hvem de 
+repræsenterer 
+ 
+Hvis ikke vi ved hvem der bestyrer boet 
+- SB skal selv afklare, hvem der bestyrer boet 
+- Skriv flg. i Resumé: Fagkontor skal selv indhente 
+oplysninger om hvem boet er udlagt til  
+ 
+Forsendelse af kvitteringsbreve OBS manuelle breve 
+- Når der sendes 2A - efterladte skal stå som borger og 
+afdøde som ikke part 
+- Når der sendes 4A, skal afdøde stå som borger, 
+og klager som sagspart, så borgers CPR kommer 
+i brevet isf. efterladtes 
+ 
+Brug BEKRA2A/9A til klager/partsrep./boet – teksten 
+tilpasses og BEKRA4A til FS 
+--- Page 23 ---
+23 
+ 
+ 
+Ankestyrelsen har den (anke modt. dato) modtaget klage 
+over Arbejdsmarkedets Erhvervssikrings afgørelse af (AES’ 
+afg. dato). 
+Sagen vedrører (navn på afdøde) med cpr.nr. xxxxxx- 
+Xxx 
+OBS: Er der flere efterladte, opretter vi kun én sag. Hvis SB 
+vurderer, at der skal laves en sag pr. efterladte, kommer der 
+henvendelse i journalpostkassen. 
+Er der partsrep., husk at skrive hvem de repræsenterer (ved 
+flere efterladte) 
+Hvis en partsrep. repræsenterer flere efterladte, skriv i hvert 
+kvitteringsbrev, hvem de repræsenterer 
+Veteransager, oftest udmåling, godtgørelse (1 sag) – Der er IKKE 
+truffet afgørelse efter Særloven 
+Alle sager der ikke 
+vedrører 
+anerkendelse af 
+PTSD – dvs. sager, 
+hvor der ikke er 
+truffet afgørelse 
+efter særloven 
+Sagsemne: Sagsemne jf. genvurderingen 
+1. Kontakter: De samme som er angivet i 
+genvurderingssbrevet + evt. partsrepræsentant 
+Forsikringsselskab: Tjek hvem AES har påført. Hvis 
+forsvaret (brug Personelkommandoen CVR-nr. 
+38679694) Att.: FAEK - også selvom AES skriver et 
+andet CVR-nr.) 
+Arbejdsgiver: Personelkommandoen (CVR-nr. 
+38679694) Att.: TFA (også selvom AES bruger et 
+andet CVR-nr.) 
+2. Sagsinfo: ASK Forsikringsklage, hvis FS klager 
+ASK Borgerklage, hvis øvrige klager 
+3. Tags/stikord: SPEC Veteran m.fl. 
+ 
+ 
+Veteransager (2 sager) – Anerkendelse psykisk – Der SKAL være 
+truffet afgørelse både efter Arbejdsskadesikringsloven og Særloven 
+Når der klages 
+over anerkendelse 
+af en psykisk 
+skade afleder det 
+to sags oprettelser, 
+hvis der er taget 
+stilling både efter 
+arbejdsskade- 
+sikringsloven og 
+særloven 
+ 
+ 
+ 
+Der oprettes en sag efter arbejdsskadesikringsloven og en 
+sag efter særloven. Sagsbehandlingen sker fra sag 1 Der 
+sendes FULDM og kvitteringsbrev i begge sager 
+Sag nr. 1 – efter arbejdsskadeloven: 
+1. Sagsemne: E-sygdom, Veteran 
+2. Kontakter med rolleangivning: 
+De samme som er angivet i genvurderingsbrevet 
++ eventuel partsrepræsentant 
+Arbejdgiver: Personelkommandoen (CVR-nr. 
+38679694) Att.: TFA (også selvom AES bruger et 
+andet CVR-nr.) 
+Forsikringsselskab: Arbejdsmarkedets Tillægspension 
+(CVR-nr. 43405810) – Husk faktureringsnr. 146 
+Sagspart: Personelkommandoen (CVR-nr. 38679694) 
+også selvom AES skriver et andet CVR-nr. – Ingen 
+faktureringsnr - Att.: FAEK 
+Borger: Se genvurderingsbrev 
+--- Page 24 ---
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS: Ingen 
+sagsakter på sag 2 
+Eventuelt partsrepræsentant: Fx 
+Personelkommandoen, Att.: Veterancenteret + navn 
++ kaserne 
+el. evt. HKKF (CVR-nr. 61381228), adv. el. anden 
+3. Resumé: LEGEMSDEL – Skriv ”AESK” – Veteran 
+4. Sagsinfo: ASK Forsikringsklage, hvis FS klager 
+ASK Borgerklage, hvis øvrige klager 
+5. Tags/stikord: SPEC Veteran m.fl. 
+Sag nr. 2 – efter særloven 
+OBS: Hvis AES ikke har truffet afgørelse efter særloven, skal 
+vi ikke oprette en særlovssag 
+ 
+1. Sagsemne: E-sygdom, Særlov, Veteran 
+2. Kontakter med rolleangivning:  
+Arbejdsgiver: Som på sag 1 Att.: TFA 
+Sagspart: Arbejdsmarkedets Tillægspension – 
+(CVR-nr. 43405810) – Ingen faktureringsnr. 
+Forsikringsselskab: Personelkommandoen – 
+Faktureringsnr. 33 (CVR-nr. 38679694, også selvom 
+AES bruger et andet CVR-nr.) – Att: FAEK 
+Borger: Som på sag 1 
+Eventuelt partsrepræsentant: (som sag 1) 
+3. Resumé: LEGEMSDEL – Veteran – ”Særloven 
+– OBS: Der journaliseres ikke post på denne 
+sag 
+4. Sagsinfo: Som på sag 1 
+Tags/stikord: SPEC Veteran m.fl. 
+Fællesafgørelser 
+ En fællesafgørelse er ÉN afgørelse, som har samme udfald i 
+to eller flere sager. 
+Det fremgår altid af afgørelsen, hvis AES har truffet en 
+fællesafgørelse. 
+Det betyder samtidig, at hvis man klager over mén i den ene 
+sag, har man også klaget over mén i den anden. 
+ 
+Det sker, at AES kun laver genvurderingsbrev fra én af 
+sagerne.  
+ 
+Vi opretter og frigiver begge sager til Arbejdsskade-
+afdelingen 
+ 
+--- Page 25 ---
+25 
+ 
+ 
+ Det skal vi være opmærksom på 
+ved fællesafgørelser: 
+ 
+1. Resumé: Fællesafgørelse med ”j.nr. AES” og 
+omvendt på sag 2 
+2. OBS: Arbejdsgiver og forsikringsselskab 
+er ikke nødvendigvis de samme på 
+begge sager 
+3. Skadesdatoerne er ikke nødvendigvis de samme  
+4. Der sendes kvitteringsbrev i begge/alle sager 
+OBS: Hvis minimumsakterne ikke alle er på sag 2, skal 
+der ikke laves mødebilag i denne sag 
+--- Page 26 ---
+26 
+ 
+ 
+1.4. Kvitteringsbreve 
+ 
+OBS: Engelske kvitteringsbreve kan findes under Dokument ud: 
+EA2A og EA9A. Skal der sendes FULDM brev på engelsk, brug FULDM-2ENG, 
+upræcis fuldmagt under Dokument ud. 
+OBS: Vi sender kun brev på engelsk, hvis førsteinstansen har sendt engelsk afgørelse Derfor 
+ingen engelsk kvitteringsbrev, hvis AES kun har sendt dansk afgørelse og borger klager på 
+engelsk. 
+ 
+ 
+BEKRA2A Forløb Arbejdsskade 180 
+Klager Forsikringsselskab 
+Fuldmagt Ingen fuldmagt i sagen 
+ 
+BEKRA21A Forløb Arbejdsskade 180 
+Klager Forsikringsselskab 
+Fuldmagt Fuldmagtshaver med begrænsede rettigheder 
+ 
+BEKRA9A Forløb Arbejdsskade 180 
+Klager Forsikringsselskab 
+Fuldmagt Gyldig fuldmagt til partsrepræsentant for borger 
+ 
+BEKRA11-2C Forløb Arbejdsskade 180 
+Klager Arbejdsgiver 
+Fuldmagt Ingen fuldmagt i sagen 
+ 
+BEKRA11-21C Forløb Arbejdsskade 180 
+Klager Arbejdsgiver 
+Fuldmagt Fuldmagtshaver med begrænsede rettigheder 
+ 
+BEKRA11-9C Forløb Arbejdsskade 180 
+Klager Arbejdsgiver 
+Fuldmagt Gyldig fuldmagt til partsrepræsentant for borger 
+ 
+BEKRA 4A Forløb Arbejdsskade 180 
+ Manuelt brev til forsikringsselskab 
+Kvitteringsbreve 
+Ajourført: 10-05-21  
+--- Page 27 ---
+27 
+ 
+ 
+ 
+1.5. Spot en e-tabssag med flere perioder 
+ 
+Spot en e-tabssag 
+Ajourført: 14-09-20  
+Fakta Når der skal oprettes en sag om tab af erhvervsevne, 
+skal der i visse tilfælde oprettes flere sagsemner. Det 
+betyder, at man skal være opmærksom på: 
+1. Om afgørelsen omhandler erhvervsevnetab for 
+flere perioder. Så vil hver periode være udtryk 
+for et sagsemne 
+2. Om der også er truffet afgørelse om årsløn 
+3. Hvad står der i klagen? 
+Afgørelsen 1. Afgørelse 
+Af afgørelsen skal det fremgå, hvilke perioder, AES har 
+truffet afgørelse om 
+Eksempler: 
+ 
+2. Begrundelsen 
+Det er ikke i alle tilfælde, at de enkelte perioder er anført i 
+afgørelsesboksen. Her er det nødvendigt at finde de 
+enkelte perioder i afsnittet med ”Begrundelse”. 
+3. Indtægtsgrundlaget 
+Indtægtsgrundlaget for de enkelte perioder vil altid kun 
+fremgå af begrundelsen. Det gælder også, når 
+perioden fremgår af afgørelsesboksen. 
+Eksempel: 
+Dit tab af erhvervsevne er 40 procent i perioden 25. 
+oktober 2012 – 20. november 2012. Du er ikke i arbejde, 
+men modtager sygedagpenge. 
+
+--- Page 28 ---
+28 
+ 
+ 
+ 
+ 
+Dit tab af erhvervsevne er 30 procent i perioden 21. 
+november 2012 – 31. marts 2015. Du er på grund af 
+arbejdsskaden visiteret til fleksjob. 
+Vær opmærksom på: 
+AES træffer af og til afgørelser, hvor de sammenlægger 
+flere perioder med forskelligt indtægtsgrundlag til en 
+samlet periode. Et eksempel kan være, at der i afgørelses- 
+boksen kun er anført en periode (21. november 2011 – 
+31. marts 2015). Men af begrundelsen fremgår det, at 
+tilskadekomne i perioden har modtaget skiftevis 
+ledighedsydel- se og løn i fleksjob. 
+En meget lang periode, fx 3 år, kan være en indikation af, 
+at der har været forskellige indtægtsgrundlag i 
+perioden. 
+Beregninger: 
+AES foretager beregninger af e-tabet i de givne 
+perioder. Beregningerne ser ikke altid ens ud, men et 
+eksempel er angivet på næste side: 
+ 
+ 
+ 
+ 
+Klagen Det er den, der klager, der bestemmer, hvad vi skal tage 
+stilling til. Udgangspunktet er, at en klage omfatter alle 
+de dele, hvor man ikke har fået fuldt ud medhold, 
+medmindre klageren kun ønsker, at vi tager stilling til 
+dele af afgørelsen. Det er derfor vigtigt at læse klagen 
+grundigt. 
+Eksempel: 
+Der er truffet afgørelse om erhvervsevnetab i to perioder – 
+en periode på sygedagpenge og en periode på ledigheds- 
+ydelse. Der er også truffet afgørelse om årsløn. 
+
+--- Page 29 ---
+29 
+ 
+ 
+ 
+ ”Jeg klager over afgørelsen” 
+Der klages over begge perioder og årslønnen. 
+”Jeg klager over erhvervsevnetabet” 
+Der er klaget over de to perioder med erhvervsevne- 
+tab, men ikke over årslønnen. 
+ 
+”Jeg klager over mit erhvervsevnetab, mens jeg fik syge- 
+dagpenge” 
+Der er kun klaget over den ene periode (perioden med 
+sygedagpenge). Der er ikke klaget over perioden med 
+fleksjob eller årslønnen. 
+Årsløn Der bliver kun fastsat en årsløn, hvis der er fastsat et 
+erhvervsevnetab. Det kan derfor ikke forekomme, at der 
+oprettes en sag på årsløn, hvis erhvervsevnetabet er 
+mindre end 15 procent (dvs. at der ikke er et erhvervs- 
+evnetab). 
+ 
+Årsløn er altid særskilt nævnt i afgørelsesboksen, når 
+der er truffet afgørelse herom. 
+ 
+Årslønsberegningen står også altid som et særskilt 
+afsnit i selve afgørelsen. 
+ 
+Eksempel: 
+ 
+ 
+Hvis årslønsberegningen kun står i begrundelsen, vil det 
+som udgangspunkt være udtryk for, at der ikke er truffet 
+afgørelse om årslønnen. Grunden er, at hvis der tidligere 
+er taget stilling til årslønnen, vil den blive lagt til grund i 
+senere afgørelser om erhvervsevnetab, dvs. årslønnen 
+bliver ført med over. 
+Erhvervssituationer 
+der foranlediger 
+oprettelse på 
+sagsemne ”tab af 
+erhvervsevne” 
+- Kontanthjælp 
+- Virksomhedspraktik eller anden praktik der ikke 
+er en del af et ressourceforløb 
+- Førtidspension 
+- Jobafklaringsforløb 
+- Revalideringsydelse 
+
+--- Page 30 ---
+30 
+ 
+ 
+2. Indbakke og ESDH-postkasse 
+2.1. Verserende post 
+ 
+Verserende post 
+Ajourført: 30-01-2026  
+Outlook/ESDH 
+ Administrationen håndterer som udgangspunkt det post 
+som ikke er fordelt til sagsbehandler. Fagkontoret 
+håndterer det som er fordelt til sagsbehandler 
+Se snitflader eKonsulenten 
+ 
+Opmærksomhedspunkter 
+  
+• Alle vedhæftede dokumenter skal skimmes. 
+Ofte står det vigtigste i første eller sidste afsnit 
+(fx anm. om akter, haster mv.) 
+ 
+• Vær Kritisk mht. hvilket j.nr. du journaliserer 
+posten på – afsender oplyser ikke altid korrekt j.nr. 
+ 
+• Vær OBS på ikke at journalisere post på 
+Retssager, flyt til 06 Retssagsteam undermappe 0. 
+ASK HJEMTAGET 
+ 
+• Alt post (undt. post kun med fuldmagt) skal 
+journaliseres som Indkommende - med en 
+sigende titel 
+ 
+- Afsender ændres kun, hvis ikke man på mailadr. 
+kan se, hvem afsender er 
+ 
+- Dato ændres (kun ved post fra ESDH), 
+her skal 
+Dato modtaget skal være samme som 
+Dokumentdato 
+ 
+Hvilke henvendelser har Administrationen ansvar for at besvare, hvis sagen 
+IKKE er fordelt til sagsbehandler: 
+ Alle henvendelser om uafklarede fuldmagtsforhold, 
+når sagen verserer. Det vil typisk være: 
+• Præcisering af upræcise fuldmagter (FULDM-2) 
+• Bekræftelse på indtræden ved ny fuldmagtshaver 
+(FULDM-5) 
+• Returnering af udtalelser fra parter, der ikke 
+har fuldmagt til at komme med udtalelser i 
+sagen (FULDM- 7) 
+Trækker klagen tilbage - se særskilt 
+vejledning 
+ 
+--- Page 31 ---
+31 
+ 
+ 
+Hvilke henvendelser har Administrationen ansvar for at besvare, hvis sagen 
+ER fordelt til sagsbehandler: 
+ • Afklaring af fuldmagtsforhold. Bl.a. 
+bekræftelse på indtræden ved ny fuldmagtshaver 
+(FULDM-5). Hvis der er lavet afgørelsesudkast, 
+sendes link til sagsbeh., at der er kommet ny 
+partsrepræsentant på sagen 
+Skal vi sende FULDM-brev i sag med sagsbeh., laver vi frist 
+til os selv og skriver i Resumé, at fuldmagtsforholdet er 
+under afklaring 
+Vigtigt at vide ved journalisering af verserende post – OBS: Post skal 
+journaliseres senest på 2. dagen, efter modtagelse 
+ 
+Er der ingen sag, oprettes en generel sag – se Generelle henvendelser 
+eKonsulenten 
+ 
+Journalisering 
+Åbn Outlook Tast på Vis/skjul sidepanel i højre side i Outlook 
+ 
+Fremsøg den konkrete sag i sidepanelet 
+ 
+Vælg den mail i 
+indbakken som skal 
+journaliseres på 
+sagen 
+Træk mailen over på den fremsøgte sag i 360 og slip 
+ 
+Dokumentkategori: 
+ 
+Indkommende = Ikke håndteret (alt der skal læses i 
+fagkontoret) 
+Indkommende uden opfølgning = Håndteret (alt hvad 
+vi selv skal besvare) 
+ 
+OBS: Administrationen håndterer alle fuldmagter, også 
+selv om sagen er fordelt til sagsbehandler 
+Titel: Se dokumentfraser 
+Afsender: Vi retter ikke afsender med mindre vi ikke kan 
+se, hvem mailen er fra 
+Udfør 
+ 
+Post fra 
+EDSH 
+OBS: Fejlvisiteret post: 
+Skriv ikke ASK foran og 
+flyt til ansv.enhed/ 
+Administration Aalborg 
+Klik først på det blanke papir yderst th. I ankeskemaet kan 
+du finde j.nr. el. cpr.nr., så du kan finde korrekt sag. 
+Journalisering: 
+Klik på de 3 prikker efter titel – vælg Registrer Udfyld Sag, 
+Titel og afsender 
+OBS: Husk at ændre Dato modtaget til samme dato som 
+Dokumentdato 
+ 
+ 
+--- Page 32 ---
+32 
+ 
+ 
+Post til afsluttede sager 
+ Status: Efterbehandling 
+ 
+Kommer der bem. fra en part som ikke er advokat, og 
+der ikke er medsendt en fuldmagt eller en begr. FM til en 
+lukket sag, skriver vi i resumé, at der skal indhentes 
+fuldmagt, hvis vi skal rette henvendelse til afsenderen 
+ 
+HUSK at tilrette rollerne (tidligere partsrep. skal stå 
+som ikke-part). Fuldmagten bortfalder som 
+udgangspunkt, når der er truffet afgørelse. Tilret også 
+øvrige kontakter 
+ 
+HUSK: tilret en evt. aktindsigtsag (så der er alle 
+oplysninger som på en alm. ASK-sag) 
+ 
+OBS: Er der en overstreget kontakt, korrigér inden du 
+genåbner sagen (fx et FS) 
+ 
+OBS: Post til en JURA-sag, tjek der er sagsbeh. på og om 
+henvendelsen omhandler Klagefrist el. ask 
+Post til en sag fra eArkiv 
+ Opgaven består i oprettelse af sager pba. en 
+henvendelse til en sag fra en tidligere journalperiode 
+(eArkiv) 
+Opret en videreførelsessag - Se særskilt vejledning 
+Post til robot-sager 
+ Er der en robotsag, journaliserer vi posten som akt 1, og 
+skriver flg. i Resumé: OBS post i akt 1 (ikke v. FULDM) 
+ 
+Vi håndterer fx Anm. om hastebehandling, trækker 
+klagen tilbage, Anm. om fristforlængelse, Brev 9 (mails 
+med links) og øvrigt af ”hastende” karakter 
+ 
+Fuldmagt 
+Fuldmagten journaliseres som Indkommende uden 
+opfølgning m.m. der også er bemærkninger med 
+Forbund/advokat tilføjes med korrekt rolle  
+Er der ikke en robotsag, og kan vi ikke se sagen i SeSag, 
+eller der ikke er sendt genvurderingsbrev med, opretter  
+vi en generelsag og sender henvendelsen retur 
+ 
+OBS: kategorien post til uoprettet sag, bruges KUN, når vi 
+ved sagen er med notifikationerne næste dag 
+Post til AES sag – dvs. sag der ikke er oversendt 
+ Hvis en borger skriver til os vedr. en sag hos AES og 
+vi ikke har en sag på borger, laver vi en 
+borgerhenvendelsessag, journaliserer posten og 
+svarer borger i eBoks (hvis vi har cpr.nr.), med AES 
+som kopimodtager. Vi har pligt til at videresende til rette 
+myndighed 
+--- Page 33 ---
+33 
+ 
+ 
+Mails fra AES 
+ Administrationen håndterer dagligt journalisering af post 
+og oprettelse af sager, som er sendt fra 
+Arbejdsmarkedets Erhvervssikring. OBS: Husk, at tjekke, 
+hvis der kommer flere mails fra AES. 
+Mails må først flyttes til behandlet post, når robotten @ske 
+har sendt mail til Journal_ASK, at dagens sager er oprettet 
+Se særskilt vejledning 
+Post fra Folketingets Ombudsmand (FOB)  
+ Henvendelserne har en særlig registreringspraksis, og 
+håndteres som en hasteopgave. Der sendes link til 
+ledelsesteam og det noteres i resumé 
+ 
+FOB henvendelser skal journaliseret hurtigst muligt og 
+altidsamme dag som vi modtager det 
+ 
+Se særskilt vejledning 
+Anmodning om aktindsigt  
+ Alle henvendelser, hvor der anmodes om at få tilsendt 
+materiale – fx ”kopi af sagens akter”, ”Kopi af LK-
+udtalelsen” mv. 
+Eneste undtagelse er ”Kopi af afgørelsen, som fagkontor 
+sender ud 
+• Vi flytter posten til 01 ADM_AKTINDSIGT, uden at  
+foretager os noget 
+ 
+OBS: Luk ikke en frist til aktindsigt 
+Klage over aktindsigt – AES 
+ Kommer der en klage over aktindsigt hos AES -send link til 
+01 ADM_AKTINDSIGT, der opretter sagen. 
+Er akten i notifikationer, kombiner filen og send link 
+Post til en sag der står til Adm. JURA 
+ Vi behøver ikke sende link når vi journaliserer post ind på 
+en sag der står til Adm. Team JURA el. en person fra Adm. 
+Team JURA. De har postlister. 
+Luk ikke fristen 
+OBS: Er det post der vedrører andet end klagefrist, sendes 
+link til vagten for besvarelse 
+Når FS ønsker kopi af klagen (ikke aktindsigt) 
+ Lav Brev-1 med flg. tekst: 
+I har kontaktet Ankestyrelsen og oplyst, at I ikke har 
+modtaget kopi af klagen. 
+ 
+Vi vedlægger kopi af klagen (samt kommentarerne hertil).  
+ 
+Vi beder om at få jeres eventuelle bemærkninger inden 14 
+dage. 
+--- Page 34 ---
+34 
+ 
+ 
+Hvis vi ikke har hørt fra jer inden 14 dage, går vi ud fra, at 
+I ikke har bemærkninger. 
+Direkte klage 
+ Administration varetager opgaven med besvarelse af 
+klager, som er sendt til forkert myndighed. 
+Administrationen videresender klager over første 
+instansens afgørelser til Arbejdsmarkedets Erhvervs- 
+sikring, da det er dem der har kompetencen til at 
+genvurdere afgørelsen 
+ 
+Se fællesvejledningen under Generelle henvendelser 
+ 
+Anmodning om hastebehandling 
+ Anmodninger om hastebehandling journaliseres på sagen. 
+Hvis sagen ikke er fordelt til sagsbehandler, sendes der link 
+til bagvagten med anmodning om besvarelse 
+Anmodning om status 
+ Adm besvarer ikke længere statusanmodninger, når sagen 
+står til Arbejdsskadeafdelingen 
+Post stilet til Direktionen 
+ Post som er adresseret til ”Direktionen”, ”Ingeborg Gade” 
+eller ”Carina Fogt-Nielsen”, skal journaliseres på sagen. 
+Herefter skal der sendes link til ledelsessekretariatet 
+omkring den konkrete henvendelse. Denne sendes til 
+lsekr@ast.dk og det noteres i resumé 
+Fuldmagt 
+Advokat/partsrep. 
+ 
+Begr. FM 
+ 
+• Hvis sagen allerede er kvitterer sender vi FULDM-
+5 med seneste kvitteringsbrev/forl.brev 
+• Tilføjes til sagen - der sendes ingen breve 
+• Fuldmagt til aktindsigt – HUSK luk ikke fristen. 
+Send link til 01 ADM_AKTINDSIGT, at der er 
+journaliseret fuldmagt ind til dem 
+Post fra ny advokat/partsrepræsentant 
+ Vi kvitterer med FULDM-5 vedhæftet kvitteringsbrev til 
+borger/tidl. partsrep. el. forlængelsesbrev 
+Partsrepræsentanten trækker sig fra sagen 
+ Vi sender FULDM-6 til borger med Kopi til den part der 
+trækker sig – vedhæft kvitteringsbrev el. forlængelsesbrev 
+til borger 
+Post til flere j.nr. 
+ Fjern de akter der ikke vedrører den aktuelle sag du 
+vil journalisere på og send mailen til dig selv. 
+Overfør herefter via sidepanel. Gentag ved samtlige j.nr. 
+--- Page 35 ---
+35 
+ 
+ 
+Klage over LK/Psykolog mv. 
+ Mail returneres til 05 ADM_NÆVN 
+Klage over AES 
+ Journaliseres på adm. sag, hvis vi har en.  Ellers oprettes 
+en generel sag, og bagvagt skal besvare (formelt afvise at 
+tage stilling og vejlede om, hvordan der klages over AES 
+Direkte klage over afgørelse af Arbejdstilsynet 
+ Fejlvisiteret, de skal retur til 05 ADM_NÆVN – behandles i 
+Arbejdsmiljøklagenævnet  
+Høringer fra Arbejdstilsynet el. andre 
+ Fejlvisiteret, de skal retur til 05 ADM_NÆVN 
+Mails fra Datatilsynet 
+ Link til FOB-distributionsliste med Mette Johansen (DPO) 
+Cc. 
+Mails med link 
+ Send Brev-9, Deaktivering af links 
+Skabelonen er udformet, så der kun skal indsættes 
+en dato i teksten + brevdato. 
+OBS: Hvis vi har tiltro til et link, skal vi ikke sende Brev-9. 
+Eks. Vi har anmodet et sygehus om journal, og sygehuset 
+sender nu journalen via link 
+ 
+Se vejledning eKonsulenten 
+Er der et link i mailen der ikke kan journaliseres og vi skriver 
+i resumé til SB, hvad vi har slettet 
+Indsigelse (til afsluttet sag) 
+ Kommer indsigelse fra partsrep. (forbund/adv.): 
+Advokaten/forbund forbliver på sagen som partsrep. og der 
+skal ikke afklaret fuldmagtsforhold 
+OBS: Gælder kun hvis sagen er afgjort for mindre end 6 
+mdr. siden 
+Kommer indsigelsen fra FS: 
+Fuldmagt til borgers partsrep. er bortfaldet og rollen 
+ændres til ikke-part.  
+Skriv flg. i resumé: Fuldmagtsforholdet er ikke afklaret 
+ifm. indsigelsen 
+Advokat fra forbund skriver til afsluttet sag 
+ Forbund skal stå som partsrep. Det gælder også, hvis et 
+forbund står som ikke-part og en adv. fra forbund skriver 
+ind, skal rollen ændres til partsrep. 
+Lægeregninger 
+ Journaliseres på sagen, ikke til LØK 
+ 
+ 
+--- Page 36 ---
+36 
+ 
+ 
+Scanningsmateriale – fysisk post 
+ Journaliser posten med titel Brev fra XXX – USB stik - Sæt 
+dokumentkort til internt notat uden opfølgning og 
+reserveret 
+Når det fysiske post kommer fra digi, håndteres det fra 
+Journalen 
+Stævning med bilag – adviseringer fra Retten 
+ Kommer der en stævning fra adv./partsrep., journalise- 
+res mail på den afsluttede arbejdsskadesag (hvis 
+eArkiv, laves en videreførelsessag). 
+Kommer der en stævning fra Retten, flyttes mail til 
+postkasse 06 Retssagsteam 
+Lægeakter - Vær OBS på, at de ikke er til en retssag 
+ Alle lægelige akter registreres som ”indkommende”. 
+Lægelige akter er patientjournaler, lægeerklæringer, 
+røntgenbilleder, resultater af undersøgelser mv. fra egen 
+læge, speciallæge eller sygehus 
+ 
+Fristforlængelse 
+ Ved spørgsmål til fristforlængelse for bemærkninger, så 
+accepterer vi i Adm. op til 14 dage, hvis sagen ikke er 
+fordelt til sagsbeh. Alle anmodninger om fristfor-
+længelse, der går over 14 dage sendes til bagvagten. 
+Da der ikke findes en skabelon til at kvittere for dette – 
+gøres som angivet nedenfor: 
+ 
+Partsrepræsentant: 
+Modtages anmodningen ved indtræden (første gang 
+partsrep. henvender sig). Der kvitteres for frist- 
+forlængelsen i fuldmagtsbrevet. (FULDM-5) 
+ 
+OBS: Er der ikke gyldig fuldmagt til sagsparten/ 
+partsrep. og der anmodes om fristforlængelse, skal 
+der sendes et FULDM-1 brev. Anmodningen om frist- 
+forlængelse kan dermed ikke besvares. 
+Modtages anmodningen under sagens behandling, og 
+der foreligger gyldig fuldmagt. Send da et BREV-1 
+ 
+BREV-1 
+Du har bedt om, at få forlænget fristen for 
+indsendelse af bemærkninger, det har du gjort i din 
+henvendelse af xx-xx-xxx. Vi kvitterer hermed for, at 
+fristen er forlænget til xx-xx- xxxx”. 
+ 
+--- Page 37 ---
+ 
+37 
+ 
+ 
+2.2. Herreløse sager 
+ 
+Håndtering af post til herreløse 
+sager 
+Ajourført: 13-01-2025  
+ Herreløse sager, er sager der ikke kan fordeles til en 
+sagsbehandler grundet ophørt ansættelse, eller ikke kan 
+tildeles pga. ansvarlig enhed er et nedlagt arbejdsskade- 
+kontor. 
+Håndtering 
+• Sæt sagen i efterbehandling og 
+journaliserer den indkommende post 
+• Er sagsbehandleren ikke ansat længere, kan 
+der ikke tilknyttes en ansvarlig person, og sagen 
+tildeles til det kontor som sagsbehandler senest var 
+ansat i  
+(Vær OBS på, at sagsbeh. kun er overstreget, når 
+man søger på sagen og ikke på selve sagen) 
+• Hvis kontoret er nedlagt og sagsbehandleren 
+ikke længere er ansat, sendes link til ankechef 
+og souschef om at sagen er oprettet, med 
+forespørgsel om at sagen fordeles 
+ASK4 = nuværende ASK3 (Aalb) 
+ASK3 = nuværende ASK1 
+ 
+--- Page 38 ---
+ 
+38 
+ 
+ 
+2.3. Notifikationer fra AES  
+ 
+ 
+Notifikationer fra 
+AES 
+Ajourført: 02-05-2025  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS: Hvis AES 
+tilbagekalder en klage, 
+journaliseres posten ind 
+på sagen, og link sendes 
+til vagten der besvarer 
+henvendelsen 
+Step by step: 
+• Åbn mail(s) fra AES  
+• Alle sager med flg. diagnoser skal 
+forhåndsoprettes: 
+- ALT der har ordlyd af kræft el. HASTER (spørg 
+til sagsbehandlingstid se særskilt vejledning 
+under Hastesager) 
+- LUNGER (Mesothelium er kræft) slå op og tjek 
+om det er lungekræft 
+- Ukendte diagnoser – tjek om det er kræft, eller 
+om der står ”Haster” i genvurderingsbrevet 
+Vær OBS på om det er en forlodshastesag 
+(den oprettes af Journalen, da der her vil ligge 
+en ringemail) 
+ 
+Håndter posten – alt andet end ”Vi sender 
+din arbejdsskadesag til Ankestyrelsen ” og 
+”Vi sender sagen til Ankestyrelsen” som ofte 
+er forsørgertab og mangler måske aktpakke 
+ 
+• Klik direkte på linkene i Notifikationsrapporten 
+(husk bilag) og journaliser akten på den 
+respektive sag fx Mail fra AES – bem. fra TSK 
+(både akt og dokumentkort skal omdøbes) 
+OSB: Er der post til en sag der ikke er 
+færdigoprettet, skriv flg. i Resumé: OBS, post i 
+akt 1 
+• Mail fra AES må først trækkes i Behandlet post, 
+når der er kommen en mail fra ASKE@ast.dk
+ i 
+Journal_ASK, at Robot-kørsel er færdig 
+ 
+• Kommer der flere mails fra AES, vær OBS på 
+om de er ens, for så skal den ene i behandlet post, 
+så robotten ikke opretter sagerne 2 gange 
+
+--- Page 39 ---
+39 
+ 
+ 
+ 
+2.4. Trækker klage tilbage 
+ 
+Vejledning – trækker klage tilbage 
+Ajourført: 02-05-2025  
+Det er kun den part der har klaget, eller dennes partsrepræsentant der kan 
+tilbagekalde klagen. Fuldmagtshaver med begrænsede rettigheder, kan ikke 
+tilbagekalde klagen, uden borgerens samtykke 
+Journaliser anmodningen 
+ Dokumentkategori: Indkommende uden opfølgning (kun 
+hvis sagen lukkes) 
+ 
+Titel: Anm. om tilbagekaldelse 
+ 
+OBS: Vi håndterer kun anmodninger på de sager, 
+der ikke er fordelt til sagsbeh.  
+ 
+Er det en robot sag, der ikke er færdiggjort, færdiggør vi 
+den, hvis hele klagen trækkes tilbage 
+ 
+HUSK: Vær OBS på, om der er flere der har klaget 
+(inden sag evt. Lukkes) 
+Hvis der er 2 eller flere klagere, og den ene trækker klagen tilbage 
+ Vi tilretter sagen og er OBS på om der skal fjernes et 
+sagsemne (i så fald husk også titel), klager skal fjernes  
+ved kontakten, og evt. tilrette i sagsinfo 
+AES trækker sagen tilbage (pga. fejl) 
+ Hvis AES ønsker at tilbagekalde en sag pga. 
+sagsbehandlingsfejl, sendes link til vagt til besvarelse.  
+Den der klager, trækker klagen tilbage (TSK, partsrep., FS eller arbg.) 
+Nyt Dokument – 
+Sagsdokument 
+Dokumentkategori: Dokument ud 
+Modtager: Vælg borger, partsrepræsentant eller 
+forsikringsselskab (OBS: Klagen kan kun tilbagekaldes, af 
+den part der har indbragt den) 
+Kopi til: Den part der ikke har klaget eller dennes 
+partsrepræsentant + AES 
+Skabelon: Brev-7, Henlæggelse, bortfald af klage 
+Udfyld skabelonen 
+Vedhæft tilbagekaldelsesanmodningen som kopi, når 
+brevet sendes 
+
+--- Page 40 ---
+40 
+ 
+ 
+Hvis FS trækker 
+klagen tilbage og de 
+skriver, at de 
+forventer, at de ikke 
+skal faktureres 
+Vi tilføjer flg. i brevet: 
+ 
+”Vi har noteret jeres bemærkning om, at I mener, der ikke 
+skal ske opkrævning af gebyr i sagen. Vi gør opmærksom på, at 
+vi først tager stilling til, om der skal ske opkrævning i 
+sagen i forbindelse med vores samlede fakturering i foråret 
+20XX” OBS: Kun hvis de skal betale. 
+ 
+Kan vi tydeligt se, at de fx har trukket klagen inden 
+oversendelsen, skriver vi begge datoer i resumé, og tilføjer 
+i brevet, at vi bekræfter, at sagen ikke faktureres, da 
+klagen er trukket tilbage inden oversendelsen fra 
+Arbejdsmarkedets Erhvervssikring 
+Tryk på Rediger (under 
+Afgørelser) 
+ 
+ 
+OBS: Kommer anm. 
+om at trække klagen 
+tilbage i notifikationer, 
+er det vigtigt at se på 
+datoen i brev fra den 
+part der trækker klagen 
+og ikke brevet fra AES 
+Afgørelseskode: Særlig lukningsårsag 
+ 
+Afgørelsesdato: d.d. 
+ 
+Årsag: Bortfald pga. klager (bruges, hvis en af parterne 
+har fortrudt klagen efter oversendelsen – faktureres) 
+Henlagt/afsluttet af AST/Nævn (bruges, hvis vi har 
+fejloprettet en sag, eller AES har oversendt ved fejl, fx hvis 
+den oversendes uden der er klaget, eller inden de 4 ugers 
+klagefrist er gået – faktureres ikke) SPØRG VED TVIVL 
+Kritik: Nej 
+Afgørelsesform: Særlig lukningsårsag 
+Tryk Udfør 
+Resumé Skriv altid grunden til lukkekoden i resumé 
+Bortfald pga. klager 
+Skriv fx: klagen er trukket tilbage efter oversendelse 
+Henlagt/afsluttet af AST/Nævn 
+Skriv fx: Klagen er trukket tilbage før oversendelse og skal 
+derfor ikke faktureres 
+Får du et svar fra en vagt vedr. kode, lave en intern note 
+og vedhæft svaret 
+Tryk Luk fase 
+Luk både fase 1 og 2 
+OBS: Det kan være nødvendigt at trykke på Play- 
+knappen, inden det er muligt at lukke en fase 
+(gælder for både fase 1 og fase 2) 
+Journalfør Ekstrakt og Mødebilag 
+Faserne i forløbet er 
+nu afsluttede 
+Sæt status: Afsluttet 
+Tryk OK 
+OBS: Alle dokumenter skal være journalført før en 
+sag kan lukkes. Man kan evt. sætte status til 
+Afslutning – klar til afslutning, så lukker sagen 
+automatisk om natten 
+--- Page 41 ---
+41 
+ 
+ 
+ 
+Hvis ikke-part eller anden FM-haver trækker klagen tilbage 
+Nyt Dokument – 
+Sagsdokument 
+Dokumentkategori: Dokument ud 
+Modtager: Borger 
+Kopimodtager: Afsender (ikke-part) 
+Skabelon: Brev-6 
+Tryk Udfør 
+Udfyld skabelonen 
+ 
+Vedlæg en kopi af anmodningen om 
+tilbagekaldelsen af klagen, når brevet sendes 
+I brevet er det vigtigt, 
+at vi skriver hvem vi 
+har modtaget 
+anmodningen fra, og 
+samtidigt gør 
+opmærksom på, at 
+vedkommende ikke 
+har ret til at tilbage- 
+Kalde klagen 
+Tip: Slet afsnit 2 og skriv fx flg.: 
+ 
+Xxx har d. xxx oplyst til Ankestyrelsen, at du ønsker at 
+trække din klage tilbage. 
+Da xxx ikke er partsrepræsentant, kan de ikke trække 
+klagen tilbage. 
+ 
+OBS: Husk at skrive VH Ankestyrelsen, da feltet er tomt 
+Ekspeder brevet 
+Vælg Sagsfunktioner, 
+Rediger egenskaber 
+Generelt: 
+Ansvarlig enhed: Administration ASK 
+Sæt status Vælg Afv. Ekstern 
+Tilføj frist Titel: Afv. høringssvar 
+Forfaldsdato: dd+15 
+Ansvarlig enhed: Administration ASK 
+Adgangsgruppe: Public 
+Opfølgning når fristen på Brev-6 er udløbet 
+Hvis vi IKKE har 
+modtaget en ind- 
+sigelse 
+Hvis ikke borger eller partsrepræsentant sender indsigelse 
+ 
+Vi sender Brev-7 – afslutter fristen, Sætter sagen til 
+Arbejdsskadeafdelingen, koder og lukker sagen 
+--- Page 42 ---
+42 
+ 
+ 
+ 
+2.6. Ombudsmandssager 
+ 
+Godkendelse og registrering af 
+ombudsmandssager 
+Ajourført: 04-06-2026 
+Registrer 
+en FOB-sag 
+ 
+OBS: Kommer der 
+noget generelt fra 
+FOB skal det 
+videresendes til 
+Ledelses 
+sekretariatet med 
+Cc. til Rikke 
+Søgaard. 
+Skriv flg.: 
+Vi har modtaget 
+ovennævnte mail 
+fra FOB. Mailen er 
+ikke journaliseret 
+og vi afventer 
+nærmer om vi 
+skal foretage os 
+noget 
+Alle henvendelser fra ombudsmanden i en konkret sag 
+udløser, at sagen registreres som en ombudsmandssag. 
+ 
+Førstegangshenvendelse: 
+Tjek grundigt, at du journaliserer på den rigtige sag (det kan 
+være til en sag vi ikke har oprettet endnu) 
+ 
+1. Opret Folketingets Ombudsmand (CVR 33946384) som 
+kontakt med rollen myndighed + eksternt j.nr. 
+2. Skriv i resuméfeltet, at der er sendt link til 
+ledelsesteam m.fl. – husk at angive dato og initialer 
+3. Under supplerende oplysninger, sagsinfo: 
+tilføj Ombudsmandssag 
+4. Journaliser henvendelsen på sagen som 
+”indkommende” – henvendelse fra Folketingets 
+Ombudsmand 
+5. Under afgørelser skal der tilføjes et sagsemne:  
+FOB, Ombud – Under Underinstans afg. dato skriver 
+vi dato for FOB henvendelsen 
+6. Kopier link fra sagen og orienter ledelsesteamet i det 
+kontor, hvor sagen hører til 
+FOB_ASK1, FOB_ASK2, FOB_ASK3, FOB_Retssager, FOB 
+Jura (kun hvis sagen står til JURA) 
+HUSK: Sagsbeh. skal også have link 
+ 
+Efterfølgende henvendelser, når sagen allerede er 
+registret som FOB-sag (også afsluttede sager) 
+ 
+1. Journaliser henvendelsen på sagen som 
+”indkommende” – henvendelse fra Folketingets 
+Ombudsmand 
+2. Skriv i resuméfeltet, at der er sendt link til 
+ledelsesteam m.fl. – husk at angive dato og initialer 
+3. Kopier link fra sagen og orienter ledelsesteamet i 
+det kontor, hvor sagen hører til 
+ 
+OBS: Hvis sagsbeh. ikke kan kode FOB-modulet pga. der 
+mangler underinstans afg.dato, skal de kontakte digi-support, 
+da det er pga. manglende rettigheder 
+--- Page 43 ---
+43 
+ 
+ 
+2.7. Videreførelsessager 
+ 
+Videreførelsessag – med mulighed 
+for sagsbehandlingsforløb 
+Ajourført: 14-05-2025  
+Begrebsafklaring Videreførelsessag: 
+En videreførelsessag oprettes på baggrund af en 
+henvendelse, på en sag fra en tidligere journalperiode. 
+Dvs. en henvendelse på en sag, som ikke er overført til 
+P360, og dermed kun findes i Captia/eArkiv. En 
+videreførelsessag er en midlertidig holdeplads, indtil man 
+finder ud af, om der skal ske sagsbehandling på baggrund 
+af henvendelsen. 
+ 
+Genoptagelsessag: 
+En genoptagelsessag oprettes på baggrund af vurdering 
+fra sagsbehandler. Årsagerne for at genoptage kan 
+være mange, men skyldes som udgangspunkt mangler, 
+fejl, nye oplysninger, eller domsfældelse i en sag, som 
+vi har afsluttet. En genoptagelse er altså ”ny 
+sagsbehandling” på en sag vi tidligere har haft under 
+behandling. 
+ 
+To situationer kan forekomme på en 
+videreførelsessag: 
+1. Hvis der ikke skal ske sagsbehandling, skriver 
+sagsbehandleren en begrundelse for, hvorfor 
+vi ikke kan behandle sagen, herefter skal 
+sagsbehandleren afslutte sagen. 
+2. Hvis der skal ske sagsbehandling på sagen 
+der danner baggrund for oprettelsen af 
+videreførelsessagen, er der tale om en 
+genoptagelsessag. Denne foretages på 
+videreførelsessagen. 
+ 
+Vejledningen beskriver hvordan begge 
+situationer håndteres 
+--- Page 44 ---
+44 
+ 
+ 
+ 
+Situation 1: Opret videreførelsessag 
+Opret sag: 
+Menu, Sag, 
+Arbejdsskadesag 
+Adgangsgruppe: Arbejdsskade 
+Titel: Videreførelse af tidligere sag med j.nr. 
+xxxx-xxxx-xxxxx 
+Ansvarlig enhed: Det kontor der skal besvare 
+henvendelsen 
+Ansvarlig person: Sagsbehandler 
+1.Niveau: Arbejdsskadeloven 
+Vælg Næste 
+OBS: Der skal ikke forløb på sagen 
+Eksterne kontakter: 
+Tilføj samme kontakter 
+som fra den tidligere 
+sag 
+OBS: Det er meget vigtigt at tjekke kontakterne. Der kan 
+være ændringer i FS, førsteinstans (tidl. Arbejdsskade- 
+styrelsen) eller partsrepræsentant. Evt. tidligere 
+partsrepræsentant får rollen ikke part, og vi afklarer IKKE 
+fuldmagtsforhold 
+Tjek evt. sag i SeSag, og tjek FS i FS-oversigten (specielt 
+v. KM), da KM, kan have skiftet FS i mellemtiden. Husk også 
+at opdatere kontakter med Virk. 
+OBS: Klager er borger m.m. FS el. arbg. står på sagen 
+som modpart 
+ATT: Udfyld evt. Feltet 
+Resumé Skriv ”Videreførelses af tidligere sag med j.nr.: xxxx-xxxx- 
+xxxxx” 
+Evt.: OBS verserende sag 
+ 
+Vælg Næste 
+Supplerende 
+oplysninger 
+Anke modtaget: Samme dato som eArkiv sagen  
+ 
+Sagsinfo: ASK Borgerklage el. ASK Forsikringsklage  
+ 
+Skadedato: Samme dato som eArkiv sagen 
+Tags/stikord 
+01 VIDEREFØRELSES- 
+SAG 
+Tags, Administrér stikord: 
+01 VIDEREFØRELSESSAG 
+HUSK: Evt. øvrige stikord, der var på den tidligere 
+sag 
+--- Page 45 ---
+45 
+ 
+ 
+ 
+Opret et 
+sagsemne/afgørelse 
+Sagsemne: Det samme som i Captia sagen 
+Førsteinstans afg. dato: Se Captia sagen 
+OBS: Ikke AST afgørelsesdato 
+Status Efterbehandling 
+Alle stamdata for ”situation 1” er nu 
+registrerede 
+Henvendelsen ligges ind som 
+dokument-/akt nr. 1 
+Administrationen foretager sig ikke 
+yderligere 
+ 
+OBS: Der skal ikke flyttes akter med 
+over fra Captia 
+Situation 2: 
+Sagsbehandler melder tilbage 
+(i Journalpostkassen), at 
+henvendelsen danner grundlag for en 
+genoptagelsessag 
+ 
+Nedenfor følger beskrivelse af 
+registreringerne på en 
+genoptagelsessag, der er startet op 
+som en videreførelsessag 
+Situation 2 – Når videreførelsessagen skal ændres til en 
+genoptagelsessag 
+Afslut 
+Efterbehandlings- 
+forløb 
+Luk fase 
+ 
+Efterbehandlingsforløbet er nu afsluttet, og der skal 
+tilknyttes et sagsbehandlingsforløb. 
+Tilknyt forløb: Forløb: Arbejdsskade 90 dage 
+Forløbet skal aktiveres ved at trykke på PLAY-knappen 
+ 
+OBS: Nu åbnes fanen med sagsemne. Men da sags- 
+emne allerede er tilknyttet, skal der ikke tilføjes et nyt 
+Gå ind under fanen 
+Supplerende 
+oplysninger og tilføj 
+følgende: 
+Sagsfunktioner, Rediger egenskaber 
+ 
+Sagsinfo: Slet normal sag og tilføj ”Ulovbestemt 
+genoptagelse” 
+Genoptagelsesdato: Dato for anmodning om 
+genoptagelse 
+Resumé d.d.: Videreførelsessagen er lavet om til en 
+genoptagelsessag/initialer 
+Luk fase 1 Fordel til fagkontor og ansvarlig person 
+Ret anke modt. Dato Ændres til samme dato som på den sag, man genoptager 
+Mødebilag Mødebilaget kopieres over fra eArkiv sagen 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Page 46 ---
+46 
+ 
+ 
+3. Journalpostkassen 
+ 
+3.1. Opgaver i journalpostkassen 
+ 
+Opgaver i journalpostkassen på 
+arbejdsskadeområdet 
+Ajourført: 27-08-2025 
+Vi kan hjælpe med følgende: 
+TIP: 
+Hvis en SB ikke kan 
+lukke en sag pga. 
+aktiviteter el. 
+reserverede 
+dokumenter kan man 
+under status vælge 
+”Afslutning – klar til 
+afslutning”. Sagen 
+lukkes så automatisk 
+om natten 
+(OBS: Kun når sagen er 
+kodet) 
+OBS: Hvis der kommer en mail med generel info, 
+videresendes den til Adm Team ASK alle og flyttes i 
+behandlet post 
+• Frister ASK skrivebord – vi kvitterer til 
+parterne, og slette ikke-parten. OBS: tjek 
+først, at FULDM ikke er kommet i 02 el. ESDH 
+• Fysisk post – vi tjekker bakken på reolen - Se 
+særskilt vejledning 
+• Annullering/lukning af sag – Se særskilt 
+vejledning 
+• Flyt- og kopier dokumenter – Se særskilt 
+vejledning 
+• Kopier en sag – Se særskilt vejledning 
+• Ændring/lukning af sagsemne – Se 
+særskilt vejledning 
+• Rettidig klagefrist – Se særskilt vejledning 
+• Hastesager - Oprettelse og kvittering af - Se 
+særskilt vejledning 
+• Ulovbestemt genoptagelser - Se særskilt 
+vejledning 
+• Forlængelsesbreve - Se særskilt vejledning 
+• Politianmeldelsessager/Bødesager - Se 
+særskilt vejledning 
+• Oprettelse af kontakter – med korrekt rolle 
+• Bekræftelse på indtræden af ny 
+fuldmagtshaver i sager tildelt 
+sagsbehandler. OBS: Adm. har ansvaret for 
+fuldmagter, så hvis SB beder om at få en part 
+på sagen, skal fuldm. Tjekkes 
+• Mail fra AKT vedr. afklaring af fuldmagt 
+--- Page 47 ---
+47 
+ 
+ 
+AKT tilføjer parten som ikke-part. Er 
+fuldmagten til begr. rettigheder, ændre vi 
+rollen til Anden FM-haver. Er fuldmagten 
+ubegrænset retter vi rollen til partsrep. og 
+sender FULDM-5 (indsæt evt. sætning fra AKT, 
+hvis de skriver det) 
+• Sagsemne kan ikke lukkes/kodes – Hvis 
+SB skriver om et kodet sagseme fra tidligere år 
+der skal ændres, og vi ikke kan slette koden, 
+må vi ikke henvise til digi, men LØK 
+• Opret en generel sag til sagsbeh. 1. 
+Niveau: Generelle spørgsmål  
+         2. Niveau: Diverse  
+• Hvis en sag er oversendt fra AES og vi aldrig 
+har fået den oprettet. Vi opretter sagen og 
+sender link til vagten mht. sagsbeh. tid  
+ 
+• Fejl mødebilag – Hvis den der har lavet fejlen 
+ikke er på job samme dag eller dagen efter, er 
+det den der passer Journalen, der retter 
+mødebilaget. Send mail til kollega, at det er 
+gjort  
+• Fejl Robot @ske-rapport –Hvis rapporten 
+skriver, at oprettelsen af en sag er ”failed”, skal 
+den oprettes manuelt.  
+Generelt  
+- Adgangsgruppe: Arbejdsskade  
+- Titel: Ny arbejdsskadesag + AES j.nr. 
+- Ansvarlig enhed: Administration ASK  
+- Status: Robot Færdigbehandlet (vigtigt, ellers   
+kommer den ikke i vores søgning  
+- 1.Niveau: Arbejdsskadeloven  
+Eksterne kontakter Tilføj AES som 1.instans 
+med deres j.nr.  
+Resumé: LEGEMSDEL  
+Supplerende oplysninger: Skadedato  
+Udfør  
+• Hvis en klagefristsag er blevet kvitteret 
+og kommer retur fra fagkontor 
+Send link til 07 ADM_JURA og skriv, at sagen 
+er kommet retur fra fagkontor. Bed JURA 
+vurdere hvad der skal ske 
+Sæt frist på sagen: Afv. JURA vedr. klagefrist  
+Sæt frist Afv. Jura dd+7. Vi senderikke Frist-6 
+Send link til JURA, og skriv, at sagen er 
+retur fra fagkontor, da det er en klagefristsag 
+• Fejl i aktpakken fra AES – Hvis vi el. SB 
+opdager, at der i sagsakterne fra AES er akter 
+--- Page 48 ---
+48 
+ 
+ 
+vedr. en anden borger. Vi skal ikke anonymisere 
+den samlede aktpakke. Kun hvis den skal 
+sendes ud anonymiserer vi (fx aktingsigt) – 
+Skriv fx i dok. kort, at der er navn/cpr. nr. på 
+anden borger på side XXX 
+• Anonymisering – Vi anonymiserer kun i 
+sagsakter. SB skal selv rette i mødebilaget. Gem 
+pdf på dit skrivebord – Vælg ”Flere Værktøjer” 
+(tv.) – scroll ned og vælg ”Rediger” under 
+”Beskyt og standardiser”. Marker det der skal 
+fjernes, ”Anvend”, ”Fortsæt og Gem”. Erstat 
+sagsakterne med den anonymiserede udgave 
+i hjælper ikke med flg.: 
+ • Overflytte akter fra eArkiv til P360 
+• Afslutte åbne aktiviteter i P360 
+• Når sagsbeh. ikke kan kode FOB-modul. SB skal 
+selv kontakte digi-support, da der er noget galt 
+med deres rettigheder 
+• Lukning af sager 
+• Partshøringer 
+• Anonymisering – Er der sket sikkerhedsbrud i en 
+sag indrapporterer vi det, men vi anonymiserer 
+ikke før vi evt. hører fra sikkerhedsbrud 
+Snitflader med øvrige teams 
+ • Henvendelser om besvarelse af aktindsigt skal 
+flyttes til journal_aktindsigt 
+• Henvendelser om lægesvar og forespørgsler til 
+mødebooking skal flyttes til 
+Vagtpostkasse_Booking 
+• Henvendelser til retssager skal flyttes til 
+undermappen ASK RET 
+ 
+--- Page 49 ---
+49 
+ 
+ 
+3.2. Fysisk post 
+ 
+Fysisk post 
+Ajourført: 09-06-2026 
+Scannet post med USB/CD 
+Skannet post i 
+Outlook 
+• Vi journaliserer materialet fra Outlook som internt notat 
+og reserveret 
+Titel: Brev fra XXX (USB/CD) 
+ 
+Indlæs USB/CD på sagen 
+Fysisk post i bakken • Sæt CD i eksternt drev (skuffe reol) eller sæt USB i 
+PC 
+• Åbn mappen (under denne PC) 
+• Ctrl. A 
+• Højreklik – Send til – ZIP – komprimeret mappe 
+• Ja 
+• Filen gemmes på skrivebord (CD) eller USB-stik 
+• Gem som (navngiv med sigende titel, fx indhold fra 
+USB)  
+• Er det et USB, husk at slette zip-filen fra USB-stikket 
+• Kan du ikke lave zip-fil, så træk filerne ind enkeltvis 
+HUSK at åbne alle mapper og træk filerne ind (hele 
+mapper kan ikke journaliseres) 
+• Er det for stort skal det minimeres i Adobe Premiere 
+Elements (Helle) max 1500 MB 
+ 
+Hvis indholdet kan journaliseres 
+ Træk nu zip-filen eller filerne enkeltvis ind på 
+dokumentkortet der indeholder de skannede filer (brev, 
+kuvert mv.) 
+ 
+• Sæt dokumentkortet til Journaliseret og 
+Indkommende 
+• Skriv flg. i resumé: 
+Indhold fra USB journaliseret i akt XXX 
+• Hvis alt indhold kan journaliseres sendes usb retur  
+el. destrueres 
+Hvis indholdet ikke kan journaliseres som zip-fil el. enkeltvis 
+ Matr. forsøges minimeret med Adobe elements. Kan der 
+ikke laves en samlet fil mindre end 1500 MB 
+ 
+• Omslag og USB arkiveres i plastomslag i mappe i 
+skab 
+• Notér i resumé, hvad der er modtaget, fra hvem og 
+en oplysning til sagsbeh. om, at de kan få matr. 
+tilsendt/afhente i adm. OBS: ikke CD’er og USB 
+uden kode. Oplys, at indhold er for stort til 
+journalisering i P360 
+ 
+--- Page 50 ---
+50 
+ 
+ 
+Hvis der mangler kode 
+ • Mangler der en kode og sagen ikke er fordelt til 
+sagsbeh., ring til afsender om bed dem sende 
+koden 
+• Læg posten tilbage i postbakken 
+Hvis vi udleverer USB/CD til sagsbeh. 
+ OBS: USB/CDer uden kode må IKKE sendes med 
+intern post 
+• Lav en intern note på sagen, at vi har udleveret matr. 
+til sagsbeh. 
+• Gør sagsbeh. opmærksom på, at de selv skal 
+opbevare USB/CD i et aflåst skab og returnere til 
+afsender senest ved sagens afslutning 
+Returnering af fysisk matr. 
+ 
+ 
+ Hvem returnerer vi til? 
+ 
+ 
+ 
+ 
+Hvornår sender vi til 
+digi til destruktion 
+OBS: USB/CDer uden kode må IKKE returneres – de 
+skal destrueres 
+ 
+Vi returnerer til TSK, partsrep., FS og FS partsrep. med 
+brev-1 el. brev-2 (husk eksternt j.nr.). Vi sender kun retur 
+til AES, hvis de beder om det. 
+ 
+Vi returnerer ikke fysisk matr. til offentlige myndigheder, 
+sygehuse, læger, fysioterapeuter
+, med mindre de beder om 
+det samt AES  
+ 
+Tekst Brev-1 el. Brev 2:  
+Hermed returneres tidligere fremsendt USB stik. Materialet 
+er journaliseret på sagen. 
+Print brevet i farve og Journalfør 
+Pak i kuvert med USB-stik og send 
+ 
+Intern Note:  
+USB stik returneret til XX/ initialer   
+ 
+Destruktion af USB/CD 
+ USB og evt. CD der skal destrueres samles i et 
+plastomslag og afleveres hos digi-support. 
+ 
+  Intern note:  
+USB destrueret (fx da det mangler kode)/initialer 
+--- Page 51 ---
+51 
+ 
+ 
+ 
+3.3. Annullering/lukning af sag 
+ 
+Annullering/Lukning af sag 
+Ajourført: 22-05-26 
+ OBS: Vi annullerer kun sager der er fejloprettede 
+og hvor der ikke er sket sagsbehandling. Er der 
+sendt kvitteringsbreve lukkes sagen i fagkontor 
+m.m. Adm. ved en fejl har dobbeltoprettet sagen 
+Sagsfunktioner, 
+Rediger egenskaber 
+Resumé 
+Notér grunden til at sagen annulleres/lukkes. Husk dato og 
+initialer 
+Frister Luk eventuelle frister 
+Tryk på ”…” ud for påmindelse. Vælg Sæt til lukket 
+Dokumenter Tjek at alle dokumenter står som Journalført 
+Brev Skal sagen lukkes hvis den ved en fejl er dobbeltoprettet 
+skriver vi ud til sagens parter brev (Brev-1) og henviser til 
+den sag vi sagsbehandler på og beklager fejlen 
+Forløb Vælg Øvrig – Annuller forløbet – Ja (Kun ved annullering) 
+Lukker vi pga. dobbeltoprettelse lukkes begge forløb 
+Sæt sagen til Arbejdsskadeafdelingen 
+Afgørelsesmodul Markér sagsemnet og vælg rediger 
+Afgørelseskode: Vælg ”Særlig lukningsårsag” 
+Afgørelsesdato: d.d. 
+Årsag: Annulleret/sagen udgået (Henlagt, hvis vi har sendt 
+breve ud fra sagen) 
+ 
+Kritik: Nej 
+ 
+Afgørelsesform: Særlig lukningsårsag 
+Luk sag Sæt status: ”U-Sagen udgår”, hvis sagen annulleres 
+”Afsluttet”, hvis sagen henlægges 
+ 
+Opdater med F5. Sagstitlen vil nu være overstreget (kun 
+ved annulleret) 
+Tip: Hvis sagen ikke 
+kan lukkes pga. 
+åbne aktiviteter 
+HUSK: En sag kan ikke lukkes før alle aktiviteter (fx 
+workflows, frister mv.) er lukkede og alle dokumenter 
+journalført. 
+ 
+TIP: Sæt sagen til Afslutning – Klar til afslutning så 
+lukkes alle åbne aktiviteter, og reserverede dokumenter 
+lukkes om natten, hvor sagen også sættes til afsluttet. 
+ 
+ 
+--- Page 52 ---
+52 
+ 
+ 
+Annullering af robot-sag 
+ Hvis en sag er   
+oprettet 2 gange 
+Resumé: 
+Skriv, hvorfor sagen udgår 
+ 
+Sæt status: 
+U – Sagen udgår 
+--- Page 53 ---
+53 
+ 
+ 
+3.4. Opret ekstra sag/sagsemne 
+ 
+ 
+Opret ekstra sag/sagsemne 
+Ajourført: 01-06-26 
+ OBS: Sagsbehandler skriver til Journal_ASK og oplyser, at vi 
+fx udvider prøvelsen til også at omhandle anerkendelsen 
+(dvs., at anerkendelsen er ikke oversendt af AES) 
+Hvis det nye sagsemne har samme afgørelsesdato som det 
+eksisterende 
+ • Påfør det nye sagsemne under Afgørelser med 
+samme Underinstans afg. dato som det eksisterende 
+sagsemne 
+Hvis det nye sagsemne ikke har samme afgørelsesdato som det 
+eksisterende 
+ • Kopier den eksisterende sag 
+• Tilføj det nye sagsemne fx Ulykker vha. playpilen. 
+Tilføj Underinstans afg. dato jf. afgørelsen 
+• Kopier den sagsakterne over på den nye sag 
+• Luk fase 1 
+• Fordel sagen til samme kontor og sagsbeh. som på 
+den anden sag 
+• Send link til sagen til sagsbehandler 
+--- Page 54 ---
+54 
+ 
+ 
+3.5. Flyt og kopier dokumenter 
+ 
+Flyt og kopier dokumenter 
+Ajourført: 14-09-20  
+Sagsfunktioner – 
+Arkivfunktioner – 
+Flyt/kopier  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Renummering 
+• Vælg om du vil flytte eller kopiere akten 
+• Skriv j.nr. på den sag, der skal flyttes/kopieres 
+til 
+• Sæt ⱱ ved den/de akter du vil flytte 
+• Klik på knappen flyt/kopier 
+ 
+OBS: Hvis du kun skal kopiere 
+Det er vigtigt, at sætte flueben i ”kopier alle varianter 
+af aktive filversion”, ellers bliver filen konverteret fra 
+PDF til Word på den sag filen flyttes til! 
+ 
+Anvendes kun ved flytning 
+Vælg Renummering og bekræft 
+Ansvarlig enhed og 
+ansvarlig person 
+Korriger begge dele på dokumentkortet, hvis dokument 
+flyttes til en anden sag. Vælg adm. ASK, hvis det 
+flyttes til skraldespandssagen 
+--- Page 55 ---
+55 
+ 
+ 
+3.5. Kopier en sag 
+ 
+Kopier en sag 
+Ajourført: 19-04-2022  
+Sagsfunktioner – 
+Gem som 
+Generelt 
+Adgangsgruppe: Arbejdsskade 
+Titel: Sagens emne 
+Ansvarlig enhed: fagkontor eller eget team 
+(kommer an på, om der skal arbejdes videre på 
+sagen, inden den skal frigives) 
+Niveau: Arbejdsskadeloven 
+Forløb: Tilføj det nye forløb, eller hvis du vælger Udfør nu, 
+så husk at slette det oprindelige forløb 
+ 
+Eksterne kontakter 
+kontroller at kontakterne er korrekte (OBS. På eksterne 
+j.nr., Att. mv.) 
+ 
+Resumé 
+Husk at slette evt. kopieret tekst, hvis det ikke skal 
+anvendes 
+ 
+Supplerende oplysninger 
+Kontroller at kopieret data er korrekt, ellers ændres 
+data HUSK: Hvis der står noget under særlig 
+lukningsårsag, skal det slettes 
+ 
+OBS: Forventet sagsbehandlingstid og klagedato 
+Sagsemne Tryk på Playknappen og udfyld med Sagsemne og 
+Førsteinstans afg. dato 
+Tags (stikord) Tags – Administrér stikord 
+ 
+Tip: Søg med % 
+Resumé OBS verserende sag, hvis borger har øvrige verserende 
+sager 
+Dokumenter Se særskilt vejledning om ”Flyt og Kopier dokumenter” 
+Sagen frigives til 
+fagkontor 
+Fase 1 lukkes 
+Tjek at evt. sagsbehandler er registreret på den nye sag 
+Klik på F5 og titel ændres automatisk 
+--- Page 56 ---
+56 
+ 
+ 
+3.6. Ændring/lukning sagsemne 
+ 
+Ændring/lukning 
+sagsemne – Omjournalisering 
+Ajourført: 08-10-2024  
+OBS: Gælder ikke ulovbestemt genoptagelse og videreførselssager, da de ikke 
+faktureres 
+Sager der ikke er faktureret, dvs. fra indeværende år 
+ 
+Du må tilføje, redigere og slette sagsemner 
+Markér sagsemne og vælg ”Rediger” under afgørelser 
+Ret til det sagsemne du skal bruge 
+Noter Opret ny intern note og notér hvem der har bedt om 
+omjournalisering, hvad den er ændret fra/til og evt. 
+begrundelse. 
+Ændr sagstitel HUSK: Ændr sagstitel, så det passer med sagsemner 
+Sager der ER faktureret, dvs. sagsemner der er oprettet forrige år el. 
+tidligere 
+OBS: Hvis vi sletter et 
+sagsemne i en sag der 
+er faktureret, og tilføjer 
+et nyt, sker der det, at 
+det oprindelige 
+sagsemne er faktureret 
+i indeværende år, og 
+det nye bliver faktureret 
+næste år. Dvs. FS bliver 
+dobbeltfaktureret 
+Tilføj sagsemne 
+ 
+• Tilføj sagsemne, og ændr sagstitel, så det nye 
+sagsemne ses i sagstitel med de øvrige 
+• Lav note som ovenover 
+• Husk at tilrette sagstitel 
+• Ingen besked til LØK, for sagsemnet faktureres 
+først næste år 
+Ændre sagsemne 
+• Du skal vælge ’rediger’ og ændre sagsemnet – 
+dvs. du må ikke slette det og tilføje et nyt (sker 
+det ved en fejl, skal du skrive til LØK) 
+• Lave en note som ovenover 
+• Husk at tilrette sagstitel 
+• Der sendes link til LØK (se nedenunder) 
+• Skriv i Resumé, at der ser sendt link til LØK 
+ 
+Slet sagsemne 
+OBS: Vi må ikke slette sagsemner der er faktureret (sker 
+det ved en fejl, skal du skrive til LØK) 
+ 
+• ”luk” i stedet sagsemnet ved kodning (se 
+--- Page 57 ---
+57 
+ 
+ 
+ nedenunder) 
+• Lav en note som ovenover, med hvad du tilføjer 
+• Husk at rette sagstitel 
+• Link til LØK (OBS: ikke hvis vi i noten eller log kan 
+se, at sagsemnet er tilføjet i indeværende år) 
+• Skriv i Resumé, at der er sendt link til LØK 
+Kodning af sagsemner der lukkes: 
+Afgørelseskode: Særlig lukningsårsag 
+Afgørelsesdato: d.d. 
+Årsag: Arbejdsskadesagsemnet nedlagt 
+Kritik: Nej 
+Afgørelsesform: Særlig lukningsårsag 
+ 
+Hvis der fx er klaget over 3 sagsemner, og klager trækker 
+klagen tilbage over de 2 emner, skal disse emner lukkes 
+og kodes (Se vejledning – trækker klage tilbage) 
+Link til LØK 
+ • Send link til sag til oekonomi@ast.dk fra 
+Journal_ASK og skriv, hvis du har ændret eller 
+kodet et sagsemne med Arbejdsskadesagsemnet 
+nedlagt 
+• Skriv ændring/lukning af sagsemne i emnefelt. Der 
+gives ikke besked hvis der tilføjes et nyt emne, da 
+det først faktureres næste år 
+• Notér i Resumé, at der er sendt link til LØK 
+--- Page 58 ---
+58 
+ 
+ 
+3.7. Bekræftelse af rettidig klagefristsag 
+ 
+Bekræftelse af rettidig klagefristsag 
+Ajourført: 08-10-2024  
+De 2 situationer 
+som kan gøre sig 
+gældende 
+1. AES har genvurderet og klagen er rettidig 
+2. Vi har afvist klagefristen og kodet sagen – men 
+skal behandle sagen på baggrund af nye 
+oplysninger 
+ 
+Situation 1. Følg vejledningen neden for 
+Situation 2. Opret ny sag, og følg vejledningen 
+nedenfor. Der skal oprettes en ny sag til materiel 
+behandling, fordi vi ved en fejl har afvist klagefristen 
+(lav kopi af klagefristsagen). 
+AES har genvurderet og JURA har vurderet, at sagen kan kvitteres 
+Afslut 
+klagefristforløbet 
+Klik på pilen ved Øvrig og vælg Annuller forløbet - Ja 
+ 
+• Tilknyt forløb Arbejdsskade 240 dage – Udfør 
+• Husk at afbryde opgaven på kryds ud for play 
+pilen og Luk fase 1 
+Rens Resumé OBS: slet det vi skrev ved oprettelsen vedr. link til 
+JURA mv. 
+Er fuldmagts- 
+forholdet afklaret 
+Send kvitteringsbreve til sagens parter. 
+ 
+HUSK: Tjek om sag skal fordeles til en sagsbeh. der i 
+forvejen har en verserende sag, eller om den skal til 
+Arbejdsskadeafdelingen 
+ 
+OBS: Hvis sagen har været længe i Adm. Team JURA, skal 
+du være OBS på forventet afsluttet dato. Den skal muligvis 
+tilrettes manuelt. Er det tilfældet skal der laves manuelle 
+kvitteringsbreve. 
+Er fuldmagts- 
+forholdet IKKE 
+afklaret 
+Send FULDM-skrivelse 
+Adgangsgruppe: Arbejdsskade 
+Status: Afventer ekstern 
+Ansv. Enhed: Administration ASK 
+Opret frist: Følg evt. vejledningen til oprettelse af frister 
+Mødebilag Husk at oprette mødebilag 
+Hvis Adm. JURA 
+afviser en sag pga. 
+klagefrist, og det er 
+en fejl 
+Sagen oprettes på ny som en ulovbestemt genoptagelse 
+ 
+Lav en intern note og skriv, at sagen allerede er faktureret 
+på j.nr. (henvis til den lukkede klagefristsag) 
+--- Page 59 ---
+59 
+ 
+ 
+3.8. Hastesager 
+ 
+Hastesager i Journalpostkassen 
+Ajourført: 25-08-2025  
+Hastesager i 
+Journalpostkassen 
+Hastesager vil typisk 
+omhandle 
+terminalpatienter. 
+Det er AES der har 
+kompetencen til at 
+beslutte, om en sag 
+skal oversendes som 
+en hastesag 
+Pr. 16. august 2016 er der indgået aftale med AES om 
+forhåndsadvisering om oversendelse af hastesager. Det 
+foregår enten ved: 
+ 
+1. Telefonisk henvendelse fra AES – Info sender 
+ringemail til Journal_ASK, eller videregiver kald til 
+ASK søgeplan 
+ 
+2. Hvis AES skriver HASTER el. kræft i 
+notifikationsarket eller genvurderingsbrevet 
+ 
+HUSK: Giv besked til den der har indbakken, at du 
+opretter sagen 
+Mail vedr. Sagsbehandlingstid – sager vedr. HUD og MEDICINSK  
+Skriv fra Journalen 
+med link til sagen 
+til: 
+Simon Christoffer 
+Hansen og Niels 
+Jochumsen 
+ 
+Emnefelt: HASTER 
+Det skal mailen indeholde: 
+Der spørges til hvor lang sagsbehandlingstid sagen skal 
+kvitteres med, og hvem sagen skal fordeles til. 
+ 
+Evt. Fuldmagtsforhold afklares med 7 dages frist 
+ 
+OBS: Hvis Simon/Niels melder tilbage, at sagen hører til i en 
+anden specialegruppe end Hud- og medicinergruppen sætter 
+vi ikke sagsbehandler på (se evt. nedenunder) 
+Mail vedr. Sagsbehandlingstid –IKKE vedr. HUD og MEDICINSK – fx 
+kræft der ikke er relateret til arbejdsskaden 
+ Link til bagvagten, der oplyser sagsbehandlingstid 
+ 
+Vi kvitterer med den angivne sagsbehandlingstid og 
+frigiver til Arbejdsskadeafd. 
+ 
+Gem vagtens svar på sagen som Intern Note 
+Færdiggørelse af robot-sag 
+V. fuldmagtsbrev 
+Opret en Frist (7 dg.) 
+Titel: HASTESAG – Afv.FM – OBS sagsbeh.tid, se 
+Resumé 
+Forfaldsdato: d.d. + 8 
+Ansv. Enhed: Administration ASK 
+Adgangsgruppe: Administrationen 
+--- Page 60 ---
+60 
+ 
+ 
+Resumé Hvis vi afventer fuldmagt 
+Vi skriver i resumé, hvor lang tid sagsbeh. skal være, så 
+den der modtager fuldmagt, kan indsætte det i 
+kvitteringsbrevene 
+Planlagt afsl. dato Rettes manuelt ift. svar om sagsbehandlingstid 
+Tags/stikord OBS: Sagen skal have flg. tag/stikord: 
+• HASTE – AkutBehandling 
+• Evt. øvrige (fx ASK kræft, ASK Medicinsk, el. ASK 
+HUD) 
+V. kvitteringsbrev Der sendes et manuelle kvitteringsbreve til 
+TSK/fuldmagthaver (2A, 21A, 9A) og HUSK (4A) til FS 
+• OBS: Husk at tilrette sagsbehandlingstiden i 
+kvitteringsbrevet, så den stemmer overens med 
+svaret du fik 
+ Sagen fordeles til den sagsbeh. der angives eller bliver 
+stående til Arbejdsskadeafdelingen 
+Opret helt ny sag, 
+hvis ikke vi kan vente 
+på robot sag 
+Opret sag manuelt – Menu, sag, Arbejdsskadesag 
+Adgangsgruppe: Arbejdsskade 
+1. Niveau: Arbejdsskadeloven 
+ 
+  HUSK: at slette robotsagen, når den er blevet oprettet 
+--- Page 61 ---
+61 
+ 
+ 
+ 
+ 
+Ulovbestemte genoptagelser 
+Ajourført: 27-10-2025 
+Følg vejledningen til 
+”kopiering af sag”, 
+hvis der er tvivl om, 
+hvordan dette gøres 
+Sag i P360 
+Kopier den sag (Sagsfunktioner, Gem som) som 
+sagsbehandleren anmoder om at få genoptaget (evt. 
+flere ved forsk. afg. datoer) 
+ 
+Retssag 
+Hvis der linkes til en retssag, skal du kopiere den sag 
+retssagen har sagshenvisning til. Er der sagshenvist til 
+mere end en sag, er det vigtigt, at få evt. begge sagsnr. 
+med i Resumé på kontakten førsteinstans og der oprettes 
+to ulov-sager, hvis AES afgørelsesdato ikke er ens 
+ 
+Sag fra eArkiv 
+Opret en identisk sag i P360 (Menu, Sag, 
+Arbejdsskadesag) 
+ 
+Veteransag 
+Er der både AESK og Særlovssag, skal der også oprettes 
+to genoptagelsessager 
+ 
+OBS: Tjek om der er en videreførelsessag der skal 
+omdannes til genoptagelsessag 
+Kopier den sag der skal genoptages (Sagsfunktioner – Gem som) 
+Sagsfunktioner 
+- Rediger 
+egenskaber 
+Generelt 
+Titel: Uændret eller ny titel hvis det oprindelige sagsemne 
+ikke findes (OBS: Fx Små specialer rettes til nuværende 
+sagsemne), eller flere/færre sagsemner 
+Forløb: Arbejdsskade 90 dage 
+OBS: Er der forløb efterbehandling på, og kan det ikke 
+slettes, skal du vælge Udfør nu). 
+Klik herefter på pil ved Øvrigt under forløb 
+Vælg annuller forløbet 
+Gå tilbage i sagsfunktioner, for at rette til forløb 
+Arbejdsskade 90 dage 
+OBS: Slet hvis der er noget i andre felter der normalt er 
+tomme 
+ 
+3.9. Ulovbestemte genoptagelser 
+--- Page 62 ---
+62 
+ 
+ 
+Kontakter 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBS: Det er vigtigt at tjekke kontakterne. Opdatér evt. 
+FS jf. Excel-ark, opdatér evt. virksomheder med VIRK, 
+og vær OBS på fuldmagt (Se nedenunder) – ikke parter 
+slettes 
+ 
+Hvis der er en verserende retssag: 
+Hvis genoptagelsessagen laves på baggrund af en retssag, 
+skal du tage evt. partsrep. fra retssagen med på sagen 
+om genoptagelse (også FS partsrep.) – brug evt. eksterne 
+j.nr. fra retssagen 
+Hvis en adv./forbund tidligere har været partsrep., 
+og det er dem der fx har gjort indsigelse, skal de igen på 
+sagen som partsrep. (6 mdr.-regel) 
+ 
+Hvis der var en partsrep. (advokat) på den sag der 
+genoptages, og vi ikke kan se, at de har anmodet om 
+genoptagelse, skal de ikke på den nye sag 
+ 
+Hvis FS anm. om genoptagelse, kan vi komme ud for 
+at skulle afklare fuldmagtsforholdet hos borger (hvis 
+sagsbeh. beder os om det) 
+ 
+Der er 2 muligheder: 
+ 
+1. Sagsbeh. ringer til borger og spørger, om de stadig er 
+repræsenteret af XXX. Hvis borger bekræfter, lader vi 
+fuldmagthaver blive på sagen. OBS: Der skal være 
+notat på sagen 
+2. Sagsbeh. skriver til Journal_ASK, at vi skal afklare 
+fuldmagtforholdet. 
+Vi skriver KUN til borger, med 7 dages frist 
+(Sætter vi tidl. fuldmagthaver på som kopimodt., 
+betragtes det som sikkerhedsbrud) 
+Klager HUSK: Påfør klager – det skal være den samme som fra 
+den sag du genoptager, og ikke den der beder om 
+genoptagelse 
+ 
+Hvis Arbejdsmarkedets Tillægspension er på sagen med 
+rollen myndighed, rettes det til rollen FS. Er kontakten 
+**Arbejdsmarkedets Erhvervssikring Fakturering på som 
+andre (er overstreges) slettes den 
+ 
+ATT: Udfyld evt. feltet 
+Resumé Evt.: OBS verserende sag (husk også at notere det på de 
+verserende sager 
+Ulovbestemt genoptagelse af j.nr. xx-xxxxx 
+--- Page 63 ---
+63 
+ 
+ 
+Supplerede 
+oplysninger 
+Anke modtaget: d.d 
+Sagsinfo: Ulovbestemt genoptagelse 
+ASK Forsikringsklage, når FS klager 
+ASK Borgerklage, når TSK/FM-haver el. arbg. 
+klager 
+Genoptagelsesdato: den dato du bliver bedt om at  
+oprette sagen 
+Sagsreference Vi sagshenviser kun til den sag der skal genoptages –  
+ikke alle øvrige 
+Aktiver forløb el. 
+opret sagsemne 
+Tryk på Playknappen 
+Vælg Sagsemne 
+Tilføj Førsteinstans afg. dato 
+OBS: Hvis vi skal genoptage flere sager, skal der være en 
+sag for hver af AESs afgørelsesdatoer 
+Luk fase 1 • Fordel til fagkontor og sagsbehandler 
+ 
+• Korriger anke modt. dato så det bliver den oprindelige 
+dato 
+Mødebilag 
+  
+Mødebilaget kopieres over fra den sag der genoptages 
+Akter Administrationen flytter ikke akter mellem en lukket sag og 
+genoptagelsessagen 
+Kontrolfrist Der laves IKKE kontrolfrist på en ulovbestemt genoptagelse 
+--- Page 64 ---
+64 
+ 
+ 
+3.10. Forlængelsesbreve 
+ 
+Forlængelsesbreve 
+Ajourført: 10-04-2026 
+Hvornår sender adm. ASK forlængelsesbreve 
+ • ADM sender første forlængelsesbrev hvis sagen 
+ikke er fordelt til sagsbeh. 
+• Sagsbeh. sender selv evt. efterfølgende 
+forlængelsesbrev 
+• Vi sender brev senest dagen før planl. afsl. dato 
+og tidligst en uge før 
+• Vi sender til dem der har modtaget (ved anden FM-
+haver, tjek, der er fuldmagt til breve) 
+kvitteringsbreve (hvis de stadig er på sagen) 
+Selve opgaven Åbn søgning på dit eget skrivebord og dan overblik over 
+hvilke sager, der skal forlænges. 
+OBS: Søgning skal stå til AST – Mine åbne sager, 
+AnkePlanlagt 
+ 
+Afklar om sagen skal forlænges og over for hvem: 
+• Er der allerede sendt et forlængelsesbrev i sagen? 
+• Hvem er borger og er der partsrepræsentanter? 
+OBS: Er der anden FM-haver, så tjek, at fuldmagten 
+gælder kopi af breve 
+• OBS: Er det veteran sag, send både i AESK og 
+særlovssagen 
+• Tjek at der er sendt kvitteringsbrev og hvem der har 
+modtaget det 
+• Tjek resumé for særlige opmærksomhedspunkter, fx 
+om sagen er Ulovbestemt genoptaget/ efter- 
+oprettet/dobbeltsager eller andre bemærkninger der 
+har relevans for forlængelsesopgaven 
+ Vælg Sagsfunktioner - Rediger egenskaber  
+Resumé: 
+• Vi skriver (dato): ADM sender ikke flere 
+forlæng/initialer OBS: Skriv altid på øverste linje 
+ 
+Supplerende oplysninger: 
+• Notér oprindelig planlagt afsluttet dato 
+• Ændre til ny planlagt afslut (3 mdr.) 
+ 
+--- Page 65 ---
+65 
+ 
+ 
+ Send forlængelsesbrev 
+ 
+• Dokumenter – Nyt dokument – Dokument ud 
+• Hovedmodtager: klager el. partsrep. 
+• Kopimodt.: modpart el. deres partsrep. 
+• Ansv. enhed: Arbejdsskadeafdelingen (står på sag) 
+• Skabelon: TID-7A, ForlængADM. – Arbejdsskade 
+ 
+Tilføj flg. i forlængelsesbrevet: 
+• Brug F9 
+• Slet første afsnit om partsrep., hvis du sender til 
+borger el. FS 
+• Indsæt oprindelig planlagt afsl. dato 
+• Ekspeder brevet 
+OBS: Hvis partsrep. er kopimodt. og de ikke har et 
+eksternt j.nr. skriv vedr. xxx (borgersnavn) nederst under 
+kopit til… 
+Som hovedregel 
+forlænger vi IKKE: • Retssager, Ulovbestemt genoptagelse og generelle 
+sager 
+• Sager der står til DIGI, Adm. Jura 
+• Sager der allerede er forlænget 1. gang (tjek bem. i 
+Resumé om, at ”ADM ikke forlænger mere” 
+Hvis vi forlænger 
+forsinket 
+Hvis vi forlænger ”forsinket” 
+Vi beklager, at vi ikke har meldt tilbage indenfor fristen 
+(tilføjes i brevet) 
+Nyttig viden Brug evt. Prokeys til diverse tekster i Resumé: 
+Diverse vejledninger vedr. Prokeys 
+ 
+Tjekliste: 
+Man kan genbesøge de sager, man har forlænget via 
+”Historik” – ”Aktivitet”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Page 66 ---
+66 
+ 
+ 
+3.11. Politianmeldelse, svarfristsag 
+ 
+Politianmeldelse, svarfristsag 
+Ajourført: 25-07-2025  
+Sagsbeh. sender første brev (OPLY-1) og beder om fx lægeakter 
+Mail fra sagsbeh. at de har anmodet om akter fra en professionel part, 
+og at der er risiko for politianmeldelse 
+ 
+ Opret en frist 
+Titel: Bøde rykker 1 (nævn aktnr. på brev) 
+Forfaldsdato: brevdato+15 
+Ansvarlig enhed: Administration ASK 
+ 
+Frist på skrivebordet – Bøde Rykker 1 
+ Vi tjekker, om der er journaliseret akter fra aktøren 
+Hvis ikke, ringer vi først og rykker, og opretter herefter 
+1. rykkerbrev (HUSK: Tjek indbakken + ESDH) 
+ 
+Ring til behandler – tjek i OPLY-1, hvad vi har bedt om 
+ 
+Opret Notat-5 på sagen 
+(Slet Offentlighedslovens §13, og skriv isf. Rykker XXX) 
+ 
+1. Rykkerbrev 
+Dokumentkategori: Dokument ud – Vi beder om opl. 
+Ansvarligenhed: Administration ASK 
+Status: Reserveret 
+Skabelon: Oply-4, Rykker 1 politi 
+ 
+Udfyld skabelonen (brug F9) 
+ 
+Vedhæft 1. brev 
+ 
+Ændr fristen til: 
+Bøde rykker 2 (dd+15) 
+Frist på skrivebordet – Bøde Rykker 2 
+ Vi tjekker, om der er journaliseret akter fra behandleren 
+Hvis ikke, opret 2. rykkerbrev (Tjek indbakken + ESDH) 
+ 
+2, Rykkerbrev 
+Dokumentkategori: Dokument ud – Vi beder om opl. 
+Ansvarlig enhed: Administration ASK 
+Status: Reserveret 
+Skabelon: Oply-4, Rykker 2 politi 
+--- Page 67 ---
+67 
+ 
+ 
+ 
+Udfyld skabelonen (brug F9) 
+ 
+Vedhæft brevene fra 1. rykkerbrev 
+ 
+Ændr fristen til: 
+Opret bødesag (dd+15) 
+Frist på skrivebordet - Opret bødesag 
+ Opret en bødesag   
+ 
+Menu – Sag – Arbejdsskadesag 
+ 
+Adgangsgruppe: Arbejdsskade 
+Ansvarlig enhed: Samme som matr. sag 
+Ansvarlig person: Samme som matr. sag 
+1. Niveau: Arbejdsskadeloven 
+ 
+Eksterne kontakter 
+Tilføj Rigspolitiet som myndighed (CVR 17143611) 
+Tilføj aktør som ikke-part 
+ 
+Tilføj sagamodul under afgørelser - Ny 
+Sagsemne: Politianmeldelse, svarskriftsag - Udfør 
+ 
+Send link til sagsbeh. + Caroline Ramsø Villemann

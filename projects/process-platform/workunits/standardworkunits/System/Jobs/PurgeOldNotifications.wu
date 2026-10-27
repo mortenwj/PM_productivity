@@ -1,0 +1,11 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="85ecb69e-713d-4128-a017-79f78ce197bc"
+    visibility="public"
+    displayName="[LOCALIZED(16455ad3-dee2-410f-b73c-5443bccdd82a,Notification panel cleanup job)]">
+  <description>[LOCALIZED(2cc405d4-3db3-4564-a15c-555c3af56ee1,Removes notifications older than a set number of days from the users notification panel. The number of days are set in a related setting called "Number of days each notification is displayed in notification panel".)]</description>
+  <executable file="PurgeOldNotifications.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

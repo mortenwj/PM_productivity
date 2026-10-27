@@ -1,0 +1,11 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="2843ded3-9140-4b42-872e-4ec3b767c414"
+    visibility="public"
+    displayName="[LOCALIZED(e07d932c-7cb1-4630-bd65-2626e6dc03c3,*Send web part and saved search notifications - Daily)]">
+  <description>[LOCALIZED(920c9666-91c2-41ea-a54d-61dee71a0b35,*Sends daily notifications for web parts and saved searches that a user has subscribed to.)]</description>
+  <executable file="SendFollowNotificationsDaily.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Nightly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

@@ -1,0 +1,10 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="C18A95D2-CA94-4B3A-81C5-33C43A4269DC"
+          displayName="[LOCALIZED(16edad9c-6be9-42a6-941d-868e12b040c9,*Clean up history)]">
+  <description>[LOCALIZED(2eb5c08d-c2d2-47b4-803c-d1bae5c728c8,*Removes entries from the users history list. The numbers remaining is based on settings)]</description>
+  <executable file="CleanupHistory.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

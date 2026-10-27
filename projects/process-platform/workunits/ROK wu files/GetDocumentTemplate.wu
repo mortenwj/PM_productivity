@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" 
+	visibility="external"
+    displayName="GetDocumentTemplate">
+  <description>Returns a DocumentTemplateRecno that is used in a specific scenario</description>
+  <categories>
+    <category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Fujitsu.eDoc.WU.GetDocumentTemplate.Execute">
+      <arguments>
+        <argument name="Recno" type="string">#null#</argument>
+      </arguments>
+	  <return type="object"/>
+    </xscript>
+  </executable>
+</workUnit>

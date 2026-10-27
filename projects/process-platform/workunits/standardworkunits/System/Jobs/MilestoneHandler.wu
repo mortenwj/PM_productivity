@@ -1,0 +1,9 @@
+<workUnit id="b9ec5581-8143-4f2a-b7c4-1d453e287614" xsi:noNamespaceSchemaLocation="..\..\..\WorkUnit.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ displayName="[LOCALIZED(b9ec5581-8143-4f2a-b7c4-1d453e287614,*Milestone date handler )]">
+  <description>[LOCALIZED(b9ec5581-8143-4f2a-b7c4-1d453e287614,*Milestone date handler)]</description>
+  <executable assemblyType="SI.Biz.Core.ProcessEngine.Runtime.Milestone.MilestoneDateJob, SI.Biz.Core.ProcessEngine.Runtime">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Hourly" runAs="allaccess_serviceaccount" resultType="none" />
+</workUnit>

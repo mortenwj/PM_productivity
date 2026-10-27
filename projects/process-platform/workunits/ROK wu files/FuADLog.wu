@@ -1,0 +1,8 @@
+<workUnit displayName="Log på AD-integration (ADLog)" id="70232670-f6a6-45f2-b2c9-5aa2b35fc7fe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Kontrollere om der er sket ændringer på brugere, organisationer samt adgangsgrupper siden kørsel og sender en autogenereret email med "Status for kontraktstrukturen i eDoc"</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	 <job queue="Sys.OnceAfter7am" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

@@ -1,0 +1,2 @@
+# Deprecated: use repo-root pyproject.toml and `uv sync`.
+# openai>=1.40.0 is included in the root project dependencies.

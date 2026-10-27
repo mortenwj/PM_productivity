@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+System.WorkUnit
+</name>
+</assembly>
+<members>
+<member name="M:System.WorkUnit.Reciept_to_applicant.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:System.WorkUnit.Create_reminder_document.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:System.WorkUnit.Wait_task_expiration_response.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:System.WorkUnit.Repeatable_task_with_delay.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

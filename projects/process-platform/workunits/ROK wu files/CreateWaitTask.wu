@@ -1,0 +1,16 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+    id="FUF297992B-11CA-4313-A720-CA40B720B18C"
+    displayName="Create Waittask 'Wait for answer'">  
+  <description>Creates Waittask 'Wait for answer'</description>
+  <categories>
+	<category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="CaseId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

@@ -1,0 +1,8 @@
+﻿<workUnit id="F2D28FE9-6D9C-455E-934E-B4690098AF03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+displayName="[LOCALIZED(CA9241F8-49A6-4BC9-9C60-D5C58EDF6DB3,*PDF Watermark)]">
+  <description>[LOCALIZED(FDEAA65D-2321-4050-889E-3AC8AB471480,*Add PDF Watermark to files that matches criteria.)]</description>
+  <executable assemblyType="SI.Biz.Core.Watermark.PDFWatermarkerJob, SI.Biz.Core.Watermark, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke />
+  </executable>
+  <job queue="Sys.PDFWatermark" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

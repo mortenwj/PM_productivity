@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF"
+    visibility="public"
+    displayName="CreateAndSendOutBoundDocument">
+  <description>Creates an OutBound document, and dispatch it using Digital Post</description>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+        <argument name="CaseId" type="string"/>
+        <argument name="CaseContactRole" type="string"/>
+        <argument name="DocumentTemplateRecno" type="string"/>
+        <argument name="DocumentTitle" type="string"/>
+      </arguments>
+      <return type="string"/>
+    </wf>
+  </executable>
+</workUnit>

@@ -1,0 +1,12 @@
+<workUnit id="BC15D579-AF47-406D-84F9-BEDA96677720" displayName="[LOCALIZED(8FE03D2F-289E-4427-91A7-61FA20842FB4,*Expired Deadline date on Wait task)]" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>[LOCALIZED(FA0BEA91-784C-4F65-883C-1C92AFD0CEE2,*Process actions for Wait tasks that has an expired deadline date. Wait task must have a connected Work Unit to be processed)]</description>
+  <executable file="ProcessWaitTasks.xml">
+    <invoke>
+      <arguments>
+        <argument name="Categories" type="string">#null#</argument>
+        <argument name="maxExecutionMinutes" type="int">10</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.Frequently" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

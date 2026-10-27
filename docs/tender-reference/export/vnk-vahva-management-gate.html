@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>VNK-Vahva management go/no-go brief</title>
+<style>
+@page { size: A4; margin: 18mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.gap-partial { color: #8a6d00; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+</style></head><body><h1>VNK-Vahva (VN Asia) — management go/no-go brief</h1>
+<p><strong>Purpose:</strong> Input for decision gate on continued Finnish government tender work (Valtioneuvoston kanslia / Valtori — VN Asia).</p>
+<p><strong>Scope:</strong> Epic [#436815](https://dev.azure.com/tieto-si/360/_workitems/edit/436815) + <strong>9</strong> VN Asia–tagged commitment Features (8 linked to epic; <strong>#430291</strong> orphan).</p>
+<p><strong>Sources:</strong> Liite 2.3 toiminnalliset vaatimukset (487 reqs), Liite 2.6 tietoturva, Innovation Board deck (`Bid_InnovationBoardPMSession.pptx`), FI API requirements brief, Neuvottelukutsu, PoC liite 3.1, Public 360° roadmap PPT (Q1 2026–Q2 2027).</p>
+<p><strong>Last ADO verification:</strong> 4 Sep 2026, 00:10 CET.</p>
+<hr/>
+<h2>Executive summary</h2>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Registered commitment Features</td><td><strong>9</strong> (8 on epic + 1 orphan)</td></tr>
+<tr><td>Tender functional requirements (Liite 2.3)</td><td><strong>487</strong> (416 Pakollinen · 68 Vertailtava)</td></tr>
+<tr><td>PFR coverage of tender matrix</td><td><strong>~2%</strong> by row count — RFI gaps only</td></tr>
+<tr><td>Net effort — <strong>registered PFR portfolio</strong></td><td><strong>55–90 months</strong> (overlap-adjusted; API + metadata dominate)</td></tr>
+<tr><td>Net effort — <strong>full tender surface</strong> (indicative)</td><td><strong>120–200+ months</strong> if all Pakollinen gaps treated as product commits</td></tr>
+<tr><td>Build window (planning assumption)</td><td><strong>~18 months</strong> after contract (PoC → Rakentamisvaihe 1; supplier proposes detail)</td></tr>
+<tr><td>Team size implied (PFR portfolio)</td><td><strong>4–6 FTE average</strong>, <strong>8–12 FTE peak</strong></td></tr>
+<tr><td>XL Features</td><td>1 (#437273 API)</td></tr>
+<tr><td>Portfolio gap profile (RFI evidence)</td><td>0 Not met · <strong>9 Partial</strong> · 0 Draft · 0 In flight · 0 TBD</td></tr>
+<tr><td>Roadmap alignment (9 PFRs)</td><td><strong>A 1 · B 4 · C 4 · D 0</strong></td></tr>
+<tr><td>Procedure</td><td>Competitive negotiation — Tietoevry shortlisted (Neuvottelukutsu Mar 2026)</td></tr>
+<tr><td>PoC gate</td><td>PoC success required before Rakentamisvaihe 1; gaps → Product Backlog per Liite 3.1</td></tr>
+</table>
+<p><strong>Primary gate question:</strong> Do we strategically commit to <strong>API-first / new SIF</strong> ([#437273](https://dev.azure.com/tieto-si/360/_workitems/edit/437273)) as the Finnish government integration spine — knowing Liite 2.3 has <strong>416 mandatory</strong> functional requirements and the registered portfolio covers only RFI-era gaps?</p>
+<p><strong>Secondary bid blockers (no PFR yet):</strong> <strong>Suomi.fi</strong> (A15, Pakollinen), <strong>eIDAS advanced signing</strong> (C21/C27), <strong>multi-organisation case model</strong> (A2–A7), <strong>TLIV security matrix</strong> (Liite 2.6).</p>
+<p>Without a clear yes/no on API platform + honest PoC gap disclosure, the bid cannot be credible against Fujitsu / Innofactor / Twoday.</p>
+<hr/>
+<h2>Implementation timeline (tender facts)</h2>
+<table>
+<tr><th>What</th><th>Tender says</th></tr>
+<tr><td><strong>Procedure</strong></td><td>Kilpailullinen neuvottelumenettely (hankintalaki 1397/2016 §36)</td></tr>
+<tr><td><strong>PoC</strong></td><td>Mandatory gate; missing standard functionality → implementation plan + UI mockup + roadmap (Liite 3.1)</td></tr>
+<tr><td><strong>Build phases</strong></td><td>PoC → (decision) → Rakentamisvaihe 1 → further phases per contract</td></tr>
+<tr><td><strong>Go-live</strong></td><td><strong>Supplier proposes</strong> in implementation plan (no fixed date in negotiation pack)</td></tr>
+<tr><td><strong>Evaluation</strong></td><td>Price 40–60% · Quality 40–60% (functionality, experts, delivery model)</td></tr>
+</table>
+<p><strong>Internal planning assumption only:</strong> PoC ~6 months + Rakentamisvaihe 1 ~12 months = <strong>~18-month</strong> product-delivery band for gate FTE math.</p>
+<hr/>
+<h2>ADO portfolio (epic #436815)</h2>
+<table>
+<tr><th>Layer</th><th>Count</th><th>IDs</th></tr>
+<tr><td><strong>Epic</strong></td><td>1</td><td>[#436815](https://dev.azure.com/tieto-si/360/_workitems/edit/436815) — Finnish bid requirements for autumn</td></tr>
+<tr><td><strong>Child Feature</strong></td><td>1</td><td>[#433354](https://dev.azure.com/tieto-si/360/_workitems/edit/433354) — template filtering</td></tr>
+<tr><td><strong>Related Features</strong></td><td>7</td><td>430271, 430281, 432904, 433271, 433356, 434693, 437273</td></tr>
+<tr><td><strong>Orphan (VN Asia tag, not on epic)</strong></td><td>1</td><td>[#430291](https://dev.azure.com/tieto-si/360/_workitems/edit/430291) — email configurability (overlaps #432904)</td></tr>
+<tr><td><strong>Portfolio total</strong></td><td><strong>9</strong></td><td></td></tr>
+</table>
+<p><strong>Innovation Board deck (21 Aug 2026):</strong> covers 8 PFRs; <strong>#437273</strong> added post-session (24 Aug). Slide 14 lists four themes <strong>without PFRs</strong> (see unregistered gaps).</p>
+<hr/>
+<h2>Strategic layering</h2>
+<h3>Q1 — Do we want the Finnish government market?</h3>
+<p>VN Asia is the anchor: Valtioneuvoston kanslia + Valtori, TLIV confidentiality, Katakri audit at PoC, EU/NATO case segregation. A <strong>yes</strong> commits to Finnish compliance surface (SÄHKE2, turvallisuusluokitus, Suomi.fi, domestic cloud options). A <strong>no</strong> means decline or minimal negotiation participation.</p>
+<h3>Q2 — Do we commit to API-first as the integration spine?</h3>
+<p><strong>[#437273](https://dev.azure.com/tieto-si/360/_workitems/edit/437273)</strong> + FI API brief describe REST/JSON API-first, webhooks, async jobs, SIEM-ready audit, Elasticsearch — aligned with Liite 2.3 A12–A14 (Pakollinen) but <strong>far beyond</strong> current SIF scope.</p>
+<table>
+<tr><th></th><th>Strategic API commit</th><th>Config/integration-only bid</th></tr>
+<tr><td><strong>Covers</strong></td><td>A12–A14, external UIs, AI agents, SIEM</td><td>Point integrations via existing tools</td></tr>
+<tr><td><strong>Estimate</strong></td><td><strong>35–55 months</strong> (cluster)</td><td>Lower product, higher services risk</td></tr>
+<tr><td><strong>Risk</strong></td><td>Roadmap collision, multi-team program</td><td>“No” on mandatory API depth at final tender</td></tr>
+</table>
+<p><strong>A yes on Q2</strong> approves #437273 as a platform program, not a single Feature.</p>
+<h3>Q3 — Given yes/yes, which RFI PFR deltas + unregistered gaps are in the bid baseline?</h3>
+<p>Only after Q1+Q2: resolve the <strong>9 registered PFRs</strong> and decide which <strong>487-row</strong> domains are met by standard product vs require new PFRs (Suomi.fi, eIDAS, multi-org, workflow engine, Liite 2.6 security).</p>
+<hr/>
+<h2>Tender complexity vs registered portfolio</h2>
+<h3>Liite 2.3 section scale</h3>
+<table>
+<tr><th>Section</th><th>Domain</th><th>Reqs</th><th>Pakollinen (approx.)</th></tr>
+<tr><td>A</td><td>Case management (multi-org, EU/NATO)</td><td>36</td><td>~32</td></tr>
+<tr><td>B</td><td>Document management</td><td>89</td><td>~75</td></tr>
+<tr><td>C</td><td>Approval &amp; eIDAS signing</td><td>27</td><td>~24</td></tr>
+<tr><td>D</td><td>Workflows</td><td>16</td><td>~14</td></tr>
+<tr><td>E</td><td>Assignments, dispatch, notifications</td><td>65</td><td>~55</td></tr>
+<tr><td>F</td><td>Metadata / TOS</td><td><strong>111</strong></td><td>~95</td></tr>
+<tr><td>G</td><td>Archiving</td><td>9</td><td>~8</td></tr>
+<tr><td>H</td><td>Screening &amp; disposal</td><td>13</td><td>~11</td></tr>
+<tr><td>I</td><td>Search</td><td>50</td><td>~42</td></tr>
+<tr><td>J–P</td><td>Reporting, publication, admin, mobile, process engine</td><td>71</td><td>~60</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>487</strong></td><td><strong>416</strong></td></tr>
+</table>
+<h3>Unregistered gaps (high risk — no ADO PFR)</h3>
+<table>
+<tr><th>Theme</th><th>Tender refs</th><th>Innovation Board</th><th>Gap stance</th></tr>
+<tr><td>Suomi.fi viranomaisviestintä</td><td>A15 Pakollinen</td><td>Slide 14</td><td><strong>No PFR</strong> — integration L</td></tr>
+<tr><td>eIDAS advanced e-signature</td><td>C21, C27 Pakollinen</td><td>—</td><td><strong>No PFR</strong> — L/XL</td></tr>
+<tr><td>Multi-org / ministeriö case model</td><td>A2–A7, A36</td><td>Slide 11–13</td><td><strong>No PFR</strong> — config + product L/XL</td></tr>
+<tr><td>Hierarchical metadata picklists</td><td>F16–F17</td><td>Slide 14 Primary</td><td><strong>No PFR</strong> — M</td></tr>
+<tr><td>Conditional mandatory metadata</td><td>F21, B50</td><td>Slide 14</td><td>Partial via #430281 infosec story</td></tr>
+<tr><td>Full Flex UI for documents</td><td>—</td><td>Slide 14</td><td><strong>No PFR</strong> — ties to FFUI program</td></tr>
+<tr><td>Security matrix</td><td>Liite 2.6 (V1/V2)</td><td>—</td><td><strong>Parallel compliance</strong> — not in PFR set</td></tr>
+</table>
+<hr/>
+<h2>Roadmap alignment vs VN Asia delivery</h2>
+<p><strong>Source:</strong> Public 360° roadmap (PPT, Q1 2026–Q2 2027) vs <strong>~18-month</strong> planning band. Cluster-owner validation <strong>pending</strong>.</p>
+<table>
+<tr><th>Status</th><th>PFRs</th><th>Meaning</th><th>DG implication</th></tr>
+<tr><td><strong>A — On roadmap, aligns with delivery</strong></td><td>1</td><td>Existing roadmap item(s) align with expected delivery</td><td>Reference in bid / PoC narrative</td></tr>
+<tr><td><strong>B — On roadmap, needs acceleration</strong></td><td>4</td><td>Must be delivered faster than currently targeted</td><td>Core investment conflict</td></tr>
+<tr><td><strong>C — Off roadmap, strategically relevant</strong></td><td>4</td><td>New scope not on roadmap but relevant if we bid</td><td>Net-new product bets</td></tr>
+<tr><td><strong>D — Off roadmap, low priority</strong></td><td>0</td><td>Would not otherwise be prioritized</td><td>—</td></tr>
+</table>
+<h3>Roadmap alignment share</h3>
+<table>
+<tr><th>Category</th><th>PFRs</th></tr>
+<tr><td>Aligns with roadmap timing</td><td>1</td></tr>
+<tr><td>Needs acceleration</td><td>4</td></tr>
+<tr><td>Strategically relevant off-roadmap</td><td>4</td></tr>
+<tr><td>Low priority off-roadmap</td><td>0</td></tr>
+</table>
+<p><strong>Headline for DG:</strong> VN Asia PFR set is <strong>89% B+C</strong> (8/9). The tender itself is mostly standard ESDH — the risk is <strong>under-registration</strong>, not over-commitment on ADO.</p>
+<h3>PFR-level roadmap mapping</h3>
+<table>
+<tr><th>ID</th><th>Title</th><th>Cluster</th><th>Size</th><th>Gap</th><th>Roadmap</th><th>Roadmap reference</th></tr>
+<tr><td>437273</td><td>360° API requirements</td><td>API / integration platform</td><td>XL</td><td>Partial</td><td>C — Strategic</td><td>NG Integration API / 360° API Gateway (scope &gt;&gt; roadmap)</td></tr>
+<tr><td>430281</td><td>Metadata (language, length, inheritance, infosec)</td><td>Metadata / TOS</td><td>L</td><td>Partial</td><td>B — Accelerate</td><td>Custom fields / metadata model</td></tr>
+<tr><td>433271</td><td>Mass functions</td><td>Mass operations</td><td>L</td><td>Partial</td><td>B — Accelerate</td><td>Mass update / bulk operations</td></tr>
+<tr><td>434693</td><td>Search enhancements, wildcard, sharing</td><td>Search / FFUI</td><td>L</td><td>Partial</td><td>B — Accelerate</td><td>Refactor search experience</td></tr>
+<tr><td>433354</td><td>Template filtering (FI/SV subsetup)</td><td>Templates / document UX</td><td>M</td><td>Partial</td><td>B — Accelerate</td><td>Full Flex UI cont. / templates</td></tr>
+<tr><td>430271</td><td>Enhanced dispatch</td><td>Dispatch / notifications</td><td>L</td><td>Partial</td><td>C — Strategic</td><td>Dispatch / redispatch</td></tr>
+<tr><td>432904</td><td>Enhanced email notifications</td><td>Dispatch / notifications</td><td>M</td><td>Partial</td><td>A — Aligns</td><td>New Outlook Support / notifications</td></tr>
+<tr><td>430291</td><td>Email configurability</td><td>Dispatch / notifications</td><td>M</td><td>Partial</td><td>C — Strategic</td><td>— (overlap #432904)</td></tr>
+<tr><td>433356</td><td>Draft file version disposal</td><td>Archiving / disposal</td><td>M</td><td>Partial</td><td>C — Strategic</td><td>Retention / disposal</td></tr>
+</table>
+<hr/>
+<h2>Decision paths</h2>
+<h3>A — Strategic bid</h3>
+<p>Commit to Q1+Q2: API-first platform (#437273) + deliver registered PFR portfolio through PoC and Rakentamisvaihe 1. Accept <strong>55–90 months</strong> net PFR effort; staff <strong>4–6 FTE average (8–12 FTE peak)</strong>. Register missing PFRs for Suomi.fi, eIDAS, multi-org before final tender. Executive sponsorship for metadata (F-section) and security (Liite 2.6).</p>
+<h3>B — Bid with Q&amp;A / PoC scope narrow</h3>
+<p>Participate in negotiation; use PoC to prove standard product on subset of Liite 2.3. Challenge API breadth, eIDAS, and Suomi.fi via ordregiver Q&amp;A. Cap #437273 at phased delivery plan. Merge #430291 into #432904.</p>
+<h3>C — No-bid or low-effort</h3>
+<p>Decline or minimal compliance if API spine and mandatory A15/C21 cannot be credibly committed before final tarjouspyyntö.</p>
+<hr/>
+<h2>Commitment clusters (registered PFRs)</h2>
+<table>
+<tr><th>Cluster</th><th>Features</th><th>Size</th><th>Effort (months)</th><th>Risk</th><th>Gate question</th></tr>
+<tr><td>API / integration platform</td><td>1</td><td>XL</td><td><strong>35–55</strong></td><td>High</td><td>Is #437273 in or out?</td></tr>
+<tr><td>Metadata / TOS</td><td>1</td><td>L</td><td>12–22</td><td>High</td><td>Does #430281 cover F-section or only RFI subset?</td></tr>
+<tr><td>Mass operations</td><td>1</td><td>L</td><td>8–14</td><td>Medium</td><td>Mass metadata + bulk export — product or services?</td></tr>
+<tr><td>Search / FFUI</td><td>1</td><td>L</td><td>8–14</td><td>Medium</td><td>Wildcard unification + cross-org search share</td></tr>
+<tr><td>Dispatch / notifications</td><td>3</td><td>L+M</td><td>10–18</td><td>Medium</td><td>Redispatch model + merge 430291/432904</td></tr>
+<tr><td>Templates / document UX</td><td>1</td><td>M</td><td>3–6</td><td>Low</td><td>FI subsetup template filter — config sufficient?</td></tr>
+<tr><td>Archiving / disposal</td><td>1</td><td>M</td><td>4–8</td><td>Medium</td><td>Draft disposal generic vs FI customization</td></tr>
+<tr><td><strong>Portfolio total</strong></td><td><strong>9</strong></td><td></td><td><strong>55–90</strong></td><td>High</td><td>Overlap-adjusted; excludes unregistered tender domains</td></tr>
+</table>
+<hr/>
+<h2>Tender gap heatmap (domain level — not all have PFRs)</h2>
+<table>
+<tr><th>Domain</th><th>Liite 2.3 reqs</th><th>ADO PFR</th><th>Indicative product gap</th></tr>
+<tr><td>API / integrations</td><td>A12–A14 + I/O</td><td>#437273</td><td>Partial — XL</td></tr>
+<tr><td>Metadata / TOS</td><td>F (111)</td><td>#430281</td><td>Partial — large residual</td></tr>
+<tr><td>Mass / bulk</td><td>B7–B10, E48, C17</td><td>#433271</td><td>Partial</td></tr>
+<tr><td>Search</td><td>I (50)</td><td>#434693</td><td>Partial</td></tr>
+<tr><td>Dispatch / notify</td><td>E21–E47</td><td>#430271, #432904, #430291</td><td>Partial</td></tr>
+<tr><td>Templates</td><td>B58</td><td>#433354</td><td>Partial</td></tr>
+<tr><td>Draft disposal</td><td>B66, H</td><td>#433356</td><td>Partial</td></tr>
+<tr><td>Multi-org cases</td><td>A (36)</td><td>—</td><td><strong>Unregistered</strong></td></tr>
+<tr><td>eIDAS signing</td><td>C (27)</td><td>—</td><td><strong>Unregistered</strong></td></tr>
+<tr><td>Suomi.fi</td><td>A15</td><td>—</td><td><strong>Unregistered</strong></td></tr>
+<tr><td>Security</td><td>Liite 2.6</td><td>—</td><td><strong>Unregistered</strong></td></tr>
+<tr><td>Workflows / process</td><td>D, P</td><td>—</td><td><strong>Unregistered</strong></td></tr>
+</table>
+<hr/>
+<h2>Team size rollup (Impacted Module TBD on most PFRs)</h2>
+<table>
+<tr><th>Team</th><th>Modules</th><th>PFRs</th><th>XL</th><th>FTE band</th></tr>
+<tr><td>Core Integration / API</td><td>SIF, NG API, webhooks, SIEM</td><td>1</td><td>1</td><td>3–5 FTE</td></tr>
+<tr><td>Core BL / metadata</td><td>Custom fields, TOS, inheritance</td><td>2</td><td>0</td><td>2–4 FTE</td></tr>
+<tr><td>Core UI / Search</td><td>Search, FFUI, templates</td><td>2</td><td>0</td><td>2–3 FTE</td></tr>
+<tr><td>Dispatch / Office</td><td>Dispatch, notifications, Outlook</td><td>3</td><td>0</td><td>1–3 FTE</td></tr>
+<tr><td>Archive / retention</td><td>Disposal, draft versions</td><td>1</td><td>0</td><td>1–2 FTE</td></tr>
+</table>
+<p><strong>Hygiene:</strong> Set <strong>Impacted Module</strong> on all 9 PFRs; link <strong>#430291</strong> to epic; dedupe email PFR pair.</p>
+<hr/>
+<h2>60-minute gate agenda</h2>
+<p>1. <strong>Q1 — Finland market</strong> (10 min)</p>
+<p>2. <strong>Q2 — API-first commit</strong> (#437273) (15 min)</p>
+<p>3. <strong>Tender surface vs 9 PFRs</strong> — Liite 2.3 + unregistered gaps (15 min)</p>
+<p>4. <strong>PoC strategy</strong> — what we prove vs backlog (10 min)</p>
+<p>5. <strong>Roadmap conflict</strong> — B+C share (5 min)</p>
+<p>6. <strong>Decision paths A / B / C</strong> (5 min)</p>
+<hr/>
+<h2>Related artifacts</h2>
+<ul><li>Epic: [#436815](https://dev.azure.com/tieto-si/360/_workitems/edit/436815)</li><li>Canvases: `canvases/vnk-vahva-management-gate.canvas.tsx`, `canvases/vnk-vahva-commitment-heatmap.canvas.tsx`</li><li>PDFs: `docs/tender-reference/export/vnk-vahva-management-gate.pdf`, `vnk-vahva-commitment-heatmap.pdf`</li><li>Tender source: `docs/tender-reference/source/vnk-vahva/`</li><li>Extracted text: `docs/tender-reference/extracted/vnk-vahva/`</li><li>Innovation Board deck: `Bid_InnovationBoardPMSession.pptx` (extracted `.txt`)</li><li>API brief: `API-requirements-FI-market.docx`</li></ul>
+<hr/>
+<h2>Open actions</h2>
+<table>
+<tr><th>#</th><th>Action</th><th>Owner</th></tr>
+<tr><td>1</td><td>Link <strong>#430291</strong> to epic #436815</td><td>Jani / PM</td></tr>
+<tr><td>2</td><td>Merge or dedupe <strong>#430291</strong> vs <strong>#432904</strong></td><td>Product</td></tr>
+<tr><td>3</td><td>Create PFRs for <strong>Suomi.fi</strong>, <strong>eIDAS</strong>, <strong>multi-org</strong> (or document as config-only)</td><td>Finnish bid team</td></tr>
+<tr><td>4</td><td>Rate Liite 2.3 in tender tool (currently no team tool — gap vs UIM/KK)</td><td>Bid team</td></tr>
+<tr><td>5</td><td>Cluster leads validate roadmap A–D column</td><td>Jenny / module owners</td></tr>
+<tr><td>6</td><td>Security: map Liite 2.6 V1/V2 to product vs services</td><td>Security architect</td></tr>
+<tr><td>7</td><td>Set Impacted Module on all 9 PFRs</td><td>PFR owners</td></tr>
+</table></body></html>

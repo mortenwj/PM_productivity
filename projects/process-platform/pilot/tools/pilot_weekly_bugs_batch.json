@@ -1,0 +1,401 @@
+[
+  {
+    "id": 362462,
+    "fields": {
+      "System.Id": 362462,
+      "System.WorkItemType": "Bug",
+      "System.State": "Active",
+      "System.ChangedDate": "2026-04-07T10:12:31.923Z",
+      "System.Title": "Manage participants - Contacts - Top Node department is not showing up in the list",
+      "Microsoft.VSTS.Common.StateChangeDate": "2025-07-30T04:31:58.953Z",
+      "System.Parent": 143647
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/362462"
+  },
+  {
+    "id": 411332,
+    "fields": {
+      "System.Id": 411332,
+      "System.WorkItemType": "Bug",
+      "System.State": "Active",
+      "System.ChangedDate": "2026-04-21T12:09:48.44Z",
+      "System.Title": "Process model both PNB and 360 - Not reached icon is not shown for the milestone when it is auto generated with case initialisation",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T07:38:01.323Z",
+      "System.Parent": 296041
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/411332"
+  },
+  {
+    "id": 412066,
+    "fields": {
+      "System.Id": 412066,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-15T08:11:55.72Z",
+      "System.Title": "Process model - Previous milestone is shown in the add milestone dialog  when there is no milestone to add on a new stage",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-15T08:11:55.72Z",
+      "System.Parent": 414622,
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-14T06:01:33.96Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-15T08:11:55.72Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/412066"
+  },
+  {
+    "id": 413978,
+    "fields": {
+      "System.Id": 413978,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-16T09:15:25.887Z",
+      "System.Title": "UI bugs on new admin pages",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:15:25.887Z",
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-06T09:13:42.077Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-16T09:15:25.887Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/413978"
+  },
+  {
+    "id": 416511,
+    "fields": {
+      "System.Id": 416511,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-20T10:13:50.987Z",
+      "System.Title": "Adding a New Document Wizard on Xaml files, gives error on UI",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:13:50.987Z",
+      "System.Parent": 400794,
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-20T10:13:50.987Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-20T10:13:50.987Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/416511"
+  },
+  {
+    "id": 416629,
+    "fields": {
+      "System.Id": 416629,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-20T10:15:13.29Z",
+      "System.Title": "Adding new workflow on a xaml file , gives error on UI",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:15:13.29Z",
+      "System.Parent": 400794,
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-20T10:15:13.29Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-20T10:15:13.29Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/416629"
+  },
+  {
+    "id": 417230,
+    "fields": {
+      "System.Id": 417230,
+      "System.WorkItemType": "Bug",
+      "System.State": "Resolved",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "Milestone Automation ID should be unique message is not shown to user when given the same ID",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T05:54:04.737Z",
+      "System.Parent": 414600,
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-13T05:54:04.737Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/417230"
+  },
+  {
+    "id": 418130,
+    "fields": {
+      "System.Id": 418130,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T11:58:03.653Z",
+      "System.Title": "Dispatch template for the partial dispatch does not show the already processed document details",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-08T06:46:39.467Z",
+      "System.Parent": 296041
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418130"
+  },
+  {
+    "id": 418577,
+    "fields": {
+      "System.Id": 418577,
+      "System.WorkItemType": "Bug",
+      "System.State": "Rejected",
+      "System.ChangedDate": "2026-04-15T09:25:46.307Z",
+      "System.Title": "The views list in Process overview on case is not showing fields from the right column",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:09:22.163Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418577"
+  },
+  {
+    "id": 418887,
+    "fields": {
+      "System.Id": 418887,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "Missing standard milestone- Nor-\"Trukket søknad\" ENU-\"Withdrawn application\"",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T08:58:05.633Z",
+      "System.Parent": 414516
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418887"
+  },
+  {
+    "id": 418927,
+    "fields": {
+      "System.Id": 418927,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "After the dispatch of the Receipt the process should be closed automatically",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T12:41:13.97Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418927"
+  },
+  {
+    "id": 418928,
+    "fields": {
+      "System.Id": 418928,
+      "System.WorkItemType": "Bug",
+      "System.State": "Active",
+      "System.ChangedDate": "2026-04-20T11:05:58.467Z",
+      "System.Title": "Document should be connected to stage entity and shown in the third column for the selected stage",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T11:05:58.467Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418928"
+  },
+  {
+    "id": 418950,
+    "fields": {
+      "System.Id": 418950,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-20T11:18:39.33Z",
+      "System.Title": "Work unit arguments tab is shown blank when created New version or copy of the Process model/stage templates",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:36:41.8Z",
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-17T06:15:05.203Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-20T09:36:41.8Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/418950"
+  },
+  {
+    "id": 419032,
+    "fields": {
+      "System.Id": 419032,
+      "System.WorkItemType": "Bug",
+      "System.State": "Resolved",
+      "System.ChangedDate": "2026-04-20T05:45:32.95Z",
+      "System.Title": "Document Creation dialogue: Stage value not loaded",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T07:38:00.037Z",
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-16T07:38:00.037Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419032"
+  },
+  {
+    "id": 419083,
+    "fields": {
+      "System.Id": 419083,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-21T08:28:45.943Z",
+      "System.Title": "Uploading of some file formats after Rotation is not happening in the file viewer",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:34:35.47Z",
+      "System.Parent": 399190
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419083"
+  },
+  {
+    "id": 419093,
+    "fields": {
+      "System.Id": 419093,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-21T10:01:48.757Z",
+      "System.Title": "Rotate and Redaction does not convert the file into Tiff and User is able to See the redacted text even if FT \"FileViewerRedactionTiffMode\" is ON",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:55:43.18Z",
+      "System.Parent": 399190
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419093"
+  },
+  {
+    "id": 419133,
+    "fields": {
+      "System.Id": 419133,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "Milestones do not control time logging correctly on deadline calculation type \"Calculate from Start/Finish milestones\"",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T14:28:04.05Z",
+      "System.Parent": 411623
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419133"
+  },
+  {
+    "id": 419135,
+    "fields": {
+      "System.Id": 419135,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "Milestone recno 201- \"Tilleggsdokumentasjon etterspurt - vesentlig mangel\" - description appears 2 times",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T14:36:30.647Z",
+      "System.Parent": 414516
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419135"
+  },
+  {
+    "id": 419288,
+    "fields": {
+      "System.Id": 419288,
+      "System.WorkItemType": "Bug",
+      "System.State": "Active",
+      "System.ChangedDate": "2026-04-20T08:58:02.35Z",
+      "System.Title": "Spelling mistake in Default document title",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:14:28.507Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419288"
+  },
+  {
+    "id": 419306,
+    "fields": {
+      "System.Id": 419306,
+      "System.WorkItemType": "Bug",
+      "System.State": "Closed",
+      "System.ChangedDate": "2026-04-20T11:17:49.577Z",
+      "System.Title": "Save button is shown on a published Process model and stage templates",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T11:17:49.577Z",
+      "Microsoft.VSTS.Common.ResolvedDate": "2026-04-17T06:15:37.457Z",
+      "Microsoft.VSTS.Common.ClosedDate": "2026-04-20T11:17:49.577Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419306"
+  },
+  {
+    "id": 419308,
+    "fields": {
+      "System.Id": 419308,
+      "System.WorkItemType": "Bug",
+      "System.State": "Active",
+      "System.ChangedDate": "2026-04-20T08:57:18.637Z",
+      "System.Title": "Error message should be user friendly if user forgets creating the contact role while creating case with process model",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:13:53.107Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419308"
+  },
+  {
+    "id": 419406,
+    "fields": {
+      "System.Id": 419406,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T09:01:12.397Z",
+      "System.Title": "Dispatch dialogue should show Print as the  default option if Dispatch channel is selected as Print in work unit",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T10:08:16.443Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419406"
+  },
+  {
+    "id": 419435,
+    "fields": {
+      "System.Id": 419435,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-17T07:38:02.873Z",
+      "System.Title": "Process is initiated even if it is marked as Upcoming",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T12:16:49.7Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419435"
+  },
+  {
+    "id": 419682,
+    "fields": {
+      "System.Id": 419682,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T10:21:15.597Z",
+      "System.Title": "Writeoff of wait tasks doen not wait for registration",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T05:46:49.91Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419682"
+  },
+  {
+    "id": 419693,
+    "fields": {
+      "System.Id": 419693,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T07:18:53.237Z",
+      "System.Title": "If IFAR Module is not installed then Ordering the reports from Advanced Search should not be possible",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T06:25:14.02Z",
+      "System.Parent": 179509
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419693"
+  },
+  {
+    "id": 419847,
+    "fields": {
+      "System.Id": 419847,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T10:10:25.817Z",
+      "System.Title": "Using code table: YesNo in WU arguments does not work.",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:10:25.817Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419847"
+  },
+  {
+    "id": 419855,
+    "fields": {
+      "System.Id": 419855,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-20T10:20:53.737Z",
+      "System.Title": "BIF - Progress plan connected directly to a case - client action will not be shown as Closed after execution",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:20:53.737Z"
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/419855"
+  },
+  {
+    "id": 420127,
+    "fields": {
+      "System.Id": 420127,
+      "System.WorkItemType": "Bug",
+      "System.State": "New",
+      "System.ChangedDate": "2026-04-21T15:18:17.693Z",
+      "System.Title": "Adding WaitTask to \"User: Document Flow - Wizard\" creates an error",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T14:51:53.657Z",
+      "System.Parent": 400794
+    },
+    "multilineFieldsFormat": {},
+    "url": "https://tieto-si.visualstudio.com/_apis/wit/workItems/420127"
+  }
+]

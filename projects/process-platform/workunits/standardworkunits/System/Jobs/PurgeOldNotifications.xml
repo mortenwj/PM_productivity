@@ -1,0 +1,7 @@
+<invokes>
+  <invoke routing='route://SI.Biz.Core//SI.Biz.Core.Compatibility.NotificationManager/CleanUpNotifications'>
+    <parameters>
+      <parameter name='id' dtype='string'></parameter> `
+    </parameters>
+  </invoke>
+</invokes>

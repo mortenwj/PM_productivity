@@ -1,0 +1,18 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="[Process name]-[Create a new GUID]"
+  visibility="public"
+  displayName="Process name">
+	<description>Process description</description>
+	<categories>
+		<category>ProgressPlan Process</category>
+		<category>Example</category>
+	</categories>
+	<executable file="ActivityTemplate.xaml">
+		<wf startOption="application">
+			<arguments>
+				<argument name="ProgressPlanId" type="string"/>
+			</arguments>
+		</wf>
+	</executable>
+</workUnit>

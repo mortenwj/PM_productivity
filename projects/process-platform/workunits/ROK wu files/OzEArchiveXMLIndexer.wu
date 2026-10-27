@@ -1,0 +1,8 @@
+<workUnit displayName="[LOCALIZED(008A5ADC-9FF9-4BF5-BF9A-F876AFB58343,*Add eArchive imported XMLs to global search indexes)]" id="22B69009-2359-469E-8F40-9151A7F1ADB8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>[LOCALIZED(E9433A17-4867-455F-BA32-4F6F8F4F4009,*Add eArchive imported XMLs to global search indexes.)]</description>
+	<executable>
+		<invoke>
+		</invoke>
+	</executable>
+	<job queue="Sys.Frequently" runAs="SystemDefault" resultType="none"/>
+</workUnit>

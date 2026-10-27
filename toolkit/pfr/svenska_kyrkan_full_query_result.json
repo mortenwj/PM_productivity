@@ -1,0 +1,205 @@
+[
+  {
+    "id": 44661,
+    "title": "Performance HotFix - redesign",
+    "state": "Active",
+    "assignedTo": "Geir Are Bjørnsrud <geirare.bjornsrud@tieto.com>",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 196608,
+    "title": "Include existing access groups on case",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 219865,
+    "title": "Make it possible to set more validation requirements when closing a case",
+    "state": "New",
+    "assignedTo": "Morten Jensen <morten.jensen@tieto.com>",
+    "customername": "Tullverket, Strålsäkerhetsmyndigheten, Institutet för mänskliga rättigheter RFP, Regeringskansliet, Svenska kyrkan"
+  },
+  {
+    "id": 231258,
+    "title": "Multiple logos in documents produced from templates",
+    "state": "Pending",
+    "assignedTo": "Anton Nielsen <anton.nielsen@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231318,
+    "title": "Control access to metadata fields",
+    "state": "Active",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231319,
+    "title": "A function that helps the user to remove general documents from a case when closed",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231323,
+    "title": "Possibility to make the field \"Included in\" mandatory and the possibility to delete an estate even though \"Included in\" is mandatory",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231324,
+    "title": "The field \"Included in\" added to search",
+    "state": "New",
+    "assignedTo": "Bjørn Tore Eriksen <bjorn.eriksen@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231334,
+    "title": "Faster function to add profiles to a user in webadmin",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 231335,
+    "title": "Possibility to add customer specific columns in database",
+    "state": "Pending",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 239125,
+    "title": "Possibility to give users edit file permissions without including delete file",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Regeringskansliet, Svenska kyrkan"
+  },
+  {
+    "id": 239139,
+    "title": "New date field for journal documents",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Regeringskansliet, Svenska kyrkan"
+  },
+  {
+    "id": 239174,
+    "title": "Possibility to add shortcut for new unregistered contacts",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Regeringskansliet, Svenska kyrkan, UKÄ"
+  },
+  {
+    "id": 239192,
+    "title": "Default value for mandatory fields where only one value is possible to select",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Regeringskansliet, Svenska kyrkan, Tullverket"
+  },
+  {
+    "id": 239206,
+    "title": "Possibility to configure items in the main meny for different roles",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Regeringskansliet, Svenska kyrkan"
+  },
+  {
+    "id": 257460,
+    "title": "Arbetsmiljöverket - Tokens",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Arbetsmiljöverket, IVO, Svenska Kyrkan, VNK VAHVA"
+  },
+  {
+    "id": 317091,
+    "title": "Validation on close/cancel case for general documents",
+    "state": "New",
+    "assignedTo": "",
+    "customername": "Kommerskollegium 360, Tullverket, Stråsäkerhetsmyndigheten. Insititutet för mänskliga rättigheter RFP. Regeringskansliet. Svenska kyrkan. Inspektionen för vård och omsorg.  "
+  },
+  {
+    "id": 336464,
+    "title": "Administration of classification structure",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 339348,
+    "title": "Possibility to deactivate estates",
+    "state": "New",
+    "assignedTo": "Linn Tautra <linn.tautra@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 358507,
+    "title": "Support for adding attachments for eSigning solution with Comfact",
+    "state": "New",
+    "assignedTo": "",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 382040,
+    "title": "Ability to form metadata values out of other metadata values",
+    "state": "New",
+    "assignedTo": "",
+    "customername": "SLU, Svenska Kyrkan, IVO"
+  },
+  {
+    "id": 388359,
+    "title": "Quicksearch for all places where you can select a journal unit",
+    "state": "New",
+    "assignedTo": "",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 388375,
+    "title": "Possibility to configure the valid journal units for a unit/organisation and then filter them in the UI",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 398940,
+    "title": "A new distribution rights level/configuration",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 398991,
+    "title": "Extension to creating a case mask",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 404061,
+    "title": "Changes in Postlista report (and dagboksblad report)",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 404066,
+    "title": "PBC support for inheriting the access code from the case",
+    "state": "New",
+    "assignedTo": "Jarle Steira <jarle.steira@tieto.com>",
+    "customername": "Svenska Kyrkan"
+  },
+  {
+    "id": 405238,
+    "title": "Generate case number based on journal unit recno and year",
+    "state": "New",
+    "assignedTo": "Willy Koch <willy.koch@tieto.com>",
+    "customername": "SVENSKA KYRKAN"
+  },
+  {
+    "id": 409812,
+    "title": "Ability to link document access rights to case status",
+    "state": "New",
+    "assignedTo": "",
+    "customername": "Svenska Kyrkan "
+  }
+]

@@ -1,0 +1,13 @@
+<workUnit displayName="[LOCALIZED(31ADF5AF-5FE7-46BC-A3BF-0EA1CF9681A5,*Move finished queue items to history)]" id="F7765EF5-B002-4030-88CD-4DDC18F009F1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd">
+  <description>[LOCALIZED(0A36C2D3-7ACD-433A-B6E7-48ED2BA0FEFA,*Move finished items from DependencyQueue to history and optionally items that have not changed for some days (number of days specified by 'DaysToKeepUnfinishedItemsInQueue' parameter))]</description>
+  <executable assemblyType="SI.Biz.Core.DependencyQueue.Jobs.MoveToHistory, SI.Biz.Core.DependencyQueue, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke>
+      <!-- Uncomment arguments below if you want to move unfinished items to history when status has not changed for 30 days
+      <arguments>
+        <argument name="DaysToKeepUnfinishedItemsInQueue" type="int">30</argument>
+      </arguments>
+      -->
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

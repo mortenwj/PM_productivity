@@ -1,0 +1,8 @@
+<workUnit displayName="Lås journalnote dokumenter" id="B37EE02D-73D4-4E5D-A0A8-EE93BB4C829F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Opdaterer status til endelig på låste journalnoter</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

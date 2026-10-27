@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="14E09BBB-4D46-4C54-BF2C-246EF94A6D82"
+  visibility="public"
+  displayName="Server Action that does nothing">
+  <description>Server action used in testing, does nothing</description>
+  <categories>
+    <category>Server Action</category>
+    <category>Test</category>
+
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ServerActionId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

@@ -1,0 +1,11 @@
+<workUnit 
+    displayName="[LOCALIZED(937B45A3-84D6-4981-854F-C3B11D6A3716,*AD synchronization)]" 
+    id="4F101384-461A-4E62-A5A9-842930F28DBB" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>[LOCALIZED(80954AB5-B5C5-4829-974F-52655641E871,*Runs user, organization structure and data synchronization with Active Directory)]</description>
+	<executable>
+		<invoke/>
+	</executable>
+	<job queue="Sys.Manually" runAs="adsync_serviceaccount" resultType="none"/>
+</workUnit>

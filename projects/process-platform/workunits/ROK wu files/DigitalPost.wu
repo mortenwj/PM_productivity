@@ -1,0 +1,14 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="FuDP9181ABD0-984D-4575-8E8D-E412EEABE4C9"
+    visibility="public"
+    displayName="SendDigitalPost">
+  <description>Sender Digital Post</description>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+        <argument name="DocumentId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

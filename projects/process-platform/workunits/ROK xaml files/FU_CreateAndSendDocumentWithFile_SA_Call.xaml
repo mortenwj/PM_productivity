@@ -1,0 +1,93 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="PaymentTimeout"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpap="clr-namespace:SI.Biz.Core.ProcessEngine.Activities.ProgressPlan;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="CaseId" Type="InArgument(x:String)" />
+    <x:Property Name="CaseContactRole" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTemplateRecno" Type="InArgument(x:String)" />
+    <x:Property Name="CreatedDocumentRecno" Type="OutArgument(x:String)" />
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+    <x:Property Name="DocumentTitle" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>PaymentTimeout_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontact" />
+      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+      <Variable x:TypeArguments="x:String" Name="_ProgressPlan" />
+      <Variable x:TypeArguments="x:String" Name="CreatedDocumentRecno" />
+      <Variable x:TypeArguments="x:String" Name="_caseid" />
+      <Variable x:TypeArguments="x:String" Name="DocTemplateRecno" />
+    </Sequence.Variables>
+    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_1" ProgressPlanId="[ProgressPlanId]">
+      <sbcpap:PhaseContainer.Phases>
+        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[10]" Description="Fase - Opret Dokument og send" sap2010:WorkflowViewState.IdRef="Phase_1" ReuseOnLoop="False" WarningInDays="[5]">
+          <sbcpap:Phase.PhaseActivities>
+            <sbcpap:WorkUnitServerAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" AutoStart="False" Description="Opret dokument med fil" DisplayName="Opret dokument med fil" sap2010:WorkflowViewState.IdRef="WorkUnitServerAction_1" WorkUnit="FU CreateAndSendDocument - SA =&gt; FU_CreateAndSendDocumentWithFile_SA{AAE5FF5D-A337-44E4-9FC4-D2035DC6FF78}" />
+          </sbcpap:Phase.PhaseActivities>
+          <sbcpap:Phase.Variables>
+            <sco:Collection x:TypeArguments="Variable" />
+          </sbcpap:Phase.Variables>
+        </sbcpap:Phase>
+      </sbcpap:PhaseContainer.Phases>
+      <sbcpap:PhaseContainer.Variables>
+        <sco:Collection x:TypeArguments="Variable" />
+      </sbcpap:PhaseContainer.Variables>
+    </sbcpap:PhaseContainer>
+    <sads:DebugSymbol.Symbol>d3JFOlxUaWV0b1wzNjBcX2luc3RhbmNlc1xlRG9jXHdvcmt1bml0c1xDcmVhdGVBbmRTZW5kRG9jdW1lbnRXaXRoRmlsZVxGVV9DcmVhdGVBbmRTZW5kRG9jdW1lbnRXaXRoRmlsZV9TQV9DYWxsLnhhbWwKMwNNDgIBAT0FSx0CAQI9Xj1wAgEDPwlGGAIBBT+AAz+FAwIBCD+BAj+HAgIBBz+UAj+zAgIBBkENQcYDAgEJQdQBQewBAgELQdQCQcMDAgEK</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="WorkUnitServerAction_1" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Phase_1" sap:VirtualizedContainerService.HintSize="214,137" />
+      <sap2010:ViewStateData Id="PhaseContainer_1" sap:VirtualizedContainerService.HintSize="228,223" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="250,347">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="PaymentTimeout_1" sap:VirtualizedContainerService.HintSize="290,427" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

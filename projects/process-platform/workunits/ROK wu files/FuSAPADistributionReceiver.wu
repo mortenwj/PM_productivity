@@ -1,0 +1,8 @@
+<workUnit displayName="SAPA STS Journalnote modtagelse" id="e2668fe1-bf9b-4d8a-bda7-d5a8b430bd12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Fordelingskomponent: Behandler journalnoter modtaget fra SAPA og opretter journalnoter på sager</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

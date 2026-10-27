@@ -1,0 +1,738 @@
+[
+  {
+    "id": 399191,
+    "fields": {
+      "System.Id": 399191,
+      "System.Description": "<div>write test cases for below US:&nbsp; </div><div><br> </div><div><span><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/389223\">https://tieto-si.visualstudio.com/360/_workitems/edit/389223</a>&nbsp;- Done&nbsp;</span> </div><div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/389204\">https://tieto-si.visualstudio.com/360/_workitems/edit/389204</a>&nbsp;- Done&nbsp;<br> </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/396846\">https://tieto-si.visualstudio.com/360/_workitems/edit/396846</a>&nbsp;- Done&nbsp; </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/393877\">https://tieto-si.visualstudio.com/360/_workitems/edit/393877</a>&nbsp;-Done </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/395345\">https://tieto-si.visualstudio.com/360/_workitems/edit/395345</a>&nbsp;- Done&nbsp; </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/389206\">https://tieto-si.visualstudio.com/360/_workitems/edit/389206</a>&nbsp;- Done </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/393368\">https://tieto-si.visualstudio.com/360/_workitems/edit/393368</a>&nbsp;- Done </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/392342\">https://tieto-si.visualstudio.com/360/_workitems/edit/392342</a>&nbsp;- Done </div> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:49:15.037Z",
+      "System.Title": "Write Manual Test cases for Distribution group support for progress plan",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 414373,
+    "fields": {
+      "System.Id": 414373,
+      "System.Description": "<div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/3baec44e-110b-4ab3-9a4f-831545792f7b?fileName=image.png\" alt=Image><br> </div><div>Tool tip should be:&nbsp; </div><div><i style=\"box-sizing:border-box;\">&quot;This document references file(s) on another document. To include the file(s) please add the original document to your access request case&quot;.&nbsp;</i><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T09:13:17.697Z",
+      "System.Title": "Which new icon  should be used in the document selection dialog",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 414618,
+    "fields": {
+      "System.Id": 414618,
+      "System.Description": "<div style=\"box-sizing:border-box;\">As a process owner, I want to be enabled automatic creation of a document through a stage defined process with options for subsequent review and approval of same document </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\">Details: </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">1. Component Identity </h2><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Proposed Name: Create documment with review and approval</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Originating Process: N/A</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Author: MJ</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Date:</strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">One-Sentence Description:</strong><br style=\"box-sizing:border-box;\">Creates a new outbound document and sends it for approval and review </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">2. Business Intent </h2><p style=\"box-sizing:border-box;\">Describe the business situation where this building block is used. </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Trigger event:</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Intended outcome: Outbound document created, reviewed and approved</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">pri</strong><strong style=\"box-sizing:border-box;\">mary actors involved: Case worker</strong> </li> </ul><p style=\"box-sizing:border-box;\">Do not describe implementation steps. Describe purpose. </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">3. Functional Behavior (Explicit Sequence Required) </h2><p style=\"box-sizing:border-box;\">Describe the expected flow in ordered steps. </p><p style=\"box-sizing:border-box;\">For each step, use the following structure: </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 1 – Create Document</strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Purpose: create new outbound document </li><li style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document archive —Configurable. Default: Outbound </li><li style=\"box-sizing:border-box;\">Document &nbsp;category — Configurable , Category: Create Document<br> </li><li style=\"box-sizing:border-box;\">Recipient&nbsp; - configurable&nbsp; default : Applicant role on case,&nbsp;&nbsp;<span style=\"display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\">Document title:&nbsp; configurable.&nbsp;&nbsp;<span style=\"display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\">Document template:&nbsp; configurable&nbsp;<span style=\"display:inline !important;\">Category: Create Document</span> </li> </ul> </li><li style=\"box-sizing:border-box;\">&nbsp;Milestones to trigger </li><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">configurable set as argument </li> </ul><li style=\"box-sizing:border-box;\">Mandatory or Optional: Mandatory </li><li style=\"box-sizing:border-box;\">Client action, server action or other: Client action </li><li style=\"box-sizing:border-box;\">Completion condition: &nbsp;document created,&nbsp; </li> </ul><p style=\"box-sizing:border-box;\"> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 2 –send for review&nbsp;</strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Purpose: Send the document from step 1 in review </li><li style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document ID - fetched from step 1.&nbsp;<span style=\"display:inline !important;\">Category: SendForReview</span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">Optional&nbsp; Yes no</span><b style=\"box-sizing:border-box;\">&nbsp;</b>Do Review&nbsp; Yes/No&nbsp;<span style=\"display:inline !important;\">Category: SendForReview</span> </li> </ul> </li><li style=\"box-sizing:border-box;\">Mandatory or Optional: <b>Optional<br><br></b> </li><li style=\"box-sizing:border-box;\">Client action, server action or other: Client action&nbsp;&nbsp; </li><li style=\"box-sizing:border-box;\">Completion condition: Document sent for review </li> </ul><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;font-weight:400;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 3 –Send for approval</strong> </strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Purpose: Send the document from step 1 in approval </strong> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><span style=\"font-weight:400;\">Arguments / Parameters:</span><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><span style=\"font-weight:400;\">Document ID - fetched from step 1.&nbsp;</span><span style=\"font-weight:400;display:inline !important;\">&nbsp;</span><span style=\"font-weight:400;box-sizing:border-box;display:inline !important;\">Category: </span><span style=\"box-sizing:border-box;display:inline !important;\">SendFor<span style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">Approval</span></span></span> </li> </ul> </span> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span>&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b> </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Document sent for review </strong> </li><strong style=\"font-weight:400;box-sizing:border-box;\"> </strong> </ul> <p> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;font-weight:400;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br>Step 4 –Dispatch</strong> </strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><span style=\"display:inline !important;\">Purpose: Send the document from step 1 in review</span><br> </strong> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><span style=\"font-weight:400;\">Arguments / Parameters:</span><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><span style=\"font-weight:400;\">Document ID - fetched from step 1.&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\"><span style=\"font-weight:400;\">Category:&nbsp;</span>Docuement<span style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">Dispatch</span></span></span> </li> </ul> </span> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b> </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Document sent for review </strong> </li><strong style=\"font-weight:400;box-sizing:border-box;\"> </strong> </ul><strong style=\"box-sizing:border-box;\"><br></strong> <p> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;font-weight:400;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 5 –Register date&nbsp; - Milestone 1</strong> </strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Purpose: Register date of first milestone </strong> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><b style=\"font-weight:400;\">Arguments / Parameters:</b><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><b style=\"font-weight:400;\">Milestone, from code table: Milestone type&nbsp;</b><span style=\"box-sizing:border-box;\">Category:&nbsp;</span><span style=\"display:inline !important;\">DocuementMilestone</span> </li><li style=\"box-sizing:border-box;\"><b>Action title: Text. used for the title in the task in the progress plan&nbsp;</b><span style=\"box-sizing:border-box;\">Category:&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">DocuementMilestone</span> </li> </ul> </span> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b> </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action (milestone update) </strong> </li><li style=\"font-weight:400;box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Milestone status updated. </strong> </li><strong style=\"font-weight:400;box-sizing:border-box;\"> </strong> </ul><p style=\"box-sizing:border-box;font-weight:400;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </strong> </p><div style=\"box-sizing:border-box;font-weight:400;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br> </strong> </div><strong style=\"box-sizing:border-box;\"><br></strong> <p> </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">6. Dependencies </h2><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Requires Business Rules Engine? (Yes/No) No </li><li style=\"box-sizing:border-box;\">Requires external integration? No </li><li style=\"box-sizing:border-box;\">Synchronous / asynchronous? Synchrnous </li> </ul><p style=\"box-sizing:border-box;\">High-level only. </p><hr style=\"box-sizing:border-box;\"><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Submission Outcome (Product Use Only):</strong><br style=\"box-sizing:border-box;\">☐ Approved for Design<br style=\"box-sizing:border-box;\">☐ Needs Refinement<br style=\"box-sizing:border-box;\">☐ Rejected (Insufficient Abstraction / Reuse Case) </p></span><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><br style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"><br>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-07T07:03:58.033Z",
+      "System.Title": "Create document with review and approval",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 414765,
+    "fields": {
+      "System.Id": 414765,
+      "System.Description": "<div>As a process owner, I want to be able to invoke the creation of a notification to be sent. </div><div><br> </div><div><br> </div><div>check P&amp;B solution. They point to activity 39 </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-03-19T04:49:12.227Z",
+      "System.Title": "PE deigner create designer action for notification",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 414862,
+    "fields": {
+      "System.Id": 414862,
+      "System.Description": "<div>As a case handler, I want to be able to trigger an &quot;application withrawn&quot; process at all places in the process </div><div><br> </div><div><div style=\"box-sizing:border-box;\"><br>Details: </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">1. Component Identity </h2><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Proposed Name: Create documment with review and approval</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Originating Process: N/A</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Author: MJ</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Date:</strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">One-Sentence Description:</strong><br style=\"box-sizing:border-box;\">Creates a new outbound document and sends it for approval and review </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">2. Business Intent </h2><p style=\"box-sizing:border-box;\">Describe the business situation where this building block is used. </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Trigger event:</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Intended outcome: Outbound document created, reviewed and approved</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">pri</strong><strong style=\"box-sizing:border-box;\">mary actors involved: Case worker</strong> </li> </ul><p style=\"box-sizing:border-box;\">Do not describe implementation steps. Describe purpose. </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">3. Functional Behavior (Explicit Sequence Required) </h2><p style=\"box-sizing:border-box;\">Describe the expected flow in ordered steps. </p><p style=\"box-sizing:border-box;\">For each step, use the following structure: </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;font-weight:400;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 1 –Register date&nbsp; - Milestone 1</strong></strong></strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;font-weight:400;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Purpose: Register date of first milestone</strong></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Milestone, from code table: Milestone type </li><li style=\"box-sizing:border-box;\">Action title: Text. used for the title in the task in the progress plan (default: register withdra date) </li> </ul></strong></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Mandatory</b></strong></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action (milestone update)</strong></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Milestone status updated.</strong></strong> </li> </ul><strong style=\"box-sizing:border-box;\"><br></strong><p> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 2 – Create Document</strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Purpose: create new outbound document </li><li style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document archive —Configurable. Default: Outbound </li><li style=\"box-sizing:border-box;\">Document &nbsp;category — Configurable Default: outbound </li><li style=\"box-sizing:border-box;\">Recipient&nbsp; - configurable&nbsp; default : Applicant role on case&nbsp; </li><li style=\"box-sizing:border-box;\">Document title:&nbsp; configurable.&nbsp;<span style=\"display:inline !important;\">default: Application withdrawn</span> </li><li style=\"box-sizing:border-box;\">Document template:&nbsp; configurable </li><li style=\"box-sizing:border-box;\">Action title: configurable, default: Application withdrawn </li><li style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </li> </ul> </li><li style=\"box-sizing:border-box;\">&nbsp;Milestones to trigger </li><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">configurable set as argument </li> </ul><li style=\"box-sizing:border-box;\">Mandatory or Optional: Mandatory </li><li style=\"box-sizing:border-box;\">Client action, server action or other: Client action </li><li style=\"box-sizing:border-box;\">Completion condition: &nbsp;document created,&nbsp; </li> </ul><p style=\"box-sizing:border-box;\"> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 2 –send for review&nbsp;</strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Purpose: Send the document from step 1 in review </li><li style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document ID - fetched from step 1. </li> </ul> </li><li style=\"box-sizing:border-box;\">Mandatory or Optional:<span>&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b> </li><li style=\"box-sizing:border-box;\">Client action, server action or other: Client action </li><li style=\"box-sizing:border-box;\">Completion condition: Document sent for review </li> </ul><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Step 3 –Send for approval</strong></strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Purpose: Send the document from step 1 in approval</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document ID - fetched from step 1. </li> </ul></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Document sent for review</strong> </li><strong style=\"box-sizing:border-box;\"></strong> </ul><p style=\"box-sizing:border-box;\"> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\">Step 4 –Dispatch</strong></strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;display:inline !important;\">Purpose: Send the document from step 1 in review</span><br style=\"box-sizing:border-box;\"></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document ID - fetched from step 1. </li> </ul></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Documentndispatched</strong> </li> </ul><div><b>NB: Completion action: Close curent phase</b> </div><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><strong style=\"box-sizing:border-box;\"></strong> </ul><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong><p style=\"box-sizing:border-box;\"> </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">6. Dependencies </h2><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Requires Business Rules Engine? (Yes/No) No </li><li style=\"box-sizing:border-box;\">Requires external integration? No </li><li style=\"box-sizing:border-box;\">Synchronous / asynchronous? Synchrnous </li> </ul><p style=\"box-sizing:border-box;\">High-level only. </p><hr style=\"box-sizing:border-box;\"><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Submission Outcome (Product Use Only):</strong><br style=\"box-sizing:border-box;\">☐ Approved for Design<br style=\"box-sizing:border-box;\">☐ Needs Refinement<br style=\"box-sizing:border-box;\">☐ Rejected (Insufficient Abstraction / Reuse Case) </p></span><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><br><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T05:27:51.91Z",
+      "System.Title": "Process Withdrawn",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 415997,
+    "fields": {
+      "System.Id": 415997,
+      "System.Description": "<div>Add the following values to code table: document category </div><div><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/1d0e49fe-1079-41a5-adf4-e5d503c73fea?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><br> </div><div>Use the follwing config. Do not connect any document archicves to the categories by default. </div><div>Ensure values are available in all 360 subsetups. </div><div><br> </div><div><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/8518daf2-c2c7-4846-9a2f-b00f141b1efa?fileName=image.png\" alt=undefined><br> </div><div><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T11:15:55.343Z",
+      "System.Title": "Add document categories",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 417485,
+    "fields": {
+      "System.Id": 417485,
+      "System.Description": "<div>as a process designer, I want to be able to specify which document types that trigger a milestones&nbsp; when dispatching or receiving a document so that I can be sure milestones are triggered an updated automatically. </div><div><br> </div><div>Details: Add document type/category to the milestone config as illustrated below.&nbsp; Ensure that it is possible to select multiple document categories and multiple archives. See template config for examples of logic&nbsp; </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/763423cf-cc34-4f65-8ee4-73a5283883e4?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.AcceptanceCriteria": "<div>Given I have added a milestone to a process model, I am able to ad one or more documents and categories that should trigger the milestone.&nbsp; </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T05:54:02.367Z",
+      "System.Title": "Add document trigger on milestone config",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 417610,
+    "fields": {
+      "System.Id": 417610,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T09:00:06.143Z",
+      "System.Title": "Test Cases writing for the stories in the description",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 417923,
+    "fields": {
+      "System.Id": 417923,
+      "System.Description": "<div>As a user, I want to view process model details, search and filter process models, and create new process models from templates, so that I can efficiently manage and reuse existing configurations.<br><br><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/f85d86ff-cac0-4f61-ac3b-f43e6aee8de5?fileName=image.png\" alt=Image><br> </div><div><br><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/6ea342a9-747f-40a8-9629-990970861e13?fileName=image.png\" alt=Image><br><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/5ac4db2a-02b2-4898-8730-400dc2313011?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.AcceptanceCriteria": "<div><ol><li><strong>View Process Model Details</strong><ul><li>\nWhen the user clicks on the <strong>description (eye) icon</strong>, a drawer should open.\n</li><li>\nThe drawer should display detailed information about the selected process model (as per the provided design/screenshot).\n</li> </ul> </li><li><strong>Search Functionality</strong><ul><li>\nA search box should be available.\n</li><li>\nThe user should be able to filter process models based on the entered text.\n</li> </ul> </li><li><strong>Filter by Status</strong><ul><li>\nA dropdown filter should be provided.\n</li><li>\nThe user should be able to filter process models based on their status (e.g., Active, Inactive, etc.).\n</li> </ul> </li><li><strong>Copy Process Template</strong><ul><li>\nThe user should be able to create a new process model by clicking the <strong>copy icon</strong>.\n</li><li>\nThe new process model should be created using the selected process template. </li> </ul> </li> </ol><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-15T05:05:44.903Z",
+      "System.Title": "Admin panel - UI - Process model template UI implementation.",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 417953,
+    "fields": {
+      "System.Id": 417953,
+      "System.Description": "<div>In Progress plans designing level ,we might need possibility to&nbsp; add condition under&nbsp; phase .<br> </div><div>e.g. in <a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/414618\" tabindex=0 style=\"box-sizing:border-box;color:rgb(0, 90, 158);border-radius:2px;cursor:pointer;outline:transparent;text-decoration:none !important;transition:color 80ms cubic-bezier(0.165, 0.84, 0.44, 1), background 80ms linear;font-size:12px;\">USER STORY 414618</a>&nbsp;, we are adding controls based on the conditions to be shown or not.&nbsp;<br><br><br>Currently if we add if condition under phase , we get an error for phase saying<b> &quot;All child activities must be &nbsp;a subclass of PhaseChildBase. Other Classes is not supported&quot;</b><br><br><br><br><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/9f6d6f37-5399-4c56-ada2-c0ae7957857f?fileName=image.png\" alt=Image><br><br>Fixing this would help in adding controls based on conditions easily.<br><br><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-07T06:49:07.097Z",
+      "System.Title": "Possibility to add conditions (if) in phases for easy control handling.",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 418785,
+    "fields": {
+      "System.Id": 418785,
+      "System.Description": "<div><div style=\"box-sizing:border-box;\">As a process owner, I want to be able to add a process for Announcement to a process model, so that I can support the announcement&nbsp; </div><div style=\"box-sizing:border-box;\">Details: </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">1. Component Identity </h2><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Proposed Name: Announcement&nbsp;</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Originating Process: N/A</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Author: MJ</strong><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Date:</strong> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">One-Sentence Description:</strong><br style=\"box-sizing:border-box;\">Creates an announcement process </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">2. Business Intent </h2><p style=\"box-sizing:border-box;\">Describe the business situation where this building block is used. </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Trigger event:</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Intended outcome: Outbound document created, reviewed and approved</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">pri</strong><strong style=\"box-sizing:border-box;\">mary actors involved: Case worker</strong> </li> </ul><p style=\"box-sizing:border-box;\">Do not describe implementation steps. Describe purpose. </p><hr style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">3. Functional Behavior (Explicit Sequence Required) </h2><p style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">This process consists of 3 blocks: Create new document, create email, register milestone.</b> </p><p style=\"box-sizing:border-box;\">We will first define the building blocks, and then specify the sequence of these </p><p style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Block 1 – Create Document - with subsequent review, apprval and dispatch</strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Purpose: create new outbound document </li><li style=\"box-sizing:border-box;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Document archive —Configurable. Default: Outbound,&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">Category: Document</span> </li><li style=\"box-sizing:border-box;\">Document &nbsp;category — Configurable , Category: Create Document<br style=\"box-sizing:border-box;\"> </li><li style=\"box-sizing:border-box;\">Recipient&nbsp; - configurable&nbsp; default : Applicant role on case,&nbsp;&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\">Document title:&nbsp; configurable.&nbsp;&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\">Document template:&nbsp; configurable&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\">create review::boolean,&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;display:inline !important;\">create approval:&nbsp;&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">boolean,&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span></span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;display:inline !important;\"><span style=\"box-sizing:border-box;display:inline !important;\">Create dispatch&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">boolean,&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Document</span></span></span> </li> </ul> </li><li style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </li><li style=\"box-sizing:border-box;\">Mandatory or Optional: Mandatory </li><li style=\"box-sizing:border-box;\">Client action, server action or other: Client action </li><li style=\"box-sizing:border-box;\">Completion condition: &nbsp;document created,, review, approval and dispatch attatched </li> </ul><p style=\"box-sizing:border-box;\"> </p><p style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Block 2: Create email:</b> </p><p style=\"box-sizing:border-box;\">Invokes first the attachment and recipient selector, and then opens the new email dialogue in Outlook </p><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\">Arguments / Parameters:<ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;display:inline !important;\">Show recipients&nbsp;&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">boolean,&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Email</span></span><br style=\"box-sizing:border-box;\"></span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">Show Attatchments&nbsp; -<span>&nbsp;</span></span><span style=\"box-sizing:border-box;display:inline !important;\">boolean,&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Email</span><span style=\"box-sizing:border-box;\"></span> </li><li style=\"box-sizing:border-box;\">Activity title, text,&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">configurable&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">Category: Create Email</span> </li> </ul> </div><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Block 3&nbsp; –Register date&nbsp; - Milestone&nbsp;</strong></strong> </p><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Purpose: Register date of first milestone</strong> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Arguments / Parameters:</b><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Milestone, from code table: Milestone type&nbsp;</b><span style=\"box-sizing:border-box;\">Category:&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">DocuementMilestone</span> </li><li style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">Action title: Text. used for the title in the task in the progress plan&nbsp;</b><span style=\"box-sizing:border-box;\">Category:&nbsp;</span><span style=\"box-sizing:border-box;display:inline !important;\">DocuementMilestone</span> </li> </ul></span> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Mandatory or Optional:<span style=\"box-sizing:border-box;\">&nbsp;</span><b style=\"box-sizing:border-box;\">Optional</b></strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Client action, server action or other: Client action (milestone update)</strong> </li><li style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Completion condition: Milestone status updated.</strong> </li><strong style=\"box-sizing:border-box;\"></strong> </ul><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\"></strong></strong> </p><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\">The sequence in the process will be:</strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"></span><span style=\"box-sizing:border-box;\"></span><span style=\"box-sizing:border-box;\">1: Create new document</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">2: Create e-mail</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">3: Create new document</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">4: Create new document</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">5: Create e-mail</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">6: Create new document</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">7: Create e-mail</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">8: Create new document</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">9: Create e-mail</span><br style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">10: Register or update date - milestone</span><br style=\"box-sizing:border-box;\"></strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><div style=\"box-sizing:border-box;margin-top:14px;margin-bottom:14px;\"><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong> </div><strong style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></strong><p style=\"box-sizing:border-box;\"> </p><hr style=\"box-sizing:border-box;\"><h2 style=\"box-sizing:border-box;font-weight:600;\">6. Dependencies </h2><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Requires Business Rules Engine? (Yes/No) No </li><li style=\"box-sizing:border-box;\">Requires external integration? No </li><li style=\"box-sizing:border-box;\">Synchronous / asynchronous? Synchrnous </li> </ul><p style=\"box-sizing:border-box;\">High-level only. </p><hr style=\"box-sizing:border-box;\"><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Submission Outcome (Product Use Only):</strong><br style=\"box-sizing:border-box;\">☐ Approved for Design<br style=\"box-sizing:border-box;\">☐ Needs Refinement<br style=\"box-sizing:border-box;\">☐ Rejected (Insufficient Abstraction / Reuse Case) </p></span><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><br style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T14:28:08.687Z",
+      "System.Title": "NVE Process: Announcement",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 418839,
+    "fields": {
+      "System.Id": 418839,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T06:58:18.19Z",
+      "System.Title": "Analysis/Code Changes",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 418886,
+    "fields": {
+      "System.Id": 418886,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T10:38:59.633Z",
+      "System.Title": "IFAR - Redaction - Enable flattening for PDF forms and emails - Hotfix 6.8",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 418920,
+    "fields": {
+      "System.Id": 418920,
+      "System.Description": "<div>There are a lot of connections in PAF, for instance milestone, contacts, document categories etc. that are used in a process, but also needs to be allowed on the chosen case type/document archive etc.&nbsp; </div><div><br> </div><div>For instance when setting up case roles in the template, you get all case roles in the codetable, but not all of them are connected to all case types. So in this case the four yellow ones are only connected to case type Case, but the process model is going to be connected to case type Konsesjonssak. If then the template is set up with some of the yellow contact roles, they will not be allowed on the actual case type, and there should be a clear message in admin stating that there is a missing connection here. So that the one configuring can either add the roles to the case type, or choose another role.&nbsp; </div><div><br> </div><div>This goes for all places where this kind of connections occur.&nbsp; </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/a1604a1a-2ade-4496-afd7-ab5534f0df46?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/d5abf5c5-bf7f-403f-93db-2a2fa78610ec?fileName=image.png\" alt=Image><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T11:43:02.58Z",
+      "System.Title": "Alert when connections in setup are not allowed",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 418925,
+    "fields": {
+      "System.Id": 418925,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:40:14.447Z",
+      "System.Title": "Cherry-pick BL to 6.8",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 418964,
+    "fields": {
+      "System.Id": 418964,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:40:26.367Z",
+      "System.Title": "Cherry-pick Fileviewer to 6.8",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419040,
+    "fields": {
+      "System.Id": 419040,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:40:36.407Z",
+      "System.Title": "Logic refinements",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419086,
+    "fields": {
+      "System.Id": 419086,
+      "System.Description": "<h1 style=\"box-sizing:border-box;margin:0px;order:1;display:block;color:rgb(31, 35, 40);font-family:&quot;Mona Sans VF&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;\"><span style=\"box-sizing:border-box;font-size:32px !important;font-weight:400 !important;\">Allowing for archiving email messages</span> </h1>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T13:45:07.047Z",
+      "System.Title": "Adding New Categories and Renaming few",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419167,
+    "fields": {
+      "System.Id": 419167,
+      "System.Description": "<div style=\"box-sizing:border-box;\">as a case worker, I want to be able to create a nee email where it is possible to select attachments, recipients and other relevant values, so thai I can easily crete an email from a process without having to manually navigate around, </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br> </div><div style=\"box-sizing:border-box;\">Implement a dialogue with the current layout. Should load all case contacts and files on the case. Files should be listed from all attached douments on the case, but there should also be a filtering option per stage </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/b154b68c-f5b9-41b9-a73c-a6762182099b?fileName=image.png\" alt=Image style=\"box-sizing:border-box;max-width:100%;align-self:center;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br> </div><div style=\"box-sizing:border-box;\"><br> </div><div style=\"box-sizing:border-box;\">Let yourself be inspired from this existing page, Ensure that the same logic for show&amp;hide attachments and recipients are availale </div><div style=\"box-sizing:border-box;\"><br> </div><div style=\"box-sizing:border-box;\"><div style=\"box-sizing:border-box;\"><br><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/9fa00cce-01b5-4225-9b46-23c2d14f73c2?fileName=image.png\" alt=Image style=\"box-sizing:border-box;max-width:100%;align-self:center;\"> </div><br> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><br><br>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-15T06:02:28.3Z",
+      "System.Title": "new email dialogue",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419332,
+    "fields": {
+      "System.Id": 419332,
+      "System.Description": "<div>Solution:&nbsp;The system should not allow the user to publish the model until all required fields have been completed. </div><div><br> </div><div>Example of the issue:&nbsp; </div><div>Auto send Receipt Process&nbsp; </div><div>User does not provide the <b>Document templateID</b> in arguments&nbsp; </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/378d218c-8bd0-4592-b8cf-16b2e2db45b4?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><b>User publishes the model and then case is created&nbsp;</b> </div><div><b>We get exception:&nbsp;</b> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/2ced38fe-abef-420a-b5f4-5fbd06a3211a?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T06:21:13.343Z",
+      "System.Title": "For the automatic process, where no user intervention is required, the admin should ensure that all mandatory arguments are properly configured.",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419399,
+    "fields": {
+      "System.Id": 419399,
+      "System.Description": "<div>When configuring arguments for a process, you will be able to choose to turn them on or not, like whether or not the document created should have review or not, or approval or not. When the views for the arguments are closed, like in the screenshot, it would be great to have some form of marking to easily show which ones are on and which ones are off, without having to open all of them first. For instance a radio button, a green check vs red X, or something like that </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/01bb662b-fd93-4147-9a06-f69d110c5817?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:10:30.49Z",
+      "System.Title": "UI for showing what arguments are on or off in setup",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419468,
+    "fields": {
+      "System.Id": 419468,
+      "System.Description": "<div><b>1. Remove below FTs, </b> </div><div><br> </div><div><ol><li><span style=\"color:rgb(36, 36, 36);text-align:left;background-color:rgb(245, 245, 245);display:inline !important;\">GemiMailScanner</span> </li><li><span style=\"color:rgb(36, 36, 36);text-align:left;background-color:rgb(245, 245, 245);display:inline !important;\"><span style=\"display:inline !important;\">GemiMessageFilterSupport</span><br></span> </li> </ol><div><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\">Update the same into feature toggle excel sheet.&nbsp;<a href=\"https://tietoevry.sharepoint.com/:x:/r/sites/TechnologyDevelopmentSI/_layouts/15/Doc.aspx?sourcedoc=%7bD1E2D351-371E-4136-A4D0-D82B39C7E9F4%7d&amp;file=Feature%20Toggles.xlsx&amp;action=default&amp;mobileredirect=true\">Feature Toggles.xlsx</a></font> </div><div><br> </div><div><br> </div><div> </div><div><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\"><b>2.Localization changes</b></font> </div><div><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\"><div style=\"box-sizing:border-box;\"><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\" style=\"box-sizing:border-box;\">Also update the below localization text.</font> </div><div style=\"box-sizing:border-box;\"><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\" style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"></font> </div><div style=\"box-sizing:border-box;\"><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\" style=\"box-sizing:border-box;\"><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/6771995e-baef-4e67-a43c-f48866371558?fileName=image.png\" alt=Image style=\"box-sizing:border-box;max-width:100%;align-self:center;\"></font> </div><br></font> </div><div><font face=\"Segoe UI, Segoe UI Web (West European), -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif\"><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Web&quot;, sans-serif;\">Please update the localized text for the following GUIDs in English and all other languages:</span> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Web&quot;, sans-serif;\"><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">1. GUID:</strong><span>&nbsp;</span><code style=\"box-sizing:border-box;\">C64BD164-2AAE-43F9-B833-5FB09C28A6D8</code><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Old Text:</strong><span>&nbsp;</span><em style=\"box-sizing:border-box;\">GEMI Email Scanner Failure</em><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">New Text:</strong><span>&nbsp;</span><em style=\"box-sizing:border-box;\">Request for Information – Failure Handling</em> </p><p style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">2. GUID:</strong><span>&nbsp;</span><code style=\"box-sizing:border-box;\">C0CC9A84-7B4A-48BB-B0B4-E1C5514A0819</code><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">Old Text:</strong><span>&nbsp;</span><em style=\"box-sizing:border-box;\">GEMI Email Scanner Success</em><br style=\"box-sizing:border-box;\"><strong style=\"box-sizing:border-box;\">New Text:</strong><span>&nbsp;</span><em style=\"box-sizing:border-box;\">Request for Information – Success Handling</em> </p><p style=\"box-sizing:border-box;\">Kindly ensure the updates are applied consistently across all supported languages. </p></span></span></span> </div><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div><div style=\"box-sizing:border-box;\"><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/ee16e816-6b03-41f8-837a-e5ea7055d1a3?fileName=image.png\" alt=Image style=\"box-sizing:border-box;max-width:100%;align-self:center;\"> </div><div style=\"box-sizing:border-box;\"><br> </div><div style=\"box-sizing:border-box;\"><b style=\"box-sizing:border-box;\">3.Documentation&nbsp;</b> </div><div style=\"box-sizing:border-box;\"><ol><li><span style=\"box-sizing:border-box;\">Release notes 6.10 (GEMI mail scanner)</span> </li> </ol><b style=\"box-sizing:border-box;\"></b> </div></font> </div> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T05:56:21.57Z",
+      "System.Title": "GEMI Mail Scanner and Filter Feature Toggle Removal and Localization changes",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419469,
+    "fields": {
+      "System.Id": 419469,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T13:22:27.32Z",
+      "System.Title": "FT removal",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419473,
+    "fields": {
+      "System.Id": 419473,
+      "System.Description": "<div><span><b>1) File name </b><span style=\"display:inline !important;\">getCaseId.wu<br></span></span> </div><div> </div><div> </div><div> </div><div><span><b>Path </b>: <br><a href=\"https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/SharedComponents\">https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/SharedComponents</a><br><br></span><div>[LOCALIZED(C04AFA16-789C-4A30-BD84-17DC705B11A7, *Get CaseId From current process)]<br> </div><div><br><b style=\"box-sizing:border-box;\">2) File name<span>&nbsp;</span></b><span style=\"box-sizing:border-box;display:inline !important;\">DocumentCreationProcessModel.wu&nbsp;&nbsp;<br style=\"box-sizing:border-box;\"></span><b style=\"box-sizing:border-box;\">Path<span>&nbsp;</span></b><span style=\"display:inline !important;\">:</span><br style=\"box-sizing:border-box;\"><a href=\"https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses\">https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses</a><br><br>[LOCALIZED(A5083B8E-628F-4F88-91D4-21983CC60AF1, *Document Creation Process with Review, approval, dispatch and Milestone)]<br> </div><div>[LOCALIZED(0405046B-FB16-43D5-9B19-1B31A9036F2D, *CaseContactApplicantRoleId)]<br> </div><div>[LOCALIZED(EC0DC353-2C71-463A-8841-6751CA849E07, *codetable: Contact - Case role (Default: Applicant))]<br> </div><div>[LOCALIZED(D40171CD-DBCF-4650-8667-BB1A72F6A137, *CreateDocument)]<br> </div><div><br> </div><div>[LOCALIZED(6724CE9F-8D29-4160-A051-3D10FE302C11, *NewDocumentHeaderText)]<br> </div><div>[LOCALIZED(15B796EA-AD6D-4DD4-9A5A-ECF4FC576CAA, *Choose What should be seen as Header when creating a new Document)]<br> </div><div>[LOCALIZED(DBE26E1C-33FD-4D5F-AF26-B6EB0C6C6659, *Choose Title for Document)]<br> </div><div>[LOCALIZED(07F9732B-1D28-4361-9A26-51CEB6E3DA65, *Sends this document on a review workflow(true/false))]<br> </div><div>[LOCALIZED(FEFB765A-C585-454B-802E-B17F553FA325, *SendForReviewTitle)]<br> </div><div>[LOCALIZED(70C35B72-0663-4E40-87AD-017DCF55D74F, *Default Title when document is send for Review)]<br> </div><div>[LOCALIZED(D4EDAA9B-2425-4580-B9D9-3EA7873F390C, *ReviewDueInCalenderDays)]<br> </div><div>[LOCALIZED(C8A9788E-9738-48CC-A7CB-2E2A672B2999, *Review Due days period in calender days)]<br> </div><div>[LOCALIZED(3BA0BA1A-EE91-44A2-A212-92CF260F5361, *Sends this document on an approval workflow(true/false))]<br> </div><div>[LOCALIZED(5EB7C504-B377-4E8F-8504-799E7E7E792E, *SendForApprovalTitle)]<br> </div><div>[LOCALIZED(74697485-2AC6-4F47-89F2-3BE3A9371FD3, *Default Title when document is send for Approval)]<br> </div><div>[LOCALIZED(52CF2F5D-0626-4336-927E-AA1010F0597B, *ApprovalDueInCalenderDays)]<br> </div><div>[LOCALIZED(FEFF0573-7D6C-4D0B-8863-E3D36F3E556D, *Approval Due days period in calender days)]<br> </div><div>[LOCALIZED(1BE144E6-B141-4B89-824D-C6DAB71B2685, *codetable: Document Dispatch Channel (Default: [from system]))]<br> </div><div>[LOCALIZED(2138B422-D0B6-4D0E-8276-444757E7FDD0, *Do you want to send Document For Dispatch ?(true/false))]<br> </div><div>[LOCALIZED(D62D8F41-5128-44A6-B98B-321BCDE54B98, *Create milestone )]<br> </div><div>[LOCALIZED(78D9B149-FEE6-47E0-A0F6-71B656988CAC, *Do you want to create milestone ?(true/false))]<br> </div><div>[LOCALIZED(100DA655-CC1F-4098-8A18-EED703D9CA52, *ActionTitle)]<br> </div><span>[LOCALIZED(118BD6AA-73C3-4713-AC08-B02C731B09EE, *Action title for the Milestone)]<br></span>[LOCALIZED(F4786D4D-0F5C-457A-8243-A44CCAD735B4, *Document Withdrawn Process with Review, approval, dispatch and Milestone)]<br><br><b>New localization for the same file</b>&nbsp;<br><span>[LOCALIZED(822C0AFF-CA5A-41BE-A614-B17FD9945E10, *DispatchHandling)]<br></span><div>[LOCALIZED(67D018CE-C8B7-4E1F-9D21-B4C328008048, *DispatchTitle)]<br> </div><span>[LOCALIZED(DE7A4CF8-CFD1-45D4-A84D-3A9887721309, *Default Title when document is Dispatch)]</span><br><br><br><br><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T05:48:44.6Z",
+      "System.Title": "Localization for the Create document with review and approval Process",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419476,
+    "fields": {
+      "System.Id": 419476,
+      "System.Description": "<div><b style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);\">1) File name<span style=\"box-sizing:border-box;\">&nbsp;</span></b><span style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);display:inline !important;\">DocumentWithdrawnProcessModel.wu<br style=\"box-sizing:border-box;\"></span><b style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);\">Path<span style=\"box-sizing:border-box;\">&nbsp;</span></b><span style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);display:inline !important;\">:</span><br style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);\"><a href=\"https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses\" target=_blank rel=\"noopener noreferrer\" style=\"box-sizing:border-box;color:rgb(0, 90, 158);background-color:rgb(234, 234, 234);cursor:pointer;\">https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses</a><br style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);\"><br style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);\"><span style=\"background-color:rgb(234, 234, 234);display:inline !important;\">[LOCALIZED(F4786D4D-0F5C-457A-8243-A44CCAD735B4, *Document Withdrawn Process with Review, approval, dispatch and Milestone)]</span><br style=\"box-sizing:border-box;background-color:rgb(234, 234, 234);text-decoration:line-through;\"><br><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T05:49:20.433Z",
+      "System.Title": "Localization for Process Withdrawn",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419513,
+    "fields": {
+      "System.Id": 419513,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T12:03:34.39Z",
+      "System.Title": "Analyze and changes",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419533,
+    "fields": {
+      "System.Id": 419533,
+      "System.Description": "<div>Some processes are &quot;open link&quot; and you for instance expect to open the external system where the application connected to the case it. Would it be good if all those links that are added as part of a process, would also be visible in the view Case links, so you could use that as a total overview? </div><div>(Case links are currently hidden under feature toggle&nbsp;ShowCaseLinkContainer in Public 360, and needs more testing before official release) </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/a67c3bc7-3ca2-414a-8d7b-df84635c2dec?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T08:50:33.363Z",
+      "System.Title": "Showing links from processes in Case links",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419558,
+    "fields": {
+      "System.Id": 419558,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:46:48.263Z",
+      "System.Title": "Write Test cases for remaining US",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419626,
+    "fields": {
+      "System.Id": 419626,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T14:28:08.1Z",
+      "System.Title": "create process",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419634,
+    "fields": {
+      "System.Id": 419634,
+      "System.Description": "<div>When configuring the arguments for a process, and you're setting up the Milestone handling, the dropdown list is showing only the milestone type code. For all standard milestone types, that is only a series of letters that for Public customers (at least the non municipality ones) makes absolutely no sense, and you cant know what you choose unless you open the actual codetable on the side. That makes it very har to work with.&nbsp; </div><div><br> </div><div>As long as we have the short codes from standard, this view should have the setup for Code - Description, so you can actually see what you choose </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/377dc527-7bd9-4b26-b2ed-78fde556d4f7?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/2a90f7f0-1dc0-482e-b701-ab69bb70c205?fileName=image.png\" alt=Image><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/6d787b9d-b815-49ce-b24f-2c91f5875547?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T15:15:12.123Z",
+      "System.Title": "View milestone code vs description",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419635,
+    "fields": {
+      "System.Id": 419635,
+      "System.Description": "<div>When you create a new document, you choose which stage to connect it to. Besides the dropdown list you have a &quot;create new stage&quot;. But this is more like &quot;Add new stage&quot;, as the only place you can actually create a stage is in the admin. As it is now it makes room for confusion </div><div><br> </div><div>Should reconsider the wording </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/b3168a03-20b0-4272-9848-420365863a54?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T15:22:04.93Z",
+      "System.Title": "Frasing for adding new stage to document",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419680,
+    "fields": {
+      "System.Id": 419680,
+      "System.Description": "<div>There are 3 dialogs having dropdowns with static data. Those static options need to be replaced with actual data from BL API.<br>Milestone dialog:&nbsp;<a href=\"https://dev.azure.com/tieto-si/360/_workitems/edit/418606\">https://dev.azure.com/tieto-si/360/_workitems/edit/418606</a><br>Stage dialog:&nbsp;<a href=\"https://dev.azure.com/tieto-si/360/_workitems/edit/418612\">https://dev.azure.com/tieto-si/360/_workitems/edit/418612</a><br>Process dialog:&nbsp;<a href=\"https://dev.azure.com/tieto-si/360/_workitems/edit/418608\">https://dev.azure.com/tieto-si/360/_workitems/edit/418608</a><br><br>API which needs to be called for dialogs are provided in above attached US dialog wise.<br>Dialogs code is in this folder directory:&nbsp;packages/process-components/src/ProcessView/ActivityDialogComponents/<br><br>Which dialog will get called when, that manipulation exists in this file :&nbsp;packages/process-components/src/ProcessView/Actions/ActionIconButtons.tsx<br>Line number 42-53<br><br><br>Task is to go through all 3 dialog code files, remove all static data and call that from BL API. Fix save option if any changes are needed so that correct data will be passed to Save API for all dialogs.&nbsp;<br>For API related help, get in touch with <a href=\"#\" data-vss-mention=\"version:2.0,fda8eda9-fc67-6ec5-93f9-7f37c88add20\">@Mudita Sharma</a> <br><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T06:43:30.03Z",
+      "System.Title": "React  : Activites dialogs - Change static dropdown optios to call data from BL",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419697,
+    "fields": {
+      "System.Id": 419697,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T13:22:54.813Z",
+      "System.Title": "Testing",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419698,
+    "fields": {
+      "System.Id": 419698,
+      "System.Description": "<div>Add type in below API </div><div><span><ol><li><span>GetDocumentCategoryList</span> </li> </ol></span> </div><div>Create new API method name with&nbsp;<span>GetAllDocumentArchivesList and return all document category archive</span> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T04:59:08.177Z",
+      "System.Title": "Document Category Changes",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419704,
+    "fields": {
+      "System.Id": 419704,
+      "System.Description": "<div>We need to add all the individual Localization task to this Global Task. </div><div><br> </div><div><br> </div><div><span style=\"display:inline !important;\">[LOCALIZED(</span><span style=\"box-sizing:border-box;display:inline !important;\">EF29C0D2-22FE-40AE-917A-268EBE7CADD1</span><span style=\"display:inline !important;\">, *Receipt for application)]</span><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T06:42:49.17Z",
+      "System.Title": "Global Custom Localization Tasks",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419719,
+    "fields": {
+      "System.Id": 419719,
+      "System.Description": "<div><span>Below are the list of Standard Localization used<br>Feel free to add your standard localization to this task<br><br></span><div>[LOCALIZED(E1E602BF-C7E4-4FA5-BD8C-C0D2350F7B0E,Access Group)]<br> </div><div>[LOCALIZED(8500A0DE-0B58-4D02-8A9C-D705D81B891F,Arkiv)]<br> </div><div>[LOCALIZED(c00dc2b1-6d2b-46e2-8a8b-be4e579976d1,*Category)]<br> </div><div>[LOCALIZED(AFD24B2CF,Description)]<br> </div><div>[LOCALIZED(0F9DA570-BE45-41D2-9415-E9D9351C605A,Choose template)]<br> </div><div>[LOCALIZED(899D78C2-0984-4bc9-AE76-2C28CB52D37D,*SendForReviewCaption)]<br> </div><div>59bef651-e1fc-4f72-86a2-a466bdb86e25 Review Document<br> </div><div>3C2CD56B-E100-48A0-9D61-2B5678BB7807 &nbsp;*Send for approval<br> </div><div>[LOCALIZED(7A30FE68-E171-46de-A54E-73396FDAC13B,*ApproveDocumentCaption)]<br> </div><div>ABA2E0D2-37F3-4B02-8CF6-D6B50B160C34 Ready for dispatch<br> </div><div>ba8b3e83-13ed-4d3a-bda1-a6b171638a90 *Dispatch Channel<br> </div><div>73ac2488-9d62-413d-bd43-4a9397d58ba9 &nbsp;*Milestone type<br> </div><div>81ca53a3-5b4a-4bfe-a093-61e560311b42 &nbsp;*Milestone<br> </div><span></span><br><br><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T06:50:48.333Z",
+      "System.Title": "Global Standard Localization Used in processes",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419784,
+    "fields": {
+      "System.Id": 419784,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:12:40.457Z",
+      "System.Title": "Retest bug 418950",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419787,
+    "fields": {
+      "System.Id": 419787,
+      "System.Description": "<div><span style=\"font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Web&quot;, sans-serif;\">Please update the localized text for the following GUIDs in English and all other languages:</span> </div><div><span><span><span style=\"font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Web&quot;, sans-serif;\"><p><strong>1. GUID:</strong> <code>C64BD164-2AAE-43F9-B833-5FB09C28A6D8</code><br><strong>Old Text:</strong> <em>GEMI Email Scanner Failure</em><br><strong>New Text:</strong> <em>Request for Information – Failure Handling</em> </p><p><strong>2. GUID:</strong> <code>C0CC9A84-7B4A-48BB-B0B4-E1C5514A0819</code><br><strong>Old Text:</strong> <em>GEMI Email Scanner Success</em><br><strong>New Text:</strong> <em>Request for Information – Success Handling</em> </p><p>Kindly ensure the updates are applied consistently across all supported languages. </p></span></span></span> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/ee16e816-6b03-41f8-837a-e5ea7055d1a3?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T13:12:05.58Z",
+      "System.Title": "Localization change",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419789,
+    "fields": {
+      "System.Id": 419789,
+      "System.Description": "<div>As a process designer I should be able to model the processes using a BPMN Editor </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T08:36:30.51Z",
+      "System.Title": "PAF - BPMN modeler",
+      "System.WorkItemType": "Feature"
+    }
+  },
+  {
+    "id": 419790,
+    "fields": {
+      "System.Id": 419790,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T08:37:05.837Z",
+      "System.Title": "React - BPMN editor",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419791,
+    "fields": {
+      "System.Id": 419791,
+      "System.Description": "<div>Add the Innovation week Button to web admin to be able to view the process from the XAML in the BPMN editor </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T08:41:57.83Z",
+      "System.Title": "BIF - Edit process using BPMN editor",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419813,
+    "fields": {
+      "System.Id": 419813,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T11:17:25.95Z",
+      "System.Title": "Retest bug 419306",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419820,
+    "fields": {
+      "System.Id": 419820,
+      "System.Description": "<div>write test cases for below US:&nbsp; </div><div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/395852\">https://tieto-si.visualstudio.com/360/_workitems/edit/395852</a> </div><div><a href=\"https://tieto-si.visualstudio.com/360/_workitems/edit/395574\">https://tieto-si.visualstudio.com/360/_workitems/edit/395574</a> </div> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:45:00.073Z",
+      "System.Title": "Write Manual Test cases for Distribution group support for progress plan on Project",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 419867,
+    "fields": {
+      "System.Id": 419867,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T13:34:43.373Z",
+      "System.Title": "Hotfix creation",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419893,
+    "fields": {
+      "System.Id": 419893,
+      "System.Description": "<div><b style=\"box-sizing:border-box;\">2) File name<span style=\"box-sizing:border-box;\">&nbsp;</span></b><span style=\"box-sizing:border-box;display:inline !important;\">AutoReceipt.wu<br style=\"box-sizing:border-box;\"></span> </div><div><b style=\"box-sizing:border-box;\">Path<span style=\"box-sizing:border-box;\">&nbsp;</span></b><span style=\"box-sizing:border-box;display:inline !important;\">:</span><br style=\"box-sizing:border-box;\"><a href=\"https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses\" style=\"box-sizing:border-box;color:rgb(0, 90, 158);text-decoration:underline;cursor:pointer;\">https://github.com/te-industry-public360/core-bl/tree/master/Source/si-bl-process-platform-build/ProcessPlatform.PAF.WorkUnits/StandardProcesses</a><br style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"><span style=\"display:inline !important;\">[LOCALIZED(<span style=\"display:inline !important;\">EF29C0D2-22FE-40AE-917A-268EBE7CADD1</span>, *Receipt for application)]</span><br> </div><div><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T12:10:52.467Z",
+      "System.Title": "Localized  for AutoReceipt",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419958,
+    "fields": {
+      "System.Id": 419958,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T05:00:18.19Z",
+      "System.Title": "Documentation - Release note 6.10",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 419965,
+    "fields": {
+      "System.Id": 419965,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T10:36:07.763Z",
+      "System.Title": "Test on 6.8 hotfix cd",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 420005,
+    "fields": {
+      "System.Id": 420005,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T06:45:03.62Z",
+      "System.Title": "Stage drawdowns Api implementation on activity dialog.",
+      "System.WorkItemType": "Task"
+    }
+  },
+  {
+    "id": 420113,
+    "fields": {
+      "System.Id": 420113,
+      "System.Description": "<div>as a process designer, I want to use the&nbsp; createdocument component and ensure that the document I create is connected to the correct stage, </div><div>We need to extend the createdoument component to accept stage id in addition to case ID etc </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T12:01:12.97Z",
+      "System.Title": "Add stage ID to createdocument designer component",
+      "System.WorkItemType": "User Story"
+    }
+  },
+  {
+    "id": 420133,
+    "fields": {
+      "System.Id": 420133,
+      "System.Description": "<div>As a system owner, I want to be able to configure which sections in the right-hand side menu in process overview that should be shown. </div><div>For instance, I want to be able to toggle map on/off. Same with deficiencies, application etc. </div><div><br> </div><div><br> </div><div><br> </div><div><br> </div><div><img src=\"https://tieto-si.visualstudio.com/328387fc-9bb5-4ede-b21e-19c7126a8ba9/_apis/wit/attachments/950f99b6-0712-40ae-803a-135669e9a279?fileName=image.png\" alt=Image><br> </div>",
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T16:22:33.18Z",
+      "System.Title": "Make the display configurable in process overview",
+      "System.WorkItemType": "Feature"
+    }
+  },
+  {
+    "id": 362462,
+    "fields": {
+      "System.Id": 362462,
+      "Microsoft.VSTS.Common.StateChangeDate": "2025-07-30T04:31:58.953Z",
+      "System.Title": "Manage participants - Contacts - Top Node department is not showing up in the list",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 411332,
+    "fields": {
+      "System.Id": 411332,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-17T07:38:01.323Z",
+      "System.Title": "Process model both PNB and 360 - Not reached icon is not shown for the milestone when it is auto generated with case initialisation",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 412066,
+    "fields": {
+      "System.Id": 412066,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-15T08:11:55.72Z",
+      "System.Title": "Process model - Previous milestone is shown in the add milestone dialog  when there is no milestone to add on a new stage",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 413978,
+    "fields": {
+      "System.Id": 413978,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:15:25.887Z",
+      "System.Title": "UI bugs on new admin pages",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 416511,
+    "fields": {
+      "System.Id": 416511,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:13:50.987Z",
+      "System.Title": "Adding a New Document Wizard on Xaml files, gives error on UI",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 416629,
+    "fields": {
+      "System.Id": 416629,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:15:13.29Z",
+      "System.Title": "Adding new workflow on a xaml file , gives error on UI",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 417230,
+    "fields": {
+      "System.Id": 417230,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T05:54:04.737Z",
+      "System.Title": "Milestone Automation ID should be unique message is not shown to user when given the same ID",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418130,
+    "fields": {
+      "System.Id": 418130,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-08T06:46:39.467Z",
+      "System.Title": "Dispatch template for the partial dispatch does not show the already processed document details",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418577,
+    "fields": {
+      "System.Id": 418577,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:09:22.163Z",
+      "System.Title": "The views list in Process overview on case is not showing fields from the right column",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418887,
+    "fields": {
+      "System.Id": 418887,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T08:58:05.633Z",
+      "System.Title": "Missing standard milestone- Nor-\"Trukket søknad\" ENU-\"Withdrawn application\"",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418927,
+    "fields": {
+      "System.Id": 418927,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-13T12:41:13.97Z",
+      "System.Title": "After the dispatch of the Receipt the process should be closed automatically",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418928,
+    "fields": {
+      "System.Id": 418928,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T11:05:58.467Z",
+      "System.Title": "Document should be connected to stage entity and shown in the third column for the selected stage",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 418950,
+    "fields": {
+      "System.Id": 418950,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T09:36:41.8Z",
+      "System.Title": "Work unit arguments tab is shown blank when created New version or copy of the Process model/stage templates",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419032,
+    "fields": {
+      "System.Id": 419032,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T07:38:00.037Z",
+      "System.Title": "Document Creation dialogue: Stage value not loaded",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419083,
+    "fields": {
+      "System.Id": 419083,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:34:35.47Z",
+      "System.Title": "Uploading of some file formats after Rotation is not happening in the file viewer",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419093,
+    "fields": {
+      "System.Id": 419093,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T11:55:43.18Z",
+      "System.Title": "Rotate and Redaction does not convert the file into Tiff and User is able to See the redacted text even if FT \"FileViewerRedactionTiffMode\" is ON",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419133,
+    "fields": {
+      "System.Id": 419133,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T14:28:04.05Z",
+      "System.Title": "Milestones do not control time logging correctly on deadline calculation type \"Calculate from Start/Finish milestones\"",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419135,
+    "fields": {
+      "System.Id": 419135,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-14T14:36:30.647Z",
+      "System.Title": "Milestone recno 201- \"Tilleggsdokumentasjon etterspurt - vesentlig mangel\" - description appears 2 times",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419288,
+    "fields": {
+      "System.Id": 419288,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:14:28.507Z",
+      "System.Title": "Spelling mistake in Default document title",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419306,
+    "fields": {
+      "System.Id": 419306,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T11:17:49.577Z",
+      "System.Title": "Save button is shown on a published Process model and stage templates",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419308,
+    "fields": {
+      "System.Id": 419308,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T09:13:53.107Z",
+      "System.Title": "Error message should be user friendly if user forgets creating the contact role while creating case with process model",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419406,
+    "fields": {
+      "System.Id": 419406,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T10:08:16.443Z",
+      "System.Title": "Dispatch dialogue should show Print as the  default option if Dispatch channel is selected as Print in work unit",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419435,
+    "fields": {
+      "System.Id": 419435,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-16T12:16:49.7Z",
+      "System.Title": "Process is initiated even if it is marked as Upcoming",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419682,
+    "fields": {
+      "System.Id": 419682,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T05:46:49.91Z",
+      "System.Title": "Writeoff of wait tasks doen not wait for registration",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419693,
+    "fields": {
+      "System.Id": 419693,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T06:25:14.02Z",
+      "System.Title": "If IFAR Module is not installed then Ordering the reports from Advanced Search should not be possible",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419847,
+    "fields": {
+      "System.Id": 419847,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:10:25.817Z",
+      "System.Title": "Using code table: YesNo in WU arguments does not work.",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 419855,
+    "fields": {
+      "System.Id": 419855,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-20T10:20:53.737Z",
+      "System.Title": "BIF - Progress plan connected directly to a case - client action will not be shown as Closed after execution",
+      "System.WorkItemType": "Bug"
+    }
+  },
+  {
+    "id": 420127,
+    "fields": {
+      "System.Id": 420127,
+      "Microsoft.VSTS.Common.StateChangeDate": "2026-04-21T14:51:53.657Z",
+      "System.Title": "Adding WaitTask to \"User: Document Flow - Wizard\" creates an error",
+      "System.WorkItemType": "Bug"
+    }
+  }
+]

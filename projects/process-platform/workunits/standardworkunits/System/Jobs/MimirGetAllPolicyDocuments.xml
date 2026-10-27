@@ -1,0 +1,4 @@
+<invokes>
+  <invoke routing='route://SI.Biz.Core.Mimir//SI.Biz.Core.Mimir.Handlers.MimirHandler/InitPolicyMetadataJob'>
+  </invoke>
+</invokes>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>KK management go/no-go brief</title>
+<style>
+@page { size: A4; margin: 18mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.risk-high td { background: #fdecea; }
+.risk-med td { background: #fff8e6; }
+.risk-low td { background: #eefaf0; }
+.gap-not-met { color: #a1260d; font-weight: 600; }
+.gap-partial, .gap-in-flight { color: #8a6d00; font-weight: 600; }
+.gap-draft { color: #1f4e79; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.roadmap-d { background: #fafafa; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+.small { font-size: 8pt; color: #555; }
+.page-break { page-break-before: always; }
+</style></head><body><h1>Københavns Kommune (KK) Plan &amp; Build — management go/no-go brief</h1>
+<p><strong>Purpose:</strong> Input for decision gate on continued KK tender work and bid/no-bid.</p>
+<p><strong>Scope:</strong> ADO query returns <strong>27</strong> work items: foundation epic [#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005) + <strong>25</strong> tender PFR Features + placeholder [#429990](https://dev.azure.com/tieto-si/360/_workitems/edit/429990) (excluded from gate). [Query 6d4459e7](https://dev.azure.com/tieto-si/360/_queries/query-edit/6d4459e7-42f4-431d-9e54-68566fed49aa/).</p>
+<p><strong>Sources:</strong> KK Tender tool (`Timeline` sheet: award and go-live <strong>ukendt</strong>; supplier proposes plan via 4.1.1 / Bilag 1 §5.1), DevOps portfolio, Public 360° roadmap PPT (Q1 2026–Q2 2027), Copenhagen customer discovery (Jun 2026), Epic #434005 estimation table.</p>
+<p><strong>Last ADO verification:</strong> 18 Aug 2026, 11:22 CET.</p>
+<hr/>
+<h2>Implementation timeline (tender facts)</h2>
+<p><strong>There is no fixed go-live date in the tender.</strong> The internal Timeline sheet lists <strong>Award decision: ukendt</strong> and <strong>Go-live: ukendt</strong>.</p>
+<table>
+<tr><th>What</th><th>Tender says</th></tr>
+<tr><td><strong>Overtagelsesdag</strong></td><td>Milestone in Bilag 1 (Overtagelsesprøve, hypercare, roll-back plan) — <strong>date set by supplier</strong> in detailed implementation plan (Bilag 1 §5.1)</td></tr>
+<tr><td><strong>Implementation plan</strong></td><td>Supplier describes in bid — <strong>4.1.1 Implementeringsplan (15% evaluation weight)</strong></td></tr>
+<tr><td><strong>Delay / penalties</strong></td><td>Measured against <strong>supplier&#x27;s proposed timeline</strong> in Bilag 1 §5.1 (e.g. &gt;20 working days slip on Overtagelsesdag or Driftsprøve)</td></tr>
+<tr><td><strong>Driftsprøve</strong></td><td>30 calendar days after Overtagelsesprøve (B1-15)</td></tr>
+<tr><td><strong>Freeze periods</strong></td><td>No go-live activities in <strong>all of July</strong>, <strong>24 Dec–1 Jan</strong>, or Danish public holidays (B1-17)</td></tr>
+<tr><td><strong>IT risk approval</strong></td><td>Koncern IT review up to <strong>3 months</strong> — can shift plan if not supplier-caused (Q&amp;A confirms)</td></tr>
+</table>
+<p><strong>Internal planning assumption only</strong> (not a tender commitment): if award lands ~Q4 2026, a <strong>~10-month</strong> implementation window is a reasonable bid-planning band — subject to freeze periods and Koncern IT lead time.</p>
+<hr/>
+<h2>ADO query portfolio (27 items)</h2>
+<table>
+<tr><th>Layer</th><th>Count</th><th>IDs</th></tr>
+<tr><td><strong>Foundation epic</strong></td><td>1</td><td>[#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005) — PnB Baseline, 200 days</td></tr>
+<tr><td><strong>Tender PFR delta</strong></td><td>25</td><td>434352, 434878, 434881, 435480–435493, 435495–435499, 435501–435503</td></tr>
+<tr><td><strong>Placeholder (excluded)</strong></td><td>1</td><td>[#429990](https://dev.azure.com/tieto-si/360/_workitems/edit/429990) — Suggestion for Improvement</td></tr>
+<tr><td><strong>Query total</strong></td><td><strong>27</strong></td><td></td></tr>
+</table>
+<p>All 25 tender PFRs are mapped in commitment clusters below. Previously <strong>#435503</strong> (AI Assist option) was missing from the Integration spine cluster — now included (7 PFRs in that cluster).</p>
+<hr/>
+<h3>Q1 — Do we want to open the Danish market?</h3>
+<p>KK (Københavns Kommune) is the anchor beachhead: largest Danish municipality, ~90 TB, strict GDPR/AI governance, existing eDoc customer. A <strong>yes</strong> commits to a Danish compliance surface (BOM, FilArkiv, servicemål, Digital Post, grunddata, SIEM). A <strong>no</strong> means decline or minimal bid; continue eDoc migration only ([#376382](https://dev.azure.com/tieto-si/360/_workitems/edit/376382) for Ringkøbing-Skjern).</p>
+<p>Release planning for Plan &amp; Build in Denmark ([#434336](https://dev.azure.com/tieto-si/360/_workitems/edit/434336)) is <strong>awaiting LT decision by end August 2026</strong>.</p>
+<h3>Q2 — Do we migrate Plan &amp; Build into a Public 360° module (360 Flow + fee + GIS + BOM)?</h3>
+<p>This is <strong>Approach 1</strong> in epic [#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005): *P360 with P&amp;B in same setup* — merge P&amp;B from separate product into Public 360°, using <strong>360 Flow</strong> for process modelling, and folding in <strong>fee calculation</strong>, <strong>map/GIS integrations</strong>, BOM, FilArkiv, and Danish case types.</p>
+<table>
+<tr><th></th><th>Approach 1 (strategic)</th><th>Approach 2 (narrow)</th></tr>
+<tr><td>Architecture</td><td>P360 with P&amp;B in same setup</td><td>P&amp;B subset deployed on P360 DAN</td></tr>
+<tr><td><strong>Estimate</strong></td><td><strong>200 man-days</strong></td><td>141 man-days</td></tr>
+</table>
+<p><strong>A yes on Q2 approves epic #434005</strong> (~200 man-days ≈ 1 FTE × 10 months dev-focused; test/contingency may sit outside). <strong>A no</strong> keeps eDoc/Flow-heavy bid or Approach 2 — harder to meet KK&#x27;s full byggesags scope.</p>
+<h3>Q3 — Given yes/yes, which tender PFR gaps are in the bid baseline?</h3>
+<p>Only after Q1+Q2: resolve tactical blockers among the <strong>25 query PFRs</strong> (SIEM, tagging, servicemål polish, etc.). These are <strong>on top of</strong> the foundation epic, not a substitute for it.</p>
+<hr/>
+<h2>Foundation investment — Epic #434005</h2>
+<p><strong>Title:</strong> Copenhagen Bid - Master Commitment Danish Plan &amp; Build Foundation</p>
+<p><strong>State:</strong> New · <strong>Tags:</strong> Commitment; Copenhagen Bid · <strong>Child:</strong> [#434006](https://dev.azure.com/tieto-si/360/_workitems/edit/434006) (servicemål/deadlines) · <strong>Related:</strong> [#434009](https://dev.azure.com/tieto-si/360/_workitems/edit/434009) (time registration)</p>
+<p><strong>Approach 1 breakdown (200 man-days):</strong></p>
+<table>
+<tr><th>Block</th><th>Days</th><th>Contents</th></tr>
+<tr><td>Integrations</td><td>77</td><td>BOM (15), <strong>fee (8)</strong>, BBR (10), FilArkiv (10), GIS conflict (15), GIS neighbor (15), GIS localization (4)</td></tr>
+<tr><td>Process models</td><td>40</td><td>360 Flow process modelling basis</td></tr>
+<tr><td>UI &amp; database</td><td>53</td><td>P&amp;B case types — BIF + FIB + DB</td></tr>
+<tr><td>Testing</td><td>30</td><td>Six case-type families (building, supervision, illegality, complaint, estate dividing, request)</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>200</strong></td><td>Plus BIF/subsetup/BL cleanup (sitemaps, transfer jobs, archive admin)</td></tr>
+</table>
+<p>Several KK PFRs map to foundation scope (BOM, FilArkiv, servicemål, GIS/conflict, fee). Others — especially SIEM ([#435501](https://dev.azure.com/tieto-si/360/_workitems/edit/435501)), log integrity ([#435493](https://dev.azure.com/tieto-si/360/_workitems/edit/435493)), tagging ([#435480](https://dev.azure.com/tieto-si/360/_workitems/edit/435480)) — are <strong>tender delta</strong>, not in the 200-day table.</p>
+<hr/>
+<h2>Executive summary</h2>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td><strong>Foundation epic</strong></td><td>[#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005) — <strong>200 man-days</strong> (Approach 1)</td></tr>
+<tr><td>ADO query items</td><td><strong>27</strong> (25 PFR delta + #434005 + #429990 placeholder)</td></tr>
+<tr><td>Tender PFR delta</td><td><strong>25</strong> Features</td></tr>
+<tr><td>PFR net effort (conservative)</td><td><strong>30–55 months</strong> — <strong>tender delta only</strong>; does <strong>not</strong> include foundation 200 man-days (multi-team; overlap-adjusted within PFRs)</td></tr>
+<tr><td>Rough total (before PFR/foundation dedupe)</td><td><strong>~40–65 person-months</strong> scoped work, delivered in parallel</td></tr>
+<tr><td>Implementation timeline</td><td><strong>Supplier-proposed</strong> — no fixed go-live in tender (Timeline: <strong>ukendt</strong>)</td></tr>
+<tr><td>Internal planning band</td><td><strong>~10 months</strong> from award (assumption only; excludes Jul freeze + IT risk buffer)</td></tr>
+<tr><td>Team size implied</td><td><strong>3–6 FTE average</strong>, <strong>6–10 FTE peak</strong> (foundation + PFR delta in parallel)</td></tr>
+<tr><td>Tender-tool gap profile</td><td>3 Not met · 3 Partial · 2 In flight · 17 TBD</td></tr>
+<tr><td>Roadmap alignment (PFRs)</td><td><strong>A 5 · B 6 · C 11 · D 3</strong></td></tr>
+</table>
+<p><strong>Primary gate questions:</strong> (1) Open Danish market? (2) Approve P&amp;B → P360 module merge ([#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005), 200 days, Approach 1)?</p>
+<p><strong>Tactical bid blockers (Q3, if yes/yes):</strong> SIEM LogPoint ([#435501](https://dev.azure.com/tieto-si/360/_workitems/edit/435501)), log integrity ([#435493](https://dev.azure.com/tieto-si/360/_workitems/edit/435493)), tagging module ([#435480](https://dev.azure.com/tieto-si/360/_workitems/edit/435480)).</p>
+<hr/>
+<h2>Roadmap alignment vs KK delivery</h2>
+<p><strong>Source:</strong> Public 360° roadmap (PPT, Q1 2026–Q2 2027) mapped against <strong>supplier-proposed Overtagelsesdag</strong> in our bid plan (no fixed customer date). Cluster-owner validation <strong>pending</strong>.</p>
+<table>
+<tr><th>Status</th><th>PFRs</th><th>Meaning</th><th>DG implication</th></tr>
+<tr><td><strong>A — On roadmap, aligns with KK delivery</strong></td><td>5</td><td>Existing roadmap item(s) that align well with a credible bid timeline</td><td>Reference existing roadmap in bid narrative</td></tr>
+<tr><td><strong>B — On roadmap, needs acceleration</strong></td><td>6</td><td>Existing roadmap item(s) that must be delivered faster than currently targeted</td><td>Core investment conflict — pulls BRE, search, Flow/servicemål forward</td></tr>
+<tr><td><strong>C — Off roadmap, strategically relevant</strong></td><td>11</td><td>New scope not on the roadmap but strategically relevant if we bid</td><td>Net-new product bets beyond current roadmap</td></tr>
+<tr><td><strong>D — Off roadmap, low priority</strong></td><td>3</td><td>New scope not on the roadmap and would otherwise not be prioritized</td><td>Small or hygiene items; low standalone priority</td></tr>
+</table>
+<h3>Roadmap alignment share</h3>
+<table>
+<tr><th>Category</th><th>PFRs</th></tr>
+<tr><td>Aligns with roadmap timing</td><td>5</td></tr>
+<tr><td>Needs acceleration</td><td>6</td></tr>
+<tr><td>Strategically relevant off-roadmap</td><td>11</td></tr>
+<tr><td>Low priority off-roadmap</td><td>3</td></tr>
+</table>
+<p><strong>Headline for DG:</strong> KK is not “deliver planned roadmap on time.” ~24% needs acceleration (B); ~44% is strategically relevant but not on the roadmap (C). Copenhagen discovery (Jun 2026) reinforces AI governance and metadata quality as strategic — aligns with option PFR <strong>435503</strong> but not yet rated in tender tool.</p>
+<h3>PFR-level roadmap mapping</h3>
+<table>
+<tr><th>ID</th><th>Title</th><th>Roadmap</th><th>Roadmap reference</th></tr>
+<tr><td>434352</td><td>Data delimitation of cases</td><td>A — Aligns</td><td>Access matrix / dataafgrænsning</td></tr>
+<tr><td>434878</td><td>5.2.11.2 Servicemålstid start/stop</td><td>D — Low priority</td><td>— (config/milestone)</td></tr>
+<tr><td>434881</td><td>5.2.11.3 Sagsbehandlingstid ikke-BOM</td><td>D — Low priority</td><td>— (config/milestone)</td></tr>
+<tr><td>435480</td><td>5.2.1.1 Tagging, structuring, sorting</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435481</td><td>5.2.1.2 Conflict resolution</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435482</td><td>5.2.1.3 Flexible journalisation</td><td>B — Accelerate</td><td>Plan &amp; Build / BOM integration</td></tr>
+<tr><td>435483</td><td>5.2.4.3 Search, sorting, filtering, export</td><td>B — Accelerate</td><td>Refactor search experience</td></tr>
+<tr><td>435484</td><td>5.2.8.4 / 5.2.12.1 / 5.2.13.2 Process control</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435485</td><td>5.2.8.5 Handling received information</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435486</td><td>B2-03 BRE write-back to BOM</td><td>A — Aligns</td><td>Business Rules Engine</td></tr>
+<tr><td>435487</td><td>5.2.9.1 / 5.2.9.4 BOM search criteria</td><td>B — Accelerate</td><td>Plan &amp; Build / BOM integration</td></tr>
+<tr><td>435488</td><td>5.2.13.1 Case templates</td><td>B — Accelerate</td><td>Hosted Processes / Flow</td></tr>
+<tr><td>435489</td><td>FilArkiv archive transfer (P&amp;B)</td><td>C — Strategic</td><td>Archive automation</td></tr>
+<tr><td>435490</td><td>B2-12 Danish servicemål deadline model</td><td>B — Accelerate</td><td>Plan &amp; Build 360 / Flow</td></tr>
+<tr><td>435491</td><td>B2-14 Time registration on cases</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435492</td><td>5.3.4.2 Error texts and messages</td><td>D — Low priority</td><td>—</td></tr>
+<tr><td>435493</td><td>5.3.7.2.6 Log integrity / manual deletion</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435495</td><td>B2-18 Integration landscape</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435496</td><td>5.3.8.2.2.1 Master data from registers</td><td>A — Aligns</td><td>NG Integration API / grunddata</td></tr>
+<tr><td>435497</td><td>5.3.8.2.3 Deep link integrations</td><td>A — Aligns</td><td>NG Integration API</td></tr>
+<tr><td>435498</td><td>5.3.8.2.7.1.2 Remote print SF1601</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435499</td><td>5.3.8.2.7.1.4 MeMo Digital Post actions</td><td>A — Aligns</td><td>Digital Post (in flight)</td></tr>
+<tr><td>435501</td><td>B2-20 / SIEM LogPoint delivery</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435502</td><td>5.4.1.1 Debtor system (option)</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435503</td><td>5.4.2.1 AI Assist integration (option)</td><td>B — Accelerate</td><td>Agentic case management / AI</td></tr>
+</table>
+<hr/>
+<h2>Decision paths</h2>
+<h3>A — Strategic yes (market + product merge)</h3>
+<p><strong>Yes to Q1 and Q2:</strong> Approve epic <strong>#434005</strong> (200 man-days, Approach 1 — P&amp;B as P360 module on Flow). Bid KK with foundation + managed PFR delta. Accept <strong>30–55 months</strong> tender PFR effort on top of foundation. Propose a <strong>credible implementation plan</strong> (4.1.1) and staff <strong>3–6 FTE average (6–10 FTE peak)</strong> for the bid timeline. Proceed with release planning ([#434336](https://dev.azure.com/tieto-si/360/_workitems/edit/434336)). Resolve SIEM/tagging via build, partner, or Q&amp;A narrow.</p>
+<h3>B — Market yes, product narrow</h3>
+<p><strong>Yes to Q1, no or partial on Q2:</strong> Bid with Approach 2 (141 days) or eDoc/Flow-heavy story without full P&amp;B merge. Challenge MK blockers (SIEM, tagging) via ordregiver Q&amp;A. Weaker on full byggesag portfolio; cap FilArkiv and time-registration at delivery-plan responses.</p>
+<h3>C — No-bid or low-effort</h3>
+<p><strong>No to Q1:</strong> Decline KK or minimal compliance. Defer Danish P&amp;B module; continue eDoc migration track ([#376382](https://dev.azure.com/tieto-si/360/_workitems/edit/376382)) only.</p>
+<hr/>
+<h2>Commitment clusters</h2>
+<table>
+<tr><th>Cluster</th><th>Features</th><th>Size</th><th>Effort (months)</th><th>Risk</th><th>Gate question</th></tr>
+<tr><td>Case UX / search / tagging</td><td>5</td><td>L + M</td><td>12–22</td><td>High</td><td>Is 435480 (tagging) in scope or out via Q&amp;A?</td></tr>
+<tr><td>Process control &amp; templates</td><td>2</td><td>M + L</td><td>6–12</td><td>Medium</td><td>Case overview + templates: config vs product?</td></tr>
+<tr><td>BOM + BRE integration</td><td>2</td><td>L</td><td>10–16</td><td>High</td><td>B2-03 write-back: BRE pilot ready for KK?</td></tr>
+<tr><td>Servicemål / deadlines</td><td>3</td><td>XL</td><td>12–20</td><td>High</td><td>Danish deadline model at Overtagelsesdag — Flow commit?</td></tr>
+<tr><td>Time registration</td><td>1</td><td>L</td><td>4–8</td><td>Medium</td><td>eDoc reuse or net-new for B2-14?</td></tr>
+<tr><td>FilArkiv archive</td><td>1</td><td>L</td><td>6–12</td><td>Medium</td><td>Merge project scope for P&amp;B → FilArkiv?</td></tr>
+<tr><td>Integration spine</td><td>7</td><td>XL + L + M</td><td>18–32</td><td>High</td><td>Nine grunddata registers all at Overtagelsesdag? Options 435502/435503 in baseline?</td></tr>
+<tr><td>Security / logging / SIEM</td><td>3</td><td>L</td><td>6–12</td><td>High</td><td>LogPoint + log deletion: build, partner, or no-bid?</td></tr>
+<tr><td>Point fix</td><td>1</td><td>S</td><td>&lt;1</td><td>Low</td><td>Baseline include</td></tr>
+</table>
+<p><strong>PFR IDs by cluster</strong></p>
+<ul><li>Case UX / search: 435480, 435481, 435482, 435483, 435485</li><li>Process control: 435484, 435488</li><li>BOM + BRE: 435486, 435487</li><li>Servicemål: 434878, 434881, 435490</li><li>Time registration: 435491</li><li>FilArkiv: 435489</li><li>Integration spine: 435495, 435496, 435497, 435498, 435499, 435502, 435503</li><li>Security / SIEM: 434352, 435493, 435501</li><li>Point fix: 435492</li></ul>
+<hr/>
+<h2>Team size vs bid timeline</h2>
+<p><strong>Tender:</strong> No fixed Overtagelsesdag — we propose the date in Bilag 1 §5.1. Penalties bind to <strong>our proposed plan</strong>, not a customer-imposed go-live.</p>
+<p><strong>Internal planning band:</strong> ~10 calendar months from award (assumption only). Account for <strong>full July freeze</strong>, <strong>Koncern IT risk review (up to 3 months)</strong>, and <strong>30-day Driftsprøve</strong> after Overtagelsesprøve when drafting the bid timeline.</p>
+<p><strong>Effort math (conservative):</strong> 30–55 months PFR delta ÷ ~10-month planning band ≈ <strong>3–6 FTE sustained average</strong>. Integration spine and servicemål run in parallel → <strong>6–10 FTE peak</strong>.</p>
+<table>
+<tr><th>Product team</th><th>Features</th><th>Indicative FTE (10 mo window)</th><th>XL Features</th></tr>
+<tr><td>Plan &amp; Build / Process Platform</td><td>8</td><td><strong>3–5 FTE</strong></td><td>2</td></tr>
+<tr><td>Core Integration</td><td>7</td><td>2–4 FTE</td><td>1</td></tr>
+<tr><td>Core UI / Search</td><td>4</td><td>1–3 FTE</td><td>0</td></tr>
+<tr><td>Tech Platform / CloudOps</td><td>3</td><td>1–2 FTE</td><td>0</td></tr>
+<tr><td>Core BL / Archive</td><td>2</td><td>1–2 FTE</td><td>0</td></tr>
+<tr><td>Options (AI, debtor)</td><td>2</td><td>0.5–1 FTE</td><td>0</td></tr>
+</table>
+<p>Bands overlap across teams — not additive headcount.</p>
+<hr/>
+<h2>Tender-tool gap profile (portfolio PFRs)</h2>
+<table>
+<tr><th>Gap</th><th>Count</th><th>Notable PFRs</th></tr>
+<tr><td>Not met</td><td>3</td><td>435480 (tagging), 435493 (log integrity), 435501 (SIEM)</td></tr>
+<tr><td>Partial</td><td>3</td><td>435482 (journalisation/BOM), 435489 (FilArkiv), 435490 (servicemål)</td></tr>
+<tr><td>In flight</td><td>2</td><td>434352 (data delimitation), 435499 (MeMo)</td></tr>
+<tr><td>TBD</td><td>17</td><td>Most IK/MK items not yet rated in tender tool</td></tr>
+</table>
+<p><strong>Bid blockers (MK minimum + Not met):</strong> 435493, 435501. <strong>High product risk:</strong> 435480 (internal risk sheet: “unable to meet”).</p>
+<hr/>
+<h2>Hygiene and open actions</h2>
+<ul><li>[ ] <strong>LT decision</strong> on Danish market + P&amp;B module by end Aug 2026 ([#434336](https://dev.azure.com/tieto-si/360/_workitems/edit/434336))</li><li>[ ] Link all 25 query PFRs as <strong>Related</strong> to foundation epic <strong>#434005</strong></li><li>[ ] Set <strong>Impacted Module</strong> on all 25 PFRs (currently unset)</li><li>[ ] Rate 17 TBD PFRs in KK Tender tool (esp. 435484, 435495, 435496)</li><li>[ ] Dedupe servicemål overlap: 434878/434881 vs consolidated 435490 vs child #434006</li><li>[ ] Cluster leads validate roadmap A/B/C/D column</li><li>[ ] CloudOps sign-off on SIEM LogPoint feasibility or Q&amp;A narrow wording</li></ul>
+<hr/>
+<h2>Recommended 60-minute gate agenda</h2>
+<p>1. <strong>Q1 — Danish market:</strong> in or out (10 min)</p>
+<p>2. <strong>Q2 — P&amp;B → P360 module:</strong> approve #434005 / 200 days Approach 1 (15 min)</p>
+<p>3. <strong>Q3 — Tender PFR delta:</strong> SIEM, tagging, servicemål blockers (10 min)</p>
+<p>4. Roadmap conflict — what gets reprioritised (10 min)</p>
+<p>5. Team capacity vs <strong>proposed bid timeline</strong> (10 min)</p>
+<p>6. Decision path A / B / C (5 min)</p>
+<hr/>
+<h2>Related artifacts</h2>
+<ul><li><strong>Foundation epic:</strong> [#434005](https://dev.azure.com/tieto-si/360/_workitems/edit/434005) · Release planning [#434336](https://dev.azure.com/tieto-si/360/_workitems/edit/434336) · eDoc parallel [#376382](https://dev.azure.com/tieto-si/360/_workitems/edit/376382)</li><li>Canvases: `canvases/kk-management-gate.canvas.tsx`, `canvases/kk-commitment-heatmap.canvas.tsx`</li><li>PDFs: `docs/tender-reference/export/kk-management-gate.pdf`, `kk-commitment-heatmap.pdf`</li><li>Tender tool: `KK Tender tool.xlsx` (Timeline sheet — go-live <strong>ukendt</strong>)</li><li>Customer context: `toolkit/scripts/_copenhagen_meetings_extract.txt`</li><li>PFR query: [6d4459e7-42f4-431d-9e54-68566fed49aa](https://dev.azure.com/tieto-si/360/_queries/query-edit/6d4459e7-42f4-431d-9e54-68566fed49aa/)</li></ul></body></html>

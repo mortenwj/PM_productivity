@@ -1,0 +1,8 @@
+<workUnit displayName="Update addresses from DAR" id="B97076D7-C8BC-47FB-A62B-B04483CD17BF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Update addresses in GeoCase's entities</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

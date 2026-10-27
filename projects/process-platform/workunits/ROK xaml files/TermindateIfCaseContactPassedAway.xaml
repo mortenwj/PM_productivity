@@ -1,0 +1,114 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Activity1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>Activity1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.DataTypes</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:ProgressPlan" Name="_ProgressPlan" />
+    </Sequence.Variables>
+    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="NumberOfPassedAwayCaseParticipants" />
+        <Variable x:TypeArguments="x:String" Name="_CaseId" />
+        <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+      </Sequence.Variables>
+      <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_1" Message="BFSag,Kalder Valider CaseContacts" />
+      <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+        <sbcpa:ContextBinder.Parameters>
+          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="_PhaseId" />
+            </Sequence.Variables>
+            <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_2" Message="[&quot;BFSag, ProgressPlanId: &quot; &amp; ProgressPlanId]" />
+            <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_2" Parameters="[{ProgressPlanId}]" Result="[_CaseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+            <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_8" Message="[&quot;BFSag, CaseId: &quot; &amp; _CaseId]" />
+            <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call ValidateCaseContacts" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_4" Parameters="[{_CaseId}]" Result="[NumberOfPassedAwayCaseParticipants]" WorkUnit="Validate if any Case Contacts are passed away =&gt; FUC362D0CA-6D00-4638-8F32-7E90A21599CB" />
+            <sbcpa:TraceLine sap2010:WorkflowViewState.IdRef="TraceLine_9" Message="[&quot;BFSag, Number of passed away: &quot; &amp; NumberOfPassedAwayCaseParticipants]" />
+            <sbcpa:Ensure DisplayName="Ensure CaseContacts Active" Eval="[Integer.Parse(NumberOfPassedAwayCaseParticipants) = 0]" Exception="[New BizInfoException(&quot;(($((#5BBBFAC4-C659-482A-85D3-046AD1E0EF94#))En part på sagen er afdød. Handlingen afbrydes.$))&quot;)]" sap2010:WorkflowViewState.IdRef="Ensure_1" />
+          </Sequence>
+        </sbcpa:ContextBinder.Parameters>
+      </sbcpa:ContextBinder>
+    </Sequence>
+    <sads:DebugSymbol.Symbol>d5QBQzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxTb2Z0d2FyZSBJbm5vdmF0aW9uXDM2MFx3b3JrdW5pdHNcQ3VzdG9tXGVEb2NHZW5lcmljXFRlcm1pbmRhdGVJZkNhc2VDb250YWN0UGFzc2VkQXdheVxUZXJtaW5kYXRlSWZDYXNlQ29udGFjdFBhc3NlZEF3YXkueGFtbBczA08OAgEBNwVNEAIBAj0HPXQCAR4+B0wdAgEDPU49cQIBH0ALShYCAQREDUSTAQIBG0UNRYYCAgEVRg1GhAECARJHDUfOAgIBDEgNSK4BAgEJSQ1JwAICAQVEVESQAQIBHEWcAUWwAQIBGUW4AUXDAQIBF0XNAUWDAgIBFkZURoEBAgETR6oBR7cBAgEQR78BR+UBAgEOR+8BR8sCAgENSFRIqwECAQpJSUmCAQIBB0mNAUmSAgIBBg==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="TraceLine_1" sap:VirtualizedContainerService.HintSize="236,22" />
+      <sap2010:ViewStateData Id="TraceLine_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="TraceLine_8" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_4" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="TraceLine_9" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Ensure_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="222,456">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="236,542" />
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="258,728">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="280,852">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Activity1_1" sap:VirtualizedContainerService.HintSize="320,932" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

@@ -1,0 +1,26 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+          id="C3640839-451A-4BF0-B248-8B125F854522"
+          displayName="[LOCALIZED(1FC0EBFD-2C84-4072-849F-AE05F1C87B36,Synchronize users from 360)]">
+  <description>[LOCALIZED(70F37A9A-EAB0-41A0-A6DC-80570E6C207E,A scheduled task Which will synchronize users, contacts and organization structure from 360)]</description>
+  <executable assemblyType="SI.Biz.Core.Integration.SynchronizeUsersFrom360Job.SynchronizeUsersFrom360Job, SI.Biz.Core.Integration.SynchronizeUsersFrom360, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke>
+      <arguments>
+        <!-- argument to control syncing option,  -->
+        <!-- 1. To sync all (organization, contactperson, user) - All -->
+        <!-- 2. To Sync only organization - Organization -->
+        <!-- 3. To Sync only contact person - ContactPerson -->
+        <!-- 4. To Sync only user - User -->
+        <!-- 5. To Sync  all enterprises like 506, set argument SyncAllEnterprises to true-->
+
+        <!-- In case customer has huge organization structure with lot of users more then 2000 then make use of below two arguments-->
+        <!-- 6. To Sync  in batches like first 500 contacts and then next 500, so on, set argument SyncInBatches to true-->
+        <!-- 7. If SyncInBatches set to true then mention batch size, set argument BatchLimit to integer value like 100 or 500-->
+        <argument name="Sync" type="string">All</argument>
+        <argument name="SyncAllEnterprises" type="string">false</argument>
+        <argument name="SyncInBatches" type="string">true</argument>
+        <argument name="BatchLimit" type="int">500</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="allaccess_serviceaccount" resultType="none"/>
+</workUnit>

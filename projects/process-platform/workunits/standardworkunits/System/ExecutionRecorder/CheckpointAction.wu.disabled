@@ -1,0 +1,23 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation= "..\..\WorkUnit.xsd"
+          id="1BE85AD9-ED21-4DCB-AFAF-AE6AFAF4AFAFA"
+          displayName="Turn recording on or off" 
+          visibility="external">
+  <description>...</description>
+  <categories>
+    <category>Support</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Recording.Backing.CheckPointAction, SI.Biz.Recording.Backing">
+    <invoke>
+      <arguments>
+        <argument name="Directive" type="string">#null#</argument>
+        <argument name="BackupFile" type="string">#null#</argument>
+		    <argument name="DBName" type="string">#null#</argument>
+		    <argument name="DBFilesFolder" type="string">#null#</argument>
+        <argument name="RecordingRoot" type="string">#null#</argument>
+        <argument name="Scenario" type="string">#null#</argument>
+        <argument name="DependingOnScenario" type="string">#null#</argument>
+      </arguments> 
+    </invoke>
+  </executable>
+</workUnit>

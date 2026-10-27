@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="FUC362D0CA-6D00-4638-8F32-7E90A21599CB" 
+	visibility="external"
+    displayName="Validate if any Case Contacts are passed away">
+  <description>Returns an integer telling how many Contacts on a specific case are passed away</description>
+  <categories>
+    <category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Fujitsu.eDoc.WU.ValidateContacts.DoValidate">
+      <arguments>
+        <argument name="CaseId" type="string">#null#</argument>
+      </arguments>
+	  <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

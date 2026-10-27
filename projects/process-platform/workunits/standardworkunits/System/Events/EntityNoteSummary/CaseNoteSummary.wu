@@ -1,0 +1,13 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="2B826321-D017-4F42-A6F2-61692A2A7F71"
+          displayName="Case note summary event">
+  <description>Event handler for generating a summary document of case notes when the case closes.</description>
+  <executable assemblyType="SI.Biz.Core.EntityNotes.Events.CaseNoteSummary, SI.Biz.Core.EntityNotes">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.CaseManagerEventShim, SI.Biz.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430" name="AfterUpdate"/>
+</workUnit> 

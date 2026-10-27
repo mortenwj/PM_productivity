@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="ProgressplanTest{1DECC9BC-322A-43E6-8ECB-DA348404BA85}"
+    visibility="public"
+    displayName="Progressplan verification test" >
+  <description>Progressplan test for testing</description>
+  <categories>
+    <category>ProgressPlan Process</category>
+    <category>Stage Process</category>
+    <category>Test</category>
+  </categories>
+  <executable>
+    <wf startOption="application">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+        <argument name="ApplicantRole" origin="code table: Contact - Case role" comment="Case Role for Applicant" category="ContactRoles" >50011</argument>
+        <argument name="ExParticipantRole" origin="code table: Contact - Case role" comment="Case Role for External Participant" category="ContactRoles">9</argument>
+        <argument name="PublicAccessGroup" type="string" comment="Public Access Group" category="Document Properties">0</argument>
+        <argument name="DocumentArchive" origin="code table: Document archive" comment="Document Archive for Documents" category="Document Properties">2</argument>
+        <argument name="OutboundDocumentCategory" origin="code table: Document category"  comment="Category for Outgoing document" category="Document Properties">111</argument>
+        <argument name="TemplateOne" origin="Template" comment="Template one" category="Document Properties">50134</argument>
+        <argument name="TemplateTwo" origin="Template" comment="Template two" category="Document Properties">50134</argument>
+        <argument name="TemplateThree" origin="Template" comment="Template three" category="Document Properties">50134</argument>
+        <argument name="TitleDocumentOne" type="string" category="Document Properties">Test document one</argument>
+        <argument name="TitleDocumentTwo" type="string" category="Document Properties">Test document two</argument>
+        <argument name="TitleDocumentThree" type="string" category="Document Properties">Test document three</argument>
+        <argument name="LegacyClientAction" origin="code table: Client action" category="Client Action">1</argument>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

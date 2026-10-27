@@ -1,0 +1,8 @@
+﻿<workUnit displayName="STS Organisation brugersynkronisering" id="94b48f5a-a3dc-4ca2-95e8-036c47677f36" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Synkronisering af brugeroplysninger fra STS Organisation</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

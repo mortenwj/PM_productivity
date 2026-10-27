@@ -1,0 +1,44 @@
+{
+  "wiki": {
+    "base_url": "https://your-wiki.example.com",
+    "type": "generic",
+    "auth_token": "your-auth-token-here",
+    "username": "optional-username",
+    "password": "optional-password"
+  },
+  "module_health": {
+    "revenue_source": "none",
+    "default_team_filter": null,
+    "bug_window_days": 90
+  },
+  "powerbi": {
+    "tenant_id": "cbede638-a3d9-459f-8f4e-24ced73b4e5e",
+    "client_id": "azure-cli",
+    "workspace_id": "813e80d7-5ba4-4629-a456-30255b5085c4",
+    "report_id": "2693f2f6-4104-48c6-b741-95959d135323",
+    "revenue_dax_query": null
+  },
+  "morning_report": {
+    "repos": [
+      {"owner": "te-industry-public360", "repo": "core-bl", "branch": "master"}
+    ],
+    "team_github_users": [
+      "BjornTieto",
+      "andreas-hjelmborg",
+      "aniket-jagtap",
+      "ashish-chaudhari",
+      "jette-smith",
+      "JetteBoasSmith",
+      "mudita-sharma",
+      "nikisha-nevase",
+      "sumit-pandey"
+    ]
+  },
+  "teams": {
+    "tenant_id": "your-tenant-guid",
+    "client_id": "your-app-registration-client-id",
+    "team_id": "optional-default-team-guid",
+    "channel_id": "optional-default-channel-guid"
+  }
+}
+

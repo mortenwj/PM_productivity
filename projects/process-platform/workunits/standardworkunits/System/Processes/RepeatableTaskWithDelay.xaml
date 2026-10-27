@@ -1,0 +1,118 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Repeatable_task_with_delay"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="WaitTaskId" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskExpirationWorkUnitId" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskCompletionWorkUnitId" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskWorkUnitId" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskNextDescription" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskDescription" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskNextWorkUnitId" Type="InArgument(x:String)" />
+    <x:Property Name="XTaskExpirationDate" Type="InArgument(s:DateTime)" />
+    <x:Property Name="RepeatAtDate" Type="InArgument(s:DateTime)" />
+    <x:Property Name="argument1" Type="InArgument(x:String)" />
+    <x:Property Name="argument2" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>Workflow1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Linq.Provider</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Util</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:WaitTask" Name="_waitTask" />
+      <Variable x:TypeArguments="x:Int32" Name="_result" />
+      <Variable x:TypeArguments="x:String" Name="_correlationToken" />
+    </Sequence.Variables>
+    <sbcpa:BypassAccessControl>
+      <sbcpa:BypassAccessControl.Parameters>
+        <Assign DisplayName="Assign _waitTask" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:WaitTask">[_waitTask]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:WaitTask">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.WaitTask)(WaitTaskId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="_waitTask &lt;&gt; null" Eval="[Not _waitTask Is Nothing]" Exception="[New BizErrorException(&quot;[LOCALIZED(EFB5FDDC-8CE2-4A78-B2EE-F3325849EC39,WaitTask with id {0} not found)]&quot;, WaitTaskId)]" sap2010:WorkflowViewState.IdRef="Assert_1" />
+        <sbcpa:CreateWaitTask EffectuationDelay="{x:Null}" Notes="{x:Null}" TemplateId="{x:Null}" WaitDays="{x:Null}" AccessGroupId="[_waitTask.AccessCodeId.ToString()]" ActivityCategoryId="[_waitTask.CategoryId.ToString()]" AutoSchedule="True" CompletedAction="[XTaskCompletionWorkUnitId]" ConnectedEntity="[_waitTask.ConnectedEntity]" ConnectedEntityId="[_waitTask.ConnectedEntityKey.ToString()]" Description="[XTaskDescription]" DisplayName="Create Delay WaitTask" sap2010:WorkflowViewState.IdRef="CreateWaitTask_1" OrgUnitId="[_waitTask.OrgUnitId.ToString()]" OurRefId="[_waitTask.OurRefId.ToString()]" Result="[_result]" WaitDate="[XTaskExpirationDate]" WaitExpiredAction="[XTaskExpirationWorkUnitId]" />
+        <Assign sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[_correlationToken]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">[WaitTaskHandler.GetCorrelationToken(_result)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="Internal: _correlationToken &lt;&gt; null" Eval="[Not String.IsNullOrEmpty(_correlationToken)]" Exception="[New BizErrorException(&quot;Missing correlation token for &quot;, _result.ToString())]" sap2010:WorkflowViewState.IdRef="Ensure_1" />
+        <sbcpa:CallWorkUnitAction sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_1" Parameters="[{_correlationToken}]" WorkUnit="[XTaskWorkUnitId]" />
+        <If Condition="[RepeatAtDate &lt;&gt; DateTime.MinValue]" sap2010:WorkflowViewState.IdRef="If_1">
+          <If.Then>
+            <sbcpa:CreateWaitTask CompletedAction="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" TemplateId="{x:Null}" WaitDays="{x:Null}" AccessGroupId="[_waitTask.AccessCodeId.ToString()]" ActivityCategoryId="[_waitTask.CategoryId.ToString()]" AutoSchedule="True" ConnectedEntity="[_waitTask.ConnectedEntity]" ConnectedEntityId="[_waitTask.ConnectedEntityKey.ToString()]" Description="[XTaskNextDescription]" DisplayName="Create Next WaitTask" sap2010:WorkflowViewState.IdRef="CreateWaitTask_2" OrgUnitId="[_waitTask.OrgUnitId.ToString()]" OurRefId="[_waitTask.OurRefId.ToString()]" Result="[_result]" WaitDate="[RepeatAtDate]" WaitExpiredAction="[XTaskNextWorkUnitId]" />
+          </If.Then>
+        </If>
+      </sbcpa:BypassAccessControl.Parameters>
+      <sap2010:WorkflowViewState.IdRef>BypassAccessControl_1</sap2010:WorkflowViewState.IdRef>
+    </sbcpa:BypassAccessControl>
+    <sads:DebugSymbol.Symbol>d15DOlx0ZnNcRGV2XFRpdGF0aW51bVxCcmFuY2gzXFNvdXJjZVxCTFxXb3JrVW5pdHNcU3lzdGVtXFByb2Nlc3Nlc1xSZXBlYXRhYmxlVGFza1dpdGhEZWxheS54YW1sKjsDYA4CAQFBBV4hAgECQwlKEgIBNUsJS5oCAgEyTAlMxgUCASFNCVQSAgEdVQlVlQICARlWCVacAQIBFFcJWw4CAQNIOkiFAQIBOEU7RUYCATZLQkteAgE0S2lL7AECATNMvgFM4QECATFMhQFMqgECATBMvgRM3wQCAS9M5AJMjwMCAS5MnANMsAMCASxMtAJM0QICAStM/ARMkwUCASlMkgRMtAQCAShM5wRM8gQCASZMhgJMowICASRMpgVMwwUCASJSNFJiAgEgTzVPSAIBHlVUVYMBAgEbVY4BVecBAgEaVmVWfAIBF1aGAVaZAQIBFVcXV0ICAQRZDVmtBQIBBVndAVmAAgIBE1mkAVnJAQIBElmyBFnTBAIBEVnVAlmAAwIBEFmNA1mlAwIBDlmlAlnCAgIBDVnwBFmABQIBC1mGBFmoBAIBClnbBFnmBAIBCFmTBVmqBQIBBg==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="464,60" />
+      <sap2010:ViewStateData Id="Assert_1" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="CreateWaitTask_1" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="464,60" />
+      <sap2010:ViewStateData Id="Ensure_1" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_1" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="CreateWaitTask_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="464,208" />
+      <sap2010:ViewStateData Id="BypassAccessControl_1" sap:VirtualizedContainerService.HintSize="478,652" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="500,776">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Workflow1_1" sap:VirtualizedContainerService.HintSize="540,856" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

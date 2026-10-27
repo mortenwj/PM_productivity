@@ -1,0 +1,10 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="8E38F953-3FE8-4AC8-88BC-C05857B600DD"
+          displayName="[LOCALIZED(46930DFB-5994-4075-90ED-8974362ADD96,*Cleanup import archive)]">
+  <description>[LOCALIZED(1745E73C-8675-4163-95D9-FDBFA7C2B8CD,*Delete old documents from import archive)]</description>
+  <executable file="CleanupImportArchive.xml">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="allaccess_serviceaccount" resultType="none" category="InternalZone"/>
+</workUnit>

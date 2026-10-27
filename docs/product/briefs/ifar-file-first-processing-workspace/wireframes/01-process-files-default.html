@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Wireframe 01 — Process files</title>
+  <link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+  <nav class="wf-nav-pages">
+    <a href="index.html">Index</a>
+    <a href="01-process-files-default.html">01 Default</a>
+    <a href="02-document-exception.html">02 Exception</a>
+    <a href="03-all-decided.html">03 Complete</a>
+    <a href="04-request-detail.html">04 Request</a>
+    <a href="05-redaction-mode.html">05 Redaction</a>
+  </nav>
+  <div class="wf-app">
+    <div class="wf-topbar">Public 360° — FIB · Process files (wireframe)</div>
+    <div class="wf-breadcrumb">
+      <a href="#">Case 2026/1842</a> › <a href="04-request-detail.html">Access request</a> › <strong>Process files</strong>
+    </div>
+    <header class="wf-header">
+      <h1>Access request case 2026/1842 — Email registered</h1>
+      <div class="wf-stats">
+        <div class="wf-stat"><strong>12</strong><span>undecided</span></div>
+        <div class="wf-stat"><strong>16</strong><span>decided</span></div>
+        <div class="wf-stat"><strong>28</strong><span>files total</span></div>
+        <div class="wf-stat"><strong>3</strong><span>sensitive findings</span></div>
+      </div>
+      <button type="button" class="wf-primary-btn">Continue file review</button>
+      <button type="button" class="wf-secondary-btn">Classic BIF view</button>
+    </header>
+    <div class="wf-tabs">
+      <div class="wf-tab">Case</div>
+      <div class="wf-tab active">Process files</div>
+      <div class="wf-tab">Activities</div>
+    </div>
+    <div class="wf-main">
+      <aside class="wf-queue" aria-label="File queue">
+        <div class="wf-queue-toolbar">
+          <span class="wf-filter on">Undecided only</span>
+          <span class="wf-filter">All</span>
+          <span class="wf-filter">Has suggestion</span>
+          <span class="wf-filter">Sensitive findings</span>
+          <span class="wf-filter">Needs redaction</span>
+        </div>
+        <div class="wf-queue-col-header">
+          <span class="wf-col-name">File</span>
+          <span class="wf-col-size">Size</span>
+        </div>
+        <div class="wf-queue-scroll">
+          <div class="wf-doc-group">
+            <div class="wf-doc-head">
+              <span>▼ Document ABC-2024/567</span>
+              <span class="wf-chip suggest">Suggest: grant all (6)</span>
+              <button type="button" class="wf-secondary-btn" style="font-size:11px;padding:4px 8px">Apply to all</button>
+            </div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-1.pdf</span><span class="wf-file-size">1.2 MB</span></div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-2.pdf</span><span class="wf-file-size">890 KB</span></div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-3.pdf</span><span class="wf-file-size">2.1 MB</span></div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-4.pdf</span><span class="wf-file-size">440 KB</span></div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-5.pdf</span><span class="wf-file-size">3.0 MB</span></div>
+            <div class="wf-file"><span class="wf-chip grant">Granted</span><span class="wf-file-name">attachment-6.pdf</span><span class="wf-file-size">720 KB</span></div>
+          </div>
+          <div class="wf-doc-group">
+            <div class="wf-doc-head">
+              <span>▼ Document RAP-2025/12</span>
+              <span class="wf-chip">1 file</span>
+            </div>
+            <div class="wf-file selected">
+              <span class="wf-chip undecided">Undecided</span>
+              <span class="wf-chip suggest">Suggestion</span>
+              <span class="wf-file-name">report-2025.pdf</span>
+              <span class="wf-file-size">4.8 MB</span>
+            </div>
+          </div>
+          <div class="wf-doc-group">
+            <div class="wf-doc-head">
+              <span>▼ Document PER-HR/03</span>
+              <span class="wf-chip warn">1 needs redaction</span>
+            </div>
+            <div class="wf-file">
+              <span class="wf-chip undecided">Undecided</span>
+              <span class="wf-chip arin" title="Archive Inspector: personal ID in file content">ArIn · 2</span>
+              <span class="wf-file-name">internal-analysis.pdf</span>
+              <span class="wf-file-size">1.1 MB</span>
+            </div>
+          </div>
+        </div>
+        <div class="wf-handoff-footer">
+          Large case? <strong>Access Request Report</strong> for very high file counts (e.g. advanced search limits).
+        </div>
+      </aside>
+      <section class="wf-right">
+        <div class="wf-preview">
+          <div class="wf-preview-label">Preview — FIB FileViewer (Accusoft inline)</div>
+          <div class="wf-preview-body">
+            [ PDF page 1 of 14 — report-2025.pdf ]<br /><br />
+            Reuse @si/360-view-components FileViewer
+          </div>
+          <div class="wf-preview-toolbar">
+            <span>◀ ▶ page</span>
+            <span>Zoom</span>
+            <a href="05-redaction-mode.html" class="wf-secondary-btn" style="display:inline-block;padding:4px 8px;text-decoration:none;color:inherit">Redact</a>
+          </div>
+        </div>
+        <div class="wf-decision">
+          <div class="wf-suggestion">
+            <h3>Suggested: Full grant</h3>
+            <p>
+              Same as case <a href="#">2024/1203</a> (12 Mar 2024) — full grant, FOI Act § …
+            </p>
+            <div class="wf-suggestion-actions">
+              <button type="button" class="wf-primary-btn">Accept suggestion</button>
+              <button type="button" class="wf-secondary-btn">Edit</button>
+              <button type="button" class="wf-secondary-btn">Reject suggestion</button>
+            </div>
+          </div>
+          <div class="wf-form">
+            <label>Decision
+              <select>
+                <option>Full grant</option>
+                <option>Partial grant</option>
+                <option>Denied (rejected)</option>
+                <option>Not assessed</option>
+              </select>
+            </label>
+            <p style="margin:4px 0 0;font-size:10px;color:#666">Denied vs Not assessed are separate outcomes (PFR 437295).</p>
+            <label>Legal paragraph
+              <select><option>FOI Act § … (from suggestion)</option></select>
+            </label>
+            <label>Remark
+              <textarea rows="2" placeholder="Optional"></textarea>
+            </label>
+            <div class="wf-form-actions">
+              <button type="button" class="wf-primary-btn">Save and next undecided</button>
+              <button type="button" class="wf-secondary-btn">Save</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <p class="wf-note">Flow 1 · FIB queue · prior-grant suggestion · ArIn badge on row · file size column (PFR 254123)</p>
+  </div>
+</body>
+</html>

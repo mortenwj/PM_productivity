@@ -1,0 +1,7 @@
+<workUnit id="43b358c4-fbf7-4f92-bdde-a11559c6dfeb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" displayName="[LOCALIZED(abd2200d-ee50-4c12-9516-36c5a5f3057f,*Execute mass operations)]">
+  <description>[LOCALIZED(7735e36d-1da5-4c4b-889d-66b7e5486182,*Updates the documents which are selected. Actual execution is done by this job to make process asynchronous)]</description>
+  <executable file="MassOperation.xml">
+    <invoke />
+  </executable>
+  <job queue="Sys.Immediatly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

@@ -1,0 +1,4 @@
+﻿<invokes>
+  <invoke routing='route://SI.Biz.Core.Purge//SI.Biz.Core.Purge.PurgeManager/ExecutePurge'>
+  </invoke>
+</invokes>

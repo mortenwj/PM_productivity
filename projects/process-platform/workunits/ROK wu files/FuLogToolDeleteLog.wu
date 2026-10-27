@@ -1,0 +1,8 @@
+<workUnit displayName="Logværktøj Opbevaring" id="9fdcc609-4bfe-45d6-bc18-2306e97aeb9c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Udfører automatisk sletning af loggen</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	 <job queue="Sys.OnceAfterMidnight" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

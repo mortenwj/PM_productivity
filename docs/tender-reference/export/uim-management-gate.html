@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>UIM management go/no-go brief</title>
+<style>
+@page { size: A4; margin: 18mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.risk-high td { background: #fdecea; }
+.risk-med td { background: #fff8e6; }
+.risk-low td { background: #eefaf0; }
+.gap-not-met { color: #a1260d; font-weight: 600; }
+.gap-partial, .gap-in-flight { color: #8a6d00; font-weight: 600; }
+.gap-draft { color: #1f4e79; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.roadmap-d { background: #fafafa; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+.small { font-size: 8pt; color: #555; }
+.page-break { page-break-before: always; }
+</style></head><body><h1>UIM ESDH 2026 — management go/no-go brief</h1>
+<p><strong>Purpose:</strong> Input for early-week decision gate on continued tender work.</p>
+<p><strong>Scope:</strong> 27 commitment Features (Related to [ADO #433876](https://dev.azure.com/tieto-si/360/_workitems/edit/433876)).</p>
+<p><strong>Sources:</strong> UIM ESDH Tender tool (Jul 2026), DevOps portfolio, Public 360° roadmap PPT (Q1 2026–Q2 2027), light product evidence.</p>
+<p><strong>Last ADO verification:</strong> 17 Aug 2026, 09:44 CET — <strong>+3 new Features</strong> (435597, 435603, 435606) linked to parent.</p>
+<hr/>
+<h2>Executive summary</h2>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Commitment Features</td><td><strong>27</strong> (+3 since 14 Aug 2026)</td></tr>
+<tr><td>Net effort (conservative)</td><td><strong>45–75 months</strong> (FFUI uplift applied; avoid double-counting Search/FFUI overlap; includes test/integration margin)</td></tr>
+<tr><td>Build window</td><td><strong>~10 months</strong> (award Nov 2026 → build complete 1 Sep 2027)</td></tr>
+<tr><td>Team size implied</td><td><strong>5–8 FTE average</strong>, <strong>9–14 FTE peak</strong> (multi-squad program)</td></tr>
+<tr><td>XL Features</td><td>8</td></tr>
+<tr><td>Tender-tool gap profile</td><td>11 Not met · 3 Partial · 2 Draft needed · 1 In flight · 10 TBD</td></tr>
+<tr><td>Roadmap alignment</td><td><strong>A 4 · B 9 · C 11 · D 3</strong> (vs Public 360° roadmap PPT)</td></tr>
+<tr><td>Award target</td><td>~Nov 2026</td></tr>
+<tr><td>Build complete</td><td><strong>1 Sep 2027</strong></td></tr>
+<tr><td>Go-live</td><td><strong>Oct 2027</strong></td></tr>
+</table>
+<p><strong>Primary gate question:</strong> Do we strategically commit to <strong>customer-created entities</strong> (PFR <strong>433895</strong> / EK-6) as a platform program?</p>
+<p><strong>Secondary bid blocker:</strong> <strong>MK-77</strong> unbounded search/list results (PFR <strong>435257</strong>).</p>
+<p>Without a clear yes/no on the platform spine, bid narrative and resourcing cannot be credible. ~70–80% of portfolio risk and effort sits in the platform spine + Search/FFUI clusters. <strong>435606</strong> (all listviews / all first-level metadata) materially increases FFUI scope beyond prior estimates.</p>
+<hr/>
+<h2>New Features (17 Aug 2026)</h2>
+<table>
+<tr><th>ID</th><th>Title</th><th>Ref</th><th>Cluster</th><th>Module</th><th>Size</th><th>Gap</th></tr>
+<tr><td>[435597](https://dev.azure.com/tieto-si/360/_workitems/edit/435597)</td><td>Configurable rules and validations</td><td>EK-5</td><td>Platform spine</td><td>Custom fields</td><td>L</td><td>TBD</td></tr>
+<tr><td>[435603](https://dev.azure.com/tieto-si/360/_workitems/edit/435603)</td><td>Configurable icons</td><td>EK-6</td><td>Platform spine</td><td>Custom fields</td><td>M</td><td>TBD</td></tr>
+<tr><td>[435606](https://dev.azure.com/tieto-si/360/_workitems/edit/435606)</td><td>All listviews configurable with all first-level metadata</td><td>MK-66+ / EK-3</td><td>Search / FFUI</td><td>Search</td><td>XL</td><td>TBD</td></tr>
+</table>
+<p>435597 and 435603 are satellites of <strong>433895</strong> (customer entities). 435606 is related to <strong>433882</strong> and overlaps the FFUI/search personalization cluster.</p>
+<hr/>
+<h2>Roadmap alignment vs UIM delivery</h2>
+<p><strong>Source:</strong> Public 360° roadmap (PPT, Q1 2026–Q2 2027) mapped against UIM build complete <strong>1 Sep 2027</strong>. Cluster-owner validation pending.</p>
+<table>
+<tr><th>Status</th><th>PFRs</th><th>Meaning</th><th>DG implication</th></tr>
+<tr><td><strong>A — On roadmap, aligns with UIM delivery</strong></td><td>4</td><td>Existing roadmap item(s) that align well timewise with expected delivery (Sep 2027)</td><td>Reference existing roadmap in bid narrative</td></tr>
+<tr><td><strong>B — On roadmap, needs acceleration</strong></td><td>9</td><td>Existing roadmap item(s) that must be delivered faster than currently targeted</td><td>Core investment conflict — pulls FFUI/search/platform forward</td></tr>
+<tr><td><strong>C — Off roadmap, strategically relevant</strong></td><td>11</td><td>New scope not on the roadmap but strategically relevant if we bid</td><td>Net-new product bets beyond current roadmap</td></tr>
+<tr><td><strong>D — Off roadmap, low priority</strong></td><td>3</td><td>New scope not on the roadmap and would otherwise not be prioritized</td><td>Small or hygiene items; low standalone priority</td></tr>
+</table>
+<h3>Roadmap alignment share</h3>
+<table>
+<tr><th>Category</th><th>PFRs</th></tr>
+<tr><td>Aligns with roadmap timing</td><td>4</td></tr>
+<tr><td>Needs acceleration</td><td>9</td></tr>
+<tr><td>Strategically relevant off-roadmap</td><td>11</td></tr>
+<tr><td>Low priority off-roadmap</td><td>3</td></tr>
+</table>
+<p><strong>Headline for DG:</strong> UIM is not mostly “deliver planned roadmap on time.” ~33% needs acceleration (B); ~41% is strategically relevant but not on the roadmap (C).</p>
+<h3>PFR-level roadmap mapping</h3>
+<table>
+<tr><th>ID</th><th>Title</th><th>Roadmap</th><th>Roadmap reference</th></tr>
+<tr><td>433895</td><td>Customer entities platform</td><td>B — Accelerate</td><td>Full Flex UI cont.</td></tr>
+<tr><td>433881</td><td>Retention/deletion on all entities</td><td>B — Accelerate</td><td>Full Flex UI cont. (433895 satellite)</td></tr>
+<tr><td>433883</td><td>Mass update on custom entities</td><td>B — Accelerate</td><td>Full Flex UI cont.</td></tr>
+<tr><td>433887</td><td>Configuration import/export</td><td>B — Accelerate</td><td>Config migration tool</td></tr>
+<tr><td>435597</td><td>Configurable rules and validations</td><td>A — Aligns</td><td>Business Rules Engine</td></tr>
+<tr><td>435603</td><td>Configurable icons</td><td>D — Low priority</td><td>—</td></tr>
+<tr><td>433882</td><td>Full Flex advanced search</td><td>B — Accelerate</td><td>360° Søkeassistent + Refactor search experience</td></tr>
+<tr><td>433884</td><td>Full Flex detail webparts / columns</td><td>B — Accelerate</td><td>Full Flex UI cont.</td></tr>
+<tr><td>435253</td><td>UI personalization</td><td>B — Accelerate</td><td>Full Flex UI cont. + search refactor</td></tr>
+<tr><td>435606</td><td>All listviews / all metadata</td><td>B — Accelerate</td><td>Full Flex UI cont. + search refactor</td></tr>
+<tr><td>435257</td><td>No limit on search/list results</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433877</td><td>Hierarchical case collections</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435258</td><td>Activities via API</td><td>A — Aligns</td><td>NG Integration API / 360° API Gateway</td></tr>
+<tr><td>433889</td><td>LibreOffice support</td><td>A — Aligns</td><td>Office alternatives</td></tr>
+<tr><td>433891</td><td>Evolution mail client</td><td>B — Accelerate</td><td>Office alternatives</td></tr>
+<tr><td>435203</td><td>Alternative email clients (duplicate)</td><td>D — Low priority</td><td>—</td></tr>
+<tr><td>433894</td><td>UUID across all logging</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435333</td><td>Log separation &amp; traceability</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433885</td><td>Workflow history report</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433886</td><td>Mask definition via web-admin</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433888</td><td>Report: entities no user can access</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433892</td><td>Failed dispatch notification</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433893</td><td>Split large dispatches</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435336</td><td>Remote Print configuration</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>435338</td><td>Dispatch channel (physical mail)</td><td>C — Strategic</td><td>—</td></tr>
+<tr><td>433880</td><td>Duplicate contact prevention</td><td>D — Low priority</td><td>—</td></tr>
+<tr><td>433890</td><td>Archiving datetime in Outlook</td><td>A — Aligns</td><td>New Outlook Support cont.</td></tr>
+</table>
+<hr/>
+<h2>Decision paths</h2>
+<h3>A — Strategic bid</h3>
+<p>Commit to 433895 platform spine and FFUI/search roadmap. Accept <strong>45–75 months</strong> net effort and staff <strong>5–8 FTE average (9–14 FTE peak)</strong> through build complete <strong>1 Sep 2027</strong>. Requires multi-team program and executive sponsorship.</p>
+<h3>B — Bid with Q&amp;A scope narrow</h3>
+<p>Submit but challenge MK-77, entity scope, and integration commitments via ordregiver Q&amp;A. Cap XL items at partial/delivery-plan responses.</p>
+<h3>C — No-bid or low-effort</h3>
+<p>Decline or minimal compliance response if platform spine and MK-77 cannot be credibly committed by Nov 2026 award gate.</p>
+<hr/>
+<h2>Commitment clusters</h2>
+<table>
+<tr><th>Cluster</th><th>Features</th><th>Size</th><th>Effort (months)</th><th>Risk</th><th>Gate question</th></tr>
+<tr><td>Platform spine</td><td>6</td><td>XL + L + M</td><td>28–45</td><td>High</td><td>Is 433895 in or out?</td></tr>
+<tr><td>Search / FFUI / UI</td><td>6</td><td>XL + M</td><td><strong>25–40</strong></td><td>High</td><td>MK-77 commit without product risk?</td></tr>
+<tr><td>Integrations</td><td>4</td><td>L + S</td><td>10–16</td><td>Medium</td><td>Build, partner, or Q&amp;A narrow?</td></tr>
+<tr><td>Dispatch / Strålfors</td><td>4</td><td>M</td><td>6–12</td><td>Medium</td><td>Physical mail in-house or partner?</td></tr>
+<tr><td>Logging / audit</td><td>2</td><td>L</td><td>4–8</td><td>Medium</td><td>Merge MK-20 Features first</td></tr>
+<tr><td>Admin / workflow / security</td><td>3</td><td>M</td><td>5–10</td><td>Medium</td><td>Min requirements vs evaluation?</td></tr>
+<tr><td>API / activities</td><td>1</td><td>M</td><td>2–5</td><td>Medium</td><td>Close EK-12 (377061) before bid lock?</td></tr>
+<tr><td>Point fixes</td><td>1</td><td>S</td><td>&lt;1</td><td>Low</td><td>Baseline include</td></tr>
+</table>
+<p><strong>PFR IDs by cluster</strong></p>
+<ul><li>Platform spine: 433895, 433881, 433883, 433887, 435597, 435603</li><li>Search / FFUI: 433882, 433884, 435253, 435257, 433877, 435606</li><li>Integrations: 433889, 433891, 435203, 433890</li><li>Dispatch: 433892, 433893, 435336, 435338</li><li>Logging: 433894, 435333</li><li>Admin: 433885, 433886, 433888</li><li>API: 435258</li><li>Point fix: 433880</li></ul>
+<hr/>
+<h2>Team size vs build deadline</h2>
+<p><strong>Build window:</strong> ~10 calendar months from award (~Nov 2026) to build complete (<strong>1 Sep 2027</strong>). Go-live <strong>Oct 2027</strong> — one month for cutover and stabilisation after build complete.</p>
+<p><strong>Effort math (conservative):</strong> 45–75 months net effort ÷ 10 months ≈ <strong>5–8 FTE sustained average</strong>. Platform spine and Search/FFUI run in parallel → <strong>9–14 FTE peak</strong> across product teams.</p>
+<table>
+<tr><th>Product team</th><th>Features</th><th>Indicative FTE (10 mo window)</th><th>XL Features</th></tr>
+<tr><td>Core UI</td><td>12</td><td><strong>6–10 FTE</strong></td><td>8</td></tr>
+<tr><td>Core BL and eArchive</td><td>6</td><td>2–4 FTE</td><td>1</td></tr>
+<tr><td>Core Integration</td><td>5</td><td>2–3 FTE</td><td>0</td></tr>
+<tr><td>Process Platform</td><td>1</td><td>0.5–1 FTE</td><td>0</td></tr>
+<tr><td>Tech Platform Team</td><td>2</td><td>1–2 FTE</td><td>0</td></tr>
+</table>
+<p>FTE bands assume parallel delivery within the build window. Totals overlap across teams — not additive headcount. Estimates include integration, test, and contingency — not dev-only. <strong>FFUI/listview work is the main driver of the uplift from prior 35–60 month estimate.</strong></p>
+<p><strong>Late start risk:</strong> If XL platform work (433895 cluster) does not begin until after award, the effective window shrinks further and peak FTE must rise above 14, or go-live Oct 2027 is not credible.</p>
+<hr/>
+<h2>Product team demand (Impacted Module)</h2>
+<p>Impacted Module set on all 27 Features (Aug 14–17, 2026).</p>
+<table>
+<tr><th>Product team</th><th>Features</th><th>XL Features</th><th>Modules</th></tr>
+<tr><td>Core UI</td><td>12</td><td>8</td><td>Search, UI-UX, Webparts, Contact, Custom fields, UI Configuration, Massupdate, Web admin</td></tr>
+<tr><td>Core BL and eArchive</td><td>6</td><td>1</td><td>Dispatch, Access matrix, Disposal and Retention</td></tr>
+<tr><td>Core Integration</td><td>5</td><td>0</td><td>Integrations, SIF, Outlook client sidepanel</td></tr>
+<tr><td>Process Platform</td><td>1</td><td>0</td><td>Workflow</td></tr>
+<tr><td>Tech Platform Team</td><td>2</td><td>0</td><td>Logs</td></tr>
+</table>
+<p>Core UI carries the bulk of XL load (Search Experience + FFUI + Custom fields + universal listviews).</p>
+<hr/>
+<h2>Cluster light scans (for owner sign-off)</h2>
+<h3>Platform spine — High risk</h3>
+<ul><li><strong>433895 (EK-6/EK-1):</strong> Draft needed. Hub for customer entities + Udlændingeoverblik. Not a single-module feature.</li><li><strong>433881 (MK-6):</strong> Partial. Retention/deletion on all entities — depends on entity model breadth.</li><li><strong>433883 (MK-80):</strong> Not met. Mass update on contacts and custom entities.</li><li><strong>433887 (K-11/K-12):</strong> Not met. Configuration import/export — FFUI config export not available.</li><li><strong>435597 (EK-5):</strong> TBD. Configurable rules and validations — evaluation criterion; strategic platform capability.</li><li><strong>435603 (EK-6):</strong> TBD. Configurable icons — admin UI; low market potential but bid-relevant.</li></ul>
+<h3>Search / FFUI — High risk</h3>
+<ul><li><strong>433882, 433884, 435253, 435606:</strong> XL cluster overlapping Search Experience / FFUI pilot. <strong>435606</strong> adds universal listview configurability across all views.</li><li><strong>435257 (MK-77):</strong> Not met. <strong>Bid blocker</strong> — no limit on search/list result counts.</li><li><strong>433877 (MK-30):</strong> Not met. Hierarchical case collections — medium, Q&amp;A candidate.</li></ul>
+<h3>Integrations — Medium risk</h3>
+<ul><li><strong>433889 (K-16):</strong> Not met. LibreOffice — no product support today.</li><li><strong>433891 / 435203 (K-17):</strong> Not met + duplicate scope. Evolution / alternative mail clients.</li><li><strong>433890 (MK-145):</strong> Partial. Outlook archiving datetime — small S fix.</li></ul>
+<h3>Dispatch — Medium risk</h3>
+<ul><li><strong>433892 (MK-169):</strong> Not met. Failed dispatch user notification.</li><li><strong>433893 (K-18):</strong> Not met. Split large dispatches.</li><li><strong>435336 (MK-165), 435338 (MK-167):</strong> TBD. Remote print + physical mail channel (Strålfors assumptions).</li></ul>
+<h3>Logging — Medium risk</h3>
+<ul><li><strong>433894 vs 435333:</strong> Both MK-20 family — merge before commitment wording.</li></ul>
+<h3>Admin / workflow — Medium risk</h3>
+<ul><li><strong>433885 (MK-99):</strong> Not met. Automatic workflow history document — manual workaround only today.</li><li><strong>433886 (MK-120):</strong> TBD. Mask definition via web-admin.</li><li><strong>433888 (MK-133):</strong> Not met. Report on entities no user can access.</li></ul>
+<h3>API — Medium risk</h3>
+<ul><li><strong>435258 (EK-12):</strong> In flight via WI 377061. Lowest gate risk if closed before bid lock.</li></ul>
+<h3>Point fix — Low risk</h3>
+<ul><li><strong>433880 (MK-56):</strong> Partial. Duplicate contact prevention (~40h ballpark).</li></ul>
+<hr/>
+<h2>Timeline and risk context</h2>
+<ul><li>Award ~Nov 2026 leaves <strong>~10 months</strong> to build complete <strong>1 Sep 2027</strong> (go-live <strong>Oct 2027</strong>).</li><li><strong>45–75 months</strong> net effort requires <strong>5–8 FTE average</strong>, <strong>9–14 FTE peak</strong> — a multi-squad program, not a single team.</li><li>XL platform work must start <strong>in parallel with bid preparation</strong>, not after award, for a credible response.</li><li><strong>Overlap risk:</strong> Do not double-count months across 433882, 433884, 435253, <strong>435606</strong> and Search Experience / FFUI program roadmaps.</li></ul>
+<h3>Hygiene before bid lock</h3>
+<p>1. Dedupe MK-20: 433894 vs 435333</p>
+<p>2. Dedupe K-17: 433891 vs 435203</p>
+<p>3. Clarify EK-3 vs FFUI PFR overlap (435253 vs 433882/433884/<strong>435606</strong>)</p>
+<p>4. Rate new PFRs (435597, 435603, 435606) in tender tool where TBD</p>
+<h3>Portfolio completeness note</h3>
+<p>The UIM tender tool contains ~356 requirement rows. The <strong>27 Feature set linked Related to #433876</strong> is the product-first commitment portfolio for this gate — not an exhaustive tender mapping. A full gap scan beyond these items is out of scope for this gate.</p>
+<p><strong>Out of scope (not linked to #433876):</strong> older UIM-tagged upgrade-project Features such as 353751, 360628, 360634, 360656, 361021.</p>
+<hr/>
+<h2>Recommended 60-minute agenda</h2>
+<p>1. <strong>Platform spine in/out (15 min)</strong> — 433895 + satellites (incl. 435597/435603); Custom fields ownership</p>
+<p>2. <strong>Bid blockers (10 min)</strong> — MK-77 (435257); min requirements vs evaluation</p>
+<p>3. <strong>Roadmap conflict (10 min)</strong> — 9 PFRs need acceleration (B); 11 off-roadmap but strategic (C). What gets reprioritised?</p>
+<p>4. <strong>Team capacity (10 min)</strong> — Can we staff 5–8 FTE average (9–14 FTE peak) to build complete 1 Sep 2027? Core UI 6–10 FTE vs Search Experience / FFUI commitments</p>
+<p>5. <strong>Decision path A / B / C (15 min)</strong> — Assign bid narrative and Q&amp;A owner</p>
+<p>6. <strong>Next artifacts (5 min)</strong> — Cluster owner sign-off; deep cap-check after gate</p>
+<hr/>
+<h2>Related artifacts</h2>
+<ul><li><strong>Cursor canvases:</strong> `uim-management-gate.canvas.tsx`, `uim-commitment-heatmap.canvas.tsx`</li><li><strong>Tender source:</strong> `docs/tender-reference/source/UIM ESDH Tender tool.xlsx`</li><li><strong>ADO parent:</strong> https://dev.azure.com/tieto-si/360/_workitems/edit/433876</li></ul>
+<hr/>
+<h2>Open actions (post-gate if bid continues)</h2>
+<ul><li>[ ] Cluster leads validate roadmap alignment column (A/B/C/D) per PFR</li><li>[ ] Cluster leads return sign-off column (commit / Q&amp;A / no-bid per cluster)</li><li>[ ] Deep cap-check on XL PFRs (433895 cluster first; then FFUI cluster incl. 435606)</li><li>[ ] Confirm PFR portfolio completeness vs tender minimum requirements</li><li>[ ] ADO query for live portfolio view in gate meeting</li></ul></body></html>

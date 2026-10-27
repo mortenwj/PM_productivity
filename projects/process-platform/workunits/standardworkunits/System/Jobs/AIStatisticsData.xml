@@ -1,0 +1,4 @@
+﻿<invokes>
+  <invoke routing='route://SI.Biz.Core.AI//SI.Biz.Core.AI.DataManager.Statistics.StatisticsExecuterManager/PrepopulateAIStatisticsData'>
+  </invoke>
+</invokes>

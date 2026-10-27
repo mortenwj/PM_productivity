@@ -1,0 +1,8 @@
+<workUnit displayName="Automatisk Advisering Brugere" id="8f01c52b-9911-412a-a561-03a97607988d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Kontrollere om der er oprettet nye brugere siden kørsel og sætter automatisk abonnement for alle tilgængelige adviseringstyper.</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	 <job queue="Sys.OnceAfter4am" runAs="allaccess_serviceaccount" resultType="none" category="AnyServer"/>
+</workUnit>

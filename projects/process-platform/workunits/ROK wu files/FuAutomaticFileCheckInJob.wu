@@ -1,0 +1,8 @@
+<workUnit displayName="Automatisk indchekning af filer" id="B924EC18-8CD2-423B-A7F4-E831A0BD0BF7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Filer der har været checked ud et bestemt antal dage bliver automatisk checket ind</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

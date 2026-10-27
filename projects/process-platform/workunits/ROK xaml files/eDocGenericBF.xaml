@@ -1,0 +1,1779 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="eDocGeneric"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcpap="clr-namespace:SI.Biz.Core.ProcessEngine.Activities.ProgressPlan;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>eDocGeneric_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Biz.Core</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <StateMachine sap2010:WorkflowViewState.IdRef="StateMachine_1">
+    <StateMachine.InitialState>
+      <State x:Name="__ReferenceID7" DisplayName="Børneflyt 1,Børneflyt 2 eller Mindreårig?" sap2010:WorkflowViewState.IdRef="State_10">
+        <State.Entry>
+          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="_caseparticipants" />
+            </Sequence.Variables>
+            <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_6" ProgressPlanId="[ProgressPlanId]">
+              <sbcpap:PhaseContainer.Phases>
+                <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Start Børneflyttesag" DisplayName="Start proces" sap2010:WorkflowViewState.IdRef="Phase_6" ReuseOnLoop="False" WarningInDays="[3]">
+                  <sbcpap:Phase.PhaseActivities>
+                    <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Vælg Børneflyt 1,  Børneflyt 2 eller Mindreårige" DisplayName="Vælg Børneflyt 1,  Børneflyt 2 eller Mindreårige" sap2010:WorkflowViewState.IdRef="Decision_3" />
+                  </sbcpap:Phase.PhaseActivities>
+                  <sbcpap:Phase.Variables>
+                    <sco:Collection x:TypeArguments="Variable" />
+                  </sbcpap:Phase.Variables>
+                </sbcpap:Phase>
+              </sbcpap:PhaseContainer.Phases>
+              <sbcpap:PhaseContainer.Variables>
+                <sco:Collection x:TypeArguments="Variable" />
+              </sbcpap:PhaseContainer.Variables>
+            </sbcpap:PhaseContainer>
+          </Sequence>
+        </State.Entry>
+        <State.Transitions>
+          <Transition DisplayName="BF 2" sap2010:WorkflowViewState.IdRef="Transition_10">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="DECISION_BF2" Description="Børneflytning 2" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_4" SortOrder="2" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID8" DisplayName="BF2" sap2010:WorkflowViewState.IdRef="State_9">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplatePartshoering" />
+                    </Sequence.Variables>
+                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_17">
+                      <sbcpa:ContextBinder.Parameters>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call Terminate If Passed Away" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_15" Parameters="[{ProgressPlanId}]" WorkUnit="TermindateIfCaseContactPassedAway =&gt; FuBFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_8" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Børneflytning 2" DisplayName="Børneflytning 2" sap2010:WorkflowViewState.IdRef="Phase_8" ReuseOnLoop="False" WarningInDays="[3]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sco:Collection x:TypeArguments="Activity" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_4">
+                      <sbcpa:ContextBinder.Parameters>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_2" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                        <Assign sap2010:WorkflowViewState.IdRef="Assign_9">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_33" Parameters="[{&quot;300007&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Orienterings Brev6 til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_30" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Partshøring" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_34" Parameters="[{&quot;300008&quot;}]" Result="[DocumentTemplatePartshoering]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Partshøring Brev5 til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_31" Parameters="[{ProgressPlanId, _caseid, DocumentTemplatePartshoering(&quot;CaseContactRoleRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTemplateRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_2" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="T4" sap2010:WorkflowViewState.IdRef="Transition_9">
+                    <Transition.To>
+                      <State x:Name="__ReferenceID12" DisplayName="Afvent svar" sap2010:WorkflowViewState.IdRef="State_13">
+                        <State.Entry>
+                          <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_11" ProgressPlanId="[ProgressPlanId]">
+                            <sbcpap:PhaseContainer.Phases>
+                              <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvent svar" DisplayName="Afvent svar" sap2010:WorkflowViewState.IdRef="Phase_11" ReuseOnLoop="False" WarningInDays="[3]">
+                                <sbcpap:Phase.PhaseActivities>
+                                  <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" CompletedAction="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" Description="Afvent svar" sap2010:WorkflowViewState.IdRef="WaitTask_2" WaitDateCalculation="WorkDays" WaitDays="[14]" />
+                                  <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Svar fra Forældre 1" DisplayName="Svar fra forældre 1" sap2010:WorkflowViewState.IdRef="Decision_5" />
+                                </sbcpap:Phase.PhaseActivities>
+                                <sbcpap:Phase.Variables>
+                                  <sco:Collection x:TypeArguments="Variable" />
+                                </sbcpap:Phase.Variables>
+                              </sbcpap:Phase>
+                            </sbcpap:PhaseContainer.Phases>
+                            <sbcpap:PhaseContainer.Variables>
+                              <sco:Collection x:TypeArguments="Variable" />
+                            </sbcpap:PhaseContainer.Variables>
+                          </sbcpap:PhaseContainer>
+                        </State.Entry>
+                        <State.Transitions>
+                          <Transition DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Transition_34">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_ACCEPT" Description="Accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_13" SortOrder="1" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID18" DisplayName="BF2 Accepterer" sap2010:WorkflowViewState.IdRef="State_27">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplatePartshoering" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_20" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Accept" DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Phase_20" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_9">
+                                      <sbcpa:ContextBinder.Parameters>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_7" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_43">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_35" Parameters="[{&quot;300009&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Orienterings Brev8+9 til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_39" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Partshøring" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_36" Parameters="[{&quot;300010&quot;}]" Result="[DocumentTemplatePartshoering]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse Brev7+9 til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_40" Parameters="[{ProgressPlanId, _caseid, DocumentTemplatePartshoering(&quot;CaseContactRoleRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTemplateRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_8" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                                      </sbcpa:ContextBinder.Parameters>
+                                    </sbcpa:ContextBinder>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T6" sap2010:WorkflowViewState.IdRef="Transition_33">
+                                    <Transition.To>
+                                      <State x:Name="__ReferenceID0" DisplayName="Afslut sag" sap2010:WorkflowViewState.IdRef="State_17">
+                                        <State.Entry>
+                                          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                            <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_20" Parameters="[{ProgressPlanId}]" Result="[_caseid]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                            <sbcpa:SetCaseStatus CaseId="[_caseid]" CaseStatusId="P =&gt; 300023" DisplayName="SetCaseStatus Passiv" sap2010:WorkflowViewState.IdRef="SetCaseStatus_2" JournalizeUnFinishedInternalDocuments="False" />
+                                            <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_15" ProgressPlanId="[ProgressPlanId]">
+                                              <sbcpap:PhaseContainer.Phases>
+                                                <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afventer sagslukning" DisplayName="Afventer sagslukning" sap2010:WorkflowViewState.IdRef="Phase_15" ReuseOnLoop="False" WarningInDays="[3]">
+                                                  <sbcpap:Phase.PhaseActivities>
+                                                    <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" CompletedAction="ClosePhase =&gt; FU1FF253B2-C4C7-424F-94EF-C47AF0297D90" Description="Afvent sagslukning" sap2010:WorkflowViewState.IdRef="WaitTask_4" WaitDays="[28]" />
+                                                  </sbcpap:Phase.PhaseActivities>
+                                                  <sbcpap:Phase.Variables>
+                                                    <sco:Collection x:TypeArguments="Variable" />
+                                                  </sbcpap:Phase.Variables>
+                                                </sbcpap:Phase>
+                                              </sbcpap:PhaseContainer.Phases>
+                                              <sbcpap:PhaseContainer.Variables>
+                                                <sco:Collection x:TypeArguments="Variable" />
+                                              </sbcpap:PhaseContainer.Variables>
+                                            </sbcpap:PhaseContainer>
+                                            <sbcpap:WaitForPhaseClosed sap2010:WorkflowViewState.IdRef="WaitForPhaseClosed_1" />
+                                            <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_18">
+                                              <sbcpa:ContextBinder.Parameters>
+                                                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                                  <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Close Case" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_17" Parameters="[{_caseid}]" WorkUnit="CloseCase =&gt; FUF22A7702-413A-42A3-8EFB-68AB95C8C843" />
+                                                </Sequence>
+                                              </sbcpa:ContextBinder.Parameters>
+                                            </sbcpa:ContextBinder>
+                                          </Sequence>
+                                        </State.Entry>
+                                        <State.Transitions>
+                                          <Transition DisplayName="T9" sap2010:WorkflowViewState.IdRef="Transition_48">
+                                            <Transition.To>
+                                              <State x:Name="__ReferenceID9" DisplayName="FinalState" sap2010:WorkflowViewState.IdRef="State_6" IsFinal="True" />
+                                            </Transition.To>
+                                          </Transition>
+                                        </State.Transitions>
+                                        <State.Variables>
+                                          <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                        </State.Variables>
+                                      </State>
+                                    </Transition.To>
+                                  </Transition>
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ingen svar" sap2010:WorkflowViewState.IdRef="Transition_36">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOANSWER" Description="Ingen svar" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_14" SortOrder="3" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID19" DisplayName="BF2 Ingen svar" sap2010:WorkflowViewState.IdRef="State_28">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateAfgoerelse" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_27" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Ingen svar" DisplayName="Ingen svar" sap2010:WorkflowViewState.IdRef="Phase_27" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_13">
+                                      <sbcpa:ContextBinder.Parameters>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_11" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_44">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_37" Parameters="[{&quot;300011&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Orientering Brev8 til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_37" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Afgørelse" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_38" Parameters="[{&quot;300012&quot;}]" Result="[DocumentTemplateAfgoerelse]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse Brev10 til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_38" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateAfgoerelse(&quot;CaseContactRoleRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTemplateRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_12" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                                      </sbcpa:ContextBinder.Parameters>
+                                    </sbcpa:ContextBinder>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T16" sap2010:WorkflowViewState.IdRef="Transition_35" To="{x:Reference __ReferenceID0}" />
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ikke accept" sap2010:WorkflowViewState.IdRef="Transition_37">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOACCEPT" Description="Ikke accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_15" SortOrder="2" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID4" DisplayName="Accepterer ikke" sap2010:WorkflowViewState.IdRef="State_12">
+                                <State.Entry>
+                                  <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_25" ProgressPlanId="[ProgressPlanId]">
+                                    <sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvist med/uden begrundelse" DisplayName="Afvist med/uden begrundelse" sap2010:WorkflowViewState.IdRef="Phase_25" ReuseOnLoop="False" WarningInDays="[3]">
+                                        <sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Med/Uden begrundelse" DisplayName="Med/Uden begrundelse" sap2010:WorkflowViewState.IdRef="Decision_10" />
+                                        </sbcpap:Phase.PhaseActivities>
+                                        <sbcpap:Phase.Variables>
+                                          <sco:Collection x:TypeArguments="Variable" />
+                                        </sbcpap:Phase.Variables>
+                                      </sbcpap:Phase>
+                                    </sbcpap:PhaseContainer.Phases>
+                                    <sbcpap:PhaseContainer.Variables>
+                                      <sco:Collection x:TypeArguments="Variable" />
+                                    </sbcpap:PhaseContainer.Variables>
+                                  </sbcpap:PhaseContainer>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="- Begrundelse" sap2010:WorkflowViewState.IdRef="Transition_22">
+                                    <Transition.Trigger>
+                                      <sbcpap:WaitForDecision BookmarkName="DECISION_NOREASON" Description="Uden begrundelse" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_9" SortOrder="2" />
+                                    </Transition.Trigger>
+                                    <Transition.To>
+                                      <State x:Name="__ReferenceID15" DisplayName="Uden Begrundelse" sap2010:WorkflowViewState.IdRef="State_18">
+                                        <State.Transitions>
+                                          <Transition DisplayName="T2" sap2010:WorkflowViewState.IdRef="Transition_43">
+                                            <Transition.To>
+                                              <State x:Name="__ReferenceID3" DisplayName="Flyttedato &gt; eller &lt; 2 måneder?" sap2010:WorkflowViewState.IdRef="State_20">
+                                                <State.Entry>
+                                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_16" ProgressPlanId="[ProgressPlanId]">
+                                                      <sbcpap:PhaseContainer.Phases>
+                                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvent 2 måneders høring" DisplayName="Afvent 2 måneders høring" sap2010:WorkflowViewState.IdRef="Phase_16" ReuseOnLoop="False" WarningInDays="[3]">
+                                                          <sbcpap:Phase.PhaseActivities>
+                                                            <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Er flyttedato over to måneder tilbage i tiden?" DisplayName="TwoMonthMoveDate" sap2010:WorkflowViewState.IdRef="Decision_13" />
+                                                          </sbcpap:Phase.PhaseActivities>
+                                                          <sbcpap:Phase.Variables>
+                                                            <sco:Collection x:TypeArguments="Variable" />
+                                                          </sbcpap:Phase.Variables>
+                                                        </sbcpap:Phase>
+                                                      </sbcpap:PhaseContainer.Phases>
+                                                      <sbcpap:PhaseContainer.Variables>
+                                                        <sco:Collection x:TypeArguments="Variable" />
+                                                      </sbcpap:PhaseContainer.Variables>
+                                                    </sbcpap:PhaseContainer>
+                                                  </Sequence>
+                                                </State.Entry>
+                                                <State.Transitions>
+                                                  <Transition DisplayName="&gt; 2 måneder" sap2010:WorkflowViewState.IdRef="Transition_26">
+                                                    <Transition.Trigger>
+                                                      <sbcpap:WaitForDecision BookmarkName="DECISION_MORE_THAN_TWO_MONTHS" Description="Mere end to måneder" DisplayName="&quot;WaitForDecision&quot;" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_19" SortOrder="1" />
+                                                    </Transition.Trigger>
+                                                    <Transition.To>
+                                                      <State x:Name="__ReferenceID2" DisplayName="Høring opholdsmønster" sap2010:WorkflowViewState.IdRef="State_23">
+                                                        <State.Entry>
+                                                          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                                            <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_26" ProgressPlanId="[ProgressPlanId]">
+                                                              <sbcpap:PhaseContainer.Phases>
+                                                                <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Høring opholdsmønster" DisplayName="Høring opholdsmønster" sap2010:WorkflowViewState.IdRef="Phase_26" ReuseOnLoop="False" WarningInDays="[3]">
+                                                                  <sbcpap:Phase.PhaseActivities>
+                                                                    <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="Høringsbrev fraflytterforælder =&gt; 300005" Description="Opret høringsbrev fraflytterforælder" DisplayName="Høringsbrev, Fraflytterforælder" sap2010:WorkflowViewState.IdRef="ClientAction_3" />
+                                                                    <sbcpap:ClientAction AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" RelatedWaitTask="{x:Null}" TemplateOrGroupId="{x:Null}" ClientActionId="Høringsbrev tilflytterforælder =&gt; 300004" Description="Opret høringsbrev tilflytterforælder" DisplayName="Høringsbrev, Tilflytterforælder" sap2010:WorkflowViewState.IdRef="ClientAction_4" />
+                                                                    <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Er høringsbreve afsendt?" DisplayName="Er høringsbreve afsendt?" sap2010:WorkflowViewState.IdRef="Decision_17" />
+                                                                  </sbcpap:Phase.PhaseActivities>
+                                                                  <sbcpap:Phase.Variables>
+                                                                    <sco:Collection x:TypeArguments="Variable" />
+                                                                  </sbcpap:Phase.Variables>
+                                                                </sbcpap:Phase>
+                                                              </sbcpap:PhaseContainer.Phases>
+                                                              <sbcpap:PhaseContainer.Variables>
+                                                                <sco:Collection x:TypeArguments="Variable" />
+                                                              </sbcpap:PhaseContainer.Variables>
+                                                            </sbcpap:PhaseContainer>
+                                                          </Sequence>
+                                                        </State.Entry>
+                                                        <State.Transitions>
+                                                          <Transition DisplayName="Høringsbreve afsendt" sap2010:WorkflowViewState.IdRef="Transition_44">
+                                                            <Transition.Trigger>
+                                                              <sbcpap:WaitForDecision BookmarkName="DECISION_" Description="Alle høringsbreve er afsendt" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_23" SortOrder="1" />
+                                                            </Transition.Trigger>
+                                                            <Transition.To>
+                                                              <State x:Name="__ReferenceID1" DisplayName="Afventer svar" sap2010:WorkflowViewState.IdRef="State_21">
+                                                                <State.Entry>
+                                                                  <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_18" ProgressPlanId="[ProgressPlanId]">
+                                                                    <sbcpap:PhaseContainer.Phases>
+                                                                      <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Svar modtaget?" DisplayName="Svar modtaget?" sap2010:WorkflowViewState.IdRef="Phase_18" ReuseOnLoop="False" WarningInDays="[3]">
+                                                                        <sbcpap:Phase.PhaseActivities>
+                                                                          <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Nyt svar?" DisplayName="Nyt svar?" sap2010:WorkflowViewState.IdRef="Decision_12" />
+                                                                        </sbcpap:Phase.PhaseActivities>
+                                                                        <sbcpap:Phase.Variables>
+                                                                          <sco:Collection x:TypeArguments="Variable" />
+                                                                        </sbcpap:Phase.Variables>
+                                                                      </sbcpap:Phase>
+                                                                    </sbcpap:PhaseContainer.Phases>
+                                                                    <sbcpap:PhaseContainer.Variables>
+                                                                      <sco:Collection x:TypeArguments="Variable" />
+                                                                    </sbcpap:PhaseContainer.Variables>
+                                                                  </sbcpap:PhaseContainer>
+                                                                </State.Entry>
+                                                                <State.Transitions>
+                                                                  <Transition DisplayName="Ingen svar" sap2010:WorkflowViewState.IdRef="Transition_30">
+                                                                    <Transition.Trigger>
+                                                                      <sbcpap:WaitForDecision BookmarkName="DECISION_NOREPLY" Description="Ingen svar" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_12" SortOrder="1" />
+                                                                    </Transition.Trigger>
+                                                                    <Transition.To>
+                                                                      <State x:Name="__ReferenceID17" DisplayName="AFgørelse" sap2010:WorkflowViewState.IdRef="State_24">
+                                                                        <State.Transitions>
+                                                                          <Transition DisplayName="T15" sap2010:WorkflowViewState.IdRef="Transition_31" To="{x:Reference __ReferenceID0}" />
+                                                                        </State.Transitions>
+                                                                      </State>
+                                                                    </Transition.To>
+                                                                  </Transition>
+                                                                  <Transition DisplayName="Nyt svar" sap2010:WorkflowViewState.IdRef="Transition_29">
+                                                                    <Transition.Trigger>
+                                                                      <sbcpap:WaitForDecision BookmarkName="DECISION_NEWREPLY" Description="Nyt svar" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_11" SortOrder="2" />
+                                                                    </Transition.Trigger>
+                                                                    <Transition.To>
+                                                                      <x:Reference>__ReferenceID1</x:Reference>
+                                                                    </Transition.To>
+                                                                  </Transition>
+                                                                </State.Transitions>
+                                                              </State>
+                                                            </Transition.To>
+                                                          </Transition>
+                                                        </State.Transitions>
+                                                      </State>
+                                                    </Transition.To>
+                                                  </Transition>
+                                                  <Transition DisplayName="&lt; 2 måneder" sap2010:WorkflowViewState.IdRef="Transition_46">
+                                                    <Transition.Trigger>
+                                                      <sbcpap:WaitForDecision BookmarkName="DECISION_LESS_THAN_TWO_MONTHS" Description="Mindre end to måneder" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_22" SortOrder="2" />
+                                                    </Transition.Trigger>
+                                                    <Transition.To>
+                                                      <State x:Name="__ReferenceID22" DisplayName="Afventer 2 mdr flyttedato" sap2010:WorkflowViewState.IdRef="State_31">
+                                                        <State.Entry>
+                                                          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                                            <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_29" ProgressPlanId="[ProgressPlanId]">
+                                                              <sbcpap:PhaseContainer.Phases>
+                                                                <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvent 2 mdr flyttedato" DisplayName="Afvent 2 mdr flyttedato" sap2010:WorkflowViewState.IdRef="Phase_29" ReuseOnLoop="False" WarningInDays="[3]">
+                                                                  <sbcpap:Phase.PhaseActivities>
+                                                                    <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Er der gået to måneder?" DisplayName="TwoMonthLetter" sap2010:WorkflowViewState.IdRef="Decision_16" />
+                                                                  </sbcpap:Phase.PhaseActivities>
+                                                                  <sbcpap:Phase.Variables>
+                                                                    <sco:Collection x:TypeArguments="Variable" />
+                                                                  </sbcpap:Phase.Variables>
+                                                                </sbcpap:Phase>
+                                                              </sbcpap:PhaseContainer.Phases>
+                                                              <sbcpap:PhaseContainer.Variables>
+                                                                <sco:Collection x:TypeArguments="Variable" />
+                                                              </sbcpap:PhaseContainer.Variables>
+                                                            </sbcpap:PhaseContainer>
+                                                          </Sequence>
+                                                        </State.Entry>
+                                                        <State.Transitions>
+                                                          <Transition DisplayName="T7" sap2010:WorkflowViewState.IdRef="Transition_45" To="{x:Reference __ReferenceID2}" />
+                                                        </State.Transitions>
+                                                      </State>
+                                                    </Transition.To>
+                                                  </Transition>
+                                                </State.Transitions>
+                                              </State>
+                                            </Transition.To>
+                                          </Transition>
+                                        </State.Transitions>
+                                      </State>
+                                    </Transition.To>
+                                  </Transition>
+                                  <Transition DisplayName="+ Begrundelse" sap2010:WorkflowViewState.IdRef="Transition_23">
+                                    <Transition.Trigger>
+                                      <sbcpap:WaitForDecision BookmarkName="DECISION_WITHREASON" Description="Med begrundelse" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_10" SortOrder="1" />
+                                    </Transition.Trigger>
+                                    <Transition.To>
+                                      <State x:Name="__ReferenceID16" DisplayName="Med Begrundelse" sap2010:WorkflowViewState.IdRef="State_19">
+                                        <State.Transitions>
+                                          <Transition DisplayName="T10" sap2010:WorkflowViewState.IdRef="Transition_28" To="{x:Reference __ReferenceID3}" />
+                                        </State.Transitions>
+                                      </State>
+                                    </Transition.To>
+                                  </Transition>
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                        </State.Transitions>
+                      </State>
+                    </Transition.To>
+                  </Transition>
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="BF1" sap2010:WorkflowViewState.IdRef="Transition_8">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="DECISION_BF1" Description="Børneflytning 1" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_3" SortOrder="1" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID6" DisplayName="BF1" sap2010:WorkflowViewState.IdRef="State_8">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplatePartshoering" />
+                    </Sequence.Variables>
+                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_16">
+                      <sbcpa:ContextBinder.Parameters>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call Terminate If Passed Away" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_14" Parameters="[{ProgressPlanId}]" WorkUnit="TermindateIfCaseContactPassedAway =&gt; FuBFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_5" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Børneflytning 1" DisplayName="Børneflytning 1" sap2010:WorkflowViewState.IdRef="Phase_5" ReuseOnLoop="False" WarningInDays="[3]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sco:Collection x:TypeArguments="Activity" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_3">
+                      <sbcpa:ContextBinder.Parameters>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_1" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_29" Parameters="[{&quot;300001&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="Orienterings Brev2 til Fraflytterforælder" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_28" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Partshøring" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_30" Parameters="[{&quot;300002&quot;}]" Result="[DocumentTemplatePartshoering]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="Partshøring Brev1 til Tilflytterforælder" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_29" Parameters="[{ProgressPlanId, _caseid, DocumentTemplatePartshoering(&quot;CaseContactRoleRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTemplateRecno&quot;), DocumentTemplatePartshoering(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <Assign sap2010:WorkflowViewState.IdRef="Assign_42">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_3" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="T3" sap2010:WorkflowViewState.IdRef="Transition_7">
+                    <Transition.To>
+                      <State x:Name="__ReferenceID5" DisplayName="Afvent svar" sap2010:WorkflowViewState.IdRef="State_7">
+                        <State.Entry>
+                          <Sequence sap2010:WorkflowViewState.IdRef="Sequence_22">
+                            <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_4" ProgressPlanId="[ProgressPlanId]">
+                              <sbcpap:PhaseContainer.Phases>
+                                <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvent svar" DisplayName="Afvent svar" sap2010:WorkflowViewState.IdRef="Phase_4" ReuseOnLoop="False" WarningInDays="[3]">
+                                  <sbcpap:Phase.PhaseActivities>
+                                    <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" CompletedAction="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" Description="Afvent svar" sap2010:WorkflowViewState.IdRef="WaitTask_1" WaitDateCalculation="WorkDays" WaitDays="[14]" />
+                                    <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Svar fra Forældre 1" DisplayName="Svar fra forældre 1" sap2010:WorkflowViewState.IdRef="Decision_4" />
+                                  </sbcpap:Phase.PhaseActivities>
+                                  <sbcpap:Phase.Variables>
+                                    <sco:Collection x:TypeArguments="Variable" />
+                                  </sbcpap:Phase.Variables>
+                                </sbcpap:Phase>
+                              </sbcpap:PhaseContainer.Phases>
+                              <sbcpap:PhaseContainer.Variables>
+                                <sco:Collection x:TypeArguments="Variable" />
+                              </sbcpap:PhaseContainer.Variables>
+                            </sbcpap:PhaseContainer>
+                          </Sequence>
+                        </State.Entry>
+                        <State.Transitions>
+                          <Transition DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Transition_12">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_ACCEPT" Description="Accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_5" SortOrder="1" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID10" DisplayName="BF1 Accepterer" sap2010:WorkflowViewState.IdRef="State_11">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateAfgoerelse" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_9" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Accept" DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Phase_9" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_5">
+                                      <sbcpa:ContextBinder.Parameters>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_3" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_31" Parameters="[{&quot;300003&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Orientering Brev3+9 til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_41" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Afgørelse" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_32" Parameters="[{&quot;300004&quot;}]" Result="[DocumentTemplateAfgoerelse]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse Brev4+9 til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_42" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateAfgoerelse(&quot;CaseContactRoleRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTemplateRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_12">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_4" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                                      </sbcpa:ContextBinder.Parameters>
+                                    </sbcpa:ContextBinder>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T5" sap2010:WorkflowViewState.IdRef="Transition_11" To="{x:Reference __ReferenceID0}" />
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ingen svar" sap2010:WorkflowViewState.IdRef="Transition_19">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOANSWER" Description="Ingen svar" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_8" SortOrder="3" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID14" DisplayName="BF1 Ingen svar" sap2010:WorkflowViewState.IdRef="State_16">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateOrienteringsbrev" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateAfgoerelse" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_14" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Ikke accept" DisplayName="Ikke accept" sap2010:WorkflowViewState.IdRef="Phase_14" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_8">
+                                      <sbcpa:ContextBinder.Parameters>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_6" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Orienteringsbrev" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_27" Parameters="[{&quot;300005&quot;}]" Result="[DocumentTemplateOrienteringsbrev]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Orientering Brev3 til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_43" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateOrienteringsbrev(&quot;CaseContactRoleRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTemplateRecno&quot;), DocumentTemplateOrienteringsbrev(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Afgørelse" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_28" Parameters="[{&quot;300006&quot;}]" Result="[DocumentTemplateAfgoerelse]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse Brev10 til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_44" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateAfgoerelse(&quot;CaseContactRoleRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTemplateRecno&quot;), DocumentTemplateAfgoerelse(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_21">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_7" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                                      </sbcpa:ContextBinder.Parameters>
+                                    </sbcpa:ContextBinder>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T8" sap2010:WorkflowViewState.IdRef="Transition_21" To="{x:Reference __ReferenceID0}" />
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ikke accept" sap2010:WorkflowViewState.IdRef="Transition_14">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOACCEPT" Description="Ikke accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_6" SortOrder="2" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <x:Reference>__ReferenceID4</x:Reference>
+                            </Transition.To>
+                          </Transition>
+                        </State.Transitions>
+                      </State>
+                    </Transition.To>
+                  </Transition>
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+          <Transition DisplayName="Mindreårige" sap2010:WorkflowViewState.IdRef="Transition_18">
+            <Transition.Trigger>
+              <sbcpap:WaitForDecision BookmarkName="DECISION_MAA" Description="Mindreårig" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_7" SortOrder="3" />
+            </Transition.Trigger>
+            <Transition.To>
+              <State x:Name="__ReferenceID11" DisplayName="Mindreårige" sap2010:WorkflowViewState.IdRef="State_15">
+                <State.Entry>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplatePartHoeringFraflytter" />
+                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplatePartHoeringTilflytter" />
+                    </Sequence.Variables>
+                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_12" ProgressPlanId="[ProgressPlanId]">
+                      <sbcpap:PhaseContainer.Phases>
+                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Mindreårige" DisplayName="Mindreårige" sap2010:WorkflowViewState.IdRef="Phase_12" ReuseOnLoop="False" WarningInDays="[3]">
+                          <sbcpap:Phase.PhaseActivities>
+                            <sco:Collection x:TypeArguments="Activity" />
+                          </sbcpap:Phase.PhaseActivities>
+                          <sbcpap:Phase.Variables>
+                            <sco:Collection x:TypeArguments="Variable" />
+                          </sbcpap:Phase.Variables>
+                        </sbcpap:Phase>
+                      </sbcpap:PhaseContainer.Phases>
+                      <sbcpap:PhaseContainer.Variables>
+                        <sco:Collection x:TypeArguments="Variable" />
+                      </sbcpap:PhaseContainer.Variables>
+                    </sbcpap:PhaseContainer>
+                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_7">
+                      <sbcpa:ContextBinder.Parameters>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_5" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                        <Assign sap2010:WorkflowViewState.IdRef="Assign_18">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Parthøring, Fraflytter" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_39" Parameters="[{&quot;300013&quot;}]" Result="[DocumentTemplatePartHoeringFraflytter]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Partshøring til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_32" Parameters="[{ProgressPlanId, _caseid, DocumentTemplatePartHoeringFraflytter(&quot;CaseContactRoleRecno&quot;), DocumentTemplatePartHoeringFraflytter(&quot;DocumentTemplateRecno&quot;), DocumentTemplatePartHoeringFraflytter(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Partshøring, Tilflytter" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_40" Parameters="[{&quot;300014&quot;}]" Result="[DocumentTemplatePartHoeringTilflytter]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Partshøring til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_33" Parameters="[{ProgressPlanId, _caseid, DocumentTemplatePartHoeringTilflytter(&quot;CaseContactRoleRecno&quot;), DocumentTemplatePartHoeringTilflytter(&quot;DocumentTemplateRecno&quot;), DocumentTemplatePartHoeringTilflytter(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_6" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                      </sbcpa:ContextBinder.Parameters>
+                    </sbcpa:ContextBinder>
+                  </Sequence>
+                </State.Entry>
+                <State.Transitions>
+                  <Transition DisplayName="T1" sap2010:WorkflowViewState.IdRef="Transition_17">
+                    <Transition.To>
+                      <State x:Name="__ReferenceID13" DisplayName="Afvent svar" sap2010:WorkflowViewState.IdRef="State_14">
+                        <State.Entry>
+                          <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_13" ProgressPlanId="[ProgressPlanId]">
+                            <sbcpap:PhaseContainer.Phases>
+                              <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="True" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Afvent svar på partshøring" DisplayName="Afvent svar på partshøring" sap2010:WorkflowViewState.IdRef="Phase_13" ReuseOnLoop="False" WarningInDays="[3]">
+                                <sbcpap:Phase.PhaseActivities>
+                                  <sbcpap:WaitTask AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" CompletedAction="{x:Null}" EffectuationDelay="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" TemplateId="{x:Null}" WaitDate="{x:Null}" WaitExpiredAction="{x:Null}" CheckInWhenScheduled="True" Description="Afvent svar på partshøring" sap2010:WorkflowViewState.IdRef="WaitTask_3" WaitDateCalculation="WorkDays" WaitDays="[14]" />
+                                  <sbcpap:Decision AccessGroupId="{x:Null}" ActivityCategoryId="{x:Null}" Notes="{x:Null}" OrgUnitId="{x:Null}" OurRefId="{x:Null}" Description="Svar fra Partshøring" DisplayName="Svar fra Partshøring" sap2010:WorkflowViewState.IdRef="Decision_6" />
+                                </sbcpap:Phase.PhaseActivities>
+                                <sbcpap:Phase.Variables>
+                                  <sco:Collection x:TypeArguments="Variable" />
+                                </sbcpap:Phase.Variables>
+                              </sbcpap:Phase>
+                            </sbcpap:PhaseContainer.Phases>
+                            <sbcpap:PhaseContainer.Variables>
+                              <sco:Collection x:TypeArguments="Variable" />
+                            </sbcpap:PhaseContainer.Variables>
+                          </sbcpap:PhaseContainer>
+                        </State.Entry>
+                        <State.Transitions>
+                          <Transition DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Transition_39">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_ACCEPT" Description="Accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_16" SortOrder="1" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID21" DisplayName="Mindreårige Accepterer" sap2010:WorkflowViewState.IdRef="State_29">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_22" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Accept fra Partshøring" DisplayName="Accept" sap2010:WorkflowViewState.IdRef="Phase_22" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T17" sap2010:WorkflowViewState.IdRef="Transition_38" To="{x:Reference __ReferenceID0}" />
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ingen svar" sap2010:WorkflowViewState.IdRef="Transition_41">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOANSWER" Description="Ingen svar" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_17" SortOrder="3" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <State x:Name="__ReferenceID20" DisplayName="Mindreårige Ingen svar" sap2010:WorkflowViewState.IdRef="State_30">
+                                <State.Entry>
+                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="sbcps:Phase" Name="_phase" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF1" />
+                                      <Variable x:TypeArguments="sbcps:DocumentDispatchInfo" Name="_dispatchInfo" />
+                                      <Variable x:TypeArguments="x:Boolean" Name="_dispatchResult" />
+                                      <Variable x:TypeArguments="sbcps:Case" Name="_case" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF1" />
+                                      <Variable x:TypeArguments="x:String" Name="CreatedDocIdF2" />
+                                      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_casecontactsF2" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateAfgoerelseTilflytter" />
+                                      <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="DocumentTemplateAfgoerelseFraflytter" />
+                                    </Sequence.Variables>
+                                    <sbcpap:PhaseContainer sap2010:WorkflowViewState.IdRef="PhaseContainer_28" ProgressPlanId="[ProgressPlanId]">
+                                      <sbcpap:PhaseContainer.Phases>
+                                        <sbcpap:Phase ActivityCategoryId="{x:Null}" Complexity="{x:Null}" DeadlineAction="{x:Null}" IsFinalPhase="{x:Null}" Notes="{x:Null}" WarningAction="{x:Null}" AutoCloseActivitiesWhenPhaseIsClosed="False" CalculateOnActivation="False" DeadlineInDays="[5]" Description="Ingen svar fra Partshøring" DisplayName="Ingen svar fra Partshøring" sap2010:WorkflowViewState.IdRef="Phase_28" ReuseOnLoop="False" WarningInDays="[3]">
+                                          <sbcpap:Phase.PhaseActivities>
+                                            <sco:Collection x:TypeArguments="Activity" />
+                                          </sbcpap:Phase.PhaseActivities>
+                                          <sbcpap:Phase.Variables>
+                                            <sco:Collection x:TypeArguments="Variable" />
+                                          </sbcpap:Phase.Variables>
+                                        </sbcpap:Phase>
+                                      </sbcpap:PhaseContainer.Phases>
+                                      <sbcpap:PhaseContainer.Variables>
+                                        <sco:Collection x:TypeArguments="Variable" />
+                                      </sbcpap:PhaseContainer.Variables>
+                                    </sbcpap:PhaseContainer>
+                                    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_14">
+                                      <sbcpa:ContextBinder.Parameters>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Get Case ID" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_12" Parameters="[{ProgressPlanId}]" Result="[_caseId]" WorkUnit="getCaseId =&gt; BFC1ABE0-CE1D-4AB5-9B76-A757BFF51DA8" />
+                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_45">
+                                          <Assign.To>
+                                            <OutArgument x:TypeArguments="sbcps:Case">[_case]</OutArgument>
+                                          </Assign.To>
+                                          <Assign.Value>
+                                            <InArgument x:TypeArguments="sbcps:Case">[[Get].Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_caseid)]</InArgument>
+                                          </Assign.Value>
+                                        </Assign>
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Afgørelse, Fraflytter" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_41" Parameters="[{&quot;300015&quot;}]" Result="[DocumentTemplateAfgoerelseFraflytter]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse (Mindreårige) til Fraflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_35" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateAfgoerelseFraflytter(&quot;CaseContactRoleRecno&quot;), DocumentTemplateAfgoerelseFraflytter(&quot;DocumentTemplateRecno&quot;), DocumentTemplateAfgoerelseFraflytter(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:CallWorkUnitFunc x:TypeArguments="scg:Dictionary(x:String, x:String)" DisplayName="DocTemplate Afgørelse, Tilflytter" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_42" Parameters="[{&quot;300016&quot;}]" Result="[DocumentTemplateAfgoerelseTilflytter]" WorkUnit="GetDocumentTemplate =&gt; FU6F41EA47-A4ED-43D2-B191-33E2019E6EDE" />
+                                        <sbcpa:CallWorkUnitAction WaitFor="{x:Null}" DisplayName="&quot;Afgørelse (Mindreårige) til Tilflytterforælder&quot;" sap2010:WorkflowViewState.IdRef="CallWorkUnitAction_36" Parameters="[{ProgressPlanId, _caseid, DocumentTemplateAfgoerelseTilflytter(&quot;CaseContactRoleRecno&quot;), DocumentTemplateAfgoerelseTilflytter(&quot;DocumentTemplateRecno&quot;), DocumentTemplateAfgoerelseTilflytter(&quot;DocumentTitle&quot;)}]" WorkUnit="CreateAndSendOutBoundDocument =&gt; Fu0A33AE8F-0EB3-4D2A-B996-DB46A0AB71EF" />
+                                        <sbcpa:ClosePhase sap2010:WorkflowViewState.IdRef="ClosePhase_13" PhaseId="[_case.GetActivePhaseInstance().Id.ToString()]" />
+                                      </sbcpa:ContextBinder.Parameters>
+                                    </sbcpa:ContextBinder>
+                                  </Sequence>
+                                </State.Entry>
+                                <State.Transitions>
+                                  <Transition DisplayName="T18" sap2010:WorkflowViewState.IdRef="Transition_40" To="{x:Reference __ReferenceID0}" />
+                                </State.Transitions>
+                              </State>
+                            </Transition.To>
+                          </Transition>
+                          <Transition DisplayName="Ikke accept" sap2010:WorkflowViewState.IdRef="Transition_42">
+                            <Transition.Trigger>
+                              <sbcpap:WaitForDecision BookmarkName="DECISION_NOACCEPT" Description="Ikke accept" Hidden="False" sap2010:WorkflowViewState.IdRef="WaitForDecision_18" SortOrder="2" />
+                            </Transition.Trigger>
+                            <Transition.To>
+                              <x:Reference>__ReferenceID4</x:Reference>
+                            </Transition.To>
+                          </Transition>
+                        </State.Transitions>
+                      </State>
+                    </Transition.To>
+                  </Transition>
+                </State.Transitions>
+              </State>
+            </Transition.To>
+          </Transition>
+        </State.Transitions>
+      </State>
+    </StateMachine.InitialState>
+    <x:Reference>__ReferenceID5</x:Reference>
+    <x:Reference>__ReferenceID6</x:Reference>
+    <x:Reference>__ReferenceID7</x:Reference>
+    <x:Reference>__ReferenceID8</x:Reference>
+    <x:Reference>__ReferenceID9</x:Reference>
+    <x:Reference>__ReferenceID10</x:Reference>
+    <x:Reference>__ReferenceID4</x:Reference>
+    <x:Reference>__ReferenceID11</x:Reference>
+    <x:Reference>__ReferenceID12</x:Reference>
+    <x:Reference>__ReferenceID13</x:Reference>
+    <x:Reference>__ReferenceID14</x:Reference>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID15</x:Reference>
+    <x:Reference>__ReferenceID16</x:Reference>
+    <x:Reference>__ReferenceID3</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID17</x:Reference>
+    <x:Reference>__ReferenceID18</x:Reference>
+    <x:Reference>__ReferenceID19</x:Reference>
+    <x:Reference>__ReferenceID20</x:Reference>
+    <x:Reference>__ReferenceID21</x:Reference>
+    <x:Reference>__ReferenceID22</x:Reference>
+    <StateMachine.Variables>
+      <Variable x:TypeArguments="x:String" Name="_caseid" />
+      <Variable x:TypeArguments="x:Int32" Name="_phaseid" />
+    </StateMachine.Variables>
+    <sads:DebugSymbol.Symbol>d15DOlxQcm9ncmFtIEZpbGVzICh4ODYpXFNvZnR3YXJlIElubm92YXRpb25cMzYwXHdvcmt1bml0c1xDdXN0b21cZURvY0dlbmVyaWNcZURvY0dlbmVyaWNCRi54YW1spgMuA8IHEgIBAb8EF9gFHwMBywSLBA/cBRcDAZQEMAekBw8DAYUETQ+DBBcDAc4D9gEv9gGiAQMBzAPaBB+PBScDAZoDxgIf+wMnAwGNA+QFD6AHFwMB2wKHARf/Ax8DAcoCmQYXnAcfAwG5ApcFH8wFJwMBhwLVASf9AS8DAecB3gIn6wMvAwHkAfMDJ/cDLwMB4QHiAi/nAzcDAdMB/AI3xAM/AwHAAZgDP8ADRwMBswGwA0e0A08DAbABoAEfgQInAgF+iQIfvgInAgFM2wYfkAcnAgEasgYf0wYnAgEPzAM34wM/AgECwQQb0gQmAwHQBNcEH9cEvgEDAc8ElAUflAXEAQMBzgTRBR/RBcUBAwHNBI0EE7oEHgMBlwQyC0UWAwGKBEoPSrQBAwGJBIgED4gEtAEDAYgE4QUP4QWvAQMBhwRPE4IBHgMB0QPcBCOKBS4DAZ0DyAIj1gI7AwGRA9sCJ9sC0gEDAZAD8AMn8APUAQMBjwPmBROUBh4DAd4CiQEbmAEzAwHPAp0BH50BvwEDAc4ChgIfhgLFAQMBzQLDAh/DAsYBAwHMApsGG6oGMwMBvgKvBh+vBr8BAwG9AtgGH9gGxQEDAbwClQcflQfGAQMBuwKZBSPHBS4DAYoC1wEr8QE2AwHqAeQCM/QCPgMB1wH5Ajf5ApwCAwHWAckDN8kD9AEDAdUB/gI7kANGAwHDAZUDP5UD7wEDAcIBmgNDqANbAwG3Aa0DR60D7AEDAbYBuQNHuQPrAQMBtQGiASPQAS4DAYEBiwIjuQIuAgFP3QYjiwcuAgEdtAYjzgYuAgESzgM73gNGAgEFwgQd0QQ1AwHRBJQEFZgEKwMBxgSZBBWnBC0DAb8EqAQVuQQrAwGYBDYNRCUDAYsEXBVgKwMBgARhFW8tAwH5A3AVgQErAwHSA+kEJfcEPQMBxQP4BCWJBTsDAZ4DyAJ9yAKPAQMBkgPKAifRAjYDAZQD8wUVgQYtAwGGA4IGFZMGKwMB3wKJAXWJAYcBAwHQAosBH5MBLgMB0gKbBnWbBocBAwG/Ap0GH6UGLgMBwQKmBSW0BT0DAbICtQUlxgU7AwGLAtgBLdgBpwIDAYEC2QEt2QH4AQMB/QHaAS3oAUUDAfIB6QEt6QGBAQMB8QHqAS3wAUMDAesB5QI18wJNAwHYAf8CPY8DVQMBxAGaA50BmgOvAQMBuAGcA0ejA1YDAboBrwElvQE9AwGpAb4BJc8BOwMBggGYAiWmAj0CAXenAiW4AjsCAVDqBiX4Bj0CAUX5BiWKBzsCAR6/BiXNBj0CARPPAz3dA1UCAQbCBHbCBIgBAwHSBMQEIcwEMAMB1ASWBBmWBKwCAwHHBJkEbpkEgAEDAcAEmwQZogQoAwHCBKoEGaoEkgIDAbkEqwQZqwTnAgMBtASsBBmsBP0DAwGsBK0EGa0E3gIDAacErgQZrgTwAwMBnwSvBBm2BCIDAZsEtwQZtwSVAQMBmQQ2ZjZ4AwGMBDgRPyADAY4EXhlerAIDAYEEYW5hgAEDAfoDYxlqKAMB/ANyGXKSAgMB8wNzGXoiAwHvA3sZe+cCAwHqA3wZfIkEAwHiA30Zfd4CAwHdA34ZfvwDAwHVA38Zf5UBAwHTA+kEfukEkAEDAcYD6wQp8gQ4AwHIA/oEKfoEogIDAb8D+wQp+wT3AgMBugP8BCn8BJoEAwGyA/0EKf0E6gIDAa0D/gQp/gSGBAMBpQP/BCmGBTIDAaEDhwUphwWlAQMBnwPKAsYDygLLAwMBlwPKAp8CygKkAgMBlgPKArECygLOAgMBlQPMAivMAqMCAwGYA/MFb/MFgQEDAYcD9QUZ/AUoAwGJA4QGGYQGkgIDAYADhQYZjAYiAwH8Ao0GGY0G8gIDAfcCjgYZjgaRBAMB7wKPBhmPBvMCAwHqApAGGZAGkQQDAeICkQYZkQaVAQMB4AKLAZ4DiwGjAwMB1QKLAZcCiwGcAgMB1AKLAakCiwG2AgMB0wKNASONAZwDAwHYAo4BI44BmAIDAdYCnQa7A50GwAMDAcQCnQaWAp0GmwIDAcMCnQaoAp0GxAIDAcICnwYjnwbHAwMBxwKgBiOgBpoCAwHFAqYFf6YFkQEDAbMCqAUprwU4AwG1ArcFKbcFogIDAawCuAUpuAX3AgMBpwK5BSm5BZgEAwGfAroFKboF6gIDAZoCuwUpuwWFBAMBkgK8BSnDBTIDAY4CxAUpxAWlAQMBjALYAb0B2AHRAQMBhQLYAdkB2AHkAQMBgwLYAe4B2AGkAgMBggLZAUnZAVQDAf8B2QFi2QFyAwH+AdoBhwHaAZkBAwHzAdwBMeMBQAMB9QHsATHuATwDAewB5QKPAeUCoQEDAdkB5wI57gJIAwHbAf8ClwH/AqkBAwHFAYEDQYoDUAMBxwGcA8wDnAPRAwMBvQGcA78CnAPEAgMBvAGcA9ECnAPhAgMBuwGeA0ueA60CAwG+Aa8Bf68BkQEDAaoBsQEpuAE4AwGsAcABKcABogIDAaMBwQEpyAEyAwGfAckBKckB9wIDAZoBygEpygGbBAMBkgHLASnLAe4CAwGNAcwBKcwBjAQDAYUBzQEpzQGlAQMBgwGYAn+YApEBAgF4mgIpoQI4AgF6qQIpqQKjAgIBcaoCKbECMgIBbbICKbIC9wICAWizAimzApgEAgFgtAIptALqAgIBW7UCKbUChQQCAVO2Aim2AqYBAgFR6gZ/6gaRAQIBRuwGKfMGOAIBSPsGKfsGowICAT/8BimDBzICATuEBymEB4ADAgE2hQcphQeqBAIBLoYHKYYHgAMCASmHBymHB6oEAgEhiAcpiAemAQIBH78Gf78GkQECARTBBinIBjgCARbPA5cBzwOpAQIBB9EDQdgDUAIBCcQEnwPEBKQDAwHXBMQEmQLEBJ4CAwHWBMQEqwLEBLgCAwHVBMYEJcYEngMDAdoExwQlxwSaAgMB2ASWBLsBlgTPAQMByQSWBNkBlgSpAgMByASbBJ8DmwSkAwMBxQSbBJECmwSWAgMBxASbBKMCmwS0AgMBwwSqBKgBqgS8AQMBvQSqBMQBqgTPAQMBuwSqBNkBqgSPAgMBugSrBNQBqwTsAQMBuASrBPQBqwSYAgMBtgSrBKICqwTkAgMBtQSsBMEBrASkAwMBrgSsBK4DrAT6AwMBrQStBM8BrQTnAQMBqwStBO8BrQSPAgMBqQStBJkCrQTbAgMBqASuBMABrgSXAwMBoQSuBKEDrgTtAwMBoAS0BEa0BIoBAwGeBLEER7EETgMBnAS3BGK3BJIBAwGaBDiZAzieAwMBkQQ4iQI4jgIDAZAEOJsCOLECAwGPBDoVOsQCAwGSBF67AV7PAQMBgwRe2QFeqQIDAYIEY58DY6QDAwH/A2ORAmOWAgMB/gNjowJjtAIDAf0DcqgBcrwBAwH3A3LEAXLPAQMB9QNy2QFyjwIDAfQDeEZ4igEDAfIDdUd1TgMB8AN71AF77AEDAe4De/QBe5gCAwHsA3uiAnvkAgMB6wN8zQF8sAMDAeQDfLoDfIYEAwHjA33PAX3nAQMB4QN97wF9jwIDAd8DfZkCfdsCAwHeA37MAX6jAwMB1wN+rQN++QMDAdYDf2J/kgEDAdQD6wSdA+sEogMDAcsD6wShAusEpgIDAcoD6wSzAusEuwIDAckD+gS4AfoEzAEDAcMD+gTUAfoE3wEDAcED+gTpAfoEnwIDAcAD+wTkAfsE/AEDAb4D+wSEAvsEqAIDAbwD+wSyAvsE9AIDAbsD/ATeAfwEwQMDAbQD/ATLA/wElwQDAbMD/QTdAf0E9QEDAbED/QT9Af0EmwIDAa8D/QSlAv0E5wIDAa4D/gTcAf4ErQMDAacD/gS3A/4EgwQDAaYDhAVWhAWaAQMBpAOBBVeBBV4DAaIDhwVyhwWiAQMBoAPMArkBzALPAQMBmQP1BZgD9QWdAwMBjAP1BZEC9QWWAgMBiwP1BaMC9QWwAgMBigOEBqgBhAa8AQMBhAOEBsQBhAbPAQMBggOEBtkBhAaPAgMBgQOKBkaKBooBAwH/AocGR4cGTgMB/QKNBtoBjQbyAQMB+wKNBvoBjQajAgMB+QKNBq0CjQbvAgMB+AKOBsYBjga4AwMB8QKOBsIDjgaOBAMB8AKPBtsBjwbzAQMB7gKPBvsBjwakAgMB7AKPBq4CjwbwAgMB6wKQBsYBkAa4AwMB5AKQBsIDkAaOBAMB4wKRBmKRBpIBAwHhAo0BsAKNAb0CAwHaAo0BkwONAZkDAwHZAo4BsQGOAcYBAwHXAp8GzAKfBugCAwHJAp8GvgOfBsQDAwHIAqAGsQGgBscBAwHGAqgFqAOoBa0DAwG4AqgFoQKoBaYCAwG3AqgFswKoBcACAwG2ArcFuAG3BcwBAwGwArcF1AG3Bd8BAwGuArcF6QG3BZ8CAwGtArgF5AG4BfwBAwGrArgFhAK4BagCAwGpArgFsgK4BfQCAwGoArkF3AG5Bb8DAwGhArkFyQO5BZUEAwGgAroF3QG6BfUBAwGeAroF/QG6BZsCAwGcAroFpQK6BecCAwGbArsF2wG7BawDAwGUArsFtgO7BYIEAwGTAsEFVsEFmgEDAZECvgVXvgVeAwGPAsQFcsQFogEDAY0C3AHCA9wBxwMDAfgB3AGpAtwBrgIDAfcB3AG7AtwB0QIDAfYB3gE13gHFAwMB+QHtATPtAZQCAwHtAecC0gPnAtcDAwHeAecCsQLnArYCAwHdAecCwwLnAt0CAwHcAekCPekCywIDAd8BgQPUA4ED2QMDAcoBgQO5AoEDvgIDAckBgQPLAoED4gIDAcgBgwNFgwPUAwMB0AGEA0WEA9QDAwHNAYUDRYUDxQIDAcsBngPZAZ4D5AEDAb8BsQGeA7EBowMDAa8BsQGhArEBpgIDAa4BsQGzArEBuwIDAa0BwAG4AcABzAEDAacBwAHUAcAB3wEDAaUBwAHpAcABnwIDAaQBxgFWxgGaAQMBogHDAVfDAV4DAaAByQHkAckB/AEDAZ4ByQGEAskBqAIDAZwByQGyAskB9AIDAZsBygHfAcoBwgMDAZQBygHMA8oBmAQDAZMBywHfAcsB9wEDAZEBywH/AcsBnwIDAY8BywGpAssB6wIDAY4BzAHcAcwBswMDAYcBzAG9A8wBiQQDAYYBzQFyzQGiAQMBhAGaAqYDmgKrAwIBfZoCoQKaAqYCAgF8mgKzApoCvwICAXupArkBqQLNAQIBdakC1QGpAuABAgFzqQLqAakCoAICAXKvAlavApoBAgFwrAJXrAJeAgFusgLkAbIC/AECAWyyAoQCsgKoAgIBarICsgKyAvQCAgFpswLcAbMCvwMCAWKzAskDswKVBAIBYbQC3QG0AvUBAgFftAL9AbQCmwICAV20AqUCtALnAgIBXLUC2wG1AqwDAgFVtQK2A7UCggQCAVS2AnO2AqMBAgFS7AbGA+wGywMCAUvsBqEC7AamAgIBSuwGswLsBs8CAgFJ+wa5AfsGzQECAUP7BtUB+wbgAQIBQfsG6gH7BqACAgFAgQdWgQeaAQIBPv4GV/4GXgIBPIQH6QGEB4ECAgE6hAeJAoQHsQICATiEB7sChAf9AgIBN4UH4gGFB9EDAgEwhQfbA4UHpwQCAS+GB+kBhgeBAgIBLYYHiQKGB7ECAgErhge7AoYH/QICASqHB+IBhwfRAwIBI4cH2wOHB6cEAgEiiAdziAejAQIBIMEGrgPBBrMDAgEZwQahAsEGpgICARjBBrMCwQbLAgIBF9ED2APRA90DAgEM0QO5AtEDvgICAQvRA8sC0QPkAgIBCtMDRdMDugICAQ3GBLICxgS/AgMB3ATGBJUDxgSbAwMB2wTHBLMBxwTIAQMB2QQ6owE61QEDAZME3gHxAt4BhQMDAfwB3gG8A94BwgMDAfsB3gGrAt4B5AIDAfoB7QHCAe0BzwEDAe8B7QHZAe0BkQIDAe4B6QLLAekC+wEDAeABgwPMAoMD8gIDAdIBgwOSAoMDvwIDAdEBhAPMAoQD8gIDAc8BhAOSAoQDvwIDAc4BhQPTAYUD7QEDAcwB0wPTAdMD7AECAQ4=</sads:DebugSymbol.Symbol>
+  </StateMachine>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Decision_3" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_6" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_6" sap:VirtualizedContainerService.HintSize="228,194" />
+      <sap2010:ViewStateData Id="Sequence_20" sap:VirtualizedContainerService.HintSize="250,318">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_4" sap:VirtualizedContainerService.HintSize="200,52" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_15" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="ContextBinder_17" sap:VirtualizedContainerService.HintSize="256,108" />
+      <sap2010:ViewStateData Id="Phase_8" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_8" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_33" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_30" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_34" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_31" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ClosePhase_2" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_4" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="278,902">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitTask_2" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Decision_5" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_11" sap:VirtualizedContainerService.HintSize="214,155" />
+      <sap2010:ViewStateData Id="PhaseContainer_11" sap:VirtualizedContainerService.HintSize="228,241" />
+      <sap2010:ViewStateData Id="WaitForDecision_13" sap:VirtualizedContainerService.HintSize="201,52" />
+      <sap2010:ViewStateData Id="Phase_20" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_20" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_7" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_43" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_35" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_39" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_36" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_40" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ClosePhase_8" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_9" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_9" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_20" sap:VirtualizedContainerService.HintSize="236,22" />
+      <sap2010:ViewStateData Id="SetCaseStatus_2" sap:VirtualizedContainerService.HintSize="236,22" />
+      <sap2010:ViewStateData Id="WaitTask_4" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_15" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_15" sap:VirtualizedContainerService.HintSize="236,194" />
+      <sap2010:ViewStateData Id="WaitForPhaseClosed_1" sap:VirtualizedContainerService.HintSize="236,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_17" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Sequence_21" sap:VirtualizedContainerService.HintSize="222,146">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ContextBinder_18" sap:VirtualizedContainerService.HintSize="236,232" />
+      <sap2010:ViewStateData Id="Sequence_15" sap:VirtualizedContainerService.HintSize="258,776">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_6" sap:VirtualizedContainerService.HintSize="114,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">813,1549.5</av:Point>
+            <av:Size x:Key="ShapeSize">114,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_48">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">885.7,1380.5 885.7,1410.5 870,1410.5 870,1549.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_17" sap:VirtualizedContainerService.HintSize="114,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">823,1319.5</av:Point>
+            <av:Size x:Key="ShapeSize">114,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_33">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">819,515.5 819,545.5 919.9,545.5 919.9,1319.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">66</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_27" sap:VirtualizedContainerService.HintSize="180,71">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">720,444.5</av:Point>
+            <av:Size x:Key="ShapeSize">180,71</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">166</x:Double>
+            <x:Double x:Key="StateContainerHeight">35.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_34" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">870,403 870,433 801,433 801,444.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_14" sap:VirtualizedContainerService.HintSize="225,52" />
+      <sap2010:ViewStateData Id="Phase_27" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_27" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_11" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_44" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_37" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_37" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_38" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_38" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ClosePhase_12" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_13" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_17" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_35">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1054.6,516.5 1054.6,1334.75 937,1334.75</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">51</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">16</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_28" sap:VirtualizedContainerService.HintSize="164,73">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">948,443.5</av:Point>
+            <av:Size x:Key="ShapeSize">164,73</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">150</x:Double>
+            <x:Double x:Key="StateContainerHeight">37.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_36" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">895,403 895,433 1021.8,433 1021.8,443.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">55</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_15" sap:VirtualizedContainerService.HintSize="219,52" />
+      <sap2010:ViewStateData Id="Decision_10" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_25" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_25" sap:VirtualizedContainerService.HintSize="228,194" />
+      <sap2010:ViewStateData Id="WaitForDecision_9" sap:VirtualizedContainerService.HintSize="223,52" />
+      <sap2010:ViewStateData Id="Decision_13" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_16" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_16" sap:VirtualizedContainerService.HintSize="228,194" />
+      <sap2010:ViewStateData Id="Sequence_13" sap:VirtualizedContainerService.HintSize="250,318">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_19" sap:VirtualizedContainerService.HintSize="316,52" />
+      <sap2010:ViewStateData Id="ClientAction_3" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="ClientAction_4" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Decision_17" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_26" sap:VirtualizedContainerService.HintSize="214,260" />
+      <sap2010:ViewStateData Id="PhaseContainer_26" sap:VirtualizedContainerService.HintSize="228,346" />
+      <sap2010:ViewStateData Id="Sequence_16" sap:VirtualizedContainerService.HintSize="250,470">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_23" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Decision_12" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_18" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_18" sap:VirtualizedContainerService.HintSize="228,194" />
+      <sap2010:ViewStateData Id="WaitForDecision_12" sap:VirtualizedContainerService.HintSize="210,52" />
+      <sap2010:ViewStateData Id="Transition_31" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">826.1,1232 826.1,1262 857.2,1262 857.2,1319.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">51</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">22</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_24" sap:VirtualizedContainerService.HintSize="174,84">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">713,1148</av:Point>
+            <av:Size x:Key="ShapeSize">174,84</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">160.40320825148021</x:Double>
+            <x:Double x:Key="StateContainerHeight">48.495764439081881</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_30" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">460.5,1211.5 460.5,1241.5 791.3,1241.5 791.3,1232</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">19</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">35</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_11" sap:VirtualizedContainerService.HintSize="218,52" />
+      <sap2010:ViewStateData Id="Transition_29" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">569.4,1211.5 569.4,1230 639,1230 639,1170 609,1170</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">63</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">36</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_21" sap:VirtualizedContainerService.HintSize="198,83">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">411,1128.5</av:Point>
+            <av:Size x:Key="ShapeSize">198,83</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">183.63702684562651</x:Double>
+            <x:Double x:Key="StateContainerHeight">46.647300747241445</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_44" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">510,1034 510,1128.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_23" sap:VirtualizedContainerService.HintSize="200,88">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">410,946</av:Point>
+            <av:Size x:Key="ShapeSize">200,88</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">186.15668843781168</x:Double>
+            <x:Double x:Key="StateContainerHeight">52.016634630605665</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_26" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">511.7,844.5 511.7,874.5 500,874.5 500,946</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">35</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_22" sap:VirtualizedContainerService.HintSize="307,52" />
+      <sap2010:ViewStateData Id="Decision_16" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_29" sap:VirtualizedContainerService.HintSize="214,108" />
+      <sap2010:ViewStateData Id="PhaseContainer_29" sap:VirtualizedContainerService.HintSize="228,194" />
+      <sap2010:ViewStateData Id="Sequence_19" sap:VirtualizedContainerService.HintSize="250,318">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_45">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">800.1,931.5 800.1,994.4 610,994.4</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">35</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">40</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_31" sap:VirtualizedContainerService.HintSize="198,83">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">711,848.5</av:Point>
+            <av:Size x:Key="ShapeSize">198,83</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">183.63702684562651</x:Double>
+            <x:Double x:Key="StateContainerHeight">46.647300747241445</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_46" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">647,801.3 800.1,801.3 800.1,848.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">40</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_20" sap:VirtualizedContainerService.HintSize="246,96">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">401,748.5</av:Point>
+            <av:Size x:Key="ShapeSize">246,96</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">232</x:Double>
+            <x:Double x:Key="StateContainerHeight">60.000000000000114</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_43" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">470,700.5 470,730.5 486.4,730.5 486.4,748.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">26</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_18" sap:VirtualizedContainerService.HintSize="157,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">391.5,639.5</av:Point>
+            <av:Size x:Key="ShapeSize">157,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">143.08197548015448</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_22" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">492.6,576.5 492.6,606.5 470,606.5 470,639.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">11</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_10" sap:VirtualizedContainerService.HintSize="235,51" />
+      <sap2010:ViewStateData Id="Transition_28" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">642.1,700.5 642.1,730.5 585.5,730.5 585.5,748.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">35</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">58</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_19" sap:VirtualizedContainerService.HintSize="158,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">571,639.5</av:Point>
+            <av:Size x:Key="ShapeSize">158,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">143.77102672967362</x:Double>
+            <x:Double x:Key="StateContainerHeight">25</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_23" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">582.8,576.5 582.8,606.5 642.1,606.5 642.1,639.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">55</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_12" sap:VirtualizedContainerService.HintSize="164,73">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">468,503.5</av:Point>
+            <av:Size x:Key="ShapeSize">164,73</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">150</x:Double>
+            <x:Double x:Key="StateContainerHeight">37.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_37" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">807.5,376.6 574.6,376.6 574.6,503.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">45</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">50</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_13" sap:VirtualizedContainerService.HintSize="125,66">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">807.5,337</av:Point>
+            <av:Size x:Key="ShapeSize">125,66</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">111</x:Double>
+            <x:Double x:Key="StateContainerHeight">30.000000000000114</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_9">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">857.2,280.5 857.2,310.5 870,310.5 870,337</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">23</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_9" sap:VirtualizedContainerService.HintSize="114,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">823,219.5</av:Point>
+            <av:Size x:Key="ShapeSize">114,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_10" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">894.4,192.5 880,192.5 880,219.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_3" sap:VirtualizedContainerService.HintSize="200,52" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_14" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="ContextBinder_16" sap:VirtualizedContainerService.HintSize="256,108" />
+      <sap2010:ViewStateData Id="Phase_5" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_5" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_1" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_29" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_28" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_30" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_29" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_42" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ClosePhase_3" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_3" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="278,902">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitTask_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Decision_4" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_4" sap:VirtualizedContainerService.HintSize="214,155" />
+      <sap2010:ViewStateData Id="PhaseContainer_4" sap:VirtualizedContainerService.HintSize="228,241" />
+      <sap2010:ViewStateData Id="Sequence_22" sap:VirtualizedContainerService.HintSize="250,365">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_5" sap:VirtualizedContainerService.HintSize="201,52" />
+      <sap2010:ViewStateData Id="Phase_9" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_9" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_3" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_31" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_41" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_32" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_42" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_12" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ClosePhase_4" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_5" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_11" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">109,585.5 109,615.5 220,615.5 220,1359.15 823,1359.15</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">49</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_11" sap:VirtualizedContainerService.HintSize="180,71">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">10,514.5</av:Point>
+            <av:Size x:Key="ShapeSize">180,71</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">166</x:Double>
+            <x:Double x:Key="StateContainerHeight">35.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_12" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">171.25,433 171.25,463 91,463 91,514.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">27</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_8" sap:VirtualizedContainerService.HintSize="225,52" />
+      <sap2010:ViewStateData Id="Phase_14" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_14" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_6" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_27" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_43" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_28" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_44" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_21" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="ClosePhase_7" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_8" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_8" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_21">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">310,586.5 310,1337.8 823,1337.8</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">21</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_16" sap:VirtualizedContainerService.HintSize="164,73">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">228,513.5</av:Point>
+            <av:Size x:Key="ShapeSize">164,73</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">150</x:Double>
+            <x:Double x:Key="StateContainerHeight">37.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_19" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">190,433 190,463 301.8,463 301.8,513.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_6" sap:VirtualizedContainerService.HintSize="219,52" />
+      <sap2010:ViewStateData Id="Transition_14" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">252.5,406.6 411,406.6 411,540 468,540</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">44</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">37</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_7" sap:VirtualizedContainerService.HintSize="125,66">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">127.5,367</av:Point>
+            <av:Size x:Key="ShapeSize">125,66</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">111</x:Double>
+            <x:Double x:Key="StateContainerHeight">30.000000000000114</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_7">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">197.1,330.5 197.1,360.5 165,360.5 165,367</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">51</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">22</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_8" sap:VirtualizedContainerService.HintSize="114,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">123,269.5</av:Point>
+            <av:Size x:Key="ShapeSize">114,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_8" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">736,145.25 191.4,145.25 191.4,269.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">41</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">46</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_7" sap:VirtualizedContainerService.HintSize="200,51" />
+      <sap2010:ViewStateData Id="Phase_12" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_12" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_5" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_18" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_39" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_32" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_40" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_33" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ClosePhase_6" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_7" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_7" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitTask_3" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Decision_6" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Phase_13" sap:VirtualizedContainerService.HintSize="214,155" />
+      <sap2010:ViewStateData Id="PhaseContainer_13" sap:VirtualizedContainerService.HintSize="228,241" />
+      <sap2010:ViewStateData Id="WaitForDecision_16" sap:VirtualizedContainerService.HintSize="201,52" />
+      <sap2010:ViewStateData Id="Phase_22" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_22" sap:VirtualizedContainerService.HintSize="214,162" />
+      <sap2010:ViewStateData Id="Sequence_11" sap:VirtualizedContainerService.HintSize="236,286">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_38">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1270,525.5 1270,1356.1 937,1356.1</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">44</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_29" sap:VirtualizedContainerService.HintSize="180,71">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">1180,454.5</av:Point>
+            <av:Size x:Key="ShapeSize">180,71</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">166</x:Double>
+            <x:Double x:Key="StateContainerHeight">35.080000000000041</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_39" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1346.25,413 1346.25,443 1261,443 1261,454.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_17" sap:VirtualizedContainerService.HintSize="225,52" />
+      <sap2010:ViewStateData Id="Phase_28" sap:VirtualizedContainerService.HintSize="200,76" />
+      <sap2010:ViewStateData Id="PhaseContainer_28" sap:VirtualizedContainerService.HintSize="256,162" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_12" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="Assign_45" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_41" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_35" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_42" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="CallWorkUnitAction_36" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ClosePhase_13" sap:VirtualizedContainerService.HintSize="242,22" />
+      <sap2010:ViewStateData Id="ContextBinder_14" sap:VirtualizedContainerService.HintSize="256,428" />
+      <sap2010:ViewStateData Id="Sequence_18" sap:VirtualizedContainerService.HintSize="278,754">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_40">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1446.2,516.5 1446.2,1371.35 937,1371.35</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">11</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">64</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_30" sap:VirtualizedContainerService.HintSize="326,1116">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">1418,453.5</av:Point>
+            <av:Size x:Key="ShapeSize">188,63</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">174</x:Double>
+            <x:Double x:Key="StateContainerHeight">27.079999999999927</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_41" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1365,413 1365,443 1492.8,443 1492.8,453.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">55</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">30</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="WaitForDecision_18" sap:VirtualizedContainerService.HintSize="219,52" />
+      <sap2010:ViewStateData Id="Transition_42" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1277.5,383.3 1220.6033608904,383.3 1220.6033608904,315.934508398132 500.8,315.934508398132 500.8,503.5</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">41</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">14</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_14" sap:VirtualizedContainerService.HintSize="125,66">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">1277.5,347</av:Point>
+            <av:Size x:Key="ShapeSize">125,66</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">111</x:Double>
+            <x:Double x:Key="StateContainerHeight">30.000000000000114</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_17" sap:VirtualizedContainerService.HintSize="430,512">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1364.5,182.5 1364.5,212.5 1333.75,212.5 1333.75,347</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">47</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_15" sap:VirtualizedContainerService.HintSize="145,85">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">1277.5,97.5</av:Point>
+            <av:Size x:Key="ShapeSize">145,85</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">131</x:Double>
+            <x:Double x:Key="StateContainerHeight">49.079999999999984</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Transition_18" sap:VirtualizedContainerService.HintSize="430,505">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:PointCollection x:Key="ConnectorLocation">1024,150.5 1054,150.5 1054,135.75 1277.5,135.75</av:PointCollection>
+            <x:Int32 x:Key="SrcConnectionPointIndex">44</x:Int32>
+            <x:Int32 x:Key="DestConnectionPointIndex">33</x:Int32>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="State_10" sap:VirtualizedContainerService.HintSize="288,105">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">736,87.5</av:Point>
+            <av:Size x:Key="ShapeSize">288,105</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Double x:Key="StateContainerWidth">274.07769060471918</x:Double>
+            <x:Double x:Key="StateContainerHeight">68.941992837993752</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="StateMachine_1" sap:VirtualizedContainerService.HintSize="1651,1725">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <av:Point x:Key="ShapeLocation">840,2.5</av:Point>
+            <x:Double x:Key="StateContainerWidth">1637</x:Double>
+            <x:Double x:Key="StateContainerHeight">1689.3930054430921</x:Double>
+            <av:PointCollection x:Key="ConnectorLocation">875,77.5 865.6,77.5 865.6,87.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="eDocGeneric_1" sap:VirtualizedContainerService.HintSize="1691,1805" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

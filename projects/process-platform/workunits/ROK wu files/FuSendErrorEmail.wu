@@ -1,0 +1,8 @@
+<workUnit displayName="Afsendelse af email til bruger, hvis doc2mail fejler" id="9AE71AA1-4AA3-4920-BF2F-871DC8001203" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Der sendes en mail til brugeren, hvis der sker en fejl ved afsendelse af mails via doc2mail</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

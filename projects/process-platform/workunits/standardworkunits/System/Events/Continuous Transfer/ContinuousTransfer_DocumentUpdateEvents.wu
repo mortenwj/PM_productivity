@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="5FE2724B-1FEA-44AF-AA53-F5BD9045F194"
+          displayName="[LOCALIZED(6CBCDCAC-61DA-4ACC-AE8C-DD382A9D7CB6,*After Document Update)]">
+  <description>[LOCALIZED(8DB7AA92-C4E9-444F-9169-78C149A0927E,*Event fired after Document update to check if the respective case has to be registered for continuous transfer)]</description>
+  <executable assemblyType="SI.Biz.Core.ContinuousTransfer.Events.ContinuousTransfer_DocumentUpdateEvents, SI.Biz.Core.ContinuousTransfer.Events">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"></argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.DocumentManagerEventShim" name="AfterUpdate"/>
+</workUnit>

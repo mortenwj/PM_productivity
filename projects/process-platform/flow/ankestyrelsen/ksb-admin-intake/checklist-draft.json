@@ -1,0 +1,154 @@
+{
+  "Name": "KSB administration — kontrol før frigivelse til fagkontor",
+  "Description": "Checkpoints from AST Adm Team KSB vejledning (tjekliste ud fra arbejdskopi). MilestoneType values are logical tags for Flow mapping — replace with tenant MilestoneTypeRecno on import.",
+  "ToApplicationType": "KSB-municipal-appeal",
+  "ToChecklistScope": 2,
+  "IsAllCaseType": 0,
+  "CheckPoints": [
+    {
+      "CheckpointId": "1",
+      "Name": "Sagen er oprettet med korrekt forløb, parter og sagsemne",
+      "Description": "Adgangsgruppe Administration, ansvarlig enhed Adm KSB, relevant forløb (typisk KSB 28 dage), klient og førsteinstans registreret, Anke modtaget-dato udfyldt.",
+      "MilestoneType": "ANKE_MODTAGET",
+      "CheckpointAnswerOption": 1,
+      "SortId": 1,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "2",
+      "Name": "Arbejdskopi er registreret og minimumsakter er gennemgået",
+      "Description": "Arbejdskopi 1 journaliseret. Bogmærker i rækkefølge: ankeskema, afgørelse, klage, genvurdering, fuldmagt/værge.",
+      "MilestoneType": "ANKE_MODTAGET",
+      "CheckpointAnswerOption": 1,
+      "SortId": 2,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "3",
+      "Name": "Afgørelse, klage og genvurdering foreligger på sagen",
+      "Description": "Hvis genvurdering alene mangler og øvrige akter er ok, betragtes indsendelsen som genvurdering — skriv ikke til kommunen.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 3,
+      "Outcome": {
+        "OutcomeValue": 2,
+        "OutcomeType": 6,
+        "OutcomeText": {
+          "Title": "Manglende minimumsakter",
+          "Description": "Send OPLY-2 til førsteinstans. Sæt status Afventer Ekstern. Fase 1 lukkes ikke."
+        }
+      }
+    },
+    {
+      "CheckpointId": "4",
+      "Name": "Datoer i ankeskema stemmer med dokumenternes faktiske datoer",
+      "Description": "Ved afvigelse: tilret arbejdskopi, dokumentkort og Supplerende oplysninger.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 4,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "5",
+      "Name": "Sagen er placeret i korrekt sagsemne",
+      "Description": "Verificér lovgrundlag i afgørelse/genvurdering mod journalplan. Omjournaliser ved behov.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 5,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "6",
+      "Name": "Korrekt antal sager er oprettet",
+      "Description": "Flere sager ved flere afgørelser/§§. Opret eller nedlæg sager jf. journalplan.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 6,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "7",
+      "Name": "Klager og partsroller er korrekt registreret",
+      "Description": "Borger = klient. Kommune = underinstans. Ved klage fra andre end borger: gyldig fuldmagt eller værgebeskikkelse.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 7,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "8",
+      "Name": "Fuldmagtsforhold er afklaret når klager ikke er borger selv",
+      "Description": "Partsrepræsentant eller værge ved gyldig dokumentation. Rolle 'ikke part' indtil afklaret.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 8,
+      "Outcome": {
+        "OutcomeValue": 2,
+        "OutcomeType": 6,
+        "OutcomeText": {
+          "Title": "Manglende eller ugyldig fuldmagt",
+          "Description": "Send relevant FULDM-brev. Frist 7/8 eller 14/15 dage. Status Afventer Ekstern."
+        }
+      }
+    },
+    {
+      "CheckpointId": "9",
+      "Name": "Klagefristen er overholdt eller korrekt henvist",
+      "Description": "Ved tvivl eller overskridelse: link til Adm Jura (ikke FRIST-6 fra KSB). Se klagefrist-vejledning.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 9,
+      "Outcome": {
+        "OutcomeValue": 2,
+        "OutcomeType": 6,
+        "OutcomeText": {
+          "Title": "Klagefrist ikke overholdt eller tvivl",
+          "Description": "Henvis til Adm Jura. Status Afventer Intern. FRIST-6 håndteres af Jura."
+        }
+      }
+    },
+    {
+      "CheckpointId": "10",
+      "Name": "Særlige oplysninger er håndteret korrekt",
+      "Description": "Alvorlig sygdom, haste fra km, tidligere indsendelse: kvitter og link bagvagt. Opsættende virkning og COVID: link uden forudgående kvittering.",
+      "MilestoneType": "SAGSKONTROL",
+      "CheckpointAnswerOption": 1,
+      "SortId": 10,
+      "Outcome": {
+        "OutcomeValue": 2,
+        "OutcomeType": 6,
+        "OutcomeText": {
+          "Title": "Særligt forhold kræver bagvagt",
+          "Description": "Send link til bagvagt jf. vejledning. Brug N30B ved haste på almindelig KSB-sag hvor relevant."
+        }
+      }
+    },
+    {
+      "CheckpointId": "11",
+      "Name": "Resume er opdateret med overlevering til fagkontor",
+      "Description": "Dato, initialer, beskrivelse af evt. uafklarede mangler (akter, fuldmagt) som fagkontor skal følge op på.",
+      "MilestoneType": "KVITTERING",
+      "CheckpointAnswerOption": 1,
+      "SortId": 11,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "12",
+      "Name": "Kvitteringsbrev er sendt til korrekt modtager",
+      "Description": "N30 til klient / N30A til partsrepræsentant via play, eller manuelt/rollebaseret skabelon. Roller skal være korrekte før afsendelse.",
+      "MilestoneType": "KVITTERING",
+      "CheckpointAnswerOption": 1,
+      "SortId": 12,
+      "Outcome": null
+    },
+    {
+      "CheckpointId": "13",
+      "Name": "Sagen er frigivet korrekt til fagkontor",
+      "Description": "Status Ny sag. Ansvarlig enhed = fagkontor. Adgangsgruppe Social og Beskæftigelse eller Social og Børn. Ansvarlig person blank. Fase 1 lukket.",
+      "MilestoneType": "FRIGIVET",
+      "CheckpointAnswerOption": 1,
+      "SortId": 13,
+      "Outcome": null
+    }
+  ]
+}

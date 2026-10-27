@@ -1,0 +1,7 @@
+<workUnit id="F417FA37-6BFA-43BB-BA11-DA610E6AE957" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" displayName="[LOCALIZED(DD76AA9C-1F34-44AF-8EAF-5AB921D7F531,*Execute pending dispatches)]">
+  <description>[LOCALIZED(DDAC3D29-E55F-4E41-B221-936CD33D9549,*Dispatches that users have started. Actual execution is done by this job to make process asynchronous)]</description>
+  <executable file="ProcessDispatch.xml">
+    <invoke />
+  </executable>
+  <job queue="Sys.Immediatly" runAs="SystemDefault" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

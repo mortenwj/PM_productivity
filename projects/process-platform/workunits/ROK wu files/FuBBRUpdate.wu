@@ -1,0 +1,8 @@
+<workUnit displayName="Opdaterer BBR oplysninger" id="6245ee34-1008-4f57-a87b-8ab7fd3924e6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Jobbet henter deltafiler fra Datafordeleren med ændringer foretaget hos BBR indenfor det sidste døgn</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

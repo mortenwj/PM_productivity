@@ -1,0 +1,11 @@
+<workUnit displayName="[LOCALIZED(96FBBF37-FA63-42A2-BD18-D64C37254202,*Delete old items from QueueHistory)]" id="2FC8ED4E-8EA6-41B2-8CF4-DDC5DB898D83" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd">
+  <description>[LOCALIZED(4484538C-6DA5-41EA-9C33-C66AAA7C43D4,*Delete old items from queue history (number of days specified by 'DaysSinceLastStatusChange' parameter))]</description>
+  <executable assemblyType="SI.Biz.Core.DependencyQueue.Jobs.RemoveOldHistoryItems, SI.Biz.Core.DependencyQueue, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke>
+      <arguments>
+        <argument name="DaysSinceLastStatusChange" type="int">365</argument>
+      </arguments>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

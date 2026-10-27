@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="657B58D9-3839-498A-BC22-9942AA43DAEA"
+      displayName="[LOCALIZED(0302965D-D5D1-46EA-BB0C-0FF6845DF11C,*Inactive case notification)]">
+  <description>[LOCALIZED(5B01E36F-0808-401F-A00A-667DC3E07B1D,*Job that checks if there are cases that have been inactive for a certain number of days and based on that triggers notification to be sent. The days are specified per case type in the code table for "Case type")]"</description>
+  <executable file="InactiveCaseNotifications.xml">
+    <invoke/>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"></job>
+</workUnit>

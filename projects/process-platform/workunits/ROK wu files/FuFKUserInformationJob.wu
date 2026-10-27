@@ -1,0 +1,8 @@
+﻿<workUnit displayName="FK Organisation synkronisering af brugere" id="aa07c2f4-3924-4d44-8558-7b77d4894582" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Synkroniserer de brugerer og deres informationer fra FK Organisation - SF1500 V6</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

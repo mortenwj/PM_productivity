@@ -1,0 +1,7 @@
+<workUnit displayName="[LOCALIZED(E68B45E8-CB46-4F51-80BE-9A35C670B7A0,*Update Database Statistics)]" id="5ABE7C0F-F949-4982-88A2-77C66CD92212" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>[LOCALIZED(DE4EE09A-45D3-47F8-AAD3-535C3C984FB0,*Update database statistics to improve performance)]</description>
+	<executable>
+		<invoke/>
+	</executable>
+	<job queue="Sys.Hourly" runAs="SystemDefault" resultType="none"/>
+</workUnit>

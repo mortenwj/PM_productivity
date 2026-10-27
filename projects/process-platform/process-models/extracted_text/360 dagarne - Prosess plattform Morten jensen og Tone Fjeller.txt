@@ -1,0 +1,362 @@
+Public 360° som motor for ende-til-ende-prosesser
+Mer enn arkiv. Mer enn oppgaver.
+Morten Jensen, Head of Product Management, Public 
+360°
+Tone Fjeller, Product Development Manager, Public 
+360°
+29/1-2026
+
+---
+
+Prosessmodeller
+ – 
+Bakgrunn
+, 
+behov
+ og 
+retning
+ 
+fremover
+10
+Internal
+
+---
+
+For mange klikk – for lite flyt
+Vanskelig å få full oversikt over status i saken
+Ulik praksis mellom avdelinger og enheter
+Saksbehandlingen består av mange manuelle steg
+Kjenner dere dere igjen
+?
+
+---
+
+Gjennomført spørreundersøkelse for å kartlegge prosesser og identifisert automatiseringspotensial
+Svarene representerer et bredt utvalg av vår kundemasse – både kommuner og statlige virksomheter – og gir et tydelig bilde av behovene i sektoren.
+12
+
+---
+
+Én sammenhengende prosess
+Felles struktur og flyt
+All relevant informasjon på ett sted
+Fra arkiv og enkeltoppgaver – til ende-til-ende-prosesser
+Dokument inn / dokument ut
+Enkeltoppgaver
+Informasjon fordelt i mange faner
+Public 360° går fra å støtte arbeid – til å styre prosesser.
+Til
+Fra
+
+---
+
+Public 360°, versjon 6.6- Forløp- 
+Fra: 
+Enkeltoppgaver
+, 
+dokument
+ inn/
+ut
+, 
+informasjon
+ 
+tilgjengelig
+ i 
+flere
+ 
+faner
+14
+14
+
+---
+
+15
+Til: En 
+prosessorientert
+ 
+arbeidsflate
+ med 
+nødvendig
+ 
+informasjon
+ 
+på
+ 
+ett
+ 
+sted
+-
+ Public 360°, versjon 6.7/6.8- Prosess
+
+---
+
+  
+16
+Internal
+Neste generasjon prosessmodeller – struktur, flyt og full kontroll
+.
+
+---
+
+  
+17
+Internal
+Prosessmodell- Kjernekomponenter 
+
+---
+
+En komplett prosess fra innsending til oppfølging – automatisert og effektiv-
+ Public 360° Collect
+18
+
+---
+
+19
+
+---
+
+Problemet
+2
+I offentlig 
+saksbehandling
+ bliver vi hele tiden bedt om to ting på én gang.
+Vi skal behandle sager ens –
+og samtidig håndtere, at ingen sager er ens
+Det er ikke et 
+kompetanseproblem.Det
+ er et strukturproblem
+
+---
+
+20
+
+---
+
+21
+
+---
+
+22
+
+---
+
+23
+
+---
+
+24
+
+---
+
+25
+
+---
+
+Eksempel på ende-til-ende-prosess for digital søknadsbehandling med Public
+ 
+360° 
+26
+ 
+= 
+M
+indre manuelt arbeid, bedre kvalitet og en mer forutsigbar tjeneste for alle
+Effektiv og transparent saksbehandling
+
+---
+
+Hva betyr det for dere? 
+27
+
+---
+
+Leveranseformer
+ Enkel 
+prosessleveranse
+ 
+Nå
+Prosessmodell-rammeverk
+Snart
+Hosted 
+tjeneste
+ (
+standardisert
+)
+Senere
+Hvordan
+ 
+kommer
+ dere 
+videre
+?
+28
+
+---
+
+Tak
+29
+
+---
+
+Den grunnleggende spenningen i saksbehandlingen
+3
+Lik behandling – men 
+ulike
+ 
+saker
+Standardisering – men lokale behov
+Kontroll
+ og 
+etterlevelse
+ – men effektiv flyt
+
+---
+
+Effektivitet
+Likabehandling
+Förutsägbarhet
+Översikt 
+och
+ kontroll 
+Automatisera hela ärenderesan. Processtöd E2E 
+för bättre kvalitet 
+
+---
+
+Individuel standard
+5
+Standardisering sikrer kvalitet og ligebehandling
+Fleksibilitet gør det muligt at håndtere virkelige sager
+Regler og frister er bygget ind – ikke lagt ovenpå
+Ingen specialløsninger, ingen upgrade-gæld
+
+---
+
+6
+Hvordan gjør vi individuell standard mulig?
+Én felles struktur for hele saken – fra start til slutt
+Automatisert
+ flyt som sikrer at 
+riktig
+ 
+skjer
+ til 
+riktig
+ tid
+Regler og frister bygget inn i prosessen, ikke i hodene våre
+6
+
+---
+
+7
+7
+Kjernen
+ i 
+prosessrammeverket
+Tre 
+hovedkomponenter
+ 
+utgjør
+ 
+selve
+ 
+motoren
+ i Public 360° 
+Prosessrammeverk
+. Disse 
+arbeider
+ 
+sammen
+ for å 
+skape
+ 
+sømløse
+, 
+automatiserte
+ 
+arbeidsprosesser
+ 
+som
+ 
+sikrer
+ 
+kvalitet
+ og 
+etterlevelse
+.
+Prosessmodell
+Sikrer
+ 
+felles
+ 
+struktur
+, 
+faser
+ og 
+milepæler
+ i 
+saken
+ 
+–
+slik
+ at 
+arbeidet
+ 
+henger
+ 
+sammen
+ 
+fra
+ start 
+til
+ 
+slutt
+.
+Prosessmotor
+Sørger for flyt og fremdrift i saken 
+–og at riktige oppgaver og handlinger skjer til riktig tid.
+Forretningsregelmotor
+ (BRE)
+Bygger
+ 
+regler
+, 
+frister
+ og 
+krav
+ 
+direkte
+ inn i 
+prosessen
+ 
+–og 
+sikrer
+ 
+lik
+ 
+behandling
+ og 
+kvalitet
+ i alle saker.
+SIF
+AutoSaver
+Prosessbibliotek
+Mail importer
+Notifikasjoner
+
+---
+
+8
+Eksempler på forretningsregler
+Begrensning av dokumenttyper
+Forretningsregelen sørger for at generelle dokumenter kan ekskluderes ved avslutning av en sak for å sikre korrekthet.
+Krav om komplett søknad
+Vedtak kan ikke fattes uten at søknaden er komplett, noe som styrker kvalitetssikringen av behandlingene.
+Kansellering av saker og dokumenter
+Saker kan ikke kanselleres uten at alle tilhørende dokumenter også kanselleres, noe som gir struktur og kontroll.
+8
+
+---
+
+Eksempel på ende-til-ende-prosess for digital søknadsbehandling
+9
+ 

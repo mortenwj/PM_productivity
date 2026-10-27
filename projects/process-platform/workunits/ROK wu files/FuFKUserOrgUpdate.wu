@@ -1,0 +1,8 @@
+﻿<workUnit displayName="FK Organisation synkronisering af brugeres org-enhed - KUN KBH" id="78AEF1C7-CC62-48F3-83FD-E50D210C758F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Opdatere brugerens organisatoriske tilknytning fra FK Organisation - SF1500 v6 - Dette job er lavet specielt til Københavns Kommune.</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

@@ -1,0 +1,262 @@
+﻿<div style="border: 2px solid #c00; background: #ffe0e0; padding: 0.5em 1em; margin-bottom: 1em;">'''Internal — pilot demo only.''' Not for production customer environments. Tenant URLs and toggles may change.</div>
+
+This page describes how to prepare a '''pilot/demo tenant''' and run a standard '''360° Flow''' demo: '''application processing with right of appeal''' (NVE-style scenario).
+
+Product context: [[360° Flow]]. Process model concepts: [[Process Framework - Process models|Process Framework – Process models]].
+
+== Purpose ==
+
+* Prepare a test tenant with the correct feature toggles, settings, and imported templates
+* Run a repeatable demo of process-oriented case handling (process model, phases, checklists, processes, milestones)
+* Support presales, consultants, and product with the same baseline scenario
+
+== Prerequisites ==
+
+* Public 360° '''6.10''' (or newer pilot build) with Flow/process platform capabilities enabled for the tenant
+* Administrator access to the demo tenant (example used below: Danish test cloud)
+* Process model import/export and checklist import available in the tenant
+* Demo asset files (process model and checklist JSON) — see '''Import assets''' below
+
+== Environment setup ==
+
+Standard setup for the '''application with right of appeal''' demo. Perform steps in order.
+
+# Activate feature toggles '''NVE''' and '''ProcessModelImportExportEnabling'''
+# '''Disable''' feature toggle '''FFUI.CaseCreation'''
+# Activate feature toggle '''EnableChecklistsP360''' (if not already enabled on the tenant)
+# Activate checklists in settings: [checklist.updatechecklist](https://test-dan.public360online.com/locator/Admin/Setting/Details?Id=checklist.updatechecklist) (adjust host for your tenant)
+# '''Import process model''' (see Import assets — publish the model after import if required by your tenant)
+# '''Import checklist''' (matching language for the demo)
+# Activate document category '''Major Deficiency letter'''
+# '''Import document template''' for '''Major Deficiency letter''' (see Import assets — document templates)
+# Activate document category '''Decision'''
+# '''Import document template''' for '''Decision''' (see Import assets — decision document templates)
+
+== Import assets ==
+
+Demo files are attached on this wiki as ZIP packages (the wiki does not allow direct <code>.json</code> / <code>.dotm</code> uploads). '''Download → extract → import''' in the tenant.
+
+=== Download files ===
+
+* [[File:360 Flow demo - process models.zip|'''Process models''' (English, Danish, Norwegian, Swedish, Finnish)]]
+* [[File:360 Flow demo - checklists.zip|'''Checklists''' (English, Danish, Norwegian, Swedish, Finnish)]]
+* [[File:360 Flow demo - document templates.zip|'''Document templates''' (Major Deficiency letter and Decision, all languages)]]
+
+{| class="wikitable"
+! ZIP package !! Folder inside ZIP !! Import in tenant
+|-
+| [[File:360 Flow demo - process models.zip|Process models]] || <code>process-models/</code> || Process Model Management → import JSON → publish if required
+|-
+| [[File:360 Flow demo - checklists.zip|Checklists]] || <code>checklists/</code> || Checklist import (match language to demo)
+|-
+| [[File:360 Flow demo - document templates.zip|Document templates]] || <code>document-templates/</code> || Template import after '''Major Deficiency letter''' and '''Decision''' categories are active
+|}
+
+Canonical copies are also maintained in the product documentation repository under '''Demo setup'''.
+
+=== Process model ===
+
+{| class="wikitable"
+! Language !! File name !! Process model title
+|-
+| English || <code>Handle application with right of appeal (English).json</code> || Process application with right of appeal
+|-
+| Danish || <code>Behandle ansøgning m. klageret (Danish).json</code> || Behandle ansøgning m. klageret
+|-
+| Norwegian || <code>Behandle søknad m_klagerett.json</code> || Behandle søknad m/klagerett
+|-
+| Swedish || <code>Behandla ansökan med överklaganderätt (Swedish).json</code> || Behandla ansökan med överklaganderätt
+|-
+| Finnish || <code>Käsittele hakemus valitusoikeudella (Finnish).json</code> || Käsittele hakemus valitusoikeudella
+|}
+
+Use '''one''' language per demo session, aligned with the checklist language.
+
+=== Checklists ===
+
+{| class="wikitable"
+! Language !! File name !! Checklist name
+|-
+| English || <code>Checklist for application processing with right of appeal (English).json</code> || Checklist for application processing with right of appeal
+|-
+| Danish || <code>Tjekliste for ansøgningsbehandling med klageret (Danish).json</code> || Tjekliste for ansøgningsbehandling med klageret
+|-
+| Norwegian || <code>Sjekkliste_for_søknadsbehandling_med_klagerett_fcba25b7-4d74-49ba-92c0-a03909c51d02.json</code> || (Norwegian export)
+|-
+| Swedish || <code>Checklista för ansökningsbehandling med överklaganderätt (Swedish).json</code> || Checklista för ansökningsbehandling med överklaganderätt
+|-
+| Finnish || <code>Tarkistuslista hakemuksen käsittelyyn valitusoikeudella (Finnish).json</code> || Tarkistuslista hakemuksen käsittelyyn valitusoikeudella
+|}
+
+=== Document templates (Major Deficiency letter) ===
+
+Word macro-enabled templates (``.dotm``). Same Grow Business / 360° document logic in all languages; only visible labels and body text differ. Rebuild with <code>Build-TranslatedTemplates.ps1</code> in the Demo setup folder if the Norwegian master changes.
+
+{| class="wikitable"
+! Language !! File name
+|-
+| Norwegian || <code>prosess_mangelbrev.dotm</code>
+|-
+| English || <code>process_deficiency_letter.dotm</code>
+|-
+| Danish || <code>proces_mangelbrev.dotm</code>
+|-
+| Swedish || <code>process_bristbrev.dotm</code>
+|-
+| Finnish || <code>prosessi_puutekirje.dotm</code>
+|}
+
+Import after document category '''Major Deficiency letter''' is active. Use the template that matches the demo language (process model + checklist).
+
+=== Document templates (Decision) ===
+
+Used in the '''Decision made''' process (document wizard: category '''Decision''', review and approval before dispatch). Rebuild with <code>Build-TranslatedVedtakTemplates.ps1</code> from Norwegian master <code>Prosess_vedtak.dotm</code>.
+
+{| class="wikitable"
+! Language !! File name
+|-
+| Norwegian || <code>prosess_vedtak.dotm</code>
+|-
+| English || <code>process_decision.dotm</code>
+|-
+| Danish || <code>proces_vedtagelse.dotm</code>
+|-
+| Swedish || <code>process_beslut.dotm</code>
+|-
+| Finnish || <code>prosessi_paatos.dotm</code>
+|}
+
+Import after document category '''Decision''' is active. Use the template that matches the demo language.
+
+== Understanding the demo scenario (English assets) ==
+
+The English exports describe a full '''permit-style application''' journey: intake, completeness checks, optional requests for more information (minor or major deficiency), decision with '''right of appeal''', and closure. Use this section when explaining '''what the process does''' and '''how the checklist supports it''' — not only which buttons to click.
+
+=== What you are demonstrating (value) ===
+
+* '''One process model on the case''' drives the case officer through a regulated timeline (28 days for main processing, plus appeal stage), with '''milestones''' that anchor deadlines and reporting.
+* '''Parallel processes''' inside the active phase (receipt, review, deficiency letters, decision, close) show how work is structured without losing overview.
+* '''Automated and guided steps''' (receipt dispatch, document wizards, e-mail, subprocess for major deficiency with reminders) show efficiency and predictability.
+* The '''checklist''' is the quality and compliance layer: same case, same application type — checkpoints tagged to milestones so officers know what “done” means at each stage.
+* '''Right of appeal''' is explicit in the checklist (items 20–21) and in the model (appeal deadline milestone, second phase for appeal processing).
+
+=== Process model: what happens ===
+
+'''Model:''' ''Process application with right of appeal'' — two '''phases (stages)'''.
+
+==== Phase 1 — Process application with right of appeal (28-day phase deadline) ====
+
+Processes appear in the active case processing phase (several can run in parallel; typical story order below):
+
+{| class="wikitable"
+! Order !! Process !! What the case officer experiences !! Milestone / output
+|-
+| 1 || '''Automatic confirmation of received application''' || System-generated receipt to applicant (dispatch) || —
+|-
+| 2 || '''Application received''' || Register receipt date; optional letter and e-mail to applicant; milestone '''Application received''' || Application received
+|-
+| 3 || '''Review application''' || Assess completeness; e-mail for '''minor''' deficiency; can spawn subprocess for '''major''' deficiency; register '''Application complete''' when file is ready || Application complete; minor-deficiency milestone when used
+|-
+| 4 || '''Request for additional documentation — Significant deficiency''' || '''Major Deficiency letter''' (demo template); approval + dispatch; waiting period with '''reminder''' and '''final warning''' if response is late || Additional documentation requested — significant deficiency
+|-
+| 5 || '''Decision made''' || Decision letter with '''review and approval''' before dispatch || Decision made
+|-
+| 6 || '''Close case processing''' || Checkpoint task to confirm checklist; closure letter to applicant || Case processing completed
+|}
+
+'''Milestones configured in this phase''' (drive deadlines and checklist alignment):
+
+* '''Application received''' — start of formal processing time
+* '''Additional information requested — minor deficiency''' / '''Additional information requested — significant deficiency''' — when more material is required
+* '''Additional information received''' — clock behaviour when incoming documentation arrives
+* '''Application complete''' — case file ready for decision
+* '''Decision made''' — decision issued (linked to 21-day '''Appeal deadline''' milestone in the model)
+* '''Case processing completed''' — administrative closure
+
+==== Phase 2 — Appeal processing (56-day phase deadline) ====
+
+If the citizen appeals, a second phase opens with at least:
+
+* '''Application received''' (appeal) — letter '''Appeal received''' to acknowledge the appeal
+
+(Remaining appeal steps are not fully expanded in the English export; treat phase 2 as “appeal intake” in a short demo.)
+
+=== Checklist: how it supports the process ===
+
+'''Checklist:''' ''Checklist for application processing with right of appeal'' — scoped to the same '''application type''' as the process model. It does not replace processes; it defines '''what must be true''' before milestones and decisions hold up in audit.
+
+Checkpoints are grouped by '''milestone tag''' (when present):
+
+{| class="wikitable"
+! Phase of work !! Milestone tag (examples) !! Checklist focus !! Tie-in to processes
+|-
+| '''Intake & registration''' || Application received (items 1–6) || Received in correct system, dated, applicant identified, power of attorney, mandatory fields, attachments || Completed while running '''Application received''' / early '''Review application'''; failures on 4–6 support '''deficiency''' paths
+|-
+| '''Case preparation''' || Application complete phase (items 8–13); item 7 untagged || Missing info requested, statements, facts, impartiality, GDPR, data minimisation || '''Review application''', e-mails, major/minor deficiency processes; item 7 = sufficient case file before decision (Forvaltningsloven § 17)
+|-
+| '''Decision & appeal information''' || Decision made (items 14–22, 26) || Legal basis, reasoning, conditions (with sub-checkpoints), QA, dispatch, appeal text and deadline, access rights || '''Decision made''' process; items 20–21 are the “right of appeal” proof points for demos
+|-
+| '''Archiving & follow-up''' || Case processing completed (items 23–25) || Registration, archive, follow-up deadlines || '''Close case processing'''; subprocess “Verify all checklist items are completed”
+|}
+
+Several checkpoints define '''outcomes when answered “no”''' (e.g. missing power of attorney, missing documentation) — use in demo to show how checklist findings justify starting a '''deficiency''' process and the '''Major Deficiency letter''' template.
+
+=== Inner workings — one sentence per concept ===
+
+* '''Phase''' — time-bounded chapter of the case (main processing vs appeal).
+* '''Process''' — packaged work (documents, e-mail, subprocess, milestone update) the officer starts or that auto-starts.
+* '''Milestone''' — dated event on the case; recalculates deadlines and marks checklist progress.
+* '''Checklist''' — controlled list of requirements; milestone tags show which apply when.
+* '''Major deficiency process''' — structured request + wait + reminders; connects to deficiency ''.dotm'' template.
+* '''Decision made''' process — decision letter with appeal information; connects to decision ''.dotm'' template.
+
+=== Suggested talking points for demos ===
+
+# “The model is the '''railway track''' — processes and milestones move the case forward.”
+# “The checklist is the '''inspector''' — same case, tells us if the file is legally and administratively sound at each station.”
+# Show '''Application received''' process + checklist items 1–3.
+# Show a failed checkpoint (e.g. power of attorney) → '''Review''' / '''Significant deficiency''' process → Major Deficiency letter.
+# Show '''Decision made''' + checklist items 20–21 (appeal information).
+# End with '''Close case processing''' and checklist verification task.
+
+== Demo walkthrough ==
+
+Suggested '''story''' after setup (adjust to audience and time). Follow '''Understanding the demo scenario''' above for narrative detail. Maps to the [[360° Flow#Conceptual model: how it fits together|conceptual model]] on the module page.
+
+# '''Create or open a case''' — link the imported process model (case wizard or case properties). Confirm one active model on the case.
+# '''Open the active case processing phase''' — show tasks, checklist, and milestones for the current phase.
+# '''Application received''' — run process; complete checklist items 1–6; set milestone.
+# '''Review application''' — minor deficiency e-mail or spawn '''Significant deficiency''' + Major Deficiency letter.
+# '''Checklist''' — show milestone-tagged groups (preparation, decision, archiving).
+# '''Decision made''' — '''Decision''' document template (`process_decision.dotm` / language variant); review + approval; checklist items 14–21 (appeal information).
+# '''Close case processing''' — “Verify all checklist items are completed”; closure letter.
+# '''Milestone''' — appeal deadline / phase 2 only if time allows.
+# '''Manager view''' (if in scope) — worklist or portfolio filtered by phase status / deadlines.
+# '''Optional''' — files and maps in phase context; notification or automation step if enabled in tenant.
+
+Keep the demo within '''pilot scope''' documented on [[360° Flow]] and [[6.10 release information#360° Flow (Pilot)|6.10 release information — 360° Flow (Pilot)]].
+
+== Troubleshooting ==
+
+{| class="wikitable"
+! Issue !! Check
+|-
+| Process model import fails || Toggles '''NVE''' and '''ProcessModelImportExportEnabling'''; export format version
+|-
+| Checklist not visible || Setting [checklist.updatechecklist](https://test-dan.public360online.com/locator/Admin/Setting/Details?Id=checklist.updatechecklist); scope on checklist (case type / application type)
+|-
+| Case creation UI unexpected || '''FFUI.CaseCreation''' should be '''disabled''' for this demo setup
+|-
+| New case type not using Flow || Process model published and linked; correct case type mapping
+|}
+
+== Page governance ==
+
+* '''Maintainers:''' Product (Flow) — update when demo assets or toggle names change
+* '''Feedback:''' Product Manager / Product Development Manager on [[360° Flow]]
+
+<!-- demo assets sync 2026-06-04: vedtak templates in document-templates ZIP -->
+
+__NOTOC__
+[[Category:360°]]
+[[Category:Draft]]

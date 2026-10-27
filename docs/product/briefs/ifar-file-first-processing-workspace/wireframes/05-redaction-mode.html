@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Wireframe 05 — Redaction mode</title>
+  <link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+  <nav class="wf-nav-pages">
+    <a href="index.html">Index</a>
+    <a href="01-process-files-default.html">01 Default</a>
+    <a href="02-document-exception.html">02 Exception</a>
+    <a href="03-all-decided.html">03 Complete</a>
+    <a href="04-request-detail.html">04 Request</a>
+    <a href="05-redaction-mode.html">05 Redaction</a>
+  </nav>
+  <div class="wf-app wf-app-redaction">
+    <div class="wf-topbar">Public 360° — FIB · Redaction + Archive Inspector (wireframe)</div>
+    <div class="wf-breadcrumb">
+      <a href="#">Case 2026/1842</a> ›
+      <a href="01-process-files-default.html">Process files</a> ›
+      <strong>Redact internal-analysis.pdf</strong>
+    </div>
+    <header class="wf-header">
+      <h1>Redaction — internal-analysis.pdf</h1>
+      <div class="wf-stats">
+        <div class="wf-stat"><span>Partial grant · redact before save · ArIn findings available</span></div>
+      </div>
+      <a href="01-process-files-default.html" class="wf-secondary-btn" style="display:inline-block;text-decoration:none;color:inherit">Cancel (warn if unsaved)</a>
+    </header>
+    <div class="wf-banner info" style="margin:0 12px 0;border-color:#f9a825;background:#fff8e1">
+      Unsaved redaction will be lost if you leave without saving (PFR 97210).
+    </div>
+    <div class="wf-main wf-main-redaction wf-main-redaction-3">
+      <aside class="wf-queue wf-queue-compact" aria-label="File queue (compact)">
+        <div class="wf-queue-toolbar">
+          <span class="wf-filter on">Needs redaction</span>
+        </div>
+        <div class="wf-queue-scroll">
+          <div class="wf-file selected">
+            <span class="wf-chip warn">Redacting</span>
+            <span class="wf-chip arin">ArIn · 2</span>
+            <span class="wf-file-name">internal-analysis.pdf</span>
+            <span class="wf-file-size">1.1 MB</span>
+          </div>
+          <div class="wf-file">
+            <span class="wf-chip undecided">Undecided</span>
+            <span class="wf-file-name">report-2025.pdf</span>
+            <span class="wf-file-size">4.8 MB</span>
+          </div>
+        </div>
+      </aside>
+      <section class="wf-right wf-redaction-pane">
+        <div class="wf-redaction-toolbar">
+          <span class="wf-secondary-btn" style="display:inline-block;padding:6px 10px">Rectangle redact</span>
+          <span class="wf-secondary-btn" style="display:inline-block;padding:6px 10px">Text select</span>
+          <span>Undo / Redo</span>
+          <span>Page 3 of 8</span>
+          <span style="margin-left:auto">FIB FileViewer · enableRedaction</span>
+        </div>
+        <div class="wf-preview wf-preview-redaction">
+          <div class="wf-preview-body">
+            [ Highlight from selected finding ]<br /><br />
+            Manual redact in Accusoft — not auto-apply
+          </div>
+        </div>
+        <div class="wf-decision wf-decision-disabled">
+          <div class="wf-banner info" style="margin:0 0 12px">
+            Decision panel enabled after redaction is saved.
+          </div>
+          <div class="wf-form-actions">
+            <button type="button" class="wf-primary-btn">Save redaction</button>
+            <a href="01-process-files-default.html" class="wf-secondary-btn" style="display:inline-block;padding:8px 12px;text-decoration:none;color:inherit">Save and return to Process files</a>
+          </div>
+        </div>
+      </section>
+      <aside class="wf-findings-panel" aria-label="Archive Inspector findings">
+        <h2>360° Archive Inspector — findings</h2>
+        <p style="margin:8px 12px;font-size:10px;color:#666">Reuse ai-views FindingsTable pattern · click to highlight in viewer</p>
+        <div class="wf-findings-table">
+          <div class="wf-findings-row active">
+            <span class="label">Type</span><span>National ID (FNR)</span>
+            <span class="label">Match</span><span>********12345</span>
+            <span class="label">Location</span><span>File content · p. 3</span>
+          </div>
+          <div class="wf-findings-row">
+            <span class="label">Type</span><span>Personal health info</span>
+            <span class="label">Match</span><span>…diagnosis…</span>
+            <span class="label">Location</span><span>File content · p. 5</span>
+          </div>
+        </div>
+        <p class="wf-note" style="border:none;margin-top:auto">Module off → panel hidden · v1.1 integration</p>
+      </aside>
+    </div>
+    <p class="wf-note">Flow 3 · finding-guided redact · FIB FileViewer spike for redaction + searchString</p>
+  </div>
+</body>
+</html>

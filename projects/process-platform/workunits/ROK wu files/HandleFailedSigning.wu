@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="46BF253F-6254-4D92-85E4-F3A8D59DC157"
+          displayName="[LOCALIZED(56A2BC68-6347-4931-9D7A-9EB9F6EC02B1,*Handle failed Signing)]">
+  <description>[LOCALIZED(1101EDE4-1AFA-47AB-BBF4-89D071F149D2,*Handle Signing that have failed (Rejected by receiver, not signed withing deadline, etc.))]</description>
+  <categories>
+    <category>Script</category>
+    <category>Signing</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="SI.WUScript.Signing.FailedSigningProcessor.HandleFailedSigning">
+      <arguments>
+        <argument name="signingId" type="int"/>
+      </arguments>
+      <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

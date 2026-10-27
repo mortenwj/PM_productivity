@@ -1,0 +1,149 @@
+{
+  "processModel": {
+    "name": "KSB administration — modtagelse, kontrol og frigivelse",
+    "description": "AST Adm Team KSB: standard municipal appeal intake from case registration through control checklist, optional deficiency paths (missing case files, power of attorney, appeal-deadline referral), acknowledgment (N30/N30A), and release to fagkontor. Based on administrative-vejledninger-for-adm-team-ksb-2.pdf (kvittering og frigivelse, tjekliste ud fra arbejdskopi). Fagkontor substantive handling is out of scope for this model.",
+    "stages": [
+      {
+        "id": "admin-ksb-intake",
+        "name": "Administration KSB — modtagelse og kontrol",
+        "order": 1,
+        "milestones": [
+          {
+            "id": "m-anke-modtaget",
+            "name": "Anke modtaget"
+          },
+          {
+            "id": "m-sagskontrol-gennemfort",
+            "name": "Sagskontrol gennemført"
+          },
+          {
+            "id": "m-akter-anmodet",
+            "name": "Manglende akter anmodet (OPLY-2)"
+          },
+          {
+            "id": "m-fuldmagt-anmodet",
+            "name": "Fuldmagt anmodet"
+          },
+          {
+            "id": "m-klagefrist-til-jura",
+            "name": "Klagefrist henvist til Adm Jura"
+          },
+          {
+            "id": "m-kvittering-sendt",
+            "name": "Kvitteringsbrev sendt"
+          },
+          {
+            "id": "m-frigivet-fagkontor",
+            "name": "Frigivet til fagkontor",
+            "onTransitionToStageId": "fagkontor-placeholder"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-opret-sag",
+            "name": "Opret sag og registrer post",
+            "description": "Arkivar/sagsbehandler: global søgning (CPR, j.nr.), opret sag med adgangsgruppe Administration, ansvarlig enhed Adm KSB, relevant forløb (typisk KSB 28 dage), parter (klient, førsteinstans), supplerende oplysninger (Anke modtaget), sagsemne. Journaliser kommunens mail og registrer arbejdskopi (Internt notat, reserveret)."
+          },
+          {
+            "id": "act-kontroller-sag",
+            "name": "Kontroller sag (arbejdskopi)",
+            "description": "Gennemgå arbejdskopi og udfyld kontroltjekliste: minimumsakter, datoer, sagsemne, antal sager, klager/fuldmagt, klagefrist, særlige oplysninger. Opdater resume ved overlevering. Fase 1 forbliver åben ved afventende akter/fuldmagt.",
+            "buildingBlockRef": "checkpoint-dialogue"
+          },
+          {
+            "id": "act-anmod-akter-km",
+            "name": "Anmod om manglende akter (OPLY-2)",
+            "description": "Send OPLY-2 til førsteinstans når afgørelse, klage eller genvurdering mangler (undtagen: mangler kun genvurdering — da betragtes indsendelsen som genvurdering). Frist: 7 dage i brev / 8 dage i P360 (digital post) eller 14/15 dage (fysisk). Status Afventer Ekstern. Fase lukkes ikke.",
+            "buildingBlockRef": "document-wizard-outbound"
+          },
+          {
+            "id": "act-anmod-fuldmagt",
+            "name": "Anmod om fuldmagt (FULDM-skabelon)",
+            "description": "Når klager ikke er borger selv og gyldig fuldmagt/værgebeskikkelse mangler: send relevant FULDM-brev til borger. Frist 14 dage i brev / 15 dage i P360 (fysisk) eller 7/8 (digital). Rolle partsrepræsentant vs. ikke part afklares. Status Afventer Ekstern.",
+            "buildingBlockRef": "document-wizard-outbound"
+          },
+          {
+            "id": "act-henvis-klagefrist-jura",
+            "name": "Henvis klagefrist til Adm Jura",
+            "description": "Ved overskredet eller tvivlsom klagefrist: send link til Adm Jura (ikke FRIST-6 fra KSB — Jura vurderer). Status Afventer Intern. Se klagefrist-vejledning.",
+            "buildingBlockRef": "handoff-internal"
+          },
+          {
+            "id": "act-link-bagvagt",
+            "name": "Link til bagvagt (særlige forhold)",
+            "description": "Ved alvorlig sygdom, hastebehandling fra km, tidligere indsendelse: kvitter før link (undtagen opsættende virkning og COVID — link uden forudgående kvittering). N30B ved haste på almindelig KSB-sag.",
+            "buildingBlockRef": "notification-pattern"
+          },
+          {
+            "id": "act-send-kvittering",
+            "name": "Send kvitteringsbrev",
+            "description": "Når sag er kontrolleret og klar til frigivelse: Play på Send kvitteringsbrev (N30 til klient, N30A til partsrepræsentant) eller manuelt/rollebaseret (N34, N30B haste, N30E forældre, N30F pakke). Kontrollér roller før afsendelse.",
+            "buildingBlockRef": "document-wizard-dispatch"
+          },
+          {
+            "id": "act-frigiv-fagkontor",
+            "name": "Frigiv til fagkontor",
+            "description": "Kryds Opret Afgørelse, Luk fase. Verificér: status Ny sag, ansvarlig enhed = rette fagkontor, adgangsgruppe Social og Beskæftigelse eller Social og Børn, ansvarlig person blank. Resume beskriver evt. uafklarede mangler til fagkontor.",
+            "buildingBlockRef": "milestone-close-phase"
+          }
+        ]
+      },
+      {
+        "id": "fagkontor-placeholder",
+        "name": "Fagkontor — materiel behandling (placeholder)",
+        "order": 2,
+        "milestones": [
+          {
+            "id": "m-fagkontor-modtaget",
+            "name": "Sag modtaget i fagkontor"
+          }
+        ],
+        "activities": [
+          {
+            "id": "act-fagkontor-overtagelse",
+            "name": "Fagkontor overtager sag",
+            "description": "Placeholder only. Substantive appeal handling (møde, ekstrakt, afgørelse) modelled separately per fagområde. BESK-2 fristsager m.fl. kan have afvigende admin-praksis (straks-frigivelse uden indhentning af akter)."
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "scenarioId": "AST-KSB-ADMIN-INTAKE",
+    "sourcePrompt": "Ankestyrelsen KSB administration: modtagelse, tjekliste-kontrol, OPLY-2, fuldmagt, klagefrist→Jura, N30 kvittering, frigivelse til fagkontor. Forløb KSB 28 dage.",
+    "generatedAt": "2026-07-06T07:20:00Z",
+    "mode": "dry-run"
+  },
+  "annotations": [
+    {
+      "type": "deadline",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "Forløb KSB 28 dage (planlagt afsluttet +28). Kontrolfrist kan sættes via play på forløb."
+    },
+    {
+      "type": "deadline",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "OPLY-2 svarfrist: 7/8 dage (digital post) eller 14/15 dage (fysisk post) fra kommunen."
+    },
+    {
+      "type": "deadline",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "Fuldmagt svarfrist: 7/8 dage (digital) eller 14/15 dage (fysisk) fra borger."
+    },
+    {
+      "type": "note",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "Variant: Forsikrede ledige/seniorjob (BESK-2) — frigivelse straks efter kontrol uden indhentning af akter; mangler beskrives i resume. Seniorjob-fristsager kvitteres først efter fagkontor-vurdering."
+    },
+    {
+      "type": "note",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "Fase 1 lukkes IKKE mens der afventes akter eller fuldmagt indhentet af administrationen."
+    },
+    {
+      "type": "building-block-hint",
+      "appliesToStageId": "admin-ksb-intake",
+      "note": "Reuse Flow demo patterns: deficiency letter subprocess (OPLY-2), acknowledgment document wizard (N30), close-with-checkpoint verification before release."
+    }
+  ]
+}

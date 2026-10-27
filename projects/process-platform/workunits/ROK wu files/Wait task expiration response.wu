@@ -1,0 +1,22 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\WorkUnit.xsd"
+    id="597619FB-5C03-4FB8-A06F-C47841CB3503"
+    displayName="Wait task expiration response">  
+  <description>...</description>
+  <categories>
+    <category>WaitTask Action Expired</category>
+    <category>ProgressPlan Support/Reminding</category>
+    <category>Case</category>    
+  </categories>
+  <executable>
+    <wf startOption="invoker">
+      <arguments>
+        <argument name="WaitTaskId" type="string"></argument>
+        <argument name="DocumentTitle" type="string"></argument>
+        <argument name="DocumentTemplateId" type="string"></argument>
+        <argument name="DocumentContactRoleId" type="string" comment="codetable: Activity - Contact role (Default: Recipient)"></argument>
+        <argument name="DispatchChannelId" type="string" comment="codetable: Document Dispatch Channel (Default: [from system])"></argument>
+        <argument name="FinalWaitTaskWorkUnit" type="string"></argument>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

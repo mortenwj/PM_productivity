@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../source/repos/te-industry-public360"
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+		"terminal.integrated.env.windows": {
+			"PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}",
+			"UV_PROJECT_ENVIRONMENT": "${workspaceFolder}\\.venv"
+		}
+	}
+}

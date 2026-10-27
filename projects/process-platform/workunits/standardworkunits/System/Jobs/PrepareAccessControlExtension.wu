@@ -1,0 +1,14 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="AccessControlExtension[D76EA997-EA99-455B-B874-CC8319C4FE67]"
+    displayName="[LOCALIZED(bdd9990f-917c-40fd-a070-a0f1b8889f08,*Prepare: Create/update access groups)]">
+  <description>[LOCALIZED(742c80ed-f55e-4fa9-abeb-35eb50086297,*Extended access control - Preparation: Create/update access groups according to enterprise rules/templates)]</description>
+  <categories>
+    <category>Access Control Extension</category>
+    <category>Job</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.PrepareEnterpriseRuleJob, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="" resultType="none" category="AnyServer" />
+</workUnit>

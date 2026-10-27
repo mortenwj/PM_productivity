@@ -1,0 +1,8 @@
+﻿<workUnit displayName="Sags statusplan" id="58074C26-E9FF-4299-BD06-20A1C15E97D8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>Opdatere sagen efter de kritierier, der er stillet op i Fu CaseStatus Plan</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

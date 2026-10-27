@@ -1,0 +1,54 @@
+== Process Framework – Process models ==
+This page describes the '''process model''' component of the [[Process Framework]] in Public 360°: how process models structure case handling, and how they are configured and used.
+
+'''Related:''' [[360° Process Engine]] (execution), [[Process Framework]] (landing page).
+
+=== What is a process model? ===
+A process model defines '''how a case is to be handled''' from start to finish. It specifies:
+* Which '''stages''' (case-handling phases) and '''milestones''' apply
+* Which '''processes''' (task chains) run within stages
+* What is created automatically and what can be added manually
+* How stages and processes are triggered (e.g. by status changes)
+
+Each process model is linked to one or more '''case types''', so the right workflow is activated when a case is created.
+
+When a process model is attached to a case, it determines which stages and milestones are created, what the case handler can add manually, and how processes drive notifications, document creation, and status updates.
+
+=== Key concepts ===
+==== Stages (case-handling phases) ====
+* A '''stage''' is a defined step in the process model (similar to a phase in a progress plan). Stages can run in sequence or in parallel.
+* Each stage can have its own processes and milestones. Different parts of a case can be worked on at the same time.
+* Stages can be: '''automatically created''' (when the model starts or when a trigger fires), '''manually added''' by the user, or both.
+* Stage statuses (e.g. In progress, Upcoming, Closed) control what users can do and when content is created or closed. Transitions are validated (e.g. you cannot skip required statuses or reopen a closed stage).
+
+==== Milestones ====
+* '''Milestones''' mark important events or points in time (e.g. deadline, approval, receipt of application, decision).
+* Each milestone has a '''type''' and a '''status''' (e.g. Planned, Reached, Cancelled).
+* Milestones can be created automatically or manually. They are used to measure time (e.g. time between two milestones, duration of a stage, total case-handling time) and to enforce deadlines and compliance.
+
+==== Processes ====
+* A '''process''' is a predefined chain of tasks within a stage, run automatically or manually. Examples: send notification, create or update document, change case status, start another process or stage.
+* Processes can start automatically (e.g. when a stage goes to "In progress") or be started by the case handler. Combining several processes in a model gives a complete, consistent workflow for different case types.
+
+==== Triggers ====
+* '''Triggers''' automate the next step in the process: when something happens (e.g. stage status change, process completion), another stage or process can be started. Triggers are configured on the stage or process that is to be activated, not on the one that fires the trigger.
+
+==== Concurrency ====
+* '''Concurrency settings''' define how many times the same element (e.g. one stage type, one process, one milestone type) can exist in a single case. This avoids duplicates and keeps the flow consistent (e.g. "only one occurrence" or "only one active occurrence").
+
+=== Tentative mode ===
+A process model can be set in '''tentative mode''' (draft). In that case, stages are created automatically but no milestones or processes are added yet. The case handler can add documents first; when the model is activated, all stages and elements are created according to the model. Tentative mode also allows changing the process model or case type before activation; the system supports reassigning documents and milestones to the new structure.
+
+=== Configuration and publishing ===
+* Process models are configured under the Process Management administration area. Key properties: title, notes, case types, active dates. Versioning is handled by the system.
+* '''Stage templates''' can be reused across process models to standardize stages and reduce configuration work.
+* When a process model is complete, it must be '''published''' before it can be used in cases. Published models are locked for structural changes; only certain non-structural fields (e.g. title, notes, active dates) can be edited. Structural changes require a new version, so existing cases are not affected.
+* Process model templates and standard process libraries are part of the Process Framework’s adoption accelerators; see [[Process Framework#Core components|Process Framework – Core components]].
+
+=== Long-running cases ===
+When a case is started, the system takes a snapshot of the process model. Later changes to the model do not affect cases already in progress. Administrators can update or retire models without disrupting active cases. Optionally, new cases can always use the latest version of a template while running cases keep the version they started with.
+
+=== See also ===
+* [[Process Framework]]
+* [[360° Process Engine]]
+* [[:Category:360° Release information|360° Release information]] (for process model and Process Framework features by version)

@@ -1,0 +1,508 @@
+{
+  "queries": [
+    {
+      "key": "MK-6|Bilag 1.b",
+      "req_id": "MK-6",
+      "title": "Håndtering af sletteregler",
+      "query": "Håndtering sletteregler ESDH-løsningen skal understøtte håndtering"
+    },
+    {
+      "key": "MK-30|Bilag 1.b",
+      "req_id": "MK-30",
+      "title": "Præsentation af hierarkiske samlinger",
+      "query": "Præsentation hierarkiske samlinger ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-35|Bilag 1.b",
+      "req_id": "MK-35",
+      "title": "Unikt ID",
+      "query": "Unikt ESDH-løsningen skal understøtte alle Dokumenter"
+    },
+    {
+      "key": "MK-49|Bilag 1.b",
+      "req_id": "MK-49",
+      "title": "Integreret viewer",
+      "query": "Integreret viewer ESDH-løsningen skal understøtte integreret"
+    },
+    {
+      "key": "MK-50|Bilag 1.b",
+      "req_id": "MK-50",
+      "title": "Navigation og scrolling i dokumentlister",
+      "query": "Navigation scrolling dokumentlister ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-56|Bilag 1.b",
+      "req_id": "MK-56",
+      "title": "Automatisk dubletkontrol i kontakt-registeret",
+      "query": "Automatisk dubletkontrol kontakt-registeret ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "EK-1|Bilag 1.b",
+      "req_id": "EK-1",
+      "title": "Udlændinge-overblik",
+      "query": "Udlændinge-overblik Kunden behov udstille udlændinges stamdata"
+    },
+    {
+      "key": "MK-66|Bilag 1.b",
+      "req_id": "MK-66",
+      "title": "Søgning på flere felter på samme tid",
+      "query": "Søgning flere felter samme ESDH-løsningen skal"
+    },
+    {
+      "key": "MK-68|Bilag 1.b",
+      "req_id": "MK-68",
+      "title": "Trunkering i avanceret søgning",
+      "query": "Trunkering avanceret søgning ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-70|Bilag 1.b",
+      "req_id": "MK-70",
+      "title": "Søgeresultater",
+      "query": "Søgeresultater ESDH-løsningen skal understøtte alle felter"
+    },
+    {
+      "key": "MK-74|Bilag 1.b",
+      "req_id": "MK-74",
+      "title": "Søgebilleder - Entiteter",
+      "query": "Søgebilleder Entiteter ESDH-løsningen skal understøtte Kunden"
+    },
+    {
+      "key": "MK-75|Bilag 1.b",
+      "req_id": "MK-75",
+      "title": "Søgebilleder - Felter",
+      "query": "Søgebilleder Felter ESDH-løsningen skal understøtte Kunden"
+    },
+    {
+      "key": "K-6|Bilag 1.b",
+      "req_id": "K-6",
+      "title": "Eksport af søgning",
+      "query": "Eksport søgning ESDH-løsningen skal understøtte eksport"
+    },
+    {
+      "key": "EK-2|Bilag 1.b",
+      "req_id": "EK-2",
+      "title": "Dashboards",
+      "query": "Dashboards ESDH-løsningen skal understøtte realtidsbaserede dashboards"
+    },
+    {
+      "key": "MK-76|Bilag 1.b",
+      "req_id": "MK-76",
+      "title": "Browser-baseret brugergrænseflade",
+      "query": "Browser-baseret brugergrænseflade ESDH-løsningen skal understøtte afvikling"
+    },
+    {
+      "key": "MK-77|Bilag 1.b",
+      "req_id": "MK-77",
+      "title": "Visning af store mængder",
+      "query": "Visning store mængder ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-78|Bilag 1.b",
+      "req_id": "MK-78",
+      "title": "Genvejstaster",
+      "query": "Genvejstaster ESDH-løsningen skal understøtte brugen genvejstaster"
+    },
+    {
+      "key": "MK-80|Bilag 1.b",
+      "req_id": "MK-80",
+      "title": "Masseændring",
+      "query": "Masseændring ESDH-løsningen skal understøtte Bruger brugergrænsefladen"
+    },
+    {
+      "key": "MK-81|Bilag 1.b",
+      "req_id": "MK-81",
+      "title": "Visuel visning på Dokument metadata",
+      "query": "Visuel visning Dokument metadata ESDH-løsningen skal"
+    },
+    {
+      "key": "MK-83|Bilag 1.b",
+      "req_id": "MK-83",
+      "title": "Kolonnevisninger - Standard",
+      "query": "Kolonnevisninger Standard ESDH-løsningen skal understøtte Kunden"
+    },
+    {
+      "key": "MK-84|Bilag 1.b",
+      "req_id": "MK-84",
+      "title": "Kolonnevisninger - Kundeoprettede",
+      "query": "Kolonnevisninger Kundeoprettede ESDH-løsningen skal understøtte Kunden"
+    },
+    {
+      "key": "MK-85|Bilag 1.b",
+      "req_id": "MK-85",
+      "title": "Kundeoprettede felter på kolonnevisning",
+      "query": "Kundeoprettede felter kolonnevisning ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-86|Bilag 1.b",
+      "req_id": "MK-86",
+      "title": "Filtrering og sortering på kolonnevisninger",
+      "query": "Filtrering sortering kolonnevisninger ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-87|Bilag 1.b",
+      "req_id": "MK-87",
+      "title": "Faner og widgets",
+      "query": "Faner widgets ESDH-løsningen skal understøtte Kunden"
+    },
+    {
+      "key": "MK-88|Bilag 1.b",
+      "req_id": "MK-88",
+      "title": "Fleksibilitet",
+      "query": "Fleksibilitet ESDH-løsningen skal understøtte Kunden fuld"
+    },
+    {
+      "key": "EK-3|Bilag 1.b",
+      "req_id": "EK-3",
+      "title": "Bruger-grænseflade",
+      "query": "Bruger-grænseflade forbindelse Kundens daglige anvendelse ESDH-løsningen"
+    },
+    {
+      "key": "EK-4|Bilag 1.b",
+      "req_id": "EK-4",
+      "title": "Aktindsigt",
+      "query": "Aktindsigt forbindelse Kundens sagsbehandling håndtering aktindsigtssager"
+    },
+    {
+      "key": "MK-99|Bilag 1.b",
+      "req_id": "MK-99",
+      "title": "Historisk Dokument - godkendelsesflow",
+      "query": "Historisk Dokument godkendelsesflow ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-100|Bilag 1.b",
+      "req_id": "MK-100",
+      "title": "Historisk Dokument - høring",
+      "query": "Historisk Dokument høring ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-102|Bilag 1.b",
+      "req_id": "MK-102",
+      "title": "Friststyring",
+      "query": "Friststyring ESDH-løsningen skal understøtte friststyring hvor"
+    },
+    {
+      "key": "MK-103|Bilag 1.b",
+      "req_id": "MK-103",
+      "title": "Advisering på opgaver",
+      "query": "Advisering opgaver ESDH-løsningen skal understøtte enhver"
+    },
+    {
+      "key": "MK-111|Bilag 1.b",
+      "req_id": "MK-111",
+      "title": "Systemopdateringer",
+      "query": "Systemopdateringer ESDH-løsningen skal understøtte alle Konfigurationer"
+    },
+    {
+      "key": "MK-113|Bilag 1.b",
+      "req_id": "MK-113",
+      "title": "Feltlængde",
+      "query": "Feltlængde ESDH-løsningen skal understøtte tekstfelters længde"
+    },
+    {
+      "key": "MK-118|Bilag 1.b",
+      "req_id": "MK-118",
+      "title": "Administration og brugergrænseflade",
+      "query": "Administration brugergrænseflade ESDH-løsningen skal understøtte Administrator"
+    },
+    {
+      "key": "K-10|Bilag 1.b",
+      "req_id": "K-10",
+      "title": "Journalplan",
+      "query": "Journalplan ESDH-løsningen skal understøtte Administrator tilknytte"
+    },
+    {
+      "key": "K-11|Bilag 1.b",
+      "req_id": "K-11",
+      "title": "Import og eksport af Konfiguration - brugergrænsefladen",
+      "query": "Import eksport Konfiguration brugergrænsefladen ESDH-løsningen skal"
+    },
+    {
+      "key": "K-12|Bilag 1.b",
+      "req_id": "K-12",
+      "title": "Import og eksport af Konfiguration - Administratormodul",
+      "query": "Import eksport Konfiguration Administratormodul ESDH-løsningen skal"
+    },
+    {
+      "key": "K-13|Bilag 1.b",
+      "req_id": "K-13",
+      "title": "Moduler",
+      "query": "Moduler ESDH-løsningen skal understøtte Løsningens tilknyttede"
+    },
+    {
+      "key": "K-14|Bilag 1.b",
+      "req_id": "K-14",
+      "title": "Ensartet datoformat",
+      "query": "Ensartet datoformat ESDH-løsningen skal understøtte Administrator"
+    },
+    {
+      "key": "EK-5|Bilag 1.b",
+      "req_id": "EK-5",
+      "title": "Administrator-modul",
+      "query": "Administrator-modul understøtte Kundens administration ESDH-løsningen væsentligt"
+    },
+    {
+      "key": "EK-6|Bilag 1.b",
+      "req_id": "EK-6",
+      "title": "Datamodel",
+      "query": "Datamodel Leverandøren skal beskrive hvordan tilbudte"
+    },
+    {
+      "key": "EK-7|Bilag 1.b",
+      "req_id": "EK-7",
+      "title": "Konfiguration af bruger-grænseflade",
+      "query": "Konfiguration bruger-grænseflade Leverandøren skal beskrive hvordan"
+    },
+    {
+      "key": "EK-8|Bilag 1.b",
+      "req_id": "EK-8",
+      "title": "Afgørelses-modul",
+      "query": "Afgørelses-modul Kunden behov registrere Afgørelser sager"
+    },
+    {
+      "key": "MK-133|Bilag 1.b",
+      "req_id": "MK-133",
+      "title": "Kontrol af adgangsrettigheder",
+      "query": "Kontrol adgangsrettigheder ESDH-løsningen skal understøtte udstilling"
+    },
+    {
+      "key": "MK-135|Bilag 1.b",
+      "req_id": "MK-135",
+      "title": "Begrænsning af adgangsrettigheder",
+      "query": "Begrænsning adgangsrettigheder ESDH-løsningen skal understøtte Bruger"
+    },
+    {
+      "key": "EK-9|Bilag 1.b",
+      "req_id": "EK-9",
+      "title": "Organisatoriske rolle/ rettigheder",
+      "query": "Organisatoriske rolle rettigheder ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "EK-10|Bilag 1.b",
+      "req_id": "EK-10",
+      "title": "Brugerrettet logning og sagsgang i brugergrænsefladen",
+      "query": "Brugerrettet logning sagsgang brugergrænsefladen ESDH-løsningen automatisk"
+    },
+    {
+      "key": "MK-136|Bilag 1.b",
+      "req_id": "MK-136",
+      "title": "Adgang til data",
+      "query": "Adgang data ESDH-løsningen skal understøtte data"
+    },
+    {
+      "key": "MK-142|Bilag 1.b",
+      "req_id": "MK-142",
+      "title": "Registrering af Kundeoprettede felter",
+      "query": "Registrering Kundeoprettede felter Integrationen skal understøtte"
+    },
+    {
+      "key": "K-16|Bilag 1.b",
+      "req_id": "K-16",
+      "title": "Integration til andre office-applikationsudbydere",
+      "query": "Integration andre office-applikationsudbydere ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-145|Bilag 1.b",
+      "req_id": "MK-145",
+      "title": "Markering af journaliseret e-mail",
+      "query": "Markering journaliseret e-mail ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-148|Bilag 1.b",
+      "req_id": "MK-148",
+      "title": "Funktionspostkasser",
+      "query": "Funktionspostkasser ESDH-løsningen skal understøtte indbakkesag afspejler"
+    },
+    {
+      "key": "K-17|Bilag 1.b",
+      "req_id": "K-17",
+      "title": "Integration til andre e-mail klient udbydere",
+      "query": "Integration andre e-mail klient udbydere ESDH-løsningen"
+    },
+    {
+      "key": "EK-11|Bilag 1.b",
+      "req_id": "EK-11",
+      "title": "Outlook integration til journalisering",
+      "query": "Outlook integration journalisering ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-150|Bilag 1.b",
+      "req_id": "MK-150",
+      "title": "Eksisterende skannere",
+      "query": "Eksisterende skannere Scanningsløsningen skal kunne benyttes"
+    },
+    {
+      "key": "MK-151|Bilag 1.b",
+      "req_id": "MK-151",
+      "title": "Indbakke",
+      "query": "Indbakke skannede Dokumenter skal ende skanningsindbakke"
+    },
+    {
+      "key": "MK-152|Bilag 1.b",
+      "req_id": "MK-152",
+      "title": "Præjournalisering af skannet post",
+      "query": "Præjournalisering skannet post skal være muligt"
+    },
+    {
+      "key": "MK-153|Bilag 1.b",
+      "req_id": "MK-153",
+      "title": "Sortering",
+      "query": "Sortering Dokumenterne skal sorteres skannes eksempelvis"
+    },
+    {
+      "key": "MK-157|Bilag 1.b",
+      "req_id": "MK-157",
+      "title": "Fuld tovejs-integration med Digital Post",
+      "query": "Fuld tovejs-integration Digital Post ESDH-løsningen skal"
+    },
+    {
+      "key": "EK-12|Bilag 1.b",
+      "req_id": "EK-12",
+      "title": "ESDH Standard API",
+      "query": "ESDH Standard ESDH-løsningen skal forbindelse Kundens"
+    },
+    {
+      "key": "MK-165|Bilag 1.b",
+      "req_id": "MK-165",
+      "title": "Fjernprint – opsætning",
+      "query": "Fjernprint opsætning ESDH-løsningen skal understøtte alle"
+    },
+    {
+      "key": "MK-167|Bilag 1.b",
+      "req_id": "MK-167",
+      "title": "Forsendelseskanaler",
+      "query": "Forsendelseskanaler ESDH-løsningen skal understøtte afsendelse fysisk"
+    },
+    {
+      "key": "MK-168|Bilag 1.b",
+      "req_id": "MK-168",
+      "title": "Automatisk valg af forsendelseskanal",
+      "query": "Automatisk valg forsendelseskanal ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "MK-169|Bilag 1.b",
+      "req_id": "MK-169",
+      "title": "Advisering vil fejl i forsendelse",
+      "query": "Advisering fejl forsendelse ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "K-18|Bilag 1.b",
+      "req_id": "K-18",
+      "title": "Store forsendelser",
+      "query": "Store forsendelser ESDH-løsningen skal understøtte forsendelsesproces"
+    },
+    {
+      "key": "MK-170|Bilag 1.b",
+      "req_id": "MK-170",
+      "title": "Understøttelse af Kundens datamigrering",
+      "query": "Understøttelse Kundens datamigrering Leverandøren skal understøtte"
+    },
+    {
+      "key": "MK-175|Bilag 1.b",
+      "req_id": "MK-175",
+      "title": "Opsætning af miljøer",
+      "query": "Opsætning miljøer Leverandøren skal sikre etablering"
+    },
+    {
+      "key": "MK-181|Bilag 1.b",
+      "req_id": "MK-181",
+      "title": "Sprog",
+      "query": "Sprog ESDH-løsningen skal understøtte dokumentationen dansk"
+    },
+    {
+      "key": "MK-23|Bilag 1.e",
+      "req_id": "MK-23",
+      "title": "Eksport af Log",
+      "query": "Eksport ESDH-løsningen skal understøtte alle handlinger"
+    },
+    {
+      "key": "MK-24|Bilag 1.e",
+      "req_id": "MK-24",
+      "title": "Log ved eksport af en given Entitet",
+      "query": "eksport given Entitet ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "K-10|Bilag 1.e",
+      "req_id": "K-10",
+      "title": "Kryptering af data i hvile (encryption at rest)",
+      "query": "Kryptering data hvile encryption rest Leverandøren"
+    },
+    {
+      "key": "K-11|Bilag 1.e",
+      "req_id": "K-11",
+      "title": "Kryptering af data i ESDH-løsningen (encryption in transit)",
+      "query": "Kryptering data ESDH-løsningen encryption transit Leverandøren"
+    },
+    {
+      "key": "K-12|Bilag 1.e",
+      "req_id": "K-12",
+      "title": "Understøttelse af principper for journalisering og records management",
+      "query": "Understøttelse principper journalisering records management ESDH-løsningen"
+    },
+    {
+      "key": "K-13|Bilag 1.e",
+      "req_id": "K-13",
+      "title": "Understøttelse af metadata for journalisering",
+      "query": "Understøttelse metadata journalisering ESDH-løsningen skal understøtte"
+    },
+    {
+      "key": "Tilbudsbrev|Tilbudsbrev",
+      "req_id": "Tilbudsbrev",
+      "title": "Tilbudsbrev",
+      "query": "Tilbudsbrev Tilbudsbrev"
+    },
+    {
+      "key": "Bilag 2 Producentens standardvilkår|Bilag 2 Producentens standardvilkår",
+      "req_id": "Bilag 2 Producentens standardvilkår",
+      "title": "Bilag 2 Producentens standardvilkår",
+      "query": "Bilag Producentens standardvilkår Bilag Producentens standardvilkår"
+    },
+    {
+      "key": "Bilag 3 Leverandørens priser|Bilag 3 Leverandørens priser",
+      "req_id": "Bilag 3 Leverandørens priser",
+      "title": "Bilag 3 Leverandørens priser",
+      "query": "Bilag Leverandørens priser Bilag Leverandørens priser"
+    },
+    {
+      "key": "ESPD|ESPD",
+      "req_id": "ESPD",
+      "title": "ESPD",
+      "query": "ESPD ESPD"
+    },
+    {
+      "key": "Bilag 1 - tidsplan og implementering|Bilag 1",
+      "req_id": "Bilag 1 - tidsplan og implementering",
+      "title": "tidsplan",
+      "query": "tidsplan Bilag krav tidsplanen inkl Go-live"
+    },
+    {
+      "key": "Bilag 1 - Optioner|Bilag 1",
+      "req_id": "Bilag 1 - Optioner",
+      "title": "optioner",
+      "query": "optioner Bilag krav optioner skal besvares"
+    },
+    {
+      "key": "Bilag 1 - Sikkerhed|Bilag 1",
+      "req_id": "Bilag 1 - Sikkerhed",
+      "title": "Sikkerhedskrav, herunder -godkendelse",
+      "query": "Sikkerhedskrav herunder -godkendelse Verificering sikkerhedskrav inkl"
+    },
+    {
+      "key": "B1.A-7|Bilag 1.a",
+      "req_id": "B1.A-7",
+      "title": "Dobbeltdrift ved migrering",
+      "query": "Dobbeltdrift migrering migrering drift system andet"
+    },
+    {
+      "key": "B1.A-9|Bilag 1.a",
+      "req_id": "B1.A-9",
+      "title": "Sikkerhedskopier m.v.",
+      "query": "Sikkerhedskopier Kunden Fremstille sikkerhedseksemplar standardsoftwaren vidt"
+    },
+    {
+      "key": "B1.A-10|Bilag 1.a",
+      "req_id": "B1.A-10",
+      "title": "Kundens driftsleverandører",
+      "query": "Kundens driftsleverandører Kunden frit benytte tredjemands"
+    }
+  ]
+}

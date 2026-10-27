@@ -1,0 +1,7 @@
+<workUnit displayName="[LOCALIZED(F80C4F57-4C81-4CC5-9C12-97D5F658E07D,*Format Conversion)]" id="BC03BDB9-5616-4E5C-AB28-68DAFC8956F1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>[LOCALIZED(9038D560-FCB7-425C-8A8E-F63E7F16C2CB,*Runs the format converter process)]</description>
+  <executable assemblyType="SI.Biz.Core.FormatConverter.Surface.ProcessFormatConversion, SI.Biz.Core.FormatConverter, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke />
+  </executable>
+	<job queue="Sys.Immediatly" runAs="formatconverter_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

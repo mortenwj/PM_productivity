@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="TestAutomationProgressplan{67CAB147-80AD-4491-B5C2-B56FA3A85D72}"
+    visibility="public"
+    displayName="Progressplan for automation test" >
+  <description>Progressplan for automation test</description>
+  <categories>
+    <category>ProgressPlan Process</category>
+    <category>Stage Process</category>
+    <category>Test</category>
+  </categories>
+  <executable>
+    <wf startOption="application">
+      <arguments>
+        <argument name="ProgressPlanId" type="string"/>
+      </arguments>
+    </wf>
+  </executable>
+</workUnit>

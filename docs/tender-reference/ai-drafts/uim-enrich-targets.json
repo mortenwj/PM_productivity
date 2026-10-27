@@ -1,0 +1,1298 @@
+{
+  "count": 84,
+  "targets": [
+    {
+      "req_id": "MK-6",
+      "document": "Bilag 1.b",
+      "row": 7,
+      "title": "Håndtering af sletteregler",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: \"Sletteregler for alle entiteter\", kan vi sige at vi har det på kontakter?",
+      "responsible": "Morten",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "Morten"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte håndtering af sletteregler, herunder bevaringskoder, for både midlertidig og permanent sletning. ESDH-løsningen skal understøtte, at sletning alene kan foretages af Brugere med de nødvendige rettigheder, herunder at rettigheder til permanent sletning og midlertidig sletning kan adskilles. Sletteregler skal kunne anvendes på alle Entiteter i Løsningen."
+    },
+    {
+      "req_id": "MK-30",
+      "document": "Bilag 1.b",
+      "row": 32,
+      "title": "Præsentation af hierarkiske samlinger",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Det er kludret formuleret - men jeg tolker det til, at de fra en søgning på et projekt, skal kunne se relaterede sager i resultatlisterne.. Det  er udfordrende",
+      "responsible": "Eva",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte visning af hierarkiske samlinger af relaterede sager fra søgningslister og visningslister."
+    },
+    {
+      "req_id": "MK-35",
+      "document": "Bilag 1.b",
+      "row": 37,
+      "title": "Unikt ID",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN: Hvornår er noget ”synligt i brugergrænsefladen”… vi har recno på filer, men de kræver ”vis egenskaber” for at være synlige.\n\nTjek definitionsbilag for ordet \"brugergrænsefladen\"\n\nMaksimeret visning - ny visning",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle Dokumenter, Filer, Hoveddokumenter og Bilag har hver deres unikke ID, som skal være synligt i brugergrænsefladen."
+    },
+    {
+      "req_id": "MK-49",
+      "document": "Bilag 1.b",
+      "row": 51,
+      "title": "Integreret viewer",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN: ”Direkte” er problematisk, hvis det forbyder os fra et nyt vindue.",
+      "responsible": "Eva",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en integreret dokumentviewer i brugergrænsefladen. Løsningen skal understøtte forhåndsvisning af Dokumenter fra sager, søgninger og listevisninger. ESDH-løsningen skal understøtte, at Brugeren får præsenteret Dokumentets tekst/indhold direkte i Løsningen."
+    },
+    {
+      "req_id": "MK-50",
+      "document": "Bilag 1.b",
+      "row": 52,
+      "title": "Navigation og scrolling i dokumentlister",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN Vores forhåndsvisning ”opdateres ikke automatisk”. Kræver aktivt klik på det dokument/fil der ønskes forhåndsvist.\n\"Navigeret til,\" kan det tolkes til at brugeren foretager et aktivt klik?\n\nADN: ask question",
+      "responsible": "Hans",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Brugeren kan navigere og scrolle i dokument- og fillistevisninger, og at forhåndsvisningen automatisk opdateres og viser det Dokument/Fil, som Brugeren har navigeret til."
+    },
+    {
+      "req_id": "MK-56",
+      "document": "Bilag 1.b",
+      "row": 60,
+      "title": "Automatisk dubletkontrol i kontakt-registeret",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: Vi advarer, men vi forbyder ikke. CPR/CVR er ikke så unikt at det ikke kan duplikeres.\nADN: Enten med udvidet duplikat-kontrol eller BRE der forbyder det.",
+      "responsible": "Morten",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "Morten",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at en Bruger ikke kan oprette en kontakt, hvis kontaktens unikke ID allerede findes i kontaktregisteret."
+    },
+    {
+      "req_id": "EK-1",
+      "document": "Bilag 1.b",
+      "row": 69,
+      "title": "Udlændinge-overblik",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Claus",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Kunden har behov for at udstille en udlændinges stamdata i Løsningen. Kunden betragter en udlænding som en kontakttype, som kan tilknyttes til Entiteter i Løsningen. \n\nESDH-løsningen skal understøtte, at Administrator kan konfigurere en Udlændingekontakt via no code administratormodul, der sikrer et fuldt overblik over Udlændingekontakten. Administratoren skal dertil kunne opsætte og konfigurere udlændingeoverblikket i brugergrænsefladen. \nOverblikket over udlændingen skal indeholde følgende:\nSa"
+    },
+    {
+      "req_id": "MK-66",
+      "document": "Bilag 1.b",
+      "row": 71,
+      "title": "Søgning på flere felter på samme tid",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: Det her krav er formuleret uden logiske begræsninger mellem entiteter, hvilke tikke giver mening. Det kan vi ikke understøtte.\n\nDoes this require you should be able to search for all case and document, and contact-related fields, in 1 joint search??\n\nCHM: Requirement doesnt say where it should be performed. Could it be solved by management reporting api?\n\nQuerry builder might also be a way to look - but we havent decided on a specific solution yet.",
+      "responsible": "Claus",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at der kan søges på alle standard- og Kundeoprettede felter på samme tid i ESDH-løsningen."
+    },
+    {
+      "req_id": "MK-68",
+      "document": "Bilag 1.b",
+      "row": 73,
+      "title": "Trunkering i avanceret søgning",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN Det her lugter af at være målrettet os givet titlen, fordi de ved vi ikke kan i den avancerede søgning - men kravteksten indeholder det ikke, \"Avanceret søg\" og derfor bør vi være OK med kravet.",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Brugeren kan anvende trunkering, hvis der ønskes søgning på begyndelsen eller slutningen af et ord."
+    },
+    {
+      "req_id": "MK-70",
+      "document": "Bilag 1.b",
+      "row": 75,
+      "title": "Søgeresultater",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: ”Alle felter” - godt nok afgrænset til søgeresultater, men stadig en stor risc, fra en ondsindet kunde.\nVi må spørge willy",
+      "responsible": "Claus",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle felter kan vises i søgeresultaternes visningslister."
+    },
+    {
+      "req_id": "MK-74",
+      "document": "Bilag 1.b",
+      "row": 79,
+      "title": "Søgebilleder - Entiteter",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: Det understøtter vi ikke.\nCOuld we argue, that it doesnt state it should remember these configurations, and therefore we live up to it?",
+      "responsible": "Claus",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden kan opsætte og konfigurere søgebilleder for alle Løsningens standard- og Kundeoprettede Entiteter."
+    },
+    {
+      "req_id": "MK-75",
+      "document": "Bilag 1.b",
+      "row": 80,
+      "title": "Søgebilleder - Felter",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: Det understøtter vi ikke.\nCOuld we argue, that it doesnt state it should remember these configurations, and therefore we live up to it?",
+      "responsible": "Claus",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden selv kan definere og konfigurere, hvilke standard- og Kundeoprettede felter søgebilledet skal indeholde."
+    },
+    {
+      "req_id": "K-6",
+      "document": "Bilag 1.b",
+      "row": 83,
+      "title": "Eksport af søgning",
+      "action": "Check",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: This means we must support pretty much \"unlimited export to Excel\"",
+      "responsible": "Claus",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte eksport af det komplette søgeresultat fra brugergrænsefladen til regnearksprogram anvendt af Kundens, men må dog ikke overstige regnearksprogrammets maksimum rækkekapacitet."
+    },
+    {
+      "req_id": "EK-2",
+      "document": "Bilag 1.b",
+      "row": 84,
+      "title": "Dashboards",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Torben",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte realtidsbaserede dashboards, der giver Kundens Brugere et hurtigt og overskueligt overblik over relevante data i ESDH-løsningen. Dashboard i ESDH-løsningen skal understøtte visualiseringer og udtræk af statistiske data til brug for konkret sagsbehandling, Myndighedsarbejde, ledelsestilsyn og politiske beslutninger. \n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter realtidsbaserede dashboards. \n\nLeverandøren skal gennem konkrete skærmbill"
+    },
+    {
+      "req_id": "MK-76",
+      "document": "Bilag 1.b",
+      "row": 85,
+      "title": "Browser-baseret brugergrænseflade",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN: Påvirker ikke os - men det her krav er et godt eksempel på en Kunde der beskriver en løsning frem for et behov. Hvorfor skal det være browserbaseret?\n\nAOP: Meget standard i udbud. Baggrunden er, at det anses som værende fremtiden og lettere for kunden at administrere selv.",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte afvikling i en af nedenstående standardbrowsere uden løsnings-specifikt plugin: \nMicrosoft Edge\nGoogle Chrome"
+    },
+    {
+      "req_id": "MK-77",
+      "document": "Bilag 1.b",
+      "row": 86,
+      "title": "Visning af store mængder",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Issue - ”Alle”  og ”ingen begrænsning” i samme sætning..",
+      "responsible": "Claus",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle listevisninger fra standard og Kundeoprettede Entiteter eller i søgningsresultater ikke har begrænsning i antal resultater. Resultaterne kan opdeles på flere sider jf. arkitekturmønsteret pagination (processen med at opdele store mængder indhold, data eller søgeresultater i mindre, overskuelige bidder)."
+    },
+    {
+      "req_id": "MK-78",
+      "document": "Bilag 1.b",
+      "row": 87,
+      "title": "Genvejstaster",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN: Det her bevæger vi os væk fra, fordi det ikke er særligt WCAG-compliant. MEN - vi skal bemærke de ikke definere det skal gælde alt, eller hvad man skal kunne, så hvis vi har en genvejstast ét sted i løsningen, kan vi principielt sige ja til dette krav.\n\nVi understøtter brugen af \"Tab\" og \"Enter\" - vi skal bare sikre os det står i onlinehjælpen.",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte brugen af genvejstaster, funktionstaster eller tastekombinationer. Genvejstaster skal være dokumenteret i hjælpefunktionen."
+    },
+    {
+      "req_id": "MK-80",
+      "document": "Bilag 1.b",
+      "row": 89,
+      "title": "Masseændring",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Vi skal bemærke de ikke bruger ordet ”Alle” i denne sætning - meeeen.. Vi har det slet ikke for Kontakter, projekter, ejendomme og aktiviteter, og vi har det ingen steder for kundeoprettede felter. (De specificere heller ikke at det skal være på alle kundeoprettede entiteter) Måske vi kan bruge det til noget.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at en Bruger via brugergrænsefladen kan foretage masseændringer af tilknyttede standard- og Kundeoprettede felter på sager, Dokumenter, kontakter og Kundeoprettede Entiteter."
+    },
+    {
+      "req_id": "MK-81",
+      "document": "Bilag 1.b",
+      "row": 90,
+      "title": "Visuel visning på Dokument metadata",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "ADN: Hvornår er noget ”Visuelt adskilt”? - er det nok at der står ”Indgående” og/eller ”Udgående”?\n\nhos os står der \"Dokument ind\", eller \"dokument ud\" - det er vel visuelt adskildt.. Jeg kan se at der ikke står det samme?",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en visuel adskillelse af indgående og udgående Dokumenter, f.eks. via opmærkning."
+    },
+    {
+      "req_id": "MK-83",
+      "document": "Bilag 1.b",
+      "row": 92,
+      "title": "Kolonnevisninger - Standard",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN Det understøtter vi ikke - jeg tænker de mener kolonner inde i webparts på vores overbliksbilleder.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte at Kunden kan tilvælge og fravælge kolonnevisninger på sager, Dokumenter, kontakt-billeder."
+    },
+    {
+      "req_id": "MK-84",
+      "document": "Bilag 1.b",
+      "row": 93,
+      "title": "Kolonnevisninger - Kundeoprettede",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Det understøtter vi ikke - jeg tænker de mener kolonner inde i webparts på vores overbliksbilleder.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden kan tilvælge og fravælge kolonnevisninger på Kundeoprettede Entiteter."
+    },
+    {
+      "req_id": "MK-85",
+      "document": "Bilag 1.b",
+      "row": 94,
+      "title": "Kundeoprettede felter på kolonnevisning",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Det understøtter vi ikke - jeg tænker de mener kolonner inde i webparts på vores overbliksbilleder.Vi gemmer ikke sorteringer og filtreringer",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kundeoprettede felter skal kunne anvendes i kolonnevisningerne på standard Entiteter og Kundeoprettede Entiteter."
+    },
+    {
+      "req_id": "MK-86",
+      "document": "Bilag 1.b",
+      "row": 95,
+      "title": "Filtrering og sortering på kolonnevisninger",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Det understøtter vi ikke - jeg tænker de mener kolonner inde i webparts på vores overbliksbilleder.Vi gemmer ikke sorteringer og filtreringer",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte filtrering og sortering på kolonnevisninger. Brugerens valgte indstillinger skal kunne gemmes som standardvisning for Brugeren."
+    },
+    {
+      "req_id": "MK-87",
+      "document": "Bilag 1.b",
+      "row": 96,
+      "title": "Faner og widgets",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN:  ”kundeoprettede faner” på overbliksbilleder kræver en voldsomt udvidelse af FFUI Overbliksbilleder",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden kan opsætte Kundeoprettede faner/widgets på både standard- og Kundeoprettede Entiteter."
+    },
+    {
+      "req_id": "MK-88",
+      "document": "Bilag 1.b",
+      "row": 97,
+      "title": "Fleksibilitet",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Hvis vi nu tolker det her til webparten \"brugerdefinerede felter\" og webparten: \"Ejendomme\", \"Projekter\" og \"Aktiviteter\" - så kan kunden jo godt på sags- og dokumentoversigter  bestemme hvor disse vises. Vi har det dog ikke på kontaktoverblik.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kunden har fuld fleksibilitet til vælge, hvor Kundeoprettede Entiteter og Kundeoprettede felter vises i brugergrænsefladen."
+    },
+    {
+      "req_id": "EK-3",
+      "document": "Bilag 1.b",
+      "row": 99,
+      "title": "Bruger-grænseflade",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Claus",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "I forbindelse med Kundens daglige anvendelse af ESDH-løsningen er det væsentligt, at brugergrænsefladen kan tilpasses den enkelte Brugers og organisationens behov, herunder ved tilpasning, filtrering og sortering af faner/widgets, felter og kolonner.\n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter tilpasning af brugergrænsefladen. \n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens b"
+    },
+    {
+      "req_id": "EK-4",
+      "document": "Bilag 1.b",
+      "row": 101,
+      "title": "Aktindsigt",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "I forbindelse med Kundens sagsbehandling og håndtering af aktindsigtssager er det væsentligt, at ESDH-løsningen understøtter en effektiv og overskuelig proces for udvælgelse, behandling og samling af Dokumenter til aktindsigt. \n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter behandling af aktindsigtssager.\n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens behov.\n\nLeverandøren skal r"
+    },
+    {
+      "req_id": "MK-99",
+      "document": "Bilag 1.b",
+      "row": 111,
+      "title": "Historisk Dokument - godkendelsesflow",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN ”automatisk dannes” sker ikke. vi har muligheden for manuelt at gøre dette. - Vores workflowrapport løser måske behovet, men produceres ikke automatisk.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at der automatisk dannes et Dokument med en tilknyttet Fil, hvortil historikken af godkendelsesflowet er dokumenteret."
+    },
+    {
+      "req_id": "MK-100",
+      "document": "Bilag 1.b",
+      "row": 112,
+      "title": "Historisk Dokument - høring",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN ”automatisk dannes” sker ikke. vi har muligheden for manuelt at gøre dette. - Vores workflowrapport løser måske behovet, men produceres ikke automatisk.",
+      "responsible": "Torben",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at der automatisk dannes et Dokument med en tilknyttet Fil, hvortil historikken af høringsflowet er dokumenteret."
+    },
+    {
+      "req_id": "MK-102",
+      "document": "Bilag 1.b",
+      "row": 114,
+      "title": "Friststyring",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN: Jeg bryder mig ikke om denne formulering - er bekymret for at den kan bruges imod os i en implementering\nHvad vil det sige at \"konfigurere notifikation fleksibelt ift. deadline og status\"?\nHvis vi nu tolker \"Frister\" Hårdt, til kun at gælde vores aktivitetstype \"Frist\" så kan vi vel faktisk overholde det her, og næste krav? Argumentet er at alle andre i løsningen er \"Forfaldsdatoer, men ikke frister\"... ",
+      "responsible": "Eva",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte friststyring, hvor den ansvarlige Bruger for en opgave kan opsætte individuelle frister. Det skal være muligt at konfigurere notifikationerne fleksibelt i forhold til både opgavens deadline og status."
+    },
+    {
+      "req_id": "MK-103",
+      "document": "Bilag 1.b",
+      "row": 115,
+      "title": "Advisering på opgaver",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN Jeg bryder mig ikke om denne formulering - er bekymret for at den kan bruges imod os i en implementering\n\nHvad vil det sige at \"konfigurere notifikation fleksibelt ift. deadline og status\"?",
+      "responsible": "Eva",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at enhver opgave i ESDH-løsningen altid skal have en angivet ansvarlig, og at denne ansvarlige Bruger skal kunne opsætte individuelle notifikationer for hver opgave. Det skal være muligt at konfigurere notifikationer fleksibelt i forhold til opgavens deadline og status."
+    },
+    {
+      "req_id": "MK-111",
+      "document": "Bilag 1.b",
+      "row": 124,
+      "title": "Systemopdateringer",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN: Det her har historisk givet problemer hvis kunden konfigurerede videre på standard-elementer.",
+      "responsible": "Eva",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle Konfigurationer bevares ved systemopdateringer eller opgraderinger."
+    },
+    {
+      "req_id": "MK-113",
+      "document": "Bilag 1.b",
+      "row": 126,
+      "title": "Feltlængde",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: \"Alle tekstfelter\" hvilket betyder alle felter i løsningen skal kunne indeholde 3500 anslag.",
+      "responsible": "Eva",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at tekstfelters længde som minimum kan indeholde 3500 karakterer for indtastningen af den fulde tekst f.eks. kommentarfelter og øvrige fritekst-felter i Løsningen."
+    },
+    {
+      "req_id": "MK-118",
+      "document": "Bilag 1.b",
+      "row": 131,
+      "title": "Administration og brugergrænseflade",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Insane requirement without limits and for eternal enterpretation.. \"Brugergrænseflade\" is not defined in the deffinitions.",
+      "responsible": "Eva",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Administrator kan konfigurere hele ESDH-løsningens brugergrænseflade."
+    },
+    {
+      "req_id": "K-10",
+      "document": "Bilag 1.b",
+      "row": 139,
+      "title": "Journalplan",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: with FFUI on cases - i can based on the archive (part of the journalplan) set an accessgroup and thereby control access. Is that enough to say yes?",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at en Administrator kan tilknytte fast metadata til journalplanen i form af adgangsgrupper og adgangsbegrænsning, når der vælges en foruddefineret journalplansværdi."
+    },
+    {
+      "req_id": "K-11",
+      "document": "Bilag 1.b",
+      "row": 140,
+      "title": "Import og eksport af Konfiguration - brugergrænsefladen",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have that. \"Import/Eksort UI\"",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kundens Konfiguration af brugergrænsefladen kan eksporteres og importeres på tværs af Kundens it-miljøer (f.eks. fra et test- eller udviklingsmiljø til pre-produktions- og produktionsmiljøet)."
+    },
+    {
+      "req_id": "K-12",
+      "document": "Bilag 1.b",
+      "row": 141,
+      "title": "Import og eksport af Konfiguration - Administratormodul",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have that \"Import/Export webadmin\"",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Kundens Konfiguration fra administratormodulet kan eksporteres og importeres på tværs af Kundens it-miljøer (f.eks. fra et test- eller udviklingsmiljø til pre-produktions- og produktionsmiljøet)."
+    },
+    {
+      "req_id": "K-13",
+      "document": "Bilag 1.b",
+      "row": 142,
+      "title": "Moduler",
+      "action": "Check",
+      "can_meet": "1. Fully met",
+      "comment": "",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Løsningens tilknyttede moduler kan administreres i Løsningens administratormodul i form af opsætning og vedligeholdelse."
+    },
+    {
+      "req_id": "K-14",
+      "document": "Bilag 1.b",
+      "row": 143,
+      "title": "Ensartet datoformat",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have that. - i dont understand why they want it.",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at en Administrator kan opsætte visning af datoformatet i Løsningen."
+    },
+    {
+      "req_id": "EK-5",
+      "document": "Bilag 1.b",
+      "row": 144,
+      "title": "Administrator-modul",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Torben",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "For at understøtte Kundens administration af ESDH-løsningen er det væsentligt, at Administrator kan administrere ESDH-løsningens standardfunktionalitet samt Kundeoprettede Entiteter via no-code.\n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter administration via administratormodul.\n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens behov.\n\nLeverandøren skal redegøre for: \n\nOpbygningen"
+    },
+    {
+      "req_id": "EK-6",
+      "document": "Bilag 1.b",
+      "row": 145,
+      "title": "Datamodel",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Torben",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Leverandøren skal beskrive, om og hvordan den tilbudte ESDH-løsning understøtter Konfiguration og udvidelse af Løsningens Datamodel/objektmodel via en administrativ brugergrænseflade.\n\nLeverandøren skal redegøre for: \n\nHvordan Administratorer kan tilføje og vedligeholde metadata på Løsningens standardentiteter, herunder Dokument, sag og kontakt\nHvordan Administratorer kan oprette nye Entiteter/objekttyper med tilhørende metadatafelter, felttyper, valideringsregler, klassifikationer og eventuelle"
+    },
+    {
+      "req_id": "EK-7",
+      "document": "Bilag 1.b",
+      "row": 146,
+      "title": "Konfiguration af bruger-grænseflade",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Torben",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Leverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter Konfiguration af brugergrænsefladen. \n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens behov.\n\nLeverandøren skal redegøre for: \n\nHvordan Administrator kan konfigurere data på sager, Dokumenter og kontakter f.eks. metadata og faner. \nHvordan Administrator kan navngive ESDH-løsningen standardfelter og egne konfigurerede faner på sager, D"
+    },
+    {
+      "req_id": "EK-8",
+      "document": "Bilag 1.b",
+      "row": 147,
+      "title": "Afgørelses-modul",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Claus",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Kunden har behov for at registrere Afgørelser på sager i forbindelse med en ansøgning f.eks. familiesammenføring. \n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter Konfiguration af Afgørelser. \n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens behov.\n\nLeverandøren skal redegøre for: \n\nHvordan en Administrator kan oprette en Afgørelse som en Entitet i administratormodulet\nHvordan en A"
+    },
+    {
+      "req_id": "MK-133",
+      "document": "Bilag 1.b",
+      "row": 156,
+      "title": "Kontrol af adgangsrettigheder",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have that. Could we extract this information with Management Reporting API?",
+      "responsible": "Eva",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte udstilling af sager, Dokumenter, kontakter, der tidligere er blevet adgangsbegrænset, men hvor ingen Aktive brugere længere har adgang til Entiteten. De adgangsbegrænsede Entiteter skal udstilles på en liste til Administratoren eller anden udvalgt Bruger."
+    },
+    {
+      "req_id": "MK-135",
+      "document": "Bilag 1.b",
+      "row": 158,
+      "title": "Begrænsning af adgangsrettigheder",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at en Bruger direkte i brugergrænsefladen kan begrænse adgangen til Kundeoprettede Entiteter ad hoc."
+    },
+    {
+      "req_id": "EK-9",
+      "document": "Bilag 1.b",
+      "row": 160,
+      "title": "Organisatoriske rolle/ rettigheder",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at Brugere tildeles roller og rettigheder via AD-rettighedsgrupper. Rolle/rettighedsstrukturen skal sikre, at Brugeren kan udføre relevante og nødvendige opgaver, og at Brugeren har adgang til nødvendige Entiteter. \n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning understøtter organisatoriske rolle/rettigheder. \n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens be"
+    },
+    {
+      "req_id": "EK-10",
+      "document": "Bilag 1.b",
+      "row": 161,
+      "title": "Brugerrettet logning og sagsgang i brugergrænsefladen",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Da ESDH-løsningen automatisk skal logge brugerhandlinger i brugergrænsefladen, skal ESDH-løsningen understøtte en visuel udstilling af logningen i brugergrænsefladen. \n\nESDH-løsningen skal understøtte en visuel udstilling af logningen, så det er synligt for sagsbehandlerne, hvem der har arbejdet på sagen, hvilke ændringer der er foretaget, og hvornår. Visningen skal dække proceshandlinger – eksempelvis når godkendelsesflow afsluttes, eller når en sag tildeles en specifik person eller lægges tilb"
+    },
+    {
+      "req_id": "MK-136",
+      "document": "Bilag 1.b",
+      "row": 162,
+      "title": "Adgang til data",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN:  Kan det lade sig gøre at trække data ud uden Leverandørspecifikke værktøjer?",
+      "responsible": "",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at data skal kunne tilgås og udtrækkes udenom leverandørspecifikke værktøjer, således at fremtidig migrering til en anden platform kan gennemføres med begrænset kompleksitet og uden tab af data."
+    },
+    {
+      "req_id": "MK-142",
+      "document": "Bilag 1.b",
+      "row": 168,
+      "title": "Registrering af Kundeoprettede felter",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Integrationen skal understøtte, at Brugere har mulighed for, at registrere Kundeoprettede felter i forbindelse med journalisering i Word, Excel og PowerPoint."
+    },
+    {
+      "req_id": "K-16",
+      "document": "Bilag 1.b",
+      "row": 169,
+      "title": "Integration til andre office-applikationsudbydere",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have this Yet.",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte integration til andre leverandører af office-pakker end Microsoft Office, som tilbyder samme services som kravstillet til standardsoftware, f.eks. opensource office pakken LibreOffice, som kan afvikles på Statens IT’s SIA pc."
+    },
+    {
+      "req_id": "MK-145",
+      "document": "Bilag 1.b",
+      "row": 172,
+      "title": "Markering af journaliseret e-mail",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: We allmost support this with office Webapps integration - we dont show \"When\" yet, but Willy stated it could be added.",
+      "responsible": "Anton",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at det fremgår visuelt i Outlook-mapper, på hvilken sag og hvornår en e-mail er blevet journaliseret i ESDH-løsningen."
+    },
+    {
+      "req_id": "MK-148",
+      "document": "Bilag 1.b",
+      "row": 175,
+      "title": "Funktionspostkasser",
+      "action": "Verify",
+      "can_meet": "1. Fully met",
+      "comment": "Anton: Understøtter vi ikke endnu",
+      "responsible": "Anton",
+      "compliance": "Met",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en indbakkesag, som afspejler Kundens funktionspostkasser fra Outlook. Brugeren skal kunne anvende indbakkesagen til at journalisere fra til relevante sager."
+    },
+    {
+      "req_id": "K-17",
+      "document": "Bilag 1.b",
+      "row": 176,
+      "title": "Integration til andre e-mail klient udbydere",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: We dont have this Yet.",
+      "responsible": "Anton",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte integration til andre leverandører af e-mail klienter, som tilbyder samme services som kravstillet til standardsoftware, f.eks. Evolution mailklient, som kan afvikles på Statens IT’s SIA pc."
+    },
+    {
+      "req_id": "EK-11",
+      "document": "Bilag 1.b",
+      "row": 177,
+      "title": "Outlook integration til journalisering",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en effektiv og brugervenlig integration med Outlook, som understøtter sammenhængende arbejdsgange og nem journalisering af e-mails og Dokumenter.\n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsning integrerer med Outlook. \n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de stillede krav og møder Kundens behov.\n\nLeverandøren skal redegøre for: \n\nHvordan integrationen mellem ESDH-løsningen og Outlook "
+    },
+    {
+      "req_id": "MK-150",
+      "document": "Bilag 1.b",
+      "row": 179,
+      "title": "Eksisterende skannere",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: No clue\nTAO: Kan vi slippe ud af at understøtte faktisk skanning, vi hænger på regningen fra Scansolutions i den eksisterende kontrakt. De fleste andre entreer selv med Scansolitions og kofax licenser",
+      "responsible": "",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "Scanningsløsningen skal kunne benyttes på følgende fysiske skannere: \nKodak Legal Size Flatbed Accessory \nKODAK I4650\nRICOH fi-7600"
+    },
+    {
+      "req_id": "MK-151",
+      "document": "Bilag 1.b",
+      "row": 180,
+      "title": "Indbakke",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: Unsure if we can scan to individuals?\nTAO: Der er QR koder til individer, det er værre med teams, er de beskrevet andet steds? hvis team = orgenhed så ok",
+      "responsible": "",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "De skannede Dokumenter skal ende i en ”skanningsindbakke” i ESDH-løsningen, hvor man kan modtage skannede Dokumenter til en afdeling, team eller til enkeltpersoner. Scannede Dokumenter til enkeltpersoner skal også kunne ses af afdelingen/teamet."
+    },
+    {
+      "req_id": "MK-152",
+      "document": "Bilag 1.b",
+      "row": 181,
+      "title": "Præjournalisering af skannet post",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: This must be solved by scanning solution to unregistered documents\nTAO: Vi har ikke en fungrende standard import for Dansk skanning, må få commitment på import ud fra det format scansolutions leverer.",
+      "responsible": "Anton",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "Det skal være muligt at præjournalisere skannet post i ESDH-løsningen. Løsningen skal understøtte, at en Bruger kan angive en afsender og dokumenttitel i den præjournaliserede post."
+    },
+    {
+      "req_id": "MK-153",
+      "document": "Bilag 1.b",
+      "row": 182,
+      "title": "Sortering",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN: Unsure if we can scan to individuals?",
+      "responsible": "",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Dokumenterne skal sorteres og skannes med eksempelvis skilleark eller lignende løsning, som sikrer at Dokumenterne ender hos den rigtige person/afdeling/team i ESDH-løsningen."
+    },
+    {
+      "req_id": "MK-157",
+      "document": "Bilag 1.b",
+      "row": 186,
+      "title": "Fuld tovejs-integration med Digital Post",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "ADN: We support everything besides \"Complete parameter setup\" - we support what is needed, but not \"Complete\". Saying Yes comes with a Risc according to Tajinder.",
+      "responsible": "Anton",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal have integration til Digital Post, herunder komplet parameteropsætning af afsendersystem, Myndighedsprofil, afsendertype og postkasser med mulighed for at konfigurere én eller flere forsendelseskanaler pr. organisatorisk enhed. Integrationen skal være tovejs. \n\nLøsningen skal muliggøre afsendelse af Digital Post direkte fra Løsningen, og indgående besvarelser skal automatisk kunne journaliseres på den sag, som henvendelsen oprindeligt blev modtaget på. Både udgående og indgåe"
+    },
+    {
+      "req_id": "EK-12",
+      "document": "Bilag 1.b",
+      "row": 191,
+      "title": "ESDH Standard API",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Claus",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "ESDH-løsningen skal, i forbindelse med Kundens behov for integration, automatisering og genbrug af ESDH-løsningens funktionalitet i det samlede systemlandskab, understøtte at Løsningen centrale funktioner kan tilgås via standardiserede API’er både envejs- og tovejsintegrationer.\n\nLeverandøren skal beskrive, hvordan den tilbudte ESDH-løsnings API understøtter envejs- og tovejsintegrationer.\n\nLeverandøren skal gennem konkrete skærmbilleder demonstrere om og hvordan ESDH-løsningen understøtter de s"
+    },
+    {
+      "req_id": "MK-165",
+      "document": "Bilag 1.b",
+      "row": 195,
+      "title": "Fjernprint – opsætning",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "Anton: Ikke sikker - kender ikke nogen kunder der har det, men mon ikke vi kan understøtte det\nTao: Strålfors, blev det standard med AST?\nAdn: Tajinder sagde Ja, strålfors blev std. med AST",
+      "responsible": "",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle nødvendige parametre kan anvendes til opsætning og Konfiguration af fjernprint."
+    },
+    {
+      "req_id": "MK-167",
+      "document": "Bilag 1.b",
+      "row": 197,
+      "title": "Forsendelseskanaler",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "Adn: This can be solved with Strålfors ",
+      "responsible": "Anton",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte afsendelse af fysisk post direkte fra ESDH-løsningen, og at afsendelsen journaliseres som en del af samme proces."
+    },
+    {
+      "req_id": "MK-168",
+      "document": "Bilag 1.b",
+      "row": 198,
+      "title": "Automatisk valg af forsendelseskanal",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "Anton: Understøtter vi ikke - vi skifter ikke automatisk til næste forsendelseskanal hvis den første fejler.",
+      "responsible": "",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en automatiseret forsendelsesproces, hvor forsendelsen går videre til næste forsendelseskanal, hvis den første forsendelseskanal fejler f.eks. en forsendelse er sendt til Digital Post, men borger er ikke tilmeldt digital post. Her skal ESDH-løsningen automatisk sikre forsendelsen sendes til fjernprint i stedet."
+    },
+    {
+      "req_id": "MK-169",
+      "document": "Bilag 1.b",
+      "row": 199,
+      "title": "Advisering vil fejl i forsendelse",
+      "action": "Verify",
+      "can_meet": "3. Not able to meet",
+      "comment": "ADN: Har vi ikke\nKan mad advokere for, at en advisering også kan være noget visuelt på sagen? og dermed leve op til kravet?",
+      "responsible": "",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at hvis en forsendelse fejler skal Brugeren adviseres om dette."
+    },
+    {
+      "req_id": "K-18",
+      "document": "Bilag 1.b",
+      "row": 200,
+      "title": "Store forsendelser",
+      "action": "Check",
+      "can_meet": "3. Not able to meet",
+      "comment": "TAO: Vi har offentlig link i Online men er ikke adgang on-prem (og er det sikkert nok jf andre krav). Vi kan ikke dele forsendelsen op til mit kendskab.",
+      "responsible": "",
+      "compliance": "Not met",
+      "reasons": [
+        "Not met"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte en forsendelsesproces, hvor forsendelsen er større end, hvad der kan sendes i Digital Post. \n\nESDH-løsningen skal sikre, at forsendelsen bliver sendt afsted f.eks. i flere mindre forsendelser uden manuel håndtering ved sagsbehandler."
+    },
+    {
+      "req_id": "MK-170",
+      "document": "Bilag 1.b",
+      "row": 201,
+      "title": "Understøttelse af Kundens datamigrering",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "ADN: bemærk! vi skal \"Understøtte\" ikke udfører. Vi skal dog stille \"importmekanisme\" til rådighed.",
+      "responsible": "Kaare",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Leverandøren skal understøtte Kundens datamigrering fra den eksisterende løsning Public 360 til den af Leverandøren tilbudte løsning. Leverandøren skal stille den nødvendige importmekanisme til rådighed og i samarbejde med Kunden og driftsleverandøren migrere data ind i den nye løsning."
+    },
+    {
+      "req_id": "MK-175",
+      "document": "Bilag 1.b",
+      "row": 206,
+      "title": "Opsætning af miljøer",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "Anton: Leverandøren kan vel ikke sikre etablering af miljøer når SIT er driftsleverandør?",
+      "responsible": "CloudOps",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Leverandøren skal sikre etablering, Konfiguration og stabil drift af to sikkerhedsmæssigt adskilte miljøer:\nNON-PROD: \nUdviklings- og testmiljø: Dette miljø anvendes til udvikling af nye løsninger, hvor Kundens øvrige løsninger skal kunne integrere med ESDH-løsningen. Miljøet anvendes også til udrulning af nye releases, hot fixes m.fl., samt til Kundens interne kvalitetssikring. Miljøet afspejler produktionsmiljøets arkitektur for at sikre retvisende testresultater før udrulning.\nPRE-PROD: Dette"
+    },
+    {
+      "req_id": "MK-181",
+      "document": "Bilag 1.b",
+      "row": 212,
+      "title": "Sprog",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "Adn: Kan vi argumentere for, at admin-hjælpen er teknisk? - hvis vi kan, kan vi sige fuldt opfyldt.",
+      "responsible": "Anton",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte alt dokumentationen på dansk, foruden den tekniske dokumentation, medmindre andet aftales."
+    },
+    {
+      "req_id": "MK-23",
+      "document": "Bilag 1.e",
+      "row": 252,
+      "title": "Eksport af Log",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "TAO: Logger ikke alle handlinger, eksporterer som sådan ikke log, via fx log-shipping. Det vi logger i eventlog, kan læses via API",
+      "responsible": "Torben",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at alle handlinger i ESDH-løsningen kan eksporteres ud i tredjepartsprodukt eller til et filformat, hvor logfilerne ikke kan manipuleres."
+    },
+    {
+      "req_id": "MK-24",
+      "document": "Bilag 1.e",
+      "row": 253,
+      "title": "Log ved eksport af en given Entitet",
+      "action": "Verify",
+      "can_meet": "2. Partly met",
+      "comment": "TAO:Vi logger kun SIF læsninger i læseloggen hvis de foretages med Bearer Authentication kald. Den kan siges at være i admin fordi man har audit rapporterne til at vise læsningen.",
+      "responsible": "Torben",
+      "compliance": "Partial",
+      "reasons": [
+        "Partial"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte, at eksport logges i administratormodulet eller på den Entitet, hvor eksporten er foretaget."
+    },
+    {
+      "req_id": "K-10",
+      "document": "Bilag 1.e",
+      "row": 258,
+      "title": "Kryptering af data i hvile (encryption at rest)",
+      "action": "Check",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Leverandøren skal sikre, at al data lagret i produktionsmiljøet og det miljø som anvendes til migrering (midlertidigt miljø) kan krypteres i hvile, så data er beskyttet selv hvis lagringen kompromitteres. \nData, der overføres til og fra miljøerne, skal beskyttes med krypteringsprotokoller, minimum TLS 1.2 (evt. nyere version) eller tilsvarende. Løsningen skal understøtte kryptering af alle relevante datatyper."
+    },
+    {
+      "req_id": "K-11",
+      "document": "Bilag 1.e",
+      "row": 259,
+      "title": "Kryptering af data i ESDH-løsningen (encryption in transit)",
+      "action": "Check",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Leverandøren skal sikre, at al data i bevægelse mellem miljøerne kan krypteres. Leverandøren skal ligeledes sikre, at al datatrafik til og fra Løsningen beskyttes med krypteringsprotokoller, minimum TLS 1.2 (evt. nyere version) eller tilsvarende. Det er yderligere essentielt, at kryptering kan omfatte den interne datatrafik mellem ESDH-løsningen og den tilhørende database."
+    },
+    {
+      "req_id": "K-12",
+      "document": "Bilag 1.e",
+      "row": 260,
+      "title": "Understøttelse af principper for journalisering og records management",
+      "action": "Check",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte principperne i ISO 15489 om records management, således at Dokumenter, sager og øvrige journaliseringspligtige oplysninger kan oprettes, registreres, fastholdes, genfindes og anvendes som pålidelige, autentiske, integrerede og anvendelige records gennem deres livscyklus.\nESDH-løsningen skal som minimum understøtte, at journaliserede oplysninger kan forsynes med relevante oplysninger om kontekst, ansvar, tidspunkt, relationer, hændelser og status, herunder oplysnin"
+    },
+    {
+      "req_id": "K-13",
+      "document": "Bilag 1.e",
+      "row": 261,
+      "title": "Understøttelse af metadata for journalisering",
+      "action": "Check",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Morten",
+      "compliance": "Clarify",
+      "reasons": [
+        "Morten",
+        "red-flag"
+      ],
+      "requirement": "ESDH-løsningen skal understøtte principperne i ISO 23081 om metadata for records management, således at metadata kan anvendes til at dokumentere journaliserede objekters indhold, kontekst, struktur, relationer, ansvar, hændelser og livscyklus.\nESDH-løsningen skal understøtte, at metadata kan registreres, vedligeholdes, anvendes og udstilles på en måde, der understøtter dokumentation af sagsbehandling, sporbarhed, søgning, genfinding, adgangsstyring, bevaring, kassation og efterfølgende kontrol.\n"
+    },
+    {
+      "req_id": "Tilbudsbrev",
+      "document": "Tilbudsbrev",
+      "row": 264,
+      "title": "Tilbudsbrev",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Anita",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Tilbudsbrev"
+    },
+    {
+      "req_id": "Bilag 2 Producentens standardvilkår",
+      "document": "Bilag 2 Producentens standardvilkår",
+      "row": 265,
+      "title": "Bilag 2 Producentens standardvilkår",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Anita",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Bilag 2 Producentens standardvilkår"
+    },
+    {
+      "req_id": "Bilag 3 Leverandørens priser",
+      "document": "Bilag 3 Leverandørens priser",
+      "row": 266,
+      "title": "Bilag 3 Leverandørens priser",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "Der er aspekter af Bilag 1a, der er relevante for prissætningen - bla. Hvordan licenser/brug kan afregnes. ",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Bilag 3 Leverandørens priser"
+    },
+    {
+      "req_id": "ESPD",
+      "document": "ESPD",
+      "row": 267,
+      "title": "ESPD",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Anita",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "ESPD"
+    },
+    {
+      "req_id": "Bilag 1 - tidsplan og implementering",
+      "document": "Bilag 1",
+      "row": 268,
+      "title": "tidsplan",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Cristina",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed"
+      ],
+      "requirement": "Bilag 1's krav til tidsplanen inkl. Go-live dato d. 1. oktober 2027"
+    },
+    {
+      "req_id": "Bilag 1 - Optioner",
+      "document": "Bilag 1",
+      "row": 269,
+      "title": "optioner",
+      "action": "Answer",
+      "can_meet": "",
+      "comment": "OBS: Vi kan stå for ansvaret for deres drift med 20 DAGES varsel.\n\nOption 7 lugter af at vi/KMD evt skal uddanne Deloitte til at håndtere driften for dem.\n\nVi kan ikke give gå-væk-priser på nogle af disse. De indgår i den evalueringstekniske pris. ",
+      "responsible": "Hans",
+      "compliance": "Draft needed",
+      "reasons": [
+        "Draft needed",
+        "red-flag"
+      ],
+      "requirement": "Bilag 1's krav om optioner - skal besvares i prisbilaget.\n1. 500 timers rådgivning.\n2. Superbrugerundervisning.\n3. Ekstra Non-prod produkter i samme database.\n4. Redundant setup.\n5. Databasedrift hos SIT (de overdrager ansvaret til leverandøren).\n6. Sandkassemiljø.\n7. Undervisning af kundens driftpersionale i drift af applikationen. "
+    },
+    {
+      "req_id": "Bilag 1 - Sikkerhed",
+      "document": "Bilag 1",
+      "row": 270,
+      "title": "Sikkerhedskrav, herunder -godkendelse",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "",
+      "responsible": "Morten",
+      "compliance": "Clarify",
+      "reasons": [
+        "Morten"
+      ],
+      "requirement": "Verificering af sikkerhedskrav, inkl.:\nLeverandørens medarbejdere, der skal understøtte Kunden i Leveringskontraktens levetid, skal sikkerhedsgodkendes jf. Leveringskontrakten pkt. 11."
+    },
+    {
+      "req_id": "B1.A-7",
+      "document": "Bilag 1.a",
+      "row": 277,
+      "title": "Dobbeltdrift ved migrering",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "Prispåvirkning - dette kan være dyrt.",
+      "responsible": "Hans",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Ved migrering af drift fra et system til et andet eller ved skift af driftsleverandør, har Kunden ret til vederlagsfrit at dobbeltdrifte i en periode på op til 4 måneder, hvor systemet migreres fra et driftsmiljø til et andet."
+    },
+    {
+      "req_id": "B1.A-9",
+      "document": "Bilag 1.a",
+      "row": 279,
+      "title": "Sikkerhedskopier m.v.",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "Betyder dette, at de kan få adgang til vores kildekode? At de vil kopiere vores kildekode og gøre med det, hvad de vil? Dette kan vi IKKE leve med.",
+      "responsible": "Mandip",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Kunden har ret til at: - Fremstille et sikkerhedseksemplar af standardsoftwaren, for så vidt det er nødvendigt for benyttelsen af Standardsoftwaren - Besigtige, undersøge eller afprøve standardsoftwaren for at fastslå, hvilke ideer og principper der ligger til grund for de enkelte elementer i programmet, hvis dette sker i forbindelse med sådan indlæsning, visning på skærm, kørsel, overførsel, lagring eller lignende af programmet, som vedkommende er berettiget til at udføre. Kunder der har ret ti"
+    },
+    {
+      "req_id": "B1.A-10",
+      "document": "Bilag 1.a",
+      "row": 280,
+      "title": "Kundens driftsleverandører",
+      "action": "Verify",
+      "can_meet": "",
+      "comment": "Dette er nok skrevet ind for at Deloitte kan arbejde for dem. ",
+      "responsible": "Mandip",
+      "compliance": "Clarify",
+      "reasons": [
+        "red-flag"
+      ],
+      "requirement": "Kunden må frit benytte tredjemands bistand til forvaltning og drift af det leverede standardsoftware. Leverandøren kan stille krav til indgåelse af en skriftlig aftale imellem Kunden, Leverandøren og den pågældende tredjemand vedrørende vilkårene for tredjemands drift af det leverede programmel, forudsat at en sådan aftale ikke indeholder en særskilt pris herfor."
+    }
+  ]
+}

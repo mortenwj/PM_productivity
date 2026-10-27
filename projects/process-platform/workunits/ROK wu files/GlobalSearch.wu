@@ -1,0 +1,8 @@
+<workUnit displayName="[LOCALIZED(041A6424-B9CC-4187-A3E5-9DCB12BC287B,*Update Global Search wordlists)]" id="079BEC49-5A77-4350-BC5C-5CF98D18277D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>[LOCALIZED(92022F2A-F375-4043-9C60-2F45011D9BD6,*Finds new and updated Documents, Cases, etc and adds/updates their keywords to the Global Search wordlists.)]</description>
+	<executable>
+		<invoke>
+		</invoke>
+	</executable>
+	<job queue="Sys.3Minutes" runAs="SystemDefault" resultType="none"/>
+</workUnit>

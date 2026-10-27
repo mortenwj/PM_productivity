@@ -1,0 +1,11 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd" id="8586F577-B42A-427D-8D72-35D9DFA6D5CA" displayName="[LOCALIZED(A8E836A4-ACF8-4CC4-ACD9-CC2A475A9553,*Executes system events)]">
+  <description>[LOCALIZED(DD99816E-F56A-4633-8067-9926D0166891,*Executes all system event handlers listening to the OnSystemPulse event)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.SystemPulse, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Frequently" runAs="SystemDefault" resultType="none" category="AllServers"/>
+</workUnit>

@@ -1,0 +1,13 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+    id="029EECB1-B663-4DC1-98EC-BCDB30F7BD03"
+    displayName="[LOCALIZED(7C11EF1B-B559-47C7-A042-6CBBE3CA9D5A,*Migration to replicated storage)]">
+  <description>[LOCALIZED(44B74CBC-F4D5-4368-B906-D9A799F2E29E,*If the storage replication feature is enabled, this job performs the initial population of the replication state for all files in the primary storage account if it hasn't been done yet.)]</description>
+  <categories>
+    <category>Script</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Core.WorkUnits.Jobs.MigrateFilesToReplicatedStorage, SI.Biz.Core.WorkUnits">
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none" category="AnyServer"/>
+</workUnit>

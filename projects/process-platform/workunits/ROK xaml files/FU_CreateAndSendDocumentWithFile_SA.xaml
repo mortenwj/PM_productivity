@@ -1,0 +1,91 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="TrainingProcess1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>TrainingProcess1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Biz.Core.Fluent</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Util.Cryptography</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="_DocumentRecno" />
+      <Variable x:TypeArguments="x:Boolean" Name="_DispatchResult" />
+    </Sequence.Variables>
+    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_2">
+      <sbcpa:ContextBinder.Parameters>
+        <sbcpa:BypassAccessControl sap2010:WorkflowViewState.IdRef="BypassAccessControl_3">
+          <sbcpa:BypassAccessControl.Parameters>
+            <sbcpa:InvokeWorkUnit x:TypeArguments="x:String" DisplayName="Opret dokument" sap2010:WorkflowViewState.IdRef="InvokeWorkUnit`1_1" Result="[_DocumentRecno]" WorkUnit="FU_CreateAndSendDocumentWithFile.wu =&gt; FU_Create_and_send_document_with_file{EC03B796-8A3A-4ABC-9314-E3D5F59EA9F7}">
+              <sbcpa:InvokeWorkUnit.Parameters>
+                <sbcpa:InvokeWorkUnitParameter x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="InvokeWorkUnitParameter`1_1" ParameterName="ProgressPlanId" ParameterValue="[ProgressPlanId]" />
+              </sbcpa:InvokeWorkUnit.Parameters>
+              <sbcpa:InvokeWorkUnit.Variables>
+                <sco:Collection x:TypeArguments="Variable" />
+              </sbcpa:InvokeWorkUnit.Variables>
+            </sbcpa:InvokeWorkUnit>
+          </sbcpa:BypassAccessControl.Parameters>
+        </sbcpa:BypassAccessControl>
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d21FOlxUaWV0b1wzNjBcX2luc3RhbmNlc1xlRG9jXHdvcmt1bml0c1xDcmVhdGVBbmRTZW5kRG9jdW1lbnRXaXRoRmlsZVxGVV9DcmVhdGVBbmRTZW5kRG9jdW1lbnRXaXRoRmlsZV9TQS54YW1sCS0DQw4CAQEyBUEbAgECNAk/JQIBAzYNPSQCAQQ2lwE2qQECAQY2swE2qgICAQU4ETjMAQIBCDiXATinAQIBCzi3ATjJAQIBCQ==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="InvokeWorkUnitParameter`1_1" sap:VirtualizedContainerService.HintSize="242,70" />
+      <sap2010:ViewStateData Id="InvokeWorkUnit`1_1" sap:VirtualizedContainerService.HintSize="256,156" />
+      <sap2010:ViewStateData Id="BypassAccessControl_3" sap:VirtualizedContainerService.HintSize="270,242" />
+      <sap2010:ViewStateData Id="ContextBinder_2" sap:VirtualizedContainerService.HintSize="284,328" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="306,452">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="TrainingProcess1_1" sap:VirtualizedContainerService.HintSize="346,532">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+            <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

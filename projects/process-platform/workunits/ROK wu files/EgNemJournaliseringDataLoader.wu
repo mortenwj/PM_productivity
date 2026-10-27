@@ -1,0 +1,8 @@
+﻿<workUnit displayName="EgNemJournaliseringDataLoader" id="91DBB982-6D0E-46D0-954A-E58A129CDB6C" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+  <description>EgNemJournaliseringDataLoader description.</description>
+  <executable>
+    <invoke>
+    </invoke>
+  </executable>
+  <job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

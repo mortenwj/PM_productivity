@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>UIM delivery roadmap</title>
+<style>
+@page { size: A4 landscape; margin: 12mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.risk-high td { background: #fdecea; }
+.risk-med td { background: #fff8e6; }
+.risk-low td { background: #eefaf0; }
+.gap-not-met { color: #a1260d; font-weight: 600; }
+.gap-partial, .gap-in-flight { color: #8a6d00; font-weight: 600; }
+.gap-draft { color: #1f4e79; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.roadmap-d { background: #fafafa; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+.small { font-size: 8pt; color: #555; }
+.page-break { page-break-before: always; }
+
+.initiative { border-left: 3px solid #7BAFE9; padding-left: 8pt; margin: 6pt 0 10pt; }
+.badge { font-size: 7.5pt; padding: 1pt 4pt; border-radius: 3px; background: #eee; }
+.badge.warn { background: #fff3cd; color: #856404; }
+.gap-tbd { color: #555; font-weight: 600; }
+</style></head><body>
+<h1>UIM ESDH — delivery roadmap (draft)</h1>
+<p class="meta">High-level plan to start work before award · Three parallel tracks · ADO parent #433876<br/>
+UIM ESDH tender tool · 27 commitment Features · Aug 2026 · Build complete 1 Sep 2027 · Search MVP Q4 2026 (compressed)</p>
+<div class="stats">
+  <div class="stat"><div class="val">3</div><div class="lbl">Parallel tracks</div></div>
+  <div class="stat"><div class="val">6</div><div class="lbl">Start now</div></div>
+  <div class="stat"><div class="val">3</div><div class="lbl">Gap: Not met</div></div>
+  <div class="stat"><div class="val">~10 mo</div><div class="lbl">Build window</div></div>
+</div>
+<div class="callout warn"><strong>Timeline compression — search is on the critical path:</strong> Original plan (search through Q2 2027 on FIB/FFUI) cannot deliver the full UIM portfolio by Sep 2027. Search MVP must land Q4 2026; MK-77 decided by mid-Sep. Listviews require alt UI layer decision — FIB extension is the slow path.</div>
+<div class="callout warn"><strong>Critical path outside these three tracks:</strong> Customer entities platform (433895 / EK-6) is the hub for mass update breadth, configurable validations, and FFUI scope. Go/no-go on 433895 affects Integration and Process Platform follow-ons.</div>
+<h2>Team tracks</h2>
+<h3>Core UI + Core BL (4 initiatives)</h3><h4>Start now (3)</h4><div class='initiative'><p><strong>Unified search surface (Search Assistant + query builder)</strong> <span class='gap-partial'>Partial</span> <span class='badge warn'>Start now</span> </p><p class='small'>Users expect combined multi-field, cross-entity search in one place — not three parallel mental models (Global / Advanced / Assistant).</p><p class='small'>MK-66, MK-73, MK-74, MK-75, K-4 · PFR 433882 · Now → Q4 2026</p><p class='small'><em>MVP for bid narrative by Nov 2026; hardening in Q1 2027 only</em></p></div><div class='initiative'><p><strong>Unbounded search &amp; list results (MK-77)</strong> <span class='gap-not-met'>Not met</span> <span class='badge warn'>Start now</span> </p><p class='small'>Tender requires displaying large result sets without hard caps. Current architecture limits list/search counts — bid blocker.</p><p class='small'>MK-77 · PFR 435257 · Now → Q4 2026</p><p class='small'><em>Architecture decision by mid-Sep 2026; blocks all list work</em></p></div><div class='initiative'><p><strong>Listviews &amp; personalization — alt UI layer (not FIB)</strong> <span class='gap-tbd'>TBD</span> <span class='badge warn'>Start now</span> </p><p class='small'>435606 / EK-3 / MK-84+ via FIB+FFUI is 25–40 months net effort — too slow. Explore thin React shell, Search Assistant host, or generated views on existing APIs.</p><p class='small'>MK-66+, EK-3, MK-84+ · PFR 435606, 435253, 433884 · Now → Q2 2027</p><p class='small'><em>UI layer spike (Sep 2026) gates scope: alt shell vs FIB/FFUI vs hybrid</em></p></div><h4>Follow-on</h4><div class='initiative'><p><strong>Hierarchical case collections in search lists</strong> <span class='gap-not-met'>Not met</span> </p><p class='small'>MK-30 · PFR 433877 · Q2 2027 → Q2 2027</p><p class='small'><em>Q&amp;A narrow to evaluation-only or defer post go-live</em></p></div><h3>Core Integration (2 initiatives)</h3><h4>Start now (2)</h4><div class='initiative'><p><strong>Activities create/update via API (EK-12)</strong> <span class='gap-partial'>In flight</span> <span class='badge warn'>Start now</span> </p><p class='small'>External systems must create and update Activities through a documented REST API — not UI-only flows.</p><p class='small'>EK-12 · PFR 435258 · Now → Q4 2026</p><p class='small'><em>Linked to WI 377061 — lowest gate risk if closed before bid lock</em></p></div><div class='initiative'><p><strong>Mass update API &amp; bulk operations (MK-80)</strong> <span class='gap-not-met'>Not met</span> <span class='badge warn'>Start now</span> </p><p class='small'>Bulk update of contacts and customer-created entities is not supported today. Requires API orchestration, audit trail, and async job patterns.</p><p class='small'>MK-80 · PFR 433883 · Now → Q1 2027</p><p class='small'><em>Entity model breadth from 433895; UI may use alt layer not FIB Massupdate</em></p></div><h4>Follow-on</h4><h3>Process Platform (2 initiatives)</h3><h4>Start now (1)</h4><div class='initiative'><p><strong>Business Rules Engine — platform MVP</strong> <span class='gap-tbd'>Aligns</span> <span class='badge warn'>Start now</span> </p><p class='small'>Platform needs a rules execution layer for workflow-adjacent automation. Existing roadmap targets MVP in 6.11 stretch (eDoc caseclose).</p><p class='small'>— (platform) · Now → Q4 2026</p></div><h4>Follow-on</h4><div class='initiative'><p><strong>Configurable rules &amp; validations on entities (EK-5)</strong> <span class='gap-tbd'>TBD</span> </p><p class='small'>EK-5 · PFR 435597 · Q1 2027 → Q2 2027</p><p class='small'><em>Extends BRE MVP; ties to custom fields / 433895 platform spine</em></p></div>
+<div class="page-break"></div>
+<h2>Acceleration experiments (BMAD · Paperclip · AI codegen)</h2>
+<table>
+<thead><tr><th>Tool</th><th>Track</th><th>Purpose</th><th>Timebox</th><th>Success criteria</th></tr></thead>
+<tbody><tr><td>BMAD (spec-driven)</td><td>Search</td><td>bmad-investigate → brief → spec → architecture on search-experience information-package</td><td>Sep 2026 (2 weeks)</td><td>Architecture + UI layer recommendation for Sep gate</td></tr><tr><td>BMAD (spec-driven)</td><td>Integration + PP</td><td>BRE-style information package for EK-12 closure and mass-update API contract</td><td>Sep–Oct 2026</td><td>OpenAPI + acceptance criteria signed</td></tr><tr><td>Paperclip</td><td>Search + Integration</td><td>Orchestrate Cursor/Claude agents on ADO backlog — spikes, tests, API boilerplate</td><td>Sep spike · Oct decision</td><td>≥1 vertical slice with measured human-review ratio</td></tr><tr><td>AI-generated code</td><td>All tracks</td><td>BMAD spec + ADO story → agent generates handlers/views; human owns architecture and merge</td><td>Ongoing from Sep 2026</td><td>Green/yellow/red zones agreed per team</td></tr><tr><td>Alt UI layer spike</td><td>Search</td><td>FIB/FFUI vs thin React host vs generated list components on search API</td><td>Sep 2026 (1 week)</td><td>Go/no-go on FIB dependency for search MVP</td></tr></tbody>
+</table>
+<h2>Decisions to make · questions to answer</h2>
+<table>
+<thead><tr><th>ID</th><th>Category</th><th>Question</th><th>Options</th><th>Deadline</th><th>Owner</th></tr></thead>
+<tbody><tr><td>D1</td><td>Strategy</td><td>Can we deliver full UIM portfolio on current FFUI/FIB path?</td><td>Compress + alt UI + AI · Partial bid · Full commit (9–14 FTE peak)</td><td>Sep 2026</td><td>Program / DG</td></tr><tr><td>D2</td><td>Architecture</td><td>Search UI layer: extend FIB/FFUI or separate React shell?</td><td>Search Assistant host · FIB/FFUI full · Hybrid</td><td>Mid-Sep 2026</td><td>Core UI + Search</td></tr><tr><td>D3</td><td>Architecture</td><td>MK-77: unbounded results without breaking performance?</td><td>Cursor/streaming · virtual scroll + paging · async export · Q&amp;A cap</td><td>Mid-Sep 2026</td><td>Core BL + Search</td></tr><tr><td>D4</td><td>Delivery</td><td>Search MVP for Nov 2026 award vs Sep 2027 build complete?</td><td>MK-66 partial + MK-77 plan · include MK-74/75 · defer 435606</td><td>Sep 2026</td><td>Morten / tender</td></tr><tr><td>D5</td><td>Delivery</td><td>Where is AI-generated code allowed?</td><td>Green: API/UI from spec · Yellow: BL query · Red: auth, pagination, audit</td><td>Sep 2026</td><td>Tech leads</td></tr><tr><td>D6</td><td>Delivery</td><td>Paperclip pilot: adopt or stay Cursor-only?</td><td>Search spike · Integration API · No</td><td>Oct 2026</td><td>Program + leads</td></tr><tr><td>D7</td><td>Strategy</td><td>433895 customer entities — in, partial, or out?</td><td>Full hub · Phased · Q&amp;A narrow · Out</td><td>Sep 2026</td><td>Claus / program</td></tr><tr><td>D8</td><td>Tender</td><td>435606 universal listviews — minimum or evaluation?</td><td>Q&amp;A clarify · Partial (search lists) · Alt UI columns · Defer</td><td>Oct 2026</td><td>Tender owner</td></tr><tr><td>D9</td><td>Strategy</td><td>Search Assistant: replace or coexist with Advanced Search?</td><td>Replace · Unified entry · Coexist</td><td>Sep 2026</td><td>Search PM</td></tr><tr><td>D10</td><td>Tender</td><td>MK-30 hierarchical collections — in scope for Oct 2027?</td><td>Commit · Evaluation only · Q&amp;A out</td><td>Oct 2026</td><td>Tender owner</td></tr></tbody>
+</table>
+<h2>Problems to solve · requirements map</h2>
+<table>
+<thead><tr><th>Track</th><th>Tender refs</th><th>Problem / requirement</th><th>Gap today</th><th>Start now</th></tr></thead>
+<tbody><tr class='risk-med'><td>Search</td><td>MK-66, MK-73, MK-74, MK-75, K-4</td><td>Users expect combined multi-field, cross-entity search in one place — not three parallel mental models (Global / Advanced / Assistant).</td><td class='gap-partial'>Partial</td><td>Yes</td></tr><tr class='risk-high'><td>Search</td><td>MK-77</td><td>Tender requires displaying large result sets without hard caps. Current architecture limits list/search counts — bid blocker.</td><td class='gap-not-met'>Not met</td><td>Yes</td></tr><tr class='risk-med'><td>Search</td><td>MK-66+, EK-3, MK-84+</td><td>435606 / EK-3 / MK-84+ via FIB+FFUI is 25–40 months net effort — too slow. Explore thin React shell, Search Assistant host, or generated views on existing APIs.</td><td class='gap-tbd'>TBD</td><td>Yes</td></tr><tr class='risk-high'><td>Search</td><td>MK-30</td><td>Search result lists must support hierarchical case collection structures (parent/child cases).</td><td class='gap-not-met'>Not met</td><td>—</td></tr><tr class='risk-low'><td>Integration</td><td>EK-12</td><td>External systems must create and update Activities through a documented REST API — not UI-only flows.</td><td class='gap-partial'>In flight</td><td>Yes</td></tr><tr class='risk-high'><td>Integration</td><td>MK-80</td><td>Bulk update of contacts and customer-created entities is not supported today. Requires API orchestration, audit trail, and async job patterns.</td><td class='gap-not-met'>Not met</td><td>Yes</td></tr><tr class='risk-low'><td>PP</td><td>— (platform)</td><td>Platform needs a rules execution layer for workflow-adjacent automation. Existing roadmap targets MVP in 6.11 stretch (eDoc caseclose).</td><td class='gap-tbd'>Aligns</td><td>Yes</td></tr><tr class='risk-med'><td>PP</td><td>EK-5</td><td>Customer-configurable validation rules on standard and custom fields — evaluation criterion, not just minimum requirement.</td><td class='gap-tbd'>TBD</td><td>—</td></tr></tbody>
+</table>
+<h2>Phased timeline (compressed)</h2>
+<table>
+<thead><tr><th>Phase</th><th>Search (Core UI + BL)</th><th>Integration</th><th>Process Platform</th><th>Program milestone</th></tr></thead>
+<tbody><tr><td>Now (Aug–Sep 2026)</td><td>MK-77 architecture decision; BMAD investigate+brief; alt UI layer spike; Search Assistant MVP scope lock</td><td>Close EK-12 / WI 377061; mass update API design; Paperclip pilot</td><td>BRE MVP scoping; BMAD spec for rule model</td><td>D1–D5 decisions · acceleration experiments start</td></tr><tr><td>Q4 2026</td><td>Search MVP: MK-66 + query builder for bid; MK-77 implementation; alt-UI list prototype</td><td>Mass update API alpha; async bulk job pattern</td><td>BRE MVP delivery (6.11 stretch)</td><td>Award gate ~Nov 2026 · search demo-ready</td></tr><tr><td>Q1 2027</td><td>Search hardening; MK-74/75; listviews on chosen UI layer (not full FIB if spike succeeds)</td><td>Mass update API beta; integration testing</td><td>EK-5 validations on custom entities</td><td>Post-award acceleration</td></tr><tr><td>Q2 2027</td><td>Personalization (EK-3) to committed minimum; MK-30 only if in scope</td><td>Mass update GA; API documentation &amp; compliance evidence</td><td>EK-5 GA</td><td>Tender compliance hardening</td></tr><tr><td>Sep 2027</td><td>Search/list UAT sign-off</td><td>API &amp; bulk UAT sign-off</td><td>BRE / validations UAT sign-off</td><td>Build complete · Go-live Oct 2027</td></tr></tbody>
+</table>
+<h2>Cross-track dependencies</h2>
+<ul>
+<li><strong>Search ↔ Integration:</strong> Mass update UI may use alt layer (not FIB Massupdate) consuming Integration bulk API. Avoid duplicate FIB/FFUI work with 433882.</li>
+<li><strong>Integration ↔ Process Platform:</strong> EK-5 validations may invoke BRE; mass update may need rule checks before bulk apply. Define API contracts in Q4 2026.</li>
+<li><strong>All tracks ↔ Platform spine:</strong> 433895 unlocks full MK-80 and EK-5 scope. Bid narrative must clarify phased delivery if 433895 is partial.</li>
+<li><strong>Search internal:</strong> Core BL owns query engine + MK-77 pagination. Core UI owns Search Assistant + chosen UI layer. AI codegen highest value on UI + API boilerplate after BMAD spec lock.</li>
+</ul>
+<h2>Deferred clusters (not in initial three tracks)</h2>
+<table>
+<thead><tr><th>Cluster</th><th>Tender refs</th><th>PFR IDs</th><th>Note</th></tr></thead>
+<tbody><tr><td>Platform spine</td><td>EK-6, MK-6, K-11/K-12</td><td>433895, 433881, 433887, 435603</td><td>Hub decision gate — 433895 blocks mass update &amp; validations breadth</td></tr><tr><td>Office / mail integrations</td><td>K-16, K-17, MK-145</td><td>433889, 433891, 433890</td><td>LibreOffice, Evolution, Outlook datetime</td></tr><tr><td>Dispatch / Strålfors</td><td>MK-169, K-18, MK-165, MK-167</td><td>433892, 433893, 435336, 435338</td><td>Physical mail channel assumptions</td></tr><tr><td>Logging / audit</td><td>MK-20</td><td>433894, 435333</td><td>Merge duplicate Features before commitment</td></tr><tr><td>Admin / workflow / security</td><td>MK-99, MK-120, MK-133</td><td>433885, 433886, 433888</td><td>Medium priority; Q&amp;A on minimum vs evaluation</td></tr></tbody>
+</table>
+<h3>Next steps (Sep 2026)</h3>
+<ol>
+<li>Run BMAD investigate + brief on search-experience (2 weeks) → D2, D4, D9.</li>
+<li>MK-77 architecture review by mid-Sep → D3.</li>
+<li>Alt UI layer spike: FIB/FFUI vs Search Assistant React shell → D2 within 1 week.</li>
+<li>Paperclip pilot: one Search slice + one Integration API handler → D6 by Oct.</li>
+<li>Define AI codegen green/yellow/red zones → D5.</li>
+<li>Integration: close WI 377061 before Nov 2026 award gate.</li>
+<li>Program: resolve 433895 in/out → D7.</li>
+<li>Tender: Q&A strategy for 435606 and MK-30 → D8, D10.</li>
+</ol>
+</body></html>

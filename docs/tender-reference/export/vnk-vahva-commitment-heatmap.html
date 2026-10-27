@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>VNK-Vahva commitment heatmap</title>
+<style>
+@page { size: A4 landscape; margin: 12mm; }
+body { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-size: 9pt; line-height: 1.35; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 8pt; }
+h2 { font-size: 12pt; margin: 14pt 0 6pt; page-break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 10pt 0 4pt; page-break-after: avoid; }
+p, li { margin: 0 0 4pt; }
+.meta { color: #444; font-size: 8.5pt; margin-bottom: 10pt; }
+.callout { border: 1px solid #ccc; border-left: 4px solid #c0392b; padding: 8pt 10pt; margin: 10pt 0; background: #fdf6f6; }
+.callout.info { border-left-color: #2980b9; background: #f4f8fc; }
+.callout.warn { border-left-color: #d68910; background: #fef9f0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 8pt; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: top; text-align: left; }
+th { background: #eef2f7; font-weight: 600; }
+tr:nth-child(even) td { background: #fafafa; }
+.gap-partial { color: #8a6d00; font-weight: 600; }
+.roadmap-a { background: #eefaf0; }
+.roadmap-b { background: #fff8e6; }
+.roadmap-c { background: #fdecea; }
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8pt; margin: 10pt 0; }
+.stat { border: 1px solid #ccc; padding: 8pt; border-radius: 4px; }
+.stat .val { font-size: 14pt; font-weight: 700; }
+.stat .lbl { font-size: 8pt; color: #555; }
+</style></head><body>
+<h1>VNK-Vahva — commitment heatmap</h1>
+<p class="meta">VN Asia (Valtioneuvoston kanslia / Valtori) · Epic #436815 · 9 PFRs · Liite 2.3: 487 reqs (416 Pakollinen) · verified 4 Sep 2026</p>
+<div class="callout warn"><strong>Coverage warning:</strong> 9 registered PFRs vs 487 functional requirements (~2%). Unregistered: Suomi.fi (A15), eIDAS (C21), multi-org (A2–A7), Liite 2.6 security.</div>
+<div class="stats">
+  <div class="stat"><div class="val">487</div><div class="lbl">Liite 2.3 reqs</div></div>
+  <div class="stat"><div class="val">9</div><div class="lbl">Registered PFRs</div></div>
+  <div class="stat"><div class="val">9</div><div class="lbl">Partial (RFI evidence)</div></div>
+  <div class="stat"><div class="val">55–90 mo</div><div class="lbl">PFR portfolio effort</div></div>
+  <div class="stat"><div class="val">1 XL</div><div class="lbl">#437273 API</div></div>
+</div>
+<div class="callout info"><strong>Roadmap alignment:</strong>
+A 1 · B 4 · C 4 · D 0.</div>
+<h2>PFR portfolio detail</h2>
+<table>
+<thead><tr>
+<th>ID</th><th>Ref</th><th>Title</th><th>Roadmap</th><th>Roadmap ref</th><th>Cluster</th><th>Size</th>
+<th>Gap</th><th>Risk</th><th>Owner</th><th>Notes</th>
+</tr></thead>
+<tbody><tr class='roadmap-c'><td>437273</td><td>A12–A14 / API</td><td>360° API requirements (API-first / new SIF)</td><td>C — Strategic</td><td>NG Integration API / 360° API Gateway</td><td>API / integration platform</td><td>XL</td><td class='gap-partial'>Partial</td><td>High</td><td>Mika / Tero</td><td>Post–Innovation Board</td></tr><tr class='roadmap-b'><td>430281</td><td>F-section</td><td>Metadata — language, length, inheritance, infosec</td><td>B — Accelerate</td><td>Custom fields / metadata model</td><td>Metadata / TOS</td><td>L</td><td class='gap-partial'>Partial</td><td>High</td><td>Willy Koch</td><td>111 Liite 2.3 reqs in F</td></tr><tr class='roadmap-b'><td>433271</td><td>B7–B10, E48</td><td>Mass functions</td><td>B — Accelerate</td><td>Mass update</td><td>Mass operations</td><td>L</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-b'><td>434693</td><td>I-section</td><td>Search — wildcard, saved-search sharing</td><td>B — Accelerate</td><td>Refactor search experience</td><td>Search / FFUI</td><td>L</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Willy Koch</td><td></td></tr><tr class='roadmap-c'><td>430271</td><td>E-dispatch</td><td>Enhanced dispatch</td><td>C — Strategic</td><td>—</td><td>Dispatch / notifications</td><td>L</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Olga Safonova</td><td>Commitment; Conditional</td></tr><tr class='roadmap-a'><td>432904</td><td>E21–E26</td><td>Enhanced email notifications</td><td>A — Aligns</td><td>New Outlook Support</td><td>Dispatch / notifications</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr><tr class='roadmap-c'><td>430291</td><td>E-notify</td><td>Email configurability (ORPHAN)</td><td>C — Strategic</td><td>—</td><td>Dispatch / notifications</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>Jarle Steira</td><td>Not on epic #436815</td></tr><tr class='roadmap-b'><td>433354</td><td>B58</td><td>Template filtering FI/SV</td><td>B — Accelerate</td><td>Full Flex UI / templates</td><td>Templates / document UX</td><td>M</td><td class='gap-partial'>Partial</td><td>Low</td><td>—</td><td>Only child of epic</td></tr><tr class='roadmap-c'><td>433356</td><td>B66, H</td><td>Draft file version disposal</td><td>C — Strategic</td><td>Retention / disposal</td><td>Archiving / disposal</td><td>M</td><td class='gap-partial'>Partial</td><td>Medium</td><td>—</td><td></td></tr></tbody>
+</table>
+</body></html>

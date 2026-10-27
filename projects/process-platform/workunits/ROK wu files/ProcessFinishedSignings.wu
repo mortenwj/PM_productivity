@@ -1,0 +1,8 @@
+﻿<workUnit id="5B78EAE0-7412-4B79-9318-7D735C085446" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+displayName="[LOCALIZED(B24859F4-8262-43B8-B093-29D902D5666F,*Process finished signings)]">
+  <description>[LOCALIZED(8FE5B30D-E29B-4E98-A1BC-49CC05570991,*Process signings that are finished (Signed or Failed).)]</description>
+  <executable assemblyType="SI.Biz.Core.Signing.FinishedSigningProcessor, SI.Biz.Core.Signing, version=4.0.0.0, Culture=neutral, PublicKeyToken=84474dc3c65e4430">
+    <invoke />
+  </executable>
+  <job queue="Sys.Signing" runAs="signing_serviceaccount" resultType="none" category="InternalAndSecureZone"/>
+</workUnit>

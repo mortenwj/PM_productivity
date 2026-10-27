@@ -1,0 +1,17 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"
+          id="F25A51D0-E86D-444A-83C5-FE95A8B6AAA9"
+          displayName="[LOCALIZED(335AD8FA-A627-4A9C-9926-86524AABE064,*Create document from Signing)]">
+  <description>[LOCALIZED(1D26B287-2101-40DF-896A-B4A716C4096C,*Create a new inbound case document from Signing)]</description>
+  <categories>
+    <category>Script</category>
+    <category>Signing</category>
+  </categories>
+
+  <executable assemblyType="SI.Biz.Core.Signing.WorkUnits.CreateNewDocumentFromSigning, SI.Biz.Core.Signing">
+    <invoke>
+      <arguments>
+        <argument name="signingId" type="int"/>
+      </arguments>
+    </invoke>
+  </executable>
+</workUnit>

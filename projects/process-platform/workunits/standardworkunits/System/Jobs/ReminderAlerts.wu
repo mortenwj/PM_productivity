@@ -1,0 +1,9 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorkUnit.xsd"
+    id="0CB68B77-DB29-4AE3-B04D-83EEF8D30E85"
+      displayName="[LOCALIZED(52652411-DBB1-4498-9A98-EF07C5810193,*Notification for Reminders from Reminder activity type)]">
+  <description>[LOCALIZED(4B5CA3A9-C657-4FD3-B068-0CA7B0B2F708,*Send Reminder-notifications for responsible person, roles and specific users added when creating a Reminder activity type)]</description>
+  <executable file="ReminderAlerts.xml">
+    <invoke/>
+  </executable>
+  <job queue="Sys.OnceNightly" runAs="SystemDefault" resultType="none"></job>
+</workUnit>

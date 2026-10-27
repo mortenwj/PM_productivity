@@ -1,0 +1,236 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="CreateDocumentWithFile"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:feps="clr-namespace:Fujitsu.eDoc.ProcessEngine.Support;assembly=Fujitsu.eDoc.ProcessEngine.Support"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:sbcpa="clr-namespace:SI.Biz.Core.ProcessEngine.Activities;assembly=SI.Biz.Core.ProcessEngine.Activities"
+ xmlns:sbcps="clr-namespace:SI.Biz.Core.ProcessEngine.Support;assembly=SI.Biz.Core.ProcessEngine.Support"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="DocumentId" Type="OutArgument(x:String)" />
+    <x:Property Name="ProgressPlanId" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>Workflow1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>SI.Biz.Core.ProcessEngine.Support</x:String>
+      <x:String>SI.Linq.Meta</x:String>
+      <x:String>SI.Linq.Provider</x:String>
+      <x:String>SI.Biz.Core</x:String>
+      <x:String>SI.Util</x:String>
+      <x:String>SI.Util.Caching</x:String>
+      <x:String>Fujitsu.eDoc.ProcessEngine.Support</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Support</AssemblyReference>
+      <AssemblyReference>SI.Biz.Core.ProcessEngine.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>SI.Linq.Provider</AssemblyReference>
+      <AssemblyReference>SI.Linq.Meta</AssemblyReference>
+      <AssemblyReference>SI.Util</AssemblyReference>
+      <AssemblyReference>Fujitsu.eDoc.ProcessEngine.Support</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sbcps:ProgressPlan" Name="_ProgressPlan" />
+      <Variable x:TypeArguments="sbcps:OutboundDocumentInfo" Name="_Document" />
+      <Variable x:TypeArguments="sbcps:ProduceFileInfo" Name="_ProduceFileInfo" />
+      <Variable x:TypeArguments="sbcps:Case" Name="_Case" />
+      <Variable x:TypeArguments="scg:List(sbcps:CaseContact)" Name="_CaseContact" />
+      <Variable x:TypeArguments="x:String" Name="_caseid" />
+      <Variable x:TypeArguments="feps:Document" Name="_FU_Document" />
+      <Variable x:TypeArguments="x:String" Name="_roleId" />
+      <Variable x:TypeArguments="x:String" Name="_docTitle" />
+      <Variable x:TypeArguments="x:Int32" Name="_templateId" />
+      <Variable x:TypeArguments="x:String" Name="_fileComment" />
+    </Sequence.Variables>
+    <sbcpa:ContextBinder sap2010:WorkflowViewState.IdRef="ContextBinder_1">
+      <sbcpa:ContextBinder.Parameters>
+        <Assign DisplayName="Get Progressplan object" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:ProgressPlan">[_ProgressPlan]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:ProgressPlan">[SI.Biz.Core.ProcessEngine.Support.Get.Instance(Of SI.Biz.Core.ProcessEngine.Support.ProgressPlan)(ProgressPlanId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Specify Contact roles" sap2010:WorkflowViewState.IdRef="Assign_10">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[_roleId]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">[Nothing]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Add Document title" sap2010:WorkflowViewState.IdRef="Assign_11">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[_docTitle]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">Dokument oprettet via server action til forsendelse</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Add filetemplate" sap2010:WorkflowViewState.IdRef="Assign_12">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[_templateId]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">50134</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Add filename" sap2010:WorkflowViewState.IdRef="Assign_13">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[_fileComment]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">Fil oprettet via server action</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Get Case object" sap2010:WorkflowViewState.IdRef="Assign_6">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:Case">[_Case]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:Case">[SI.Biz.Core.ProcessEngine.Support.Get.Instance(Of SI.Biz.Core.ProcessEngine.Support.Case)(_ProgressPlan.ParentCaseId.ToString())]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Get Document" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:OutboundDocumentInfo">[_Document]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:OutboundDocumentInfo" xml:space="preserve">[New SI.Biz.Core.ProcessEngine.Support.OutboundDocumentInfo() With
+{
+    .Title = _docTitle,
+    .CaseId = _ProgressPlan.ParentCaseId,
+    .DocumentArchiveId = 2,
+    .DocumentCategoryId = 111
+}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Get contact document" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign.To>
+            <OutArgument x:TypeArguments="feps:Document">[_FU_Document]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="feps:Document" xml:space="preserve">[New Fujitsu.eDoc.ProcessEngine.Support.Document() With
+{
+    .Title = "Dokument via Server Action",
+    .CaseId = _ProgressPlan.ParentCaseId,
+    .DocumentArchiveId = 2,
+    .DocumentCategoryId = 111
+}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Get Case contacts" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign.To>
+            <OutArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_CaseContact]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="scg:List(sbcps:CaseContact)">[_Case.GetContactInstances(_roleId)]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <sbcpa:Ensure DisplayName="Check that contacts exists" Eval="[Not _CaseContact Is Nothing]" Exception="[New SI.Util.BizInfoException(&quot;(($((#5BBBFAC4-C659-482A-85D3-046AD1E0EF94#))Noget er galt.$))&quot;)]" sap2010:WorkflowViewState.IdRef="Ensure_1" />
+        <Assign DisplayName="Get file object" sap2010:WorkflowViewState.IdRef="Assign_4">
+          <Assign.To>
+            <OutArgument x:TypeArguments="sbcps:ProduceFileInfo">[_ProduceFileInfo]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="sbcps:ProduceFileInfo" xml:space="preserve">[New SI.Biz.Core.ProcessEngine.Support.ProduceFileInfo() With
+{
+    .TemplateId = _templateId,
+    .FileComment = _fileComment
+}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Create Document" sap2010:WorkflowViewState.IdRef="Assign_5">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[DocumentId]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">[SI.Biz.Core.ProcessEngine.Support.DocumentHandler.CreateOutboundDocumentWithFile(_Document, _ProduceFileInfo).ToString()]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ForEach x:TypeArguments="sbcps:CaseContact" DisplayName="Add case contacts to document" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[_CaseContact]">
+          <ActivityAction x:TypeArguments="sbcps:CaseContact">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="sbcps:CaseContact" Name="item" />
+            </ActivityAction.Argument>
+            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="Dummy" />
+                <Variable x:TypeArguments="x:String" Name="variable1" />
+              </Sequence.Variables>
+              <Assign DisplayName="Create Document Contact" sap2010:WorkflowViewState.IdRef="Assign_9">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[Dummy]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">[_FU_Document.AddRecepient(Convert.ToInt32(DocumentId), item)]</InArgument>
+                </Assign.Value>
+              </Assign>
+            </Sequence>
+          </ActivityAction>
+        </ForEach>
+        <sbcpa:CallWorkUnitFunc x:TypeArguments="x:String" DisplayName="Call Send Digital Post via Doc2Mail" sap2010:WorkflowViewState.IdRef="CallWorkUnitFunc`1_1" Parameters="[{ProgressPlanId, DocumentId}]" WorkUnit="SendDigitalPost =&gt; FuDP9181ABD0-984D-4575-8E8D-E412EEABE4C9" />
+      </sbcpa:ContextBinder.Parameters>
+    </sbcpa:ContextBinder>
+    <sads:DebugSymbol.Symbol>d2NFOlxEXDUuMFxTb3VyY2VcU2hhcmVkXFByb2Nlc3NFbmdpbmVcV29ya3VuaXRzXGVEb2MgV29ya3VuaXRzXEZVX0NyZWF0ZUFuZFNlbmREb2N1bWVudFdpdGhGaWxlLnhhbWwsNgPIAQ4CAQFEBcYBGwIBAkYJTRICATtOCVUSAgE3VgldEgIBM14JZRICAS9mCW0SAgErbgl1EgIBJ3YJgwESAgEjhAEJkQESAgEfkgEJmQESAgEcmgEJmgGJAgIBGZsBCaYBEgIBE6cBCa4BEgIBD68BCcMBEwIBCMQBCcQBnQICAQNLPkuxAQIBPkg/SE4CATxTNFM9AgE6UDVQPgIBOFs0W2cCATZYNVhAAgE0YzNjOAIBMmA0YEECATBrNGtSAgEuaDVoQwIBLHM2c7gBAgEqcDdwPgIBKHhHeFICASSGATqGAUgCASCXAUeXAWsCAR6UAUiUAVYCAR2aAUWaAWQCARuaAW+aAdsBAgEanQFCnQFUAgEUrAE0rAGuAQIBEqkBNakBQQIBEK8BlwGvAacBAgEOtAENwQEYAgEJxAGwAcQB0AECAQXEAdoBxAGaAgIBBLkBD8ABGAIBCr4BOr4BeAIBDbsBO7sBQgIBCw==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_10" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_11" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_12" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_13" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_6" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="294,64" />
+      <sap2010:ViewStateData Id="Assign_8" sap:VirtualizedContainerService.HintSize="294,64" />
+      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Ensure_1" sap:VirtualizedContainerService.HintSize="294,22" />
+      <sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="294,64" />
+      <sap2010:ViewStateData Id="Assign_5" sap:VirtualizedContainerService.HintSize="294,60" />
+      <sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="242,60" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="264,184">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ForEach`1_1" sap:VirtualizedContainerService.HintSize="294,332" />
+      <sap2010:ViewStateData Id="CallWorkUnitFunc`1_1" sap:VirtualizedContainerService.HintSize="294,22" />
+      <sap2010:ViewStateData Id="ContextBinder_1" sap:VirtualizedContainerService.HintSize="308,1459" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="330,1583">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Workflow1_1" sap:VirtualizedContainerService.HintSize="370,1663" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

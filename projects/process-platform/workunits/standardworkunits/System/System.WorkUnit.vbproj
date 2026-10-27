@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51D336C3-0049-494A-927B-09DB0FD5517F}</ProjectGuid>
+    <ProjectTypeGuids>{32f31d43-81cc-4c15-9de6-3fc5453562b6};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>System.WorkUnit</RootNamespace>
+    <AssemblyName>System.WorkUnit</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>System.WorkUnit.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>System.WorkUnit.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SI.Biz.Core">
+      <HintPath>..\..\Source\si-bl-core-build\SI.Biz.Core.ProcessEngine.Activities.Design\bin\Debug\net48\SI.Biz.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core.ProcessEngine.Activities">
+      <HintPath>..\..\Source\si-bl-core-build\SI.Biz.Core.ProcessEngine.Activities.Design\bin\Debug\net48\SI.Biz.Core.ProcessEngine.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Biz.Core.ProcessEngine.Support">
+      <HintPath>..\..\Source\si-bl-core-build\SI.Biz.Core.ProcessEngine.Activities.Design\bin\Debug\net48\SI.Biz.Core.ProcessEngine.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Linq.Provider">
+      <HintPath>..\..\Source\si-bl-core-build\SI.Biz.Core.ProcessEngine.Activities.Design\bin\Debug\net48\SI.Linq.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="SI.Util">
+      <HintPath>..\..\Source\si-bl-core-build\SI.Biz.Core.ProcessEngine.Activities.Design\bin\Debug\net48\SI.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Actions\Dispatch\BeforeDispatch.wu" />
+    <None Include="Actions\Dispatch\OnDispatch.wu" />
+    <None Include="Actions\Signing\CreateNewDocumentFromSigning.wu" />
+    <None Include="Actions\Signing\CreateNewFileVersionFromSigning.wu" />
+    <None Include="Actions\Signing\HandleFailedSigning.wu" />
+    <None Include="Actions\Signing\SetDocumentStatusAfterSendToSigning.wu" />
+    <None Include="Events\EntityNoteSummary\CaseNoteSummary.wu" />
+    <None Include="Events\EntityNoteSummary\DocumentNoteSummary.wu" />
+    <None Include="Events\ImportArchiveCleanup\CleanupForOfficeAddin.wu" />
+    <None Include="ExecutionRecorder\CheckpointAction.wu.disabled" />
+    <None Include="ExecutionRecorder\ExecutionRecorder.wu.disabled" />
+    <None Include="ExecutionRecorder\ExecutionRecorderResult.wu.disabled" />
+    <None Include="ExecutionRecorder\PlaybackAction.wu.disabled" />
+    <None Include="FulltextSearch\ConfigureSearchIndex.wu" />
+    <None Include="FulltextSearch\Crawler.wu" />
+    <None Include="FulltextSearch\CrawlerExtract.wu" />
+    <None Include="FulltextSearch\CrawlerFileContent.wu" />
+    <None Include="FulltextSearch\CrawlerMerge.wu" />
+    <None Include="FulltextSearch\GetConfiguration.wu" />
+    <None Include="FulltextSearch\Management.wu" />
+    <None Include="FulltextSearch\ManagementTest.wu" />
+    <None Include="FulltextSearch\SearchTest.wu" />
+    <None Include="FulltextSearch\SetupStock.wu" />
+    <None Include="Jobs\ADSync.wu" />
+    <None Include="Jobs\BatchProcessingJob.wu" />
+    <None Include="Jobs\ClassCodeUpdate.wu" />
+    <None Include="Jobs\Cleanup.wu" />
+    <None Include="Jobs\CleanupCache.wu" />
+    <None Include="Jobs\CleanupHistory.wu" />
+    <None Include="Jobs\CleanupImportArchive.wu" />
+    <None Include="Jobs\DeadlineAlerts.wu" />
+    <None Include="Jobs\DeleteExpiredWFRemarks.wu" />
+    <None Include="Jobs\DeleteOldItemsFromQueueHistory.wu" />
+    <None Include="Jobs\DisposalFiles.wu" />
+    <None Include="Jobs\InvokePendingFileReplications.wu" />
+    <None Include="Jobs\MailBoxImport.wu" />
+    <None Include="Jobs\MassOperation.wu" />
+    <None Include="Jobs\MigrateFilesToReplicatedStorage.wu" />
+    <None Include="Jobs\MoveQueueItemsToHistory.wu" />
+    <None Include="Jobs\ProcessDispatch.wu" />
+    <None Include="Jobs\ProcessFinishedSignings.wu" />
+    <None Include="Jobs\ProcessPDFWatermark.wu" />
+    <None Include="Jobs\ProcessWaitActions_DeadlineDate.wu" />
+    <None Include="Jobs\ProcessWaitActions_Scheduled.wu" />
+    <None Include="Jobs\ProcessWaitActions_WarningDate.wu" />
+    <None Include="Jobs\ProcessWaitTasks.wu" />
+    <None Include="Jobs\PurgeEntities.wu" />
+    <None Include="Jobs\PurgeOldIntegrationLogEntries.wu" />
+    <None Include="Jobs\RebuildDBIndexes.wu" />
+    <None Include="Jobs\RefreshAccessGroupMemberships.wu" />
+    <None Include="Jobs\SynchronizeUsersFrom360.wu" />
+    <None Include="Jobs\SystemPulse.wu" />
+    <None Include="Jobs\UpdateDBStats.wu" />
+    <None Include="Jobs\ProcessPassiveActiveTime.wu" />
+    <None Include="Jobs\WakeUpOpenGov.wu" />
+    <None Include="Processes\Case\ProgressPlan Support\Reciept to applicant.wu" />
+    <None Include="Processes\Case\ProgressPlan Support\Reminding\Create reminder document.wu" />
+    <None Include="Processes\Case\ProgressPlan Support\Reminding\Wait task expiration response.wu" />
+    <None Include="Processes\RepeatableTaskWithDelay.wu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Jobs\ADSync.xml" />
+    <Content Include="Jobs\BatchProcessingJob.xml" />
+    <Content Include="Jobs\ClassCodeUpdate.xml" />
+    <Content Include="Jobs\Cleanup.xml" />
+    <Content Include="Jobs\CleanupCache.xml" />
+    <Content Include="Jobs\CleanupHistory.xml" />
+    <Content Include="Jobs\CleanupImportArchive.xml" />
+    <Content Include="Jobs\DeadlineAlerts.xml" />
+    <Content Include="Jobs\DeleteExpiredWFRemarks.xml" />
+    <Content Include="Jobs\DisposalFiles.xml" />
+    <Content Include="Jobs\ImportSecureFile.xml" />
+    <Content Include="Jobs\MassOperation.xml" />
+    <Content Include="Jobs\ProcessDispatch.xml" />
+    <Content Include="Jobs\ProcessWaitActions.xml" />
+    <Content Include="Jobs\ProcessWaitTasks.xml" />
+    <Content Include="Jobs\PurgeEntities.xml" />
+    <Content Include="Jobs\RebuildDBIndexes.xml" />
+    <Content Include="Jobs\RefreshAccessGroupMemberships.xml" />
+    <Content Include="Jobs\UpdateDBStats.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Processes\Case\ProgressPlan Support\Reciept to applicant.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Processes\Case\ProgressPlan Support\Reminding\Create reminder document.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Processes\Case\ProgressPlan Support\Reminding\Wait task expiration response.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+    <XamlAppDef Include="Processes\RepeatableTaskWithDelay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

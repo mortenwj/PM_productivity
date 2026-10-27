@@ -1,0 +1,8 @@
+<workUnit displayName="Building Case Archive Publishing" id="1460afdd-7eee-4339-8e9a-df1378d4922d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd">
+	<description>Automatic publishing of cases and documents to a building case archive e.g. Filarkiv</description>
+	<executable>
+		<invoke>		
+		</invoke>
+	</executable>
+	<job queue="Sys.Manually" runAs="SystemDefault" resultType="none"/>
+</workUnit>

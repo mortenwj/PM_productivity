@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "purpose": "Store GitHub owner/repo and PR numbers discovered from Azure DevOps Development (ArtifactLink) links on pilot-scoped work items. Refresh after each weekly ADO export. Future use: compare commits on these repos against AB# linkage to find work without DevOps items.",
+  "last_updated": "2026-04-17",
+  "source": "Consolidated from pilot release-note experiment (Development links + GitHub API checks to te-industry-public360/core-bl). Not an exhaustive live ADO scan.",
+  "github_organizations_seen": [
+    "te-industry-public360"
+  ],
+  "repos": [
+    {
+      "github_full_name": "te-industry-public360/core-bl",
+      "role": "Primary backend / process-platform; majority of resolved PR links in sample pointed here when verified.",
+      "ado_connection_guid_hints": [
+        "461cfbd3-ed9f-4d67-ade5-3351259de019"
+      ],
+      "notes": "Azure DevOps stores links like vstfs:///GitHub/PullRequest/{connectionGuid}%2F{prNumber}. GUID alone does not guarantee repo; resolve via PR API or service connection config."
+    },
+    {
+      "github_full_name": "te-industry-public360/core-bl",
+      "role": "Alternate connection (PMC/DB/code-table style PRs in older threads)",
+      "ado_connection_guid_hints": [
+        "baeb5481-b476-4630-a70b-430ecbcab7af"
+      ],
+      "notes": "Historically associated with high-numbered PRs; confirm against ADO Git connection before assuming a different repository."
+    },
+    {
+      "github_full_name": "unknown/resolve-via-ado",
+      "role": "Placeholder for connections that did not resolve against core-bl",
+      "ado_connection_guid_hints": [
+        "26a7c480-3ada-4312-a689-54d76bac086d",
+        "03e16164-3695-4de0-a0a3-66bf8bbe7ea6"
+      ],
+      "notes": "Example: PR 19 on story 414799 may map to another repo (e.g. toolkit). Populate owner/repo once Development link is decoded from Azure DevOps."
+    }
+  ],
+  "pull_requests_verified_core_bl": [
+    {"pr": 19, "title_hint": "Fixed Newtonsoftversion issue", "year_hint": 2019},
+    {"pr": 9367, "note": "Referenced in epic experiment for milestone umbrella"},
+    {"pr": 9369, "note": "Referenced in epic experiment"},
+    {"pr": 9370, "note": "Sign-off logging at document creation"},
+    {"pr": 9371, "note": "DocumentArchive macro removal"},
+    {"pr": 9372, "note": "Milestone type sorting"},
+    {"pr": 9402, "note": "SDP v2 return address"},
+    {"pr": 9419, "note": "IFAR signed date"},
+    {"pr": 14132, "note": "IsFileFormatBlacklisted surface"},
+    {"pr": 14208, "note": "Linked from 416667; semantic mismatch possible"},
+    {"pr": 19476, "note": "CreateSubProcess server action"},
+    {"pr": 19536, "note": "May be closed without merge — verify"},
+    {"pr": 19538, "note": "Follow-up to 19536"},
+    {"pr": 19591, "note": "Document process handling draft"},
+    {"pr": 19718, "note": "Open at last check; stage in New Document dialog"},
+    {"pr": 19753, "note": "Creation/withdrawal process update"}
+  ],
+  "pull_requests_not_found_on_core_bl": [
+    {
+      "pr": 14221,
+      "context_work_item_id": 416667,
+      "github_api_result": "404 on te-industry-public360/core-bl at last check",
+      "action": "Resolve correct repository from Azure DevOps service connection, then add to repos[] with full_name."
+    }
+  ],
+  "work_item_to_pr_links_sample": [
+    {"work_item_id": 416108, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "number": 19476}},
+    {"work_item_id": 414618, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "numbers": [19591, 19753]}},
+    {"work_item_id": 414862, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "numbers": [19591, 19753]}},
+    {"work_item_id": 415772, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "number": 19718}},
+    {"work_item_id": 414997, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "number": 14132}},
+    {"work_item_id": 414620, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "number": 9371}},
+    {"work_item_id": 416667, "github_pr": {"owner": "te-industry-public360", "repo": "core-bl", "numbers": [14208, 14221]}, "verification_note": "14221 not found on core-bl; 14208 title mismatch"}
+  ],
+  "future_orphan_commit_scan": {
+    "description": "Not run by weekly report. Proposed: for each repo in repos[], list commits in [t0-14d, t0] (Oslo), exclude commits whose message references AB# that exists in scope, flag remainder.",
+    "depends_on": ["Accurate repo list in this file", "Pat + GitHub API or git clone access", "Optional: Azure DevOps query for AB# set in window"]
+  }
+}

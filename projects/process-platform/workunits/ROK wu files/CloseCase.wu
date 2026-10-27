@@ -1,0 +1,18 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\WorkUnit.xsd"    
+    id="FUF22A7702-413A-42A3-8EFB-68AB95C8C843" 
+	visibility="external"
+    displayName="CloseCase">
+  <description>Setting CaseStatus to Closed</description>
+  <categories>
+    <category>Fujitsu</category>
+    <category>Function</category>
+  </categories>
+  <executable>
+    <xscript debug="true" language="csharp" entryPoint="Fujitsu.eDoc.WU.CaseManager.CloseCase">
+      <arguments>
+        <argument name="CaseRecno" type="string">#null#</argument>
+      </arguments>
+	  <return type="string"/>
+    </xscript>
+  </executable>
+</workUnit>

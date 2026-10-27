@@ -1,0 +1,18 @@
+﻿<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation= "..\..\WorkUnit.xsd"
+          id="1BE85AD9-ED21-4DCB-AFAF-CCCC2EE4C0E6"
+          displayName="Record execution" 
+          visibility="public">
+  <description>...</description>
+  <categories>
+    <category>Support</category>
+  </categories>
+  <executable assemblyType="SI.Biz.Recording.Backing.ExecutionRecorderResult, SI.Biz.Recording.Backing">
+    <invoke>
+      <arguments>
+        <argument name="EventArgs" type="object"/>
+      </arguments> 
+    </invoke>
+  </executable>
+  <event shim="SI.Biz.Core.Events.ExecutionRecorderEventShim" name="RecordResult"/>
+</workUnit>

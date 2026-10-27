@@ -1,0 +1,1664 @@
+{
+  "generated": "2026-07-08",
+  "source": "outputs/archive/_archive/large_inputs/pfrs (1).csv",
+  "query_scope": "PFR Feature export snapshot (CSV); relevance filter for search + cross-entity/meta-field themes",
+  "counts": {
+    "total_matched": 61,
+    "tier_A": 11,
+    "tier_B": 50,
+    "with_meta_fields_theme": 21,
+    "with_cross_entity_theme": 43
+  },
+  "tier_A": [
+    {
+      "id": 129543,
+      "title": "Alignment of 'Enter' use in 'Advanced Search'.",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "When using 'Advanced search' there are discrepancies in the use of 'Enter'. When searching for a contact entering a name (or part of a name) in 'Name' field followed by pressing 'enter' we are presented with search results immediately. When searching for a case , either entering a case number in ' Casenumber' field or a title (or part of a title) in 'Title' field followed by pressing 'enter' does not provide search results. But if activating either 'Casenumber' field or 'Titel' field afterwards and then pressing 'enter', search results appear. Same issue for 'Projects' and 'Documents' in Advan",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/129543"
+    },
+    {
+      "id": 172703,
+      "title": "HAVS- OCH VATTENMYNDIGHETEN- Suggestion to improve searchability when using multiple value lookup fields",
+      "state": "Active",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : What need does it solve? The customer Havs – och vattenmyndigheten is a cloud customer in implementation phase. They have a case type called “sanktionsärende”, used to register sanction cases. One of the meta data fields on this case type is called “Typ av överträdelse” (type of violation). The field is a multiple value lookup field where user can insert/combine anything between 1-9 values, depending on what type of violations a private person or organization has committed. The need they have is to use multiple value lookup fields in a seamless way in",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/172703"
+    },
+    {
+      "id": 181607,
+      "title": "Sundvall Kommun/Tullverket - Possibility to search from advanced search Case/document using contact info",
+      "state": "Active",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : There is a need to be able to search cases and documents using the external contacts by their personal identity number/Enterprise number What is the functionality required? In advanced search for cases and documents add a field to search for contacts personal identity number/Enterprise number getting hits on cases/documents with a contact with that number. Consequences of not delivering requested functionality/alternative delivery options Difficult to get the customers to accept an upgrade since it is used on a daily basis Market potential, do you thi",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/181607"
+    },
+    {
+      "id": 188808,
+      "title": "Possibility to have advanced search to eArchive when adding access requests from P360",
+      "state": "New",
+      "assigned": "",
+      "tags": "DSS_FollowUp",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "When standing on an Access request case in P360 and adding an request from eArchive, the user should have advanced search as an option - just like it is when adding requests from P360. Add request from eArchive: Add request form P360: It will be easier for the user to search directly from eArchive in stead in Have the concrete name on the case/document when adding an request Search it up in front and then type in the case/document name/number",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/188808"
+    },
+    {
+      "id": 203211,
+      "title": "Search resultview - make it possible to add contacts to custom result views",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "Innovation board meeting; Knowledge Team SE",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Possibility to add the contact column (shown in standard result view for case advanced search) when creating your own result views. Both fore case and document advanced search.&nbsp; Consequences of not delivering requested functionality/alternative delivery options We need to keep several adapted reports and view only to show combinations of fields not in standard result view with contacts. Market potential, do you think this is relevant for more customers?&nbsp; Yes, I believe there are adapted reports/views for many customers to solve this today.&n",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/203211"
+    },
+    {
+      "id": 231324,
+      "title": "The field \"Included in\" added to search",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality: What need does it solve? The possibility to search for connections between estates and objects using the “Included in” field. What is the functionality required? New field for searching for relationships between objects related to estates. Possibility to add &quot;Included in&quot; into search result views Consequences of not delivering requested functionality/alternative delivery options The consequences of not delivering the functionality to the customer would be that they would not have the ability to search for connections between estates and objec",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/231324"
+    },
+    {
+      "id": 239645,
+      "title": "Estate - Search field is missing in Advances search",
+      "state": "New",
+      "assigned": "Sebastian Reichmann <sebastian.reichmann@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : When opening Advanced search -Estate the search field Property number is missing i the standard search form.&nbsp; If i go click on Add search field i can choose Property number.&nbsp; When searching for a Property the normal search would be for the property nummer, just like when searching for at personal case, it would the the&nbsp;social security number. It's odd that the field Property nummer is not a normal part off the search form on Estate, but you have to select it from Add search field every time. Consequences of not delivering requested func",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/239645"
+    },
+    {
+      "id": 258728,
+      "title": "Change search field to show results of \"all words\" instead of \"begins with\"",
+      "state": "New",
+      "assigned": "",
+      "tags": "#Customer; DSS_FollowUp",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "The customer has expressed a desire to modify the behavior of the field &quot;Responsible&quot; that is used in for example the Case and Document wizard etc. Currently, the search results are based on the &quot;Begins with&quot; logic, meaning that only the first word entered is used for finding matches. However, the customer wants to change this logic to search for &quot;all of these words&quot;, ensuring that all the words entered in the search field are considered for the search results.&nbsp; The customer wants to be able to search by first name, surname, short code, or initials without ha",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/258728"
+    },
+    {
+      "id": 377579,
+      "title": "PB360: Search for responsible units different than the ones being used in PB360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Customer: Arendal P&amp;B, Grimstad P&amp;B Advanced Search for case and document:&nbsp; Scenario: Would like the option to&nbsp;search for responsible units different than the ones being used in PB360.&nbsp; Option to select the correct ones and then all that are different than those. Result: Solution for finding cases and documents assigned to the wrong responsible units.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/377579"
+    },
+    {
+      "id": 386280,
+      "title": "Additional data functionality - enhanced filtering options",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Suggestion for improvement from NAV/Arbeids- og Velferdsetaten: There is a need for significant improvements in additional data. Filtering is required during searches. As it functions now, all customer-specific metadata/additional data are searchable in &quot;Add Search Field&quot; in Advanced Search. Even when selecting a case type in the search interface, all customer-specific metadata remain available as options. All metadata not associated with the case type should be filtered out. Metadata in, for example, child welfare cases include name and birth name. Often, there are many children to ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/386280"
+    },
+    {
+      "id": 388375,
+      "title": "Possibility to configure the valid journal units for a unit/organisation",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module'): To be used in conjunction with enterprise rules. It should be possible to select the valid journal units for a unit. Currently it is not possible.&nbsp; This request is related to 388359. This then should impact the visible journal units when the user is selecting them from a drop-down (reports, case/document wizards, advanced search (case) etc.) Consequences of not delivering requested functionality/alternative delivery options: Without this improvement, it will be difficult to",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/388375"
+    }
+  ],
+  "tier_B": [
+    {
+      "id": 64586,
+      "title": "Log relations on contacts",
+      "state": "Removed",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Relations between contacts is not logged. This should be logged, because it's information that can be relevant to have a history of. Custom relations should also be logged",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/64586"
+    },
+    {
+      "id": 156018,
+      "title": "RUTER NORWAY PUBLIC360 - Suggestion for improvement",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "RITM0002292072 RITM url: https://tieto.service-now.com/nav_to.do?uri=task.do?sysparm_query=number=RITM0002292072 FYI: Data not added here due to GDPR. To see the Description in TSC/ServiceNow select the Variables tab. More info: It would be beneficial to be able to add a search field on Activities in Advanced search for documents, and/or have open Activities shown in the display. We want to be able to search for documents and have it clearly shown in the display if there is an open activity. Today, we can only see open activities on our own documents, and documents in our department. We need t",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/156018"
+    },
+    {
+      "id": 175807,
+      "title": "Show process status for case and document in UCC (User Configurable columns)",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "It should be possible to show a more detailed process status for Case and Document. This is partially implemented today in BIF, where some lists have implemented a separate status column for &quot;in approval&quot; or &quot;In Dispatch&quot; based on workflow state / dispatch status For Leader it would also be intersting to see more detailed information about the status of a Case as well; has it been distributed (currently available in a specific list and can de deducted by no responsible), if it has been started on or if it has been opened or ... Registered : Not distributed Distributed : Has",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/175807"
+    },
+    {
+      "id": 177289,
+      "title": "Request for access: When creating case by drag-and-drop - the user should be \"Ansvarig person\"",
+      "state": "New",
+      "assigned": "Morten Jensen <morten.jensen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Request for access: The user is working with the role &quot;Chief registrar&quot; (huvudregistrator). When creating a case/document with drag-and-drop from outlook, they want the user to be &quot;responsible person&quot;. Today, the responsible person is the department where the user works.&nbsp; Attached screencapture shows the field that should be populated with the user, in this case, the user is Johanna Balic (with did not work as a chief registrar but as a case worker &quot; when creating this screencapture). Problem to be solved: Today the user need to manually change &quot;Ansvarig pers",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/177289"
+    },
+    {
+      "id": 177296,
+      "title": "Remarks container on case and document - access control on creating/deleting/viewing remarks",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "This request is about the Remarks container on case and document, where the case/document is classified/secrecy. Customer want the following: Make notes: Responsible person, co-casehandler, chief registrator should be able to make notes. And, a custom role called &quot;Handläggarstöd&quot; which acts as a chief registrator in the department. Remove notes: Same roles as above. They should be able to remove all notes. Read notes: Same roles as above.&nbsp; Problem to be solved: Today it seems like the notes field is readable for to many roles even in secrecy. See attachment pointing out the fiel",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/177296"
+    },
+    {
+      "id": 180555,
+      "title": "eArchive - Advanced Search Case - Responsible unit",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "In old Historical search, user is able to search in this field (as well as the field &quot;Responsible person&quot;) : In eArchive - Advanced Search, Case - customer request the field &quot;Responsible unit&quot;. It is not possible to add it in &quot;Add search field&quot; either:",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/180555"
+    },
+    {
+      "id": 201134,
+      "title": "360° PDF Stamping: Ad possibility to ad \"Classification code\" in the stamp",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "IVO (Inspektionen för vård och omsorg, Sverige) Version 5.11 Use&nbsp; 360° PDF Stamping &nbsp;for Incoming document.&nbsp; Need: The classification code on file. Important for archive.&nbsp; Now they get infor on date, documentnumber = good for identifiing the case/document the file belongs to. If classification code can be added we also target the need for archiving.&nbsp; Request: Ad possibilty to ad classification code in the pdf stamp.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/201134"
+    },
+    {
+      "id": 203317,
+      "title": "Adding \"copy title\" button for files - copy document title to file title",
+      "state": "New",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "DSS is very found of the &quot;copy&quot; button we have on case and document, for copying title to public title or case title to document title. They are requesting a similar way to copy document title to file title as well.&nbsp; Example from document, where we today have &quot;copy case title to document title&quot;: A suggestion is to have also a button in the view for editing file properties (like in edit document view), or/and a function in the new/edit document view.&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/203317"
+    },
+    {
+      "id": 210382,
+      "title": "Ability to limit an access group usage based on publicity class and personal data fields metadata",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Currently you can limit the use of an access group based on the entity/entity type. I.e you can say that this access group will not be available if the case type is this certain one. In addition to that there is a need with VNK VAHVA to be able to further limit the use of the main access group when the case or document is confidential or if it contains specific personal data. The use case is such that the customer does not want the main level access group (equivalent to all users group in simpler implementations) to be even selectable when the document is confidential. It would basically stop ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/210382"
+    },
+    {
+      "id": 211449,
+      "title": "KemI-KemikalieInspektionen- Old contact name should be searchable.",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : If a contact changes their name, the old name will still be found in Advanced search/contact. We have made an adaptationin v 5.6 for this which we wish to bring into the standard. We have added a new meta data field “Old name&quot;, and both present name and old name will be found in advanced search if &nbsp;&quot; Check box for previous name” is set in advanced search. Consequences of not delivering requested functionality/alternative delivery options-&nbsp; Customer can not work as they are used to and the work would become very difficult for them, ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/211449"
+    },
+    {
+      "id": 220302,
+      "title": "Ability to configure new access codes that are not restricted and whether they should have public titles or not",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : When creating a new access code the user should be able to configure whether it should be regarded as restricted (i.e. if the restricted icon should be shown, if the menu for restricted/public titles should be shown etc.).&nbsp;&nbsp; Consequences of not delivering requested functionality/alternative delivery options SKR wanted a new more open access code than our standard access code (they wanted one open internally and a new one that indicates that the case/document is open both internally and externally). We discovered that the restricted icon and ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/220302"
+    },
+    {
+      "id": 239723,
+      "title": "Improvement; 'Add search field' with the option 'Is equal', can be filtered.",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Improvement; 'Add search field' with the option 'Is equal', can be filtered. Specification of requested functionality: Our Danish customer, Folketingets Ombudsmand (FO), has four fields customized: Andre involverede myndigheder Hovedansvarlig myndighed Myndighed/organ Oversendt til myndighed What the four fields have in common is that when they are used in advanced search, they must be added by 'Add search field' with the option 'Is equal', and then mixed contacts, both internal and external, are displayed in the search. FO suggests as an improvement proposal that contacts can be filtered, so ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/239723"
+    },
+    {
+      "id": 240402,
+      "title": "Make it possible to configure what roles metadata fields is available and editable for",
+      "state": "Removed",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "VGR Standard",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality: What need does it solve? Flexibility to decide in the organisation who (what role) that should have possibility to change metadata.&nbsp; What is the functionality required? Possibility to configure what role that can ad and edit metadata on objects as case/document/contact. When configurering the metadata fields with full flex ui it should be possible to choose what role different fields should be available for.&nbsp; Consequences of not delivering requested functionality/alternative delivery options. The customer gets less possibility to configure wh",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/240402"
+    },
+    {
+      "id": 241452,
+      "title": "Access rules for remarks/notes",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : The ability to set up access rules for remarks/notes on cases and documents. At the moment, any user can add notes/remarks on a case or document even though the user has not connection to the case/dokument (i.e. responsible for the case/document or a member of the team for the case/document) At least it should be possible to inactivate so that users with no connection to the case/document can create or delete remarks/notes in that case/document. Alternatively, it should be possible to inactivate the remark function for cases/documents.&nbsp; There was",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/241452"
+    },
+    {
+      "id": 251914,
+      "title": "Case and Document references are not included in Case Summary and Logbook",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "What is the functionality required? Add case and document references to Logbook and Case Summary Case with case reference. Document in the same case with document reference. Create Logbook Produce Case summary. Customer has v 5.8 but it is the same in 5.17. What need does it solve? /&nbsp; What is the source of the request? Since the FGS for Case includes case and document references it should also be included in these two reports. The source is Jordbruksverket. They consider this a bug since this information is important even when archiving and should be in these reports too.&nbsp; Do you thi",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/251914"
+    },
+    {
+      "id": 262228,
+      "title": "Add Closed date to Details on Case and Document",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Add Closed date to details panel (Overview) and detail tab on Case. Add Journal date to details panel (Overview) on Document Consequences of not delivering requested functionality/alternative delivery options Problems getting customer to accept to go live Market potential, do you think this is relevant for more customers?&nbsp; Yes, making it more visible would be good.&nbsp; &nbsp;&nbsp; If this request is from a specific customer, do you think the customer would be willing to",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/262228"
+    },
+    {
+      "id": 262229,
+      "title": "Add Journal unit description to Details on Case and Document",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Add Journal unit - Description to details panel (Overview) and detail tab on Case. Add Journal unit - Description to details panel (Overview) and detail tab on Document Consequences of not delivering requested functionality/alternative delivery options Problems getting customer to accept to go live. They have this customized in earlier 360, named &quot;Company&quot;. Using it to show different companies in the organisation, and the journal unit - code is prefix in their case nu",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/262229"
+    },
+    {
+      "id": 265035,
+      "title": "Possibility to set all internal contacts as responsible",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : Jordbruksverket have a customization making it possible to choose users and organisations that are registered with category Internal but do not have access to 360. The list in Responsible field is showing all internal contacts regardless if they have a a login or not. Today (tested in 5.17 and 6.0) these contacts are not shown in list or found when writing the name in the field, but &nbsp;it is possible to add these users by doing a search from Case/Document forms &nbsp;(I guess that this is not supposed to work, but it does). Regeringskansliet/Klarad",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/265035"
+    },
+    {
+      "id": 266349,
+      "title": "Configurability in Advanced search, to determine which searchfields are visible in full view and \"minimized view\"",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "The Danish Customer &quot;DST&quot; / Danmarks statistik has asked if it could be possible to determine which searchfields are visible in advanced search in the &quot;minimized view&quot; and in the view with &quot;Show more search fields&quot;. The concrete example is that the field &quot;Archive&quot;/ (Arkivdel in Danish) isnt visible in the minimized view, and since they just delivered to national archives, and have created a new archive, this might be a field they want to fill out often. I think other customers would also benefit heavily on this configurability / Flexibilty in which searc",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/266349"
+    },
+    {
+      "id": 267684,
+      "title": "Possibility to add field in my own result view for all object types",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Possibility to add field in own result views in advanced search also for&nbsp; Estates Contacts Activities Projects Consequences of not delivering requested functionality/alternative delivery options Search and result view not as configurable for all object types as they could be Market potential, do you think this is relevant for more customers?&nbsp; Any customer using those object types with configured metadatafields &nbsp;&nbsp; If this request is from a specific customer, do you think the customer would be willing to co-fund this to have this fun",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/267684"
+    },
+    {
+      "id": 269202,
+      "title": "Arbetsmiljöverket - File count",
+      "state": "New",
+      "assigned": "Morten Jensen <morten.jensen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality Custom field showing, and automatically counting, how many files there are in a case and a document. Customer has this customization as they recieve many request for access cases and want &nbsp; to be able to charge requesters based on the number of files (for example if a citizen requests for access in a case). The custom field is added in simple view and detailed view.&nbsp; Consequences of not delivering requested functionality/alternative delivery options Less satisfied customer. There is a file count in detailed view but the customer is happy with ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/269202"
+    },
+    {
+      "id": 278314,
+      "title": "Browser UI should show count of amount of documents/ Notes / Activies like Outlook SIdepanel does",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Suggestion for Improvement from UM / MFA DK.&nbsp; IN Outlook Sidepanel it shows the amount (number) of documents on a case if you open a case. Customer would like the browser-version of the system to do the same. Instead of showing the number in the browser, we show a star to indicate there is some. &quot;*&quot; Same goes for all other webparts on the case/document overview:&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/278314"
+    },
+    {
+      "id": 282366,
+      "title": "Users should not have the option to Edit/Delete remarks when they don't have permissions for the action",
+      "state": "New",
+      "assigned": "",
+      "tags": "DSS_FollowUp",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Users who doesn't have permissions to Edit or Delete remarks still have the buttons for this available on Case and Document. The buttons should disappear when they doesn't have this access. Repro steps: Log in as case handler Try to Edit or Delete a remark created by another user See that you get an information box that says that you don't have permissions to perform this action",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/282366"
+    },
+    {
+      "id": 282692,
+      "title": "Changes wanted for 360° Integration with MS Teams",
+      "state": "New",
+      "assigned": "Tero Arvola <tero.arvola@tietoevry.com>",
+      "tags": "core-integration",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Case / Document can only be crated from Teams if publicity class in classification code is “Public”. When trying to create a case/document using a classification code where the publicity class is not public, the application gives error message: “This record type can not be created from Teams because the connected access code is not public” The customer wants to be able to create also restricted Cases/Documents. Could this be configurable just like “Deny export of restricted documents”? The customer wishes that when adding a case, the integration would prepopulate Access Group just like P360 do",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/282692"
+    },
+    {
+      "id": 286211,
+      "title": "The text content of the \"Favourites\" field is not fully visible in the advanced search",
+      "state": "New",
+      "assigned": "",
+      "tags": "standard; VNKVAHUP-5272",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "(retested VAHVAQ,&nbsp; ECHO/C ustomer tested on production) The text content of the &quot;Favourites&quot; field is not displayed in its entirety in the advanced search for a case, document, contact, assignment, project, file and institution, but is interrupted in the middle. Please see steps and pictures below: Open &quot;Advanced search&quot; Choose &quot;Case&quot; Choose &quot;Saved searches&quot; Choose &quot;Global&quot; The customer would like the search field to be wide enough to show the full title of the search. Consequences of not delivering requested functionality/alternative deli",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/286211"
+    },
+    {
+      "id": 288330,
+      "title": "Jordbruskverket - Duvan Integration",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "Knowledge Team SE",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') DUVAN Integration is a change in how DISPATCH functions as well as an ApacheQueue connection towards the DUVAN Service / application on Jordbruksverket. DUVAN integration is just for documents that have the status &quot;In Progress&quot; and are 3 buttons that appear in documents, cases or even tabs. These are unique BIF made buttons. They only work if the document that is &quot;In progress&quot; has 1 external contact with the role &quot;Mottagare&quot;. Therefore the requested ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/288330"
+    },
+    {
+      "id": 290689,
+      "title": "SJÖFARTSVERKET - Make it possible to add custom metadatafields connected to internal contatcs",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all"
+      ],
+      "excerpt": "Specification of requested functionality: Possibility to add custom field in which internal contact lookup/search is possible (on case and document) Customer use this on a document archive used to handle personnel/employee documents, where there is a need to connect the employee which the document concerns (which is not the same as responsible)&nbsp; Consequences of not delivering requested functionality/alternative delivery options Customer won't be able to upgrade to V6 Market potential, do you think this is relevant for more customers? Yes for all customers having case types/document archiv",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/290689"
+    },
+    {
+      "id": 308947,
+      "title": "Advanced search(case): the field \"Archive Key\" should be a quick-seacrh field like \"class\" is.",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "UM, MFA DK, is requesting that it becomes easier to search for their lvl 2 classification system values. Currently, the only field in advanced search case that is shown, and can be used to do this, is the field &quot;Archive Key&quot;. However, this searchfield is a free-text field, with no validations, making it difficult and un-friendly to type and search for these values. Customer is suggesting it as a quick-search-field so it matches the field &quot;Class&quot; that is used to search for lvl 1 classification-system-values. Specification of requested functionality : The field in advanced se",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/308947"
+    },
+    {
+      "id": 313774,
+      "title": "Case handling related to family members of employees",
+      "state": "New",
+      "assigned": "Hallvard Aas <hallvard.aas@tietoevry.com>",
+      "tags": "Pri 1",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Case handling family members For Helfo it is important that their case handling is correct and transparent. One measure that have been created is to control when family members of employees in Helfo are requesting for refund. Helfo wanted that only a limited group of case handlers can work with cases related to family members of employees in Helfo. Helfo are manually registering family relations between Helfo employees and their nearest family members in 360. We have created a custom &quot;contact – contact role&quot; in 360 used for this purpose. The role is called &quot;Skjermet behandling&q",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/313774"
+    },
+    {
+      "id": 316170,
+      "title": "SKR Public 360: Activity: Reminder uses Users primary Unit, causing Department Manager and security issues",
+      "state": "New",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : ACTIVITITY: REMINDER Currently, Activity: Reminder retireve the Primary Responsible Unit based on the Responsible &nbsp; User creating the Activity: Reminder. This causes issues where Department Managers in the case / document the Activity: Reminder is set for not the Access Group or case / document's unit, but for the Unit the user is primarily part off. This mean that if a user has 3 different units and several profiles, it does not matter which profile they use the Responsib",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/316170"
+    },
+    {
+      "id": 321145,
+      "title": "Settings for mass update of case and documents",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Today there must be a create rule and also a case type/document archive must be active, for them to show up in the mass update functions.&nbsp; It should be sufficient that user/access group have edit rights and that the case types/document archives is set to show on search&nbsp; for them to be available for mass update. Consequences of not delivering requested functionality/alternative delivery options We have a situation right now with a customer that have several case types ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/321145"
+    },
+    {
+      "id": 339377,
+      "title": "Possibility to do configuration on Notes",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module'): Possibility to do configuration on Notes There is a need of access rules for Notes, if not possible at least let the same users that have edit access on the case/document edit also Notes on the same Create a setting the let the customer decide if it should be allowed to upload a file to a note or not Set a rule that makes it possible to decide whether a note type should be disposed when the case is closed or not. And add functionality to automatically dispose those notes Consequ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/339377"
+    },
+    {
+      "id": 343843,
+      "title": "change request in advance search for documents in case",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build; Public 360",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Hi, since there is no separate improvement suggestion tab in the new TSC, I'm recording this from the Central Archives of Bergen Municipality: Hi, we need to search for case documents that have been created by and given the status Journaled by case managers in PBE without them having visited the mail reception for control. I think this only applies to new case documents/emails created and sent via PB360. 1) In addition to the obvious search fields that must be filled in; is it possible to search for something in the search field 'Created by' that includes all case managers in PBE? 2) If such a",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/343843"
+    },
+    {
+      "id": 347514,
+      "title": "Advanced search - Role as search criteria",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Advanced search Ability to use role as search criteria &nbsp; Customer wants to compile statistics for each month on how many incoming documents their Main Registrars register, without having to look up each person separately. We can use Advanced search &nbsp; - Documents with the search criteria Document category: Incoming, date range and add the search field Created by: user name. Instead of created by: user name it would be good to choose which role created the documents, such as Main registrar. &nbsp; Consequences of not delivering requested funct",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/347514"
+    },
+    {
+      "id": 349041,
+      "title": "Wrong archive values shown in advanced search fields",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "In a brand new environment, where no configuration has taken place. The advanced search fields are showing incorrect values: The &quot;normal fields&quot;, &quot;Arkivnøkkel &amp; Klasse&quot; has been changed out with Prosessnøkkel, Prosess &amp; Prosessbeskrivelse: ^This is how it should look like The change in values SHOULD only occur (after extensive researche and digging) when you've chosen the classification type -&nbsp; &nbsp;&quot;JT Hierarkisk Prosessorientert Prinsipp..&quot;. In this environment (which again is brand new) the classification type is &quot;EH Emneorganisert hierarkisk",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/349041"
+    },
+    {
+      "id": 350849,
+      "title": "Improvement suggestion PB360 - advanced document search + add column type 'Created by'",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Hi, we need to search for case documents that have been created by and given the status Journaled by case managers in PBE without them having visited the mail reception for control. I think this only applies to new case documents/emails created and sent via PB360. 1) In addition to the obvious search fields that must be filled in; is it possible to search for something in the search field 'Created by' that encompasses all case managers in PBE? 2) If such a broad search on 'Created by' works, how can we distinguish between PB360-created emails that have not had the mail reception on the recipie",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/350849"
+    },
+    {
+      "id": 353751,
+      "title": "External System Configuration: Extended to all items and menu",
+      "state": "New",
+      "assigned": "Anton Nielsen <anton.nielsen@tietoevry.com>",
+      "tags": "core ui; UIM",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "NB: Enter customer name in the field &quot;Customer name&quot; Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : We are now able to link to external sites sending parameters from 360 from Case and Document with limited number of filters. We need this functionality extended to include the other entities (Contacts, Projects, Activities and potentially Estate) to support activating external applications from here. Also the option to start an external application from the Main menu, preferably in a separate section is needed in th",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/353751"
+    },
+    {
+      "id": 354154,
+      "title": "Oslo Plan & Build - Suggestion for improvement - eService Connect - Add more info on Case Contact",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Oslo Plan &amp; Build uses eService Connect API for sending forms into P360. They would like to add &quot;Address&quot; and &quot;Telephone&quot; info. on the Case Contact while Case creation.&nbsp; Possible to add these information on &quot;Submit&quot; endpoint, or may be &quot;Add User&quot; endpoint Consequences of not delivering requested functionality/alternative delivery options The consequences for Oslo PBE will be significant if this is not delivered well in advance of",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/354154"
+    },
+    {
+      "id": 354196,
+      "title": "Visualize custom entities in Case and Document window",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "KFV has 2 custom entities with relation to Case - Sismo and DFØ.&nbsp; In version 4.1 they are visible in Case view as separate tabs implemented with BIF customization. In the standard 6.4, this is not possible. It is possible to solve this with external application, but it will bring up the cost of the project and increase its complexity. There are other customers with the same need. For example Statkraft and Statens Vegvesen ( Feature 319520 : Statens Vegvesen - Matrikkel and Vegreferanse) .&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/354196"
+    },
+    {
+      "id": 360628,
+      "title": "External System Configuration: Add client action support",
+      "state": "New",
+      "assigned": "Anton Nielsen <anton.nielsen@tietoevry.com>",
+      "tags": "core ui; UIM",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "NB: Enter customer name in the field &quot;Customer name&quot; Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : We are now able to link to external sites sending parameters from 360 from Case and Document we have this similar functionality already as custom at the customer, where we are also able to activate the external links from process engine processes as client actions.&nbsp; We need client action support, to be able to direct the users to when in the process to do external actions and make sure the action is completed a",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/360628"
+    },
+    {
+      "id": 366015,
+      "title": "Posssibility to decide to copy contacts or not for \"save as\" on documents and cases",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : Make it possible to decide if contacts on documents and cases will be copied or not into the new document or case.&nbsp; It could be set up in the same way as we have for files today. If we could have an option on contact &quot;Go to &quot;Contacts&quot; to add contact from previous document&quot;. Consequences of not delivering requested functionality/alternative delivery options Customers who use the &quot;save as&quot; function will have to check that the contact has been removed on the newly created case and document that has GDPR or is sensitive ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/366015"
+    },
+    {
+      "id": 368463,
+      "title": "NOKUT - suggestion for improvement",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality: The ability to add more columns in the display of search results for Advanced Search contacts. Specifically: that &quot;Category&quot; and &quot;Custom fields&quot; are displayed as a column in the list of search hits when using advanced search. Why is the functionality required? Present concrete metadata in a list for our specific use. So that we do not just tag metadata, but can present metadata in a more functional way. Consequences of not delivering requested functionality/alternative delivery options We are working on creating a contact register o",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/368463"
+    },
+    {
+      "id": 375603,
+      "title": "Full Flex UI - Dependencies - Make it so that criteria can distinguish between Responsible Unit and Responsible Person",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality: Make it so that when setting criteria on the &quot;Responsible&quot; field with Full Flex UI dependencies, one can specify that the criteria should apply only based on the Responsible Unit. Context: In Full Flex UI, it is possible to create dependencies on individuel fields, making it so that field properties or value are changed depending on criteria. Since V6, the field for case/document responsible is now a single field called &quot;Responsible&quot;, rather than two individuel fields for &quot;Responsible department&quot; and &quot;Responsible Pers",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/375603"
+    },
+    {
+      "id": 380354,
+      "title": "Message functionality from case worker to registrars",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "CS0006529 | CSM/FSM-konfigurerbart arbeidsområde | ServiceNow &quot;Beskjed til arkiv&quot;-functionality Specification of requested functionality: Det er behov for at det er en skikkelig funksjon for å kontakte arkiv i P360. Denne funksjonen bør være meget enkel og tilgjengelig på både sak og dokument som et minimu. Det må være langt enklere og mer intuitivt enn dagens løsning med distribusjonsgruppe og mye klikking for å få sendt til arkiv. Det bør kanskje være en egen oppgavetype? Vi har over 1000 slike oppgaver pr år, så konsekvens dersom det ikke leveres, er at folk ikke spør arkiv, jobbe",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/380354"
+    },
+    {
+      "id": 384817,
+      "title": "Easier to search and find documents used by Mimir",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "When installing Mimir, you also get Policy documents automatically to ensure internal information can be shown as well. But the information that a document is actually marked for use for Mimir is only visible if you edit properties on the document. This makes it very (!) hard to find what documents are being used and not. You should be able to make a search in Advanced search for documents used for Mimir, is should be a search field. You should be able to view the yes or no for Mimir in the view, if not part of standard views you should at least be able to ad it You should be able to see in th",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/384817"
+    },
+    {
+      "id": 388530,
+      "title": "Suggestion for Improvement from Oslo P&B",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Suggestion for Improvement from Oslo P&amp;B When we add the search field from MetaAdmin for Advanced Search – metafield //ToCase//ToEstates//eBy_SensitiveEstate::Code – and use it in Advanced Search, the same document is returned multiple times, corresponding to the number of properties in the case, instead of appearing just once per case.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/388530"
+    },
+    {
+      "id": 390086,
+      "title": "Cancelling of case, documents and files",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality When a case is cancelled, the case's documents should also be cancelled. Files are removed, except if the file is referenced in another document. The case and documents are crossed out, and the files are removed.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/390086"
+    },
+    {
+      "id": 392920,
+      "title": "Co-editing / Simultaneously edit files in Public 360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Co-editing / Simultaneously edit files in Public 360 In most of the danish tenders we see the requirements for co- editing directly within the solution. It's not enough through Teams and Sharepoint.&nbsp; This is a requirement from one of our customers: • The service must ensure that users can simultaneously edit files in the service. • The service must ensure that documents can be collaborated on directly in the service with functionality (simultaneous editing), without the need for the user to actively update the document to view other people's changes across all Office products (Word, Excel",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/392920"
+    },
+    {
+      "id": 393445,
+      "title": "AI API - option to integrate an external AI in Public 360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "In the last 3 Danish tenders, we have had requirements about an &quot;Ai-api&quot; The customers are: Movia Dansk Industri Nationalbanken All 3 tenders are still open! Status: -Movia: We have been negotiating - awaiting their feedback before 2nd hand-in. -Nationalbanken: We have deadline 05/11 and need a commitment before then. -Dansk Industi: We handed in that we wish to make it, but we havent committed to a timeline. (awaiting decision from customer) Specification of requested functionality : For Nationalbanken, I read/understand their needs: &nbsp; -Customer should be able to Search in Publ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/393445"
+    },
+    {
+      "id": 402357,
+      "title": "PB360: Change request: Add hashtag/emneknagg as a search field in Advanced search-Case",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Customer: Oslo kommune P&amp;B NORWEGIAN: Behov for 'Emneknagg' som søkefelt ved avansert søk på sak. ENGLISH: Need for &quot;Hashtag&quot; as a search field when doing an Advanced search for Case",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/402357"
+    }
+  ],
+  "all_items": [
+    {
+      "id": 129543,
+      "title": "Alignment of 'Enter' use in 'Advanced Search'.",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "When using 'Advanced search' there are discrepancies in the use of 'Enter'. When searching for a contact entering a name (or part of a name) in 'Name' field followed by pressing 'enter' we are presented with search results immediately. When searching for a case , either entering a case number in ' Casenumber' field or a title (or part of a title) in 'Title' field followed by pressing 'enter' does not provide search results. But if activating either 'Casenumber' field or 'Titel' field afterwards and then pressing 'enter', search results appear. Same issue for 'Projects' and 'Documents' in Advan",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/129543"
+    },
+    {
+      "id": 172703,
+      "title": "HAVS- OCH VATTENMYNDIGHETEN- Suggestion to improve searchability when using multiple value lookup fields",
+      "state": "Active",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : What need does it solve? The customer Havs – och vattenmyndigheten is a cloud customer in implementation phase. They have a case type called “sanktionsärende”, used to register sanction cases. One of the meta data fields on this case type is called “Typ av överträdelse” (type of violation). The field is a multiple value lookup field where user can insert/combine anything between 1-9 values, depending on what type of violations a private person or organization has committed. The need they have is to use multiple value lookup fields in a seamless way in",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/172703"
+    },
+    {
+      "id": 181607,
+      "title": "Sundvall Kommun/Tullverket - Possibility to search from advanced search Case/document using contact info",
+      "state": "Active",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : There is a need to be able to search cases and documents using the external contacts by their personal identity number/Enterprise number What is the functionality required? In advanced search for cases and documents add a field to search for contacts personal identity number/Enterprise number getting hits on cases/documents with a contact with that number. Consequences of not delivering requested functionality/alternative delivery options Difficult to get the customers to accept an upgrade since it is used on a daily basis Market potential, do you thi",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/181607"
+    },
+    {
+      "id": 188808,
+      "title": "Possibility to have advanced search to eArchive when adding access requests from P360",
+      "state": "New",
+      "assigned": "",
+      "tags": "DSS_FollowUp",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "When standing on an Access request case in P360 and adding an request from eArchive, the user should have advanced search as an option - just like it is when adding requests from P360. Add request from eArchive: Add request form P360: It will be easier for the user to search directly from eArchive in stead in Have the concrete name on the case/document when adding an request Search it up in front and then type in the case/document name/number",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/188808"
+    },
+    {
+      "id": 203211,
+      "title": "Search resultview - make it possible to add contacts to custom result views",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "Innovation board meeting; Knowledge Team SE",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Possibility to add the contact column (shown in standard result view for case advanced search) when creating your own result views. Both fore case and document advanced search.&nbsp; Consequences of not delivering requested functionality/alternative delivery options We need to keep several adapted reports and view only to show combinations of fields not in standard result view with contacts. Market potential, do you think this is relevant for more customers?&nbsp; Yes, I believe there are adapted reports/views for many customers to solve this today.&n",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/203211"
+    },
+    {
+      "id": 231324,
+      "title": "The field \"Included in\" added to search",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality: What need does it solve? The possibility to search for connections between estates and objects using the “Included in” field. What is the functionality required? New field for searching for relationships between objects related to estates. Possibility to add &quot;Included in&quot; into search result views Consequences of not delivering requested functionality/alternative delivery options The consequences of not delivering the functionality to the customer would be that they would not have the ability to search for connections between estates and objec",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/231324"
+    },
+    {
+      "id": 239645,
+      "title": "Estate - Search field is missing in Advances search",
+      "state": "New",
+      "assigned": "Sebastian Reichmann <sebastian.reichmann@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : When opening Advanced search -Estate the search field Property number is missing i the standard search form.&nbsp; If i go click on Add search field i can choose Property number.&nbsp; When searching for a Property the normal search would be for the property nummer, just like when searching for at personal case, it would the the&nbsp;social security number. It's odd that the field Property nummer is not a normal part off the search form on Estate, but you have to select it from Add search field every time. Consequences of not delivering requested func",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/239645"
+    },
+    {
+      "id": 258728,
+      "title": "Change search field to show results of \"all words\" instead of \"begins with\"",
+      "state": "New",
+      "assigned": "",
+      "tags": "#Customer; DSS_FollowUp",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "The customer has expressed a desire to modify the behavior of the field &quot;Responsible&quot; that is used in for example the Case and Document wizard etc. Currently, the search results are based on the &quot;Begins with&quot; logic, meaning that only the first word entered is used for finding matches. However, the customer wants to change this logic to search for &quot;all of these words&quot;, ensuring that all the words entered in the search field are considered for the search results.&nbsp; The customer wants to be able to search by first name, surname, short code, or initials without ha",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/258728"
+    },
+    {
+      "id": 377579,
+      "title": "PB360: Search for responsible units different than the ones being used in PB360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Customer: Arendal P&amp;B, Grimstad P&amp;B Advanced Search for case and document:&nbsp; Scenario: Would like the option to&nbsp;search for responsible units different than the ones being used in PB360.&nbsp; Option to select the correct ones and then all that are different than those. Result: Solution for finding cases and documents assigned to the wrong responsible units.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/377579"
+    },
+    {
+      "id": 386280,
+      "title": "Additional data functionality - enhanced filtering options",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Suggestion for improvement from NAV/Arbeids- og Velferdsetaten: There is a need for significant improvements in additional data. Filtering is required during searches. As it functions now, all customer-specific metadata/additional data are searchable in &quot;Add Search Field&quot; in Advanced Search. Even when selecting a case type in the search interface, all customer-specific metadata remain available as options. All metadata not associated with the case type should be filtered out. Metadata in, for example, child welfare cases include name and birth name. Often, there are many children to ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/386280"
+    },
+    {
+      "id": 388375,
+      "title": "Possibility to configure the valid journal units for a unit/organisation",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "A",
+      "themes": [
+        "cross_entity",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module'): To be used in conjunction with enterprise rules. It should be possible to select the valid journal units for a unit. Currently it is not possible.&nbsp; This request is related to 388359. This then should impact the visible journal units when the user is selecting them from a drop-down (reports, case/document wizards, advanced search (case) etc.) Consequences of not delivering requested functionality/alternative delivery options: Without this improvement, it will be difficult to",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/388375"
+    },
+    {
+      "id": 64586,
+      "title": "Log relations on contacts",
+      "state": "Removed",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Relations between contacts is not logged. This should be logged, because it's information that can be relevant to have a history of. Custom relations should also be logged",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/64586"
+    },
+    {
+      "id": 156018,
+      "title": "RUTER NORWAY PUBLIC360 - Suggestion for improvement",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "RITM0002292072 RITM url: https://tieto.service-now.com/nav_to.do?uri=task.do?sysparm_query=number=RITM0002292072 FYI: Data not added here due to GDPR. To see the Description in TSC/ServiceNow select the Variables tab. More info: It would be beneficial to be able to add a search field on Activities in Advanced search for documents, and/or have open Activities shown in the display. We want to be able to search for documents and have it clearly shown in the display if there is an open activity. Today, we can only see open activities on our own documents, and documents in our department. We need t",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/156018"
+    },
+    {
+      "id": 175807,
+      "title": "Show process status for case and document in UCC (User Configurable columns)",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "It should be possible to show a more detailed process status for Case and Document. This is partially implemented today in BIF, where some lists have implemented a separate status column for &quot;in approval&quot; or &quot;In Dispatch&quot; based on workflow state / dispatch status For Leader it would also be intersting to see more detailed information about the status of a Case as well; has it been distributed (currently available in a specific list and can de deducted by no responsible), if it has been started on or if it has been opened or ... Registered : Not distributed Distributed : Has",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/175807"
+    },
+    {
+      "id": 177289,
+      "title": "Request for access: When creating case by drag-and-drop - the user should be \"Ansvarig person\"",
+      "state": "New",
+      "assigned": "Morten Jensen <morten.jensen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Request for access: The user is working with the role &quot;Chief registrar&quot; (huvudregistrator). When creating a case/document with drag-and-drop from outlook, they want the user to be &quot;responsible person&quot;. Today, the responsible person is the department where the user works.&nbsp; Attached screencapture shows the field that should be populated with the user, in this case, the user is Johanna Balic (with did not work as a chief registrar but as a case worker &quot; when creating this screencapture). Problem to be solved: Today the user need to manually change &quot;Ansvarig pers",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/177289"
+    },
+    {
+      "id": 177296,
+      "title": "Remarks container on case and document - access control on creating/deleting/viewing remarks",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "This request is about the Remarks container on case and document, where the case/document is classified/secrecy. Customer want the following: Make notes: Responsible person, co-casehandler, chief registrator should be able to make notes. And, a custom role called &quot;Handläggarstöd&quot; which acts as a chief registrator in the department. Remove notes: Same roles as above. They should be able to remove all notes. Read notes: Same roles as above.&nbsp; Problem to be solved: Today it seems like the notes field is readable for to many roles even in secrecy. See attachment pointing out the fiel",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/177296"
+    },
+    {
+      "id": 180555,
+      "title": "eArchive - Advanced Search Case - Responsible unit",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "In old Historical search, user is able to search in this field (as well as the field &quot;Responsible person&quot;) : In eArchive - Advanced Search, Case - customer request the field &quot;Responsible unit&quot;. It is not possible to add it in &quot;Add search field&quot; either:",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/180555"
+    },
+    {
+      "id": 201134,
+      "title": "360° PDF Stamping: Ad possibility to ad \"Classification code\" in the stamp",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "IVO (Inspektionen för vård och omsorg, Sverige) Version 5.11 Use&nbsp; 360° PDF Stamping &nbsp;for Incoming document.&nbsp; Need: The classification code on file. Important for archive.&nbsp; Now they get infor on date, documentnumber = good for identifiing the case/document the file belongs to. If classification code can be added we also target the need for archiving.&nbsp; Request: Ad possibilty to ad classification code in the pdf stamp.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/201134"
+    },
+    {
+      "id": 203317,
+      "title": "Adding \"copy title\" button for files - copy document title to file title",
+      "state": "New",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "DSS is very found of the &quot;copy&quot; button we have on case and document, for copying title to public title or case title to document title. They are requesting a similar way to copy document title to file title as well.&nbsp; Example from document, where we today have &quot;copy case title to document title&quot;: A suggestion is to have also a button in the view for editing file properties (like in edit document view), or/and a function in the new/edit document view.&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/203317"
+    },
+    {
+      "id": 210382,
+      "title": "Ability to limit an access group usage based on publicity class and personal data fields metadata",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Currently you can limit the use of an access group based on the entity/entity type. I.e you can say that this access group will not be available if the case type is this certain one. In addition to that there is a need with VNK VAHVA to be able to further limit the use of the main access group when the case or document is confidential or if it contains specific personal data. The use case is such that the customer does not want the main level access group (equivalent to all users group in simpler implementations) to be even selectable when the document is confidential. It would basically stop ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/210382"
+    },
+    {
+      "id": 211449,
+      "title": "KemI-KemikalieInspektionen- Old contact name should be searchable.",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : If a contact changes their name, the old name will still be found in Advanced search/contact. We have made an adaptationin v 5.6 for this which we wish to bring into the standard. We have added a new meta data field “Old name&quot;, and both present name and old name will be found in advanced search if &nbsp;&quot; Check box for previous name” is set in advanced search. Consequences of not delivering requested functionality/alternative delivery options-&nbsp; Customer can not work as they are used to and the work would become very difficult for them, ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/211449"
+    },
+    {
+      "id": 220302,
+      "title": "Ability to configure new access codes that are not restricted and whether they should have public titles or not",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : When creating a new access code the user should be able to configure whether it should be regarded as restricted (i.e. if the restricted icon should be shown, if the menu for restricted/public titles should be shown etc.).&nbsp;&nbsp; Consequences of not delivering requested functionality/alternative delivery options SKR wanted a new more open access code than our standard access code (they wanted one open internally and a new one that indicates that the case/document is open both internally and externally). We discovered that the restricted icon and ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/220302"
+    },
+    {
+      "id": 239723,
+      "title": "Improvement; 'Add search field' with the option 'Is equal', can be filtered.",
+      "state": "New",
+      "assigned": "Bjørn Tore Eriksen <bjorn.eriksen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Improvement; 'Add search field' with the option 'Is equal', can be filtered. Specification of requested functionality: Our Danish customer, Folketingets Ombudsmand (FO), has four fields customized: Andre involverede myndigheder Hovedansvarlig myndighed Myndighed/organ Oversendt til myndighed What the four fields have in common is that when they are used in advanced search, they must be added by 'Add search field' with the option 'Is equal', and then mixed contacts, both internal and external, are displayed in the search. FO suggests as an improvement proposal that contacts can be filtered, so ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/239723"
+    },
+    {
+      "id": 240402,
+      "title": "Make it possible to configure what roles metadata fields is available and editable for",
+      "state": "Removed",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "VGR Standard",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality: What need does it solve? Flexibility to decide in the organisation who (what role) that should have possibility to change metadata.&nbsp; What is the functionality required? Possibility to configure what role that can ad and edit metadata on objects as case/document/contact. When configurering the metadata fields with full flex ui it should be possible to choose what role different fields should be available for.&nbsp; Consequences of not delivering requested functionality/alternative delivery options. The customer gets less possibility to configure wh",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/240402"
+    },
+    {
+      "id": 241452,
+      "title": "Access rules for remarks/notes",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : The ability to set up access rules for remarks/notes on cases and documents. At the moment, any user can add notes/remarks on a case or document even though the user has not connection to the case/dokument (i.e. responsible for the case/document or a member of the team for the case/document) At least it should be possible to inactivate so that users with no connection to the case/document can create or delete remarks/notes in that case/document. Alternatively, it should be possible to inactivate the remark function for cases/documents.&nbsp; There was",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/241452"
+    },
+    {
+      "id": 251914,
+      "title": "Case and Document references are not included in Case Summary and Logbook",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "What is the functionality required? Add case and document references to Logbook and Case Summary Case with case reference. Document in the same case with document reference. Create Logbook Produce Case summary. Customer has v 5.8 but it is the same in 5.17. What need does it solve? /&nbsp; What is the source of the request? Since the FGS for Case includes case and document references it should also be included in these two reports. The source is Jordbruksverket. They consider this a bug since this information is important even when archiving and should be in these reports too.&nbsp; Do you thi",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/251914"
+    },
+    {
+      "id": 262228,
+      "title": "Add Closed date to Details on Case and Document",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Add Closed date to details panel (Overview) and detail tab on Case. Add Journal date to details panel (Overview) on Document Consequences of not delivering requested functionality/alternative delivery options Problems getting customer to accept to go live Market potential, do you think this is relevant for more customers?&nbsp; Yes, making it more visible would be good.&nbsp; &nbsp;&nbsp; If this request is from a specific customer, do you think the customer would be willing to",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/262228"
+    },
+    {
+      "id": 262229,
+      "title": "Add Journal unit description to Details on Case and Document",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Add Journal unit - Description to details panel (Overview) and detail tab on Case. Add Journal unit - Description to details panel (Overview) and detail tab on Document Consequences of not delivering requested functionality/alternative delivery options Problems getting customer to accept to go live. They have this customized in earlier 360, named &quot;Company&quot;. Using it to show different companies in the organisation, and the journal unit - code is prefix in their case nu",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/262229"
+    },
+    {
+      "id": 265035,
+      "title": "Possibility to set all internal contacts as responsible",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : Jordbruksverket have a customization making it possible to choose users and organisations that are registered with category Internal but do not have access to 360. The list in Responsible field is showing all internal contacts regardless if they have a a login or not. Today (tested in 5.17 and 6.0) these contacts are not shown in list or found when writing the name in the field, but &nbsp;it is possible to add these users by doing a search from Case/Document forms &nbsp;(I guess that this is not supposed to work, but it does). Regeringskansliet/Klarad",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/265035"
+    },
+    {
+      "id": 266349,
+      "title": "Configurability in Advanced search, to determine which searchfields are visible in full view and \"minimized view\"",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "The Danish Customer &quot;DST&quot; / Danmarks statistik has asked if it could be possible to determine which searchfields are visible in advanced search in the &quot;minimized view&quot; and in the view with &quot;Show more search fields&quot;. The concrete example is that the field &quot;Archive&quot;/ (Arkivdel in Danish) isnt visible in the minimized view, and since they just delivered to national archives, and have created a new archive, this might be a field they want to fill out often. I think other customers would also benefit heavily on this configurability / Flexibilty in which searc",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/266349"
+    },
+    {
+      "id": 267684,
+      "title": "Possibility to add field in my own result view for all object types",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Possibility to add field in own result views in advanced search also for&nbsp; Estates Contacts Activities Projects Consequences of not delivering requested functionality/alternative delivery options Search and result view not as configurable for all object types as they could be Market potential, do you think this is relevant for more customers?&nbsp; Any customer using those object types with configured metadatafields &nbsp;&nbsp; If this request is from a specific customer, do you think the customer would be willing to co-fund this to have this fun",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/267684"
+    },
+    {
+      "id": 269202,
+      "title": "Arbetsmiljöverket - File count",
+      "state": "New",
+      "assigned": "Morten Jensen <morten.jensen@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality Custom field showing, and automatically counting, how many files there are in a case and a document. Customer has this customization as they recieve many request for access cases and want &nbsp; to be able to charge requesters based on the number of files (for example if a citizen requests for access in a case). The custom field is added in simple view and detailed view.&nbsp; Consequences of not delivering requested functionality/alternative delivery options Less satisfied customer. There is a file count in detailed view but the customer is happy with ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/269202"
+    },
+    {
+      "id": 278314,
+      "title": "Browser UI should show count of amount of documents/ Notes / Activies like Outlook SIdepanel does",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Suggestion for Improvement from UM / MFA DK.&nbsp; IN Outlook Sidepanel it shows the amount (number) of documents on a case if you open a case. Customer would like the browser-version of the system to do the same. Instead of showing the number in the browser, we show a star to indicate there is some. &quot;*&quot; Same goes for all other webparts on the case/document overview:&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/278314"
+    },
+    {
+      "id": 282366,
+      "title": "Users should not have the option to Edit/Delete remarks when they don't have permissions for the action",
+      "state": "New",
+      "assigned": "",
+      "tags": "DSS_FollowUp",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Users who doesn't have permissions to Edit or Delete remarks still have the buttons for this available on Case and Document. The buttons should disappear when they doesn't have this access. Repro steps: Log in as case handler Try to Edit or Delete a remark created by another user See that you get an information box that says that you don't have permissions to perform this action",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/282366"
+    },
+    {
+      "id": 282692,
+      "title": "Changes wanted for 360° Integration with MS Teams",
+      "state": "New",
+      "assigned": "Tero Arvola <tero.arvola@tietoevry.com>",
+      "tags": "core-integration",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Case / Document can only be crated from Teams if publicity class in classification code is “Public”. When trying to create a case/document using a classification code where the publicity class is not public, the application gives error message: “This record type can not be created from Teams because the connected access code is not public” The customer wants to be able to create also restricted Cases/Documents. Could this be configurable just like “Deny export of restricted documents”? The customer wishes that when adding a case, the integration would prepopulate Access Group just like P360 do",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/282692"
+    },
+    {
+      "id": 286211,
+      "title": "The text content of the \"Favourites\" field is not fully visible in the advanced search",
+      "state": "New",
+      "assigned": "",
+      "tags": "standard; VNKVAHUP-5272",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "(retested VAHVAQ,&nbsp; ECHO/C ustomer tested on production) The text content of the &quot;Favourites&quot; field is not displayed in its entirety in the advanced search for a case, document, contact, assignment, project, file and institution, but is interrupted in the middle. Please see steps and pictures below: Open &quot;Advanced search&quot; Choose &quot;Case&quot; Choose &quot;Saved searches&quot; Choose &quot;Global&quot; The customer would like the search field to be wide enough to show the full title of the search. Consequences of not delivering requested functionality/alternative deli",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/286211"
+    },
+    {
+      "id": 288330,
+      "title": "Jordbruskverket - Duvan Integration",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "Knowledge Team SE",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') DUVAN Integration is a change in how DISPATCH functions as well as an ApacheQueue connection towards the DUVAN Service / application on Jordbruksverket. DUVAN integration is just for documents that have the status &quot;In Progress&quot; and are 3 buttons that appear in documents, cases or even tabs. These are unique BIF made buttons. They only work if the document that is &quot;In progress&quot; has 1 external contact with the role &quot;Mottagare&quot;. Therefore the requested ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/288330"
+    },
+    {
+      "id": 290689,
+      "title": "SJÖFARTSVERKET - Make it possible to add custom metadatafields connected to internal contatcs",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity",
+        "meta_fields_all"
+      ],
+      "excerpt": "Specification of requested functionality: Possibility to add custom field in which internal contact lookup/search is possible (on case and document) Customer use this on a document archive used to handle personnel/employee documents, where there is a need to connect the employee which the document concerns (which is not the same as responsible)&nbsp; Consequences of not delivering requested functionality/alternative delivery options Customer won't be able to upgrade to V6 Market potential, do you think this is relevant for more customers? Yes for all customers having case types/document archiv",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/290689"
+    },
+    {
+      "id": 308947,
+      "title": "Advanced search(case): the field \"Archive Key\" should be a quick-seacrh field like \"class\" is.",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "UM, MFA DK, is requesting that it becomes easier to search for their lvl 2 classification system values. Currently, the only field in advanced search case that is shown, and can be used to do this, is the field &quot;Archive Key&quot;. However, this searchfield is a free-text field, with no validations, making it difficult and un-friendly to type and search for these values. Customer is suggesting it as a quick-search-field so it matches the field &quot;Class&quot; that is used to search for lvl 1 classification-system-values. Specification of requested functionality : The field in advanced se",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/308947"
+    },
+    {
+      "id": 313774,
+      "title": "Case handling related to family members of employees",
+      "state": "New",
+      "assigned": "Hallvard Aas <hallvard.aas@tietoevry.com>",
+      "tags": "Pri 1",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Case handling family members For Helfo it is important that their case handling is correct and transparent. One measure that have been created is to control when family members of employees in Helfo are requesting for refund. Helfo wanted that only a limited group of case handlers can work with cases related to family members of employees in Helfo. Helfo are manually registering family relations between Helfo employees and their nearest family members in 360. We have created a custom &quot;contact – contact role&quot; in 360 used for this purpose. The role is called &quot;Skjermet behandling&q",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/313774"
+    },
+    {
+      "id": 316170,
+      "title": "SKR Public 360: Activity: Reminder uses Users primary Unit, causing Department Manager and security issues",
+      "state": "New",
+      "assigned": "Jarle Steira <jarle.steira@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : ACTIVITITY: REMINDER Currently, Activity: Reminder retireve the Primary Responsible Unit based on the Responsible &nbsp; User creating the Activity: Reminder. This causes issues where Department Managers in the case / document the Activity: Reminder is set for not the Access Group or case / document's unit, but for the Unit the user is primarily part off. This mean that if a user has 3 different units and several profiles, it does not matter which profile they use the Responsib",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/316170"
+    },
+    {
+      "id": 321145,
+      "title": "Settings for mass update of case and documents",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Today there must be a create rule and also a case type/document archive must be active, for them to show up in the mass update functions.&nbsp; It should be sufficient that user/access group have edit rights and that the case types/document archives is set to show on search&nbsp; for them to be available for mass update. Consequences of not delivering requested functionality/alternative delivery options We have a situation right now with a customer that have several case types ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/321145"
+    },
+    {
+      "id": 339377,
+      "title": "Possibility to do configuration on Notes",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module'): Possibility to do configuration on Notes There is a need of access rules for Notes, if not possible at least let the same users that have edit access on the case/document edit also Notes on the same Create a setting the let the customer decide if it should be allowed to upload a file to a note or not Set a rule that makes it possible to decide whether a note type should be disposed when the case is closed or not. And add functionality to automatically dispose those notes Consequ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/339377"
+    },
+    {
+      "id": 343843,
+      "title": "change request in advance search for documents in case",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build; Public 360",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Hi, since there is no separate improvement suggestion tab in the new TSC, I'm recording this from the Central Archives of Bergen Municipality: Hi, we need to search for case documents that have been created by and given the status Journaled by case managers in PBE without them having visited the mail reception for control. I think this only applies to new case documents/emails created and sent via PB360. 1) In addition to the obvious search fields that must be filled in; is it possible to search for something in the search field 'Created by' that includes all case managers in PBE? 2) If such a",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/343843"
+    },
+    {
+      "id": 347514,
+      "title": "Advanced search - Role as search criteria",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality : Advanced search Ability to use role as search criteria &nbsp; Customer wants to compile statistics for each month on how many incoming documents their Main Registrars register, without having to look up each person separately. We can use Advanced search &nbsp; - Documents with the search criteria Document category: Incoming, date range and add the search field Created by: user name. Instead of created by: user name it would be good to choose which role created the documents, such as Main registrar. &nbsp; Consequences of not delivering requested funct",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/347514"
+    },
+    {
+      "id": 349041,
+      "title": "Wrong archive values shown in advanced search fields",
+      "state": "New",
+      "assigned": "Willy Koch <willy.koch@tietoevry.com>",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "In a brand new environment, where no configuration has taken place. The advanced search fields are showing incorrect values: The &quot;normal fields&quot;, &quot;Arkivnøkkel &amp; Klasse&quot; has been changed out with Prosessnøkkel, Prosess &amp; Prosessbeskrivelse: ^This is how it should look like The change in values SHOULD only occur (after extensive researche and digging) when you've chosen the classification type -&nbsp; &nbsp;&quot;JT Hierarkisk Prosessorientert Prinsipp..&quot;. In this environment (which again is brand new) the classification type is &quot;EH Emneorganisert hierarkisk",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/349041"
+    },
+    {
+      "id": 350849,
+      "title": "Improvement suggestion PB360 - advanced document search + add column type 'Created by'",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Hi, we need to search for case documents that have been created by and given the status Journaled by case managers in PBE without them having visited the mail reception for control. I think this only applies to new case documents/emails created and sent via PB360. 1) In addition to the obvious search fields that must be filled in; is it possible to search for something in the search field 'Created by' that encompasses all case managers in PBE? 2) If such a broad search on 'Created by' works, how can we distinguish between PB360-created emails that have not had the mail reception on the recipie",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/350849"
+    },
+    {
+      "id": 353751,
+      "title": "External System Configuration: Extended to all items and menu",
+      "state": "New",
+      "assigned": "Anton Nielsen <anton.nielsen@tietoevry.com>",
+      "tags": "core ui; UIM",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "NB: Enter customer name in the field &quot;Customer name&quot; Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : We are now able to link to external sites sending parameters from 360 from Case and Document with limited number of filters. We need this functionality extended to include the other entities (Contacts, Projects, Activities and potentially Estate) to support activating external applications from here. Also the option to start an external application from the Main menu, preferably in a separate section is needed in th",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/353751"
+    },
+    {
+      "id": 354154,
+      "title": "Oslo Plan & Build - Suggestion for improvement - eService Connect - Add more info on Case Contact",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : Oslo Plan &amp; Build uses eService Connect API for sending forms into P360. They would like to add &quot;Address&quot; and &quot;Telephone&quot; info. on the Case Contact while Case creation.&nbsp; Possible to add these information on &quot;Submit&quot; endpoint, or may be &quot;Add User&quot; endpoint Consequences of not delivering requested functionality/alternative delivery options The consequences for Oslo PBE will be significant if this is not delivered well in advance of",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/354154"
+    },
+    {
+      "id": 354196,
+      "title": "Visualize custom entities in Case and Document window",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "KFV has 2 custom entities with relation to Case - Sismo and DFØ.&nbsp; In version 4.1 they are visible in Case view as separate tabs implemented with BIF customization. In the standard 6.4, this is not possible. It is possible to solve this with external application, but it will bring up the cost of the project and increase its complexity. There are other customers with the same need. For example Statkraft and Statens Vegvesen ( Feature 319520 : Statens Vegvesen - Matrikkel and Vegreferanse) .&nbsp;",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/354196"
+    },
+    {
+      "id": 360628,
+      "title": "External System Configuration: Add client action support",
+      "state": "New",
+      "assigned": "Anton Nielsen <anton.nielsen@tietoevry.com>",
+      "tags": "core ui; UIM",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "NB: Enter customer name in the field &quot;Customer name&quot; Specification of requested functionality (Please also add a value in the drop-down menu in field 'Impacted Module') : We are now able to link to external sites sending parameters from 360 from Case and Document we have this similar functionality already as custom at the customer, where we are also able to activate the external links from process engine processes as client actions.&nbsp; We need client action support, to be able to direct the users to when in the process to do external actions and make sure the action is completed a",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/360628"
+    },
+    {
+      "id": 366015,
+      "title": "Posssibility to decide to copy contacts or not for \"save as\" on documents and cases",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality : Make it possible to decide if contacts on documents and cases will be copied or not into the new document or case.&nbsp; It could be set up in the same way as we have for files today. If we could have an option on contact &quot;Go to &quot;Contacts&quot; to add contact from previous document&quot;. Consequences of not delivering requested functionality/alternative delivery options Customers who use the &quot;save as&quot; function will have to check that the contact has been removed on the newly created case and document that has GDPR or is sensitive ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/366015"
+    },
+    {
+      "id": 368463,
+      "title": "NOKUT - suggestion for improvement",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Specification of requested functionality: The ability to add more columns in the display of search results for Advanced Search contacts. Specifically: that &quot;Category&quot; and &quot;Custom fields&quot; are displayed as a column in the list of search hits when using advanced search. Why is the functionality required? Present concrete metadata in a list for our specific use. So that we do not just tag metadata, but can present metadata in a more functional way. Consequences of not delivering requested functionality/alternative delivery options We are working on creating a contact register o",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/368463"
+    },
+    {
+      "id": 375603,
+      "title": "Full Flex UI - Dependencies - Make it so that criteria can distinguish between Responsible Unit and Responsible Person",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality: Make it so that when setting criteria on the &quot;Responsible&quot; field with Full Flex UI dependencies, one can specify that the criteria should apply only based on the Responsible Unit. Context: In Full Flex UI, it is possible to create dependencies on individuel fields, making it so that field properties or value are changed depending on criteria. Since V6, the field for case/document responsible is now a single field called &quot;Responsible&quot;, rather than two individuel fields for &quot;Responsible department&quot; and &quot;Responsible Pers",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/375603"
+    },
+    {
+      "id": 380354,
+      "title": "Message functionality from case worker to registrars",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "CS0006529 | CSM/FSM-konfigurerbart arbeidsområde | ServiceNow &quot;Beskjed til arkiv&quot;-functionality Specification of requested functionality: Det er behov for at det er en skikkelig funksjon for å kontakte arkiv i P360. Denne funksjonen bør være meget enkel og tilgjengelig på både sak og dokument som et minimu. Det må være langt enklere og mer intuitivt enn dagens løsning med distribusjonsgruppe og mye klikking for å få sendt til arkiv. Det bør kanskje være en egen oppgavetype? Vi har over 1000 slike oppgaver pr år, så konsekvens dersom det ikke leveres, er at folk ikke spør arkiv, jobbe",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/380354"
+    },
+    {
+      "id": 384817,
+      "title": "Easier to search and find documents used by Mimir",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "When installing Mimir, you also get Policy documents automatically to ensure internal information can be shown as well. But the information that a document is actually marked for use for Mimir is only visible if you edit properties on the document. This makes it very (!) hard to find what documents are being used and not. You should be able to make a search in Advanced search for documents used for Mimir, is should be a search field. You should be able to view the yes or no for Mimir in the view, if not part of standard views you should at least be able to ad it You should be able to see in th",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/384817"
+    },
+    {
+      "id": 388530,
+      "title": "Suggestion for Improvement from Oslo P&B",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Suggestion for Improvement from Oslo P&amp;B When we add the search field from MetaAdmin for Advanced Search – metafield //ToCase//ToEstates//eBy_SensitiveEstate::Code – and use it in Advanced Search, the same document is returned multiple times, corresponding to the number of properties in the case, instead of appearing just once per case.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/388530"
+    },
+    {
+      "id": 390086,
+      "title": "Cancelling of case, documents and files",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Specification of requested functionality When a case is cancelled, the case's documents should also be cancelled. Files are removed, except if the file is referenced in another document. The case and documents are crossed out, and the files are removed.",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/390086"
+    },
+    {
+      "id": 392920,
+      "title": "Co-editing / Simultaneously edit files in Public 360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "Co-editing / Simultaneously edit files in Public 360 In most of the danish tenders we see the requirements for co- editing directly within the solution. It's not enough through Teams and Sharepoint.&nbsp; This is a requirement from one of our customers: • The service must ensure that users can simultaneously edit files in the service. • The service must ensure that documents can be collaborated on directly in the service with functionality (simultaneous editing), without the need for the user to actively update the document to view other people's changes across all Office products (Word, Excel",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/392920"
+    },
+    {
+      "id": 393445,
+      "title": "AI API - option to integrate an external AI in Public 360",
+      "state": "New",
+      "assigned": "",
+      "tags": "",
+      "tier": "B",
+      "themes": [
+        "cross_entity"
+      ],
+      "excerpt": "In the last 3 Danish tenders, we have had requirements about an &quot;Ai-api&quot; The customers are: Movia Dansk Industri Nationalbanken All 3 tenders are still open! Status: -Movia: We have been negotiating - awaiting their feedback before 2nd hand-in. -Nationalbanken: We have deadline 05/11 and need a commitment before then. -Dansk Industi: We handed in that we wish to make it, but we havent committed to a timeline. (awaiting decision from customer) Specification of requested functionality : For Nationalbanken, I read/understand their needs: &nbsp; -Customer should be able to Search in Publ",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/393445"
+    },
+    {
+      "id": 402357,
+      "title": "PB360: Change request: Add hashtag/emneknagg as a search field in Advanced search-Case",
+      "state": "New",
+      "assigned": "",
+      "tags": "Plan & Build",
+      "tier": "B",
+      "themes": [
+        "meta_fields_all",
+        "search_core"
+      ],
+      "excerpt": "Customer: Oslo kommune P&amp;B NORWEGIAN: Behov for 'Emneknagg' som søkefelt ved avansert søk på sak. ENGLISH: Need for &quot;Hashtag&quot; as a search field when doing an Advanced search for Case",
+      "url": "https://dev.azure.com/tieto-si/360/_workitems/edit/402357"
+    }
+  ]
+}

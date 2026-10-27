@@ -1,0 +1,12 @@
+{
+  "id": "s1-permit",
+  "title": "S1 — Simple linear permit-style process",
+  "scenarioId": "S1",
+  "persona": "Functional owner (simulated via brief)",
+  "prompt": "We need a permit application process: receive application, completeness check, technical assessment, decision, notify applicant, close case. Deadlines matter at assessment and decision.",
+  "minimumStructure": [
+    "Stages: Intake → Assessment → Decision → Closure",
+    "Activities: completeness check, technical assessment, decision recording, notification",
+    "Deadline annotations for assessment and decision"
+  ]
+}

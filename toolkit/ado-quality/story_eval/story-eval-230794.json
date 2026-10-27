@@ -1,0 +1,61 @@
+{
+  "evaluatedAt": "2026-03-30T14:59:20.490685+00:00",
+  "scope": {
+    "team": "Core-Process-platform",
+    "iterationName": "PP - 22 - 16.03.2026 - 03.04.2026",
+    "iterationId": "24c69368-31d8-4ecd-9316-2f6c46253853",
+    "workItemTypes": [
+      "User Story"
+    ],
+    "storyCount": 1,
+    "filterWorkItemIds": [
+      230794
+    ]
+  },
+  "evaluationNotes": [
+    "Automated heuristic scoring from System.Description, Microsoft.VSTS.Common.AcceptanceCriteria, System.Parent, Microsoft.VSTS.Common.Risk, and Custom.Riskdescription.",
+    "Risk classification uses Microsoft.VSTS.Common.Risk (1\u20133). Risk description uses Custom.Riskdescription when risk is 1 or 2."
+  ],
+  "stories": [
+    {
+      "id": 230794,
+      "title": "PE Designer Component - Create a Milestone",
+      "type": "User Story",
+      "hasParentFeatureOrEpic": true,
+      "riskClassification": 3,
+      "riskDescriptionPresent": false,
+      "dimensions": {
+        "storyFormat": 100,
+        "acFormat": 100,
+        "acTestability": 85,
+        "riskClassification": 100,
+        "riskDescription": 100,
+        "storySize": 90,
+        "businessValue": 100,
+        "nfrConsideration": 100,
+        "parentLink": 100,
+        "dependencies": 70
+      },
+      "finalScore": 91.6,
+      "complianceStatus": "Compliant",
+      "issues": [],
+      "rewriteSuggestions": {
+        "story": "",
+        "acceptanceCriteria": ""
+      }
+    }
+  ],
+  "aggregateSummary": {
+    "count": 1,
+    "avgFinalScore": 91.6,
+    "nonCompliantCount": 0,
+    "topSystemicIssues": [
+      "Unset or invalid Microsoft.VSTS.Common.Risk; populate Risk (1\u20133) and Risk description when risk is 1\u20132.",
+      "Many standard stories deviate from strict As a / I want / so that and Gherkin AC; see per-item issues."
+    ],
+    "quickWins": [
+      "Add Given/When/Then to Acceptance Criteria field for stories with bullets-only AC.",
+      "Shorten or split very large descriptions that look like multi-sprint specs."
+    ]
+  }
+}

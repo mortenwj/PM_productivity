@@ -1,0 +1,24 @@
+<workUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\WorkUnit.xsd"
+  id="319D946D-CBB9-4085-83B9-8B657308B7F8"
+  visibility="public"
+  displayName="ThrowBizBizInfo -  You have failed">
+  <description>ThrowBizBizInfo -  You have failed</description>
+  <categories>
+	  <category>WaitTask Action Closed</category>
+	  <category>WaitTask Action Complete</category>
+	  <category>WaitTask Action Expired</category>
+    <category>Test</category>
+
+  </categories>
+	<executable file="ThrowBizBizInfo.xaml">
+		<wf startOption="invoker">
+			<arguments>
+				<argument name="ProgressPlanId" type="string">Dummy</argument>
+				<argument name="CorrelationToken" type="string">Dummy</argument>
+				<argument name="ServerActionId" type="string">Dummy</argument>
+				<argument name="WaitTaskId" type="string">Dummy</argument>
+				<argument name="Message" type="string">You failed to do what you are suppose to do! Refresh page with F5 and try again!</argument>
+			</arguments>
+		</wf>
+	</executable>
+</workUnit>
